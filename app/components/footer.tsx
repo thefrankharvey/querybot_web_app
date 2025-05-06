@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F9E0E2] w-full py-20 border-t border-text-dark-blue">
-      <div className="max-w-screen-xl mx-auto flex justify-between">
+    <div className="bg-[#F9E0E2] w-full py-20 border-t border-text-dark-blue mt-[350px] md:mt-[500px]">
+      <div className="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row justify-between px-4">
         <div className="flex flex-col">
           <h3 className="text-2xl font-bold flex mb-4">Quick Links</h3>
           <div className="flex flex-col justify-between">
@@ -27,13 +27,13 @@ const Footer = () => {
                 Terms of Service
               </a>
             </div>
-            <p className="text-sm mt-4">
+            <p className="text-sm mt-4 text-center md:text-left">
               © 2025 Write Query Hook. <br />
               All Rights Reserved.
             </p>
           </div>
         </div>
-        <div className="flex text-2xl w-[50%] pt-8">
+        <div className="flex text-2xl w-full md:w-[50%] mb-8 md:mb-0 pt-8">
           <a href="https://writequeryhook.com/slushwire/" target="_blank">
             <p className="whitespace-normal hover:text-accent transition-all duration-300">
               Not ready for daily? Click Here to try the{" "}

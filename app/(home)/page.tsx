@@ -3,7 +3,7 @@ import ProductCards from "../components/product-cards";
 import SlushwireActionBlock from "../components/slushwire-action-block";
 const Home = () => {
   return (
-    <div className="w-full mb-[500px]">
+    <div className="w-full">
       <div className="py-30 sm:w-[90%] md:w-[60%] lg:w-[70%] mx-auto text-center">
         <h1 className="text-[40px] font-extrabold leading-tight">
           Smart, Author Focused Tools. <br />
