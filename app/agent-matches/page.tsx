@@ -1,11 +1,10 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
-import mockData from "../mock-data.json";
+import { useMockData } from "../hooks/use-mock-data";
 import { AgentCards } from "../components/agent-cards";
 import { Button } from "../ui-primitives/button";
 
-// Add the type declaration at the top level of the file
 declare global {
   interface Window {
     isScrollLocked?: boolean;
@@ -14,32 +13,12 @@ declare global {
 }
 
 const AgentMatches = () => {
-  //   Agent Cards
-  // Name
-  // Agency [link to 'website' url]
-  // Bio
-  // Sales
-  // Clients
-  // If there is NaN or '!missing' value then display 'info unavailable'
-  // Total_score
-  // Let's put this in like the upper right corner of the card
-  // Clicking somewhere (icon, button whatever) on the card opens a modal with the full nontruncated agent details (bio, sales, clients)
-
   const [showOverlay, setShowOverlay] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef<number>(0);
   const targetScrollY = useRef<number | null>(null);
-
-  let currentName = "";
-  const filteredMockData = mockData.filter((agent) => {
-    const agentName = agent.name?.toLowerCase();
-    if (agentName === currentName) {
-      return false;
-    }
-    currentName = agentName;
-    return true;
-  });
+  const filteredMockData = useMockData();
 
   useEffect(() => {
     // Calculate the exact scroll position that shows half of the second row
@@ -52,7 +31,7 @@ const AgentMatches = () => {
       // Get rows and columns based on responsive design
       let columns = 1; // Default for mobile
       if (window.innerWidth >= 1024) columns = 3; // lg breakpoint
-      else if (window.innerWidth >= 768) columns = 2; // md breakpoint
+      else if (window.innerWidth >= 768) columns = 3; // md breakpoint
 
       const totalRows = Math.ceil(totalCards / columns);
       if (totalRows < 2) return null; // Not enough cards for a second row
@@ -194,8 +173,6 @@ const AgentMatches = () => {
           <AgentCards key={index} agent={match} index={index} />
         ))}
       </div>
-
-      {/* Fixed overlay that appears at the bottom of the viewport */}
       <div
         className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${
           showOverlay ? "translate-y-0" : "translate-y-full"
@@ -204,10 +181,10 @@ const AgentMatches = () => {
         <div className="h-[100px] bg-gradient-to-b from-white/0 to-white"></div>
         <div className="h-[calc(40vh+100px)] bg-white pointer-events-auto">
           <div className="flex flex-col items-center justify-center h-full w-full">
-            <p className="text-xl mt-4">
+            <p className="text-lg md:text-xl mt-4">
               Your first three agent matches are free
             </p>
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8 mt-4">
+            <h1 className="text-2xl md:text-4xl md:text-[40px] font-extrabold leading-tight mb-8 mt-4">
               Sign up to see your full list!
             </h1>
             <a
