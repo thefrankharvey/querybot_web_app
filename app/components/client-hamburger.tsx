@@ -41,12 +41,14 @@ export const ClientHamburger = () => {
       >
         <div className="flex flex-col gap-8 items-center w-full h-full mt-50">
           <Link
+            onClick={() => setOpen(false)}
             href="/query-form"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
           >
             Query Form
           </Link>
           <a
+            onClick={() => setOpen(false)}
             href="https://writequeryhook.com/slushwire/"
             target="_blank"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"

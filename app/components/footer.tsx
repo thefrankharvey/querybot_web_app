@@ -2,7 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F9E0E2] w-full py-20 border-t border-text-dark-blue mt-[350px] md:mt-[500px]">
+    <div
+      id="footer"
+      className="bg-[#F9E0E2] w-full py-20 border-t border-text-dark-blue mt-[350px] md:mt-[500px]"
+    >
       <div className="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row justify-between px-4">
         <div className="flex flex-col">
           <h3 className="text-2xl font-bold flex mb-4">Quick Links</h3>
