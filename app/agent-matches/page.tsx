@@ -170,7 +170,12 @@ const AgentMatches = () => {
         ref={gridRef}
       >
         {filteredMockData.map((match, index) => (
-          <AgentCards key={index} agent={match} index={index} />
+          <AgentCards
+            key={index}
+            agent={match}
+            index={index}
+            id={`agent-${index}`}
+          />
         ))}
       </div>
       <div
