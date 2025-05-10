@@ -150,11 +150,12 @@ const QueryForm = () => {
     setForm((prev) => ({ ...prev, synopsis: e.target.value }));
   };
 
-  // const onDrop = useCallback((acceptedFiles: File[]) => {
-  //   if (acceptedFiles.length > 0) {
-  //     setForm((prev) => ({ ...prev, file: acceptedFiles[0] }));
-  //   }
-  // }, []);
+  const onDrop = useCallback(async (acceptedFiles: File[]) => {
+    if (acceptedFiles.length > 0) {
+      const file = acceptedFiles[0];
+      setForm((prev) => ({ ...prev, file }));
+    }
+  }, []);
 
   // const { getRootProps, getInputProps, isDragActive } = useDropzone({
   //   onDrop,
@@ -194,21 +195,60 @@ const QueryForm = () => {
   });
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const testData = {
-      email: "john@example.com",
-      genre: "historical fiction",
-      subgenres: ["espionage", "political"],
-      special_audience: "middle grade",
-      target_audience: "Readers aged 10-14 interested in history and adventure",
-      comps: ["the book thief"],
-      themes: ["friendship", "courage", "loyalty"],
-      synopsis:
-        "A young spy in WWII France uncovers secrets that could save her family.",
-      query_letter:
-        "Dear Agent, I am submitting my manuscript for your consideration...",
-      manuscript: "",
-    };
+    e.preventDefault(); // prevent browser reload
+
+    try {
+      // Create FormData for multipart form submission with file
+      const formData = new FormData();
+      // Add all form fields
+      formData.append("email", form.email);
+      formData.append("genre", form.genre);
+      formData.append("subgenres", JSON.stringify(form.subgenres));
+      formData.append("specialAudience", form.specialAudience);
+      formData.append("targetAudience", form.targetAudience);
+      formData.append("comps", JSON.stringify(form.comps));
+      formData.append("themes", form.themes);
+      formData.append("plotBeats", form.plotBeats);
+
+      // Add file if present
+      if (form.file) {
+        formData.append("file", form.file);
+        console.log(
+          `Uploading file: ${form.file.name}, type: ${form.file.type}, size: ${form.file.size} bytes`
+        );
+      } else {
+        console.log("No file attached to submission");
+      }
+
+      console.log("Submitting form data to server...");
+
+      // Note: Do NOT set Content-Type header manually when sending FormData
+      // The browser will automatically set it to multipart/form-data with the correct boundary
+      const response = await fetch("/api/query", {
+        method: "POST",
+        body: formData,
+        // The browser automatically sets the correct Content-Type header with boundary for FormData
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to submit form");
+      }
+
+      const data = await response.json();
+      console.log("Server response:", data);
+
+      // Display success message
+      alert("Form submitted successfully!");
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      // Show error message to the user
+      alert(
+        `Error: ${
+          error instanceof Error ? error.message : "Failed to submit form"
+        }`
+      );
+    }
     window.scrollTo({
       top: 0,
     });
