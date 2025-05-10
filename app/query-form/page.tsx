@@ -14,7 +14,7 @@ import { Checkbox } from "../ui-primitives/checkbox";
 import { RadioGroup, RadioGroupItem } from "../ui-primitives/radio-group";
 import { Textarea } from "../ui-primitives/textarea";
 // import { useDropzone } from "react-dropzone";
-import { formatComps, formatThemes } from "../utils";
+// import { formatComps, formatThemes } from "../utils";
 
 type FormState = {
   email: string;
@@ -147,13 +147,13 @@ const QueryForm = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault(); // prevent browser reload
 
-    const formattedFormData = {
-      ...form,
-      query_letter:
-        "Dear Agent, I am submitting my manuscript for your consideration...",
-      comps: formatComps(form.comps),
-      themes: formatThemes(form.themes),
-    };
+    // const formattedFormData = {
+    //   ...form,
+    //   query_letter:
+    //     "Dear Agent, I am submitting my manuscript for your consideration...",
+    //   comps: formatComps(form.comps),
+    //   themes: formatThemes(form.themes),
+    // };
     const testData = {
       email: "john@example.com",
       genre: "historical fiction",
