@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
 import {
@@ -13,18 +13,19 @@ import {
 import { Checkbox } from "../ui-primitives/checkbox";
 import { RadioGroup, RadioGroupItem } from "../ui-primitives/radio-group";
 import { Textarea } from "../ui-primitives/textarea";
-import { useDropzone } from "react-dropzone";
+// import { useDropzone } from "react-dropzone";
+import { formatComps, formatThemes } from "../utils";
 
 type FormState = {
   email: string;
   genre: string;
   subgenres: string[];
-  specialAudience: string;
-  targetAudience: string;
+  special_audience: string;
+  target_audience: string;
   comps: { title: string; author: string }[];
   themes: string;
-  plotBeats: string;
-  file: File | null;
+  synopsis: string;
+  manuscript: string;
 };
 
 const genreOptions = [
@@ -62,16 +63,16 @@ const QueryForm = () => {
     email: "",
     genre: "",
     subgenres: [],
-    specialAudience: "",
-    targetAudience: "",
+    special_audience: "",
+    target_audience: "",
     comps: [
       { title: "", author: "" },
       { title: "", author: "" },
       { title: "", author: "" },
     ],
     themes: "",
-    plotBeats: "",
-    file: null,
+    synopsis: "",
+    manuscript: "Once upon a time in war-torn Europe, a girl named Elise",
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -96,13 +97,13 @@ const QueryForm = () => {
   };
 
   const handleSpecialAudienceChange = (value: string) => {
-    setForm((prev) => ({ ...prev, specialAudience: value }));
+    setForm((prev) => ({ ...prev, special_audience: value }));
   };
 
   const handleTargetAudienceChange = (
     e: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
-    setForm((prev) => ({ ...prev, targetAudience: e.target.value }));
+    setForm((prev) => ({ ...prev, target_audience: e.target.value }));
   };
 
   const handleCompChange = (
@@ -122,31 +123,78 @@ const QueryForm = () => {
     setForm((prev) => ({ ...prev, themes: e.target.value }));
   };
 
-  const handlePlotBeatsChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setForm((prev) => ({ ...prev, plotBeats: e.target.value }));
+  const handleSynopsisChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setForm((prev) => ({ ...prev, synopsis: e.target.value }));
   };
 
-  const onDrop = useCallback((acceptedFiles: File[]) => {
-    if (acceptedFiles.length > 0) {
-      setForm((prev) => ({ ...prev, file: acceptedFiles[0] }));
-    }
-  }, []);
+  // const onDrop = useCallback((acceptedFiles: File[]) => {
+  //   if (acceptedFiles.length > 0) {
+  //     setForm((prev) => ({ ...prev, file: acceptedFiles[0] }));
+  //   }
+  // }, []);
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    onDrop,
-    multiple: false,
-    accept: {
-      "application/pdf": [".pdf"],
-      "application/msword": [".doc"],
-      "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-        [".docx"],
-    },
-  });
+  // const { getRootProps, getInputProps, isDragActive } = useDropzone({
+  //   onDrop,
+  //   multiple: false,
+  //   accept: {
+  //     "application/pdf": [".pdf"],
+  //     "application/msword": [".doc"],
+  //     "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+  //       [".docx"],
+  //   },
+  // });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault(); // prevent browser reload
-    console.log("Submitted:", form); // send form off to API, etc.
+
+    const formattedFormData = {
+      ...form,
+      query_letter:
+        "Dear Agent, I am submitting my manuscript for your consideration...",
+      comps: formatComps(form.comps),
+      themes: formatThemes(form.themes),
+    };
+    const testData = {
+      email: "john@example.com",
+      genre: "historical fiction",
+      subgenres: ["espionage", "political"],
+      special_audience: "middle grade",
+      target_audience: "Readers aged 10-14 interested in history and adventure",
+      comps: ["the book thief"],
+      themes: ["friendship", "courage", "loyalty"],
+      synopsis:
+        "A young spy in WWII France uncovers secrets that could save her family.",
+      query_letter:
+        "Dear Agent, I am submitting my manuscript for your consideration...",
+      manuscript: "",
+    };
+
+    try {
+      const res = await fetch("/api/query", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(testData),
+      });
+      if (!res.ok) {
+        throw new Error(`Request failed: ${res.status}`);
+      }
+      // const json = await res.json();
+      // console.log({ json });
+    } catch (err) {
+      console.error(err);
+    }
   };
+
+  //     "email": "john@example.com",
+  //     "genre": "Historical Fiction",
+  //     "subgenres": ["Espionage", "Political"],
+  //     "special_audience": "Middle Grade",
+  //     "target_audience": "Readers aged 10-14 interested in history and adventure",
+  //     "comps": ["The Book Thief", "Number the Stars"],
+  //     "themes": ["Friendship", "Courage", "Loyalty"],
+  //     "synopsis": "A young spy in WWII France uncovers secrets that could save her family.",
+  //     "query_letter": "Dear Agent, I am submitting my manuscript for your consideration...",
+  //     "manuscript": "Once upon a time in war-torn Europe, a girl named Elise..."
 
   return (
     <div className="pt-30">
@@ -198,7 +246,7 @@ const QueryForm = () => {
           <div className="w-full">
             <label className="font-semibold mb-2 block">Special Audience</label>
             <RadioGroup
-              value={form.specialAudience}
+              value={form.special_audience}
               onValueChange={handleSpecialAudienceChange}
               className="flex flex-col gap-2 ml-2"
             >
@@ -213,7 +261,7 @@ const QueryForm = () => {
           <div className="w-full mt-6">
             <label className="font-semibold mb-2 block">Target Audience</label>
             <Textarea
-              value={form.targetAudience}
+              value={form.target_audience}
               onChange={handleTargetAudienceChange}
               rows={4}
               className="w-full h-40"
@@ -264,14 +312,14 @@ const QueryForm = () => {
               Plot Beats or Synopsis
             </label>
             <Textarea
-              value={form.plotBeats}
-              onChange={handlePlotBeatsChange}
+              value={form.synopsis}
+              onChange={handleSynopsisChange}
               rows={5}
               className="w-full h-40"
             />
           </div>
 
-          <div
+          {/* <div
             {...getRootProps()}
             className={[
               "w-full mt-6 p-5 border-2 border-dashed rounded-lg text-center cursor-pointer transition-colors",
@@ -281,9 +329,9 @@ const QueryForm = () => {
             ].join(" ")}
           >
             <input {...getInputProps()} />
-            {form.file ? (
+            {form.manuscript ? (
               <p>
-                Selected file: <strong>{form.file.name}</strong>
+                Selected file: <strong>{form.manuscript.name}</strong>
               </p>
             ) : (
               <p>
@@ -292,16 +340,22 @@ const QueryForm = () => {
                   : "Drag & drop a document, or click to select"}
               </p>
             )}
-          </div>
+          </div> */}
 
           <div className="flex w-full justify-end mt-8">
-            <Button
+            {/* <Button
               type="submit"
               className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
             >
               Submit
-            </Button>
+            </Button> */}
           </div>
+          <Button
+            onClick={handleSubmit}
+            className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
+          >
+            Submit TEST
+          </Button>
         </div>
       </form>
     </div>
