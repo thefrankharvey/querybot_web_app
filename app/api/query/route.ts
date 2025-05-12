@@ -26,18 +26,11 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    console.log("EXTERNAL RES: ", externalRes);
-    const rawText = await externalRes.text();
-    console.log("RAW RESPONSE BODY:", rawText);
+    console.log("EXTERNAL RES: ", externalRes.body);
 
-    let data;
-    try {
-      data = JSON.parse(rawText);
-    } catch (e) {
-      console.error("Failed to parse JSON:", e);
-      data = { raw: rawText };
-    }
-    console.log("DATA:", data);
+    const jsonData = await externalRes.json();
+    console.log("JSON RESPONSE BODY:", jsonData);
+
     // return NextResponse.json(data, { status: externalRes.status });
   } catch (error: unknown) {
     console.error("Error:", error);
