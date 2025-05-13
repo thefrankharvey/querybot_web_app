@@ -41,7 +41,7 @@ export interface FormData {
   comps: { title: string; author: string }[];
   themes: string;
   synopsis: string;
-  manuscript: string;
+  manuscript?: File;
 }
 
 // Create a client

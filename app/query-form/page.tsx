@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { LoaderCircle } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
@@ -14,8 +14,7 @@ import {
 import { Checkbox } from "../ui-primitives/checkbox";
 import { RadioGroup, RadioGroupItem } from "../ui-primitives/radio-group";
 import { Textarea } from "../ui-primitives/textarea";
-// import { useDropzone } from "react-dropzone";
-// import { formatComps, formatThemes } from "../utils";
+import { useDropzone } from "react-dropzone";
 import {
   useAgentMatches,
   AgentMatchesProvider,
@@ -32,7 +31,7 @@ type FormState = {
   comps: { title: string; author: string }[];
   themes: string;
   synopsis: string;
-  manuscript: string;
+  manuscript?: File;
 };
 
 const genreOptions = [
@@ -65,20 +64,6 @@ const specialAudienceOptions = [
   "none",
 ];
 
-// Add this interface for the query data
-interface QueryData {
-  email: string;
-  genre: string;
-  subgenres: string[];
-  special_audience: string;
-  target_audience: string;
-  comps: string[];
-  themes: string[];
-  synopsis: string;
-  query_letter: string;
-  manuscript: string;
-}
-
 const QueryForm = () => {
   const { saveMatches, saveFormData } = useAgentMatches();
   const router = useRouter();
@@ -95,7 +80,7 @@ const QueryForm = () => {
     ],
     themes: "",
     synopsis: "",
-    manuscript: "Once upon a time in war-torn Europe, a girl named Elise",
+    manuscript: undefined,
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -152,28 +137,28 @@ const QueryForm = () => {
 
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     if (acceptedFiles.length > 0) {
-      const file = acceptedFiles[0];
-      setForm((prev) => ({ ...prev, file }));
+      const manuscript = acceptedFiles[0];
+      console.log({ manuscript });
+      setForm((prev) => ({ ...prev, manuscript }));
     }
   }, []);
 
-  // const { getRootProps, getInputProps, isDragActive } = useDropzone({
-  //   onDrop,
-  //   multiple: false,
-  //   accept: {
-  //     "application/pdf": [".pdf"],
-  //     "application/msword": [".doc"],
-  //     "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-  //       [".docx"],
-  //   },
-  // });
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    onDrop,
+    multiple: false,
+    accept: {
+      "application/pdf": [".pdf"],
+      "application/msword": [".doc"],
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+        [".docx"],
+    },
+  });
 
   const queryMutation = useMutation({
-    mutationFn: async (data: QueryData) => {
+    mutationFn: async (data: FormData) => {
       const res = await fetch("/api/query", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: data,
       });
 
       if (!res.ok) {
@@ -182,10 +167,10 @@ const QueryForm = () => {
 
       return res.json();
     },
+
     onSuccess: (data) => {
       if (data.matches) {
         saveMatches(data.matches);
-        saveFormData(form);
       }
       router.push("/agent-matches");
     },
@@ -194,65 +179,47 @@ const QueryForm = () => {
     },
   });
 
+  // const testData = {
+  //   email: "john@example.com",
+  //   genre: "historical fiction",
+  //   subgenres: ["espionage", "political"],
+  //   special_audience: "middle grade",
+  //   target_audience: "Readers aged 10-14 interested in history and adventure",
+  //   comps: ["the book thief"],
+  //   themes: ["friendship", "courage", "loyalty"],
+  //   synopsis:
+  //     "A young spy in WWII France uncovers secrets that could save her family.",
+  //   query_letter:
+  //     "Dear Agent, I am submitting my manuscript for your consideration...",
+  //   manuscript: "",
+  // };
+
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault(); // prevent browser reload
+    e.preventDefault();
+    saveFormData(form);
 
-    try {
-      // Create FormData for multipart form submission with file
-      const formData = new FormData();
-      // Add all form fields
-      formData.append("email", form.email);
-      formData.append("genre", form.genre);
-      formData.append("subgenres", JSON.stringify(form.subgenres));
-      formData.append("specialAudience", form.specialAudience);
-      formData.append("targetAudience", form.targetAudience);
-      formData.append("comps", JSON.stringify(form.comps));
-      formData.append("themes", form.themes);
-      formData.append("plotBeats", form.plotBeats);
+    const formData = new FormData();
+    formData.append("email", form.email);
+    formData.append("genre", form.genre);
+    formData.append("subgenres", JSON.stringify(form.subgenres));
+    formData.append("special_audience", form.special_audience);
+    formData.append("target_audience", form.target_audience);
+    formData.append("comps", JSON.stringify(form.comps));
+    formData.append("themes", form.themes);
+    formData.append("synopsis", form.synopsis);
 
-      // Add file if present
-      if (form.file) {
-        formData.append("file", form.file);
-        console.log(
-          `Uploading file: ${form.file.name}, type: ${form.file.type}, size: ${form.file.size} bytes`
-        );
-      } else {
-        console.log("No file attached to submission");
-      }
-
-      console.log("Submitting form data to server...");
-
-      // Note: Do NOT set Content-Type header manually when sending FormData
-      // The browser will automatically set it to multipart/form-data with the correct boundary
-      const response = await fetch("/api/query", {
-        method: "POST",
-        body: formData,
-        // The browser automatically sets the correct Content-Type header with boundary for FormData
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || "Failed to submit form");
-      }
-
-      const data = await response.json();
-      console.log("Server response:", data);
-
-      // Display success message
-      alert("Form submitted successfully!");
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      // Show error message to the user
-      alert(
-        `Error: ${
-          error instanceof Error ? error.message : "Failed to submit form"
-        }`
-      );
+    // Add manuscript if present
+    if (form.manuscript) {
+      formData.append("manuscript", form.manuscript);
+    } else {
+      console.log("No manuscript attached to submission");
     }
+
     window.scrollTo({
       top: 0,
     });
-    queryMutation.mutate(testData);
+
+    queryMutation.mutate(formData);
   };
 
   return (
@@ -388,43 +355,37 @@ const QueryForm = () => {
                 />
               </div>
 
-              {/* <div
-            {...getRootProps()}
-            className={[
-              "w-full mt-6 p-5 border-2 border-dashed rounded-lg text-center cursor-pointer transition-colors",
-              isDragActive
-                ? "bg-blue-50 border-blue-400"
-                : "border-gray-300 bg-transparent",
-            ].join(" ")}
-          >
-            <input {...getInputProps()} />
-            {form.manuscript ? (
-              <p>
-                Selected file: <strong>{form.manuscript.name}</strong>
-              </p>
-            ) : (
-              <p>
-                {isDragActive
-                  ? "Drop your file here…"
-                  : "Drag & drop a document, or click to select"}
-              </p>
-            )}
-          </div> */}
+              <div
+                {...getRootProps()}
+                className={[
+                  "w-full mt-6 p-5 border-2 border-dashed rounded-lg text-center cursor-pointer transition-colors",
+                  isDragActive
+                    ? "bg-blue-50 border-blue-400"
+                    : "border-gray-300 bg-transparent",
+                ].join(" ")}
+              >
+                <input {...getInputProps()} />
+                {form.manuscript ? (
+                  <p>
+                    Selected file: <strong>{form.manuscript.name}</strong>
+                  </p>
+                ) : (
+                  <p>
+                    {isDragActive
+                      ? "Drop your file here…"
+                      : "Drag & drop a document, or click to select"}
+                  </p>
+                )}
+              </div>
 
               <div className="flex w-full justify-end mt-8">
-                {/* <Button
-              type="submit"
-              className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
-            >
-              Submit
-            </Button> */}
+                <Button
+                  type="submit"
+                  className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
+                >
+                  Submit
+                </Button>
               </div>
-              <Button
-                onClick={handleSubmit}
-                className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
-              >
-                Submit TEST
-              </Button>
             </div>
           </form>
         </>
