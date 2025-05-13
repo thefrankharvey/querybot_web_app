@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const isValidData = (data: string | null): boolean => {
+export const isValidData = (data: string | null | undefined): boolean => {
   return data && data !== "!missing" ? true : false;
 };
 

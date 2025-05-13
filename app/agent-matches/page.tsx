@@ -1,9 +1,14 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
-import { useMockData } from "../hooks/use-mock-data";
 import { AgentCards } from "../components/agent-cards";
 import { Button } from "../ui-primitives/button";
+import {
+  useAgentMatches,
+  AgentMatchesProvider,
+} from "../context/agent-matches-context";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 declare global {
   interface Window {
@@ -13,12 +18,13 @@ declare global {
 }
 
 const AgentMatches = () => {
+  const matchesContext = useAgentMatches();
+  const matches = matchesContext?.matches || [];
   const [showOverlay, setShowOverlay] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef<number>(0);
   const targetScrollY = useRef<number | null>(null);
-  const filteredMockData = useMockData();
 
   useEffect(() => {
     // Calculate the exact scroll position that shows half of the second row
@@ -26,7 +32,7 @@ const AgentMatches = () => {
       if (!gridRef.current) return null;
 
       const gridRect = gridRef.current.getBoundingClientRect();
-      const totalCards = filteredMockData.length;
+      const totalCards = matches.length;
 
       // Get rows and columns based on responsive design
       let columns = 1; // Default for mobile
@@ -57,7 +63,7 @@ const AgentMatches = () => {
 
       // Get grid information
       const gridRect = gridRef.current.getBoundingClientRect();
-      const totalCards = filteredMockData.length;
+      const totalCards = matches.length;
 
       // Get rows and columns based on responsive design
       let columns = 1; // Default for mobile
@@ -158,25 +164,31 @@ const AgentMatches = () => {
       window.isScrollLocked = false;
       window.lastTouchY = undefined;
     };
-  }, [filteredMockData.length, showOverlay]);
+  }, [matches.length, showOverlay]);
 
   return (
     <div className="pt-30 min-h-[700px]" ref={contentRef}>
       <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
         Agent Matches
       </h1>
-      <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-        ref={gridRef}
-      >
-        {filteredMockData.map((match, index) => (
-          <AgentCards
-            key={index}
-            agent={match}
-            index={index}
-            id={`agent-${index}`}
-          />
-        ))}
+      <div>
+        <Link href="/query-form" className="flex items-center gap-2 mb-4">
+          <ArrowLeft className="w-8 h-8" />
+          <h2 className="text-2xl">Back</h2>
+        </Link>
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          ref={gridRef}
+        >
+          {matches.map((match, index: number) => (
+            <AgentCards
+              key={index}
+              agent={match}
+              index={index}
+              id={`agent-${index}`}
+            />
+          ))}
+        </div>
       </div>
       <div
         className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${
@@ -208,4 +220,10 @@ const AgentMatches = () => {
   );
 };
 
-export default AgentMatches;
+export default function AgentMatchesPage() {
+  return (
+    <AgentMatchesProvider>
+      <AgentMatches />
+    </AgentMatchesProvider>
+  );
+}

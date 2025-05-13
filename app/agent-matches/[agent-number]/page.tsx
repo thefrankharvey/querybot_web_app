@@ -1,13 +1,14 @@
 "use client";
 
-import { useMockData } from "@/app/hooks/use-mock-data";
 import { useParams } from "next/navigation";
 import { ArrowLeft, Star } from "lucide-react";
 import Link from "next/link";
 import { isValidData } from "@/app/utils";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
+import { AgentMatchesProvider } from "@/app/context/agent-matches-context";
 
+import { useAgentMatches } from "@/app/context/agent-matches-context";
 // Define the interface for agent data
 interface AgentData {
   name: string;
@@ -22,19 +23,23 @@ interface AgentData {
 
 const AgentProfile = () => {
   const params = useParams();
-  const filteredMockData = useMockData();
+  const matchesContext = useAgentMatches();
+  const matches = useMemo(
+    () => matchesContext?.matches || [],
+    [matchesContext?.matches]
+  );
   const [agent, setAgent] = useState<AgentData | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (filteredMockData.length > 0) {
-      const foundAgent = filteredMockData.find(
+    if (matches.length > 0) {
+      const foundAgent = matches.find(
         (data, index) => index === Number(params["agent-number"])
       );
       setAgent(foundAgent as AgentData | null);
       setLoading(false);
     }
-  }, [filteredMockData, params]);
+  }, [matches, params]);
 
   const formatGenres = (genres: string) => {
     const result = [];
@@ -235,4 +240,11 @@ const AgentProfile = () => {
   );
 };
 
-export default AgentProfile;
+// Wrap the export with the AgentMatchesProvider
+export default function AgentProfilePage() {
+  return (
+    <AgentMatchesProvider>
+      <AgentProfile />
+    </AgentMatchesProvider>
+  );
+}

@@ -2,38 +2,14 @@ import React from "react";
 import { Star } from "lucide-react";
 import Link from "next/link";
 import { cn, isValidData } from "../utils";
-type AgentCardProps = {
-  aala_member: boolean | null;
-  agency: string | null;
-  bio: string | null;
-  clients: string | null;
-  email: string | null;
-  extra_interest: string | null;
-  extra_links: string | null;
-  favorites: string | null;
-  genres: string | null;
-  location: string | null;
-  name: string | null;
-  pubmarketplace: string | null;
-  querymanager: string | null;
-  querytracker: string | null;
-  sales: string | null;
-  submission_req: string | null;
-  total_score: number | null;
-  twitter_handle: string | null;
-  twitter_url: string | null;
-  website: string | null;
-};
-
-// TODO
-// figure out which extra_links to use
+import { AgentMatch } from "../context/agent-matches-context";
 
 export const AgentCards = ({
   agent,
   index,
   id,
 }: {
-  agent: AgentCardProps;
+  agent: AgentMatch;
   index: number;
   id: string;
 }) => {
