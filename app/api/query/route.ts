@@ -1,28 +1,39 @@
 import { NextResponse } from "next/server";
-import example from "@/app/example.json";
+import { NextRequest } from "next/server";
 
-export async function POST() {
-  // POST(req: NextRequest)
-  //   const body = await req.json();
+export async function POST(req: NextRequest) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
-  // Make the external POST request from the server
   try {
+    const body = await req.json();
     const externalRes = await fetch(
-      "https://querybot-api.onrender.com/jotform-webhook",
+      "http://querybot-api.onrender.com/submit-form",
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          //   Authorization: `Bearer ${process.env.EXTERNAL_API_KEY}`,
         },
-        body: JSON.stringify(example),
+        body: JSON.stringify(body),
+        signal: controller.signal,
+        keepalive: true,
       }
     );
-    const data = await externalRes.json();
 
-    return NextResponse.json(data, { status: externalRes.status });
-  } catch (error) {
-    console.error("Error:", error);
-    return NextResponse.json({ error: "Error" }, { status: 500 });
+    if (!externalRes.ok) {
+      throw new Error(
+        `External API responded with status: ${externalRes.status}`
+      );
+    }
+
+    const externalResJson = await externalRes.json();
+
+    return NextResponse.json(externalResJson, {
+      status: externalRes.status,
+    });
+  } catch (error: unknown) {
+    return NextResponse.json({ error: error }, { status: 500 });
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
