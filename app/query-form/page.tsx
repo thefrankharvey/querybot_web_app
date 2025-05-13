@@ -154,6 +154,7 @@ const QueryForm = () => {
     //   comps: formatComps(form.comps),
     //   themes: formatThemes(form.themes),
     // };
+
     const testData = {
       email: "john@example.com",
       genre: "historical fiction",
@@ -178,23 +179,12 @@ const QueryForm = () => {
       if (!res.ok) {
         throw new Error(`Request failed: ${res.status}`);
       }
-      // const json = await res.json();
-      // console.log({ json });
+      const json = await res.json();
+      console.log("json.matches: ", json.matches);
     } catch (err) {
       console.error(err);
     }
   };
-
-  //     "email": "john@example.com",
-  //     "genre": "Historical Fiction",
-  //     "subgenres": ["Espionage", "Political"],
-  //     "special_audience": "Middle Grade",
-  //     "target_audience": "Readers aged 10-14 interested in history and adventure",
-  //     "comps": ["The Book Thief", "Number the Stars"],
-  //     "themes": ["Friendship", "Courage", "Loyalty"],
-  //     "synopsis": "A young spy in WWII France uncovers secrets that could save her family.",
-  //     "query_letter": "Dear Agent, I am submitting my manuscript for your consideration...",
-  //     "manuscript": "Once upon a time in war-torn Europe, a girl named Elise..."
 
   return (
     <div className="pt-30">

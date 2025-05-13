@@ -26,29 +26,13 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    console.log("EXTERNAL RES: ", externalRes.body);
+    const externalResJson = await externalRes.json();
 
-    const jsonData = await externalRes.json();
-    console.log("JSON RESPONSE BODY:", jsonData);
-
-    // return NextResponse.json(data, { status: externalRes.status });
+    return NextResponse.json(externalResJson, {
+      status: externalRes.status,
+    });
   } catch (error: unknown) {
-    console.error("Error:", error);
-
-    if (error instanceof Error) {
-      if (error.name === "AbortError") {
-        return NextResponse.json(
-          { error: "Request timed out after 5 minutes" },
-          { status: 504 }
-        );
-      }
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
-
-    return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: error }, { status: 500 });
   } finally {
     clearTimeout(timeoutId);
   }
