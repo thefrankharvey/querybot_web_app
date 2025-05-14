@@ -12,6 +12,7 @@ import {
   SelectItem,
 } from "../ui-primitives/select";
 import { Checkbox } from "../ui-primitives/checkbox";
+import { formatComps, formatThemes } from "../utils";
 import { RadioGroup, RadioGroupItem } from "../ui-primitives/radio-group";
 import { Textarea } from "../ui-primitives/textarea";
 import { useDropzone } from "react-dropzone";
@@ -21,6 +22,7 @@ import {
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
+import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 
 type FormState = {
   email: string;
@@ -66,6 +68,7 @@ const specialAudienceOptions = [
 
 const QueryForm = () => {
   const { saveMatches, saveFormData } = useAgentMatches();
+  const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
     email: "",
@@ -82,6 +85,13 @@ const QueryForm = () => {
     synopsis: "",
     manuscript: undefined,
   });
+
+  const {
+    manuscriptText,
+    processManuscript,
+    status: manuscriptStatus,
+    isProcessing: isProcessingManuscript,
+  } = useManuscriptProcessor();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -135,13 +145,16 @@ const QueryForm = () => {
     setForm((prev) => ({ ...prev, synopsis: e.target.value }));
   };
 
-  const onDrop = useCallback(async (acceptedFiles: File[]) => {
-    if (acceptedFiles.length > 0) {
-      const manuscript = acceptedFiles[0];
-      console.log({ manuscript });
-      setForm((prev) => ({ ...prev, manuscript }));
-    }
-  }, []);
+  const onDrop = useCallback(
+    async (acceptedFiles: File[]) => {
+      if (acceptedFiles.length > 0) {
+        const manuscript = acceptedFiles[0];
+        setForm((prev) => ({ ...prev, manuscript }));
+        await processManuscript(manuscript);
+      }
+    },
+    [processManuscript]
+  );
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
@@ -155,10 +168,23 @@ const QueryForm = () => {
   });
 
   const queryMutation = useMutation({
-    mutationFn: async (data: FormData) => {
+    mutationFn: async (formData: {
+      email: string;
+      genre: string;
+      subgenres: string[];
+      special_audience: string;
+      target_audience: string;
+      comps: { title: string; author: string }[] | string[];
+      themes: string[] | string;
+      synopsis: string;
+      manuscript: string;
+    }) => {
       const res = await fetch("/api/query", {
         method: "POST",
-        body: data,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
 
       if (!res.ok) {
@@ -169,10 +195,12 @@ const QueryForm = () => {
     },
 
     onSuccess: (data) => {
-      if (data.matches) {
+      console.log("============== Query Form Data ==============", data);
+      if (data.matches.length > 0) {
         saveMatches(data.matches);
+        router.push("/agent-matches");
       }
-      router.push("/agent-matches");
+      setApiMessage("No matches found");
     },
     onError: (error) => {
       console.error(error);
@@ -198,35 +226,39 @@ const QueryForm = () => {
     e.preventDefault();
     saveFormData(form);
 
-    const formData = new FormData();
-    formData.append("email", form.email);
-    formData.append("genre", form.genre);
-    formData.append("subgenres", JSON.stringify(form.subgenres));
-    formData.append("special_audience", form.special_audience);
-    formData.append("target_audience", form.target_audience);
-    formData.append("comps", JSON.stringify(form.comps));
-    formData.append("themes", form.themes);
-    formData.append("synopsis", form.synopsis);
+    const themes = formatThemes(form.themes);
+    const comps = formatComps(form.comps);
 
-    // Add manuscript if present
-    if (form.manuscript) {
-      formData.append("manuscript", form.manuscript);
-    } else {
-      console.log("No manuscript attached to submission");
-    }
+    // Create JSON payload instead of FormData
+    const payload = {
+      email: form.email,
+      genre: form.genre,
+      subgenres: form.subgenres,
+      special_audience: form.special_audience,
+      target_audience: form.target_audience,
+      comps: comps,
+      themes: themes,
+      synopsis: form.synopsis,
+      manuscript: manuscriptText, // Use the processed manuscript text
+    };
 
     window.scrollTo({
       top: 0,
     });
 
-    queryMutation.mutate(formData);
+    queryMutation.mutate(payload);
   };
 
   return (
     <div className="pt-30">
-      {queryMutation.isPending ? (
+      {queryMutation.isPending || isProcessingManuscript ? (
         <div className="flex flex-col items-center h-[700px] mt-10">
           <LoaderCircle className="w-20 h-20 md:w-40 md:h-40 animate-spin" />
+          <p className="mt-4 text-lg">
+            {isProcessingManuscript
+              ? "Processing manuscript..."
+              : "Submitting query..."}
+          </p>
         </div>
       ) : (
         <>
@@ -234,6 +266,11 @@ const QueryForm = () => {
             <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight">
               Query Form
             </h1>
+          </div>
+          <div className="w-full flex justify-start md:w-1/2 md:mx-auto mb-8">
+            {apiMessage && (
+              <div className="text-red-500 text-base">{apiMessage}</div>
+            )}
           </div>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-1/2 mx-auto">
@@ -366,9 +403,21 @@ const QueryForm = () => {
               >
                 <input {...getInputProps()} />
                 {form.manuscript ? (
-                  <p>
-                    Selected file: <strong>{form.manuscript.name}</strong>
-                  </p>
+                  <div>
+                    <p>
+                      Selected file: <strong>{form.manuscript.name}</strong>
+                    </p>
+                    {manuscriptStatus === "success" && (
+                      <p className="mt-2 text-green-600">
+                        Manuscript processed successfully
+                      </p>
+                    )}
+                    {manuscriptStatus === "error" && (
+                      <p className="mt-2 text-red-600">
+                        Error processing manuscript
+                      </p>
+                    )}
+                  </div>
                 ) : (
                   <p>
                     {isDragActive
