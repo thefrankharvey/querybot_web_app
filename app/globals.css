@@ -124,6 +124,17 @@
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
     color: var(--text-dark-blue);
+
+    button {
+      @apply cursor-pointer;
+    }
+
+    a {
+      @apply cursor-pointer;
+    }
+    .cl-drawerRoot {
+      @apply z-50;
+    }
   }
 }
 

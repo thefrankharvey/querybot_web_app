@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "../ui-primitives/button";
 import { motion } from "framer-motion";
 
@@ -107,14 +108,11 @@ const ClientSlushwireProCard = () => {
           </div>
         </ul>
         <div className="flex justify-center items-center flex-col gap-4 pt-18 pb-10">
-          <a
-            href="https://subscribe.writequeryhook.com/products/slush-wire-pro-direct?step=checkout&_gl=1*1o0mzku*_ga*MTczNjM3NTEyMC4xNzQ2MjEwNTg0*_ga_4C1NS70GTD*czE3NDY0ODEyMTAkbzckZzAkdDE3NDY0ODEyMTAkajAkbDAkaDA."
-            target="_blank"
-          >
+          <Link href="/subscription">
             <Button className="cursor-pointer text-xl p-8 font-semibold">
-              GET ALERTS
+              GET ACCESS
             </Button>
-          </a>
+          </Link>
           <span className="text-base text-center">
             No Spam. Just Inbox Intel. Easy Cancel Anytime.
           </span>
