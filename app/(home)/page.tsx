@@ -1,7 +1,14 @@
 import SlushwireProCard from "../components/slushwire-pro-card";
 import ProductCards from "../components/product-cards";
 import SlushwireActionBlock from "../components/slushwire-action-block";
-const Home = () => {
+import { auth } from "@clerk/nextjs/server";
+
+const Home = async () => {
+  const { has } = await auth();
+
+  const hasSlushwirePro = has({ plan: "slushwire-pro" });
+
+  console.log({ hasSlushwirePro });
   return (
     <div className="w-full">
       <div className="py-30 sm:w-[90%] md:w-[60%] lg:w-[70%] mx-auto text-center">
