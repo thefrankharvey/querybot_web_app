@@ -9,6 +9,7 @@ import {
 } from "../context/agent-matches-context";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { useAuth } from "@clerk/nextjs";
 
 declare global {
   interface Window {
@@ -18,6 +19,7 @@ declare global {
 }
 
 const AgentMatches = () => {
+  const { has } = useAuth();
   const matchesContext = useAgentMatches();
   const matches = matchesContext?.matches || [];
   const [showOverlay, setShowOverlay] = useState(false);
@@ -25,6 +27,8 @@ const AgentMatches = () => {
   const gridRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef<number>(0);
   const targetScrollY = useRef<number | null>(null);
+  // NOTE: UPDATE WITH REAL PLAN WHEN READY
+  const hasProPlan = has?.({ plan: "slushwire_pro" });
 
   useEffect(() => {
     // Calculate the exact scroll position that shows half of the second row
@@ -192,7 +196,7 @@ const AgentMatches = () => {
       </div>
       <div
         className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${
-          showOverlay ? "translate-y-0" : "translate-y-full"
+          showOverlay && !hasProPlan ? "translate-y-0" : "translate-y-full"
         }`}
       >
         <div className="h-[100px] bg-gradient-to-b from-white/0 to-white"></div>
