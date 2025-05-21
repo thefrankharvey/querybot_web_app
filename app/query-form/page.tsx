@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useCallback, useState } from "react";
-import { LoaderCircle } from "lucide-react";
+import { ArrowLeft, LoaderCircle } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
 import {
@@ -23,6 +23,7 @@ import {
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
+import Link from "next/link";
 
 type FormState = {
   email: string;
@@ -262,12 +263,17 @@ const QueryForm = () => {
         </div>
       ) : (
         <>
-          <div className="w-full flex justify-start md:w-1/2 md:mx-auto mb-8">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight">
+          <div className="w-full flex flex-col justify-start md:w-1/2 md:mx-auto">
+            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
               Query Form
             </h1>
+            <Link href="/" className="flex items-center gap-2">
+              <ArrowLeft className="w-8 h-8" />
+              <h2 className="text-2xl">Back</h2>
+            </Link>
           </div>
-          <div className="w-full flex justify-start md:w-1/2 md:mx-auto mb-8">
+
+          <div className="w-full flex justify-start md:w-1/2 md:mx-auto mb-4">
             {apiMessage && (
               <div className="text-red-500 text-base">{apiMessage}</div>
             )}
