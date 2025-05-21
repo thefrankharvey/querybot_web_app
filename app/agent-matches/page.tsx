@@ -209,9 +209,11 @@ const AgentMatches = () => {
               target="_blank"
               className="flex justify-center items-center"
             >
-              <Button className="cursor-pointer text-xl p-8 font-semibold mt-10 hover:border-accent border-2 border-transparent">
-                GET FULL ACCESS
-              </Button>
+              <Link href="/subscription">
+                <Button className="cursor-pointer text-xl p-8 font-semibold mt-10 hover:border-accent border-2 border-transparent">
+                  GET FULL ACCESS
+                </Button>
+              </Link>
             </a>
           </div>
         </div>
