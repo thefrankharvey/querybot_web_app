@@ -14,6 +14,23 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Write Query Hook",
   description: "Write Query Hook",
+  icons: {
+    icon: [
+      {
+        url: "/book-open-text.svg",
+        type: "image/svg+xml",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/book-open-text-white.svg",
+        type: "image/svg+xml",
+        media: "(prefers-color-scheme: dark)",
+      },
+      {
+        url: "/favicon.ico", // Fallback for browsers that don't support SVG
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

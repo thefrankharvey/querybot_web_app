@@ -123,7 +123,7 @@ const AgentProfile = () => {
         <ArrowLeft className="w-8 h-8" />
         <h2 className="text-2xl">Back</h2>
       </Link>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-16 ">
+      <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">
           <div className="flex justify-between">
             {loading ? (
