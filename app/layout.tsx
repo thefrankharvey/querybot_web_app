@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 import { ClerkProvider } from "@clerk/nextjs";
+import RouteAnimation from "./components/route-animation";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
@@ -43,9 +44,11 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${poppins.className} antialiased`}>
           <Nav />
-          <div className="max-w-screen-xl mx-auto px-4 py-0 min-h-screen">
-            {children}
-          </div>
+          <RouteAnimation>
+            <div className="max-w-screen-xl mx-auto px-4 py-0 min-h-screen">
+              {children}
+            </div>
+          </RouteAnimation>
           <Footer />
         </body>
       </html>
