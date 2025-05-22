@@ -279,7 +279,7 @@ const QueryForm = () => {
             )}
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-1/2 mx-auto">
+            <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-1/2 mx-auto shadow-lg">
               <div className="w-full">
                 <label className="font-semibold mb-2 block">Email *</label>
                 <Input
