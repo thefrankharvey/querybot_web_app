@@ -19,7 +19,7 @@ export const AgentCards = ({
     <div
       id={id}
       className={cn(
-        "bg-white rounded-lg p-4 py-8 md:p-8 w-full",
+        "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md",
         isDisabled
           ? "opacity-60"
           : "hover:shadow-xl transition-shadow duration-300 hover:cursor-pointer"

@@ -28,7 +28,7 @@ const ClientSlushwireProCard = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white p-4 sm:w-[90%] md:w-[60%] lg:w-[55%] mx-auto rounded-bl-[20px] rounded-br-[20px]">
+      <div className="bg-white p-4 sm:w-[90%] md:w-[60%] lg:w-[55%] mx-auto rounded-bl-[20px] rounded-br-[20px] shadow-lg">
         <ul className="list-disc space-y-4 overflow-y-auto h-full py-4 w-[90%] mx-auto mt-[-80px] md:mt-[-120px]">
           <div>
             <span className="text-base md:text-xl font-semibold">

@@ -9,8 +9,9 @@ import {
   SignUpButton,
   SignedOut,
   SignedIn,
-  UserButton,
   SignInButton,
+  useClerk,
+  SignOutButton,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 
@@ -27,6 +28,7 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
+  const { openUserProfile } = useClerk();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,7 +85,15 @@ const ClientNav = () => {
             Try it Free!
           </a>
           <SignedIn>
-            <UserButton />
+            <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
+              <SignOutButton />
+            </div>
+            <a
+              onClick={() => openUserProfile()}
+              className="text-base font-semibold hover:text-accent transition-all duration-300"
+            >
+              Account
+            </a>
           </SignedIn>
         </div>
         <Hamburger />

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useCallback, useState } from "react";
-import { ArrowLeft, LoaderCircle } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
 import {
@@ -24,6 +24,7 @@ import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
+import BookLoader from "../components/book-loader";
 
 type FormState = {
   email: string;
@@ -254,11 +255,11 @@ const QueryForm = () => {
     <div className="pt-30">
       {queryMutation.isPending || isProcessingManuscript ? (
         <div className="flex flex-col items-center h-[700px] mt-10">
-          <LoaderCircle className="w-20 h-20 md:w-40 md:h-40 animate-spin" />
-          <p className="mt-4 text-lg">
+          <BookLoader width={300} height={300} />
+          <p className="mt-4 text-lg font-semibold">
             {isProcessingManuscript
               ? "Processing manuscript..."
-              : "Submitting query..."}
+              : "Searching for agents..."}
           </p>
         </div>
       ) : (

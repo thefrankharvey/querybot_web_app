@@ -44,7 +44,7 @@ const ProductCards = () => {
       {productCardData.map((card) => (
         <div
           key={card.title}
-          className="bg-dark text-white p-8 rounded-xl flex flex-col justify-between h-[400px] md:h-[460px] lg:h-[460px]"
+          className="bg-dark text-white p-8 rounded-xl flex flex-col justify-between h-[400px] md:h-[460px] lg:h-[460px] shadow-lg"
         >
           <div>
             <h3 className="text-2xl font-bold mb-4">{card.title}</h3>
