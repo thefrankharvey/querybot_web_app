@@ -6,6 +6,7 @@ import { Button } from "../ui-primitives/button";
 import {
   useAgentMatches,
   AgentMatchesProvider,
+  AgentMatch,
 } from "../context/agent-matches-context";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -18,17 +19,51 @@ declare global {
   }
 }
 
-const AgentMatches = () => {
-  const { has } = useAuth();
-  const matchesContext = useAgentMatches();
-  const matches = matchesContext?.matches || [];
+const AgentMatchesInner = ({
+  matches,
+  hasProPlan,
+  gridRef,
+}: {
+  matches: AgentMatch[];
+  hasProPlan: boolean;
+  gridRef?: React.RefObject<HTMLDivElement | null>;
+}) => {
+  return (
+    <>
+      <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
+        You have {matches.length} agent matches!
+      </h1>
+      <div>
+        <Link href="/query-form" className="flex items-center gap-2 mb-4">
+          <ArrowLeft className="w-8 h-8" />
+          <h2 className="text-2xl">Back</h2>
+        </Link>
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          ref={gridRef}
+        >
+          {matches.map((match, index: number) => (
+            <AgentCards
+              key={index}
+              agent={match}
+              index={index}
+              hasProPlan={hasProPlan}
+              id={`agent-${index}`}
+            />
+          ))}
+        </div>
+      </div>
+    </>
+  );
+};
+
+const AgentMatchesWithPaywall = () => {
+  const { matches } = useAgentMatches();
   const [showOverlay, setShowOverlay] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
   const lastScrollY = useRef<number>(0);
   const targetScrollY = useRef<number | null>(null);
-  // NOTE: UPDATE WITH REAL PLAN WHEN READY
-  const hasProPlan = has?.({ plan: "slushwire_pro" });
 
   useEffect(() => {
     // Calculate the exact scroll position that shows half of the second row
@@ -172,31 +207,14 @@ const AgentMatches = () => {
 
   return (
     <div className="pt-30 min-h-[700px]" ref={contentRef}>
-      <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
-        Agent Matches
-      </h1>
-      <div>
-        <Link href="/query-form" className="flex items-center gap-2 mb-4">
-          <ArrowLeft className="w-8 h-8" />
-          <h2 className="text-2xl">Back</h2>
-        </Link>
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          ref={gridRef}
-        >
-          {matches.map((match, index: number) => (
-            <AgentCards
-              key={index}
-              agent={match}
-              index={index}
-              id={`agent-${index}`}
-            />
-          ))}
-        </div>
-      </div>
+      <AgentMatchesInner
+        matches={matches}
+        gridRef={gridRef}
+        hasProPlan={false}
+      />
       <div
         className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${
-          showOverlay && !hasProPlan ? "translate-y-0" : "translate-y-full"
+          showOverlay ? "translate-y-0" : "translate-y-full"
         }`}
       >
         <div className="h-[100px] bg-gradient-to-b from-white/0 to-white"></div>
@@ -208,17 +226,11 @@ const AgentMatches = () => {
             <h1 className="text-2xl md:text-4xl md:text-[40px] font-extrabold leading-tight mb-8 mt-4">
               Sign up to see your full list!
             </h1>
-            <a
-              href="https://subscribe.writequeryhook.com/products/slush-wire-pro-direct?step=checkout&_gl=1*1o0mzku*_ga*MTczNjM3NTEyMC4xNzQ2MjEwNTg0*_ga_4C1NS70GTD*czE3NDY0ODEyMTAkbzckZzAkdDE3NDY0ODEyMTAkajAkbDAkaDA."
-              target="_blank"
-              className="flex justify-center items-center"
-            >
-              <Link href="/subscription">
-                <Button className="cursor-pointer text-xl p-8 font-semibold mt-10 hover:border-accent border-2 border-transparent">
-                  GET FULL ACCESS
-                </Button>
-              </Link>
-            </a>
+            <Link href="/subscription">
+              <Button className="cursor-pointer text-xl p-8 font-semibold mt-10 hover:border-accent border-2 border-transparent">
+                GET FULL ACCESS
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -226,10 +238,31 @@ const AgentMatches = () => {
   );
 };
 
+const AgentMatchesWithOutPaywall = () => {
+  const { matches } = useAgentMatches();
+
+  return (
+    <div className="pt-30 min-h-[700px]">
+      <AgentMatchesInner matches={matches} hasProPlan={true} />
+    </div>
+  );
+};
+
 export default function AgentMatchesPage() {
+  const { has, isLoaded } = useAuth();
+  const hasProPlan = has?.({ plan: "slushwire_pro" });
+
+  if (!isLoaded) {
+    return null;
+  }
+
   return (
     <AgentMatchesProvider>
-      <AgentMatches />
+      {hasProPlan ? (
+        <AgentMatchesWithOutPaywall />
+      ) : (
+        <AgentMatchesWithPaywall />
+      )}
     </AgentMatchesProvider>
   );
 }

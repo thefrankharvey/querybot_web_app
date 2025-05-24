@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
@@ -92,7 +92,6 @@ const QueryForm = () => {
     manuscriptText,
     processManuscript,
     status: manuscriptStatus,
-    isProcessing: isProcessingManuscript,
   } = useManuscriptProcessor();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -200,25 +199,31 @@ const QueryForm = () => {
       console.log("============== Query Form Data ==============", data);
       if (data.matches.length > 0) {
         saveMatches(data.matches);
-        router.push("/agent-matches");
+      } else {
+        setApiMessage("No matches found");
       }
-      setApiMessage("No matches found");
     },
     onError: (error) => {
       console.error(error);
     },
   });
 
+  useEffect(() => {
+    if (queryMutation.isSuccess) {
+      router.push("/agent-matches");
+    }
+  }, [queryMutation.isSuccess, router]);
+
   // const testData = {
   //   email: "john@example.com",
   //   genre: "historical fiction",
   //   subgenres: ["espionage", "political"],
   //   special_audience: "middle grade",
-  //   target_audience: "Readers aged 10-14 interested in history and adventure",
-  //   comps: ["the book thief"],
-  //   themes: ["friendship", "courage", "loyalty"],
+  //   target_audience: Readers aged 10-14 interested in history and adventure,
+  //   comps: the book thief,
+  //   themes: friendship, courage, loyalty
   //   synopsis:
-  //     "A young spy in WWII France uncovers secrets that could save her family.",
+  //     A young spy in WWII France uncovers secrets that could save her family.
   //   query_letter:
   //     "Dear Agent, I am submitting my manuscript for your consideration...",
   //   manuscript: "",
@@ -253,21 +258,22 @@ const QueryForm = () => {
 
   return (
     <div className="pt-30">
-      {queryMutation.isPending || isProcessingManuscript ? (
+      {queryMutation.isPending && (
         <div className="flex flex-col items-center h-[700px] mt-10">
           <BookLoader width={300} height={300} />
-          <p className="mt-4 text-lg font-semibold">
-            {isProcessingManuscript
-              ? "Processing manuscript..."
-              : "Searching for agents..."}
-          </p>
+          <p className="mt-4 text-lg font-semibold">Searching for agents...</p>
         </div>
-      ) : (
+      )}
+      {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
           <div className="w-full flex flex-col justify-start md:w-1/2 md:mx-auto">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
+            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4">
               Query Form
             </h1>
+            <h2 className="text-lg mb-8">
+              We&apos;ll use this information to match you with literary agents
+              tailored to your specific needs.
+            </h2>
             <Link href="/" className="flex items-center gap-2">
               <ArrowLeft className="w-8 h-8" />
               <h2 className="text-2xl">Back</h2>
