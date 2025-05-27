@@ -1,19 +1,11 @@
 "use client";
 
 import React, { useCallback, useEffect, useState } from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, MinusIcon, PlusIcon } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
-import {
-  Select,
-  SelectTrigger,
-  SelectValue,
-  SelectContent,
-  SelectItem,
-} from "../ui-primitives/select";
-import { Checkbox } from "../ui-primitives/checkbox";
+import MultiSelect from "../ui-primitives/multi-select";
 import { formatComps, formatThemes } from "../utils";
-import { RadioGroup, RadioGroupItem } from "../ui-primitives/radio-group";
 import { Textarea } from "../ui-primitives/textarea";
 import { useDropzone } from "react-dropzone";
 import {
@@ -25,6 +17,17 @@ import { useMutation } from "@tanstack/react-query";
 import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
 import BookLoader from "../components/book-loader";
+import Combobox from "../ui-primitives/combobox";
+import {
+  genreOptions,
+  subgenreOptions,
+  specialAudienceOptions,
+} from "../constants";
+import { Select } from "../ui-primitives/select";
+import { SelectContent } from "../ui-primitives/select";
+import { SelectValue } from "../ui-primitives/select";
+import { SelectTrigger } from "../ui-primitives/select";
+import { SelectItem } from "../ui-primitives/select";
 
 type FormState = {
   email: string;
@@ -38,36 +41,6 @@ type FormState = {
   manuscript?: File;
 };
 
-const genreOptions = [
-  "Literary Fiction",
-  "Mystery/Crime",
-  "Fantasy",
-  "Science Fiction",
-  "Historical Fiction",
-  "Horror",
-  "Thriller/Suspense",
-  "Magical Realism",
-  "Adventure",
-  "Biography/Autobiography/Memoir",
-  "Self-Help/Personal Development",
-  "History",
-  "Science and Technology",
-  "Philosophy/Religion/Spirituality",
-  "Travel/Adventure",
-  "True Crime",
-  "Poetry",
-  "Short Story",
-];
-
-const subgenreOptions = ["espionage", "spy", "political"];
-const specialAudienceOptions = [
-  "middle grade",
-  "young adult",
-  "graphic novel/comic book",
-  "children/picture book",
-  "none",
-];
-
 const QueryForm = () => {
   const { saveMatches, saveFormData } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
@@ -78,11 +51,7 @@ const QueryForm = () => {
     subgenres: [],
     special_audience: "",
     target_audience: "",
-    comps: [
-      { title: "", author: "" },
-      { title: "", author: "" },
-      { title: "", author: "" },
-    ],
+    comps: [{ title: "", author: "" }],
     themes: "",
     synopsis: "",
     manuscript: undefined,
@@ -103,14 +72,11 @@ const QueryForm = () => {
     setForm((prev) => ({ ...prev, genre: value }));
   };
 
-  const handleSubgenreChange = (subgenre: string) => {
+  const handleSubgenreChange = (subgenres: string[]) => {
     setForm((prev) => {
-      const exists = prev.subgenres.includes(subgenre);
       return {
         ...prev,
-        subgenres: exists
-          ? prev.subgenres.filter((s) => s !== subgenre)
-          : [...prev.subgenres, subgenre],
+        subgenres: subgenres,
       };
     });
   };
@@ -266,7 +232,7 @@ const QueryForm = () => {
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
-          <div className="w-full flex flex-col justify-start md:w-1/2 md:mx-auto">
+          <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
             <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4">
               Query Form
             </h1>
@@ -286,7 +252,7 @@ const QueryForm = () => {
             )}
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-1/2 mx-auto shadow-lg">
+            <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[640px] mx-auto shadow-lg">
               <div className="w-full">
                 <label className="font-semibold mb-2 block">Email *</label>
                 <Input
@@ -298,12 +264,33 @@ const QueryForm = () => {
               </div>
               <div className="w-full">
                 <label className="font-semibold mb-2 block">Genre</label>
-                <Select value={form.genre} onValueChange={handleGenreChange}>
+                <Combobox
+                  options={genreOptions}
+                  optionTitle="genre"
+                  handleChange={handleGenreChange}
+                />
+              </div>
+              <div className="w-full">
+                <label className="font-semibold mb-2 block">Subgenres</label>
+                <MultiSelect
+                  options={subgenreOptions}
+                  optionTitle="subgenre"
+                  handleChange={handleSubgenreChange}
+                />
+              </div>
+              <div className="w-full">
+                <label className="font-semibold mb-2 block">
+                  Special Audience
+                </label>
+                <Select
+                  value={form.special_audience}
+                  onValueChange={handleSpecialAudienceChange}
+                >
                   <SelectTrigger className="w-full">
                     <SelectValue placeholder="Please Select" />
                   </SelectTrigger>
                   <SelectContent>
-                    {genreOptions.map((option) => (
+                    {specialAudienceOptions.map((option) => (
                       <SelectItem key={option} value={option}>
                         {option}
                       </SelectItem>
@@ -312,37 +299,6 @@ const QueryForm = () => {
                 </Select>
               </div>
               <div className="w-full">
-                <label className="font-semibold mb-2 block">Subgenres</label>
-                <div className="flex flex-col gap-2 ml-2">
-                  {subgenreOptions.map((sub) => (
-                    <label key={sub} className="flex items-center gap-2">
-                      <Checkbox
-                        checked={form.subgenres.includes(sub)}
-                        onCheckedChange={() => handleSubgenreChange(sub)}
-                      />
-                      {sub}
-                    </label>
-                  ))}
-                </div>
-              </div>
-              <div className="w-full">
-                <label className="font-semibold mb-2 block">
-                  Special Audience
-                </label>
-                <RadioGroup
-                  value={form.special_audience}
-                  onValueChange={handleSpecialAudienceChange}
-                  className="flex flex-col gap-2 ml-2"
-                >
-                  {specialAudienceOptions.map((aud) => (
-                    <label key={aud} className="flex items-center gap-2">
-                      <RadioGroupItem value={aud} />
-                      {aud}
-                    </label>
-                  ))}
-                </RadioGroup>
-              </div>
-              <div className="w-full mt-6">
                 <label className="font-semibold mb-2 block">
                   Target Audience
                 </label>
@@ -350,17 +306,16 @@ const QueryForm = () => {
                   value={form.target_audience}
                   onChange={handleTargetAudienceChange}
                   rows={4}
-                  className="w-full h-40"
+                  className="w-full h-22"
                 />
               </div>
-              <div className="w-full mt-10">
+              <div className="w-full">
                 <h2 className="text-lg font-semibold mb-1">Comps</h2>
                 <div className="text-muted-foreground text-sm mb-4">
                   published books, preferably recent, which compare to yours
                 </div>
-                <hr className="mb-6" />
                 {form.comps.map((comp, idx) => (
-                  <div key={idx} className="mb-8">
+                  <div key={idx} className="mb-4">
                     <div className="mb-2">
                       <label className="font-semibold mb-2 block">Title</label>
                       <Input
@@ -383,14 +338,49 @@ const QueryForm = () => {
                     </div>
                   </div>
                 ))}
+                <div className="flex flex-col md:flex-row gap-4">
+                  <Button
+                    className="text-sm"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (form.comps.length < 5) {
+                        setForm((prev) => ({
+                          ...prev,
+                          comps: [...prev.comps, { title: "", author: "" }],
+                        }));
+                      }
+                    }}
+                  >
+                    Add Comp
+                    <PlusIcon className="size-4" />
+                  </Button>
+                  <Button
+                    className="text-sm"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (form.comps.length > 1) {
+                        setForm((prev) => ({
+                          ...prev,
+                          comps: prev.comps.slice(0, -1),
+                        }));
+                      }
+                    }}
+                  >
+                    Remove Comp
+                    <MinusIcon className="size-4" />
+                  </Button>
+                </div>
               </div>
-              <div className="w-full mt-10">
+              <div className="w-full">
                 <label className="font-semibold mb-2 block">Themes</label>
+                <div className="text-muted-foreground text-sm mb-4">
+                  please list your themes in a comma separated list
+                </div>
                 <Textarea
                   value={form.themes}
                   onChange={handleThemesChange}
                   rows={5}
-                  className="w-full h-40"
+                  className="w-full h-22"
                 />
               </div>
               <div className="w-full">
@@ -401,45 +391,48 @@ const QueryForm = () => {
                   value={form.synopsis}
                   onChange={handleSynopsisChange}
                   rows={5}
-                  className="w-full h-40"
+                  className="w-full h-22"
                 />
               </div>
 
-              <div
-                {...getRootProps()}
-                className={[
-                  "w-full mt-6 p-5 border-2 border-dashed rounded-lg text-center cursor-pointer transition-colors",
-                  isDragActive
-                    ? "bg-blue-50 border-blue-400"
-                    : "border-gray-300 bg-transparent",
-                ].join(" ")}
-              >
-                <input {...getInputProps()} />
-                {form.manuscript ? (
-                  <div>
-                    <p>
-                      Selected file: <strong>{form.manuscript.name}</strong>
-                    </p>
-                    {manuscriptStatus === "success" && (
-                      <p className="mt-2 text-green-600">
-                        Manuscript processed successfully
-                      </p>
-                    )}
-                    {manuscriptStatus === "error" && (
-                      <p className="mt-2 text-red-600">
-                        Error processing manuscript
-                      </p>
-                    )}
-                  </div>
-                ) : (
-                  <p>
-                    {isDragActive
-                      ? "Drop your file here…"
-                      : "Drag & drop a document, or click to select"}
-                  </p>
-                )}
-              </div>
+              <div className="w-full">
+                <label className="font-semibold block">Manuscript</label>
 
+                <div
+                  {...getRootProps()}
+                  className={[
+                    "w-full mt-2 p-5 border-2 border-dashed rounded-lg text-center cursor-pointer transition-colors",
+                    isDragActive
+                      ? "bg-blue-50 border-blue-400"
+                      : "border-gray-300 bg-transparent",
+                  ].join(" ")}
+                >
+                  <input {...getInputProps()} />
+                  {form.manuscript ? (
+                    <div>
+                      <p>
+                        Selected file: <strong>{form.manuscript.name}</strong>
+                      </p>
+                      {manuscriptStatus === "success" && (
+                        <p className="mt-2 text-green-600">
+                          Manuscript processed successfully
+                        </p>
+                      )}
+                      {manuscriptStatus === "error" && (
+                        <p className="mt-2 text-red-600">
+                          Error processing manuscript
+                        </p>
+                      )}
+                    </div>
+                  ) : (
+                    <p>
+                      {isDragActive
+                        ? "Drop your file here…"
+                        : "Drag & drop a document, or click to select"}
+                    </p>
+                  )}
+                </div>
+              </div>
               <div className="flex w-full justify-end mt-8">
                 <Button
                   type="submit"

@@ -60,6 +60,8 @@ export const formatGenres = (genres: string) => {
 
   // List of strings to filter out
   const stringsToFilter = [
+    "closed to submissions",
+    "AALA member",
     "Accepting Submissions",
     "Member of",
     "Special Experience",
@@ -77,7 +79,6 @@ export const formatGenres = (genres: string) => {
     "Rights contacts",
     "International Rights:",
     "Ellen K. Greenberg",
-    "Non-fiction",
     "CLOSED to Submissions",
     "Authors and Illustrators Only",
   ];
