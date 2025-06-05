@@ -1,17 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // Define the structure of form data
-interface QueryFormData {
+export interface QueryFormData {
   email: string;
   genre: string;
   subgenres: string[];
-  special_audience: string;
   target_audience: string;
   comps: { title: string; author: string }[] | string[];
   themes: string[] | string;
   synopsis: string;
   manuscript?: string; // Now always a string, not a file
   query_letter?: string;
+  enable_ai: boolean;
+  non_fiction: boolean;
+  format: string;
 }
 
 export async function POST(req: NextRequest) {
@@ -25,7 +27,6 @@ export async function POST(req: NextRequest) {
       email: jsonData.email || "",
       genre: jsonData.genre || "",
       subgenres: Array.isArray(jsonData.subgenres) ? jsonData.subgenres : [],
-      special_audience: jsonData.special_audience || "",
       target_audience: jsonData.target_audience || "",
       comps: Array.isArray(jsonData.comps) ? jsonData.comps : [],
       themes: Array.isArray(jsonData.themes)
@@ -35,13 +36,48 @@ export async function POST(req: NextRequest) {
         : "",
       synopsis: jsonData.synopsis || "",
       manuscript: jsonData.manuscript || "",
-      query_letter: "",
+      query_letter: jsonData.query_letter || "",
+      enable_ai: jsonData.enable_ai || false,
+      non_fiction: jsonData.non_fiction || false,
+      format: "comics",
     };
 
-    console.log("Processing query with JSON data:", Object.keys(formDataObj));
+    // {
+    //   "email": "john@example.com",
+    //   "genre": "Historical Fiction",
+    //   "subgenres": ["Espionage", "Political", "Fantasy", "Romance"],
+    //   "target_audience": "middle grade",
+    //   "comps": ["The Book Thief", "Number the Stars"],
+    //   "themes": ["Friendship", "Courage", "Loyalty"],
+    //   "synopsis": "A young spy in WWII France uncovers secrets that could save her family.",
+    //   "query_letter": "Dear Agent, I am submitting my manuscript for your consideration...",
+    //   "manuscript": "Once upon a time in war-torn Europe, a girl named Elise...",
+    //   "enable_ai": true,
+    //   "non_fiction": true,
+    //   "format": "comics"
+    //   }
+
+    console.log("============== Form Data Object ==============", formDataObj);
+
+    // const test = {
+    //   email: "john@example.com",
+    //   genre: "historical fiction",
+    //   subgenres: ["espionage", "political thriller"],
+    //   target_audience: "middle grade",
+    //   comps: ["the book thief", "number the stars"],
+    //   themes: ["friendship", "courage", "loyalty"],
+    //   synopsis:
+    //     "A young spy in WWII France uncovers secrets that could save her family.",
+    //   query_letter:
+    //     "Dear Agent, I am submitting my manuscript for your consideration...",
+    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
+    //   enable_ai: true,
+    //   non_fiction: true,
+    //   format: "comics",
+    // };
 
     const externalRes = await fetch(
-      "http://querybot-api.onrender.com/submit-form",
+      `http://querybot-api.onrender.com/submit-form?limit=21&last_index=0`,
       {
         method: "POST",
         headers: {

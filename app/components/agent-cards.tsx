@@ -31,10 +31,10 @@ export const AgentCards = ({
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
             <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-            {agent.total_score && (
+            {agent.score && (
               <p className="text-xl font-semibold flex items-center gap-1">
                 <Star className="w-6 h-6" />
-                {agent.total_score}
+                {agent.score}
               </p>
             )}
           </div>

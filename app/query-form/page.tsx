@@ -21,19 +21,18 @@ import Combobox from "../ui-primitives/combobox";
 import {
   genreOptions,
   subgenreOptions,
-  specialAudienceOptions,
+  // specialAudienceOptions,
 } from "../constants";
-import { Select } from "../ui-primitives/select";
-import { SelectContent } from "../ui-primitives/select";
-import { SelectValue } from "../ui-primitives/select";
-import { SelectTrigger } from "../ui-primitives/select";
-import { SelectItem } from "../ui-primitives/select";
+// import { Select } from "../ui-primitives/select";
+// import { SelectContent } from "../ui-primitives/select";
+// import { SelectValue } from "../ui-primitives/select";
+// import { SelectTrigger } from "../ui-primitives/select";
+// import { SelectItem } from "../ui-primitives/select";
 
 type FormState = {
   email: string;
   genre: string;
   subgenres: string[];
-  special_audience: string;
   target_audience: string;
   comps: { title: string; author: string }[];
   themes: string;
@@ -42,14 +41,13 @@ type FormState = {
 };
 
 const QueryForm = () => {
-  const { saveMatches, saveFormData } = useAgentMatches();
+  const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
     email: "",
     genre: "",
     subgenres: [],
-    special_audience: "",
     target_audience: "",
     comps: [{ title: "", author: "" }],
     themes: "",
@@ -57,8 +55,9 @@ const QueryForm = () => {
     manuscript: undefined,
   });
 
+  // TODO: add this back in later: manuscriptText,
   const {
-    manuscriptText,
+    // manuscriptText,
     processManuscript,
     status: manuscriptStatus,
   } = useManuscriptProcessor();
@@ -81,9 +80,9 @@ const QueryForm = () => {
     });
   };
 
-  const handleSpecialAudienceChange = (value: string) => {
-    setForm((prev) => ({ ...prev, special_audience: value }));
-  };
+  // const handleSpecialAudienceChange = (value: string) => {
+  //   setForm((prev) => ({ ...prev, special_audience: value }));
+  // };
 
   const handleTargetAudienceChange = (
     e: React.ChangeEvent<HTMLTextAreaElement>
@@ -139,7 +138,7 @@ const QueryForm = () => {
       email: string;
       genre: string;
       subgenres: string[];
-      special_audience: string;
+      // special_audience: string;
       target_audience: string;
       comps: { title: string; author: string }[] | string[];
       themes: string[] | string;
@@ -162,9 +161,10 @@ const QueryForm = () => {
     },
 
     onSuccess: (data) => {
-      console.log("============== Query Form Data ==============", data);
       if (data.matches.length > 0) {
         saveMatches(data.matches);
+        saveFormData(data.parsed);
+        saveNextCursor(data.next_cursor);
       } else {
         setApiMessage("No matches found");
       }
@@ -197,8 +197,6 @@ const QueryForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    saveFormData(form);
-
     const themes = formatThemes(form.themes);
     const comps = formatComps(form.comps);
 
@@ -207,12 +205,16 @@ const QueryForm = () => {
       email: form.email,
       genre: form.genre,
       subgenres: form.subgenres,
-      special_audience: form.special_audience,
       target_audience: form.target_audience,
       comps: comps,
       themes: themes,
       synopsis: form.synopsis,
-      manuscript: manuscriptText, // Use the processed manuscript text
+      manuscript: "Once upon a time in war-torn Europe, a girl named Elise...", // add this back in later: manuscriptText,
+      enable_ai: true,
+      non_fiction: true,
+      query_letter:
+        "Dear Agent, I am submitting my manuscript for your consideration...",
+      format: "comics",
     };
 
     window.scrollTo({
@@ -278,7 +280,7 @@ const QueryForm = () => {
                   handleChange={handleSubgenreChange}
                 />
               </div>
-              <div className="w-full">
+              {/* <div className="w-full">
                 <label className="font-semibold mb-2 block">
                   Special Audience
                 </label>
@@ -297,7 +299,7 @@ const QueryForm = () => {
                     ))}
                   </SelectContent>
                 </Select>
-              </div>
+              </div> */}
               <div className="w-full">
                 <label className="font-semibold mb-2 block">
                   Target Audience

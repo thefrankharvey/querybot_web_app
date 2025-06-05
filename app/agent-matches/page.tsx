@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { AgentCards } from "../components/agent-cards";
 import { Button } from "../ui-primitives/button";
+import { Pagination } from "../ui-primitives/pagination";
 import {
   useAgentMatches,
   AgentMatchesProvider,
@@ -11,6 +12,14 @@ import {
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { useAuth } from "@clerk/nextjs";
+import {
+  PaginationContent,
+  PaginationItem,
+  // PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "../ui-primitives/pagination";
+import { useMutation } from "@tanstack/react-query";
 
 declare global {
   interface Window {
@@ -31,7 +40,7 @@ const AgentMatchesInner = ({
   return (
     <>
       <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
-        You have {matches.length} agent matches!
+        Agent matches
       </h1>
       <div>
         <Link href="/query-form" className="flex items-center gap-2 mb-4">
@@ -239,11 +248,102 @@ const AgentMatchesWithPaywall = () => {
 };
 
 const AgentMatchesWithOutPaywall = () => {
-  const { matches } = useAgentMatches();
+  const {
+    matches,
+    // nextCursorCount,
+    // formData,
+    saveMatches,
+    saveFormData,
+    saveNextCursor,
+  } = useAgentMatches();
+  const [currentPage, setCurrentPage] = useState(1);
+  const matchesPerPage = 9;
+  const totalPages = Math.ceil(matches.length / matchesPerPage);
+
+  useMutation({
+    mutationFn: async (formData) => {
+      const res = await fetch("/api/query", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) {
+        throw new Error(`Request failed: ${res.status}`);
+      }
+
+      return res.json();
+    },
+
+    onSuccess: (data) => {
+      if (data.matches.length > 0) {
+        saveMatches(data.matches);
+        saveFormData(data.parsed);
+        saveNextCursor(data.next_cursor);
+      }
+    },
+    onError: (error) => {
+      console.error(error);
+    },
+  });
+
+  const paginatedMatches = matches.slice(
+    (currentPage - 1) * matchesPerPage,
+    currentPage * matchesPerPage
+  );
+
+  const handlePageChange = (page: number) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="pt-30 min-h-[700px]">
-      <AgentMatchesInner matches={matches} hasProPlan={true} />
+      <AgentMatchesInner matches={paginatedMatches} hasProPlan={true} />
+      {totalPages > 1 && (
+        <Pagination className="mt-8">
+          <PaginationContent>
+            <PaginationItem>
+              <PaginationPrevious
+                onClick={() => handlePageChange(currentPage - 1)}
+                aria-disabled={currentPage === 1}
+                tabIndex={currentPage === 1 ? -1 : 0}
+                style={{
+                  pointerEvents: currentPage === 1 ? "none" : "auto",
+                  opacity: currentPage === 1 ? 0.5 : 1,
+                }}
+              />
+            </PaginationItem>
+            {/* {Array.from({ length: totalPages }, (_, i) => (
+              <PaginationItem key={i}>
+                <PaginationLink
+                  className="bg-white text-black"
+                  isActive={currentPage === i + 1}
+                  onClick={() => handlePageChange(i + 1)}
+                  href="#"
+                >
+                  {i + 1}
+                </PaginationLink>
+              </PaginationItem>
+            ))} */}
+            <PaginationItem>
+              <PaginationNext
+                onClick={() => handlePageChange(currentPage + 1)}
+                aria-disabled={currentPage === totalPages}
+                tabIndex={currentPage === totalPages ? -1 : 0}
+                style={{
+                  pointerEvents: currentPage === totalPages ? "none" : "auto",
+                  opacity: currentPage === totalPages ? 0.5 : 1,
+                }}
+              />
+            </PaginationItem>
+          </PaginationContent>
+        </Pagination>
+      )}
     </div>
   );
 };

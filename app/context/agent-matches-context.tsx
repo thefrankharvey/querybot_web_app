@@ -26,7 +26,7 @@ export interface AgentMatch {
   querytracker?: string;
   sales?: string;
   submission_req: string;
-  total_score: number;
+  score: number;
   twitter_handle?: string;
   twitter_url?: string;
   website?: string;
@@ -38,7 +38,7 @@ export interface FormData {
   subgenres: string[];
   special_audience: string;
   target_audience: string;
-  comps: { title: string; author: string }[];
+  comps: string[];
   themes: string;
   synopsis: string;
   manuscript?: File;
@@ -62,9 +62,31 @@ const useAgentData = () => {
     return [];
   };
 
+  const fetchNextCursorCount = async (): Promise<number | null> => {
+    const stored = localStorage.getItem("future_request_count");
+    if (stored) return JSON.parse(stored);
+    return null;
+  };
+
+  const fetchFormData = async (): Promise<FormData | null> => {
+    const stored = localStorage.getItem("query_form_data");
+    if (stored) return JSON.parse(stored);
+    return null;
+  };
+
   const { data: matches = [], isLoading } = useQuery({
     queryKey: ["agentMatches"],
     queryFn: fetchMatches,
+  });
+
+  const { data: nextCursorCount = null } = useQuery({
+    queryKey: ["nextCursorCount"],
+    queryFn: fetchNextCursorCount,
+  });
+
+  const { data: formData = null } = useQuery({
+    queryKey: ["formData"],
+    queryFn: fetchFormData,
   });
 
   const saveMatchesMutation = useMutation({
@@ -84,20 +106,33 @@ const useAgentData = () => {
     },
   });
 
+  const saveNextCursor = useMutation({
+    mutationFn: (count: number) => {
+      localStorage.setItem("future_request_count", JSON.stringify(count));
+      return Promise.resolve();
+    },
+  });
+
   return {
     matches,
+    nextCursorCount,
+    formData,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
+    saveNextCursor: (count: number) => saveNextCursor.mutate(count),
   };
 };
 
 // Context type definition
 interface MatchesContextType {
   matches: AgentMatch[];
+  nextCursorCount: number | null;
+  formData: FormData | null;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
+  saveNextCursor: (count: number) => void;
 }
 
 // Create context
@@ -122,15 +157,26 @@ function AgentMatchesContextProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const { matches, isLoading, saveMatches, saveFormData } = useAgentData();
+  const {
+    matches,
+    nextCursorCount,
+    formData,
+    isLoading,
+    saveMatches,
+    saveFormData,
+    saveNextCursor,
+  } = useAgentData();
 
   return (
     <MatchesContext.Provider
       value={{
         matches,
+        nextCursorCount,
+        formData,
         isLoading,
         saveMatches,
         saveFormData,
+        saveNextCursor,
       }}
     >
       {children}
