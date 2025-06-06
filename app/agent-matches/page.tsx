@@ -8,6 +8,7 @@ import {
   useAgentMatches,
   AgentMatchesProvider,
   AgentMatch,
+  FormData,
 } from "../context/agent-matches-context";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -248,26 +249,20 @@ const AgentMatchesWithPaywall = () => {
 };
 
 const AgentMatchesWithOutPaywall = () => {
-  const {
-    matches,
-    // nextCursorCount,
-    // formData,
-    saveMatches,
-    saveFormData,
-    saveNextCursor,
-  } = useAgentMatches();
-  const [currentPage, setCurrentPage] = useState(1);
-  const matchesPerPage = 9;
-  const totalPages = Math.ceil(matches.length / matchesPerPage);
+  const { matches, formData, saveMatches, nextCursorCount, saveNextCursor } =
+    useAgentMatches();
+  console.log("nextCursorCount", nextCursorCount);
+  const nextCursorRef = useRef(nextCursorCount || 21);
+  const currentCursorRef = useRef(nextCursorCount ? nextCursorCount - 21 : 0);
 
-  useMutation({
-    mutationFn: async (formData) => {
-      const res = await fetch("/api/query", {
+  const queryMutation = useMutation({
+    mutationFn: async (params: { formData: FormData; nextCursor: number }) => {
+      const res = await fetch(`/api/query?last_index=${params.nextCursor}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(params.formData),
       });
 
       if (!res.ok) {
@@ -280,8 +275,10 @@ const AgentMatchesWithOutPaywall = () => {
     onSuccess: (data) => {
       if (data.matches.length > 0) {
         saveMatches(data.matches);
-        saveFormData(data.parsed);
-        saveNextCursor(data.next_cursor);
+        if (data.next_cursor !== null) {
+          nextCursorRef.current = data.next_cursor;
+          saveNextCursor(data.next_cursor);
+        }
       }
     },
     onError: (error) => {
@@ -289,61 +286,62 @@ const AgentMatchesWithOutPaywall = () => {
     },
   });
 
-  const paginatedMatches = matches.slice(
-    (currentPage - 1) * matchesPerPage,
-    currentPage * matchesPerPage
-  );
-
-  const handlePageChange = (page: number) => {
-    if (page >= 1 && page <= totalPages) {
-      setCurrentPage(page);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+  const handleNextPage = () => {
+    if (formData) {
+      currentCursorRef.current = nextCursorRef.current;
+      queryMutation.mutate({
+        formData,
+        nextCursor: nextCursorRef.current,
+      });
     }
+    window.scrollTo({ top: 0 });
   };
+
+  const handlePreviousPage = () => {
+    if (formData) {
+      const updatedCursor = currentCursorRef.current - 21;
+      currentCursorRef.current = updatedCursor;
+
+      queryMutation.mutate({
+        formData,
+        nextCursor: updatedCursor,
+      });
+    }
+    window.scrollTo({ top: 0 });
+  };
+
+  console.log("currentCursorRef.current", currentCursorRef.current);
+  console.log("nextCursorRef.current", nextCursorRef.current);
 
   return (
     <div className="pt-30 min-h-[700px]">
-      <AgentMatchesInner matches={paginatedMatches} hasProPlan={true} />
-      {totalPages > 1 && (
-        <Pagination className="mt-8">
-          <PaginationContent>
-            <PaginationItem>
-              <PaginationPrevious
-                onClick={() => handlePageChange(currentPage - 1)}
-                aria-disabled={currentPage === 1}
-                tabIndex={currentPage === 1 ? -1 : 0}
-                style={{
-                  pointerEvents: currentPage === 1 ? "none" : "auto",
-                  opacity: currentPage === 1 ? 0.5 : 1,
-                }}
-              />
-            </PaginationItem>
-            {/* {Array.from({ length: totalPages }, (_, i) => (
-              <PaginationItem key={i}>
-                <PaginationLink
-                  className="bg-white text-black"
-                  isActive={currentPage === i + 1}
-                  onClick={() => handlePageChange(i + 1)}
-                  href="#"
-                >
-                  {i + 1}
-                </PaginationLink>
-              </PaginationItem>
-            ))} */}
-            <PaginationItem>
-              <PaginationNext
-                onClick={() => handlePageChange(currentPage + 1)}
-                aria-disabled={currentPage === totalPages}
-                tabIndex={currentPage === totalPages ? -1 : 0}
-                style={{
-                  pointerEvents: currentPage === totalPages ? "none" : "auto",
-                  opacity: currentPage === totalPages ? 0.5 : 1,
-                }}
-              />
-            </PaginationItem>
-          </PaginationContent>
-        </Pagination>
-      )}
+      <AgentMatchesInner matches={matches} hasProPlan={true} />
+      <Pagination className="mt-8">
+        <PaginationContent>
+          <PaginationItem>
+            <PaginationPrevious
+              onClick={handlePreviousPage}
+              aria-disabled={currentCursorRef.current === 0}
+              tabIndex={currentCursorRef.current === 0 ? -1 : 0}
+              style={{
+                pointerEvents: currentCursorRef.current === 0 ? "none" : "auto",
+                opacity: currentCursorRef.current === 0 ? 0.5 : 1,
+              }}
+            />
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationNext
+              onClick={handleNextPage}
+              aria-disabled={matches.length < 21}
+              tabIndex={matches.length < 21 ? -1 : 0}
+              style={{
+                pointerEvents: matches.length < 21 ? "none" : "auto",
+                opacity: matches.length < 21 ? 0.5 : 1,
+              }}
+            />
+          </PaginationItem>
+        </PaginationContent>
+      </Pagination>
     </div>
   );
 };

@@ -5,12 +5,13 @@ import { ArrowLeft, MinusIcon, PlusIcon } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 import { Input } from "../ui-primitives/input";
 import MultiSelect from "../ui-primitives/multi-select";
-import { formatComps, formatThemes } from "../utils";
+// import { formatComps, formatThemes } from "../utils";
 import { Textarea } from "../ui-primitives/textarea";
 import { useDropzone } from "react-dropzone";
 import {
   useAgentMatches,
   AgentMatchesProvider,
+  FormData,
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
@@ -18,16 +19,7 @@ import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
 import BookLoader from "../components/book-loader";
 import Combobox from "../ui-primitives/combobox";
-import {
-  genreOptions,
-  subgenreOptions,
-  // specialAudienceOptions,
-} from "../constants";
-// import { Select } from "../ui-primitives/select";
-// import { SelectContent } from "../ui-primitives/select";
-// import { SelectValue } from "../ui-primitives/select";
-// import { SelectTrigger } from "../ui-primitives/select";
-// import { SelectItem } from "../ui-primitives/select";
+import { genreOptions, subgenreOptions } from "../constants";
 
 type FormState = {
   email: string;
@@ -80,10 +72,6 @@ const QueryForm = () => {
     });
   };
 
-  // const handleSpecialAudienceChange = (value: string) => {
-  //   setForm((prev) => ({ ...prev, special_audience: value }));
-  // };
-
   const handleTargetAudienceChange = (
     e: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
@@ -134,18 +122,8 @@ const QueryForm = () => {
   });
 
   const queryMutation = useMutation({
-    mutationFn: async (formData: {
-      email: string;
-      genre: string;
-      subgenres: string[];
-      // special_audience: string;
-      target_audience: string;
-      comps: { title: string; author: string }[] | string[];
-      themes: string[] | string;
-      synopsis: string;
-      manuscript: string;
-    }) => {
-      const res = await fetch("/api/query", {
+    mutationFn: async (formData: FormData) => {
+      const res = await fetch("/api/query?last_index=0", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -163,7 +141,6 @@ const QueryForm = () => {
     onSuccess: (data) => {
       if (data.matches.length > 0) {
         saveMatches(data.matches);
-        saveFormData(data.parsed);
         saveNextCursor(data.next_cursor);
       } else {
         setApiMessage("No matches found");
@@ -185,7 +162,7 @@ const QueryForm = () => {
   //   genre: "historical fiction",
   //   subgenres: ["espionage", "political"],
   //   special_audience: "middle grade",
-  //   target_audience: Readers aged 10-14 interested in history and adventure,
+  //   target_audience: Readers aged 10-14 interested in history and adventure.
   //   comps: the book thief,
   //   themes: friendship, courage, loyalty
   //   synopsis:
@@ -197,31 +174,48 @@ const QueryForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const themes = formatThemes(form.themes);
-    const comps = formatComps(form.comps);
+    // const themes = formatThemes(form.themes);
+    // const comps = formatComps(form.comps);
 
     // Create JSON payload instead of FormData
+
+    // const payload = {
+    //   email: form.email,
+    //   genre: form.genre,
+    //   subgenres: form.subgenres,
+    //   target_audience: form.target_audience,
+    //   comps: comps,
+    //   themes: themes,
+    //   synopsis: form.synopsis,
+    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...", // add this back in later: manuscriptText,
+    //   enable_ai: true,
+    //   non_fiction: true,
+    //   query_letter:
+    //     "Dear Agent, I am submitting my manuscript for your consideration...",
+    //   format: "comics",
+    // };
+
     const payload = {
-      email: form.email,
-      genre: form.genre,
-      subgenres: form.subgenres,
-      target_audience: form.target_audience,
-      comps: comps,
-      themes: themes,
-      synopsis: form.synopsis,
-      manuscript: "Once upon a time in war-torn Europe, a girl named Elise...", // add this back in later: manuscriptText,
-      enable_ai: true,
-      non_fiction: true,
+      email: "john@example.com",
+      genre: "historical fiction",
+      subgenres: ["espionage", "political"],
+      special_audience: "middle grade",
+      target_audience:
+        "Readers aged 10-14 interested in history and adventure.",
+      comps: ["the book thief"],
+      themes: ["friendship", "courage", "loyalty"],
+      synopsis:
+        "A young spy in WWII France uncovers secrets that could save her family.",
       query_letter:
         "Dear Agent, I am submitting my manuscript for your consideration...",
-      format: "comics",
+      manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
     };
 
+    saveFormData(payload);
+    queryMutation.mutate(payload);
     window.scrollTo({
       top: 0,
     });
-
-    queryMutation.mutate(payload);
   };
 
   return (

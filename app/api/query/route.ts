@@ -6,8 +6,8 @@ export interface QueryFormData {
   genre: string;
   subgenres: string[];
   target_audience: string;
-  comps: { title: string; author: string }[] | string[];
-  themes: string[] | string;
+  comps: string[];
+  themes: string[];
   synopsis: string;
   manuscript?: string; // Now always a string, not a file
   query_letter?: string;
@@ -21,6 +21,9 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
+    // Get last_index from URL parameters
+    const url = new URL(req.url);
+    const last_index = url.searchParams.get("last_index") || "0";
     const jsonData = await req.json();
 
     const formDataObj: QueryFormData = {
@@ -42,42 +45,8 @@ export async function POST(req: NextRequest) {
       format: "comics",
     };
 
-    // {
-    //   "email": "john@example.com",
-    //   "genre": "Historical Fiction",
-    //   "subgenres": ["Espionage", "Political", "Fantasy", "Romance"],
-    //   "target_audience": "middle grade",
-    //   "comps": ["The Book Thief", "Number the Stars"],
-    //   "themes": ["Friendship", "Courage", "Loyalty"],
-    //   "synopsis": "A young spy in WWII France uncovers secrets that could save her family.",
-    //   "query_letter": "Dear Agent, I am submitting my manuscript for your consideration...",
-    //   "manuscript": "Once upon a time in war-torn Europe, a girl named Elise...",
-    //   "enable_ai": true,
-    //   "non_fiction": true,
-    //   "format": "comics"
-    //   }
-
-    console.log("============== Form Data Object ==============", formDataObj);
-
-    // const test = {
-    //   email: "john@example.com",
-    //   genre: "historical fiction",
-    //   subgenres: ["espionage", "political thriller"],
-    //   target_audience: "middle grade",
-    //   comps: ["the book thief", "number the stars"],
-    //   themes: ["friendship", "courage", "loyalty"],
-    //   synopsis:
-    //     "A young spy in WWII France uncovers secrets that could save her family.",
-    //   query_letter:
-    //     "Dear Agent, I am submitting my manuscript for your consideration...",
-    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
-    //   enable_ai: true,
-    //   non_fiction: true,
-    //   format: "comics",
-    // };
-
     const externalRes = await fetch(
-      `http://querybot-api.onrender.com/submit-form?limit=21&last_index=0`,
+      `http://querybot-api.onrender.com/submit-form?limit=21&last_index=${last_index}`,
       {
         method: "POST",
         headers: {

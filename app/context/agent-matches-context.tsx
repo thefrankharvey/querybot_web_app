@@ -36,12 +36,12 @@ export interface FormData {
   email: string;
   genre: string;
   subgenres: string[];
-  special_audience: string;
   target_audience: string;
   comps: string[];
-  themes: string;
+  themes: string[];
   synopsis: string;
-  manuscript?: File;
+  // manuscript?: File; TODO: add this file back in when it's time
+  manuscript: string;
 }
 
 // Create a client
@@ -79,14 +79,21 @@ const useAgentData = () => {
     queryFn: fetchMatches,
   });
 
+  const { data: formData = null } = useQuery({
+    queryKey: ["formData"],
+    queryFn: fetchFormData,
+  });
+
   const { data: nextCursorCount = null } = useQuery({
     queryKey: ["nextCursorCount"],
     queryFn: fetchNextCursorCount,
   });
 
-  const { data: formData = null } = useQuery({
-    queryKey: ["formData"],
-    queryFn: fetchFormData,
+  const saveNextCursor = useMutation({
+    mutationFn: (count: number) => {
+      localStorage.setItem("future_request_count", JSON.stringify(count));
+      return Promise.resolve();
+    },
   });
 
   const saveMatchesMutation = useMutation({
@@ -106,13 +113,6 @@ const useAgentData = () => {
     },
   });
 
-  const saveNextCursor = useMutation({
-    mutationFn: (count: number) => {
-      localStorage.setItem("future_request_count", JSON.stringify(count));
-      return Promise.resolve();
-    },
-  });
-
   return {
     matches,
     nextCursorCount,
@@ -127,12 +127,12 @@ const useAgentData = () => {
 // Context type definition
 interface MatchesContextType {
   matches: AgentMatch[];
-  nextCursorCount: number | null;
   formData: FormData | null;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
   saveNextCursor: (count: number) => void;
+  nextCursorCount: number | null;
 }
 
 // Create context
@@ -159,12 +159,12 @@ function AgentMatchesContextProvider({
 }) {
   const {
     matches,
-    nextCursorCount,
     formData,
     isLoading,
     saveMatches,
     saveFormData,
     saveNextCursor,
+    nextCursorCount,
   } = useAgentData();
 
   return (
