@@ -9,6 +9,21 @@ export function cn(...inputs: ClassValue[]) {
 
 // QUERY FORM UTILS ========================================================
 
+export type QueryPayload = {
+  email: string;
+  genre: string;
+  subgenres: string[];
+  target_audience: string;
+  comps: string[];
+  themes: string[];
+  synopsis: string;
+  manuscript: string;
+  enable_ai?: boolean;
+  non_fiction?: boolean;
+  query_letter?: string;
+  format?: string;
+};
+
 export const formatComps = (comps: { title: string; author: string }[]) => {
   const result = [];
   for (const comp of comps) {
@@ -22,6 +37,34 @@ export const formatComps = (comps: { title: string; author: string }[]) => {
 
 export const formatThemes = (themes: string) => {
   return themes.split(",").map((theme) => theme.trim());
+};
+
+export const validateQuery = (payload: QueryPayload) => {
+  const requiredFields = [
+    { field: "email", label: "Email" },
+    { field: "genre", label: "Genre" },
+    { field: "subgenres", label: "Subgenres" },
+    { field: "target_audience", label: "Target audience" },
+    { field: "comps", label: "Comps" },
+    { field: "themes", label: "Themes" },
+    { field: "synopsis", label: "Synopsis" },
+    { field: "manuscript", label: "Manuscript" },
+    { field: "enable_ai", label: "Enable AI" },
+    { field: "non_fiction", label: "Non-fiction" },
+    { field: "query_letter", label: "Query letter" },
+    { field: "format", label: "Format" },
+  ] as const;
+
+  for (const { field, label } of requiredFields) {
+    if (typeof payload[field] === "object" && payload[field].length === 0) {
+      return { error: `${label} required`, isValid: false };
+    }
+    if (!payload[field]) {
+      return { error: `${label} required`, isValid: false };
+    }
+  }
+
+  return { error: null, isValid: true };
 };
 
 // LOCAL STORAGE UTILS ========================================================

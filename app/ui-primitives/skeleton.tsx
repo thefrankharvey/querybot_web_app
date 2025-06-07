@@ -14,10 +14,8 @@ const Skeleton = React.forwardRef<HTMLDivElement, SkeletonProps>(
       <div
         ref={forwardedRef}
         aria-hidden
-        className={cn("bg-white animate-pulse rounded-md", className)}
-      >
-        {children}
-      </div>
+        className={cn("bg-gray-100 animate-pulse rounded-md", className)}
+      />
     );
   }
 );

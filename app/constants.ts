@@ -149,3 +149,5 @@ export const specialAudienceOptions = [
   "children/picture book",
   "none",
 ];
+
+export const QUERY_LIMIT = 21;

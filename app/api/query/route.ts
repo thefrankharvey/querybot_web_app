@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
       query_letter: jsonData.query_letter || "",
       enable_ai: jsonData.enable_ai || false,
       non_fiction: jsonData.non_fiction || false,
-      format: "comics",
+      format: jsonData.format || "",
     };
 
     const externalRes = await fetch(

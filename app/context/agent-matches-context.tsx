@@ -68,6 +68,12 @@ const useAgentData = () => {
     return null;
   };
 
+  const fetchCurrentCursor = async (): Promise<number> => {
+    const stored = localStorage.getItem("current_cursor");
+    if (stored) return JSON.parse(stored);
+    return 0;
+  };
+
   const fetchFormData = async (): Promise<FormData | null> => {
     const stored = localStorage.getItem("query_form_data");
     if (stored) return JSON.parse(stored);
@@ -89,10 +95,28 @@ const useAgentData = () => {
     queryFn: fetchNextCursorCount,
   });
 
+  const { data: currentCursor = 0 } = useQuery({
+    queryKey: ["currentCursor"],
+    queryFn: fetchCurrentCursor,
+  });
+
   const saveNextCursor = useMutation({
     mutationFn: (count: number) => {
       localStorage.setItem("future_request_count", JSON.stringify(count));
       return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["nextCursorCount"] });
+    },
+  });
+
+  const saveCurrentCursor = useMutation({
+    mutationFn: (cursor: number) => {
+      localStorage.setItem("current_cursor", JSON.stringify(cursor));
+      return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["currentCursor"] });
     },
   });
 
@@ -116,11 +140,13 @@ const useAgentData = () => {
   return {
     matches,
     nextCursorCount,
+    currentCursor,
     formData,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursor.mutate(count),
+    saveCurrentCursor: (cursor: number) => saveCurrentCursor.mutate(cursor),
   };
 };
 
@@ -132,7 +158,9 @@ interface MatchesContextType {
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
   saveNextCursor: (count: number) => void;
+  saveCurrentCursor: (cursor: number) => void;
   nextCursorCount: number | null;
+  currentCursor: number;
 }
 
 // Create context
@@ -164,7 +192,9 @@ function AgentMatchesContextProvider({
     saveMatches,
     saveFormData,
     saveNextCursor,
+    saveCurrentCursor,
     nextCursorCount,
+    currentCursor,
   } = useAgentData();
 
   return (
@@ -172,11 +202,13 @@ function AgentMatchesContextProvider({
       value={{
         matches,
         nextCursorCount,
+        currentCursor,
         formData,
         isLoading,
         saveMatches,
         saveFormData,
         saveNextCursor,
+        saveCurrentCursor,
       }}
     >
       {children}
