@@ -113,12 +113,12 @@ const QueryForm = () => {
       manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
     };
 
-    const { error, isValid } = validateQuery(payload);
+    // const { error, isValid } = validateQuery(payload);
 
-    if (!isValid && error) {
-      setApiMessage(error);
-      return;
-    }
+    // if (!isValid && error) {
+    //   setApiMessage(error);
+    //   return;
+    // }
 
     // const themes = formatThemes(form.themes);
     // const comps = formatComps(form.comps);
