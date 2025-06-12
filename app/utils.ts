@@ -43,7 +43,6 @@ export const validateQuery = (payload: QueryPayload) => {
     { field: "subgenres", label: "Subgenres" },
     { field: "format", label: "Format" },
     { field: "target_audience", label: "Target audience" },
-    { field: "non_fiction", label: "Non-fiction" },
   ] as const;
 
   for (const { field, label } of requiredFields) {

@@ -24,6 +24,7 @@ import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
 import Email from "./components/email";
 import Format from "./components/format";
+import FictionRadio from "./components/fiction-radio";
 
 export type FormState = {
   email: string;
@@ -116,19 +117,49 @@ const QueryForm = () => {
     //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
     // };
 
+    //     comps
+    // :
+    // []
+    // email
+    // :
+    // "test@test.com"
+    // enable_ai
+    // :
+    // true
+    // format
+    // :
+    // "novel"
+    // genre
+    // :
+    // "historical fiction"
+    // non_fiction
+    // :
+    // false
+    // subgenres
+    // :
+    // (3) ['political thriller', 'psychological thriller', 'apocalyptic']
+    // target_audience
+    // :
+    // "adult"
+    // themes
+    // :
+    // (3) ['current-affairspolitics', 'history-politics-current-affair', 'politicscurrent-affair']
+
     const comps = formatComps(form.comps);
 
     const payload = {
       email: form.email,
       genre: form.genre,
       subgenres: form.subgenres,
-      format: "comics",
+      format: form.format,
       target_audience: form.target_audience,
       comps: comps,
       themes: form.themes,
       enable_ai: true,
-      non_fiction: true,
+      non_fiction: form.non_fiction,
     };
+
+    console.log("payload", payload);
 
     const { error, isValid } = validateQuery(payload);
 
@@ -172,6 +203,7 @@ const QueryForm = () => {
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[640px] mx-auto shadow-lg">
               <Email form={form} setForm={setForm} />
+              <FictionRadio form={form} setForm={setForm} />
               <Genre setForm={setForm} />
               <Subgenres setForm={setForm} />
               <Format setForm={setForm} />

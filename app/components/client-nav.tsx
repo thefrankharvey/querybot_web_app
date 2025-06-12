@@ -5,14 +5,14 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { cn } from "@/app/utils";
 import { Hamburger } from "./hamburger";
-import {
-  SignUpButton,
-  SignedOut,
-  SignedIn,
-  SignInButton,
-  useClerk,
-  SignOutButton,
-} from "@clerk/nextjs";
+// import {
+//   SignUpButton,
+//   SignedOut,
+//   SignedIn,
+//   SignInButton,
+//   useClerk,
+//   SignOutButton,
+// } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 
 function ScrollToTop() {
@@ -28,7 +28,7 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
-  const { openUserProfile } = useClerk();
+  // const { openUserProfile } = useClerk();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,14 +63,14 @@ const ClientNav = () => {
           />
         </Link>
         <div className="hidden md:flex items-center gap-4">
-          <SignedOut>
+          {/* <SignedOut>
             <div className="cursor-pointer text-base p-2 px-4 rounded-md font-semibold bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300">
               <SignUpButton />
             </div>
             <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
               <SignInButton />
             </div>
-          </SignedOut>
+          </SignedOut> */}
           <Link
             href="/query-form"
             className="text-base font-semibold hover:text-accent transition-all duration-300"
@@ -84,7 +84,7 @@ const ClientNav = () => {
           >
             Try it Free!
           </a>
-          <SignedIn>
+          {/* <SignedIn>
             <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
               <SignOutButton />
             </div>
@@ -94,7 +94,7 @@ const ClientNav = () => {
             >
               Account
             </a>
-          </SignedIn>
+          </SignedIn> */}
         </div>
         <Hamburger />
       </div>
