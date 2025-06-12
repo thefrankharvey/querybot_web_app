@@ -1,6 +1,13 @@
-import { Textarea } from "@/app/ui-primitives/textarea";
 import React from "react";
 import { FormState } from "../page";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/app/ui-primitives/select";
+import { targetAudienceOptions } from "@/app/constants";
 
 const TargetAudience = ({
   form,
@@ -11,15 +18,27 @@ const TargetAudience = ({
 }) => {
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">Target Audience</label>
-      <Textarea
+      <label className="font-semibold mb-2 block">
+        Target Audience<span className="text-accent text-xl font-bold">*</span>
+      </label>
+
+      <Select
         value={form.target_audience}
-        onChange={(e) =>
-          setForm((prev) => ({ ...prev, target_audience: e.target.value }))
+        onValueChange={(value) =>
+          setForm((prev) => ({ ...prev, target_audience: value }))
         }
-        rows={4}
-        className="w-full h-22"
-      />
+      >
+        <SelectTrigger className="w-full">
+          <SelectValue placeholder="Please Select" />
+        </SelectTrigger>
+        <SelectContent>
+          {targetAudienceOptions.map((option) => (
+            <SelectItem key={option.value} value={option.value}>
+              {option.label}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
     </div>
   );
 };

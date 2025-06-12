@@ -15,7 +15,9 @@ const Email = ({
   };
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">Email *</label>
+      <label className="font-semibold mb-2 block">
+        Email <span className="text-accent text-xl font-bold">*</span>
+      </label>
       <Input
         name="email"
         type="email"

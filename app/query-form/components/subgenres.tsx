@@ -18,7 +18,9 @@ const Subgenres = ({
   };
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">Subgenres</label>
+      <label className="font-semibold mb-2 block">
+        Subgenres<span className="text-accent text-xl font-bold">*</span>
+      </label>
       <MultiSelect
         options={subgenreOptions}
         optionTitle="subgenre"

@@ -11,28 +11,30 @@ import {
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
+// import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
 import BookLoader from "../components/book-loader";
-import { validateQuery } from "../utils";
+import { validateQuery, formatComps } from "../utils";
 import Comps from "./components/comps";
-import Manuscript from "./components/manuscript";
+// import Manuscript from "./components/manuscript";
 import Themes from "./components/themes";
-import Synopsis from "./components/synopsis";
+// import Synopsis from "./components/synopsis";
 import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
 import Email from "./components/email";
+import Format from "./components/format";
 
 export type FormState = {
   email: string;
   genre: string;
   subgenres: string[];
+  format: string;
   target_audience: string;
   comps: { title: string; author: string }[];
-  themes: string;
-  synopsis: string;
-  manuscript?: File;
+  themes: string[];
+  enable_ai: boolean;
+  non_fiction: boolean;
 };
 
 const QueryForm = () => {
@@ -43,18 +45,19 @@ const QueryForm = () => {
     email: "",
     genre: "",
     subgenres: [],
+    format: "",
     target_audience: "",
     comps: [{ title: "", author: "" }],
-    themes: "",
-    synopsis: "",
-    manuscript: undefined,
+    themes: [],
+    enable_ai: true,
+    non_fiction: false,
   });
 
-  const {
-    // manuscriptText,
-    processManuscript,
-    status: manuscriptStatus,
-  } = useManuscriptProcessor();
+  // const {
+  //   // manuscriptText,
+  //   processManuscript,
+  //   status: manuscriptStatus,
+  // } = useManuscriptProcessor();
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
@@ -94,53 +97,47 @@ const QueryForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const payload = {
-      email: "john@example.com",
-      genre: "historical fiction",
-      subgenres: [],
-      special_audience: "middle grade",
-      target_audience:
-        "Readers aged 10-14 interested in history and adventure.",
-      comps: ["the book thief"],
-      themes: ["friendship", "courage", "loyalty"],
-      enable_ai: true,
-      non_fiction: true,
-      format: "comics",
-      synopsis:
-        "A young spy in WWII France uncovers secrets that could save her family.",
-      query_letter:
-        "Dear Agent, I am submitting my manuscript for your consideration...",
-      manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
-    };
-
-    // const { error, isValid } = validateQuery(payload);
-
-    // if (!isValid && error) {
-    //   setApiMessage(error);
-    //   return;
-    // }
-
-    // const themes = formatThemes(form.themes);
-    // const comps = formatComps(form.comps);
-
-    // Create JSON payload instead of FormData
-
     // const payload = {
-    //   email: form.email,
-    //   genre: form.genre,
-    //   subgenres: form.subgenres,
+    //   email: "john@example.com",
+    //   genre: "historical fiction",
+    //   subgenres: [],
     //   special_audience: "middle grade",
-    //   target_audience: form.target_audience,
-    //   comps: comps,
-    //   themes: themes,
+    //   target_audience:
+    //     "Readers aged 10-14 interested in history and adventure.",
+    //   comps: ["the book thief"],
+    //   themes: ["friendship", "courage", "loyalty"],
     //   enable_ai: true,
     //   non_fiction: true,
     //   format: "comics",
-    //   synopsis: form.synopsis,
+    //   synopsis:
+    //     "A young spy in WWII France uncovers secrets that could save her family.",
     //   query_letter:
     //     "Dear Agent, I am submitting my manuscript for your consideration...",
-    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...", // add this back in later: manuscriptText,
+    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
     // };
+
+    const comps = formatComps(form.comps);
+
+    const payload = {
+      email: form.email,
+      genre: form.genre,
+      subgenres: form.subgenres,
+      format: "comics",
+      target_audience: form.target_audience,
+      comps: comps,
+      themes: form.themes,
+      enable_ai: true,
+      non_fiction: true,
+    };
+
+    const { error, isValid } = validateQuery(payload);
+
+    if (!isValid && error) {
+      setApiMessage(error);
+      return;
+    }
+
+    // Create JSON payload instead of FormData
 
     saveFormData(payload);
     queryMutation.mutate(payload);
@@ -177,45 +174,26 @@ const QueryForm = () => {
               <Email form={form} setForm={setForm} />
               <Genre setForm={setForm} />
               <Subgenres setForm={setForm} />
-              {/* <div className="w-full">
-                <label className="font-semibold mb-2 block">
-                  Special Audience
-                </label>
-                <Select
-                  value={form.special_audience}
-                  onValueChange={handleSpecialAudienceChange}
-                >
-                  <SelectTrigger className="w-full">
-                    <SelectValue placeholder="Please Select" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {specialAudienceOptions.map((option) => (
-                      <SelectItem key={option} value={option}>
-                        {option}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div> */}
+              <Format setForm={setForm} />
               <TargetAudience form={form} setForm={setForm} />
+              <Themes setForm={setForm} />
               <Comps form={form} setForm={setForm} />
-              <Themes form={form} setForm={setForm} />
-              <Synopsis form={form} setForm={setForm} />
-              <Manuscript
+              {/* <Synopsis form={form} setForm={setForm} /> */}
+              {/* <Manuscript
                 form={form}
                 setForm={setForm}
                 manuscriptStatus={manuscriptStatus}
                 processManuscript={processManuscript}
-              />
+              /> */}
               {apiMessage && (
                 <div className="text-red-500 text-base w-full font-semibold">
                   {apiMessage}
                 </div>
               )}
-              <div className="flex w-full justify-end mt-8">
+              <div className="flex w-full justify-center mt-12">
                 <Button
                   type="submit"
-                  className="cursor-pointer w-1/2 text-lg p-8 font-semibold"
+                  className="cursor-pointer w-1/2 text-lg p-6 font-semibold"
                 >
                   Submit
                 </Button>

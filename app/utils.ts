@@ -13,15 +13,14 @@ export type QueryPayload = {
   email: string;
   genre: string;
   subgenres: string[];
+  format: string;
   target_audience: string;
-  comps: string[];
-  themes: string[];
-  synopsis: string;
-  manuscript: string;
-  enable_ai?: boolean;
-  non_fiction?: boolean;
-  query_letter?: string;
-  format?: string;
+  non_fiction: boolean; // TODO: add this back in when it's time
+  comps?: string[];
+  themes?: string[];
+  synopsis?: string;
+  manuscript?: string;
+  enable_ai?: boolean; // TODO: add this back in when it's time
 };
 
 export const formatComps = (comps: { title: string; author: string }[]) => {
@@ -35,24 +34,16 @@ export const formatComps = (comps: { title: string; author: string }[]) => {
   return result;
 };
 
-export const formatThemes = (themes: string) => {
-  return themes.split(",").map((theme) => theme.trim());
-};
+// Required fields: email, genre, subgenres, target_audience, non_fiction, format
 
 export const validateQuery = (payload: QueryPayload) => {
   const requiredFields = [
     { field: "email", label: "Email" },
     { field: "genre", label: "Genre" },
     { field: "subgenres", label: "Subgenres" },
-    { field: "target_audience", label: "Target audience" },
-    { field: "comps", label: "Comps" },
-    { field: "themes", label: "Themes" },
-    { field: "synopsis", label: "Synopsis" },
-    { field: "manuscript", label: "Manuscript" },
-    { field: "enable_ai", label: "Enable AI" },
-    { field: "non_fiction", label: "Non-fiction" },
-    { field: "query_letter", label: "Query letter" },
     { field: "format", label: "Format" },
+    { field: "target_audience", label: "Target audience" },
+    { field: "non_fiction", label: "Non-fiction" },
   ] as const;
 
   for (const { field, label } of requiredFields) {

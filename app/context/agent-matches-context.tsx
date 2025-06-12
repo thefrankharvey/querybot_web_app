@@ -36,12 +36,15 @@ export interface FormData {
   email: string;
   genre: string;
   subgenres: string[];
+  format: string;
   target_audience: string;
   comps: string[];
   themes: string[];
-  synopsis: string;
+  enable_ai: boolean;
+  non_fiction: boolean;
+  // synopsis: string;
   // manuscript?: File; TODO: add this file back in when it's time
-  manuscript: string;
+  // manuscript?: string;
 }
 
 // Create a client
