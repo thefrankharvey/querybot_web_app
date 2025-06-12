@@ -3,19 +3,24 @@ import { Star } from "lucide-react";
 import Link from "next/link";
 import { cn, isValidData } from "../utils";
 import { AgentMatch } from "../context/agent-matches-context";
+import { Skeleton } from "../ui-primitives/skeleton";
 
 export const AgentCards = ({
   agent,
   index,
   id,
   hasProPlan,
+  isLoading,
 }: {
   agent: AgentMatch;
   hasProPlan?: boolean;
   index: number;
   id: string;
+  isLoading: boolean;
 }) => {
   const isDisabled = index > 2 && !hasProPlan;
+
+  console.log("isLoading", isLoading);
 
   return (
     <div
@@ -30,37 +35,49 @@ export const AgentCards = ({
       <Link href={isDisabled ? "#" : `/agent-matches/${index}`}>
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
-            <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-            {agent.total_score && (
+            <Skeleton isLoading={isLoading} className="w-1/2 h-6">
+              <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+            </Skeleton>
+            <Skeleton isLoading={isLoading} className="w-20 h-6">
               <p className="text-xl font-semibold flex items-center gap-1">
                 <Star className="w-6 h-6" />
-                {agent.total_score}
+                {agent.score}
               </p>
-            )}
+            </Skeleton>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold">Bio:</label>
-            <p className="text-sm line-clamp-3">
-              {isValidData(agent.bio) ? agent.bio : "Info Unavailable"}
-            </p>
+            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+              <p className="text-sm line-clamp-3">
+                {isValidData(agent.bio) ? agent.bio : "Info Unavailable"}
+              </p>
+            </Skeleton>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold">Agency:</label>
-            <p className="text-sm">
-              {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
-            </p>
+            <Skeleton isLoading={isLoading} className="h-6 w-full">
+              <p className="text-sm">
+                {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
+              </p>
+            </Skeleton>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold">Clients:</label>
-            <p className="text-sm line-clamp-3">
-              {isValidData(agent.clients) ? agent.clients : "Info Unavailable"}
-            </p>
+            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+              <p className="text-sm line-clamp-3">
+                {isValidData(agent.clients)
+                  ? agent.clients
+                  : "Info Unavailable"}
+              </p>
+            </Skeleton>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold">Sales:</label>
-            <p className="text-sm line-clamp-3">
-              {isValidData(agent.sales) ? agent.sales : "Info Unavailable"}
-            </p>
+            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+              <p className="text-sm line-clamp-3">
+                {isValidData(agent.sales) ? agent.sales : "Info Unavailable"}
+              </p>
+            </Skeleton>
           </div>
         </div>
       </Link>

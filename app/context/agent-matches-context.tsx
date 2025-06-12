@@ -26,7 +26,7 @@ export interface AgentMatch {
   querytracker?: string;
   sales?: string;
   submission_req: string;
-  total_score: number;
+  score: number;
   twitter_handle?: string;
   twitter_url?: string;
   website?: string;
@@ -36,12 +36,15 @@ export interface FormData {
   email: string;
   genre: string;
   subgenres: string[];
-  special_audience: string;
+  format: string;
   target_audience: string;
-  comps: { title: string; author: string }[];
-  themes: string;
-  synopsis: string;
-  manuscript?: File;
+  comps: string[];
+  themes: string[];
+  enable_ai: boolean;
+  non_fiction: boolean;
+  // synopsis: string;
+  // manuscript?: File; TODO: add this file back in when it's time
+  // manuscript?: string;
 }
 
 // Create a client
@@ -62,9 +65,62 @@ const useAgentData = () => {
     return [];
   };
 
+  const fetchNextCursorCount = async (): Promise<number | null> => {
+    const stored = localStorage.getItem("future_request_count");
+    if (stored) return JSON.parse(stored);
+    return null;
+  };
+
+  const fetchCurrentCursor = async (): Promise<number> => {
+    const stored = localStorage.getItem("current_cursor");
+    if (stored) return JSON.parse(stored);
+    return 0;
+  };
+
+  const fetchFormData = async (): Promise<FormData | null> => {
+    const stored = localStorage.getItem("query_form_data");
+    if (stored) return JSON.parse(stored);
+    return null;
+  };
+
   const { data: matches = [], isLoading } = useQuery({
     queryKey: ["agentMatches"],
     queryFn: fetchMatches,
+  });
+
+  const { data: formData = null } = useQuery({
+    queryKey: ["formData"],
+    queryFn: fetchFormData,
+  });
+
+  const { data: nextCursorCount = null } = useQuery({
+    queryKey: ["nextCursorCount"],
+    queryFn: fetchNextCursorCount,
+  });
+
+  const { data: currentCursor = 0 } = useQuery({
+    queryKey: ["currentCursor"],
+    queryFn: fetchCurrentCursor,
+  });
+
+  const saveNextCursor = useMutation({
+    mutationFn: (count: number) => {
+      localStorage.setItem("future_request_count", JSON.stringify(count));
+      return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["nextCursorCount"] });
+    },
+  });
+
+  const saveCurrentCursor = useMutation({
+    mutationFn: (cursor: number) => {
+      localStorage.setItem("current_cursor", JSON.stringify(cursor));
+      return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["currentCursor"] });
+    },
   });
 
   const saveMatchesMutation = useMutation({
@@ -86,18 +142,28 @@ const useAgentData = () => {
 
   return {
     matches,
+    nextCursorCount,
+    currentCursor,
+    formData,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
+    saveNextCursor: (count: number) => saveNextCursor.mutate(count),
+    saveCurrentCursor: (cursor: number) => saveCurrentCursor.mutate(cursor),
   };
 };
 
 // Context type definition
 interface MatchesContextType {
   matches: AgentMatch[];
+  formData: FormData | null;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
+  saveNextCursor: (count: number) => void;
+  saveCurrentCursor: (cursor: number) => void;
+  nextCursorCount: number | null;
+  currentCursor: number;
 }
 
 // Create context
@@ -122,15 +188,30 @@ function AgentMatchesContextProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const { matches, isLoading, saveMatches, saveFormData } = useAgentData();
+  const {
+    matches,
+    formData,
+    isLoading,
+    saveMatches,
+    saveFormData,
+    saveNextCursor,
+    saveCurrentCursor,
+    nextCursorCount,
+    currentCursor,
+  } = useAgentData();
 
   return (
     <MatchesContext.Provider
       value={{
         matches,
+        nextCursorCount,
+        currentCursor,
+        formData,
         isLoading,
         saveMatches,
         saveFormData,
+        saveNextCursor,
+        saveCurrentCursor,
       }}
     >
       {children}

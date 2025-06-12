@@ -1,17 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 
 // Define the structure of form data
-interface QueryFormData {
+export interface QueryFormData {
   email: string;
   genre: string;
   subgenres: string[];
-  special_audience: string;
   target_audience: string;
-  comps: { title: string; author: string }[] | string[];
-  themes: string[] | string;
+  comps: string[];
+  themes: string[];
   synopsis: string;
   manuscript?: string; // Now always a string, not a file
   query_letter?: string;
+  enable_ai: boolean;
+  non_fiction: boolean;
+  format: string;
 }
 
 export async function POST(req: NextRequest) {
@@ -19,13 +21,15 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
+    // Get last_index from URL parameters
+    const url = new URL(req.url);
+    const last_index = url.searchParams.get("last_index") || "0";
     const jsonData = await req.json();
 
     const formDataObj: QueryFormData = {
       email: jsonData.email || "",
       genre: jsonData.genre || "",
       subgenres: Array.isArray(jsonData.subgenres) ? jsonData.subgenres : [],
-      special_audience: jsonData.special_audience || "",
       target_audience: jsonData.target_audience || "",
       comps: Array.isArray(jsonData.comps) ? jsonData.comps : [],
       themes: Array.isArray(jsonData.themes)
@@ -35,13 +39,14 @@ export async function POST(req: NextRequest) {
         : "",
       synopsis: jsonData.synopsis || "",
       manuscript: jsonData.manuscript || "",
-      query_letter: "",
+      query_letter: jsonData.query_letter || "",
+      enable_ai: jsonData.enable_ai || false,
+      non_fiction: jsonData.non_fiction || false,
+      format: jsonData.format || "",
     };
 
-    console.log("Processing query with JSON data:", Object.keys(formDataObj));
-
     const externalRes = await fetch(
-      "http://querybot-api.onrender.com/submit-form",
+      `http://querybot-api.onrender.com/submit-form?limit=21&last_index=${last_index}`,
       {
         method: "POST",
         headers: {

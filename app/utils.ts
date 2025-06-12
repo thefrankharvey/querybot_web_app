@@ -9,6 +9,20 @@ export function cn(...inputs: ClassValue[]) {
 
 // QUERY FORM UTILS ========================================================
 
+export type QueryPayload = {
+  email: string;
+  genre: string;
+  subgenres: string[];
+  format: string;
+  target_audience: string;
+  non_fiction: boolean; // TODO: add this back in when it's time
+  comps?: string[];
+  themes?: string[];
+  synopsis?: string;
+  manuscript?: string;
+  enable_ai?: boolean; // TODO: add this back in when it's time
+};
+
 export const formatComps = (comps: { title: string; author: string }[]) => {
   const result = [];
   for (const comp of comps) {
@@ -20,8 +34,28 @@ export const formatComps = (comps: { title: string; author: string }[]) => {
   return result;
 };
 
-export const formatThemes = (themes: string) => {
-  return themes.split(",").map((theme) => theme.trim());
+// Required fields: email, genre, subgenres, target_audience, non_fiction, format
+
+export const validateQuery = (payload: QueryPayload) => {
+  const requiredFields = [
+    { field: "email", label: "Email" },
+    { field: "genre", label: "Genre" },
+    { field: "subgenres", label: "Subgenres" },
+    { field: "format", label: "Format" },
+    { field: "target_audience", label: "Target audience" },
+    { field: "non_fiction", label: "Non-fiction" },
+  ] as const;
+
+  for (const { field, label } of requiredFields) {
+    if (typeof payload[field] === "object" && payload[field].length === 0) {
+      return { error: `${label} required`, isValid: false };
+    }
+    if (!payload[field]) {
+      return { error: `${label} required`, isValid: false };
+    }
+  }
+
+  return { error: null, isValid: true };
 };
 
 // LOCAL STORAGE UTILS ========================================================
@@ -60,6 +94,8 @@ export const formatGenres = (genres: string) => {
 
   // List of strings to filter out
   const stringsToFilter = [
+    "closed to submissions",
+    "AALA member",
     "Accepting Submissions",
     "Member of",
     "Special Experience",
@@ -77,7 +113,6 @@ export const formatGenres = (genres: string) => {
     "Rights contacts",
     "International Rights:",
     "Ellen K. Greenberg",
-    "Non-fiction",
     "CLOSED to Submissions",
     "Authors and Illustrators Only",
   ];
