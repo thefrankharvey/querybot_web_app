@@ -11,6 +11,7 @@ import {
 } from "@/app/context/agent-matches-context";
 import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
+import TypeForm from "@/app/components/type-form";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -126,6 +127,7 @@ export default function AgentProfilePage() {
   return (
     <AgentMatchesProvider>
       <AgentProfile />
+      <TypeForm />
     </AgentMatchesProvider>
   );
 }
