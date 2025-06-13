@@ -2,17 +2,20 @@ import { ArrowLeft } from "lucide-react";
 import { AgentMatch } from "../../context/agent-matches-context";
 import { AgentCards } from "../../components/agent-cards";
 import Link from "next/link";
+import { Button } from "@/app/ui-primitives/button";
 
 export const AgentMatchesInner = ({
   matches,
   hasProPlan,
   gridRef,
   isLoading,
+  handleCSVDownload,
 }: {
   matches: AgentMatch[];
   hasProPlan: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
+  handleCSVDownload: () => void;
 }) => {
   return (
     <>
@@ -20,10 +23,18 @@ export const AgentMatchesInner = ({
         Agent matches
       </h1>
       <div>
-        <Link href="/query-form" className="flex items-center gap-2 mb-4">
-          <ArrowLeft className="w-8 h-8" />
-          <h2 className="text-2xl">Back</h2>
-        </Link>
+        <div className="flex justify-between items-center mb-6">
+          <Link href="/query-form" className="flex items-center gap-2">
+            <ArrowLeft className="w-8 h-8" />
+            <h2 className="text-2xl">Back</h2>
+          </Link>
+          <Button
+            onClick={handleCSVDownload}
+            className="cursor-pointer text-lg p-6 font-semibold"
+          >
+            Download Page Results
+          </Button>
+        </div>
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           ref={gridRef}
