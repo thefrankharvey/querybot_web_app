@@ -25,7 +25,6 @@ import Genre from "./components/genre";
 import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
-import TypeForm from "../components/type-form";
 
 export type FormState = {
   email: string;
@@ -243,7 +242,6 @@ export default function QueryFormPage() {
   return (
     <AgentMatchesProvider>
       <QueryForm />
-      <TypeForm />
     </AgentMatchesProvider>
   );
 }

@@ -1,5 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { AgentMatch } from "./context/agent-matches-context";
 
 // HELPER UTILS ========================================================
 
@@ -79,6 +80,26 @@ export const setInLocalStorage = (key: string, item: unknown) => {
   if (typeof window !== "undefined") {
     window.localStorage.setItem(key, JSON.stringify(item));
   }
+};
+
+// CSV UTILS ========================================================
+
+export const formatMatchesForCSV = (matches: AgentMatch[]) => {
+  const result = matches
+    .map((agent) => {
+      const filteredEntries = Object.entries(agent).filter(
+        ([key]) => !key.includes("form_")
+      );
+      return Object.fromEntries(filteredEntries) as Partial<AgentMatch>;
+    })
+    .map((agent) => {
+      return {
+        ...agent,
+        genres: formatGenres(agent.genres || ""),
+      };
+    });
+
+  return result;
 };
 
 // AGENT PROFILE UTILS ========================================================
