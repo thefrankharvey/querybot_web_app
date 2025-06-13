@@ -15,7 +15,7 @@ export const AgentMatchesInner = ({
   hasProPlan: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
-  handleCSVDownload: () => void;
+  handleCSVDownload?: () => void;
 }) => {
   return (
     <>

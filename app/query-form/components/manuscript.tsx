@@ -1,17 +1,17 @@
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { FormState } from "../page";
-import { ManuscriptProcessorStatus } from "@/app/hooks/use-manuscript-processor";
+// import { ManuscriptProcessorStatus } from "@/app/hooks/use-manuscript-processor";
 
 const Manuscript = ({
-  form,
+  // form,
   setForm,
-  manuscriptStatus,
+  // manuscriptStatus,
   processManuscript,
 }: {
-  form: FormState;
+  // form: FormState;
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
-  manuscriptStatus: ManuscriptProcessorStatus;
+  // manuscriptStatus: ManuscriptProcessorStatus;
   processManuscript: (file: File | null | undefined) => Promise<void>;
 }) => {
   const onDrop = useCallback(
@@ -49,6 +49,8 @@ const Manuscript = ({
         ].join(" ")}
       >
         <input {...getInputProps()} />
+        {/* 
+        TODO: Add back in when we it's time
         {form.manuscript ? (
           <div>
             <p>
@@ -69,7 +71,7 @@ const Manuscript = ({
               ? "Drop your file here…"
               : "Drag & drop a document, or click to select"}
           </p>
-        )}
+        )} */}
       </div>
     </div>
   );
