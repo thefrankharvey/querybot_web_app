@@ -9,6 +9,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "../../ui-primitives/pagination";
+import TypeForm from "../../components/type-form";
 
 export const AgentMatchesFull = () => {
   const {
@@ -108,6 +109,7 @@ export const AgentMatchesFull = () => {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
+      <TypeForm />
     </div>
   );
 };
