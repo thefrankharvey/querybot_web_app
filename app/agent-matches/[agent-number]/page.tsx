@@ -12,6 +12,7 @@ import {
 import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
 import TypeForm from "@/app/components/type-form";
+import CopyToClipboard from "@/app/components/copy-to-clipboard";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -45,7 +46,7 @@ const AgentProfile = () => {
         <div className="flex flex-col gap-8">
           <div className="flex justify-between">
             <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-            <p className="text-xl font-semibold flex items-center gap-1">
+            <div className="text-xl font-semibold flex items-center gap-1">
               <TooltipComponent
                 content="Our Agent Rank scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
@@ -55,14 +56,14 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
                   {agent.score}
                 </div>
               </TooltipComponent>
-            </p>
+            </div>
           </div>
           <div className="flex flex-col gap-2">
             {isValidData(agent.email) ? (
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-1">
                   <label className="text-lg font-semibold">Email:</label>
-                  <a href={`mailto:${agent.email}`}>{agent.email}</a>
+                  <CopyToClipboard text={agent.email || ""} />
                 </div>
               </div>
             ) : null}

@@ -26,7 +26,7 @@ export const Comps = ({
 
   return (
     <div className="w-full">
-      <h2 className="text-lg font-semibold mb-1">Comps</h2>
+      <h2 className="text-lg font-semibold mb-1">Comparable Titles</h2>
       <div className="text-muted-foreground text-sm mb-4">
         published books, preferably recent, which compare to yours
       </div>

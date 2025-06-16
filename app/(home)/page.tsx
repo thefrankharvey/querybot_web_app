@@ -1,5 +1,4 @@
 import SlushwireProCard from "../components/slushwire-pro-card";
-import ProductCards from "../components/product-cards";
 import SlushwireActionBlock from "../components/slushwire-action-block";
 
 const Home = async () => {
@@ -26,9 +25,8 @@ const Home = async () => {
           Write Query <br />
           Hook Tools
         </div>
-        <ProductCards />
+        <SlushwireActionBlock />
       </div>
-      <SlushwireActionBlock />
     </div>
   );
 };

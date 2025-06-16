@@ -15,6 +15,7 @@ export interface AgentMatch {
   email?: string;
   extra_interest?: string;
   extra_links?: string;
+  agent_id?: string;
   favorites: string;
   genres: string;
   id: string;
@@ -27,6 +28,7 @@ export interface AgentMatch {
   sales?: string;
   submission_req: string;
   score: number;
+  normalized_score: number;
   twitter_handle?: string;
   twitter_url?: string;
   website?: string;

@@ -1,10 +1,10 @@
 import React from "react";
-import { Star } from "lucide-react";
 import Link from "next/link";
 import { cn, isValidData } from "../utils";
 import { AgentMatch } from "../context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
+import StarRating from "./star-rating";
 
 export const AgentCards = ({
   agent,
@@ -43,8 +43,8 @@ export const AgentCards = ({
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
               >
                 <p className="text-xl font-semibold flex items-center gap-1">
-                  <Star className="w-6 h-6" />
-                  {agent.score}
+                  <StarRating rateNum={agent.normalized_score} />
+                  {agent.normalized_score}
                 </p>
               </TooltipComponent>
             </Skeleton>

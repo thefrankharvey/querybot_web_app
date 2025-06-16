@@ -189,7 +189,7 @@ const QueryForm = () => {
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
             <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4">
-              Query Form
+              Find Agents
             </h1>
             <h2 className="text-lg mb-8">
               We&apos;ll use this information to match you with literary agents

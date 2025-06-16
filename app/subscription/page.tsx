@@ -23,7 +23,7 @@ export default function Subscription() {
             <div className="flex flex-col md:flex-row gap-4 mt-8">
               <Link href="/query-form">
                 <Button className="cursor-pointer text-xl p-8 font-semibold w-full md:w-auto">
-                  QUERY AGENTS
+                  Find Agents
                 </Button>
               </Link>
               {hasAgentMatches && hasAgentMatches.length > 0 && (

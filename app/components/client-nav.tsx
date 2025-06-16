@@ -75,14 +75,14 @@ const ClientNav = () => {
             href="/query-form"
             className="text-base font-semibold hover:text-accent transition-all duration-300"
           >
-            Query Agents
+            Find Agents
           </Link>
           <a
             href="https://writequeryhook.com/slushwire/"
             target="_blank"
             className="text-base font-semibold hover:text-accent transition-all duration-300"
           >
-            Try it Free!
+            Subscribe for Free!
           </a>
           {/* <SignedIn>
             <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
