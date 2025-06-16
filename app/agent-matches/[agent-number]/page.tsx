@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { ArrowLeft, Star } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { isValidData, formatGenres } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
@@ -13,6 +13,7 @@ import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
 import TypeForm from "@/app/components/type-form";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
+import StarRating from "@/app/components/star-rating";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -44,17 +45,18 @@ const AgentProfile = () => {
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">
-          <div className="flex justify-between">
+          <div className="flex justify-between items-center">
             <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-            <div className="text-xl font-semibold flex items-center gap-1">
+            <div className="text-xl font-semibold flex flex-col gap-1">
+              <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
-                content="Our Agent Rank scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
+                content="Our Agent match scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
               >
-                <div className="flex items-center gap-1">
-                  <Star className="w-6 h-6" />
-                  {agent.score}
-                </div>
+                <p className="text-xl font-semibold flex items-center gap-1">
+                  <StarRating rateNum={agent.normalized_score} />
+                  {agent.normalized_score}
+                </p>
               </TooltipComponent>
             </div>
           </div>

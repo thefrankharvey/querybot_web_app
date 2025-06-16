@@ -16,8 +16,8 @@ interface TooltipProps {
 const TooltipComponent = ({ children, content, className }: TooltipProps) => {
   return (
     <Tooltip>
-      <TooltipTrigger>{children}</TooltipTrigger>
-      <TooltipContent className={cn("max-w-xs w-[300px]", className)}>
+      <TooltipTrigger className={className}>{children}</TooltipTrigger>
+      <TooltipContent className={cn("max-w-xs w-[300px]")}>
         <p className="text-sm p-4">{content}</p>
       </TooltipContent>
     </Tooltip>

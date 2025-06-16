@@ -37,18 +37,22 @@ export const AgentCards = ({
             <Skeleton isLoading={isLoading} className="w-1/2 h-6">
               <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
             </Skeleton>
-            <Skeleton isLoading={isLoading} className="w-20 h-6">
+          </div>
+          <Skeleton isLoading={isLoading} className="w-20 h-6">
+            <div className="flex flex-col items-start gap-1 w-fit">
               <TooltipComponent
-                content="Our Agent Rank scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
+                className="text-left"
+                content="Our Agent match scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
               >
+                <label className="text-sm font-semibold">Match Score:</label>
                 <p className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agent.normalized_score} />
                   {agent.normalized_score}
                 </p>
               </TooltipComponent>
-            </Skeleton>
-          </div>
+            </div>
+          </Skeleton>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold">Bio:</label>
             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
