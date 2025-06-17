@@ -180,6 +180,10 @@ export const formatOptions = [
   { value: "interactive_fiction", label: "Interactive Fiction" },
   { value: "zine", label: "Zine" },
   { value: "mixed_media", label: "Mixed Media / Multimedia" },
+  { value: "board_book", label: "Board Book" },
+  { value: "chapter_book", label: "Chapter Book" },
+  { value: "chap_book", label: "Chapbook" },
+  { value: "novelty_gift", label: "Novelty/Gift" },
 ];
 
 export const specialAudienceOptions = [
