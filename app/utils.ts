@@ -85,10 +85,13 @@ export const setInLocalStorage = (key: string, item: unknown) => {
 // CSV UTILS ========================================================
 
 export const formatMatchesForCSV = (matches: AgentMatch[]) => {
+  console.log("matches", matches);
   const result = matches
     .map((agent) => {
       const filteredEntries = Object.entries(agent).filter(
-        ([key]) => !key.includes("form_")
+        ([key]) =>
+          !key.includes("form_") &&
+          !["aala_member", "id", "location", "agent_id"].includes(key)
       );
       return Object.fromEntries(filteredEntries) as Partial<AgentMatch>;
     })

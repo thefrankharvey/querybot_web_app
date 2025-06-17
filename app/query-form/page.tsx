@@ -25,6 +25,7 @@ import Genre from "./components/genre";
 import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
+import ExplanationBlock from "./components/explanation-block";
 
 export type FormState = {
   email: string;
@@ -98,53 +99,6 @@ const QueryForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // const payload = {
-    //   email: "john@example.com",
-    //   genre: "historical fiction",
-    //   subgenres: [],
-    //   special_audience: "middle grade",
-    //   target_audience:
-    //     "Readers aged 10-14 interested in history and adventure.",
-    //   comps: ["the book thief"],
-    //   themes: ["friendship", "courage", "loyalty"],
-    //   enable_ai: true,
-    //   non_fiction: true,
-    //   format: "comics",
-    //   synopsis:
-    //     "A young spy in WWII France uncovers secrets that could save her family.",
-    //   query_letter:
-    //     "Dear Agent, I am submitting my manuscript for your consideration...",
-    //   manuscript: "Once upon a time in war-torn Europe, a girl named Elise...",
-    // };
-
-    //     comps
-    // :
-    // []
-    // email
-    // :
-    // "test@test.com"
-    // enable_ai
-    // :
-    // true
-    // format
-    // :
-    // "novel"
-    // genre
-    // :
-    // "historical fiction"
-    // non_fiction
-    // :
-    // false
-    // subgenres
-    // :
-    // (3) ['political thriller', 'psychological thriller', 'apocalyptic']
-    // target_audience
-    // :
-    // "adult"
-    // themes
-    // :
-    // (3) ['current-affairspolitics', 'history-politics-current-affair', 'politicscurrent-affair']
-
     const comps = formatComps(form.comps);
 
     const payload = {
@@ -159,16 +113,12 @@ const QueryForm = () => {
       non_fiction: form.non_fiction,
     };
 
-    console.log("payload", payload);
-
     const { error, isValid } = validateQuery(payload);
 
     if (!isValid && error) {
       setApiMessage(error);
       return;
     }
-
-    // Create JSON payload instead of FormData
 
     saveFormData(payload);
     queryMutation.mutate(payload);
@@ -188,13 +138,10 @@ const QueryForm = () => {
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4">
-              Query Form
+            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
+              Find Agents
             </h1>
-            <h2 className="text-lg mb-8">
-              We&apos;ll use this information to match you with literary agents
-              tailored to your specific needs.
-            </h2>
+            <ExplanationBlock />
             <Link href="/" className="flex items-center gap-2 mb-4">
               <ArrowLeft className="w-8 h-8" />
               <h2 className="text-2xl">Back</h2>

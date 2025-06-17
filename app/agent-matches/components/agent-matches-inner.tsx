@@ -3,6 +3,7 @@ import { AgentMatch } from "../../context/agent-matches-context";
 import { AgentCards } from "../../components/agent-cards";
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
+import ExplanationBlock from "./explanation-block";
 
 export const AgentMatchesInner = ({
   matches,
@@ -28,12 +29,15 @@ export const AgentMatchesInner = ({
             <ArrowLeft className="w-8 h-8" />
             <h2 className="text-2xl">Back</h2>
           </Link>
-          <Button
-            onClick={handleCSVDownload}
-            className="cursor-pointer text-lg p-6 font-semibold"
-          >
-            Download Page Results
-          </Button>
+          <div className="flex items-center gap-4">
+            <ExplanationBlock />
+            <Button
+              onClick={handleCSVDownload}
+              className="cursor-pointer text-lg p-6 font-semibold"
+            >
+              Download page results
+            </Button>
+          </div>
         </div>
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
