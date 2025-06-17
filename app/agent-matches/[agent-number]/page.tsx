@@ -34,7 +34,11 @@ const AgentProfile = () => {
   }, [matches, params]);
 
   if (!agent) {
-    return <div>Agent not found</div>;
+    return (
+      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto mt-30 justify-center items-center">
+        <div className="text-2xl font-bold">...loading</div>
+      </div>
+    );
   }
 
   return (
@@ -50,20 +54,21 @@ const AgentProfile = () => {
             <div className="text-xl font-semibold flex flex-col gap-1">
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
+                className="w-fit"
                 content="Our Agent match scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
               >
-                <p className="text-xl font-semibold flex items-center gap-1">
+                <div className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agent.normalized_score} />
                   {agent.normalized_score}
-                </p>
+                </div>
               </TooltipComponent>
             </div>
           </div>
           <div className="flex flex-col gap-2">
             {isValidData(agent.email) ? (
               <div className="flex flex-col gap-1">
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 w-fit">
                   <label className="text-lg font-semibold">Email:</label>
                   <CopyToClipboard text={agent.email || ""} />
                 </div>
