@@ -46,10 +46,10 @@ export const AgentCards = ({
 Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
               >
                 <label className="text-sm font-semibold">Match Score:</label>
-                <p className="text-xl font-semibold flex items-center gap-1">
+                <div className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agent.normalized_score} />
                   {agent.normalized_score}
-                </p>
+                </div>
               </TooltipComponent>
             </div>
           </Skeleton>

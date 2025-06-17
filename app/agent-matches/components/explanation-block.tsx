@@ -18,17 +18,17 @@ const ExplanationBlock = () => {
             className="cursor-pointer text-lg p-6 font-semibold"
             variant="secondary"
           >
-            <h2 className="text-lg font-semibold text-gray-900">
+            <div className="text-lg font-semibold text-gray-900">
               How to use the results
-            </h2>
+            </div>
           </Button>
         </DialogTrigger>
         <DialogContent className="max-w-2xl bg-white rounded-lg p-8">
           <DialogHeader>
             <DialogTitle>
-              <h2 className="text-xl font-semibold text-gray-900">
+              <div className="text-xl font-semibold text-gray-900">
                 How to use the results
-              </h2>
+              </div>
             </DialogTitle>
           </DialogHeader>
           <div className="mt-4">
