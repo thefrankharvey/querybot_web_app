@@ -12,7 +12,7 @@ const ExplanationBlock = () => {
   return (
     <div className="space-y-2 mb-8">
       <h2 className="text-xl font-semibold text-gray-900">
-        How to Get the Best Results from This Form
+        How to get the best results from this form
       </h2>
 
       <p className="text-gray-700">
@@ -32,7 +32,7 @@ const ExplanationBlock = () => {
         <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-white rounded-lg p-8">
           <DialogHeader>
             <DialogTitle className="text-lg font-semibold text-gray-900">
-              How to Get the Best Results
+              How to get the best results
             </DialogTitle>
           </DialogHeader>
           <div className="mt-4">
