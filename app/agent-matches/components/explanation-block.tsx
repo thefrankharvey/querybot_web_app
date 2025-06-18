@@ -11,11 +11,11 @@ import CopyToClipboard from "@/app/components/copy-to-clipboard";
 
 const ExplanationBlock = () => {
   return (
-    <div className="space-y-2 w-fit">
+    <div className="space-y-2 w-full md:w-fit">
       <Dialog>
         <DialogTrigger asChild>
           <Button
-            className="cursor-pointer text-lg p-6 font-semibold"
+            className="cursor-pointer text-lg p-6 font-semibold w-full md:w-fit"
             variant="secondary"
           >
             <div className="text-lg font-semibold text-gray-900">

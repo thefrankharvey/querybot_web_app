@@ -24,16 +24,16 @@ export const AgentMatchesInner = ({
         Agent matches
       </h1>
       <div>
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
           <Link href="/query-form" className="flex items-center gap-2">
             <ArrowLeft className="w-8 h-8" />
             <h2 className="text-2xl">Back</h2>
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
             <ExplanationBlock />
             <Button
               onClick={handleCSVDownload}
-              className="cursor-pointer text-lg p-6 font-semibold"
+              className="cursor-pointer text-lg p-6 font-semibold w-full md:w-auto"
             >
               Download page results
             </Button>

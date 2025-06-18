@@ -23,7 +23,7 @@ const ExplanationBlock = () => {
       <Dialog>
         <DialogTrigger asChild>
           <Button
-            className="cursor-pointer text-lg p-6 font-semibold"
+            className="cursor-pointer text-lg p-6 font-semibold w-full md:w-fit mt-8 md:mt-0"
             variant="secondary"
           >
             More Details

@@ -49,9 +49,9 @@ const AgentProfile = () => {
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-            <div className="text-xl font-semibold flex flex-col gap-1">
+            <div className="text-xl font-semibold flex flex-col gap-1 mt-8 md:mt-0">
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
                 className="w-fit"
