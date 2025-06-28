@@ -111,6 +111,11 @@ export const isValidData = (data: string | null | undefined): boolean => {
   return data && data !== "!missing" ? true : false;
 };
 
+export const removePipes = (data: string | null) => {
+  if (!data) return data;
+  return data.replace(/\|/g, "");
+};
+
 export const formatGenres = (genres: string) => {
   const result = [];
   const genresArray = genres.split(",");
