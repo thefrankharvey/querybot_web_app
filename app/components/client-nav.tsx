@@ -77,6 +77,12 @@ const ClientNav = () => {
           >
             Find Agents
           </Link>
+          <Link
+            href="/slush-feed"
+            className="text-base font-semibold hover:text-accent transition-all duration-300"
+          >
+            Slushwire Dispatch
+          </Link>
           <a
             href="https://writequeryhook.com/slushwire/"
             target="_blank"

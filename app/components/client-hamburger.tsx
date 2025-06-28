@@ -47,13 +47,20 @@ export const ClientHamburger = () => {
           >
             Find Agents
           </Link>
+          <Link
+            onClick={() => setOpen(false)}
+            href="/slush-feed"
+            className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
+          >
+            Slushwire Dispatch
+          </Link>
           <a
             onClick={() => setOpen(false)}
             href="https://writequeryhook.com/slushwire/"
             target="_blank"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
           >
-            Try it Free!
+            Subscribe for Free!
           </a>
         </div>
       </div>
