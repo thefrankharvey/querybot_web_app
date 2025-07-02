@@ -140,7 +140,7 @@ const QueryForm = () => {
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
             <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
-              Find Agents
+              Smart Query
             </h1>
             <ExplanationBlock />
             <Link href="/" className="flex items-center gap-2 mb-4">

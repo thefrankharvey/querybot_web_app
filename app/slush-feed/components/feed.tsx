@@ -1,9 +1,9 @@
 "use client";
 
 import { SlushFeed } from "@/app/types";
-import BlueskyCard from "./bluesky-card";
-import BlipsCard from "./blips-card";
-import RedditCard from "./reddit-card";
+import BlueskyCard from "@/app/components/bluesky-card";
+import BlipsCard from "@/app/components/blips-card";
+import RedditCard from "@/app/components/reddit-card";
 import { Button } from "@/app/ui-primitives/button";
 import { Check, X } from "lucide-react";
 import { useState } from "react";
@@ -24,8 +24,6 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
   const {
     data: { bluesky_posts, pm_blips, qt_blips, reddit_posts },
   } = data;
-
-  console.log({ qt_blips });
 
   return (
     <>
@@ -117,7 +115,9 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
       {!activeData[SOCIAL_DATA.AGENT_INFO] &&
         !activeData[SOCIAL_DATA.REDDIT] &&
         !activeData[SOCIAL_DATA.BLUESKY] && (
-          <h2 className="text-xl font-semibold mt-6">Select a option view</h2>
+          <h2 className="text-xl font-semibold mt-6">
+            Select a option to view
+          </h2>
         )}
     </>
   );

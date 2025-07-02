@@ -16,7 +16,7 @@ const BlueskyCard = ({ post }: { post: BlueskyPost }) => {
           />
           <h3 className="text-sm font-semibold">{post.hashtag}</h3>
         </div>
-        <p className="overflow-hidden">{post.text}</p>
+        <p className="overflow-hidden text-sm">{post.text}</p>
       </div>
     </Link>
   );

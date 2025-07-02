@@ -45,7 +45,7 @@ export const ClientHamburger = () => {
             href="/query-form"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
           >
-            Find Agents
+            Smart Query
           </Link>
           <Link
             onClick={() => setOpen(false)}

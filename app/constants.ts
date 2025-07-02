@@ -1,3 +1,196 @@
+export const feedDemoData = {
+  bluesky_post: {
+    author_did: "did:plc:336qirp5agd3agd7u4uynocv",
+    created_at: "Mon, 30 Jun 2025 12:55:10 GMT",
+    datetime: "Mon, 30 Jun 2025 11:53:49 GMT",
+    hashtag: "#writingcommunity",
+    id: "157af7d1-fb99-4a4f-a279-98f3bc9359d2",
+    post_id:
+      "at://did:plc:336qirp5agd3agd7u4uynocv/app.bsky.feed.post/3lst4r6ypyk2t",
+    text: "breaks out in an anxious sweat at the thought of writing an acknowledgements section*  my husband, definitely. also my grandma, even though she's not around to see it. #writingcommunity #writingprompts",
+    updated_at: "Mon, 30 Jun 2025 12:55:10 GMT",
+    url: "https://bsky.app/profile/woodenvelt.bsky.social/post/3lst4r6ypyk2t",
+    username: "woodenvelt.bsky.social",
+  },
+  reddit_post: {
+    author: "WriterInTheWild",
+    comments_count: "127",
+    content:
+      "Just got my first rejection letter and honestly? I'm kind of excited. It means I'm actually putting my work out there! The agent gave some really constructive feedback about tightening my opening chapters. Back to the revision cave I go! #WritingLife",
+    created_at: "Mon, 30 Jun 2025 10:45:22 GMT",
+    datetime_posted: "Mon, 30 Jun 2025 10:43:15 GMT",
+    headline: "First rejection letter - surprisingly motivating!",
+    id: "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+    post_link:
+      "https://reddit.com/r/writing/comments/rejection_letter_motivating/",
+    updated_at: "Mon, 30 Jun 2025 10:45:22 GMT",
+    upvotes: "342",
+  },
+  pm_blips: {
+    aala_member: "True",
+    agency: "The Sterling Literary Agency",
+    bio: "Literary agent with 12 years of experience representing commercial and upmarket fiction. Previously worked as an editor at Penguin Random House for 6 years. Passionate about discovering debut novelists with unique voices. Seeks contemporary fiction with strong character development, family sagas, and stories exploring cultural identity. Champion of diverse voices and underrepresented communities in publishing. Member of Association of American Literary Agents since 2018.",
+    clients:
+      "Maya Patel, Jonathan Chen, Sofia Rodriguez, Marcus Williams, Aisha Thompson, Elena Vasquez, David Kim, Priya Sharma, Luis Martinez, Rebecca Johnson",
+    company: "The Sterling Literary Agency",
+    created_at: "Mon, 15 Jan 2024 09:30:00 GMT",
+    dont_send:
+      "No poetry, screenplays, children's picture books, self-help, or business books",
+    email: "sarah.collins@sterlingliterary.com",
+    extra_interest:
+      "Book club moderator, guest lecturer at NYU Publishing Institute, regular panelist at literary conferences, advocates for mental health awareness in publishing industry",
+    extra_links:
+      "https://sterlingliterary.com/agents/sarah-collins, https://publishersmarketplace.com/members/scollins",
+    favorites:
+      "The Seven Moons of Maali Almeida by Shehan Karunatilaka, Hamnet by Maggie O'Farrell, The Vanishing Half by Brit Bennett, Such a Fun Age by Kiley Reid, Homegoing by Yaa Gyasi, The Midnight Library by Matt Haig, Where the Crawdads Sing by Delia Owens, Little Fires Everywhere by Celeste Ng, The Kite Runner by Khaled Hosseini, Beloved by Toni Morrison",
+    genres:
+      "Contemporary fiction, Literary fiction, Upmarket fiction, Family sagas",
+    id: "pm-blips-001",
+    location: "45 Main Street, Suite 12B, New York, NY 10001",
+    name: "Sarah Collins",
+    open_to_queries: "Yes",
+    pubmarketplace: "Yes",
+    querymanager: "No",
+    querytracker: "Yes",
+    sales:
+      "THE GARDEN OF MEMORY by Maya Patel, Doubleday 2024, 2-book deal, CROSSING BRIDGES by Jonathan Chen, Scribner 2023, THE LAST DANCE by Sofia Rodriguez, Harper 2024, ECHOES OF HOME by Marcus Williams, Atria 2023, FINDING GRACE by Aisha Thompson, Little Brown 2025",
+    submission_req:
+      "Query letter with first 10 pages pasted in email body. No attachments for initial submissions. Include word count and genre in subject line. Responds within 8-10 weeks to all queries.",
+    twitter_handle: "@SarahCollinsLit",
+    twitter_url: "https://twitter.com/SarahCollinsLit",
+    updated: "Mon, 30 Dec 2024 14:20:00 GMT",
+    updated_at: "Mon, 30 Dec 2024 14:20:00 GMT",
+    website: "https://sterlingliterary.com/agents/sarah-collins",
+  },
+};
+
+export const agentDemoData = [
+  {
+    aala_member: "True",
+    agency: "Writers House",
+    agent_id: "b4f89a23-1b2c-4d5e-8f9a-1c2d3e4f5a6b",
+    bio: "Senior agent at Writers House since 2018, Previously at ICM Partners for 8 years, Specializes in commercial and literary fiction, Passionate about debut novelists, Champions diverse voices in publishing, Member of Association of American Literary Agents since 2019, Former editor at Random House, Published memoir author, Seeks contemporary fiction with emotional depth, Love stories with unique perspectives, Historical fiction with fresh angles, Interested in book club fiction, upmarket women's fiction, family sagas",
+    clients:
+      "Sarah Chen, Marcus Williams, Priya Patel, Elena Rodriguez, David Kim, Amanda Foster, Jamal Jackson, Rebecca Thompson, Luis Gonzalez, Nina Okafor",
+    email: "jsmith@writershouse.com",
+    extra_interest:
+      "Mentors emerging writers through publishing workshops, Regular speaker at writing conferences, Hosts monthly author salons, Former book reviewer for Publishers Weekly",
+    favorites:
+      "The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid, Educated by Tara Westover, Little Fires Everywhere by Celeste Ng, The Invisible Bridge by Julie Orringer, Everything I Never Told You by Celeste Ng, The Book Thief by Markus Zusak, Where the Crawdads Sing by Delia Owens, The Midnight Library by Matt Haig, Circe by Madeline Miller, The Vanishing Half by Brit Bennett, Such a Fun Age by Kiley Reid, The Thursday Murder Club by Richard Osman, Favorite films/TV: This Is Us, The Crown, Call Me By Your Name, Lady Bird, The Handmaid's Tale, Bridgerton, Normal People, The Queen's Gambit",
+    form_comps_matches_db_clients: 0,
+    form_comps_matches_db_extra_interest: 0,
+    form_comps_matches_db_favorites: 0,
+    form_comps_matches_db_sales: 0,
+    form_genre_matches_db_extra_interest: 0,
+    form_genre_matches_db_favorites: 0,
+    form_genre_matches_db_genres: 3,
+    form_target_audience_matches_db_extra_interest: 0,
+    form_target_audience_matches_db_favorites: 2,
+    form_target_audience_matches_db_genres: 2,
+    form_themes_matches_db_bio: 0,
+    form_themes_matches_db_extra_interest: 0,
+    form_themes_matches_db_favorites: 0,
+    genres:
+      "Contemporary fiction, Historical fiction, Literary fiction, Commercial fiction, Women's fiction, Book club fiction, Family sagas, Memoir, Cultural fiction, Upmarket fiction, Debut novels, Multicultural fiction, Coming-of-age stories, Romance, Biographical fiction",
+    id: "b4f89a23-1b2c-4d5e-8f9a-1c2d3e4f5a6b",
+    location: "21 West 26th Street, New York, NY, United States, 10010",
+    name: "jennifer smith",
+    negatives:
+      "Does not represent poetry, children's books, science fiction, fantasy, horror, screenplays, self-help, business books, cookbooks",
+    normalized_score: 5,
+    sales:
+      "THE MEMORY KEEPER by Sarah Chen, Doubleday 2024, 2-book deal, DANCING WITH SHADOWS by Marcus Williams, Scribner 2023, THE LAST LETTER by Priya Patel, Atria 2024, 3-book deal, HOMECOMING by Elena Rodriguez, Harper 2023, BETWEEN WORLDS by David Kim, Penguin Random House 2025, MOTHER'S SECRETS by Amanda Foster, Little Brown 2024",
+    score: 32.0,
+    submission_req:
+      "Query letter plus first 5 pages in body of email, No attachments in initial query, Responds within 6-8 weeks, Fiction only via email submissions",
+    twitter_handle: "@JSmithLitAgent",
+    website: "",
+  },
+  {
+    aala_member: "True",
+    agency: "The Bent Agency",
+    agent_id: "c7e91f34-2d4a-5b6c-9e8f-2a3b4c5d6e7f",
+    bio: "Literary agent specializing in speculative fiction and thriller genres, Joined The Bent Agency in 2020, Previously worked at Curtis Brown Ltd, Champion of BIPOC and LGBTQ+ voices, Passionate about climate fiction and dystopian narratives, Seeks innovative science fiction with social commentary, Interested in psychological thrillers, urban fantasy, and horror, Member of Association of American Literary Agents since 2022, Former magazine editor, Published short story author in speculative magazines",
+    clients:
+      "Kai Thompson, Zara Ahmed, River Martinez, Phoenix Lee, Storm Johnson, Blake Rivera, Sage Patel, Quinn Davis, Rowan Singh, Nova Brooks",
+    email: "mjohnson@thebentagency.com",
+    extra_interest:
+      "Judges annual speculative fiction contests, Runs monthly #PitMad events on Twitter, Advocates for climate change awareness in publishing, Speaks at genre conventions regularly",
+    favorites:
+      "The Fifth Season by N.K. Jemisin, Station Eleven by Emily St. John Mandel, The Left Hand of Darkness by Ursula K. Le Guin, Klara and the Sun by Kazuo Ishiguro, The Power by Naomi Alderman, The Road by Cormac McCarthy, Annihilation by Jeff VanderMeer, The Handmaid's Tale by Margaret Atwood, Parable of the Sower by Octavia Butler, The Windup Girl by Paolo Bacigalupi, Favorite films/TV: Black Mirror, Westworld, The Expanse, Blade Runner 2049, Ex Machina, Arrival, The Matrix, Mad Max Fury Road, Stranger Things, The Umbrella Academy",
+    form_comps_matches_db_clients: 0,
+    form_comps_matches_db_extra_interest: 0,
+    form_comps_matches_db_favorites: 0,
+    form_comps_matches_db_sales: 0,
+    form_genre_matches_db_extra_interest: 0,
+    form_genre_matches_db_favorites: 0,
+    form_genre_matches_db_genres: 4,
+    form_target_audience_matches_db_extra_interest: 0,
+    form_target_audience_matches_db_favorites: 1,
+    form_target_audience_matches_db_genres: 1,
+    form_themes_matches_db_bio: 0,
+    form_themes_matches_db_extra_interest: 0,
+    form_themes_matches_db_favorites: 0,
+    genres:
+      "Science fiction, Fantasy, Horror, Thriller, Dystopian fiction, Climate fiction, Urban fantasy, Speculative fiction, Psychological thrillers, LGBTQ fiction, Multicultural science fiction, Post-apocalyptic, Cyberpunk, Space opera, Time travel, Alternate history",
+    id: "c7e91f34-2d4a-5b6c-9e8f-2a3b4c5d6e7f",
+    location:
+      "19 West 21st Street, Suite 201, New York, NY, United States, 10010",
+    name: "michael johnson",
+    negatives:
+      "Does not represent romance, contemporary fiction without speculative elements, memoir, self-help, children's picture books, poetry, cookbooks, business books",
+    normalized_score: 4.5,
+    sales:
+      "NEON DREAMS by Kai Thompson, Orbit 2024, 3-book deal, THE LAST PROTOCOL by Zara Ahmed, Tor 2023, QUANTUM HEARTS by River Martinez, DAW 2025, 2-book deal, SHADOW REALM by Phoenix Lee, Angry Robot 2024, THE CLIMATE WARS by Storm Johnson, Harper Voyager 2023",
+    score: 35.5,
+    submission_req:
+      "Query letter plus first chapter via QueryManager only, No email submissions, Include comp titles, Responds within 8-10 weeks, Must follow submission guidelines exactly",
+    twitter_handle: "@MJohnsonSF",
+    website: "",
+  },
+  {
+    aala_member: "False",
+    agency: "Andrea Brown Literary Agency",
+    agent_id: "d9a12b45-3e5f-6c7d-8a9b-3c4d5e6f7a8b",
+    bio: "Children's and young adult specialist at Andrea Brown Literary Agency since 2019, Previously assistant at Scholastic, Passionate about middle grade adventure stories, Seeks diverse voices in children's literature, Champion of neurodivergent representation, Interested in contemporary MG and YA, graphic novels for all ages, Loves stories about friendship, family, and finding your place in the world, Member of SCBWI since 2020, Former elementary school teacher, Published picture book author",
+    clients:
+      "Taylor Swift-Johnson, Cameron Bright, Jordan Mills, Casey Stone, Morgan Fields, Riley Chen, Alex Harper, Drew Patel, Avery King, Sage Mitchell",
+    email: "ewilliams@andreabrown.com",
+    extra_interest:
+      "Volunteers at local literacy programs, Judges children's book awards, Runs writing workshops for teens, Former teacher with classroom experience, Advocates for books in schools",
+    favorites:
+      "Wonder by R.J. Palacio, The Wild Robot by Peter Brown, Ghost by Jason Reynolds, New Kid by Jerry Craft, The Crossover by Kwame Alexander, Merci Suárez Changes Gears by Meg Medina, The House You Pass on the Way by Jacqueline Woodson, Hatchet by Gary Paulsen, Bridge to Terabithia by Katherine Paterson, Holes by Louis Sachar, Favorite films/TV: Inside Out, Coco, The Incredibles, Avatar: The Last Airbender, Steven Universe, Gravity Falls, The Baby-Sitters Club, Anne with an E",
+    form_comps_matches_db_clients: 0,
+    form_comps_matches_db_extra_interest: 0,
+    form_comps_matches_db_favorites: 0,
+    form_comps_matches_db_sales: 0,
+    form_genre_matches_db_extra_interest: 0,
+    form_genre_matches_db_favorites: 0,
+    form_genre_matches_db_genres: 2,
+    form_target_audience_matches_db_extra_interest: 0,
+    form_target_audience_matches_db_favorites: 3,
+    form_target_audience_matches_db_genres: 3,
+    form_themes_matches_db_bio: 0,
+    form_themes_matches_db_extra_interest: 0,
+    form_themes_matches_db_favorites: 0,
+    genres:
+      "Middle grade fiction, Young adult fiction, Children's literature, Contemporary MG, Contemporary YA, Adventure, Friendship stories, Coming-of-age, Graphic novels, Picture books, Diverse voices, Neurodivergent representation, Family stories, School stories, Sports fiction",
+    id: "d9a12b45-3e5f-6c7d-8a9b-3c4d5e6f7a8b",
+    location: "1076 Eagle Drive, Salinas, CA, United States, 93905",
+    name: "emily williams",
+    negatives:
+      "Does not represent adult fiction, nonfiction, poetry, screenplays, board books for very young children, religious or evangelical content",
+    normalized_score: 4,
+    sales:
+      "THE GREAT DISCOVERY by Taylor Swift-Johnson, Scholastic 2024, THE FRIENDSHIP CODE by Cameron Bright, HarperCollins Children's 2023, 2-book deal, CLIMBING HIGHER by Jordan Mills, Simon & Schuster BFYR 2025, THE NEW GIRL by Casey Stone, Random House Children's 2024, SOCCER DREAMS by Morgan Fields, Penguin Young Readers 2023",
+    score: 27.5,
+    submission_req:
+      "Query letter plus first 10 pages, Email submissions preferred, Include age category in subject line, Responds within 4-6 weeks, No simultaneous submissions to other ABLA agents",
+    twitter_handle: "@EWilliamsBooks",
+    website: "",
+  },
+];
+
 export const genreOptions = [
   { value: "literary fiction", label: "Literary Fiction" },
   { value: "mystery", label: "Mystery" },

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "../ui-primitives/button";
+import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
 
 const ClientSlushwireProCard = () => {

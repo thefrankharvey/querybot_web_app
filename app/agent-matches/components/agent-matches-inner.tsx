@@ -18,6 +18,7 @@ export const AgentMatchesInner = ({
   isLoading: boolean;
   handleCSVDownload?: () => void;
 }) => {
+  console.log({ matches });
   return (
     <>
       <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
