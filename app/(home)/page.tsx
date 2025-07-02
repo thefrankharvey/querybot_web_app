@@ -1,32 +1,31 @@
-import SlushwireProCard from "../components/slushwire-pro-card";
-import SlushwireActionBlock from "../components/slushwire-action-block";
+"use client";
 
-const Home = async () => {
+import { useState } from "react";
+import { Button } from "../ui-primitives/button";
+import TypeAnimationBlock from "./components/type-animation-block";
+import ProductsBlock from "./components/products-block";
+import SmartQueryBlock from "./components/smart-query-block";
+import SlushwireDispatchBlock from "./components/slushwire-dispatch-block";
+import SlushwireProBlock from "./components/slushwire-pro-block";
+
+const Home = () => {
+  const [showSecondAnimation, setShowSecondAnimation] = useState(false);
+
   return (
     <div className="w-full">
-      <div className="py-30 sm:w-[90%] md:w-[60%] lg:w-[70%] mx-auto text-center">
-        <h1 className="text-[40px] font-extrabold leading-tight">
-          Smart, Author Focused Tools. <br />
-          Query Smart. Get Signed. Keep Writing.
-        </h1>
-        <p className="text-xl mt-4">Built by Authors. Powered by Rejection.</p>
+      <div className="w-full flex flex-col md:block">
+        <TypeAnimationBlock
+          setShowSecondAnimation={setShowSecondAnimation}
+          showSecondAnimation={showSecondAnimation}
+        />
+        <Button className="cursor-pointer text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+          GET SLUSHWIRE PRO
+        </Button>
+        <ProductsBlock showSecondAnimation={showSecondAnimation} />
       </div>
-      <SlushwireProCard />
-      <div className="py-40 w-fullmx-auto text-center">
-        <h1 className="text-[40px] font-extrabold leading-tight">
-          The Submission Process Is Not Just Broken.
-        </h1>
-        <p className="text-xl mt-4">It is a Mountainous Hellscape from Hell.</p>
-      </div>
-      <div>
-        <div className="text-[60px] md:text-[80px] lg:text-[100px] font-extrabold leading-tight">
-          The <br />
-          Solution: <br />
-          Write Query <br />
-          Hook Tools
-        </div>
-        <SlushwireActionBlock />
-      </div>
+      <SmartQueryBlock />
+      <SlushwireDispatchBlock />
+      <SlushwireProBlock />
     </div>
   );
 };

@@ -14,6 +14,7 @@ import { Hamburger } from "./hamburger";
 //   SignOutButton,
 // } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
+import { Newspaper, ScanSearch } from "lucide-react";
 
 function ScrollToTop() {
   const pathname = usePathname();
@@ -47,7 +48,7 @@ const ClientNav = () => {
   return (
     <nav
       className={cn(
-        "sticky top-0 z-5 w-full flex items-center p-6 transition-colors duration-300 px-4",
+        "sticky top-0 z-5 w-full flex items-center p-4 transition-colors duration-300",
         scrolled ? "bg-[#F9E0E2]" : "bg-transparent"
       )}
     >
@@ -57,9 +58,9 @@ const ClientNav = () => {
           <Image
             src="/query_logo.png"
             alt="logo"
-            width={80}
-            height={80}
-            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px]"
+            width={60}
+            height={60}
+            className="w-[60px] h-[60px]"
           />
         </Link>
         <div className="hidden md:flex items-center gap-4">
@@ -73,23 +74,25 @@ const ClientNav = () => {
           </SignedOut> */}
           <Link
             href="/query-form"
-            className="text-base font-semibold hover:text-accent transition-all duration-300"
+            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
           >
-            Find Agents
+            <ScanSearch className="w-6 h-6" />
+            Smart Query
           </Link>
           <Link
             href="/slush-feed"
-            className="text-base font-semibold hover:text-accent transition-all duration-300"
+            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
           >
+            <Newspaper className="w-5 h-5" />
             Slushwire Dispatch
           </Link>
-          <a
+          {/* <a
             href="https://writequeryhook.com/slushwire/"
             target="_blank"
-            className="text-base font-semibold hover:text-accent transition-all duration-300"
+            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
           >
             Subscribe for Free!
-          </a>
+          </a> */}
           {/* <SignedIn>
             <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
               <SignOutButton />

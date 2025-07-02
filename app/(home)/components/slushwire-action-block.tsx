@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ui-primitives/button";
+import { Button } from "@/app/ui-primitives/button";
 
 const SlushwireActionBlock = () => {
   return (
