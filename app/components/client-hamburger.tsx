@@ -33,7 +33,7 @@ export const ClientHamburger = () => {
       </button>
       <div
         className={cn(
-          "absolute top-0 left-0 w-screen h-screen transition-opacity duration-300 bg-background z-50 mt-27 overflow-hidden",
+          "absolute top-0 left-0 w-screen h-screen transition-opacity duration-300 bg-background z-50 mt-20 overflow-hidden",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"

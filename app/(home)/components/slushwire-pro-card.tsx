@@ -53,7 +53,11 @@ export const SlushwireProCard = () => {
         <h1 className="text-3xl text-center">
           Not ready for Pro?
           <br />
-          <Link href="/newsletter" className="underline hover:text-accent">
+          <Link
+            href="https://writequeryhook.com/slushwire/"
+            target="_blank"
+            className="underline hover:text-accent"
+          >
             Try our <span className="font-semibold">free monthly</span>{" "}
             newsletter!
           </Link>
