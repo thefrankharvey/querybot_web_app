@@ -6,7 +6,8 @@ import BlipsCard from "@/app/components/blips-card";
 import RedditCard from "@/app/components/reddit-card";
 import { Button } from "@/app/ui-primitives/button";
 import { Check, X } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import PayWall from "@/app/components/pay-wall";
 
 enum SOCIAL_DATA {
   AGENT_INFO = "AGENT_INFO",
@@ -15,6 +16,7 @@ enum SOCIAL_DATA {
 }
 
 export const Feed = ({ data }: { data: SlushFeed }) => {
+  const gridRef = useRef<HTMLDivElement>(null);
   const [activeData, setActiveData] = useState({
     [SOCIAL_DATA.AGENT_INFO]: true,
     [SOCIAL_DATA.REDDIT]: true,
@@ -74,7 +76,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           {activeData[SOCIAL_DATA.BLUESKY] ? <Check /> : <X />}
         </Button>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4" ref={gridRef}>
         {activeData[SOCIAL_DATA.AGENT_INFO] &&
           pm_blips.some((blip) => blip.bio && blip.name) && (
             <>
@@ -112,6 +114,16 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           </>
         )}
       </div>
+      <PayWall
+        title="Want the full slushwire dispatch?"
+        gridRef={gridRef}
+        resultLength={
+          bluesky_posts.length +
+          pm_blips.length +
+          qt_blips.length +
+          reddit_posts.length
+        }
+      />
       {!activeData[SOCIAL_DATA.AGENT_INFO] &&
         !activeData[SOCIAL_DATA.REDDIT] &&
         !activeData[SOCIAL_DATA.BLUESKY] && (
