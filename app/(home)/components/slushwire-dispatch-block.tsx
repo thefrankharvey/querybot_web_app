@@ -30,7 +30,7 @@ const SlushwireDispatchBlock = () => {
           </div>
         </motion.div>
       </div>
-      <div className="flex flex-col gap-4 w-full md:w-[60%]">
+      <div className="hidden md:flex flex-col gap-4 w-[60%]">
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -70,6 +70,20 @@ const SlushwireDispatchBlock = () => {
           <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
           <BlipsCard blips={feedDemoData.pm_blips} />
         </motion.div>
+      </div>
+      <div className="flex flex-col gap-4 w-full md:hidden">
+        <div>
+          <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
+          <BlueskyCard post={feedDemoData.bluesky_post} />
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold mb-2">Reddit</h2>
+          <RedditCard post={feedDemoData.reddit_post} />
+        </div>
+        <div>
+          <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
+          <BlipsCard blips={feedDemoData.pm_blips} />
+        </div>
       </div>
     </div>
   );

@@ -5,14 +5,14 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { cn } from "@/app/utils";
 import { Hamburger } from "./hamburger";
-// import {
-//   SignUpButton,
-//   SignedOut,
-//   SignedIn,
-//   SignInButton,
-//   useClerk,
-//   SignOutButton,
-// } from "@clerk/nextjs";
+import {
+  SignUpButton,
+  SignedOut,
+  SignedIn,
+  SignInButton,
+  useClerk,
+  SignOutButton,
+} from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Newspaper, ScanSearch } from "lucide-react";
 
@@ -29,7 +29,7 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
-  // const { openUserProfile } = useClerk();
+  const { openUserProfile } = useClerk();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,47 +63,44 @@ const ClientNav = () => {
             className="w-[60px] h-[60px]"
           />
         </Link>
-        <div className="hidden md:flex items-center gap-4">
-          {/* <SignedOut>
-            <div className="cursor-pointer text-base p-2 px-4 rounded-md font-semibold bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300">
-              <SignUpButton />
-            </div>
-            <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
-              <SignInButton />
-            </div>
-          </SignedOut> */}
-          <Link
-            href="/query-form"
-            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
-          >
-            <ScanSearch className="w-6 h-6" />
-            Smart Query
-          </Link>
-          <Link
-            href="/slush-feed"
-            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
-          >
-            <Newspaper className="w-5 h-5" />
-            Slushwire Dispatch
-          </Link>
-          {/* <a
-            href="https://writequeryhook.com/slushwire/"
-            target="_blank"
-            className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
-          >
-            Subscribe for Free!
-          </a> */}
-          {/* <SignedIn>
-            <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
-              <SignOutButton />
-            </div>
-            <a
-              onClick={() => openUserProfile()}
-              className="text-base font-semibold hover:text-accent transition-all duration-300"
+        <div className="hidden md:flex items-center justify-between gap-4 w-full">
+          <div className="flex items-center gap-4 ml-8">
+            <Link
+              href="/query-form"
+              className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
             >
-              Account
-            </a>
-          </SignedIn> */}
+              <ScanSearch className="w-6 h-6" />
+              Smart Query
+            </Link>
+            <Link
+              href="/slush-feed"
+              className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+            >
+              <Newspaper className="w-5 h-5" />
+              Slushwire Dispatch
+            </Link>
+            <SignedIn>
+              <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
+                <SignOutButton />
+              </div>
+              <a
+                onClick={() => openUserProfile()}
+                className="text-base font-semibold hover:text-accent transition-all duration-300"
+              >
+                Account
+              </a>
+            </SignedIn>
+          </div>
+          <div className="flex items-center gap-4">
+            <SignedOut>
+              <div className="cursor-pointer text-base hover:text-accent transition-all duration-300">
+                <SignInButton />
+              </div>
+              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300">
+                <SignUpButton />
+              </div>
+            </SignedOut>
+          </div>
         </div>
         <Hamburger />
       </div>
