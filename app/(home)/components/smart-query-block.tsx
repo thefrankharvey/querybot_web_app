@@ -44,9 +44,9 @@ const SmartQueryBlock = () => {
           </motion.div>
         ))}
       </div>
-      <div className="flex justify-center">
-        <Link href="/query-form">
-          <Button className="cursor-pointer text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+      <div className="flex justify-center w-full">
+        <Link href="/query-form" className="w-full md:w-fit">
+          <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
             TRY SMART QUERY
           </Button>
         </Link>

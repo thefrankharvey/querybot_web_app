@@ -14,6 +14,7 @@ import TooltipComponent from "@/app/components/tooltip";
 import TypeForm from "@/app/components/type-form";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import StarRating from "@/app/components/star-rating";
+import { Spinner } from "@/app/components/spinner";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -35,14 +36,14 @@ const AgentProfile = () => {
 
   if (!agent) {
     return (
-      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto mt-30 justify-center items-center">
-        <div className="text-2xl font-bold">...loading</div>
+      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12 justify-center items-center">
+        <Spinner size={100} />
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto mt-30">
+    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
       <Link href="/agent-matches" className="flex items-center gap-2">
         <ArrowLeft className="w-8 h-8" />
         <h2 className="text-2xl">Back</h2>

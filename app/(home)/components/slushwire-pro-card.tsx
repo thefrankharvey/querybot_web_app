@@ -5,7 +5,10 @@ import Link from "next/link";
 export const SlushwireProCard = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="rounded-xl w-full md:w-[50%] shadow-xl cursor-pointer hover:shadow-2xl transition-all duration-300">
+      <Link
+        href="/subscription"
+        className="rounded-xl w-full md:w-[50%] shadow-xl cursor-pointer hover:shadow-2xl transition-all duration-300"
+      >
         <div className="bg-white rounded-xl w-full">
           <div className="flex justify-center items-center bg-accent rounded-t-xl p-6">
             <h1 className="text-3xl md:text-4xl font-semibold text-center">
@@ -43,12 +46,13 @@ export const SlushwireProCard = () => {
               <MailCheck className="w-10 h-10" /> Weekly email newsletter of
               curated industry intel.
             </p>
+
             <Button className="cursor-pointer text-xl w-fit p-8 font-semibold mt-4 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl mx-auto">
               GET SLUSHWIRE PRO
             </Button>
           </div>
         </div>
-      </div>
+      </Link>
       <div className="flex justify-center items-center mt-20">
         <h1 className="text-3xl text-center">
           Not ready for Pro?

@@ -116,7 +116,7 @@ export const AgentMatchesFull = () => {
   };
 
   return (
-    <div className="pt-30 min-h-[700px]">
+    <div className="pt-12 min-h-[700px]">
       <AgentMatchesInner
         matches={matches}
         hasProPlan={true}

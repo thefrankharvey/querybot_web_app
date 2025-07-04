@@ -8,6 +8,7 @@ import { Button } from "@/app/ui-primitives/button";
 import { Check, X } from "lucide-react";
 import { useRef, useState } from "react";
 import PayWall from "@/app/components/pay-wall";
+import { useAuth } from "@clerk/nextjs";
 
 enum SOCIAL_DATA {
   AGENT_INFO = "AGENT_INFO",
@@ -16,6 +17,8 @@ enum SOCIAL_DATA {
 }
 
 export const Feed = ({ data }: { data: SlushFeed }) => {
+  const { has } = useAuth();
+  const hasProPlan = has?.({ plan: "slushwire_pro" });
   const gridRef = useRef<HTMLDivElement>(null);
   const [activeData, setActiveData] = useState({
     [SOCIAL_DATA.AGENT_INFO]: true,
@@ -31,6 +34,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
     <>
       <div className="flex gap-2">
         <Button
+          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.AGENT_INFO] ? "default" : "secondary"}
           onClick={() =>
@@ -46,6 +50,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           {activeData[SOCIAL_DATA.AGENT_INFO] ? <Check /> : <X />}
         </Button>
         <Button
+          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.REDDIT] ? "default" : "secondary"}
           onClick={() =>
@@ -61,6 +66,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           {activeData[SOCIAL_DATA.REDDIT] ? <Check /> : <X />}
         </Button>
         <Button
+          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.BLUESKY] ? "default" : "secondary"}
           onClick={() =>
@@ -114,16 +120,18 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           </>
         )}
       </div>
-      <PayWall
-        title="Want the full slushwire dispatch?"
-        gridRef={gridRef}
-        resultLength={
-          bluesky_posts.length +
-          pm_blips.length +
-          qt_blips.length +
-          reddit_posts.length
-        }
-      />
+      {!hasProPlan && (
+        <PayWall
+          title="Want the full slushwire dispatch?"
+          gridRef={gridRef}
+          resultLength={
+            bluesky_posts.length +
+            pm_blips.length +
+            qt_blips.length +
+            reddit_posts.length
+          }
+        />
+      )}
       {!activeData[SOCIAL_DATA.AGENT_INFO] &&
         !activeData[SOCIAL_DATA.REDDIT] &&
         !activeData[SOCIAL_DATA.BLUESKY] && (

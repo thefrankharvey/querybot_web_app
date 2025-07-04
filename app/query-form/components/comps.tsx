@@ -52,7 +52,7 @@ export const Comps = ({
       ))}
       <div className="flex flex-col md:flex-row gap-4">
         <Button
-          className="text-sm"
+          className="text-sm shadow-lg hover:shadow-xl"
           onClick={(e) => {
             e.preventDefault();
             if (form.comps.length < 5) {
@@ -67,7 +67,7 @@ export const Comps = ({
           <PlusIcon className="size-4" />
         </Button>
         <Button
-          className="text-sm"
+          className="text-sm shadow-lg hover:shadow-xl"
           onClick={(e) => {
             e.preventDefault();
             if (form.comps.length > 1) {
