@@ -21,9 +21,9 @@ const SlushwireDispatchBlock = () => {
             <span className="font-semibold">Slushwire Dispatch</span>, provides
             you with all of the latest industry news in a real time feed.
           </h1>
-          <div className="flex justify-center">
-            <Link href="/slush-feed">
-              <Button className="cursor-pointer text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+          <div className="flex justify-center w-full">
+            <Link href="/slush-feed" className="w-full md:w-fit">
+              <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
                 TRY SLUSHWIRE DISPATCH
               </Button>
             </Link>

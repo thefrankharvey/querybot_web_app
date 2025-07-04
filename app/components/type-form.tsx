@@ -15,7 +15,7 @@ const TypeForm = () => {
       <PopupButton
         id="hGcc2J5v"
         style={{ fontSize: 16 }}
-        className="my-button bg-accent text-black font-semibold px-2 py-2 rounded-4xl h-[150px] w-[150px] flex flex-col items-center justify-center gap-2 hover:bg-primary hover:text-white transition-all duration-300"
+        className="my-button bg-accent text-black font-semibold px-2 py-2 rounded-4xl h-[150px] w-[150px] flex flex-col items-center justify-center gap-2 hover:bg-primary hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl"
       >
         <div className="text-2xl font-bold">Hey! 👋</div>
         <div className="text-base">We&apos;d love your feedback!</div>

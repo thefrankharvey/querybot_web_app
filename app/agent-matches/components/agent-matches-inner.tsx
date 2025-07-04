@@ -34,7 +34,7 @@ export const AgentMatchesInner = ({
             {hasProPlan && (
               <Button
                 onClick={handleCSVDownload}
-                className="cursor-pointer text-lg p-6 font-semibold w-full md:w-auto"
+                className="cursor-pointer text-lg p-6 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl"
               >
                 Download page results
               </Button>

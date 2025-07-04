@@ -12,18 +12,18 @@ const ExplanationBlock = () => {
   return (
     <div className="space-y-2 mb-8">
       <h2 className="text-xl font-semibold text-gray-900">
-        How to get the best results from this form
+        How to get the best results:
       </h2>
 
       <p className="text-gray-700">
-        Fill this out as completely as possible. The more specific and complete
-        your entries are the better your results will be.
+        Fill this out this form as completely as possible. The more specific and
+        complete your entries are the better your results will be.
       </p>
 
       <Dialog>
         <DialogTrigger asChild>
           <Button
-            className="cursor-pointer text-lg p-6 font-semibold w-full md:w-fit mt-8 md:mt-0"
+            className="cursor-pointer text-lg p-6 font-semibold w-full md:w-fit mt-8 md:mt-0 shadow-lg hover:shadow-xl"
             variant="secondary"
           >
             More Details

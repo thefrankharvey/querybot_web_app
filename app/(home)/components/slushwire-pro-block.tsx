@@ -12,7 +12,7 @@ const SlushwireProBlock = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <h1 className="text-3xl md:text-[40px] leading-normal text-left md:text-center">
+          <h1 className="text-2xl md:text-[40px] leading-normal text-left md:text-center">
             The submission process is broken. <br />
             <span className="bg-accent p-1 px-3 rounded-xl font-semibold">
               Slushwire Pro

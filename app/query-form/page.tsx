@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ScanSearch } from "lucide-react";
 import { Button } from "../ui-primitives/button";
 // import { formatComps, formatThemes } from "../utils";
 import {
@@ -13,7 +13,6 @@ import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 // import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
-import BookLoader from "../components/book-loader";
 import { validateQuery, formatComps } from "../utils";
 import Comps from "./components/comps";
 // import Manuscript from "./components/manuscript";
@@ -27,6 +26,7 @@ import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
 import TypeForm from "../components/type-form";
+import Spinner from "../components/spinner";
 
 export type FormState = {
   email: string;
@@ -129,17 +129,18 @@ const QueryForm = () => {
   };
 
   return (
-    <div className="pt-30">
+    <div className="pt-12">
       {queryMutation.isPending && (
         <div className="flex flex-col items-center h-[700px] mt-10">
-          <BookLoader width={300} height={300} />
+          <Spinner size={200} />
           <p className="mt-4 text-lg font-semibold">Searching for agents...</p>
         </div>
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
+            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-2">
+              <ScanSearch className="w-10 h-10" />
               Smart Query
             </h1>
             <ExplanationBlock />
@@ -173,7 +174,7 @@ const QueryForm = () => {
               <div className="flex w-full justify-center mt-12">
                 <Button
                   type="submit"
-                  className="cursor-pointer w-1/2 text-lg p-6 font-semibold"
+                  className="cursor-pointer w-1/2 text-lg p-6 font-semibold shadow-lg hover:shadow-xl"
                 >
                   Submit
                 </Button>

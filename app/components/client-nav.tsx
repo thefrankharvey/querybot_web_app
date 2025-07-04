@@ -79,24 +79,24 @@ const ClientNav = () => {
               <Newspaper className="w-5 h-5" />
               Slushwire Dispatch
             </Link>
+          </div>
+          <div className="flex items-center gap-4">
             <SignedIn>
-              <div className="cursor-pointer text-base font-semibold hover:text-accent transition-all duration-300">
-                <SignOutButton />
-              </div>
               <a
                 onClick={() => openUserProfile()}
-                className="text-base font-semibold hover:text-accent transition-all duration-300"
+                className="text-base hover:text-accent transition-all duration-300"
               >
                 Account
               </a>
+              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+                <SignOutButton />
+              </div>
             </SignedIn>
-          </div>
-          <div className="flex items-center gap-4">
             <SignedOut>
               <div className="cursor-pointer text-base hover:text-accent transition-all duration-300">
                 <SignInButton />
               </div>
-              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300">
+              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignUpButton />
               </div>
             </SignedOut>

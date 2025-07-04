@@ -17,20 +17,39 @@ const BlipsCard = ({ blips }: { blips: Blips }) => {
 
   return isDataValid ? (
     <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
-      <Link href={blips.website || ""} target="_blank">
-        <div className="flex gap-2 items-center font-semibold italic">
-          <Users />
-          <h3 className="text-sm">{blips.name}</h3>
-        </div>
-      </Link>
-      {blips.agency && (
-        <Link href={blips.website || ""} target="_blank">
-          <div className="flex gap-2 text-sm">
-            <h3 className="font-semibold">Agency:</h3>
-            <p>{blips.agency}</p>
+      {blips.website ? (
+        <>
+          <Link href={blips.website} target="_blank">
+            <div className="flex gap-2 items-center font-semibold italic">
+              <Users />
+              <h3 className="text-sm">{blips.name}</h3>
+            </div>
+          </Link>
+          {blips.agency && (
+            <Link href={blips.website} target="_blank">
+              <div className="flex gap-2 text-sm">
+                <h3 className="font-semibold">Agency:</h3>
+                <p>{blips.agency}</p>
+              </div>
+            </Link>
+          )}
+        </>
+      ) : (
+        <>
+          <div className="flex gap-2 items-center font-semibold italic">
+            <Users />
+            <h3 className="text-sm">{blips.name}</h3>
           </div>
-        </Link>
+
+          {blips.agency && (
+            <div className="flex gap-2 text-sm">
+              <h3 className="font-semibold">Agency:</h3>
+              <p>{blips.agency}</p>
+            </div>
+          )}
+        </>
       )}
+
       <div>
         <h3 className="text-sm font-semibold">Genres:</h3>
         <div className="flex flex-wrap gap-1">
