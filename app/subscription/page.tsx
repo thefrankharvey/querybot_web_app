@@ -80,15 +80,21 @@ export default function Subscription() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col font-normal text-base ml-2 md:ml-11 w-full md:w-[450px] gap-2">
-                      <span>
-                        - Smart agent ranking & scores agents for your who can
-                        serve your project best.
-                      </span>
-                      <span>
-                        - Real, actionable insights, not just another pile of
-                        names.
-                      </span>
+                    <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Smart agent ranking & scores agents for your who can
+                          serve your project best.
+                        </span>
+                      </div>
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Real, actionable insights, not just another pile of
+                          names.
+                        </span>
+                      </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -105,19 +111,28 @@ export default function Subscription() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                      <span className="mt-2">
-                        - Your Secret Weapon, Get daily real-time updates from
-                        top industry sources
-                      </span>
-                      <span className="mt-2">
-                        - Recently Active Agents, know who&apos;s actively
-                        seeking queries so you pitch at the right time
-                      </span>
-                      <span className="mt-2">
-                        - Monitor Multiple Platforms, Essential updates from
-                        across social media and professional platforms
-                      </span>
+                    <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Your Secret Weapon, Get daily real-time updates from
+                          top industry sources
+                        </span>
+                      </div>
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Recently Active Agents, know who&apos;s actively
+                          seeking queries so you pitch at the right time
+                        </span>
+                      </div>
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Monitor Multiple Platforms, Essential updates from
+                          across social media and professional platforms
+                        </span>
+                      </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -129,11 +144,14 @@ export default function Subscription() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                      <span>
-                        - The most comprehensive agent database (bigger than the
-                        &quot;Big Two&quot;).
-                      </span>
+                    <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          The most comprehensive agent database (bigger than the
+                          &quot;Big Two&quot;).
+                        </span>
+                      </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>
@@ -145,16 +163,22 @@ export default function Subscription() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col font-normal text-base ml-2 md:ml-11 w-full md:w-[450px] gap-2">
-                      <span>
-                        - Unmissable Industry Threads, The top agent AMAs, real
-                        guidance, success stories, and insider analysis
-                      </span>
-                      <span>
-                        - Unlock Submission Strategies, Proven tips &amp;
-                        tactics for crafting pitches, synopses, and queries that
-                        hook
-                      </span>
+                    <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Unmissable Industry Threads, The top agent AMAs, real
+                          guidance, success stories, and insider analysis
+                        </span>
+                      </div>
+                      <div className="flex gap-3 items-center">
+                        <span className="text-xl">✅</span>
+                        <span>
+                          Unlock Submission Strategies, Proven tips &amp;
+                          tactics for crafting pitches, synopses, and queries
+                          that hook
+                        </span>
+                      </div>
                     </div>
                   </AccordionContent>
                 </AccordionItem>

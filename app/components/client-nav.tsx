@@ -12,6 +12,7 @@ import {
   SignInButton,
   useClerk,
   SignOutButton,
+  useUser,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Newspaper, ScanSearch } from "lucide-react";
@@ -30,6 +31,7 @@ function ScrollToTop() {
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
   const { openUserProfile } = useClerk();
+  const { isSignedIn } = useUser();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,21 +67,26 @@ const ClientNav = () => {
         </Link>
         <div className="hidden md:flex items-center justify-between gap-4 w-full">
           <div className="flex items-center gap-4 ml-8">
-            <Link
-              href="/query-form"
-              className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
-            >
-              <ScanSearch className="w-6 h-6" />
-              Smart Query
-            </Link>
-            <Link
-              href="/slush-feed"
-              className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
-            >
-              <Newspaper className="w-5 h-5" />
-              Slushwire Dispatch
-            </Link>
+            {isSignedIn && (
+              <>
+                <Link
+                  href="/query-form"
+                  className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                >
+                  <ScanSearch className="w-6 h-6" />
+                  Smart Query
+                </Link>
+                <Link
+                  href="/slush-feed"
+                  className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                >
+                  <Newspaper className="w-5 h-5" />
+                  Slushwire Dispatch
+                </Link>
+              </>
+            )}
           </div>
+
           <div className="flex items-center gap-4">
             <SignedIn>
               <a
