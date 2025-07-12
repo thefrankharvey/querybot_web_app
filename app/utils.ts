@@ -85,7 +85,6 @@ export const setInLocalStorage = (key: string, item: unknown) => {
 // CSV UTILS ========================================================
 
 export const formatMatchesForCSV = (matches: AgentMatch[]) => {
-  console.log("matches", matches);
   const result = matches
     .map((agent) => {
       const filteredEntries = Object.entries(agent).filter(
@@ -111,9 +110,14 @@ export const isValidData = (data: string | null | undefined): boolean => {
   return data && data !== "!missing" ? true : false;
 };
 
-export const removePipes = (data: string | null) => {
+export const formatDisplayString = (data: string | undefined | null) => {
   if (!data) return data;
-  return data.replace(/\|/g, "");
+  return data.replace(/[|\/\\"']/g, "");
+};
+
+export const formatEmail = (email: string | undefined | null) => {
+  if (!email) return [];
+  return formatDisplayString(email)?.split(" ").filter(Boolean);
 };
 
 export const formatGenres = (genres: string) => {
@@ -151,15 +155,12 @@ export const formatGenres = (genres: string) => {
         // Remove empty strings and whitespace-only strings
         if (!str.trim()) return false;
 
-        // Check if it contains any number
-        if (/\d/.test(str)) return false;
+        // Check if it contains numbers, quotes, or unwanted symbols using regex
+        if (/[\d•@"']/.test(str)) return false;
 
         // Check if it contains any string from the filter list
         if (stringsToFilter.some((filterStr) => str.includes(filterStr)))
           return false;
-
-        // Check for symbols
-        if (str.includes("•") || str.includes("@")) return false;
 
         return true;
       });
@@ -168,12 +169,8 @@ export const formatGenres = (genres: string) => {
       const trimmedGenre = genre.trim();
       if (
         trimmedGenre &&
-        !/\d/.test(trimmedGenre) &&
-        !stringsToFilter.some((filterStr) =>
-          trimmedGenre.includes(filterStr)
-        ) &&
-        !trimmedGenre.includes("•") &&
-        !trimmedGenre.includes("@")
+        !/[\d•@"']/.test(trimmedGenre) &&
+        !stringsToFilter.some((filterStr) => trimmedGenre.includes(filterStr))
       ) {
         result.push(trimmedGenre);
       }

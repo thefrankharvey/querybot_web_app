@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 import { Blips } from "@/app/types";
-import { formatGenres, removePipes } from "@/app/utils";
+import { formatGenres, formatDisplayString } from "@/app/utils";
 import { Users } from "lucide-react";
 import Link from "next/link";
 
 const BlipsCard = ({ blips }: { blips: Blips }) => {
   const [openAccordion, setOpenAccordion] = useState<boolean>(false);
 
-  const formattedBio = blips.bio ? removePipes(blips.bio) : null;
+  const formattedBio = blips.bio ? formatDisplayString(blips.bio) : null;
 
   // Data required to show a card.
   const isDataValid =

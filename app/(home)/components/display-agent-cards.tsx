@@ -1,5 +1,5 @@
 import React from "react";
-import { isValidData } from "@/app/utils";
+import { formatDisplayString, formatGenres } from "@/app/utils";
 import { AgentMatch } from "@/app/context/agent-matches-context";
 import StarRating from "@/app/components/star-rating";
 
@@ -27,28 +27,35 @@ export const DisplayAgentCards = ({
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <label className="text-sm font-semibold">Bio:</label>
-          <p className="text-sm line-clamp-3">
-            {isValidData(agent.bio) ? agent.bio : "Info Unavailable"}
-          </p>
-        </div>
-        <div className="flex flex-col gap-1">
           <label className="text-sm font-semibold">Agency:</label>
-          <p className="text-sm">
-            {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
+          <p className="text-sm">{agent.agency}</p>
+        </div>
+        <div className="flex flex-col gap-1">
+          <label className="text-sm font-semibold">Favorites:</label>
+          <p className="text-sm line-clamp-3">
+            {formatDisplayString(agent.favorites)}
           </p>
         </div>
         <div className="flex flex-col gap-1">
-          <label className="text-sm font-semibold">Clients:</label>
+          <label className="text-sm font-semibold">Interests:</label>
           <p className="text-sm line-clamp-3">
-            {isValidData(agent.clients) ? agent.clients : "Info Unavailable"}
+            {formatDisplayString(agent.extra_interest)}
           </p>
         </div>
         <div className="flex flex-col gap-1">
-          <label className="text-sm font-semibold">Sales:</label>
-          <p className="text-sm line-clamp-3">
-            {isValidData(agent.sales) ? agent.sales : "Info Unavailable"}
-          </p>
+          <label className="text-sm font-semibold">Top Genres:</label>
+          <div className="flex flex-wrap gap-1">
+            {formatGenres(agent.genres)
+              .slice(0, 6)
+              .map((genre: string) => (
+                <div
+                  key={genre}
+                  className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                >
+                  {genre}
+                </div>
+              ))}
+          </div>
         </div>
       </div>
     </div>
