@@ -3,7 +3,12 @@
 import { useParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { isValidData, formatGenres } from "@/app/utils";
+import {
+  isValidData,
+  formatGenres,
+  formatDisplayString,
+  formatEmail,
+} from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   AgentMatchesProvider,
@@ -42,6 +47,8 @@ const AgentProfile = () => {
     );
   }
 
+  console.log(formatEmail(agent.email));
+
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
       <Link href="/agent-matches" className="flex items-center gap-2">
@@ -69,9 +76,13 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
           <div className="flex flex-col gap-2">
             {isValidData(agent.email) ? (
               <div className="flex flex-col gap-1">
-                <div className="flex items-center gap-1 w-fit">
+                <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
                   <label className="text-lg font-semibold">Email:</label>
-                  <CopyToClipboard text={agent.email || ""} />
+                  <div className="flex flex-wrap gap-2 md:gap-4">
+                    {formatEmail(agent.email)?.map((email, index) => {
+                      return <CopyToClipboard key={index} text={email} />;
+                    })}
+                  </div>
                 </div>
               </div>
             ) : null}
@@ -100,6 +111,30 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
                 </div>
               ))}
             </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <label className="text-lg font-semibold">Favorites:</label>
+            <p className="text-base leading-relaxed text-gray-800">
+              {isValidData(agent.favorites)
+                ? formatDisplayString(agent.favorites)
+                : "Info Unavailable"}
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <label className="text-lg font-semibold">Interests:</label>
+            <p className="text-base leading-relaxed text-gray-800">
+              {isValidData(agent.extra_interest)
+                ? formatDisplayString(agent.extra_interest)
+                : "Info Unavailable"}
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <label className="text-lg font-semibold">Negatives:</label>
+            <p className="text-base leading-relaxed text-gray-800">
+              {isValidData(agent.negatives)
+                ? formatDisplayString(agent.negatives)
+                : "Info Unavailable"}
+            </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>

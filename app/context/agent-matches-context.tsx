@@ -17,6 +17,7 @@ export interface AgentMatch {
   extra_links?: string;
   agent_id?: string;
   favorites: string;
+  negatives?: string;
   genres: string;
   id: string;
   location?: string;
