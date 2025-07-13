@@ -1,7 +1,7 @@
 import React from "react";
 import { FormState } from "../page";
 import { themeOptions } from "@/app/constants";
-import MultiSelect from "@/app/ui-primitives/multi-select";
+import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
 
 const Themes = ({
   setForm,
@@ -19,7 +19,7 @@ const Themes = ({
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block">Themes</label>
-      <MultiSelect
+      <InfiniteMultiSelect
         options={themeOptions}
         optionTitle="themes"
         handleChange={handleThemeChange}
