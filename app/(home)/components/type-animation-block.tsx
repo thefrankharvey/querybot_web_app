@@ -10,9 +10,9 @@ const TypeAnimationBlock = ({
 }) => {
   return (
     <div className="pt-20 sm:w-[90%] md:w-full lg:w-full text-left">
-      <h1 className="text-4xl md:text-[50px] font-normal leading-tight">
+      <h1 className="text-3xl md:text-[50px] font-normal leading-tight">
         <TypeAnimation
-          className="block h-[250px] md:h-[300px] whitespace-pre-line"
+          className="block h-[170px] md:h-[300px] whitespace-pre-line"
           speed={50}
           sequence={[
             `Smart.\n Author Focused Tools.\nQuery Smart.\nGet Signed.\nKeep Writing.`,

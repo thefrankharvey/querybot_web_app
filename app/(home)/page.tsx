@@ -19,12 +19,14 @@ const Home = () => {
           setShowSecondAnimation={setShowSecondAnimation}
           showSecondAnimation={showSecondAnimation}
         />
-        <Link href="/subscription">
-          <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
-            GET SLUSHWIRE PRO
-          </Button>
-        </Link>
-        <ProductsBlock showSecondAnimation={showSecondAnimation} />
+        <div className="flex flex-col-reverse md:block">
+          <Link href="/subscription">
+            <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+              GET SLUSHWIRE PRO
+            </Button>
+          </Link>
+          <ProductsBlock showSecondAnimation={showSecondAnimation} />
+        </div>
       </div>
       <SmartQueryBlock />
       <SlushwireDispatchBlock />

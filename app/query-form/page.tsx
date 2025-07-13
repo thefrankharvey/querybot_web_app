@@ -73,6 +73,7 @@ const QueryForm = () => {
       });
 
       if (!res.ok) {
+        setApiMessage("An API error occurred. Please try again.");
         throw new Error(`Request failed: ${res.status}`);
       }
 
@@ -127,6 +128,8 @@ const QueryForm = () => {
       top: 0,
     });
   };
+
+  console.log("queryMutation.error: ", queryMutation.isError);
 
   return (
     <div className="pt-12">
