@@ -33,7 +33,12 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2 md:mb-8">
           <h1 className="text-base font-semibold">Connect</h1>
-          <CopyToClipboard text="feedback@writequeryhook.com" />
+          <Link
+            href="/about"
+            className="text-base hover:text-accent transition-all duration-300"
+          >
+            About
+          </Link>
           <a
             className="text-base flex items-center gap-2 hover:text-accent transition-all duration-300"
             href="https://bsky.app/profile/writequeryhook.bsky.social"
@@ -47,6 +52,7 @@ const Footer = () => {
               height={16}
             />
           </a>
+          <CopyToClipboard text="feedback@writequeryhook.com" />
         </div>
       </div>
       <div className="max-w-screen-lg mx-auto flex justify-center px-4">
