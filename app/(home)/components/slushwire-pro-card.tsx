@@ -60,10 +60,9 @@ export const SlushwireProCard = () => {
           <Link
             href="https://writequeryhook.com/slushwire/"
             target="_blank"
-            className="underline hover:text-accent"
+            className="underline hover:text-accent transition-all duration-300"
           >
-            Try our <span className="font-semibold">free monthly</span>{" "}
-            newsletter!
+            Try our <span className="font-semibold">free</span> newsletter!
           </Link>
         </h1>
       </div>

@@ -38,7 +38,7 @@ export default function Subscription() {
               <br />
             </h1>
             <div className="flex flex-col md:flex-row gap-4 mt-8">
-              <Link href="/query-form">
+              <Link href="/smart-query">
                 <Button className="cursor-pointer text-xl p-8 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl">
                   Smart Query
                 </Button>

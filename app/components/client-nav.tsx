@@ -70,7 +70,7 @@ const ClientNav = () => {
             {isSignedIn && (
               <>
                 <Link
-                  href="/query-form"
+                  href="/smart-query"
                   className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
                 >
                   <ScanSearch className="w-6 h-6" />
