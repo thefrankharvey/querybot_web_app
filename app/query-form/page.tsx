@@ -177,7 +177,7 @@ const QueryForm = () => {
               <div className="flex w-full justify-center mt-12">
                 <Button
                   type="submit"
-                  className="cursor-pointer w-1/2 text-lg p-6 font-semibold shadow-lg hover:shadow-xl"
+                  className="cursor-pointer w-full md:w-1/2 text-lg p-6 font-semibold shadow-lg hover:shadow-xl"
                 >
                   Submit
                 </Button>
