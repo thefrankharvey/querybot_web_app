@@ -9,7 +9,7 @@ const TypeAnimationBlock = ({
   showSecondAnimation: boolean;
 }) => {
   return (
-    <div className="pt-20 sm:w-[90%] md:w-full lg:w-full text-left">
+    <div className="pt-15 md:pt-20 sm:w-[90%] md:w-full lg:w-full text-left">
       <h1 className="text-3xl md:text-[50px] font-normal leading-tight">
         <TypeAnimation
           className="block h-[170px] md:h-[300px] whitespace-pre-line"

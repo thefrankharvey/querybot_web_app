@@ -21,7 +21,7 @@ const CopyToClipboard = ({ text }: { text: string }) => {
         </div>
       )}
       <div
-        className="cursor-pointer flex items-center gap-2"
+        className="cursor-pointer flex items-center gap-2 hover:text-accent transition-all duration-300"
         onClick={handleCopy}
       >
         <div className="flex items-center gap-1">{text}</div>

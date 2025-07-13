@@ -42,7 +42,7 @@ export const ClientHamburger = () => {
         <div className="flex flex-col gap-8 items-center w-full h-full mt-50">
           <Link
             onClick={() => setOpen(false)}
-            href="/query-form"
+            href="/smart-query"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
           >
             Smart Query

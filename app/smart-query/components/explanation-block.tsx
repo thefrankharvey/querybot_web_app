@@ -29,7 +29,7 @@ const ExplanationBlock = () => {
             More Details
           </Button>
         </DialogTrigger>
-        <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-white rounded-lg p-8">
+        <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto bg-white rounded-lg px-4 md:p-8 mt-6">
           <DialogHeader>
             <DialogTitle className="text-lg font-semibold text-gray-900">
               How to get the best results

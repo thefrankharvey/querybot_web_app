@@ -12,7 +12,7 @@ const SlushReport = async () => {
 
   return (
     <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto pt-12">
-      <h1 className="text-4xl font-extrabold leading-tight mb-4 flex gap-2 items-center">
+      <h1 className="text-4xl font-extrabold leading-tight mb-4 flex gap-4 items-center">
         <Newspaper className="w-10 h-10" />
         Slushwire Dispatch
       </h1>

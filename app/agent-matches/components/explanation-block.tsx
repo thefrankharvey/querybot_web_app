@@ -23,7 +23,7 @@ const ExplanationBlock = () => {
             </div>
           </Button>
         </DialogTrigger>
-        <DialogContent className="max-w-2xl bg-white rounded-lg p-8">
+        <DialogContent className="max-w-2xl bg-white rounded-lg px-4 md:p-8 mt-6">
           <DialogHeader>
             <DialogTitle>
               <div className="text-xl font-semibold text-gray-900">
@@ -33,14 +33,6 @@ const ExplanationBlock = () => {
           </DialogHeader>
           <div className="mt-4">
             <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <div>
-                  <strong>There is no login… yet</strong>
-                  <br /> - so do not navigate away from this page unless you are
-                  done viewing and downloading your results.
-                </div>
-              </li>
-
               <li className="flex items-start">
                 <div>
                   <strong>View results</strong>

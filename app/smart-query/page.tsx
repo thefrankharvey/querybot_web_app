@@ -40,7 +40,7 @@ export type FormState = {
   non_fiction: boolean;
 };
 
-const QueryForm = () => {
+const SmartQuery = () => {
   const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -129,8 +129,6 @@ const QueryForm = () => {
     });
   };
 
-  console.log("queryMutation.error: ", queryMutation.isError);
-
   return (
     <div className="pt-12">
       {queryMutation.isPending && (
@@ -142,7 +140,7 @@ const QueryForm = () => {
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-2">
+            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
               <ScanSearch className="w-10 h-10" />
               Smart Query
             </h1>
@@ -190,10 +188,10 @@ const QueryForm = () => {
   );
 };
 
-export default function QueryFormPage() {
+export default function SmartQueryPage() {
   return (
     <AgentMatchesProvider>
-      <QueryForm />
+      <SmartQuery />
       <TypeForm />
     </AgentMatchesProvider>
   );
