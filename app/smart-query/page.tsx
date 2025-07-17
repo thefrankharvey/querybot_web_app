@@ -13,7 +13,7 @@ import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 // import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
-import { validateQuery, formatComps } from "../utils";
+import { validateQuery, formatComps, getFromLocalStorage } from "../utils";
 import Comps from "./components/comps";
 // import Manuscript from "./components/manuscript";
 import Themes from "./components/themes";
@@ -27,6 +27,7 @@ import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
 import TypeForm from "../components/type-form";
 import Spinner from "../components/spinner";
+import { useAuth } from "@clerk/nextjs";
 
 export type FormState = {
   email: string;
@@ -41,6 +42,9 @@ export type FormState = {
 };
 
 const SmartQuery = () => {
+  const { has, isLoaded } = useAuth();
+  const hasProPlan = has?.({ plan: "slushwire_pro" });
+  const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -129,6 +133,14 @@ const SmartQuery = () => {
     });
   };
 
+  if (!isLoaded) {
+    return (
+      <div className="pt-20 flex justify-center items-center">
+        <Spinner size={100} />
+      </div>
+    );
+  }
+
   return (
     <div className="pt-12">
       {queryMutation.isPending && (
@@ -140,15 +152,41 @@ const SmartQuery = () => {
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
-            <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
-              <ScanSearch className="w-10 h-10" />
-              Smart Query
-            </h1>
-            <ExplanationBlock />
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <ArrowLeft className="w-8 h-8" />
-              <h2 className="text-2xl">Back</h2>
-            </Link>
+            <div className="mb-4">
+              <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
+                <ScanSearch className="w-10 h-10" />
+                Smart Query
+              </h1>
+              <h2 className="text-xl font-semibold text-gray-900 mb-2">
+                How to get the best results:
+              </h2>
+              <p className="text-gray-700 mb-4">
+                Fill this out this form as completely as possible. The more
+                specific and complete your entries are the better your results
+                will be.
+              </p>
+            </div>
+            <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
+              <Link href="/" className="flex items-center gap-2">
+                <ArrowLeft className="w-8 h-8" />
+                <h2 className="text-xl">Back</h2>
+              </Link>
+              <div className="flex gap-4 flex-col md:flex-row">
+                <ExplanationBlock />
+                {hasProPlan &&
+                  hasAgentMatches &&
+                  hasAgentMatches.length > 0 && (
+                    <Link href="/agent-matches" className="w-full md:w-fit">
+                      <Button
+                        className="cursor-pointer text-base p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
+                        variant="default"
+                      >
+                        Previous Agent Matches
+                      </Button>
+                    </Link>
+                  )}
+              </div>
+            </div>
           </div>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[640px] mx-auto shadow-lg">

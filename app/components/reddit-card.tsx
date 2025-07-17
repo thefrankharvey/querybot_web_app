@@ -11,7 +11,7 @@ const RedditCard = ({ post }: { post: RedditPost }) => {
   return (
     <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md">
       <Link href={post.post_link || ""} target="_blank">
-        <div className="flex gap-2 items-center font-semibold italic">
+        <div className="flex gap-2 items-center font-semibold">
           <div className="min-h-[24px] min-w-[24px]">
             <Image
               src={"/reddit-icon.svg"}

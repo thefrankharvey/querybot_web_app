@@ -6,23 +6,40 @@ import { formatGenres, formatDisplayString } from "@/app/utils";
 import { Users } from "lucide-react";
 import Link from "next/link";
 
-const BlipsCard = ({ blips }: { blips: Blips }) => {
+const BlipsCard = ({
+  blips,
+  isOpenToSubs,
+}: {
+  blips: Blips;
+  isOpenToSubs?: boolean;
+}) => {
   const [openAccordion, setOpenAccordion] = useState<boolean>(false);
 
-  const formattedBio = blips.bio ? formatDisplayString(blips.bio) : null;
+  const formattedInterests = blips.extra_interest
+    ? formatDisplayString(blips.extra_interest)
+    : null;
 
   // Data required to show a card.
   const isDataValid =
-    blips.agency && blips.genres && formattedBio && blips.name ? true : false;
+    blips.agency && blips.genres && formattedInterests && blips.name
+      ? true
+      : false;
 
   return isDataValid ? (
     <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
       {blips.website ? (
         <>
           <Link href={blips.website} target="_blank">
-            <div className="flex gap-2 items-center font-semibold italic">
-              <Users />
-              <h3 className="text-sm">{blips.name}</h3>
+            <div className="flex justify-between items-center">
+              <div className="flex gap-2 items-center font-semibold">
+                <Users />
+                <h3 className="text-sm">{blips.name}</h3>
+              </div>
+              {isOpenToSubs && (
+                <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+                  Open to Submissions
+                </span>
+              )}
             </div>
           </Link>
           {blips.agency && (
@@ -36,9 +53,16 @@ const BlipsCard = ({ blips }: { blips: Blips }) => {
         </>
       ) : (
         <>
-          <div className="flex gap-2 items-center font-semibold italic">
-            <Users />
-            <h3 className="text-sm">{blips.name}</h3>
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2 items-center font-semibold">
+              <Users />
+              <h3 className="text-sm">{blips.name}</h3>
+            </div>
+            {isOpenToSubs && (
+              <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+                Open to Submissions
+              </span>
+            )}
           </div>
 
           {blips.agency && (
@@ -51,29 +75,31 @@ const BlipsCard = ({ blips }: { blips: Blips }) => {
       )}
 
       <div>
-        <h3 className="text-sm font-semibold">Genres:</h3>
+        <h3 className="text-sm font-semibold">Top Genres:</h3>
         <div className="flex flex-wrap gap-1">
-          {formatGenres(blips.genres)
-            .slice(0, 8)
-            .map((genre, index) => (
-              <div
-                className="bg-gray-100 px-2 py-1 text-xs rounded-md"
-                key={index}
-              >
-                {genre}
-              </div>
-            ))}
+          {blips.genres
+            ? formatGenres(blips.genres)
+                .slice(0, 8)
+                .map((genre, index) => (
+                  <div
+                    className="bg-gray-100 px-2 py-1 text-xs rounded-md"
+                    key={index}
+                  >
+                    {genre}
+                  </div>
+                ))
+            : "Info Unavailable"}
         </div>
       </div>
       <div
         className="flex flex-col cursor-pointer text-sm"
         onClick={() => setOpenAccordion(!openAccordion)}
       >
-        <h3 className="text-sm font-semibold">Bio:</h3>
+        <h3 className="text-sm font-semibold">Interests:</h3>
         {!openAccordion ? (
-          <p className="line-clamp-3">{formattedBio}</p>
+          <p className="line-clamp-3">{formattedInterests}</p>
         ) : (
-          <p>{formattedBio}</p>
+          <p>{formattedInterests}</p>
         )}
       </div>
     </div>
