@@ -13,7 +13,7 @@ import {
   AccordionContent,
 } from "../ui-primitives/accordion";
 
-export default function Subscription() {
+const Subscription = () => {
   const { has, isLoaded } = useAuth();
   const hasProPlan = has?.({ plan: "slushwire_pro" });
   const hasAgentMatches = getFromLocalStorage("agent_matches");
@@ -25,8 +25,6 @@ export default function Subscription() {
       </div>
     );
   }
-
-  // most comprehensive agent database (bigger than the "Big Two").
 
   return (
     <div className="pt-12 flex flex-col gap-4 items-center">
@@ -241,4 +239,6 @@ export default function Subscription() {
       )}
     </div>
   );
-}
+};
+
+export default Subscription;

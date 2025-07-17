@@ -1,3 +1,5 @@
+"use client";
+
 import { useAgentMatches, FormData } from "../../context/agent-matches-context";
 import { useMutation } from "@tanstack/react-query";
 import { QUERY_LIMIT } from "../../constants";
@@ -80,7 +82,6 @@ export const AgentMatchesFull = () => {
 
   const handleCSVDownload = () => {
     if (!matches || matches.length === 0) {
-      console.log("No matches to download");
       return;
     }
 

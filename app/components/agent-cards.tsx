@@ -85,16 +85,18 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
             <label className="text-sm font-semibold">Top Genres:</label>
             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
               <div className="flex flex-wrap gap-1">
-                {formatGenres(agent.genres)
-                  .slice(0, 8)
-                  .map((genre: string) => (
-                    <div
-                      key={genre}
-                      className="bg-gray-100 px-2 py-1 text-sm rounded-md"
-                    >
-                      {genre}
-                    </div>
-                  ))}
+                {agent.genres
+                  ? formatGenres(agent.genres)
+                      .slice(0, 8)
+                      .map((genre: string) => (
+                        <div
+                          key={genre}
+                          className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                        >
+                          {genre}
+                        </div>
+                      ))
+                  : "Info Unavailable"}
               </div>
             </Skeleton>
           </div>

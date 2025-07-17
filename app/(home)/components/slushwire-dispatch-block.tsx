@@ -42,7 +42,9 @@ const SlushwireDispatchBlock = () => {
           }}
         >
           <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
-          <BlueskyCard post={feedDemoData.bluesky_post} />
+          <div className="pointer-events-none">
+            <BlueskyCard post={feedDemoData.bluesky_post} />
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 50 }}
@@ -55,7 +57,9 @@ const SlushwireDispatchBlock = () => {
           }}
         >
           <h2 className="text-lg font-semibold mb-2">Reddit</h2>
-          <RedditCard post={feedDemoData.reddit_post} />
+          <div className="pointer-events-none">
+            <RedditCard post={feedDemoData.reddit_post} />
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 50 }}
@@ -68,21 +72,29 @@ const SlushwireDispatchBlock = () => {
           }}
         >
           <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
-          <BlipsCard blips={feedDemoData.pm_blips} />
+          <div className="pointer-events-none">
+            <BlipsCard blips={feedDemoData.pm_blips} isOpenToSubs />
+          </div>
         </motion.div>
       </div>
       <div className="flex flex-col gap-4 w-full md:hidden">
         <div>
           <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
-          <BlueskyCard post={feedDemoData.bluesky_post} />
+          <div className="pointer-events-none">
+            <BlueskyCard post={feedDemoData.bluesky_post} />
+          </div>
         </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Reddit</h2>
-          <RedditCard post={feedDemoData.reddit_post} />
+          <div className="pointer-events-none">
+            <RedditCard post={feedDemoData.reddit_post} />
+          </div>
         </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
-          <BlipsCard blips={feedDemoData.pm_blips} />
+          <div className="pointer-events-none">
+            <BlipsCard blips={feedDemoData.pm_blips} isOpenToSubs />
+          </div>
         </div>
       </div>
       <div className="flex justify-center w-full md:hidden">

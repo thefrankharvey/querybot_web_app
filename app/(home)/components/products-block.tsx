@@ -21,7 +21,7 @@ const ProductsBlock = ({
           </span>
         </p>
         <p className="text-xl md:text-2xl font-normal mt-4 flex items-center gap-3">
-          <Newspaper className="w-12 h-12" />
+          <Newspaper className="w-14 h-14" />
           <span>
             <span className="font-semibold">Slushwire Dispatch</span>, provides
             a real time industry news feed.
@@ -31,7 +31,7 @@ const ProductsBlock = ({
           <DatabaseZap className="w-14 h-14" /> The largest data base of
           literary agents in the industry.
         </p>
-        <p className="text-xl md:text-2xl font-normal mt-4 flex items-center gap-3">
+        <p className="text-xl md:text-2xl font-normal mt-4 mb-4 flex items-center gap-3">
           <MailCheck className="w-14 h-14" /> Weekly email newsletter of curated
           industry intel.
         </p>

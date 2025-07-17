@@ -25,25 +25,25 @@ export const SlushwireProCard = () => {
             id="content"
           >
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
-              <ScanSearch className="w-12 h-12" />{" "}
+              <ScanSearch className="w-14 h-14" />{" "}
               <span>
                 <span className="font-semibold">Smart Query</span>, finds agents
                 tailored specifically to your work.
               </span>
             </p>
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
-              <Newspaper className="w-10 h-10" />
+              <Newspaper className="w-12 h-12" />
               <span>
                 <span className="font-semibold">Slushwire Dispatch</span>,
                 provides a real time industry news feed.
               </span>
             </p>
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
-              <DatabaseZap className="w-10 h-10" /> The largest data base of
+              <DatabaseZap className="w-12 h-12" /> The largest data base of
               literary agents in the industry.
             </p>
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
-              <MailCheck className="w-10 h-10" /> Weekly email newsletter of
+              <MailCheck className="w-12 h-12" /> Weekly email newsletter of
               curated industry intel.
             </p>
 

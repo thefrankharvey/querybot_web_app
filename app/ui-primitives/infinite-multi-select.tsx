@@ -1,3 +1,5 @@
+"use client";
+
 import { Check, ChevronDownIcon } from "lucide-react";
 import { useState, useMemo, useCallback, useRef } from "react";
 import { FixedSizeList as List } from "react-window";

@@ -38,7 +38,7 @@ export const feedDemoData = {
       "No poetry, screenplays, children's picture books, self-help, or business books",
     email: "sarah.collins@sterlingliterary.com",
     extra_interest:
-      "Book club moderator, guest lecturer at NYU Publishing Institute, regular panelist at literary conferences, advocates for mental health awareness in publishing industry",
+      "Seeks emotionally resonant narratives, inventive plots, and characters who feel real. Drawn to MG and YA that blend humor with heart, especially those involving friendship, found family, or secrets waiting to be uncovered. Passionate about stories that celebrate curiosity, creativity, and courage.",
     extra_links:
       "https://sterlingliterary.com/agents/sarah-collins, https://publishersmarketplace.com/members/scollins",
     favorites:

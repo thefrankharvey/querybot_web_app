@@ -18,8 +18,6 @@ export const AgentMatchesInner = ({
   isLoading: boolean;
   handleCSVDownload?: () => void;
 }) => {
-  console.log({ matches });
-
   return (
     <>
       <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
@@ -36,7 +34,7 @@ export const AgentMatchesInner = ({
             {hasProPlan && (
               <Button
                 onClick={handleCSVDownload}
-                className="cursor-pointer text-lg p-6 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl"
+                className="cursor-pointer text-base p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
               >
                 Download page results
               </Button>

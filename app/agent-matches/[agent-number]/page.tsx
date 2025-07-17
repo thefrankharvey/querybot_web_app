@@ -47,8 +47,6 @@ const AgentProfile = () => {
     );
   }
 
-  console.log(formatEmail(agent.email));
-
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
       <Link href="/agent-matches" className="flex items-center gap-2">

@@ -15,12 +15,10 @@ const ExplanationBlock = () => {
       <Dialog>
         <DialogTrigger asChild>
           <Button
-            className="cursor-pointer text-lg p-6 font-semibold w-full md:w-fit shadow-lg hover:shadow-xl"
+            className="cursor-pointer text-base p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
             variant="secondary"
           >
-            <div className="text-lg font-semibold text-gray-900">
-              How to use the results
-            </div>
+            How to use the results
           </Button>
         </DialogTrigger>
         <DialogContent className="max-w-2xl bg-white rounded-lg px-4 md:p-8 mt-6">

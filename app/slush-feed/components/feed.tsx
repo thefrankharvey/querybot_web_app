@@ -99,7 +99,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
                 Submission Openings
               </h2>
               {qt_blips.map((blips) => (
-                <BlipsCard blips={blips} key={blips.id} />
+                <BlipsCard blips={blips} key={blips.id} isOpenToSubs />
               ))}
             </>
           )}
