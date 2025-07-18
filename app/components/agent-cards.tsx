@@ -42,8 +42,7 @@ export const AgentCards = ({
             <div className="flex flex-col items-start gap-1 w-fit">
               <TooltipComponent
                 className="text-left"
-                content="Our Agent match scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
-Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
+                content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
               >
                 <label className="text-sm font-semibold">Match Score:</label>
                 <div className="text-xl font-semibold flex items-center gap-1">

@@ -39,7 +39,7 @@ const SlushReport = async () => {
           extra_interest: blip.extra_interest
             ? formatDisplayString(blip.extra_interest)
             : undefined,
-          website: blip.website ? urlFormatter(blip.website) : "",
+          website: blip.website ? urlFormatter(blip.website) || "" : "",
         };
       });
     };

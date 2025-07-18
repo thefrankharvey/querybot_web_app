@@ -42,10 +42,10 @@ export const ClientHamburger = () => {
         <div className="flex flex-col gap-8 items-center w-full h-full mt-50">
           <Link
             onClick={() => setOpen(false)}
-            href="/smart-query"
+            href="/smart-match"
             className="text-2xl font-semibold hover:text-accent transition-all duration-300 underline"
           >
-            Smart Query
+            Smart Match
           </Link>
           <Link
             onClick={() => setOpen(false)}

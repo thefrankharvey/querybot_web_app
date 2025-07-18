@@ -16,7 +16,7 @@ const ProductsBlock = ({
         <p className="text-xl md:text-2xl font-normal mt-4 flex items-center gap-3">
           <ScanSearch className="w-16 h-16" />{" "}
           <span>
-            <span className="font-semibold">Smart Query</span>, finds agents
+            <span className="font-semibold">Smart Match</span>, finds agents
             tailored specifically to your work.
           </span>
         </p>

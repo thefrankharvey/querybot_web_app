@@ -8,6 +8,7 @@ import {
   formatGenres,
   formatDisplayString,
   formatEmail,
+  urlFormatter,
 } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
@@ -20,9 +21,12 @@ import TypeForm from "@/app/components/type-form";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/components/spinner";
+import { useAuth } from "@clerk/nextjs";
 
 const AgentProfile = () => {
   const params = useParams();
+  const { has, isLoaded } = useAuth();
+  const hasProPlan = has?.({ plan: "slushwire_pro" });
   const matchesContext = useAgentMatches();
   const matches = useMemo(
     () => matchesContext?.matches || [],
@@ -39,7 +43,7 @@ const AgentProfile = () => {
     }
   }, [matches, params]);
 
-  if (!agent) {
+  if (!agent || !isLoaded) {
     return (
       <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12 justify-center items-center">
         <Spinner size={100} />
@@ -61,8 +65,7 @@ const AgentProfile = () => {
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
                 className="w-fit"
-                content="Our Agent match scores are based on data and keywords from your work which are matched against agent data in our comprehensive database.
-Our ranking system helps you avoid the generalized spray and pray approach - and aim for agents actively seeking your specific niche and story traits based on what an agent has sold and represented in the past or has a specific interest in the type of work you are submitting."
+                content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
               >
                 <div className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agent.normalized_score} />
@@ -71,31 +74,49 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
               </TooltipComponent>
             </div>
           </div>
-          <div className="flex flex-col gap-2">
-            {isValidData(agent.email) ? (
-              <div className="flex flex-col gap-1">
-                <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
-                  <label className="text-lg font-semibold">Email:</label>
-                  <div className="flex flex-wrap gap-2 md:gap-4">
-                    {formatEmail(agent.email)?.map((email, index) => {
-                      return <CopyToClipboard key={index} text={email} />;
-                    })}
-                  </div>
+          {isValidData(agent.email) && hasProPlan ? (
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
+                <label className="text-lg font-semibold">Email:</label>
+                <div className="flex flex-wrap gap-2 md:gap-4">
+                  {formatEmail(agent.email)?.map((email, index) => {
+                    return <CopyToClipboard key={index} text={email} />;
+                  })}
                 </div>
               </div>
-            ) : null}
-            {isValidData(agent.twitter_url) ? (
-              <div className="flex items-center gap-1">
-                <label className="text-lg font-semibold">Twitter:</label>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={`${agent.twitter_url}`}
-                >
-                  {agent.twitter_handle}
-                </a>
-              </div>
-            ) : null}
+            </div>
+          ) : null}
+          {isValidData(agent.twitter_url) && hasProPlan ? (
+            <div className="flex items-center gap-1">
+              <label className="text-lg font-semibold">Twitter:</label>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`${agent.twitter_url}`}
+              >
+                {agent.twitter_handle}
+              </a>
+            </div>
+          ) : null}
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
+            <label className="text-lg font-semibold">Agency:</label>
+            {urlFormatter(agent.website) && hasProPlan ? (
+              <Link
+                href={urlFormatter(agent.website) || ""}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="text-base leading-relaxed text-gray-800 underline hover:text-accent">
+                  {isValidData(agent.agency)
+                    ? agent.agency
+                    : "Info Unavailable"}
+                </p>
+              </Link>
+            ) : (
+              <p className="text-base leading-relaxed text-gray-800">
+                {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
+              </p>
+            )}
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Genres:</label>
@@ -138,12 +159,6 @@ Our ranking system helps you avoid the generalized spray and pray approach - and
             <label className="text-lg font-semibold">Bio:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {isValidData(agent.bio) ? agent.bio : "Info Unavailable"}
-            </p>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Agency:</label>
-            <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">

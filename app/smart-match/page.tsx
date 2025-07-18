@@ -41,7 +41,7 @@ export type FormState = {
   non_fiction: boolean;
 };
 
-const SmartQuery = () => {
+const SmartMatch = () => {
   const { has, isLoaded } = useAuth();
   const hasProPlan = has?.({ plan: "slushwire_pro" });
   const hasAgentMatches = getFromLocalStorage("agent_matches");
@@ -155,7 +155,7 @@ const SmartQuery = () => {
             <div className="mb-4">
               <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
                 <ScanSearch className="w-10 h-10" />
-                Smart Query
+                Smart Match
               </h1>
               <h2 className="text-xl font-semibold text-gray-900 mb-2">
                 How to get the best results:
@@ -226,10 +226,10 @@ const SmartQuery = () => {
   );
 };
 
-export default function SmartQueryPage() {
+export default function SmartMatchPage() {
   return (
     <AgentMatchesProvider>
-      <SmartQuery />
+      <SmartMatch />
       <TypeForm />
     </AgentMatchesProvider>
   );

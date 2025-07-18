@@ -111,13 +111,14 @@ export const isValidData = (data: string | null | undefined): boolean => {
 };
 
 export const urlFormatter = (url: string | undefined | null) => {
+  if (!url?.includes(".")) return null;
+
   if (url?.includes("|")) {
     if (!url.split("|")[0].includes("http")) {
       return "http://" + url.split("|")[0];
     }
     return url.split("|")[0];
   }
-
   if (!url?.includes("http")) {
     return "http://" + url;
   }
