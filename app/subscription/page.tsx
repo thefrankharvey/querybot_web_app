@@ -31,11 +31,11 @@ const Subscription = () => {
       {hasProPlan ? (
         <>
           <div className="w-full md:w-3/4 mx-auto flex flex-col items-center">
-            <h1 className="text-[24px] md:text-[40px] font-semibold leading-tight text-left md:text-center">
+            <h1 className="text-[24px] md:text-[40px] mb-8 font-semibold leading-tight text-center">
               Welcome Slushwire Pro Subscriber!
               <br />
             </h1>
-            <div className="flex flex-col md:flex-row gap-4 mt-8">
+            <div className="flex flex-col md:flex-row gap-8 mt-8 w-full justify-center">
               <Link href="/smart-match">
                 <Button className="cursor-pointer text-xl p-8 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl">
                   Smart Match
