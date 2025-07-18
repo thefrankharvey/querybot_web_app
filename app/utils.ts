@@ -110,6 +110,20 @@ export const isValidData = (data: string | null | undefined): boolean => {
   return data && data !== "!missing" ? true : false;
 };
 
+export const urlFormatter = (url: string | undefined | null) => {
+  if (url?.includes("|")) {
+    if (!url.split("|")[0].includes("http")) {
+      return "http://" + url.split("|")[0];
+    }
+    return url.split("|")[0];
+  }
+
+  if (!url?.includes("http")) {
+    return "http://" + url;
+  }
+  return url;
+};
+
 export const formatDisplayString = (data: string | undefined | null) => {
   if (!data) return data;
   return data.replace(/[|\/\\"']/g, "");

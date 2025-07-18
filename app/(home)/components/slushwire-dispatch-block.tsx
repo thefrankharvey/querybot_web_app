@@ -43,7 +43,7 @@ const SlushwireDispatchBlock = () => {
         >
           <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
           <div className="pointer-events-none">
-            <BlueskyCard post={feedDemoData.bluesky_post} />
+            <BlueskyCard post={feedDemoData.bluesky} />
           </div>
         </motion.div>
         <motion.div
@@ -58,7 +58,7 @@ const SlushwireDispatchBlock = () => {
         >
           <h2 className="text-lg font-semibold mb-2">Reddit</h2>
           <div className="pointer-events-none">
-            <RedditCard post={feedDemoData.reddit_post} />
+            <RedditCard post={feedDemoData.reddit} />
           </div>
         </motion.div>
         <motion.div
@@ -81,13 +81,13 @@ const SlushwireDispatchBlock = () => {
         <div>
           <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
           <div className="pointer-events-none">
-            <BlueskyCard post={feedDemoData.bluesky_post} />
+            <BlueskyCard post={feedDemoData.bluesky} />
           </div>
         </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Reddit</h2>
           <div className="pointer-events-none">
-            <RedditCard post={feedDemoData.reddit_post} />
+            <RedditCard post={feedDemoData.reddit} />
           </div>
         </div>
         <div>

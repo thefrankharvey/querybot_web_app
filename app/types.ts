@@ -20,7 +20,7 @@ export type Blips = {
   created_at: string;
   dont_send?: string;
   email: string;
-  extra_interest?: string;
+  extra_interest?: string | null;
   extra_links?: string;
   favorites: string;
   genres: string;
@@ -54,10 +54,8 @@ export type RedditPost = {
 };
 
 export type SlushFeed = {
-  data: {
-    bluesky_posts: BlueskyPost[];
-    pm_blips: Blips[];
-    qt_blips: Blips[];
-    reddit_posts: RedditPost[];
-  };
+  agent_activity: Blips[];
+  bluesky: BlueskyPost[];
+  new_openings: Blips[];
+  reddit: RedditPost[];
 };

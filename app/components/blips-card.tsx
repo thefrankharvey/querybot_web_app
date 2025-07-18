@@ -35,9 +35,13 @@ const BlipsCard = ({
                 <Users />
                 <h3 className="text-sm">{blips.name}</h3>
               </div>
-              {isOpenToSubs && (
+              {isOpenToSubs ? (
                 <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
                   Open to Submissions
+                </span>
+              ) : (
+                <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+                  Agent Update
                 </span>
               )}
             </div>

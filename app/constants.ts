@@ -1,5 +1,5 @@
 export const feedDemoData = {
-  bluesky_post: {
+  bluesky: {
     author_did: "did:plc:336qirp5agd3agd7u4uynocv",
     created_at: "Mon, 30 Jun 2025 12:55:10 GMT",
     datetime: "Mon, 30 Jun 2025 11:53:49 GMT",
@@ -12,7 +12,7 @@ export const feedDemoData = {
     url: "https://bsky.app/profile/woodenvelt.bsky.social/post/3lst4r6ypyk2t",
     username: "woodenvelt.bsky.social",
   },
-  reddit_post: {
+  reddit: {
     author: "WriterInTheWild",
     comments_count: "127",
     content:

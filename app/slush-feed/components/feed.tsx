@@ -26,9 +26,13 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
     [SOCIAL_DATA.BLUESKY]: true,
   });
 
+  // Ensure arrays exist with fallbacks
   const {
-    data: { bluesky_posts, pm_blips, qt_blips, reddit_posts },
-  } = data;
+    bluesky = [],
+    new_openings = [],
+    agent_activity = [],
+    reddit = [],
+  } = data || {};
 
   return (
     <>
@@ -84,38 +88,38 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
       </div>
       <div className="flex flex-col gap-4" ref={gridRef}>
         {activeData[SOCIAL_DATA.AGENT_INFO] &&
-          pm_blips.some((blip) => blip.bio && blip.name) && (
+          new_openings.length > 0 &&
+          new_openings.some((blip) => blip.bio && blip.name) && (
             <>
-              <h2 className="text-xl font-semibold mt-6">Agent Activity</h2>
-              {pm_blips.map((blips) => (
-                <BlipsCard blips={blips} key={blips.id} />
+              <h2 className="text-xl mt-6"></h2>
+              {new_openings.map((blips, index) => (
+                <BlipsCard blips={blips} key={index} isOpenToSubs />
               ))}
             </>
           )}
         {activeData[SOCIAL_DATA.AGENT_INFO] &&
-          qt_blips.some((blip) => blip.bio && blip.name) && (
+          agent_activity.length > 0 &&
+          agent_activity.some((blip) => blip.bio && blip.name) && (
             <>
-              <h2 className="text-xl font-semibold mt-6">
-                Submission Openings
-              </h2>
-              {qt_blips.map((blips) => (
-                <BlipsCard blips={blips} key={blips.id} isOpenToSubs />
+              <h2 className="text-xl mt-6"></h2>
+              {agent_activity.map((blips, index) => (
+                <BlipsCard blips={blips} key={index} />
               ))}
             </>
           )}
-        {activeData[SOCIAL_DATA.REDDIT] && reddit_posts.length > 0 && (
+        {activeData[SOCIAL_DATA.REDDIT] && reddit.length > 0 && (
           <>
             <h2 className="text-xl font-semibold mt-6">Reddit</h2>
-            {reddit_posts.map((post) => (
-              <RedditCard post={post} key={post.id} />
+            {reddit.map((post, index) => (
+              <RedditCard post={post} key={index} />
             ))}
           </>
         )}
-        {activeData[SOCIAL_DATA.BLUESKY] && bluesky_posts.length > 0 && (
+        {activeData[SOCIAL_DATA.BLUESKY] && bluesky.length > 0 && (
           <>
             <h2 className="text-xl font-semibold mt-6">Bluesky</h2>
-            {bluesky_posts.map((post) => (
-              <BlueskyCard post={post} key={post.id} />
+            {bluesky.map((post, index) => (
+              <BlueskyCard post={post} key={index} />
             ))}
           </>
         )}
@@ -125,10 +129,10 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           title="Want the full slushwire dispatch?"
           gridRef={gridRef}
           resultLength={
-            bluesky_posts.length +
-            pm_blips.length +
-            qt_blips.length +
-            reddit_posts.length
+            bluesky.length +
+            new_openings.length +
+            agent_activity.length +
+            reddit.length
           }
         />
       )}
