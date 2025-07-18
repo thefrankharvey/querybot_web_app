@@ -70,11 +70,11 @@ const ClientNav = () => {
             {isSignedIn && (
               <>
                 <Link
-                  href="/smart-query"
+                  href="/smart-match"
                   className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
                 >
                   <ScanSearch className="w-6 h-6" />
-                  Smart Query
+                  Smart Match
                 </Link>
                 <Link
                   href="/slush-feed"

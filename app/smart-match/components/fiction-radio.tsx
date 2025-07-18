@@ -1,6 +1,6 @@
 import React from "react";
 import { RadioGroup, RadioGroupItem } from "@/app/ui-primitives/radio-group";
-import { FormState } from "@/app/smart-query/page";
+import { FormState } from "@/app/smart-match/page";
 
 const FictionRadio = ({
   setForm,

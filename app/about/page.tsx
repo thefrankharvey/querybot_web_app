@@ -43,7 +43,7 @@ const About = () => {
             <p>
               We&apos;ve created the largest, most comprehensive literary agent
               database in the industry—and we pair it with{" "}
-              <span className="font-semibold">Smart Query</span>, our matching
+              <span className="font-semibold">Smart Match</span>, our matching
               tool that help you find agents truly aligned with your work. No
               fluff. No scams. Just the right information, tailored to you.
               matching tools that help you find agents truly aligned with your

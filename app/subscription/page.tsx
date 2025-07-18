@@ -36,9 +36,9 @@ const Subscription = () => {
               <br />
             </h1>
             <div className="flex flex-col md:flex-row gap-4 mt-8">
-              <Link href="/smart-query">
+              <Link href="/smart-match">
                 <Button className="cursor-pointer text-xl p-8 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl">
-                  Smart Query
+                  Smart Match
                 </Button>
               </Link>
               <Link href="/slush-feed">
@@ -65,13 +65,13 @@ const Subscription = () => {
             <div className="w-fit mx-auto flex flex-col mt-8" id="content">
               <p className="text-xl font-bold">What you get:</p>
               <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="smart-query">
+                <AccordionItem value="smart-match">
                   <AccordionTrigger className="[&>svg]:text-accent">
                     <div className="text-base font-normal flex gap-3 items-center">
                       <ScanSearch className="w-8 h-8" />{" "}
                       <span>
                         <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
-                          Smart Query
+                          Smart Match
                         </span>
                         finds agents tailored specifically to your work.
                       </span>

@@ -2073,6 +2073,7 @@ export const themeOptions = [
   { value: "spirit", label: "Spirit" },
   { value: "spiritual", label: "Spiritual" },
   { value: "spiritual-deconstruction", label: "Spiritual Deconstruction" },
+  { value: "spiritual-journey", label: "Spiritual Journey" },
   { value: "spiritualism", label: "Spiritualism" },
   { value: "spirituality", label: "Spirituality" },
   { value: "spiritualitynew-age", label: "Spirituality New Age" },

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "../ui-primitives/button";
 import TypeAnimationBlock from "./components/type-animation-block";
 import ProductsBlock from "./components/products-block";
-import SmartQueryBlock from "./components/smart-query-block";
+import SmartMatchBlock from "./components/smart-match-block";
 import SlushwireDispatchBlock from "./components/slushwire-dispatch-block";
 import SlushwireProBlock from "./components/slushwire-pro-block";
 import Link from "next/link";
@@ -28,7 +28,7 @@ const Home = () => {
           <ProductsBlock showSecondAnimation={showSecondAnimation} />
         </div>
       </div>
-      <SmartQueryBlock />
+      <SmartMatchBlock />
       <SlushwireDispatchBlock />
       <SlushwireProBlock />
     </div>

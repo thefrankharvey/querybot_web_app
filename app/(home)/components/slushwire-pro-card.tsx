@@ -27,7 +27,7 @@ export const SlushwireProCard = () => {
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
               <ScanSearch className="w-14 h-14" />{" "}
               <span>
-                <span className="font-semibold">Smart Query</span>, finds agents
+                <span className="font-semibold">Smart Match</span>, finds agents
                 tailored specifically to your work.
               </span>
             </p>
