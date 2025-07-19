@@ -40,8 +40,8 @@ export const AgentMatchesFull = () => {
       if (!res.ok) {
         throw new Error(`Request failed: ${res.status}`);
       }
-
-      return res.json();
+      const data = await res.json();
+      return data;
     },
 
     onSuccess: (data) => {

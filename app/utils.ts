@@ -106,10 +106,6 @@ export const formatMatchesForCSV = (matches: AgentMatch[]) => {
 
 // AGENT PROFILE UTILS ========================================================
 
-export const isValidData = (data: string | null | undefined): boolean => {
-  return data && data !== "!missing" ? true : false;
-};
-
 export const urlFormatter = (url: string | undefined | null) => {
   if (!url?.includes(".")) return null;
 

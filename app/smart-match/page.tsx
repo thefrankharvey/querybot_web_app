@@ -167,7 +167,10 @@ const SmartMatch = () => {
               </p>
             </div>
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
-              <Link href="/" className="flex items-center gap-2">
+              <Link
+                href="/"
+                className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+              >
                 <ArrowLeft className="w-8 h-8" />
                 <h2 className="text-xl">Back</h2>
               </Link>
