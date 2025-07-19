@@ -3,13 +3,7 @@
 import { useParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import {
-  isValidData,
-  formatGenres,
-  formatDisplayString,
-  formatEmail,
-  urlFormatter,
-} from "@/app/utils";
+import { formatGenres, formatDisplayString, urlFormatter } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   AgentMatchesProvider,
@@ -18,10 +12,10 @@ import {
 import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
 import TypeForm from "@/app/components/type-form";
-import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/components/spinner";
 import { useAuth } from "@clerk/nextjs";
+import Contact from "./components/contact";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -53,14 +47,24 @@ const AgentProfile = () => {
 
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
-      <Link href="/agent-matches" className="flex items-center gap-2">
+      <Link
+        href="/agent-matches"
+        className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+      >
         <ArrowLeft className="w-8 h-8" />
         <h2 className="text-2xl">Back</h2>
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-            <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+            <div className="flex flex-col gap-2">
+              <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+              {agent.status && agent.status !== "closed" && (
+                <span className="bg-accent text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+                  Open to Submissions
+                </span>
+              )}
+            </div>
             <div className="text-xl font-semibold flex flex-col gap-1 mt-8 md:mt-0">
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
@@ -74,30 +78,7 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          {isValidData(agent.email) && hasProPlan ? (
-            <div className="flex flex-col gap-1">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
-                <label className="text-lg font-semibold">Email:</label>
-                <div className="flex flex-wrap gap-2 md:gap-4">
-                  {formatEmail(agent.email)?.map((email, index) => {
-                    return <CopyToClipboard key={index} text={email} />;
-                  })}
-                </div>
-              </div>
-            </div>
-          ) : null}
-          {isValidData(agent.twitter_url) && hasProPlan ? (
-            <div className="flex items-center gap-1">
-              <label className="text-lg font-semibold">Twitter:</label>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={`${agent.twitter_url}`}
-              >
-                {agent.twitter_handle}
-              </a>
-            </div>
-          ) : null}
+          {hasProPlan && <Contact agent={agent} />}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
             <label className="text-lg font-semibold">Agency:</label>
             {urlFormatter(agent.website) && hasProPlan ? (
@@ -107,14 +88,12 @@ const AgentProfile = () => {
                 rel="noopener noreferrer"
               >
                 <p className="text-base leading-relaxed text-gray-800 underline hover:text-accent">
-                  {isValidData(agent.agency)
-                    ? agent.agency
-                    : "Info Unavailable"}
+                  {agent.agency ? agent.agency : "Info Unavailable"}
                 </p>
               </Link>
             ) : (
               <p className="text-base leading-relaxed text-gray-800">
-                {isValidData(agent.agency) ? agent.agency : "Info Unavailable"}
+                {agent.agency ? agent.agency : "Info Unavailable"}
               </p>
             )}
           </div>
@@ -134,7 +113,7 @@ const AgentProfile = () => {
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Favorites:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.favorites)
+              {agent.favorites
                 ? formatDisplayString(agent.favorites)
                 : "Info Unavailable"}
             </p>
@@ -142,7 +121,7 @@ const AgentProfile = () => {
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Interests:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.extra_interest)
+              {agent.extra_interest
                 ? formatDisplayString(agent.extra_interest)
                 : "Info Unavailable"}
             </p>
@@ -150,7 +129,7 @@ const AgentProfile = () => {
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Negatives:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.negatives)
+              {agent.negatives
                 ? formatDisplayString(agent.negatives)
                 : "Info Unavailable"}
             </p>
@@ -158,19 +137,19 @@ const AgentProfile = () => {
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.bio) ? agent.bio : "Info Unavailable"}
+              {agent.bio ? agent.bio : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Clients:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.clients) ? agent.clients : "Info Unavailable"}
+              {agent.clients ? agent.clients : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Sales:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {isValidData(agent.sales) ? agent.sales : "Info Unavailable"}
+              {agent.sales ? agent.sales : "Info Unavailable"}
             </p>
           </div>
         </div>

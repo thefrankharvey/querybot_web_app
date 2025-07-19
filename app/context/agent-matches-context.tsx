@@ -22,7 +22,6 @@ export interface AgentMatch {
   id: string;
   location?: string;
   name: string;
-  open_to_queries?: string;
   pubmarketplace?: string;
   querymanager?: string;
   querytracker?: string;
@@ -33,6 +32,7 @@ export interface AgentMatch {
   twitter_handle?: string;
   twitter_url?: string;
   website?: string;
+  status?: string;
 }
 
 export interface FormData {
