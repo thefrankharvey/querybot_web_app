@@ -58,7 +58,7 @@ export const SlushwireProCard = () => {
           Not ready for Pro?
           <br />
           <Link
-            href="https://writequeryhook.com/slushwire/"
+            href="https://writequeryhook.site/slushwire/"
             target="_blank"
             className="underline hover:text-accent transition-all duration-300"
           >

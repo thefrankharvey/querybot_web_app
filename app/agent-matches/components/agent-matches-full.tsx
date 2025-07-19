@@ -11,7 +11,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "../../ui-primitives/pagination";
-import TypeForm from "../../components/type-form";
+// import TypeForm from "../../components/type-form";
 import { json2csv } from "json-2-csv";
 import { formatMatchesForCSV } from "@/app/utils";
 
@@ -150,7 +150,8 @@ export const AgentMatchesFull = () => {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-      <TypeForm />
+      {/* TODO: ADD BACK WHEN WE HAVE A NEW TYPE */}
+      {/* <TypeForm /> */}
     </div>
   );
 };

@@ -50,7 +50,7 @@ const Contact = ({ agent }: { agent: AgentMatch }) => {
             Query Tracker
           </a>
         )}
-        {agent.twitter_url && (
+        {/* {agent.twitter_url && (
           <div className="flex items-center gap-1">
             <label className="text-lg font-semibold">Twitter:</label>
             <a
@@ -61,7 +61,7 @@ const Contact = ({ agent }: { agent: AgentMatch }) => {
               {agent.twitter_handle}
             </a>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

@@ -64,7 +64,7 @@ export const ClientHamburger = () => {
           </Link>
           <a
             onClick={() => setOpen(false)}
-            href="https://writequeryhook.com/slushwire/"
+            href="https://writequeryhook.site/slushwire/"
             target="_blank"
             className="text-xl hover:text-accent transition-all duration-300"
           >

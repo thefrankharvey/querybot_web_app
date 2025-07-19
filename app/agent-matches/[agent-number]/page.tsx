@@ -11,7 +11,7 @@ import {
 } from "@/app/context/agent-matches-context";
 import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
-import TypeForm from "@/app/components/type-form";
+// import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/components/spinner";
 import { useAuth } from "@clerk/nextjs";
@@ -44,6 +44,12 @@ const AgentProfile = () => {
       </div>
     );
   }
+
+  const hasContactInfo =
+    agent.email ||
+    agent.querymanager ||
+    agent.pubmarketplace ||
+    agent.querytracker;
 
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
@@ -78,7 +84,7 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          {hasProPlan && <Contact agent={agent} />}
+          {hasProPlan && hasContactInfo && <Contact agent={agent} />}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
             <label className="text-lg font-semibold">Agency:</label>
             {urlFormatter(agent.website) && hasProPlan ? (
@@ -163,7 +169,8 @@ export default function AgentProfilePage() {
   return (
     <AgentMatchesProvider>
       <AgentProfile />
-      <TypeForm />
+      {/* TODO: ADD BACK WHEN WE HAVE A NEW TYPE */}
+      {/* <TypeForm /> */}
     </AgentMatchesProvider>
   );
 }

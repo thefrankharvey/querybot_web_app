@@ -25,7 +25,7 @@ import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
-import TypeForm from "../components/type-form";
+// import TypeForm from "../components/type-form";
 import Spinner from "../components/spinner";
 import { useAuth } from "@clerk/nextjs";
 
@@ -233,7 +233,8 @@ export default function SmartMatchPage() {
   return (
     <AgentMatchesProvider>
       <SmartMatch />
-      <TypeForm />
+      {/* TODO: ADD BACK WHEN WE HAVE A NEW TYPE */}
+      {/* <TypeForm /> */}
     </AgentMatchesProvider>
   );
 }
