@@ -12,7 +12,7 @@ export const SlushwireProCard = () => {
         <div className="bg-white rounded-xl w-full">
           <div className="flex justify-center items-center bg-accent rounded-t-xl p-6">
             <h1 className="text-3xl md:text-4xl font-semibold text-center">
-              SLUSHWIRE PRO $14
+              SLUSHWIRE PRO $19
             </h1>
           </div>
           <div className="pt-8 pb-4 px-8">
