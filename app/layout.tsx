@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Nav from "./components/nav";
+// import Nav from "./components/nav";
 import Footer from "./components/footer";
 import { ClerkProvider } from "@clerk/nextjs";
 
