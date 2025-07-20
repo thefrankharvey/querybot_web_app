@@ -42,7 +42,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${poppins.className} antialiased`}>
-          <Nav />
+          {/* <Nav /> */}
           <div className="max-w-screen-xl mx-auto px-4 py-0 min-h-screen">
             {children}
           </div>
