@@ -15,6 +15,9 @@ export async function syncStripeCustomerToClerk(
       privateMetadata: {
         stripeCustomerId,
       },
+      publicMetadata: {
+        isSubscribed: false,
+      },
     });
 
     return {

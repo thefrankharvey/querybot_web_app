@@ -2,6 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { updateUserSubscriptionStatus } from "@/app/actions/clerk-actions";
 
+// Check for required environment variables
+if (!process.env.STRIPE_SECRET_KEY) {
+  throw new Error("STRIPE_SECRET_KEY environment variable is required");
+}
+
+if (!process.env.STRIPE_WEBHOOK_SECRET) {
+  throw new Error("STRIPE_WEBHOOK_SECRET environment variable is required");
+}
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2025-06-30.basil",
 });
@@ -11,15 +20,40 @@ const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
 export async function POST(req: NextRequest) {
   try {
     const body = await req.text();
-    const signature = req.headers.get("stripe-signature")!;
+    const signature = req.headers.get("stripe-signature");
+
+    // Debug logging for webhook debugging
+    console.log("Webhook received:", {
+      hasBody: !!body,
+      bodyLength: body.length,
+      hasSignature: !!signature,
+      timestamp: new Date().toISOString(),
+    });
+
+    if (!signature) {
+      console.error("No stripe-signature header found");
+      return NextResponse.json(
+        { error: "Missing stripe-signature header" },
+        { status: 400 }
+      );
+    }
 
     let event: Stripe.Event;
 
     // Verify webhook signature for security
     try {
       event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
+      console.log(
+        "Webhook signature verified successfully for event:",
+        event.type
+      );
     } catch (err) {
-      console.error("Webhook signature verification failed:", err);
+      console.error("Webhook signature verification failed:", {
+        error: err instanceof Error ? err.message : String(err),
+        signatureLength: signature.length,
+        bodyLength: body.length,
+        webhookSecretPresent: !!webhookSecret,
+      });
       return NextResponse.json(
         { error: "Webhook signature verification failed" },
         { status: 400 }
@@ -140,7 +174,11 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ received: true });
   } catch (error) {
-    console.error("Webhook handler error:", error);
+    console.error("Webhook handler error:", {
+      error: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      timestamp: new Date().toISOString(),
+    });
     return NextResponse.json(
       { error: "Webhook handler failed" },
       { status: 500 }
