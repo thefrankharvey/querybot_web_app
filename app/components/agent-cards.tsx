@@ -10,16 +10,16 @@ export const AgentCards = ({
   agent,
   index,
   id,
-  hasProPlan,
+  isSubscribed,
   isLoading,
 }: {
   agent: AgentMatch;
-  hasProPlan?: boolean;
+  isSubscribed?: boolean;
   index: number;
   id: string;
   isLoading: boolean;
 }) => {
-  const isDisabled = index > 2 && !hasProPlan;
+  const isDisabled = index > 2 && !isSubscribed;
 
   return (
     <div

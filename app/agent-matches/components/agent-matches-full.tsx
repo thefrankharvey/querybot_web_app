@@ -120,7 +120,7 @@ export const AgentMatchesFull = () => {
     <div className="pt-12 min-h-[700px]">
       <AgentMatchesInner
         matches={matches}
-        hasProPlan={true}
+        isSubscribed={true}
         handleCSVDownload={handleCSVDownload}
         isLoading={queryMutation.isPending}
       />

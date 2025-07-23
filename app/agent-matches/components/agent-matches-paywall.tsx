@@ -19,7 +19,7 @@ export const AgentMatchesPaywall = () => {
       <AgentMatchesInner
         matches={matches}
         gridRef={gridRef}
-        hasProPlan={false}
+        isSubscribed={false}
         isLoading={isLoading}
       />
       <PayWall

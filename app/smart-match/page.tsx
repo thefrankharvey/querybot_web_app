@@ -27,7 +27,7 @@ import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
 // import TypeForm from "../components/type-form";
 import Spinner from "../components/spinner";
-import { useAuth } from "@clerk/nextjs";
+import { useClerkUser } from "../hooks/use-clerk-user";
 
 export type FormState = {
   email: string;
@@ -42,8 +42,7 @@ export type FormState = {
 };
 
 const SmartMatch = () => {
-  const { has, isLoaded } = useAuth();
-  const hasProPlan = has?.({ plan: "slushwire_pro" });
+  const { isSubscribed, isLoading } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
@@ -133,10 +132,18 @@ const SmartMatch = () => {
     });
   };
 
-  if (!isLoaded) {
+  if (isLoading) {
     return (
       <div className="pt-20 flex justify-center items-center">
         <Spinner size={100} />
+      </div>
+    );
+  }
+
+  if (!isSubscribed) {
+    return (
+      <div className="pt-20 flex justify-center items-center">
+        <p className="text-xl">Please subscribe to access Smart Match</p>
       </div>
     );
   }
@@ -176,7 +183,7 @@ const SmartMatch = () => {
               </Link>
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
-                {hasProPlan &&
+                {isSubscribed &&
                   hasAgentMatches &&
                   hasAgentMatches.length > 0 && (
                     <Link href="/agent-matches" className="w-full md:w-fit">

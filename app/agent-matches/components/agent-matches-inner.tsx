@@ -7,13 +7,13 @@ import ExplanationBlock from "./explanation-block";
 
 export const AgentMatchesInner = ({
   matches,
-  hasProPlan,
+  isSubscribed,
   gridRef,
   isLoading,
   handleCSVDownload,
 }: {
   matches: AgentMatch[];
-  hasProPlan: boolean;
+  isSubscribed: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
   handleCSVDownload?: () => void;
@@ -34,7 +34,7 @@ export const AgentMatchesInner = ({
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
             <ExplanationBlock />
-            {hasProPlan && (
+            {isSubscribed && (
               <Button
                 onClick={handleCSVDownload}
                 className="cursor-pointer text-base p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
@@ -53,7 +53,7 @@ export const AgentMatchesInner = ({
               key={index}
               agent={match}
               index={index}
-              hasProPlan={hasProPlan}
+              isSubscribed={isSubscribed}
               isLoading={isLoading}
               id={`agent-${index}`}
             />

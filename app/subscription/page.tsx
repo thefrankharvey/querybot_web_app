@@ -1,24 +1,96 @@
 "use client";
 
-import { PricingTable, useAuth } from "@clerk/nextjs";
+import { useClerkUser } from "../hooks/use-clerk-user";
 import Link from "next/link";
 import { Button } from "../ui-primitives/button";
 import { getFromLocalStorage } from "../utils";
 import Spinner from "../components/spinner";
-import { DatabaseZap, MailCheck, Newspaper, ScanSearch } from "lucide-react";
+import {
+  DatabaseZap,
+  MailCheck,
+  Newspaper,
+  ScanSearch,
+  CheckCircle,
+  XCircle,
+} from "lucide-react";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
 } from "../ui-primitives/accordion";
+import { useState, useEffect } from "react";
+import { initializeSubscription } from "../actions/subscription-actions";
+import { useRouter } from "next/navigation";
 
 const Subscription = () => {
-  const { has, isLoaded } = useAuth();
-  const hasProPlan = has?.({ plan: "slushwire_pro" });
+  const router = useRouter();
+  const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
+  const [isSubscribing, setIsSubscribing] = useState(false);
+  const [message, setMessage] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
 
-  if (!isLoaded) {
+  // Check for success/cancel params from Stripe redirect
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("success") === "true") {
+      setMessage({
+        type: "success",
+        text: "Subscription successful! Welcome to Slushwire Pro!",
+      });
+    } else if (urlParams.get("canceled") === "true") {
+      setMessage({
+        type: "error",
+        text: "Subscription was canceled. You can try again anytime.",
+      });
+    }
+  }, []);
+
+  const handleSubscribe = async () => {
+    if (!user) {
+      router.push("/sign-in");
+      return;
+    }
+
+    setIsSubscribing(true);
+    setMessage(null);
+
+    try {
+      // Stripe price ID for Slushwire Pro subscription
+      const STRIPE_PRICE_ID = "price_1R1cnMHX8wDCje2DINjUqfkW";
+
+      const result = await initializeSubscription(
+        user.id,
+        user.emailAddresses[0]?.emailAddress || "",
+        STRIPE_PRICE_ID
+      );
+
+      if (result.success && result.url) {
+        // Redirect to Stripe Checkout
+        window.location.href = result.url;
+      } else {
+        setMessage({
+          type: "error",
+          text:
+            result.error ||
+            "Failed to initialize subscription. Please try again.",
+        });
+      }
+    } catch (error) {
+      console.error("Subscription error:", error);
+      setMessage({
+        type: "error",
+        text: "An unexpected error occurred. Please try again.",
+      });
+    } finally {
+      setIsSubscribing(false);
+    }
+  };
+
+  if (isLoading) {
     return (
       <div className="pt-20 flex justify-center items-center">
         <Spinner size={100} />
@@ -28,7 +100,7 @@ const Subscription = () => {
 
   return (
     <div className="pt-12 flex flex-col gap-4 items-center">
-      {hasProPlan ? (
+      {isSubscribed ? (
         <>
           <div className="w-full md:w-3/4 mx-auto flex flex-col items-center">
             <h1 className="text-[24px] md:text-[40px] mb-8 font-semibold leading-tight text-center">
@@ -187,53 +259,53 @@ const Subscription = () => {
               in the pipeline. Get early access with Slushwire Pro!
             </p>
           </div>
+
+          {/* Custom Pricing Card */}
           <div className="w-full md:w-[450px] mx-auto">
-            <PricingTable
-              appearance={{
-                elements: {
-                  pricingTableCardFooterButton: {
-                    fontSize: 16,
-                    padding: "16px",
-                    textTransform: "none",
-                    backgroundColor: "#F77AE8",
-                    fontWeight: "semibold",
-                    border: "none",
-                    color: "black",
-                    "&:hover, &:focus, &:active": {
-                      color: "white",
-                      backgroundColor: "#F77AE8",
-                    },
-                  },
-                  pricingTableCardTitleContainer: {
-                    justifyContent: "center",
-                  },
-                  pricingTableCardTitle: {
-                    fontSize: 24,
-                    fontWeight: "semibold",
-                  },
-                  pricingTableCardDescription: {
-                    fontSize: 16,
-                    color: "black",
-                    fontWeight: "normal",
-                  },
-                  pricingTableCardFee: {
-                    fontSize: 32,
-                    fontWeight: "semibold",
-                    color: "black",
-                  },
-                  pricingTableCardFeePeriod: {
-                    fontSize: 16,
-                    color: "black",
-                    fontWeight: "normal",
-                  },
-                  pricingTableCardFeePeriodNotice: {
-                    fontSize: 12,
-                    color: "black",
-                    fontWeight: "normal",
-                  },
-                },
-              }}
-            />
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 shadow-lg">
+              <div className="text-center">
+                <h3 className="text-2xl font-semibold mb-2">Slushwire Pro</h3>
+                <p className="text-gray-600 mb-6">Built to empower authors</p>
+
+                <div className="mb-8 flex justify-center items-center">
+                  <span className="text-4xl font-semibold">$14</span>
+                  <span className="text-gray-600 ml-2">/ month</span>
+                </div>
+
+                {/* Success/Error Messages */}
+                {message && (
+                  <div
+                    className={`mb-6 p-4 rounded-md flex items-center gap-2 ${
+                      message.type === "success"
+                        ? "bg-green-50 border border-green-200 text-green-800"
+                        : "bg-red-50 border border-red-200 text-red-800"
+                    }`}
+                  >
+                    {message.type === "success" ? (
+                      <CheckCircle className="w-5 h-5" />
+                    ) : (
+                      <XCircle className="w-5 h-5" />
+                    )}
+                    <span className="text-sm">{message.text}</span>
+                  </div>
+                )}
+
+                <Button
+                  onClick={handleSubscribe}
+                  disabled={isSubscribing}
+                  className="w-full text-lg py-6 font-semibold shadow-lg hover:shadow-xl"
+                >
+                  {isSubscribing ? (
+                    <div className="flex items-center gap-2">
+                      <Spinner size={20} />
+                      Processing...
+                    </div>
+                  ) : (
+                    "GET SLUSHWIRE PRO"
+                  )}
+                </Button>
+              </div>
+            </div>
           </div>
         </>
       )}
