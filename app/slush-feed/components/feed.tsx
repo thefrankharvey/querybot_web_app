@@ -8,7 +8,7 @@ import { Button } from "@/app/ui-primitives/button";
 import { Check, X } from "lucide-react";
 import { useRef, useState } from "react";
 import PayWall from "@/app/components/pay-wall";
-import { useAuth } from "@clerk/nextjs";
+import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
 enum SOCIAL_DATA {
   AGENT_INFO = "AGENT_INFO",
@@ -17,8 +17,7 @@ enum SOCIAL_DATA {
 }
 
 export const Feed = ({ data }: { data: SlushFeed }) => {
-  const { has } = useAuth();
-  const hasProPlan = has?.({ plan: "slushwire_pro" });
+  const { isSubscribed, user } = useClerkUser();
   const gridRef = useRef<HTMLDivElement>(null);
   const [activeData, setActiveData] = useState({
     [SOCIAL_DATA.AGENT_INFO]: true,
@@ -33,6 +32,9 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
     agent_activity = [],
     reddit = [],
   } = data || {};
+
+  console.log({ isSubscribed });
+  console.log({ user });
 
   return (
     <>
@@ -124,7 +126,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
           </>
         )}
       </div>
-      {!hasProPlan && (
+      {!isSubscribed && (
         <PayWall
           title="Want the full slushwire dispatch?"
           gridRef={gridRef}

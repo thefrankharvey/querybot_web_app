@@ -14,13 +14,12 @@ import TooltipComponent from "@/app/components/tooltip";
 // import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/components/spinner";
-import { useAuth } from "@clerk/nextjs";
+import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import Contact from "./components/contact";
 
 const AgentProfile = () => {
   const params = useParams();
-  const { has, isLoaded } = useAuth();
-  const hasProPlan = has?.({ plan: "slushwire_pro" });
+  const { isSubscribed, isLoading } = useClerkUser();
   const matchesContext = useAgentMatches();
   const matches = useMemo(
     () => matchesContext?.matches || [],
@@ -37,7 +36,7 @@ const AgentProfile = () => {
     }
   }, [matches, params]);
 
-  if (!agent || !isLoaded) {
+  if (!agent || isLoading) {
     return (
       <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12 justify-center items-center">
         <Spinner size={100} />
@@ -84,10 +83,10 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          {hasProPlan && hasContactInfo && <Contact agent={agent} />}
+          {isSubscribed && hasContactInfo && <Contact agent={agent} />}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
             <label className="text-lg font-semibold">Agency:</label>
-            {urlFormatter(agent.website) && hasProPlan ? (
+            {urlFormatter(agent.website) && isSubscribed ? (
               <Link
                 href={urlFormatter(agent.website) || ""}
                 target="_blank"
