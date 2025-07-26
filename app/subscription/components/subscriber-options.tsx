@@ -1,6 +1,6 @@
 import { AgentMatch } from "@/app/context/agent-matches-context";
 import { Button } from "@/app/ui-primitives/button";
-import { Link } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const SubscriberOptions = ({
