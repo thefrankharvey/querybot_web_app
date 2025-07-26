@@ -140,14 +140,6 @@ const SmartMatch = () => {
     );
   }
 
-  if (!isSubscribed) {
-    return (
-      <div className="pt-20 flex justify-center items-center">
-        <p className="text-xl">Please subscribe to access Smart Match</p>
-      </div>
-    );
-  }
-
   return (
     <div className="pt-12">
       {queryMutation.isPending && (

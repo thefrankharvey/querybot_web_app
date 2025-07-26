@@ -10,7 +10,6 @@ import {
   SignedOut,
   SignedIn,
   SignInButton,
-  useClerk,
   SignOutButton,
   useUser,
 } from "@clerk/nextjs";
@@ -30,7 +29,6 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
-  const { openUserProfile } = useClerk();
   const { isSignedIn } = useUser();
 
   useEffect(() => {
@@ -89,12 +87,12 @@ const ClientNav = () => {
 
           <div className="flex items-center gap-4">
             <SignedIn>
-              <a
-                onClick={() => openUserProfile()}
+              <Link
+                href="/account"
                 className="text-base hover:text-accent transition-all duration-300"
               >
                 Account
-              </a>
+              </Link>
               <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignOutButton />
               </div>

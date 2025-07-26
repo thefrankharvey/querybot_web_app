@@ -1,3 +1,6 @@
+export const MONTHLY_SUB_PRICE_ID = "price_1R1cnMHX8wDCje2DINjUqfkW";
+export const YEARLY_SUB_PRICE_ID = "price_1Rp7XwHX8wDCje2DEzntbBFJ";
+
 export const feedDemoData = {
   bluesky: {
     author_did: "did:plc:336qirp5agd3agd7u4uynocv",

@@ -58,3 +58,17 @@ export async function updateUserSubscriptionStatus(
     };
   }
 }
+
+export async function deleteUserAccount(userId: string) {
+  try {
+    await clerkClient.users.deleteUser(userId);
+    return { success: true };
+  } catch (error) {
+    console.error("Error deleting user account:", error);
+    return {
+      success: false,
+      error:
+        error instanceof Error ? error.message : "Failed to delete account",
+    };
+  }
+}

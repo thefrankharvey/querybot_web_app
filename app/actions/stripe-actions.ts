@@ -71,3 +71,46 @@ export async function createSubscriptionSession(
     };
   }
 }
+
+export async function cancelCustomerSubscriptions(customerId: string) {
+  try {
+    const subscriptions = await stripe.subscriptions.list({
+      customer: customerId,
+      status: "active",
+    });
+
+    const cancelPromises = subscriptions.data.map((subscription) =>
+      stripe.subscriptions.cancel(subscription.id)
+    );
+
+    await Promise.all(cancelPromises);
+
+    return {
+      success: true,
+      canceledCount: subscriptions.data.length,
+    };
+  } catch (error) {
+    console.error("Error canceling subscriptions:", error);
+    return {
+      success: false,
+      error:
+        error instanceof Error
+          ? error.message
+          : "Failed to cancel subscriptions",
+    };
+  }
+}
+
+export async function deleteStripeCustomer(customerId: string) {
+  try {
+    await stripe.customers.del(customerId);
+    return { success: true };
+  } catch (error) {
+    console.error("Error deleting Stripe customer:", error);
+    return {
+      success: false,
+      error:
+        error instanceof Error ? error.message : "Failed to delete customer",
+    };
+  }
+}
