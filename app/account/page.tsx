@@ -45,6 +45,7 @@ const Account = () => {
       alert("Failed to cancel subscription");
     } finally {
       setIsLoading((prev) => ({ ...prev, cancel: false }));
+      router.refresh();
     }
   };
 
