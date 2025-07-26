@@ -35,8 +35,13 @@ const Account = () => {
     try {
       const result = await cancelUserSubscription(user.id);
       if (result.success) {
-        toast("Subscription canceled", {
-          style: { backgroundColor: "white", color: "black" },
+        toast("Subscription canceled successfully", {
+          style: {
+            backgroundColor: "white",
+            color: "black",
+            textAlign: "center",
+            width: "fit-content",
+          },
         });
       } else {
         alert(result.error || "Failed to cancel subscription");
@@ -45,7 +50,7 @@ const Account = () => {
       alert("Failed to cancel subscription");
     } finally {
       setIsLoading((prev) => ({ ...prev, cancel: false }));
-      router.refresh();
+      window.location.reload();
     }
   };
 
@@ -56,8 +61,13 @@ const Account = () => {
     try {
       const result = await deleteUserAccountComplete(user.id);
       if (result.success) {
-        toast("Account successfully deleted", {
-          style: { backgroundColor: "white", color: "black" },
+        toast("Account deleted successfully", {
+          style: {
+            backgroundColor: "white",
+            color: "lightgreen",
+            textAlign: "center",
+            width: "fit-content",
+          },
         });
         setTimeout(async () => {
           await signOut();
