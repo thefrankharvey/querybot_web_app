@@ -9,12 +9,10 @@ import {
   SignUpButton,
   SignedIn,
   SignedOut,
-  useClerk,
 } from "@clerk/nextjs";
 
 export const ClientHamburger = () => {
   const [open, setOpen] = useState(false);
-  const { openUserProfile } = useClerk();
   return (
     <>
       <button
@@ -72,12 +70,12 @@ export const ClientHamburger = () => {
           </a>
           <div className="flex justify-center items-center gap-8 w-full md:w-fit mt-10">
             <SignedIn>
-              <a
-                onClick={() => openUserProfile()}
+              <Link
+                href="/account"
                 className="text-xl hover:text-accent transition-all duration-300 w-full text-center"
               >
                 Account
-              </a>
+              </Link>
               <div
                 className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full"
                 onClick={() => setOpen(false)}
