@@ -65,7 +65,7 @@ const Account = () => {
         toast("Account deleted successfully", {
           style: {
             backgroundColor: "white",
-            color: "lightgreen",
+            color: "black",
             textAlign: "center",
             width: "fit-content",
           },
