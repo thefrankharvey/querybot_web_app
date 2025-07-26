@@ -27,6 +27,7 @@ const Account = () => {
   const { signOut } = useAuth();
   const router = useRouter();
   const [isLoading, setIsLoading] = useState({ cancel: false, delete: false });
+  const [isUserSubscribed, setIsUserSubscribed] = useState(isSubscribed);
 
   const cancelSubscription = async () => {
     if (!user?.id) return;
@@ -50,7 +51,7 @@ const Account = () => {
       alert("Failed to cancel subscription");
     } finally {
       setIsLoading((prev) => ({ ...prev, cancel: false }));
-      window.location.reload();
+      setIsUserSubscribed(false);
     }
   };
 
@@ -99,7 +100,7 @@ const Account = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-4">
-          {isSubscribed && (
+          {isUserSubscribed && (
             <div className="flex gap-2">
               <AlertDialog>
                 <AlertDialogTrigger asChild>
