@@ -62,14 +62,33 @@ export async function POST(req: NextRequest) {
 
     // Handle the event
     switch (event.type) {
+      case "checkout.session.completed":
       case "customer.subscription.created":
       case "customer.subscription.updated": {
-        const subscription = event.data.object as Stripe.Subscription;
+        // Handle different event types
+        let customerId: string;
+        let isActive: boolean;
+
+        if (event.type === "checkout.session.completed") {
+          const session = event.data.object as Stripe.Checkout.Session;
+          if (
+            session.mode !== "subscription" ||
+            session.payment_status !== "paid"
+          ) {
+            break; // Skip non-subscription or unpaid sessions
+          }
+          customerId = session.customer as string;
+          isActive = true; // Payment completed successfully
+        } else {
+          const subscription = event.data.object as Stripe.Subscription;
+          customerId = subscription.customer as string;
+          isActive =
+            subscription.status === "active" ||
+            subscription.status === "trialing";
+        }
 
         // Get the customer to find the Clerk user ID
-        const customer = await stripe.customers.retrieve(
-          subscription.customer as string
-        );
+        const customer = await stripe.customers.retrieve(customerId);
 
         if (customer.deleted) {
           console.error("Customer was deleted");
@@ -89,11 +108,6 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // Check if subscription is active
-        const isActive =
-          subscription.status === "active" ||
-          subscription.status === "trialing";
-
         // Update Clerk user metadata
         const result = await updateUserSubscriptionStatus(
           clerkUserId,
@@ -112,9 +126,9 @@ export async function POST(req: NextRequest) {
         }
 
         console.log(
-          `Subscription ${subscription.id} ${
+          `${event.type} processed: ${
             isActive ? "activated" : "deactivated"
-          } for user ${clerkUserId}`
+          } subscription for user ${clerkUserId}`
         );
         break;
       }
