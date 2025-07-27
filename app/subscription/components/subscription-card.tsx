@@ -33,7 +33,7 @@ const SubscriptionCard = ({
 
           <div className="mb-8 flex justify-center items-center">
             <span className="text-4xl font-semibold">
-              {isMonthly ? "$14" : "$120"}
+              {isMonthly ? "$14" : "$90"}
             </span>
             <span className="text-gray-600 ml-2">
               {isMonthly ? "/ month" : "/ year"}
