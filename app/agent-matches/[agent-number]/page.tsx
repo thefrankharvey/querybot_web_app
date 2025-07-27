@@ -83,7 +83,9 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          {isSubscribed && hasContactInfo && <Contact agent={agent} />}
+          {hasContactInfo && (
+            <Contact agent={agent} isSubscribed={isSubscribed} />
+          )}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
             <label className="text-lg font-semibold">Agency:</label>
             {urlFormatter(agent.website) && isSubscribed ? (
