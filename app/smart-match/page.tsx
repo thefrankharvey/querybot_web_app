@@ -25,7 +25,7 @@ import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
-// import TypeForm from "../components/type-form";
+import TypeForm from "../components/type-form";
 import Spinner from "../components/spinner";
 import { useClerkUser } from "../hooks/use-clerk-user";
 
@@ -232,8 +232,7 @@ export default function SmartMatchPage() {
   return (
     <AgentMatchesProvider>
       <SmartMatch />
-      {/* TODO: ADD BACK WHEN WE HAVE A NEW TYPE */}
-      {/* <TypeForm /> */}
+      <TypeForm />
     </AgentMatchesProvider>
   );
 }
