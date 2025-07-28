@@ -11,7 +11,7 @@ import {
 } from "@/app/context/agent-matches-context";
 import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
-// import TypeForm from "@/app/components/type-form";
+import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/components/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
@@ -170,8 +170,7 @@ export default function AgentProfilePage() {
   return (
     <AgentMatchesProvider>
       <AgentProfile />
-      {/* TODO: ADD BACK WHEN WE HAVE A NEW TYPE */}
-      {/* <TypeForm /> */}
+      <TypeForm />
     </AgentMatchesProvider>
   );
 }
