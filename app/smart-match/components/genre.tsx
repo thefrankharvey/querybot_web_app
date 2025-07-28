@@ -1,22 +1,54 @@
+"use client";
+
 import { genreOptions } from "@/app/constants";
-import Combobox from "@/app/ui-primitives/combobox";
-import React from "react";
+import Combobox, { ComboboxRef } from "@/app/ui-primitives/combobox";
+import React, { useRef, useState } from "react";
 import { FormState } from "../page";
+import CustomInput from "./custom-metrics/custom-input";
+import SelectedMetric from "./custom-metrics/selected-metric";
 
 const Genre = ({
   setForm,
 }: {
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
+  const comboboxRef = useRef<ComboboxRef>(null);
+  const [customValue, setCustomValue] = useState<string>("");
+
+  const handleAddGenre = (value: string) => {
+    comboboxRef.current?.clear();
+    setForm((prev) => ({ ...prev, genre: value }));
+    setCustomValue(value);
+  };
+
+  const handleSelectChange = (value: string) => {
+    setForm((prev) => ({ ...prev, genre: value }));
+    setCustomValue("");
+  };
+
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block">
         Genre<span className="text-accent text-xl font-bold">*</span>
       </label>
       <Combobox
+        ref={comboboxRef}
         options={genreOptions}
         optionTitle="genre"
-        handleChange={(value) => setForm((prev) => ({ ...prev, genre: value }))}
+        handleChange={handleSelectChange}
+      />
+      <div className="flex flex-wrap gap-2 mt-2">
+        {customValue && (
+          <SelectedMetric
+            value={customValue}
+            handleRemove={() => setCustomValue("")}
+          />
+        )}
+      </div>
+      <CustomInput
+        label="genre"
+        handleAdd={handleAddGenre}
+        closeInput={!!customValue}
       />
     </div>
   );
