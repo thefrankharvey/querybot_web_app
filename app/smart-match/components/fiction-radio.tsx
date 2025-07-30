@@ -12,6 +12,7 @@ const FictionRadio = ({
   return (
     <div className="w-full">
       <RadioGroup
+        className="flex flex-col gap-0"
         value={form.non_fiction ? "non-fiction" : "fiction"}
         onValueChange={(value) => {
           setForm((prev: FormState) => ({

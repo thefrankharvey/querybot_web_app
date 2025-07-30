@@ -103,6 +103,7 @@ const SmartMatch = () => {
   }, [queryMutation.isSuccess, router]);
 
   const handleSubmit = async (e: React.FormEvent) => {
+    console.log("handleSubmit");
     e.preventDefault();
     const comps = formatComps(form.comps);
 

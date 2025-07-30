@@ -6,6 +6,7 @@ import React, { useRef, useState } from "react";
 import { FormState } from "../page";
 import CustomInput from "./custom-metrics/custom-input";
 import SelectedMetric from "./custom-metrics/selected-metric";
+import { cn } from "@/app/utils";
 
 const Genre = ({
   setForm,
@@ -14,8 +15,16 @@ const Genre = ({
 }) => {
   const comboboxRef = useRef<ComboboxRef>(null);
   const [customValue, setCustomValue] = useState<string>("");
+  const [error, setError] = useState<string>("");
 
   const handleAddGenre = (value: string) => {
+    if (
+      customValue.toLowerCase() === value.toLowerCase() ||
+      value.trim() === ""
+    ) {
+      setError("Genre already exists");
+      return;
+    }
     comboboxRef.current?.clear();
     setForm((prev) => ({ ...prev, genre: value }));
     setCustomValue(value);
@@ -37,7 +46,12 @@ const Genre = ({
         optionTitle="genre"
         handleChange={handleSelectChange}
       />
-      <div className="flex flex-wrap gap-2 mt-2">
+      <div
+        className={cn(
+          "flex flex-wrap gap-2 mt-2",
+          customValue === "" && "hidden"
+        )}
+      >
         {customValue && (
           <SelectedMetric
             value={customValue}
@@ -49,7 +63,9 @@ const Genre = ({
         label="genre"
         handleAdd={handleAddGenre}
         closeInput={!!customValue}
+        setError={setError}
       />
+      {error && <p className="text-red-500 text-sm">{error}</p>}
     </div>
   );
 };

@@ -6,6 +6,7 @@ import React, { useRef, useState } from "react";
 import { FormState } from "../page";
 import SelectedMetric from "./custom-metrics/selected-metric";
 import CustomInput from "./custom-metrics/custom-input";
+import { cn } from "@/app/utils";
 
 const Format = ({
   setForm,
@@ -14,12 +15,21 @@ const Format = ({
 }) => {
   const [customValue, setCustomValue] = useState<string>("");
   const comboboxRef = useRef<ComboboxRef>(null);
+  const [error, setError] = useState<string>("");
 
   const handleAddFormat = (value: string) => {
+    if (
+      customValue.toLowerCase() === value.toLowerCase() ||
+      value.trim() === ""
+    ) {
+      setError("Format already exists");
+      return;
+    }
     comboboxRef.current?.clear();
     setForm((prev) => ({ ...prev, format: value }));
     setCustomValue(value);
   };
+
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block">
@@ -33,7 +43,12 @@ const Format = ({
           setForm((prev) => ({ ...prev, format: value }))
         }
       />
-      <div className="flex flex-wrap gap-2 mt-2">
+      <div
+        className={cn(
+          "flex flex-wrap gap-2 mt-2",
+          customValue === "" && "hidden"
+        )}
+      >
         {customValue && (
           <SelectedMetric
             value={customValue}
@@ -45,7 +60,9 @@ const Format = ({
         label="format"
         handleAdd={handleAddFormat}
         closeInput={!!customValue}
+        setError={setError}
       />
+      {error && <p className="text-red-500 text-sm">{error}</p>}
     </div>
   );
 };
