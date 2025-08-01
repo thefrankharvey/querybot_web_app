@@ -44,6 +44,7 @@ export async function createSubscriptionSession(
         },
       ],
       mode: "subscription",
+      allow_promotion_codes: true, // This enables coupon code input on Stripe's checkout page
       success_url: `${
         process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
       }/subscription?success=true`,
