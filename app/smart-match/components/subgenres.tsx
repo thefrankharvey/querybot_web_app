@@ -87,7 +87,7 @@ const Subgenres = ({
         ))}
       </div>
       <CustomInput
-        label="subgenres"
+        label="subgenre"
         handleAdd={handleAddCustomSubgenre}
         setError={setError}
         showInput={showInput}

@@ -86,7 +86,7 @@ const Themes = ({
       <CustomInput
         showInput={showInput}
         setShowInput={setShowInput}
-        label="themes"
+        label="theme"
         handleAdd={handleAddCustomTheme}
         setError={setError}
       />
