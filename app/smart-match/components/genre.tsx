@@ -44,7 +44,7 @@ const Genre = ({
       <label className="font-semibold mb-2 block">
         Genre<span className="text-accent text-xl font-bold">*</span>
       </label>
-      <div className="flex items-center justify-between w-full">
+      <div className="flex items-center w-full">
         <Combobox
           ref={comboboxRef}
           options={genreOptions}
@@ -59,7 +59,7 @@ const Genre = ({
         >
           <Button
             type="button"
-            className="relative text-sm shadow-lg hover:shadow-xl rounded-md flex items-center justify-center w-10"
+            className="relative text-sm shadow-lg hover:shadow-xl rounded-md flex items-center justify-center w-10 ml-2"
             onClick={() => setShowInput((prev) => !prev)}
           >
             {showInput ? (

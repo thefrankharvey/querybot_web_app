@@ -43,7 +43,7 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="w-[280px] md:w-[495px] justify-between bg-white"
+            className="flex-1 md:w-[495px] justify-between bg-white"
           >
             {value
               ? options.find((option) => option.value === value)?.label
