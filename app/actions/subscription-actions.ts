@@ -83,6 +83,8 @@ export async function cancelUserSubscription(userId: string) {
     }
 
     const result = await cancelCustomerSubscriptions(stripeCustomerId);
+    // Deactivate subscription
+
     return result;
   } catch (error) {
     console.error("Error canceling user subscription:", error);

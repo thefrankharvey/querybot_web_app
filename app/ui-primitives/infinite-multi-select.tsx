@@ -110,7 +110,7 @@ export default function InfiniteMultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={`w-[320px] md:w-[544px] justify-between bg-white h-fit`}
+          className={`w-[280px] md:w-[495px] justify-between bg-white h-fit`}
         >
           <div className="flex gap-2 justify-start flex-wrap">
             {value?.length
@@ -127,7 +127,7 @@ export default function InfiniteMultiSelect({
           <ChevronDownIcon className="size-4 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className={`w-[320px] md:w-[544px] p-0`}>
+      <PopoverContent className={`w-[280px] md:w-[495px] p-0`}>
         <div className="flex flex-col">
           {/* Search Input */}
           <div className="p-2 border-b">

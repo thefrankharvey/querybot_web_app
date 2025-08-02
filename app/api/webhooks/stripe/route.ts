@@ -111,11 +111,6 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        console.log(
-          `Subscription ${subscription.id} ${
-            isActive ? "activated" : "deactivated"
-          } for user ${clerkUserId}`
-        );
         break;
       }
 
