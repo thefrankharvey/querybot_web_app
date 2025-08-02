@@ -5,6 +5,9 @@ import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
 import SelectedMetric from "./custom-metrics/selected-metric";
 import CustomInput from "./custom-metrics/custom-input";
 import { cn } from "@/app/utils";
+import { Button } from "@/app/ui-primitives/button";
+import { MinusIcon, PlusIcon } from "lucide-react";
+import TooltipComponent from "@/app/components/tooltip";
 
 const Themes = ({
   setForm,
@@ -13,6 +16,8 @@ const Themes = ({
 }) => {
   const [customValues, setCustomValues] = useState<string[]>([]);
   const [error, setError] = useState<string>("");
+  const [showInput, setShowInput] = useState<boolean>(false);
+
   const handleThemeChange = (themes: string[]) => {
     setForm((prev) => {
       return {
@@ -37,11 +42,31 @@ const Themes = ({
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block">Themes</label>
-      <InfiniteMultiSelect
-        options={themeOptions}
-        optionTitle="themes"
-        handleChange={handleThemeChange}
-      />
+      <div className="flex items-center gap-2 w-full">
+        <InfiniteMultiSelect
+          options={themeOptions}
+          optionTitle="themes"
+          handleChange={handleThemeChange}
+        />
+        <TooltipComponent
+          className="text-center"
+          content="Your theme not in our list? Click here to add it."
+          contentClass="w-[250px]"
+          asChild
+        >
+          <Button
+            type="button"
+            className="relative text-sm shadow-lg hover:shadow-xl rounded-md flex items-center justify-center w-10"
+            onClick={() => setShowInput((prev) => !prev)}
+          >
+            {showInput ? (
+              <MinusIcon className="w-24 h-24" />
+            ) : (
+              <PlusIcon className="w-24 h-24" />
+            )}
+          </Button>
+        </TooltipComponent>
+      </div>
       <div
         className={cn(
           "flex flex-wrap gap-2 mt-2",
@@ -59,6 +84,8 @@ const Themes = ({
         ))}
       </div>
       <CustomInput
+        showInput={showInput}
+        setShowInput={setShowInput}
         label="themes"
         handleAdd={handleAddCustomTheme}
         setError={setError}

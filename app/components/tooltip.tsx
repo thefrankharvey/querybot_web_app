@@ -11,13 +11,23 @@ interface TooltipProps {
   children: React.ReactNode;
   content: string;
   className?: string;
+  contentClass?: string;
+  asChild?: boolean;
 }
 
-const TooltipComponent = ({ children, content, className }: TooltipProps) => {
+const TooltipComponent = ({
+  children,
+  content,
+  className,
+  contentClass,
+  asChild = false,
+}: TooltipProps) => {
   return (
     <Tooltip>
-      <TooltipTrigger className={className}>{children}</TooltipTrigger>
-      <TooltipContent className={cn("max-w-xs w-[300px]")}>
+      <TooltipTrigger className={className} asChild={asChild}>
+        {children}
+      </TooltipTrigger>
+      <TooltipContent className={cn("max-w-xs w-[300px]", contentClass)}>
         <p className="text-sm p-4">{content}</p>
       </TooltipContent>
     </Tooltip>

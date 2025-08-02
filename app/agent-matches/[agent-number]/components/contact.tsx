@@ -15,7 +15,10 @@ const Contact = ({
     <div>
       {!isSubscribed ? (
         <div className="flex flex-col gap-2 items-start">
-          <TooltipComponent content="Sign up for Slushwire Pro to see contact details!">
+          <TooltipComponent
+            contentClass="text-center"
+            content="Sign up for Slushwire Pro to see contact details!"
+          >
             <h2 className="text-xl font-bold mb-2 text-left">Contact</h2>
             <div className="flex flex-col gap-2 items-start">
               <div>
