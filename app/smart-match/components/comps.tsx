@@ -31,8 +31,8 @@ export const Comps = ({
         published books, preferably recent, which compare to yours
       </div>
       {form.comps.map((comp, idx) => (
-        <div key={idx} className="mb-4">
-          <div className="mb-2">
+        <div key={idx} className="mb-4 flex flex-col md:flex-row gap-2">
+          <div className="mb-2 flex-1">
             <label className="font-semibold mb-2 block">Title</label>
             <Input
               value={comp.title}
@@ -40,7 +40,7 @@ export const Comps = ({
               className="w-full"
             />
           </div>
-          <div>
+          <div className="flex-1">
             <label className="font-semibold mb-2 block">Author</label>
             <Input
               value={comp.author}
