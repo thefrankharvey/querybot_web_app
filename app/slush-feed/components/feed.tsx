@@ -17,7 +17,7 @@ enum SOCIAL_DATA {
 }
 
 export const Feed = ({ data }: { data: SlushFeed }) => {
-  const { isSubscribed, user } = useClerkUser();
+  const { isSubscribed } = useClerkUser();
   const gridRef = useRef<HTMLDivElement>(null);
   const [activeData, setActiveData] = useState({
     [SOCIAL_DATA.AGENT_INFO]: true,
@@ -32,9 +32,6 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
     agent_activity = [],
     reddit = [],
   } = data || {};
-
-  console.log({ isSubscribed });
-  console.log({ user });
 
   return (
     <>
@@ -143,6 +140,18 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
         !activeData[SOCIAL_DATA.BLUESKY] && (
           <h2 className="text-xl font-semibold mt-6">
             Select a option to view
+          </h2>
+        )}
+      {data.bluesky.length === 0 &&
+        activeData[SOCIAL_DATA.BLUESKY] &&
+        data.new_openings.length === 0 &&
+        activeData[SOCIAL_DATA.AGENT_INFO] &&
+        data.agent_activity.length === 0 &&
+        activeData[SOCIAL_DATA.REDDIT] &&
+        data.reddit.length === 0 &&
+        activeData[SOCIAL_DATA.BLUESKY] && (
+          <h2 className="text-xl font-semibold mt-6">
+            No new posts to show, please check back later!
           </h2>
         )}
     </>
