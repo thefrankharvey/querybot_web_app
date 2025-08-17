@@ -1,5 +1,4 @@
 import { Button } from "@/app/ui-primitives/button";
-import { SignUpButton } from "@clerk/nextjs";
 import { DatabaseZap, MailCheck, Newspaper, ScanSearch } from "lucide-react";
 import Link from "next/link";
 
