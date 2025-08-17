@@ -14,7 +14,7 @@ import {
   useUser,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
-import { Newspaper, ScanSearch } from "lucide-react";
+import { Newspaper, NotebookPen, ScanSearch } from "lucide-react";
 
 function ScrollToTop() {
   const pathname = usePathname();
@@ -69,17 +69,24 @@ const ClientNav = () => {
               <>
                 <Link
                   href="/smart-match"
-                  className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
                 >
-                  <ScanSearch className="w-6 h-6" />
+                  <ScanSearch className="w-4 h-4" />
                   Smart Match
                 </Link>
                 <Link
                   href="/slush-feed"
-                  className="text-base font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
                 >
-                  <Newspaper className="w-5 h-5" />
+                  <Newspaper className="w-4 h-4" />
                   Slushwire Dispatch
+                </Link>
+                <Link
+                  href="/blog"
+                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                >
+                  <NotebookPen className="w-4 h-4" />
+                  Blog
                 </Link>
               </>
             )}
@@ -89,19 +96,19 @@ const ClientNav = () => {
             <SignedIn>
               <Link
                 href="/account"
-                className="text-base hover:text-accent transition-all duration-300"
+                className="text-sm hover:text-accent transition-all duration-300"
               >
                 Account
               </Link>
-              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignOutButton />
               </div>
             </SignedIn>
             <SignedOut>
-              <div className="cursor-pointer text-base hover:text-accent transition-all duration-300">
+              <div className="cursor-pointer text-sm hover:text-accent transition-all duration-300">
                 <SignInButton />
               </div>
-              <div className="cursor-pointer text-base p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignUpButton />
               </div>
             </SignedOut>
