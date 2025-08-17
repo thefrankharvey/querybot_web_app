@@ -1,16 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Webhook } from "svix";
 import type { WebhookEvent } from "@clerk/nextjs/server";
-
-type ClerkEmailAddress = {
-  id: string;
-  email_address: string;
-};
-
-type ClerkUserEventData = {
-  primary_email_address_id?: string | null;
-  email_addresses?: ClerkEmailAddress[];
-};
+import {
+  ClerkEmailAddress,
+  ClerkUserEventData,
+  KitListResponse,
+  KitSubscriber,
+  KitSubscriberRequestBody,
+  KitTag,
+} from "@/app/types";
+import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
 
 function getPrimaryEmailAddress(user: ClerkUserEventData): string | null {
   try {
@@ -34,22 +33,121 @@ function hasEmailShape(data: unknown): data is ClerkUserEventData {
 
 async function kitUpsertSubscriberByEmail(
   emailAddress: string,
-  kitApiKey: string
+  kitApiKey: string,
+  tags?: KitTag[]
 ): Promise<void> {
+  const requestBody: KitSubscriberRequestBody = {
+    email_address: emailAddress,
+    ...(tags && tags.length > 0 && { tags }),
+  };
+
   const response = await fetch("https://api.kit.com/v4/subscribers", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       "X-Kit-Api-Key": kitApiKey,
     },
-    // Only email per requirements; no other fields
-    body: JSON.stringify({ email_address: emailAddress }),
+    body: JSON.stringify(requestBody),
   });
 
   // 200/201/202 are fine; 4xx/5xx we ignore but do not throw to avoid retries storm
   if (!response.ok) {
     // Best-effort only; do not log per requirements
   }
+}
+
+async function kitAddTagToSubscriber(
+  emailAddress: string,
+  tagName: string,
+  kitApiKey: string
+): Promise<void> {
+  // Find subscriber by email via list filter
+  const listResponse = await fetch(
+    `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
+      emailAddress
+    )}`,
+    {
+      method: "GET",
+      headers: {
+        "X-Kit-Api-Key": kitApiKey,
+      },
+    }
+  );
+
+  if (!listResponse.ok) {
+    return; // best-effort; treat as no-op
+  }
+
+  interface KitSubscriber {
+    id: number | string;
+    email_address: string;
+  }
+  interface KitListResponse {
+    subscribers?: KitSubscriber[];
+  }
+
+  const listData: KitListResponse = await listResponse
+    .json()
+    .catch(() => ({} as KitListResponse));
+  const subscribers: KitSubscriber[] = listData?.subscribers ?? [];
+  const match = subscribers.find(
+    (s) => (s?.email_address ?? "").toLowerCase() === emailAddress.toLowerCase()
+  );
+
+  if (!match?.id) return;
+
+  // Add tag
+  await fetch(`https://api.kit.com/v4/subscribers/${match.id}/tags`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Kit-Api-Key": kitApiKey,
+    },
+    body: JSON.stringify({ name: tagName }),
+  });
+}
+
+async function kitRemoveTagFromSubscriber(
+  emailAddress: string,
+  tagName: string,
+  kitApiKey: string
+): Promise<void> {
+  // Find subscriber by email via list filter
+  const listResponse = await fetch(
+    `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
+      emailAddress
+    )}`,
+    {
+      method: "GET",
+      headers: {
+        "X-Kit-Api-Key": kitApiKey,
+      },
+    }
+  );
+
+  if (!listResponse.ok) {
+    return; // best-effort; treat as no-op
+  }
+
+  const listData: KitListResponse = await listResponse
+    .json()
+    .catch(() => ({} as KitListResponse));
+  const subscribers: KitSubscriber[] = listData?.subscribers ?? [];
+  const match = subscribers.find(
+    (s) => (s?.email_address ?? "").toLowerCase() === emailAddress.toLowerCase()
+  );
+
+  if (!match?.id) return;
+
+  // Remove tag
+  await fetch(`https://api.kit.com/v4/subscribers/${match.id}/tags`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Kit-Api-Key": kitApiKey,
+    },
+    body: JSON.stringify({ name: tagName }),
+  });
 }
 
 async function kitUnsubscribeByEmail(
@@ -106,6 +204,13 @@ async function kitUnsubscribeByEmail(
   }
 }
 
+// Export Kit functions and constants for use in other webhooks
+export {
+  KIT_SUBSCRIBER_TAGS,
+  kitAddTagToSubscriber,
+  kitRemoveTagFromSubscriber,
+};
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.text();
@@ -152,11 +257,23 @@ export async function POST(req: NextRequest) {
     }
 
     switch (type) {
-      case "user.created":
+      case "user.created": {
+        if (hasEmailShape(data)) {
+          const emailAddress = getPrimaryEmailAddress(data);
+          if (emailAddress) {
+            const tags: KitTag[] = [
+              { name: KIT_SUBSCRIBER_TAGS.FREE_SUBSCRIBER },
+            ];
+            await kitUpsertSubscriberByEmail(emailAddress, kitApiKey, tags);
+          }
+        }
+        break;
+      }
       case "user.updated": {
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {
+            // For user updates, sync to Kit without modifying tags
             await kitUpsertSubscriberByEmail(emailAddress, kitApiKey);
           }
         }

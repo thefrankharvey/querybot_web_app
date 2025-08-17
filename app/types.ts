@@ -59,3 +59,30 @@ export type SlushFeed = {
   new_openings: Blips[];
   reddit: RedditPost[];
 };
+
+export type ClerkEmailAddress = {
+  id: string;
+  email_address: string;
+};
+
+export type ClerkUserEventData = {
+  primary_email_address_id?: string | null;
+  email_addresses?: ClerkEmailAddress[];
+};
+
+export type KitTag = {
+  name: string;
+};
+
+export type KitSubscriberRequestBody = {
+  email_address: string;
+  tags?: KitTag[];
+};
+
+export interface KitSubscriber {
+  id: number | string;
+  email_address: string;
+}
+export interface KitListResponse {
+  subscribers?: KitSubscriber[];
+}
