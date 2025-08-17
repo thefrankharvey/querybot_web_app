@@ -205,11 +205,7 @@ async function kitUnsubscribeByEmail(
 }
 
 // Export Kit functions and constants for use in other webhooks
-export {
-  KIT_SUBSCRIBER_TAGS,
-  kitAddTagToSubscriber,
-  kitRemoveTagFromSubscriber,
-};
+export { kitAddTagToSubscriber, kitRemoveTagFromSubscriber };
 
 export async function POST(req: NextRequest) {
   try {
