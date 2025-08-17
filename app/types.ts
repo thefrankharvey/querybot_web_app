@@ -83,6 +83,25 @@ export interface KitSubscriber {
   id: number | string;
   email_address: string;
 }
+
 export interface KitListResponse {
   subscribers?: KitSubscriber[];
+}
+
+// Kit API response types
+export interface KitTagWithId {
+  id: number;
+  name: string;
+  created_at: string;
+}
+
+export interface KitTagsResponse {
+  tags?: KitTagWithId[];
+  pagination?: {
+    has_previous_page: boolean;
+    has_next_page: boolean;
+    start_cursor: string;
+    end_cursor: string;
+    per_page: number;
+  };
 }
