@@ -1,6 +1,13 @@
 export const MONTHLY_SUB_PRICE_ID = "price_1R1A0AHX8wDCje2DUFAg3zlJ";
 export const YEARLY_SUB_PRICE_ID = "price_1Rn1w1HX8wDCje2DLyaHXxTz";
 
+// Kit subscriber tag constants following workspace naming convention
+export const KIT_SUBSCRIBER_TAGS = {
+  FREE_SUBSCRIBER: "Free Subscriber",
+  PAID_SUBSCRIBER: "Paid Subscriber",
+  FORMER_SUBSCRIBER: "Former Subscriber",
+} as const;
+
 export const feedDemoData = {
   bluesky: {
     author_did: "did:plc:336qirp5agd3agd7u4uynocv",

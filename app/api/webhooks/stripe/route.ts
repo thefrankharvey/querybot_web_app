@@ -1,6 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { updateUserSubscriptionStatus } from "@/app/actions/clerk-actions";
+import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
+import {
+  kitAddTagToSubscriber,
+  kitRemoveTagFromSubscriber,
+} from "@/app/api/webhooks/clerk/route";
 
 // Check for required environment variables
 if (!process.env.STRIPE_SECRET_KEY) {
@@ -111,6 +116,18 @@ export async function POST(req: NextRequest) {
           );
         }
 
+        // Add Paid Subscriber tag when subscription becomes active
+        if (isActive && customer.email) {
+          const kitApiKey = process.env.KIT_API_KEY;
+          if (kitApiKey) {
+            await kitAddTagToSubscriber(
+              customer.email,
+              KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
+              kitApiKey
+            );
+          }
+        }
+
         break;
       }
 
@@ -152,6 +169,25 @@ export async function POST(req: NextRequest) {
             { error: "Failed to update user status" },
             { status: 500 }
           );
+        }
+
+        // Handle subscription cancellation - remove Paid tag and add Former tag
+        if (customer.email) {
+          const kitApiKey = process.env.KIT_API_KEY;
+          if (kitApiKey) {
+            // Remove Paid Subscriber tag
+            await kitRemoveTagFromSubscriber(
+              customer.email,
+              KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
+              kitApiKey
+            );
+            // Add Former Subscriber tag
+            await kitAddTagToSubscriber(
+              customer.email,
+              KIT_SUBSCRIBER_TAGS.FORMER_SUBSCRIBER,
+              kitApiKey
+            );
+          }
         }
 
         console.log(
