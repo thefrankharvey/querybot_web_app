@@ -297,6 +297,12 @@ async function kitUnsubscribeByEmail(
   );
 
   if (!listResponse.ok) {
+    console.error("Kit list subscribers failed for unsubscribe:", {
+      status: listResponse.status,
+      statusText: listResponse.statusText,
+      email: emailAddress,
+      timestamp: new Date().toISOString(),
+    });
     return; // best-effort; treat as no-op
   }
 
@@ -308,15 +314,23 @@ async function kitUnsubscribeByEmail(
     (s) => (s?.email_address ?? "").toLowerCase() === emailAddress.toLowerCase()
   );
 
-  if (!match?.id) return;
+  if (!match?.id) {
+    console.error("Kit subscriber not found for unsubscribe:", {
+      email: emailAddress,
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
 
   const unsubResponse = await fetch(
     `https://api.kit.com/v4/subscribers/${match.id}/unsubscribe`,
     {
       method: "POST",
       headers: {
+        "Content-Type": "application/json",
         "X-Kit-Api-Key": kitApiKey,
       },
+      body: JSON.stringify({}),
     }
   );
 
