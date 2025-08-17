@@ -8,6 +8,8 @@ import {
   KitSubscriber,
   KitSubscriberRequestBody,
   KitTag,
+  KitTagWithId,
+  KitTagsResponse,
 } from "@/app/types";
 import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
 
@@ -41,6 +43,8 @@ async function kitUpsertSubscriberByEmail(
     ...(tags && tags.length > 0 && { tags }),
   };
 
+  console.log("Kit upsert request body:", JSON.stringify(requestBody, null, 2));
+
   const response = await fetch("https://api.kit.com/v4/subscribers", {
     method: "POST",
     headers: {
@@ -52,7 +56,60 @@ async function kitUpsertSubscriberByEmail(
 
   // 200/201/202 are fine; 4xx/5xx we ignore but do not throw to avoid retries storm
   if (!response.ok) {
-    // Best-effort only; do not log per requirements
+    console.error("Kit upsert subscriber failed:", {
+      status: response.status,
+      statusText: response.statusText,
+      email: emailAddress,
+      timestamp: new Date().toISOString(),
+    });
+  }
+}
+
+async function kitGetTagIdByName(
+  tagName: string,
+  kitApiKey: string
+): Promise<number | null> {
+  try {
+    const response = await fetch("https://api.kit.com/v4/tags", {
+      method: "GET",
+      headers: {
+        "X-Kit-Api-Key": kitApiKey,
+      },
+    });
+
+    if (!response.ok) {
+      console.error("Kit list tags failed:", {
+        status: response.status,
+        statusText: response.statusText,
+        tagName,
+        timestamp: new Date().toISOString(),
+      });
+      return null;
+    }
+
+    const data: KitTagsResponse = await response
+      .json()
+      .catch(() => ({} as KitTagsResponse));
+    const tags: KitTagWithId[] = data?.tags ?? [];
+    const matchingTag = tags.find((tag) => tag.name === tagName);
+
+    if (!matchingTag) {
+      console.error("Kit tag not found:", {
+        tagName,
+        availableTags: tags.map((t) => t.name),
+        timestamp: new Date().toISOString(),
+      });
+      return null;
+    }
+
+    return matchingTag.id;
+  } catch (error) {
+    console.error("Kit get tag ID failed:", {
+      error: error instanceof Error ? error.message : "Unknown error",
+      tagName,
+      timestamp: new Date().toISOString(),
+    });
+    return null;
   }
 }
 
@@ -61,6 +118,17 @@ async function kitAddTagToSubscriber(
   tagName: string,
   kitApiKey: string
 ): Promise<void> {
+  // First get the tag ID
+  const tagId = await kitGetTagIdByName(tagName, kitApiKey);
+  if (!tagId) {
+    console.error("Kit tag ID not found for tagging:", {
+      email: emailAddress,
+      tagName,
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
+
   // Find subscriber by email via list filter
   const listResponse = await fetch(
     `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
@@ -75,15 +143,14 @@ async function kitAddTagToSubscriber(
   );
 
   if (!listResponse.ok) {
+    console.error("Kit list subscribers failed:", {
+      status: listResponse.status,
+      statusText: listResponse.statusText,
+      email: emailAddress,
+      tagName,
+      timestamp: new Date().toISOString(),
+    });
     return; // best-effort; treat as no-op
-  }
-
-  interface KitSubscriber {
-    id: number | string;
-    email_address: string;
-  }
-  interface KitListResponse {
-    subscribers?: KitSubscriber[];
   }
 
   const listData: KitListResponse = await listResponse
@@ -94,17 +161,47 @@ async function kitAddTagToSubscriber(
     (s) => (s?.email_address ?? "").toLowerCase() === emailAddress.toLowerCase()
   );
 
-  if (!match?.id) return;
+  if (!match?.id) {
+    console.error("Kit subscriber not found for tagging:", {
+      email: emailAddress,
+      tagName,
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
 
-  // Add tag
-  await fetch(`https://api.kit.com/v4/subscribers/${match.id}/tags`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "X-Kit-Api-Key": kitApiKey,
-    },
-    body: JSON.stringify({ name: tagName }),
-  });
+  // Add tag using the correct Kit API endpoint
+  const tagResponse = await fetch(
+    `https://api.kit.com/v4/tags/${tagId}/subscribers/${match.id}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Kit-Api-Key": kitApiKey,
+      },
+      body: JSON.stringify({}),
+    }
+  );
+
+  if (!tagResponse.ok) {
+    console.error("Kit add tag failed:", {
+      status: tagResponse.status,
+      statusText: tagResponse.statusText,
+      email: emailAddress,
+      tagName,
+      tagId,
+      subscriberId: match.id,
+      timestamp: new Date().toISOString(),
+    });
+  } else {
+    console.log("Kit tag added successfully:", {
+      email: emailAddress,
+      tagName,
+      tagId,
+      subscriberId: match.id,
+      timestamp: new Date().toISOString(),
+    });
+  }
 }
 
 async function kitRemoveTagFromSubscriber(
@@ -112,6 +209,17 @@ async function kitRemoveTagFromSubscriber(
   tagName: string,
   kitApiKey: string
 ): Promise<void> {
+  // First get the tag ID
+  const tagId = await kitGetTagIdByName(tagName, kitApiKey);
+  if (!tagId) {
+    console.error("Kit tag ID not found for removal:", {
+      email: emailAddress,
+      tagName,
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
+
   // Find subscriber by email via list filter
   const listResponse = await fetch(
     `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
@@ -139,15 +247,36 @@ async function kitRemoveTagFromSubscriber(
 
   if (!match?.id) return;
 
-  // Remove tag
-  await fetch(`https://api.kit.com/v4/subscribers/${match.id}/tags`, {
-    method: "DELETE",
-    headers: {
-      "Content-Type": "application/json",
-      "X-Kit-Api-Key": kitApiKey,
-    },
-    body: JSON.stringify({ name: tagName }),
-  });
+  // Remove tag using the correct Kit API endpoint
+  const removeResponse = await fetch(
+    `https://api.kit.com/v4/tags/${tagId}/subscribers/${match.id}`,
+    {
+      method: "DELETE",
+      headers: {
+        "X-Kit-Api-Key": kitApiKey,
+      },
+    }
+  );
+
+  if (!removeResponse.ok) {
+    console.error("Kit remove tag failed:", {
+      status: removeResponse.status,
+      statusText: removeResponse.statusText,
+      email: emailAddress,
+      tagName,
+      tagId,
+      subscriberId: match.id,
+      timestamp: new Date().toISOString(),
+    });
+  } else {
+    console.log("Kit tag removed successfully:", {
+      email: emailAddress,
+      tagName,
+      tagId,
+      subscriberId: match.id,
+      timestamp: new Date().toISOString(),
+    });
+  }
 }
 
 async function kitUnsubscribeByEmail(
@@ -169,14 +298,6 @@ async function kitUnsubscribeByEmail(
 
   if (!listResponse.ok) {
     return; // best-effort; treat as no-op
-  }
-
-  interface KitSubscriber {
-    id: number | string;
-    email_address: string;
-  }
-  interface KitListResponse {
-    subscribers?: KitSubscriber[];
   }
 
   const listData: KitListResponse = await listResponse
@@ -257,10 +378,14 @@ export async function POST(req: NextRequest) {
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {
-            const tags: KitTag[] = [
-              { name: KIT_SUBSCRIBER_TAGS.FREE_SUBSCRIBER },
-            ];
-            await kitUpsertSubscriberByEmail(emailAddress, kitApiKey, tags);
+            // First create the subscriber without tags
+            await kitUpsertSubscriberByEmail(emailAddress, kitApiKey);
+            // Then add the Free Subscriber tag separately (after successful creation)
+            await kitAddTagToSubscriber(
+              emailAddress,
+              KIT_SUBSCRIBER_TAGS.FREE_SUBSCRIBER,
+              kitApiKey
+            );
           }
         }
         break;
