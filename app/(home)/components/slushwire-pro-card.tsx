@@ -1,4 +1,5 @@
 import { Button } from "@/app/ui-primitives/button";
+import { SignUpButton } from "@clerk/nextjs";
 import { DatabaseZap, MailCheck, Newspaper, ScanSearch } from "lucide-react";
 import Link from "next/link";
 
@@ -53,19 +54,6 @@ export const SlushwireProCard = () => {
           </div>
         </div>
       </Link>
-      <div className="flex justify-center items-center mt-20">
-        <h1 className="text-3xl text-center">
-          Not ready for Pro?
-          <br />
-          <Link
-            href="https://writequeryhook.site/slushwire/"
-            target="_blank"
-            className="underline hover:text-accent transition-all duration-300"
-          >
-            Try our <span className="font-semibold">free</span> newsletter!
-          </Link>
-        </h1>
-      </div>
     </div>
   );
 };

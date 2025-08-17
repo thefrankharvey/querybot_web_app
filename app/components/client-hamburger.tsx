@@ -60,14 +60,6 @@ export const ClientHamburger = () => {
           >
             Slushwire Dispatch
           </Link>
-          <a
-            onClick={() => setOpen(false)}
-            href="https://writequeryhook.site/slushwire/"
-            target="_blank"
-            className="text-xl hover:text-accent transition-all duration-300"
-          >
-            Subscribe for Free!
-          </a>
           <div className="flex justify-center items-center gap-8 w-full md:w-fit mt-10">
             <SignedIn>
               <Link
