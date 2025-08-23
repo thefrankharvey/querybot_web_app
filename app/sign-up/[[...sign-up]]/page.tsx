@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="pt-16 flex flex-col gap-10 justify-center items-center">
       <h1 className="text-2xl text-center flex flex-col gap-2 items-center">
-        Sign up for free and get access to our newsletter!
+        Sign up for free and get access to our weekly newsletter and blog posts!
       </h1>
       <SignUp
         forceRedirectUrl="/subscription"
