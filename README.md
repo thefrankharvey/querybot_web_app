@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Blog integration configuration
+
+Add the following to `.env.local` to enable the WordPress-driven blog:
+
+```
+# WordPress
+WPGRAPHQL_ENDPOINT=https://your-wp-site.com/graphql
+WP_SITE_URL=https://your-wp-site.com
+# Optional: if your WordPress media is served from a specific host
+# WP_MEDIA_HOST=your-wp-site.com
+
+# Canonical site URL used in metadata and sitemaps
+NEXT_PUBLIC_SITE_URL=https://yourdomain.com
+
+# On-demand ISR secret used by /api/revalidate
+REVALIDATE_SECRET=replace-with-a-random-string
+```

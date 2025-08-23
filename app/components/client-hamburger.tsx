@@ -60,6 +60,13 @@ export const ClientHamburger = () => {
           >
             Slushwire Dispatch
           </Link>
+          <Link
+            onClick={() => setOpen(false)}
+            href="/blog"
+            className="text-xl hover:text-accent transition-all duration-300"
+          >
+            Blog
+          </Link>
           <div className="flex justify-center items-center gap-8 w-full md:w-fit mt-10">
             <SignedIn>
               <Link

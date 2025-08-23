@@ -1,10 +1,28 @@
 import { SignIn } from "@clerk/nextjs";
 
-export default function Page() {
+export default function Page({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  return <SignInComponent searchParams={searchParams} />;
+}
+
+async function SignInComponent({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const params = await searchParams;
+  const redirectUrl =
+    typeof params?.redirectUrl === "string"
+      ? params.redirectUrl
+      : "/subscription";
+
   return (
     <div className="pt-16 flex justify-center items-center">
       <SignIn
-        forceRedirectUrl="/subscription"
+        forceRedirectUrl={redirectUrl}
         appearance={{
           elements: {
             formButtonPrimary: {
