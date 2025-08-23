@@ -3,6 +3,7 @@ import { WpPost } from "@/lib/wp";
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";
+import { BlogPostingJsonLd } from "@/app/types";
 
 const StyledAlerts = ({
   alertsData,
@@ -42,7 +43,7 @@ const SlushwireWeeklyPost = ({
   contentHtml,
 }: {
   post: WpPost;
-  jsonLd: any;
+  jsonLd: BlogPostingJsonLd;
   contentHtml: string;
 }) => {
   // Process all content using the comprehensive utility function

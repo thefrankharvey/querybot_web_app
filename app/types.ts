@@ -105,3 +105,26 @@ export interface KitTagsResponse {
     per_page: number;
   };
 }
+
+// JSON-LD types used for blog posts
+export interface JsonLdPerson {
+  "@type": "Person";
+  name: string;
+}
+
+export interface JsonLdWebPage {
+  "@type": "WebPage";
+  "@id": string;
+}
+
+export interface BlogPostingJsonLd {
+  "@context": "https://schema.org";
+  "@type": "BlogPosting";
+  headline: string;
+  datePublished: string;
+  dateModified: string;
+  url: string;
+  image?: string[];
+  author?: JsonLdPerson;
+  mainEntityOfPage?: JsonLdWebPage;
+}

@@ -2,6 +2,7 @@ import { processBlogContent } from "@/app/utils";
 import { WpPost } from "@/lib/wp";
 import Image from "next/image";
 import Script from "next/script";
+import { BlogPostingJsonLd } from "@/app/types";
 
 const SlushwireBlogPost = ({
   post,
@@ -9,7 +10,7 @@ const SlushwireBlogPost = ({
   contentHtml,
 }: {
   post: WpPost;
-  jsonLd: any;
+  jsonLd: BlogPostingJsonLd;
   contentHtml: string;
 }) => {
   const processedContent = processBlogContent(contentHtml);
