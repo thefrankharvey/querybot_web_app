@@ -11,6 +11,7 @@ import SlushwireWeeklyPost from "../components/slushwire-weekly-post";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import SlushwireBlogPost from "../components/slushwire-blog-post";
+import { BlogPostingJsonLd } from "@/app/types";
 
 type Params = { slug: string };
 
@@ -97,7 +98,7 @@ export default async function BlogPostPage({
       ? { "@type": "Person", name: post.author.node.name }
       : undefined,
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
-  } as const;
+  } satisfies BlogPostingJsonLd;
   return (
     <main className="w-full md:mx-auto md:max-w-5xl py-10">
       <Link

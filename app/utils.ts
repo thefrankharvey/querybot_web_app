@@ -357,10 +357,9 @@ export function formatSlushWeeklyContent(html: string): string {
     title: string;
     content: string;
   }> = [];
-  let tempContent = processedContent;
 
   // Find Reddit Posts section
-  const redditSectionMatch = tempContent.match(
+  const redditSectionMatch = processedContent.match(
     /<h2[^>]*>Reddit Posts<\/h2>([\s\S]*?)(?=<h2|$)/i
   );
   if (redditSectionMatch) {
