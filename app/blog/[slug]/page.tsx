@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import {
   getAllPostSlugs,
@@ -9,6 +7,10 @@ import {
   htmlToTextSummary,
   rewriteInternalLinksToBlog,
 } from "@/lib/wp";
+import SlushwireWeeklyPost from "../components/slushwire-weekly-post";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+import SlushwireBlogPost from "../components/slushwire-blog-post";
 
 type Params = { slug: string };
 
@@ -97,34 +99,29 @@ export default async function BlogPostPage({
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
   } as const;
   return (
-    <main className="mx-auto max-w-3xl px-4 py-10">
-      <article className="prose dark:prose-invert">
-        <h1>{post.title}</h1>
-        <Script
-          id="post-jsonld"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        {image?.sourceUrl ? (
-          <figure className="not-prose my-6">
-            <Image
-              src={image.sourceUrl}
-              alt={image.altText || post.title}
-              width={image.mediaDetails?.width || 1200}
-              height={image.mediaDetails?.height || 630}
-              className="w-full rounded"
-              sizes="(max-width: 768px) 100vw, 768px"
-              priority
-            />
-            {image.altText ? (
-              <figcaption className="text-center text-sm text-muted-foreground">
-                {image.altText}
-              </figcaption>
-            ) : null}
-          </figure>
-        ) : null}
-        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-      </article>
+    <main className="w-full md:mx-auto md:max-w-5xl py-10">
+      <Link
+        href="/blog"
+        className="flex w-full items-center gap-2 hover:text-accent transition-colors duration-300 mb-6"
+      >
+        <ArrowLeft className="w-8 h-8" />
+        <h2 className="text-2xl">Back</h2>
+      </Link>
+      <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
+        {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ? (
+          <SlushwireWeeklyPost
+            post={post}
+            jsonLd={jsonLd}
+            contentHtml={contentHtml}
+          />
+        ) : (
+          <SlushwireBlogPost
+            post={post}
+            jsonLd={jsonLd}
+            contentHtml={contentHtml}
+          />
+        )}
+      </div>
     </main>
   );
 }

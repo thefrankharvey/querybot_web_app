@@ -189,6 +189,22 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
           attribs: nextAttribs,
         } as unknown as sanitizeHtml.Tag;
       },
+      // Rewrite image URLs to replace .com with .site
+      img: (_tagName: string, attribs: Record<string, string>) => {
+        const nextAttribs: Record<string, string> = { ...attribs };
+        if (nextAttribs.src) {
+          nextAttribs.src =
+            rewriteImageUrls(nextAttribs.src) || nextAttribs.src;
+        }
+        if (nextAttribs.srcset) {
+          nextAttribs.srcset =
+            rewriteImageUrls(nextAttribs.srcset) || nextAttribs.srcset;
+        }
+        return {
+          tagName: "img",
+          attribs: nextAttribs,
+        } as unknown as sanitizeHtml.Tag;
+      },
     },
   });
 }
@@ -223,12 +239,18 @@ export function rewriteInternalLinksToBlog(
     new RegExp(`${escapeRegExp(site)}/([A-Za-z0-9\-]+)/`, "g"),
     (_match, slug) => {
       const canonicalSite =
-        process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
+        process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") || "";
       const trailingSlash = true;
       const dest = `${canonicalSite}/blog/${slug}`;
       return trailingSlash ? `${dest}/` : dest;
     }
   );
+}
+
+export function rewriteImageUrls(imageUrl: string | null): string | null {
+  if (!imageUrl) return imageUrl;
+  // Replace .com with .site in image URLs
+  return imageUrl.replace(/\.com/g, ".site");
 }
 
 function escapeRegExp(str: string): string {
