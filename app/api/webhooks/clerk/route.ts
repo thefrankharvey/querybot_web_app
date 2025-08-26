@@ -13,6 +13,38 @@ import {
 } from "@/app/types";
 import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
 
+// Lightweight fetch helper with AbortController timeouts to prevent webhook hangs
+const DEFAULT_KIT_TIMEOUT_MS = 2500;
+
+async function kitFetch(
+  input: RequestInfo | URL,
+  init: RequestInit & { timeoutMs?: number } = {}
+): Promise<Response> {
+  const { timeoutMs = DEFAULT_KIT_TIMEOUT_MS, ...rest } = init;
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(input, { ...rest, signal: controller.signal });
+  } catch (error) {
+    console.error("Kit fetch error:", {
+      error: error instanceof Error ? error.message : "Unknown error",
+      url: String(input),
+      method: (rest.method || "GET").toString(),
+      timeoutMs,
+      timestamp: new Date().toISOString(),
+    });
+    return new Response(null, {
+      status: 499,
+      statusText: "Client Timeout/Abort",
+    });
+  } finally {
+    clearTimeout(id);
+  }
+}
+
+// Simple in-memory cache for tag name -> id lookups to reduce repeated /tags calls
+const kitTagIdCache: Record<string, number> = {};
+
 function getPrimaryEmailAddress(user: ClerkUserEventData): string | null {
   try {
     const primaryId = user?.primary_email_address_id ?? undefined;
@@ -69,8 +101,9 @@ async function kitGetTagIdByName(
   tagName: string,
   kitApiKey: string
 ): Promise<number | null> {
+  if (kitTagIdCache[tagName] !== undefined) return kitTagIdCache[tagName];
   try {
-    const response = await fetch("https://api.kit.com/v4/tags", {
+    const response = await kitFetch("https://api.kit.com/v4/tags", {
       method: "GET",
       headers: {
         "X-Kit-Api-Key": kitApiKey,
@@ -102,7 +135,11 @@ async function kitGetTagIdByName(
       return null;
     }
 
-    return matchingTag.id;
+    if (matchingTag?.id !== undefined) {
+      kitTagIdCache[tagName] = matchingTag.id;
+      return matchingTag.id;
+    }
+    return null;
   } catch (error) {
     console.error("Kit get tag ID failed:", {
       error: error instanceof Error ? error.message : "Unknown error",
@@ -130,10 +167,10 @@ async function kitAddTagToSubscriber(
   }
 
   // Find subscriber by email via list filter
-  const listResponse = await fetch(
+  const listResponse = await kitFetch(
     `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
       emailAddress
-    )}`,
+    )}&limit=1`,
     {
       method: "GET",
       headers: {
@@ -171,7 +208,7 @@ async function kitAddTagToSubscriber(
   }
 
   // Add tag using the correct Kit API endpoint
-  const tagResponse = await fetch(
+  const tagResponse = await kitFetch(
     `https://api.kit.com/v4/tags/${tagId}/subscribers/${match.id}`,
     {
       method: "POST",
@@ -221,10 +258,10 @@ async function kitRemoveTagFromSubscriber(
   }
 
   // Find subscriber by email via list filter
-  const listResponse = await fetch(
+  const listResponse = await kitFetch(
     `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
       emailAddress
-    )}`,
+    )}&limit=1`,
     {
       method: "GET",
       headers: {
@@ -248,7 +285,7 @@ async function kitRemoveTagFromSubscriber(
   if (!match?.id) return;
 
   // Remove tag using the correct Kit API endpoint
-  const removeResponse = await fetch(
+  const removeResponse = await kitFetch(
     `https://api.kit.com/v4/tags/${tagId}/subscribers/${match.id}`,
     {
       method: "DELETE",
@@ -284,10 +321,10 @@ async function kitUnsubscribeByEmail(
   kitApiKey: string
 ): Promise<void> {
   // Find subscriber by email via list filter
-  const listResponse = await fetch(
+  const listResponse = await kitFetch(
     `https://api.kit.com/v4/subscribers?email_address=${encodeURIComponent(
       emailAddress
-    )}`,
+    )}&limit=1`,
     {
       method: "GET",
       headers: {
@@ -322,7 +359,7 @@ async function kitUnsubscribeByEmail(
     return;
   }
 
-  const unsubResponse = await fetch(
+  const unsubResponse = await kitFetch(
     `https://api.kit.com/v4/subscribers/${match.id}/unsubscribe`,
     {
       method: "POST",
