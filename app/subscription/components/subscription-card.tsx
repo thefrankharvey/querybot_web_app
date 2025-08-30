@@ -19,6 +19,11 @@ const SubscriptionCard = ({
   handleSubscribe: (priceId: string) => void;
   isSubscribing: boolean;
 }) => {
+  const title = isMonthly ? "Monthly Subscription" : "Yearly Subscription";
+  const subtext = isMonthly ? "Flexible. Cancel anytime." : "Save 45%";
+  const price = isMonthly ? "$14" : "$90";
+  const cta = isMonthly ? "Subscribe Monthly" : "Subscribe Annually";
+
   return (
     <div className="w-full md:w-[350px]">
       {!isMonthly && (
@@ -28,16 +33,11 @@ const SubscriptionCard = ({
       )}
       <div className="bg-white rounded-lg p-8 shadow-xl cursor-pointer hover:shadow-2xl transition-all duration-300">
         <div className="text-center">
-          <h3 className="text-2xl font-semibold mb-2">Slushwire Pro</h3>
-          <p className="text-gray-600 mb-6">Built to empower authors</p>
+          <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+          <p className="text-gray-600 mb-6">{subtext}</p>
 
           <div className="mb-8 flex justify-center items-center">
-            <span className="text-4xl font-semibold">
-              {isMonthly ? "$14" : "$90"}
-            </span>
-            <span className="text-gray-600 ml-2">
-              {isMonthly ? "/ month" : "/ year"}
-            </span>
+            <span className="text-4xl font-semibold">{price}</span>
           </div>
 
           {message && (
@@ -68,7 +68,7 @@ const SubscriptionCard = ({
                 Processing...
               </div>
             ) : (
-              "GET SLUSHWIRE PRO"
+              cta
             )}
           </Button>
         </div>

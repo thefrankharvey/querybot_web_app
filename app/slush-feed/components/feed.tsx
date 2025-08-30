@@ -125,7 +125,7 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
       </div>
       {!isSubscribed && (
         <PayWall
-          title="Want the full slushwire dispatch?"
+          title="Want the full dispatch?"
           gridRef={gridRef}
           resultLength={
             bluesky.length +

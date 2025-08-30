@@ -27,7 +27,7 @@ const Subscription = () => {
     if (urlParams.get("success") === "true") {
       setMessage({
         type: "success",
-        text: "Subscription successful! Welcome to Slushwire Pro!",
+        text: "Subscription successful! Welcome to Write Query Hook!",
       });
     } else if (urlParams.get("canceled") === "true") {
       setMessage({
@@ -90,6 +90,12 @@ const Subscription = () => {
       ) : (
         <>
           <SubscriptionDetails />
+
+          <div className="flex flex-col gap-2 items-center mt-8 mb-8">
+            <h1 className="text-2xl font-semibold">
+              Choose a plan that works for you.
+            </h1>
+          </div>
           <div className="flex flex-col md:flex-row gap-16 w-full items-center justify-center">
             <SubscriptionCard
               message={message}

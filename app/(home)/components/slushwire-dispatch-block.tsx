@@ -18,13 +18,13 @@ const SlushwireDispatchBlock = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <h1 className="text-2xl md:text-[40px] leading-normal">
-            <span className="font-semibold">Slushwire Dispatch</span>, provides
-            you with all of the latest industry news in a real time feed.
+            <span className="font-semibold">Dispatch</span>, provides you with
+            all of the latest industry news in a real time feed.
           </h1>
           <div className="hidden justify-center w-full md:flex">
             <Link href="/slush-feed" className="w-full md:w-fit">
               <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
-                TRY SLUSHWIRE DISPATCH
+                TRY DISPATCH
               </Button>
             </Link>
           </div>
@@ -100,7 +100,7 @@ const SlushwireDispatchBlock = () => {
       <div className="flex justify-center w-full md:hidden">
         <Link href="/slush-feed" className="w-full">
           <Button className="cursor-pointer w-full text-xl p-8 mt-4 font-semibold hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
-            TRY SLUSHWIRE DISPATCH
+            TRY DISPATCH
           </Button>
         </Link>
       </div>

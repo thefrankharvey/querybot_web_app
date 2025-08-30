@@ -37,7 +37,7 @@ const About = () => {
             </p>
 
             <p className="text-lg font-semibold">
-              Slushwire Pro was built to change that.
+              Write Query Hook was built to change that.
             </p>
 
             <p>
@@ -56,17 +56,17 @@ const About = () => {
             </p>
 
             <p>
-              Your <span className="font-semibold">Slushwire Pro</span>{" "}
+              Your <span className="font-semibold">Write Query Hook</span>{" "}
               subscription includes access to{" "}
-              <span className="font-semibold">Slushwire Dispatch</span>, our
-              real-time feed of industry opportunities. Stay in the loop on
-              AMAs, pitch events, agent wishlists, query tips, and more—all in
-              one place. Because publishing opportunities don&apos;t just happen
-              inside the inbox.
+              <span className="font-semibold">Dispatch</span>, our real-time
+              feed of industry opportunities. Stay in the loop on AMAs, pitch
+              events, agent wishlists, query tips, and more—all in one place.
+              Because publishing opportunities don&apos;t just happen inside the
+              inbox.
             </p>
           </div>
           <p className="text-lg font-semibold">
-            Slushwire Pro is here to help you break through.
+            Write Query Hook is here to help you break through.
           </p>
         </div>
       </div>

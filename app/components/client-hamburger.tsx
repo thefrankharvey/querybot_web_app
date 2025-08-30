@@ -58,7 +58,7 @@ export const ClientHamburger = () => {
             href="/slush-feed"
             className="text-xl hover:text-accent transition-all duration-300"
           >
-            Slushwire Dispatch
+            Dispatch
           </Link>
           <Link
             onClick={() => setOpen(false)}
