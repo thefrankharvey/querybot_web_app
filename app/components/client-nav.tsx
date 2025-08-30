@@ -15,6 +15,7 @@ import {
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import { useClerkUser } from "../hooks/use-clerk-user";
 
 function ScrollToTop() {
   const pathname = usePathname();
@@ -29,6 +30,7 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
+  const { isSubscribed } = useClerkUser();
   const { isSignedIn } = useUser();
 
   useEffect(() => {
@@ -100,7 +102,14 @@ const ClientNav = () => {
               >
                 Account
               </Link>
-              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+              {!isSubscribed && (
+                <Link href="/subscription">
+                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Subscribe
+                  </div>
+                </Link>
+              )}
+              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-[var(--text-dark-blue)] hover:bg-text-dark-blue transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignOutButton />
               </div>
             </SignedIn>
