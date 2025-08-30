@@ -12,7 +12,7 @@ export const SlushwireProCard = () => {
         <div className="bg-white rounded-xl w-full">
           <div className="flex justify-center items-center bg-accent rounded-t-xl p-6">
             <h1 className="text-3xl md:text-4xl font-semibold text-center">
-              SLUSHWIRE PRO $14
+              SUBSCRIBE NOW $14
             </h1>
           </div>
           <div className="pt-8 pb-4 px-8">
@@ -34,8 +34,8 @@ export const SlushwireProCard = () => {
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
               <Newspaper className="w-12 h-12" />
               <span>
-                <span className="font-semibold">Slushwire Dispatch</span>,
-                provides a real time industry news feed.
+                <span className="font-semibold">Dispatch</span>, provides a real
+                time industry news feed.
               </span>
             </p>
             <p className="text-xl font-normal mt-4 flex items-center gap-3">
@@ -48,7 +48,7 @@ export const SlushwireProCard = () => {
             </p>
 
             <Button className="cursor-pointer text-xl w-fit p-8 font-semibold mt-4 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl mx-auto">
-              GET SLUSHWIRE PRO
+              SUBSCRIBE NOW
             </Button>
           </div>
         </div>

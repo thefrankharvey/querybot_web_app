@@ -79,7 +79,7 @@ const ClientNav = () => {
                   className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
                 >
                   <Newspaper className="w-4 h-4" />
-                  Slushwire Dispatch
+                  Dispatch
                 </Link>
                 <Link
                   href="/blog"

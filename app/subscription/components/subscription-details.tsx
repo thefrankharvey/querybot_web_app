@@ -11,7 +11,7 @@ const SubscriptionDetails = () => {
   return (
     <div className="pb-4 w-full md:w-3/4 mx-auto text-left">
       <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-center">
-        What you get with Slushwire Pro:
+        What You Get with a Write Query Hook Subscription:
       </h1>
       <div className="w-fit mx-auto flex flex-col mt-8" id="content">
         <Accordion type="single" collapsible className="w-full">
@@ -51,7 +51,7 @@ const SubscriptionDetails = () => {
                 <Newspaper className="w-8 h-8" />
                 <span>
                   <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
-                    Slushwire Dispatch
+                    Dispatch
                   </span>
                   provides a real time industry news feed
                 </span>
@@ -140,10 +140,10 @@ const SubscriptionDetails = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <p className="text-base font-medium text-center w-full md:w-[550px] mx-auto p-4">
+      {/* <p className="text-base font-medium text-center w-full md:w-[550px] mx-auto p-4">
         We&apos;re just getting started! We have a lot of new features in the
-        pipeline. Get early access with Slushwire Pro!
-      </p>
+        pipeline. Get early access with Write Query Hook!
+      </p> */}
     </div>
   );
 };

@@ -23,8 +23,8 @@ const ProductsBlock = ({
         <p className="text-xl md:text-2xl font-normal mt-4 flex items-center gap-3">
           <Newspaper className="w-14 h-14" />
           <span>
-            <span className="font-semibold">Slushwire Dispatch</span>, provides
-            a real time industry news feed.
+            <span className="font-semibold">Dispatch</span>, provides a real
+            time industry news feed.
           </span>
         </p>
         <p className="text-xl md:text-2xl font-normal mt-4 flex items-center gap-3">

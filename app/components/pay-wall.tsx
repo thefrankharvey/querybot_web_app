@@ -147,12 +147,12 @@ const PayWall = ({
       <div className="h-[calc(40vh+100px)] bg-white pointer-events-auto">
         <div className="flex flex-col items-center justify-center h-full w-full">
           <p className="text-lg md:text-xl mt-4">{title}</p>
-          <h1 className="text-2xl md:text-4xl md:text-[40px] font-extrabold leading-tight mb-8 mt-4">
-            Sign up for full access!
+          <h1 className="text-2xl md:text-3xl font-extrabold leading-tight mb-8 mt-4">
+            Subscribe to Write Query Hook for full access!
           </h1>
           <Link href="/subscription">
             <Button className="cursor-pointer text-xl p-8 font-semibold mt-2 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
-              GET SLUSHWIRE PRO
+              SUBSCRIBE NOW
             </Button>
           </Link>
         </div>

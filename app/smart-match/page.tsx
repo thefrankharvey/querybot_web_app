@@ -161,8 +161,8 @@ const SmartMatch = () => {
               </h2>
               <p className="text-gray-700 mb-4">
                 Fill this out this form as completely as possible. The more
-                specific and complete your entries are the better your results
-                will be.
+                specific and complete your entries are the better your agent
+                matches will be.
               </p>
             </div>
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">

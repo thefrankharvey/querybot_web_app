@@ -92,7 +92,7 @@ const Account = () => {
       <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg">
         <div className="flex gap-2">
           <h2 className="font-semibold">Subscription:</h2>
-          <p>{isSubscribed ? "Slushwire Pro" : "none"}</p>
+          <p>{isSubscribed ? "Write Query Hook Subscriber" : "none"}</p>
         </div>
         <div className="flex flex-col md:flex-row gap-2">
           <h2 className="font-semibold">Email:</h2>
@@ -118,7 +118,7 @@ const Account = () => {
                       Are you absolutely sure?
                     </AlertDialogTitle>
                     <AlertDialogDescription>
-                      This will cancel your Slushwire Pro subscription.
+                      This will cancel your Write Query Hook subscription.
                     </AlertDialogDescription>
                   </AlertDialogHeader>
                   <AlertDialogFooter>
