@@ -13,7 +13,7 @@ const SlushwireProBlock = () => {
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
           <h1 className="text-2xl md:text-[40px] leading-normal text-left md:text-center">
-            The submission process is broken. <br />
+            The submission process is broken.{" "}
             <span className="bg-accent p-1 px-3 rounded-xl font-semibold">
               Write Query Hook
             </span>{" "}
