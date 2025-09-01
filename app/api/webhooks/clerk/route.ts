@@ -450,7 +450,7 @@ export async function POST(req: NextRequest) {
 
             // Toggle tags based on Clerk public_metadata.isSubscribed
             const isSubscribed = Boolean(
-              (data as any)?.public_metadata?.isSubscribed
+              (data as ClerkUserEventData)?.public_metadata?.isSubscribed
             );
 
             if (isSubscribed) {

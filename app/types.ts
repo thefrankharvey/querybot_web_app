@@ -68,6 +68,10 @@ export type ClerkEmailAddress = {
 export type ClerkUserEventData = {
   primary_email_address_id?: string | null;
   email_addresses?: ClerkEmailAddress[];
+  public_metadata?: {
+    isSubscribed?: boolean;
+    [key: string]: unknown;
+  };
 };
 
 export type KitTag = {
