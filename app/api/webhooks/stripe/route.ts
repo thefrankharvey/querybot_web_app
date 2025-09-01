@@ -1,11 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { updateUserSubscriptionStatus } from "@/app/actions/clerk-actions";
-import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
-import {
-  kitAddTagToSubscriber,
-  kitRemoveTagFromSubscriber,
-} from "@/app/api/webhooks/clerk/route";
 
 // Check for required environment variables
 if (!process.env.STRIPE_SECRET_KEY) {
@@ -65,26 +60,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Helper to kick off Kit work without blocking the webhook response
-    const startBackground = (task: () => Promise<void>) => {
-      try {
-        // Fire-and-forget with explicit catch to avoid unhandled rejections
-        Promise.resolve()
-          .then(task)
-          .catch((err) =>
-            console.error("Background Kit task failed:", {
-              error: err instanceof Error ? err.message : String(err),
-              timestamp: new Date().toISOString(),
-            })
-          );
-      } catch (err) {
-        // Synchronous errors only; do not block webhook
-        console.error("Failed to schedule background task:", {
-          error: err instanceof Error ? err.message : String(err),
-          timestamp: new Date().toISOString(),
-        });
-      }
-    };
+    // Keep Stripe webhook focused on updating Clerk only
 
     // Handle the event
     switch (event.type) {
@@ -137,22 +113,6 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // After successful Stripe + Clerk, start Kit tagging in background
-        if (isActive && customer.email) {
-          const kitApiKey = process.env.KIT_API_KEY;
-          if (!kitApiKey) {
-            console.warn("KIT_API_KEY missing; skipping Kit tagging");
-          } else {
-            startBackground(() =>
-              kitAddTagToSubscriber(
-                customer.email as string,
-                KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
-                kitApiKey
-              )
-            );
-          }
-        }
-
         break;
       }
 
@@ -194,27 +154,6 @@ export async function POST(req: NextRequest) {
             { error: "Failed to update user status" },
             { status: 500 }
           );
-        }
-
-        // After successful Stripe + Clerk, start Kit tag updates in background
-        if (customer.email) {
-          const kitApiKey = process.env.KIT_API_KEY;
-          if (!kitApiKey) {
-            console.warn("KIT_API_KEY missing; skipping Kit tag removal/add");
-          } else {
-            startBackground(async () => {
-              await kitRemoveTagFromSubscriber(
-                customer.email as string,
-                KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
-                kitApiKey
-              );
-              await kitAddTagToSubscriber(
-                customer.email as string,
-                KIT_SUBSCRIBER_TAGS.FORMER_SUBSCRIBER,
-                kitApiKey
-              );
-            });
-          }
         }
 
         console.log(

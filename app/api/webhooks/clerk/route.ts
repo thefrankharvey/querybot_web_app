@@ -445,8 +445,44 @@ export async function POST(req: NextRequest) {
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {
-            // For user updates, sync to Kit without modifying tags
+            // Ensure subscriber exists
             await kitUpsertSubscriberByEmail(emailAddress, kitApiKey);
+
+            // Toggle tags based on Clerk public_metadata.isSubscribed
+            const isSubscribed = Boolean(
+              (data as any)?.public_metadata?.isSubscribed
+            );
+
+            if (isSubscribed) {
+              // Becoming or remaining paid: add PAID, remove FORMER and FREE
+              await kitAddTagToSubscriber(
+                emailAddress,
+                KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
+                kitApiKey
+              );
+              await kitRemoveTagFromSubscriber(
+                emailAddress,
+                KIT_SUBSCRIBER_TAGS.FORMER_SUBSCRIBER,
+                kitApiKey
+              );
+              await kitRemoveTagFromSubscriber(
+                emailAddress,
+                KIT_SUBSCRIBER_TAGS.FREE_SUBSCRIBER,
+                kitApiKey
+              );
+            } else {
+              // Not subscribed: remove PAID and keep only FORMER_SUBSCRIBER
+              await kitRemoveTagFromSubscriber(
+                emailAddress,
+                KIT_SUBSCRIBER_TAGS.PAID_SUBSCRIBER,
+                kitApiKey
+              );
+              await kitAddTagToSubscriber(
+                emailAddress,
+                KIT_SUBSCRIBER_TAGS.FORMER_SUBSCRIBER,
+                kitApiKey
+              );
+            }
           }
         }
         break;
