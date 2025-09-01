@@ -376,9 +376,6 @@ async function kitUnsubscribeByEmail(
   }
 }
 
-// Export Kit functions and constants for use in other webhooks
-export { kitAddTagToSubscriber, kitRemoveTagFromSubscriber };
-
 export async function POST(req: NextRequest) {
   try {
     const body = await req.text();
