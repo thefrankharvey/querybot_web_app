@@ -5,6 +5,11 @@ export default clerkMiddleware(async (auth, req) => {
   const { userId } = await auth();
   const pathname = req.nextUrl.pathname;
 
+  // Normalize legacy/short paths
+  if (pathname === "/signup") {
+    return NextResponse.redirect(new URL("/sign-up", req.url));
+  }
+
   // Redirect accidental/legacy blog signup path without a page
   if (pathname === "/blog/signup") {
     if (userId) {
