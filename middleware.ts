@@ -5,6 +5,14 @@ export default clerkMiddleware(async (auth, req) => {
   const { userId } = await auth();
   const pathname = req.nextUrl.pathname;
 
+  // Redirect accidental/legacy blog signup path without a page
+  if (pathname === "/blog/signup") {
+    if (userId) {
+      return NextResponse.redirect(new URL("/blog", req.url));
+    }
+    return NextResponse.redirect(new URL("/sign-up", req.url));
+  }
+
   // Check if this looks like a blog post slug (not an existing app route)
   const isBlogPost =
     pathname.startsWith("/slushwire-") ||
