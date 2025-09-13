@@ -70,6 +70,7 @@ export const ClientHamburger = () => {
           <div className="flex justify-center items-center gap-8 w-full md:w-fit mt-10">
             <SignedIn>
               <Link
+                onClick={() => setOpen(false)}
                 href="/account"
                 className="text-xl hover:text-accent transition-all duration-300 w-full text-center"
               >
