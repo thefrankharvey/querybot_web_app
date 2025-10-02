@@ -22,16 +22,7 @@ export async function POST(req: NextRequest) {
     const body = await req.text();
     const signature = req.headers.get("stripe-signature");
 
-    // Debug logging for webhook debugging
-    console.log("Webhook received:", {
-      hasBody: !!body,
-      bodyLength: body.length,
-      hasSignature: !!signature,
-      timestamp: new Date().toISOString(),
-    });
-
     if (!signature) {
-      console.error("No stripe-signature header found");
       return NextResponse.json(
         { error: "Missing stripe-signature header" },
         { status: 400 }
@@ -43,17 +34,7 @@ export async function POST(req: NextRequest) {
     // Verify webhook signature for security
     try {
       event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
-      console.log(
-        "Webhook signature verified successfully for event:",
-        event.type
-      );
     } catch (err) {
-      console.error("Webhook signature verification failed:", {
-        error: err instanceof Error ? err.message : String(err),
-        signatureLength: signature.length,
-        bodyLength: body.length,
-        webhookSecretPresent: !!webhookSecret,
-      });
       return NextResponse.json(
         { error: "Webhook signature verification failed" },
         { status: 400 }
@@ -103,10 +84,6 @@ export async function POST(req: NextRequest) {
         );
 
         if (!result.success) {
-          console.error(
-            "Failed to update user subscription status:",
-            result.error
-          );
           return NextResponse.json(
             { error: "Failed to update user status" },
             { status: 500 }
@@ -125,7 +102,6 @@ export async function POST(req: NextRequest) {
         );
 
         if (customer.deleted) {
-          console.error("Customer was deleted");
           return NextResponse.json(
             { error: "Customer not found" },
             { status: 404 }
@@ -135,7 +111,6 @@ export async function POST(req: NextRequest) {
         const clerkUserId = customer.metadata?.clerkUserId;
 
         if (!clerkUserId) {
-          console.error("No Clerk user ID found in customer metadata");
           return NextResponse.json(
             { error: "Clerk user ID not found" },
             { status: 400 }
@@ -169,7 +144,7 @@ export async function POST(req: NextRequest) {
         console.log(`Unhandled event type: ${event.type}`);
     }
 
-    return NextResponse.json({ received: true });
+    return NextResponse.json({ received: true }, { status: 200 });
   } catch (error) {
     console.error("Webhook handler error:", {
       error: error instanceof Error ? error.message : String(error),
