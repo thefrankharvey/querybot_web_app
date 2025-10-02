@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
     // Verify webhook signature for security
     try {
       event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
-    } catch (err) {
+    } catch {
       return NextResponse.json(
         { error: "Webhook signature verification failed" },
         { status: 400 }
@@ -117,23 +117,15 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // Deactivate subscription
         const result = await updateUserSubscriptionStatus(clerkUserId, false);
 
         if (!result.success) {
-          console.error(
-            "Failed to update user subscription status:",
-            result.error
-          );
           return NextResponse.json(
             { error: "Failed to update user status" },
             { status: 500 }
           );
         }
 
-        console.log(
-          `Subscription ${subscription.id} canceled for user ${clerkUserId}`
-        );
         break;
       }
 
@@ -145,12 +137,7 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json({ received: true }, { status: 200 });
-  } catch (error) {
-    console.error("Webhook handler error:", {
-      error: error instanceof Error ? error.message : String(error),
-      stack: error instanceof Error ? error.stack : undefined,
-      timestamp: new Date().toISOString(),
-    });
+  } catch {
     return NextResponse.json(
       { error: "Webhook handler failed" },
       { status: 500 }
