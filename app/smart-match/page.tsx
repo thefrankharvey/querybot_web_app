@@ -42,7 +42,7 @@ export type FormState = {
 };
 
 const SmartMatch = () => {
-  const { isSubscribed, isLoading } = useClerkUser();
+  const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
@@ -192,7 +192,11 @@ const SmartMatch = () => {
           </div>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[640px] mx-auto shadow-lg">
-              <Email form={form} setForm={setForm} />
+              <Email
+                form={form}
+                setForm={setForm}
+                defaultEmail={user?.primaryEmailAddress?.emailAddress || ""}
+              />
               <FictionRadio form={form} setForm={setForm} />
               <Genre setForm={setForm} />
               <Subgenres setForm={setForm} />

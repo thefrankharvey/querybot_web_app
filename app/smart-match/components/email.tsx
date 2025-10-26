@@ -5,9 +5,11 @@ import { FormState } from "../page";
 const Email = ({
   form,
   setForm,
+  defaultEmail,
 }: {
   form: FormState;
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
+  defaultEmail: string;
 }) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -21,7 +23,7 @@ const Email = ({
       <Input
         name="email"
         type="email"
-        value={form.email}
+        value={form.email || defaultEmail}
         onChange={handleChange}
       />
     </div>
