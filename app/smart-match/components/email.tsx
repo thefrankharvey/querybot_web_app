@@ -1,5 +1,5 @@
 import { Input } from "@/app/ui-primitives/input";
-import React from "react";
+import React, { useEffect } from "react";
 import { FormState } from "../page";
 
 const Email = ({
@@ -15,6 +15,13 @@ const Email = ({
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
   };
+
+  useEffect(() => {
+    if (defaultEmail) {
+      setForm((prev) => ({ ...prev, email: defaultEmail }));
+    }
+  }, []);
+
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block">
