@@ -1,38 +1,7 @@
-import { sanitizeWordPressHtml, WpPost } from "@/lib/wp";
+import { WpPost } from "@/lib/wp";
 import Image from "next/image";
 import React from "react";
-
-// Function to extract alerts summary from post content
-const extractAlertsData = (
-  excerpt: string | null,
-  content: string | null
-): {
-  reddit: number;
-  bluesky: number;
-  agents: number;
-} | null => {
-  const textToSearch = excerpt || content || "";
-  // Remove HTML tags and search for the pattern
-  const cleanText = sanitizeWordPressHtml(textToSearch).replace(
-    /<[^>]*>/g,
-    " "
-  );
-
-  // Look for pattern like "ALERTS: 65 REDDIT 8 BLUESKY 38 AGENTS 19"
-  const alertsMatch = cleanText.match(
-    /ALERTS:\s*(\d+)\s+REDDIT\s+(\d+)\s+BLUESKY\s+(\d+)\s+AGENTS\s+(\d+)/i
-  );
-
-  if (alertsMatch) {
-    return {
-      reddit: parseInt(alertsMatch[2], 10),
-      bluesky: parseInt(alertsMatch[3], 10),
-      agents: parseInt(alertsMatch[4], 10),
-    };
-  }
-
-  return null;
-};
+import { extractAlertsData } from "@/app/utils";
 
 const SlushwireWeeklyThumbnail = ({ post }: { post: WpPost }) => {
   const alertsData = extractAlertsData(post.excerpt, post.content);

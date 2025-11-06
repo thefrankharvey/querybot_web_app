@@ -20,13 +20,15 @@ export default async function BlogIndexPage() {
       <ul className="space-y-8">
         {posts.map((post, index) => {
           const image = post.featuredImage?.node;
+
           return (
             <Link
               key={index}
               href={`/blog/${post.slug}`}
               className="bg-white cursor-pointer rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4 hover:shadow-lg transition-all duration-300"
             >
-              {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ? (
+              {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
+              post.title.includes("SlushWire Weekly") ? (
                 <SlushwireWeeklyThumbnail post={post} />
               ) : (
                 <li

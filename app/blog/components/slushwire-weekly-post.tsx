@@ -1,4 +1,7 @@
-import { processSlushwireContent } from "@/app/utils";
+import {
+  processSlushwireContent,
+  processSlushwireContentAlt,
+} from "@/app/utils";
 import { WpPost } from "@/lib/wp";
 import Image from "next/image";
 import Script from "next/script";
@@ -46,11 +49,18 @@ const SlushwireWeeklyPost = ({
   jsonLd: BlogPostingJsonLd;
   contentHtml: string;
 }) => {
-  // Process all content using the comprehensive utility function
-  const { processedContent, alertsData } = processSlushwireContent(
-    contentHtml,
-    post.excerpt
-  );
+  console.log("contentHtml", contentHtml);
+
+  // Determine which processing function to use based on post date
+  // November 3rd, 2025 and onwards use the new format
+  const cutoffDate = new Date("2025-11-03T00:00:00Z");
+  const postDate = new Date(post.date);
+  const useNewFormat = postDate >= cutoffDate;
+
+  // Process all content using the appropriate utility function
+  const { processedContent, alertsData } = useNewFormat
+    ? processSlushwireContentAlt(contentHtml, post.excerpt)
+    : processSlushwireContent(contentHtml, post.excerpt);
 
   return (
     <article className="prose dark:prose-invert">

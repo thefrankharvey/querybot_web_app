@@ -80,6 +80,7 @@ export default async function BlogPostPage({
   const { slug } = await params;
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
+
   const contentHtml = sanitizeWordPressHtml(
     rewriteInternalLinksToBlog(post.content || "", process.env.WP_SITE_URL)
   );

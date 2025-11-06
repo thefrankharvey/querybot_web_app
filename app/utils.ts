@@ -1,6 +1,7 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { AgentMatch } from "./context/agent-matches-context";
+import { sanitizeWordPressHtml } from "@/lib/wp";
 
 // HELPER UTILS ========================================================
 
@@ -229,11 +230,20 @@ export const extractAlertsData = (
 } | null => {
   const textToSearch = excerpt || content || "";
   // Remove HTML tags and search for the pattern
-  const cleanText = textToSearch.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ");
+  const cleanText = sanitizeWordPressHtml(textToSearch).replace(
+    /<[^>]*>/g,
+    " "
+  );
 
   // Look for pattern like "ALERTS: 65 REDDIT 8 BLUESKY 38 AGENTS 19"
   const alertsMatch = cleanText.match(
     /ALERTS:\s*(\d+)\s+REDDIT\s+(\d+)\s+BLUESKY\s+(\d+)\s+AGENTS\s+(\d+)/i
+  );
+
+  // If first pattern doesn't match, try pattern without "ALERTS:" prefix
+  // e.g., "REDDIT 26 BLUESKY 2025 AGENTS 45"
+  const alertsMatchAlt = cleanText.match(
+    /REDDIT\s+(\d+)\s+BLUESKY\s+(\d+)\s+AGENTS\s+(\d+)/i
   );
 
   if (alertsMatch) {
@@ -241,6 +251,14 @@ export const extractAlertsData = (
       reddit: parseInt(alertsMatch[2], 10),
       bluesky: parseInt(alertsMatch[3], 10),
       agents: parseInt(alertsMatch[4], 10),
+    };
+  }
+
+  if (alertsMatchAlt) {
+    return {
+      reddit: parseInt(alertsMatchAlt[1], 10),
+      bluesky: parseInt(alertsMatchAlt[2], 10),
+      agents: parseInt(alertsMatchAlt[3], 10),
     };
   }
 
@@ -311,7 +329,7 @@ export const removeAlertsFromContent = (html: string): string => {
   return cleanedHtml;
 };
 
-// Function to format Reddit posts content
+// Function to format Reddit posts content (for posts before Nov 3, 2025)
 export function formatSlushWeeklyContent(html: string): string {
   let processedContent = html;
 
@@ -599,7 +617,318 @@ export function formatSlushWeeklyContent(html: string): string {
   return processedContent;
 }
 
-// Main content processing function that combines all utilities
+// NEW: Function to format Reddit posts content (for posts from Nov 3, 2025 onwards)
+export function formatSlushWeeklyContentAlt(html: string): string {
+  let processedContent = html;
+
+  // Style Reddit Posts heading to be bold and 2xl
+  processedContent = processedContent.replace(
+    /<h2>Reddit Posts<\/h2>/gi,
+    '<h2 class="text-2xl font-bold mb-6">Reddit Posts</h2>'
+  );
+
+  // Remove horizontal dividers (common patterns)
+  processedContent = processedContent.replace(/<hr[^>]*>/gi, "");
+  processedContent = processedContent.replace(/───+/g, "");
+  processedContent = processedContent.replace(/---+/g, "");
+  processedContent = processedContent.replace(/___+/g, "");
+
+  // Step 1: Extract all Reddit post data from new structure
+  const redditPosts: Array<{
+    url: string;
+    title: string;
+    stats: string;
+    preview: string;
+  }> = [];
+
+  // Find Reddit Posts section
+  const redditSectionMatch = processedContent.match(
+    /<h2[^>]*>Reddit Posts<\/h2>([\s\S]*?)(?=<h2|$)/i
+  );
+  if (redditSectionMatch) {
+    const redditSection = redditSectionMatch[1];
+
+    // Extract posts with new structure: <h5><a href="...">title</a></h5>
+    // Followed by <p><strong>Comments:</strong> X | <strong>Upvotes:</strong> Y</p>
+    // Followed by <p><strong>Preview:</strong> content</p>
+    const postPattern =
+      /<h5>\s*<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>\s*<\/h5>\s*<p[^>]*>([\s\S]*?)<\/p>\s*<p[^>]*><strong>Preview:<\/strong>\s*([\s\S]*?)<\/p>/gi;
+
+    let match;
+    while ((match = postPattern.exec(redditSection)) !== null) {
+      redditPosts.push({
+        url: match[1],
+        title: match[2].trim(),
+        stats: match[3].trim(),
+        preview: match[4].trim(),
+      });
+    }
+  }
+
+  // Step 2: Replace the entire Reddit section with clean structure
+  processedContent = processedContent.replace(
+    /<h2[^>]*>Reddit Posts<\/h2>[\s\S]*?(?=<h2|$)/i,
+    () => {
+      let cleanSection =
+        '<h2 class="text-2xl font-bold mb-4 pl-3">Reddit Posts</h2>\n';
+
+      redditPosts.forEach((post) => {
+        cleanSection += `<a href="${post.url}" target="_blank" rel="noopener noreferrer" class="block text-inherit no-underline hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 break-words">
+          <div class="flex items-start gap-2">
+            <div class="min-w-0 w-full">
+              <div class="flex items-center gap-2 min-w-0">
+                <img src="/reddit-icon.svg" alt="Reddit" class="inline-block w-6 h-6 flex-none" />
+                <span class="break-words min-w-0"><strong>${post.title}</strong></span>
+              </div>
+              <p class="mt-1 text-sm text-gray-600">${post.stats}</p>
+              <p class="mt-2 break-words">${post.preview}</p>
+            </div>
+          </div>
+        </a>\n`;
+      });
+
+      return cleanSection;
+    }
+  );
+
+  // Replace any alien emoji marker in Reddit section with our reddit icon SVG
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>Reddit Posts<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    (section) => section.replace(/<strong>\s*👽\s*<\/strong>/g, "")
+  );
+
+  // Apply the same styling to Bluesky Posts
+  processedContent = processedContent.replace(
+    /<h2>Bluesky Posts<\/h2>/gi,
+    '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4 break-words">Bluesky Posts</h2>'
+  );
+
+  // Replace any alien emoji marker in Bluesky section with our butterfly icon
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>Bluesky Posts<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    (section) => section.replace(/<strong>\s*🦋\s*<\/strong>/g, "")
+  );
+
+  // Process Bluesky posts: make h4 bold and wrap content in clickable links
+  processedContent = processedContent.replace(
+    /<h4>\s*<a href="([^"]*)"[^>]*>([^<]+)<\/a>\s*<\/h4>\s*(<p[\s\S]*?)<\/p>/gi,
+    (match, url, h4Content, pContent) => {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer" class="block text-inherit no-underline hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 break-words">
+        <div class="min-w-0 w-full">
+          <div class="flex items-center gap-2 min-w-0">
+            <img src="/bluesky-icon.svg" alt="Bluesky" class="inline-block w-6 h-6 flex-none" />
+            <strong class="break-words">${h4Content}</strong>
+          </div>
+          <p class="mt-2 break-words">${pContent}</p>
+        </div>
+      </a>`;
+    }
+  );
+
+  // Remove trailing Bluesky profile links that appear after the main content blocks
+  processedContent = processedContent.replace(
+    /<p>\s*<a href="[^"]*"[^>]*>[^<]*\.(bsky\.social|com|gy)<\/a>\s*<\/p>/gi,
+    ""
+  );
+
+  processedContent = processedContent.replace(
+    /<h2>New Agent Openings<\/h2>/gi,
+    '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4">Agent Openings</h2>'
+  );
+
+  processedContent = processedContent.replace(
+    /<h2>Active Agents<\/h2>/gi,
+    '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4">Agent Activity</h2>'
+  );
+
+  // Style Submission Status heading the same way
+  processedContent = processedContent.replace(
+    /<h2>Submission Status<\/h2>/gi,
+    '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4">Submission Status</h2>'
+  );
+
+  // Replace any alien emoji marker in agent sections
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>Active Agents<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    (section) => section.replace(/<strong>\s*📡\s*<\/strong>/g, "")
+  );
+
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>Agent Openings<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    (section) => section.replace(/<strong>\s*📡\s*<\/strong>/g, "")
+  );
+
+  // Remove any remaining antenna emojis globally (safety net)
+  processedContent = processedContent.replace(/📡/g, "");
+
+  // Add padding to agent data container divs - find the entire agent section and process all divs
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>(?:Agent Openings|Agent Activity|Submission Status)<\/h2>[\s\S]*?)(?=<h2|$)/gi,
+    (match, agentSection) => {
+      // Add padding class to ALL divs within the agent section
+      let paddedSection = agentSection.replace(
+        /<div>/gi,
+        '<div class="p-3 space-y-2">'
+      );
+
+      // Process genres - try multiple patterns since the exact structure is unclear
+      // Pattern 1: <p><strong>Genres: </strong>"content"</p>
+      paddedSection = paddedSection.replace(
+        /<p>\s*<strong>Genres:\s*<\/strong>\s*"([^"]*)"[^<]*<\/p>/gi,
+        (match: string, genreContent: string) => {
+          const cleanedText = genreContent
+            .replace(/\|/g, ", ")
+            .replace(/,\s*,/g, ",")
+            .replace(/^[,\s"]+|[,\s"]+$/g, "")
+            .trim();
+          return `<p><strong>Genres:</strong> ${cleanedText}</p>`;
+        }
+      );
+
+      // Pattern 2: Any paragraph containing pipe-separated content that looks like genres
+      paddedSection = paddedSection.replace(
+        /<p[^>]*>([^<]*\|[^<]*)<\/p>/gi,
+        (match: string, content: string) => {
+          // Only process if it looks like genres (contains common genre words)
+          if (
+            content.includes("Nonfiction") ||
+            content.includes("Fiction") ||
+            content.includes("Biography") ||
+            content.includes("Business")
+          ) {
+            const cleanedText = content
+              .replace(/\|/g, ", ")
+              .replace(/,\s*,/g, ",")
+              .replace(/^[,\s"]+|[,\s"]+$/g, "")
+              .trim();
+            return `<p>${cleanedText}</p>`;
+          }
+          return match;
+        }
+      );
+
+      // Ensure all paragraph tags inside the agent section have vertical padding
+      paddedSection = paddedSection.replace(
+        /<p(\s+[^>]*class=")([^"]*)"/gi,
+        (m: string, prefix: string, classes: string) =>
+          classes.includes("py-2") ? m : `<p${prefix}py-2 ${classes}"`
+      );
+
+      paddedSection = paddedSection.replace(
+        /<p(?![^>]*class=)([^>]*)>/gi,
+        '<p class="py-0 pb-0"$1>'
+      );
+
+      // Replace pipes with commas inside all p tags in the agent section
+      paddedSection = paddedSection.replace(
+        /<p([^>]*)>([\s\S]*?)<\/p>/gi,
+        (m: string, attrs: string, inner: string) => {
+          const normalized = inner
+            .replace(/\s*\|\s*/g, ", ")
+            .replace(/,\s*,/g, ", ")
+            .replace(/\s+,/g, ", ")
+            .replace(/,\s+/g, ", ")
+            .replace(/\s+/g, " ")
+            .trim();
+          return `<p${attrs}>${normalized}</p>`;
+        }
+      );
+
+      return paddedSection;
+    }
+  );
+
+  // Agent name header: add Users icon, make bold + underline, keep link
+  processedContent = processedContent.replace(
+    /<h5>\s*<a([^>]*)>([\s\S]*?)<\/a>\s*<\/h5>/gi,
+    (match, attrs, inner) => {
+      // Wrap inner content to ensure bold + underline
+      const wrapped = `<span class="inline-flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span class="font-bold underline">${inner}</span>
+      </span>`;
+      return `<h5><a class="capitalize" ${attrs}>${wrapped}</a></h5>`;
+    }
+  );
+
+  // Global genres cleanup: replace all pipes with commas inside any paragraph that contains a Genres label
+  processedContent = processedContent.replace(
+    /<p([^>]*)>([\s\S]*?(?:<strong>\s*Genres\s*:?\s*<\/strong>|Genres\s*:)[\s\S]*?)<\/p>/gi,
+    (match, attrs, inner) => {
+      const normalized = inner
+        .replace(/\|/g, ", ") // pipes -> commas
+        .replace(/,\s*,/g, ", ") // collapse duplicate commas
+        .replace(/\s+,/g, ", ") // trim space before commas
+        .replace(/,\s+/g, ", ") // normalize comma spacing
+        .replace(/\s+/g, " ")
+        .trim();
+      return `<p${attrs}>${normalized}</p>`;
+    }
+  );
+
+  // Ensure any <footer> element inside processed content has 12px padding (Tailwind p-3)
+  processedContent = processedContent.replace(
+    /<footer(\s+[^>]*class=")([^\"]*)"/gi,
+    (m, prefix, classes) =>
+      classes.includes("p-3") ? m : `<footer${prefix}${classes} p-3"`
+  );
+
+  processedContent = processedContent.replace(
+    /<footer(?![^>]*class=)([^>]*)>/gi,
+    '<footer class="p-3"$1>'
+  );
+
+  return processedContent;
+}
+
+// OLD: Remove all content before the <h2>Weekly Summary</h2> heading
+// This strips out navigation, empty tags, and other unwanted HTML from WordPress
+// Used for posts before November 3rd, 2025
+function removeContentBeforeWeeklySummary(contentHtml: string): string {
+  // Find the position of <h2>Weekly Summary</h2> (case-insensitive)
+  const weeklySummaryMatch = contentHtml.match(
+    /<h2[^>]*>Weekly Summary<\/h2>/i
+  );
+
+  if (weeklySummaryMatch && weeklySummaryMatch.index !== undefined) {
+    // Keep everything from the Weekly Summary heading onwards
+    return contentHtml.substring(weeklySummaryMatch.index);
+  }
+
+  // If no Weekly Summary found, return original content
+  return contentHtml;
+}
+
+// NEW: Remove all content before the first daily section (e.g., <h2>Monday – November 03</h2>)
+// This strips out the Weekly Summary overview and other unwanted HTML from WordPress
+// Used for posts from November 3rd, 2025 onwards
+function removeContentBeforeDailySections(contentHtml: string): string {
+  // Pattern to match daily headings like "Monday – November 03", "Tuesday – November 04", etc.
+  // Matches: Day name, optional whitespace, en-dash or hyphen, optional whitespace, month name, day, optional comma+year
+  const dailyHeadingPattern =
+    /<h2[^>]*>(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*[–\-]\s*(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}/i;
+
+  const dailyMatch = contentHtml.match(dailyHeadingPattern);
+
+  if (dailyMatch && dailyMatch.index !== undefined) {
+    // Keep everything from the first daily heading onwards
+    return contentHtml.substring(dailyMatch.index);
+  }
+
+  // Fallback: try to find Weekly Summary as before (for backwards compatibility)
+  const weeklySummaryMatch = contentHtml.match(
+    /<h2[^>]*>Weekly Summary<\/h2>/i
+  );
+
+  if (weeklySummaryMatch && weeklySummaryMatch.index !== undefined) {
+    return contentHtml.substring(weeklySummaryMatch.index);
+  }
+
+  // If neither found, return original content
+  return contentHtml;
+}
+
+// Main content processing function for OLD post format (before November 3rd, 2025)
 export function processSlushwireContent(
   contentHtml: string,
   excerpt: string | null
@@ -607,8 +936,11 @@ export function processSlushwireContent(
   processedContent: string;
   alertsData: { reddit: number; bluesky: number; agents: number } | null;
 } {
+  // First, remove unwanted content before Weekly Summary
+  let filteredContent = removeContentBeforeWeeklySummary(contentHtml);
+
   // Remove top image
-  const filteredContent = removeTopImageFromContent(contentHtml);
+  filteredContent = removeTopImageFromContent(filteredContent);
 
   // Extract alerts data
   const alertsData = extractAlertsData(excerpt, filteredContent);
@@ -620,6 +952,34 @@ export function processSlushwireContent(
 
   // Format Reddit content
   processedContent = formatSlushWeeklyContent(processedContent);
+
+  return { processedContent, alertsData };
+}
+
+// Main content processing function for NEW post format (from November 3rd, 2025 onwards)
+export function processSlushwireContentAlt(
+  contentHtml: string,
+  excerpt: string | null
+): {
+  processedContent: string;
+  alertsData: { reddit: number; bluesky: number; agents: number } | null;
+} {
+  // First, remove unwanted content before the first daily section
+  let filteredContent = removeContentBeforeDailySections(contentHtml);
+
+  // Remove top image
+  filteredContent = removeTopImageFromContent(filteredContent);
+
+  // Extract alerts data
+  const alertsData = extractAlertsData(excerpt, filteredContent);
+
+  // Remove alerts text from content
+  let processedContent = alertsData
+    ? removeAlertsFromContent(filteredContent)
+    : filteredContent;
+
+  // Format Reddit content with NEW formatter
+  processedContent = formatSlushWeeklyContentAlt(processedContent);
 
   return { processedContent, alertsData };
 }
