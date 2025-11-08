@@ -14,7 +14,12 @@ type ApiResponse = {
 
 const SlushReport = async () => {
   try {
-    const res = await fetch("http://querybot-api.onrender.com/recent-activity");
+    const res = await fetch(
+      "http://querybot-api.onrender.com/recent-activity",
+      {
+        cache: "no-store",
+      }
+    );
 
     if (!res.ok) {
       // Return default empty data structure if API fails
