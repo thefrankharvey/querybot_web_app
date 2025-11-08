@@ -49,8 +49,6 @@ const SlushwireWeeklyPost = ({
   jsonLd: BlogPostingJsonLd;
   contentHtml: string;
 }) => {
-  console.log("contentHtml", contentHtml);
-
   // Determine which processing function to use based on post date
   // November 3rd, 2025 and onwards use the new format
   const cutoffDate = new Date("2025-11-03T00:00:00Z");

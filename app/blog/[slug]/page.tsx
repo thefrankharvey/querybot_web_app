@@ -110,7 +110,8 @@ export default async function BlogPostPage({
         <h2 className="text-2xl">Back</h2>
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
-        {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ? (
+        {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
+        post.title.includes("SlushWire Weekly") ? (
           <SlushwireWeeklyPost
             post={post}
             jsonLd={jsonLd}
@@ -129,4 +130,4 @@ export default async function BlogPostPage({
 }
 
 export const fetchCache = "default-cache";
-export const dynamic = "force-static";
+// Removed force-static to allow ISR to work properly with new posts

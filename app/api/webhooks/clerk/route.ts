@@ -75,8 +75,6 @@ async function kitUpsertSubscriberByEmail(
     ...(tags && tags.length > 0 && { tags }),
   };
 
-  console.log("Kit upsert request body:", JSON.stringify(requestBody, null, 2));
-
   const response = await fetch("https://api.kit.com/v4/subscribers", {
     method: "POST",
     headers: {
@@ -230,14 +228,6 @@ async function kitAddTagToSubscriber(
       subscriberId: match.id,
       timestamp: new Date().toISOString(),
     });
-  } else {
-    console.log("Kit tag added successfully:", {
-      email: emailAddress,
-      tagName,
-      tagId,
-      subscriberId: match.id,
-      timestamp: new Date().toISOString(),
-    });
   }
 }
 
@@ -299,14 +289,6 @@ async function kitRemoveTagFromSubscriber(
     console.error("Kit remove tag failed:", {
       status: removeResponse.status,
       statusText: removeResponse.statusText,
-      email: emailAddress,
-      tagName,
-      tagId,
-      subscriberId: match.id,
-      timestamp: new Date().toISOString(),
-    });
-  } else {
-    console.log("Kit tag removed successfully:", {
       email: emailAddress,
       tagName,
       tagId,

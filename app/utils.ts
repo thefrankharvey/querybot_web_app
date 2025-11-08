@@ -633,46 +633,35 @@ export function formatSlushWeeklyContentAlt(html: string): string {
   processedContent = processedContent.replace(/---+/g, "");
   processedContent = processedContent.replace(/___+/g, "");
 
-  // Step 1: Extract all Reddit post data from new structure
-  const redditPosts: Array<{
-    url: string;
-    title: string;
-    stats: string;
-    preview: string;
-  }> = [];
-
-  // Find Reddit Posts section
-  const redditSectionMatch = processedContent.match(
-    /<h2[^>]*>Reddit Posts<\/h2>([\s\S]*?)(?=<h2|$)/i
-  );
-  if (redditSectionMatch) {
-    const redditSection = redditSectionMatch[1];
-
-    // Extract posts with new structure: <h5><a href="...">title</a></h5>
-    // Followed by <p><strong>Comments:</strong> X | <strong>Upvotes:</strong> Y</p>
-    // Followed by <p><strong>Preview:</strong> content</p>
-    const postPattern =
-      /<h5>\s*<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>\s*<\/h5>\s*<p[^>]*>([\s\S]*?)<\/p>\s*<p[^>]*><strong>Preview:<\/strong>\s*([\s\S]*?)<\/p>/gi;
-
-    let match;
-    while ((match = postPattern.exec(redditSection)) !== null) {
-      redditPosts.push({
-        url: match[1],
-        title: match[2].trim(),
-        stats: match[3].trim(),
-        preview: match[4].trim(),
-      });
-    }
-  }
-
-  // Step 2: Replace the entire Reddit section with clean structure
+  // Replace ALL Reddit sections with clean structure (note the /g flag)
   processedContent = processedContent.replace(
-    /<h2[^>]*>Reddit Posts<\/h2>[\s\S]*?(?=<h2|$)/i,
-    () => {
+    /<h2[^>]*>Reddit Posts<\/h2>([\s\S]*?)(?=<h2|$)/gi,
+    (match, redditSection) => {
+      // Extract posts from THIS specific Reddit section
+      const sectionPosts: Array<{
+        url: string;
+        title: string;
+        stats: string;
+        preview: string;
+      }> = [];
+
+      const postPattern =
+        /<h5>\s*<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>\s*<\/h5>\s*<p[^>]*>([\s\S]*?)<\/p>\s*<p[^>]*><strong>Preview:<\/strong>\s*([\s\S]*?)<\/p>/gi;
+
+      let postMatch;
+      while ((postMatch = postPattern.exec(redditSection)) !== null) {
+        sectionPosts.push({
+          url: postMatch[1],
+          title: postMatch[2].trim(),
+          stats: postMatch[3].trim(),
+          preview: postMatch[4].trim(),
+        });
+      }
+
       let cleanSection =
         '<h2 class="text-2xl font-bold mb-4 pl-3">Reddit Posts</h2>\n';
 
-      redditPosts.forEach((post) => {
+      sectionPosts.forEach((post) => {
         cleanSection += `<a href="${post.url}" target="_blank" rel="noopener noreferrer" class="block text-inherit no-underline hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 break-words">
           <div class="flex items-start gap-2">
             <div class="min-w-0 w-full">
@@ -691,9 +680,9 @@ export function formatSlushWeeklyContentAlt(html: string): string {
     }
   );
 
-  // Replace any alien emoji marker in Reddit section with our reddit icon SVG
+  // Replace any alien emoji marker in ALL Reddit sections with our reddit icon SVG
   processedContent = processedContent.replace(
-    /(<h2[^>]*>Reddit Posts<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    /(<h2[^>]*>Reddit Posts<\/h2>[\s\S]*?)(?=<h2|$)/gi,
     (section) => section.replace(/<strong>\s*👽\s*<\/strong>/g, "")
   );
 
@@ -737,7 +726,7 @@ export function formatSlushWeeklyContentAlt(html: string): string {
   );
 
   processedContent = processedContent.replace(
-    /<h2>Active Agents<\/h2>/gi,
+    /<h2>Agent Activity<\/h2>/gi,
     '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4">Agent Activity</h2>'
   );
 
@@ -747,14 +736,25 @@ export function formatSlushWeeklyContentAlt(html: string): string {
     '<h2 class="text-2xl font-bold mb-4 mt-4 pl-4">Submission Status</h2>'
   );
 
+  // Style daily date headings (e.g., "Monday – November 03", "Saturday – November 01")
+  processedContent = processedContent.replace(
+    /<h2>((Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*[–\-]\s*(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(,?\s*\d{4})?)<\/h2>/gi,
+    '<h2 class="text-lg font-medium border border-black rounded-lg p-2.5 m-2.5 mb-[30px]">$1</h2>'
+  );
+
   // Replace any alien emoji marker in agent sections
   processedContent = processedContent.replace(
-    /(<h2[^>]*>Active Agents<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    /(<h2[^>]*>Agent Activity<\/h2>[\s\S]*?)(?=<h2|$)/i,
     (section) => section.replace(/<strong>\s*📡\s*<\/strong>/g, "")
   );
 
   processedContent = processedContent.replace(
     /(<h2[^>]*>Agent Openings<\/h2>[\s\S]*?)(?=<h2|$)/i,
+    (section) => section.replace(/<strong>\s*📡\s*<\/strong>/g, "")
+  );
+
+  processedContent = processedContent.replace(
+    /(<h2[^>]*>Submission Status<\/h2>[\s\S]*?)(?=<h2|$)/i,
     (section) => section.replace(/<strong>\s*📡\s*<\/strong>/g, "")
   );
 
@@ -765,10 +765,11 @@ export function formatSlushWeeklyContentAlt(html: string): string {
   processedContent = processedContent.replace(
     /(<h2[^>]*>(?:Agent Openings|Agent Activity|Submission Status)<\/h2>[\s\S]*?)(?=<h2|$)/gi,
     (match, agentSection) => {
-      // Add padding class to ALL divs within the agent section
+      // Add padding class ONLY to divs that contain agent entries (with h5 tags)
+      // This avoids adding padding to wrapper divs around daily sections
       let paddedSection = agentSection.replace(
-        /<div>/gi,
-        '<div class="p-3 space-y-2">'
+        /<div>([\s\S]*?<h5[\s\S]*?<\/h5>[\s\S]*?)<\/div>/gi,
+        '<div class="p-3 space-y-2">$1</div>'
       );
 
       // Process genres - try multiple patterns since the exact structure is unclear
@@ -831,6 +832,18 @@ export function formatSlushWeeklyContentAlt(html: string): string {
             .replace(/\s+/g, " ")
             .trim();
           return `<p${attrs}>${normalized}</p>`;
+        }
+      );
+
+      // Process h4 agent names within this section (make them bold like h5)
+      paddedSection = paddedSection.replace(
+        /<h4>\s*<a([^>]*)>([\s\S]*?)<\/a>\s*<\/h4>/gi,
+        (match: string, attrs: string, inner: string) => {
+          const wrapped = `<span class="inline-flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-7 h-7"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span class="font-bold underline">${inner}</span>
+          </span>`;
+          return `<h4><a class="capitalize" ${attrs}>${wrapped}</a></h4>`;
         }
       );
 
