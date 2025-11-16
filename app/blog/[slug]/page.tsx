@@ -22,55 +22,7 @@ export async function generateStaticParams(): Promise<Params[]> {
   return slugs.map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<Params>;
-}) {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
-  if (!post) return {};
-  const canonical = buildCanonicalUrlForPost(post.slug);
-  const description = htmlToTextSummary(
-    post.excerpt || post.content || undefined
-  );
-  const ogImage = post.featuredImage?.node?.sourceUrl || undefined;
-  const width = post.featuredImage?.node?.mediaDetails?.width || undefined;
-  const height = post.featuredImage?.node?.mediaDetails?.height || undefined;
-  const ogImages = ogImage
-    ? [
-        {
-          url: ogImage,
-          width,
-          height,
-          alt: post.featuredImage?.node?.altText || post.title,
-        },
-      ]
-    : [];
-  return {
-    title: post.title,
-    description,
-    alternates: { canonical },
-    openGraph: {
-      url: canonical,
-      title: post.title,
-      description: description,
-      images: ogImages,
-      type: "article",
-      publishedTime: post.date,
-      modifiedTime: post.modified,
-    },
-    twitter: {
-      card: ogImage ? "summary_large_image" : "summary",
-      title: post.title,
-      description,
-      images: ogImage ? [ogImage] : undefined,
-    },
-    robots: { index: true, follow: true },
-  } as const;
-}
-
-export const revalidate = 21600; // 6 hours
+export const revalidate = 800; // 8.3 minutes
 
 export default async function BlogPostPage({
   params,

@@ -133,7 +133,7 @@ export async function getRecentPosts(limit = 20): Promise<WpPost[]> {
     `,
     variables: { first: limit },
     tags: ["posts"],
-    revalidate: 1800,
+    revalidate: 300,
   });
   return data.posts.nodes;
 }

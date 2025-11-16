@@ -132,3 +132,46 @@ export interface BlogPostingJsonLd {
   author?: JsonLdPerson;
   mainEntityOfPage?: JsonLdWebPage;
 }
+
+export type AgentMatch = {
+  id: string;
+  user_id: string;
+  name: string;
+  email?: string | null;
+  agency?: string | null;
+  agency_url?: string | null;
+  index_id?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  match_score?: number | null;
+  created_at: string; // ISO timestamp
+};
+
+// Type for the POST payload matching the API expectations
+export interface SaveAgentPayload {
+  name: string;
+  email?: string | null;
+  agency?: string | null;
+  agency_url?: string | null;
+  index_id?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  match_score?: number | null;
+}
+
+// Type for the API response
+export interface SaveAgentResponse {
+  created: Array<{
+    id: string;
+    user_id: string;
+    name: string;
+    email?: string | null;
+    agency?: string | null;
+    agency_url?: string | null;
+    index_id?: string | null;
+    query_tracker?: string | null;
+    pub_marketplace?: string | null;
+    match_score?: number | null;
+    created_at: string; // ISO timestamp
+  }>;
+}

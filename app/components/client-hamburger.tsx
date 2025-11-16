@@ -71,10 +71,10 @@ export const ClientHamburger = () => {
             <SignedIn>
               <Link
                 onClick={() => setOpen(false)}
-                href="/account"
+                href="/profile"
                 className="text-xl hover:text-accent transition-all duration-300 w-full text-center"
               >
-                Account
+                Profile
               </Link>
               <div
                 className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full"

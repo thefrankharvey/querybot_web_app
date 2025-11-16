@@ -97,10 +97,10 @@ const ClientNav = () => {
           <div className="flex items-center gap-4">
             <SignedIn>
               <Link
-                href="/account"
+                href="/profile"
                 className="text-sm hover:text-accent transition-all duration-300"
               >
-                Account
+                Profile
               </Link>
               {!isSubscribed && (
                 <Link href="/subscription">
