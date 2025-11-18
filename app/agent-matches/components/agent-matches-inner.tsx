@@ -24,13 +24,13 @@ export const AgentMatchesInner = ({
         Agent matches
       </h1>
       <div>
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-4">
           <Link
             href="/smart-match"
             className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
           >
-            <ArrowLeft className="w-8 h-8" />
-            <h2 className="text-2xl">Back</h2>
+            <ArrowLeft className="w-6 h-6" />
+            <h2 className="text-md font-medium">Back</h2>
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
             <ExplanationBlock />

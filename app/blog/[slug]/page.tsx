@@ -56,10 +56,10 @@ export default async function BlogPostPage({
     <main className="w-full md:mx-auto md:max-w-5xl py-10">
       <Link
         href="/blog"
-        className="flex w-full items-center gap-2 hover:text-accent transition-colors duration-300 mb-6"
+        className="flex items-center gap-2 hover:text-accent transition-colors duration-300 mb-4"
       >
-        <ArrowLeft className="w-8 h-8" />
-        <h2 className="text-2xl">Back</h2>
+        <ArrowLeft className="w-6 h-6" />
+        <h2 className="text-md font-medium">Back</h2>
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
         {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||

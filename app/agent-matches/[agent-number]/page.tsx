@@ -42,8 +42,8 @@ const AgentProfile = () => {
 
   if (!agent || isLoading) {
     return (
-      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12 justify-center items-center">
-        <Spinner />
+      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-30 justify-center items-center">
+        <Spinner className="size-16" />
       </div>
     );
   }
@@ -79,17 +79,33 @@ const AgentProfile = () => {
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
-
-        <Button
-          className="text-md shadow-lg hover:shadow-xl"
-          onClick={handleSaveAgent}
-          disabled={isPending}
-        >
-          <div className="flex items-center gap-2">
-            {isPending && <Spinner />}
-            <span>Save Agent</span>
-          </div>
-        </Button>
+        {!isSubscribed ? (
+          <TooltipComponent
+            className="w-fit"
+            contentClass="text-center"
+            content="Subscribe to activate save agent feature!"
+          >
+            <Button
+              className="text-md shadow-lg hover:shadow-xl"
+              disabled={true}
+            >
+              <div className="flex items-center gap-2">
+                <span>Save Agent</span>
+              </div>
+            </Button>
+          </TooltipComponent>
+        ) : (
+          <Button
+            className="text-md shadow-lg hover:shadow-xl"
+            onClick={handleSaveAgent}
+            disabled={isPending}
+          >
+            <div className="flex items-center gap-2">
+              {isPending && <Spinner />}
+              <span>Save Agent</span>
+            </div>
+          </Button>
+        )}
       </div>
       <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">

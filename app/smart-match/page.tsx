@@ -170,8 +170,8 @@ const SmartMatch = () => {
                 href="/"
                 className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
               >
-                <ArrowLeft className="w-8 h-8" />
-                <h2 className="text-xl">Back</h2>
+                <ArrowLeft className="w-6 h-6" />
+                <h2 className="text-md font-medium">Back</h2>
               </Link>
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />

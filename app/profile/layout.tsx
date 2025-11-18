@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/app/utils";
@@ -16,20 +16,27 @@ import { Spinner } from "../ui-primitives/spinner";
 const ProfileLayoutContent = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
   const { agentsList, isLoading } = useProfileContext();
+  const [accordionValue, setAccordionValue] = React.useState<
+    string | undefined
+  >(undefined);
 
-  const accordionValue =
-    agentsList && agentsList.length > 0 ? "saved-matches" : undefined;
+  useEffect(() => {
+    if (agentsList && agentsList.length > 0) {
+      setAccordionValue("saved-matches");
+    }
+  }, [agentsList]);
 
   return (
     <div className="w-full min-h-screen pt-12 pb-10 px-4 md:px-0">
       <div className="w-full md:w-[1300px] mx-auto flex flex-col md:flex-row">
-        <aside className="w-full md:sticky md:top-24 h-full max-w-[173px]">
-          <nav className="w-full flex flex-row md:flex-col gap-2 bg-white md:bg-transparent p-4 md:p-0 rounded-lg md:rounded-none shadow-md md:shadow-none mt-16">
+        <aside className="w-full md:sticky md:top-24 h-full md:max-w-[173px]">
+          <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">
             <Accordion
               type="single"
               collapsible
-              className="w-fit"
+              className="w-full md:w-fit"
               value={accordionValue}
+              onValueChange={setAccordionValue}
             >
               <AccordionItem value="saved-matches">
                 <AccordionTrigger
@@ -109,7 +116,6 @@ const ProfileLayoutContent = ({ children }: { children: React.ReactNode }) => {
             </Link>
           </nav>
         </aside>
-
         <main className="flex-1 min-w-0">{children}</main>
       </div>
     </div>
