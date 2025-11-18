@@ -10,29 +10,27 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/app/ui-primitives/accordion";
-import { useFetchAgentsList } from "../hooks/use-fetch-agents-list";
+import { ProfileProvider, useProfileContext } from "../context/profile-context";
+import { Spinner } from "../ui-primitives/spinner";
 
-const ProfileLayout = ({ children }: { children: React.ReactNode }) => {
+const ProfileLayoutContent = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
-  const { data: agentsList } = useFetchAgentsList();
+  const { agentsList, isLoading } = useProfileContext();
+
+  const accordionValue =
+    agentsList && agentsList.length > 0 ? "saved-matches" : undefined;
 
   return (
     <div className="w-full min-h-screen pt-12 pb-10 px-4 md:px-0">
-      <div className="w-full md:w-[1200px] mx-auto flex flex-col md:flex-row">
-        <aside className="w-full md:w-64 md:sticky md:top-24 md:h-[calc(100vh-8rem)] flex-shrink-0">
-          <nav className="flex flex-row md:flex-col gap-2 bg-white md:bg-transparent p-4 md:p-0 rounded-lg md:rounded-none shadow-md md:shadow-none mt-16">
-            <Link
-              href="/profile/latest-blog"
-              className={cn(
-                "text-sm font-medium transition-colors duration-200 hover:text-accent px-3 py-2 rounded-md",
-                pathname === "/profile/latest-blog"
-                  ? "text-accent bg-accent/10"
-                  : "text-gray-700"
-              )}
+      <div className="w-full md:w-[1300px] mx-auto flex flex-col md:flex-row">
+        <aside className="w-full md:sticky md:top-24 h-full max-w-[173px]">
+          <nav className="w-full flex flex-row md:flex-col gap-2 bg-white md:bg-transparent p-4 md:p-0 rounded-lg md:rounded-none shadow-md md:shadow-none mt-16">
+            <Accordion
+              type="single"
+              collapsible
+              className="w-fit"
+              value={accordionValue}
             >
-              Latest Blog
-            </Link>
-            <Accordion type="single" collapsible className="w-fit">
               <AccordionItem value="saved-matches">
                 <AccordionTrigger
                   className={cn(
@@ -42,13 +40,22 @@ const ProfileLayout = ({ children }: { children: React.ReactNode }) => {
                       : "text-gray-700"
                   )}
                 >
-                  Saved Matches
+                  <Link
+                    href="/profile/saved-match"
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex-1"
+                  >
+                    Saved Agents
+                  </Link>
                 </AccordionTrigger>
                 <AccordionContent className="pb-0">
-                  {agentsList?.agent_matches?.length &&
-                  agentsList?.agent_matches?.length > 0 ? (
+                  {isLoading ? (
+                    <div className="flex justify-center items-center ml-4 mt-2 py-4">
+                      <Spinner />
+                    </div>
+                  ) : agentsList?.length && agentsList.length > 0 ? (
                     <div className="flex flex-col gap-2 ml-4 mt-2">
-                      {agentsList?.agent_matches.map((agent) => (
+                      {agentsList.map((agent) => (
                         <Link
                           href={`/profile/saved-match/${agent.index_id}`}
                           key={agent.id}
@@ -71,13 +78,24 @@ const ProfileLayout = ({ children }: { children: React.ReactNode }) => {
                   ) : (
                     <div className="flex flex-col gap-2 ml-4 mt-4">
                       <p className="text-sm font-medium text-gray-700">
-                        No saved matches yet.
+                        No saved matches
                       </p>
                     </div>
                   )}
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
+            {/* <Link
+              href="/profile/latest-blog"
+              className={cn(
+                "text-sm font-medium transition-colors duration-200 hover:text-accent px-3 py-2 rounded-md",
+                pathname === "/profile/latest-blog"
+                  ? "text-accent bg-accent/10"
+                  : "text-gray-700"
+              )}
+            >
+              Latest Blog
+            </Link> */}
             <Link
               href="/profile/account"
               className={cn(
@@ -95,6 +113,14 @@ const ProfileLayout = ({ children }: { children: React.ReactNode }) => {
         <main className="flex-1 min-w-0">{children}</main>
       </div>
     </div>
+  );
+};
+
+const ProfileLayout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <ProfileProvider>
+      <ProfileLayoutContent>{children}</ProfileLayoutContent>
+    </ProfileProvider>
   );
 };
 

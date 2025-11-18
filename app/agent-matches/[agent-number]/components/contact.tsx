@@ -1,10 +1,8 @@
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import TooltipComponent from "@/app/components/tooltip";
 import { AgentMatch } from "@/app/context/agent-matches-context";
-import { Button } from "@/app/ui-primitives/button";
 import { formatEmail, urlFormatter } from "@/app/utils";
 import React from "react";
-import { useSaveAgent } from "@/app/hooks/use-save-agent";
 
 const Contact = ({
   agent,
@@ -13,23 +11,6 @@ const Contact = ({
   agent: AgentMatch;
   isSubscribed: boolean;
 }) => {
-  const { mutate: saveAgent, isPending } = useSaveAgent();
-
-  const handleSaveAgent = () => {
-    const payload = {
-      name: agent.name,
-      email: agent.email || null,
-      agency: agent.agency || null,
-      agency_url: agent.website || null,
-      index_id: agent.agent_id || null,
-      query_tracker: agent.querytracker || null,
-      pub_marketplace: agent.pubmarketplace || null,
-      match_score: agent.normalized_score || null,
-    };
-
-    saveAgent(payload);
-  };
-
   return (
     <div>
       {!isSubscribed ? (
@@ -103,13 +84,6 @@ const Contact = ({
           </div>
         </>
       )}
-      <Button
-        className="text-sm shadow-lg hover:shadow-xl mt-4"
-        onClick={handleSaveAgent}
-        disabled={isPending}
-      >
-        {isPending ? "Saving..." : "Save Agent"}
-      </Button>
     </div>
   );
 };

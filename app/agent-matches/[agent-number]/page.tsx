@@ -13,9 +13,11 @@ import { useAgentMatches } from "@/app/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
 import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
-import { Spinner } from "@/app/components/spinner";
+import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import Contact from "./components/contact";
+import { useSaveAgent } from "@/app/hooks/use-save-agent";
+import { Button } from "@/app/ui-primitives/button";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -26,6 +28,8 @@ const AgentProfile = () => {
     [matchesContext?.matches]
   );
   const [agent, setAgent] = useState<AgentMatch | null>(null);
+
+  const { mutate: saveAgent, isPending } = useSaveAgent();
 
   useEffect(() => {
     if (matches.length > 0) {
@@ -39,10 +43,25 @@ const AgentProfile = () => {
   if (!agent || isLoading) {
     return (
       <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12 justify-center items-center">
-        <Spinner size={100} />
+        <Spinner />
       </div>
     );
   }
+
+  const handleSaveAgent = () => {
+    const payload = {
+      name: agent.name,
+      email: agent.email || null,
+      agency: agent.agency || null,
+      agency_url: agent.website || null,
+      index_id: agent.agent_id || null,
+      query_tracker: agent.querytracker || null,
+      pub_marketplace: agent.pubmarketplace || null,
+      match_score: agent.normalized_score || null,
+    };
+
+    saveAgent(payload);
+  };
 
   const hasContactInfo =
     agent.email ||
@@ -52,13 +71,26 @@ const AgentProfile = () => {
 
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
-      <Link
-        href="/agent-matches"
-        className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
-      >
-        <ArrowLeft className="w-8 h-8" />
-        <h2 className="text-2xl">Back</h2>
-      </Link>
+      <div className="flex justify-between items-end">
+        <Link
+          href="/agent-matches"
+          className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+        >
+          <ArrowLeft className="w-6 h-6" />
+          <h2 className="text-md font-medium">Back</h2>
+        </Link>
+
+        <Button
+          className="text-md shadow-lg hover:shadow-xl"
+          onClick={handleSaveAgent}
+          disabled={isPending}
+        >
+          <div className="flex items-center gap-2">
+            {isPending && <Spinner />}
+            <span>Save Agent</span>
+          </div>
+        </Button>
+      </div>
       <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">

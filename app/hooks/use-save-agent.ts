@@ -22,13 +22,19 @@ export const useSaveAgent = () => {
     },
     onSuccess: (data) => {
       toast.success("Agent saved successfully!", {
-        description: "You can view your saved agents anytime.",
+        description: "You can view your saved agents anytime in your profile.",
         duration: 3000,
       });
     },
     onError: (error: Error) => {
-      toast.error("Failed to save agent", {
-        description: error.message || "Please try again later.",
+      const errorMessage = error.message.includes(
+        "duplicate key value violates"
+      )
+        ? "Agent already exists in your saved agents"
+        : "An error occurred while attempting to save the agent";
+
+      toast.error("An error occurred", {
+        description: errorMessage,
         duration: 4000,
       });
     },

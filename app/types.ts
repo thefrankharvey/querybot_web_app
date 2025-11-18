@@ -175,3 +175,30 @@ export interface SaveAgentResponse {
     created_at: string; // ISO timestamp
   }>;
 }
+
+export type FetchAgentResponse = {
+  agent: {
+    id: string;
+    name: string;
+    email?: string;
+    agency?: string;
+    clients?: string;
+    favorites?: string;
+    extra_interest?: string;
+    pubmarketplace?: string;
+    normalized_score?: number;
+    agency_url?: string;
+    negatives?: string;
+    querymanager?: string;
+    querytracker?: string;
+    query_tracker?: string;
+    pub_marketplace?: string;
+    website?: string;
+    sales?: string;
+    match_score?: number;
+    bio?: string;
+    genres?: string;
+    submission_req?: string;
+    [key: string]: unknown;
+  };
+};

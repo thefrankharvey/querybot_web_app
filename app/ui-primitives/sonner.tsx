@@ -18,6 +18,14 @@ const Toaster = ({ ...props }: ToasterProps) => {
           "--normal-border": "var(--border)",
         } as React.CSSProperties
       }
+      toastOptions={{
+        classNames: {
+          title: "!text-black",
+          description: "!text-black",
+          success: "[&_[data-icon]]:!text-green-600",
+          error: "[&_[data-icon]]:!text-red-600",
+        },
+      }}
       {...props}
     />
   );

@@ -39,7 +39,7 @@ const LatestBlog = async () => {
   } satisfies BlogPostingJsonLd;
 
   return (
-    <div className="w-full flex flex-col justify-start md:w-[800px] md:mx-auto">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto">
       <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
         Latest Blog
       </h1>
