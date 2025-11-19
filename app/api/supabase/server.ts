@@ -1,13 +1,14 @@
-import { auth } from "@clerk/nextjs/server";
 import { createClient } from "@supabase/supabase-js";
 
 export function createServerSupabase() {
+  // Use service role key for server-side operations (bypasses RLS)
   return createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_KEY!,
+    process.env.SUPABASE_SERVICE_ROLE_KEY!,
     {
-      async accessToken() {
-        return (await auth()).getToken();
+      auth: {
+        autoRefreshToken: false,
+        persistSession: false,
       },
     }
   );
