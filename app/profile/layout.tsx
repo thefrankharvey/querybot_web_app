@@ -27,7 +27,7 @@ const ProfileLayoutContent = ({ children }: { children: React.ReactNode }) => {
   }, [agentsList]);
 
   return (
-    <div className="w-full min-h-screen pt-12 pb-10 px-4 md:px-0">
+    <div className="w-full min-h-screen pt-12 pb-10 md:px-0">
       <div className="w-full md:w-[1300px] mx-auto flex flex-col md:flex-row">
         <aside className="w-full md:sticky md:top-24 h-full md:max-w-[173px]">
           <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">
