@@ -132,3 +132,73 @@ export interface BlogPostingJsonLd {
   author?: JsonLdPerson;
   mainEntityOfPage?: JsonLdWebPage;
 }
+
+export type AgentMatch = {
+  id: string;
+  user_id: string;
+  name: string;
+  email?: string | null;
+  agency?: string | null;
+  agency_url?: string | null;
+  index_id?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  match_score?: number | null;
+  created_at: string; // ISO timestamp
+};
+
+// Type for the POST payload matching the API expectations
+export interface SaveAgentPayload {
+  name: string;
+  email?: string | null;
+  agency?: string | null;
+  agency_url?: string | null;
+  index_id?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  match_score?: number | null;
+}
+
+// Type for the API response
+export interface SaveAgentResponse {
+  created: Array<{
+    id: string;
+    user_id: string;
+    name: string;
+    email?: string | null;
+    agency?: string | null;
+    agency_url?: string | null;
+    index_id?: string | null;
+    query_tracker?: string | null;
+    pub_marketplace?: string | null;
+    match_score?: number | null;
+    created_at: string; // ISO timestamp
+  }>;
+}
+
+export type FetchAgentResponse = {
+  agent: {
+    id: string;
+    name: string;
+    email?: string;
+    agency?: string;
+    clients?: string;
+    favorites?: string;
+    extra_interest?: string;
+    pubmarketplace?: string;
+    normalized_score?: number;
+    agency_url?: string;
+    negatives?: string;
+    querymanager?: string;
+    querytracker?: string;
+    query_tracker?: string;
+    pub_marketplace?: string;
+    website?: string;
+    sales?: string;
+    match_score?: number;
+    bio?: string;
+    genres?: string;
+    submission_req?: string;
+    [key: string]: unknown;
+  };
+};

@@ -1,7 +1,12 @@
 "use client";
 
+import React, { useState } from "react";
+import { toast } from "sonner";
+import { cancelUserSubscription } from "@/app/actions/subscription-actions";
+import { deleteUserAccountComplete } from "@/app/actions/subscription-actions";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-import { Button } from "@/app/ui-primitives/button";
+import { useAuth } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -13,14 +18,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/app/ui-primitives/alert-dialog";
-import { useAuth } from "@clerk/nextjs";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import {
-  cancelUserSubscription,
-  deleteUserAccountComplete,
-} from "@/app/actions/subscription-actions";
-import { toast } from "sonner";
+import { Button } from "@/app/ui-primitives/button";
 
 const Account = () => {
   const { isSubscribed, user } = useClerkUser();
@@ -83,18 +81,14 @@ const Account = () => {
       setIsLoading((prev) => ({ ...prev, delete: false }));
     }
   };
-
   return (
-    <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto pt-12">
-      <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
-        Account
-      </h1>
-      <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg">
-        <div className="flex gap-2">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-4 md:mt-15">
+      <div className="flex flex-col gap-8 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg">
+        <div className="flex flex-col md:flex-row gap-1">
           <h2 className="font-semibold">Subscription:</h2>
           <p>{isSubscribed ? "Write Query Hook Subscriber" : "none"}</p>
         </div>
-        <div className="flex flex-col md:flex-row gap-2">
+        <div className="flex flex-col md:flex-row gap-1">
           <h2 className="font-semibold">Email:</h2>
           <p>{user?.emailAddresses[0].emailAddress}</p>
         </div>

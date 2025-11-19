@@ -10,8 +10,8 @@ const SubscriberOptions = ({
 }) => {
   return (
     <>
-      <div className="w-full md:w-3/4 mx-auto flex flex-col items-center">
-        <h1 className="text-[24px] md:text-[40px] mb-8 font-semibold leading-tight text-center">
+      <div className="w-full md:w-3/4 mx-auto flex flex-col items-center pt-16">
+        <h1 className="text-[24px] md:text-[32px] mb-8 font-semibold leading-tight text-center">
           Welcome Write Query Hook Subscriber!
           <br />
         </h1>
@@ -33,6 +33,11 @@ const SubscriberOptions = ({
               </Button>
             </Link>
           )}
+          <Link href="/profile/saved-match">
+            <Button className="cursor-pointer text-xl p-8 font-semibold w-full md:w-auto shadow-lg hover:shadow-xl">
+              Profile
+            </Button>
+          </Link>
         </div>
       </div>
     </>

@@ -17,7 +17,7 @@ const Contact = ({
         <div className="flex flex-col gap-2 items-start">
           <TooltipComponent
             contentClass="text-center"
-            content="Subscribe to Write Query Hook to see contact details!"
+            content="Subscribe to see contact details!"
           >
             <h2 className="text-xl font-bold mb-2 text-left">Contact</h2>
             <div className="flex flex-col gap-2 items-start">
@@ -81,18 +81,6 @@ const Contact = ({
                 Query Tracker
               </a>
             )}
-            {/* {agent.twitter_url && (
-          <div className="flex items-center gap-1">
-            <label className="text-lg font-semibold">Twitter:</label>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={`${agent.twitter_url}`}
-            >
-              {agent.twitter_handle}
-            </a>
-          </div>
-        )} */}
           </div>
         </>
       )}

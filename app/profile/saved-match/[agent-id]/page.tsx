@@ -1,67 +1,89 @@
 "use client";
 
-import { useParams } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
-import { formatGenres, formatDisplayString, urlFormatter } from "@/app/utils";
-import React, { useState, useEffect, useMemo } from "react";
-import {
-  AgentMatchesProvider,
-  AgentMatch,
-} from "@/app/context/agent-matches-context";
-import { useAgentMatches } from "@/app/context/agent-matches-context";
+import React from "react";
+import { useFetchAgent } from "@/app/hooks/use-fetch-agent";
 import TooltipComponent from "@/app/components/tooltip";
-import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
-import { Spinner } from "@/app/ui-primitives/spinner";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import Contact from "./components/contact";
-import { useSaveAgent } from "@/app/hooks/use-save-agent";
+import { formatDisplayString, formatGenres, urlFormatter } from "@/app/utils";
+import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
+import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
+import { Spinner } from "@/app/ui-primitives/spinner";
+import { useProfileContext } from "@/app/context/profile-context";
+import { useRouter } from "next/navigation";
 
-const AgentProfile = () => {
-  const params = useParams();
-  const { isSubscribed, isLoading } = useClerkUser();
-  const matchesContext = useAgentMatches();
-  const matches = useMemo(
-    () => matchesContext?.matches || [],
-    [matchesContext?.matches]
-  );
-  const [agent, setAgent] = useState<AgentMatch | null>(null);
+interface SavedMatchProps {
+  params: Promise<{
+    "agent-id": string;
+  }>;
+}
 
-  const { mutate: saveAgent, isPending } = useSaveAgent();
+const SavedMatch = ({ params }: SavedMatchProps) => {
+  const unwrappedParams = React.use(params);
+  const agentId = unwrappedParams["agent-id"];
+  const { data, isLoading, error } = useFetchAgent(agentId);
+  const { agentsList, removeAgent } = useProfileContext();
+  const router = useRouter();
 
-  useEffect(() => {
-    if (matches.length > 0) {
-      const foundAgent = matches.find(
-        (data, index) => index === Number(params["agent-number"])
-      );
-      setAgent(foundAgent as AgentMatch | null);
-    }
-  }, [matches, params]);
+  const { mutate: deleteAgentMatch, isPending: isDeleting } =
+    useDeleteAgentMatch({
+      onSuccess: (deletedAgentId) => {
+        // Remove agent from context immediately
+        removeAgent(deletedAgentId);
 
-  if (!agent || isLoading) {
+        // Get remaining agents after deletion
+        const remainingAgents = agentsList?.filter(
+          (agent) => agent.index_id !== deletedAgentId
+        );
+
+        // Route based on remaining agents
+        if (remainingAgents && remainingAgents.length > 0) {
+          router.replace(`/profile/saved-match/${remainingAgents[0].index_id}`);
+        } else {
+          router.replace("/profile/saved-match");
+        }
+      },
+    });
+
+  const agent = data?.agent;
+  const agentMatch = agentsList?.find((match) => match.index_id === agentId);
+
+  const handleDeleteAgentMatch = () => {
+    deleteAgentMatch(agentId);
+  };
+
+  if (isLoading) {
     return (
-      <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-30 justify-center items-center">
+      <div className="flex items-center justify-center min-h-[400px]">
         <Spinner className="size-16" />
       </div>
     );
   }
 
-  const handleSaveAgent = () => {
-    const payload = {
-      name: agent.name,
-      email: agent.email || null,
-      agency: agent.agency || null,
-      agency_url: agent.website || null,
-      index_id: agent.agent_id || null,
-      query_tracker: agent.querytracker || null,
-      pub_marketplace: agent.pubmarketplace || null,
-      match_score: agent.normalized_score || null,
-    };
+  if (error || !agent) {
+    return (
+      <div>
+        <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
+          Error
+        </h1>
+        <p className="text-red-500">
+          {error instanceof Error ? error.message : "Failed to load agent"}
+        </p>
+      </div>
+    );
+  }
 
-    saveAgent(payload);
-  };
+  if (!data) {
+    return (
+      <div>
+        <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
+          Not Found
+        </h1>
+        <p>Agent not found</p>
+      </div>
+    );
+  }
 
   const hasContactInfo =
     agent.email ||
@@ -70,53 +92,29 @@ const AgentProfile = () => {
     agent.querytracker;
 
   return (
-    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto pt-12">
-      <div className="flex justify-between items-end">
-        <Link
-          href="/agent-matches"
-          className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+    <div>
+      <div className="max-w-[1000px] mx-auto pb-4 flex justify-end pt-3">
+        <Button
+          className="text-sm shadow-lg hover:shadow-xl"
+          onClick={handleDeleteAgentMatch}
+          disabled={isDeleting}
         >
-          <ArrowLeft className="w-6 h-6" />
-          <h2 className="text-md font-medium">Back</h2>
-        </Link>
-        {!isSubscribed ? (
-          <TooltipComponent
-            className="w-fit"
-            contentClass="text-center"
-            content="Subscribe to activate save agent feature!"
-          >
-            <Button
-              className="text-md shadow-lg hover:shadow-xl"
-              disabled={true}
-            >
-              <div className="flex items-center gap-2">
-                <span>Save Agent</span>
-              </div>
-            </Button>
-          </TooltipComponent>
-        ) : (
-          <Button
-            className="text-md shadow-lg hover:shadow-xl"
-            onClick={handleSaveAgent}
-            disabled={isPending}
-          >
-            <div className="flex items-center gap-2">
-              {isPending && <Spinner />}
-              <span>Save Agent</span>
-            </div>
-          </Button>
-        )}
+          <div className="flex items-center gap-2">
+            {isDeleting && <Spinner />}
+            <span>Delete Agent</span>
+          </div>
+        </Button>
       </div>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
+      <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg mx-auto max-w-[1000px]">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
-              {agent.status && agent.status !== "closed" && (
+              {agent.status && agent.status !== "closed" ? (
                 <span className="bg-accent text-xs p-1 px-3 rounded-xl font-semibold w-fit">
                   Open to Submissions
                 </span>
-              )}
+              ) : null}
             </div>
             <div className="text-xl font-semibold flex flex-col gap-1 mt-8 md:mt-0">
               <label className="text-lg font-semibold">Match Score:</label>
@@ -125,18 +123,16 @@ const AgentProfile = () => {
                 content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
               >
                 <div className="text-xl font-semibold flex items-center gap-1">
-                  <StarRating rateNum={agent.normalized_score} />
-                  {agent.normalized_score}
+                  <StarRating rateNum={agentMatch?.match_score || 0} />
+                  {agentMatch?.match_score}
                 </div>
               </TooltipComponent>
             </div>
           </div>
-          {hasContactInfo && (
-            <Contact agent={agent} isSubscribed={isSubscribed} />
-          )}
+          {hasContactInfo ? <Contact agent={agent} /> : null}
           <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
             <label className="text-lg font-semibold">Agency:</label>
-            {urlFormatter(agent.website) && isSubscribed ? (
+            {urlFormatter(agent.website) ? (
               <Link
                 href={urlFormatter(agent.website) || ""}
                 target="_blank"
@@ -155,7 +151,7 @@ const AgentProfile = () => {
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Genres:</label>
             <div className="flex flex-wrap gap-1">
-              {formatGenres(agent.genres).map((genre: string) => (
+              {formatGenres(agent.genres || "").map((genre: string) => (
                 <div
                   key={genre}
                   className="bg-gray-100 px-2 py-1 text-sm rounded-md"
@@ -213,12 +209,4 @@ const AgentProfile = () => {
   );
 };
 
-// Wrap the export with the AgentMatchesProvider
-export default function AgentProfilePage() {
-  return (
-    <AgentMatchesProvider>
-      <AgentProfile />
-      <TypeForm />
-    </AgentMatchesProvider>
-  );
-}
+export default SavedMatch;

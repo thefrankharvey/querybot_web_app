@@ -22,55 +22,7 @@ export async function generateStaticParams(): Promise<Params[]> {
   return slugs.map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<Params>;
-}) {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
-  if (!post) return {};
-  const canonical = buildCanonicalUrlForPost(post.slug);
-  const description = htmlToTextSummary(
-    post.excerpt || post.content || undefined
-  );
-  const ogImage = post.featuredImage?.node?.sourceUrl || undefined;
-  const width = post.featuredImage?.node?.mediaDetails?.width || undefined;
-  const height = post.featuredImage?.node?.mediaDetails?.height || undefined;
-  const ogImages = ogImage
-    ? [
-        {
-          url: ogImage,
-          width,
-          height,
-          alt: post.featuredImage?.node?.altText || post.title,
-        },
-      ]
-    : [];
-  return {
-    title: post.title,
-    description,
-    alternates: { canonical },
-    openGraph: {
-      url: canonical,
-      title: post.title,
-      description: description,
-      images: ogImages,
-      type: "article",
-      publishedTime: post.date,
-      modifiedTime: post.modified,
-    },
-    twitter: {
-      card: ogImage ? "summary_large_image" : "summary",
-      title: post.title,
-      description,
-      images: ogImage ? [ogImage] : undefined,
-    },
-    robots: { index: true, follow: true },
-  } as const;
-}
-
-export const revalidate = 21600; // 6 hours
+export const revalidate = 800; // 8.3 minutes
 
 export default async function BlogPostPage({
   params,
@@ -104,10 +56,10 @@ export default async function BlogPostPage({
     <main className="w-full md:mx-auto md:max-w-5xl py-10">
       <Link
         href="/blog"
-        className="flex w-full items-center gap-2 hover:text-accent transition-colors duration-300 mb-6"
+        className="flex items-center gap-2 hover:text-accent transition-colors duration-300 mb-4"
       >
-        <ArrowLeft className="w-8 h-8" />
-        <h2 className="text-2xl">Back</h2>
+        <ArrowLeft className="w-6 h-6" />
+        <h2 className="text-md font-medium">Back</h2>
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
         {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||

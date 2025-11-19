@@ -71,21 +71,21 @@ const ClientNav = () => {
               <>
                 <Link
                   href="/smart-match"
-                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
                 >
                   <ScanSearch className="w-4 h-4" />
                   Smart Match
                 </Link>
                 <Link
                   href="/slush-feed"
-                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
                 >
                   <Newspaper className="w-4 h-4" />
                   Dispatch
                 </Link>
                 <Link
                   href="/blog"
-                  className="text-sm font-normal hover:text-accent transition-all duration-300 flex gap-1 items-center"
+                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
                 >
                   <NotebookPen className="w-4 h-4" />
                   Blog
@@ -97,27 +97,27 @@ const ClientNav = () => {
           <div className="flex items-center gap-4">
             <SignedIn>
               <Link
-                href="/account"
-                className="text-sm hover:text-accent transition-all duration-300"
+                href="/profile"
+                className="text-sm hover:text-accent transition-all duration-300 font-medium"
               >
-                Account
+                Profile
               </Link>
               {!isSubscribed && (
                 <Link href="/subscription">
-                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
                     Subscribe
                   </div>
                 </Link>
               )}
-              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-[var(--text-dark-blue)] hover:bg-text-dark-blue transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-[var(--text-dark-blue)] hover:bg-text-dark-blue transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignOutButton />
               </div>
             </SignedIn>
             <SignedOut>
-              <div className="cursor-pointer text-sm hover:text-accent transition-all duration-300">
+              <div className="font-medium cursor-pointer text-sm hover:text-accent transition-all duration-300">
                 <SignInButton />
               </div>
-              <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignUpButton />
               </div>
             </SignedOut>
