@@ -4,7 +4,6 @@ import {
   getPostBySlug,
   sanitizeWordPressHtml,
   buildCanonicalUrlForPost,
-  htmlToTextSummary,
   rewriteInternalLinksToBlog,
 } from "@/lib/wp";
 import SlushwireWeeklyPost from "../components/slushwire-weekly-post";

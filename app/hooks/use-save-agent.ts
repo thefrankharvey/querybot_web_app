@@ -20,7 +20,7 @@ export const useSaveAgent = () => {
 
       return response.json() as Promise<SaveAgentResponse>;
     },
-    onSuccess: (data) => {
+    onSuccess: () => {
       toast.success("Agent saved successfully!", {
         description: "You can view your saved agents anytime in your profile.",
         duration: 3000,

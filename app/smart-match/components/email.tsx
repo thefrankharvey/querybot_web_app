@@ -20,6 +20,7 @@ const Email = ({
     if (defaultEmail) {
       setForm((prev) => ({ ...prev, email: defaultEmail }));
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

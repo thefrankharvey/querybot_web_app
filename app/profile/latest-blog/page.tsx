@@ -5,12 +5,10 @@ import {
   rewriteInternalLinksToBlog,
   sanitizeWordPressHtml,
 } from "@/lib/wp";
-import Link from "next/link";
 import SlushwireBlogPost from "@/app/blog/components/slushwire-blog-post";
 import SlushwireWeeklyPost from "@/app/blog/components/slushwire-weekly-post";
 import { BlogPostingJsonLd } from "@/app/types";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
 
 const LatestBlog = async () => {
   const posts = await getRecentPosts(1);
