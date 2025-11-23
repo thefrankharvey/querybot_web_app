@@ -202,3 +202,21 @@ export type FetchAgentResponse = {
     [key: string]: unknown;
   };
 };
+
+// Payload for get-agents-paid and get-agents-free endpoints
+export interface AgentQueryPayload {
+  email: string;
+  genre?: string | string[];
+  subgenres?: string[];
+  target_audience?: string;
+  comps?: string[]; // at least one of comps/target_audience/themes should be set
+  themes?: string[];
+  synopsis?: string;
+  query_letter?: string;
+  query_letter_url?: string;
+  manuscript?: string;
+  manuscript_url?: string;
+  non_fiction?: boolean;
+  enable_ai?: boolean;
+  format?: string; // e.g., "novel", "screenplay"
+}

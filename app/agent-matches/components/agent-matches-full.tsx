@@ -14,6 +14,8 @@ import {
 import TypeForm from "../../components/type-form";
 import { json2csv } from "json-2-csv";
 import { formatMatchesForCSV } from "@/app/utils";
+import type { AgentQueryPayload } from "@/app/types";
+import { useState } from "react";
 
 export const AgentMatchesFull = () => {
   const {
@@ -26,6 +28,7 @@ export const AgentMatchesFull = () => {
     saveCurrentCursor,
   } = useAgentMatches();
   const nextCursor = nextCursorCount || QUERY_LIMIT;
+  const [isDownloading, setIsDownloading] = useState(false);
 
   const queryMutation = useMutation({
     mutationFn: async (params: { formData: FormData; nextCursor: number }) => {
@@ -80,14 +83,58 @@ export const AgentMatchesFull = () => {
     window.scrollTo({ top: 0 });
   };
 
-  const handleCSVDownload = () => {
-    if (!matches || matches.length === 0) {
+  const handleCSVDownload = async () => {
+    if (!formData) {
+      console.error("No form data available for download");
       return;
     }
 
-    const formattedMatches = formatMatchesForCSV(matches);
+    setIsDownloading(true);
 
     try {
+      // Map FormData to AgentQueryPayload
+      const payload: AgentQueryPayload = {
+        email: formData.email,
+        genre: formData.genre,
+        subgenres: formData.subgenres,
+        target_audience: formData.target_audience,
+        comps: formData.comps,
+        themes: formData.themes,
+        non_fiction: formData.non_fiction,
+        enable_ai: formData.enable_ai,
+        format: formData.format,
+      };
+
+      // Fetch all results from get-agents-paid endpoint
+      // Note: We encode the payload in the URL to work around browser GET + body restriction
+      const queryParams = new URLSearchParams({
+        payload: JSON.stringify(payload),
+      });
+
+      const response = await fetch(
+        `/api/get-agents-paid?${queryParams.toString()}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch agents: ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      // Check if we have matches in the response
+      if (!data.matches || data.matches.length === 0) {
+        console.error("No matches returned from API");
+        return;
+      }
+
+      const formattedMatches = formatMatchesForCSV(data.matches);
+
       // Convert matches to CSV
       const csv = json2csv(formattedMatches);
 
@@ -113,6 +160,8 @@ export const AgentMatchesFull = () => {
       URL.revokeObjectURL(url);
     } catch (error) {
       console.error("Error downloading CSV:", error);
+    } finally {
+      setIsDownloading(false);
     }
   };
 
@@ -123,6 +172,7 @@ export const AgentMatchesFull = () => {
         isSubscribed={true}
         handleCSVDownload={handleCSVDownload}
         isLoading={queryMutation.isPending}
+        isDownloading={isDownloading}
       />
       <Pagination className="mt-8">
         <PaginationContent>

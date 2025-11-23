@@ -4,6 +4,7 @@ import { AgentCards } from "../../components/agent-cards";
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
+import { Spinner } from "@/app/ui-primitives/spinner";
 
 export const AgentMatchesInner = ({
   matches,
@@ -11,12 +12,14 @@ export const AgentMatchesInner = ({
   gridRef,
   isLoading,
   handleCSVDownload,
+  isDownloading,
 }: {
   matches: AgentMatch[];
   isSubscribed: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
   handleCSVDownload?: () => void;
+  isDownloading?: boolean;
 }) => {
   return (
     <>
@@ -37,8 +40,10 @@ export const AgentMatchesInner = ({
             {isSubscribed && (
               <Button
                 onClick={handleCSVDownload}
+                disabled={isDownloading}
                 className="cursor-pointer text-base p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
               >
+                {isDownloading ? <Spinner className="size-4" /> : null}
                 Download page results
               </Button>
             )}
