@@ -48,7 +48,7 @@ export default function MultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={`flex-1 md:w-[495px] justify-between bg-white h-fit`}
+          className={`flex-1 md:w-[495px] justify-between bg-white h-fit hover:text-white`}
         >
           <div className="flex gap-2 justify-start flex-wrap">
             {value?.length

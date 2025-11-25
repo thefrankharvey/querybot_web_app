@@ -40,13 +40,16 @@ const ListItem = ({
   return (
     <div
       style={style}
-      className="flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent hover:text-accent-foreground"
+      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent"
       onClick={() => onItemSelect(option.value)}
     >
       <Check
-        className={cn("mr-2 h-4 w-4", isSelected ? "opacity-100" : "opacity-0")}
+        className={cn(
+          "mr-2 h-4 w-4 group-hover:text-white",
+          isSelected ? "opacity-100" : "opacity-0"
+        )}
       />
-      <span className="truncate">{option.label}</span>
+      <span className="truncate group-hover:text-white">{option.label}</span>
     </div>
   );
 };
@@ -110,7 +113,7 @@ export default function InfiniteMultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={`flex-1 md:w-[495px] justify-between bg-white h-fit`}
+          className={`flex-1 md:w-[495px] justify-between bg-white h-fit hover:text-white`}
         >
           <div className="flex gap-2 justify-start flex-wrap">
             {value?.length

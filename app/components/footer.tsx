@@ -49,12 +49,6 @@ const Footer = () => {
               target="_blank"
             >
               <span>Bluesky</span>
-              <Image
-                src="/bluesky-icon.svg"
-                alt="bluesky butterfly"
-                width={16}
-                height={16}
-              />
             </a>
             <CopyToClipboard
               text="feedback@writequeryhook.com"
