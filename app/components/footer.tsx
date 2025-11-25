@@ -2,7 +2,6 @@
 
 import React from "react";
 import CopyToClipboard from "./copy-to-clipboard";
-import Image from "next/image";
 import Link from "next/link";
 import { SignedOut, SignUpButton } from "@clerk/nextjs";
 
