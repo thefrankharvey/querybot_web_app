@@ -10,17 +10,17 @@ import React from "react";
 const SubscriptionDetails = () => {
   return (
     <div className="pb-4 w-full md:w-3/4 mx-auto text-left">
-      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-center">
+      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-center text-accent">
         What You Get with a Write Query Hook Subscription:
       </h1>
       <div className="w-fit mx-auto flex flex-col mt-8" id="content">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="smart-match">
-            <AccordionTrigger className="[&>svg]:text-accent">
+            <AccordionTrigger className="[&>svg]:text-accent underline-none">
               <div className="text-base font-normal flex gap-3 items-center">
                 <ScanSearch className="w-8 h-8" />{" "}
                 <span>
-                  <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
+                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
                     Smart Match
                   </span>
                   finds agents tailored specifically to your work
@@ -50,7 +50,7 @@ const SubscriptionDetails = () => {
               <div className="text-base font-normal flex gap-3 items-center">
                 <Newspaper className="w-8 h-8" />
                 <span>
-                  <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
+                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
                     Dispatch
                   </span>
                   provides a real time industry news feed
@@ -88,7 +88,7 @@ const SubscriptionDetails = () => {
               <div className="text-base font-normal flex gap-3 items-center">
                 <DatabaseZap className="w-8 h-8" />{" "}
                 <div>
-                  <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
+                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
                     The largest data base
                   </span>
                   of literary agents in existence
@@ -112,7 +112,7 @@ const SubscriptionDetails = () => {
               <div className="text-base font-normal flex gap-3 items-center">
                 <MailCheck className="w-8 h-8" />
                 <div>
-                  <span className="font-semibold bg-accent px-2 py-1 mr-1 rounded-md">
+                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
                     Weekly email newsletter
                   </span>
                   of curated industry intel

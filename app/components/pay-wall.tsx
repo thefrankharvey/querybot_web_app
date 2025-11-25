@@ -151,7 +151,7 @@ const PayWall = ({
             Subscribe to Write Query Hook for full access!
           </h1>
           <Link href="/subscription">
-            <Button className="cursor-pointer text-xl p-8 font-semibold mt-2 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+            <Button className="cursor-pointer text-xl p-8 font-semibold mt-2 shadow-lg hover:shadow-xl">
               SUBSCRIBE NOW
             </Button>
           </Link>

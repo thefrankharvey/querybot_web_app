@@ -12,9 +12,9 @@ const SlushwireProBlock = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
         >
-          <h1 className="text-2xl md:text-[40px] leading-normal text-left md:text-center">
+          <h1 className="text-2xl md:text-[40px] leading-normal text-left md:text-center text-accent">
             The submission process is broken.{" "}
-            <span className="bg-accent p-1 px-3 rounded-xl font-semibold">
+            <span className="bg-accent text-white p-1 px-3 rounded-xl font-semibold">
               Write Query Hook
             </span>{" "}
             tools are the solution. Built to empower authors.

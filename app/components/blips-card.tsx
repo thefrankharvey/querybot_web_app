@@ -36,11 +36,11 @@ const BlipsCard = ({
                 <h3 className="text-sm">{blips.name}</h3>
               </div>
               {isOpenToSubs ? (
-                <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+                <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
                   Open to Submissions
                 </span>
               ) : (
-                <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+                <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
                   Agent Update
                 </span>
               )}
@@ -63,7 +63,7 @@ const BlipsCard = ({
               <h3 className="text-sm">{blips.name}</h3>
             </div>
             {isOpenToSubs && (
-              <span className="bg-accent text-sm p-1 px-3 rounded-xl font-semibold">
+              <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
                 Open to Submissions
               </span>
             )}

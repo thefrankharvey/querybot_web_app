@@ -77,7 +77,7 @@ export const ClientHamburger = () => {
                 Profile
               </Link>
               <div
-                className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full"
+                className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-accent text-black hover:bg-black hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full"
                 onClick={() => setOpen(false)}
               >
                 <SignOutButton />
@@ -91,7 +91,7 @@ export const ClientHamburger = () => {
                 <SignInButton />
               </div>
               <div
-                className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full text-center"
+                className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-black hover:bg-black hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl w-full text-center"
                 onClick={() => setOpen(false)}
               >
                 <SignUpButton />

@@ -74,7 +74,7 @@ const SlushReport = async () => {
 const renderContent = (data: SlushFeed) => {
   return (
     <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto pt-12">
-      <h1 className="text-4xl font-extrabold leading-tight mb-4 flex gap-4 items-center">
+      <h1 className="text-4xl md:text-[32px] font-extrabold leading-tight mb-8 flex gap-4 items-center text-accent">
         <Newspaper className="w-10 h-10" />
         Dispatch
       </h1>

@@ -92,7 +92,7 @@ const Subscription = () => {
           <SubscriptionDetails />
 
           <div className="flex flex-col gap-2 items-center mt-8 mb-8">
-            <h1 className="text-2xl font-semibold">
+            <h1 className="text-2xl font-semibold text-accent">
               Choose a plan that works for you.
             </h1>
           </div>

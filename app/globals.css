@@ -46,9 +46,8 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(0.95 0.02 83.24);
+  --background: oklch(0.9527 0.008 114.22);
   --foreground: oklch(0.2 0.17 264);
-  --text-dark-blue: oklch(0.11 0.16 265);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.2 0.17 264);
   --popover: oklch(1 0 0);
@@ -59,7 +58,7 @@
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.76 0.2 332);
+  --accent: oklch(0.38 0.05 202.74);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
@@ -81,9 +80,8 @@
 }
 
 .dark {
-  --background: oklch(0.11 0.16 265);
+  --background: oklch(0.9527 0.008 114.22);
   --foreground: oklch(0.985 0 0);
-  --text-dark-blue: oklch(0.11 0.16 265);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
@@ -94,7 +92,7 @@
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.76 0.2 332);
+  --accent: oklch(0.38 0.05 202.74);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
@@ -123,7 +121,7 @@
     overflow-x: hidden;
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
-    color: var(--text-dark-blue);
+    color: black;
 
     button {
       @apply cursor-pointer;
@@ -136,13 +134,4 @@
       @apply z-50;
     }
   }
-}
-
-/* Custom utility classes */
-.bg-dark {
-  background-color: oklch(0.11 0.16 265);
-}
-
-.text-dark-blue {
-  color: var(--text-dark-blue);
 }

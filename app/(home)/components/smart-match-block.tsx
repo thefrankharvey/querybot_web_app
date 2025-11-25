@@ -15,10 +15,10 @@ const SmartMatchBlock = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h1 className="text-2xl md:text-[40px] leading-normal">
+          <h1 className="text-2xl md:text-[40px] leading-normal text-accent">
             <span className="font-semibold">Smart Match</span> finds the right
             agents for{" "}
-            <span className="bg-accent p-1 px-3 rounded-xl font-semibold">
+            <span className="bg-accent text-white p-1 px-3 rounded-xl font-semibold">
               your writing
             </span>{" "}
             <br />
@@ -46,7 +46,7 @@ const SmartMatchBlock = () => {
       </div>
       <div className="flex justify-center w-full">
         <Link href="/smart-match" className="w-full md:w-fit">
-          <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+          <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
             TRY SMART MATCH
           </Button>
         </Link>
