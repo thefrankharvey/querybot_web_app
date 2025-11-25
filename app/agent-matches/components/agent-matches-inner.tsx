@@ -20,7 +20,7 @@ export const AgentMatchesInner = ({
 }) => {
   return (
     <>
-      <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-8">
+      <h1 className="text-4xl md:text-[32px] font-extrabold leading-tight mb-8 text-accent">
         Agent matches
       </h1>
       <div>
@@ -37,7 +37,7 @@ export const AgentMatchesInner = ({
             {isSubscribed && (
               <Button
                 onClick={handleCSVDownload}
-                className="cursor-pointer text-base p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
+                className="cursor-pointer text-sm p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
               >
                 Download page results
               </Button>

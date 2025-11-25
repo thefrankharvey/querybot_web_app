@@ -152,14 +152,14 @@ const SmartMatch = () => {
         <>
           <div className="w-full flex flex-col justify-start md:w-[640px] md:mx-auto">
             <div className="mb-4">
-              <h1 className="text-4xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
+              <h1 className="text-4xl md:text-[32px] font-extrabold leading-tight mb-8 flex items-center gap-4 text-accent">
                 <ScanSearch className="w-10 h-10" />
                 Smart Match
               </h1>
-              <h2 className="text-xl font-semibold text-gray-900 mb-2">
+              <h2 className="text-base font-semibold mb-2 text-accent">
                 How to get the best results:
               </h2>
-              <p className="text-gray-700 mb-4">
+              <p className="mb-4 text-accent text-base">
                 Fill this out this form as completely as possible. The more
                 specific and complete your entries are the better your agent
                 matches will be.
@@ -171,7 +171,7 @@ const SmartMatch = () => {
                 className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
               >
                 <ArrowLeft className="w-6 h-6" />
-                <h2 className="text-md font-medium">Back</h2>
+                <h2 className="text-base font-medium">Back</h2>
               </Link>
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
@@ -180,7 +180,7 @@ const SmartMatch = () => {
                   hasAgentMatches.length > 0 && (
                     <Link href="/agent-matches" className="w-full md:w-fit">
                       <Button
-                        className="cursor-pointer text-base p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
+                        className="cursor-pointer text-sm p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
                         variant="default"
                       >
                         Previous Agent Matches

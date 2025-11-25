@@ -48,21 +48,16 @@ const ClientNav = () => {
   }, [scrolled]);
 
   return (
-    <nav
-      className={cn(
-        "sticky top-0 z-5 w-full flex items-center p-4 transition-colors duration-300",
-        scrolled ? "bg-[#F9E0E2]" : "bg-transparent"
-      )}
-    >
+    <nav className={cn("w-full flex items-center p-4")}>
       <ScrollToTop />
       <div className="flex items-center justify-between max-w-screen-xl mx-auto px-0 md:px-4 w-full">
-        <Link href="/" className="text-xl font-semibold text-dark-blue">
+        <Link href="/" className="text-xl font-semibold text-black">
           <Image
-            src="/query_logo.png"
+            src="/wqh-logo.png"
             alt="logo"
             width={60}
             height={60}
-            className="w-[60px] h-[60px]"
+            className="w-[60px] h-[60px] rounded-full"
           />
         </Link>
         <div className="hidden md:flex items-center justify-between gap-4 w-full">
@@ -104,20 +99,20 @@ const ClientNav = () => {
               </Link>
               {!isSubscribed && (
                 <Link href="/subscription">
-                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
+                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
                     Subscribe
                   </div>
                 </Link>
               )}
-              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-[var(--text-dark-blue)] hover:bg-text-dark-blue transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-black hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignOutButton />
               </div>
             </SignedIn>
             <SignedOut>
-              <div className="font-medium cursor-pointer text-sm hover:text-accent transition-all duration-300">
+              <div className="font-medium cursor-pointer text-sm text-black transition-all duration-300">
                 <SignInButton />
               </div>
-              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-[var(--text-dark-blue)] hover:bg-text-dark-blue hover:text-primary-foreground transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-black transition-all duration-300 shadow-lg hover:shadow-xl">
                 <SignUpButton />
               </div>
             </SignedOut>

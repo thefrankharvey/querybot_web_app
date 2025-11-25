@@ -9,6 +9,10 @@ import { Button } from "@/app/ui-primitives/button";
 import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
 
+// light gray: #F9F9F9 gray-50
+// green: #1A4A56 teal-900 teal-800 emerald-900
+// white: #FFFFFF
+
 const Themes = ({
   setForm,
 }: {

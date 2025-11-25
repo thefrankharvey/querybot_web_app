@@ -111,7 +111,7 @@ const SavedMatch = ({ params }: SavedMatchProps) => {
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
               {agent.status && agent.status !== "closed" ? (
-                <span className="bg-accent text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+                <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
                   Open to Submissions
                 </span>
               ) : null}

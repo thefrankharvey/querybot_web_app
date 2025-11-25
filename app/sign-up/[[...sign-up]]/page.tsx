@@ -15,13 +15,13 @@ export default function Page() {
               fontSize: 16,
               padding: "16px",
               textTransform: "none",
-              backgroundColor: "#F77AE8",
+              backgroundColor: "#1c4a4e",
               fontWeight: "semibold",
               border: "none",
-              color: "black",
+              color: "white",
               "&:hover, &:focus, &:active": {
                 color: "white",
-                backgroundColor: "#F77AE8",
+                backgroundColor: "#1c4a4e",
               },
             },
             formFieldInput: {

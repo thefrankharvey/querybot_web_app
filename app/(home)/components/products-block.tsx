@@ -60,7 +60,7 @@ const ProductsBlock = ({
    C355 823, 144 641, 175 407
    C207 174, 551 133, 826 319"
               fill="none"
-              stroke="#F77AE9"
+              stroke="#1c4a4e"
               strokeWidth="5"
               strokeLinecap="round"
               strokeLinejoin="round"

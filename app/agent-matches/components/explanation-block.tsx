@@ -15,7 +15,7 @@ const ExplanationBlock = () => {
       <Dialog>
         <DialogTrigger asChild>
           <Button
-            className="cursor-pointer text-base p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
+            className="cursor-pointer text-sm p-6 w-full md:w-fit shadow-lg hover:shadow-xl"
             variant="secondary"
           >
             How to use the results

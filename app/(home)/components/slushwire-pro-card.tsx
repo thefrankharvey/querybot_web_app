@@ -11,7 +11,7 @@ export const SlushwireProCard = () => {
       >
         <div className="bg-white rounded-xl w-full">
           <div className="flex justify-center items-center bg-accent rounded-t-xl p-6">
-            <h1 className="text-3xl md:text-4xl font-semibold text-center">
+            <h1 className="text-3xl md:text-4xl font-semibold text-center text-white">
               SUBSCRIBE NOW $14
             </h1>
           </div>
@@ -47,7 +47,7 @@ export const SlushwireProCard = () => {
               curated industry intel.
             </p>
 
-            <Button className="cursor-pointer text-xl w-fit p-8 font-semibold mt-4 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl mx-auto">
+            <Button className="cursor-pointer text-xl w-fit p-8 hover:bg-accent hover:text-white font-semibold mt-4 shadow-lg hover:shadow-xl mx-auto">
               SUBSCRIBE NOW
             </Button>
           </div>

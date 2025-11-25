@@ -17,13 +17,13 @@ const SlushwireDispatchBlock = () => {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h1 className="text-2xl md:text-[40px] leading-normal">
+          <h1 className="text-2xl md:text-[40px] leading-normal text-accent">
             <span className="font-semibold">Dispatch</span>, provides you with
             all of the latest industry news in a real time feed.
           </h1>
           <div className="hidden justify-center w-full md:flex">
             <Link href="/slush-feed" className="w-full md:w-fit">
-              <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+              <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
                 TRY DISPATCH
               </Button>
             </Link>
@@ -41,7 +41,7 @@ const SlushwireDispatchBlock = () => {
             ease: "easeOut",
           }}
         >
-          <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">Bluesky</h2>
           <div className="pointer-events-none">
             <BlueskyCard post={feedDemoData.bluesky} />
           </div>
@@ -56,7 +56,7 @@ const SlushwireDispatchBlock = () => {
             ease: "easeOut",
           }}
         >
-          <h2 className="text-lg font-semibold mb-2">Reddit</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">Reddit</h2>
           <div className="pointer-events-none">
             <RedditCard post={feedDemoData.reddit} />
           </div>
@@ -71,7 +71,9 @@ const SlushwireDispatchBlock = () => {
             ease: "easeOut",
           }}
         >
-          <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">
+            Submission Openings
+          </h2>
           <div className="pointer-events-none">
             <BlipsCard blips={feedDemoData.pm_blips} isOpenToSubs />
           </div>
@@ -79,19 +81,21 @@ const SlushwireDispatchBlock = () => {
       </div>
       <div className="flex flex-col gap-4 w-full md:hidden">
         <div>
-          <h2 className="text-lg font-semibold mb-2">Bluesky</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">Bluesky</h2>
           <div className="pointer-events-none">
             <BlueskyCard post={feedDemoData.bluesky} />
           </div>
         </div>
         <div>
-          <h2 className="text-lg font-semibold mb-2">Reddit</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">Reddit</h2>
           <div className="pointer-events-none">
             <RedditCard post={feedDemoData.reddit} />
           </div>
         </div>
         <div>
-          <h2 className="text-lg font-semibold mb-2">Submission Openings</h2>
+          <h2 className="text-lg font-semibold mb-2 text-accent">
+            Submission Openings
+          </h2>
           <div className="pointer-events-none">
             <BlipsCard blips={feedDemoData.pm_blips} isOpenToSubs />
           </div>
@@ -99,7 +103,7 @@ const SlushwireDispatchBlock = () => {
       </div>
       <div className="flex justify-center w-full md:hidden">
         <Link href="/slush-feed" className="w-full">
-          <Button className="cursor-pointer w-full text-xl p-8 mt-4 font-semibold hover:border-accent border-2 border-transparent shadow-lg hover:shadow-xl">
+          <Button className="cursor-pointer w-full text-xl p-8 mt-4 font-semibold shadow-lg hover:shadow-xl">
             TRY DISPATCH
           </Button>
         </Link>

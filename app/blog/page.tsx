@@ -6,6 +6,7 @@ import {
   rewriteImageUrls,
 } from "@/lib/wp";
 import SlushwireWeeklyThumbnail from "./components/slushwire-weekly-thumbnail";
+import { NotebookPen } from "lucide-react";
 
 export const revalidate = 1800; // 30 min for the index
 
@@ -14,7 +15,8 @@ export default async function BlogIndexPage() {
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">
-      <h1 className="mb-6 text-3xl md:text-4xl font-bold tracking-tight">
+      <h1 className="mb-6 text-3xl md:text-[32px] font-bold tracking-tight flex gap-4 items-center text-accent">
+        <NotebookPen className="w-10 h-10" />
         Blog
       </h1>
       <ul className="space-y-8">
