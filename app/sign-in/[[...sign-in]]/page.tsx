@@ -17,7 +17,7 @@ async function SignInComponent({
   const redirectUrl =
     typeof params?.redirectUrl === "string"
       ? params.redirectUrl
-      : "/subscription";
+      : "/profile/saved-match";
 
   return (
     <div className="pt-16 flex justify-center items-center">
