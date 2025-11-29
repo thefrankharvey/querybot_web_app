@@ -44,7 +44,8 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor } = useAgentMatches();
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl } =
+    useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
@@ -67,7 +68,8 @@ const SmartMatch = () => {
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
-      const res = await fetch("/api/query?last_index=0", {
+      // Call both APIs in parallel
+      const queryPromise = fetch("/api/query?last_index=0", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,12 +77,43 @@ const SmartMatch = () => {
         body: JSON.stringify(formData),
       });
 
-      if (!res.ok) {
+      const spreadsheetEndpoint = isSubscribed
+        ? "/api/get-agents-paid"
+        : "/api/get-agents-free";
+
+      const spreadsheetPromise = fetch(spreadsheetEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const [queryRes, spreadsheetRes] = await Promise.all([
+        queryPromise,
+        spreadsheetPromise,
+      ]);
+
+      if (!queryRes.ok) {
         setApiMessage("An API error occurred. Please try again.");
-        throw new Error(`Request failed: ${res.status}`);
+        throw new Error(`Query request failed: ${queryRes.status}`);
       }
 
-      return res.json();
+      const queryData = await queryRes.json();
+
+      try {
+        if (spreadsheetRes.ok) {
+          const spreadsheetData = await spreadsheetRes.json();
+
+          if (spreadsheetData.spreadsheet_url) {
+            saveSpreadsheetUrl(spreadsheetData.spreadsheet_url);
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching spreadsheet URL:", error);
+      }
+
+      return queryData;
     },
 
     onSuccess: (data) => {

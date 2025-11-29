@@ -12,8 +12,6 @@ import {
   PaginationPrevious,
 } from "../../ui-primitives/pagination";
 import TypeForm from "../../components/type-form";
-import { json2csv } from "json-2-csv";
-import { formatMatchesForCSV } from "@/app/utils";
 
 export const AgentMatchesFull = () => {
   const {
@@ -80,48 +78,11 @@ export const AgentMatchesFull = () => {
     window.scrollTo({ top: 0 });
   };
 
-  const handleCSVDownload = () => {
-    if (!matches || matches.length === 0) {
-      return;
-    }
-
-    const formattedMatches = formatMatchesForCSV(matches);
-
-    try {
-      // Convert matches to CSV
-      const csv = json2csv(formattedMatches);
-
-      // Create a blob with the CSV data
-      const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-
-      // Create a download link
-      const link = document.createElement("a");
-      const url = URL.createObjectURL(blob);
-      link.setAttribute("href", url);
-      link.setAttribute(
-        "download",
-        `agent-matches-${new Date().toISOString().split("T")[0]}.csv`
-      );
-      link.style.visibility = "hidden";
-
-      // Trigger download
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-
-      // Clean up the URL object
-      URL.revokeObjectURL(url);
-    } catch (error) {
-      console.error("Error downloading CSV:", error);
-    }
-  };
-
   return (
     <div className="pt-12 min-h-[700px]">
       <AgentMatchesInner
         matches={matches}
         isSubscribed={true}
-        handleCSVDownload={handleCSVDownload}
         isLoading={queryMutation.isPending}
       />
       <Pagination className="mt-8">

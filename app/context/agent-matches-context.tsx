@@ -86,6 +86,12 @@ const useAgentData = () => {
     return null;
   };
 
+  const fetchSpreadsheetUrl = async (): Promise<string | null> => {
+    const stored = localStorage.getItem("spreadsheet_url");
+    if (stored) return JSON.parse(stored);
+    return null;
+  };
+
   const { data: matches = [], isLoading } = useQuery({
     queryKey: ["agentMatches"],
     queryFn: fetchMatches,
@@ -104,6 +110,11 @@ const useAgentData = () => {
   const { data: currentCursor = 0 } = useQuery({
     queryKey: ["currentCursor"],
     queryFn: fetchCurrentCursor,
+  });
+
+  const { data: spreadsheetUrl = null } = useQuery({
+    queryKey: ["spreadsheetUrl"],
+    queryFn: fetchSpreadsheetUrl,
   });
 
   const saveNextCursor = useMutation({
@@ -143,16 +154,33 @@ const useAgentData = () => {
     },
   });
 
+  const saveSpreadsheetUrlMutation = useMutation({
+    mutationFn: (url: string | null) => {
+      if (url) {
+        localStorage.setItem("spreadsheet_url", JSON.stringify(url));
+      } else {
+        localStorage.removeItem("spreadsheet_url");
+      }
+      return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["spreadsheetUrl"] });
+    },
+  });
+
   return {
     matches,
     nextCursorCount,
     currentCursor,
     formData,
+    spreadsheetUrl,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursor.mutate(count),
     saveCurrentCursor: (cursor: number) => saveCurrentCursor.mutate(cursor),
+    saveSpreadsheetUrl: (url: string | null) =>
+      saveSpreadsheetUrlMutation.mutate(url),
   };
 };
 
@@ -160,11 +188,13 @@ const useAgentData = () => {
 interface MatchesContextType {
   matches: AgentMatch[];
   formData: FormData | null;
+  spreadsheetUrl: string | null;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
   saveNextCursor: (count: number) => void;
   saveCurrentCursor: (cursor: number) => void;
+  saveSpreadsheetUrl: (url: string | null) => void;
   nextCursorCount: number | null;
   currentCursor: number;
 }
@@ -194,11 +224,13 @@ function AgentMatchesContextProvider({
   const {
     matches,
     formData,
+    spreadsheetUrl,
     isLoading,
     saveMatches,
     saveFormData,
     saveNextCursor,
     saveCurrentCursor,
+    saveSpreadsheetUrl,
     nextCursorCount,
     currentCursor,
   } = useAgentData();
@@ -210,11 +242,13 @@ function AgentMatchesContextProvider({
         nextCursorCount,
         currentCursor,
         formData,
+        spreadsheetUrl,
         isLoading,
         saveMatches,
         saveFormData,
         saveNextCursor,
         saveCurrentCursor,
+        saveSpreadsheetUrl,
       }}
     >
       {children}
