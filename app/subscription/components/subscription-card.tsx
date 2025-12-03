@@ -20,8 +20,8 @@ const SubscriptionCard = ({
   isSubscribing: boolean;
 }) => {
   const title = isMonthly ? "Monthly Subscription" : "Yearly Subscription";
-  const subtext = isMonthly ? "Flexible. Cancel anytime." : "Save 45%";
-  const price = isMonthly ? "$14" : "$90";
+  const subtext = isMonthly ? "Flexible. Cancel anytime." : "Save 65%";
+  const price = isMonthly ? "$7" : "$30";
   const cta = isMonthly ? "Subscribe Monthly" : "Subscribe Annually";
 
   return (
