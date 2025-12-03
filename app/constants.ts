@@ -1,5 +1,5 @@
-export const MONTHLY_SUB_PRICE_ID = "price_1R1A0AHX8wDCje2DUFAg3zlJ";
-export const YEARLY_SUB_PRICE_ID = "price_1Rn1w1HX8wDCje2DLyaHXxTz";
+export const MONTHLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2Dg406c88Z";
+export const YEARLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2DFxt4z9S4";
 
 // Kit subscriber tag constants following workspace naming convention
 export const KIT_SUBSCRIBER_TAGS = {
