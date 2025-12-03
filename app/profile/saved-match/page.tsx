@@ -4,12 +4,11 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@/app/ui-primitives/button";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "@/app/context/profile-context";
 import { Spinner } from "@/app/ui-primitives/spinner";
+import { ActionCards } from "../action-cards/action-cards";
 
 const SavedMatchEmpty = () => {
-  const { isSubscribed } = useClerkUser();
   const { agentsList, isLoading } = useProfileContext();
   const router = useRouter();
 
@@ -31,34 +30,22 @@ const SavedMatchEmpty = () => {
 
   return (
     <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-4 md:mt-15">
+      <ActionCards />
       <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg h-[500px] justify-center items-center">
-        {!isSubscribed ? (
-          <div className="text-center space-y-6 max-auto">
-            <h1 className="text-lg md:text-3xl font-bold text-gray-900">
-              Subscribe to activate saved agents feature!
-            </h1>
-            <Link href="/subscription">
-              <Button className="shadow-lg hover:shadow-xl">
-                Subscribe Now
-              </Button>
-            </Link>
-          </div>
-        ) : (
-          <div className="text-center space-y-6 max-auto">
-            <h1 className="text-lg md:text-3xl font-bold text-gray-900">
-              No Saved Agents Yet
-            </h1>
-            <p className="text-sm md:text-base text-gray-600">
-              Start by finding your perfect agent matches and save them to your
-              profile
-            </p>
-            <Link href="/smart-match">
-              <Button className="shadow-lg hover:shadow-xl">
-                Go to Smart Match
-              </Button>
-            </Link>
-          </div>
-        )}
+        <div className="text-center space-y-6 max-auto">
+          <h1 className="text-lg md:text-3xl font-bold text-gray-900">
+            No Saved Agents Yet
+          </h1>
+          <p className="text-sm md:text-base text-gray-600">
+            Start by finding your perfect agent matches and save them to your
+            profile
+          </p>
+          <Link href="/smart-match">
+            <Button className="shadow-lg hover:shadow-xl">
+              Go to Smart Match
+            </Button>
+          </Link>
+        </div>
       </div>
     </div>
   );

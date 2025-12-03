@@ -4,20 +4,20 @@ import { AgentCards } from "../../components/agent-cards";
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
+import { useAgentMatches } from "../../context/agent-matches-context";
 
 export const AgentMatchesInner = ({
   matches,
   isSubscribed,
   gridRef,
   isLoading,
-  handleCSVDownload,
 }: {
   matches: AgentMatch[];
   isSubscribed: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
-  handleCSVDownload?: () => void;
 }) => {
+  const { spreadsheetUrl } = useAgentMatches();
   return (
     <>
       <h1 className="text-4xl md:text-[32px] font-extrabold leading-tight mb-8 text-accent">
@@ -34,13 +34,17 @@ export const AgentMatchesInner = ({
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
             <ExplanationBlock />
-            {isSubscribed && (
-              <Button
-                onClick={handleCSVDownload}
-                className="cursor-pointer text-sm p-6 w-full md:w-auto shadow-lg hover:shadow-xl"
+            {spreadsheetUrl && (
+              <a
+                href={spreadsheetUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto"
               >
-                Download page results
-              </Button>
+                <Button className="cursor-pointer text-sm p-6 w-full md:w-auto shadow-lg hover:shadow-xl">
+                  Query Spreadsheet
+                </Button>
+              </a>
             )}
           </div>
         </div>
