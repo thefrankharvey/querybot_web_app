@@ -1,5 +1,6 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
+import { WQH_API_URL } from "@/app/constants";
 
 // Define the structure of form data
 export interface QueryFormData {

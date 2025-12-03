@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { WQH_API_URL } from "@/app/constants";
 
 // Define the structure of the payload
 export interface GetAgentsFreePayload {
@@ -40,18 +41,15 @@ export async function POST(req: NextRequest) {
       format: jsonData.format,
     };
 
-    const externalRes = await fetch(
-      `http://querybot-api.onrender.com/get-agents-free`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-        signal: controller.signal,
-        keepalive: true,
-      }
-    );
+    const externalRes = await fetch(`${WQH_API_URL}/get-agents-free`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+      keepalive: true,
+    });
 
     const data = await externalRes.json();
 

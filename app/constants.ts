@@ -7,6 +7,12 @@ export const WQH_PROD_API_URL = "https://querybot-api.onrender.com/";
 
 export const WQH_API_URL = WQH_PROD_API_URL;
 
+export const WQH_DEV_API_URL =
+  "https://dev-query-bot-flask-app-dev.onrender.com/";
+export const WQH_PROD_API_URL = "https://querybot-api.onrender.com/";
+
+export const WQH_API_URL = WQH_PROD_API_URL;
+
 // Kit subscriber tag constants following workspace naming convention
 export const KIT_SUBSCRIBER_TAGS = {
   FREE_SUBSCRIBER: "Free Subscriber",
