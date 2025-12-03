@@ -1,3 +1,4 @@
+import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
 
 // Define the structure of form data
@@ -46,7 +47,7 @@ export async function POST(req: NextRequest) {
     };
 
     const externalRes = await fetch(
-      `http://querybot-api.onrender.com/submit-form?limit=21&last_index=${last_index}`,
+      `${WQH_API_URL}/submit-form?limit=21&last_index=${last_index}`,
       {
         method: "POST",
         headers: {

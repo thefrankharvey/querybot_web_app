@@ -3,6 +3,7 @@ import { Feed } from "./components/feed";
 import { Newspaper } from "lucide-react";
 import { formatDisplayString, urlFormatter } from "../utils";
 import { Blips, SlushFeed, BlueskyPost, RedditPost } from "../types";
+import { WQH_API_URL } from "../constants";
 
 // Type for the raw API response that might have missing properties
 type ApiResponse = {
@@ -14,12 +15,9 @@ type ApiResponse = {
 
 const SlushReport = async () => {
   try {
-    const res = await fetch(
-      "http://querybot-api.onrender.com/recent-activity",
-      {
-        cache: "no-store",
-      }
-    );
+    const res = await fetch(`${WQH_API_URL}/recent-activity`, {
+      cache: "no-store",
+    });
 
     if (!res.ok) {
       // Return default empty data structure if API fails

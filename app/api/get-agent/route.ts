@@ -1,3 +1,4 @@
+import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {
@@ -16,9 +17,7 @@ export async function GET(req: NextRequest) {
     }
 
     const externalRes = await fetch(
-      `http://querybot-api.onrender.com/get-agent?agent_id=${encodeURIComponent(
-        agentId
-      )}`,
+      `${WQH_API_URL}/get-agent?agent_id=${encodeURIComponent(agentId)}`,
       {
         method: "GET",
         headers: {
