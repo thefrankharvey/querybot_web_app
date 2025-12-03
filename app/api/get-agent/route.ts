@@ -1,6 +1,5 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
-import { WQH_API_URL } from "@/app/constants";
 
 export async function GET(req: NextRequest) {
   const controller = new AbortController();
