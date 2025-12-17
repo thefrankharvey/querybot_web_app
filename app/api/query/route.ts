@@ -59,20 +59,10 @@ export async function POST(req: NextRequest) {
       }
     );
 
-    console.log(
-      "============== JSON.stringify(formDataObj) ==============",
-      JSON.stringify(formDataObj)
-    );
-    console.log("============== EXTERNAL RES ==============", externalRes);
-
     const data = await externalRes.json();
-
-    console.log("============== DATA ==============", data);
 
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
-    console.log("============== API Error ==============", error);
-    console.error("============== API Error ==============", error);
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Unknown error" },
       { status: 500 }
