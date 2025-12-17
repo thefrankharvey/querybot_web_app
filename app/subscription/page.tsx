@@ -10,6 +10,7 @@ import SubscriberOptions from "./components/subscriber-options";
 import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "../constants";
 import SubscriptionCard from "./components/subscription-card";
 import SubscriptionDetails from "./components/subscription-details";
+import KitBar from "./components/kit-email-bar";
 
 const Subscription = () => {
   const router = useRouter();
@@ -111,9 +112,13 @@ const Subscription = () => {
               handleSubscribe={handleSubscribe}
               isSubscribing={isSubscribing}
             />
+            
           </div>
         </>
       )}
+      <div className="mt-48 pb-8 w-full flex justify-center">
+        <KitBar />
+      </div>
     </div>
   );
 };
