@@ -1,149 +1,85 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/app/ui-primitives/accordion";
-import { DatabaseZap, MailCheck, Newspaper, ScanSearch } from "lucide-react";
+import { Newspaper, ScanSearch } from "lucide-react";
 import React from "react";
+import { Button } from "@/app/ui-primitives/button";
 
 const SubscriptionDetails = () => {
   return (
     <div className="pb-4 w-full md:w-3/4 mx-auto text-left">
-      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-center text-accent">
-        What You Get with a Write Query Hook Subscription:
+      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-accent text-center mb-8">
+        Query smarter. Get repped faster.
       </h1>
-      <div className="w-fit mx-auto flex flex-col mt-8" id="content">
-        <Accordion type="single" collapsible className="w-full">
-          <AccordionItem value="smart-match">
-            <AccordionTrigger className="[&>svg]:text-accent underline-none">
-              <div className="text-base font-normal flex gap-3 items-center">
-                <ScanSearch className="w-8 h-8" />{" "}
-                <span>
-                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
-                    Smart Match
-                  </span>
-                  finds agents tailored specifically to your work
-                </span>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent>
-              <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Smart agent ranking & scores agents for your who can serve
-                    your project best
-                  </span>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Real, actionable insights, not just another pile of names
-                  </span>
-                </div>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="slushwire-dispatch">
-            <AccordionTrigger className="[&>svg]:text-accent">
-              <div className="text-base font-normal flex gap-3 items-center">
-                <Newspaper className="w-8 h-8" />
-                <span>
-                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
-                    Dispatch
-                  </span>
-                  provides a real time industry news feed
-                </span>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent>
-              <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Your Secret Weapon, Get daily real-time updates from top
-                    industry sources
-                  </span>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Recently Active Agents, know who&apos;s actively seeking
-                    queries so you pitch at the right time
-                  </span>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Monitor Multiple Platforms, Essential updates from across
-                    social media and professional platforms
-                  </span>
-                </div>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="agent-database">
-            <AccordionTrigger className="[&>svg]:text-accent">
-              <div className="text-base font-normal flex gap-3 items-center">
-                <DatabaseZap className="w-8 h-8" />{" "}
-                <div>
-                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
-                    The largest data base
-                  </span>
-                  of literary agents in existence
-                </div>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent>
-              <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    The most comprehensive agent database (bigger than the
-                    &quot;Big Two&quot;)
-                  </span>
-                </div>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="weekly-newsletter">
-            <AccordionTrigger className="[&>svg]:text-accent">
-              <div className="text-base font-normal flex gap-3 items-center">
-                <MailCheck className="w-8 h-8" />
-                <div>
-                  <span className="font-medium bg-accent px-2 py-1 mr-1 rounded-md text-white">
-                    Weekly email newsletter
-                  </span>
-                  of curated industry intel
-                </div>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent>
-              <div className="flex flex-col gap-4 font-normal text-base ml-2 md:ml-11 w-full md:w-[450px]">
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Unmissable Industry Threads, The top agent AMAs, real
-                    guidance, success stories, and insider analysis
-                  </span>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <span className="text-xl">✅</span>
-                  <span>
-                    Unlock Submission Strategies, Proven tips &amp; tactics for
-                    crafting pitches, synopses, and queries that hook
-                  </span>
-                </div>
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
+      <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-[90%] mx-auto shadow-lg justify-center items-center mt-4">
+        <h1 className="text-xl font-semibold leading-tight text-center text-accent mt-6 w-[90%] mx-auto">
+          The all-in-one system that finds your best-fit agents, tracks the
+          industry in real time, and keeps you ahead of every opportunity.
+        </h1>
+        <div className="flex flex-col w-full gap-8 pt-8">
+          <div className="flex flex-col w-full">
+            <div className="flex justify-start items-center gap-2 mb-4">
+              <ScanSearch className="w-8 h-8" />{" "}
+              <span className="font-semibold text-lg">Smart Match</span>
+            </div>
+            <ul className="list-disc pl-5 gap-3 flex flex-col">
+              <li>
+                Find your best-fit agents automatically — tailored specifically
+                to your manuscript.
+              </li>
+              <li>
+                Smart Ranking & Compatibility Scores — know instantly which
+                agents are most likely to request your pages.
+              </li>
+              <li>
+                No more rabbit holes — we track 3,200+ literary agents and
+                surface the strongest fits, not giant heaps of unsorted data.
+              </li>
+              <li>
+                Fast — results land directly in your tracker, ready to query.
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col w-full">
+            <div className="flex justify-start items-center gap-2 mb-4">
+              <Newspaper className="w-8 h-8" />{" "}
+              <span className="font-semibold text-lg">Dispatch</span>
+            </div>
+            <ul className="list-disc pl-5 gap-3 flex flex-col">
+              <li>
+                Instant alerts — know the moment agents open or close to
+                queries.
+              </li>
+              <li>
+                Event tracking — catch wishlists, pitch contests, opportunities,
+                and query tips as they drop.
+              </li>
+              <li>
+                Always current — no more stale data or discovering an agent
+                closed three weeks ago.
+              </li>
+              <li>
+                Fast — updates land directly in your dashboard, ready to act on.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row gap-24 w-full items-center justify-center mt-10 mb-10">
+          <div className="text-center w-[200px]">
+            <h3 className="text-4xl font-semibold mb-2">$7</h3>
+            <p className="text-gray-600 mb-6 text-base">a month</p>
+
+            <Button className="w-full text-lg py-6 font-semibold shadow-lg hover:shadow-xl">
+              Subscribe
+            </Button>
+          </div>
+          <div className="text-center w-[200px]">
+            <h3 className="text-4xl font-semibold mb-2">$30</h3>
+            <p className="text-gray-600 mb-6 text-base">a year</p>
+
+            <Button className="w-full text-lg py-6 font-semibold shadow-lg hover:shadow-xl">
+              Subscribe
+            </Button>
+          </div>
+        </div>
       </div>
-      {/* <p className="text-base font-medium text-center w-full md:w-[550px] mx-auto p-4">
-        We&apos;re just getting started! We have a lot of new features in the
-        pipeline. Get early access with Write Query Hook!
-      </p> */}
     </div>
   );
 };
