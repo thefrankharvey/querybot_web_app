@@ -44,7 +44,7 @@ export const SubscriptionFAQs = () => {
       </h1>
       <Accordion type="single" collapsible className="w-full">
         {faqs.map((faq) => (
-          <AccordionItem value={faq.label}>
+          <AccordionItem value={faq.label} key={faq.label}>
             <AccordionTrigger className="[&>svg]:text-accent underline-none text-base font-medium py-8">
               {faq.label}
             </AccordionTrigger>
