@@ -39,7 +39,7 @@ export const SubscriptionFAQs = () => {
 
   return (
     <div className="pb-4 w-full md:w-3/4 mx-auto">
-      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-accent text-left mb-8">
+      <h1 className="text-[22px] md:text-[30px] font-semibold leading-tight text-accent text-left">
         FAQs
       </h1>
       <Accordion type="single" collapsible className="w-full">
