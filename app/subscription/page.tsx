@@ -7,9 +7,11 @@ import { useState, useEffect } from "react";
 import { initializeSubscription } from "../actions/subscription-actions";
 import { useRouter } from "next/navigation";
 import SubscriberOptions from "./components/subscriber-options";
-import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "../constants";
-import SubscriptionCard from "./components/subscription-card";
+// import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "../constants";
+// import SubscriptionCard from "./components/subscription-card";
 import SubscriptionDetails from "./components/subscription-details";
+import { CompareCompetitors } from "./components/compare-competitors";
+import { SubscriptionFAQs } from "./components/subscription-faqs";
 
 const Subscription = () => {
   const router = useRouter();
@@ -84,14 +86,15 @@ const Subscription = () => {
   }
 
   return (
-    <div className="pt-12 flex flex-col gap-4 items-center">
+    <div className="pt-20 flex flex-col gap-40 items-center">
       {isSubscribed ? (
         <SubscriberOptions hasAgentMatches={hasAgentMatches || []} />
       ) : (
         <>
           <SubscriptionDetails />
-
-          <div className="flex flex-col gap-2 items-center mt-8 mb-8">
+          <CompareCompetitors />
+          <SubscriptionFAQs />
+          {/* <div className="flex flex-col gap-2 items-center mt-8 mb-8">
             <h1 className="text-2xl font-semibold text-accent">
               Choose a plan that works for you.
             </h1>
@@ -111,7 +114,7 @@ const Subscription = () => {
               handleSubscribe={handleSubscribe}
               isSubscribing={isSubscribing}
             />
-          </div>
+          </div> */}
         </>
       )}
     </div>
