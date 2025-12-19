@@ -3,8 +3,8 @@
 import { useClerkUser } from "../hooks/use-clerk-user";
 import { getFromLocalStorage } from "../utils";
 import Spinner from "../components/spinner";
-import { useState, useEffect } from "react";
-import { initializeSubscription } from "../actions/subscription-actions";
+// import { useState, useEffect } from "react";
+// import { initializeSubscription } from "../actions/subscription-actions";
 import { useRouter } from "next/navigation";
 import SubscriberOptions from "./components/subscriber-options";
 // import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "../constants";
@@ -14,68 +14,69 @@ import { CompareCompetitors } from "./components/compare-competitors";
 import { SubscriptionFAQs } from "./components/subscription-faqs";
 
 const Subscription = () => {
-  const router = useRouter();
-  const { isSubscribed, isLoading, user } = useClerkUser();
+  // const router = useRouter();
+  // const { isSubscribed, isLoading, user } = useClerkUser();
+  const { isSubscribed, isLoading } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const [isSubscribing, setIsSubscribing] = useState(false);
-  const [message, setMessage] = useState<{
-    type: "success" | "error";
-    text: string;
-  } | null>(null);
+  // const [isSubscribing, setIsSubscribing] = useState(false);
+  // const [message, setMessage] = useState<{
+  //   type: "success" | "error";
+  //   text: string;
+  // } | null>(null);
 
   // Check for success/cancel params from Stripe redirect
-  useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get("success") === "true") {
-      setMessage({
-        type: "success",
-        text: "Subscription successful! Welcome to Write Query Hook!",
-      });
-    } else if (urlParams.get("canceled") === "true") {
-      setMessage({
-        type: "error",
-        text: "Subscription was canceled. You can try again anytime.",
-      });
-    }
-  }, []);
+  // useEffect(() => {
+  //   const urlParams = new URLSearchParams(window.location.search);
+  //   if (urlParams.get("success") === "true") {
+  //     setMessage({
+  //       type: "success",
+  //       text: "Subscription successful! Welcome to Write Query Hook!",
+  //     });
+  //   } else if (urlParams.get("canceled") === "true") {
+  //     setMessage({
+  //       type: "error",
+  //       text: "Subscription was canceled. You can try again anytime.",
+  //     });
+  //   }
+  // }, []);
 
-  const handleSubscribe = async (priceId: string) => {
-    if (!user) {
-      router.push("/sign-in");
-      return;
-    }
+  // const handleSubscribe = async (priceId: string) => {
+  //   if (!user) {
+  //     router.push("/sign-in");
+  //     return;
+  //   }
 
-    setIsSubscribing(true);
-    setMessage(null);
+  //   setIsSubscribing(true);
+  //   setMessage(null);
 
-    try {
-      const result = await initializeSubscription(
-        user.id,
-        user.emailAddresses[0]?.emailAddress || "",
-        priceId
-      );
+  //   try {
+  //     const result = await initializeSubscription(
+  //       user.id,
+  //       user.emailAddresses[0]?.emailAddress || "",
+  //       priceId
+  //     );
 
-      if (result.success && result.url) {
-        // Redirect to Stripe Checkout
-        window.location.href = result.url;
-      } else {
-        setMessage({
-          type: "error",
-          text:
-            result.error ||
-            "Failed to initialize subscription. Please try again.",
-        });
-      }
-    } catch (error) {
-      console.error("Subscription error:", error);
-      setMessage({
-        type: "error",
-        text: "An unexpected error occurred. Please try again.",
-      });
-    } finally {
-      setIsSubscribing(false);
-    }
-  };
+  //     if (result.success && result.url) {
+  //       // Redirect to Stripe Checkout
+  //       window.location.href = result.url;
+  //     } else {
+  //       setMessage({
+  //         type: "error",
+  //         text:
+  //           result.error ||
+  //           "Failed to initialize subscription. Please try again.",
+  //       });
+  //     }
+  //   } catch (error) {
+  //     console.error("Subscription error:", error);
+  //     setMessage({
+  //       type: "error",
+  //       text: "An unexpected error occurred. Please try again.",
+  //     });
+  //   } finally {
+  //     setIsSubscribing(false);
+  //   }
+  // };
 
   if (isLoading) {
     return (
