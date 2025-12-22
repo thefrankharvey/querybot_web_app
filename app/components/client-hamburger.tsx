@@ -48,7 +48,7 @@ export const ClientHamburger = () => {
       </button>
       <div
         className={cn(
-          "fixed inset-0 w-screen h-screen transition-opacity duration-300 bg-background z-50 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
+          "fixed inset-0 w-screen h-[100vh] transition-opacity duration-300 bg-background z-50 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
