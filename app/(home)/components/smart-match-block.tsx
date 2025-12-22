@@ -45,7 +45,7 @@ const SmartMatchBlock = () => {
         ))}
       </div>
       <div className="flex justify-center w-full">
-        <Link href="/smart-match" className="w-full md:w-fit">
+        <Link href="/sign-up" className="w-full md:w-fit">
           <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
             TRY SMART MATCH
           </Button>

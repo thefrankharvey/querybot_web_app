@@ -3,11 +3,15 @@ import { SignUp } from "@clerk/nextjs";
 export default function Page() {
   return (
     <div className="pt-16 flex flex-col gap-10 justify-center items-center">
-      <h1 className="text-2xl text-center flex flex-col gap-2 items-center">
-        Sign up for free and get access to our weekly newsletter and blog posts!
+      <h1 className="text-2xl text-accent text-center w-[60%] mx-auto leading-normal">
+        Sign up for free and get access to{" "}
+        <span className="font-semibold">Smart Match</span>,{" "}
+        <span className="font-semibold">Dispatch</span> and our industry leading
+        news letter, <span className="font-semibold">Slushwire</span>!
       </h1>
       <SignUp
-        forceRedirectUrl="/subscription"
+        forceRedirectUrl="/profile/saved-match"
+        fallbackRedirectUrl="/profile/saved-match"
         appearance={{
           elements: {
             border: "none",

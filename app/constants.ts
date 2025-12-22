@@ -1,5 +1,11 @@
-export const MONTHLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2Dg406c88Z";
-export const YEARLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2DFxt4z9S4";
+export const PROD_MONTHLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2Dg406c88Z";
+export const PROD_YEARLY_SUB_PRICE_ID = "price_1Sa6FhHX8wDCje2DFxt4z9S4";
+
+export const DEV_MONTHLY_SUB_PRICE_ID = "price_1SgwZhHX8wDCje2DaqCWBilB";
+export const DEV_YEARLY_SUB_PRICE_ID = "price_1SgwaiHX8wDCje2DNgXZPgsI";
+
+export const MONTHLY_SUB_PRICE_ID = DEV_MONTHLY_SUB_PRICE_ID;
+export const YEARLY_SUB_PRICE_ID = DEV_YEARLY_SUB_PRICE_ID;
 
 export const WQH_DEV_API_URL =
   "https://dev-query-bot-flask-app-dev.onrender.com/";

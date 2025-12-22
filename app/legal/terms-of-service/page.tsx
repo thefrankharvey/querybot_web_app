@@ -87,7 +87,7 @@ const TermsOfService = () => {
               <ul className="space-y-2 ml-4 mb-4">
                 <li>✔ We do not claim any rights over your work.</li>
                 <li>
-                  ✔ Our software analyzes submissions in real-time and
+                  ✔ Our software analyzes submissions in real time and
                   immediately discards them.
                 </li>
                 <li>

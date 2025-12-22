@@ -15,7 +15,7 @@ export const ActionCards = () => {
     },
     {
       title: "Dispatch",
-      link: "/slush-feed",
+      link: "/dispatch",
       icon: <Newspaper className="w-4 h-4" />,
     },
     {

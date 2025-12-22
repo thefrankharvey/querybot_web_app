@@ -14,7 +14,7 @@ export default async function BlogIndexPage() {
   const posts = await getRecentPosts(20);
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-10">
+    <main className="mx-auto max-w-4xl py-10">
       <h1 className="mb-6 text-3xl md:text-[32px] font-bold tracking-tight flex gap-4 items-center text-accent">
         <NotebookPen className="w-10 h-10" />
         Blog

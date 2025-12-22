@@ -6,7 +6,6 @@ import TypeAnimationBlock from "./components/type-animation-block";
 import ProductsBlock from "./components/products-block";
 import SmartMatchBlock from "./components/smart-match-block";
 import SlushwireDispatchBlock from "./components/slushwire-dispatch-block";
-import SlushwireProBlock from "./components/slushwire-pro-block";
 import Link from "next/link";
 
 const Home = () => {
@@ -27,9 +26,9 @@ const Home = () => {
           showSecondAnimation={showSecondAnimation}
         />
         <div className="flex flex-col-reverse md:block">
-          <Link href="/subscription">
+          <Link href="/sign-up">
             <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
-              SUBSCRIBE NOW
+              SIGN UP FOR FREE
             </Button>
           </Link>
           <ProductsBlock showSecondAnimation={showSecondAnimation} />
@@ -37,7 +36,6 @@ const Home = () => {
       </div>
       <SmartMatchBlock />
       <SlushwireDispatchBlock />
-      <SlushwireProBlock />
     </div>
   );
 };

@@ -4,8 +4,14 @@ import React from "react";
 import CopyToClipboard from "./copy-to-clipboard";
 import Link from "next/link";
 import { SignedOut, SignUpButton } from "@clerk/nextjs";
+import KitEmailBar from "./kit-email-bar";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
+  const pathname = usePathname();
+
+  console.log({ pathname });
+
   return (
     <div
       id="footer"
@@ -55,19 +61,11 @@ const Footer = () => {
             />
           </div>
         </div>
-        <SignedOut>
-          <div className="flex justify-center items-center p-4 pb-10 md:pb-0">
-            <h1 className="text-lg text-white text-center flex flex-col gap-2 items-center">
-              Not ready for Pro?
-              <br />
-              Sign up for free and get access to our newsletter!
-              <br />
-              <div className="cursor-pointer w-full font-medium md:w-fit text-sm p-2 px-4 rounded-md bg-white text-accent hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl">
-                <SignUpButton />
-              </div>
-            </h1>
-          </div>
-        </SignedOut>
+        {pathname === "/" && (
+          <SignedOut>
+            <KitEmailBar />
+          </SignedOut>
+        )}
       </div>
 
       <div className="max-w-screen-lg mx-auto flex justify-center px-4">

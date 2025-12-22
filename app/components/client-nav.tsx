@@ -72,7 +72,7 @@ const ClientNav = () => {
                   Smart Match
                 </Link>
                 <Link
-                  href="/slush-feed"
+                  href="/dispatch"
                   className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
                 >
                   <Newspaper className="w-4 h-4" />
@@ -98,7 +98,7 @@ const ClientNav = () => {
                 Profile
               </Link>
               {!isSubscribed && (
-                <Link href="/subscription">
+                <Link href="/subscribe">
                   <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
                     Subscribe
                   </div>

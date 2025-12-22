@@ -13,7 +13,7 @@ type ApiResponse = {
   reddit?: RedditPost[];
 };
 
-const SlushReport = async () => {
+const Dispatch = async () => {
   try {
     const res = await fetch(`${WQH_API_URL}/recent-activity`, {
       cache: "no-store",
@@ -81,4 +81,4 @@ const renderContent = (data: SlushFeed) => {
   );
 };
 
-export default SlushReport;
+export default Dispatch;

@@ -58,7 +58,7 @@ const About = () => {
             <p>
               Your <span className="font-semibold">Write Query Hook</span>{" "}
               subscription includes access to{" "}
-              <span className="font-semibold">Dispatch</span>, our real-time
+              <span className="font-semibold">Dispatch</span>, our real time
               feed of industry opportunities. Stay in the loop on AMAs, pitch
               events, agent wishlists, query tips, and more—all in one place.
               Because publishing opportunities don&apos;t just happen inside the
