@@ -15,8 +15,6 @@ export const useStripeSubscribe = () => {
         priceId
       );
 
-      console.log("result", result);
-
       if (result.success && result.url) {
         // Redirect to Stripe Checkout
         window.location.href = result.url;

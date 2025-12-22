@@ -3,14 +3,12 @@
 import React from "react";
 import CopyToClipboard from "./copy-to-clipboard";
 import Link from "next/link";
-import { SignedOut, SignUpButton } from "@clerk/nextjs";
+import { SignedOut } from "@clerk/nextjs";
 import KitEmailBar from "./kit-email-bar";
 import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const pathname = usePathname();
-
-  console.log({ pathname });
 
   return (
     <div
