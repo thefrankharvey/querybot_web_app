@@ -149,7 +149,7 @@ const PayWall = ({
       <div className="h-[calc(40vh+100px)] bg-white pointer-events-auto">
         <div className="flex flex-col items-center justify-center h-full w-full">
           <p className="text-lg md:text-xl mt-4">{title}</p>
-          <h1 className="text-2xl md:text-3xl font-extrabold leading-tight mb-8 mt-4">
+          <h1 className="text-xl md:text-3xl font-extrabold leading-tight mb-8 mt-4 w-[90%] text-center mx-auto">
             Subscribe to Write Query Hook for full access!
           </h1>
           <Button
