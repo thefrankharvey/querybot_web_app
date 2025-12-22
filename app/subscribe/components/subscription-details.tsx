@@ -38,7 +38,8 @@ const SubscriptionDetails = () => {
         }}
       >
         <h1 className="text-[28px] md:text-[36px] font-semibold leading-tight text-accent text-center mb-8">
-          Query smarter. Get repped faster.
+          Query smarter. <br className="md:hidden" />
+          Get repped faster.
         </h1>
       </motion.div>
       <motion.div
@@ -52,7 +53,7 @@ const SubscriptionDetails = () => {
         }}
       >
         <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full mx-auto shadow-xl justify-center items-center mt-4 border-2 border-accent">
-          <h1 className="text-2xl font-semibold leading-tight text-center text-accent mt-6 w-[95%] mx-auto">
+          <h1 className="text-2xl font-semibold leading-tight text-accent mt-6 w-[95%] mx-auto md:text-center text-left">
             The all in one system that finds your best-fit agents, tracks the
             industry in real time, and keeps you ahead of every opportunity.
           </h1>
