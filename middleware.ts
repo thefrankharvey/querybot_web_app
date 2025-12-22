@@ -26,10 +26,10 @@ export default clerkMiddleware(async (auth, req) => {
       !pathname.startsWith("/api") &&
       !pathname.startsWith("/sign-") &&
       !pathname.startsWith("/profile") &&
-      !pathname.startsWith("/subscription") &&
+      !pathname.startsWith("/subscribe") &&
       !pathname.startsWith("/agent-matches") &&
       !pathname.startsWith("/smart-match") &&
-      !pathname.startsWith("/slush-feed") &&
+      !pathname.startsWith("/dispatch") &&
       !pathname.startsWith("/about") &&
       !pathname.startsWith("/legal") &&
       !pathname.startsWith("/thank-you") &&
@@ -44,9 +44,7 @@ export default clerkMiddleware(async (auth, req) => {
       return NextResponse.redirect(new URL(blogPath, req.url));
     } else {
       // User is not signed in, redirect to sign-in page with intended destination
-      const signInUrl = new URL("/sign-in", req.url);
-      signInUrl.searchParams.set("redirect_url", blogPath);
-      return NextResponse.redirect(signInUrl);
+      return NextResponse.redirect(new URL("/sign-in", req.url));
     }
   }
 });

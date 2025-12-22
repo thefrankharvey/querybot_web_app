@@ -1,28 +1,15 @@
 import { SignIn } from "@clerk/nextjs";
 
-export default function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}) {
-  return <SignInComponent searchParams={searchParams} />;
+export default function Page() {
+  return <SignInComponent />;
 }
 
-async function SignInComponent({
-  searchParams,
-}: {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}) {
-  const params = await searchParams;
-  const redirectUrl =
-    typeof params?.redirectUrl === "string"
-      ? params.redirectUrl
-      : "/profile/saved-match";
-
+async function SignInComponent() {
   return (
     <div className="pt-16 flex justify-center items-center">
       <SignIn
-        forceRedirectUrl={redirectUrl}
+        forceRedirectUrl="/profile/saved-match"
+        fallbackRedirectUrl="/profile/saved-match"
         appearance={{
           elements: {
             formButtonPrimary: {

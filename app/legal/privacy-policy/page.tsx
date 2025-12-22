@@ -85,7 +85,7 @@ const PrivacyPolicy = () => {
                   including AI training.
                 </li>
                 <li>
-                  ✔ All data is processed in real-time and permanently discarded
+                  ✔ All data is processed in real time and permanently discarded
                   after analysis.
                 </li>
                 <li>

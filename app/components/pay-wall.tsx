@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import Link from "next/link";
 import { Button } from "../ui-primitives/button";
+import { useStripeSubscribe } from "../hooks/use-stripe-subscribe";
+import { MONTHLY_SUB_PRICE_ID } from "../constants";
 
 const PayWall = ({
   gridRef,
@@ -16,6 +17,7 @@ const PayWall = ({
   const lastScrollY = useRef<number>(0);
   const targetScrollY = useRef<number | null>(null);
   const [showOverlay, setShowOverlay] = useState(false);
+  const { handleSubscribe, isSubscribing } = useStripeSubscribe();
 
   useEffect(() => {
     const calculateTargetScrollPosition = () => {
@@ -150,11 +152,13 @@ const PayWall = ({
           <h1 className="text-2xl md:text-3xl font-extrabold leading-tight mb-8 mt-4">
             Subscribe to Write Query Hook for full access!
           </h1>
-          <Link href="/subscription">
-            <Button className="cursor-pointer text-xl p-8 font-semibold mt-2 shadow-lg hover:shadow-xl">
-              SUBSCRIBE NOW
-            </Button>
-          </Link>
+          <Button
+            className="cursor-pointer text-xl p-8 font-semibold mt-2 shadow-lg hover:shadow-xl"
+            onClick={() => handleSubscribe(MONTHLY_SUB_PRICE_ID)}
+            disabled={isSubscribing}
+          >
+            SUBSCRIBE NOW
+          </Button>
         </div>
       </div>
     </div>

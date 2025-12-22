@@ -6,7 +6,7 @@ export const SlushwireProCard = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       <Link
-        href="/subscription"
+        href="/subscribe"
         className="rounded-xl w-full md:w-[50%] shadow-xl cursor-pointer hover:shadow-2xl transition-all duration-300"
       >
         <div className="bg-white rounded-xl w-full">

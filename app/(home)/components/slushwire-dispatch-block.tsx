@@ -22,7 +22,7 @@ const SlushwireDispatchBlock = () => {
             all of the latest industry news in a real time feed.
           </h1>
           <div className="hidden justify-center w-full md:flex">
-            <Link href="/slush-feed" className="w-full md:w-fit">
+            <Link href="/sign-up" className="w-full md:w-fit">
               <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
                 TRY DISPATCH
               </Button>
@@ -102,7 +102,7 @@ const SlushwireDispatchBlock = () => {
         </div>
       </div>
       <div className="flex justify-center w-full md:hidden">
-        <Link href="/slush-feed" className="w-full">
+        <Link href="/sign-up" className="w-full">
           <Button className="cursor-pointer w-full text-xl p-8 mt-4 font-semibold shadow-lg hover:shadow-xl">
             TRY DISPATCH
           </Button>
