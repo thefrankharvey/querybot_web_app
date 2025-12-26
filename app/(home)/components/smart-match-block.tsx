@@ -16,13 +16,13 @@ const SmartMatchBlock = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <h1 className="text-2xl md:text-[40px] leading-normal text-accent">
-            <span className="font-semibold">Smart Match</span> finds the right
-            agents for{" "}
+            Find the best agents for
+            <br className="md:hidden visible" />{" "}
             <span className="bg-accent text-white p-1 px-3 rounded-xl font-semibold">
               your writing
             </span>{" "}
-            <br />
-            Ranking agents by how well they match your work so you can query
+            <br className="md:visible hidden" />
+            We rank agents by how well they match your work so you can query
             smarter, not harder.
           </h1>
         </motion.div>
@@ -46,8 +46,8 @@ const SmartMatchBlock = () => {
       </div>
       <div className="flex justify-center w-full">
         <Link href="/sign-up" className="w-full md:w-fit">
-          <Button className="cursor-pointer w-full md:w-fit text-xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
-            TRY SMART MATCH
+          <Button className="cursor-pointer w-full md:w-fit md:text-3xl text-2xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
+            TRY FOR FREE
           </Button>
         </Link>
       </div>

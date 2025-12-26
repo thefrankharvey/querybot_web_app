@@ -3,11 +3,12 @@ import { SignUp } from "@clerk/nextjs";
 export default function Page() {
   return (
     <div className="pt-16 flex flex-col gap-10 justify-center items-center">
-      <h1 className="text-2xl text-accent text-center w-[60%] mx-auto leading-normal">
-        Sign up for free and get access to{" "}
-        <span className="font-semibold">Smart Match</span>,{" "}
-        <span className="font-semibold">Dispatch</span> and our industry leading
-        news letter, <span className="font-semibold">Slushwire</span>!
+      <h1 className="md:text-4xl text-2xl text-accent md:text-center text-left md:w-[80%] w-full mx-auto leading-normal">
+        Join hundreds of writers using{" "}
+        <span className="font-semibold">Write Query Hook</span> to get{" "}
+        <span className="font-semibold underline">out</span> of the query
+        trenches and <span className="font-semibold underline">onto</span> agent
+        client lists.
       </h1>
       <SignUp
         forceRedirectUrl="/profile/saved-match"

@@ -14,7 +14,7 @@ import {
   useUser,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
-import { Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import { Newspaper, NotebookPen, ScanSearch, UserPen } from "lucide-react";
 import { useClerkUser } from "../hooks/use-clerk-user";
 
 function ScrollToTop() {
@@ -85,18 +85,22 @@ const ClientNav = () => {
                   <NotebookPen className="w-4 h-4" />
                   Blog
                 </Link>
+                <Link
+                  href="/profile"
+                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
+                >
+                  <UserPen className="w-4 h-4" />
+                  Profile
+                </Link>
               </>
             )}
           </div>
 
           <div className="flex items-center gap-4">
             <SignedIn>
-              <Link
-                href="/profile"
-                className="text-sm hover:text-accent transition-all duration-300 font-medium"
-              >
-                Profile
-              </Link>
+              <div className="font-medium cursor-pointer text-sm text-black transition-all duration-300">
+                <SignOutButton />
+              </div>
               {!isSubscribed && (
                 <Link href="/subscribe">
                   <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
@@ -104,9 +108,6 @@ const ClientNav = () => {
                   </div>
                 </Link>
               )}
-              <div className="font-medium cursor-pointer text-sm p-2 px-4 rounded-md bg-white text-black hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl">
-                <SignOutButton />
-              </div>
             </SignedIn>
             <SignedOut>
               <div className="font-medium cursor-pointer text-sm text-black transition-all duration-300">

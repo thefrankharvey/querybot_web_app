@@ -1,42 +1,49 @@
+import { Button } from "@/app/ui-primitives/button";
+import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
-const TypeAnimationBlock = ({
-  setShowSecondAnimation,
-  showSecondAnimation,
-}: {
-  setShowSecondAnimation: (show: boolean) => void;
-  showSecondAnimation: boolean;
-}) => {
+const TypeAnimationBlock = () => {
   return (
-    <div className="pt-15 md:pt-20 sm:w-[90%] md:w-full lg:w-full text-left">
-      <h1 className="text-3xl md:text-[50px] font-normal leading-tight text-accent">
+    <div className="pt-15 md:pt-26 sm:w-[90%] md:w-[80%] mx-auto text-left">
+      <h1 className="text-4xl md:text-[40px] font-normal leading-tight text-accent">
         <TypeAnimation
-          className="block h-[170px] md:h-[300px] whitespace-pre-line"
+          className="block h-[50px] md:h-[60px] whitespace-pre-line"
+          speed={50}
+          sequence={[`Write Query Hook`]}
+          repeat={0}
+          style={{ fontWeight: "600" }}
+          omitDeletionAnimation={true}
+          cursor={false}
+        />
+        <TypeAnimation
+          className="block h-[220px] md:h-[80px] whitespace-pre-line"
           speed={50}
           sequence={[
-            `Smart.\n Author Focused Tools.\nQuery Smart.\nGet Signed.\nKeep Writing.`,
             1000,
-            () => setShowSecondAnimation(true),
+            `Purpose-driven tools to help writers \n query smart, find agents and get signed.`,
           ]}
           repeat={0}
           omitDeletionAnimation={true}
+          cursor={false}
         />
       </h1>
 
-      <div>
-        <p className="text-lg md:text-xl mt-8 h-[28px]">
-          {showSecondAnimation && (
-            <TypeAnimation
-              className="block h-[28px] whitespace-pre-line text-accent"
-              sequence={[`Built by Authors. Powered by Rejection.`, 0.5]}
-              repeat={0}
-              omitDeletionAnimation={true}
-              cursor={false}
-            />
-          )}
-        </p>
-      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 5 }}
+      >
+        <div className="flex justify-start w-full">
+          <Link href="/sign-up" className="w-full md:w-fit">
+            <Button className="cursor-pointer w-full md:w-fit md:text-3xl text-2xl p-8 font-semibold mt-12 shadow-lg hover:shadow-xl">
+              SIGN UP FREE
+            </Button>
+          </Link>
+        </div>
+      </motion.div>
     </div>
   );
 };
