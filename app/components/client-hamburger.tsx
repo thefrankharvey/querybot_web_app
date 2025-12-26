@@ -3,13 +3,7 @@
 import { useState } from "react";
 import { cn } from "../utils";
 import Link from "next/link";
-import {
-  SignInButton,
-  SignOutButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-} from "@clerk/nextjs";
+import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 
 export const ClientHamburger = () => {
@@ -107,18 +101,19 @@ export const ClientHamburger = () => {
             </SignedIn>
           </div>
           <SignedOut>
-            <div
-              className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
-              onClick={() => setOpen(false)}
-            >
-              <SignInButton />
-            </div>
-            <div
-              className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4"
-              onClick={() => setOpen(false)}
-            >
-              <SignUpButton />
-            </div>
+            <Link href="/sign-in" onClick={() => setOpen(false)}>
+              <div
+                className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                onClick={() => setOpen(false)}
+              >
+                Sign In
+              </div>
+            </Link>
+            <Link href="/sign-up" onClick={() => setOpen(false)}>
+              <div className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
+                Sign Up
+              </div>
+            </Link>
           </SignedOut>
         </div>
       </div>
