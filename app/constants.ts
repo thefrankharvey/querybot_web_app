@@ -89,7 +89,7 @@ export const feedDemoData = {
 export const agentDemoData = [
   {
     aala_member: "True",
-    agency: "Howard Morhaim Literary Agency Inc",
+    agency: "Harrow & Vale Literary Agency",
     agent_id: "ea50a146-dd52-4ad7-bd93-ca21f044891e",
     bio: 'Howard Morhaim Literary Agency, joined 2006, "masters degree fiction writing University of Southern Mississippi", publishing career University Press of Florida, adjunct professor New York University, represents New York Times bestselling authors, clients include Daniel M. Lavery, Madeleine Roux, Brittany Gibbons, newsletter Agents & Books',
     clients:
@@ -130,7 +130,7 @@ export const agentDemoData = [
   },
   {
     aala_member: "!missing",
-    agency: "Sandra Dijkstra Literary Agency",
+    agency: "Wrenford Literary Management",
     agent_id: "dc8d491c-2860-4e85-8169-ff410ba9f612",
     bio: "Literary agent at Sandra Dijkstra Literary Agency since 2011, Represents children’s, YA, Romance, Sci-fi/Fantasy, Focus on middle grade and YA prose and graphic novels, Adult SFF: contemporary fantasy, near future sci-fi, romantic fantasy, Romance tropes: hate-to-love, slow burn, forbidden, fake dating, grumpy/sunshine, mistaken identities, beta second male leads, Seeks high concept, fresh, character-driven stories with diverse protagonists, Interested in family, friendships, arts, STEM, activism, geeky fandoms, Fan of fanfiction style, magic, whimsy, mythology, fairytales, Likes gothic, cottagecore, dark academia, Not seeking picture books currently, Clients include NYT and Indie bestselling authors Ali Hazelwood, Thea Guanzon, Sandhya Menon, Evelyn Skye, Jessie Sima, Jessica Kim, Roshani Chokshi, K.A Reynolds, Elle Katharine White, Prefers underrepresented voices (ethnicity, sexual orientation, mental/physical health, socioeconomic status), Not interested in non-fiction, adult literary/general fiction, mystery/thriller/suspense, memoirs, poetry, religious/spiritual, screenplays, short stories, Not best fit for adult epic fantasy unless character-driven, military, alien invasion, hard sci-fi, action thriller with cops/spies/corporate espionage",
     clients:
@@ -171,7 +171,7 @@ export const agentDemoData = [
   },
   {
     aala_member: "!missing",
-    agency: "Andrew Nurnberg Associates",
+    agency: "Caldwell Orchard Literary",
     agent_id: "17b54e73-df77-4609-a59c-36ded37832c6",
     bio: 'joined ANA 2023, "focus on childrens authors", represents commercial fiction, represents narrative non-fiction, previously at The Good Literary Agency, "shortlisted Ebinehita Iyeres Girlhood, Unfiltered (Knights Of 2022)", 5-way auction for Quiet Storm by Kimberly Whittam (Usborne 2023), specializes in diverse romance, "commercial womens fiction", narrative non-fiction, popular history, upmarket suspense, psychological thrillers, contemporary middle grade and YA, passionate about diverse talent',
     clients:

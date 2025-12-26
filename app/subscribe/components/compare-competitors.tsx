@@ -64,6 +64,9 @@ export const CompareCompetitors = () => {
       </div>
 
       {/* Mobile view: single column cards while keeping columns aligned per item */}
+      <h1 className="text-[28px] md:hidden font-semibold leading-tight text-accent text-center mb-8">
+        With Us vs Without Us
+      </h1>
       <div className="w-full mx-auto grid gap-4 md:hidden">
         {items.map((item, index) => (
           <div
