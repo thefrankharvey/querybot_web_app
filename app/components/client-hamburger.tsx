@@ -101,7 +101,11 @@ export const ClientHamburger = () => {
             </SignedIn>
           </div>
           <SignedOut>
-            <Link href="/sign-in" onClick={() => setOpen(false)}>
+            <Link
+              href="/sign-in"
+              onClick={() => setOpen(false)}
+              className="w-full"
+            >
               <div
                 className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
                 onClick={() => setOpen(false)}
@@ -109,7 +113,11 @@ export const ClientHamburger = () => {
                 Sign In
               </div>
             </Link>
-            <Link href="/sign-up" onClick={() => setOpen(false)}>
+            <Link
+              href="/sign-up"
+              onClick={() => setOpen(false)}
+              className="w-full"
+            >
               <div className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
                 Sign Up
               </div>
