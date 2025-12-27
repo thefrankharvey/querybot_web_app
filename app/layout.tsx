@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Nav from "./components/nav";
+// import Nav from "./components/nav";
 import Footer from "./components/footer";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "./ui-primitives/sonner";
 import { Providers } from "./providers";
+import { SideBarNav } from "./components/side-bar-nav";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
@@ -45,9 +46,12 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${poppins.className} antialiased`}>
           <Providers>
-            <Nav />
-            <div className="max-w-screen-xl mx-auto px-4 py-0 min-h-screen">
-              {children}
+            {/* SideBarNav */}
+            <div className="flex gap-8 w-full">
+              <SideBarNav />
+              <div className="max-w-screen-xl px-4 py-0 min-h-screen">
+                {children}
+              </div>
             </div>
             <Footer />
             <Toaster />
