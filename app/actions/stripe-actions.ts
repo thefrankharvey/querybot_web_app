@@ -50,7 +50,7 @@ export async function createSubscriptionSession(
       }/profile/saved-match`,
       cancel_url: `${
         process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
-      }/`,
+      }/subscribe`,
       metadata: {
         customerId,
       },
