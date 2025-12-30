@@ -1,8 +1,12 @@
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { SaveAgentPayload, SaveAgentResponse } from "../types";
+import { useFetchAgentsList } from "./use-fetch-agents-list";
 
 export const useSaveAgent = () => {
+  const queryClient = useQueryClient();
+  const { refetch } = useFetchAgentsList();
+
   return useMutation({
     mutationFn: async (payload: SaveAgentPayload) => {
       const response = await fetch("/api/agent-matches", {
@@ -20,7 +24,8 @@ export const useSaveAgent = () => {
 
       return response.json() as Promise<SaveAgentResponse>;
     },
-    onSuccess: () => {
+    onSuccess: async () => {
+      await queryClient.invalidateQueries({ queryKey: ["agent-matches"] });
       toast.success("Agent saved successfully!", {
         description: "You can view your saved agents anytime in your profile.",
         duration: 3000,

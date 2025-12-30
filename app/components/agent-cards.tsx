@@ -1,10 +1,12 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 import { cn, formatDisplayString, formatGenres } from "../utils";
-import { AgentMatch } from "../context/agent-matches-context";
+import { AgentMatch } from "../(app)/context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
-import StarRating from "./star-rating";
+import AnimatedScoreDisplay from "./animated-score-display";
 
 export const AgentCards = ({
   agent,
@@ -19,16 +21,19 @@ export const AgentCards = ({
   id: string;
   isLoading: boolean;
 }) => {
+  const [isHovered, setIsHovered] = useState(false);
   const isDisabled = index > 2 && !isSubscribed;
 
   return (
     <div
       id={id}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
       className={cn(
         "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
         isDisabled
           ? "opacity-60"
-          : "hover:shadow-xl transition-shadow duration-300"
+          : "hover:shadow-2xl transition-shadow duration-300"
       )}
     >
       <Link
@@ -38,7 +43,7 @@ export const AgentCards = ({
         <div className="flex flex-col gap-4">
           <div className="flex justify-between">
             <Skeleton isLoading={isLoading} className="w-1/2 h-6">
-              <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
+              <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
             </Skeleton>
           </div>
           <Skeleton isLoading={isLoading} className="w-20 h-6">
@@ -50,13 +55,18 @@ export const AgentCards = ({
                 <label className="text-sm font-semibold cursor-pointer">
                   Match Score:
                 </label>
-                <div className="text-xl font-semibold flex items-center gap-1">
-                  <StarRating rateNum={agent.normalized_score} />
-                  {agent.normalized_score}
-                </div>
+                <AnimatedScoreDisplay
+                  score={agent.normalized_score}
+                  isHovered={isHovered}
+                />
               </TooltipComponent>
             </div>
           </Skeleton>
+          {agent.status && agent.status !== "closed" ? (
+            <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+              Open to Submissions
+            </span>
+          ) : null}
           <div className="flex flex-col gap-1">
             <label className="text-sm font-semibold cursor-pointer">
               Agency:
@@ -75,18 +85,6 @@ export const AgentCards = ({
               <p className="text-sm line-clamp-3">
                 {agent.favorites
                   ? formatDisplayString(agent.favorites)
-                  : "Info Unavailable"}
-              </p>
-            </Skeleton>
-          </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-semibold cursor-pointer">
-              Interests:
-            </label>
-            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
-              <p className="text-sm line-clamp-3">
-                {agent.extra_interest
-                  ? formatDisplayString(agent.extra_interest)
                   : "Info Unavailable"}
               </p>
             </Skeleton>

@@ -14,8 +14,7 @@ import {
   useUser,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
-import { Newspaper, NotebookPen, ScanSearch, UserPen } from "lucide-react";
-import { useClerkUser } from "../hooks/use-clerk-user";
+import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
 function ScrollToTop() {
   const pathname = usePathname();
@@ -60,42 +59,7 @@ const ClientNav = () => {
             className="w-[60px] h-[60px] rounded-full"
           />
         </Link>
-        <div className="hidden md:flex items-center justify-between gap-4 w-full">
-          <div className="flex items-center gap-4 ml-8">
-            {isSignedIn && (
-              <>
-                <Link
-                  href="/smart-match"
-                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
-                >
-                  <ScanSearch className="w-4 h-4" />
-                  Smart Match
-                </Link>
-                <Link
-                  href="/dispatch"
-                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
-                >
-                  <Newspaper className="w-4 h-4" />
-                  Dispatch
-                </Link>
-                <Link
-                  href="/blog"
-                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
-                >
-                  <NotebookPen className="w-4 h-4" />
-                  Blog
-                </Link>
-                <Link
-                  href="/profile"
-                  className="text-sm hover:text-accent transition-all duration-300 flex gap-1 items-center font-medium"
-                >
-                  <UserPen className="w-4 h-4" />
-                  Profile
-                </Link>
-              </>
-            )}
-          </div>
-
+        <div className="hidden md:flex items-center justify-end gap-4 w-full">
           <div className="flex items-center gap-4">
             <SignedIn>
               <div className="font-medium cursor-pointer text-sm text-black transition-all duration-300">

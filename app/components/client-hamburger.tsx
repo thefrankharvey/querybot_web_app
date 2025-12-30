@@ -42,7 +42,7 @@ export const ClientHamburger = () => {
       </button>
       <div
         className={cn(
-          "absolute inset-0 w-screen h-[100vh] transition-opacity duration-300 bg-background z-50 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
+          "absolute inset-0 w-screen h-[100vh] transition-opacity duration-300 bg-background z-99 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
@@ -52,7 +52,7 @@ export const ClientHamburger = () => {
           <SignedIn>
             <Link
               onClick={() => setOpen(false)}
-              href="/profile/saved-match"
+              href="/saved-agents"
               className="text-xl w-full text-center py-2"
             >
               Profile
