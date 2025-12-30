@@ -1,6 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
-import { AgentMatch } from "./context/agent-matches-context";
+import { AgentMatch } from "./(app)/context/agent-matches-context";
 import { sanitizeWordPressHtml } from "@/lib/wp";
 
 // HELPER UTILS ========================================================
