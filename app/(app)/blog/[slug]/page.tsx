@@ -52,7 +52,7 @@ export default async function BlogPostPage({
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
   } satisfies BlogPostingJsonLd;
   return (
-    <main className="w-full md:mx-auto md:max-w-5xl py-10">
+    <main className="w-full md:mx-auto md:max-w-5xl py-10 pt-19">
       <Link
         href="/blog"
         className="flex items-center gap-2 hover:text-accent transition-colors duration-300 mb-4"
