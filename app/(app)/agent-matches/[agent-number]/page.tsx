@@ -16,7 +16,6 @@ import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import Contact from "./components/contact";
-import { useSaveAgent } from "@/app/hooks/use-save-agent";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
 
@@ -24,14 +23,13 @@ const AgentProfile = () => {
   const params = useParams();
   const { isSubscribed, isLoading } = useClerkUser();
   const matchesContext = useAgentMatches();
-  const { addAgent } = useProfileContext();
   const matches = useMemo(
     () => matchesContext?.matches || [],
     [matchesContext?.matches]
   );
   const [agent, setAgent] = useState<AgentMatch | null>(null);
 
-  const { mutate: saveAgent, isPending } = useSaveAgent();
+  const { saveAgent, isSaving } = useProfileContext();
 
   useEffect(() => {
     if (matches.length > 0) {
@@ -50,7 +48,7 @@ const AgentProfile = () => {
     );
   }
 
-  const handleSaveAgent = () => {
+  const handleSaveAgent = async () => {
     const payload = {
       name: agent.name,
       email: agent.email || null,
@@ -61,8 +59,7 @@ const AgentProfile = () => {
       pub_marketplace: agent.pubmarketplace || null,
       match_score: agent.normalized_score || null,
     };
-    addAgent(agent.agent_id || "");
-    saveAgent(payload);
+    await saveAgent(payload);
   };
 
   const hasContactInfo =
@@ -100,10 +97,10 @@ const AgentProfile = () => {
           <Button
             className="text-sm shadow-lg hover:shadow-xl"
             onClick={handleSaveAgent}
-            disabled={isPending}
+            disabled={isSaving}
           >
             <div className="flex items-center gap-2">
-              {isPending && <Spinner />}
+              {isSaving && <Spinner />}
               <span>Save Agent</span>
             </div>
           </Button>
