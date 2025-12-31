@@ -25,7 +25,6 @@ import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
-import TypeForm from "@/app/components/type-form";
 import { Spinner } from "../../components/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
