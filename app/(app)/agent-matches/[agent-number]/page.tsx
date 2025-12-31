@@ -11,7 +11,6 @@ import {
 } from "@/app/(app)/context/agent-matches-context";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
-import TypeForm from "@/app/components/type-form";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";

@@ -153,7 +153,7 @@ export const SideBarNav = () => {
                         >
                           <h3
                             className={cn(
-                              "text-sm font-medium transition-colors duration-300 hover:text-accent px-3 py-2 rounded-md capitalize",
+                              "text-sm font-medium transition-colors duration-300 hover:text-accent pr-3 pl-[25px] py-2 rounded-md capitalize max-w-[160px] truncate hover:bg-accent/10",
                               pathname.includes(
                                 `/saved-agents/${agent.index_id}`
                               )

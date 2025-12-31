@@ -40,16 +40,13 @@ const ListItem = ({
   return (
     <div
       style={style}
-      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent"
+      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent/10"
       onClick={() => onItemSelect(option.value)}
     >
       <Check
-        className={cn(
-          "mr-2 h-4 w-4 group-hover:text-white",
-          isSelected ? "opacity-100" : "opacity-0"
-        )}
+        className={cn("mr-2 h-4 w-4", isSelected ? "opacity-100" : "opacity-0")}
       />
-      <span className="truncate group-hover:text-white">{option.label}</span>
+      <span className="truncate">{option.label}</span>
     </div>
   );
 };
@@ -113,7 +110,7 @@ export default function InfiniteMultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={`flex-1 md:w-[495px] justify-between bg-white h-fit hover:text-white`}
+          className={`flex-1 md:w-[555px] justify-between bg-white h-fit`}
         >
           <div className="flex gap-2 justify-start flex-wrap">
             {value?.length
@@ -130,7 +127,7 @@ export default function InfiniteMultiSelect({
           <ChevronDownIcon className="size-4 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className={`w-[280px] md:w-[495px] p-0`}>
+      <PopoverContent className={`w-[280px] md:w-[555px] p-0`}>
         <div className="flex flex-col">
           {/* Search Input */}
           <div className="p-2 border-b">
