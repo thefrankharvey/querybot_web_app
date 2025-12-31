@@ -188,9 +188,11 @@ export const SideBarNav = () => {
             >
               Account
             </Link>
-            <div className="font-medium px-3 py-2 cursor-pointer text-sm text-black transition-all duration-300 hover:text-accent hover:bg-accent/10 rounded-md">
-              <SignOutButton />
-            </div>
+            <SignOutButton>
+              <div className="font-medium px-3 py-2 cursor-pointer text-sm text-black transition-all duration-300 hover:text-accent hover:bg-accent/10 rounded-md">
+                Sign out
+              </div>
+            </SignOutButton>
           </nav>
         </aside>
       </div>
