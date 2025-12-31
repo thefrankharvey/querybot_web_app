@@ -61,7 +61,8 @@ export const AnimatedScoreDisplay = ({
       setDisplayScore(targetScore);
       setIsAnimating(false);
     }
-  }, [isHovered, targetScore, animateScore, stopAnimation]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isHovered]);
 
   // Sync displayScore when targetScore changes
   useEffect(() => {
