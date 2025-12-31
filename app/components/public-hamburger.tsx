@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 
-export const ClientHamburger = () => {
+export const PublicHamburger = () => {
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
   return (
@@ -48,52 +48,35 @@ export const ClientHamburger = () => {
             : "opacity-0 invisible pointer-events-none"
         )}
       >
-        <div className="flex flex-col gap-4 items-center w-full h-full overflow-y-auto">
+        <div className="flex flex-col items-center w-full h-full overflow-y-auto">
           <SignedIn>
-            <Link
-              onClick={() => setOpen(false)}
-              href="/saved-agents"
-              className="text-xl w-full text-center py-2"
-            >
-              Profile
-            </Link>
-            <Link
-              onClick={() => setOpen(false)}
-              href="/smart-match"
-              className="text-xl w-full text-center py-2"
-            >
-              Smart Match
-            </Link>
-            <Link
-              onClick={() => setOpen(false)}
-              href="/dispatch"
-              className="text-xl w-full text-center py-2"
-            >
-              Dispatch
-            </Link>
-            <Link
-              onClick={() => setOpen(false)}
-              href="/blog"
-              className="text-xl w-full text-center py-2"
-            >
-              Blog
-            </Link>
-            {!isSubscribed && (
+            {!isSubscribed ? (
               <Link
                 onClick={() => setOpen(false)}
                 href="/subscribe"
-                className="text-xl w-full text-center py-2"
+                className="text-base w-full text-center"
               >
-                <div className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
+                <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
                   Subscribe
+                </div>
+              </Link>
+            ) : (
+              <Link
+                onClick={() => setOpen(false)}
+                href="/saved-agents"
+                className="text-base w-full text-center"
+              >
+                <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
+                  Go to App
                 </div>
               </Link>
             )}
           </SignedIn>
-          <div className="flex justify-center items-center gap-8 w-full md:w-fit mt-10">
+          <div className="flex justify-center flex-col items-center gap-8 w-full md:w-fit mt-10">
+            <hr className="w-full border-t-1 border-accent/10 md:hidden" />
             <SignedIn>
               <div
-                className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
                 onClick={() => setOpen(false)}
               >
                 <SignOutButton />
@@ -107,7 +90,7 @@ export const ClientHamburger = () => {
               className="w-full"
             >
               <div
-                className="cursor-pointer text-xl text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
                 onClick={() => setOpen(false)}
               >
                 Sign In
@@ -118,7 +101,7 @@ export const ClientHamburger = () => {
               onClick={() => setOpen(false)}
               className="w-full"
             >
-              <div className="cursor-pointer text-xl p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
+              <div className="cursor-pointer text-base font-medium p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
                 Sign Up
               </div>
             </Link>
@@ -129,4 +112,4 @@ export const ClientHamburger = () => {
   );
 };
 
-export default ClientHamburger;
+export default PublicHamburger;

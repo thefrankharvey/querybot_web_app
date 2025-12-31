@@ -217,7 +217,7 @@ export default function AgentProfilePage() {
   return (
     <AgentMatchesProvider>
       <AgentProfile />
-      <TypeForm />
+      {/* <TypeForm /> */}
     </AgentMatchesProvider>
   );
 }

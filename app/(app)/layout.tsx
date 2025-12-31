@@ -9,8 +9,11 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <ProfileProvider>
       {/* Mobile header */}
-      <div className="items-center justify-between max-w-screen-xl mx-auto p-4 w-full fixed top-0 md:hidden sm:flex z-50 bg-white">
-        <Link href="/" className="text-xl font-semibold text-black">
+      <div className="flex items-center justify-between max-w-screen-xl mx-auto p-4 w-full top-0 md:hidden z-50">
+        <Link
+          href="/"
+          className="text-xl font-semibold text-black w-[60px] h-[60px]"
+        >
           <Image
             src="/wqh-logo.png"
             alt="logo"
@@ -19,7 +22,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             className="w-[60px] h-[60px] rounded-full"
           />
         </Link>
-        <Hamburger />
+        <Hamburger isApp={true} />
       </div>
 
       {/* Main content wrapper - sidebar + content */}

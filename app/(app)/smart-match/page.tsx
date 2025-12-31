@@ -262,7 +262,7 @@ export default function SmartMatchPage() {
   return (
     <AgentMatchesProvider>
       <SmartMatch />
-      <TypeForm />
+      {/* <TypeForm /> */}
     </AgentMatchesProvider>
   );
 }

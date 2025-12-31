@@ -13,6 +13,8 @@ export const WQH_PROD_API_URL = "https://querybot-api.onrender.com/";
 
 export const WQH_API_URL = WQH_DEV_API_URL;
 
+export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
+
 // Kit subscriber tag constants following workspace naming convention
 export const KIT_SUBSCRIBER_TAGS = {
   FREE_SUBSCRIBER: "Free Subscriber",
@@ -243,7 +245,10 @@ export const genreOptions = [
   { value: "philosophy", label: "Philosophy" },
   { value: "picture-book", label: "Picture Book" },
   { value: "poetry", label: "Poetry" },
-  { value: "politics-and-social-sciences", label: "Politics and Social Sciences" },
+  {
+    value: "politics-and-social-sciences",
+    label: "Politics and Social Sciences",
+  },
   { value: "religion-and-spirituality", label: "Religion and Spirituality" },
   { value: "romance", label: "Romance" },
   { value: "science", label: "Science" },
@@ -366,7 +371,10 @@ export const subgenreOptions = [
   { value: "police-procedural", label: "Police Procedural" },
   { value: "political-fiction", label: "Political Fiction" },
   { value: "political-thriller", label: "Political Thriller" },
-  { value: "politics-and-social-sciences", label: "Politics and Social Sciences" },
+  {
+    value: "politics-and-social-sciences",
+    label: "Politics and Social Sciences",
+  },
   { value: "popular-science", label: "Popular Science" },
   { value: "post-apocalyptic", label: "Post-Apocalyptic" },
   { value: "psychological", label: "Psychological" },

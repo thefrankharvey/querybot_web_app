@@ -111,7 +111,7 @@ export const AgentMatchesFull = () => {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-      <TypeForm />
+      {/* <TypeForm /> */}
     </>
   );
 };
