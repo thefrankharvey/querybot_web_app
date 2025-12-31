@@ -61,7 +61,7 @@ export const AnimatedScoreDisplay = ({
       setDisplayScore(targetScore);
       setIsAnimating(false);
     }
-  }, [isHovered]);
+  }, [isHovered, targetScore, animateScore, stopAnimation]);
 
   // Sync displayScore when targetScore changes
   useEffect(() => {
