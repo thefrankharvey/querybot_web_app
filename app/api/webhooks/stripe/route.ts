@@ -55,21 +55,17 @@ export async function POST(req: NextRequest) {
         );
 
         if (customer.deleted) {
-          console.error("Customer was deleted");
-          return NextResponse.json(
-            { error: "Customer not found" },
-            { status: 404 }
-          );
+          // Customer already deleted - nothing we can do, acknowledge the webhook
+          console.log("Customer was deleted, acknowledging webhook");
+          return NextResponse.json({ received: true }, { status: 200 });
         }
 
         const clerkUserId = customer.metadata?.clerkUserId;
 
         if (!clerkUserId) {
+          // No Clerk user ID - can't update, but acknowledge to prevent retries
           console.error("No Clerk user ID found in customer metadata");
-          return NextResponse.json(
-            { error: "Clerk user ID not found" },
-            { status: 400 }
-          );
+          return NextResponse.json({ received: true }, { status: 200 });
         }
 
         // Check if subscription is active
@@ -102,19 +98,17 @@ export async function POST(req: NextRequest) {
         );
 
         if (customer.deleted) {
-          return NextResponse.json(
-            { error: "Customer not found" },
-            { status: 404 }
-          );
+          // Customer already deleted - nothing we can do, acknowledge the webhook
+          console.error("Customer was deleted, acknowledging webhook");
+          return NextResponse.json({ received: true }, { status: 200 });
         }
 
         const clerkUserId = customer.metadata?.clerkUserId;
 
         if (!clerkUserId) {
-          return NextResponse.json(
-            { error: "Clerk user ID not found" },
-            { status: 400 }
-          );
+          // No Clerk user ID - can't update, but acknowledge to prevent retries
+          console.error("No Clerk user ID found in customer metadata");
+          return NextResponse.json({ received: true }, { status: 200 });
         }
 
         const result = await updateUserSubscriptionStatus(clerkUserId, false);
