@@ -51,7 +51,7 @@ export const SideBarNav = () => {
   };
 
   return (
-    <div className="w-[200px] shrink-0 pt-12 ml-8 sticky top-0 self-start h-fit hidden md:block">
+    <div className="w-[180px] shrink-0 pt-12 ml-8 sticky top-0 self-start h-fit hidden md:block">
       <Link href="/" className="text-xl font-semibold text-black">
         <Image
           src="/wqh-logo.png"
@@ -62,7 +62,7 @@ export const SideBarNav = () => {
         />
       </Link>
       <div className="w-full flex flex-col md:flex-row">
-        <aside className="w-full md:sticky md:top-24 h-full md:max-w-[200px]">
+        <aside className="w-full md:sticky md:top-24 h-full md:max-w-[180px]">
           <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">
             {!isSubscribed && (
               <Link href="/subscribe">
@@ -111,14 +111,14 @@ export const SideBarNav = () => {
             <Accordion
               type="single"
               collapsible
-              className="w-full md:w-fit"
+              className="w-full"
               value={accordionValue}
               onValueChange={handleAccordionChange}
             >
               <AccordionItem value="saved-agentses">
                 <AccordionTrigger
                   className={cn(
-                    "underline-none flex flex-row items-center justify-between text-sm font-medium transition-colors duration-300 px-3 py-2 rounded-md hover:text-accent hover:bg-accent/10",
+                    "underline-none flex flex-row items-center w-full justify-between text-sm font-medium transition-colors duration-300 px-3 py-2 rounded-md hover:text-accent hover:bg-accent/10",
                     pathname.includes("saved-agents")
                       ? "text-accent bg-accent/10"
                       : "text-black"
