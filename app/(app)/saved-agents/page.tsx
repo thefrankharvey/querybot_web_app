@@ -20,7 +20,7 @@ const SavedAgents = () => {
 
   if (isLoading || (agentsList && agentsList.length > 0)) {
     return (
-      <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-4">
+      <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13">
         <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg h-[500px] justify-center items-center">
           <Spinner className="size-16" />
         </div>
@@ -29,7 +29,7 @@ const SavedAgents = () => {
   }
 
   return (
-    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-4">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13">
       {/* <ActionCards /> */}
       <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg h-[500px] justify-center items-center">
         <div className="text-center space-y-6 max-auto">

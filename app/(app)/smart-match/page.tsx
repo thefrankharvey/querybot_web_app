@@ -25,7 +25,7 @@ import Email from "./components/email";
 import Format from "./components/format";
 import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
-import { Spinner } from "../../components/spinner";
+import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
 export type FormState = {
@@ -167,7 +167,7 @@ const SmartMatch = () => {
   if (isLoading) {
     return (
       <div className="pt-20 flex justify-center items-center">
-        <Spinner size={100} />
+        <Spinner className="size-16" />
       </div>
     );
   }
@@ -175,8 +175,8 @@ const SmartMatch = () => {
   return (
     <div>
       {queryMutation.isPending && (
-        <div className="flex flex-col items-center md:w-[700px] md:mx-auto h-[700px] mt-10">
-          <Spinner size={200} />
+        <div className="flex flex-col items-center md:w-[700px] md:mx-auto h-[700px] mt-40">
+          <Spinner className="size-24" />
           <p className="mt-4 text-lg font-semibold">Searching for agents...</p>
         </div>
       )}
