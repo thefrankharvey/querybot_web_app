@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ArrowLeft, ScanSearch } from "lucide-react";
+import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
 // import { formatComps, formatThemes } from "../utils";
 import {
