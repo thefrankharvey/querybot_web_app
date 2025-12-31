@@ -16,8 +16,7 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { ScanSearch, Newspaper, NotebookPen } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
-
-const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
+import { ACCORDION_STORAGE_KEY } from "../constants";
 
 export const SideBarNav = () => {
   const pathname = usePathname();

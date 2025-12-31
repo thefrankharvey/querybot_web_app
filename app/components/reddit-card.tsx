@@ -20,7 +20,9 @@ const RedditCard = ({ post }: { post: RedditPost }) => {
               alt="reddit icon"
             />
           </div>
-          <h3 className="text-sm line-clamp-1 px-1">{post.headline}</h3>
+          <h3 className="text-sm px-1 max-w-[280px] md:max-w-full truncate">
+            {post.headline}
+          </h3>
         </div>
       </Link>
       <div
@@ -29,9 +31,13 @@ const RedditCard = ({ post }: { post: RedditPost }) => {
       >
         <h3 className="text-base font-semibold"></h3>
         {!openAccordion ? (
-          <p className="line-clamp-3">{post.content}</p>
+          <p className="line-clamp-3 break-words max-w-[320px] md:max-w-full word-wrap">
+            {post.content}
+          </p>
         ) : (
-          <p>{post.content}</p>
+          <p className="break-words max-w-[320px] md:max-w-full word-wrap">
+            {post.content}
+          </p>
         )}
       </div>
     </div>
