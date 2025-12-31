@@ -33,26 +33,25 @@ const ExplanationBlock = () => {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
                 <div>
-                  <strong>View results</strong>
-                  <br /> - Your results will show up in a few seconds. The
-                  results are scored based on how well an agent matches with the
-                  entries in the form you submitted. Click the agent card to see
-                  the agent&apos;s details.
+                  <span className="font-semibold">View results</span>
+                  <br /> - The results are scored based on how well an agent
+                  matches with the entries in the form you submitted. Click the
+                  agent card to see the agent&apos;s details.
                 </div>
               </li>
 
               <li className="flex items-start">
                 <div>
-                  <strong>Download results</strong>
-                  <br /> - You can download the results from each page by
-                  clicking the download button. This will download a spreadsheet
-                  of your results that you can use.
+                  <span className="font-semibold">Query Spreadsheet</span>
+                  <br /> - You can download the results from each page in a
+                  formatted spreadsheet that you can use during your query
+                  process.
                 </div>
               </li>
 
               <li className="flex items-start">
                 <div>
-                  <strong>Give us honest feedback</strong>
+                  <span className="font-semibold">Give us honest feedback</span>
                   <br /> - please click the feedback button and let us know what
                   works, what doesn&apos;t, what was missing, what would make
                   you fall in love with our platform, pretty please? You&apos;ll
@@ -63,9 +62,11 @@ const ExplanationBlock = () => {
 
               <li className="flex items-start">
                 <div>
-                  <strong>Have anything else to say?</strong>
+                  <span className="font-semibold">
+                    Have anything else to say?
+                  </span>
                   <br />{" "}
-                  <div className="text-blue-800 font-semibold">
+                  <div className="text-accent/70 font-semibold hover:text-accent">
                     <CopyToClipboard text="feedback@writequeryhook.com" />
                   </div>
                 </div>

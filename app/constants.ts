@@ -22,6 +22,12 @@ export const KIT_SUBSCRIBER_TAGS = {
   FORMER_SUBSCRIBER: "Former Subscriber",
 } as const;
 
+export const agentStatusOptions = [
+  { value: "all", label: "All Submission Statuses" },
+  { value: "open-to-submissions", label: "Open to Submissions" },
+  { value: "closed-to-submissions", label: "Closed to Submissions" },
+] as const;
+
 export const feedDemoData = {
   bluesky: {
     author_did: "did:plc:336qirp5agd3agd7u4uynocv",

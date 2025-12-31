@@ -116,7 +116,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
                 </span>
               ) : null}
             </div>
-            <div className="text-xl font-semibold flex flex-col gap-1 mt-8 md:mt-0">
+            <div className="text-xl font-semibold flex flex-col mt-8 md:mt-0">
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
                 className="w-fit"

@@ -48,7 +48,7 @@ export default function MultiSelect({
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className={`flex-1 md:w-[495px] justify-between bg-white h-fit hover:text-white`}
+          className={`flex-1 md:w-[555px] justify-between bg-white h-fit`}
         >
           <div className="flex gap-2 justify-start flex-wrap">
             {value?.length
@@ -65,7 +65,7 @@ export default function MultiSelect({
           <ChevronDownIcon className="size-4 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className={`w-[280px] md:w-[495px] p-0`}>
+      <PopoverContent className={`w-[280px] md:w-[555px] p-0`}>
         <Command>
           <CommandInput placeholder={`Search ${optionTitle}...`} />
           <CommandEmpty>No {optionTitle} found.</CommandEmpty>

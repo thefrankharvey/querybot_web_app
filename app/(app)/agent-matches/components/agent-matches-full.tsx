@@ -11,7 +11,6 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/app/ui-primitives/pagination";
-import TypeForm from "@/app/components/type-form";
 
 export const AgentMatchesFull = () => {
   const {

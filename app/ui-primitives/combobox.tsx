@@ -43,7 +43,7 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
             variant="outline"
             role="combobox"
             aria-expanded={open}
-            className="flex-1 md:w-[495px] justify-between bg-white hover:text-white"
+            className="flex-1 md:w-[555px] justify-between bg-white"
           >
             {value
               ? options.find((option) => option.value === value)?.label
@@ -51,7 +51,7 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
             <ChevronDownIcon className="size-4 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[280px] md:w-[495px] p-0">
+        <PopoverContent className="w-[280px] md:w-[555px] p-0">
           <Command>
             <CommandInput
               placeholder={`Search ${optionTitle}...`}
