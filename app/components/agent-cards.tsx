@@ -7,6 +7,8 @@ import { AgentMatch } from "../(app)/context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
 import AnimatedScoreDisplay from "./animated-score-display";
+import { useProfileContext } from "../(app)/context/profile-context";
+import { Heart } from "lucide-react";
 
 export const AgentCards = ({
   agent,
@@ -21,6 +23,7 @@ export const AgentCards = ({
   id: string;
   isLoading: boolean;
 }) => {
+  const { agentsList } = useProfileContext();
   const [isHovered, setIsHovered] = useState(false);
   const isDisabled = index > 2 && !isSubscribed;
 
@@ -45,6 +48,10 @@ export const AgentCards = ({
             <Skeleton isLoading={isLoading} className="w-1/2 h-6">
               <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
             </Skeleton>
+            {agentsList &&
+              agentsList.find((a) => a.index_id === agent.agent_id) && (
+                <Heart className="w-6 h-6 text-accent" />
+              )}
           </div>
           <Skeleton isLoading={isLoading} className="w-20 h-6">
             <div className="flex flex-col items-start gap-1 w-fit">

@@ -17,6 +17,8 @@ import { ScanSearch, Newspaper, NotebookPen } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 
+const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
+
 export const SideBarNav = () => {
   const pathname = usePathname();
   const { agentsList, isLoading } = useProfileContext();
@@ -24,14 +26,30 @@ export const SideBarNav = () => {
   const [accordionValue, setAccordionValue] = useState<string | undefined>(
     undefined
   );
+  const [hasLoadedFromStorage, setHasLoadedFromStorage] = useState(false);
 
   useEffect(() => {
-    if (agentsList && agentsList.length > 0) {
-      setAccordionValue("saved-agents");
+    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
+    if (saved !== null) {
+      setAccordionValue(saved === "open" ? "saved-agents" : undefined);
     }
-  }, [agentsList]);
+    setHasLoadedFromStorage(true);
+  }, []);
 
-  console.log({ agentsList });
+  useEffect(() => {
+    if (!hasLoadedFromStorage) return;
+
+    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
+    if (saved === null && agentsList && agentsList.length > 0) {
+      setAccordionValue("saved-agents");
+      localStorage.setItem(ACCORDION_STORAGE_KEY, "open");
+    }
+  }, [agentsList, hasLoadedFromStorage]);
+
+  const handleAccordionChange = (value: string | undefined) => {
+    setAccordionValue(value);
+    localStorage.setItem(ACCORDION_STORAGE_KEY, value ? "open" : "closed");
+  };
 
   return (
     <div className="w-[200px] shrink-0 pt-12 ml-8 sticky top-0 self-start h-fit hidden md:block">
@@ -96,7 +114,7 @@ export const SideBarNav = () => {
               collapsible
               className="w-full md:w-fit"
               value={accordionValue}
-              onValueChange={setAccordionValue}
+              onValueChange={handleAccordionChange}
             >
               <AccordionItem value="saved-agentses">
                 <AccordionTrigger
