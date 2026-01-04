@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Newspaper,
-  NotebookPen,
-  Save,
-  ScanSearch,
-  UserPen,
-} from "lucide-react";
+import { Newspaper, NotebookPen, Save, ScanSearch } from "lucide-react";
 import { motion } from "framer-motion";
 
 const productsData = [
