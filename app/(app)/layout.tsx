@@ -27,7 +27,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       {/* Main content wrapper - sidebar + content */}
       <div className="flex max-w-screen-2xl mx-auto">
         <SideBarNav />
-        <main className="md:px-0 px-4 min-h-screen flex-1 pt-14">
+        <main className="md:px-0 px-4 min-h-screen flex-1 pt-15">
           {children}
         </main>
       </div>
