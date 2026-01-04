@@ -8,7 +8,6 @@ import Footer from "../components/footer";
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <ProfileProvider>
-      {/* Mobile header */}
       <div className="flex items-center justify-between max-w-screen-xl mx-auto p-4 w-full top-0 md:hidden z-50">
         <Link
           href="/"
