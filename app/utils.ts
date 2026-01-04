@@ -739,7 +739,7 @@ export function formatSlushWeeklyContentAlt(html: string): string {
   // Style daily date headings (e.g., "Monday – November 03", "Saturday – November 01")
   processedContent = processedContent.replace(
     /<h2>((Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*[–\-]\s*(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(,?\s*\d{4})?)<\/h2>/gi,
-    '<h2 class="text-lg font-medium border border-black rounded-lg p-2.5 m-2.5 mb-[30px]">$1</h2>'
+    '<h2 class="text-lg text-center font-medium border border-black rounded-lg p-2.5 mx-0 my-2.5 mb-[30px] box-border">$1</h2>'
   );
 
   // Replace any alien emoji marker in agent sections

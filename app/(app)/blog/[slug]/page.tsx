@@ -60,7 +60,7 @@ export default async function BlogPostPage({
         <ArrowLeft className="w-6 h-6" />
         <h2 className="text-md font-medium">Back</h2>
       </Link>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
+      <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4 overflow-hidden">
         {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
         post.title.includes("SlushWire Weekly") ? (
           <SlushwireWeeklyPost

@@ -61,7 +61,7 @@ const SlushwireWeeklyPost = ({
     : processSlushwireContent(contentHtml, post.excerpt);
 
   return (
-    <article className="prose dark:prose-invert">
+    <article className="prose dark:prose-invert max-w-none w-full">
       <h1 className="text-xl md:text-2xl font-semibold mb-10 mt-4 leading-tight break-words text-center">
         {post.title}
       </h1>
@@ -70,13 +70,13 @@ const SlushwireWeeklyPost = ({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <figure className="not-prose my-6">
+      <figure className="not-prose my-6 w-full">
         <Image
           src={"/slushwire-weekly.png"}
           alt={"Slushwire Weekly Post"}
           width={1200}
           height={630}
-          className="w-full rounded"
+          className="w-full max-w-full rounded"
           sizes="(max-width: 768px) 100vw, 768px"
           priority
         />
@@ -85,7 +85,10 @@ const SlushwireWeeklyPost = ({
       {/* Render styled alerts if found */}
       {alertsData && <StyledAlerts alertsData={alertsData} />}
 
-      <div dangerouslySetInnerHTML={{ __html: processedContent }} />
+      <div
+        className="w-full max-w-full [&_*]:max-w-full [&_h2]:box-border [&_a]:break-all"
+        dangerouslySetInnerHTML={{ __html: processedContent }}
+      />
     </article>
   );
 };
