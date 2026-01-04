@@ -1,5 +1,11 @@
 import React from "react";
-import { Newspaper, NotebookPen, ScanSearch, UserPen } from "lucide-react";
+import {
+  Newspaper,
+  NotebookPen,
+  Save,
+  ScanSearch,
+  UserPen,
+} from "lucide-react";
 import { motion } from "framer-motion";
 
 const productsData = [
@@ -22,8 +28,8 @@ const productsData = [
       "Get a weekly briefing of curated industry intel delivered straight to your inbox.",
   },
   {
-    title: "Profile",
-    icon: <UserPen className="w-6 h-6 text-accent" />,
+    title: "Save Agent Matches",
+    icon: <Save className="w-6 h-6 text-accent" />,
     description:
       "Save your favorite agent matches for quick access during the query process.",
   },
