@@ -2,7 +2,13 @@ import React from "react";
 import { Feed } from "./components/feed";
 import { Newspaper } from "lucide-react";
 import { formatDisplayString, urlFormatter } from "@/app/utils";
-import { Blips, FlattenedSlushFeed, FeedItem } from "@/app/types";
+import {
+  Blips,
+  FlattenedSlushFeed,
+  FeedItem,
+  BlueskyPost,
+  RedditPost,
+} from "@/app/types";
 import { WQH_API_URL } from "@/app/constants";
 
 const Dispatch = async () => {
@@ -38,14 +44,14 @@ const Dispatch = async () => {
 
     // Add bluesky posts
     if (Array.isArray(data.bluesky)) {
-      data.bluesky.forEach((post: any) => {
+      data.bluesky.forEach((post: BlueskyPost) => {
         flattenedFeed.push({ type: "bluesky", data: post });
       });
     }
 
     // Add reddit posts
     if (Array.isArray(data.reddit)) {
-      data.reddit.forEach((post: any) => {
+      data.reddit.forEach((post: RedditPost) => {
         flattenedFeed.push({ type: "reddit", data: post });
       });
     }
