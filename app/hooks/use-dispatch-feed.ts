@@ -3,8 +3,15 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { Blips, FeedItem, FlattenedSlushFeed } from "../types";
 import { formatDisplayString, urlFormatter } from "../utils";
+import { useMemo } from "react";
 
 const LIMIT = 10;
+
+type FilterState = {
+  showAgentInfo: boolean;
+  showReddit: boolean;
+  showBluesky: boolean;
+};
 
 const formatBlips = (blip: Blips): Blips => {
   return {
@@ -48,7 +55,26 @@ const fetchDispatchFeed = async (
   return formatted;
 };
 
-export const useDispatchFeed = (initialData?: FlattenedSlushFeed) => {
+const itemMatchesFilters = (item: FeedItem, filters: FilterState): boolean => {
+  if (item.type === "bluesky" && filters.showBluesky) {
+    return true;
+  }
+  if (item.type === "reddit" && filters.showReddit) {
+    return true;
+  }
+  if (
+    (item.type === "new_opening" || item.type === "agent_activity") &&
+    filters.showAgentInfo
+  ) {
+    return true;
+  }
+  return false;
+};
+
+export const useDispatchFeed = (
+  initialData?: FlattenedSlushFeed,
+  filters?: FilterState
+) => {
   const {
     data,
     fetchNextPage,
@@ -61,9 +87,26 @@ export const useDispatchFeed = (initialData?: FlattenedSlushFeed) => {
     queryFn: ({ pageParam }) => fetchDispatchFeed(pageParam),
     initialPageParam: 0,
     getNextPageParam: (lastPage, allPages) => {
-      const hasMoreData = lastPage.length > 0;
-      const nextOffset = hasMoreData ? allPages.length * LIMIT : undefined;
-      return nextOffset;
+      if (lastPage.length === 0) {
+        return undefined;
+      }
+
+      if (
+        !filters ||
+        (filters.showAgentInfo && filters.showReddit && filters.showBluesky)
+      ) {
+        return allPages.length * LIMIT;
+      }
+
+      const hasMatchingItems = lastPage.some((item) =>
+        itemMatchesFilters(item, filters)
+      );
+
+      if (!hasMatchingItems) {
+        return undefined;
+      }
+
+      return allPages.length * LIMIT;
     },
     initialData: initialData
       ? {
@@ -71,7 +114,7 @@ export const useDispatchFeed = (initialData?: FlattenedSlushFeed) => {
           pageParams: [0],
         }
       : undefined,
-    enabled: !initialData, // prevent duplicate first fetch when SSR data is provided
+    enabled: !initialData,
     refetchOnMount: false,
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
@@ -83,6 +126,29 @@ export const useDispatchFeed = (initialData?: FlattenedSlushFeed) => {
     data?.pages.reduce((acc, page) => [...acc, ...page], [] as FeedItem[]) ??
     [];
 
+  // Check if we stopped due to no matching results in the filter
+  const stoppedDueToFilters = useMemo(() => {
+    if (!filters || !data?.pages || data.pages.length === 0) {
+      return false;
+    }
+
+    // Only check if at least one filter is disabled
+    const hasActiveFilters =
+      !filters.showAgentInfo || !filters.showReddit || !filters.showBluesky;
+
+    if (!hasActiveFilters) {
+      return false;
+    }
+
+    const lastPage = data.pages[data.pages.length - 1];
+    // We stopped due to filters if the last page has data but no matching items
+    return (
+      lastPage.length > 0 &&
+      !lastPage.some((item) => itemMatchesFilters(item, filters)) &&
+      !hasNextPage
+    );
+  }, [data?.pages, filters, hasNextPage]);
+
   return {
     data: flattenedData,
     isLoading,
@@ -90,5 +156,6 @@ export const useDispatchFeed = (initialData?: FlattenedSlushFeed) => {
     hasMore: hasNextPage ?? false,
     isError,
     fetchMore: fetchNextPage,
+    stoppedDueToFilters,
   };
 };
