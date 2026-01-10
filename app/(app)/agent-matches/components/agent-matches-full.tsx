@@ -26,13 +26,16 @@ export const AgentMatchesFull = () => {
 
   const queryMutation = useMutation({
     mutationFn: async (params: { formData: FormData; nextCursor: number }) => {
-      const res = await fetch(`/api/query?last_index=${params.nextCursor}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(params.formData),
-      });
+      const res = await fetch(
+        `/api/get-agents-paid?last_index=${params.nextCursor}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(params.formData),
+        }
+      );
 
       if (!res.ok) {
         throw new Error(`Request failed: ${res.status}`);

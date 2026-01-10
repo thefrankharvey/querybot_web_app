@@ -34,6 +34,7 @@ export const AgentMatchesInner = ({
             <h2 className="text-md font-medium">Back</h2>
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+            <StatusFilter />
             <ExplanationBlock />
             {/* {spreadsheetUrl && (
               <a
