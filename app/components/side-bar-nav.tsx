@@ -21,7 +21,7 @@ import { ACCORDION_STORAGE_KEY } from "../constants";
 export const SideBarNav = () => {
   const pathname = usePathname();
   const { agentsList, isLoading } = useProfileContext();
-  const { isSubscribed } = useClerkUser();
+  const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
   const [accordionValue, setAccordionValue] = useState<string | undefined>(
     undefined
   );
@@ -64,7 +64,7 @@ export const SideBarNav = () => {
       <div className="w-full flex flex-col md:flex-row pt-8">
         <aside className="w-full md:sticky md:top-24 h-full md:max-w-[195px]">
           <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">
-            {!isSubscribed && (
+            {!isSubscribed && !isSubscribedLoading && (
               <Link href="/subscribe">
                 <div className="cursor-pointer text-sm p-2 px-4 mb-4 text-center rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
                   Subscribe

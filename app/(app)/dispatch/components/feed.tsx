@@ -1,6 +1,6 @@
 "use client";
 
-import { SlushFeed } from "@/app/types";
+import { FlattenedSlushFeed } from "@/app/types";
 import BlueskyCard from "@/app/components/bluesky-card";
 import BlipsCard from "@/app/components/blips-card";
 import RedditCard from "@/app/components/reddit-card";
@@ -9,6 +9,9 @@ import { Check, X } from "lucide-react";
 import { useRef, useState } from "react";
 import PayWall from "@/app/components/pay-wall";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
+import { useDispatchFeed } from "@/app/hooks/use-dispatch-feed";
+import { Spinner } from "@/app/ui-primitives/spinner";
+import { useOnInView } from "react-intersection-observer";
 
 enum SOCIAL_DATA {
   AGENT_INFO = "AGENT_INFO",
@@ -16,7 +19,7 @@ enum SOCIAL_DATA {
   BLUESKY = "BLUESKY",
 }
 
-export const Feed = ({ data }: { data: SlushFeed }) => {
+export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
   const { isSubscribed } = useClerkUser();
   const gridRef = useRef<HTMLDivElement>(null);
   const [activeData, setActiveData] = useState({
@@ -25,17 +28,43 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
     [SOCIAL_DATA.BLUESKY]: true,
   });
 
-  // Ensure arrays exist with fallbacks
-  const {
-    bluesky = [],
-    new_openings = [],
-    agent_activity = [],
-    reddit = [],
-  } = data || {};
+  const { data, isFetchingMore, hasMore, fetchMore } =
+    useDispatchFeed(initialData);
+
+  const trackingRef = useOnInView(
+    (inView, entry) => {
+      if (inView && hasMore) {
+        console.log("Triggering fetch more", entry.target);
+        fetchMore();
+      }
+    },
+    {
+      // Trigger when ANY part of the element is visible
+      threshold: 0,
+      rootMargin: "400px",
+    }
+  );
+
+  // Filter data based on active filters
+  const filteredData = data.filter((item) => {
+    if (item.type === "bluesky" && activeData[SOCIAL_DATA.BLUESKY]) {
+      return true;
+    }
+    if (item.type === "reddit" && activeData[SOCIAL_DATA.REDDIT]) {
+      return true;
+    }
+    if (
+      (item.type === "new_opening" || item.type === "agent_activity") &&
+      activeData[SOCIAL_DATA.AGENT_INFO]
+    ) {
+      return true;
+    }
+    return false;
+  });
 
   return (
     <>
-      <div className="flex gap-2">
+      <div className="flex gap-2 mb-8">
         <Button
           className="shadow-lg hover:shadow-xl"
           size="lg"
@@ -86,53 +115,44 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
         </Button>
       </div>
       <div className="flex flex-col gap-4" ref={gridRef}>
-        {activeData[SOCIAL_DATA.AGENT_INFO] &&
-          new_openings.length > 0 &&
-          new_openings.some((blip) => blip.bio && blip.name) && (
-            <>
-              <h2 className="text-xl mt-6"></h2>
-              {new_openings.map((blips, index) => (
-                <BlipsCard blips={blips} key={index} isOpenToSubs />
-              ))}
-            </>
-          )}
-        {activeData[SOCIAL_DATA.AGENT_INFO] &&
-          agent_activity.length > 0 &&
-          agent_activity.some((blip) => blip.bio && blip.name) && (
-            <>
-              <h2 className="text-xl mt-6"></h2>
-              {agent_activity.map((blips, index) => (
-                <BlipsCard blips={blips} key={index} />
-              ))}
-            </>
-          )}
-        {activeData[SOCIAL_DATA.REDDIT] && reddit.length > 0 && (
-          <>
-            <h2 className="text-xl font-semibold mt-6">Reddit</h2>
-            {reddit.map((post, index) => (
-              <RedditCard post={post} key={index} />
-            ))}
-          </>
-        )}
-        {activeData[SOCIAL_DATA.BLUESKY] && bluesky.length > 0 && (
-          <>
-            <h2 className="text-xl font-semibold mt-6">Bluesky</h2>
-            {bluesky.map((post, index) => (
-              <BlueskyCard post={post} key={index} />
-            ))}
-          </>
-        )}
+        {filteredData.map((item, index) => {
+          switch (item.type) {
+            case "bluesky":
+              return <BlueskyCard post={item.data} key={`bluesky-${index}`} />;
+            case "reddit":
+              return <RedditCard post={item.data} key={`reddit-${index}`} />;
+            case "new_opening":
+              return (
+                <BlipsCard
+                  blips={item.data}
+                  key={`new-opening-${index}`}
+                  isOpenToSubs
+                />
+              );
+            case "agent_activity":
+              return (
+                <BlipsCard blips={item.data} key={`agent-activity-${index}`} />
+              );
+            default:
+              return null;
+          }
+        })}
       </div>
+
+      {isSubscribed && (
+        <div
+          ref={trackingRef}
+          className="py-4 flex justify-center h-[150px] w-full"
+        >
+          {isFetchingMore && <Spinner className="size-8" />}
+        </div>
+      )}
+
       {!isSubscribed && (
         <PayWall
           title="Want the full dispatch?"
           gridRef={gridRef}
-          resultLength={
-            bluesky.length +
-            new_openings.length +
-            agent_activity.length +
-            reddit.length
-          }
+          resultLength={data.length}
         />
       )}
       {!activeData[SOCIAL_DATA.AGENT_INFO] &&
@@ -142,14 +162,10 @@ export const Feed = ({ data }: { data: SlushFeed }) => {
             Select a option to view
           </h2>
         )}
-      {data.bluesky.length === 0 &&
-        activeData[SOCIAL_DATA.BLUESKY] &&
-        data.new_openings.length === 0 &&
-        activeData[SOCIAL_DATA.AGENT_INFO] &&
-        data.agent_activity.length === 0 &&
-        activeData[SOCIAL_DATA.REDDIT] &&
-        data.reddit.length === 0 &&
-        activeData[SOCIAL_DATA.BLUESKY] && (
+      {filteredData.length === 0 &&
+        (activeData[SOCIAL_DATA.AGENT_INFO] ||
+          activeData[SOCIAL_DATA.REDDIT] ||
+          activeData[SOCIAL_DATA.BLUESKY]) && (
           <h2 className="text-xl font-semibold mt-6">
             No new posts to show, please check back later!
           </h2>
