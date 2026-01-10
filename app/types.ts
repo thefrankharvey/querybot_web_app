@@ -60,6 +60,14 @@ export type SlushFeed = {
   reddit: RedditPost[];
 };
 
+export type FeedItem =
+  | { type: "bluesky"; data: BlueskyPost }
+  | { type: "reddit"; data: RedditPost }
+  | { type: "new_opening"; data: Blips }
+  | { type: "agent_activity"; data: Blips };
+
+export type FlattenedSlushFeed = FeedItem[];
+
 export type ClerkEmailAddress = {
   id: string;
   email_address: string;
