@@ -6,7 +6,7 @@ import BlipsCard from "@/app/components/blips-card";
 import RedditCard from "@/app/components/reddit-card";
 import { Button } from "@/app/ui-primitives/button";
 import { Check, X } from "lucide-react";
-import { useRef, useState } from "react";
+import { useRef, useState, useMemo } from "react";
 import PayWall from "@/app/components/pay-wall";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useDispatchFeed } from "@/app/hooks/use-dispatch-feed";
@@ -28,18 +28,26 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
     [SOCIAL_DATA.BLUESKY]: true,
   });
 
-  const { data, isFetchingMore, hasMore, fetchMore } =
-    useDispatchFeed(initialData);
+  // Create filter state for the hook
+  const filterState = useMemo(
+    () => ({
+      showAgentInfo: activeData[SOCIAL_DATA.AGENT_INFO],
+      showReddit: activeData[SOCIAL_DATA.REDDIT],
+      showBluesky: activeData[SOCIAL_DATA.BLUESKY],
+    }),
+    [activeData]
+  );
+
+  const { data, isFetchingMore, hasMore, fetchMore, stoppedDueToFilters } =
+    useDispatchFeed(initialData, filterState);
 
   const trackingRef = useOnInView(
-    (inView, entry) => {
+    (inView) => {
       if (inView && hasMore) {
-        console.log("Triggering fetch more", entry.target);
         fetchMore();
       }
     },
     {
-      // Trigger when ANY part of the element is visible
       threshold: 0,
       rootMargin: "400px",
     }
@@ -61,6 +69,15 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
     }
     return false;
   });
+
+  // Get active filter names for the message
+  const activeFilterNames = useMemo(() => {
+    const names = [];
+    if (activeData[SOCIAL_DATA.AGENT_INFO]) names.push("Agent Info");
+    if (activeData[SOCIAL_DATA.REDDIT]) names.push("Reddit");
+    if (activeData[SOCIAL_DATA.BLUESKY]) names.push("Bluesky");
+    return names;
+  }, [activeData]);
 
   return (
     <>
@@ -139,12 +156,23 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
         })}
       </div>
 
-      {isSubscribed && (
+      {/* Sentinel element for infinite scroll - only for subscribed users */}
+      {isSubscribed && hasMore && (
         <div
           ref={trackingRef}
           className="py-4 flex justify-center h-[150px] w-full"
         >
           {isFetchingMore && <Spinner className="size-8" />}
+        </div>
+      )}
+
+      {/* Message when pagination stopped due to filters */}
+      {isSubscribed && stoppedDueToFilters && filteredData.length > 0 && (
+        <div className="py-4 text-center">
+          <p className="text-gray-600 text-sm">
+            No new {activeFilterNames.join(" or ")} posts available. Try
+            adjusting your filters.
+          </p>
         </div>
       )}
 
