@@ -60,19 +60,11 @@ const ClientNav = () => {
         <div className="hidden md:flex items-center justify-end gap-4 w-full">
           <div className="flex items-center gap-4">
             <SignedIn>
-              {!isSubscribed ? (
-                <Link href="/subscribe">
-                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
-                    Subscribe
-                  </div>
-                </Link>
-              ) : (
-                <Link href="/saved-agents">
-                  <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
-                    Go to App
-                  </div>
-                </Link>
-              )}
+              <Link href={"/saved-agents"} prefetch={true}>
+                <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
+                  Go to App
+                </div>
+              </Link>
               <div className="font-medium cursor-pointer text-sm text-black transition-all duration-300">
                 <SignOutButton />
               </div>
