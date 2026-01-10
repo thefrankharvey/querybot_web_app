@@ -1,3 +1,4 @@
+import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
 
 // Define the structure of the payload
@@ -21,6 +22,9 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
+    // Get last_index from URL parameters
+    const url = new URL(req.url);
+    const last_index = url.searchParams.get("last_index") || "0";
     const jsonData = await req.json();
 
     const payload: GetAgentsPaidPayload = {
@@ -41,7 +45,7 @@ export async function POST(req: NextRequest) {
     };
 
     const externalRes = await fetch(
-      `http://querybot-api.onrender.com/get-agents-paid`,
+      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}`,
       {
         method: "POST",
         headers: {
@@ -54,6 +58,8 @@ export async function POST(req: NextRequest) {
     );
 
     const data = await externalRes.json();
+
+    console.log("data", data);
 
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {

@@ -67,20 +67,11 @@ const SmartMatch = () => {
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
-      // Call both APIs in parallel
-      const queryPromise = fetch("/api/query?last_index=0", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const spreadsheetEndpoint = isSubscribed
+      const getAgentsEndpoint = isSubscribed
         ? "/api/get-agents-paid"
         : "/api/get-agents-free";
 
-      const spreadsheetPromise = fetch(spreadsheetEndpoint, {
+      const getAgentsResp = await fetch(`${getAgentsEndpoint}?last_index=0`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -88,31 +79,27 @@ const SmartMatch = () => {
         body: JSON.stringify(formData),
       });
 
-      const [queryRes, spreadsheetRes] = await Promise.all([
-        queryPromise,
-        spreadsheetPromise,
-      ]);
-
-      if (!queryRes.ok) {
+      if (!getAgentsResp.ok) {
         setApiMessage("An API error occurred. Please try again.");
-        throw new Error(`Query request failed: ${queryRes.status}`);
+        throw new Error(`Query request failed: ${getAgentsResp.status}`);
       }
+      const getAgentsData = await getAgentsResp.json();
 
-      const queryData = await queryRes.json();
+      console.log("getAgentsData", getAgentsData);
 
-      try {
-        if (spreadsheetRes.ok) {
-          const spreadsheetData = await spreadsheetRes.json();
+      // try {
+      //   if (spreadsheetRes.ok) {
+      //     const spreadsheetData = await spreadsheetRes.json();
 
-          if (spreadsheetData.spreadsheet_url) {
-            saveSpreadsheetUrl(spreadsheetData.spreadsheet_url);
-          }
-        }
-      } catch (error) {
-        console.error("Error fetching spreadsheet URL:", error);
-      }
+      //     if (spreadsheetData.spreadsheet_url) {
+      //       saveSpreadsheetUrl(spreadsheetData.spreadsheet_url);
+      //     }
+      //   }
+      // } catch (error) {
+      //   console.error("Error fetching spreadsheet URL:", error);
+      // }
 
-      return queryData;
+      return getAgentsData;
     },
 
     onSuccess: (data) => {

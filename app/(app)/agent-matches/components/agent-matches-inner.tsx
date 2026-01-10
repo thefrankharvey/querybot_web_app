@@ -4,6 +4,7 @@ import { AgentCards } from "@/app/components/agent-cards";
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
+import StatusFilter from "./status-filter";
 import { useAgentMatches } from "../../context/agent-matches-context";
 
 export const AgentMatchesInner = ({
@@ -33,6 +34,7 @@ export const AgentMatchesInner = ({
             <h2 className="text-md font-medium">Back</h2>
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+            <StatusFilter />
             <ExplanationBlock />
             {spreadsheetUrl && (
               <a
