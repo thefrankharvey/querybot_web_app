@@ -86,6 +86,7 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/dispatch"
+              prefetch={true}
               className={cn(
                 "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
                 pathname.includes("dispatch")
