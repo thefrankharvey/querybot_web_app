@@ -36,8 +36,6 @@ const formatFeedItem = (item: FeedItem): FeedItem => {
 const fetchDispatchFeed = async (
   offset: number
 ): Promise<FlattenedSlushFeed> => {
-  console.log(`[Dispatch] Fetching offset: ${offset}`);
-
   const res = await fetch(
     `/api/dispatch-feed?limit=${LIMIT}&offset=${offset}`,
     {
