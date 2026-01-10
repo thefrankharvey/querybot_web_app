@@ -13,7 +13,6 @@ import {
   SignOutButton,
 } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
 function ScrollToTop() {
   const pathname = usePathname();
@@ -28,7 +27,6 @@ function ScrollToTop() {
 // Client component that handles scroll behavior
 const ClientNav = () => {
   const [scrolled, setScrolled] = useState(false);
-  const { isSubscribed } = useClerkUser();
 
   useEffect(() => {
     const handleScroll = () => {
