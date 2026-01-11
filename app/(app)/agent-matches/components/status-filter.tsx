@@ -8,9 +8,14 @@ import {
   SelectValue,
 } from "@/app/ui-primitives/select";
 
-export const StatusFilter = () => {
+interface StatusFilterProps {
+  value: string;
+  onValueChange: (value: string) => void;
+}
+
+export const StatusFilter = ({ value, onValueChange }: StatusFilterProps) => {
   return (
-    <Select defaultValue="all">
+    <Select value={value} onValueChange={onValueChange}>
       <SelectTrigger className="bg-white">
         <SelectValue placeholder="Filter by status" />
       </SelectTrigger>

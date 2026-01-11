@@ -21,13 +21,23 @@ export const AgentMatchesFull = () => {
     saveNextCursor,
     currentCursor,
     saveCurrentCursor,
+    statusFilter,
+    saveStatusFilter,
   } = useAgentMatches();
   const nextCursor = nextCursorCount || QUERY_LIMIT;
 
   const queryMutation = useMutation({
-    mutationFn: async (params: { formData: FormData; nextCursor: number }) => {
+    mutationFn: async (params: {
+      formData: FormData;
+      nextCursor: number;
+      status: string;
+    }) => {
+      // Map status values for API: "all" -> "", "open" -> "open", "closed" -> "closed"
+      const statusParam = params.status === "all" ? "" : params.status;
+      const statusQuery = statusParam ? `&status=${statusParam}` : "";
+
       const res = await fetch(
-        `/api/get-agents-paid?last_index=${params.nextCursor}`,
+        `/api/get-agents-paid?last_index=${params.nextCursor}${statusQuery}`,
         {
           method: "POST",
           headers: {
@@ -63,6 +73,7 @@ export const AgentMatchesFull = () => {
       queryMutation.mutate({
         formData,
         nextCursor: nextCursor,
+        status: statusFilter,
       });
     }
     window.scrollTo({ top: 0 });
@@ -75,6 +86,22 @@ export const AgentMatchesFull = () => {
       queryMutation.mutate({
         formData,
         nextCursor: updatedCursor,
+        status: statusFilter,
+      });
+    }
+    window.scrollTo({ top: 0 });
+  };
+
+  const handleStatusChange = (newStatus: string) => {
+    saveStatusFilter(newStatus);
+    // Reset pagination to page 1 and trigger new query
+    if (formData) {
+      saveCurrentCursor(0);
+      saveNextCursor(QUERY_LIMIT);
+      queryMutation.mutate({
+        formData,
+        nextCursor: 0,
+        status: newStatus,
       });
     }
     window.scrollTo({ top: 0 });
@@ -86,6 +113,8 @@ export const AgentMatchesFull = () => {
         matches={matches}
         isSubscribed={true}
         isLoading={queryMutation.isPending}
+        statusFilter={statusFilter}
+        onStatusChange={handleStatusChange}
       />
       <Pagination className="mt-8">
         <PaginationContent>
