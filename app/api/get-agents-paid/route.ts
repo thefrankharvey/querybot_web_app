@@ -22,9 +22,10 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
-    // Get last_index from URL parameters
+    // Get last_index and status from URL parameters
     const url = new URL(req.url);
     const last_index = url.searchParams.get("last_index") || "0";
+    const status = url.searchParams.get("status") || "";
     const jsonData = await req.json();
 
     const payload: GetAgentsPaidPayload = {
@@ -44,8 +45,11 @@ export async function POST(req: NextRequest) {
       format: jsonData.format,
     };
 
+    // Build query string with optional status parameter
+    const statusQuery = status ? `&status=${status}` : "";
+
     const externalRes = await fetch(
-      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}`,
+      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}`,
       {
         method: "POST",
         headers: {
@@ -58,8 +62,6 @@ export async function POST(req: NextRequest) {
     );
 
     const data = await externalRes.json();
-
-    console.log("data", data);
 
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {

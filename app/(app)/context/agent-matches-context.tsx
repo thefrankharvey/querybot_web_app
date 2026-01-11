@@ -92,6 +92,12 @@ const useAgentData = () => {
     return null;
   };
 
+  const fetchStatusFilter = async (): Promise<string> => {
+    const stored = localStorage.getItem("status_filter");
+    if (stored) return JSON.parse(stored);
+    return "all";
+  };
+
   const { data: matches = [], isLoading } = useQuery({
     queryKey: ["agentMatches"],
     queryFn: fetchMatches,
@@ -115,6 +121,11 @@ const useAgentData = () => {
   const { data: spreadsheetUrl = null } = useQuery({
     queryKey: ["spreadsheetUrl"],
     queryFn: fetchSpreadsheetUrl,
+  });
+
+  const { data: statusFilter = "all" } = useQuery({
+    queryKey: ["statusFilter"],
+    queryFn: fetchStatusFilter,
   });
 
   const saveNextCursor = useMutation({
@@ -168,12 +179,23 @@ const useAgentData = () => {
     },
   });
 
+  const saveStatusFilterMutation = useMutation({
+    mutationFn: (status: string) => {
+      localStorage.setItem("status_filter", JSON.stringify(status));
+      return Promise.resolve();
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["statusFilter"] });
+    },
+  });
+
   return {
     matches,
     nextCursorCount,
     currentCursor,
     formData,
     spreadsheetUrl,
+    statusFilter,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
@@ -181,6 +203,8 @@ const useAgentData = () => {
     saveCurrentCursor: (cursor: number) => saveCurrentCursor.mutate(cursor),
     saveSpreadsheetUrl: (url: string | null) =>
       saveSpreadsheetUrlMutation.mutate(url),
+    saveStatusFilter: (status: string) =>
+      saveStatusFilterMutation.mutate(status),
   };
 };
 
@@ -189,12 +213,14 @@ interface MatchesContextType {
   matches: AgentMatch[];
   formData: FormData | null;
   spreadsheetUrl: string | null;
+  statusFilter: string;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
   saveNextCursor: (count: number) => void;
   saveCurrentCursor: (cursor: number) => void;
   saveSpreadsheetUrl: (url: string | null) => void;
+  saveStatusFilter: (status: string) => void;
   nextCursorCount: number | null;
   currentCursor: number;
 }
@@ -225,12 +251,14 @@ function AgentMatchesContextProvider({
     matches,
     formData,
     spreadsheetUrl,
+    statusFilter,
     isLoading,
     saveMatches,
     saveFormData,
     saveNextCursor,
     saveCurrentCursor,
     saveSpreadsheetUrl,
+    saveStatusFilter,
     nextCursorCount,
     currentCursor,
   } = useAgentData();
@@ -243,12 +271,14 @@ function AgentMatchesContextProvider({
         currentCursor,
         formData,
         spreadsheetUrl,
+        statusFilter,
         isLoading,
         saveMatches,
         saveFormData,
         saveNextCursor,
         saveCurrentCursor,
         saveSpreadsheetUrl,
+        saveStatusFilter,
       }}
     >
       {children}
