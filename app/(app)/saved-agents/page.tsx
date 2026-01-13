@@ -1,11 +1,12 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Spinner } from "@/app/ui-primitives/spinner";
+import { useUser } from "@clerk/nextjs";
 // import { ActionCards } from "@/app/components/action-cards";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 
@@ -13,6 +14,47 @@ const SavedAgents = () => {
   const { agentsList, isLoading } = useProfileContext();
   const { isSubscribed } = useClerkUser();
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const { user } = useUser();
+  const hasReloadedRef = useRef(false);
+
+  // Handle return from successful Stripe payment
+  useEffect(() => {
+    const paymentSuccess = searchParams.get("payment");
+
+    if (paymentSuccess === "success" && user && !hasReloadedRef.current) {
+      hasReloadedRef.current = true;
+
+      const checkSubscription = async () => {
+        // Initial reload
+        await user.reload();
+
+        // Check if subscription is now active
+        if (user.publicMetadata?.isSubscribed) {
+          router.replace("/saved-agents");
+          return;
+        }
+
+        // Retry after 1 second
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        await user.reload();
+
+        if (user.publicMetadata?.isSubscribed) {
+          router.replace("/saved-agents");
+          return;
+        }
+
+        // Retry after 2 more seconds (3 seconds total)
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        await user.reload();
+
+        // Clean up URL regardless of outcome
+        router.replace("/saved-agents");
+      };
+
+      checkSubscription();
+    }
+  }, [searchParams, user, router]);
 
   useEffect(() => {
     if (!isLoading && agentsList && agentsList.length > 0) {
