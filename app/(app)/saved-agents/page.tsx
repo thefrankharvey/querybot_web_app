@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -14,13 +14,14 @@ const SavedAgents = () => {
   const { agentsList, isLoading } = useProfileContext();
   const { isSubscribed } = useClerkUser();
   const router = useRouter();
-  const searchParams = useSearchParams();
   const { user } = useUser();
   const hasReloadedRef = useRef(false);
 
   // Handle return from successful Stripe payment
   useEffect(() => {
-    const paymentSuccess = searchParams.get("payment");
+    const paymentSuccess = new URLSearchParams(window.location.search).get(
+      "payment"
+    );
 
     if (paymentSuccess === "success" && user && !hasReloadedRef.current) {
       hasReloadedRef.current = true;
@@ -54,7 +55,7 @@ const SavedAgents = () => {
 
       checkSubscription();
     }
-  }, [searchParams, user, router]);
+  }, [user, router]);
 
   useEffect(() => {
     if (!isLoading && agentsList && agentsList.length > 0) {
