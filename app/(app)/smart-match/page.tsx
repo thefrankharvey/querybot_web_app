@@ -246,7 +246,7 @@ const SmartMatch = () => {
                   type="submit"
                   className="cursor-pointer w-full md:w-1/2 text-lg p-6 font-semibold shadow-lg hover:shadow-xl"
                 >
-                  Submit
+                  Search for Agents
                 </Button>
               </div>
             </div>
