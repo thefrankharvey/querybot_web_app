@@ -124,7 +124,7 @@ export const agentDemoData = [
       'BIPOC Literature, "Childrens", Commercial, Contemporary, Family Saga, Fantasy, General, Gothic, Graphic Novel, Historical, Horror, Humor, LGBTQ Fiction and Non-Fiction, Literary Fiction, Middle Grade, Romance, Romcom, Science Fiction, South Asian Literature, South East Asian Literature, Speculative, West African Literature, Women’s Fiction, Young Adult, Crafts/DIY, Cultural criticism, Illustrated, Memoir, Parenting, Pop Culture, Tarot/Astrology, Witches/Witchcraft',
     id: "ea50a146-dd52-4ad7-bd93-ca21f044891e",
     location: "30 Pierrepont Street, Brooklyn, New York, United States, 11201",
-    name: "kate mckean",
+    name: "Tom Jones",
     negatives:
       "no gross-out middle grade (e.g. The Best Farts in History), no MG Rick & Morty or Hitchhiker’s Guide style, no thrillers or mysteries for adults, no picture books, no poetry, no screenplays, no dragons, angels/demons, cops, lawyers, FBI agents, amateur sleuths, no farce or satire",
     normalized_score: 5,
