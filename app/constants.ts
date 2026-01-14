@@ -97,16 +97,16 @@ export const feedDemoData = {
 export const agentDemoData = [
   {
     aala_member: "True",
-    agency: "Harrow & Vale Literary Agency",
-    agent_id: "ea50a146-dd52-4ad7-bd93-ca21f044891e",
-    bio: 'Howard Morhaim Literary Agency, joined 2006, "masters degree fiction writing University of Southern Mississippi", publishing career University Press of Florida, adjunct professor New York University, represents New York Times bestselling authors, clients include Daniel M. Lavery, Madeleine Roux, Brittany Gibbons, newsletter Agents & Books',
+    agency: "Bracken & North Literary Agency",
+    agent_id: "3f2a8a1c-9b7d-4f6e-a7d8-8f2c7b1d4a90",
+    bio: 'Former editor at a university press, joined Bracken & North in 2011, MFA in Creative Writing (University of Oregon), teaches occasional workshops, represents award-winning and bestselling authors, clients include Casey McQuiston, Malinda Lo, Akwaeke Emezi, writes the newsletter "Open Tabs: Books & Publishing".',
     clients:
-      "Alix E. Harrow, Mattie Lubchansky, Trung Le Nguyen, Daniel Lavery, Bobby Finger, Hallie Bateman, Gwenda Bond, Madeleine Roux, Claudia Aguirre, Erin Hahn",
-    email: "kmckean@morhaimliterary.com",
+      "Casey McQuiston, Malinda Lo, Akwaeke Emezi, Talia Hibbert, Gail Simone, Emily M. Danforth, Darcie Little Badger, Seanan McGuire, C Pam Zhang, Leigh Bardugo",
+    email: "submissions@brackennorthlit.com",
     extra_interest:
-      'prefers sincerity over sarcasm, seeks transporting writing and voice, interested in authors from under-represented groups, hungry for nonfiction for kids: biography, history, science, technology, creativity, memoir, narrative nonfiction middle grade/YA, graphic novels all ages, middle grade except wacky, zany, gross-out, "adult interests: contemporary romance, womens fiction, literary fiction, 20th century historical fiction, fantasy, magical realism, science fiction, space", no thrillers, mysteries, picture books, poetry, screenplays, dislikes dragons, angels/demons, cops, lawyers, FBI agents, amateur sleuths, no farce or satire',
+      "drawn to big-hearted voice and emotional precision, loves high-concept with literary execution, prioritizes marginalized creators, looking for nonfiction for younger readers: biography, science, pop history, cultural criticism, narrative nonfiction MG/YA, graphic nonfiction all ages; adult interests: contemporary romance, upmarket women’s fiction, literary fiction, historical (19th–20th century), speculative with grounded worldbuilding, magical realism, near-future SF; not looking for: police procedurals, cozy mysteries, straight thrillers, picture books, poetry, screenplays; tends to pass on dragons-heavy epic fantasy, angel/demon mythology, lawyer/cop/FBI protagonists, broad farce/satire",
     favorites:
-      "Feed by M.T. Anderson, The Disreputable History of Frankie Landau-Banks by E. Lockhart, The Women by Mary McCarthy, The Best of Everything by Rona Jaffe, The Mothers by Brit Bennett, The Age of Light by Whitney Scharer, Seek You by Kristen Radtke, The Amazing Adventures of Kavalier and Clay by Michael Chabon, Careers for Women by Joanna Scott, Overwhelmed by Brigid Schulte, What We Talk About When We Talk About Love by Raymond Carver, Leave the World Behind by Rumaan Alam, Dare Me by Megan Abbott, Girls of Fire by Robin Wasserman, Marlena by Julie Buntin",
+      "The Dispossessed by Ursula K. Le Guin, The Argonauts by Maggie Nelson, Kindred by Octavia E. Butler, The Vanishing Half by Brit Bennett, Station Eleven by Emily St. John Mandel, Fun Home by Alison Bechdel, The Left Hand of Darkness by Ursula K. Le Guin, Trust Exercise by Susan Choi, Outline by Rachel Cusk, Say Nothing by Patrick Radden Keefe, The Song of Achilles by Madeline Miller, Circe by Madeline Miller, Severance by Ling Ma",
     form_comps_matches_db_clients: 0,
     form_comps_matches_db_extra_interest: 0,
     form_comps_matches_db_favorites: 0,
@@ -121,20 +121,21 @@ export const agentDemoData = [
     form_themes_matches_db_extra_interest: 0,
     form_themes_matches_db_favorites: 0,
     genres:
-      'BIPOC Literature, "Childrens", Commercial, Contemporary, Family Saga, Fantasy, General, Gothic, Graphic Novel, Historical, Horror, Humor, LGBTQ Fiction and Non-Fiction, Literary Fiction, Middle Grade, Romance, Romcom, Science Fiction, South Asian Literature, South East Asian Literature, Speculative, West African Literature, Women’s Fiction, Young Adult, Crafts/DIY, Cultural criticism, Illustrated, Memoir, Parenting, Pop Culture, Tarot/Astrology, Witches/Witchcraft',
-    id: "ea50a146-dd52-4ad7-bd93-ca21f044891e",
-    location: "30 Pierrepont Street, Brooklyn, New York, United States, 11201",
+      'Science Fiction, "Literary Fiction", Commercial, Contemporary, Family Saga, Fantasy, General, Gothic, Graphic Novel, Historical, Horror, Humor, LGBTQ Fiction and Non-Fiction, Literary Fiction, Middle Grade, Romance, Romcom, Science Fiction, Speculative, Women’s Fiction, Young Adult, Biography, Cultural criticism, Illustrated, Memoir, Parenting, Pop Culture, Science/Technology, Narrative Nonfiction, Witches/Witchcraft',
+    id: "3f2a8a1c-9b7d-4f6e-a7d8-8f2c7b1d4a90",
+    location:
+      "112 Greene Street, Suite 5B, New York, New York, United States, 10012",
     name: "Lauren Anderson",
     negatives:
-      "no gross-out middle grade (e.g. The Best Farts in History), no MG Rick & Morty or Hitchhiker’s Guide style, no thrillers or mysteries for adults, no picture books, no poetry, no screenplays, no dragons, angels/demons, cops, lawyers, FBI agents, amateur sleuths, no farce or satire",
+      "no gross-out middle grade, no adult thrillers/mysteries as primary category, no picture books, no poetry, no screenplays, no dragons-centric epic fantasy, no angels/demons, no cop/lawyer/FBI leads, no broad farce or satire",
     normalized_score: 5,
     sales:
-      "Starling House by Alix E. Harrow, The Old Place by Bobby Finger, The Magic Fish by Trung Le Nguyen",
-    score: 32.5,
+      "Saltwater City by Casey McQuiston, The Orchard Pact by Malinda Lo, The Archive of Small Miracles by Akwaeke Emezi",
+    score: 31.75,
     submission_req:
-      "query letter + first 3 chapters novel or full nonfiction proposal, email kmckean@morhaimliterary.com, no snail mail, one project, one agent at agency at a time, response time 8-12 weeks",
-    twitter_handle: "@kate_mckean",
-    website: "morhaimliterary.com",
+      "query letter + first 10 pages (or first 3 chapters) for fiction; full proposal + 2 sample chapters for nonfiction; email submissions@brackennorthlit.com; no attachments unless requested; one project at a time; response time 6–10 weeks",
+    twitter_handle: "@kendramcleanlit",
+    website: "brackennorthlit.com",
   },
   {
     aala_member: "!missing",
