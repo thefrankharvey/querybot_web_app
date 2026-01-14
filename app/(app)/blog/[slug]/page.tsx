@@ -9,7 +9,6 @@ import {
 import SlushwireWeeklyPost from "../components/slushwire-weekly-post";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import SlushwireBlogPost from "../components/slushwire-blog-post";
 import { BlogPostingJsonLd } from "@/app/types";
 
 type Params = { slug: string };
@@ -68,13 +67,7 @@ export default async function BlogPostPage({
             jsonLd={jsonLd}
             contentHtml={contentHtml}
           />
-        ) : (
-          <SlushwireBlogPost
-            post={post}
-            jsonLd={jsonLd}
-            contentHtml={contentHtml}
-          />
-        )}
+        ) : null}
       </div>
     </main>
   );
