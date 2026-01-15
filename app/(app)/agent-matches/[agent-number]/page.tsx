@@ -68,7 +68,7 @@ const AgentProfile = () => {
     agent.querytracker;
 
   return (
-    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto mt-15">
+    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto md:mt-15 mt-0">
       <div className="flex justify-between items-end">
         <Link
           href="/agent-matches"
