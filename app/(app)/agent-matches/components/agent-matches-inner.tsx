@@ -1,4 +1,4 @@
-import { ArrowLeft, DownloadIcon } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { AgentMatch } from "../../context/agent-matches-context";
 import { AgentCards } from "@/app/components/agent-cards";
 import Link from "next/link";
