@@ -120,7 +120,7 @@ const Account = () => {
                   </AlertDialogHeader>
                   <AlertDialogFooter>
                     <AlertDialogCancel className="bg-white hover:bg-gray-100">
-                      Cancel
+                      Back
                     </AlertDialogCancel>
                     <AlertDialogAction
                       onClick={cancelSubscription}
@@ -128,7 +128,7 @@ const Account = () => {
                       disabled={isLoading.cancel}
                     >
                       {isLoading.cancel
-                        ? "Canceling..."
+                        ? "Cancelling..."
                         : "Cancel Subscription"}
                     </AlertDialogAction>
                   </AlertDialogFooter>
@@ -157,7 +157,7 @@ const Account = () => {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                   <AlertDialogCancel className="bg-white hover:bg-gray-100">
-                    Cancel
+                    Back
                   </AlertDialogCancel>
                   <AlertDialogAction
                     onClick={deleteAccount}
