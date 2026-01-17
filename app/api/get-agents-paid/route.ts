@@ -15,6 +15,7 @@ export interface GetAgentsPaidPayload {
   non_fiction?: boolean;
   enable_ai?: boolean;
   format?: string;
+  async_sheet?: boolean;
 }
 
 export async function POST(req: NextRequest) {
@@ -43,6 +44,7 @@ export async function POST(req: NextRequest) {
       non_fiction: jsonData.non_fiction,
       enable_ai: jsonData.enable_ai,
       format: jsonData.format,
+      async_sheet: true,
     };
 
     // Build query string with optional status parameter

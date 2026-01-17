@@ -1,10 +1,27 @@
-import React, { createContext, useContext } from "react";
+import React, { createContext, useContext, useState } from "react";
 import {
   QueryClient,
   QueryClientProvider,
   useMutation,
   useQuery,
 } from "@tanstack/react-query";
+
+export interface MatchHits {
+  cluster: {
+    comps: string[];
+    genres: string[];
+    subgenres: string[];
+    target_audience: string[];
+    themes: string[];
+  };
+  direct: {
+    comps: string[];
+    genres: string[];
+    subgenres: string[];
+    target_audience: string[];
+    themes: string[];
+  };
+}
 
 export interface AgentMatch {
   aala_member?: string;
@@ -33,6 +50,7 @@ export interface AgentMatch {
   twitter_url?: string;
   website?: string;
   status?: string;
+  match_hits?: MatchHits;
 }
 
 export interface FormData {
@@ -62,6 +80,9 @@ const queryClient = new QueryClient({
 
 // Custom hook for fetching agent data
 const useAgentData = () => {
+  // In-memory state for sheet task ID (not persisted to localStorage)
+  const [sheetTaskId, setSheetTaskId] = useState<string | null>(null);
+
   const fetchMatches = async (): Promise<AgentMatch[]> => {
     const stored = localStorage.getItem("agent_matches");
     if (stored) return JSON.parse(stored);
@@ -196,6 +217,7 @@ const useAgentData = () => {
     formData,
     spreadsheetUrl,
     statusFilter,
+    sheetTaskId,
     isLoading,
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
@@ -205,6 +227,7 @@ const useAgentData = () => {
       saveSpreadsheetUrlMutation.mutate(url),
     saveStatusFilter: (status: string) =>
       saveStatusFilterMutation.mutate(status),
+    saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
   };
 };
 
@@ -214,6 +237,7 @@ interface MatchesContextType {
   formData: FormData | null;
   spreadsheetUrl: string | null;
   statusFilter: string;
+  sheetTaskId: string | null;
   isLoading: boolean;
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
@@ -221,6 +245,7 @@ interface MatchesContextType {
   saveCurrentCursor: (cursor: number) => void;
   saveSpreadsheetUrl: (url: string | null) => void;
   saveStatusFilter: (status: string) => void;
+  saveSheetTaskId: (taskId: string | null) => void;
   nextCursorCount: number | null;
   currentCursor: number;
 }
@@ -252,6 +277,7 @@ function AgentMatchesContextProvider({
     formData,
     spreadsheetUrl,
     statusFilter,
+    sheetTaskId,
     isLoading,
     saveMatches,
     saveFormData,
@@ -259,6 +285,7 @@ function AgentMatchesContextProvider({
     saveCurrentCursor,
     saveSpreadsheetUrl,
     saveStatusFilter,
+    saveSheetTaskId,
     nextCursorCount,
     currentCursor,
   } = useAgentData();
@@ -272,6 +299,7 @@ function AgentMatchesContextProvider({
         formData,
         spreadsheetUrl,
         statusFilter,
+        sheetTaskId,
         isLoading,
         saveMatches,
         saveFormData,
@@ -279,6 +307,7 @@ function AgentMatchesContextProvider({
         saveCurrentCursor,
         saveSpreadsheetUrl,
         saveStatusFilter,
+        saveSheetTaskId,
       }}
     >
       {children}

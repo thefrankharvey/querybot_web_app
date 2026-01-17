@@ -1,10 +1,11 @@
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Download } from "lucide-react";
 import { AgentMatch } from "../../context/agent-matches-context";
 import { AgentCards } from "@/app/components/agent-cards";
 import Link from "next/link";
-// import { Button } from "@/app/ui-primitives/button";
+import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
-// import { useAgentMatches } from "../../context/agent-matches-context";
+import StatusFilter from "./status-filter";
+import { Spinner } from "@/app/ui-primitives/spinner";
 
 export const AgentMatchesInner = ({
   matches,
@@ -13,6 +14,8 @@ export const AgentMatchesInner = ({
   isLoading,
   statusFilter,
   onStatusChange,
+  sheetTaskId,
+  spreadsheetUrl,
 }: {
   matches: AgentMatch[];
   isSubscribed: boolean;
@@ -20,8 +23,10 @@ export const AgentMatchesInner = ({
   isLoading: boolean;
   statusFilter?: string;
   onStatusChange?: (status: string) => void;
+  sheetTaskId?: string | null;
+  spreadsheetUrl?: string | null;
 }) => {
-  // const { spreadsheetUrl } = useAgentMatches();
+  const isSheetPending = sheetTaskId && !spreadsheetUrl;
 
   return (
     <>
@@ -45,19 +50,34 @@ export const AgentMatchesInner = ({
               />
             )}
             <ExplanationBlock />
-            {/* {spreadsheetUrl && (
+            {(isSheetPending || spreadsheetUrl) && (
               <a
-                href={spreadsheetUrl}
+                href={spreadsheetUrl || undefined}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full md:w-auto"
+                onClick={(e) => {
+                  if (!spreadsheetUrl) e.preventDefault();
+                }}
               >
-                <Button className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2">
-                  <DownloadIcon className="w-4 h-4" />
-                  Submission Tracker
+                <Button
+                  disabled={!spreadsheetUrl}
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  {spreadsheetUrl ? (
+                    <>
+                      <Download className="w-4 h-4" />
+                      Download Spreadsheet
+                    </>
+                  ) : (
+                    <>
+                      <Spinner className="w-4 h-4" />
+                      Creating spreadsheet...
+                    </>
+                  )}
                 </Button>
               </a>
-            )} */}
+            )}
           </div>
         </div>
         <div
