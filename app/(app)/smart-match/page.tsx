@@ -40,7 +40,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSheetTaskId, saveSpreadsheetUrl } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
