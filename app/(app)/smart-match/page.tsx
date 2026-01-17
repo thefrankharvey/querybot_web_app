@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
-// import { formatComps, formatThemes } from "../utils";
 import {
   useAgentMatches,
   AgentMatchesProvider,
@@ -11,13 +10,10 @@ import {
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-// import { useManuscriptProcessor } from "../hooks/use-manuscript-processor";
 import Link from "next/link";
 import { validateQuery, formatComps, getFromLocalStorage } from "@/app/utils";
 import Comps from "./components/comps";
-// import Manuscript from "./components/manuscript";
 import Themes from "./components/themes";
-// import Synopsis from "./components/synopsis";
 import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
@@ -27,6 +23,7 @@ import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
+// import { startSheetPolling } from "../workers/sheet-worker-manager";
 
 export type FormState = {
   email: string;
@@ -43,7 +40,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSheetTaskId, saveSpreadsheetUrl } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -59,14 +56,11 @@ const SmartMatch = () => {
     non_fiction: false,
   });
 
-  // const {
-  //   // manuscriptText,
-  //   processManuscript,
-  //   status: manuscriptStatus,
-  // } = useManuscriptProcessor();
-
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
+      // Clear old spreadsheet URL when starting a new search
+      saveSpreadsheetUrl(null);
+      
       const getAgentsEndpoint = isSubscribed
         ? "/api/get-agents-paid"
         : "/api/get-agents-free";
@@ -85,20 +79,6 @@ const SmartMatch = () => {
       }
       const getAgentsData = await getAgentsResp.json();
 
-      console.log("getAgentsData", getAgentsData);
-
-      // try {
-      //   if (spreadsheetRes.ok) {
-      //     const spreadsheetData = await spreadsheetRes.json();
-
-      //     if (spreadsheetData.spreadsheet_url) {
-      //       saveSpreadsheetUrl(spreadsheetData.spreadsheet_url);
-      //     }
-      //   }
-      // } catch (error) {
-      //   console.error("Error fetching spreadsheet URL:", error);
-      // }
-
       return getAgentsData;
     },
 
@@ -106,6 +86,23 @@ const SmartMatch = () => {
       if (data.matches.length > 0) {
         saveMatches(data.matches);
         saveNextCursor(data.next_cursor);
+        
+        // // Use global function - worker persists after navigation
+        // if (data.task_id) {
+        //   console.log("Starting worker for task:", data.task_id);
+        //   saveSheetTaskId(data.task_id);
+          
+        //   startSheetPolling(
+        //     data.task_id,
+        //     (url) => {
+        //       console.log("Spreadsheet ready:", url);
+        //       saveSpreadsheetUrl(url);
+        //     },
+        //     () => {
+        //       console.log("Spreadsheet generation timed out");
+        //     }
+        //   );
+        // }
       } else {
         setApiMessage("No matches found");
       }

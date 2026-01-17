@@ -11,7 +11,7 @@ declare global {
 }
 
 export const AgentMatchesPaywall = () => {
-  const { matches, isLoading } = useAgentMatches();
+  const { matches, isLoading, sheetTaskId, spreadsheetUrl } = useAgentMatches();
   const gridRef = useRef<HTMLDivElement>(null);
 
   return (
@@ -21,6 +21,8 @@ export const AgentMatchesPaywall = () => {
         gridRef={gridRef}
         isSubscribed={false}
         isLoading={isLoading}
+        sheetTaskId={sheetTaskId || ""}
+        spreadsheetUrl={spreadsheetUrl}
       />
       <PayWall
         gridRef={gridRef}

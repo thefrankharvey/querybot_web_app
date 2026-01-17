@@ -23,6 +23,8 @@ export const AgentMatchesFull = () => {
     saveCurrentCursor,
     statusFilter,
     saveStatusFilter,
+    sheetTaskId,
+    spreadsheetUrl,
   } = useAgentMatches();
   const nextCursor = nextCursorCount || QUERY_LIMIT;
 
@@ -115,6 +117,8 @@ export const AgentMatchesFull = () => {
         isLoading={queryMutation.isPending}
         statusFilter={statusFilter}
         onStatusChange={handleStatusChange}
+        sheetTaskId={sheetTaskId}
+        spreadsheetUrl={spreadsheetUrl}
       />
       <Pagination className="mt-8">
         <PaginationContent>
