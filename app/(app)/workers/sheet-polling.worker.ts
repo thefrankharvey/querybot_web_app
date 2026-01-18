@@ -18,7 +18,6 @@ const MAX_POLLS = 20; // Poll up to 20 times
 const POLL_INTERVAL = 4000; // 4 seconds between polls
 
 async function checkSheetStatus(taskId: string): Promise<StatusResponse | null> {
-  console.log("Checking sheet status for task:", taskId);
   try {
     const response = await fetch(`/api/sheet-status/${taskId}`);
     
@@ -31,7 +30,6 @@ async function checkSheetStatus(taskId: string): Promise<StatusResponse | null> 
     
     const data = await response.json();
 
-    console.log("==================== sheet status data ====================", data);
     return data;
   } catch (error) {
     console.error("Error checking sheet status:", error);
@@ -40,14 +38,11 @@ async function checkSheetStatus(taskId: string): Promise<StatusResponse | null> 
 }
 
 async function pollSheetStatus() {
-  console.log("currentTaskId", currentTaskId);
-  console.log("isPolling", isPolling);
   if (!isPolling || !currentTaskId) {
     return;
   }
 
   pollCount++;
-  console.log(`[Worker] Polling attempt ${pollCount}/${MAX_POLLS} for task ${currentTaskId}`);
 
   const result = await checkSheetStatus(currentTaskId);
 
@@ -87,7 +82,6 @@ self.addEventListener("message", (event: MessageEvent<WorkerMessage>) => {
   const { type, taskId } = event.data;
 
   if (type === "START_POLLING" && taskId) {
-    console.log(`[Worker] Starting polling for task ${taskId}`);
     isPolling = true;
     currentTaskId = taskId;
     pollCount = 0;
@@ -95,7 +89,6 @@ self.addEventListener("message", (event: MessageEvent<WorkerMessage>) => {
     // Start polling after 2 seconds
     setTimeout(() => pollSheetStatus(), 2000);
   } else if (type === "STOP_POLLING") {
-    console.log("[Worker] Stopping polling");
     isPolling = false;
     currentTaskId = null;
     pollCount = 0;
