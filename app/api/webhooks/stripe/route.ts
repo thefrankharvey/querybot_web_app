@@ -56,7 +56,6 @@ export async function POST(req: NextRequest) {
 
         if (customer.deleted) {
           // Customer already deleted - nothing we can do, acknowledge the webhook
-          console.log("Customer was deleted, acknowledging webhook");
           return NextResponse.json({ received: true }, { status: 200 });
         }
 

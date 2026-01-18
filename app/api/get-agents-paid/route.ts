@@ -64,7 +64,6 @@ export async function POST(req: NextRequest) {
     );
 
     const data = await externalRes.json();
-
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
     console.error("============== API Error ==============", error);

@@ -17,6 +17,7 @@ import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import Contact from "./components/contact";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
+import { normalizeAndDedup } from "@/app/utils/string-utils";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -46,6 +47,11 @@ const AgentProfile = () => {
       </div>
     );
   }
+
+  const genreMatches = [...(agent.match_hits?.direct.genres || []), ...(agent.match_hits?.cluster.genres || [])];
+  const dedupedGenreMatches = normalizeAndDedup(genreMatches);
+  const themeMatches = [...(agent.match_hits?.direct.themes || []), ...(agent.match_hits?.cluster.themes || [])];
+  const dedupedThemeMatches = normalizeAndDedup(themeMatches);
 
   const handleSaveAgent = async () => {
     const payload = {
@@ -132,26 +138,42 @@ const AgentProfile = () => {
           {hasContactInfo && (
             <Contact agent={agent} isSubscribed={isSubscribed} />
           )}
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
-            <label className="text-lg font-semibold">Agency:</label>
-            {urlFormatter(agent.website) && isSubscribed ? (
-              <Link
-                href={urlFormatter(agent.website) || ""}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="text-base leading-relaxed text-gray-800 underline hover:text-accent">
-                  {agent.agency ? agent.agency : "Info Unavailable"}
-                </p>
-              </Link>
-            ) : (
-              <p className="text-base leading-relaxed text-gray-800">
-                {agent.agency ? agent.agency : "Info Unavailable"}
-              </p>
-            )}
+          <div className="flex flex-col gap-1">
+            <label className="text-lg font-semibold">Matching Genres:</label>
+            <div className="flex flex-wrap gap-1">
+              {dedupedGenreMatches && dedupedGenreMatches.length > 0 &&
+                dedupedGenreMatches.map((genre: string) => (
+                  formatGenres(genre).map((genre: string) => (
+                    <div
+                      key={genre}
+                      className="bg-accent text-white px-2 py-1 text-sm rounded-md"
+                    >
+                      {genre}
+                    </div>
+                  ))
+                ))
+              }
+            </div>
           </div>
           <div className="flex flex-col gap-1">
-            <label className="text-lg font-semibold">Genres:</label>
+            <label className="text-lg font-semibold">Matching Themes:</label>
+            <div className="flex flex-wrap gap-1">
+              {dedupedThemeMatches && dedupedThemeMatches.length > 0 &&
+                dedupedThemeMatches.map((theme: string) => (
+                  formatGenres(theme).map((theme: string) => (
+                    <div
+                      key={theme}
+                      className="bg-accent text-white px-2 py-1 text-sm rounded-md"
+                    >
+                      {theme}
+                    </div>
+                  ))
+                ))
+              }
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <label className="text-lg font-semibold">All Genres:</label>
             <div className="flex flex-wrap gap-1">
               {formatGenres(agent.genres).map((genre: string) => (
                 <div
