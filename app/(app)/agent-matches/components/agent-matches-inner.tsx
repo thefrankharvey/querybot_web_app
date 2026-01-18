@@ -1,6 +1,6 @@
 import { ArrowLeft, Download } from "lucide-react";
 import { AgentMatch } from "../../context/agent-matches-context";
-import { AgentCards } from "@/app/components/agent-cards";
+import AgentMatchCard from "./agent-match-card";
 import Link from "next/link";
 import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
@@ -85,7 +85,7 @@ export const AgentMatchesInner = ({
           ref={gridRef}
         >
           {matches.map((match, index: number) => (
-            <AgentCards
+            <AgentMatchCard
               key={index}
               agent={match}
               index={index}

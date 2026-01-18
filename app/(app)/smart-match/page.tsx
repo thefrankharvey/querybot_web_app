@@ -40,7 +40,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -60,7 +60,6 @@ const SmartMatch = () => {
     mutationFn: async (formData: FormData) => {
       // Clear old spreadsheet URL when starting a new search
       saveSpreadsheetUrl(null);
-      
       const getAgentsEndpoint = isSubscribed
         ? "/api/get-agents-paid"
         : "/api/get-agents-free";
@@ -86,12 +85,12 @@ const SmartMatch = () => {
       if (data.matches.length > 0) {
         saveMatches(data.matches);
         saveNextCursor(data.next_cursor);
-        
+
         // // Use global function - worker persists after navigation
         // if (data.task_id) {
         //   console.log("Starting worker for task:", data.task_id);
         //   saveSheetTaskId(data.task_id);
-          
+
         //   startSheetPolling(
         //     data.task_id,
         //     (url) => {
@@ -142,6 +141,7 @@ const SmartMatch = () => {
     }
 
     saveFormData(payload);
+    saveStatusFilter("all");
     queryMutation.mutate(payload);
     window.scrollTo({
       top: 0,

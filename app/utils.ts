@@ -45,11 +45,22 @@ export const validateQuery = (payload: QueryPayload) => {
     { field: "subgenres", label: "Subgenres" },
     { field: "format", label: "Format" },
     { field: "target_audience", label: "Target audience" },
+    { field: "themes", label: "Themes" },
+    { field: "comps", label: "Comps" },
   ] as const;
 
   for (const { field, label } of requiredFields) {
+
+   if(field === "themes" && typeof payload[field] === "object" && payload[field].length < 3) {
+    return { error: `Must have at least 3 themes`, isValid: false };
+   }
+
     if (typeof payload[field] === "object" && payload[field].length === 0) {
-      return { error: `${label} required`, isValid: false };
+      if(field === "comps") {
+        return { error: `At least one comparable title is required`, isValid: false };
+      } else {
+        return { error: `${label} required`, isValid: false };
+      }
     }
     if (!payload[field]) {
       return { error: `${label} required`, isValid: false };
