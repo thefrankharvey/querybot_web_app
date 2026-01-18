@@ -195,6 +195,7 @@ export type FetchAgentResponse = {
     extra_interest?: string;
     pubmarketplace?: string;
     normalized_score?: number;
+    status?: string;
     agency_url?: string;
     negatives?: string;
     querymanager?: string;

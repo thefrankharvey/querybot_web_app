@@ -29,27 +29,28 @@ const ExplanationBlock = () => {
               </div>
             </DialogTitle>
           </DialogHeader>
-          <div className="mt-4">
-            <ul className="space-y-3 text-gray-700">
+          <div>
+            <ul className="space-y-6 text-gray-700">
               <li className="flex items-start">
                 <div>
                   <span className="font-semibold">View results</span>
-                  <br /> - The results are scored based on how well an agent
+                  <br />The results are scored based on how well an agent
                   matches with the entries in the form you submitted. Click the
-                  agent card to see the agent&apos;s details.
+                  agent card to see the agent&apos;s profile, including their contact information and bio.
+                  From there you can save the agent to your saved agents list.
                 </div>
               </li>
 
               <li className="flex items-start">
                 <div>
                   <span className="font-semibold">Query Spreadsheet</span>
-                  <br /> - You can download the results from each page in a
+                  <br />You can download the results from each page in a
                   formatted spreadsheet that you can use during your query
                   process.
                 </div>
               </li>
 
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <div>
                   <span className="font-semibold">Give us honest feedback</span>
                   <br /> - please click the feedback button and let us know what
@@ -58,12 +59,12 @@ const ExplanationBlock = () => {
                   be helping writers everywhere have a better shot at that book
                   deal.
                 </div>
-              </li>
+              </li> */}
 
               <li className="flex items-start">
                 <div>
                   <span className="font-semibold">
-                    Have anything else to say?
+                    We want to hear from you!
                   </span>
                   <br />{" "}
                   <div className="text-accent/70 font-semibold hover:text-accent">

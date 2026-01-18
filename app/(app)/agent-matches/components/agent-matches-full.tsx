@@ -3,7 +3,6 @@
 import { useAgentMatches, FormData } from "../../context/agent-matches-context";
 import { useMutation } from "@tanstack/react-query";
 import { QUERY_LIMIT } from "@/app/constants";
-import AgentMatchesInner from "./agent-matches-inner";
 import {
   Pagination,
   PaginationContent,
@@ -11,6 +10,8 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/app/ui-primitives/pagination";
+import { startSheetPolling } from "../../workers/sheet-worker-manager";
+import AgentMatchesInner from "./agent-matches-inner";
 
 export const AgentMatchesFull = () => {
   const {
@@ -25,6 +26,9 @@ export const AgentMatchesFull = () => {
     saveStatusFilter,
     sheetTaskId,
     spreadsheetUrl,
+    sheetStatus,
+    startSpreadsheetPolling,
+    saveSpreadsheetUrl,
   } = useAgentMatches();
   const nextCursor = nextCursorCount || QUERY_LIMIT;
 
@@ -61,6 +65,18 @@ export const AgentMatchesFull = () => {
         saveMatches(data.matches);
         if (data.next_cursor !== null) {
           saveNextCursor(data.next_cursor);
+        }
+        if (data.task_id) {
+          startSpreadsheetPolling(data.task_id);
+
+          startSheetPolling(
+            data.task_id,
+            (url) => {
+              saveSpreadsheetUrl(url);
+            },
+            () => {
+            }
+          );
         }
       }
     },
@@ -119,6 +135,7 @@ export const AgentMatchesFull = () => {
         onStatusChange={handleStatusChange}
         sheetTaskId={sheetTaskId}
         spreadsheetUrl={spreadsheetUrl}
+        sheetStatus={sheetStatus}
       />
       <Pagination className="mt-8">
         <PaginationContent>
