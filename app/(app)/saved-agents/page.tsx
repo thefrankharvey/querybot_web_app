@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
-// import { ActionCards } from "@/app/components/action-cards";
+import { ActionCards } from "@/app/components/action-cards";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import FreeUser from "./components/free-user";
 import SubscriberEmpty from "./components/subscriber-empty";
@@ -75,8 +75,9 @@ const SavedAgents = () => {
 
   return (
     <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13">
-      {/* <ActionCards /> */}
-      <div className="flex flex-col gap-4 bg-white rounded-lg p-10 md:p-12 w-full shadow-lg justify-center items-center">
+      <ActionCards />
+      {/* <ButtonBar /> */}
+      <div className="flex flex-col gap-4 bg-white rounded-lg p-10 md:p-12 w-full shadow-lg justify-center items-center border border-accent/20">
         {isSubscribed ? <SubscriberEmpty /> : <FreeUser />}
       </div>
     </div>

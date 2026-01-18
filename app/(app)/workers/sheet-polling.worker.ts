@@ -7,7 +7,7 @@ interface WorkerMessage {
 }
 
 interface StatusResponse {
-  status: "pending" | "complete";
+  status: "creating" | "ready";
   spreadsheet_url?: string;
 }
 
@@ -51,8 +51,7 @@ async function pollSheetStatus() {
 
   const result = await checkSheetStatus(currentTaskId);
 
-  if (result) {
-    if (result.status === "complete" && result.spreadsheet_url) {
+  if (result && result.spreadsheet_url) {
       // Success! Send the URL back to main thread
       self.postMessage({
         type: "SPREADSHEET_READY",
@@ -65,7 +64,6 @@ async function pollSheetStatus() {
       pollCount = 0;
       currentTaskId = null;
       return;
-    }
   }
 
   // Continue polling if we haven't exceeded max attempts

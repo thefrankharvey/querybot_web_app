@@ -14,7 +14,7 @@ import TooltipComponent from "@/app/components/tooltip";
 import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-import Contact from "./components/contact";
+import AgentContactDetails from "@/app/components/agent-contact-details";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
@@ -66,12 +66,6 @@ const AgentProfile = () => {
     };
     await saveAgent(payload);
   };
-
-  const hasContactInfo =
-    agent.email ||
-    agent.querymanager ||
-    agent.pubmarketplace ||
-    agent.querytracker;
 
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto md:mt-15 mt-0">
@@ -135,9 +129,7 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          {hasContactInfo && (
-            <Contact agent={agent} isSubscribed={isSubscribed} />
-          )}
+          <AgentContactDetails agent={agent} isSubscribed={isSubscribed} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Matching Genres:</label>
             <div className="flex flex-wrap gap-1">

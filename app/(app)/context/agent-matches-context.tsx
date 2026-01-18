@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useMemo, useState, useEffect } from "react";
 import {
   QueryClient,
   QueryClientProvider,
@@ -8,6 +8,8 @@ import {
   useQuery,
   useQueryClient,
 } from "@tanstack/react-query";
+
+import { startSheetPolling, stopSheetPolling } from "../workers/sheet-worker-manager";
 
 export interface MatchHits {
   cluster: {
@@ -68,9 +70,6 @@ export interface FormData {
   non_fiction: boolean;
 }
 
-// -----------------------------
-// Keys + localStorage helpers
-// -----------------------------
 const QUERY_KEYS = {
   agentMatches: ["agentMatches"] as const,
   formData: ["formData"] as const,
@@ -114,23 +113,19 @@ function removeKey(key: string) {
   window.localStorage.removeItem(key);
 }
 
-// -----------------------------
-// React Query-powered data hook
-// -----------------------------
+export type SheetStatus = "idle" | "pending" | "ready" | "timeout" | "error";
+
 const useAgentData = () => {
   const queryClient = useQueryClient();
 
-  // In-memory state for sheet task ID (not persisted)
   const [sheetTaskId, setSheetTaskId] = useState<string | null>(null);
-
-  // ----- Queries (read from localStorage, cached in React Query) -----
+  const [sheetStatus, setSheetStatus] = useState<SheetStatus>("idle");
 
   const { data: matches = [], isLoading } = useQuery({
     queryKey: QUERY_KEYS.agentMatches,
     queryFn: async (): Promise<AgentMatch[]> =>
       readJSON<AgentMatch[]>(STORAGE_KEYS.agentMatches) ?? [],
-    initialData: () =>
-      readJSON<AgentMatch[]>(STORAGE_KEYS.agentMatches) ?? [],
+    initialData: () => readJSON<AgentMatch[]>(STORAGE_KEYS.agentMatches) ?? [],
   });
 
   const { data: formData = null } = useQuery({
@@ -168,7 +163,12 @@ const useAgentData = () => {
     initialData: () => readJSON<string>(STORAGE_KEYS.statusFilter) ?? "all",
   });
 
-  // ----- Mutations (setQueryData immediately, then persist) -----
+  // ✅ Key fix: if we're pending and the URL arrives (from any source), mark ready
+  useEffect(() => {
+    if (sheetStatus === "pending" && spreadsheetUrl) {
+      setSheetStatus("ready");
+    }
+  }, [sheetStatus, spreadsheetUrl]);
 
   const saveMatchesMutation = useMutation({
     mutationFn: async (newMatches: AgentMatch[]) => {
@@ -177,15 +177,7 @@ const useAgentData = () => {
     },
     onMutate: async (newMatches) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.agentMatches });
-      const prev = queryClient.getQueryData<AgentMatch[]>(QUERY_KEYS.agentMatches);
       queryClient.setQueryData<AgentMatch[]>(QUERY_KEYS.agentMatches, newMatches);
-      return { prev };
-    },
-    onError: (_err, _newMatches, ctx) => {
-      if (ctx?.prev) queryClient.setQueryData(QUERY_KEYS.agentMatches, ctx.prev);
-    },
-    onSuccess: (newMatches) => {
-      queryClient.setQueryData(QUERY_KEYS.agentMatches, newMatches);
     },
   });
 
@@ -196,17 +188,6 @@ const useAgentData = () => {
     },
     onMutate: async (next) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.formData });
-      const prev = queryClient.getQueryData<FormData | null>(QUERY_KEYS.formData);
-      queryClient.setQueryData<FormData | null>(QUERY_KEYS.formData, next);
-      return { prev };
-    },
-    onError: (_err, _next, ctx) => {
-      queryClient.setQueryData<FormData | null>(
-        QUERY_KEYS.formData,
-        ctx?.prev ?? null
-      );
-    },
-    onSuccess: (next) => {
       queryClient.setQueryData<FormData | null>(QUERY_KEYS.formData, next);
     },
   });
@@ -218,17 +199,6 @@ const useAgentData = () => {
     },
     onMutate: async (count) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.nextCursorCount });
-      const prev = queryClient.getQueryData<number | null>(QUERY_KEYS.nextCursorCount);
-      queryClient.setQueryData<number | null>(QUERY_KEYS.nextCursorCount, count);
-      return { prev };
-    },
-    onError: (_err, _count, ctx) => {
-      queryClient.setQueryData<number | null>(
-        QUERY_KEYS.nextCursorCount,
-        ctx?.prev ?? null
-      );
-    },
-    onSuccess: (count) => {
       queryClient.setQueryData<number | null>(QUERY_KEYS.nextCursorCount, count);
     },
   });
@@ -240,17 +210,6 @@ const useAgentData = () => {
     },
     onMutate: async (cursor) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.currentCursor });
-      const prev = queryClient.getQueryData<number>(QUERY_KEYS.currentCursor);
-      queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, cursor);
-      return { prev };
-    },
-    onError: (_err, _cursor, ctx) => {
-      queryClient.setQueryData<number>(
-        QUERY_KEYS.currentCursor,
-        ctx?.prev ?? 0
-      );
-    },
-    onSuccess: (cursor) => {
       queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, cursor);
     },
   });
@@ -263,18 +222,10 @@ const useAgentData = () => {
     },
     onMutate: async (url) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.spreadsheetUrl });
-      const prev = queryClient.getQueryData<string | null>(QUERY_KEYS.spreadsheetUrl);
       queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, url);
-      return { prev };
     },
-    onError: (_err, _url, ctx) => {
-      queryClient.setQueryData<string | null>(
-        QUERY_KEYS.spreadsheetUrl,
-        ctx?.prev ?? null
-      );
-    },
-    onSuccess: (url) => {
-      queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, url);
+    onError: () => {
+      setSheetStatus("error");
     },
   });
 
@@ -285,20 +236,84 @@ const useAgentData = () => {
     },
     onMutate: async (status) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.statusFilter });
-      const prev = queryClient.getQueryData<string>(QUERY_KEYS.statusFilter);
-      queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, status);
-      return { prev };
-    },
-    onError: (_err, _status, ctx) => {
-      queryClient.setQueryData<string>(
-        QUERY_KEYS.statusFilter,
-        ctx?.prev ?? "all"
-      );
-    },
-    onSuccess: (status) => {
       queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, status);
     },
   });
+
+  // ✅ Worker-tied API: status changes are guaranteed here
+  const startSpreadsheetPolling = (taskId: string) => {
+    setSheetTaskId(taskId);
+    setSheetStatus("pending");
+
+    // optional: clear previous url
+    saveSpreadsheetUrlMutation.mutate(null);
+
+    startSheetPolling(
+      taskId,
+      (url) => {
+        // if this callback is the one delivering the url, this flips immediately
+        setSheetStatus("ready");
+        saveSpreadsheetUrlMutation.mutate(url);
+      },
+      () => {
+        setSheetStatus("timeout");
+      }
+    );
+  };
+
+  const stopSpreadsheetPolling = () => {
+    stopSheetPolling();
+    setSheetStatus("idle");
+    setSheetTaskId(null);
+  };
+
+  const resetSpreadsheet = () => {
+    stopSheetPolling();
+    setSheetStatus("idle");
+    setSheetTaskId(null);
+    saveSpreadsheetUrlMutation.mutate(null);
+  };
+
+  // ✅ If some other code calls saveSpreadsheetUrl directly, still flip ready
+  const saveSpreadsheetUrl = (url: string | null) => {
+    if (url) setSheetStatus("ready");
+    saveSpreadsheetUrlMutation.mutate(url);
+  };
+
+  const resetForNewSearch = async () => {
+    // stop sheet-related stuff (optional, but usually correct)
+    stopSheetPolling();
+
+    // 1) cancel anything in flight
+    await queryClient.cancelQueries();
+
+    // 2) clear localStorage keys that cause old UI to hydrate
+    removeKey(STORAGE_KEYS.agentMatches);
+    removeKey(STORAGE_KEYS.nextCursorCount);
+    removeKey(STORAGE_KEYS.currentCursor);
+    removeKey(STORAGE_KEYS.spreadsheetUrl);
+    // keep or clear formData depending on your UX:
+    // removeKey(STORAGE_KEYS.formData);
+
+    // You likely want to reset status filter on a brand new search
+    // removeKey(STORAGE_KEYS.statusFilter);
+
+    // 3) reset React Query cache immediately (forces re-render everywhere)
+    queryClient.setQueryData<AgentMatch[]>(QUERY_KEYS.agentMatches, []);
+    queryClient.setQueryData<number | null>(QUERY_KEYS.nextCursorCount, null);
+    queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, 0);
+    queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, null);
+
+    // If you clear statusFilter in storage, also reset it here:
+    // queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, "all");
+
+    // 4) reset any in-memory state
+    setSheetTaskId(null);
+
+    // If you added sheetStatus earlier, reset it too:
+    setSheetStatus("idle");
+  };
+
 
   return {
     matches,
@@ -310,20 +325,24 @@ const useAgentData = () => {
     sheetTaskId,
     isLoading,
 
+    sheetStatus,
+    isSpreadsheetPending: sheetStatus === "pending",
+
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursorMutation.mutate(count),
     saveCurrentCursor: (cursor: number) => saveCurrentCursorMutation.mutate(cursor),
-    saveSpreadsheetUrl: (url: string | null) =>
-      saveSpreadsheetUrlMutation.mutate(url),
+    saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
+
+    startSpreadsheetPolling,
+    stopSpreadsheetPolling,
+    resetSpreadsheet,
+    resetForNewSearch,
   };
 };
 
-// -----------------------------
-// Context
-// -----------------------------
 interface MatchesContextType {
   matches: AgentMatch[];
   formData: FormData | null;
@@ -331,6 +350,9 @@ interface MatchesContextType {
   statusFilter: string;
   sheetTaskId: string | null;
   isLoading: boolean;
+
+  sheetStatus: SheetStatus;
+  isSpreadsheetPending: boolean;
 
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
@@ -340,13 +362,17 @@ interface MatchesContextType {
   saveStatusFilter: (status: string) => void;
   saveSheetTaskId: (taskId: string | null) => void;
 
+  startSpreadsheetPolling: (taskId: string) => void;
+  stopSpreadsheetPolling: () => void;
+  resetSpreadsheet: () => void;
+  resetForNewSearch: () => Promise<void> | void;
+
   nextCursorCount: number | null;
   currentCursor: number;
 }
 
 export const MatchesContext = createContext<MatchesContextType | null>(null);
 
-// Combined provider component that sets up both React Query and the context
 export function AgentMatchesProvider({ children }: { children: React.ReactNode }) {
   const [client] = React.useState(
     () =>
@@ -367,56 +393,66 @@ export function AgentMatchesProvider({ children }: { children: React.ReactNode }
   );
 }
 
-// The internal context provider that uses React Query hooks
 function AgentMatchesContextProvider({ children }: { children: React.ReactNode }) {
-  const {
-    matches,
-    formData,
-    spreadsheetUrl,
-    statusFilter,
-    sheetTaskId,
-    isLoading,
-    saveMatches,
-    saveFormData,
-    saveNextCursor,
-    saveCurrentCursor,
-    saveSpreadsheetUrl,
-    saveStatusFilter,
-    saveSheetTaskId,
-    nextCursorCount,
-    currentCursor,
-  } = useAgentData();
+  const data = useAgentData();
 
-  return (
-    <MatchesContext.Provider
-      value={{
-        matches,
-        nextCursorCount,
-        currentCursor,
-        formData,
-        spreadsheetUrl,
-        statusFilter,
-        sheetTaskId,
-        isLoading,
-        saveMatches,
-        saveFormData,
-        saveNextCursor,
-        saveCurrentCursor,
-        saveSpreadsheetUrl,
-        saveStatusFilter,
-        saveSheetTaskId,
-      }}
-    >
-      {children}
-    </MatchesContext.Provider>
+  const value = useMemo<MatchesContextType>(
+    () => ({
+      matches: data.matches,
+      nextCursorCount: data.nextCursorCount,
+      currentCursor: data.currentCursor,
+      formData: data.formData,
+      spreadsheetUrl: data.spreadsheetUrl,
+      statusFilter: data.statusFilter,
+      sheetTaskId: data.sheetTaskId,
+      isLoading: data.isLoading,
+
+      sheetStatus: data.sheetStatus,
+      isSpreadsheetPending: data.isSpreadsheetPending,
+
+      saveMatches: data.saveMatches,
+      saveFormData: data.saveFormData,
+      saveNextCursor: data.saveNextCursor,
+      saveCurrentCursor: data.saveCurrentCursor,
+      saveSpreadsheetUrl: data.saveSpreadsheetUrl,
+      saveStatusFilter: data.saveStatusFilter,
+      saveSheetTaskId: data.saveSheetTaskId,
+
+      startSpreadsheetPolling: data.startSpreadsheetPolling,
+      stopSpreadsheetPolling: data.stopSpreadsheetPolling,
+      resetSpreadsheet: data.resetSpreadsheet,
+      resetForNewSearch: data.resetForNewSearch,
+    }),
+    [
+      data.matches,
+      data.nextCursorCount,
+      data.currentCursor,
+      data.formData,
+      data.spreadsheetUrl,
+      data.statusFilter,
+      data.sheetTaskId,
+      data.isLoading,
+      data.sheetStatus,
+      data.isSpreadsheetPending,
+      data.saveMatches,
+      data.saveFormData,
+      data.saveNextCursor,
+      data.saveCurrentCursor,
+      data.saveSpreadsheetUrl,
+      data.saveStatusFilter,
+      data.saveSheetTaskId,
+      data.startSpreadsheetPolling,
+      data.stopSpreadsheetPolling,
+      data.resetSpreadsheet,
+      data.resetForNewSearch,
+    ]
   );
+
+  return <MatchesContext.Provider value={value}>{children}</MatchesContext.Provider>;
 }
 
-// Hook to use the context
 export function useAgentMatches(): MatchesContextType {
   const context = useContext(MatchesContext);
-  if (!context) {
-    throw new Error("useAgentMatches must be used within an AgentMatchesProvider");
-  }
+  if (!context) throw new Error("useAgentMatches must be used within an AgentMatchesProvider");
   return context;
 }
