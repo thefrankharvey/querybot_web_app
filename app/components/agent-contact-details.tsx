@@ -14,6 +14,12 @@ const AgentContactDetails = ({
     agent: AgentMatch | FetchAgentResponse["agent"];
     isSubscribed: boolean;
 }) => {
+
+
+
+    console.log("agent", agent);
+    console.log("isSubscribed", isSubscribed);
+
     return (
         <div>
             {!isSubscribed ? (
@@ -59,8 +65,8 @@ const AgentContactDetails = ({
                             </div>
                         )}
                     </div>
-                    <div className="flex flex-col gap-1">
-                        {agent.querymanager || agent.pubmarketplace || agent.querytracker && (
+                    <div className="flex flex-col gap-2">
+                        {(agent.querymanager || agent.pubmarketplace || agent.querytracker) && (
                             <h2 className="text-base font-semibold">Links:</h2>
                         )}
                         {agent.querymanager && (
