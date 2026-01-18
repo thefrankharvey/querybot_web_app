@@ -11,7 +11,7 @@ export const WQH_DEV_API_URL =
   "https://dev-query-bot-flask-app-dev.onrender.com/";
 export const WQH_PROD_API_URL = "https://querybot-api.onrender.com/";
 
-export const WQH_API_URL = WQH_DEV_API_URL;
+export const WQH_API_URL = WQH_PROD_API_URL;
 
 export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
 
