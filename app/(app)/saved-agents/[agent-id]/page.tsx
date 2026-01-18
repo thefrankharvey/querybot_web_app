@@ -4,9 +4,8 @@ import React from "react";
 import { useFetchAgent } from "@/app/hooks/use-fetch-agent";
 import TooltipComponent from "@/app/components/tooltip";
 import StarRating from "@/app/components/star-rating";
-import Contact from "./components/contact";
-import { formatDisplayString, formatGenres, urlFormatter } from "@/app/utils";
-import Link from "next/link";
+import AgentContactDetails from "@/app/components/agent-contact-details";
+import { formatDisplayString, formatGenres } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -85,12 +84,6 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
     );
   }
 
-  const hasContactInfo =
-    agent.email ||
-    agent.querymanager ||
-    agent.pubmarketplace ||
-    agent.querytracker;
-
   return (
     <div>
       <div className="max-w-[1000px] mx-auto pb-4 flex justify-end pt-3">
@@ -129,25 +122,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
               </TooltipComponent>
             </div>
           </div>
-          {hasContactInfo ? <Contact agent={agent} /> : null}
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
-            <label className="text-lg font-semibold">Agency:</label>
-            {urlFormatter(agent.website) ? (
-              <Link
-                href={urlFormatter(agent.website) || ""}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="text-base leading-relaxed text-gray-800 underline hover:text-accent">
-                  {agent.agency ? agent.agency : "Info Unavailable"}
-                </p>
-              </Link>
-            ) : (
-              <p className="text-base leading-relaxed text-gray-800">
-                {agent.agency ? agent.agency : "Info Unavailable"}
-              </p>
-            )}
-          </div>
+          <AgentContactDetails agent={agent} isSubscribed={true} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Genres:</label>
             <div className="flex flex-wrap gap-1">

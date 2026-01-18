@@ -15,10 +15,8 @@ if (typeof window !== "undefined") {
     const { type, spreadsheetUrl } = event.data;
     
     if (type === "SPREADSHEET_READY" && spreadsheetUrl) {
-      console.log("[Worker Manager] Spreadsheet ready:", spreadsheetUrl);
       currentCallback?.(spreadsheetUrl);
     } else if (type === "POLLING_TIMEOUT") {
-      console.log("[Worker Manager] Polling timeout");
       timeoutCallback?.();
     }
   };
@@ -46,7 +44,6 @@ export function startSheetPolling(
     return;
   }
 
-  console.log("[Worker Manager] Starting polling for task:", taskId);
   currentCallback = onReady;
   timeoutCallback = onTimeout || null;
 
@@ -59,7 +56,6 @@ export function startSheetPolling(
 export function stopSheetPolling() {
   if (!workerInstance) return;
   
-  console.log("[Worker Manager] Stopping polling");
   workerInstance.postMessage({ type: "STOP_POLLING" });
   currentCallback = null;
   timeoutCallback = null;

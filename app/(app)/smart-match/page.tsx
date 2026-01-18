@@ -5,7 +5,6 @@ import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
 import {
   useAgentMatches,
-  AgentMatchesProvider,
   FormData,
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
@@ -23,7 +22,7 @@ import FictionRadio from "./components/fiction-radio";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-// import { startSheetPolling } from "../workers/sheet-worker-manager";
+import { startSheetPolling } from "../workers/sheet-worker-manager";
 
 export type FormState = {
   email: string;
@@ -40,7 +39,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, startSpreadsheetPolling, resetForNewSearch } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -58,7 +57,6 @@ const SmartMatch = () => {
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
-      // Clear old spreadsheet URL when starting a new search
       saveSpreadsheetUrl(null);
       const getAgentsEndpoint = isSubscribed
         ? "/api/get-agents-paid"
@@ -86,22 +84,18 @@ const SmartMatch = () => {
         saveMatches(data.matches);
         saveNextCursor(data.next_cursor);
 
-        // // Use global function - worker persists after navigation
-        // if (data.task_id) {
-        //   console.log("Starting worker for task:", data.task_id);
-        //   saveSheetTaskId(data.task_id);
+        if (data.task_id) {
+          startSpreadsheetPolling(data.task_id);
 
-        //   startSheetPolling(
-        //     data.task_id,
-        //     (url) => {
-        //       console.log("Spreadsheet ready:", url);
-        //       saveSpreadsheetUrl(url);
-        //     },
-        //     () => {
-        //       console.log("Spreadsheet generation timed out");
-        //     }
-        //   );
-        // }
+          startSheetPolling(
+            data.task_id,
+            (url) => {
+              saveSpreadsheetUrl(url);
+            },
+            () => {
+            }
+          );
+        }
       } else {
         setApiMessage("No matches found");
       }
@@ -119,6 +113,7 @@ const SmartMatch = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    await resetForNewSearch();
     const comps = formatComps(form.comps);
 
     const payload = {
@@ -213,13 +208,6 @@ const SmartMatch = () => {
               <TargetAudience form={form} setForm={setForm} />
               <Themes setForm={setForm} />
               <Comps form={form} setForm={setForm} />
-              {/* <Synopsis form={form} setForm={setForm} /> */}
-              {/* <Manuscript
-                form={form}
-                setForm={setForm}
-                manuscriptStatus={manuscriptStatus}
-                processManuscript={processManuscript}
-              /> */}
               {apiMessage && (
                 <div className="text-red-500 text-base w-full font-semibold">
                   {apiMessage}
@@ -241,11 +229,4 @@ const SmartMatch = () => {
   );
 };
 
-export default function SmartMatchPage() {
-  return (
-    <AgentMatchesProvider>
-      <SmartMatch />
-      {/* <TypeForm /> */}
-    </AgentMatchesProvider>
-  );
-}
+export default SmartMatch;
