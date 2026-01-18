@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { formatGenres, formatDisplayString, urlFormatter } from "@/app/utils";
+import { formatGenres, formatDisplayString } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   AgentMatchesProvider,
