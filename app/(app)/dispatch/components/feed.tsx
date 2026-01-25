@@ -12,6 +12,7 @@ import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useDispatchFeed } from "@/app/hooks/use-dispatch-feed";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useOnInView } from "react-intersection-observer";
+import TypeForm from "@/app/components/type-form";
 
 enum SOCIAL_DATA {
   AGENT_INFO = "AGENT_INFO",
@@ -198,6 +199,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
             No new posts to show, please check back later!
           </h2>
         )}
+      <TypeForm />
     </>
   );
 };
