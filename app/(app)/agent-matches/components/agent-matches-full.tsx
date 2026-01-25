@@ -12,6 +12,7 @@ import {
 } from "@/app/ui-primitives/pagination";
 import { startSheetPolling } from "../../workers/sheet-worker-manager";
 import AgentMatchesInner from "./agent-matches-inner";
+import TypeForm from "@/app/components/type-form";
 
 export const AgentMatchesFull = () => {
   const {
@@ -163,7 +164,7 @@ export const AgentMatchesFull = () => {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-      {/* <TypeForm /> */}
+      <TypeForm />
     </>
   );
 };

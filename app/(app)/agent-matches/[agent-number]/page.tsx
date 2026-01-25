@@ -18,6 +18,7 @@ import AgentContactDetails from "@/app/components/agent-contact-details";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
+import TypeForm from "@/app/components/type-form";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -230,7 +231,7 @@ export default function AgentProfilePage() {
   return (
     <AgentMatchesProvider>
       <AgentProfile />
-      {/* <TypeForm /> */}
+      <TypeForm />
     </AgentMatchesProvider>
   );
 }
