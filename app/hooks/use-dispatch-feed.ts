@@ -1,9 +1,9 @@
 "use client";
 
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { Blips, FeedItem, FlattenedSlushFeed } from "../types";
-import { formatDisplayString, urlFormatter } from "../utils";
+import { FeedItem, FlattenedSlushFeed } from "../types";
 import { useMemo } from "react";
+import { formatFeedItem } from "../utils/dispatch-utils";
 
 const LIMIT = 10;
 
@@ -13,34 +13,14 @@ type FilterState = {
   showBluesky: boolean;
 };
 
-const formatBlips = (blip: Blips): Blips => {
-  return {
-    ...blip,
-    extra_interest: blip.extra_interest
-      ? formatDisplayString(blip.extra_interest)
-      : undefined,
-    website: blip.website ? urlFormatter(blip.website) || "" : "",
-  };
-};
-
-const formatFeedItem = (item: FeedItem): FeedItem => {
-  if (item.type === "new_opening" || item.type === "agent_activity") {
-    return {
-      ...item,
-      data: formatBlips(item.data),
-    };
-  }
-  return item;
-};
-
 const fetchDispatchFeed = async (
-  offset: number
+  offset: number,
 ): Promise<FlattenedSlushFeed> => {
   const res = await fetch(
     `/api/dispatch-feed?limit=${LIMIT}&offset=${offset}`,
     {
       cache: "no-store",
-    }
+    },
   );
 
   if (!res.ok) {
@@ -71,7 +51,7 @@ const itemMatchesFilters = (item: FeedItem, filters: FilterState): boolean => {
 
 export const useDispatchFeed = (
   initialData?: FlattenedSlushFeed,
-  filters?: FilterState
+  filters?: FilterState,
 ) => {
   const {
     data,
@@ -97,7 +77,7 @@ export const useDispatchFeed = (
       }
 
       const hasMatchingItems = lastPage.some((item) =>
-        itemMatchesFilters(item, filters)
+        itemMatchesFilters(item, filters),
       );
 
       if (!hasMatchingItems) {

@@ -1,28 +1,8 @@
 import React from "react";
 import { Feed } from "./components/feed";
 import { Newspaper } from "lucide-react";
-import { formatDisplayString, urlFormatter } from "@/app/utils";
-import { Blips, FlattenedSlushFeed, FeedItem } from "@/app/types";
-
-const formatBlips = (blip: Blips): Blips => {
-  return {
-    ...blip,
-    extra_interest: blip.extra_interest
-      ? formatDisplayString(blip.extra_interest)
-      : undefined,
-    website: blip.website ? urlFormatter(blip.website) || "" : "",
-  };
-};
-
-const formatFeedItem = (item: FeedItem): FeedItem => {
-  if (item.type === "new_opening" || item.type === "agent_activity") {
-    return {
-      ...item,
-      data: formatBlips(item.data),
-    };
-  }
-  return item;
-};
+import { FlattenedSlushFeed, FeedItem } from "@/app/types";
+import { formatFeedItem } from "@/app/utils/dispatch-utils";
 
 const Dispatch = async () => {
   try {
