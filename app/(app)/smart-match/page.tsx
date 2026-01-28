@@ -16,16 +16,14 @@ import Themes from "./components/themes";
 import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
-import Email from "./components/email";
 import Format from "./components/format";
-import FictionRadio from "./components/fiction-radio";
+import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
 
 export type FormState = {
-  email: string;
   genre: string;
   subgenres: string[];
   format: string;
@@ -44,7 +42,6 @@ const SmartMatch = () => {
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
-    email: "",
     genre: "",
     subgenres: [],
     format: "",
@@ -117,7 +114,7 @@ const SmartMatch = () => {
     const comps = formatComps(form.comps);
 
     const payload = {
-      email: form.email,
+      email: user?.primaryEmailAddress?.emailAddress || "",
       genre: form.genre,
       subgenres: form.subgenres,
       format: form.format,
@@ -196,12 +193,7 @@ const SmartMatch = () => {
           </div>
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[700px] mx-auto shadow-lg">
-              <Email
-                form={form}
-                setForm={setForm}
-                defaultEmail={user?.primaryEmailAddress?.emailAddress || ""}
-              />
-              <FictionRadio form={form} setForm={setForm} />
+              <FictionButtonToggle form={form} setForm={setForm} />
               <Genre setForm={setForm} />
               <Subgenres setForm={setForm} />
               <Format setForm={setForm} />
