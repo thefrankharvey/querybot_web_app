@@ -1,9 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 // @ts-expect-error No type declarations available for pdf-parse
 import pdfParse from "pdf-parse/lib/pdf-parse";
 
 export async function POST(req: NextRequest) {
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const formData = await req.formData();
     const manuscript = formData.get("manuscript") as File | null;
     let manuscriptText = "";

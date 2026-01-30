@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 import { WQH_API_URL } from "@/app/constants";
 
 // Define the structure of the payload
@@ -23,6 +24,11 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const jsonData = await req.json();
 
     const payload: GetAgentsFreePayload = {

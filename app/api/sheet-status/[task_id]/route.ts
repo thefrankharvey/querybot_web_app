@@ -1,5 +1,6 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 export async function GET(
   req: NextRequest,
@@ -9,6 +10,11 @@ export async function GET(
   const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
 
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const { task_id } = await params;
 
     if (!task_id) {
