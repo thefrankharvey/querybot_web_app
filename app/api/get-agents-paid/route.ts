@@ -1,5 +1,6 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 // Define the structure of the payload
 export interface GetAgentsPaidPayload {
@@ -23,6 +24,11 @@ export async function POST(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 300000); // 5 minute timeout
 
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     // Get last_index and status from URL parameters
     const url = new URL(req.url);
     const last_index = url.searchParams.get("last_index") || "0";

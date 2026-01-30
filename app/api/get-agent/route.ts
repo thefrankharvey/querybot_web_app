@@ -1,10 +1,16 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 export async function GET(req: NextRequest) {
   const controller = new AbortController();
 
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     // Parse agent_id from query parameters
     const { searchParams } = new URL(req.url);
     const agentId = searchParams.get("agent_id");
