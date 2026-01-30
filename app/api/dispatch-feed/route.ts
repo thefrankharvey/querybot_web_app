@@ -1,64 +1,8 @@
 import { WQH_API_URL } from "@/app/constants";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import {
-  SlushFeed,
-  FeedItem,
-  BlueskyPost,
-  RedditPost,
-  Blips,
-} from "@/app/types";
-
-/**
- * Flattens and sorts feed results by timestamp in ascending order.
- * Each item is tagged with its type for rendering.
- */
-function flattenAndSortFeed(feed: SlushFeed): FeedItem[] {
-  const allItems: FeedItem[] = [];
-
-  // Add bluesky posts
-  feed.bluesky?.forEach((post: BlueskyPost) => {
-    allItems.push({ type: "bluesky", data: post });
-  });
-
-  // Add reddit posts
-  feed.reddit?.forEach((post: RedditPost) => {
-    allItems.push({ type: "reddit", data: post });
-  });
-
-  // Add new openings
-  feed.new_openings?.forEach((blip: Blips) => {
-    allItems.push({ type: "new_opening", data: blip });
-  });
-
-  // Add agent activity
-  feed.agent_activity?.forEach((blip: Blips) => {
-    allItems.push({ type: "agent_activity", data: blip });
-  });
-
-  // Sort by timestamp (ascending - oldest to newest)
-  allItems.sort((a, b) => {
-    const getTimestamp = (item: FeedItem): string => {
-      switch (item.type) {
-        case "bluesky":
-          return item.data.datetime || item.data.created_at;
-        case "reddit":
-          return item.data.datetime_posted || item.data.created_at;
-        case "new_opening":
-        case "agent_activity":
-          return item.data.updated_at || item.data.created_at;
-        default:
-          return "";
-      }
-    };
-
-    const timeA = new Date(getTimestamp(a)).getTime();
-    const timeB = new Date(getTimestamp(b)).getTime();
-    return timeA - timeB;
-  });
-
-  return allItems;
-}
+import { SlushFeed } from "@/app/types";
+import { flattenAndSortFeed } from "@/app/utils/dispatch-utils";
 
 export async function GET(req: NextRequest) {
   const controller = new AbortController();
@@ -83,7 +27,7 @@ export async function GET(req: NextRequest) {
         },
         signal: controller.signal,
         cache: "no-store",
-      }
+      },
     );
 
     const data: SlushFeed = await externalRes.json();
@@ -99,7 +43,7 @@ export async function GET(req: NextRequest) {
             ? error.message
             : "Failed to fetch dispatch feed",
       },
-      { status: 500 }
+      { status: 500 },
     );
   } finally {
     clearTimeout(timeoutId);

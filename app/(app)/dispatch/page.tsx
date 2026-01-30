@@ -1,28 +1,42 @@
 import React from "react";
 import { Feed } from "./components/feed";
 import { Newspaper } from "lucide-react";
-import { FlattenedSlushFeed, FeedItem } from "@/app/types";
-import { formatFeedItem } from "@/app/utils/dispatch-utils";
+import {
+  SlushFeed,
+  FlattenedSlushFeed,
+} from "@/app/types";
+import { flattenAndSortFeed, formatFeedItem } from "@/app/utils/dispatch-utils";
+import { WQH_API_URL } from "@/app/constants";
+import { auth } from "@clerk/nextjs/server";
 
 const Dispatch = async () => {
-  try {
-    const base = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
-    const url = new URL("/api/dispatch-feed", base);
-    const res = await fetch(url, { cache: "no-store" });
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 60000); // 1 minute timeout
 
-    if (!res.ok) {
-      const defaultData: FlattenedSlushFeed = [];
-      return renderContent(defaultData);
+  try {
+    const { userId } = await auth();
+    if (!userId) {
+      return renderContent([]);
     }
 
-    const data: FeedItem[] = await res.json();
-    const formattedFeed: FlattenedSlushFeed = data.map(formatFeedItem);
+    const res = await fetch(`${WQH_API_URL}recent-activity?limit=10&offset=0`, {
+      cache: "no-store",
+    });
+
+    if (!res.ok) {
+      return renderContent([]);
+    }
+
+    const data: SlushFeed = await res.json();
+    const flattenedFeed = flattenAndSortFeed(data);
+    const formattedFeed: FlattenedSlushFeed = flattenedFeed.map(formatFeedItem);
 
     return renderContent(formattedFeed);
   } catch (error) {
-    console.error("Error fetching slush feed data:", error);
-    const defaultData: FlattenedSlushFeed = [];
-    return renderContent(defaultData);
+    console.error("Error fetching dispatch feed:", error);
+    return renderContent([]);
+  } finally {
+    clearTimeout(timeoutId);
   }
 };
 
