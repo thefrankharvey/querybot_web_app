@@ -26,6 +26,10 @@ export default function FreeUser() {
               <Check className="w-5 h-5 text-black flex-shrink-0" />
               <span className="text-black">Blog</span>
             </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-5 h-5 text-black flex-shrink-0" />
+              <span className="text-black">Query Spreadsheet</span>
+            </li>
           </ul>
         </div>
 
@@ -50,6 +54,10 @@ export default function FreeUser() {
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
               <span className="text-black">Blog</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-5 h-5 text-black flex-shrink-0" />
+              <span className="text-black">Query Spreadsheet with your agent matches</span>
             </li>
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
