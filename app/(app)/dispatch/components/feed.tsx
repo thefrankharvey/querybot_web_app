@@ -163,7 +163,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
           ref={trackingRef}
           className="py-4 flex justify-center h-[150px] w-full"
         >
-          {isFetchingMore && <Spinner className="size-8" />}
+          {isFetchingMore && <Spinner className="size-8 text-accent" />}
         </div>
       )}
 

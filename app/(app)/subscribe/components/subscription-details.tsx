@@ -4,7 +4,7 @@ import { Switch } from "@/app/ui-primitives/switch";
 import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "@/app/constants";
 import { motion } from "framer-motion";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-import Spinner from "@/app/components/spinner";
+import { Spinner } from "@/app/ui-primitives/spinner";
 import { useStripeSubscribe } from "@/app/hooks/use-stripe-subscribe";
 import { Check } from "lucide-react";
 
@@ -93,7 +93,7 @@ const SubscriptionDetails = () => {
   if (isLoading) {
     return (
       <div className="pt-20 flex justify-center items-center">
-        <Spinner size={100} />
+        <Spinner className="size-16 text-accent" />
       </div>
     );
   }
