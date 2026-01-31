@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
 import {
@@ -20,6 +20,7 @@ import Format from "./components/format";
 import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
+import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
 
@@ -102,11 +103,9 @@ const SmartMatch = () => {
     },
   });
 
-  useEffect(() => {
-    if (queryMutation.isSuccess) {
-      router.push("/agent-matches");
-    }
-  }, [queryMutation.isSuccess, router]);
+  const handleProgressComplete = () => {
+    router.push("/agent-matches");
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -142,18 +141,20 @@ const SmartMatch = () => {
 
   if (isLoading) {
     return (
-      <div className="pt-20 flex justify-center items-center">
-        <Spinner className="size-16" />
+      <div className="pt-28 flex justify-center items-center ml-[-100px]">
+        <Spinner className="size-16 text-accent" />
       </div>
     );
   }
 
   return (
     <div>
-      {queryMutation.isPending && (
+      {(queryMutation.isPending || queryMutation.isSuccess) && (
         <div className="flex flex-col items-center md:w-[700px] md:mx-auto h-[700px] mt-40">
-          <Spinner className="size-24" />
-          <p className="mt-4 text-lg font-semibold">Searching for agents...</p>
+          <ProgressBar
+            isSuccess={queryMutation.isSuccess}
+            onComplete={handleProgressComplete}
+          />
         </div>
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
