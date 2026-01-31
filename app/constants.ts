@@ -15,6 +15,37 @@ export const WQH_API_URL = WQH_PROD_API_URL;
 
 export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
 
+export const COUNTRY_FLAG_LABELS = {
+  all: {
+    label: "All Countries",
+    flag: "🌎",
+  },
+  US: {
+    label: "United States",
+    flag: "🇺🇸",
+  },
+  CA: {
+    label: "Canada",
+    flag: "🇨🇦",
+  },
+  UK: {
+    label: "United Kingdom",
+    flag: "🇬🇧",
+  },
+  AU: {
+    label: "Australia",
+    flag: "🇦🇺",
+  },
+  NZ: {
+    label: "New Zealand",
+    flag: "🇳🇿",
+  },
+  ZA: {
+    label: "South Africa",
+    flag: "🇿🇦",
+  },
+};
+
 // Kit subscriber tag constants following workspace naming convention
 export const KIT_SUBSCRIBER_TAGS = {
   FREE_SUBSCRIBER: "Free Subscriber",

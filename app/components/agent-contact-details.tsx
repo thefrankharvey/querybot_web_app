@@ -6,6 +6,7 @@ import React from "react";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { FetchAgentResponse } from "../types";
+import { COUNTRY_FLAG_LABELS } from "../constants";
 
 const AgentContactDetails = ({
     agent,
@@ -14,11 +15,6 @@ const AgentContactDetails = ({
     agent: AgentMatch | FetchAgentResponse["agent"];
     isSubscribed: boolean;
 }) => {
-
-
-
-    console.log("agent", agent);
-    console.log("isSubscribed", isSubscribed);
 
     return (
         <div>
@@ -121,6 +117,14 @@ const AgentContactDetails = ({
                                 {agent.agency ? agent.agency : "Info Unavailable"}
                             </p>
                         )}
+                    </div>
+                    <div className="flex flex-col items-start gap-1 w-fit mt-4">
+                        <label className="text-base font-semibold">Country:</label>
+                        <p className="text-base leading-relaxed text-gray-800">
+                            {/* TODO: Replace with agent.country from API */}
+                            {/* <span>{COUNTRY_FLAG_LABELS[agent.country as keyof typeof COUNTRY_FLAG_LABELS]?.flag}</span> <span>{COUNTRY_FLAG_LABELS[agent.country as keyof typeof COUNTRY_FLAG_LABELS]?.label}</span> */}
+                            <span>{COUNTRY_FLAG_LABELS["US" as keyof typeof COUNTRY_FLAG_LABELS]?.flag}</span> <span>{COUNTRY_FLAG_LABELS["US" as keyof typeof COUNTRY_FLAG_LABELS]?.label}</span>
+                        </p>
                     </div>
                 </>
             )}
