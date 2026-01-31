@@ -1,7 +1,7 @@
 "use client";
 
 import { Progress } from "@/app/ui-primitives/progress";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const STATUS_MESSAGES = [
     "Scouting agents",
@@ -25,6 +25,10 @@ export default function ProgressBar({ isSuccess, onComplete }: ProgressBarProps)
     const hasCompletedRef = useRef(false);
     const [messageIndex, setMessageIndex] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
+
+    useLayoutEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }, []);
 
     useEffect(() => {
         // Prevent multiple completions
