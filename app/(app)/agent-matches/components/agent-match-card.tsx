@@ -15,6 +15,7 @@ import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Heart } from "lucide-react";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
+import { COUNTRY_FLAG_LABELS } from "@/app/constants";
 
 export const AgentMatchCard = ({
     agent,
@@ -32,9 +33,15 @@ export const AgentMatchCard = ({
     const { agentsList } = useProfileContext();
     const [isHovered, setIsHovered] = useState(false);
     const isDisabled = index > 2 && !isSubscribed;
-    const genreMatches = [...(agent.match_hits?.direct.genres || []), ...(agent.match_hits?.cluster.genres || [])];
+    const genreMatches = [
+        ...(agent.match_hits?.direct.genres || []),
+        ...(agent.match_hits?.cluster.genres || []),
+    ];
     const dedupedGenreMatches = normalizeAndDedup(genreMatches);
-    const themeMatches = [...(agent.match_hits?.direct.themes || []), ...(agent.match_hits?.cluster.themes || [])];
+    const themeMatches = [
+        ...(agent.match_hits?.direct.themes || []),
+        ...(agent.match_hits?.cluster.themes || []),
+    ];
     const dedupedThemeMatches = normalizeAndDedup(themeMatches);
 
     return (
@@ -46,7 +53,7 @@ export const AgentMatchCard = ({
                 "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
                 isDisabled
                     ? "opacity-60"
-                    : "hover:shadow-2xl transition-shadow duration-300"
+                    : "hover:shadow-2xl transition-shadow duration-300",
             )}
         >
             <Link
@@ -96,6 +103,31 @@ export const AgentMatchCard = ({
                             </p>
                         </Skeleton>
                     </div>
+                    <div className="flex flex-col gap-1">
+                        <label className="text-sm font-semibold cursor-pointer">
+                            Country:
+                        </label>
+                        <Skeleton isLoading={isLoading} className="h-6 w-full">
+                            <p className="text-sm">
+                                {/* TODO: Replace with agent.country from API */}
+                                {/* {agent.country ? agent.country : "Info Unavailable"} */}
+                                <span>
+                                    {
+                                        COUNTRY_FLAG_LABELS[
+                                            "US" as keyof typeof COUNTRY_FLAG_LABELS
+                                        ]?.flag
+                                    }
+                                </span>{" "}
+                                <span>
+                                    {
+                                        COUNTRY_FLAG_LABELS[
+                                            "US" as keyof typeof COUNTRY_FLAG_LABELS
+                                        ]?.label
+                                    }
+                                </span>
+                            </p>
+                        </Skeleton>
+                    </div>
                     {dedupedGenreMatches.length > 0 ? (
                         <div className="flex flex-col gap-1">
                             <label className="text-sm font-semibold cursor-pointer">
@@ -104,7 +136,7 @@ export const AgentMatchCard = ({
                             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
                                 <div className="flex flex-wrap gap-1">
                                     {dedupedGenreMatches
-                                        ? dedupedGenreMatches.map((genre: string) => (
+                                        ? dedupedGenreMatches.map((genre: string) =>
                                             formatGenres(genre)
                                                 .slice(0, 8)
                                                 .map((genre: string) => (
@@ -114,11 +146,14 @@ export const AgentMatchCard = ({
                                                     >
                                                         {genre}
                                                     </div>
-                                                ))
-                                        )) : "Info Unavailable"}
+                                                )),
+                                        )
+                                        : "Info Unavailable"}
                                 </div>
                             </Skeleton>
-                        </div>) : (<div className="flex flex-col gap-1">
+                        </div>
+                    ) : (
+                        <div className="flex flex-col gap-1">
                             <label className="text-sm font-semibold cursor-pointer">
                                 Top Genres:
                             </label>
@@ -138,7 +173,8 @@ export const AgentMatchCard = ({
                                         : "Info Unavailable"}
                                 </div>
                             </Skeleton>
-                        </div>)}
+                        </div>
+                    )}
                     {dedupedThemeMatches && dedupedThemeMatches.length > 0 ? (
                         <div className="flex flex-col gap-1">
                             <label className="text-sm font-semibold cursor-pointer">
@@ -147,19 +183,19 @@ export const AgentMatchCard = ({
                             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
                                 <div className="flex flex-wrap gap-1">
                                     {dedupedThemeMatches
-                                        ? dedupedThemeMatches.slice(0, 8)
-                                            .map((theme: string) => (
-                                                <div
-                                                    key={theme}
-                                                    className="bg-gray-100 px-2 py-1 text-sm rounded-md"
-                                                >
-                                                    {theme}
-                                                </div>
-                                            ))
+                                        ? dedupedThemeMatches.slice(0, 8).map((theme: string) => (
+                                            <div
+                                                key={theme}
+                                                className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                                            >
+                                                {theme}
+                                            </div>
+                                        ))
                                         : "Info Unavailable"}
                                 </div>
                             </Skeleton>
-                        </div>) : (
+                        </div>
+                    ) : (
                         agent.favorites && (
                             <div className="flex flex-col gap-1">
                                 <label className="text-sm font-semibold cursor-pointer">

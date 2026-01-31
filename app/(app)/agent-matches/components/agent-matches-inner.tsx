@@ -6,6 +6,7 @@ import { Button } from "@/app/ui-primitives/button";
 import ExplanationBlock from "./explanation-block";
 import StatusFilter from "./status-filter";
 import { Spinner } from "@/app/ui-primitives/spinner";
+import CountryFilter from "./country-filter";
 
 export const AgentMatchesInner = ({
   matches,
@@ -50,6 +51,12 @@ export const AgentMatchesInner = ({
                 onValueChange={onStatusChange}
               />
             )}
+            {/* {countryFilter && onCountryChange && ( */}
+            <CountryFilter
+              value="all"
+              onValueChange={() => { }}
+            />
+            {/* )} */}
             <a
               href={spreadsheetUrl || undefined}
               target="_blank"
