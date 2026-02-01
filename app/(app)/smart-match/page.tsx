@@ -141,7 +141,7 @@ const SmartMatch = () => {
 
   if (isLoading) {
     return (
-      <div className="pt-28 flex justify-center items-center ml-[-100px]">
+      <div className="pt-28 flex justify-center items-center md:ml-[-100px]">
         <Spinner className="size-16 text-accent" />
       </div>
     );

@@ -3,7 +3,11 @@
 import { useParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import { formatGenres, formatDisplayString } from "@/app/utils";
+import {
+  formatGenres,
+  formatDisplayString,
+  capitalizeFirstCharacter,
+} from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   AgentMatchesProvider,
@@ -182,7 +186,7 @@ const AgentProfile = () => {
             <label className="text-lg font-semibold">Favorites:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.favorites
-                ? formatDisplayString(agent.favorites)
+                ? capitalizeFirstCharacter(formatDisplayString(agent.favorites))
                 : "Info Unavailable"}
             </p>
           </div>
@@ -190,7 +194,9 @@ const AgentProfile = () => {
             <label className="text-lg font-semibold">Interests:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.extra_interest
-                ? formatDisplayString(agent.extra_interest)
+                ? capitalizeFirstCharacter(
+                    formatDisplayString(agent.extra_interest)
+                  )
                 : "Info Unavailable"}
             </p>
           </div>
@@ -198,26 +204,32 @@ const AgentProfile = () => {
             <label className="text-lg font-semibold">Negatives:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.negatives
-                ? formatDisplayString(agent.negatives)
+                ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.bio ? agent.bio : "Info Unavailable"}
+              {agent.bio
+                ? capitalizeFirstCharacter(agent.bio)
+                : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Clients:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.clients ? agent.clients : "Info Unavailable"}
+              {agent.clients
+                ? capitalizeFirstCharacter(agent.clients)
+                : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Sales:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.sales ? agent.sales : "Info Unavailable"}
+              {agent.sales
+                ? capitalizeFirstCharacter(agent.sales)
+                : "Info Unavailable"}
             </p>
           </div>
         </div>

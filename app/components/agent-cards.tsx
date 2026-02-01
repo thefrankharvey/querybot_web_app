@@ -2,7 +2,12 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { cn, formatDisplayString, formatGenres } from "../utils";
+import {
+  cn,
+  formatDisplayString,
+  formatGenres,
+  capitalizeFirstCharacter,
+} from "../utils";
 import { AgentMatch } from "../(app)/context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
@@ -93,7 +98,7 @@ export const AgentCards = ({
             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
               <p className="text-sm line-clamp-3">
                 {agent.favorites
-                  ? formatDisplayString(agent.favorites)
+                  ? capitalizeFirstCharacter(formatDisplayString(agent.favorites))
                   : "Info Unavailable"}
               </p>
             </Skeleton>

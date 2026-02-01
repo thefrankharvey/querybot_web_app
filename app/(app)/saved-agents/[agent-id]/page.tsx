@@ -5,7 +5,11 @@ import { useFetchAgent } from "@/app/hooks/use-fetch-agent";
 import TooltipComponent from "@/app/components/tooltip";
 import StarRating from "@/app/components/star-rating";
 import AgentContactDetails from "@/app/components/agent-contact-details";
-import { formatDisplayString, formatGenres } from "@/app/utils";
+import {
+  formatDisplayString,
+  formatGenres,
+  capitalizeFirstCharacter,
+} from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -140,7 +144,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
             <label className="text-lg font-semibold">Favorites:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.favorites
-                ? formatDisplayString(agent.favorites)
+                ? capitalizeFirstCharacter(formatDisplayString(agent.favorites))
                 : "Info Unavailable"}
             </p>
           </div>
@@ -148,7 +152,9 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
             <label className="text-lg font-semibold">Interests:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.extra_interest
-                ? formatDisplayString(agent.extra_interest)
+                ? capitalizeFirstCharacter(
+                    formatDisplayString(agent.extra_interest)
+                  )
                 : "Info Unavailable"}
             </p>
           </div>
@@ -156,26 +162,32 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
             <label className="text-lg font-semibold">Negatives:</label>
             <p className="text-base leading-relaxed text-gray-800">
               {agent.negatives
-                ? formatDisplayString(agent.negatives)
+                ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.bio ? agent.bio : "Info Unavailable"}
+              {agent.bio
+                ? capitalizeFirstCharacter(agent.bio)
+                : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Clients:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.clients ? agent.clients : "Info Unavailable"}
+              {agent.clients
+                ? capitalizeFirstCharacter(agent.clients)
+                : "Info Unavailable"}
             </p>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Sales:</label>
             <p className="text-base leading-relaxed text-gray-800">
-              {agent.sales ? agent.sales : "Info Unavailable"}
+              {agent.sales
+                ? capitalizeFirstCharacter(agent.sales)
+                : "Info Unavailable"}
             </p>
           </div>
         </div>

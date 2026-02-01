@@ -138,6 +138,13 @@ export const formatDisplayString = (data: string | undefined | null) => {
   return data.replace(/[|\/\\"']/g, "");
 };
 
+export const capitalizeFirstCharacter = (
+  data: string | undefined | null
+) => {
+  if (!data) return data;
+  return data.replace(/(\S)/, (match) => match.toUpperCase());
+};
+
 export const formatEmail = (email: string | undefined | null) => {
   if (!email) return [];
   return formatDisplayString(email)?.split(" ").filter(Boolean);

@@ -1,11 +1,15 @@
-import { formatDisplayString, urlFormatter } from "@/app/utils";
+import {
+  formatDisplayString,
+  urlFormatter,
+  capitalizeFirstCharacter,
+} from "@/app/utils";
 import { Blips, BlueskyPost, FeedItem, RedditPost, SlushFeed } from "../types";
 
 export const formatBlips = (blip: Blips): Blips => {
   return {
     ...blip,
     extra_interest: blip.extra_interest
-      ? formatDisplayString(blip.extra_interest)
+      ? capitalizeFirstCharacter(formatDisplayString(blip.extra_interest))
       : undefined,
     website: blip.website ? urlFormatter(blip.website) || "" : "",
   };

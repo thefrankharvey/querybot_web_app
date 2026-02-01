@@ -1,7 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { formatDisplayString, formatGenres } from "@/app/utils";
+import {
+  formatDisplayString,
+  formatGenres,
+  capitalizeFirstCharacter,
+} from "@/app/utils";
 import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 
@@ -43,7 +47,7 @@ export const DisplayAgentCards = ({
         <div className="flex flex-col gap-1">
           <label className="text-sm font-semibold">Favorites:</label>
           <p className="text-sm line-clamp-3">
-            {formatDisplayString(agent.favorites)}
+            {capitalizeFirstCharacter(formatDisplayString(agent.favorites))}
           </p>
         </div>
         {/* <div className="flex flex-col gap-1">

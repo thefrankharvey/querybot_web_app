@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import { Blips } from "@/app/types";
-import { formatGenres, formatDisplayString } from "@/app/utils";
+import {
+  formatGenres,
+  formatDisplayString,
+  capitalizeFirstCharacter,
+} from "@/app/utils";
 import { Users } from "lucide-react";
 import Link from "next/link";
 
@@ -16,7 +20,7 @@ const BlipsCard = ({
   const [openAccordion, setOpenAccordion] = useState<boolean>(false);
 
   const formattedInterests = blips.extra_interest
-    ? formatDisplayString(blips.extra_interest)
+    ? capitalizeFirstCharacter(formatDisplayString(blips.extra_interest))
     : null;
 
   // Data required to show a card.
