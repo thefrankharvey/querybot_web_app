@@ -66,19 +66,16 @@ export const AppHamburger = () => {
         className="flex flex-col justify-center items-center w-10 h-10 p-0 md:hidden"
       >
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
-            open ? "translate-y-[10px] rotate-45" : ""
-          }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
+            }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current my-2 transition-opacity duration-200 ${
-            open ? "opacity-0" : "opacity-100"
-          }`}
+          className={`block w-10 h-0.5 bg-current my-2 transition-opacity duration-200 ${open ? "opacity-0" : "opacity-100"
+            }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
-            open ? "-translate-y-[10px] -rotate-45" : ""
-          }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "-translate-y-[10px] -rotate-45" : ""
+            }`}
         />
       </button>
       <div
@@ -159,7 +156,7 @@ export const AppHamburger = () => {
                 >
                   <Link
                     href={`/saved-agents/${agentsList?.[0]?.index_id || ""}`}
-                    onClick={(e) => e.stopPropagation()}
+                    onClick={(e) => { e.stopPropagation(); setOpen(false) }}
                     className="flex items-center gap-2"
                   >
                     {agentsList && agentsList.length > 0 ? (
