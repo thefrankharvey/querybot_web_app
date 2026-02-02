@@ -49,17 +49,19 @@ export function KanbanDialog({
 
         <div className="flex flex-col gap-6">
           {/* Match Score Section */}
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-semibold text-gray-700">
-              Match Score
-            </label>
-            <div className="flex items-center gap-2">
-              <StarRating rateNum={card.normalized_score} />
-              <span className="text-sm font-medium text-gray-600">
-                {card.normalized_score}
-              </span>
+          {card.match_score != null && (
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-semibold text-gray-700">
+                Match Score
+              </label>
+              <div className="flex items-center gap-2">
+                <StarRating rateNum={card.match_score} />
+                <span className="text-sm font-medium text-gray-600">
+                  {card.match_score}
+                </span>
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Prep Query Letter Checkbox */}
           <div className="flex items-center gap-3">
@@ -76,24 +78,22 @@ export function KanbanDialog({
             </label>
           </div>
 
-          {/* Preferred Contact Method */}
-          {card.status && card.status !== "closed" && (
-            <div className="flex flex-col gap-1">
-              <label className="text-sm font-semibold text-gray-700">
-                Preferred Contact Method
-              </label>
-              <span className="text-sm text-gray-600">{card.status}</span>
-            </div>
-          )}
+          {/* Preferred Contact Method - hardcoded for now */}
+          <div className="flex flex-col gap-1">
+            <label className="text-sm font-semibold text-gray-700">
+              Preferred Contact Method
+            </label>
+            <span className="text-sm text-gray-600">Query via email</span>
+          </div>
 
           {/* Links Section */}
           <div className="flex flex-col gap-3">
             <label className="text-sm font-semibold text-gray-700">Links</label>
 
             {/* Full Agent Page */}
-            {card.agent_id && (
+            {card.index_id && (
               <Link
-                href={`/agent-matches/${card.agent_id}`}
+                href={`/query-dashboard/${card.index_id}`}
                 className="text-sm underline hover:text-accent flex items-center gap-2"
               >
                 View Full Agent Profile
@@ -104,7 +104,6 @@ export function KanbanDialog({
             {/* Email */}
             {emails && emails.length > 0 && (
               <div className="flex flex-col gap-1">
-                <span className="text-xs text-gray-500">Email</span>
                 <div className="flex flex-wrap gap-2">
                   {emails.map((email, index) => (
                     <CopyToClipboard
@@ -118,11 +117,11 @@ export function KanbanDialog({
             )}
 
             {/* Query Tracker */}
-            {card.querytracker && urlFormatter(card.querytracker) && (
+            {card.query_tracker && urlFormatter(card.query_tracker) && (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={urlFormatter(card.querytracker) || ""}
+                href={urlFormatter(card.query_tracker) || ""}
                 className="text-sm underline hover:text-accent flex items-center gap-2"
               >
                 Query Tracker
@@ -131,11 +130,11 @@ export function KanbanDialog({
             )}
 
             {/* Publishers Marketplace */}
-            {card.pubmarketplace && urlFormatter(card.pubmarketplace) && (
+            {card.pub_marketplace && urlFormatter(card.pub_marketplace) && (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={urlFormatter(card.pubmarketplace) || ""}
+                href={urlFormatter(card.pub_marketplace) || ""}
                 className="text-sm underline hover:text-accent flex items-center gap-2"
               >
                 Publishers Marketplace
@@ -144,14 +143,14 @@ export function KanbanDialog({
             )}
 
             {/* Website/Agency Site */}
-            {card.website && urlFormatter(card.website) && (
+            {card.agency_url && urlFormatter(card.agency_url) && (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={urlFormatter(card.website) || ""}
+                href={urlFormatter(card.agency_url) || ""}
                 className="text-sm underline hover:text-accent flex items-center gap-2"
               >
-                Agent Website
+                Agency Website
                 <ExternalLink className="w-4 h-4" />
               </a>
             )}
