@@ -13,7 +13,7 @@ import {
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen } from "lucide-react";
+import { ScanSearch, Newspaper, NotebookPen, LayoutDashboard } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { ACCORDION_STORAGE_KEY } from "../constants";
@@ -83,6 +83,18 @@ export const SideBarNav = () => {
             >
               <ScanSearch className="w-4 h-4" />
               Smart Match
+            </Link>
+            <Link
+              href="/query-dashboard"
+              className={cn(
+                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                pathname.includes("query-dashboard")
+                  ? "text-accent bg-accent/10"
+                  : "text-black"
+              )}
+            >
+              <LayoutDashboard className="w-4 h-4" />
+              Query Dashboard
             </Link>
             <Link
               href="/dispatch"

@@ -1,0 +1,58 @@
+import CopyToClipboard from "@/app/components/copy-to-clipboard";
+import { FetchAgentResponse } from "@/app/types";
+import { formatEmail, urlFormatter } from "@/app/utils";
+import React from "react";
+
+const Contact = ({ agent }: { agent: FetchAgentResponse["agent"] | null }) => {
+  return (
+    <div>
+      <h2 className="text-xl font-bold mb-2">Contact</h2>
+      <div className="flex flex-col gap-2">
+        {agent?.email && (
+          <div className="flex flex-col gap-1">
+            <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-fit">
+              <label className="font-semibold">Email:</label>
+              <div className="flex flex-wrap gap-2 md:gap-4">
+                {formatEmail(agent.email)?.map((email, index) => {
+                  return <CopyToClipboard key={index} text={email} />;
+                })}
+              </div>
+            </div>
+          </div>
+        )}
+        {agent?.querymanager && (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={urlFormatter(agent.querymanager) || ""}
+            className="underline font-semibold hover:text-accent"
+          >
+            Query Manager
+          </a>
+        )}
+        {agent?.pubmarketplace && (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={urlFormatter(agent.pubmarketplace) || ""}
+            className="underline font-semibold hover:text-accent"
+          >
+            PubMarketplace
+          </a>
+        )}
+        {agent?.querytracker && (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={urlFormatter(agent.querytracker) || ""}
+            className="underline font-semibold hover:text-accent"
+          >
+            Query Tracker
+          </a>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

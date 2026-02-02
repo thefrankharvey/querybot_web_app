@@ -7,6 +7,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-dark-blue: var(--text-dark-blue);
+  --color-blue-accent: var(--blue-accent);
   --font-sans: "Poppins", sans-serif;
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -46,6 +47,7 @@
 
 :root {
   --radius: 0.625rem;
+  --blue-accent: oklch(0.7009 0.0839 204.45);
   --background: oklch(0.9527 0.008 114.22);
   --foreground: oklch(0.2 0.17 264);
   --card: oklch(1 0 0);
