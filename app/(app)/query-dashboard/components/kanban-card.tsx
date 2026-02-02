@@ -3,10 +3,21 @@
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
-import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import { StarRating } from "@/app/components/star-rating";
+import { Checkbox } from "@/app/ui-primitives/checkbox";
 
-export interface KanbanCardData extends AgentMatch {
+export interface KanbanCardData {
+  // From database
+  id: string;
+  name: string;
+  email?: string | null;
+  agency?: string | null;
+  index_id?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  match_score?: number | null;
+  agency_url?: string | null;
+  // Kanban-specific (local state)
   columnId: string;
   prepQueryLetterDone: boolean;
 }
@@ -57,20 +68,21 @@ export function KanbanCard({
   const cardContent = (
     <>
       {/* Agent Name */}
-      <p className="text-sm font-semibold text-gray-900 truncate">{card.name}</p>
+      <p className="text-sm font-semibold text-gray-900 truncate capitalize">{card.name}</p>
 
       {/* Agency Name */}
-      <p className="text-xs text-gray-500 truncate mt-0.5">{card.agency}</p>
+      {card.agency && (
+        <p className="text-xs text-gray-500 truncate mt-0.5">{card.agency}</p>
+      )}
 
       {/* Prep Query Letter Checkbox */}
       <div className="flex items-center gap-2 mt-2">
-        <input
-          type="checkbox"
+        <Checkbox
           id={`prep-query-${card.id}`}
           checked={card.prepQueryLetterDone}
-          onChange={() => { }}
-          onClick={handleCheckboxChange}
-          className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 cursor-pointer"
+          onCheckedChange={() => onTogglePrepQuery?.(card.id)}
+          onClick={(e) => e.stopPropagation()}
+          className="data-[state=checked]:bg-blue-accent data-[state=checked]:border-blue-accent data-[state=checked]:text-white cursor-pointer"
         />
         <label
           htmlFor={`prep-query-${card.id}`}
@@ -82,9 +94,11 @@ export function KanbanCard({
       </div>
 
       {/* Match Score */}
-      <div className="mt-2">
-        <StarRating rateNum={card.normalized_score} />
-      </div>
+      {card.match_score != null && (
+        <div className="mt-2">
+          <StarRating rateNum={card.match_score} />
+        </div>
+      )}
     </>
   );
 
