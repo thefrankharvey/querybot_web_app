@@ -57,7 +57,7 @@ const About = () => {
           </p>
 
           <p>
-            We believe the problem isn't you. It isn't them. It's the Query
+            We believe the problem isn&apos;t you. It isn&apos;t them. It&apos;s the Query
             Industrial Complex.
           </p>
 
@@ -72,7 +72,7 @@ const About = () => {
           <p>Write Query Hook was built to change that.</p>
 
           <p>
-            We've created the largest, most comprehensive literary agent
+            We&apos;ve created the largest, most comprehensive literary agent
             database in the industry and we pair it with Smart Match, our
             matching tool that helps you find agents truly aligned with your
             work. No fluff. No scams. Just the right information, tailored to
@@ -83,7 +83,7 @@ const About = () => {
             And instead of checking a dozen tabs to see who’s open and what’s
             working right now, the Dispatch news feed puts it all in one real-time feed, including AMAs,
             pitch events, agent MSWLs, query tips, and more. Because
-            publishing opportunities don't just happen inside the inbox.
+            publishing opportunities don&apos;t just happen inside the inbox.
           </p>
 
           <p>Write Query Hook is here to help you break through.</p>
