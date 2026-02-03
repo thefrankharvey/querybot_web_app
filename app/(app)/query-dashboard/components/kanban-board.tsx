@@ -14,7 +14,7 @@ import {
 } from "@dnd-kit/core";
 import { arrayMove } from "@dnd-kit/sortable";
 import { KanbanColumn, ColumnData } from "./kanban-column";
-import { KanbanCard, KanbanCardData } from "./kanban-card";
+import { KanbanCard, KanbanCardData, FitRating, getFitRatingFromScore } from "./kanban-card";
 import { KanbanDialog } from "./kanban-dialog";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
@@ -43,6 +43,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     agency_url: agent.agency_url,
     columnId: "agents-to-research",
     prepQueryLetterDone: false,
+    fitRating: getFitRatingFromScore(agent.match_score),
   };
 }
 
@@ -111,6 +112,18 @@ export function KanbanBoard() {
           : card
       )
     );
+  };
+
+  const handleFitRatingChange = (cardId: string, rating: FitRating) => {
+    setCards((prevCards) =>
+      prevCards.map((card) =>
+        card.id === cardId ? { ...card, fitRating: rating } : card
+      )
+    );
+    // Update selectedCard if it's the one being changed
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) => (prev ? { ...prev, fitRating: rating } : null));
+    }
   };
 
   const getCardsForColumn = (columnId: string) => {
@@ -228,6 +241,7 @@ export function KanbanBoard() {
         open={!!selectedCard}
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
+        onFitRatingChange={handleFitRatingChange}
       />
     </div>
   );
