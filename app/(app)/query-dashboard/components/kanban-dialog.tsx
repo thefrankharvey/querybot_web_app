@@ -10,18 +10,26 @@ import {
 } from "@/app/ui-primitives/dialog";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
 import { Textarea } from "@/app/ui-primitives/textarea";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/app/ui-primitives/select";
 import { StarRating } from "@/app/components/star-rating";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { urlFormatter, formatEmail } from "@/app/utils";
-import { KanbanCardData } from "./kanban-card";
+import { KanbanCardData, FitRating, FIT_RATING_CONFIG } from "./kanban-card";
 
 interface KanbanDialogProps {
   card: KanbanCardData | null;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onTogglePrepQuery: (cardId: string) => void;
+  onFitRatingChange: (cardId: string, rating: FitRating) => void;
 }
 
 export function KanbanDialog({
@@ -29,6 +37,7 @@ export function KanbanDialog({
   open,
   onOpenChange,
   onTogglePrepQuery,
+  onFitRatingChange,
 }: KanbanDialogProps) {
   const [notes, setNotes] = useState("");
 
@@ -62,6 +71,36 @@ export function KanbanDialog({
               </div>
             </div>
           )}
+
+          {/* Fit Rating Section */}
+          <div className="flex flex-col gap-1">
+            <label className="text-sm font-semibold text-gray-700">
+              Fit Rating
+            </label>
+            <Select
+              value={card.fitRating}
+              onValueChange={(value: FitRating) =>
+                onFitRatingChange(card.id, value)
+              }
+            >
+              <SelectTrigger className="w-[180px]">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent>
+                {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map((key) => (
+                  <SelectItem key={key} value={key}>
+                    <span className="flex items-center gap-2">
+                      <span
+                        className="w-3 h-3 rounded-full"
+                        style={{ backgroundColor: FIT_RATING_CONFIG[key].color }}
+                      />
+                      {FIT_RATING_CONFIG[key].label}
+                    </span>
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
 
           {/* Prep Query Letter Checkbox */}
           <div className="flex items-center gap-3">
