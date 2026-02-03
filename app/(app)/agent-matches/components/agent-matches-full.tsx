@@ -47,7 +47,7 @@ export const AgentMatchesFull = () => {
       const statusQuery = statusParam ? `&status=${statusParam}` : "";
 
       // Map country_code values for API: "all" -> "", otherwise use the country code
-      const countryParam = params.country_code === "ALL" ? "" : params.country_code;
+      const countryParam = params.country_code === "all" ? "" : params.country_code;
       const countryQuery = countryParam ? `&country_code=${countryParam}` : "";
 
       const res = await fetch(
