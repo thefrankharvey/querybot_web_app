@@ -209,5 +209,9 @@ export type FetchAgentResponse = {
     genres?: string;
     submission_req?: string;
     [key: string]: unknown;
+    location?: {
+      country_code: string;
+      state_province: string;
+    };
   };
 };

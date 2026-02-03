@@ -15,6 +15,8 @@ export const AgentMatchesInner = ({
   isLoading,
   statusFilter,
   onStatusChange,
+  countryFilter,
+  onCountryChange,
   spreadsheetUrl,
   sheetStatus,
 }: {
@@ -24,6 +26,8 @@ export const AgentMatchesInner = ({
   isLoading: boolean;
   statusFilter?: string;
   onStatusChange?: (status: string) => void;
+  countryFilter?: string;
+  onCountryChange?: (country: string) => void;
   sheetTaskId?: string | null;
   spreadsheetUrl?: string | null;
   sheetStatus?: SheetStatus;
@@ -51,12 +55,12 @@ export const AgentMatchesInner = ({
                 onValueChange={onStatusChange}
               />
             )}
-            {/* {countryFilter && onCountryChange && ( */}
-            <CountryFilter
-              value="all"
-              onValueChange={() => { }}
-            />
-            {/* )} */}
+            {countryFilter && onCountryChange && (
+              <CountryFilter
+                value={countryFilter}
+                onValueChange={onCountryChange}
+              />
+            )}
             <a
               href={spreadsheetUrl || undefined}
               target="_blank"

@@ -38,7 +38,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, startSpreadsheetPolling, resetForNewSearch } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -133,6 +133,7 @@ const SmartMatch = () => {
 
     saveFormData(payload);
     saveStatusFilter("all");
+    saveCountryFilter("all");
     queryMutation.mutate(payload);
     window.scrollTo({
       top: 0,

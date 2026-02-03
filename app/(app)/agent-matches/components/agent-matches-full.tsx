@@ -25,6 +25,8 @@ export const AgentMatchesFull = () => {
     saveCurrentCursor,
     statusFilter,
     saveStatusFilter,
+    countryFilter,
+    saveCountryFilter,
     sheetTaskId,
     spreadsheetUrl,
     sheetStatus,
@@ -38,13 +40,18 @@ export const AgentMatchesFull = () => {
       formData: FormData;
       nextCursor: number;
       status: string;
+      country_code: string;
     }) => {
       // Map status values for API: "all" -> "", "open" -> "open", "closed" -> "closed"
       const statusParam = params.status === "all" ? "" : params.status;
       const statusQuery = statusParam ? `&status=${statusParam}` : "";
 
+      // Map country_code values for API: "all" -> "", otherwise use the country code
+      const countryParam = params.country_code === "ALL" ? "" : params.country_code;
+      const countryQuery = countryParam ? `&country_code=${countryParam}` : "";
+
       const res = await fetch(
-        `/api/get-agents-paid?last_index=${params.nextCursor}${statusQuery}`,
+        `/api/get-agents-paid?last_index=${params.nextCursor}${statusQuery}${countryQuery}`,
         {
           method: "POST",
           headers: {
@@ -93,6 +100,7 @@ export const AgentMatchesFull = () => {
         formData,
         nextCursor: nextCursor,
         status: statusFilter,
+        country_code: countryFilter,
       });
     }
     window.scrollTo({ top: 0 });
@@ -106,6 +114,7 @@ export const AgentMatchesFull = () => {
         formData,
         nextCursor: updatedCursor,
         status: statusFilter,
+        country_code: countryFilter,
       });
     }
     window.scrollTo({ top: 0 });
@@ -121,6 +130,23 @@ export const AgentMatchesFull = () => {
         formData,
         nextCursor: 0,
         status: newStatus,
+        country_code: countryFilter,
+      });
+    }
+    window.scrollTo({ top: 0 });
+  };
+
+  const handleCountryChange = (newCountry: string) => {
+    saveCountryFilter(newCountry);
+    // Reset pagination to page 1 and trigger new query
+    if (formData) {
+      saveCurrentCursor(0);
+      saveNextCursor(QUERY_LIMIT);
+      queryMutation.mutate({
+        formData,
+        nextCursor: 0,
+        status: statusFilter,
+        country_code: newCountry,
       });
     }
     window.scrollTo({ top: 0 });
@@ -134,6 +160,8 @@ export const AgentMatchesFull = () => {
         isLoading={queryMutation.isPending}
         statusFilter={statusFilter}
         onStatusChange={handleStatusChange}
+        countryFilter={countryFilter}
+        onCountryChange={handleCountryChange}
         sheetTaskId={sheetTaskId}
         spreadsheetUrl={spreadsheetUrl}
         sheetStatus={sheetStatus}
