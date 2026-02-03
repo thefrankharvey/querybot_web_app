@@ -6,6 +6,27 @@ import { cn } from "@/app/utils";
 import { StarRating } from "@/app/components/star-rating";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
 
+// Fit Rating types and configuration
+export type FitRating = "perfect" | "great" | "good" | "neutral";
+
+export const FIT_RATING_CONFIG: Record<
+  FitRating,
+  { label: string; color: string }
+> = {
+  perfect: { label: "Perfect Fit", color: "var(--fit-perfect)" },
+  great: { label: "Great Fit", color: "var(--fit-great)" },
+  good: { label: "Good Fit", color: "var(--fit-good)" },
+  neutral: { label: "Neutral Fit", color: "var(--fit-neutral)" },
+};
+
+export function getFitRatingFromScore(score: number | null | undefined): FitRating {
+  if (score == null) return "neutral";
+  if (score >= 4) return "perfect";
+  if (score >= 3) return "great";
+  if (score > 2) return "good";
+  return "neutral";
+}
+
 export interface KanbanCardData {
   // From database
   id: string;
@@ -20,6 +41,7 @@ export interface KanbanCardData {
   // Kanban-specific (local state)
   columnId: string;
   prepQueryLetterDone: boolean;
+  fitRating: FitRating;
 }
 
 interface KanbanCardProps {
@@ -99,6 +121,16 @@ export function KanbanCard({
           <StarRating rateNum={card.match_score} />
         </div>
       )}
+
+      {/* Fit Rating Pill */}
+      <div className="mt-2">
+        <span
+          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-gray-800"
+          style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
+        >
+          {FIT_RATING_CONFIG[card.fitRating].label}
+        </span>
+      </div>
     </>
   );
 
