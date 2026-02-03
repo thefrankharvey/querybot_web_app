@@ -15,7 +15,6 @@ const AgentContactDetails = ({
     agent: AgentMatch | FetchAgentResponse["agent"];
     isSubscribed: boolean;
 }) => {
-
     return (
         <div>
             {!isSubscribed ? (
@@ -46,7 +45,9 @@ const AgentContactDetails = ({
                     <div className="flex flex-col gap-4 mb-4">
                         {agent.status && agent.status !== "closed" && (
                             <div className="flex flex-col gap-1">
-                                <label className="font-semibold">Preferred Contact Method:</label>
+                                <label className="font-semibold">
+                                    Preferred Contact Method:
+                                </label>
                                 <span>{agent.status}</span>
                             </div>
                         )}
@@ -62,9 +63,11 @@ const AgentContactDetails = ({
                         )}
                     </div>
                     <div className="flex flex-col gap-2">
-                        {(agent.querymanager || agent.pubmarketplace || agent.querytracker) && (
-                            <h2 className="text-base font-semibold">Links:</h2>
-                        )}
+                        {(agent.querymanager ||
+                            agent.pubmarketplace ||
+                            agent.querytracker) && (
+                                <h2 className="text-base font-semibold">Links:</h2>
+                            )}
                         {agent.querymanager && (
                             <a
                                 target="_blank"
@@ -121,9 +124,28 @@ const AgentContactDetails = ({
                     <div className="flex flex-col items-start gap-1 w-fit mt-4">
                         <label className="text-base font-semibold">Country:</label>
                         <p className="text-base leading-relaxed text-gray-800">
-                            {/* TODO: Replace with agent.country from API */}
-                            {/* <span>{COUNTRY_FLAG_LABELS[agent.country as keyof typeof COUNTRY_FLAG_LABELS]?.flag}</span> <span>{COUNTRY_FLAG_LABELS[agent.country as keyof typeof COUNTRY_FLAG_LABELS]?.label}</span> */}
-                            <span>{COUNTRY_FLAG_LABELS["US" as keyof typeof COUNTRY_FLAG_LABELS]?.flag}</span> <span>{COUNTRY_FLAG_LABELS["US" as keyof typeof COUNTRY_FLAG_LABELS]?.label}</span>
+                            {agent.location?.country_code ? (
+                                <>
+                                    <span>
+                                        {
+                                            COUNTRY_FLAG_LABELS[
+                                                agent.location
+                                                    ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                            ]?.flag
+                                        }
+                                    </span>{" "}
+                                    <span>
+                                        {
+                                            COUNTRY_FLAG_LABELS[
+                                                agent.location
+                                                    ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                            ]?.label
+                                        }
+                                    </span>
+                                </>
+                            ) : (
+                                "Info Unavailable"
+                            )}
                         </p>
                     </div>
                 </>

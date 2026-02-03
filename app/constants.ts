@@ -19,31 +19,56 @@ export const COUNTRY_FLAG_LABELS = {
   all: {
     label: "All Countries",
     flag: "🌎",
+    key: "all",
   },
   US: {
     label: "United States",
     flag: "🇺🇸",
+    key: "US",
+  },
+  GB: {
+    label: "Great Britain",
+    flag: "🇬🇧",
+    key: "GB",
   },
   CA: {
     label: "Canada",
     flag: "🇨🇦",
-  },
-  UK: {
-    label: "United Kingdom",
-    flag: "🇬🇧",
+    key: "CA",
   },
   AU: {
     label: "Australia",
     flag: "🇦🇺",
+    key: "AU",
   },
-  NZ: {
-    label: "New Zealand",
-    flag: "🇳🇿",
-  },
-  ZA: {
-    label: "South Africa",
-    flag: "🇿🇦",
-  },
+  // BR: {
+  //   label: "Brazil",
+  //   flag: "🇧🇷",
+  // },
+  // DE: {
+  //   label: "Germany",
+  //   flag: "🇩🇪",
+  // },
+  // FR: {
+  //   label: "France",
+  //   flag: "🇫🇷",
+  // },
+  // IE: {
+  //   label: "Ireland",
+  //   flag: "🇮🇪",
+  // },
+  // IL: {
+  //   label: "Israel",
+  //   flag: "🇮🇱",
+  // },
+  // IN: {
+  //   label: "India",
+  //   flag: "🇮🇳",
+  // },
+  // NZ: {
+  //   label: "New Zealand",
+  //   flag: "🇳🇿",
+  // },
 };
 
 // Kit subscriber tag constants following workspace naming convention
@@ -154,8 +179,10 @@ export const agentDemoData = [
     genres:
       'Science Fiction, "Literary Fiction", Commercial, Contemporary, Family Saga, Fantasy, General, Gothic, Graphic Novel, Historical, Horror, Humor, LGBTQ Fiction and Non-Fiction, Literary Fiction, Middle Grade, Romance, Romcom, Science Fiction, Speculative, Women’s Fiction, Young Adult, Biography, Cultural criticism, Illustrated, Memoir, Parenting, Pop Culture, Science/Technology, Narrative Nonfiction, Witches/Witchcraft',
     id: "3f2a8a1c-9b7d-4f6e-a7d8-8f2c7b1d4a90",
-    location:
-      "112 Greene Street, Suite 5B, New York, New York, United States, 10012",
+    location: {
+      country_code: "US",
+      state_province: "NY",
+    },
     name: "Lauren Anderson",
     negatives:
       "no gross-out middle grade, no adult thrillers/mysteries as primary category, no picture books, no poetry, no screenplays, no dragons-centric epic fantasy, no angels/demons, no cop/lawyer/FBI leads, no broad farce or satire",
@@ -196,8 +223,10 @@ export const agentDemoData = [
     genres:
       'Romance, Fantasy, Science Fiction, Juvenile fiction, "Childrens books", Graphic Novel, Middle Grade Fiction, Young Adult Fiction, Multicultural Fiction, LGBTQ Fiction, Gothic Fiction, BIPOC Fiction, Action Adventure, New Adult Fiction, Horror, Family Saga, Magical Realism, Contemporary Fiction, Historical Fiction, Crime Fiction',
     id: "dc8d491c-2860-4e85-8169-ff410ba9f612",
-    location:
-      "1155 Camino del Mar Suite 515, Del Mar, California, United States, 92130",
+    location: {
+      country_code: "US",
+      state_province: "CA",
+    },
     name: "Sarah Collins",
     negatives:
       "Closed to submissions, Not seeking picture book writers currently, Not interested in non-fiction, adult literary fiction, adult general fiction, Not interested in mystery/thriller/suspense, memoirs, poetry, religious/spiritual books, screenplays, short stories, Not best fit for adult epic fantasy unless character-driven, Not best fit for military, alien invasion, hard science fiction, Not best fit for action thriller involving cops, spies, corporate espionage",
@@ -237,7 +266,10 @@ export const agentDemoData = [
     genres:
       '"childrens fiction", "childrens non-fiction", middle grade, YA, diverse romance, "commercial womens fiction", narrative non-fiction, popular history, upmarket suspense, psychological thrillers, contemporary middle grade and YA, action/adventure, comedy, fantasy, LGBTQ+, mystery, romance, science fiction, commercial, contemporary, crime/detective/police, cross-over fiction, general fiction, intersectional/inclusive fiction, new adult, reading group fiction, thrillers/suspense, upmarket, "womens fiction", cultural/social issues, food/lifestyle, general non-fiction, history, lifestyle, memoir, wellbeing, popular culture, horror, genre romance, crime, thriller, action, concept books, cookery/food, self-help (PHSE topics), "childrens picture books"',
     id: "17b54e73-df77-4609-a59c-36ded37832c6",
-    location: "43 Great Russell Street, London, United Kingdom, WC1B 3PD",
+    location: {
+      country_code: "GB",
+      state_province: "London",
+    },
     name: "Tom lee",
     negatives:
       "not interested in literary fiction, not interested in high fantasy, not interested in trauma-focused stories, not interested in gruesome horror",

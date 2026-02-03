@@ -42,7 +42,6 @@ export interface AgentMatch {
   negatives?: string;
   genres: string;
   id: string;
-  location?: string;
   name: string;
   pubmarketplace?: string;
   querymanager?: string;
@@ -56,6 +55,10 @@ export interface AgentMatch {
   website?: string;
   status?: string;
   match_hits?: MatchHits;
+  location?: {
+    country_code: string;
+    state_province: string;
+  }
 }
 
 export interface FormData {
@@ -77,6 +80,7 @@ const QUERY_KEYS = {
   currentCursor: ["currentCursor"] as const,
   spreadsheetUrl: ["spreadsheetUrl"] as const,
   statusFilter: ["statusFilter"] as const,
+  countryFilter: ["countryFilter"] as const,
 };
 
 const STORAGE_KEYS = {
@@ -86,6 +90,7 @@ const STORAGE_KEYS = {
   currentCursor: "current_cursor",
   spreadsheetUrl: "spreadsheet_url",
   statusFilter: "status_filter",
+  countryFilter: "country_filter",
 };
 
 function canUseStorage() {
@@ -163,6 +168,13 @@ const useAgentData = () => {
     initialData: () => readJSON<string>(STORAGE_KEYS.statusFilter) ?? "all",
   });
 
+  const { data: countryFilter = "all" } = useQuery({
+    queryKey: QUERY_KEYS.countryFilter,
+    queryFn: async (): Promise<string> =>
+      readJSON<string>(STORAGE_KEYS.countryFilter) ?? "all",
+    initialData: () => readJSON<string>(STORAGE_KEYS.countryFilter) ?? "all",
+  });
+
   // ✅ Key fix: if we're pending and the URL arrives (from any source), mark ready
   useEffect(() => {
     if (sheetStatus === "pending" && spreadsheetUrl) {
@@ -237,6 +249,17 @@ const useAgentData = () => {
     onMutate: async (status) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.statusFilter });
       queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, status);
+    },
+  });
+
+  const saveCountryFilterMutation = useMutation({
+    mutationFn: async (country: string) => {
+      writeJSON(STORAGE_KEYS.countryFilter, country);
+      return country;
+    },
+    onMutate: async (country) => {
+      await queryClient.cancelQueries({ queryKey: QUERY_KEYS.countryFilter });
+      queryClient.setQueryData<string>(QUERY_KEYS.countryFilter, country);
     },
   });
 
@@ -322,6 +345,7 @@ const useAgentData = () => {
     formData,
     spreadsheetUrl,
     statusFilter,
+    countryFilter,
     sheetTaskId,
     isLoading,
 
@@ -334,6 +358,7 @@ const useAgentData = () => {
     saveCurrentCursor: (cursor: number) => saveCurrentCursorMutation.mutate(cursor),
     saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
+    saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
 
     startSpreadsheetPolling,
@@ -348,6 +373,7 @@ interface MatchesContextType {
   formData: FormData | null;
   spreadsheetUrl: string | null;
   statusFilter: string;
+  countryFilter: string;
   sheetTaskId: string | null;
   isLoading: boolean;
 
@@ -360,6 +386,7 @@ interface MatchesContextType {
   saveCurrentCursor: (cursor: number) => void;
   saveSpreadsheetUrl: (url: string | null) => void;
   saveStatusFilter: (status: string) => void;
+  saveCountryFilter: (country: string) => void;
   saveSheetTaskId: (taskId: string | null) => void;
 
   startSpreadsheetPolling: (taskId: string) => void;
@@ -404,6 +431,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       formData: data.formData,
       spreadsheetUrl: data.spreadsheetUrl,
       statusFilter: data.statusFilter,
+      countryFilter: data.countryFilter,
       sheetTaskId: data.sheetTaskId,
       isLoading: data.isLoading,
 
@@ -416,6 +444,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveCurrentCursor: data.saveCurrentCursor,
       saveSpreadsheetUrl: data.saveSpreadsheetUrl,
       saveStatusFilter: data.saveStatusFilter,
+      saveCountryFilter: data.saveCountryFilter,
       saveSheetTaskId: data.saveSheetTaskId,
 
       startSpreadsheetPolling: data.startSpreadsheetPolling,
@@ -430,6 +459,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.formData,
       data.spreadsheetUrl,
       data.statusFilter,
+      data.countryFilter,
       data.sheetTaskId,
       data.isLoading,
       data.sheetStatus,
@@ -440,6 +470,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveCurrentCursor,
       data.saveSpreadsheetUrl,
       data.saveStatusFilter,
+      data.saveCountryFilter,
       data.saveSheetTaskId,
       data.startSpreadsheetPolling,
       data.stopSpreadsheetPolling,

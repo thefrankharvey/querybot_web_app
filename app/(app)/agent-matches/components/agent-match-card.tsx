@@ -3,10 +3,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import {
-  cn,
-  formatDisplayString,
-  formatGenres,
-  capitalizeFirstCharacter,
+    cn,
+    formatDisplayString,
+    formatGenres,
+    capitalizeFirstCharacter,
 } from "@/app/utils";
 import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
@@ -53,7 +53,7 @@ export const AgentMatchCard = ({
                 "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
                 isDisabled
                     ? "opacity-60"
-                    : "hover:shadow-2xl transition-shadow duration-300",
+                    : "hover:shadow-2xl transition-shadow duration-300"
             )}
         >
             <Link
@@ -109,22 +109,28 @@ export const AgentMatchCard = ({
                         </label>
                         <Skeleton isLoading={isLoading} className="h-6 w-full">
                             <p className="text-sm">
-                                {/* TODO: Replace with agent.country from API */}
-                                {/* {agent.country ? agent.country : "Info Unavailable"} */}
-                                <span>
-                                    {
-                                        COUNTRY_FLAG_LABELS[
-                                            "US" as keyof typeof COUNTRY_FLAG_LABELS
-                                        ]?.flag
-                                    }
-                                </span>{" "}
-                                <span>
-                                    {
-                                        COUNTRY_FLAG_LABELS[
-                                            "US" as keyof typeof COUNTRY_FLAG_LABELS
-                                        ]?.label
-                                    }
-                                </span>
+                                {agent.location?.country_code ? (
+                                    <>
+                                        <span>
+                                            {
+                                                COUNTRY_FLAG_LABELS[
+                                                    agent.location
+                                                        ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                                ]?.flag
+                                            }
+                                        </span>
+                                        <span className="ml-1">
+                                            {
+                                                COUNTRY_FLAG_LABELS[
+                                                    agent.location
+                                                        ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                                ]?.label
+                                            }
+                                        </span>
+                                    </>
+                                ) : (
+                                    "Info Unavailable"
+                                )}
                             </p>
                         </Skeleton>
                     </div>
@@ -146,7 +152,7 @@ export const AgentMatchCard = ({
                                                     >
                                                         {genre}
                                                     </div>
-                                                )),
+                                                ))
                                         )
                                         : "Info Unavailable"}
                                 </div>
@@ -206,7 +212,7 @@ export const AgentMatchCard = ({
                                         {agent.favorites
                                             ? capitalizeFirstCharacter(
                                                 formatDisplayString(agent.favorites)
-                                              )
+                                            )
                                             : "Info Unavailable"}
                                     </p>
                                 </Skeleton>

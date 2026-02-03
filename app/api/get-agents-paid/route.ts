@@ -29,10 +29,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    // Get last_index and status from URL parameters
+    // Get last_index, status, and country_code from URL parameters
     const url = new URL(req.url);
     const last_index = url.searchParams.get("last_index") || "0";
     const status = url.searchParams.get("status") || "";
+    const country_code = url.searchParams.get("country_code") || "";
     const jsonData = await req.json();
 
     const payload: GetAgentsPaidPayload = {
@@ -53,11 +54,12 @@ export async function POST(req: NextRequest) {
       async_sheet: true,
     };
 
-    // Build query string with optional status parameter
+    // Build query string with optional status and country_code parameters
     const statusQuery = status ? `&status=${status}` : "";
+    const countryQuery = country_code ? `&country_code=${country_code}` : "";
 
     const externalRes = await fetch(
-      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}`,
+      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}${countryQuery}`,
       {
         method: "POST",
         headers: {
