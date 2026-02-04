@@ -9,6 +9,7 @@ import {
 import { syncStripeCustomerToClerk } from "./clerk-actions";
 import { deleteUserAccount } from "./clerk-actions";
 import { createClerkClient } from "@clerk/backend";
+import { getStripePriceId } from "@/lib/config";
 
 const clerkClient = createClerkClient({
   secretKey: process.env.CLERK_SECRET_KEY!,
@@ -17,9 +18,12 @@ const clerkClient = createClerkClient({
 export async function initializeSubscription(
   userId: string,
   email: string,
-  priceId: string
+  planType: "monthly" | "yearly"
 ) {
   try {
+    // Resolve the price ID from environment based on plan type
+    const priceId = getStripePriceId(planType);
+
     // Step 1: Create Stripe customer
     const customerResult = await createStripeCustomer(userId, email);
 

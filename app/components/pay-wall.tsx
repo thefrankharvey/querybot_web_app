@@ -3,7 +3,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button } from "../ui-primitives/button";
 import { useStripeSubscribe } from "../hooks/use-stripe-subscribe";
-import { MONTHLY_SUB_PRICE_ID } from "../constants";
 
 const PayWall = ({
   gridRef,
@@ -154,7 +153,7 @@ const PayWall = ({
           </h1>
           <Button
             className="cursor-pointer text-xl p-8 font-semibold mt-2 shadow-lg hover:shadow-xl"
-            onClick={() => handleSubscribe(MONTHLY_SUB_PRICE_ID)}
+            onClick={() => handleSubscribe("monthly")}
             disabled={isSubscribing}
           >
             SUBSCRIBE NOW

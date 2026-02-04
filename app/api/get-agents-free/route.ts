@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 
 // Define the structure of the payload
 export interface GetAgentsFreePayload {
@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
       async_sheet: true,
     };
 
-    const externalRes = await fetch(`${WQH_API_URL}/get-agents-free`, {
+    const externalRes = await fetch(`${getWqhApiUrl()}/get-agents-free`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
