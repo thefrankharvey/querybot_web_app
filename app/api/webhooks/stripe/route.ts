@@ -1,21 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
 import { updateUserSubscriptionStatus } from "@/app/actions/clerk-actions";
+import { getStripeSecretKey, getStripeWebhookSecret } from "@/lib/config";
 
-// Check for required environment variables
-if (!process.env.STRIPE_SECRET_KEY) {
-  throw new Error("STRIPE_SECRET_KEY environment variable is required");
-}
-
-if (!process.env.STRIPE_WEBHOOK_SECRET) {
-  throw new Error("STRIPE_WEBHOOK_SECRET environment variable is required");
-}
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const stripe = new Stripe(getStripeSecretKey(), {
   apiVersion: "2025-06-30.basil",
 });
 
-const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
+const webhookSecret = getStripeWebhookSecret();
 
 export async function POST(req: NextRequest) {
   try {

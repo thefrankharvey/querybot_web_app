@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
     const countryQuery = country_code ? `&country_code=${country_code}` : "";
 
     const externalRes = await fetch(
-      `${getWqhApiUrl()}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}`,
+      `${getWqhApiUrl()}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}${countryQuery}`,
       {
         method: "POST",
         headers: {

@@ -7,6 +7,10 @@ const REQUIRED_ENV_VARS = [
   "STRIPE_DEV_YEARLY_PRICE_ID",
   "STRIPE_PROD_MONTHLY_PRICE_ID",
   "STRIPE_PROD_YEARLY_PRICE_ID",
+  "STRIPE_SECRET_KEY_DEV",
+  "STRIPE_SECRET_KEY_PROD",
+  "STRIPE_WEBHOOK_SECRET_DEV",
+  "STRIPE_WEBHOOK_SECRET_PROD",
   "WQH_DEV_API_URL",
   "WQH_PROD_API_URL",
 ] as const;
@@ -50,4 +54,16 @@ export function getStripePriceId(plan: "monthly" | "yearly"): string {
   return isProd
     ? process.env.STRIPE_PROD_YEARLY_PRICE_ID!
     : process.env.STRIPE_DEV_YEARLY_PRICE_ID!;
+}
+
+export function getStripeSecretKey(): string {
+  return getAppEnv() === "prod"
+    ? process.env.STRIPE_SECRET_KEY_PROD!
+    : process.env.STRIPE_SECRET_KEY_DEV!;
+}
+
+export function getStripeWebhookSecret(): string {
+  return getAppEnv() === "prod"
+    ? process.env.STRIPE_WEBHOOK_SECRET_PROD!
+    : process.env.STRIPE_WEBHOOK_SECRET_DEV!;
 }
