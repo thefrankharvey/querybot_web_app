@@ -6,7 +6,7 @@ import {
   FlattenedSlushFeed,
 } from "@/app/types";
 import { flattenAndSortFeed, formatFeedItem } from "@/app/utils/dispatch-utils";
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 import { auth } from "@clerk/nextjs/server";
 
 const Dispatch = async () => {
@@ -19,7 +19,7 @@ const Dispatch = async () => {
       return renderContent([]);
     }
 
-    const res = await fetch(`${WQH_API_URL}recent-activity?limit=10&offset=0`, {
+    const res = await fetch(`${getWqhApiUrl()}recent-activity?limit=10&offset=0`, {
       cache: "no-store",
     });
 

@@ -6,13 +6,13 @@ export const useStripeSubscribe = () => {
   const [isSubscribing, setIsSubscribing] = useState(false);
   const { user } = useClerkUser();
 
-  const handleSubscribe = async (priceId: string) => {
+  const handleSubscribe = async (plan: "monthly" | "yearly") => {
     setIsSubscribing(true);
     try {
       const result = await initializeSubscription(
         user?.id || "",
         user?.emailAddresses[0]?.emailAddress || "",
-        priceId
+        plan
       );
 
       if (result.success && result.url) {

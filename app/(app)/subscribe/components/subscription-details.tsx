@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "@/app/ui-primitives/button";
 import { Switch } from "@/app/ui-primitives/switch";
-import { MONTHLY_SUB_PRICE_ID, YEARLY_SUB_PRICE_ID } from "@/app/constants";
 import { motion } from "framer-motion";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -84,7 +83,6 @@ const SubscriptionDetails = () => {
   const [isYearly, setIsYearly] = useState(false);
   const { isLoading } = useClerkUser();
   const { handleSubscribe, isSubscribing } = useStripeSubscribe();
-  const priceId = isYearly ? YEARLY_SUB_PRICE_ID : MONTHLY_SUB_PRICE_ID;
 
   const handleToggle = (checked: boolean) => {
     setIsYearly(checked);
@@ -149,7 +147,7 @@ const SubscriptionDetails = () => {
 
               <Button
                 className="w-full md:w-[250px] md:text-3xl text-2xl p-8 font-semibold shadow-lg hover:shadow-xl"
-                onClick={() => handleSubscribe(priceId)}
+                onClick={() => handleSubscribe(isYearly ? "yearly" : "monthly")}
                 disabled={isLoading || isSubscribing}
               >
                 SUBSCRIBE

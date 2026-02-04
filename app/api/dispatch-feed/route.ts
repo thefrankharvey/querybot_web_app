@@ -1,4 +1,4 @@
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { SlushFeed } from "@/app/types";
@@ -19,7 +19,7 @@ export async function GET(req: NextRequest) {
     const offset = searchParams.get("offset") || "0";
 
     const externalRes = await fetch(
-      `${WQH_API_URL}/recent-activity?limit=${limit}&offset=${offset}`,
+      `${getWqhApiUrl()}/recent-activity?limit=${limit}&offset=${offset}`,
       {
         method: "GET",
         headers: {

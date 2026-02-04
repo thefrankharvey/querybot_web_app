@@ -1,4 +1,4 @@
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 
@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
     }
 
     const externalRes = await fetch(
-      `${WQH_API_URL}/get-agent?agent_id=${encodeURIComponent(agentId)}`,
+      `${getWqhApiUrl()}/get-agent?agent_id=${encodeURIComponent(agentId)}`,
       {
         method: "GET",
         headers: {

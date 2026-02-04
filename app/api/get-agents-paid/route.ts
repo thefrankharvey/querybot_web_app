@@ -1,4 +1,4 @@
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 
@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
     const countryQuery = country_code ? `&country_code=${country_code}` : "";
 
     const externalRes = await fetch(
-      `${WQH_API_URL}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}${countryQuery}`,
+      `${getWqhApiUrl()}/get-agents-paid?limit=21&last_index=${last_index}${statusQuery}`,
       {
         method: "POST",
         headers: {

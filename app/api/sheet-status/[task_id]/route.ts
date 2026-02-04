@@ -1,4 +1,4 @@
-import { WQH_API_URL } from "@/app/constants";
+import { getWqhApiUrl } from "@/lib/config";
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 
@@ -25,7 +25,7 @@ export async function GET(
     }
 
     const externalRes = await fetch(
-      `${WQH_API_URL}/sheet-status/${task_id}`,
+      `${getWqhApiUrl()}/sheet-status/${task_id}`,
       {
         method: "GET",
         headers: {
