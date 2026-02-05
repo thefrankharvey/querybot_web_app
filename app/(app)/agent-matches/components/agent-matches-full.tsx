@@ -1,6 +1,6 @@
 "use client";
 
-import { useAgentMatches, FormData } from "../../context/agent-matches-context";
+import { useAgentMatches, FormData, AgentMatch } from "../../context/agent-matches-context";
 import { useMutation } from "@tanstack/react-query";
 import { QUERY_LIMIT } from "@/app/constants";
 import {
@@ -13,6 +13,20 @@ import {
 import { startSheetPolling } from "../../workers/sheet-worker-manager";
 import AgentMatchesInner from "./agent-matches-inner";
 import TypeForm from "@/app/components/type-form";
+import { useProfileContext } from "../../context/profile-context";
+import { SaveAgentPayload } from "@/app/types";
+
+// Helper function to map AgentMatch to SaveAgentPayload
+const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
+  name: agent.name,
+  email: agent.email || null,
+  agency: agent.agency || null,
+  agency_url: agent.website || null,
+  index_id: agent.agent_id || null,
+  query_tracker: agent.querytracker || null,
+  pub_marketplace: agent.pubmarketplace || null,
+  match_score: agent.normalized_score || null,
+});
 
 export const AgentMatchesFull = () => {
   const {
@@ -33,6 +47,9 @@ export const AgentMatchesFull = () => {
     startSpreadsheetPolling,
     saveSpreadsheetUrl,
   } = useAgentMatches();
+
+  const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
+
   const nextCursor = nextCursorCount || QUERY_LIMIT;
 
   const queryMutation = useMutation({
@@ -152,6 +169,15 @@ export const AgentMatchesFull = () => {
     window.scrollTo({ top: 0 });
   };
 
+  const handleSaveAgent = (payload: SaveAgentPayload) => {
+    saveAgent(payload);
+  };
+
+  const handleSaveAllAgents = () => {
+    const payloads = matches.map(mapAgentToPayload);
+    saveAllAgents(payloads);
+  };
+
   return (
     <>
       <AgentMatchesInner
@@ -165,6 +191,10 @@ export const AgentMatchesFull = () => {
         sheetTaskId={sheetTaskId}
         spreadsheetUrl={spreadsheetUrl}
         sheetStatus={sheetStatus}
+        onSaveAllAgents={handleSaveAllAgents}
+        isSavingAll={isSavingAll}
+        onSaveAgent={handleSaveAgent}
+        savingAgentId={savingAgentId}
       />
       <Pagination className="mt-8">
         <PaginationContent>

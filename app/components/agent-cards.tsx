@@ -62,7 +62,7 @@ export const AgentCards = ({
             <div className="flex flex-col items-start gap-1 w-fit">
               <TooltipComponent
                 className="text-left"
-                content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
+                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
               >
                 <label className="text-sm font-semibold cursor-pointer">
                   Match Score:
@@ -111,15 +111,15 @@ export const AgentCards = ({
               <div className="flex flex-wrap gap-1">
                 {agent.genres
                   ? formatGenres(agent.genres)
-                      .slice(0, 8)
-                      .map((genre: string) => (
-                        <div
-                          key={genre}
-                          className="bg-gray-100 px-2 py-1 text-sm rounded-md"
-                        >
-                          {genre}
-                        </div>
-                      ))
+                    .slice(0, 8)
+                    .map((genre: string) => (
+                      <div
+                        key={genre}
+                        className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                      >
+                        {genre}
+                      </div>
+                    ))
                   : "Info Unavailable"}
               </div>
             </Skeleton>

@@ -16,7 +16,9 @@ interface ProfileContextType {
   removeAgent: (agentId: string) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
-  isSaving: boolean;
+  saveAllAgents: (payloads: SaveAgentPayload[]) => Promise<SaveAgentResponse | null>;
+  savingAgentId: string | null;
+  isSavingAll: boolean;
 }
 
 const ProfileContext = createContext<ProfileContextType | null>(null);
@@ -24,7 +26,8 @@ const ProfileContext = createContext<ProfileContextType | null>(null);
 export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const { data, isLoading, isError, error, refetch } = useFetchAgentsList();
   const queryClient = useQueryClient();
-  const [isSaving, setIsSaving] = useState(false);
+  const [savingAgentId, setSavingAgentId] = useState<string | null>(null);
+  const [isSavingAll, setIsSavingAll] = useState(false);
 
   const agentsList = data?.agent_matches;
 
@@ -59,7 +62,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const saveAgent = async (
     payload: SaveAgentPayload
   ): Promise<SaveAgentResponse | null> => {
-    setIsSaving(true);
+    setSavingAgentId(payload.index_id ?? null);
     try {
       const response = await fetch("/api/agent-matches", {
         method: "POST",
@@ -98,7 +101,70 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       return null;
     } finally {
-      setIsSaving(false);
+      setSavingAgentId(null);
+    }
+  };
+
+  const saveAllAgents = async (
+    payloads: SaveAgentPayload[]
+  ): Promise<SaveAgentResponse | null> => {
+    // Filter out agents that are already saved
+    const existingIds = new Set(agentsList?.map((a) => a.index_id) || []);
+    const newAgents = payloads.filter((p) => !existingIds.has(p.index_id));
+
+    if (newAgents.length === 0) {
+      toast.info("All agents already saved", {
+        description: "All agents on this page are already in your saved list.",
+        duration: 3000,
+      });
+      return null;
+    }
+
+    setIsSavingAll(true);
+    try {
+      const response = await fetch("/api/agent-matches", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newAgents),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to save agents");
+      }
+
+      const result = (await response.json()) as SaveAgentResponse;
+
+      await refetch();
+
+      const skippedCount = payloads.length - newAgents.length;
+      const savedCount = newAgents.length;
+
+      toast.success(`${savedCount} agent${savedCount !== 1 ? "s" : ""} saved!`, {
+        description: skippedCount > 0
+          ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved.`
+          : "You can view your saved agents anytime in your profile.",
+        duration: 3000,
+      });
+
+      return result;
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error &&
+        error.message.includes("duplicate key value violates")
+          ? "Some agents already exist in your saved agents"
+          : "An error occurred while attempting to save the agents";
+
+      toast.error("An error occurred", {
+        description: errorMessage,
+        duration: 4000,
+      });
+
+      return null;
+    } finally {
+      setIsSavingAll(false);
     }
   };
 
@@ -111,7 +177,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     addAgent,
     removeAgent,
     saveAgent,
-    isSaving,
+    saveAllAgents,
+    savingAgentId,
+    isSavingAll,
   };
 
   return (
