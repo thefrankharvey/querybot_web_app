@@ -29,18 +29,20 @@ export async function POST(req: Request) {
   }
 
   const body = await req.json();
-  // Expecting { name, email?, agency?, agency_url?, index_id?, query_tracker?, pub_marketplace?, match_score? }
+  // Expecting single agent or array of agents:
+  // { name, email?, agency?, agency_url?, index_id?, query_tracker?, pub_marketplace?, match_score? }
 
-  // Add user_id to the payload
-  const insertPayload = {
-    ...body,
+  // Accept single or array payload
+  const agents = Array.isArray(body) ? body : [body];
+  const insertPayloads = agents.map((agent) => ({
+    ...agent,
     user_id: userId,
-  };
+  }));
 
   const supabase = createServerSupabase();
   const { data, error } = await supabase
     .from("agent_matches")
-    .insert([insertPayload])
+    .insert(insertPayloads)
     .select("*"); // return inserted rows
 
   if (error)
