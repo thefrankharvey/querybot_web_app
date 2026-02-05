@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink, Save } from "lucide-react";
 import { AgentMatch, SheetStatus } from "../../context/agent-matches-context";
 import AgentMatchCard from "./agent-match-card";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import ExplanationBlock from "./explanation-block";
 import StatusFilter from "./status-filter";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import CountryFilter from "./country-filter";
-import TooltipComponent from "@/app/components/tooltip";
+import { SaveAgentPayload } from "@/app/types";
 import ProgressBar from "../../smart-match/components/progress-bar";
 
 export const AgentMatchesInner = ({
@@ -23,6 +23,10 @@ export const AgentMatchesInner = ({
   onCountryChange,
   spreadsheetUrl,
   sheetStatus,
+  onSaveAllAgents,
+  isSavingAll,
+  onSaveAgent,
+  savingAgentId,
 }: {
   matches: AgentMatch[];
   totalAgents: number | null;
@@ -37,6 +41,10 @@ export const AgentMatchesInner = ({
   sheetTaskId?: string | null;
   spreadsheetUrl?: string | null;
   sheetStatus?: SheetStatus;
+  onSaveAllAgents?: () => void;
+  isSavingAll?: boolean;
+  onSaveAgent?: (payload: SaveAgentPayload) => void;
+  savingAgentId?: string | null;
 }) => {
   return (
     <>
@@ -65,11 +73,30 @@ export const AgentMatchesInner = ({
                 onValueChange={onCountryChange}
               />
             )}
-            {!isSubscribed ? (
-              <TooltipComponent
-                className="w-full md:w-fit"
-                contentClass="text-center"
-                content="Subscribe to download all agent matches!"
+            {onSaveAllAgents && (
+              <Button
+                onClick={onSaveAllAgents}
+                disabled={isSavingAll || isLoading || matches.length === 0}
+                className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+              >
+                <div className="flex items-center gap-2">
+                  {isSavingAll ? <Spinner className="w-4 h-4" /> : <Save className="w-4 h-4" />}
+                  <span>Save All Agents</span>
+                </div>
+              </Button>
+            )}
+            <a
+              href={spreadsheetUrl || undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full md:w-auto"
+              onClick={(e) => {
+                if (sheetStatus === "pending" || !spreadsheetUrl || isLoading) e.preventDefault();
+              }}
+            >
+              <Button
+                disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
+                className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
               >
                 <Button
                   className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"

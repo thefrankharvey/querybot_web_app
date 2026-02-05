@@ -35,7 +35,8 @@ const AgentProfile = () => {
   const [agent, setAgent] = useState<AgentMatch | null>(null);
   const [agentIndex, setAgentIndex] = useState<number>(0);
 
-  const { saveAgent, isSaving } = useProfileContext();
+  const { saveAgent, savingAgentId } = useProfileContext();
+  const isSaving = savingAgentId !== null;
 
   useEffect(() => {
     if (matches.length > 0) {
@@ -130,7 +131,7 @@ const AgentProfile = () => {
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
                 className="w-fit"
-                content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
+                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate picture of agent match potential."
               >
                 <div className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agent.normalized_score} />
