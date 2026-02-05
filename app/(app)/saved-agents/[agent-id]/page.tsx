@@ -117,7 +117,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
               <label className="text-lg font-semibold">Match Score:</label>
               <TooltipComponent
                 className="w-fit"
-                content="Our Agent Match Score uses keywords and data points from your manuscript elements to match you with agents who actually seek your specific work. No more “spray and pray.” Just smart targeting, so you pitch agents actively looking for work like yours."
+                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
               >
                 <div className="text-xl font-semibold flex items-center gap-1">
                   <StarRating rateNum={agentMatch?.match_score || 0} />
@@ -153,8 +153,8 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
             <p className="text-base leading-relaxed text-gray-800">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
-                    formatDisplayString(agent.extra_interest)
-                  )
+                  formatDisplayString(agent.extra_interest)
+                )
                 : "Info Unavailable"}
             </p>
           </div>
