@@ -7,7 +7,7 @@ import {
   DragStartEvent,
   DragOverEvent,
   DragEndEvent,
-  closestCorners,
+  closestCenter,
   PointerSensor,
   useSensor,
   useSensors,
@@ -208,10 +208,10 @@ export function KanbanBoard() {
   };
 
   return (
-    <div className="overflow-x-auto pb-4 min-h-[80vh]">
+    <div className="overflow-x-auto pb-4 min-h-[calc(100vh-180px)] scrollbar-transparent">
       <DndContext
         sensors={sensors}
-        collisionDetection={closestCorners}
+        collisionDetection={closestCenter}
         onDragStart={handleDragStart}
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}

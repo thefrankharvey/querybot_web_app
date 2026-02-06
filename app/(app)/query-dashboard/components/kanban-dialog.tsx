@@ -23,6 +23,7 @@ import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { urlFormatter, formatEmail } from "@/app/utils";
 import { KanbanCardData, FitRating, FIT_RATING_CONFIG } from "./kanban-card";
+import { Button } from "@/app/ui-primitives/button";
 
 interface KanbanDialogProps {
   card: KanbanCardData | null;
@@ -50,71 +51,77 @@ export function KanbanDialog({
       <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-xl bg-white">
         {/* Header Section */}
         <DialogHeader>
-          <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
-          <DialogDescription className="text-base">
-            {card.agency}
-          </DialogDescription>
+          <div className="flex gap-2 justify-between mt-6">
+            <div className="flex flex-col gap-1">
+              <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
+              <DialogDescription className="text-base">
+                {card.agency}
+              </DialogDescription>
+            </div>
+            {/* Match Score Section */}
+            {card.match_score != null && (
+              <div className="flex flex-col gap-1">
+                <label className="text-sm text-right font-semibold text-gray-700">
+                  Match Score
+                </label>
+                <div className="flex items-center gap-2">
+                  <StarRating rateNum={card.match_score} />
+                  <span className="text-sm font-medium text-gray-600">
+                    {card.match_score}
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
         </DialogHeader>
 
         <div className="flex flex-col gap-6">
-          {/* Match Score Section */}
-          {card.match_score != null && (
+          <div className="flex items-center gap-2">
+            {/* Fit Rating Section */}
             <div className="flex flex-col gap-1">
               <label className="text-sm font-semibold text-gray-700">
-                Match Score
+                Fit Rating
               </label>
-              <div className="flex items-center gap-2">
-                <StarRating rateNum={card.match_score} />
-                <span className="text-sm font-medium text-gray-600">
-                  {card.match_score}
-                </span>
-              </div>
+              <Select
+                value={card.fitRating}
+                onValueChange={(value: FitRating) =>
+                  onFitRatingChange(card.id, value)
+                }
+              >
+                <SelectTrigger className="w-[180px]">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map((key) => (
+                    <SelectItem key={key} value={key}>
+                      <span className="flex items-center gap-2">
+                        <span
+                          className="w-3 h-3 rounded-full"
+                          style={{ backgroundColor: FIT_RATING_CONFIG[key].color }}
+                        />
+                        {FIT_RATING_CONFIG[key].label}
+                      </span>
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
-          )}
 
-          {/* Fit Rating Section */}
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-semibold text-gray-700">
-              Fit Rating
-            </label>
-            <Select
-              value={card.fitRating}
-              onValueChange={(value: FitRating) =>
-                onFitRatingChange(card.id, value)
-              }
-            >
-              <SelectTrigger className="w-[180px]">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map((key) => (
-                  <SelectItem key={key} value={key}>
-                    <span className="flex items-center gap-2">
-                      <span
-                        className="w-3 h-3 rounded-full"
-                        style={{ backgroundColor: FIT_RATING_CONFIG[key].color }}
-                      />
-                      {FIT_RATING_CONFIG[key].label}
-                    </span>
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
-
-          {/* Prep Query Letter Checkbox */}
-          <div className="flex items-center gap-3">
-            <Checkbox
-              id="prep-query-checkbox"
-              checked={card.prepQueryLetterDone}
-              onCheckedChange={() => onTogglePrepQuery(card.id)}
-            />
-            <label
-              htmlFor="prep-query-checkbox"
-              className="text-sm font-medium cursor-pointer"
-            >
-              Prep Query Letter
-            </label>
+            {/* Query Letter Ready Checkbox */}
+            <div className="flex items-start gap-3" onClick={() => onTogglePrepQuery(card.id)}>
+              <Checkbox
+                id="prep-query-checkbox"
+                className="data-[state=checked]:bg-blue-accent data-[state=checked]:border-blue-accent data-[state=checked]:text-white cursor-pointer"
+                checked={card.prepQueryLetterDone}
+                onCheckedChange={() => onTogglePrepQuery(card.id)}
+              />
+              <label
+                htmlFor="prep-query-checkbox"
+                className="text-sm font-medium cursor-pointer"
+              >
+                Query Letter Ready
+              </label>
+            </div>
           </div>
 
           {/* Preferred Contact Method - hardcoded for now */}
@@ -124,23 +131,57 @@ export function KanbanDialog({
             </label>
             <span className="text-sm text-gray-600">Query via email</span>
           </div>
-
-          {/* Links Section */}
-          <div className="flex flex-col gap-3">
-            <label className="text-sm font-semibold text-gray-700">Links</label>
-
-            {/* Full Agent Page */}
+          <div className="flex gap-2 flex-wrap">
+            {card.query_tracker && urlFormatter(card.query_tracker) && (
+              <Button
+                className="text-sm shadow-lg hover:shadow-xl w-fit"
+                onClick={() => {
+                  window.open(urlFormatter(card.query_tracker) || "", "_blank");
+                }}
+              >
+                Query Tracker
+                <ExternalLink className="w-4 h-4" />
+              </Button>
+            )}
+            {card.pub_marketplace && urlFormatter(card.pub_marketplace) && (
+              <Button
+                className="text-sm shadow-lg hover:shadow-xl w-fit"
+                onClick={() => {
+                  window.open(urlFormatter(card.pub_marketplace) || "", "_blank");
+                }}
+              >
+                PubMarketplace
+                <ExternalLink className="w-4 h-4" />
+              </Button>
+            )}
             {card.index_id && (
               <Link
                 href={`/query-dashboard/${card.index_id}`}
-                className="text-sm underline hover:text-accent flex items-center gap-2"
               >
-                View Full Agent Profile
-                <ExternalLink className="w-4 h-4" />
+                <Button
+                  className="text-sm shadow-lg hover:shadow-xl w-fit"
+                >
+                  Agent Profile
+                  <ExternalLink className="w-4 h-4" />
+                </Button>
               </Link>
             )}
+            {card.agency_url && urlFormatter(card.agency_url) && (
+              <Button
+                className="text-sm shadow-lg hover:shadow-xl w-fit"
+                onClick={() => {
+                  window.open(urlFormatter(card.agency_url) || "", "_blank");
+                }}
+              >
+                Agency Website
+                <ExternalLink className="w-4 h-4" />
+              </Button>
+            )}
+          </div>
 
-            {/* Email */}
+          {/* Email */}
+          <div className="flex flex-col gap-1">
+            <label className="text-sm font-semibold text-gray-700">Email</label>
             {emails && emails.length > 0 && (
               <div className="flex flex-col gap-1">
                 <div className="flex flex-wrap gap-2">
@@ -153,45 +194,6 @@ export function KanbanDialog({
                   ))}
                 </div>
               </div>
-            )}
-
-            {/* Query Tracker */}
-            {card.query_tracker && urlFormatter(card.query_tracker) && (
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={urlFormatter(card.query_tracker) || ""}
-                className="text-sm underline hover:text-accent flex items-center gap-2"
-              >
-                Query Tracker
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            )}
-
-            {/* Publishers Marketplace */}
-            {card.pub_marketplace && urlFormatter(card.pub_marketplace) && (
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={urlFormatter(card.pub_marketplace) || ""}
-                className="text-sm underline hover:text-accent flex items-center gap-2"
-              >
-                Publishers Marketplace
-                <ExternalLink className="w-4 h-4" />
-              </a>
-            )}
-
-            {/* Website/Agency Site */}
-            {card.agency_url && urlFormatter(card.agency_url) && (
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={urlFormatter(card.agency_url) || ""}
-                className="text-sm underline hover:text-accent flex items-center gap-2"
-              >
-                Agency Website
-                <ExternalLink className="w-4 h-4" />
-              </a>
             )}
           </div>
 
