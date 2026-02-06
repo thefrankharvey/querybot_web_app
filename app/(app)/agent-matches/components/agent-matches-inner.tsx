@@ -98,47 +98,13 @@ export const AgentMatchesInner = ({
                 disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
                 className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
               >
-                <Button
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
-                  disabled={true}
-                >
-                  <div className="flex items-center gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    <span>Query Spreadsheet</span>
-                  </div>
-                </Button>
-              </TooltipComponent>
-            ) : (
-              <a
-                href={spreadsheetUrl || undefined}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full md:w-auto"
-                onClick={(e) => {
-                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
-                    e.preventDefault();
-                }}
-              >
-                <Button
-                  disabled={
-                    sheetStatus === "pending" || !spreadsheetUrl || isLoading
-                  }
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
-                >
-                  <div className="flex items-center gap-2">
-                    {sheetStatus === "pending" ||
-                      !spreadsheetUrl ||
-                      isLoading ? (
-                      <Spinner className="w-4 h-4" />
-                    ) : (
-                      <ExternalLink className="w-4 h-4" />
-                    )}
-                    <span>Query Spreadsheet</span>
-                  </div>
-                </Button>
-              </a>
-            )}
-            <ExplanationBlock />
+                <div className="flex items-center gap-2">
+                  {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4" /> : <ExternalLink className="w-4 h-4" />}
+                  <span>Query Spreadsheet</span>
+                </div>
+              </Button>
+            </a>
+            {/* <ExplanationBlock /> */}
           </div>
         </div>
         {matches && matches.length > 0 ? (
