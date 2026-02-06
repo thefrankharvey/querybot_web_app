@@ -1,11 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { useDroppable } from "@dnd-kit/core";
 import {
   SortableContext,
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
-import { KanbanCard, KanbanCardData } from "./kanban-card";
+import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
+import { KanbanColumnFilters, PrepQueryLetterFilter } from "./kanban-column-filters";
 import { cn } from "@/app/utils";
 
 export interface ColumnData {
@@ -26,6 +28,9 @@ export function KanbanColumn({
   onCardClick,
   onTogglePrepQuery,
 }: KanbanColumnProps) {
+  const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
+  const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
+
   const { setNodeRef, isOver } = useDroppable({
     id: column.id,
     data: {
@@ -34,28 +39,43 @@ export function KanbanColumn({
     },
   });
 
+  const filteredCards = cards.filter((card) => {
+    const matchesFitRating =
+      fitRatingFilter === "all" || card.fitRating === fitRatingFilter;
+    const matchesPrepQuery =
+      prepQueryLetterFilter === "all" ||
+      (prepQueryLetterFilter === "done" && card.prepQueryLetterDone) ||
+      (prepQueryLetterFilter === "not_done" && !card.prepQueryLetterDone);
+    return matchesFitRating && matchesPrepQuery;
+  });
+
   return (
     <div className="flex flex-col w-[272px] min-w-[272px]">
       {/* Column Header - Fixed, centered title */}
-      <div className="py-3">
-        <h2 className="text-base bg-accent/10 rounded-lg p-2 font-medium text-accent text-center">
+      <div className="text-base bg-accent/10 rounded-lg px-4 font-medium text-accent py-3 flex items-center justify-between gap-2 mb-4">
+        <h2 className="text-left">
           {column.title}
         </h2>
+        <KanbanColumnFilters
+          fitRatingFilter={fitRatingFilter}
+          onFitRatingChange={setFitRatingFilter}
+          prepQueryLetterFilter={prepQueryLetterFilter}
+          onPrepQueryLetterChange={setPrepQueryLetterFilter}
+        />
       </div>
 
       {/* Column Content - Scrollable area for cards */}
       <div
         ref={setNodeRef}
         className={cn(
-          "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg min-h-full",
-          isOver && "bg-gray-200"
+          "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg h-[calc(100vh-300px)] overflow-y-auto scrollbar-transparent",
         )}
       >
         <SortableContext
-          items={cards.map((card) => card.id)}
+          items={filteredCards.map((card) => card.id)}
           strategy={verticalListSortingStrategy}
         >
-          {cards.map((card) => (
+          {filteredCards.map((card) => (
             <KanbanCard
               key={card.id}
               card={card}

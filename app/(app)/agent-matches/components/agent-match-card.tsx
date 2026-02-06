@@ -15,7 +15,6 @@ import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { Heart, Save } from "lucide-react";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
-import { Button } from "@/app/ui-primitives/button";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { SaveAgentPayload } from "@/app/types";
 import { COUNTRY_FLAG_LABELS } from "@/app/constants";
@@ -80,20 +79,20 @@ export const AgentMatchCard = ({
                 "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
                 isDisabled
                     ? "opacity-60"
-                    : "hover:shadow-2xl transition-shadow duration-300",
+                    : "hover:shadow-2xl transition-shadow duration-300"
             )}
         >
-            <div className="flex flex-col gap-4">
-                <Link
-                    href={isDisabled ? "#" : `/agent-matches/${index}`}
-                    className="block w-full h-full"
-                >
-                    <div className="flex flex-col gap-4">
-                        <div className="flex justify-between">
-                            <Skeleton isLoading={isLoading} className="w-1/2 h-6">
-                                <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
-                            </Skeleton>
-                            {onSaveAgent && (
+            <Link
+                href={isDisabled ? "#" : `/agent-matches/${index}`}
+                className="block w-full h-full"
+            >
+                <div className="flex flex-col gap-4">
+                    <div className="flex justify-between">
+                        <Skeleton isLoading={isLoading} className="w-1/2 h-6">
+                            <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
+                        </Skeleton>
+                        {
+                            onSaveAgent && (
                                 <div>
                                     {!isSubscribed ? (
                                         <TooltipComponent
@@ -130,23 +129,40 @@ export const AgentMatchCard = ({
                                             </div>)
                                     )}
                                 </div>
-                            )}
+                            )
+                        }
+                    </div>
+                    <Skeleton isLoading={isLoading} className="w-20 h-6">
+                        <div className="flex flex-col items-start gap-1 w-fit">
+                            <TooltipComponent
+                                className="text-left"
+                                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
+                            >
+                                <label className="text-sm font-semibold cursor-pointer">
+                                    Match Score:
+                                </label>
+                                <AnimatedScoreDisplay
+                                    score={agent.normalized_score}
+                                    isHovered={isHovered}
+                                />
+                            </TooltipComponent>
                         </div>
-                        <Skeleton isLoading={isLoading} className="w-20 h-6">
-                            <div className="flex flex-col items-start gap-1 w-fit">
-                                <TooltipComponent
-                                    className="text-left"
-                                    content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
-                                >
-                                    <label className="text-sm font-semibold cursor-pointer">
-                                        Match Score:
-                                    </label>
-                                    <AnimatedScoreDisplay
-                                        score={agent.normalized_score}
-                                        isHovered={isHovered}
-                                    />
-                                </TooltipComponent>
-                            </div>
+                    </Skeleton>
+                    <Skeleton isLoading={isLoading} className="w-1/2 h-6">
+                        {agent.status && agent.status !== "closed" ? (
+                            <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+                                Open to Submissions
+                            </span>
+                        ) : null}
+                    </Skeleton>
+                    <div className="flex flex-col gap-1">
+                        <label className="text-sm font-semibold cursor-pointer">
+                            Agency:
+                        </label>
+                        <Skeleton isLoading={isLoading} className="h-6 w-full">
+                            <p className="text-sm">
+                                {agent.agency ? agent.agency : "Info Unavailable"}
+                            </p>
                         </Skeleton>
                     </div>
                     <div className="flex flex-col gap-1">
@@ -183,7 +199,7 @@ export const AgentMatchCard = ({
                     {dedupedGenreMatches.length > 0 ? (
                         <div className="flex flex-col gap-1">
                             <label className="text-sm font-semibold cursor-pointer">
-                                Agency:
+                                Matching Genres:
                             </label>
                             <Skeleton isLoading={isLoading} className="h-[60px] w-full">
                                 <div className="flex flex-wrap gap-1">
@@ -260,30 +276,13 @@ export const AgentMatchCard = ({
                                                 formatDisplayString(agent.favorites)
                                             )
                                             : "Info Unavailable"}
-                                    </div>
+                                    </p>
                                 </Skeleton>
                             </div>
-                        ) : (
-                            agent.favorites && (
-                                <div className="flex flex-col gap-1">
-                                    <label className="text-sm font-semibold cursor-pointer">
-                                        Favorites:
-                                    </label>
-                                    <Skeleton isLoading={isLoading} className="h-[60px] w-full">
-                                        <p className="text-sm line-clamp-3">
-                                            {agent.favorites
-                                                ? capitalizeFirstCharacter(
-                                                    formatDisplayString(agent.favorites),
-                                                )
-                                                : "Info Unavailable"}
-                                        </p>
-                                    </Skeleton>
-                                </div>
-                            )
-                        )}
-                    </div>
-                </Link>
-            </div>
+                        )
+                    )}
+                </div>
+            </Link>
         </div>
     );
 };

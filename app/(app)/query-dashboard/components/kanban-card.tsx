@@ -5,6 +5,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
 import { StarRating } from "@/app/components/star-rating";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
+import { SquarePen } from "lucide-react";
 
 // Fit Rating types and configuration
 export type FitRating = "perfect" | "great" | "good" | "neutral";
@@ -23,7 +24,7 @@ export function getFitRatingFromScore(score: number | null | undefined): FitRati
   if (score == null) return "neutral";
   if (score >= 4) return "perfect";
   if (score >= 3) return "great";
-  if (score > 2) return "good";
+  if (score > 2.5) return "good";
   return "neutral";
 }
 
@@ -90,14 +91,17 @@ export function KanbanCard({
   const cardContent = (
     <>
       {/* Agent Name */}
-      <p className="text-sm font-semibold text-gray-900 truncate capitalize">{card.name}</p>
+      <div className="flex items-center justify-between">
+        <p className="text-sm font-semibold text-gray-900 truncate capitalize">{card.name}</p>
+        <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+      </div>
 
       {/* Agency Name */}
       {card.agency && (
         <p className="text-xs text-gray-500 truncate mt-0.5">{card.agency}</p>
       )}
 
-      {/* Prep Query Letter Checkbox */}
+      {/* Query Letter Ready Checkbox */}
       <div className="flex items-center gap-2 mt-2">
         <Checkbox
           id={`prep-query-${card.id}`}
@@ -111,16 +115,16 @@ export function KanbanCard({
           className="text-xs text-gray-600 cursor-pointer"
           onClick={handleCheckboxChange}
         >
-          Prep Query Letter
+          Query Letter Ready
         </label>
       </div>
 
       {/* Match Score */}
-      {card.match_score != null && (
+      {/* {card.match_score != null && (
         <div className="mt-2">
           <StarRating rateNum={card.match_score} />
         </div>
-      )}
+      )} */}
 
       {/* Fit Rating Pill */}
       <div className="mt-2">
@@ -150,7 +154,7 @@ export function KanbanCard({
       {...listeners}
       onClick={handleCardClick}
       className={cn(
-        "bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow duration-200 cursor-grab active:cursor-grabbing",
+        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 cursor-grab active:cursor-grabbing transition-all duration-300",
         isDragging && "opacity-50 shadow-lg"
       )}
     >

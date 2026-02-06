@@ -101,7 +101,7 @@ export const AgentMatchesInner = ({
                 </div>
               </Button>
             </a>
-            <ExplanationBlock />
+            {/* <ExplanationBlock /> */}
           </div>
         </div>
         <div
