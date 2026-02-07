@@ -324,7 +324,7 @@ export function KanbanMobile() {
         {/* Swipeable columns container */}
         <div
           ref={containerRef}
-          className="overflow-x-hidden overflow-y-scroll flex-1"
+          className="overflow-hidden flex-1"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
@@ -349,6 +349,7 @@ export function KanbanMobile() {
                   onCardClick={handleCardClick}
                   onTogglePrepQuery={handleTogglePrepQuery}
                   className="w-full min-w-0 h-full"
+                  useDragHandle
                 />
               </div>
             ))}
