@@ -164,3 +164,7 @@
 .scrollbar-transparent::-webkit-scrollbar-thumb:hover {
   background-color: oklch(0.38 0.05 202.74 / 0.5);
 }
+
+.query-dashboard-overflow-hidden {
+  overflow-y: hidden;
+}
