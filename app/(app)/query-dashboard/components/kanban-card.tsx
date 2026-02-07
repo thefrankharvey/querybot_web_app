@@ -4,7 +4,7 @@ import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
-import { SquarePen } from "lucide-react";
+import { SquarePen, Grip } from "lucide-react";
 
 // Fit Rating types and configuration
 export type FitRating = "perfect" | "great" | "good" | "neutral";
@@ -49,6 +49,8 @@ interface KanbanCardProps {
   isDragOverlay?: boolean;
   onCardClick?: (card: KanbanCardData) => void;
   onTogglePrepQuery?: (cardId: string) => void;
+  /** When true, only the grip handle is draggable (enables scroll on card body). Used on mobile. */
+  useDragHandle?: boolean;
 }
 
 export function KanbanCard({
@@ -56,6 +58,7 @@ export function KanbanCard({
   isDragOverlay = false,
   onCardClick,
   onTogglePrepQuery,
+  useDragHandle = false,
 }: KanbanCardProps) {
   const {
     attributes,
@@ -75,7 +78,8 @@ export function KanbanCard({
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
-    touchAction: "none" as const, // Required for dnd-kit touch support on mobile
+    // Only block touch on card root when not using drag handle (desktop)
+    ...(useDragHandle ? {} : { touchAction: "none" as const }),
   };
 
   const handleCheckboxChange = (e: React.MouseEvent) => {
@@ -93,7 +97,19 @@ export function KanbanCard({
       {/* Agent Name */}
       <div className="flex items-center justify-between">
         <p className="text-sm font-semibold text-gray-900 truncate capitalize">{card.name}</p>
-        <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+        {useDragHandle ? (
+          <div
+            {...attributes}
+            {...listeners}
+            className="touch-none cursor-grab active:cursor-grabbing p-1 -m-1"
+            style={{ touchAction: "none" }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Grip className="w-6 h-6 opacity-70" />
+          </div>
+        ) : (
+          <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+        )}
       </div>
 
       {/* Agency Name */}
@@ -150,11 +166,11 @@ export function KanbanCard({
     <div
       ref={setNodeRef}
       style={style}
-      {...attributes}
-      {...listeners}
+      {...(useDragHandle ? {} : { ...attributes, ...listeners })}
       onClick={handleCardClick}
       className={cn(
-        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 cursor-grab active:cursor-grabbing transition-all duration-300",
+        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 transition-all duration-300",
+        !useDragHandle && "cursor-grab active:cursor-grabbing",
         isDragging && "opacity-50 shadow-lg"
       )}
     >
