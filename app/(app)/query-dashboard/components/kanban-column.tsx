@@ -23,6 +23,8 @@ interface KanbanColumnProps {
   className?: string;
   /** When true, cards use a grip handle for dragging (enables scroll on mobile) */
   useDragHandle?: boolean;
+  /** When true, column droppable is disabled (ignored during drag). Used on mobile to prevent drops on peek columns. */
+  droppableDisabled?: boolean;
 }
 
 export function KanbanColumn({
@@ -32,6 +34,7 @@ export function KanbanColumn({
   onTogglePrepQuery,
   className,
   useDragHandle = false,
+  droppableDisabled = false,
 }: KanbanColumnProps) {
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
@@ -42,6 +45,7 @@ export function KanbanColumn({
       type: "column",
       column,
     },
+    disabled: droppableDisabled,
   });
 
   const filteredCards = cards.filter((card) => {
