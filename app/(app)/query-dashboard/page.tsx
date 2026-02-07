@@ -4,8 +4,8 @@ import { KanbanMobile } from "./components/kanban-mobile";
 
 export default function QueryDashboardPage() {
     return (
-        <div className="py-6">
-            <h1 className="text-4xl md:text-[32px] font-semibold leading-tight ml-4 flex items-center gap-4 text-accent">
+        <div className="md:py-6 py-0">
+            <h1 className="text-xl md:text-[32px] font-semibold leading-tight ml-4 mb-4 flex items-center gap-4 text-accent">
                 <LayoutDashboard className="w-10 h-10" />
                 Query Dashboard
             </h1>
