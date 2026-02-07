@@ -7,7 +7,9 @@ import {
   DragStartEvent,
   DragOverEvent,
   DragEndEvent,
-  closestCenter,
+  DragMoveEvent,
+  pointerWithin,
+  MeasuringStrategy,
   MouseSensor,
   TouchSensor,
   useSensor,
@@ -51,6 +53,10 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
 
 // Swipe threshold for changing columns
 const SWIPE_THRESHOLD = 50;
+// How close to viewport edge a dragged card must be to trigger auto-slide
+const DRAG_EDGE_THRESHOLD = 60;
+// Minimum ms between auto-slide column changes during drag
+const DRAG_SLIDE_COOLDOWN = 3500;
 
 export function KanbanMobile() {
   const { agentsList, isLoading } = useProfileContext();
@@ -58,6 +64,7 @@ export function KanbanMobile() {
   const containerRef = useRef<HTMLDivElement>(null);
   const touchStartXRef = useRef<number>(0);
   const touchStartYRef = useRef<number>(0);
+  const lastColumnChangeRef = useRef<number>(0);
 
   const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [activeCard, setActiveCard] = useState<KanbanCardData | null>(null);
@@ -196,6 +203,7 @@ export function KanbanMobile() {
 
     setActiveCard(null);
     setIsDraggingCard(false);
+    lastColumnChangeRef.current = 0; // Reset cooldown for next drag session
 
     if (!over) return;
 
@@ -223,6 +231,44 @@ export function KanbanMobile() {
 
         return [...otherCards, ...reorderedColumnCards];
       });
+    }
+  };
+
+  // Auto-slide carousel when a dragged card reaches the edge of the viewport
+  const handleDragMove = (event: DragMoveEvent) => {
+    const translatedRect = event.active.rect.current.translated;
+    if (!translatedRect) return;
+
+    const now = Date.now();
+    if (now - lastColumnChangeRef.current < DRAG_SLIDE_COOLDOWN) return;
+
+    const viewportWidth = window.innerWidth;
+    const activeId = event.active.id as string;
+
+    if (
+      translatedRect.right > viewportWidth - DRAG_EDGE_THRESHOLD &&
+      currentColumnIndex < COLUMNS.length - 1
+    ) {
+      lastColumnChangeRef.current = now;
+      const targetColumnId = COLUMNS[currentColumnIndex + 1].id;
+      setCurrentColumnIndex((prev) => prev + 1);
+      setCards((prevCards) =>
+        prevCards.map((card) =>
+          card.id === activeId ? { ...card, columnId: targetColumnId } : card
+        )
+      );
+    } else if (
+      translatedRect.left < DRAG_EDGE_THRESHOLD &&
+      currentColumnIndex > 0
+    ) {
+      lastColumnChangeRef.current = now;
+      const targetColumnId = COLUMNS[currentColumnIndex - 1].id;
+      setCurrentColumnIndex((prev) => prev - 1);
+      setCards((prevCards) =>
+        prevCards.map((card) =>
+          card.id === activeId ? { ...card, columnId: targetColumnId } : card
+        )
+      );
     }
   };
 
@@ -263,8 +309,14 @@ export function KanbanMobile() {
     <div className="flex flex-col h-[calc(100vh-180px)] overflow-hidden">
       <DndContext
         sensors={sensors}
-        collisionDetection={closestCenter}
+        collisionDetection={pointerWithin}
+        measuring={{
+          droppable: {
+            strategy: MeasuringStrategy.Always,
+          },
+        }}
         onDragStart={handleDragStart}
+        onDragMove={handleDragMove}
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
       >
@@ -281,7 +333,7 @@ export function KanbanMobile() {
               gap: COLUMN_GAP,
               paddingLeft: PEEK_WIDTH,
               transform: `translateX(calc(${-currentColumnIndex} * (100vw - ${PEEK_WIDTH * 2}px)))`,
-              transition: "transform 0.3s ease-out",
+              transition: isDraggingCard ? "none" : "transform 0.3s ease-out",
             }}
           >
             {COLUMNS.map((column) => (
