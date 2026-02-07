@@ -1,5 +1,6 @@
 import { LayoutDashboard } from "lucide-react";
 import { KanbanBoard } from "./components/kanban-board";
+import { KanbanMobile } from "./components/kanban-mobile";
 
 export default function QueryDashboardPage() {
     return (
@@ -8,7 +9,14 @@ export default function QueryDashboardPage() {
                 <LayoutDashboard className="w-10 h-10" />
                 Query Dashboard
             </h1>
-            <KanbanBoard />
+            {/* Desktop view */}
+            <div className="hidden md:block">
+                <KanbanBoard />
+            </div>
+            {/* Mobile view */}
+            <div className="md:hidden">
+                <KanbanMobile />
+            </div>
         </div>
     );
 }
