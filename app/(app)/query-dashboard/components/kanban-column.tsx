@@ -21,6 +21,8 @@ interface KanbanColumnProps {
   onCardClick?: (card: KanbanCardData) => void;
   onTogglePrepQuery?: (cardId: string) => void;
   className?: string;
+  /** When true, cards use a grip handle for dragging (enables scroll on mobile) */
+  useDragHandle?: boolean;
 }
 
 export function KanbanColumn({
@@ -29,6 +31,7 @@ export function KanbanColumn({
   onCardClick,
   onTogglePrepQuery,
   className,
+  useDragHandle = false,
 }: KanbanColumnProps) {
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
@@ -83,6 +86,7 @@ export function KanbanColumn({
               card={card}
               onCardClick={onCardClick}
               onTogglePrepQuery={onTogglePrepQuery}
+              useDragHandle={useDragHandle}
             />
           ))}
         </SortableContext>
