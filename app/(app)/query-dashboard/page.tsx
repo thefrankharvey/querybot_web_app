@@ -1,17 +1,9 @@
-"use client";
-
-import { useEffect } from "react";
 import { LayoutDashboard } from "lucide-react";
 import { KanbanBoard } from "./components/kanban-board";
 import { KanbanMobile } from "./components/kanban-mobile";
 
 
 export default function QueryDashboardPage() {
-
-    useEffect(() => {
-        document.body.classList.add("query-dashboard-overflow-hidden");
-        return () => document.body.classList.remove("query-dashboard-overflow-hidden");
-    }, []);
 
     return (
         <div className="md:py-6 py-0">

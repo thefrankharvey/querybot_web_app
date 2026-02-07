@@ -324,7 +324,7 @@ export function KanbanMobile() {
         {/* Swipeable columns container */}
         <div
           ref={containerRef}
-          className="overflow-hidden flex-1"
+          className="overflow-x-hidden overflow-y-scroll flex-1"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
