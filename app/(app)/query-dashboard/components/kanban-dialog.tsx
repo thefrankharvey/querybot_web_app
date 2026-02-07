@@ -48,7 +48,7 @@ export function KanbanDialog({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-xl bg-white">
+      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-xl bg-white max-sm:w-[calc(100vw-16px)] max-sm:max-w-none max-sm:rounded-lg">
         {/* Header Section */}
         <DialogHeader>
           <div className="flex gap-2 justify-between mt-6">

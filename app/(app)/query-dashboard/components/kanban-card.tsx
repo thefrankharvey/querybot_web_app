@@ -76,6 +76,7 @@ export function KanbanCard({
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
+    touchAction: "none" as const, // Required for dnd-kit touch support on mobile
   };
 
   const handleCheckboxChange = (e: React.MouseEvent) => {
