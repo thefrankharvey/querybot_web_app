@@ -33,7 +33,7 @@ export function KanbanColumn({
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
 
-  const { setNodeRef, isOver } = useDroppable({
+  const { setNodeRef } = useDroppable({
     id: column.id,
     data: {
       type: "column",
