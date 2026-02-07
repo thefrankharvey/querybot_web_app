@@ -56,7 +56,9 @@ const SWIPE_THRESHOLD = 50;
 // How close to viewport edge a dragged card must be to trigger auto-slide
 const DRAG_EDGE_THRESHOLD = 60;
 // Minimum ms between auto-slide column changes during drag
-const DRAG_SLIDE_COOLDOWN = 3500;
+const DRAG_SLIDE_COOLDOWN = 1000;
+// Delay after drag start before edge-slide can trigger (prevents accidental left-edge when card starts near edge)
+const DRAG_EDGE_GRACE_PERIOD = 220;
 
 export function KanbanMobile() {
   const { agentsList, isLoading } = useProfileContext();
@@ -65,6 +67,7 @@ export function KanbanMobile() {
   const touchStartXRef = useRef<number>(0);
   const touchStartYRef = useRef<number>(0);
   const lastColumnChangeRef = useRef<number>(0);
+  const dragStartTimeRef = useRef<number>(0);
 
   const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [activeCard, setActiveCard] = useState<KanbanCardData | null>(null);
@@ -166,6 +169,7 @@ export function KanbanMobile() {
     const { active } = event;
     const card = cards.find((c) => c.id === active.id);
     if (card) {
+      dragStartTimeRef.current = Date.now();
       setActiveCard(card);
       setIsDraggingCard(true);
     }
@@ -248,6 +252,7 @@ export function KanbanMobile() {
     if (!translatedRect) return;
 
     const now = Date.now();
+    if (now - dragStartTimeRef.current < DRAG_EDGE_GRACE_PERIOD) return;
     if (now - lastColumnChangeRef.current < DRAG_SLIDE_COOLDOWN) return;
 
     const viewportWidth = window.innerWidth;
