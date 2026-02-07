@@ -70,7 +70,7 @@ export function KanbanColumn({
       <div
         ref={setNodeRef}
         className={cn(
-          "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg h-[calc(100vh-300px)] overflow-y-auto scrollbar-transparent",
+          "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg h-[calc(100vh-300px)] overflow-y-auto md:scrollbar-transparent",
         )}
       >
         <SortableContext
