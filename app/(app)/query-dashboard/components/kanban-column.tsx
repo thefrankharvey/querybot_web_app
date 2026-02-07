@@ -20,6 +20,7 @@ interface KanbanColumnProps {
   cards: KanbanCardData[];
   onCardClick?: (card: KanbanCardData) => void;
   onTogglePrepQuery?: (cardId: string) => void;
+  className?: string;
 }
 
 export function KanbanColumn({
@@ -27,6 +28,7 @@ export function KanbanColumn({
   cards,
   onCardClick,
   onTogglePrepQuery,
+  className,
 }: KanbanColumnProps) {
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
@@ -50,7 +52,7 @@ export function KanbanColumn({
   });
 
   return (
-    <div className="flex flex-col w-[272px] min-w-[272px]">
+    <div className={cn("flex flex-col w-[272px] min-w-[272px]", className)}>
       {/* Column Header - Fixed, centered title */}
       <div className="text-base bg-accent/10 rounded-lg px-4 font-medium text-accent py-3 flex items-center justify-between gap-2 mb-4">
         <h2 className="text-left">
