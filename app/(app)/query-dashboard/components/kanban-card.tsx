@@ -3,7 +3,6 @@
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
-import { StarRating } from "@/app/components/star-rating";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
 import { SquarePen } from "lucide-react";
 
