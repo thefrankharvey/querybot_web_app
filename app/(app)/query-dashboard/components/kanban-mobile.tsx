@@ -305,6 +305,7 @@ export function KanbanMobile() {
   // Column takes full width minus padding on both sides (for peek effect)
   const columnWidth = `calc(100vw - ${PEEK_WIDTH * 2}px - ${COLUMN_GAP}px)`;
 
+
   return (
     <div className="flex flex-col h-[calc(100vh-180px)] overflow-hidden">
       <DndContext
@@ -331,9 +332,9 @@ export function KanbanMobile() {
             className="flex h-full"
             style={{
               gap: COLUMN_GAP,
-              paddingLeft: PEEK_WIDTH,
+              paddingLeft: currentColumnIndex !== 0 ? PEEK_WIDTH : 0,
               transform: `translateX(calc(${-currentColumnIndex} * (100vw - ${PEEK_WIDTH * 2}px)))`,
-              transition: isDraggingCard ? "none" : "transform 0.3s ease-out",
+              transition: "transform 0.3s ease-out",
             }}
           >
             {COLUMNS.map((column) => (
