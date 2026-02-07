@@ -10,6 +10,10 @@ import { usePathname } from "next/navigation";
 const Footer = () => {
   const pathname = usePathname();
 
+  if (pathname.includes("query-dashboard")) {
+    return null;
+  }
+
   return (
     <div
       id="footer"
