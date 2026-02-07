@@ -187,6 +187,10 @@ export function KanbanMobile() {
       return;
     }
 
+    // Only allow moves to the current column. Cross-column moves happen via handleDragMove (edge-slide).
+    const currentColumnId = COLUMNS[currentColumnIndex].id;
+    if (overColumnId !== currentColumnId) return;
+
     // Move card to new column
     setCards((prevCards) => {
       return prevCards.map((card) => {
@@ -217,6 +221,10 @@ export function KanbanMobile() {
     const overColumnId = isOverColumn ? overId : findColumnByCardId(overId);
 
     if (!activeColumnId || !overColumnId) return;
+
+    // Only process drops on the current column. Columns never reorder.
+    const currentColumnId = COLUMNS[currentColumnIndex].id;
+    if (overColumnId !== currentColumnId && activeColumnId !== currentColumnId) return;
 
     // If in the same column, reorder
     if (activeColumnId === overColumnId && !isOverColumn) {
@@ -337,11 +345,11 @@ export function KanbanMobile() {
               transition: "transform 0.3s ease-out",
             }}
           >
-            {COLUMNS.map((column) => (
+            {COLUMNS.map((column, index) => (
               <div
                 key={column.id}
                 className="flex-shrink-0 h-full"
-                style={{ width: columnWidth }}
+                style={{ width: columnWidth, order: index }}
               >
                 <KanbanColumn
                   column={column}
@@ -350,6 +358,7 @@ export function KanbanMobile() {
                   onTogglePrepQuery={handleTogglePrepQuery}
                   className="w-full min-w-0 h-full"
                   useDragHandle
+                  droppableDisabled={Math.abs(index - currentColumnIndex) > 1}
                 />
               </div>
             ))}
