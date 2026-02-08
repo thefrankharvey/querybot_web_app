@@ -51,17 +51,17 @@ export function KanbanDialog({
       <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-xl bg-white max-sm:w-[calc(100vw-16px)] max-sm:max-w-none max-sm:rounded-lg">
         {/* Header Section */}
         <DialogHeader>
-          <div className="flex gap-2 justify-between mt-6">
+          <div className="flex md:flex-row flex-col gap-6 justify-between mt-6">
             <div className="flex flex-col gap-1">
               <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
-              <DialogDescription className="text-base">
+              <DialogDescription className="text-sm">
                 {card.agency}
               </DialogDescription>
             </div>
             {/* Match Score Section */}
             {card.match_score != null && (
-              <div className="flex flex-col gap-1">
-                <label className="text-sm text-right font-semibold text-gray-700">
+              <div className="flex flex-col md:items-end items-start gap-1">
+                <label className="text-sm font-semibold text-gray-700">
                   Match Score
                 </label>
                 <div className="flex items-center gap-2">
@@ -76,7 +76,7 @@ export function KanbanDialog({
         </DialogHeader>
 
         <div className="flex flex-col gap-6">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-col gap-6">
             {/* Fit Rating Section */}
             <div className="flex flex-col gap-1">
               <label className="text-sm font-semibold text-gray-700">
@@ -108,10 +108,10 @@ export function KanbanDialog({
             </div>
 
             {/* Query Letter Ready Checkbox */}
-            <div className="flex items-start gap-3" onClick={() => onTogglePrepQuery(card.id)}>
+            <div className="flex items-start gap-2" onClick={() => onTogglePrepQuery(card.id)}>
               <Checkbox
                 id="prep-query-checkbox"
-                className="data-[state=checked]:bg-blue-accent data-[state=checked]:border-blue-accent data-[state=checked]:text-white cursor-pointer"
+                className="data-[state=checked]:bg-blue-accent data-[state=checked]:border-blue-accent data-[state=checked]:text-white cursor-pointer h-5 w-5"
                 checked={card.prepQueryLetterDone}
                 onCheckedChange={() => onTogglePrepQuery(card.id)}
               />

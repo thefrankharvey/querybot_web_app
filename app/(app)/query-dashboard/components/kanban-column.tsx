@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import { useDroppable } from "@dnd-kit/core";
 import {
   SortableContext,
@@ -27,6 +27,27 @@ interface KanbanColumnProps {
   droppableDisabled?: boolean;
 }
 
+function useHasScrollbar(
+  ref: React.RefObject<HTMLDivElement | null>,
+  contentKey: unknown,
+) {
+  const [hasScrollbar, setHasScrollbar] = useState(false);
+
+  const check = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    setHasScrollbar(el.scrollHeight > el.clientHeight);
+  }, [ref]);
+
+  useEffect(() => {
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, [check, contentKey]);
+
+  return hasScrollbar;
+}
+
 export function KanbanColumn({
   column,
   cards,
@@ -48,6 +69,15 @@ export function KanbanColumn({
     disabled: droppableDisabled,
   });
 
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const mergedRef = useCallback(
+    (node: HTMLDivElement | null) => {
+      setNodeRef(node);
+      (scrollRef as React.MutableRefObject<HTMLDivElement | null>).current = node;
+    },
+    [setNodeRef],
+  );
+
   const filteredCards = cards.filter((card) => {
     const matchesFitRating =
       fitRatingFilter === "all" || card.fitRating === fitRatingFilter;
@@ -57,6 +87,8 @@ export function KanbanColumn({
       (prepQueryLetterFilter === "not_done" && !card.prepQueryLetterDone);
     return matchesFitRating && matchesPrepQuery;
   });
+
+  const hasScrollbar = useHasScrollbar(scrollRef, filteredCards);
 
   return (
     <div className={cn("flex flex-col w-[272px] min-w-[272px]", className)}>
@@ -75,9 +107,10 @@ export function KanbanColumn({
 
       {/* Column Content - Scrollable area for cards */}
       <div
-        ref={setNodeRef}
+        ref={mergedRef}
         className={cn(
           "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg h-[calc(100vh-300px)] overflow-y-auto md:scrollbar-transparent",
+          hasScrollbar && "md:pr-0",
         )}
       >
         <SortableContext
