@@ -56,7 +56,7 @@ const SWIPE_THRESHOLD = 50;
 // How close to viewport edge a dragged card must be to trigger auto-slide
 const DRAG_EDGE_THRESHOLD = 60;
 // Minimum ms between auto-slide column changes during drag
-const DRAG_SLIDE_COOLDOWN = 1000;
+const DRAG_SLIDE_COOLDOWN = 2000;
 // Delay after drag start before edge-slide can trigger (prevents accidental left-edge when card starts near edge)
 const DRAG_EDGE_GRACE_PERIOD = 220;
 

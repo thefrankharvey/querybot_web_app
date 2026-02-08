@@ -145,7 +145,6 @@
 /* Custom scrollbar with transparent track */
 .scrollbar-transparent {
   scrollbar-color: oklch(0.38 0.05 202.74 / 0.3) transparent;
-  padding-right: 2px;
 }
 
 .scrollbar-transparent::-webkit-scrollbar {

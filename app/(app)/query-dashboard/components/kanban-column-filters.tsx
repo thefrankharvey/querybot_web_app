@@ -34,7 +34,7 @@ export function KanbanColumnFilters({
     <Popover>
       <PopoverTrigger asChild>
         <button className="p-1 hover:bg-accent/20 rounded">
-          <Ellipsis className="w-4 h-4" />
+          <Ellipsis className="w-6 h-6" />
         </button>
       </PopoverTrigger>
       <PopoverContent align="end" className="w-56">

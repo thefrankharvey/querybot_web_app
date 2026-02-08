@@ -111,7 +111,7 @@ export function KanbanCard({
             <Grip className="w-6 h-6 opacity-70" />
           </div>
         ) : (
-          <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+          <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-accent" />
         )}
       </div>
 
@@ -121,7 +121,7 @@ export function KanbanCard({
       )}
 
       {/* Query Letter Ready Checkbox */}
-      <div className="flex items-center gap-2 mt-2">
+      <div className="flex items-center gap-1 mt-3 mb-3">
         <Checkbox
           id={`prep-query-${card.id}`}
           checked={card.prepQueryLetterDone}
