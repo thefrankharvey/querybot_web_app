@@ -16,7 +16,7 @@ export default function QueryDashboardPage() {
                 <KanbanBoard />
             </div>
             {/* Mobile view */}
-            <div className="md:hidden flex flex-col overflow-hidden h-[calc(100dvh-110px)]">
+            <div className="md:hidden flex flex-col overflow-hidden h-[calc(100dvh-20px)] pl-4">
                 <KanbanMobile />
             </div>
         </div>
