@@ -230,7 +230,7 @@ export function KanbanBoard() {
 
         <DragOverlay>
           {activeCard ? (
-            <KanbanCard card={activeCard} isDragOverlay />
+            <KanbanCard card={activeCard} isDragOverlay dragOverlayWidth="256px" />
           ) : null}
         </DragOverlay>
       </DndContext>

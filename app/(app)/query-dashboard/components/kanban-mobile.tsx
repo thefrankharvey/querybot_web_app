@@ -313,7 +313,7 @@ export function KanbanMobile() {
   };
 
   // Calculate column width and position
-  const COLUMN_GAP = 16;
+  const COLUMN_GAP = 8;
   const PEEK_WIDTH = 24;
   // Column takes full width minus padding on both sides (for peek effect)
   const columnWidth = `calc(100vw - ${PEEK_WIDTH * 2}px - ${COLUMN_GAP}px)`;
@@ -345,7 +345,9 @@ export function KanbanMobile() {
             className="flex h-full"
             style={{
               gap: COLUMN_GAP,
-              paddingLeft: currentColumnIndex !== 0 ? PEEK_WIDTH : 0,
+              paddingLeft: 0,
+              paddingRight: 0,
+              // paddingLeft: currentColumnIndex !== 0 ? PEEK_WIDTH : 0,
               transform: `translateX(calc(${-currentColumnIndex} * (100vw - ${PEEK_WIDTH * 2}px)))`,
               transition: "transform 0.3s ease-out",
             }}
@@ -372,7 +374,7 @@ export function KanbanMobile() {
 
         <DragOverlay>
           {activeCard ? (
-            <KanbanCard card={activeCard} isDragOverlay />
+            <KanbanCard card={activeCard} isDragOverlay dragOverlayWidth={columnWidth} />
           ) : null}
         </DragOverlay>
       </DndContext>
