@@ -10,7 +10,7 @@ interface DotIndicatorsProps {
 
 export function DotIndicators({ total, current, onDotClick }: DotIndicatorsProps) {
   return (
-    <div className="flex justify-center items-center gap-2 py-4">
+    <div className="flex justify-center items-center gap-2 py-6">
       {Array.from({ length: total }).map((_, index) => (
         <button
           key={index}
