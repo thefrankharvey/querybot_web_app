@@ -85,14 +85,6 @@ export function KanbanMobile() {
     }
   }, [agentsList, isLoading, hasInitialized]);
 
-  // Lock body scroll when KanbanMobile is mounted (mobile view only)
-  useEffect(() => {
-    document.body.classList.add("query-dashboard-overflow-hidden");
-    return () => {
-      document.body.classList.remove("query-dashboard-overflow-hidden");
-    };
-  }, []);
-
   // Configure sensors for drag-and-drop with touch support
   // MouseSensor (not PointerSensor) so it only fires for actual mouse events on desktop.
   // On mobile, only TouchSensor activates — no race condition with pointer events.
