@@ -313,14 +313,19 @@ export function KanbanMobile() {
   };
 
   // Calculate column width and position
-  const COLUMN_GAP = 8;
+  const COLUMN_GAP = 16;
   const PEEK_WIDTH = 24;
   // Column takes full width minus padding on both sides (for peek effect)
   const columnWidth = `calc(100vw - ${PEEK_WIDTH * 2}px - ${COLUMN_GAP}px)`;
 
+  // When on last column, add offset to reclaim right-side reserved space (no next column to peek)
+  const lastColumnOffset =
+    currentColumnIndex === COLUMNS.length - 1
+      ? COLUMN_GAP
+      : 0;
 
   return (
-    <div className="flex flex-col h-[calc(100dvh-110px)] overflow-hidden">
+    <div className="flex flex-col h-[calc(100dvh-20px)] overflow-hidden">
       <DndContext
         sensors={sensors}
         collisionDetection={pointerWithin}
@@ -348,7 +353,7 @@ export function KanbanMobile() {
               paddingLeft: 0,
               paddingRight: 0,
               // paddingLeft: currentColumnIndex !== 0 ? PEEK_WIDTH : 0,
-              transform: `translateX(calc(${-currentColumnIndex} * (100vw - ${PEEK_WIDTH * 2}px)))`,
+              transform: `translateX(calc(${-currentColumnIndex} * (100vw - ${PEEK_WIDTH * 2}px) + ${lastColumnOffset}px))`,
               transition: "transform 0.3s ease-out",
             }}
           >
