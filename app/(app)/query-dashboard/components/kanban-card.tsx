@@ -47,6 +47,8 @@ export interface KanbanCardData {
 interface KanbanCardProps {
   card: KanbanCardData;
   isDragOverlay?: boolean;
+  /** Width for the drag overlay (e.g. "256px" or "calc(100vw - 56px)"). Defaults to "248px". */
+  dragOverlayWidth?: string;
   onCardClick?: (card: KanbanCardData) => void;
   onTogglePrepQuery?: (cardId: string) => void;
   /** When true, only the grip handle is draggable (enables scroll on card body). Used on mobile. */
@@ -56,6 +58,7 @@ interface KanbanCardProps {
 export function KanbanCard({
   card,
   isDragOverlay = false,
+  dragOverlayWidth,
   onCardClick,
   onTogglePrepQuery,
   useDragHandle = false,
@@ -156,7 +159,10 @@ export function KanbanCard({
 
   if (isDragOverlay) {
     return (
-      <div className="bg-white rounded-lg p-3 shadow-lg cursor-grabbing w-[248px]">
+      <div
+        className="bg-white rounded-lg p-3 shadow-lg cursor-grabbing"
+        style={{ width: dragOverlayWidth ?? "248px" }}
+      >
         {cardContent}
       </div>
     );
