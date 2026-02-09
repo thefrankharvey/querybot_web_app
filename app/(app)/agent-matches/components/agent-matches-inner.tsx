@@ -79,7 +79,7 @@ export const AgentMatchesInner = ({
                 className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
               >
                 <div className="flex items-center gap-2">
-                  {isSavingAll ? <Spinner className="w-4 h-4" /> : <Save className="w-4 h-4" />}
+                  {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Save className="w-4 h-4 text-white" />}
                   <span>Save All Agents</span>
                 </div>
               </Button>
@@ -98,7 +98,7 @@ export const AgentMatchesInner = ({
                 className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
               >
                 <div className="flex items-center gap-2">
-                  {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4" /> : <ExternalLink className="w-4 h-4" />}
+                  {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4 text-white" /> : <ExternalLink className="w-4 h-4 text-white" />}
                   <span>Query Spreadsheet</span>
                 </div>
               </Button>

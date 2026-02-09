@@ -16,6 +16,7 @@ import { arrayMove } from "@dnd-kit/sortable";
 import { KanbanColumn, ColumnData } from "./kanban-column";
 import { KanbanCard, KanbanCardData, FitRating, getFitRatingFromScore } from "./kanban-card";
 import { KanbanDialog } from "./kanban-dialog";
+import { sortFirstColumnByNewest } from "./kanban-ordering";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -33,6 +34,7 @@ const COLUMNS: ColumnData[] = [
 function mapAgentToCard(agent: AgentMatch): KanbanCardData {
   return {
     id: agent.id,
+    created_at: agent.created_at,
     name: agent.name,
     email: agent.email,
     agency: agent.agency,
@@ -54,16 +56,36 @@ export function KanbanBoard() {
   const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [activeCard, setActiveCard] = useState<KanbanCardData | null>(null);
   const [selectedCard, setSelectedCard] = useState<KanbanCardData | null>(null);
-  const [hasInitialized, setHasInitialized] = useState(false);
 
-  // Initialize cards from agentsList when data is available
+  // Sync cards from agentsList updates while preserving local card state for existing cards.
   useEffect(() => {
-    if (!isLoading && agentsList && !hasInitialized) {
-      const mappedCards = agentsList.map(mapAgentToCard);
-      setCards(mappedCards);
-      setHasInitialized(true);
+    if (!isLoading && agentsList) {
+      setCards((prevCards) => {
+        const prevById = new Map(prevCards.map((card) => [card.id, card]));
+        const mergedFromAgents = agentsList.map((agent) => {
+          const prevCard = prevById.get(agent.id);
+          const mappedCard = mapAgentToCard(agent);
+          if (!prevCard) return mappedCard;
+
+          return {
+            ...mappedCard,
+            columnId: prevCard.columnId,
+            prepQueryLetterDone: prevCard.prepQueryLetterDone,
+            fitRating: prevCard.fitRating,
+          };
+        });
+
+        const mergedById = new Map(mergedFromAgents.map((card) => [card.id, card]));
+        const existingCardsInCurrentOrder = prevCards
+          .map((card) => mergedById.get(card.id))
+          .filter((card): card is KanbanCardData => Boolean(card));
+        const existingIds = new Set(existingCardsInCurrentOrder.map((card) => card.id));
+        const newlyAddedCards = mergedFromAgents.filter((card) => !existingIds.has(card.id));
+
+        return sortFirstColumnByNewest([...newlyAddedCards, ...existingCardsInCurrentOrder]);
+      });
     }
-  }, [agentsList, isLoading, hasInitialized]);
+  }, [agentsList, isLoading]);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -123,6 +145,18 @@ export function KanbanBoard() {
     // Update selectedCard if it's the one being changed
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, fitRating: rating } : null));
+    }
+  };
+
+  const handleMoveCard = (cardId: string, columnId: string) => {
+    setCards((prevCards) =>
+      prevCards.map((card) =>
+        card.id === cardId ? { ...card, columnId } : card
+      )
+    );
+
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
     }
   };
 
@@ -238,10 +272,12 @@ export function KanbanBoard() {
       {/* Agent Detail Dialog */}
       <KanbanDialog
         card={selectedCard}
+        columns={COLUMNS}
         open={!!selectedCard}
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
+        onMoveCard={handleMoveCard}
       />
     </div>
   );

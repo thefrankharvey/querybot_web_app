@@ -110,7 +110,7 @@ const AgentProfile = () => {
             disabled={isSaving}
           >
             <div className="flex items-center gap-2">
-              {isSaving && <Spinner />}
+              {isSaving && <Spinner className="text-white" />}
               <span>Save Agent</span>
             </div>
           </Button>
