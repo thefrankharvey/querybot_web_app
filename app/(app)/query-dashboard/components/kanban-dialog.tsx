@@ -9,7 +9,6 @@ import {
   DialogDescription,
 } from "@/app/ui-primitives/dialog";
 import { Checkbox } from "@/app/ui-primitives/checkbox";
-import { Textarea } from "@/app/ui-primitives/textarea";
 import { ColumnData } from "./kanban-column";
 import {
   Select,
@@ -20,15 +19,12 @@ import {
 } from "@/app/ui-primitives/select";
 import { StarRating } from "@/app/components/star-rating";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
-import { ExternalLink, Trash } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { urlFormatter, formatEmail } from "@/app/utils";
 import { KanbanCardData, FitRating, FIT_RATING_CONFIG } from "./kanban-card";
 import { Button } from "@/app/ui-primitives/button";
 import { KanbanNotes } from "./kanban-notes";
-import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
-import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { Spinner } from "@/app/ui-primitives/spinner";
 import { KanbanDialogTools } from "./kanban-dialog-tools";
 
 interface KanbanDialogProps {

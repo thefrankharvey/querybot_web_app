@@ -1,6 +1,6 @@
 "use client";
 
-import { Ellipsis, Trash } from "lucide-react";
+import { Ellipsis } from "lucide-react";
 import {
   Popover,
   PopoverContent,
@@ -14,11 +14,7 @@ import {
   SelectValue,
 } from "@/app/ui-primitives/select";
 import { ColumnData } from "./kanban-column";
-import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
-import { useProfileContext } from "../../context/profile-context";
 import { KanbanCardData } from "./kanban-card";
-import { Button } from "@/app/ui-primitives/button";
-import { Spinner } from "@/app/ui-primitives/spinner";
 import { RemoveAgent } from "./remove-agent";
 
 interface KanbanDialogToolsProps {
