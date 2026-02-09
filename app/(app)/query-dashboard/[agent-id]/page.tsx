@@ -106,7 +106,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
           disabled={isDeleting}
         >
           <div className="flex items-center gap-2">
-            {isDeleting && <Spinner />}
+            {isDeleting && <Spinner className="text-white" />}
             <span>Delete Agent</span>
           </div>
         </Button>

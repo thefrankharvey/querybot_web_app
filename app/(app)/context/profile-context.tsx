@@ -53,7 +53,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         if (!oldData) return oldData;
         return {
           ...oldData,
-          agent_matches: [...oldData.agent_matches, agent],
+          agent_matches: [agent, ...oldData.agent_matches],
         };
       }
     );

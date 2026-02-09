@@ -14,7 +14,7 @@ export async function GET() {
     .from("agent_matches")
     .select("*")
     .eq("user_id", userId)
-    .order("created_at", { ascending: true });
+    .order("created_at", { ascending: false });
 
   if (error)
     return NextResponse.json({ error: error.message }, { status: 400 });

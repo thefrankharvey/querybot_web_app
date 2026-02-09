@@ -30,6 +30,7 @@ export function getFitRatingFromScore(score: number | null | undefined): FitRati
 export interface KanbanCardData {
   // From database
   id: string;
+  created_at?: string;
   name: string;
   email?: string | null;
   agency?: string | null;
@@ -148,7 +149,7 @@ export function KanbanCard({
       {/* Fit Rating Pill */}
       <div className="mt-2">
         <span
-          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-gray-800"
+          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white"
           style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
         >
           {FIT_RATING_CONFIG[card.fitRating].label}
