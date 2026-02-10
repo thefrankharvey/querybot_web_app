@@ -19,7 +19,6 @@ interface KanbanColumnProps {
   column: ColumnData;
   cards: KanbanCardData[];
   onCardClick?: (card: KanbanCardData) => void;
-  onTogglePrepQuery?: (cardId: string) => void;
   className?: string;
   /** When true, cards use a grip handle for dragging (enables scroll on mobile) */
   useDragHandle?: boolean;
@@ -52,7 +51,6 @@ export function KanbanColumn({
   column,
   cards,
   onCardClick,
-  onTogglePrepQuery,
   className,
   useDragHandle = false,
   droppableDisabled = false,
@@ -122,7 +120,6 @@ export function KanbanColumn({
               key={card.id}
               card={card}
               onCardClick={onCardClick}
-              onTogglePrepQuery={onTogglePrepQuery}
               useDragHandle={useDragHandle}
             />
           ))}

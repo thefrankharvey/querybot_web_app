@@ -60,7 +60,7 @@ export const KanbanNotes = ({
             {!notes && !notesActive && (
                 <div
                     onClick={() => setNotesActive(true)}
-                    className="flex text-sm min-h-24 h-10 border border-accent/30 hover:border-accent/70 transition-all duration-300 rounded-md p-2 cursor-pointer"
+                    className="flex text-sm md:min-h-24 min-h-35 h-10 border border-accent/30 hover:border-accent/70 transition-all duration-300 rounded-md p-2 cursor-pointer"
                 >
                     Add notes about this agent...
                 </div>
@@ -68,7 +68,7 @@ export const KanbanNotes = ({
             {notes && !notesActive && (
                 <div
                     onClick={() => setNotesActive(true)}
-                    className="flex text-sm min-h-40 h-10 border border-accent/30 hover:border-accent/70 transition-all duration-300 rounded-md p-2 cursor-pointer md:max-w-[526px] max-w-[324px] wrap"
+                    className="flex text-sm md:min-h-24 min-h-35 h-10 border border-accent/30 hover:border-accent/70 transition-all duration-300 rounded-md p-2 cursor-pointer md:max-w-[526px] max-w-[324px] wrap"
                 >
                     {notes}
                 </div>
@@ -81,7 +81,7 @@ export const KanbanNotes = ({
                         placeholder="Add notes about this agent..."
                         value={notes}
                         onChange={(e) => setNotes(e.target.value)}
-                        className="md:min-h-24 min-h-40 min-w-0 [field-sizing:fixed] resize-none border border-accent/70 rounded-md p-2 text-sm md:max-w-[526px] max-w-[324px] wrap"
+                        className="md:min-h-24 min-h-35 min-w-0 [field-sizing:fixed] resize-none border border-accent/70 rounded-md p-2 text-sm md:max-w-[526px] max-w-[324px] wrap"
                     />
                     {notes.length >= 200 && (
                         <p className="text-red-500 text-sm">max characters reached</p>

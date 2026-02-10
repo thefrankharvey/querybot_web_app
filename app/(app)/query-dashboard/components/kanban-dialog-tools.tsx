@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { Ellipsis } from "lucide-react";
 import {
   Popover,
@@ -32,9 +33,18 @@ export function KanbanDialogTools({
   onOpenChange,
   card,
 }: KanbanDialogToolsProps) {
+  const [toolsOpen, setToolsOpen] = useState(false);
+
+  const handleMoveCardSelect = (nextColumnId: string) => {
+    if (nextColumnId === currentColumnId) return;
+
+    onMoveCard(card.id, nextColumnId);
+    setToolsOpen(false);
+    requestAnimationFrame(() => onOpenChange(false));
+  };
 
   return (
-    <Popover>
+    <Popover open={toolsOpen} onOpenChange={setToolsOpen}>
       <PopoverTrigger asChild>
         <button
           type="button"
@@ -50,7 +60,7 @@ export function KanbanDialogTools({
             <label className="text-sm font-medium">Move Card to</label>
             <Select
               value={currentColumnId}
-              onValueChange={(value: string) => { onMoveCard(card.id, value); onOpenChange(false); }}
+              onValueChange={handleMoveCardSelect}
             >
               <SelectTrigger className="w-full">
                 <SelectValue />
