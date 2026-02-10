@@ -3,8 +3,7 @@
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
-import { Checkbox } from "@/app/ui-primitives/checkbox";
-import { SquarePen, Grip } from "lucide-react";
+import { SquarePen, Grip, Circle, CircleCheckBigIcon } from "lucide-react";
 
 // Fit Rating types and configuration
 export type FitRating = "perfect" | "great" | "good" | "neutral";
@@ -43,6 +42,7 @@ export interface KanbanCardData {
   columnId: string;
   prepQueryLetterDone: boolean;
   fitRating: FitRating;
+  projectName: string;
 }
 
 interface KanbanCardProps {
@@ -51,7 +51,6 @@ interface KanbanCardProps {
   /** Width for the drag overlay (e.g. "256px" or "calc(100vw - 56px)"). Defaults to "248px". */
   dragOverlayWidth?: string;
   onCardClick?: (card: KanbanCardData) => void;
-  onTogglePrepQuery?: (cardId: string) => void;
   /** When true, only the grip handle is draggable (enables scroll on card body). Used on mobile. */
   useDragHandle?: boolean;
 }
@@ -61,7 +60,6 @@ export function KanbanCard({
   isDragOverlay = false,
   dragOverlayWidth,
   onCardClick,
-  onTogglePrepQuery,
   useDragHandle = false,
 }: KanbanCardProps) {
   const {
@@ -84,11 +82,6 @@ export function KanbanCard({
     transition,
     // Only block touch on card root when not using drag handle (desktop)
     ...(useDragHandle ? {} : { touchAction: "none" as const }),
-  };
-
-  const handleCheckboxChange = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    onTogglePrepQuery?.(card.id);
   };
 
   const handleCardClick = () => {
@@ -115,28 +108,17 @@ export function KanbanCard({
           <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-accent" />
         )}
       </div>
-
-      {/* Agency Name */}
       {card.agency && (
         <p className="text-xs text-gray-500 truncate mt-0.5">{card.agency}</p>
       )}
-
-      {/* Query Letter Ready Checkbox */}
-      <div className="flex items-center gap-1 mt-3 mb-3">
-        <Checkbox
-          id={`prep-query-${card.id}`}
-          checked={card.prepQueryLetterDone}
-          onCheckedChange={() => onTogglePrepQuery?.(card.id)}
-          onClick={(e) => e.stopPropagation()}
-          className="data-[state=checked]:bg-blue-accent data-[state=checked]:border-blue-accent data-[state=checked]:text-white cursor-pointer"
-        />
+      <div className="flex items-center gap-1 mt-4 mb-4">
         <label
           htmlFor={`prep-query-${card.id}`}
-          className="text-xs text-gray-600 cursor-pointer"
-          onClick={handleCheckboxChange}
+          className="text-xs font-semibold text-accent cursor-pointer"
         >
           Query Letter Ready
         </label>
+        {card.prepQueryLetterDone ? <CircleCheckBigIcon className="w-4 h-4 text-accent" /> : <Circle className="w-4 h-4 text-accent" />}
       </div>
 
       {/* Match Score */}
@@ -147,12 +129,15 @@ export function KanbanCard({
       )} */}
 
       {/* Fit Rating Pill */}
-      <div className="mt-2">
+      <div className="mt-2 flex flex-wrap gap-2">
         <span
           className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white"
           style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
         >
           {FIT_RATING_CONFIG[card.fitRating].label}
+        </span>
+        <span className="inline-block rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-white">
+          {card.projectName?.trim() || "My Project"}
         </span>
       </div>
     </>

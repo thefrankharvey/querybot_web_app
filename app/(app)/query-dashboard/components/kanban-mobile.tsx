@@ -50,6 +50,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     columnId: "agents-to-research",
     prepQueryLetterDone: false,
     fitRating: getFitRatingFromScore(agent.match_score),
+    projectName: "",
   };
 }
 
@@ -92,6 +93,7 @@ export function KanbanMobile() {
             columnId: prevCard.columnId,
             prepQueryLetterDone: prevCard.prepQueryLetterDone,
             fitRating: prevCard.fitRating,
+            projectName: prevCard.projectName ?? "",
           };
         });
 
@@ -106,6 +108,18 @@ export function KanbanMobile() {
       });
     }
   }, [agentsList, isLoading]);
+
+  useEffect(() => {
+    if (!selectedCard?.id) return;
+
+    const latestSelectedCard = cards.find((card) => card.id === selectedCard.id);
+    if (!latestSelectedCard) {
+      setSelectedCard(null);
+      return;
+    }
+
+    setSelectedCard((prev) => (prev === latestSelectedCard ? prev : latestSelectedCard));
+  }, [cards, selectedCard?.id]);
 
   // Configure sensors for drag-and-drop with touch support
   // MouseSensor (not PointerSensor) so it only fires for actual mouse events on desktop.
@@ -163,6 +177,12 @@ export function KanbanMobile() {
           : card
       )
     );
+
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) =>
+        prev ? { ...prev, prepQueryLetterDone: !prev.prepQueryLetterDone } : null
+      );
+    }
   };
 
   const handleFitRatingChange = (cardId: string, rating: FitRating) => {
@@ -186,6 +206,18 @@ export function KanbanMobile() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
+    }
+  };
+
+  const handleProjectNameChange = (cardId: string, projectName: string) => {
+    setCards((prevCards) =>
+      prevCards.map((card) =>
+        card.id === cardId ? { ...card, projectName } : card
+      )
+    );
+
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -401,7 +433,6 @@ export function KanbanMobile() {
                   column={column}
                   cards={getCardsForColumn(column.id)}
                   onCardClick={handleCardClick}
-                  onTogglePrepQuery={handleTogglePrepQuery}
                   className="w-full min-w-0 h-full"
                   useDragHandle
                   droppableDisabled={Math.abs(index - currentColumnIndex) > 1}
@@ -433,6 +464,7 @@ export function KanbanMobile() {
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
+        onProjectNameChange={handleProjectNameChange}
         onMoveCard={handleMoveCard}
       />
     </div>

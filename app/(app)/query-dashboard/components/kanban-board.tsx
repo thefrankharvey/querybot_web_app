@@ -46,6 +46,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     columnId: "agents-to-research",
     prepQueryLetterDone: false,
     fitRating: getFitRatingFromScore(agent.match_score),
+    projectName: "",
   };
 }
 
@@ -72,6 +73,7 @@ export function KanbanBoard() {
             columnId: prevCard.columnId,
             prepQueryLetterDone: prevCard.prepQueryLetterDone,
             fitRating: prevCard.fitRating,
+            projectName: prevCard.projectName ?? "",
           };
         });
 
@@ -86,6 +88,18 @@ export function KanbanBoard() {
       });
     }
   }, [agentsList, isLoading]);
+
+  useEffect(() => {
+    if (!selectedCard?.id) return;
+
+    const latestSelectedCard = cards.find((card) => card.id === selectedCard.id);
+    if (!latestSelectedCard) {
+      setSelectedCard(null);
+      return;
+    }
+
+    setSelectedCard((prev) => (prev === latestSelectedCard ? prev : latestSelectedCard));
+  }, [cards, selectedCard?.id]);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -134,6 +148,12 @@ export function KanbanBoard() {
           : card
       )
     );
+
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) =>
+        prev ? { ...prev, prepQueryLetterDone: !prev.prepQueryLetterDone } : null
+      );
+    }
   };
 
   const handleFitRatingChange = (cardId: string, rating: FitRating) => {
@@ -157,6 +177,18 @@ export function KanbanBoard() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
+    }
+  };
+
+  const handleProjectNameChange = (cardId: string, projectName: string) => {
+    setCards((prevCards) =>
+      prevCards.map((card) =>
+        card.id === cardId ? { ...card, projectName } : card
+      )
+    );
+
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -257,7 +289,6 @@ export function KanbanBoard() {
               column={column}
               cards={getCardsForColumn(column.id)}
               onCardClick={handleCardClick}
-              onTogglePrepQuery={handleTogglePrepQuery}
             />
           ))}
         </div>
@@ -277,6 +308,7 @@ export function KanbanBoard() {
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
+        onProjectNameChange={handleProjectNameChange}
         onMoveCard={handleMoveCard}
       />
     </div>
