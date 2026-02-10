@@ -90,7 +90,6 @@ export function KanbanColumn({
 
   return (
     <div className={cn("flex flex-col w-[272px] min-w-[272px]", className)}>
-      {/* Column Header - Fixed, centered title */}
       <div className="text-base bg-accent/10 rounded-lg px-4 font-medium text-accent py-3 flex items-center justify-between gap-2 mb-4">
         <h2 className="text-left">
           {column.title}
@@ -102,8 +101,6 @@ export function KanbanColumn({
           onPrepQueryLetterChange={setPrepQueryLetterFilter}
         />
       </div>
-
-      {/* Column Content - Scrollable area for cards */}
       <div
         ref={mergedRef}
         className={cn(

@@ -30,12 +30,17 @@ export function KanbanColumnFilters({
   prepQueryLetterFilter,
   onPrepQueryLetterChange,
 }: KanbanColumnFiltersProps) {
+  const showDot = fitRatingFilter !== "all" || prepQueryLetterFilter !== "all";
+
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <button className="p-1 hover:bg-accent/20 rounded">
-          <Ellipsis className="w-6 h-6" />
-        </button>
+        <div className="flex flex-col items-end">
+          {showDot ? <div className="w-2.5 h-2.5 bg-blue-accent rounded-full mb-[-6px]" /> : <div className="w-2.5 h-2.5 bg-transparent rounded-full mb-[-6px]" />}
+          <button className="p-1 hover:bg-accent/20 rounded">
+            <Ellipsis className="w-6 h-6" />
+          </button>
+        </div>
       </PopoverTrigger>
       <PopoverContent align="end" className="w-56">
         <div className="flex flex-col gap-4">

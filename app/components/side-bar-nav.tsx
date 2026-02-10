@@ -93,7 +93,13 @@ export const SideBarNav = () => {
                   : "text-black"
               )}
             >
-              <LayoutDashboard className="w-4 h-4" />
+              {agentsList && agentsList.length > 0 ? (
+                <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-[18px] w-[18px] text-xs p-3 ml-[-3px]">
+                  {agentsList.length}
+                </span>
+              ) : (
+                ""
+              )}
               Query Dashboard
             </Link>
             <Link

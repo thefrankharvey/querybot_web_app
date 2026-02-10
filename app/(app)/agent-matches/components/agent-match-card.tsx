@@ -102,7 +102,7 @@ export const AgentMatchCard = ({
                                         >
                                             <div>
                                                 <div className="flex items-center justify-center gap-2">
-                                                    <Save className="w-6 h-6" />
+                                                    <Save className="w-7 h-7 text-accent" />
                                                 </div>
                                             </div>
                                         </TooltipComponent>
@@ -110,7 +110,7 @@ export const AgentMatchCard = ({
                                         agentsList && agentsList?.find(
                                             (a) => a.index_id === agent.agent_id,
                                         ) ? (
-                                            <Heart className="w-6 h-6 text-accent" />
+                                            <Heart className="w-7 h-7 text-accent" />
                                         ) :
                                             (<div onClick={handleSaveClick}>
                                                 <TooltipComponent
@@ -120,9 +120,9 @@ export const AgentMatchCard = ({
                                                 >
                                                     <div className="flex items-center justify-center gap-2">
                                                         {savingAgentId === agent.agent_id ? (
-                                                            <Spinner className="w-6 h-6" />
+                                                            <Spinner className="w-7 h-7 text-accent" />
                                                         ) : (
-                                                            <Save className="w-6 h-6" />
+                                                            <Save className="w-7 h-7 text-accent" />
                                                         )}
                                                     </div>
                                                 </TooltipComponent>
