@@ -13,7 +13,7 @@ import {
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen, LayoutDashboard } from "lucide-react";
+import { ScanSearch, Newspaper, NotebookPen } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { ACCORDION_STORAGE_KEY } from "../constants";
