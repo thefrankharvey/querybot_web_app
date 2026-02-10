@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Save } from "lucide-react";
 import Link from "next/link";
 import {
   formatGenres,
@@ -99,6 +99,7 @@ const AgentProfile = () => {
               disabled={true}
             >
               <div className="flex items-center gap-2">
+                <Save className="w-4 h-4" />
                 <span>Save Agent</span>
               </div>
             </Button>
@@ -110,7 +111,7 @@ const AgentProfile = () => {
             disabled={isSaving}
           >
             <div className="flex items-center gap-2">
-              {isSaving && <Spinner className="text-white" />}
+              {isSaving ? <Spinner className="text-white" /> : <Save className="w-4 h-4" />}
               <span>Save Agent</span>
             </div>
           </Button>

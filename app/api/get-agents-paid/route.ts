@@ -68,7 +68,7 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify(payload),
         signal: controller.signal,
         keepalive: true,
-      }
+      },
     );
 
     const data = await externalRes.json();
@@ -77,7 +77,7 @@ export async function POST(req: NextRequest) {
     console.error("============== API Error ==============", error);
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Unknown error" },
-      { status: 500 }
+      { status: 500 },
     );
   } finally {
     clearTimeout(timeoutId);

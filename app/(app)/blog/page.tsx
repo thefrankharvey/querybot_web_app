@@ -10,7 +10,7 @@ export default async function BlogIndexPage() {
 
   return (
     <main className="mx-auto max-w-4xl pb-10">
-      <h1 className="mb-6 text-3xl md:text-[32px] font-semibold tracking-tight flex gap-4 items-center text-accent">
+      <h1 className="mb-6 text-3xl md:text-[32px] font-semibold tracking-tight flex gap-2 items-center text-accent md:pt-6 pt-0">
         <NotebookPen className="w-10 h-10" />
         Blog
       </h1>

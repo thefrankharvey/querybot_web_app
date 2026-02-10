@@ -43,7 +43,7 @@ const Dispatch = async () => {
 const renderContent = (data: FlattenedSlushFeed) => {
   return (
     <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto">
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-[27px] flex gap-4 items-center text-accent">
+      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-[27px] flex gap-2 items-center text-accent md:pt-6 pt-0">
         <Newspaper className="w-10 h-10" />
         Dispatch
       </h1>
