@@ -8,9 +8,11 @@ import StatusFilter from "./status-filter";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import CountryFilter from "./country-filter";
 import TooltipComponent from "@/app/components/tooltip";
+import ProgressBar from "../../smart-match/components/progress-bar";
 
 export const AgentMatchesInner = ({
   matches,
+  isSuccess,
   isSubscribed,
   gridRef,
   isLoading,
@@ -22,6 +24,7 @@ export const AgentMatchesInner = ({
   sheetStatus,
 }: {
   matches: AgentMatch[];
+  isSuccess: boolean;
   isSubscribed: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
   isLoading: boolean;
@@ -33,7 +36,6 @@ export const AgentMatchesInner = ({
   spreadsheetUrl?: string | null;
   sheetStatus?: SheetStatus;
 }) => {
-
   return (
     <>
       <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent">
@@ -84,38 +86,64 @@ export const AgentMatchesInner = ({
                 rel="noopener noreferrer"
                 className="w-full md:w-auto"
                 onClick={(e) => {
-                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading) e.preventDefault();
+                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
+                    e.preventDefault();
                 }}
               >
                 <Button
-                  disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
+                  disabled={
+                    sheetStatus === "pending" || !spreadsheetUrl || isLoading
+                  }
                   className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
                 >
                   <div className="flex items-center gap-2">
-                    {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4" /> : <ExternalLink className="w-4 h-4" />}
+                    {sheetStatus === "pending" ||
+                      !spreadsheetUrl ||
+                      isLoading ? (
+                      <Spinner className="w-4 h-4" />
+                    ) : (
+                      <ExternalLink className="w-4 h-4" />
+                    )}
                     <span>Query Spreadsheet</span>
                   </div>
                 </Button>
               </a>
             )}
-            < ExplanationBlock />
+            <ExplanationBlock />
           </div>
         </div>
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-          ref={gridRef}
-        >
-          {matches.map((match, index: number) => (
-            <AgentMatchCard
-              key={index}
-              agent={match}
-              index={index}
-              isSubscribed={isSubscribed}
-              isLoading={isLoading}
-              id={`agent-${index}`}
-            />
-          ))}
-        </div>
+        {matches && matches.length > 0 ? (
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            ref={gridRef}
+          >
+            {matches.map((match, index: number) => (
+              <AgentMatchCard
+                key={index}
+                agent={match}
+                index={index}
+                isSubscribed={isSubscribed}
+                isLoading={isLoading}
+                id={`agent-${index}`}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center h-full w-full mx-auto mt-60">
+            {isLoading ? (
+              <ProgressBar isSuccess={isSuccess} onComplete={() => { }} />
+            ) : (
+              <>
+                <p className="text-accent text-center text-xl font-semibold">
+                  No matches found!
+                </p>
+                <p className="text-accent text-center text-xl font-semibold">
+                  Try adjusting the filters or a new search.
+                </p>
+              </>
+            )}
+          </div>
+        )}
       </div>
     </>
   );

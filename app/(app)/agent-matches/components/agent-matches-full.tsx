@@ -157,6 +157,7 @@ export const AgentMatchesFull = () => {
       <AgentMatchesInner
         matches={matches}
         isSubscribed={true}
+        isSuccess={queryMutation.isSuccess}
         isLoading={queryMutation.isPending}
         statusFilter={statusFilter}
         onStatusChange={handleStatusChange}

@@ -102,6 +102,7 @@ export const AgentMatchesPaywall = () => {
     <>
       <AgentMatchesInner
         matches={matches}
+        isSuccess={queryMutation.isSuccess}
         gridRef={gridRef}
         isSubscribed={false}
         isLoading={isLoading || queryMutation.isPending}
