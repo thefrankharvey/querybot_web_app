@@ -78,6 +78,7 @@ const QUERY_KEYS = {
   formData: ["formData"] as const,
   nextCursorCount: ["nextCursorCount"] as const,
   currentCursor: ["currentCursor"] as const,
+  totalAgents: ["totalAgents"] as const,
   spreadsheetUrl: ["spreadsheetUrl"] as const,
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
@@ -88,6 +89,7 @@ const STORAGE_KEYS = {
   formData: "query_form_data",
   nextCursorCount: "future_request_count",
   currentCursor: "current_cursor",
+  totalAgents: "total_agents",
   spreadsheetUrl: "spreadsheet_url",
   statusFilter: "status_filter",
   countryFilter: "country_filter",
@@ -152,6 +154,13 @@ const useAgentData = () => {
     queryFn: async (): Promise<number> =>
       readJSON<number>(STORAGE_KEYS.currentCursor) ?? 0,
     initialData: () => readJSON<number>(STORAGE_KEYS.currentCursor) ?? 0,
+  });
+
+  const { data: totalAgents = null } = useQuery({
+    queryKey: QUERY_KEYS.totalAgents,
+    queryFn: async (): Promise<number | null> =>
+      readJSON<number>(STORAGE_KEYS.totalAgents),
+    initialData: () => readJSON<number>(STORAGE_KEYS.totalAgents),
   });
 
   const { data: spreadsheetUrl = null } = useQuery({
@@ -223,6 +232,18 @@ const useAgentData = () => {
     onMutate: async (cursor) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.currentCursor });
       queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, cursor);
+    },
+  });
+
+  const saveTotalAgentsMutation = useMutation({
+    mutationFn: async (count: number | null) => {
+      if (count === null) removeKey(STORAGE_KEYS.totalAgents);
+      else writeJSON(STORAGE_KEYS.totalAgents, count);
+      return count;
+    },
+    onMutate: async (count) => {
+      await queryClient.cancelQueries({ queryKey: QUERY_KEYS.totalAgents });
+      queryClient.setQueryData<number | null>(QUERY_KEYS.totalAgents, count);
     },
   });
 
@@ -314,6 +335,7 @@ const useAgentData = () => {
     removeKey(STORAGE_KEYS.agentMatches);
     removeKey(STORAGE_KEYS.nextCursorCount);
     removeKey(STORAGE_KEYS.currentCursor);
+    removeKey(STORAGE_KEYS.totalAgents);
     removeKey(STORAGE_KEYS.spreadsheetUrl);
     // keep or clear formData depending on your UX:
     // removeKey(STORAGE_KEYS.formData);
@@ -325,6 +347,7 @@ const useAgentData = () => {
     queryClient.setQueryData<AgentMatch[]>(QUERY_KEYS.agentMatches, []);
     queryClient.setQueryData<number | null>(QUERY_KEYS.nextCursorCount, null);
     queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, 0);
+    queryClient.setQueryData<number | null>(QUERY_KEYS.totalAgents, null);
     queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, null);
 
     // If you clear statusFilter in storage, also reset it here:
@@ -342,6 +365,7 @@ const useAgentData = () => {
     matches,
     nextCursorCount,
     currentCursor,
+    totalAgents,
     formData,
     spreadsheetUrl,
     statusFilter,
@@ -356,6 +380,7 @@ const useAgentData = () => {
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursorMutation.mutate(count),
     saveCurrentCursor: (cursor: number) => saveCurrentCursorMutation.mutate(cursor),
+    saveTotalAgents: (count: number | null) => saveTotalAgentsMutation.mutate(count),
     saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
@@ -372,6 +397,7 @@ interface MatchesContextType {
   matches: AgentMatch[];
   formData: FormData | null;
   spreadsheetUrl: string | null;
+  totalAgents: number | null;
   statusFilter: string;
   countryFilter: string;
   sheetTaskId: string | null;
@@ -384,6 +410,7 @@ interface MatchesContextType {
   saveFormData: (data: FormData) => void;
   saveNextCursor: (count: number) => void;
   saveCurrentCursor: (cursor: number) => void;
+  saveTotalAgents: (count: number | null) => void;
   saveSpreadsheetUrl: (url: string | null) => void;
   saveStatusFilter: (status: string) => void;
   saveCountryFilter: (country: string) => void;
@@ -428,6 +455,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       matches: data.matches,
       nextCursorCount: data.nextCursorCount,
       currentCursor: data.currentCursor,
+      totalAgents: data.totalAgents,
       formData: data.formData,
       spreadsheetUrl: data.spreadsheetUrl,
       statusFilter: data.statusFilter,
@@ -442,6 +470,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveFormData: data.saveFormData,
       saveNextCursor: data.saveNextCursor,
       saveCurrentCursor: data.saveCurrentCursor,
+      saveTotalAgents: data.saveTotalAgents,
       saveSpreadsheetUrl: data.saveSpreadsheetUrl,
       saveStatusFilter: data.saveStatusFilter,
       saveCountryFilter: data.saveCountryFilter,
@@ -456,6 +485,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.matches,
       data.nextCursorCount,
       data.currentCursor,
+      data.totalAgents,
       data.formData,
       data.spreadsheetUrl,
       data.statusFilter,
@@ -468,6 +498,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveFormData,
       data.saveNextCursor,
       data.saveCurrentCursor,
+      data.saveTotalAgents,
       data.saveSpreadsheetUrl,
       data.saveStatusFilter,
       data.saveCountryFilter,

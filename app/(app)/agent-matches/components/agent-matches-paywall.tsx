@@ -15,6 +15,7 @@ declare global {
 export const AgentMatchesPaywall = () => {
   const {
     matches,
+    totalAgents,
     isLoading,
     formData,
     statusFilter,
@@ -102,6 +103,7 @@ export const AgentMatchesPaywall = () => {
     <>
       <AgentMatchesInner
         matches={matches}
+        totalAgents={totalAgents}
         isSuccess={queryMutation.isSuccess}
         gridRef={gridRef}
         isSubscribed={false}

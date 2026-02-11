@@ -17,6 +17,7 @@ import TypeForm from "@/app/components/type-form";
 export const AgentMatchesFull = () => {
   const {
     matches,
+    totalAgents,
     formData,
     saveMatches,
     nextCursorCount,
@@ -156,6 +157,7 @@ export const AgentMatchesFull = () => {
     <>
       <AgentMatchesInner
         matches={matches}
+        totalAgents={totalAgents}
         isSubscribed={true}
         isSuccess={queryMutation.isSuccess}
         isLoading={queryMutation.isPending}

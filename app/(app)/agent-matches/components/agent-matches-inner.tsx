@@ -12,6 +12,7 @@ import ProgressBar from "../../smart-match/components/progress-bar";
 
 export const AgentMatchesInner = ({
   matches,
+  totalAgents,
   isSuccess,
   isSubscribed,
   gridRef,
@@ -24,6 +25,7 @@ export const AgentMatchesInner = ({
   sheetStatus,
 }: {
   matches: AgentMatch[];
+  totalAgents: number | null;
   isSuccess: boolean;
   isSubscribed: boolean;
   gridRef?: React.RefObject<HTMLDivElement | null>;
@@ -38,8 +40,8 @@ export const AgentMatchesInner = ({
 }) => {
   return (
     <>
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent">
-        Agent matches
+      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-6 pt-0">
+        {totalAgents ? `${totalAgents} Agent matches` : "Agent matches"}
       </h1>
       <div>
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-4">

@@ -63,8 +63,6 @@ const AgentProfile = () => {
   ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
 
-  console.log({ dedupedThemeMatches })
-
   const handleSaveAgent = async () => {
     const payload = {
       name: agent.name,

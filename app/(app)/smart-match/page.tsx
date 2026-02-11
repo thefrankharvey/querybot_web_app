@@ -38,7 +38,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const router = useRouter();
@@ -78,6 +78,9 @@ const SmartMatch = () => {
     },
 
     onSuccess: (data) => {
+      const totalAgents = typeof data.total_agents === "number" ? data.total_agents : typeof data.total_available === "number" ? data.total_available : null;
+      saveTotalAgents(totalAgents);
+
       if (data.matches.length > 0) {
         saveMatches(data.matches);
         saveNextCursor(data.next_cursor);

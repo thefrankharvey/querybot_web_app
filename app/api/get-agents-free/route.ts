@@ -61,14 +61,14 @@ export async function POST(req: NextRequest) {
     const externalRes = await fetch(
       `${getWqhApiUrl()}/get-agents-free?last_index=${last_index}${statusQuery}${countryQuery}`,
       {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+        signal: controller.signal,
+        keepalive: true,
       },
-      body: JSON.stringify(payload),
-      signal: controller.signal,
-      keepalive: true,
-      }
     );
 
     const data = await externalRes.json();
@@ -77,8 +77,8 @@ export async function POST(req: NextRequest) {
       data && typeof data === "object"
         ? Object.fromEntries(
             Object.entries(data as Record<string, unknown>).filter(
-              ([key]) => key !== "task_id"
-            )
+              ([key]) => key !== "task_id",
+            ),
           )
         : data;
 
@@ -87,7 +87,7 @@ export async function POST(req: NextRequest) {
     console.error("============== API Error ==============", error);
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Unknown error" },
-      { status: 500 }
+      { status: 500 },
     );
   } finally {
     clearTimeout(timeoutId);
