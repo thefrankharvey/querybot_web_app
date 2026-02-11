@@ -32,6 +32,8 @@ export async function POST(req: Request) {
   // Expecting single agent or array of agents:
   // { name, email?, agency?, agency_url?, index_id?, query_tracker?, pub_marketplace?, match_score? }
 
+  // need to add new properties: fit_rating, column_name, updated_date, notes, query_letter_ready, project_name
+
   // Accept single or array payload
   const agents = Array.isArray(body) ? body : [body];
   const insertPayloads = agents.map((agent) => ({
