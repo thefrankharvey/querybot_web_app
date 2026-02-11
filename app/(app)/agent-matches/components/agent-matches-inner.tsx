@@ -7,6 +7,7 @@ import ExplanationBlock from "./explanation-block";
 import StatusFilter from "./status-filter";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import CountryFilter from "./country-filter";
+import TooltipComponent from "@/app/components/tooltip";
 
 export const AgentMatchesInner = ({
   matches,
@@ -32,7 +33,6 @@ export const AgentMatchesInner = ({
   spreadsheetUrl?: string | null;
   sheetStatus?: SheetStatus;
 }) => {
-
 
   return (
     <>
@@ -61,26 +61,44 @@ export const AgentMatchesInner = ({
                 onValueChange={onCountryChange}
               />
             )}
-            <a
-              href={spreadsheetUrl || undefined}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full md:w-auto"
-              onClick={(e) => {
-                if (sheetStatus === "pending" || !spreadsheetUrl || isLoading) e.preventDefault();
-              }}
-            >
-              <Button
-                disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
-                className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+            {!isSubscribed ? (
+              <TooltipComponent
+                className="w-full md:w-fit"
+                contentClass="text-center"
+                content="Subscribe to download all agent matches!"
               >
-                <div className="flex items-center gap-2">
-                  {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4" /> : <ExternalLink className="w-4 h-4" />}
-                  <span>Query Spreadsheet</span>
-                </div>
-              </Button>
-            </a>
-            <ExplanationBlock />
+                <Button
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  disabled={true}
+                >
+                  <div className="flex items-center gap-2">
+                    <ExternalLink className="w-4 h-4" />
+                    <span>Query Spreadsheet</span>
+                  </div>
+                </Button>
+              </TooltipComponent>
+            ) : (
+              <a
+                href={spreadsheetUrl || undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto"
+                onClick={(e) => {
+                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading) e.preventDefault();
+                }}
+              >
+                <Button
+                  disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <div className="flex items-center gap-2">
+                    {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4" /> : <ExternalLink className="w-4 h-4" />}
+                    <span>Query Spreadsheet</span>
+                  </div>
+                </Button>
+              </a>
+            )}
+            < ExplanationBlock />
           </div>
         </div>
         <div

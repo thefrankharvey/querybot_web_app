@@ -33,6 +33,7 @@ const AgentProfile = () => {
     [matchesContext?.matches]
   );
   const [agent, setAgent] = useState<AgentMatch | null>(null);
+  const [agentIndex, setAgentIndex] = useState<number>(0);
 
   const { saveAgent, isSaving } = useProfileContext();
 
@@ -42,6 +43,7 @@ const AgentProfile = () => {
         (data, index) => index === Number(params["agent-number"])
       );
       setAgent(foundAgent as AgentMatch | null);
+      setAgentIndex(Number(params["agent-number"]));
     }
   }, [matches, params]);
 
@@ -55,8 +57,13 @@ const AgentProfile = () => {
 
   const genreMatches = [...(agent.match_hits?.direct.genres || []), ...(agent.match_hits?.cluster.genres || [])];
   const dedupedGenreMatches = normalizeAndDedup(genreMatches);
-  const themeMatches = [...(agent.match_hits?.direct.themes || []), ...(agent.match_hits?.cluster.themes || [])];
+  const themeMatches = [
+    ...(agent.match_hits?.direct.themes || []),
+    ...(agent.match_hits?.cluster.themes || []),
+  ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
+
+  console.log({ dedupedThemeMatches })
 
   const handleSaveAgent = async () => {
     const payload = {
@@ -134,7 +141,7 @@ const AgentProfile = () => {
               </TooltipComponent>
             </div>
           </div>
-          <AgentContactDetails agent={agent} isSubscribed={isSubscribed} />
+          <AgentContactDetails agent={agent} isSubscribed={agentIndex < 6 || isSubscribed} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Matching Genres:</label>
             <div className="flex flex-wrap gap-1">
@@ -157,14 +164,12 @@ const AgentProfile = () => {
             <div className="flex flex-wrap gap-1">
               {dedupedThemeMatches && dedupedThemeMatches.length > 0 &&
                 dedupedThemeMatches.map((theme: string) => (
-                  formatGenres(theme).map((theme: string) => (
-                    <div
-                      key={theme}
-                      className="bg-accent text-white px-2 py-1 text-sm rounded-md"
-                    >
-                      {theme}
-                    </div>
-                  ))
+                  <div
+                    key={theme}
+                    className="bg-accent text-white px-2 py-1 text-sm rounded-md"
+                  >
+                    {theme}
+                  </div>
                 ))
               }
             </div>
@@ -195,8 +200,8 @@ const AgentProfile = () => {
             <p className="text-base leading-relaxed text-gray-800">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
-                    formatDisplayString(agent.extra_interest)
-                  )
+                  formatDisplayString(agent.extra_interest)
+                )
                 : "Info Unavailable"}
             </p>
           </div>

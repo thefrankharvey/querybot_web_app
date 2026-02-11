@@ -8,135 +8,126 @@ const PayWall = ({
   gridRef,
   resultLength,
   title,
+  lockAfterCards,
+  lockTriggerViewportRatio,
 }: {
   gridRef: React.RefObject<HTMLDivElement | null>;
   resultLength: number;
   title: string;
+  lockAfterCards?: number;
+  lockTriggerViewportRatio?: number;
 }) => {
-  const lastScrollY = useRef<number>(0);
-  const targetScrollY = useRef<number | null>(null);
+  const overlayVisibleRef = useRef(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const { handleSubscribe, isSubscribing } = useStripeSubscribe();
 
   useEffect(() => {
-    const calculateTargetScrollPosition = () => {
+    const getColumns = () => {
+      if (window.innerWidth >= 1024) return 3;
+      if (window.innerWidth >= 768) return 2;
+      return 1;
+    };
+    const clampedLockTriggerViewportRatio =
+      typeof lockTriggerViewportRatio === "number"
+        ? Math.min(1, Math.max(0, lockTriggerViewportRatio))
+        : 1;
+
+    const getFallbackVisibilityThreshold = () => {
       if (!gridRef?.current) return null;
 
-      const gridRect = gridRef?.current.getBoundingClientRect();
+      const gridRect = gridRef.current.getBoundingClientRect();
       const totalCards = resultLength;
+      if (totalCards === 0) return null;
 
-      let columns = 1;
-      if (window.innerWidth >= 1024) columns = 3;
-      else if (window.innerWidth >= 768) columns = 3;
-
+      const columns = getColumns();
       const totalRows = Math.ceil(totalCards / columns);
-      if (totalRows < 2) return null;
+      if (totalRows === 0) return null;
 
       const cardHeight = gridRect.height / totalRows;
+      const lockRowIndex =
+        typeof lockAfterCards === "number"
+          ? Math.floor(lockAfterCards / columns)
+          : null;
 
-      const targetPosition =
-        window.scrollY +
-        gridRect.top +
-        cardHeight * 1.5 -
-        window.innerHeight / 2;
+      if (
+        typeof lockAfterCards === "number" &&
+        (lockAfterCards < 0 || totalCards <= lockAfterCards)
+      ) {
+        return null;
+      }
 
-      return Math.max(0, targetPosition);
+      if (lockRowIndex !== null) {
+        return gridRect.top + cardHeight * lockRowIndex;
+      }
+
+      if (totalRows < 2) return null;
+
+      return gridRect.top + cardHeight * 1.5;
+    };
+
+    const getLockAnchorTop = () => {
+      if (!gridRef?.current || typeof lockAfterCards !== "number") return null;
+      if (lockAfterCards < 0 || resultLength <= lockAfterCards) return null;
+
+      const anchor = gridRef.current.children.item(lockAfterCards);
+      if (!(anchor instanceof HTMLElement)) return null;
+
+      return anchor.getBoundingClientRect().top;
     };
 
     const handleScroll = () => {
       if (!gridRef?.current) return;
 
-      const scrollY = window.scrollY;
-      lastScrollY.current = scrollY;
-
-      const gridRect = gridRef.current.getBoundingClientRect();
       const totalCards = resultLength;
-
-      let columns = 1;
-      if (window.innerWidth >= 1024) columns = 3;
-      else if (window.innerWidth >= 768) columns = 2;
-
-      const totalRows = Math.ceil(totalCards / columns);
-      const cardHeight = gridRect.height / totalRows;
-
-      const visibilityThreshold = gridRect.top + cardHeight * 1.5;
-
-      if (visibilityThreshold <= window.innerHeight / 2 + 300) {
-        if (!showOverlay) {
-          setShowOverlay(true);
+      if (totalCards === 0) {
+        if (overlayVisibleRef.current) {
+          overlayVisibleRef.current = false;
+          setShowOverlay(false);
         }
-
-        if (targetScrollY.current === null) {
-          targetScrollY.current = calculateTargetScrollPosition();
-        }
-
-        if (targetScrollY.current !== null && scrollY > targetScrollY.current) {
-          window.isScrollLocked = true;
-
-          if (Math.abs(scrollY - targetScrollY.current) > 5) {
-            requestAnimationFrame(() => {
-              window.scrollTo({
-                top: targetScrollY.current || 0,
-                behavior: "auto",
-              });
-            });
-          }
-        }
-      } else {
-        setShowOverlay(false);
-        window.isScrollLocked = false;
-        targetScrollY.current = null;
+        return;
       }
-    };
+      const hasLockAfterCards = typeof lockAfterCards === "number";
 
-    const handleWheel = (e: WheelEvent) => {
-      if (window.isScrollLocked && e.deltaY > 0) {
-        e.preventDefault();
-      }
-    };
-
-    const handleTouchMove = (e: TouchEvent) => {
-      if (window.isScrollLocked) {
-        const currentY = e.touches[0].clientY;
-        const lastTouchY = window.lastTouchY || currentY;
-
-        if (currentY < lastTouchY) {
-          e.preventDefault();
+      if (
+        hasLockAfterCards &&
+        (lockAfterCards < 0 || totalCards <= lockAfterCards)
+      ) {
+        if (overlayVisibleRef.current) {
+          overlayVisibleRef.current = false;
+          setShowOverlay(false);
         }
-
-        window.lastTouchY = currentY;
+        return;
       }
-    };
 
-    const handleTouchStart = (e: TouchEvent) => {
-      window.lastTouchY = e.touches[0].clientY;
+      const visibilityThreshold = hasLockAfterCards
+        ? getLockAnchorTop() ?? getFallbackVisibilityThreshold()
+        : getFallbackVisibilityThreshold();
+      if (visibilityThreshold === null) return;
+
+      const triggerPoint =
+        hasLockAfterCards
+          ? window.innerHeight * clampedLockTriggerViewportRatio
+          : window.innerHeight / 2 + 300;
+      const shouldShowOverlay = visibilityThreshold <= triggerPoint;
+
+      if (overlayVisibleRef.current !== shouldShowOverlay) {
+        overlayVisibleRef.current = shouldShowOverlay;
+        setShowOverlay(shouldShowOverlay);
+      }
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    window.addEventListener("wheel", handleWheel, { passive: false });
-    window.addEventListener("touchmove", handleTouchMove as EventListener, {
-      passive: false,
-    });
-    window.addEventListener("touchstart", handleTouchStart as EventListener, {
-      passive: true,
-    });
+    window.addEventListener("resize", handleScroll);
 
-    setTimeout(() => {
+    requestAnimationFrame(() => {
       handleScroll();
-    }, 100);
+    });
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("wheel", handleWheel);
-      window.removeEventListener("touchmove", handleTouchMove as EventListener);
-      window.removeEventListener(
-        "touchstart",
-        handleTouchStart as EventListener
-      );
-      window.isScrollLocked = false;
-      window.lastTouchY = undefined;
+      window.removeEventListener("resize", handleScroll);
     };
-  }, [resultLength, showOverlay, gridRef]);
+  }, [gridRef, lockAfterCards, lockTriggerViewportRatio, resultLength]);
 
   return (
     <div

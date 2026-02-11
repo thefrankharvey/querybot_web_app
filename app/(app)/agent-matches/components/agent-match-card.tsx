@@ -32,7 +32,7 @@ export const AgentMatchCard = ({
 }) => {
     const { agentsList } = useProfileContext();
     const [isHovered, setIsHovered] = useState(false);
-    const isDisabled = index > 2 && !isSubscribed;
+    const isDisabled = index >= 6 && !isSubscribed;
     const genreMatches = [
         ...(agent.match_hits?.direct.genres || []),
         ...(agent.match_hits?.cluster.genres || []),

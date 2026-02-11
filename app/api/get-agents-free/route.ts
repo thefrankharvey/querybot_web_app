@@ -29,6 +29,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
+    // Get last_index, status, and country_code from URL parameters
+    const url = new URL(req.url);
+    const last_index = url.searchParams.get("last_index") || "0";
+    const status = url.searchParams.get("status") || "";
+    const country_code = url.searchParams.get("country_code") || "";
     const jsonData = await req.json();
 
     const payload: GetAgentsFreePayload = {
@@ -46,10 +51,16 @@ export async function POST(req: NextRequest) {
       non_fiction: jsonData.non_fiction,
       enable_ai: jsonData.enable_ai,
       format: jsonData.format,
-      async_sheet: true,
+      async_sheet: false,
     };
 
-    const externalRes = await fetch(`${getWqhApiUrl()}/get-agents-free`, {
+    // Build query string with optional status and country_code parameters
+    const statusQuery = status ? `&status=${status}` : "";
+    const countryQuery = country_code ? `&country_code=${country_code}` : "";
+
+    const externalRes = await fetch(
+      `${getWqhApiUrl()}/get-agents-free?last_index=${last_index}${statusQuery}${countryQuery}`,
+      {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -57,11 +68,21 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify(payload),
       signal: controller.signal,
       keepalive: true,
-    });
+      }
+    );
 
     const data = await externalRes.json();
 
-    return NextResponse.json(data, { status: externalRes.status });
+    const sanitizedData =
+      data && typeof data === "object"
+        ? Object.fromEntries(
+            Object.entries(data as Record<string, unknown>).filter(
+              ([key]) => key !== "task_id"
+            )
+          )
+        : data;
+
+    return NextResponse.json(sanitizedData, { status: externalRes.status });
   } catch (error) {
     console.error("============== API Error ==============", error);
     return NextResponse.json(
