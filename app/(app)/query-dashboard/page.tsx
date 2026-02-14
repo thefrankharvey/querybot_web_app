@@ -38,8 +38,27 @@ function QueryDashboardContent() {
     []
   );
 
+  useEffect(() => {
+    const className = "query-dashboard-overflow-hidden";
+    const updateOverflowClass = () => {
+      if (window.innerWidth < 768) {
+        document.body.classList.add(className);
+        return;
+      }
+      document.body.classList.remove(className);
+    };
+
+    updateOverflowClass();
+    window.addEventListener("resize", updateOverflowClass);
+
+    return () => {
+      window.removeEventListener("resize", updateOverflowClass);
+      document.body.classList.remove(className);
+    };
+  }, []);
+
   return (
-    <div className="md:py-6 py-0">
+    <div className="md:py-6 py-0 flex flex-col h-full min-h-0">
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
           <Confetti
@@ -58,7 +77,7 @@ function QueryDashboardContent() {
         <KanbanBoard />
       </div>
       {/* Mobile view */}
-      <div className="md:hidden flex flex-col overflow-hidden h-[calc(100dvh-0px)] pl-4">
+      <div className="md:hidden flex flex-col flex-1 min-h-0 overflow-hidden pl-4">
         <KanbanMobile />
       </div>
     </div>

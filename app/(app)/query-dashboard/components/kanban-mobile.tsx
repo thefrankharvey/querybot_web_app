@@ -284,7 +284,7 @@ export function KanbanMobile() {
     currentColumnIndex === QUERY_DASH_COLUMNS.length - 1 ? COLUMN_GAP : 0;
 
   return (
-    <div className="flex flex-col h-[calc(100dvh-92px)] overflow-hidden">
+    <div className="flex flex-col h-full min-h-0 overflow-hidden">
       <DndContext
         sensors={sensors}
         collisionDetection={pointerWithin}
@@ -300,12 +300,12 @@ export function KanbanMobile() {
       >
         <div
           ref={containerRef}
-          className="overflow-hidden flex-1"
+          className="overflow-hidden flex-1 min-h-0"
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
         >
           <div
-            className="flex h-full"
+            className="flex h-full min-h-0"
             style={{
               gap: COLUMN_GAP,
               paddingLeft: 0,

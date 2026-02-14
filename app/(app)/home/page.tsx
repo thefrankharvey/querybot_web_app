@@ -56,7 +56,7 @@ const SavedAgents = () => {
   }, [user, router]);
 
   return (
-    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 pt-4">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-4 p-4">
       <ActionCards />
       {/* <ButtonBar /> */}
       <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg p-10 md:p-12 w-full shadow-lg justify-center items-center border border-accent/20">

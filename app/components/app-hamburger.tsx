@@ -43,7 +43,7 @@ export const AppHamburger = () => {
       </button>
       <div
         className={cn(
-          "absolute inset-0 w-screen h-[100vh] transition-opacity duration-300 bg-background z-99 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
+          "absolute inset-0 w-screen h-dvh-safe transition-opacity duration-300 bg-background z-99 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
@@ -87,6 +87,18 @@ export const AppHamburger = () => {
             >
               <ScanSearch className="w-4 h-4" />
               Smart Match
+            </Link>
+            <Link
+              onClick={() => setOpen(false)}
+              href="/query-dashboard"
+              className={cn(
+                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                pathname.includes("query-dashboard")
+                  ? "text-accent bg-accent/10 rounded-md"
+                  : "text-black"
+              )}
+            >
+              Query Dashboard
             </Link>
             <Link
               onClick={() => setOpen(false)}
