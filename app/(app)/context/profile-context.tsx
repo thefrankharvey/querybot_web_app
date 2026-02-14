@@ -12,7 +12,7 @@ interface ProfileContextType {
   isLoading: boolean;
   isError: boolean;
   error: Error | null;
-  refetch: () => void;
+  refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;

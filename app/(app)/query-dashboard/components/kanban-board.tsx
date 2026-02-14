@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   DndContext,
   DragOverlay,
@@ -12,82 +12,37 @@ import {
   useSensor,
   useSensors,
 } from "@dnd-kit/core";
-import { arrayMove } from "@dnd-kit/sortable";
-import { KanbanColumn, ColumnData } from "./kanban-column";
-import { KanbanCard, KanbanCardData, FitRating, getFitRatingFromScore } from "./kanban-card";
+import { KanbanColumn } from "./kanban-column";
+import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
 import { KanbanDialog } from "./kanban-dialog";
-import { sortFirstColumnByNewest } from "./kanban-ordering";
-import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
-import { AgentMatch } from "@/app/types";
-
-const COLUMNS: ColumnData[] = [
-  { id: "agents-to-research", title: "Agents to Research" },
-  { id: "submitted-query", title: "Submitted Query" },
-  { id: "pages-requested", title: "Pages Requested" },
-  { id: "rejected", title: "Rejected" },
-  { id: "offer-made", title: "Offer Made" },
-];
-
-// Map saved agent data to kanban card format
-function mapAgentToCard(agent: AgentMatch): KanbanCardData {
-  return {
-    id: agent.id,
-    created_at: agent.created_at,
-    name: agent.name,
-    email: agent.email,
-    agency: agent.agency,
-    index_id: agent.index_id,
-    query_tracker: agent.query_tracker,
-    pub_marketplace: agent.pub_marketplace,
-    match_score: agent.match_score,
-    agency_url: agent.agency_url,
-    columnId: "agents-to-research",
-    prepQueryLetterDone: false,
-    fitRating: getFitRatingFromScore(agent.match_score),
-    projectName: "",
-  };
-}
+import {
+  QUERY_DASH_COLUMNS,
+  QueryDashColumnId,
+} from "./kanban-config";
+import { useQueryDashContext } from "../context/query-dash-context";
 
 export function KanbanBoard() {
-  const { agentsList, isLoading } = useProfileContext();
   const { isSubscribed } = useClerkUser();
+  const {
+    cards,
+    isLoading,
+    isEmpty,
+    moveCard,
+    reorderInColumn,
+    togglePrepQueryLetter,
+    setFitRating,
+    setProjectName,
+    setNotes,
+    getCardsForColumn,
+    findCardById,
+    findColumnByCardId,
+  } = useQueryDashContext();
 
-  const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [activeCard, setActiveCard] = useState<KanbanCardData | null>(null);
   const [selectedCard, setSelectedCard] = useState<KanbanCardData | null>(null);
-
-  // Sync cards from agentsList updates while preserving local card state for existing cards.
-  useEffect(() => {
-    if (!isLoading && agentsList) {
-      setCards((prevCards) => {
-        const prevById = new Map(prevCards.map((card) => [card.id, card]));
-        const mergedFromAgents = agentsList.map((agent) => {
-          const prevCard = prevById.get(agent.id);
-          const mappedCard = mapAgentToCard(agent);
-          if (!prevCard) return mappedCard;
-
-          return {
-            ...mappedCard,
-            columnId: prevCard.columnId,
-            prepQueryLetterDone: prevCard.prepQueryLetterDone,
-            fitRating: prevCard.fitRating,
-            projectName: prevCard.projectName ?? "",
-          };
-        });
-
-        const mergedById = new Map(mergedFromAgents.map((card) => [card.id, card]));
-        const existingCardsInCurrentOrder = prevCards
-          .map((card) => mergedById.get(card.id))
-          .filter((card): card is KanbanCardData => Boolean(card));
-        const existingIds = new Set(existingCardsInCurrentOrder.map((card) => card.id));
-        const newlyAddedCards = mergedFromAgents.filter((card) => !existingIds.has(card.id));
-
-        return sortFirstColumnByNewest([...newlyAddedCards, ...existingCardsInCurrentOrder]);
-      });
-    }
-  }, [agentsList, isLoading]);
+  const dragStartColumnRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (!selectedCard?.id) return;
@@ -109,7 +64,6 @@ export function KanbanBoard() {
     })
   );
 
-  // Loading state
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
@@ -118,14 +72,11 @@ export function KanbanBoard() {
     );
   }
 
-  // Empty state - no agents saved
-  if (!agentsList || agentsList.length === 0) {
+  if (isEmpty) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
         <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-md">
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">
-            No Agents Yet
-          </h2>
+          <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Yet</h2>
           <p className="text-gray-600 mb-4">
             {isSubscribed
               ? "Save agents from your search results to start tracking your query progress here."
@@ -141,13 +92,7 @@ export function KanbanBoard() {
   };
 
   const handleTogglePrepQuery = (cardId: string) => {
-    setCards((prevCards) =>
-      prevCards.map((card) =>
-        card.id === cardId
-          ? { ...card, prepQueryLetterDone: !card.prepQueryLetterDone }
-          : card
-      )
-    );
+    togglePrepQueryLetter(cardId);
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) =>
@@ -157,23 +102,15 @@ export function KanbanBoard() {
   };
 
   const handleFitRatingChange = (cardId: string, rating: FitRating) => {
-    setCards((prevCards) =>
-      prevCards.map((card) =>
-        card.id === cardId ? { ...card, fitRating: rating } : card
-      )
-    );
-    // Update selectedCard if it's the one being changed
+    setFitRating(cardId, rating);
+
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, fitRating: rating } : null));
     }
   };
 
-  const handleMoveCard = (cardId: string, columnId: string) => {
-    setCards((prevCards) =>
-      prevCards.map((card) =>
-        card.id === cardId ? { ...card, columnId } : card
-      )
-    );
+  const handleMoveCard = (cardId: string, columnId: QueryDashColumnId) => {
+    moveCard(cardId, columnId);
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
@@ -181,100 +118,81 @@ export function KanbanBoard() {
   };
 
   const handleProjectNameChange = (cardId: string, projectName: string) => {
-    setCards((prevCards) =>
-      prevCards.map((card) =>
-        card.id === cardId ? { ...card, projectName } : card
-      )
-    );
+    setProjectName(cardId, projectName);
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
-  const getCardsForColumn = (columnId: string) => {
-    return cards.filter((card) => card.columnId === columnId);
-  };
+  const handleNotesSave = (cardId: string, notes: string) => {
+    setNotes(cardId, notes);
 
-  const findColumnByCardId = (cardId: string) => {
-    const card = cards.find((c) => c.id === cardId);
-    return card?.columnId;
+    if (selectedCard?.id === cardId) {
+      setSelectedCard((prev) => (prev ? { ...prev, notes } : null));
+    }
   };
 
   const handleDragStart = (event: DragStartEvent) => {
-    const { active } = event;
-    const card = cards.find((c) => c.id === active.id);
-    if (card) {
-      setActiveCard(card);
-    }
+    const card = findCardById(event.active.id as string);
+    if (!card) return;
+
+    setActiveCard(card);
+    dragStartColumnRef.current = card.columnId;
   };
 
   const handleDragOver = (event: DragOverEvent) => {
     const { active, over } = event;
-
     if (!over) return;
 
     const activeId = active.id as string;
     const overId = over.id as string;
-
-    // Find which columns the active and over items belong to
     const activeColumnId = findColumnByCardId(activeId);
 
-    // Check if we're over a column or a card
-    const isOverColumn = COLUMNS.some((col) => col.id === overId);
-    const overColumnId = isOverColumn ? overId : findColumnByCardId(overId);
+    const isOverColumn = QUERY_DASH_COLUMNS.some((column) => column.id === overId);
+    const overColumnId = isOverColumn
+      ? (overId as QueryDashColumnId)
+      : findColumnByCardId(overId);
 
-    if (!activeColumnId || !overColumnId || activeColumnId === overColumnId) {
-      return;
-    }
+    if (!activeColumnId || !overColumnId || activeColumnId === overColumnId) return;
 
-    // Move card to new column
-    setCards((prevCards) => {
-      return prevCards.map((card) => {
-        if (card.id === activeId) {
-          return { ...card, columnId: overColumnId };
-        }
-        return card;
-      });
-    });
+    moveCard(activeId, overColumnId, { persist: false });
   };
 
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;
+    const startColumnId = dragStartColumnRef.current;
+    dragStartColumnRef.current = null;
 
     setActiveCard(null);
 
-    if (!over) return;
-
     const activeId = active.id as string;
-    const overId = over.id as string;
+    const finalColumnId = findColumnByCardId(activeId);
 
+    if (startColumnId && finalColumnId && finalColumnId !== startColumnId) {
+      moveCard(activeId, finalColumnId, { persist: true, forcePersist: true });
+      return;
+    }
+
+    if (!over || !finalColumnId) return;
+
+    const overId = over.id as string;
     if (activeId === overId) return;
 
-    const activeColumnId = findColumnByCardId(activeId);
-    const isOverColumn = COLUMNS.some((col) => col.id === overId);
-    const overColumnId = isOverColumn ? overId : findColumnByCardId(overId);
+    const isOverColumn = QUERY_DASH_COLUMNS.some((column) => column.id === overId);
+    const overColumnId = isOverColumn
+      ? (overId as QueryDashColumnId)
+      : findColumnByCardId(overId);
 
-    if (!activeColumnId || !overColumnId) return;
+    if (!overColumnId) return;
 
-    // If in the same column, reorder
-    if (activeColumnId === overColumnId && !isOverColumn) {
-      setCards((prevCards) => {
-        const columnCards = prevCards.filter((c) => c.columnId === activeColumnId);
-        const otherCards = prevCards.filter((c) => c.columnId !== activeColumnId);
-
-        const activeIndex = columnCards.findIndex((c) => c.id === activeId);
-        const overIndex = columnCards.findIndex((c) => c.id === overId);
-
-        const reorderedColumnCards = arrayMove(columnCards, activeIndex, overIndex);
-
-        return [...otherCards, ...reorderedColumnCards];
-      });
+    if (finalColumnId === overColumnId && !isOverColumn) {
+      reorderInColumn(finalColumnId, activeId, overId);
     }
   };
 
   return (
-    <div className="overflow-x-auto pb-4 min-h-[calc(100vh-180px)] scrollbar-transparent">
+    <div className="overflow-x-auto min-h-[calc(100vh-80px)] scrollbar-transparent">
       <DndContext
         sensors={sensors}
         collisionDetection={closestCenter}
@@ -283,7 +201,7 @@ export function KanbanBoard() {
         onDragEnd={handleDragEnd}
       >
         <div className="flex gap-4 min-w-fit p-4">
-          {COLUMNS.map((column) => (
+          {QUERY_DASH_COLUMNS.map((column) => (
             <KanbanColumn
               key={column.id}
               column={column}
@@ -300,16 +218,16 @@ export function KanbanBoard() {
         </DragOverlay>
       </DndContext>
 
-      {/* Agent Detail Dialog */}
       <KanbanDialog
         card={selectedCard}
-        columns={COLUMNS}
+        columns={QUERY_DASH_COLUMNS}
         open={!!selectedCard}
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
         onProjectNameChange={handleProjectNameChange}
-        onMoveCard={handleMoveCard}
+        onNotesSave={handleNotesSave}
+        onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
       />
     </div>
   );

@@ -8,12 +8,14 @@ interface KanbanNotesProps {
     notes: string;
     setNotes: (notes: string) => void;
     saveNotes: () => void;
+    cancelNotes: () => void;
 }
 
 export const KanbanNotes = ({
     notes,
     setNotes,
     saveNotes,
+    cancelNotes,
 }: KanbanNotesProps) => {
     const [notesActive, setNotesActive] = useState(false);
 
@@ -48,7 +50,10 @@ export const KanbanNotes = ({
                             Save
                         </Button>
                         <Button
-                            onClick={() => setNotesActive(false)}
+                            onClick={() => {
+                                cancelNotes();
+                                setNotesActive(false);
+                            }}
                             variant="outline"
                             size="sm"
                         >

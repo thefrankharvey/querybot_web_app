@@ -33,7 +33,6 @@ export const AgentMatchesFull = () => {
     matches,
     totalAgents,
     formData,
-    totalAgents,
     saveMatches,
     nextCursorCount,
     saveNextCursor,

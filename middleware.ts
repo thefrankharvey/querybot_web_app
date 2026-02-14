@@ -26,6 +26,7 @@ export default clerkMiddleware(async (auth, req) => {
       !pathname.startsWith("/api") &&
       !pathname.startsWith("/sign-") &&
       !pathname.startsWith("/saved-agents") &&
+      !pathname.startsWith("/home") &&
       !pathname.startsWith("/query-dashboard") &&
       !pathname.startsWith("/subscribe") &&
       !pathname.startsWith("/agent-matches") &&

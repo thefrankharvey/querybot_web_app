@@ -83,7 +83,7 @@ const Account = () => {
   };
   return (
     <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto">
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-[27px] flex gap-4 items-center text-accent">
+      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-[27px] flex gap-4 items-center text-accent pt-6">
         Account
       </h1>
       <div className="flex flex-col gap-8 bg-white rounded-lg p-4 md:p-12 w-full shadow-lg">
