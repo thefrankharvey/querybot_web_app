@@ -164,6 +164,39 @@
   background-color: oklch(0.38 0.05 202.74 / 0.5);
 }
 
-.query-dashboard-overflow-hidden {
-  overflow-y: hidden;
+.h-dvh-safe {
+  height: 100vh;
+  height: 100dvh;
+}
+
+@media (max-width: 767px) {
+  body.query-dashboard-overflow-hidden {
+    overflow: hidden;
+    overscroll-behavior: none;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  body.query-dashboard-overflow-hidden .app-layout-shell {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  body.query-dashboard-overflow-hidden .app-layout-mobile-header {
+    flex-shrink: 0;
+  }
+
+  body.query-dashboard-overflow-hidden .app-layout-main-shell {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body.query-dashboard-overflow-hidden .app-layout-main {
+    min-height: 0;
+    overflow: hidden;
+  }
 }

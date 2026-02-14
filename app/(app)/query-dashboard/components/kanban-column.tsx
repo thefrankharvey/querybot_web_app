@@ -89,7 +89,7 @@ export function KanbanColumn({
   const hasScrollbar = useHasScrollbar(scrollRef, filteredCards);
 
   return (
-    <div className={cn("flex flex-col w-[272px] min-w-[272px]", className)}>
+    <div className={cn("flex flex-col w-[272px] min-w-[272px] h-full min-h-0", className)}>
       <div className="text-base bg-accent/10 rounded-lg px-4 font-medium text-accent py-3 flex items-center justify-between gap-2 mb-4">
         <h2 className="text-left">
           {column.title}
@@ -104,7 +104,7 @@ export function KanbanColumn({
       <div
         ref={mergedRef}
         className={cn(
-          "flex flex-col gap-2 p-2 bg-accent/10 rounded-lg h-[calc(100vh-150px)] md:h-[calc(100vh-200px)] overflow-y-auto md:scrollbar-transparent",
+          "flex flex-1 min-h-0 flex-col gap-2 p-2 bg-accent/10 rounded-lg overflow-y-auto overscroll-contain md:scrollbar-transparent",
           hasScrollbar && "md:pr-0",
         )}
       >
