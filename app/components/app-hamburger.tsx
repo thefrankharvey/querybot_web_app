@@ -1,54 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { cn } from "../utils";
 import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 import { usePathname } from "next/navigation";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/app/ui-primitives/accordion";
-import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ACCORDION_STORAGE_KEY } from "../constants";
-import { Spinner } from "../ui-primitives/spinner";
 import { Newspaper, NotebookPen, ScanSearch } from "lucide-react";
 
 export const AppHamburger = () => {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
-  const { agentsList, isLoading } = useProfileContext();
-  const [accordionValue, setAccordionValue] = useState<string | undefined>(
-    undefined
-  );
-  const [hasLoadedFromStorage, setHasLoadedFromStorage] = useState(false);
-
-  useEffect(() => {
-    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
-    if (saved !== null) {
-      setAccordionValue(saved === "open" ? "saved-agents" : undefined);
-    }
-    setHasLoadedFromStorage(true);
-  }, []);
-
-  useEffect(() => {
-    if (!hasLoadedFromStorage) return;
-
-    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
-    if (saved === null && agentsList && agentsList.length > 0) {
-      setAccordionValue("saved-agents");
-      localStorage.setItem(ACCORDION_STORAGE_KEY, "open");
-    }
-  }, [agentsList, hasLoadedFromStorage]);
-
-  const handleAccordionChange = (value: string | undefined) => {
-    setAccordionValue(value);
-    localStorage.setItem(ACCORDION_STORAGE_KEY, value ? "open" : "closed");
-  };
 
   return (
     <>

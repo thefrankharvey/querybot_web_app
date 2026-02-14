@@ -1,54 +1,19 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/app/ui-primitives/accordion";
-import { Spinner } from "@/app/ui-primitives/spinner";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { ScanSearch, Newspaper, NotebookPen, Home } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
-import { ACCORDION_STORAGE_KEY } from "../constants";
 
 export const SideBarNav = () => {
   const pathname = usePathname();
-  const { agentsList, isLoading } = useProfileContext();
+  const { agentsList } = useProfileContext();
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
-  const [accordionValue, setAccordionValue] = useState<string | undefined>(
-    undefined
-  );
-  const [hasLoadedFromStorage, setHasLoadedFromStorage] = useState(false);
-
-  useEffect(() => {
-    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
-    if (saved !== null) {
-      setAccordionValue(saved === "open" ? "saved-agents" : undefined);
-    }
-    setHasLoadedFromStorage(true);
-  }, []);
-
-  useEffect(() => {
-    if (!hasLoadedFromStorage) return;
-
-    const saved = localStorage.getItem(ACCORDION_STORAGE_KEY);
-    if (saved === null && agentsList && agentsList.length > 0) {
-      setAccordionValue("saved-agents");
-      localStorage.setItem(ACCORDION_STORAGE_KEY, "open");
-    }
-  }, [agentsList, hasLoadedFromStorage]);
-
-  const handleAccordionChange = (value: string | undefined) => {
-    setAccordionValue(value);
-    localStorage.setItem(ACCORDION_STORAGE_KEY, value ? "open" : "closed");
-  };
 
   return (
     <div className="w-[195px] shrink-0 pt-4 ml-8 sticky top-0 self-start h-fit hidden md:block">
