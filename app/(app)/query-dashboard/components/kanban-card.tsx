@@ -5,6 +5,37 @@ import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
 import { SquarePen, Grip, Circle, CircleCheckBigIcon } from "lucide-react";
 
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function parseDateOnly(value: string): Date | null {
+  const datePart = value.split("T")[0];
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(datePart);
+  if (!match) return null;
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const parsed = new Date(year, month - 1, day);
+
+  if (
+    parsed.getFullYear() !== year ||
+    parsed.getMonth() !== month - 1 ||
+    parsed.getDate() !== day
+  ) {
+    return null;
+  }
+
+  return parsed;
+}
+
+function getCalendarDayDiffFromToday(date: Date): number {
+  const today = new Date();
+  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
+  return Math.max(0, diffDays);
+}
+
 // Fit Rating types and configuration
 export type FitRating = "perfect" | "great" | "good" | "neutral";
 
@@ -30,6 +61,7 @@ export interface KanbanCardData {
   // From database
   id: string;
   created_at?: string;
+  updated_date?: string | null;
   name: string;
   email?: string | null;
   agency?: string | null;
@@ -43,6 +75,7 @@ export interface KanbanCardData {
   prepQueryLetterDone: boolean;
   fitRating: FitRating;
   projectName: string;
+  notes: string;
 }
 
 interface KanbanCardProps {
@@ -88,12 +121,39 @@ export function KanbanCard({
     onCardClick?.(card);
   };
 
+  const isTimingColumn =
+    card.columnId === "submitted-query" || card.columnId === "pages-requested";
+  const parsedUpdatedDate =
+    isTimingColumn && card.updated_date ? parseDateOnly(card.updated_date) : null;
+  const daysAgo =
+    parsedUpdatedDate ? getCalendarDayDiffFromToday(parsedUpdatedDate) : null;
+  const timingText =
+    daysAgo != null
+      ? card.columnId === "submitted-query"
+        ? daysAgo === 0
+          ? "Submitted Query Today"
+          : `Submitted Query ${daysAgo} Days ago`
+        : card.columnId === "pages-requested"
+          ? daysAgo === 0
+            ? "Pages Requested Today"
+            : `Pages Requested ${daysAgo} Days ago`
+          : null
+      : null;
+  const isRejected = card.columnId === "rejected";
+
   // Card content shared between regular and overlay views
   const cardContent = (
     <>
       {/* Agent Name */}
       <div className="flex items-center justify-between">
-        <p className="text-sm font-semibold text-gray-900 truncate capitalize">{card.name}</p>
+        <p
+          className={cn(
+            "text-sm font-semibold text-gray-900 truncate capitalize",
+            isRejected && "line-through"
+          )}
+        >
+          {card.name}
+        </p>
         {useDragHandle ? (
           <div
             {...attributes}
@@ -109,9 +169,23 @@ export function KanbanCard({
         )}
       </div>
       {card.agency && (
-        <p className="text-xs text-gray-500 truncate mt-0.5">{card.agency}</p>
+        <p
+          className={cn(
+            "text-xs text-gray-500 truncate mt-0.5",
+            isRejected && "line-through"
+          )}
+        >
+          {card.agency}
+        </p>
       )}
-      <div className="flex items-center gap-1 mt-4 mb-4">
+      {timingText && (
+        <div className="mt-4">
+          <p className="text-xs font-semibold text-accent cursor-pointer">
+            {timingText}
+          </p>
+        </div>
+      )}
+      <div className={cn("flex items-center gap-1 mb-4", timingText ? "mt-3" : "mt-4")}>
         <label
           htmlFor={`prep-query-${card.id}`}
           className="text-xs font-semibold text-accent cursor-pointer"
@@ -161,7 +235,7 @@ export function KanbanCard({
       {...(useDragHandle ? {} : { ...attributes, ...listeners })}
       onClick={handleCardClick}
       className={cn(
-        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 transition-all duration-300",
+        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 transition-all duration-300 md:max-w-[256px]",
         !useDragHandle && "cursor-grab active:cursor-grabbing",
         isDragging && "opacity-50 shadow-lg"
       )}

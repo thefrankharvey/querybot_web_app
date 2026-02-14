@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -27,14 +27,53 @@ import { Input } from "@/app/ui-primitives/input";
 import { KanbanLinkButtons } from "./kanban-link-buttons";
 import { Circle, CircleCheckBigIcon } from "lucide-react";
 
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function parseDateOnly(value: string): Date | null {
+  const datePart = value.split("T")[0];
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(datePart);
+  if (!match) return null;
+
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const parsed = new Date(year, month - 1, day);
+
+  if (
+    parsed.getFullYear() !== year ||
+    parsed.getMonth() !== month - 1 ||
+    parsed.getDate() !== day
+  ) {
+    return null;
+  }
+
+  return parsed;
+}
+
+function getCalendarDayDiffFromToday(date: Date): number {
+  const today = new Date();
+  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
+  return Math.max(0, diffDays);
+}
+
+function formatAsMMDDYYYY(date: Date): string {
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  const year = date.getFullYear();
+  return `${month}/${day}/${year}`;
+}
+
 interface KanbanDialogProps {
   card: KanbanCardData | null;
-  columns: ColumnData[];
+  columns: readonly ColumnData[];
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onTogglePrepQuery: (cardId: string) => void;
   onFitRatingChange: (cardId: string, rating: FitRating) => void;
   onProjectNameChange: (cardId: string, projectName: string) => void;
+  onNotesSave: (cardId: string, notes: string) => void;
   onMoveCard: (cardId: string, columnId: string) => void;
 }
 
@@ -46,13 +85,47 @@ export function KanbanDialog({
   onTogglePrepQuery,
   onFitRatingChange,
   onProjectNameChange,
+  onNotesSave,
   onMoveCard,
 }: KanbanDialogProps) {
   const [notes, setNotes] = useState("");
 
+  useEffect(() => {
+    if (!open || !card) return;
+    setNotes(card.notes ?? "");
+  }, [card, open]);
+
   if (!card) return null;
 
   const emails = formatEmail(card.email);
+  const isTimingColumn =
+    card.columnId === "submitted-query" || card.columnId === "pages-requested";
+  const parsedUpdatedDate =
+    isTimingColumn && card.updated_date ? parseDateOnly(card.updated_date) : null;
+  const timingPrefix =
+    card.columnId === "submitted-query"
+      ? "Submitted Query"
+      : card.columnId === "pages-requested"
+        ? "Pages Requested"
+        : null;
+  const timingLabel =
+    parsedUpdatedDate && timingPrefix
+      ? (() => {
+        const daysAgo = getCalendarDayDiffFromToday(parsedUpdatedDate);
+        return daysAgo === 0
+          ? `${timingPrefix} Today`
+          : `${timingPrefix} ${daysAgo} days ago`;
+      })()
+      : null;
+  const timingDate = parsedUpdatedDate ? formatAsMMDDYYYY(parsedUpdatedDate) : null;
+
+  const handleSaveNotes = () => {
+    onNotesSave(card.id, notes);
+  };
+
+  const handleCancelNotes = () => {
+    setNotes(card.notes ?? "");
+  };
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -91,13 +164,22 @@ export function KanbanDialog({
           </div>
         </DialogHeader>
 
-
-        <div className="flex flex-col gap-2">
-          <div className="flex flex-col">
-            <label className="text-sm font-semibold text-gray-700">
-              Preferred Contact Method
-            </label>
-            <span className="text-sm text-gray-600">Query via email</span>
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-row gap-8">
+            <div className="flex flex-col">
+              <label className="text-sm font-semibold text-gray-700">
+                Preferred Contact Method
+              </label>
+              <span className="text-sm text-gray-600">Query via email</span>
+            </div>
+            {timingLabel && timingDate && (
+              <div className="flex flex-col">
+                <label className="text-sm font-semibold text-gray-700">
+                  {timingLabel}
+                </label>
+                <span className="text-sm text-gray-600">{timingDate}</span>
+              </div>
+            )}
           </div>
           {/* Email */}
           <div className="flex flex-col">
@@ -155,10 +237,15 @@ export function KanbanDialog({
                 Project Name
               </label>
               <Input
+                className="w-full md:w-[330px]"
+                maxLength={70}
                 value={card.projectName ?? "My Project"}
                 placeholder="My Project"
                 onChange={(e) => onProjectNameChange(card.id, e.target.value)}
               />
+              {(card.projectName ?? "My Project").length >= 70 && (
+                <p className="text-red-500 text-sm">max characters reached</p>
+              )}
             </div>
           </div>
 
@@ -179,7 +266,12 @@ export function KanbanDialog({
           </div>
         </div>
         {/* Notes Section */}
-        <KanbanNotes notes={notes} setNotes={setNotes} saveNotes={() => { }} />
+        <KanbanNotes
+          notes={notes}
+          setNotes={setNotes}
+          saveNotes={handleSaveNotes}
+          cancelNotes={handleCancelNotes}
+        />
       </DialogContent>
     </Dialog>
   );

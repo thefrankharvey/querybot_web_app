@@ -13,7 +13,7 @@ import {
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen } from "lucide-react";
+import { ScanSearch, Newspaper, NotebookPen, Home } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { ACCORDION_STORAGE_KEY } from "../constants";
@@ -72,6 +72,18 @@ export const SideBarNav = () => {
               </Link>
             )}
             <Link
+              href="/home"
+              className={cn(
+                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                pathname.includes("home")
+                  ? "text-accent bg-accent/10"
+                  : "text-black"
+              )}
+            >
+              <Home className="w-4 h-4" />
+              Home
+            </Link>
+            <Link
               href="/smart-match"
               className={cn(
                 "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
@@ -127,74 +139,6 @@ export const SideBarNav = () => {
               <NotebookPen className="w-4 h-4" />
               Blog
             </Link>
-            <Accordion
-              type="single"
-              collapsible
-              className="w-full"
-              value={accordionValue}
-              onValueChange={handleAccordionChange}
-            >
-              <AccordionItem value="saved-agentses">
-                <AccordionTrigger
-                  className={cn(
-                    "underline-none flex flex-row items-center w-full justify-between text-sm font-medium transition-colors duration-300 px-3 py-2 rounded-md hover:text-accent hover:bg-accent/10",
-                    pathname.includes("saved-agents")
-                      ? "text-accent bg-accent/10"
-                      : "text-black"
-                  )}
-                >
-                  <Link
-                    href={`/saved-agents/${agentsList?.[0]?.index_id || ""}`}
-                    onClick={(e) => e.stopPropagation()}
-                    className="flex items-center gap-2"
-                  >
-                    {agentsList && agentsList.length > 0 ? (
-                      <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-4 w-4 text-sm p-3 ml-[-3px]">
-                        {agentsList.length}
-                      </span>
-                    ) : (
-                      ""
-                    )}
-                    <span className="flex">Saved Agents</span>
-                  </Link>
-                </AccordionTrigger>
-                <AccordionContent className="pb-0">
-                  {isLoading ? (
-                    <div className="flex justify-center items-center ml-4 mt-2 py-4">
-                      <Spinner />
-                    </div>
-                  ) : agentsList?.length && agentsList.length > 0 ? (
-                    <div className="flex flex-col gap-2 ml-4 mt-2">
-                      {agentsList.map((agent) => (
-                        <Link
-                          href={`/saved-agents/${agent.index_id}`}
-                          key={agent.id}
-                        >
-                          <h3
-                            className={cn(
-                              "text-sm font-medium transition-colors duration-300 hover:text-accent pr-3 pl-[25px] py-2 rounded-md capitalize max-w-[160px] truncate hover:bg-accent/10",
-                              pathname.includes(
-                                `/saved-agents/${agent.index_id}`
-                              )
-                                ? "text-accent bg-accent/10"
-                                : "text-black"
-                            )}
-                          >
-                            {agent.name}
-                          </h3>
-                        </Link>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="flex flex-col gap-2 ml-4 mt-4">
-                      <p className="text-sm font-medium text-black">
-                        No saved agents
-                      </p>
-                    </div>
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
             <hr className="my-2 border-t-1 border-accent/10" />
             <Link
               href="/account"

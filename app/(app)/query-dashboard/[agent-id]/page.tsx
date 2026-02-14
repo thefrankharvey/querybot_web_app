@@ -92,7 +92,7 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
 
   return (
     <div>
-      <div className="max-w-[1000px] mx-auto pb-4 flex justify-between items-center pt-3">
+      <div className="max-w-[1000px] mx-auto pb-4 flex justify-between items-center pt-3 mt-16">
         <Link
           href="/query-dashboard"
           className="flex items-center gap-2 hover:text-accent transition-colors duration-300"

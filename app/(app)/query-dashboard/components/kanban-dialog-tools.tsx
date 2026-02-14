@@ -20,7 +20,7 @@ import { RemoveAgent } from "./remove-agent";
 
 interface KanbanDialogToolsProps {
   currentColumnId: string;
-  columns: ColumnData[];
+  columns: readonly ColumnData[];
   onMoveCard: (cardId: string, columnId: string) => void;
   onOpenChange: (open: boolean) => void;
   card: KanbanCardData;

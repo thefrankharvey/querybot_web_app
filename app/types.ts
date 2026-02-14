@@ -152,6 +152,12 @@ export type AgentMatch = {
   query_tracker?: string | null;
   pub_marketplace?: string | null;
   match_score?: number | null;
+  fit_rating?: string | null;
+  column_name?: string | null;
+  updated_date?: string | null;
+  notes?: string | null;
+  query_letter_ready?: boolean | null;
+  project_name?: string | null;
   created_at: string; // ISO timestamp
 };
 
@@ -165,6 +171,12 @@ export interface SaveAgentPayload {
   query_tracker?: string | null;
   pub_marketplace?: string | null;
   match_score?: number | null;
+  fit_rating?: string | null;
+  column_name?: string | null;
+  updated_date?: string | null;
+  notes?: string | null;
+  query_letter_ready?: boolean | null;
+  project_name?: string | null;
 }
 
 // Type for the API response
@@ -180,8 +192,23 @@ export interface SaveAgentResponse {
     query_tracker?: string | null;
     pub_marketplace?: string | null;
     match_score?: number | null;
+    fit_rating?: string | null;
+    column_name?: string | null;
+    updated_date?: string | null;
+    notes?: string | null;
+    query_letter_ready?: boolean | null;
+    project_name?: string | null;
     created_at: string; // ISO timestamp
   }>;
+}
+
+export interface UpdateAgentPayload {
+  fit_rating?: string | null;
+  column_name?: string | null;
+  updated_date?: string | null;
+  notes?: string | null;
+  query_letter_ready?: boolean | null;
+  project_name?: string | null;
 }
 
 export type FetchAgentResponse = {

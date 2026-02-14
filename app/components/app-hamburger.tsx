@@ -101,6 +101,19 @@ export const AppHamburger = () => {
             )}
             <Link
               onClick={() => setOpen(false)}
+              href="/home"
+              className={cn(
+                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                pathname.includes("home")
+                  ? "text-accent bg-accent/10 rounded-md"
+                  : "text-black"
+              )}
+            >
+              <ScanSearch className="w-4 h-4" />
+              Home
+            </Link>
+            <Link
+              onClick={() => setOpen(false)}
               href="/smart-match"
               className={cn(
                 "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
@@ -138,76 +151,6 @@ export const AppHamburger = () => {
               <NotebookPen className="w-4 h-4" />
               Blog
             </Link>
-            <Accordion
-              type="single"
-              collapsible
-              className="w-full md:w-fit"
-              value={accordionValue}
-              onValueChange={handleAccordionChange}
-            >
-              <AccordionItem value="saved-agentses">
-                <AccordionTrigger
-                  className={cn(
-                    "underline-none flex flex-row items-center justify-center text-base font-medium transition-colors duration-300 px-3 py-2 rounded-md hover:text-accent hover:bg-accent/10",
-                    pathname.includes("saved-agents")
-                      ? "text-accent bg-accent/10"
-                      : "text-black"
-                  )}
-                >
-                  <Link
-                    href={`/saved-agents/${agentsList?.[0]?.index_id || ""}`}
-                    onClick={(e) => { e.stopPropagation(); setOpen(false) }}
-                    className="flex items-center gap-2"
-                  >
-                    {agentsList && agentsList.length > 0 ? (
-                      <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-4 w-4 text-sm p-3 ml-[-3px]">
-                        {agentsList.length}
-                      </span>
-                    ) : (
-                      ""
-                    )}
-                    <span className="flex text-base font-medium">
-                      Saved Agents
-                    </span>
-                  </Link>
-                </AccordionTrigger>
-                <AccordionContent className="pb-0">
-                  {isLoading ? (
-                    <div className="flex justify-center items-center ml-4 mt-2 py-4">
-                      <Spinner />
-                    </div>
-                  ) : agentsList?.length && agentsList.length > 0 ? (
-                    <div className="flex justify-center items-center flex-col gap-2 ml-4 mt-2">
-                      {agentsList.map((agent) => (
-                        <Link
-                          href={`/saved-agents/${agent.index_id}`}
-                          key={agent.id}
-                        >
-                          <h3
-                            className={cn(
-                              "text-base font-medium transition-colors duration-300 hover:text-accent px-3 py-2 rounded-md capitalize",
-                              pathname.includes(
-                                `/saved-agents/${agent.index_id}`
-                              )
-                                ? "text-accent bg-accent/10"
-                                : "text-black"
-                            )}
-                          >
-                            {agent.name}
-                          </h3>
-                        </Link>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="flex flex-col justify-center items-center gap-2 ml-4 mt-4">
-                      <p className="text-base font-medium text-black">
-                        No saved agents
-                      </p>
-                    </div>
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
           </SignedIn>
           <div className="flex justify-center flex-col items-center gap-6 w-full md:w-fit mt-10">
             <hr className="w-full border-t-1 border-accent/10 md:hidden" />
