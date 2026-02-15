@@ -30,6 +30,10 @@ export default function QDashDialog({
                         The Saved Agents page is now the <span className="font-bold">Query Dashboard</span>!
                         The agents you have saved are safe and sound, you&apos;ll find them in the {` `}
                         <span className="font-bold">Query Dashboard</span>, with new features to help you track your query progress!
+                        <br />
+                        <br />
+                        If you have any questions or feedback feel free to reach out to us on social media or via email at<br />
+                        <span className="font-bold">feedback@writequeryhook.com</span>.
                     </DialogDescription>
                 </DialogHeader>
                 <div className="pt-2 text-center">
