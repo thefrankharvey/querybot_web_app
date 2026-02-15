@@ -26,7 +26,7 @@ export default function QDashDialog({
             <DialogContent className="bg-white border-accent/20">
                 <DialogHeader>
                     <DialogTitle className="text-center mt-2">Saved Agents page upgraded!</DialogTitle>
-                    <DialogDescription className="text-base leading-relaxed mt-4 mb-2">
+                    <DialogDescription className="text-base leading-relaxed mt-4 mb-2 text-left md:text-center">
                         The Saved Agents page is now the <span className="font-bold">Query Dashboard</span>!
                         The agents you have saved are safe and sound, you&apos;ll find them in the {` `}
                         <span className="font-bold">Query Dashboard</span>, with new features to help you track your query progress!
