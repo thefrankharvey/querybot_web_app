@@ -4,12 +4,12 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useRouter } from "next/navigation";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
-import { ActionCards } from "@/app/components/action-cards";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "../context/profile-context";
 import FreeUser from "./components/free-user";
 import SubscriberEmpty from "./components/subscriber-empty";
 import QDashDialog from "./components/q-dash-dialog";
+import ButtonBar from "./components/button-bar";
 
 const SavedAgents = () => {
   const { agentsList, isLoading: isProfileLoading } = useProfileContext();
@@ -101,15 +101,15 @@ const SavedAgents = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-4 p-4">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-5 p-4">
       <QDashDialog
         open={isQDashDialogOpen}
         onOpenChange={handleQDashOpenChange}
         onCtaClick={handleQDashCtaClick}
       />
-      <ActionCards />
-      {/* <ButtonBar /> */}
-      <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg p-10 md:p-12 w-full shadow-lg justify-center items-center border border-accent/20">
+      {/* <ActionCards /> */}
+      <ButtonBar />
+      <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg py-10 px-4 md:p-12 w-full shadow-lg justify-center items-center border border-accent/20">
         {isLoading ? <Spinner className="size-16" /> : isSubscribed ? <SubscriberEmpty /> : <FreeUser />}
       </div>
     </div>

@@ -82,7 +82,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
 
   return (
     <>
-      <div className="flex gap-2 mb-8">
+      <div className="flex gap-2 mb-8 flex-wrap">
         <Button
           className="shadow-lg hover:shadow-xl"
           size="lg"

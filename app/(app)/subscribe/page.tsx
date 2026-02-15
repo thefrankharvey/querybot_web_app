@@ -6,7 +6,7 @@ import { SubscriptionFAQs } from "./components/subscription-faqs";
 
 const Subscription = () => {
   return (
-    <div className="flex flex-col gap-40 items-center">
+    <div className="flex flex-col gap-40 items-center max-sm:px-4 pt-8">
       <SubscriptionDetails />
       <CompareCompetitors />
       <SubscriptionFAQs />

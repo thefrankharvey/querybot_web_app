@@ -4,7 +4,7 @@ import { ExternalLinkIcon, ScanSearch, UsersIcon } from "lucide-react";
 import Link from "next/link";
 
 export const ActionCards = () => {
-  const { isSubscribed, isLoading } = useClerkUser();
+  const { isLoading } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
 
   const actionCardData = [
@@ -20,7 +20,7 @@ export const ActionCards = () => {
     },
   ];
 
-  if (isSubscribed && hasAgentMatches && !isLoading) {
+  if (hasAgentMatches && !isLoading) {
     actionCardData.push({
       title: "Previous Matches",
       link: "/agent-matches",

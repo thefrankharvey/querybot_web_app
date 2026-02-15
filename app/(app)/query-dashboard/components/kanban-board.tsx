@@ -15,7 +15,6 @@ import {
 import { KanbanColumn } from "./kanban-column";
 import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
 import { KanbanDialog } from "./kanban-dialog";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import {
   QUERY_DASH_COLUMNS,
@@ -26,7 +25,6 @@ import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
 
 export function KanbanBoard() {
-  const { isSubscribed } = useClerkUser();
   const {
     cards,
     isLoading,
@@ -74,17 +72,6 @@ export function KanbanBoard() {
     );
   }
 
-  // <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
-  //   <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-xl">
-  //     <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Yet</h2>
-  //     <p className="text-gray-600 mb-4">
-  //       {isSubscribed
-  //         ? "Save agents from your search results to start tracking your query progress here."
-  //         : "Subscribe to save agents and track your querying journey."}
-  //     </p>
-  //   </div>
-  // </div>
-
   if (isEmpty) {
     return (
       <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg md:w-[1000px] md:mx-auto mt-13 shadow-lg justify-center items-center border border-accent/20 mx-auto">
@@ -92,10 +79,8 @@ export function KanbanBoard() {
           <h1 className="text-lg md:text-3xl font-bold text-gray-900">
             No Agents Saved Yet
           </h1>
-          <p className="text-sm md:text-base text-gray-600 font-semibold">
-            {isSubscribed
-              ? "Save agents from your Smart Match search results to start tracking your query progress here."
-              : "Subscribe to save agents and track your querying journey."}
+          <p className="text-sm md:text-base text-gray-600 w-full md:w-3/4 text-center">
+            Save agents from your Smart Match search results to start tracking your query progress here!
           </p>
           <div className="pt-2 text-center">
             <Link href="/smart-match">

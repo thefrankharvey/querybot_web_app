@@ -1,5 +1,4 @@
 export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
-
 export const COUNTRY_FLAG_LABELS = {
   all: {
     label: "All Countries",

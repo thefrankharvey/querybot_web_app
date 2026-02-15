@@ -8,6 +8,7 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import CountryFilter from "./country-filter";
 import { SaveAgentPayload } from "@/app/types";
 import ProgressBar from "../../smart-match/components/progress-bar";
+import TooltipComponent from "@/app/components/tooltip";
 
 export const AgentMatchesInner = ({
   matches,
@@ -72,37 +73,81 @@ export const AgentMatchesInner = ({
                 onValueChange={onCountryChange}
               />
             )}
-            {onSaveAllAgents && (
-              <Button
-                onClick={onSaveAllAgents}
-                disabled={isSavingAll || isLoading || matches.length === 0}
-                className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+            {!isSubscribed ? (
+              <TooltipComponent
+                className="w-full md:w-fit"
+                contentClass="text-center"
+                content="Subscribe to save all agent matches!"
               >
-                <div className="flex items-center gap-2">
-                  {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Save className="w-4 h-4 text-white" />}
-                  <span>Save All Agents</span>
-                </div>
-              </Button>
+                <Button
+                  disabled={true}
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <div className="flex items-center gap-2">
+                    <Save className="w-4 h-4 text-white" />
+                    <span>Save All Agents</span>
+                  </div>
+                </Button>
+              </TooltipComponent>
+            ) : (
+              onSaveAllAgents && (
+                <Button
+                  onClick={onSaveAllAgents}
+                  disabled={isSavingAll || isLoading || matches.length === 0}
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <div className="flex items-center gap-2">
+                    {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Save className="w-4 h-4 text-white" />}
+                    <span>Save All Agents</span>
+                  </div>
+                </Button>
+              ))}
+            {!isSubscribed ? (
+              <TooltipComponent
+                className="w-full md:w-fit"
+                contentClass="text-center"
+                content="Subscribe to download all agent matches!"
+              >
+                <Button
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  disabled={true}
+                >
+                  <div className="flex items-center gap-2">
+                    <ExternalLink className="w-4 h-4 text-white" />
+                    <span>Query Spreadsheet</span>
+                  </div>
+                </Button>
+              </TooltipComponent>
+            ) : (
+              <a
+                href={spreadsheetUrl || undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto"
+                onClick={(e) => {
+                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
+                    e.preventDefault();
+                }}
+              >
+                <Button
+                  disabled={
+                    sheetStatus === "pending" || !spreadsheetUrl || isLoading
+                  }
+                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <div className="flex items-center gap-2">
+                    {sheetStatus === "pending" ||
+                      !spreadsheetUrl ||
+                      isLoading ? (
+                      <Spinner className="w-4 h-4 text-white" />
+                    ) : (
+                      <ExternalLink className="w-4 h-4 text-white" />
+                    )}
+                    <span>Query Spreadsheet</span>
+                  </div>
+                </Button>
+              </a>
             )}
-            <a
-              href={spreadsheetUrl || undefined}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full md:w-auto"
-              onClick={(e) => {
-                if (sheetStatus === "pending" || !spreadsheetUrl || isLoading) e.preventDefault();
-              }}
-            >
-              <Button
-                disabled={sheetStatus === "pending" || !spreadsheetUrl || isLoading}
-                className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
-              >
-                <div className="flex items-center gap-2">
-                  {sheetStatus === "pending" || !spreadsheetUrl || isLoading ? <Spinner className="w-4 h-4 text-white" /> : <ExternalLink className="w-4 h-4 text-white" />}
-                  <span>Query Spreadsheet</span>
-                </div>
-              </Button>
-            </a>
             {/* <ExplanationBlock /> */}
           </div>
         </div>

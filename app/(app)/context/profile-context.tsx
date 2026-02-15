@@ -82,7 +82,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
       await refetch();
 
       toast.success("Agent saved successfully!", {
-        description: "You can view your saved agents anytime in your profile.",
+        description: "View your saved agents in your query dashboard!",
         duration: 3000,
       });
 
@@ -90,7 +90,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     } catch (error) {
       const errorMessage =
         error instanceof Error &&
-        error.message.includes("duplicate key value violates")
+          error.message.includes("duplicate key value violates")
           ? "Agent already exists in your saved agents"
           : "An error occurred while attempting to save the agent";
 
@@ -153,7 +153,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     } catch (error) {
       const errorMessage =
         error instanceof Error &&
-        error.message.includes("duplicate key value violates")
+          error.message.includes("duplicate key value violates")
           ? "Some agents already exist in your saved agents"
           : "An error occurred while attempting to save the agents";
 

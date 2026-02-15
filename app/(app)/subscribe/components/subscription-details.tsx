@@ -45,6 +45,25 @@ const dispatchCopy = [
   },
 ];
 
+const queryDashboardCopy = [
+  {
+    textDefault: "Track every query in one place",
+    textHover: "Makes tracking your query progress easy",
+  },
+  {
+    textDefault: "Save agent matches and filter by fit and readiness",
+    textHover: "Target agents precisely",
+  },
+  {
+    textDefault: "Update statuses from your phone on the go",
+    textHover: "Mobile friendly",
+  },
+  {
+    textDefault: "Add notes and project titles for every submission",
+    textHover: "Never lose context",
+  },
+];
+
 const slushwireBlogCopy = [
   {
     textDefault: "Weekly newsletter delivered to your inbox",
@@ -108,7 +127,7 @@ const SubscriptionDetails = () => {
           ease: "easeOut",
         }}
       >
-        <h1 className="text-4xl md:text-[40px] font-semibold leading-tight text-accent text-center mb-5">
+        <h1 className="text-4xl md:text-[40px] font-semibold leading-tight text-accent text-center mb-5 md:pt-12">
           Query smarter. <br className="md:hidden" />
           Get repped faster.
         </h1>
@@ -154,7 +173,7 @@ const SubscriptionDetails = () => {
               </Button>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col w-full gap-8 pt-8 pb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-8 pt-8 pb-8">
             <div className="flex flex-col w-full">
               <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
                 Smart Match
@@ -175,6 +194,20 @@ const SubscriptionDetails = () => {
               </span>
               <ul className="list-disc gap-6 flex flex-col text-base">
                 {dispatchCopy.map((item) => (
+                  <HoverListItem
+                    key={item.textDefault}
+                    textDefault={item.textDefault}
+                    textHover={item.textHover}
+                  />
+                ))}
+              </ul>
+            </div>
+            <div className="flex flex-col w-full">
+              <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
+                Query Dashboard
+              </span>
+              <ul className="list-disc gap-6 flex flex-col text-base">
+                {queryDashboardCopy.map((item) => (
                   <HoverListItem
                     key={item.textDefault}
                     textDefault={item.textDefault}

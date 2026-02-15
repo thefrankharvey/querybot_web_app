@@ -1,9 +1,11 @@
 import { QUERY_LIMIT } from "@/app/constants";
 import { useMutation } from "@tanstack/react-query";
-import { useAgentMatches, FormData } from "../../context/agent-matches-context";
+import { useAgentMatches, FormData, AgentMatch } from "../../context/agent-matches-context";
 import { useRef } from "react";
 import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
+import { SaveAgentPayload } from "@/app/types";
+import { useProfileContext } from "../../context/profile-context";
 
 declare global {
   interface Window {
@@ -11,6 +13,17 @@ declare global {
     lastTouchY?: number;
   }
 }
+
+const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
+  name: agent.name,
+  email: agent.email || null,
+  agency: agent.agency || null,
+  agency_url: agent.website || null,
+  index_id: agent.agent_id || null,
+  query_tracker: agent.querytracker || null,
+  pub_marketplace: agent.pubmarketplace || null,
+  match_score: agent.normalized_score || null,
+});
 
 export const AgentMatchesPaywall = () => {
   const {
@@ -29,6 +42,7 @@ export const AgentMatchesPaywall = () => {
     spreadsheetUrl,
     sheetStatus,
   } = useAgentMatches();
+  const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
   const nextCursor = QUERY_LIMIT;
 
@@ -99,6 +113,15 @@ export const AgentMatchesPaywall = () => {
     runFilterQuery(statusFilter, newCountry);
   };
 
+  const handleSaveAgent = (payload: SaveAgentPayload) => {
+    saveAgent(payload);
+  };
+
+  const handleSaveAllAgents = () => {
+    const payloads = matches.map(mapAgentToPayload);
+    saveAllAgents(payloads);
+  };
+
   return (
     <>
       <AgentMatchesInner
@@ -112,9 +135,13 @@ export const AgentMatchesPaywall = () => {
         onStatusChange={handleStatusChange}
         countryFilter={countryFilter}
         onCountryChange={handleCountryChange}
+        onSaveAllAgents={handleSaveAllAgents}
         sheetTaskId={sheetTaskId || ""}
         spreadsheetUrl={spreadsheetUrl}
         sheetStatus={sheetStatus}
+        onSaveAgent={handleSaveAgent}
+        isSavingAll={isSavingAll}
+        savingAgentId={savingAgentId}
       />
       <PayWall
         gridRef={gridRef}
