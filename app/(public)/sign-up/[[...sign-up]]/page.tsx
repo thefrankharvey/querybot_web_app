@@ -11,8 +11,8 @@ export default function Page() {
         client lists.
       </h1>
       <SignUp
-        forceRedirectUrl="/saved-agents"
-        fallbackRedirectUrl="/saved-agents"
+        forceRedirectUrl="/home"
+        fallbackRedirectUrl="/home"
         appearance={{
           elements: {
             border: "none",

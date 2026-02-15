@@ -58,7 +58,7 @@ const ClientNav = () => {
         <div className="hidden md:flex items-center justify-end gap-4 w-full">
           <div className="flex items-center gap-4">
             <SignedIn>
-              <Link href={"/saved-agents"} prefetch={true}>
+              <Link href={"/home"} prefetch={true}>
                 <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
                   Go to App
                 </div>

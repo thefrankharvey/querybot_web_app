@@ -23,6 +23,8 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import DotIndicators from "./dot-indicators";
 import { QUERY_DASH_COLUMNS, QueryDashColumnId } from "./kanban-config";
 import { useQueryDashContext } from "../context/query-dash-context";
+import { Button } from "@/app/ui-primitives/button";
+import Link from "next/link";
 
 const SWIPE_THRESHOLD = 50;
 const DRAG_EDGE_THRESHOLD = 60;
@@ -96,12 +98,17 @@ export function KanbanMobile() {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
         <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-md">
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Yet</h2>
+          <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Saved Yet</h2>
           <p className="text-gray-600 mb-4">
             {isSubscribed
-              ? "Save agents from your search results to start tracking your query progress here."
+              ? "Save agents from your Smart Match search results to start tracking your query progress here."
               : "Subscribe to save agents and track your querying journey."}
           </p>
+          <div className="pt-2 text-center">
+            <Link href="/smart-match">
+              <Button className="w-full sm:w-auto">Go to Smart Match</Button>
+            </Link>
+          </div>
         </div>
       </div>
     );

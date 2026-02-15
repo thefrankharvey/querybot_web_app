@@ -22,6 +22,8 @@ import {
   QueryDashColumnId,
 } from "./kanban-config";
 import { useQueryDashContext } from "../context/query-dash-context";
+import { Button } from "@/app/ui-primitives/button";
+import Link from "next/link";
 
 export function KanbanBoard() {
   const { isSubscribed } = useClerkUser();
@@ -72,16 +74,34 @@ export function KanbanBoard() {
     );
   }
 
+  // <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
+  //   <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-xl">
+  //     <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Yet</h2>
+  //     <p className="text-gray-600 mb-4">
+  //       {isSubscribed
+  //         ? "Save agents from your search results to start tracking your query progress here."
+  //         : "Subscribe to save agents and track your querying journey."}
+  //     </p>
+  //   </div>
+  // </div>
+
   if (isEmpty) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
-        <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-md">
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Yet</h2>
-          <p className="text-gray-600 mb-4">
+      <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg md:w-[1000px] md:mx-auto mt-13 shadow-lg justify-center items-center border border-accent/20 mx-auto">
+        <div className="text-center space-y-6 max-auto h-[300px] flex flex-col justify-center items-center">
+          <h1 className="text-lg md:text-3xl font-bold text-gray-900">
+            No Agents Saved Yet
+          </h1>
+          <p className="text-sm md:text-base text-gray-600 font-semibold">
             {isSubscribed
-              ? "Save agents from your search results to start tracking your query progress here."
+              ? "Save agents from your Smart Match search results to start tracking your query progress here."
               : "Subscribe to save agents and track your querying journey."}
           </p>
+          <div className="pt-2 text-center">
+            <Link href="/smart-match">
+              <Button className="w-full sm:w-auto" size="lg">Go to Smart Match</Button>
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -192,7 +212,7 @@ export function KanbanBoard() {
   };
 
   return (
-    <div className="overflow-x-auto min-h-[calc(100vh-80px)] scrollbar-transparent">
+    <div className="overflow-x-auto md:min-h-[calc(100vh-120px)] min-h-[calc(100vh-80px)] scrollbar-transparent">
       <DndContext
         sensors={sensors}
         collisionDetection={closestCenter}

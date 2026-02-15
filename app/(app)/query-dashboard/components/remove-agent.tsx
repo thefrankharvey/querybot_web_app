@@ -19,7 +19,7 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 
 interface RemoveAgentProps {
   indexId?: string | null;
-  onRemoved?: () => void;
+  onRemoved?: (deletedAgentId: string) => void;
 }
 
 export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
@@ -28,7 +28,7 @@ export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
     useDeleteAgentMatch({
       onSuccess: (deletedAgentId) => {
         removeAgent(deletedAgentId);
-        onRemoved?.();
+        onRemoved?.(deletedAgentId);
       },
     });
 
@@ -76,4 +76,3 @@ export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
     </AlertDialog>
   );
 }
-

@@ -49,6 +49,7 @@ export interface QueryDashActions {
   getCardsForColumn: (columnId: string) => KanbanCardData[];
   findCardById: (cardId: string) => KanbanCardData | undefined;
   findColumnByCardId: (cardId: string) => QueryDashColumnId | undefined;
+  removeCardByIndexId: (indexId: string) => void;
 }
 
 type QueryDashContextType = QueryDashState & QueryDashActions;
@@ -223,25 +224,33 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       if (!currentCard) return;
 
       const columnChanged = currentCard.columnId !== columnId;
+      const shouldPersist = persist && (columnChanged || forcePersist);
+      const nextUpdatedDate = getTodayLocalDateString();
 
       setCards((prevCards) =>
         prevCards.map((card) =>
-          card.id === cardId ? { ...card, columnId } : card
+          card.id === cardId
+            ? {
+                ...card,
+                columnId,
+                ...(shouldPersist ? { updated_date: nextUpdatedDate } : {}),
+              }
+            : card
         )
       );
 
-      if (persist && (columnChanged || forcePersist)) {
+      if (shouldPersist) {
         void persistCardUpdate(
           cardId,
           {
             column_name: columnId,
-            updated_date: getTodayLocalDateString(),
+            updated_date: nextUpdatedDate,
           },
           "Failed to persist column move"
         );
       }
 
-      if (persist && (columnChanged || forcePersist) && columnId === "offer-made") {
+      if (shouldPersist && columnId === "offer-made") {
         setOfferMadeCelebrationNonce((currentNonce) => currentNonce + 1);
       }
     },
@@ -273,10 +282,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       const currentCard = cards.find((card) => card.id === cardId);
       if (!currentCard) return;
       const nextValue = !currentCard.prepQueryLetterDone;
+      const nextUpdatedDate = getTodayLocalDateString();
 
       setCards((prevCards) =>
         prevCards.map((card) =>
-          card.id === cardId ? { ...card, prepQueryLetterDone: nextValue } : card
+          card.id === cardId
+            ? { ...card, prepQueryLetterDone: nextValue, updated_date: nextUpdatedDate }
+            : card
         )
       );
 
@@ -284,7 +296,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         cardId,
         {
           query_letter_ready: nextValue,
-          updated_date: getTodayLocalDateString(),
+          updated_date: nextUpdatedDate,
         },
         "Failed to update query letter status"
       );
@@ -296,10 +308,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     (cardId: string, rating: FitRating) => {
       const currentCard = cards.find((card) => card.id === cardId);
       if (!currentCard || currentCard.fitRating === rating) return;
+      const nextUpdatedDate = getTodayLocalDateString();
 
       setCards((prevCards) =>
         prevCards.map((card) =>
-          card.id === cardId ? { ...card, fitRating: rating } : card
+          card.id === cardId
+            ? { ...card, fitRating: rating, updated_date: nextUpdatedDate }
+            : card
         )
       );
 
@@ -307,7 +322,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         cardId,
         {
           fit_rating: rating,
-          updated_date: getTodayLocalDateString(),
+          updated_date: nextUpdatedDate,
         },
         "Failed to update fit rating"
       );
@@ -319,10 +334,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     (cardId: string, projectName: string) => {
       const currentCard = cards.find((card) => card.id === cardId);
       if (!currentCard || currentCard.projectName === projectName) return;
+      const nextUpdatedDate = getTodayLocalDateString();
 
       setCards((prevCards) =>
         prevCards.map((card) =>
-          card.id === cardId ? { ...card, projectName } : card
+          card.id === cardId
+            ? { ...card, projectName, updated_date: nextUpdatedDate }
+            : card
         )
       );
 
@@ -330,7 +348,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         cardId,
         {
           project_name: projectName,
-          updated_date: getTodayLocalDateString(),
+          updated_date: nextUpdatedDate,
         },
         "Failed to update project name"
       );
@@ -342,10 +360,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     (cardId: string, notes: string) => {
       const currentCard = cards.find((card) => card.id === cardId);
       if (!currentCard || currentCard.notes === notes) return;
+      const nextUpdatedDate = getTodayLocalDateString();
 
       setCards((prevCards) =>
         prevCards.map((card) =>
-          card.id === cardId ? { ...card, notes } : card
+          card.id === cardId
+            ? { ...card, notes, updated_date: nextUpdatedDate }
+            : card
         )
       );
 
@@ -353,7 +374,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         cardId,
         {
           notes,
-          updated_date: getTodayLocalDateString(),
+          updated_date: nextUpdatedDate,
         },
         "Failed to update notes"
       );
@@ -380,6 +401,10 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     [cards]
   );
 
+  const removeCardByIndexId = useCallback((indexId: string) => {
+    setCards((prevCards) => prevCards.filter((card) => card.index_id !== indexId));
+  }, []);
+
   const value = useMemo<QueryDashContextType>(
     () => ({
       cards,
@@ -395,6 +420,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
+      removeCardByIndexId,
     }),
     [
       cards,
@@ -410,6 +436,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
+      removeCardByIndexId,
     ]
   );
 
