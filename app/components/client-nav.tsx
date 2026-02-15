@@ -59,7 +59,7 @@ const ClientNav = () => {
           <div className="flex items-center gap-4">
             <SignedIn>
               <Link href={"/home"} prefetch={true}>
-                <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
+                <div className="cursor-pointer text-sm p-2 px-4 rounded-md bg-accent text-white shadow-xs hover:bg-accent/80 transition-all duration-300 font-medium">
                   Go to App
                 </div>
               </Link>

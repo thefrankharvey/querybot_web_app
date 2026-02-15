@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { createServerSupabase } from "../../supabase/server";
+import { AGENT_MATCHES_TABLE } from "@/app/constants";
 
-const TABLE_NAME = "agent_matches_duplicate";
 const PATCH_FIELDS = [
   "fit_rating",
   "column_name",
@@ -34,7 +34,7 @@ function sanitizePatchPayload(payload: unknown): PatchPayload | null {
 
 export async function DELETE(
   _req: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: Promise<{ id: string }> },
 ) {
   const { userId } = await auth();
 
@@ -45,7 +45,7 @@ export async function DELETE(
   const { id } = await params;
   const supabase = createServerSupabase();
   const { error } = await supabase
-    .from(TABLE_NAME)
+    .from(AGENT_MATCHES_TABLE)
     .delete()
     .eq("index_id", id)
     .eq("user_id", userId);
@@ -57,7 +57,7 @@ export async function DELETE(
 
 export async function GET(
   _req: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: Promise<{ id: string }> },
 ) {
   const { userId } = await auth();
 
@@ -68,7 +68,7 @@ export async function GET(
   const { id } = await params;
   const supabase = createServerSupabase();
   const { data, error } = await supabase
-    .from(TABLE_NAME)
+    .from(AGENT_MATCHES_TABLE)
     .select("*")
     .eq("index_id", id)
     .eq("user_id", userId);
@@ -80,7 +80,7 @@ export async function GET(
 
 export async function PATCH(
   req: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: Promise<{ id: string }> },
 ) {
   const { userId } = await auth();
 
@@ -95,20 +95,20 @@ export async function PATCH(
   if (!updatePayload) {
     return NextResponse.json(
       { error: "Invalid payload: expected an object" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   if (Object.keys(updatePayload).length === 0) {
     return NextResponse.json(
       { error: "At least one updatable field is required" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   const supabase = createServerSupabase();
   const { data, error } = await supabase
-    .from(TABLE_NAME)
+    .from(AGENT_MATCHES_TABLE)
     .update(updatePayload)
     .eq("index_id", id)
     .eq("user_id", userId)

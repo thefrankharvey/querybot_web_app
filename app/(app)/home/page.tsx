@@ -11,13 +11,15 @@ import SubscriberEmpty from "./components/subscriber-empty";
 import QDashDialog from "./components/q-dash-dialog";
 import ButtonBar from "./components/button-bar";
 
-const SavedAgents = () => {
+const HomePage = () => {
   const { agentsList, isLoading: isProfileLoading } = useProfileContext();
   const { isSubscribed, isLoading } = useClerkUser();
   const router = useRouter();
   const { user } = useUser();
   const hasReloadedRef = useRef(false);
   const [isQDashDialogOpen, setIsQDashDialogOpen] = useState(false);
+
+  console.log("user", user?.id);
   const qDashDismissedKey = useMemo(
     () =>
       user?.id
@@ -116,4 +118,4 @@ const SavedAgents = () => {
   );
 };
 
-export default SavedAgents;
+export default HomePage;
