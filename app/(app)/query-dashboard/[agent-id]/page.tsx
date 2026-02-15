@@ -18,13 +18,13 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-interface SavedAgentProps {
+interface QueryDashAgentProfileProps {
   params: Promise<{
     "agent-id": string;
   }>;
 }
 
-const SavedAgent = ({ params }: SavedAgentProps) => {
+const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
   const unwrappedParams = React.use(params);
   const agentId = unwrappedParams["agent-id"];
   const { data, isLoading, error } = useFetchAgent(agentId);
@@ -91,8 +91,8 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
   }
 
   return (
-    <div>
-      <div className="max-w-[1000px] mx-auto pb-4 flex justify-between items-center pt-3 mt-16">
+    <div className="md:p-0 px-4">
+      <div className="max-w-[1000px] mx-auto pb-4 flex justify-between items-center pt-3 md:mt-16 mt-6">
         <Link
           href="/query-dashboard"
           className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
@@ -205,4 +205,4 @@ const SavedAgent = ({ params }: SavedAgentProps) => {
   );
 };
 
-export default SavedAgent;
+export default QueryDashAgentProfile;

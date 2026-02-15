@@ -47,8 +47,8 @@ export const AgentMatchesInner = ({
   savingAgentId?: string | null;
 }) => {
   return (
-    <>
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-17 pt-0">
+    <div className="md:p-0 p-4">
+      <h1 className="text-3xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-17 pt-0">
         {totalAgents ? `${totalAgents} Agent matches` : "Agent matches"}
       </h1>
       <div>
@@ -186,7 +186,7 @@ export const AgentMatchesInner = ({
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
