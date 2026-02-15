@@ -1,5 +1,5 @@
 import React from "react";
-import { Newspaper, NotebookPen, Save, ScanSearch } from "lucide-react";
+import { LayoutDashboard, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
 import { motion } from "framer-motion";
 
 const productsData = [
@@ -8,6 +8,12 @@ const productsData = [
     icon: <ScanSearch className="w-6 h-6 text-accent" />,
     description:
       "Ranks 3,200+ agents by how well they fit your book, so you find best-fit agents instantly.",
+  },
+  {
+    title: "Query Dashboard",
+    icon: <LayoutDashboard className="w-6 h-6 text-accent" />,
+    description:
+      "Save agent matches and track all of your queries from one modern dashboard.",
   },
   {
     title: "Dispatch",
@@ -20,12 +26,6 @@ const productsData = [
     icon: <NotebookPen className="w-6 h-6 text-accent" />,
     description:
       "Get a weekly briefing of curated industry intel delivered straight to your inbox.",
-  },
-  {
-    title: "Save Agent Matches",
-    icon: <Save className="w-6 h-6 text-accent" />,
-    description:
-      "Save your favorite agent matches for quick access during the query process.",
   },
 ];
 
@@ -65,36 +65,3 @@ const ProductsBlock = () => {
 };
 
 export default ProductsBlock;
-
-// {showSecondAnimation && (
-//   <div
-//     id="animation"
-//     className="absolute top-[-400px] right-[-320px] w-full hidden justify-center pointer-events-none lg:flex"
-//   >
-//     <svg
-//       width="1050"
-//       height="900"
-//       viewBox="0 0 1050 900"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//     >
-//       <motion.path
-//         initial={{ pathLength: 0 }}
-//         animate={{ pathLength: 1 }}
-//         transition={{
-//           duration: 0.5,
-//           ease: "easeInOut",
-//         }}
-//         d="M694 220
-// C944 366, 944 641, 629 732
-// C355 823, 144 641, 175 407
-// C207 174, 551 133, 826 319"
-//         fill="none"
-//         stroke="#1c4a4e"
-//         strokeWidth="5"
-//         strokeLinecap="round"
-//         strokeLinejoin="round"
-//       />
-//     </svg>
-//   </div>
-// )}
