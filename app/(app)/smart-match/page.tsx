@@ -152,7 +152,7 @@ const SmartMatch = () => {
   }
 
   return (
-    <div>
+    <div className="max-sm:px-4 max-sm:pt-8">
       {(queryMutation.isPending || queryMutation.isSuccess) && (
         <div className="flex flex-col items-center md:w-[700px] md:mx-auto h-[700px] mt-40">
           <ProgressBar
@@ -165,7 +165,7 @@ const SmartMatch = () => {
         <>
           <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto">
             <div className="mb-4">
-              <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-7 flex items-center gap-2 text-accent md:pt-6 pt-0">
+              <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-7 flex items-center gap-2 text-accent md:pt-17 pt-0">
                 <ScanSearch className="w-10 h-10" />
                 Smart Match
               </h1>
@@ -181,8 +181,7 @@ const SmartMatch = () => {
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
-                {isSubscribed &&
-                  hasAgentMatches &&
+                {hasAgentMatches &&
                   hasAgentMatches.length > 0 && (
                     <Link href="/agent-matches" className="w-full md:w-fit">
                       <Button

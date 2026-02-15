@@ -4,7 +4,8 @@ export default function FreeUser() {
   return (
     <>
       <h1 className="text-2xl md:text-3xl font-bold text-gray-900 text-center">
-        Welcome to Write Query Hook!
+        Welcome to <br className="md:hidden" />
+        Write Query Hook!
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-3xl mt-10 mb-10">
@@ -18,10 +19,10 @@ export default function FreeUser() {
               <Check className="w-5 h-5 text-black flex-shrink-0" />
               <span className="text-black">Slushwire weekly newsletter</span>
             </li>
-            {/* <li className="flex items-center gap-2">
+            <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">Submission Tracker</span>
-            </li> */}
+              <span className="text-black">Save 6 agent matches to your Query Dashboard</span>
+            </li>
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
               <span className="text-black">Blog</span>
@@ -43,29 +44,23 @@ export default function FreeUser() {
           <ul className="flex flex-col gap-3">
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">Slushwire weekly newsletter</span>
-            </li>
-            {/* <li className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">
-                Submission Tracker with full agent results
-              </span>
-            </li> */}
-            <li className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">Blog</span>
+              <span className="text-black">Downloadable Query Spreadsheet with all agent matches</span>
             </li>
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">Query Spreadsheet with your agent matches</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="w-5 h-5 text-black flex-shrink-0" />
-              <span className="text-black">Full Agent Match results</span>
+              <span className="text-black">Save unlimited agent matches to your Query Dashboard</span>
             </li>
             <li className="flex items-center gap-2">
               <Check className="w-5 h-5 text-black flex-shrink-0" />
               <span className="text-black">Dispatch news feed</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-5 h-5 text-black flex-shrink-0" />
+              <span className="text-black">Slushwire weekly newsletter</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-5 h-5 text-black flex-shrink-0" />
+              <span className="text-black">Blog</span>
             </li>
           </ul>
         </div>

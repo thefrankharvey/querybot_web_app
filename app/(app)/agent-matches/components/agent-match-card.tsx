@@ -91,46 +91,42 @@ export const AgentMatchCard = ({
                         <Skeleton isLoading={isLoading} className="w-1/2 h-6">
                             <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
                         </Skeleton>
-                        {
-                            onSaveAgent && (
-                                <div>
-                                    {!isSubscribed ? (
+                        <div>
+                            {!isSubscribed && isDisabled ? (
+                                <TooltipComponent
+                                    className="w-full"
+                                    contentClass="text-center w-[250px]"
+                                    content="Subscribe to save all agent matches!"
+                                >
+                                    <div>
+                                        <div className="flex items-center justify-center gap-2">
+                                            <Save className="w-7 h-7 text-accent" />
+                                        </div>
+                                    </div>
+                                </TooltipComponent>
+                            ) : (
+                                agentsList && agentsList?.find(
+                                    (a) => a.index_id === agent.agent_id,
+                                ) ? (
+                                    <Heart className="w-7 h-7 text-accent" />
+                                ) :
+                                    (<div onClick={handleSaveClick}>
                                         <TooltipComponent
                                             className="w-full"
                                             contentClass="text-left w-[200px]"
-                                            content="Subscribe to activate save agent feature!"
+                                            content="Save agent to your query dashboard"
                                         >
-                                            <div>
-                                                <div className="flex items-center justify-center gap-2">
+                                            <div className="flex items-center justify-center gap-2">
+                                                {savingAgentId === agent.agent_id ? (
+                                                    <Spinner className="w-7 h-7 text-accent" />
+                                                ) : (
                                                     <Save className="w-7 h-7 text-accent" />
-                                                </div>
+                                                )}
                                             </div>
                                         </TooltipComponent>
-                                    ) : (
-                                        agentsList && agentsList?.find(
-                                            (a) => a.index_id === agent.agent_id,
-                                        ) ? (
-                                            <Heart className="w-7 h-7 text-accent" />
-                                        ) :
-                                            (<div onClick={handleSaveClick}>
-                                                <TooltipComponent
-                                                    className="w-full"
-                                                    contentClass="text-left w-[200px]"
-                                                    content="Save agent to your query dashboard"
-                                                >
-                                                    <div className="flex items-center justify-center gap-2">
-                                                        {savingAgentId === agent.agent_id ? (
-                                                            <Spinner className="w-7 h-7 text-accent" />
-                                                        ) : (
-                                                            <Save className="w-7 h-7 text-accent" />
-                                                        )}
-                                                    </div>
-                                                </TooltipComponent>
-                                            </div>)
-                                    )}
-                                </div>
-                            )
-                        }
+                                    </div>)
+                            )}
+                        </div>
                     </div>
                     <Skeleton isLoading={isLoading} className="w-20 h-6">
                         <div className="flex flex-col items-start gap-1 w-fit">

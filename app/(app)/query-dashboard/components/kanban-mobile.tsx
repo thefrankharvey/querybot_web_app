@@ -18,7 +18,6 @@ import {
 import { KanbanColumn } from "./kanban-column";
 import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
 import { KanbanDialog } from "./kanban-dialog";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import DotIndicators from "./dot-indicators";
 import { QUERY_DASH_COLUMNS, QueryDashColumnId } from "./kanban-config";
@@ -32,7 +31,6 @@ const DRAG_SLIDE_COOLDOWN = 2000;
 const DRAG_EDGE_GRACE_PERIOD = 220;
 
 export function KanbanMobile() {
-  const { isSubscribed } = useClerkUser();
   const {
     cards,
     isLoading,
@@ -99,10 +97,8 @@ export function KanbanMobile() {
       <div className="flex flex-col items-center justify-center min-h-[60vh] px-4">
         <div className="bg-white rounded-lg p-8 shadow-lg text-center max-w-md">
           <h2 className="text-xl font-semibold text-gray-900 mb-2">No Agents Saved Yet</h2>
-          <p className="text-gray-600 mb-4">
-            {isSubscribed
-              ? "Save agents from your Smart Match search results to start tracking your query progress here."
-              : "Subscribe to save agents and track your querying journey."}
+          <p className="text-gray-600 my-4 ">
+            Save agents from your Smart Match search results to start tracking your query progress here!
           </p>
           <div className="pt-2 text-center">
             <Link href="/smart-match">

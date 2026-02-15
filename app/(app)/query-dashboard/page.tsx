@@ -11,7 +11,7 @@ import { cn } from "@/app/utils";
 const CONFETTI_DURATION_MS = 10000;
 
 function QueryDashboardContent() {
-  const { offerMadeCelebrationNonce, isEmpty } = useQueryDashContext();
+  const { offerMadeCelebrationNonce, isEmpty, isLoading } = useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -69,10 +69,10 @@ function QueryDashboardContent() {
           />
         </div>
       )}
-      <h1 className="text-xl md:text-[32px] md:flex hidden font-semibold leading-tight ml-4 items-center gap-2 text-accent">
+      {!isEmpty && !isLoading && <h1 className="text-xl md:text-[32px] md:flex hidden font-semibold leading-tight ml-4 items-center gap-2 text-accent">
         <LayoutDashboard className="w-10 h-10" />
         Query Dashboard
-      </h1>
+      </h1>}
       {/* Desktop view */}
       <div className="hidden md:block">
         <KanbanBoard />
