@@ -1,4 +1,5 @@
 export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
+export const AGENT_MATCHES_TABLE = "agent_matches";
 export const COUNTRY_FLAG_LABELS = {
   all: {
     label: "All Countries",

@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { createServerSupabase } from "../supabase/server";
+import { AGENT_MATCHES_TABLE } from "@/app/constants";
 
-const TABLE_NAME = "agent_matches_duplicate";
 const CREATE_FIELDS = [
   "name",
   "email",
@@ -49,7 +49,7 @@ export async function GET() {
 
   const supabase = createServerSupabase();
   const { data, error } = await supabase
-    .from(TABLE_NAME)
+    .from(AGENT_MATCHES_TABLE)
     .select("*")
     .eq("user_id", userId)
     .order("created_at", { ascending: false });
@@ -86,19 +86,19 @@ export async function POST(req: Request) {
   if (insertPayloads.some((payload) => payload === null)) {
     return NextResponse.json(
       { error: "Invalid payload: expected an object or array of objects" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   const supabase = createServerSupabase();
   const { data, error } = await supabase
-    .from(TABLE_NAME)
+    .from(AGENT_MATCHES_TABLE)
     .insert(
       insertPayloads as Array<
         CreatePayload & {
           user_id: string;
         }
-      >
+      >,
     )
     .select("*"); // return inserted rows
 
