@@ -48,7 +48,7 @@ export const AgentMatchesInner = ({
 }) => {
   return (
     <>
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-6 pt-0">
+      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-17 pt-0">
         {totalAgents ? `${totalAgents} Agent matches` : "Agent matches"}
       </h1>
       <div>
