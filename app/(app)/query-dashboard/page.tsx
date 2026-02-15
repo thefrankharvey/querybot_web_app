@@ -6,11 +6,12 @@ import { LayoutDashboard } from "lucide-react";
 import { KanbanBoard } from "./components/kanban-board";
 import { KanbanMobile } from "./components/kanban-mobile";
 import { QueryDashProvider, useQueryDashContext } from "./context/query-dash-context";
+import { cn } from "@/app/utils";
 
 const CONFETTI_DURATION_MS = 10000;
 
 function QueryDashboardContent() {
-  const { offerMadeCelebrationNonce } = useQueryDashContext();
+  const { offerMadeCelebrationNonce, isEmpty } = useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -77,7 +78,7 @@ function QueryDashboardContent() {
         <KanbanBoard />
       </div>
       {/* Mobile view */}
-      <div className="md:hidden flex flex-col flex-1 min-h-0 overflow-hidden pl-4">
+      <div className={cn("md:hidden flex flex-col flex-1 min-h-0 overflow-hidden pl-4", isEmpty && "pl-0")}>
         <KanbanMobile />
       </div>
     </div>

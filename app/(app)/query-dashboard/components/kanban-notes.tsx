@@ -86,7 +86,7 @@ export const KanbanNotes = ({
                         placeholder="Add notes about this agent..."
                         value={notes}
                         onChange={(e) => setNotes(e.target.value)}
-                        className="md:min-h-24 min-h-35 min-w-0 [field-sizing:fixed] resize-none border border-accent/70 rounded-md p-2 text-sm md:max-w-[526px] max-w-[324px] wrap"
+                        className="focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] md:min-h-24 min-h-35 min-w-0 [field-sizing:fixed] resize-none border border-accent/70 rounded-md p-2 text-sm md:max-w-[526px] max-w-[324px] wrap"
                     />
                     {notes.length >= 200 && (
                         <p className="text-red-500 text-sm">max characters reached</p>

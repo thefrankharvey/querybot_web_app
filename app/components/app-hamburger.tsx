@@ -6,10 +6,12 @@ import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 import { usePathname } from "next/navigation";
-import { Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import { Home, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import { useProfileContext } from "../(app)/context/profile-context";
 
 export const AppHamburger = () => {
   const pathname = usePathname();
+  const { agentsList } = useProfileContext();
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
 
@@ -72,7 +74,7 @@ export const AppHamburger = () => {
                   : "text-black"
               )}
             >
-              <ScanSearch className="w-4 h-4" />
+              <Home className="w-4 h-4" />
               Home
             </Link>
             <Link
@@ -98,6 +100,13 @@ export const AppHamburger = () => {
                   : "text-black"
               )}
             >
+              {agentsList && agentsList.length > 0 ? (
+                <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-[18px] w-[18px] text-xs p-3 ml-[-3px]">
+                  {agentsList.length}
+                </span>
+              ) : (
+                ""
+              )}
               Query Dashboard
             </Link>
             <Link

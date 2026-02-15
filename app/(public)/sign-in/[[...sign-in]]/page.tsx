@@ -8,8 +8,8 @@ async function SignInComponent() {
   return (
     <div className="pt-16 flex justify-center items-center">
       <SignIn
-        forceRedirectUrl="/saved-agents"
-        fallbackRedirectUrl="/saved-agents"
+        forceRedirectUrl="/home"
+        fallbackRedirectUrl="/home"
         appearance={{
           elements: {
             formButtonPrimary: {

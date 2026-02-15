@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogContent,
-  DialogHeader,
   DialogTitle,
   DialogDescription,
 } from "@/app/ui-primitives/dialog";
@@ -25,7 +24,7 @@ import { KanbanNotes } from "./kanban-notes";
 import { KanbanDialogTools } from "./kanban-dialog-tools";
 import { Input } from "@/app/ui-primitives/input";
 import { KanbanLinkButtons } from "./kanban-link-buttons";
-import { Circle, CircleCheckBigIcon } from "lucide-react";
+import { Circle, CircleCheckBigIcon, X } from "lucide-react";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -127,10 +126,17 @@ export function KanbanDialog({
     setNotes(card.notes ?? "");
   };
 
+  const handleCloseDialog = () => {
+    onOpenChange(false);
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-xl bg-white max-sm:w-[calc(100vw-16px)] max-sm:max-w-none max-sm:rounded-lg gap-6">
-        <div className="mt-[-14px] right-12 z-10">
+      <DialogContent
+        showCloseButton={false}
+        className="max-h-[85vh] overflow-y-auto sm:max-w-xl overflow-x-hidden bg-white max-sm:w-[calc(100vw-16px)] max-sm:max-w-none max-sm:rounded-lg gap-6"
+      >
+        <div className="flex justify-between items-center mb-2">
           <KanbanDialogTools
             card={card}
             currentColumnId={card.columnId}
@@ -138,8 +144,17 @@ export function KanbanDialog({
             onMoveCard={onMoveCard}
             onOpenChange={onOpenChange}
           />
+          <button
+            type="button"
+            onClick={handleCloseDialog}
+            aria-label="Close dialog"
+            className="hover:bg-accent/20 rounded-sm p-1"
+          >
+            <X className="size-6" />
+            <span className="sr-only">Close</span>
+          </button>
         </div>
-        <DialogHeader className="mt-[-16px]">
+        <div className="mt-[-16px]">
           <div className="flex md:flex-row flex-col gap-6 justify-between mt-0">
             <div className="flex flex-col gap-1">
               <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
@@ -162,10 +177,10 @@ export function KanbanDialog({
               </div>
             )}
           </div>
-        </DialogHeader>
+        </div>
 
         <div className="flex flex-col gap-4">
-          <div className="flex flex-row gap-8">
+          <div className="flex flex-col md:flex-row md:gap-8 gap-4">
             <div className="flex flex-col">
               <label className="text-sm font-semibold text-gray-700">
                 Preferred Contact Method
@@ -237,7 +252,7 @@ export function KanbanDialog({
                 Project Name
               </label>
               <Input
-                className="w-full md:w-[330px]"
+                className="w-full md:w-[330px] border border-accent/30 hover:border-accent/70 transition-all duration-300"
                 maxLength={70}
                 value={card.projectName ?? "My Project"}
                 placeholder="My Project"

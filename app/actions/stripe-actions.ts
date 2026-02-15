@@ -32,7 +32,7 @@ export async function createStripeCustomer(userId: string, email: string) {
 
 export async function createSubscriptionSession(
   customerId: string,
-  priceId: string
+  priceId: string,
 ) {
   try {
     const session = await stripe.checkout.sessions.create({
@@ -48,7 +48,7 @@ export async function createSubscriptionSession(
       allow_promotion_codes: true, // This enables coupon code input on Stripe's checkout page
       success_url: `${
         process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
-      }/saved-agents?payment=success`,
+      }/home?payment=success`,
       cancel_url: `${
         process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
       }/subscribe`,
@@ -82,7 +82,7 @@ export async function cancelCustomerSubscriptions(customerId: string) {
     });
 
     const cancelPromises = subscriptions.data.map((subscription) =>
-      stripe.subscriptions.cancel(subscription.id)
+      stripe.subscriptions.cancel(subscription.id),
     );
 
     await Promise.all(cancelPromises);

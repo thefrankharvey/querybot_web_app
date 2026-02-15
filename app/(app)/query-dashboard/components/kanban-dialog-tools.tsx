@@ -17,6 +17,7 @@ import {
 import { ColumnData } from "./kanban-column";
 import { KanbanCardData } from "./kanban-card";
 import { RemoveAgent } from "./remove-agent";
+import { useQueryDashContext } from "../context/query-dash-context";
 
 interface KanbanDialogToolsProps {
   currentColumnId: string;
@@ -34,6 +35,7 @@ export function KanbanDialogTools({
   card,
 }: KanbanDialogToolsProps) {
   const [toolsOpen, setToolsOpen] = useState(false);
+  const { removeCardByIndexId } = useQueryDashContext();
 
   const handleMoveCardSelect = (nextColumnId: string) => {
     if (nextColumnId === currentColumnId) return;
@@ -48,7 +50,7 @@ export function KanbanDialogTools({
       <PopoverTrigger asChild>
         <button
           type="button"
-          className="p-1 hover:bg-accent/20 rounded"
+          className="p-1 hover:bg-accent/20 rounded mt-[-2px]"
           aria-label="Card tools"
         >
           <Ellipsis className="w-6 h-6" />
@@ -74,7 +76,13 @@ export function KanbanDialogTools({
               </SelectContent>
             </Select>
           </div>
-          <RemoveAgent indexId={card.index_id} onRemoved={() => onOpenChange(false)} />
+          <RemoveAgent
+            indexId={card.index_id}
+            onRemoved={(deletedAgentId) => {
+              removeCardByIndexId(deletedAgentId);
+              onOpenChange(false);
+            }}
+          />
         </div>
       </PopoverContent>
     </Popover >

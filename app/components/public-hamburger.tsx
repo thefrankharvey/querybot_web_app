@@ -25,19 +25,16 @@ export const PublicHamburger = () => {
         className="flex flex-col justify-center items-center w-10 h-10 p-0 md:hidden"
       >
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
-            open ? "translate-y-[10px] rotate-45" : ""
-          }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
+            }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current my-2 transition-opacity duration-200 ${
-            open ? "opacity-0" : "opacity-100"
-          }`}
+          className={`block w-10 h-0.5 bg-current my-2 transition-opacity duration-200 ${open ? "opacity-0" : "opacity-100"
+            }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
-            open ? "-translate-y-[10px] -rotate-45" : ""
-          }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "-translate-y-[10px] -rotate-45" : ""
+            }`}
         />
       </button>
       <div
@@ -63,7 +60,7 @@ export const PublicHamburger = () => {
             ) : (
               <Link
                 onClick={() => setOpen(false)}
-                href="/saved-agents"
+                href="/home"
                 className="text-base w-full text-center"
               >
                 <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
