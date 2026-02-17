@@ -145,7 +145,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
       toast.success(`${savedCount} agent${savedCount !== 1 ? "s" : ""} saved!`, {
         description: skippedCount > 0
           ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved.`
-          : "You can view your saved agents anytime in your profile.",
+          : "View your saved agents in your query dashboard!",
         duration: 3000,
       });
 
