@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
@@ -117,6 +118,12 @@ export function KanbanCard({
     ...(useDragHandle ? {} : { touchAction: "none" as const }),
   };
 
+  const dragSurfaceProtectionStyle: CSSProperties = {
+    userSelect: "none",
+    WebkitUserSelect: "none",
+    WebkitTouchCallout: "none",
+  };
+
   const handleCardClick = () => {
     onCardClick?.(card);
   };
@@ -158,9 +165,10 @@ export function KanbanCard({
           <div
             {...attributes}
             {...listeners}
-            className="touch-none cursor-grab active:cursor-grabbing p-1 -m-1"
-            style={{ touchAction: "none" }}
+            className="touch-none select-none cursor-grab active:cursor-grabbing p-1 -m-1"
+            style={{ touchAction: "none", ...dragSurfaceProtectionStyle }}
             onClick={(e) => e.stopPropagation()}
+            onContextMenu={(e) => e.preventDefault()}
           >
             <Grip className="w-6 h-6 opacity-70" />
           </div>
@@ -220,8 +228,11 @@ export function KanbanCard({
   if (isDragOverlay) {
     return (
       <div
-        className="bg-white rounded-lg p-3 shadow-lg cursor-grabbing"
-        style={{ width: dragOverlayWidth ?? "248px" }}
+        className="bg-white rounded-lg p-3 shadow-lg cursor-grabbing select-none"
+        style={{
+          width: dragOverlayWidth ?? "248px",
+          ...dragSurfaceProtectionStyle,
+        }}
       >
         {cardContent}
       </div>
