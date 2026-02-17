@@ -170,6 +170,14 @@
 }
 
 @media (max-width: 767px) {
+  .query-dashboard-mobile-dragging,
+  .query-dashboard-mobile-dragging * {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+  }
+
   body.query-dashboard-overflow-hidden {
     overflow: hidden;
     overscroll-behavior: none;

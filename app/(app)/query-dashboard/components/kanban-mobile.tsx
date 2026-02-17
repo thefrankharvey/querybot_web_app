@@ -166,6 +166,13 @@ export function KanbanMobile() {
     setIsDraggingCard(true);
   };
 
+  const resetDragState = () => {
+    setActiveCard(null);
+    setIsDraggingCard(false);
+    dragStartColumnRef.current = null;
+    lastColumnChangeRef.current = 0;
+  };
+
   const handleDragOver = (event: DragOverEvent) => {
     const { active, over } = event;
     if (!over) return;
@@ -192,11 +199,7 @@ export function KanbanMobile() {
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;
     const startColumnId = dragStartColumnRef.current;
-    dragStartColumnRef.current = null;
-
-    setActiveCard(null);
-    setIsDraggingCard(false);
-    lastColumnChangeRef.current = 0;
+    resetDragState();
 
     const activeId = active.id as string;
     const finalColumnId = findColumnByCardId(activeId);
@@ -223,6 +226,10 @@ export function KanbanMobile() {
     if (finalColumnId === overColumnId && !isOverColumn) {
       reorderInColumn(finalColumnId, activeId, overId);
     }
+  };
+
+  const handleDragCancel = () => {
+    resetDragState();
   };
 
   const handleDragMove = (event: DragMoveEvent) => {
@@ -287,7 +294,9 @@ export function KanbanMobile() {
     currentColumnIndex === QUERY_DASH_COLUMNS.length - 1 ? COLUMN_GAP : 0;
 
   return (
-    <div className="flex flex-col h-full min-h-0 overflow-hidden">
+    <div
+      className={`flex flex-col h-full min-h-0 overflow-hidden${isDraggingCard ? " query-dashboard-mobile-dragging" : ""}`}
+    >
       <DndContext
         sensors={sensors}
         collisionDetection={pointerWithin}
@@ -300,6 +309,7 @@ export function KanbanMobile() {
         onDragMove={handleDragMove}
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
+        onDragCancel={handleDragCancel}
       >
         <div
           ref={containerRef}
