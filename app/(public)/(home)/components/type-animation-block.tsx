@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -22,7 +24,7 @@ const TypeAnimationBlock = () => {
           speed={50}
           sequence={[
             1000,
-            `Purpose-driven tools to help writers \n query smart, find agents and get signed.`,
+            `Purpose driven tools to help writers \n query smart, find agents and get signed.`,
           ]}
           repeat={0}
           omitDeletionAnimation={true}

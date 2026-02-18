@@ -1,3 +1,5 @@
+"use client";
+
 import { agentDemoData } from "@/app/constants";
 import React from "react";
 import { motion } from "framer-motion";

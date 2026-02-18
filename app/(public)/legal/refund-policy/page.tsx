@@ -1,4 +1,31 @@
 import React from "react";
+import type { Metadata } from "next";
+import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
+
+const title = "Refund Policy";
+const description =
+  "Read the Write Query Hook refund policy for digital services, billing concerns, and support options.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: {
+    canonical: buildCanonical("/legal/refund-policy"),
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: buildOpenGraph({
+    title,
+    description,
+    path: "/legal/refund-policy",
+  }),
+  twitter: buildTwitter({
+    title,
+    description,
+  }),
+};
 
 const RefundPolicy = () => {
   return (

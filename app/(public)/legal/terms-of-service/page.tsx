@@ -1,4 +1,31 @@
 import React from "react";
+import type { Metadata } from "next";
+import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
+
+const title = "Terms of Service";
+const description =
+  "Read the terms of service for Write Query Hook, including payment, usage, and account policies.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: {
+    canonical: buildCanonical("/legal/terms-of-service"),
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: buildOpenGraph({
+    title,
+    description,
+    path: "/legal/terms-of-service",
+  }),
+  twitter: buildTwitter({
+    title,
+    description,
+  }),
+};
 
 const TermsOfService = () => {
   return (

@@ -1,4 +1,17 @@
 import { SignUp } from "@clerk/nextjs";
+import type { Metadata } from "next";
+import { buildCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Sign Up",
+  alternates: {
+    canonical: buildCanonical("/sign-up"),
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function Page() {
   return (

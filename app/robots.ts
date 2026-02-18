@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
+import { getCanonicalSiteUrl } from "@/lib/seo";
 
 export default function robots(): MetadataRoute.Robots {
-  const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
+  const site = getCanonicalSiteUrl();
   return {
     rules: {
       userAgent: "*",
-      allow: ["/", "/blog"],
+      allow: "/",
       disallow: ["/api/", "/preview/"],
     },
     sitemap: site ? [`${site}/sitemap.xml`] : undefined,

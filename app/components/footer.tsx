@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="flex max-w-screen-xl mx-auto justify-between items-baseline flex-col-reverse md:flex-row">
         <div className="flex flex-col md:flex-row gap-6 md:gap-20 justify-left px-4 py-4 md:py-10">
           <div className="flex flex-col gap-2">
-            <h1 className="text-base text-white font-semibold">Legal</h1>
+            <h2 className="text-base text-white font-semibold">Legal</h2>
             <Link
               href="/legal/privacy-policy"
               className="text-base text-white transition-all duration-300"
@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex flex-col gap-2 md:mb-8">
-            <h1 className="text-base text-white font-semibold">Connect</h1>
+            <h2 className="text-base text-white font-semibold">Connect</h2>
             <Link
               href="/about"
               className="text-base text-white transition-all duration-300"

@@ -1,13 +1,17 @@
 import type { MetadataRoute } from "next";
 import { getRecentPosts, buildCanonicalUrlForPost } from "@/lib/wp";
+import { buildCanonical, getCanonicalSiteUrl } from "@/lib/seo";
 
 export const revalidate = 1800; // 30 min
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
+  const site = getCanonicalSiteUrl();
+  if (!site) return [];
+
   const base: MetadataRoute.Sitemap = [
-    { url: `${site}/`, lastModified: new Date() },
-    { url: `${site}/blog/`, lastModified: new Date() },
+    { url: buildCanonical("/"), lastModified: new Date() },
+    { url: buildCanonical("/about"), lastModified: new Date() },
+    { url: buildCanonical("/blog"), lastModified: new Date() },
   ];
 
   const posts = await getRecentPosts(200);

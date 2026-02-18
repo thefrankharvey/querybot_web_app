@@ -1,5 +1,32 @@
 import Image from "next/image";
 import React from "react";
+import type { Metadata } from "next";
+import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
+
+const title = "About";
+const description =
+  "Why Write Query Hook exists and how it helps writers query smarter with better-fit literary agent data.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: {
+    canonical: buildCanonical("/about"),
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: buildOpenGraph({
+    title,
+    description,
+    path: "/about",
+  }),
+  twitter: buildTwitter({
+    title,
+    description,
+  }),
+};
 
 const About = () => {
   return (

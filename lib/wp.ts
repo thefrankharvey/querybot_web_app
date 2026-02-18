@@ -1,4 +1,5 @@
 import sanitizeHtml from "sanitize-html";
+import { buildCanonical, getCanonicalSiteUrl } from "@/lib/seo";
 
 export type WpMedia = {
   sourceUrl: string | null;
@@ -210,10 +211,7 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
 }
 
 export function buildCanonicalUrlForPost(slug: string): string {
-  const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
-  const trailingSlash = true; // mirror WP default
-  const url = `${site}/blog/${slug}`;
-  return trailingSlash ? `${url}/` : url;
+  return buildCanonical(`/blog/${slug}`);
 }
 
 export function htmlToTextSummary(
@@ -238,11 +236,8 @@ export function rewriteInternalLinksToBlog(
   return html.replace(
     new RegExp(`${escapeRegExp(site)}/([A-Za-z0-9\-]+)/`, "g"),
     (_match, slug) => {
-      const canonicalSite =
-        process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") || "";
-      const trailingSlash = true;
-      const dest = `${canonicalSite}/blog/${slug}`;
-      return trailingSlash ? `${dest}/` : dest;
+      const canonicalSite = getCanonicalSiteUrl();
+      return `${canonicalSite}/blog/${slug}/`;
     }
   );
 }
