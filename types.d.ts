@@ -33,3 +33,11 @@ declare module "pdf-parse" {
 
   export = pdfParse;
 }
+
+export {};
+
+declare global {
+  interface Window {
+    fbq?: (action: string, eventName?: string, ...params: unknown[]) => void;
+  }
+}
