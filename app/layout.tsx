@@ -7,6 +7,7 @@ import { Toaster } from "./ui-primitives/sonner";
 import { Providers } from "./providers";
 import { MarketingConsentBanner } from "./components/marketing-consent-banner";
 import { MarketingTracking } from "./components/tracking/marketing-tracking";
+import { buildOpenGraph, buildTwitter, getCanonicalSiteUrl } from "@/lib/seo";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
@@ -15,8 +16,24 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Write Query Hook",
-  description: "Write Query Hook",
+  metadataBase: new URL(getCanonicalSiteUrl()),
+  title: {
+    default: "Write Query Hook",
+    template: "%s | Write Query Hook",
+  },
+  description:
+    "Purpose driven tools to help writers query smarter, find literary agents, and get signed.",
+  openGraph: buildOpenGraph({
+    title: "Write Query Hook",
+    description:
+      "Purpose driven tools to help writers query smarter, find literary agents, and get signed.",
+    path: "/",
+  }),
+  twitter: buildTwitter({
+    title: "Write Query Hook",
+    description:
+      "Purpose driven tools to help writers query smarter, find literary agents, and get signed.",
+  }),
   icons: {
     icon: [
       {

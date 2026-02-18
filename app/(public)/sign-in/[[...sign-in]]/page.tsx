@@ -1,4 +1,17 @@
 import { SignIn } from "@clerk/nextjs";
+import type { Metadata } from "next";
+import { buildCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Sign In",
+  alternates: {
+    canonical: buildCanonical("/sign-in"),
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function Page() {
   return <SignInComponent />;

@@ -103,7 +103,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-5 p-4">
+    <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-5 p-4 h-[100vh]">
       <QDashDialog
         open={isQDashDialogOpen}
         onOpenChange={handleQDashOpenChange}

@@ -1,4 +1,31 @@
 import React from "react";
+import type { Metadata } from "next";
+import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
+
+const title = "Privacy Policy";
+const description =
+  "Read the Write Query Hook privacy policy, including data handling, retention, and user rights.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: {
+    canonical: buildCanonical("/legal/privacy-policy"),
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: buildOpenGraph({
+    title,
+    description,
+    path: "/legal/privacy-policy",
+  }),
+  twitter: buildTwitter({
+    title,
+    description,
+  }),
+};
 
 const PrivacyPolicy = () => {
   return (

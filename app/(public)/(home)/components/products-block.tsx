@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { LayoutDashboard, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
 import { motion } from "framer-motion";

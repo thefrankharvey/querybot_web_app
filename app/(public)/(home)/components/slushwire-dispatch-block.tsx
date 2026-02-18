@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect, useMemo, useState } from "react";
 import { feedDemoData } from "@/app/constants";
 import BlueskyCard from "@/app/components/bluesky-card";

@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
