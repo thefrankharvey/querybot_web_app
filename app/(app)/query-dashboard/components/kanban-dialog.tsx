@@ -113,7 +113,7 @@ export function KanbanDialog({
         const daysAgo = getCalendarDayDiffFromToday(parsedUpdatedDate);
         return daysAgo === 0
           ? `${timingPrefix} Today`
-          : `${timingPrefix} ${daysAgo} days ago`;
+          : `${timingPrefix} ${daysAgo} ${daysAgo === 1 ? "Day" : "Days"} ago`;
       })()
       : null;
   const timingDate = parsedUpdatedDate ? formatAsMMDDYYYY(parsedUpdatedDate) : null;

@@ -134,6 +134,10 @@ export function KanbanMobile() {
 
   const handleMoveCard = (cardId: string, columnId: QueryDashColumnId) => {
     moveCard(cardId, columnId);
+    const nextColumnIndex = QUERY_DASH_COLUMNS.findIndex((column) => column.id === columnId);
+    if (nextColumnIndex !== -1) {
+      setCurrentColumnIndex(nextColumnIndex);
+    }
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));

@@ -139,11 +139,11 @@ export function KanbanCard({
       ? card.columnId === "submitted-query"
         ? daysAgo === 0
           ? "Submitted Query Today"
-          : `Submitted Query ${daysAgo} Days ago`
+          : `Submitted Query ${daysAgo} ${daysAgo === 1 ? "Day" : "Days"} ago`
         : card.columnId === "pages-requested"
           ? daysAgo === 0
             ? "Pages Requested Today"
-            : `Pages Requested ${daysAgo} Days ago`
+            : `Pages Requested ${daysAgo} ${daysAgo === 1 ? "Day" : "Days"} ago`
           : null
       : null;
   const isRejected = card.columnId === "rejected";

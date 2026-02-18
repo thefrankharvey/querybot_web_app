@@ -6,7 +6,7 @@ import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 import { usePathname } from "next/navigation";
-import { Home, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import { Home, Newspaper, NotebookPen, ScanSearch, LayoutDashboard } from "lucide-react";
 import { useProfileContext } from "../(app)/context/profile-context";
 
 export const AppHamburger = () => {
@@ -105,7 +105,7 @@ export const AppHamburger = () => {
                   {agentsList.length}
                 </span>
               ) : (
-                ""
+                <LayoutDashboard className="w-4 h-4" />
               )}
               Query Dashboard
             </Link>

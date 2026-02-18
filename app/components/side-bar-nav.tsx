@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen, Home } from "lucide-react";
+import { ScanSearch, Newspaper, NotebookPen, Home, LayoutDashboard } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 
@@ -75,7 +75,7 @@ export const SideBarNav = () => {
                   {agentsList.length}
                 </span>
               ) : (
-                ""
+                <LayoutDashboard className="w-4 h-4" />
               )}
               Query Dashboard
             </Link>
