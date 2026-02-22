@@ -10,6 +10,7 @@ import { toast } from "sonner";
 interface ProfileContextType {
   agentsList: AgentMatch[] | undefined;
   isLoading: boolean;
+  isFetching: boolean;
   isError: boolean;
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
@@ -24,7 +25,7 @@ interface ProfileContextType {
 const ProfileContext = createContext<ProfileContextType | null>(null);
 
 export function ProfileProvider({ children }: { children: React.ReactNode }) {
-  const { data, isLoading, isError, error, refetch } = useFetchAgentsList();
+  const { data, isLoading, isFetching, isError, error, refetch } = useFetchAgentsList();
   const queryClient = useQueryClient();
   const [savingAgentId, setSavingAgentId] = useState<string | null>(null);
   const [isSavingAll, setIsSavingAll] = useState(false);
@@ -171,6 +172,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const value: ProfileContextType = {
     agentsList,
     isLoading,
+    isFetching,
     isError,
     error,
     refetch,

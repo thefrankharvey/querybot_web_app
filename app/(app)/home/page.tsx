@@ -10,16 +10,17 @@ import FreeUser from "./components/free-user";
 import SubscriberEmpty from "./components/subscriber-empty";
 import QDashDialog from "./components/q-dash-dialog";
 import ButtonBar from "./components/button-bar";
+import QueryDashboardStats from "./components/query-dashboard-stats";
 
 const HomePage = () => {
-  const { agentsList, isLoading: isProfileLoading } = useProfileContext();
+  const { agentsList, isLoading: isProfileLoading, refetch } = useProfileContext();
   const { isSubscribed, isLoading } = useClerkUser();
   const router = useRouter();
   const { user } = useUser();
   const hasReloadedRef = useRef(false);
   const [isQDashDialogOpen, setIsQDashDialogOpen] = useState(false);
+  const [isRefreshingHomeData, setIsRefreshingHomeData] = useState(true);
 
-  console.log("user", user?.id);
   const qDashDismissedKey = useMemo(
     () =>
       user?.id
@@ -74,7 +75,28 @@ const HomePage = () => {
   }, [user, router]);
 
   useEffect(() => {
+    let isMounted = true;
+
+    const refreshHomeData = async () => {
+      try {
+        await refetch();
+      } finally {
+        if (isMounted) {
+          setIsRefreshingHomeData(false);
+        }
+      }
+    };
+
+    void refreshHomeData();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [refetch]);
+
+  useEffect(() => {
     if (isLoading || isProfileLoading) return;
+    if (isRefreshingHomeData) return;
     if (!isSubscribed || !agentsList || agentsList.length === 0) return;
     if (typeof window === "undefined") return;
 
@@ -86,6 +108,7 @@ const HomePage = () => {
     agentsList,
     isLoading,
     isProfileLoading,
+    isRefreshingHomeData,
     isSubscribed,
     qDashDismissedKey,
   ]);
@@ -102,6 +125,15 @@ const HomePage = () => {
     setIsQDashDialogOpen(false);
   };
 
+  const shouldShowStats =
+    !isLoading &&
+    !isProfileLoading &&
+    !isRefreshingHomeData &&
+    isSubscribed &&
+    Boolean(agentsList?.length);
+
+  const isLoadingState = isLoading || isProfileLoading || isRefreshingHomeData;
+
   return (
     <div className="w-full flex flex-col justify-start md:w-[1000px] md:mx-auto mt-13 md:pt-5 p-4 h-[100vh]">
       <QDashDialog
@@ -111,8 +143,23 @@ const HomePage = () => {
       />
       {/* <ActionCards /> */}
       <ButtonBar />
-      <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg py-10 px-4 md:p-12 w-full shadow-lg justify-center items-center border border-accent/20">
-        {isLoading ? <Spinner className="size-16" /> : isSubscribed ? <SubscriberEmpty /> : <FreeUser />}
+      <div className="flex flex-col gap-6 bg-white min-h-[400px] rounded-lg py-10 px-4 md:p-12 w-full shadow-lg border border-accent/20">
+        {isLoadingState ? (
+          <div className="flex flex-1 justify-center items-center">
+            <Spinner className="size-16" />
+          </div>
+        ) : isSubscribed ? (
+          <>
+            <div className="flex flex-1 flex-col justify-center items-center">
+              <SubscriberEmpty hideCopy={shouldShowStats} />
+              {shouldShowStats && <QueryDashboardStats agentsList={agentsList} />}
+            </div>
+          </>
+        ) : (
+          <div className="flex flex-1 justify-center items-center">
+            <FreeUser />
+          </div>
+        )}
       </div>
     </div>
   );
