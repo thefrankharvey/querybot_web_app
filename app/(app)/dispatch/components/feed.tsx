@@ -199,7 +199,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
             No new posts to show, please check back later!
           </h2>
         )}
-      <TypeForm />
+      <TypeForm id="BgfNaWmd" />
     </>
   );
 };
