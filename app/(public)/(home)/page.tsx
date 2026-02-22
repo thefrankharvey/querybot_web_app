@@ -4,6 +4,7 @@ import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
 import TypeAnimationBlock from "./components/type-animation-block";
 import ProductsBlock from "./components/products-block";
 import SmartMatchBlock from "./components/smart-match-block";
+import QueryDashBlock from "./components/query-dash-block";
 import SlushwireDispatchBlock from "./components/slushwire-dispatch-block";
 import { CtaCard } from "./components/cta-card";
 import { BottomCta } from "./components/bottom-cta";
@@ -52,6 +53,7 @@ const Home = () => {
         <CtaCard />
       </div>
       <SmartMatchBlock />
+      <QueryDashBlock />
       <SlushwireDispatchBlock />
       <div className="bg-accent relative left-1/2 right-1/2 w-screen max-w-none -ml-[50vw] -mr-[50vw] py-36 mt-40">
         <ProductsBlock />

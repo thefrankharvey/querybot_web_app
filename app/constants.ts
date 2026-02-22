@@ -55,6 +55,91 @@ export const COUNTRY_FLAG_LABELS = {
   //   flag: "🇳🇿",
   // },
 };
+export const ALL_COUNTRY_FLAG_LABELS = {
+  all: {
+    label: "All Countries",
+    flag: "🌎",
+    key: "all",
+  },
+  US: {
+    label: "United States",
+    flag: "🇺🇸",
+    key: "US",
+  },
+  GB: {
+    label: "Great Britain",
+    flag: "🇬🇧",
+    key: "GB",
+  },
+  CA: {
+    label: "Canada",
+    flag: "🇨🇦",
+    key: "CA",
+  },
+  AU: {
+    label: "Australia",
+    flag: "🇦🇺",
+    key: "AU",
+  },
+  BR: {
+    label: "Brazil",
+    flag: "🇧🇷",
+  },
+  DE: {
+    label: "Germany",
+    flag: "🇩🇪",
+  },
+  FR: {
+    label: "France",
+    flag: "🇫🇷",
+  },
+  IE: {
+    label: "Ireland",
+    flag: "🇮🇪",
+  },
+  IL: {
+    label: "Israel",
+    flag: "🇮🇱",
+  },
+  IN: {
+    label: "India",
+    flag: "🇮🇳",
+  },
+  NZ: {
+    label: "New Zealand",
+    flag: "🇳🇿",
+  },
+  IT: {
+    label: "Italy",
+    flag: "🇮🇹",
+    key: "IT",
+  },
+  ES: {
+    label: "Spain",
+    flag: "🇪🇸",
+    key: "ES",
+  },
+  PT: {
+    label: "Portugal",
+    flag: "🇵🇹",
+    key: "PT",
+  },
+  KR: {
+    label: "South Korea",
+    flag: "🇰🇷",
+    key: "KR",
+  },
+  JP: {
+    label: "Japan",
+    flag: "🇯🇵",
+    key: "JP",
+  },
+  CN: {
+    label: "China",
+    flag: "🇨🇳",
+    key: "CN",
+  },
+};
 
 // Kit subscriber tag constants following workspace naming convention
 export const KIT_SUBSCRIBER_TAGS = {

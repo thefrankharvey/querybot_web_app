@@ -29,6 +29,7 @@ export interface MatchHits {
 }
 
 export interface AgentMatch {
+  country_code?: string;
   aala_member?: string;
   agency: string;
   bio: string;

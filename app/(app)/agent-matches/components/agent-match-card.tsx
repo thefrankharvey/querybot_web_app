@@ -17,7 +17,7 @@ import { Heart, Save } from "lucide-react";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { SaveAgentPayload } from "@/app/types";
-import { COUNTRY_FLAG_LABELS } from "@/app/constants";
+import { ALL_COUNTRY_FLAG_LABELS } from "@/app/constants";
 
 export const AgentMatchCard = ({
     agent,
@@ -171,17 +171,17 @@ export const AgentMatchCard = ({
                                     <>
                                         <span>
                                             {
-                                                COUNTRY_FLAG_LABELS[
+                                                ALL_COUNTRY_FLAG_LABELS[
                                                     agent.location
-                                                        ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                                        ?.country_code as keyof typeof ALL_COUNTRY_FLAG_LABELS
                                                 ]?.flag
                                             }
                                         </span>
                                         <span className="ml-1">
                                             {
-                                                COUNTRY_FLAG_LABELS[
+                                                ALL_COUNTRY_FLAG_LABELS[
                                                     agent.location
-                                                        ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                                        ?.country_code as keyof typeof ALL_COUNTRY_FLAG_LABELS
                                                 ]?.label
                                             }
                                         </span>
