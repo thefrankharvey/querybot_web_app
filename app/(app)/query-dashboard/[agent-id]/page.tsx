@@ -31,8 +31,6 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
   const { agentsList, removeAgent } = useProfileContext();
   const router = useRouter();
 
-  console.log({ data });
-
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
       onSuccess: (deletedAgentId) => {

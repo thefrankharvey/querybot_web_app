@@ -78,8 +78,6 @@ const AgentProfile = () => {
     await saveAgent(payload);
   };
 
-  console.log({ agent });
-
   return (
     <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto md:mt-15 mt-0 md:p-0 p-4">
       <div className="flex justify-between items-end">
