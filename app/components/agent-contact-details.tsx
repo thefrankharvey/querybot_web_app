@@ -6,7 +6,7 @@ import React from "react";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { FetchAgentResponse } from "../types";
-import { COUNTRY_FLAG_LABELS } from "../constants";
+import { ALL_COUNTRY_FLAG_LABELS } from "../constants";
 
 const AgentContactDetails = ({
     agent,
@@ -15,6 +15,8 @@ const AgentContactDetails = ({
     agent: AgentMatch | FetchAgentResponse["agent"];
     isSubscribed: boolean;
 }) => {
+
+    const countryCode = agent.location?.country_code || agent?.country_code;
 
     return (
         <div>
@@ -125,21 +127,19 @@ const AgentContactDetails = ({
                     <div className="flex flex-col items-start gap-1 w-fit mt-4">
                         <label className="text-base font-semibold">Country:</label>
                         <p className="text-base leading-relaxed text-gray-800">
-                            {agent.location?.country_code ? (
+                            {countryCode ? (
                                 <>
                                     <span>
                                         {
-                                            COUNTRY_FLAG_LABELS[
-                                                agent.location
-                                                    ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                            ALL_COUNTRY_FLAG_LABELS[
+                                                countryCode as keyof typeof ALL_COUNTRY_FLAG_LABELS
                                             ]?.flag
                                         }
                                     </span>{" "}
                                     <span>
                                         {
-                                            COUNTRY_FLAG_LABELS[
-                                                agent.location
-                                                    ?.country_code as keyof typeof COUNTRY_FLAG_LABELS
+                                            ALL_COUNTRY_FLAG_LABELS[
+                                                countryCode as keyof typeof ALL_COUNTRY_FLAG_LABELS
                                             ]?.label
                                         }
                                     </span>

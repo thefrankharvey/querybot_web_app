@@ -10,7 +10,7 @@ export const CtaCard = () => {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="mt-60 md:w-[90%] w-full mx-auto flex flex-col gap-4 p-8 py-36 md:p-46">
+      <div className="mt-60 md:w-[95%] w-full mx-auto flex flex-col gap-4 p-8 py-36 md:p-46">
         <h1 className="text-2xl md:text-[40px] leading-normal text-white md:text-center text-left">
           The query process is broken. Months of searching, dead ends, and
           missed opportunities.

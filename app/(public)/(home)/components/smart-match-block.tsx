@@ -7,6 +7,61 @@ import DisplayAgentCards from "./display-agent-cards";
 import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
 
+const displayCardMocks = [
+  {
+    countryCode: "US" as const,
+    isSaved: true,
+    matchingGenres: [
+      "Literary Fiction",
+      "Contemporary",
+      "Upmarket",
+      "Book Club Fiction",
+      "Character-Driven",
+    ],
+    matchingThemes: [
+      "Family secrets",
+      "Identity",
+      "Belonging",
+      "Generational trauma",
+      "Moral ambiguity",
+    ],
+  },
+  {
+    countryCode: "GB" as const,
+    isSaved: false,
+    matchingGenres: [
+      "Romance",
+      "Women's Fiction",
+      "Commercial Fiction",
+      "Contemporary Romance",
+    ],
+    matchingThemes: [
+      "Second chance love",
+      "Grief and healing",
+      "Found purpose",
+      "Self-discovery",
+      "Workplace tension",
+    ],
+  },
+  {
+    countryCode: "CA" as const,
+    isSaved: false,
+    matchingGenres: [
+      "Speculative",
+      "Magical Realism",
+      "Science Fiction",
+      "Dystopian",
+      "Literary Speculative",
+    ],
+    matchingThemes: [
+      "Memory",
+      "Climate anxiety",
+      "Hope",
+      "Collective resilience",
+    ],
+  },
+];
+
 const SmartMatchBlock = () => {
   return (
     <div>
@@ -22,10 +77,9 @@ const SmartMatchBlock = () => {
             <br className="md:hidden visible" />{" "}
             <span className="bg-accent text-white p-1 px-3 rounded-xl font-semibold">
               your writing
-            </span>{" "}
+            </span>.{" "}
             <br className="md:visible hidden" />
-            We rank agents by how well they match your work so you can query
-            smarter, not harder.
+            We rank agents by how well they match your work. Save all of your matches or just your favorites with one click.
           </h1>
         </motion.div>
       </div>
@@ -33,6 +87,7 @@ const SmartMatchBlock = () => {
         {agentDemoData.map((match, index: number) => (
           <motion.div
             key={index}
+            className="h-full"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -42,7 +97,23 @@ const SmartMatchBlock = () => {
               ease: "easeOut",
             }}
           >
-            <DisplayAgentCards agent={match} id={`agent-${index}`} />
+            {(() => {
+              const mockData = displayCardMocks[index % displayCardMocks.length];
+              const openAgent = { ...match, status: "open" };
+              return (
+                <DisplayAgentCards
+                  agent={openAgent}
+                  index={index}
+                  id={`agent-${index}`}
+                  isLoading={false}
+                  isSubscribed
+                  isSaved={mockData.isSaved}
+                  mockCountryCode={mockData.countryCode}
+                  mockMatchingGenres={mockData.matchingGenres}
+                  mockMatchingThemes={mockData.matchingThemes}
+                />
+              );
+            })()}
           </motion.div>
         ))}
       </div>
