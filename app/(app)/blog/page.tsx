@@ -2,35 +2,8 @@ import Link from "next/link";
 import { getRecentPosts } from "@/lib/wp";
 import SlushwireWeeklyThumbnail from "./components/slushwire-weekly-thumbnail";
 import { NotebookPen } from "lucide-react";
-import type { Metadata } from "next";
-import { buildCanonical, buildOpenGraph, buildTwitter } from "@/lib/seo";
 
 export const revalidate = 1800; // 30 min for the index
-
-const title = "Blog";
-const description =
-  "SlushWire Weekly newsletter; literary agent MSWL, AMAs, query letter tips, and more.";
-
-export const metadata: Metadata = {
-  title,
-  description,
-  alternates: {
-    canonical: buildCanonical("/blog"),
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: buildOpenGraph({
-    title,
-    description,
-    path: "/blog",
-  }),
-  twitter: buildTwitter({
-    title,
-    description,
-  }),
-};
 
 export default async function BlogIndexPage() {
   const posts = await getRecentPosts(20);

@@ -1,5 +1,4 @@
 import sanitizeHtml from "sanitize-html";
-import { buildCanonical, getCanonicalSiteUrl } from "@/lib/seo";
 
 export type WpMedia = {
   sourceUrl: string | null;
@@ -211,12 +210,15 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
 }
 
 export function buildCanonicalUrlForPost(slug: string): string {
-  return buildCanonical(`/blog/${slug}`);
+  const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
+  const trailingSlash = true; // mirror WP default
+  const url = `${site}/blog/${slug}`;
+  return trailingSlash ? `${url}/` : url;
 }
 
 export function htmlToTextSummary(
   html: string | null | undefined,
-  maxLen = 155
+  maxLen = 155,
 ): string | undefined {
   if (!html) return undefined;
   const text = sanitizeHtml(html, { allowedTags: [], allowedAttributes: {} })
@@ -228,7 +230,7 @@ export function htmlToTextSummary(
 
 export function rewriteInternalLinksToBlog(
   html: string,
-  wpSiteUrl?: string | null
+  wpSiteUrl?: string | null,
 ): string {
   const site = (wpSiteUrl || process.env.WP_SITE_URL || "").replace(/\/$/, "");
   if (!site) return html;
@@ -236,9 +238,12 @@ export function rewriteInternalLinksToBlog(
   return html.replace(
     new RegExp(`${escapeRegExp(site)}/([A-Za-z0-9\-]+)/`, "g"),
     (_match, slug) => {
-      const canonicalSite = getCanonicalSiteUrl();
-      return `${canonicalSite}/blog/${slug}/`;
-    }
+      const canonicalSite =
+        process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "") || "";
+      const trailingSlash = true;
+      const dest = `${canonicalSite}/blog/${slug}`;
+      return trailingSlash ? `${dest}/` : dest;
+    },
   );
 }
 

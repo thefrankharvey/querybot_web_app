@@ -35,6 +35,9 @@ export async function updateUserSubscriptionStatus(
   userId: string,
   isSubscribed: boolean,
 ) {
+  console.log(
+    `[clerk-utils] updateUserSubscriptionStatus: userId=${userId} isSubscribed=${isSubscribed}`,
+  );
   try {
     await clerkClient.users.updateUserMetadata(userId, {
       publicMetadata: {
@@ -42,11 +45,18 @@ export async function updateUserSubscriptionStatus(
       },
     });
 
+    console.log(
+      `[clerk-utils] Successfully updated isSubscribed=${isSubscribed} for user ${userId}`,
+    );
+
     return {
       success: true,
     };
   } catch (error) {
-    console.error("Error updating user subscription status:", error);
+    console.error(
+      `[clerk-utils] Failed to update subscription status for user ${userId}:`,
+      error,
+    );
     return {
       success: false,
       error:
