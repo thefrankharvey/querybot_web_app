@@ -11,7 +11,6 @@ if (process.env.WP_SITE_URL) {
 const uniqueWpDomains = Array.from(new Set(wpDomains));
 
 const nextConfig: NextConfig = {
-  trailingSlash: true,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "*.wp.com" },

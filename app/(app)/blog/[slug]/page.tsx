@@ -1,19 +1,15 @@
 import { notFound } from "next/navigation";
-import type { Metadata } from "next";
 import {
   getAllPostSlugs,
   getPostBySlug,
   sanitizeWordPressHtml,
   buildCanonicalUrlForPost,
   rewriteInternalLinksToBlog,
-  htmlToTextSummary,
-  rewriteImageUrls,
 } from "@/lib/wp";
 import SlushwireWeeklyPost from "../components/slushwire-weekly-post";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { BlogPostingJsonLd } from "@/app/types";
-import { buildOpenGraph, buildTwitter } from "@/lib/seo";
 
 type Params = { slug: string };
 
@@ -25,57 +21,6 @@ export async function generateStaticParams(): Promise<Params[]> {
 }
 
 export const revalidate = 800; // 8.3 minutes
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
-  const { slug } = await params;
-  const post = await getPostBySlug(slug);
-
-  if (!post) {
-    return {
-      title: "Blog Post",
-      robots: {
-        index: false,
-        follow: true,
-      },
-    };
-  }
-
-  const title = post.title;
-  const description =
-    htmlToTextSummary(post.excerpt || post.content || "", 155) ||
-    "Read the latest post from Write Query Hook.";
-  const canonical = buildCanonicalUrlForPost(post.slug);
-  const imageUrl = rewriteImageUrls(post.featuredImage?.node?.sourceUrl || null) || undefined;
-  const images = imageUrl ? [imageUrl] : undefined;
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical,
-    },
-    robots: {
-      index: true,
-      follow: true,
-    },
-    openGraph: buildOpenGraph({
-      title,
-      description,
-      path: `/blog/${post.slug}`,
-      type: "article",
-      images,
-    }),
-    twitter: buildTwitter({
-      title,
-      description,
-      images,
-    }),
-  };
-}
 
 export default async function BlogPostPage({
   params,
@@ -116,7 +61,7 @@ export default async function BlogPostPage({
       </Link>
       <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4 overflow-hidden">
         {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
-        post.title.includes("SlushWire Weekly") ? (
+          post.title.includes("SlushWire Weekly") ? (
           <SlushwireWeeklyPost
             post={post}
             jsonLd={jsonLd}
