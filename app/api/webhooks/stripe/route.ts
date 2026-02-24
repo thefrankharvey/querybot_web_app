@@ -39,8 +39,6 @@ async function resolveClerkUserId(
 }
 
 export async function POST(req: NextRequest) {
-  console.log("[stripe-webhook] POST handler invoked");
-
   let stripe: Stripe;
   let webhookSecret: string;
 
@@ -79,8 +77,6 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    console.log("[stripe-webhook] event.type:", event.type);
-
     switch (event.type) {
       case "customer.subscription.created":
       case "customer.subscription.updated": {
@@ -100,10 +96,6 @@ export async function POST(req: NextRequest) {
         const isActive =
           subscription.status === "active" ||
           subscription.status === "trialing";
-
-        console.log(
-          `[stripe-webhook] Updating user ${clerkUserId} isSubscribed=${isActive}`,
-        );
 
         const result = await updateUserSubscriptionStatus(
           clerkUserId,
@@ -137,10 +129,6 @@ export async function POST(req: NextRequest) {
           );
           return NextResponse.json({ received: true }, { status: 200 });
         }
-
-        console.log(
-          `[stripe-webhook] Deactivating subscription for user ${clerkUserId}`,
-        );
 
         const result = await updateUserSubscriptionStatus(clerkUserId, false);
 
@@ -183,12 +171,7 @@ export async function POST(req: NextRequest) {
           return NextResponse.json({ received: true }, { status: 200 });
         }
 
-        const isActive =
-          sub.status === "active" || sub.status === "trialing";
-
-        console.log(
-          `[stripe-webhook] checkout.session.completed - updating user ${clerkUserId} isSubscribed=${isActive}`,
-        );
+        const isActive = sub.status === "active" || sub.status === "trialing";
 
         const result = await updateUserSubscriptionStatus(
           clerkUserId,
