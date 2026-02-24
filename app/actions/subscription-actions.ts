@@ -6,14 +6,12 @@ import {
   cancelCustomerSubscriptions,
   deleteStripeCustomer,
 } from "./stripe-actions";
-import { syncStripeCustomerToClerk } from "./clerk-actions";
-import { deleteUserAccount } from "./clerk-actions";
-import { createClerkClient } from "@clerk/backend";
+import {
+  syncStripeCustomerToClerk,
+  deleteUserAccount,
+  clerkClient,
+} from "@/lib/clerk-utils";
 import { getStripePriceId } from "@/lib/config";
-
-const clerkClient = createClerkClient({
-  secretKey: process.env.CLERK_SECRET_KEY!,
-});
 
 export async function initializeSubscription(
   userId: string,

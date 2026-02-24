@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { updateUserSubscriptionStatus } from "@/app/actions/clerk-actions";
+import { updateUserSubscriptionStatus } from "@/lib/clerk-utils";
 import { getStripeSecretKey, getStripeWebhookSecret } from "@/lib/config";
 
 const stripe = new Stripe(getStripeSecretKey(), {
@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     if (!signature) {
       return NextResponse.json(
         { error: "Missing stripe-signature header" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -26,15 +26,16 @@ export async function POST(req: NextRequest) {
     // Verify webhook signature for security
     try {
       event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
-    } catch {
+    } catch (error) {
+      console.error("Webhook signature verification failed:", error);
       return NextResponse.json(
         { error: "Webhook signature verification failed" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
     // Keep Stripe webhook focused on updating Clerk only
-
+    console.log("stripe webhook: event.type", event.type);
     // Handle the event
     switch (event.type) {
       case "customer.subscription.created":
@@ -43,7 +44,7 @@ export async function POST(req: NextRequest) {
 
         // Get the customer to find the Clerk user ID
         const customer = await stripe.customers.retrieve(
-          subscription.customer as string
+          subscription.customer as string,
         );
 
         if (customer.deleted) {
@@ -52,6 +53,8 @@ export async function POST(req: NextRequest) {
         }
 
         const clerkUserId = customer.metadata?.clerkUserId;
+
+        console.log("clerkUserId", clerkUserId);
 
         if (!clerkUserId) {
           // No Clerk user ID - can't update, but acknowledge to prevent retries
@@ -64,16 +67,18 @@ export async function POST(req: NextRequest) {
           subscription.status === "active" ||
           subscription.status === "trialing";
 
+        console.log("ISACTIVE", isActive);
+
         // Update Clerk user metadata
         const result = await updateUserSubscriptionStatus(
           clerkUserId,
-          isActive
+          isActive,
         );
 
         if (!result.success) {
           return NextResponse.json(
             { error: "Failed to update user status" },
-            { status: 500 }
+            { status: 500 },
           );
         }
 
@@ -85,7 +90,7 @@ export async function POST(req: NextRequest) {
 
         // Get the customer to find the Clerk user ID
         const customer = await stripe.customers.retrieve(
-          subscription.customer as string
+          subscription.customer as string,
         );
 
         if (customer.deleted) {
@@ -107,7 +112,7 @@ export async function POST(req: NextRequest) {
         if (!result.success) {
           return NextResponse.json(
             { error: "Failed to update user status" },
-            { status: 500 }
+            { status: 500 },
           );
         }
 
@@ -122,10 +127,11 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json({ received: true }, { status: 200 });
-  } catch {
+  } catch (error) {
+    console.error("Webhook handler failed:", error);
     return NextResponse.json(
       { error: "Webhook handler failed" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
