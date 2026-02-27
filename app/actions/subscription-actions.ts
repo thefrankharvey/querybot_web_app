@@ -10,6 +10,7 @@ import {
   syncStripeCustomerToClerk,
   deleteUserAccount,
   clerkClient,
+  updateUserSubscriptionStatus,
 } from "@/lib/clerk-utils";
 import { getStripePriceId } from "@/lib/config";
 
@@ -85,7 +86,18 @@ export async function cancelUserSubscription(userId: string) {
     }
 
     const result = await cancelCustomerSubscriptions(stripeCustomerId);
-    // Deactivate subscription
+    if (!result.success) {
+      return result;
+    }
+
+    const updateResult = await updateUserSubscriptionStatus(userId, false);
+
+    if (!updateResult.success) {
+      return {
+        success: false,
+        error: updateResult.error || "Failed to update subscription status",
+      };
+    }
 
     return result;
   } catch (error) {

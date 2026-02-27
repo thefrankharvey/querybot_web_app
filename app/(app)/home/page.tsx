@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
@@ -15,7 +14,6 @@ import QueryDashboardStats from "./components/query-dashboard-stats";
 const HomePage = () => {
   const { agentsList, isLoading: isProfileLoading, refetch } = useProfileContext();
   const { isSubscribed, isLoading } = useClerkUser();
-  const router = useRouter();
   const { user } = useUser();
   const hasReloadedRef = useRef(false);
   const [isQDashDialogOpen, setIsQDashDialogOpen] = useState(false);
@@ -49,7 +47,7 @@ const HomePage = () => {
 
         // Check if subscription is now active
         if (user.publicMetadata?.isSubscribed) {
-          router.replace("/home");
+          window.location.replace("/home");
           return;
         }
 
@@ -58,7 +56,7 @@ const HomePage = () => {
         await user.reload();
 
         if (user.publicMetadata?.isSubscribed) {
-          router.replace("/home");
+          window.location.replace("/home");
           return;
         }
 
@@ -67,12 +65,12 @@ const HomePage = () => {
         await user.reload();
 
         // Clean up URL regardless of outcome
-        router.replace("/home");
+        window.location.replace("/home");
       };
 
       checkSubscription();
     }
-  }, [user, router]);
+  }, [user]);
 
   useEffect(() => {
     let isMounted = true;
