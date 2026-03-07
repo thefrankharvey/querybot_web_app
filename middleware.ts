@@ -1,6 +1,30 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 
+const protectedRoutePrefixes = [
+  "/account",
+  "/agent-matches",
+  "/blog",
+  "/dispatch",
+  "/home",
+  "/query-dashboard",
+  "/saved-agents",
+  "/smart-match",
+  "/subscribe",
+];
+
+function isProtectedRoute(pathname: string) {
+  return protectedRoutePrefixes.some(
+    (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
+  );
+}
+
+function buildSignInRedirect(req: Request, redirectPath: string) {
+  const signInUrl = new URL("/sign-in", req.url);
+  signInUrl.searchParams.set("redirect_url", redirectPath);
+  return NextResponse.redirect(signInUrl);
+}
+
 export default clerkMiddleware(async (auth, req) => {
   const { userId } = await auth();
   const pathname = req.nextUrl.pathname;
@@ -18,6 +42,11 @@ export default clerkMiddleware(async (auth, req) => {
     return NextResponse.redirect(new URL("/sign-up", req.url));
   }
 
+  if (isProtectedRoute(pathname) && !userId) {
+    const redirectPath = `${pathname}${req.nextUrl.search}`;
+    return buildSignInRedirect(req, redirectPath);
+  }
+
   // Check if this looks like a blog post slug (not an existing app route)
   const isBlogPost =
     pathname.startsWith("/slushwire-") ||
@@ -28,6 +57,7 @@ export default clerkMiddleware(async (auth, req) => {
       !pathname.startsWith("/saved-agents") &&
       !pathname.startsWith("/home") &&
       !pathname.startsWith("/query-dashboard") &&
+      !pathname.startsWith("/creator-resources") &&
       !pathname.startsWith("/subscribe") &&
       !pathname.startsWith("/agent-matches") &&
       !pathname.startsWith("/account") &&
@@ -47,9 +77,11 @@ export default clerkMiddleware(async (auth, req) => {
       return NextResponse.redirect(new URL(blogPath, req.url));
     } else {
       // User is not signed in, redirect to sign-in page with intended destination
-      return NextResponse.redirect(new URL("/sign-in", req.url));
+      return buildSignInRedirect(req, blogPath);
     }
   }
+
+  return NextResponse.next();
 });
 
 export const config = {

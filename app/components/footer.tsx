@@ -6,6 +6,11 @@ import Link from "next/link";
 import { SignedOut } from "@clerk/nextjs";
 import KitEmailBar from "./kit-email-bar";
 import { usePathname } from "next/navigation";
+import InstagramIcon from "./custom-icons/instagram-icon";
+import TiktokIcon from "./custom-icons/tiktok-icon";
+import XIcon from "./custom-icons/x-icon";
+import BlueskyIcon from "./custom-icons/bluesky-icon";
+import ThreadsIcon from "./custom-icons/threads-icon";
 
 const Footer = () => {
   const pathname = usePathname();
@@ -50,17 +55,33 @@ const Footer = () => {
             >
               About
             </Link>
-            <a
-              className="text-base flex items-center gap-2 text-white transition-all duration-300"
-              href="https://bsky.app/profile/writequeryhook.bsky.social"
-              target="_blank"
+            <Link
+              href="/creator-resources"
+              className="text-base text-white transition-all duration-300"
             >
-              <span>Bluesky</span>
-            </a>
+              Creator Resources
+            </Link>
             <CopyToClipboard
               text="feedback@writequeryhook.com"
               className="text-white"
             />
+            <div className="flex flex-row gap-3 mt-2">
+              <a href="https://www.instagram.com/writequeryhook" target="_blank" rel="noopener noreferrer" className="text-white">
+                <InstagramIcon className="w-6 h-6" />
+              </a>
+              <a href="https://www.tiktok.com/@write.query.hook?is_from_webapp=1" target="_blank" rel="noopener noreferrer" className="text-white">
+                <TiktokIcon className="w-6 h-6" />
+              </a>
+              <a href="https://x.com/writequeryhook" target="_blank" rel="noopener noreferrer" className="text-white">
+                <XIcon className="w-6 h-6" />
+              </a>
+              <a href="https://bsky.app/profile/writequeryhook.bsky.social" target="_blank" rel="noopener noreferrer" className="text-white">
+                <BlueskyIcon className="w-6 h-6" />
+              </a>
+              <a href="https://www.threads.com/@writequeryhook" target="_blank" rel="noopener noreferrer" className="text-white">
+                <ThreadsIcon className="w-6 h-6" />
+              </a>
+            </div>
           </div>
         </div>
         {pathname === "/" && (
@@ -72,7 +93,7 @@ const Footer = () => {
 
       <div className="max-w-screen-lg mx-auto flex justify-center px-4">
         <p className="text-xs mt-4 text-center text-white">
-          © 2025 Write Query Hook. All Rights Reserved.
+          © 2026 Write Query Hook. All Rights Reserved.
         </p>
       </div>
     </div>
