@@ -26,7 +26,7 @@ async function SignInComponent({ redirectUrl }: { redirectUrl: string | null }) 
   return (
     <div className="pt-16 flex justify-center items-center">
       <SignIn
-        forceRedirectUrl={redirectUrl ?? undefined}
+        forceRedirectUrl={redirectUrl ?? "/home"}
         fallbackRedirectUrl="/home"
         appearance={{
           elements: {
