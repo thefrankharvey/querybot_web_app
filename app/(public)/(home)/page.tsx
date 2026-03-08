@@ -1,11 +1,14 @@
 
 import TypeAnimationBlock from "./components/type-animation-block";
-import ProductsBlock from "./components/products-block";
-import SmartMatchBlock from "./components/smart-match-block";
-import QueryDashBlock from "./components/query-dash-block";
-import SlushwireDispatchBlock from "./components/slushwire-dispatch-block";
+import ProductEcosystemSection from "./components/product-ecosystem-section";
+import SmartMatchSection from "./components/smart-match-section";
+import QueryDashboardSection from "./components/query-dashboard-section";
+import DispatchSection from "./components/dispatch-section";
 import { CtaCard } from "./components/cta-card";
-import { BottomCta } from "./components/bottom-cta";
+import ComparisonSection from "./components/comparison-section";
+import TrustStatsSection from "./components/trust-stats-section";
+import FinalCtaSection from "./components/final-cta-section";
+import HomeContentShell from "./components/home-content-shell";
 
 
 const Home = () => {
@@ -13,26 +16,27 @@ const Home = () => {
     <>
       <section className="sr-only">
         <h1>
-          Write Query Hook
+          The modern way to query literary agents.
         </h1>
         <p>
-          Purpose driven tools to help writers query smart, find agents, and
-          get signed.
+          Find the best for your writing agents fast, track every submission in one place, and
+          stay current on agent openings, MSWLs, and publishing intel — without
+          juggling spreadsheets and scattered research.
         </p>
       </section>
-      <div className="w-full flex flex-col md:block">
-        <TypeAnimationBlock />
+      <div className="flex w-full flex-col md:block">
+        <HomeContentShell>
+          <TypeAnimationBlock />
+        </HomeContentShell>
       </div>
-      <div className="bg-accent relative left-1/2 right-1/2 w-screen max-w-none -ml-[50vw] -mr-[50vw]">
-        <CtaCard />
-      </div>
-      <SmartMatchBlock />
-      <QueryDashBlock />
-      <SlushwireDispatchBlock />
-      <div className="bg-accent relative left-1/2 right-1/2 w-screen max-w-none -ml-[50vw] -mr-[50vw] py-36 mt-40">
-        <ProductsBlock />
-      </div>
-      <BottomCta />
+      <CtaCard />
+      <ProductEcosystemSection />
+      <SmartMatchSection />
+      <QueryDashboardSection />
+      <DispatchSection />
+      <ComparisonSection />
+      <TrustStatsSection />
+      <FinalCtaSection />
     </>
   );
 };

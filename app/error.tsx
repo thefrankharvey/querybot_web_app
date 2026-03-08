@@ -8,12 +8,17 @@ const Error = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <Frown className="w-16 h-16" />
-      <h1 className="text-4xl font-bold text-accent">Error</h1>
-      <p className="text-lg text-accent">Something went wrong</p>
+      <div className="flex items-center gap-4">
+        <Frown className="w-16 h-16 text-accent" />
+        <div>
+          <h1 className="text-4xl font-bold text-accent">Error</h1>
+          <p className="text-lg text-accent">Something went wrong</p>
+        </div>
+      </div>
       <Button
         variant="default"
-        className="text-lg text-accent"
+        className="text-lg mt-6 ml-18"
+        size="lg"
         onClick={() => {
           router.push("/");
         }}
