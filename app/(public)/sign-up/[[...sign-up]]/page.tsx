@@ -1,43 +1,118 @@
 import { SignUp } from "@clerk/nextjs";
 
+import { AuthPageShell } from "../../components/auth-page-shell";
+
+const SIGN_UP_PROOF_ITEMS = [
+  "3,300+ agents",
+  "Save matches in one click",
+  "Track multiple projects",
+];
+
 export default function Page() {
   return (
-    <div className="pt-16 flex flex-col gap-10 justify-center items-center">
-      <h1 className="md:text-4xl text-2xl text-accent md:text-center text-left md:w-[80%] w-full mx-auto leading-normal">
-        Join hundreds of writers using{" "}
-        <span className="font-semibold">Write Query Hook</span> to get{" "}
-        <span className="font-semibold underline">out</span> of the query
-        trenches and <span className="font-semibold underline">onto</span> agent
-        client lists.
-      </h1>
+    <AuthPageShell
+      title="Start querying smarter."
+      description="Find the right agents faster, track every submission in one place, and stay current without managing the process by hand."
+      proofItems={SIGN_UP_PROOF_ITEMS}
+      authPrompt="Already have an account?"
+      authLinkHref="/sign-in"
+      authLinkLabel="Sign in"
+    >
       <SignUp
         forceRedirectUrl="/home"
         fallbackRedirectUrl="/home"
         appearance={{
           elements: {
-            border: "none",
+            rootBox: "w-full overflow-hidden rounded-[28px] border border-gray-200 shadow-xl",
+            card: {
+              width: "100%",
+              borderRadius: "28px",
+              border: "1px solid rgba(28, 74, 78, 0.10)",
+              backgroundColor: "rgba(255, 255, 255, 0.92)",
+              boxShadow: "0 28px 80px rgba(24, 44, 69, 0.12)",
+              padding: "32px",
+            },
+            headerTitle: {
+              color: "#1c4a4e",
+              fontSize: "1.5rem",
+              fontWeight: "600",
+              letterSpacing: "-0.02em",
+            },
+            headerSubtitle: {
+              color: "rgba(28, 74, 78, 0.68)",
+              fontSize: "0.95rem",
+            },
             formButtonPrimary: {
-              fontSize: 16,
-              padding: "16px",
+              fontSize: "1rem",
+              minHeight: "52px",
+              borderRadius: "999px",
               textTransform: "none",
               backgroundColor: "#1c4a4e",
-              fontWeight: "semibold",
-              border: "none",
+              fontWeight: "600",
+              border: "1px solid #1c4a4e",
               color: "white",
+              boxShadow: "0 18px 36px rgba(28, 74, 78, 0.18)",
               "&:hover, &:focus, &:active": {
                 color: "white",
-                backgroundColor: "#1c4a4e",
+                backgroundColor: "#163b3e",
+              },
+              "&:focus-visible": {
+                boxShadow: "0 0 0 4px rgba(28, 74, 78, 0.18)",
               },
             },
+            formFieldLabel: {
+              color: "#1c4a4e",
+              fontSize: "0.92rem",
+              fontWeight: "600",
+              marginBottom: "0.5rem",
+            },
             formFieldInput: {
-              padding: "27px 20px",
+              minHeight: "54px",
+              borderRadius: "16px",
+              border: "1px solid rgba(28, 74, 78, 0.16)",
+              backgroundColor: "rgba(251, 250, 247, 0.98)",
+              padding: "0 18px",
+              boxShadow: "inset 0 1px 2px rgba(24, 44, 69, 0.04)",
+              "&:focus": {
+                borderColor: "#1c4a4e",
+                boxShadow: "0 0 0 4px rgba(28, 74, 78, 0.12)",
+              },
             },
             socialButtonsBlockButton: {
-              padding: "18px 20px",
+              minHeight: "54px",
+              borderRadius: "16px",
+              border: "1px solid rgba(28, 74, 78, 0.12)",
+              backgroundColor: "rgba(255, 255, 255, 0.9)",
+              boxShadow: "0 10px 30px rgba(24, 44, 69, 0.06)",
+              "&:hover": {
+                backgroundColor: "rgba(247, 246, 242, 0.98)",
+              },
+            },
+            socialButtonsBlockButtonText: {
+              color: "#1c4a4e",
+              fontWeight: "500",
+            },
+            dividerLine: {
+              backgroundColor: "rgba(28, 74, 78, 0.10)",
+            },
+            dividerText: {
+              color: "rgba(28, 74, 78, 0.55)",
+              fontSize: "0.8rem",
+            },
+            footerActionText: {
+              color: "rgba(28, 74, 78, 0.72)",
+            },
+            footerActionLink: {
+              color: "#1c4a4e",
+              fontWeight: "600",
+            },
+            formFieldAction: {
+              color: "#1c4a4e",
+              fontWeight: "500",
             },
           },
         }}
       />
-    </div>
+    </AuthPageShell>
   );
 }

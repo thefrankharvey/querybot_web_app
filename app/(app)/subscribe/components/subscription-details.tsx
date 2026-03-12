@@ -1,103 +1,52 @@
-import React, { useState } from "react";
+"use client";
+
+import { useState } from "react";
 import { Button } from "@/app/ui-primitives/button";
 import { Switch } from "@/app/ui-primitives/switch";
 import { motion } from "framer-motion";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useStripeSubscribe } from "@/app/hooks/use-stripe-subscribe";
-import { Check } from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
 
-const smartMatchCopy = [
-  {
-    textDefault: "Matches you with over 3,200 agents",
-    textHover: "The internets largest agent database",
-  },
-  {
-    textDefault: "Agents matched to your manuscript",
-    textHover: "Target agents precisely",
-  },
-  {
-    textDefault: "Agent scores based on your query",
-    textHover: "Improve your request rate",
-  },
-  {
-    textDefault: "Best-fit results instantly",
-    textHover: "Skip months of research",
-  },
-];
+const trustStats = [
+  "3,300+ agents in database",
+  "Built specifically for querying writers",
+  "Multiple manuscript support",
+  "Export-ready spreadsheet",
+  "Real-time industry updates",
+] as const;
 
-const dispatchCopy = [
+const featureColumns = [
   {
-    textDefault: "Daily news feed across multiple sources",
-    textHover: "Monitor the industry in real time",
+    title: "Smart Match",
+    items: [
+      "Ranked agent matches based on your project details",
+      "Country and submission-status filters that narrow the list fast",
+      "One-click saving for the agents you want to pursue",
+      "Export-ready spreadsheet when you want an offline list",
+    ],
   },
   {
-    textDefault: "Agent openings alerts",
-    textHover: "Know when to query",
+    title: "Query Dashboard",
+    items: [
+      "Keep every saved agent and submission in one place",
+      "Track multiple manuscripts without juggling separate systems",
+      "Add notes, fit ratings, and query readiness as you go",
+      "See how long it has been since each query or request was sent",
+    ],
   },
   {
-    textDefault: "Query tips & industry news",
-    textHover: "Level up your query",
+    title: "Dispatch",
+    items: [
+      "Track open and closed submission status changes",
+      "Catch MSWL updates and preference shifts earlier",
+      "Keep AMA takeaways and query advice in view",
+      "Follow relevant publishing intel in one feed",
+    ],
   },
-  {
-    textDefault: "MSWL & wishlist tracking",
-    textHover: "Never miss an opportunity",
-  },
-];
+] as const;
 
-const queryDashboardCopy = [
-  {
-    textDefault: "Track every query in one place",
-    textHover: "Makes tracking your query progress easy",
-  },
-  {
-    textDefault: "Save agent matches and filter by fit and readiness",
-    textHover: "Target agents precisely",
-  },
-  {
-    textDefault: "Update statuses from your phone on the go",
-    textHover: "Mobile friendly",
-  },
-  {
-    textDefault: "Add notes and project titles for every submission",
-    textHover: "Never lose context",
-  },
-];
-
-const slushwireBlogCopy = [
-  {
-    textDefault: "Weekly newsletter delivered to your inbox",
-    textHover: "Stay updated",
-  },
-  {
-    textDefault: "Curated industry intel delivered to your inbox",
-    textHover: "We scan the industry",
-  },
-];
-
-type HoverListItemProps = {
-  textDefault: string;
-  textHover: string;
-};
-
-const HoverListItem = ({ textDefault, textHover }: HoverListItemProps) => (
-  <li className="list-disc group overflow-hidden leading-snug flex items-center min-h-14">
-    <div className="grid relative cursor-pointer">
-      <span className="col-start-1 row-start-1 w-full transition-all duration-400 ease-out group-hover:-translate-y-1.5 group-hover:opacity-0">
-        <div className="flex items-center">
-          <Check className="w-6 h-6 min-w-6 min-h-6 mr-4 shrink-0" />
-          {textDefault}
-        </div>
-      </span>
-      <span className="col-start-1 row-start-1 w-full translate-y-2 opacity-0 transition-all duration-400 ease-out group-hover:translate-y-0 group-hover:opacity-100">
-        <div className="flex items-center">
-          <Check className="w-6 h-6 min-w-6 min-h-6 mr-4 shrink-0" />
-          {textHover}
-        </div>
-      </span>
-    </div>
-  </li>
-);
 const SubscriptionDetails = () => {
   const [isYearly, setIsYearly] = useState(false);
   const { isLoading } = useClerkUser();
@@ -109,15 +58,16 @@ const SubscriptionDetails = () => {
 
   if (isLoading) {
     return (
-      <div className="pt-20 flex justify-center items-center">
+      <div className="flex items-center justify-center pt-20">
         <Spinner className="size-16 text-accent" />
       </div>
     );
   }
 
   return (
-    <div className="pb-4 w-full md:w-3/4 mx-auto text-left">
+    <section className="relative w-full pt-4 md:pt-8">
       <motion.div
+        className="mx-auto max-w-4xl text-center"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -127,12 +77,79 @@ const SubscriptionDetails = () => {
           ease: "easeOut",
         }}
       >
-        <h1 className="text-4xl md:text-[40px] font-semibold leading-tight text-accent text-center mb-5 md:pt-12">
-          Query smarter. <br className="md:hidden" />
-          Get repped faster.
-        </h1>
+        <div className="rounded-[36px] border border-white/80 bg-white/72 px-5 py-10 shadow-[0_28px_72px_rgba(24,44,69,0.1)] ring-1 ring-accent/8 backdrop-blur-md sm:px-6 sm:py-12 lg:px-10 lg:py-14">
+          <span className="inline-flex items-center gap-2 rounded-full border border-accent/10 bg-white/82 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-accent/65 shadow-[0_12px_32px_rgba(24,44,69,0.06)] backdrop-blur-sm">
+            <Sparkles className="h-3.5 w-3.5" />
+            Subscribe
+          </span>
+          <h1 className="mx-auto mt-6 max-w-3xl font-serif text-4xl leading-tight text-accent md:text-[56px]">
+            Find the best fit agents, stay organized, and stop missing opportunities.
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-accent/78 md:text-lg">
+            Get full access to Smart Match, Query Dashboard, and Dispatch so you can
+            build a stronger list, track every submission, and stay current as agent
+            openings and preferences change.
+          </p>
+
+          <div className="mx-auto mt-10 max-w-[440px] rounded-[30px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-6 shadow-[0_24px_62px_rgba(24,44,69,0.12)] sm:p-7">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-accent/58">
+              Full access
+            </p>
+            <h2 className="mt-4 font-serif text-3xl leading-tight text-accent">
+              Everything you need to query smarter.
+            </h2>
+            <div className="mt-8 rounded-[26px] border border-accent/8 bg-[#f7fafb] px-5 py-6 text-center">
+              <div className="flex items-end justify-center gap-2">
+                <h3 className="text-5xl font-bold text-accent">
+                  {isYearly ? "$30" : "$7"}
+                </h3>
+                <p className="pb-1 text-base text-accent/58">
+                  / {isYearly ? "year" : "month"}
+                </p>
+              </div>
+              <p className="mt-3 text-sm leading-6 text-accent/62">
+                {isYearly
+                  ? "Billed annually for the best value."
+                  : "Flexible monthly access."}
+              </p>
+              <div className="mt-6 flex items-center justify-center gap-3">
+                <Switch onToggle={handleToggle} />
+                <p className="text-sm font-medium text-accent/72">
+                  Billed yearly
+                </p>
+              </div>
+            </div>
+
+            <Button
+              className="mt-8 w-full rounded-full px-7 py-6 text-base font-semibold shadow-[0_18px_40px_rgba(56,88,116,0.24)]"
+              onClick={() => handleSubscribe(isYearly ? "yearly" : "monthly")}
+              disabled={isLoading || isSubscribing}
+            >
+              Subscribe
+            </Button>
+
+            <div className="mt-6 flex flex-col gap-3 text-sm leading-6 text-accent/66">
+              <p>Find stronger agent matches in less time.</p>
+              <p>Keep every project and submission organized.</p>
+              <p>Stay ahead of openings, MSWL shifts, and query intel.</p>
+            </div>
+          </div>
+
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            {trustStats.map((stat) => (
+              <div
+                key={stat}
+                className="rounded-full border border-accent/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.92),rgba(247,250,251,0.88))] px-4 py-2 text-sm font-medium leading-6 text-accent/72"
+              >
+                {stat}
+              </div>
+            ))}
+          </div>
+        </div>
       </motion.div>
+
       <motion.div
+        className="mt-12 rounded-[36px] border border-white/80 bg-white/64 p-5 shadow-[0_24px_60px_rgba(24,44,69,0.08)] ring-1 ring-accent/8 backdrop-blur-sm sm:p-6 lg:p-8 max-w-5xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -142,98 +159,41 @@ const SubscriptionDetails = () => {
           ease: "easeOut",
         }}
       >
-        <div className="flex flex-col gap-4 bg-white rounded-lg p-4 md:p-10 w-full mx-auto shadow-xl justify-center items-center mt-4 border-2 border-accent">
-          <h1 className="text-2xl md:text-3xl leading-tight text-accent mt-6 w-[95%] mx-auto md:text-center text-left">
-            The all in one system that finds{" "}
-            <span className="font-semibold">your best-fit</span> agents, tracks
-            the industry in <span className="font-semibold">real time</span>,
-            and keeps you ahead of every opportunity.
-          </h1>
-          <div className="flex flex-col md:flex-row gap-24 w-full items-center justify-center mt-10 mb-10">
-            <div className="flex flex-col justify-start items-center w-full">
-              <div className="flex items-baseline justify-center mb-10">
-                <h3 className="text-5xl font-bold">
-                  {isYearly ? "$30" : "$7"}
-                </h3>
-                <p className="text-gray-600 text-base">
-                  {isYearly ? "year" : "month"}
-                </p>
-              </div>
-              <div className="flex items-center justify-center gap-2 mb-6 w-full">
-                <Switch onToggle={handleToggle} />
-                <p className="text-sm">Billed yearly</p>
-              </div>
-
-              <Button
-                className="w-full md:w-[250px] md:text-3xl text-2xl p-8 font-semibold shadow-lg hover:shadow-xl"
-                onClick={() => handleSubscribe(isYearly ? "yearly" : "monthly")}
-                disabled={isLoading || isSubscribing}
-              >
-                SUBSCRIBE
-              </Button>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-8 pt-8 pb-8">
-            <div className="flex flex-col w-full">
-              <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
-                Smart Match
-              </span>
-              <ul className="list-disc gap-6 flex flex-col text-base">
-                {smartMatchCopy.map((item) => (
-                  <HoverListItem
-                    key={item.textDefault}
-                    textDefault={item.textDefault}
-                    textHover={item.textHover}
-                  />
+        <div className="grid gap-5 lg:grid-cols-3">
+          {featureColumns.map((column, index) => (
+            <motion.article
+              key={column.title}
+              className="rounded-[28px] border border-white/90 bg-white/86 p-5 shadow-[0_18px_44px_rgba(24,44,69,0.08)] backdrop-blur-sm"
+              initial={{ opacity: 0, y: 26 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.35 }}
+              transition={{
+                duration: 0.45,
+                delay: index * 0.08,
+                ease: "easeOut",
+              }}
+            >
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent/56">
+                {column.title}
+              </p>
+              <ul className="mt-5 flex flex-col gap-4">
+                {column.items.map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-sm leading-6 text-accent/78"
+                  >
+                    <span className="mt-0.5 inline-flex size-7 shrink-0 items-center justify-center rounded-full bg-accent text-white">
+                      <Check className="h-4 w-4" />
+                    </span>
+                    <span>{item}</span>
+                  </li>
                 ))}
               </ul>
-            </div>
-            <div className="flex flex-col w-full">
-              <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
-                Dispatch
-              </span>
-              <ul className="list-disc gap-6 flex flex-col text-base">
-                {dispatchCopy.map((item) => (
-                  <HoverListItem
-                    key={item.textDefault}
-                    textDefault={item.textDefault}
-                    textHover={item.textHover}
-                  />
-                ))}
-              </ul>
-            </div>
-            <div className="flex flex-col w-full">
-              <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
-                Query Dashboard
-              </span>
-              <ul className="list-disc gap-6 flex flex-col text-base">
-                {queryDashboardCopy.map((item) => (
-                  <HoverListItem
-                    key={item.textDefault}
-                    textDefault={item.textDefault}
-                    textHover={item.textHover}
-                  />
-                ))}
-              </ul>
-            </div>
-            <div className="flex flex-col w-full">
-              <span className="font-semibold text-accent text-xl pb-4 text-left ml-10">
-                Slushwire/Blog
-              </span>
-              <ul className="list-disc gap-6 flex flex-col text-base">
-                {slushwireBlogCopy.map((item) => (
-                  <HoverListItem
-                    key={item.textDefault}
-                    textDefault={item.textDefault}
-                    textHover={item.textHover}
-                  />
-                ))}
-              </ul>
-            </div>
-          </div>
+            </motion.article>
+          ))}
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

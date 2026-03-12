@@ -25,7 +25,7 @@ export const CtaCard = () => {
   return (
     <section className="w-full py-24 md:py-32">
       <HomeContentShell>
-        <div className="mx-auto w-[90%] rounded-[2rem] border border-accent/10 bg-white/70 px-6 py-12 shadow-[0_20px_60px_rgba(20,40,60,0.06)] backdrop-blur-sm md:w-[92%] md:px-12 md:py-16 lg:px-16">
+        <div className="mx-auto w-full rounded-[2rem] border border-accent/10 bg-white/70 px-5 py-12 shadow-[0_20px_60px_rgba(20,40,60,0.06)] backdrop-blur-sm sm:px-6 md:px-12 md:py-16 lg:px-16">
           <motion.div
             className="max-w-3xl"
             initial={{ opacity: 0, y: 50 }}

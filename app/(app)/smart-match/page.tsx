@@ -165,7 +165,7 @@ const SmartMatch = () => {
         <>
           <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto">
             <div className="mb-4">
-              <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-7 flex items-center gap-2 text-accent md:pt-17 pt-0">
+              <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-7 flex items-center gap-2 text-accent md:pt-17 pt-0 font-serif">
                 <ScanSearch className="w-10 h-10" />
                 Smart Match
               </h1>

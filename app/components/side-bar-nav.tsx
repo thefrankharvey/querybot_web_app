@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/app/utils";
@@ -9,6 +8,7 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { ScanSearch, Newspaper, NotebookPen, Home, LayoutDashboard } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
+import { BrandLockup } from "./brand-lockup";
 
 export const SideBarNav = () => {
   const pathname = usePathname();
@@ -17,15 +17,10 @@ export const SideBarNav = () => {
 
   return (
     <div className="w-[195px] shrink-0 pt-4 ml-8 sticky top-0 self-start h-fit hidden md:block">
-      <Link href="/" className="text-xl font-semibold text-black">
-        <Image
-          src="/wqh-logo.png"
-          alt="logo"
-          width={60}
-          height={60}
-          className="w-[60px] h-[60px] rounded-full ml-8"
-        />
-      </Link>
+      <BrandLockup
+        stacked={true}
+        labelClassName="inline text-[12px] leading-5 text-accent"
+      />
       <div className="w-full flex flex-col md:flex-row pt-8">
         <aside className="w-full md:sticky md:top-24 h-full md:max-w-[195px]">
           <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">

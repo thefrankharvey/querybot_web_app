@@ -24,7 +24,7 @@ const Home = () => {
           juggling spreadsheets and scattered research.
         </p>
       </section>
-      <div className="flex w-full flex-col md:block">
+      <div className="flex w-full flex-col pb-24 md:block md:pb-0">
         <HomeContentShell>
           <TypeAnimationBlock />
         </HomeContentShell>

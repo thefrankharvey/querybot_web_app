@@ -173,7 +173,7 @@ export const AppHamburger = () => {
               className="w-full"
             >
               <div className="cursor-pointer text-base font-medium p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
-                Sign Up
+                Create an Account
               </div>
             </Link>
           </SignedOut>

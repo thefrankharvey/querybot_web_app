@@ -17,10 +17,10 @@ const TypeAnimationBlock = () => {
   const [firstDone, setFirstDone] = useState(false);
 
   return (
-    <div className="pt-15 md:pt-26 sm:w-[90%] md:w-[80%] mx-auto text-left">
+    <div className="mx-auto w-full max-w-4xl pt-15 text-left md:pt-26">
       <h1 className="text-4xl md:text-[40px] font-semibold leading-tight text-accent">
         <TypeAnimation
-          className="block h-[100px] md:h-[60px] whitespace-pre-linen font-serif"
+          className="block min-h-[56px] whitespace-pre-line font-serif sm:min-h-[72px] md:min-h-[60px]"
           speed={70}
           sequence={["Write Query Hook.", () => setFirstDone(true)]}
           repeat={0}
@@ -29,7 +29,7 @@ const TypeAnimationBlock = () => {
         />
         {firstDone && (
           <TypeAnimation
-            className="block h-[100px] md:h-[60px] whitespace-pre-linen font-serif"
+            className="block min-h-[56px] whitespace-pre-line font-serif sm:min-h-[72px] md:min-h-[60px]"
             speed={70}
             sequence={["The modern way to query literary agents."]}
             repeat={0}
@@ -79,7 +79,7 @@ const TypeAnimationBlock = () => {
           </React.Fragment>
         ))}
       </motion.div>
-    </div >
+    </div>
   );
 };
 

@@ -15,7 +15,7 @@ const TrustStatsSection = () => {
   return (
     <section className="relative w-full pt-16">
       <HomeContentShell>
-        <div className="mx-auto w-[90%] md:w-[92%]">
+        <div className="mx-auto w-full">
           <motion.div
             className="rounded-[32px] border border-white/80 bg-white/72 p-5 shadow-[0_22px_58px_rgba(24,44,69,0.08)] backdrop-blur-sm sm:p-6 lg:p-7"
             initial={{ opacity: 0, y: 24 }}
