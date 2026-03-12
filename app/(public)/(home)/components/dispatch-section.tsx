@@ -39,9 +39,9 @@ const DispatchSection = () => {
       <div className="pointer-events-none absolute inset-x-0 top-6 -z-10 mx-auto h-[820px] w-[min(1380px,100vw)] bg-[radial-gradient(circle_at_24%_26%,rgba(250,242,232,0.92),transparent_30%),radial-gradient(circle_at_74%_28%,rgba(112,193,202,0.16),transparent_28%),radial-gradient(circle_at_62%_78%,rgba(56,88,116,0.12),transparent_32%)] blur-3xl" />
 
       <HomeContentShell>
-        <div className="mx-auto grid w-[90%] items-center gap-14 md:w-[92%] xl:grid-cols-[minmax(0,460px)_minmax(0,1fr)] xl:gap-16">
+        <div className="mx-auto grid w-full min-w-0 items-center gap-10 xl:grid-cols-[minmax(0,460px)_minmax(0,1fr)] xl:gap-16">
           <motion.div
-            className="relative z-10 max-w-xl"
+            className="relative z-10 min-w-0 max-w-xl"
             initial={{ opacity: 0, y: 42 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -88,7 +88,7 @@ const DispatchSection = () => {
           </motion.div>
 
           <motion.div
-            className="relative"
+            className="relative min-w-0"
             initial={{ opacity: 0, y: 52 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
@@ -96,7 +96,7 @@ const DispatchSection = () => {
           >
             <div className="pointer-events-none absolute -inset-4 rounded-[44px] bg-[radial-gradient(circle_at_30%_20%,rgba(112,193,202,0.22),transparent_32%),radial-gradient(circle_at_84%_70%,rgba(56,88,116,0.18),transparent_34%)] blur-2xl" />
 
-            <div className="relative mx-auto max-w-[1000px] rounded-[38px] border border-white/80 bg-white/88 p-3 shadow-[0_36px_110px_rgba(24,44,69,0.14)] ring-1 ring-accent/8 backdrop-blur-md sm:p-4">
+            <div className="relative mx-auto w-full max-w-[1000px] rounded-[38px] border border-white/80 bg-white/88 p-2.5 shadow-[0_36px_110px_rgba(24,44,69,0.14)] ring-1 ring-accent/8 backdrop-blur-md sm:p-4">
               <div className="relative overflow-hidden rounded-[32px] border border-[#ece8e1] bg-white shadow-[inset_0_1px_0_rgba(255,255,255,0.75)]">
                 <div className="flex items-center justify-between border-b border-[#ece8e1] bg-white px-4 py-3 sm:px-5">
                   <div className="flex items-center gap-2">
@@ -109,7 +109,7 @@ const DispatchSection = () => {
                   </div>
                 </div>
 
-                <div className="relative aspect-[1.76/1] min-h-[300px] overflow-hidden sm:min-h-[400px] lg:min-h-[520px]">
+                <div className="relative aspect-[1.76/1] min-h-[280px] overflow-hidden sm:min-h-[400px] lg:min-h-[520px]">
                   <div className="absolute inset-y-0 left-0 w-[124%] -translate-x-[30%] sm:w-[121%] sm:-translate-x-[26%] lg:w-[118%] lg:-translate-x-[24%]">
                     <Image
                       src="/dispatch-ss.png"
@@ -126,7 +126,7 @@ const DispatchSection = () => {
                   {dispatchTags.map((tag) => (
                     <div
                       key={tag.label}
-                      className={`pointer-events-none absolute rounded-full border border-white/92 bg-white/90 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent/65 shadow-[0_10px_28px_rgba(24,44,69,0.12)] backdrop-blur-md sm:px-3.5 sm:text-[11px] ${tag.className}`}
+                      className={`pointer-events-none absolute hidden rounded-full border border-white/92 bg-white/90 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-accent/65 shadow-[0_10px_28px_rgba(24,44,69,0.12)] backdrop-blur-md sm:block sm:px-3.5 sm:text-[11px] ${tag.className}`}
                     >
                       {tag.label}
                     </div>
@@ -135,7 +135,7 @@ const DispatchSection = () => {
                   {editorialCards.map((card) => (
                     <div
                       key={card.headline}
-                      className={`pointer-events-none absolute rounded-[24px] border border-white/88 bg-[linear-gradient(180deg,rgba(255,255,255,0.94),rgba(249,247,243,0.9))] px-4 py-4 shadow-[0_18px_40px_rgba(24,44,69,0.14)] backdrop-blur-md sm:px-5 sm:py-5 ${card.className}`}
+                      className={`pointer-events-none absolute hidden rounded-[24px] border border-white/88 bg-[linear-gradient(180deg,rgba(255,255,255,0.94),rgba(249,247,243,0.9))] px-4 py-4 shadow-[0_18px_40px_rgba(24,44,69,0.14)] backdrop-blur-md sm:block sm:px-5 sm:py-5 ${card.className}`}
                     >
                       <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent/52">
                         {card.source}

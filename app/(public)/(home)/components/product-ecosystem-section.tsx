@@ -65,7 +65,7 @@ const BrowserFrame = ({
   return (
     <div
       className={cn(
-        "relative flex h-full flex-col overflow-hidden rounded-[28px] border border-white/65 bg-white/88 shadow-[0_24px_80px_rgba(24,44,69,0.16)] ring-1 ring-accent/8 backdrop-blur-sm",
+        "relative flex h-full min-w-0 w-full flex-col overflow-hidden rounded-[28px] border border-white/65 bg-white/88 shadow-[0_24px_80px_rgba(24,44,69,0.16)] ring-1 ring-accent/8 backdrop-blur-sm",
         className
       )}
     >
@@ -137,7 +137,7 @@ const ProductStep = ({
     <>
       <motion.article
         className={cn(
-          "grid items-center gap-8 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)] lg:gap-12",
+          "grid min-w-0 items-center gap-6 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)] lg:gap-12",
           isRightAligned && "lg:grid-cols-[minmax(0,1fr)_minmax(0,320px)]"
         )}
         initial={{ opacity: 0, y: 48 }}
@@ -145,8 +145,8 @@ const ProductStep = ({
         viewport={{ once: true, amount: 0.25 }}
         transition={{ duration: 0.65, ease: "easeOut" }}
       >
-        <div className={cn("order-1", isRightAligned && "lg:order-2")}>
-          <div className="max-w-md rounded-[28px] border border-white/90 bg-white/92 p-6 shadow-[0_20px_56px_rgba(24,44,69,0.12)] backdrop-blur-sm sm:p-7">
+        <div className={cn("order-1 min-w-0", isRightAligned && "lg:order-2")}>
+          <div className="w-full max-w-none rounded-[28px] border border-white/90 bg-white/92 p-5 shadow-[0_20px_56px_rgba(24,44,69,0.12)] backdrop-blur-sm sm:max-w-md sm:p-7">
             <div className="flex items-center gap-3">
               <span className="rounded-full border border-accent/12 bg-accent/6 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-accent/60">
                 {step}
@@ -159,15 +159,15 @@ const ProductStep = ({
             <p className="mt-4 text-base leading-8 text-accent/78">
               {description}
             </p>
-            <div className="mt-5 inline-flex rounded-full border border-accent/10 bg-[#f5f8fa] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-accent/58">
+            <div className="mt-5 inline-flex max-w-full rounded-full border border-accent/10 bg-[#f5f8fa] px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.2em] text-accent/58">
               {chip}
             </div>
           </div>
         </div>
 
-        <div className={cn("order-2", isRightAligned && "lg:order-1")}>
+        <div className={cn("order-2 min-w-0", isRightAligned && "lg:order-1")}>
           <BrowserFrame
-            className="aspect-[1.7/1] min-h-[250px] sm:min-h-[320px] lg:min-h-[430px]"
+            className="aspect-[1.7/1] min-h-[240px] sm:min-h-[320px] lg:min-h-[430px]"
             imageAlt={imageAlt}
             imageSrc={imageSrc}
             imageClassName={imageClassName}
@@ -185,7 +185,7 @@ const ProductEcosystemSection = () => {
       <div className="pointer-events-none absolute inset-x-0 top-14 -z-10 mx-auto h-[760px] w-[min(1220px,96vw)] rounded-[999px] bg-[radial-gradient(circle_at_20%_18%,rgba(112,193,202,0.18),transparent_34%),radial-gradient(circle_at_80%_26%,rgba(56,88,116,0.12),transparent_28%),radial-gradient(circle_at_50%_62%,rgba(255,255,255,0.84),transparent_42%)] blur-3xl" />
 
       <HomeContentShell>
-        <div className="mx-auto w-[90%] md:w-[92%]">
+        <div className="mx-auto w-full">
           <motion.div
             className="mx-auto max-w-3xl text-center"
             initial={{ opacity: 0, y: 36 }}
@@ -201,7 +201,7 @@ const ProductEcosystemSection = () => {
             </p>
           </motion.div>
 
-          <div className="relative mt-16 flex flex-col gap-10 lg:mt-20 lg:gap-0">
+          <div className="relative mt-14 flex flex-col gap-8 lg:mt-20 lg:gap-0">
             {steps.map((step, index) => (
               <ProductStep key={step.step} {...step} isLast={index === steps.length - 1} />
             ))}

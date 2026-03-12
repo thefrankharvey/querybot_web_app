@@ -1,9 +1,12 @@
+"use client";
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/app/ui-primitives/accordion";
+import { motion } from "framer-motion";
 
 export const SubscriptionFAQs = () => {
   const faqs = [
@@ -22,7 +25,7 @@ export const SubscriptionFAQs = () => {
     {
       label: "How often is the data updated?",
       content:
-        "Dispatch monitors sources continuously—social media, MSWLs, agency announcements—and updates flow into your feed in real time. Our agent database is maintained and verified regularly, so you're not querying someone who closed six months ago.",
+        "Dispatch monitors sources continuously—social media, MSWLs, agency announcements—and updates flow into your feed in real time. Our 3,300+ agent database is maintained and verified regularly, so you're not querying someone who closed six months ago.",
     },
 
     {
@@ -38,22 +41,37 @@ export const SubscriptionFAQs = () => {
   ];
 
   return (
-    <div className="pb-4 w-full md:w-3/4 mx-auto">
-      <h1 className="text-[28px] md:text-[36px] font-semibold leading-tight text-accent text-left">
-        FAQs
-      </h1>
-      <Accordion type="single" collapsible className="w-full">
-        {faqs.map((faq) => (
-          <AccordionItem value={faq.label} key={faq.label}>
-            <AccordionTrigger className="[&>svg]:text-accent underline-none text-lg font-semibold py-8 text-accent">
-              {faq.label}
-            </AccordionTrigger>
-            <AccordionContent className="text-lg font-normal text-accent">
-              {faq.content}
-            </AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
-    </div>
+    <section className="relative w-full max-w-5xl mx-auto">
+      <motion.div
+        className="rounded-[36px] border border-white/80 bg-white/70 px-5 py-10 shadow-[0_28px_72px_rgba(24,44,69,0.08)] ring-1 ring-accent/8 backdrop-blur-sm sm:px-6 md:px-10 md:py-12"
+        initial={{ opacity: 0, y: 28 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.25 }}
+        transition={{ duration: 0.55, ease: "easeOut" }}
+      >
+        <div className="max-w-3xl">
+          <h2 className="font-serif text-4xl leading-tight text-accent md:text-[48px]">
+            FAQs
+          </h2>
+          <p className="mt-4 text-base leading-8 text-accent/76 md:text-lg">
+            The core workflow stays simple: find better-fit agents, keep your
+            submissions organized, and stay current as the market changes.
+          </p>
+        </div>
+
+        <Accordion type="single" collapsible className="mt-8 w-full">
+          {faqs.map((faq) => (
+            <AccordionItem value={faq.label} key={faq.label}>
+              <AccordionTrigger className="py-8 text-left text-lg font-semibold text-accent [&>svg]:text-accent">
+                {faq.label}
+              </AccordionTrigger>
+              <AccordionContent className="text-base leading-8 text-accent/78 md:text-lg">
+                {faq.content}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </motion.div>
+    </section>
   );
 };

@@ -12,7 +12,7 @@ const FinalCtaSection = () => {
 
       <HomeContentShell>
         <motion.div
-          className="mx-auto flex w-[90%] flex-col items-center rounded-[36px] border border-white/80 bg-white/58 px-6 py-14 text-center shadow-[0_28px_72px_rgba(24,44,69,0.08)] backdrop-blur-sm md:w-[92%] md:px-10 md:py-16"
+          className="mx-auto flex w-full flex-col items-center rounded-[36px] border border-white/80 bg-white/58 px-5 py-14 text-center shadow-[0_28px_72px_rgba(24,44,69,0.08)] backdrop-blur-sm sm:px-6 md:px-10 md:py-16"
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.35 }}

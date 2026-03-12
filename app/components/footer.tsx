@@ -15,7 +15,11 @@ import ThreadsIcon from "./custom-icons/threads-icon";
 const Footer = () => {
   const pathname = usePathname();
 
-  if (pathname.includes("query-dashboard")) {
+  if (
+    pathname.includes("query-dashboard") ||
+    pathname.startsWith("/sign-in") ||
+    pathname.startsWith("/sign-up")
+  ) {
     return null;
   }
 

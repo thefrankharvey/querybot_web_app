@@ -48,9 +48,9 @@ const SmartMatchSection = () => {
       <div className="pointer-events-none absolute inset-x-0 top-[70px] -z-10 mx-auto h-[820px] w-[min(1360px,100vw)] bg-[radial-gradient(circle_at_22%_24%,rgba(112,193,202,0.18),transparent_28%),radial-gradient(circle_at_72%_34%,rgba(56,88,116,0.16),transparent_34%),radial-gradient(circle_at_50%_72%,rgba(255,255,255,0.94),transparent_36%)] blur-3xl" />
 
       <HomeContentShell>
-        <div className="mx-auto grid w-[90%] items-center gap-14 md:w-[92%] xl:grid-cols-[minmax(0,460px)_minmax(0,1fr)] xl:gap-16">
+        <div className="mx-auto grid w-full min-w-0 items-center gap-10 xl:grid-cols-[minmax(0,460px)_minmax(0,1fr)] xl:gap-16">
           <motion.div
-            className="relative z-10 max-w-xl"
+            className="relative z-10 min-w-0 max-w-xl"
             initial={{ opacity: 0, y: 42 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -105,7 +105,7 @@ const SmartMatchSection = () => {
           </motion.div>
 
           <motion.div
-            className="relative"
+            className="relative min-w-0"
             initial={{ opacity: 0, y: 52 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
@@ -113,7 +113,7 @@ const SmartMatchSection = () => {
           >
             <div className="pointer-events-none absolute -inset-4 rounded-[44px] bg-[radial-gradient(circle_at_30%_20%,rgba(112,193,202,0.24),transparent_30%),radial-gradient(circle_at_78%_74%,rgba(56,88,116,0.18),transparent_34%)] blur-2xl" />
 
-            <div className="relative mx-auto max-w-[980px] rounded-[36px] border border-white/70 bg-white/75 p-3 shadow-[0_36px_110px_rgba(24,44,69,0.16)] ring-1 ring-accent/10 backdrop-blur-md sm:p-4">
+            <div className="relative mx-auto w-full max-w-[980px] rounded-[36px] border border-white/70 bg-white/75 p-2.5 shadow-[0_36px_110px_rgba(24,44,69,0.16)] ring-1 ring-accent/10 backdrop-blur-md sm:p-4">
               <div className="relative overflow-hidden rounded-[30px] border border-accent/8 bg-[#f7fafb] shadow-[inset_0_1px_0_rgba(255,255,255,0.75)]">
                 <div className="flex items-center justify-between border-b border-accent/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(245,248,250,0.92))] px-4 py-3 sm:px-5">
                   <div className="flex items-center gap-2">
@@ -126,7 +126,7 @@ const SmartMatchSection = () => {
                   </div>
                 </div>
 
-                <div className="relative aspect-[1.76/1] min-h-[300px] sm:min-h-[400px] lg:min-h-[520px]">
+                <div className="relative aspect-[1.76/1] min-h-[260px] sm:min-h-[400px] lg:min-h-[520px]">
                   <Image
                     src="/smart-match-ss.png"
                     alt="Smart Match interface showing ranked literary agent matches, match scores, submission status tags, matching genres and themes, and country and status filters."
@@ -142,7 +142,7 @@ const SmartMatchSection = () => {
                     <div
                       key={callout.label}
                       className={cn(
-                        "pointer-events-none absolute max-w-[170px] rounded-2xl border border-white/90 bg-white/88 px-3 py-2 shadow-[0_16px_36px_rgba(24,44,69,0.14)] backdrop-blur-md sm:max-w-[200px] sm:px-4 sm:py-3",
+                        "pointer-events-none absolute hidden max-w-[170px] rounded-2xl border border-white/90 bg-white/88 px-3 py-2 shadow-[0_16px_36px_rgba(24,44,69,0.14)] backdrop-blur-md sm:block sm:max-w-[200px] sm:px-4 sm:py-3",
                         callout.className
                       )}
                     >

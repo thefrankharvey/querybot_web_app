@@ -27,7 +27,7 @@ const ComparisonSection = () => {
 
       <HomeContentShell>
         <motion.div
-          className="mx-auto w-[90%] md:w-[92%]"
+          className="mx-auto w-full"
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}

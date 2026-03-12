@@ -1,10 +1,9 @@
-import Link from "next/link";
 import Hamburger from "../components/hamburger";
 import { SideBarNav } from "../components/side-bar-nav";
 import { ProfileProvider } from "./context/profile-context";
-import Image from "next/image";
 import Footer from "../components/footer";
 import { AgentMatchesProvider } from "./context/agent-matches-context";
+import { BrandLockup } from "../components/brand-lockup";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,18 +11,11 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <AgentMatchesProvider>
         <div className="app-layout-shell">
           <div className="app-layout-mobile-header flex items-center justify-between max-w-screen-xl mx-auto p-4 w-full md:hidden z-50">
-            <Link
-              href="/"
-              className="text-xl font-semibold text-black w-[60px] h-[60px]"
-            >
-              <Image
-                src="/wqh-logo.png"
-                alt="logo"
-                width={60}
-                height={60}
-                className="w-[60px] h-[60px] rounded-full"
-              />
-            </Link>
+            <BrandLockup
+              className="min-w-0 flex-1"
+              imageClassName="h-12 w-12"
+              labelClassName="inline truncate text-[12px] text-accent"
+            />
             <Hamburger isApp={true} />
           </div>
 
