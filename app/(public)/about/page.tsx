@@ -56,7 +56,7 @@ export default function About() {
           <div className="flex justify-center gap-6 !mb-5">
             <div className="flex flex-col items-center gap-2">
               <Image
-                src="/frank-avatar.png"
+                src="/frank-avatar-green-lines-only.png"
                 alt="Frank avatar"
                 width={180}
                 height={180}
@@ -67,7 +67,7 @@ export default function About() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <Image
-                src="/matt-avatar.png"
+                src="/matt-avatar-green-lines-only.png.png"
                 alt="Matt avatar"
                 width={180}
                 height={180}
