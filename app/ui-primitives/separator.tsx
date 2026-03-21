@@ -16,7 +16,7 @@ function Separator({
             decorative={decorative}
             orientation={orientation}
             className={cn(
-                "bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-px data-[orientation=vertical]:self-stretch",
+                "shrink-0 bg-[rgba(28,74,78,0.1)] data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:w-px data-[orientation=vertical]:self-stretch",
                 className
             )}
             {...props}

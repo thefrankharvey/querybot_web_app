@@ -91,17 +91,17 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
   }
 
   return (
-    <div className="md:p-0 px-4">
-      <div className="max-w-[1000px] mx-auto pb-4 flex justify-between items-center pt-3 md:mt-16 mt-6">
+    <div className="px-4 md:p-0">
+      <div className="mx-auto flex max-w-[1000px] items-center justify-between pb-4 pt-3 md:mt-16 mt-6">
         <Link
           href="/query-dashboard"
-          className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+          className="flex items-center gap-2 text-accent/72 transition-colors duration-300 hover:text-accent"
         >
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
         <Button
-          className="text-sm shadow-lg hover:shadow-xl"
+          className="text-sm"
           onClick={handleDeleteAgentMatch}
           disabled={isDeleting}
         >
@@ -111,13 +111,13 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
         </Button>
       </div>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg mx-auto max-w-[1000px]">
+      <div className="glass-panel-strong mx-auto max-w-[1000px] p-4 py-8 md:p-16">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold capitalize">{agent.name}</h2>
               {agent.status && agent.status !== "closed" ? (
-                <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+                <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
                   Open to Submissions
                 </span>
               ) : null}
@@ -142,7 +142,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
               {formatGenres(agent.genres || "").map((genre: string) => (
                 <div
                   key={genre}
-                  className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                  className="surface-tag px-2 py-1 text-sm"
                 >
                   {genre}
                 </div>
@@ -151,7 +151,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Favorites:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.favorites
                 ? capitalizeFirstCharacter(formatDisplayString(agent.favorites))
                 : "Info Unavailable"}
@@ -159,7 +159,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Interests:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
                   formatDisplayString(agent.extra_interest)
@@ -169,7 +169,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Negatives:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.negatives
                 ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
@@ -177,7 +177,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.bio
                 ? capitalizeFirstCharacter(agent.bio)
                 : "Info Unavailable"}
@@ -185,7 +185,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Clients:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.clients
                 ? capitalizeFirstCharacter(agent.clients)
                 : "Info Unavailable"}
@@ -193,7 +193,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Sales:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.sales
                 ? capitalizeFirstCharacter(agent.sales)
                 : "Info Unavailable"}

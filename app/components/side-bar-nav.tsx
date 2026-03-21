@@ -9,6 +9,7 @@ import { ScanSearch, Newspaper, NotebookPen, Home, LayoutDashboard } from "lucid
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { BrandLockup } from "./brand-lockup";
+import { Separator } from "@/app/ui-primitives/separator";
 
 export const SideBarNav = () => {
   const pathname = usePathname();
@@ -16,17 +17,18 @@ export const SideBarNav = () => {
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
 
   return (
-    <div className="w-[195px] shrink-0 pt-4 ml-8 sticky top-0 self-start h-fit hidden md:block">
+    <div className={cn("hidden h-fit shrink-0 self-start pt-4 md:sticky md:top-0 md:ml-2 md:block", pathname.includes("query-dashboard") ? "mb:[0px]" : "md:w-[230px] mb-88")}>
       <BrandLockup
         stacked={true}
-        labelClassName="inline text-[12px] leading-5 text-accent"
+        className="rounded-[28px] border border-white/75 bg-white/55 px-5 py-5 shadow-[0_20px_50px_rgba(24,44,69,0.08)] backdrop-blur-sm"
+        labelClassName="inline text-[12px] leading-5 text-accent/72"
       />
-      <div className="w-full flex flex-col md:flex-row pt-8">
-        <aside className="w-full md:sticky md:top-24 h-full md:max-w-[195px]">
-          <nav className="w-full flex flex-col gap-2 p-4 md:p-0 rounded-none shadow-none mt-0 md:mt-16">
+      <div className="flex w-full flex-col pt-6">
+        <aside className="h-full w-full md:sticky md:top-24 md:max-w-[230px]">
+          <nav className="glass-panel w-full rounded-[30px] p-3">
             {!isSubscribed && !isSubscribedLoading && (
               <Link href="/subscribe">
-                <div className="cursor-pointer text-sm p-2 px-4 mb-4 text-center rounded-md bg-accent text-white hover:bg-white hover:text-accent transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
+                <div className="mb-3 rounded-full border border-accent bg-accent px-4 py-3 text-center text-sm font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)] transition hover:-translate-y-0.5 hover:bg-[#163b3e]">
                   Subscribe
                 </div>
               </Link>
@@ -34,10 +36,10 @@ export const SideBarNav = () => {
             <Link
               href="/home"
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("home")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               <Home className="w-4 h-4" />
@@ -46,11 +48,11 @@ export const SideBarNav = () => {
             <Link
               href="/smart-match"
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("smart-match") ||
                   pathname.includes("agent-matches")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               <ScanSearch className="w-4 h-4" />
@@ -58,15 +60,20 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/query-dashboard"
+              style={{
+                paddingLeft: agentsList && agentsList.length > 0 ? "9px" : "",
+                paddingTop: agentsList && agentsList.length > 0 ? "7px" : "",
+                paddingBottom: agentsList && agentsList.length > 0 ? "7px" : "",
+              }}
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("query-dashboard")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               {agentsList && agentsList.length > 0 ? (
-                <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-[18px] w-[18px] text-xs p-3 ml-[-3px]">
+                <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-accent/10 bg-white/88 px-2 text-xs text-accent shadow-[0_8px_18px_rgba(24,44,69,0.06)]">
                   {agentsList.length}
                 </span>
               ) : (
@@ -78,10 +85,10 @@ export const SideBarNav = () => {
               href="/dispatch"
               prefetch={true}
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("dispatch")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               <Newspaper className="w-4 h-4" />
@@ -90,29 +97,29 @@ export const SideBarNav = () => {
             <Link
               href="/blog"
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md flex items-center gap-2 hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("blog")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               <NotebookPen className="w-4 h-4" />
               Blog
             </Link>
-            <hr className="my-2 border-t-1 border-accent/10" />
+            <Separator className="my-2 mb-4" />
             <Link
               href="/account"
               className={cn(
-                "text-sm font-medium px-3 py-2 rounded-md hover:text-accent hover:bg-accent/10 transition-all duration-300",
+                "rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1 flex w-full",
                 pathname.includes("account")
-                  ? "text-accent bg-accent/10"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
               )}
             >
               Account
             </Link>
             <SignOutButton>
-              <div className="font-medium px-3 py-2 cursor-pointer text-sm text-black transition-all duration-300 hover:text-accent hover:bg-accent/10 rounded-md">
+              <div className="cursor-pointer rounded-[20px] px-4 py-3 text-sm font-medium text-accent/74 transition-all duration-200 hover:bg-white/70 hover:text-accent my-1">
                 Sign out
               </div>
             </SignOutButton>

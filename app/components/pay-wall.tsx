@@ -131,19 +131,20 @@ const PayWall = ({
 
   return (
     <div
-      className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${
-        showOverlay ? "translate-y-0" : "translate-y-full"
-      }`}
+      className={`w-screen fixed bottom-0 left-0 right-0 h-[calc(40vh+200px)] pointer-events-none z-10 transition-transform duration-500 ${showOverlay ? "translate-y-0" : "translate-y-full"
+        }`}
     >
       <div className="h-[100px] bg-gradient-to-b from-white/0 to-white"></div>
       <div className="h-[calc(40vh+100px)] bg-white pointer-events-auto">
-        <div className="flex flex-col items-center justify-center h-full w-full">
-          <p className="text-lg md:text-xl mt-4">{title}</p>
-          <h1 className="text-xl md:text-3xl font-extrabold leading-tight mb-8 mt-4 w-[90%] text-center mx-auto">
+        <div className="flex h-full w-full flex-col items-center justify-center px-5 text-center">
+          <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.24em] text-accent/65 md:text-base">
+            {title}
+          </p>
+          <h1 className="mx-auto mt-5 w-[90%] font-serif text-4xl leading-tight text-accent md:text-[40px]">
             Subscribe to Write Query Hook for full access!
           </h1>
           <Button
-            className="cursor-pointer text-xl p-8 font-semibold mt-2 shadow-lg hover:shadow-xl"
+            className="mt-10 cursor-pointer p-8 text-xl font-semibold shadow-lg hover:shadow-xl"
             onClick={() => handleSubscribe("monthly")}
             disabled={isSubscribing}
           >

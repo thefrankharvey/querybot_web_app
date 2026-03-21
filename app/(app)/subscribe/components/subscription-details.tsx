@@ -65,7 +65,7 @@ const SubscriptionDetails = () => {
   }
 
   return (
-    <section className="relative w-full pt-4 md:pt-8">
+    <section className="relative w-full pt-4">
       <motion.div
         className="mx-auto max-w-4xl text-center"
         initial={{ opacity: 0, y: 50 }}

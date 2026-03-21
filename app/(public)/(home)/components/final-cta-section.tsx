@@ -7,7 +7,7 @@ import HomeContentShell from "./home-content-shell";
 
 const FinalCtaSection = () => {
   return (
-    <section className="relative w-full overflow-hidden pb-28 pt-8">
+    <section className="relative w-full overflow-hidden pb-68 pt-8">
       <div className="pointer-events-none absolute inset-x-0 top-1/2 -z-10 mx-auto h-[520px] w-[min(980px,92vw)] -translate-y-1/2 bg-[radial-gradient(circle_at_50%_50%,rgba(112,193,202,0.16),transparent_34%),radial-gradient(circle_at_50%_64%,rgba(56,88,116,0.12),transparent_42%),radial-gradient(circle_at_50%_48%,rgba(255,255,255,0.82),transparent_54%)] blur-3xl" />
 
       <HomeContentShell>

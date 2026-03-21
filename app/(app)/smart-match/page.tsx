@@ -145,16 +145,17 @@ const SmartMatch = () => {
 
   if (isLoading) {
     return (
-      <div className="pt-28 flex justify-center items-center md:ml-[-100px]">
+      <div className="ambient-page flex items-center justify-center pt-48 md:ml-[-100px]">
         <Spinner className="size-16 text-accent" />
       </div>
     );
   }
 
   return (
-    <div className="max-sm:px-4 max-sm:pt-8">
+    <div className="ambient-page pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">
+
       {(queryMutation.isPending || queryMutation.isSuccess) && (
-        <div className="flex flex-col items-center md:w-[700px] md:mx-auto h-[700px] mt-40">
+        <div className="mt-40 flex h-[700px] flex-col items-center md:mx-auto md:w-[700px]">
           <ProgressBar
             isSuccess={queryMutation.isSuccess}
             onComplete={handleProgressComplete}
@@ -163,16 +164,16 @@ const SmartMatch = () => {
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
-          <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto">
+          <div className="mx-auto flex w-full max-w-[700px] flex-col justify-start">
             <div className="mb-4">
-              <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-7 flex items-center gap-2 text-accent md:pt-17 pt-0 font-serif">
+              <h1 className="mb-7 flex items-center gap-2 font-serif text-4xl font-semibold leading-tight text-accent md:text-[32px]">
                 <ScanSearch className="w-10 h-10" />
                 Smart Match
               </h1>
-              <h2 className="text-base font-semibold mb-2 text-accent">
+              <h2 className="mb-2 text-base font-semibold text-accent">
                 How to get the best results:
               </h2>
-              <p className="text-accent text-base">
+              <p className="page-subtitle max-w-none">
                 Fill this out this form as completely as possible. The more
                 specific and complete your entries are the better your agent
                 matches will be.
@@ -184,10 +185,7 @@ const SmartMatch = () => {
                 {hasAgentMatches &&
                   hasAgentMatches.length > 0 && (
                     <Link href="/agent-matches" className="w-full md:w-fit">
-                      <Button
-                        className="cursor-pointer text-sm p-2 px-4 w-full md:w-fit shadow-lg hover:shadow-xl"
-                        variant="default"
-                      >
+                      <Button className="w-full md:w-fit" variant="default">
                         Previous Agent Matches
                       </Button>
                     </Link>
@@ -196,7 +194,7 @@ const SmartMatch = () => {
             </div>
           </div>
           <form onSubmit={handleSubmit}>
-            <div className="flex flex-col items-center gap-8 bg-white rounded-lg p-4 py-12 md:p-12 w-full md:w-[700px] mx-auto shadow-lg">
+            <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
               <Genre setForm={setForm} />
               <Subgenres setForm={setForm} />
@@ -205,14 +203,14 @@ const SmartMatch = () => {
               <Themes setForm={setForm} />
               <Comps form={form} setForm={setForm} />
               {apiMessage && (
-                <div className="text-red-500 text-base w-full font-semibold">
+                <div className="w-full text-base font-semibold text-red-500">
                   {apiMessage}
                 </div>
               )}
-              <div className="flex w-full justify-center mt-12">
+              <div className="mt-12 flex w-full justify-center">
                 <Button
                   type="submit"
-                  className="cursor-pointer w-full md:w-1/2 text-lg p-6 font-semibold shadow-lg hover:shadow-xl"
+                  className="w-full text-lg font-semibold md:w-1/2"
                 >
                   Search for Agents
                 </Button>

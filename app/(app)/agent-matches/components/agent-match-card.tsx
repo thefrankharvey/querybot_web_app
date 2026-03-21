@@ -76,10 +76,10 @@ export const AgentMatchCard = ({
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             className={cn(
-                "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
+                "glass-panel flex w-full flex-col p-4 py-8 hover:cursor-pointer md:p-8",
                 isDisabled
                     ? "opacity-60"
-                    : "hover:shadow-2xl transition-shadow duration-300"
+                    : "transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_72px_rgba(24,44,69,0.14)]"
             )}
         >
             <Link
@@ -89,7 +89,7 @@ export const AgentMatchCard = ({
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between">
                         <Skeleton isLoading={isLoading} className="w-1/2 h-6">
-                            <h2 className="text-xl font-bold capitalize">{agent.name}</h2>
+                            <h2 className="text-xl font-bold capitalize text-accent">{agent.name}</h2>
                         </Skeleton>
                         <div>
                             {!isSubscribed && isDisabled ? (
@@ -146,7 +146,7 @@ export const AgentMatchCard = ({
                     </Skeleton>
                     <Skeleton isLoading={isLoading} className="w-1/2 h-6">
                         {agent.status && agent.status !== "closed" ? (
-                            <span className="bg-accent text-white text-xs p-1 px-3 rounded-xl font-semibold w-fit">
+                                <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
                                 Open to Submissions
                             </span>
                         ) : null}
@@ -156,7 +156,7 @@ export const AgentMatchCard = ({
                             Agency:
                         </label>
                         <Skeleton isLoading={isLoading} className="h-6 w-full">
-                            <p className="text-sm">
+                            <p className="text-sm text-accent/78">
                                 {agent.agency ? agent.agency : "Info Unavailable"}
                             </p>
                         </Skeleton>
@@ -166,7 +166,7 @@ export const AgentMatchCard = ({
                             Country:
                         </label>
                         <Skeleton isLoading={isLoading} className="h-6 w-full">
-                            <p className="text-sm">
+                            <p className="text-sm text-accent/78">
                                 {agent.location?.country_code ? (
                                     <>
                                         <span>
@@ -206,7 +206,7 @@ export const AgentMatchCard = ({
                                                 .map((genre: string) => (
                                                     <div
                                                         key={genre}
-                                                        className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                                                        className="surface-tag px-2 py-1 text-sm"
                                                     >
                                                         {genre}
                                                     </div>
@@ -229,7 +229,7 @@ export const AgentMatchCard = ({
                                             .map((genre: string) => (
                                                 <div
                                                     key={genre}
-                                                    className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                                                    className="surface-tag px-2 py-1 text-sm"
                                                 >
                                                     {genre}
                                                 </div>
@@ -250,7 +250,7 @@ export const AgentMatchCard = ({
                                         ? dedupedThemeMatches.slice(0, 8).map((theme: string) => (
                                             <div
                                                 key={theme}
-                                                className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                                                className="surface-tag px-2 py-1 text-sm"
                                             >
                                                 {theme}
                                             </div>
@@ -266,7 +266,7 @@ export const AgentMatchCard = ({
                                     Favorites:
                                 </label>
                                 <Skeleton isLoading={isLoading} className="h-[60px] w-full">
-                                    <p className="text-sm line-clamp-3">
+                                    <p className="line-clamp-3 text-sm text-accent/78">
                                         {agent.favorites
                                             ? capitalizeFirstCharacter(
                                                 formatDisplayString(agent.favorites)

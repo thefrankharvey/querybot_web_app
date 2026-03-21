@@ -51,23 +51,27 @@ export default async function BlogPostPage({
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
   } satisfies BlogPostingJsonLd;
   return (
-    <main className="w-full md:mx-auto md:max-w-5xl py-10 pt-19">
-      <Link
-        href="/blog"
-        className="flex items-center gap-2 hover:text-accent transition-colors duration-300 mb-4"
-      >
-        <ArrowLeft className="w-6 h-6" />
-        <h2 className="text-md font-medium">Back</h2>
-      </Link>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4 overflow-hidden">
-        {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
-          post.title.includes("SlushWire Weekly") ? (
-          <SlushwireWeeklyPost
-            post={post}
-            jsonLd={jsonLd}
-            contentHtml={contentHtml}
-          />
-        ) : null}
+    <main className="ambient-page px-4 py-10 pt-8 md:px-6">
+      <div className="ambient-orb-top" />
+      <div className="ambient-orb-bottom" />
+      <div className="mx-auto w-full md:max-w-5xl">
+        <Link
+          href="/blog"
+          className="mb-4 flex items-center gap-2 text-accent/72 transition-colors duration-300 hover:text-accent"
+        >
+          <ArrowLeft className="w-6 h-6" />
+          <h2 className="text-md font-medium">Back</h2>
+        </Link>
+        <div className="glass-panel-strong flex w-full flex-col gap-4 overflow-hidden p-4 py-8 md:p-8">
+          {post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
+            post.title.includes("SlushWire Weekly") ? (
+            <SlushwireWeeklyPost
+              post={post}
+              jsonLd={jsonLd}
+              contentHtml={contentHtml}
+            />
+          ) : null}
+        </div>
       </div>
     </main>
   );

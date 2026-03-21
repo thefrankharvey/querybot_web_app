@@ -133,11 +133,8 @@ const HomePage = () => {
   const isLoadingState = isLoading || isProfileLoading || isRefreshingHomeData;
 
   return (
-    <div className="relative overflow-hidden px-4 pb-8 pt-6 md:px-6 md:pb-12 md:pt-4">
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 mx-auto h-[620px] w-[min(1180px,100vw)] bg-[radial-gradient(circle_at_22%_18%,rgba(112,193,202,0.18),transparent_30%),radial-gradient(circle_at_76%_22%,rgba(56,88,116,0.14),transparent_30%),radial-gradient(circle_at_52%_58%,rgba(255,255,255,0.92),transparent_44%)] blur-3xl" />
-      <div className="pointer-events-none absolute inset-x-0 top-[34%] -z-10 mx-auto h-[760px] w-[min(1260px,100vw)] bg-[radial-gradient(circle_at_28%_30%,rgba(250,242,232,0.84),transparent_28%),radial-gradient(circle_at_72%_34%,rgba(112,193,202,0.14),transparent_30%),radial-gradient(circle_at_58%_72%,rgba(56,88,116,0.1),transparent_34%)] blur-3xl" />
-
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-3 md:gap-4">
+    <div className="relative overflow-hidden pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-3 md:gap-4 px-4 md:px-0">
         <QDashDialog
           open={isQDashDialogOpen}
           onOpenChange={handleQDashOpenChange}
@@ -148,23 +145,25 @@ const HomePage = () => {
           <ButtonBar />
         </section>
 
-        <div className="mx-auto max-w-5xl">
-          <div className="mt-3 min-h-[240px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
-            {isLoadingState ? (
-              <div className="flex min-h-[200px] flex-1 items-center justify-center">
-                <Spinner className="size-16" />
-              </div>
-            ) : isSubscribed ? (
+        <div className="mt-3 min-h-[100vh] rounded-[24px]">
+          {isLoadingState ? (
+            <div className="flex min-h-[200px] flex-1 items-center justify-center">
+              <Spinner className="size-16" />
+            </div>
+          ) : isSubscribed ? (
+            <div className="mt-3 min-h-[350px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
               <div className="flex flex-1 flex-col items-center justify-center">
-                <SubscriberEmpty hideCopy={shouldShowStats} />
+                <SubscriberEmpty showSmartMatchPrompt={!shouldShowStats} />
                 {shouldShowStats && <QueryDashboardStats agentsList={agentsList} />}
               </div>
-            ) : (
+            </div>
+          ) : (
+            <div className="mt-3 min-h-[240px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
               <div className="flex flex-1 flex-col items-center justify-center">
                 <FreeUser />
               </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
