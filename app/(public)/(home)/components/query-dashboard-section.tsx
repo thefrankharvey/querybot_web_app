@@ -13,18 +13,18 @@ const dashboardBullets = [
   "Filter by project, fit, and submission status",
 ] as const;
 
-const dashboardCallouts = [
-  {
-    title: "Multi-book tracking",
-    description: "Project tags, fit level, readiness, and notes stay connected.",
-    className: "left-[4%] bottom-[8%] sm:left-[5%] sm:bottom-[10%]",
-  },
-  {
-    title: "Submission timing",
-    description: "Track how long it has been since each query or request was sent.",
-    className: "right-[4%] bottom-[8%] text-right sm:right-[5%] sm:bottom-[10%]",
-  },
-] as const;
+// const dashboardCallouts = [
+//   {
+//     title: "Multi-book tracking",
+//     description: "Project tags, fit level, readiness, and notes stay connected.",
+//     className: "left-[4%] bottom-[8%] sm:left-[5%] sm:bottom-[10%]",
+//   },
+//   {
+//     title: "Submission timing",
+//     description: "Track how long it has been since each query or request was sent.",
+//     className: "right-[4%] bottom-[8%] text-right sm:right-[5%] sm:bottom-[10%]",
+//   },
+// ] as const;
 
 const QueryDashboardSection = () => {
   return (
