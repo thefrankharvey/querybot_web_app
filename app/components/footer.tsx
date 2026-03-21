@@ -30,7 +30,7 @@ const Footer = () => {
     >
       <div className="flex max-w-screen-xl mx-auto justify-between items-baseline flex-col-reverse gap-8 px-4 md:flex-row">
         <div className="flex flex-col justify-left gap-6 py-4 md:flex-row md:gap-20 md:py-10">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 w-fit flex-none">
             <h2 className="text-base text-white font-semibold">Legal</h2>
             <Link
               href="/legal/privacy-policy"

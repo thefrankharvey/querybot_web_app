@@ -1,6 +1,5 @@
 import React from "react";
 import { Check, X } from "lucide-react";
-import { ButtonGroup } from "@/app/ui-primitives/button-group";
 import { Button } from "@/app/ui-primitives/button";
 import { FormState } from "@/app/(app)/smart-match/page";
 import { cn } from "@/app/utils";
@@ -18,12 +17,12 @@ const FictionButtonToggle = ({
   return (
     <div className="w-full">
       <div className="flex md:w-[50%] w-full">
-        <ButtonGroup orientation="horizontal" className="w-full">
+        <div className="flex w-full">
           <Button
             type="button"
             variant={isFiction ? "solid" : "outline"}
             className={cn(
-              "flex-1 gap-2 font-semibold",
+              "flex-1 gap-2 rounded-l-full! rounded-r-none! font-semibold hover:translate-y-0",
               isFiction && "shadow-sm"
             )}
             onClick={() =>
@@ -39,7 +38,7 @@ const FictionButtonToggle = ({
             type="button"
             variant={isNonFiction ? "solid" : "outline"}
             className={cn(
-              "flex-1 gap-2 font-semibold",
+              "flex-1 gap-2 rounded-l-none! rounded-r-full! border-l-0 font-semibold hover:translate-y-0",
               isNonFiction && "shadow-sm"
             )}
             onClick={() =>
@@ -51,7 +50,7 @@ const FictionButtonToggle = ({
             {isNonFiction ? <Check className={"size-4 shrink-0"} aria-hidden /> : <X className={"size-4 shrink-0"} aria-hidden />}
             <span>Non-fiction</span>
           </Button>
-        </ButtonGroup>
+        </div>
         <span className="text-accent text-xl font-bold text-right mt-[-18px]" aria-hidden>*</span>
       </div>
     </div>

@@ -39,6 +39,8 @@ export const AgentMatchCard = ({
     const { agentsList } = useProfileContext();
     const [isHovered, setIsHovered] = useState(false);
     const isDisabled = index >= 6 && !isSubscribed;
+    const agentMatchSkeletonClass =
+        "border-white/50 bg-[linear-gradient(135deg,rgba(245,249,250,0.92),rgba(224,233,236,0.86))] shadow-[inset_0_1px_0_rgba(255,255,255,0.72)]";
     const genreMatches = [
         ...(agent.match_hits?.direct.genres || []),
         ...(agent.match_hits?.cluster.genres || []),
@@ -88,7 +90,10 @@ export const AgentMatchCard = ({
             >
                 <div className="flex flex-col gap-4">
                     <div className="flex justify-between">
-                        <Skeleton isLoading={isLoading} className="w-1/2 h-6">
+                        <Skeleton
+                            isLoading={isLoading}
+                            className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
+                        >
                             <h2 className="text-xl font-bold capitalize text-accent">{agent.name}</h2>
                         </Skeleton>
                         <div>
@@ -128,7 +133,10 @@ export const AgentMatchCard = ({
                             )}
                         </div>
                     </div>
-                    <Skeleton isLoading={isLoading} className="w-20 h-6">
+                    <Skeleton
+                        isLoading={isLoading}
+                        className={cn("h-6 w-20", agentMatchSkeletonClass)}
+                    >
                         <div className="flex flex-col items-start gap-1 w-fit">
                             <TooltipComponent
                                 className="text-left"
@@ -144,7 +152,10 @@ export const AgentMatchCard = ({
                             </TooltipComponent>
                         </div>
                     </Skeleton>
-                    <Skeleton isLoading={isLoading} className="w-1/2 h-6">
+                    <Skeleton
+                        isLoading={isLoading}
+                        className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
+                    >
                         {agent.status && agent.status !== "closed" ? (
                                 <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
                                 Open to Submissions
@@ -155,7 +166,10 @@ export const AgentMatchCard = ({
                         <label className="text-sm font-semibold cursor-pointer">
                             Agency:
                         </label>
-                        <Skeleton isLoading={isLoading} className="h-6 w-full">
+                        <Skeleton
+                            isLoading={isLoading}
+                            className={cn("h-6 w-full", agentMatchSkeletonClass)}
+                        >
                             <p className="text-sm text-accent/78">
                                 {agent.agency ? agent.agency : "Info Unavailable"}
                             </p>
@@ -165,7 +179,10 @@ export const AgentMatchCard = ({
                         <label className="text-sm font-semibold cursor-pointer">
                             Country:
                         </label>
-                        <Skeleton isLoading={isLoading} className="h-6 w-full">
+                        <Skeleton
+                            isLoading={isLoading}
+                            className={cn("h-6 w-full", agentMatchSkeletonClass)}
+                        >
                             <p className="text-sm text-accent/78">
                                 {agent.location?.country_code ? (
                                     <>
@@ -197,7 +214,10 @@ export const AgentMatchCard = ({
                             <label className="text-sm font-semibold cursor-pointer">
                                 Matching Genres:
                             </label>
-                            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+                            <Skeleton
+                                isLoading={isLoading}
+                                className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
+                            >
                                 <div className="flex flex-wrap gap-1">
                                     {dedupedGenreMatches
                                         ? dedupedGenreMatches.map((genre: string) =>
@@ -221,7 +241,10 @@ export const AgentMatchCard = ({
                             <label className="text-sm font-semibold cursor-pointer">
                                 Top Genres:
                             </label>
-                            <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+                            <Skeleton
+                                isLoading={isLoading}
+                                className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
+                            >
                                 <div className="flex flex-wrap gap-1">
                                     {agent.genres
                                         ? formatGenres(agent.genres)
@@ -265,7 +288,10 @@ export const AgentMatchCard = ({
                                 <label className="text-sm font-semibold cursor-pointer">
                                     Favorites:
                                 </label>
-                                <Skeleton isLoading={isLoading} className="h-[60px] w-full">
+                                <Skeleton
+                                    isLoading={isLoading}
+                                    className={cn("h-[60px] w-full", agentMatchSkeletonClass)}
+                                >
                                     <p className="line-clamp-3 text-sm text-accent/78">
                                         {agent.favorites
                                             ? capitalizeFirstCharacter(
