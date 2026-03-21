@@ -48,14 +48,14 @@ export const AgentMatchesInner = ({
 }) => {
   return (
     <div className="md:p-0 p-4">
-      <h1 className="text-3xl md:text-[32px] font-semibold leading-tight mb-5 text-accent md:pt-17 pt-0">
+      <h1 className="mb-5 text-3xl font-semibold leading-tight text-accent md:text-[32px] font-serif">
         {totalAgents ? `${totalAgents} Agent matches` : "Agent matches"}
       </h1>
       <div>
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-4">
           <Link
             href="/smart-match"
-            className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+            className="flex items-center gap-2 text-accent/72 transition-colors duration-300 hover:text-accent"
           >
             <ArrowLeft className="w-6 h-6" />
             <h2 className="text-md font-medium">Back</h2>
@@ -81,7 +81,7 @@ export const AgentMatchesInner = ({
               >
                 <Button
                   disabled={true}
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  className="w-full md:w-auto"
                 >
                   <div className="flex items-center gap-2">
                     <Save className="w-4 h-4 text-white" />
@@ -94,7 +94,7 @@ export const AgentMatchesInner = ({
                 <Button
                   onClick={onSaveAllAgents}
                   disabled={isSavingAll || isLoading || matches.length === 0}
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  className="w-full md:w-auto"
                 >
                   <div className="flex items-center gap-2">
                     {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Save className="w-4 h-4 text-white" />}
@@ -109,7 +109,7 @@ export const AgentMatchesInner = ({
                 content="Subscribe to download all agent matches!"
               >
                 <Button
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  className="w-full md:w-auto"
                   disabled={true}
                 >
                   <div className="flex items-center gap-2">
@@ -133,7 +133,7 @@ export const AgentMatchesInner = ({
                   disabled={
                     sheetStatus === "pending" || !spreadsheetUrl || isLoading
                   }
-                  className="cursor-pointer text-sm p-2 px-4 w-full md:w-auto shadow-lg hover:shadow-xl flex items-center gap-2"
+                  className="w-full md:w-auto"
                 >
                   <div className="flex items-center gap-2">
                     {sheetStatus === "pending" ||
@@ -153,7 +153,7 @@ export const AgentMatchesInner = ({
         </div>
         {matches && matches.length > 0 ? (
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
             ref={gridRef}
           >
             {matches.map((match, index: number) => (
@@ -170,15 +170,15 @@ export const AgentMatchesInner = ({
             ))}
           </div>
         ) : (
-          <div className="flex flex-col items-center justify-center h-full w-full mx-auto mt-60">
+          <div className="mx-auto mt-60 flex h-full w-full flex-col items-center justify-center">
             {isLoading ? (
               <ProgressBar isSuccess={isSuccess} onComplete={() => { }} />
             ) : (
               <>
-                <p className="text-accent text-center text-xl font-semibold">
+                <p className="text-center text-xl font-semibold text-accent">
                   No matches found!
                 </p>
-                <p className="text-accent text-center text-xl font-semibold">
+                <p className="text-center text-xl font-semibold text-accent">
                   Try adjusting the filters or a new search.
                 </p>
               </>

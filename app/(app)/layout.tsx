@@ -9,26 +9,24 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <ProfileProvider>
       <AgentMatchesProvider>
-        <div className="app-layout-shell">
-          <div className="app-layout-mobile-header flex items-center justify-between max-w-screen-xl mx-auto p-4 w-full md:hidden z-50">
+        <div className="app-layout-shell ambient-page min-h-screen pt-2">
+          <div className="ambient-orb-top" />
+          <div className="app-layout-mobile-header ambient-page-shell flex items-center justify-between py-4 px-4 md:hidden z-50">
             <BrandLockup
               className="min-w-0 flex-1"
               imageClassName="h-12 w-12"
-              labelClassName="inline truncate text-[12px] text-accent"
+              labelClassName="inline truncate text-[12px] text-accent/72"
             />
             <Hamburger isApp={true} />
           </div>
 
-          {/* Main content wrapper - sidebar + content */}
-          <div className="app-layout-main-shell flex max-w-screen-2xl mx-auto w-full">
+          <div className="app-layout-main-shell ambient-page-shell flex max-w-screen-2xl sm:px-0">
             <SideBarNav />
-            <main className="app-layout-main md:px-0 px-0 flex-1 overflow-x-auto">
+            <main className="app-layout-main min-w-0 flex-1 overflow-x-auto">
               {children}
             </main>
           </div>
         </div>
-
-        {/* Footer - full width, outside constrained container */}
         <Footer />
       </AgentMatchesProvider>
     </ProfileProvider>

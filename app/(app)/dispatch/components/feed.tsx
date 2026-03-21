@@ -82,9 +82,8 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
 
   return (
     <>
-      <div className="flex gap-2 mb-8 flex-wrap">
+      <div className="mb-8 flex flex-wrap gap-2">
         <Button
-          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.AGENT_INFO] ? "default" : "secondary"}
           onClick={() =>
@@ -100,7 +99,6 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
           {activeData[SOCIAL_DATA.AGENT_INFO] ? <Check /> : <X />}
         </Button>
         <Button
-          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.REDDIT] ? "default" : "secondary"}
           onClick={() =>
@@ -116,7 +114,6 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
           {activeData[SOCIAL_DATA.REDDIT] ? <Check /> : <X />}
         </Button>
         <Button
-          className="shadow-lg hover:shadow-xl"
           size="lg"
           variant={activeData[SOCIAL_DATA.BLUESKY] ? "default" : "secondary"}
           onClick={() =>
@@ -170,7 +167,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
       {/* Message when pagination stopped due to filters */}
       {isSubscribed && stoppedDueToFilters && filteredData.length > 0 && (
         <div className="py-4 text-center">
-          <p className="text-gray-600 text-sm">
+          <p className="text-sm text-accent/64">
             No new {activeFilterNames.join(" or ")} posts available. Try
             adjusting your filters.
           </p>
@@ -187,7 +184,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
       {!activeData[SOCIAL_DATA.AGENT_INFO] &&
         !activeData[SOCIAL_DATA.REDDIT] &&
         !activeData[SOCIAL_DATA.BLUESKY] && (
-          <h2 className="text-xl font-semibold mt-6">
+          <h2 className="mt-6 text-xl font-semibold text-accent">
             Select a option to view
           </h2>
         )}
@@ -195,7 +192,7 @@ export const Feed = ({ initialData }: { initialData: FlattenedSlushFeed }) => {
         (activeData[SOCIAL_DATA.AGENT_INFO] ||
           activeData[SOCIAL_DATA.REDDIT] ||
           activeData[SOCIAL_DATA.BLUESKY]) && (
-          <h2 className="text-xl font-semibold mt-6">
+          <h2 className="mt-6 text-xl font-semibold text-accent">
             No new posts to show, please check back later!
           </h2>
         )}

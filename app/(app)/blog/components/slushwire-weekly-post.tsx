@@ -13,12 +13,12 @@ const StyledAlerts = ({
 }: {
   alertsData: { reddit: number; bluesky: number; agents: number };
 }) => (
-  <div className="my-8 p-6 text-center">
-    <h3 className="text-lg font-semibold mb-4 text-slate-800">
+  <div className="my-8 glass-panel p-6 text-center">
+    <h3 className="mb-4 text-lg font-semibold text-accent">
       Weekly Alert Summary
     </h3>
-    <div className="flex flex-col md:flex-row gap-4 justify-center">
-      <div className="flex items-center gap-3 px-4 py-2 bg-orange-100 text-orange-800 rounded-full border border-orange-200">
+    <div className="flex flex-col justify-center gap-4 md:flex-row">
+      <div className="flex items-center gap-3 rounded-full border border-orange-200 bg-orange-100 px-4 py-2 text-orange-800">
         <span className="text-2xl font-bold">{alertsData.reddit}</span>
         <span className="font-medium text-sm uppercase tracking-wide">
           Reddit
@@ -61,8 +61,8 @@ const SlushwireWeeklyPost = ({
     : processSlushwireContent(contentHtml, post.excerpt);
 
   return (
-    <article className="prose dark:prose-invert max-w-none w-full">
-      <h1 className="text-xl md:text-2xl font-semibold mb-10 mt-4 leading-tight break-words text-center">
+    <article className="prose max-w-none w-full text-accent/78">
+      <h1 className="mt-4 mb-10 break-words text-center font-serif text-xl font-semibold leading-tight text-accent md:text-2xl">
         {post.title}
       </h1>
       <Script
@@ -76,7 +76,7 @@ const SlushwireWeeklyPost = ({
           alt={"Slushwire Weekly Post"}
           width={1200}
           height={630}
-          className="w-full max-w-full rounded"
+          className="w-full max-w-full rounded-[1.5rem] border border-white/70 shadow-[0_20px_50px_rgba(24,44,69,0.12)]"
           sizes="(max-width: 768px) 100vw, 768px"
           priority
         />
@@ -86,7 +86,7 @@ const SlushwireWeeklyPost = ({
       {alertsData && <StyledAlerts alertsData={alertsData} />}
 
       <div
-        className="w-full max-w-full [&_*]:max-w-full [&_h2]:box-border [&_a]:break-all"
+        className="w-full max-w-full [&_*]:max-w-full [&_a]:break-all [&_h2]:box-border [&_h2]:font-serif [&_h2]:text-accent [&_p]:text-accent/78 [&_li]:text-accent/78"
         dangerouslySetInnerHTML={{ __html: processedContent }}
       />
     </article>

@@ -9,9 +9,9 @@ const RedditCard = ({ post }: { post: RedditPost }) => {
   const [openAccordion, setOpenAccordion] = useState(false);
 
   return (
-    <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md">
+    <div className="glass-panel w-full p-4 py-8 md:p-8">
       <Link href={post.post_link || ""} target="_blank">
-        <div className="flex gap-2 items-center font-semibold">
+        <div className="flex items-center gap-2 font-semibold text-accent">
           <div className="min-h-[24px] min-w-[24px]">
             <Image
               src={"/reddit-icon.svg"}
@@ -31,11 +31,11 @@ const RedditCard = ({ post }: { post: RedditPost }) => {
       >
         <h3 className="text-base font-semibold"></h3>
         {!openAccordion ? (
-          <p className="line-clamp-3 break-words max-w-[320px] md:max-w-full word-wrap">
+          <p className="line-clamp-3 max-w-[320px] break-words text-accent/78 md:max-w-full word-wrap">
             {post.content}
           </p>
         ) : (
-          <p className="break-words max-w-[320px] md:max-w-full word-wrap">
+          <p className="max-w-[320px] break-words text-accent/78 md:max-w-full word-wrap">
             {post.content}
           </p>
         )}

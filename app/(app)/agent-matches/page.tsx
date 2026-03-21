@@ -12,7 +12,7 @@ export default function AgentMatchesPage() {
   }
 
   return (
-    <div className="md:w-[90%] w-full mx-auto min-h-[700px]">
+    <div className="mx-auto min-h-[700px] w-full pb-10 pt-8 md:w-[full] md:px-6 md:pb-82">
       {isSubscribed ? <AgentMatchesFull /> : <AgentMatchesPaywall />}
     </div>
   );

@@ -74,12 +74,12 @@ export function KanbanBoard() {
 
   if (isEmpty) {
     return (
-      <div className="flex flex-col gap-4 bg-white min-h-[400px] rounded-lg md:w-[1000px] md:mx-auto mt-13 shadow-lg justify-center items-center border border-accent/20 mx-auto">
-        <div className="text-center space-y-6 max-auto h-[300px] flex flex-col justify-center items-center">
-          <h1 className="text-lg md:text-3xl font-bold text-gray-900">
+      <div className="glass-panel-strong mx-auto mt-13 flex min-h-[400px] flex-col items-center justify-center gap-4 md:w-[1000px]">
+        <div className="max-auto flex h-[300px] flex-col items-center justify-center space-y-6 text-center">
+          <h1 className="text-lg font-bold text-accent md:text-3xl">
             No Agents Saved Yet
           </h1>
-          <p className="text-sm md:text-base text-gray-600 w-full md:w-3/4 text-center">
+          <p className="w-full text-center text-sm text-accent/72 md:w-3/4 md:text-base">
             Save agents from your Smart Match search results to start tracking your query progress here!
           </p>
           <div className="pt-2 text-center">
@@ -197,7 +197,7 @@ export function KanbanBoard() {
   };
 
   return (
-    <div className="overflow-x-auto md:min-h-[calc(100vh-120px)] min-h-[calc(100vh-80px)] scrollbar-transparent">
+    <div className="min-h-[calc(100vh-80px)] overflow-x-auto scrollbar-transparent md:min-h-[calc(100vh-120px)]">
       <DndContext
         sensors={sensors}
         collisionDetection={closestCenter}
@@ -205,7 +205,7 @@ export function KanbanBoard() {
         onDragOver={handleDragOver}
         onDragEnd={handleDragEnd}
       >
-        <div className="flex gap-4 min-w-fit p-4">
+        <div className="flex min-w-fit gap-4 p-4">
           {QUERY_DASH_COLUMNS.map((column) => (
             <KanbanColumn
               key={column.id}

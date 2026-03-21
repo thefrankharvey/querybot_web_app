@@ -9,25 +9,29 @@ export default async function BlogIndexPage() {
   const posts = await getRecentPosts(20);
 
   return (
-    <main className="mx-auto max-w-4xl pb-10 max-sm:px-4 max-sm:pt-8">
-      <h1 className="mb-6 text-3xl md:text-[32px] font-semibold tracking-tight flex gap-2 items-center text-accent md:pt-17 pt-0">
-        <NotebookPen className="w-10 h-10" />
-        Blog
-      </h1>
-      <ul className="space-y-8">
-        {posts.map((post, index) => {
-          return post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
-            post.title.includes("SlushWire Weekly") ? (
-            <Link
-              key={index}
-              href={`/blog/${post.slug}`}
-              className="bg-white cursor-pointer rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4 hover:shadow-lg transition-all duration-300"
-            >
-              <SlushwireWeeklyThumbnail post={post} />
-            </Link>
-          ) : null;
-        })}
-      </ul>
+    <main className="ambient-page px-4 pb-12 pt-8 md:px-6 md:pt-6">
+      <div className="ambient-orb-top" />
+      <div className="ambient-orb-bottom" />
+      <div className="mx-auto max-w-4xl">
+        <h1 className="mb-6 flex items-center gap-2 text-3xl font-semibold tracking-tight text-accent md:text-[32px] font-serif">
+          <NotebookPen className="w-10 h-10" />
+          Blog
+        </h1>
+        <ul className="flex flex-col gap-8">
+          {posts.map((post, index) => {
+            return post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
+              post.title.includes("SlushWire Weekly") ? (
+              <Link
+                key={index}
+                href={`/blog/${post.slug}`}
+                className="glass-panel flex w-full cursor-pointer flex-col gap-4 p-4 py-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_70px_rgba(24,44,69,0.14)] md:p-8"
+              >
+                <SlushwireWeeklyThumbnail post={post} />
+              </Link>
+            ) : null;
+          })}
+        </ul>
+      </div>
     </main>
   );
 }

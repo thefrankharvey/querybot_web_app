@@ -5,6 +5,7 @@ import { cn } from "../utils";
 import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
+import { Separator } from "@/app/ui-primitives/separator";
 
 export const PublicHamburger = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,7 @@ export const PublicHamburger = () => {
         onClick={() => setOpen((o) => !o)}
         aria-label="Toggle menu"
         aria-expanded={open}
-        className="flex flex-col justify-center items-center w-10 h-10 p-0 md:hidden"
+        className="glass-panel flex size-11 flex-col items-center justify-center rounded-full p-0 md:hidden bg-transparent border-none"
       >
         <span
           className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
@@ -39,13 +40,13 @@ export const PublicHamburger = () => {
       </button>
       <div
         className={cn(
-          "absolute inset-0 w-screen h-dvh-safe transition-opacity duration-300 bg-background z-99 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
+          "absolute inset-0 z-99 mt-[80px] h-dvh-safe w-screen overflow-hidden overscroll-none bg-background/90 p-6 transition-opacity duration-300 backdrop-blur-xl",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
         )}
       >
-        <div className="flex flex-col items-center w-full h-full overflow-y-auto">
+        <div className="glass-panel-strong mx-auto flex h-fit md:h-full w-full max-w-xl flex-col items-center overflow-y-auto p-4">
           <SignedIn>
             {!isSubscribed ? (
               <Link
@@ -53,7 +54,7 @@ export const PublicHamburger = () => {
                 href="/subscribe"
                 className="text-base w-full text-center"
               >
-                <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
+                <div className="w-full rounded-full border border-accent bg-accent px-4 py-3 text-center text-base font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)]">
                   Subscribe
                 </div>
               </Link>
@@ -63,17 +64,17 @@ export const PublicHamburger = () => {
                 href="/home"
                 className="text-base w-full text-center"
               >
-                <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
+                <div className="w-full rounded-full border border-accent bg-accent px-4 py-3 text-center text-base font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)]">
                   Go to App
                 </div>
               </Link>
             )}
           </SignedIn>
           <div className="flex justify-center flex-col items-center gap-8 w-full md:w-fit mt-10">
-            <hr className="w-full border-t-1 border-accent/10 md:hidden" />
+            <Separator className="md:hidden" />
             <SignedIn>
               <div
-                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="w-full cursor-pointer rounded-full border border-accent/12 bg-white/82 px-4 py-3 text-center text-base font-medium text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)]"
                 onClick={() => setOpen(false)}
               >
                 <SignOutButton />
@@ -87,7 +88,7 @@ export const PublicHamburger = () => {
               className="w-full"
             >
               <div
-                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="w-full cursor-pointer rounded-full border border-accent/12 bg-white/82 px-4 py-3 text-center text-base font-medium text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)]"
                 onClick={() => setOpen(false)}
               >
                 Sign In
@@ -98,7 +99,7 @@ export const PublicHamburger = () => {
               onClick={() => setOpen(false)}
               className="w-full"
             >
-              <div className="cursor-pointer text-base font-medium p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
+              <div className="mt-4 w-full cursor-pointer rounded-full border border-accent bg-accent px-4 py-3 text-center text-base font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)]">
                 Create an Account
               </div>
             </Link>
