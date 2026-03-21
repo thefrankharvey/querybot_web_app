@@ -23,6 +23,7 @@ import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 import TypeForm from "@/app/components/type-form";
+import { RemoveAgent } from "@/app/(app)/query-dashboard/components/remove-agent";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -35,7 +36,7 @@ const AgentProfile = () => {
   const [agent, setAgent] = useState<AgentMatch | null>(null);
   const [agentIndex, setAgentIndex] = useState<number>(0);
 
-  const { saveAgent, savingAgentId } = useProfileContext();
+  const { agentsList, saveAgent, savingAgentId } = useProfileContext();
   const isSaving = savingAgentId !== null;
 
   useEffect(() => {
@@ -63,6 +64,10 @@ const AgentProfile = () => {
     ...(agent.match_hits?.cluster.themes || []),
   ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
+  const savedAgent = agentsList?.find(
+    (savedMatch) => savedMatch.index_id === agent.agent_id
+  );
+  const isAlreadySaved = Boolean(savedAgent);
 
   const handleSaveAgent = async () => {
     const payload = {
@@ -88,16 +93,25 @@ const AgentProfile = () => {
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
-        <Button
-          className="text-sm"
-          onClick={handleSaveAgent}
-          disabled={isSaving}
-        >
-          <div className="flex items-center gap-2">
-            {isSaving ? <Spinner className="text-white" /> : <Save className="w-4 h-4" />}
-            <span>Save Agent</span>
-          </div>
-        </Button>
+        {isAlreadySaved ? (
+          <RemoveAgent
+            indexId={savedAgent?.index_id}
+            label="Remove Agent"
+            description="This will remove the agent from your saved results."
+            buttonClassName="w-auto"
+          />
+        ) : (
+          <Button
+            className="text-sm"
+            onClick={handleSaveAgent}
+            disabled={isSaving}
+          >
+            <div className="flex items-center gap-2">
+              {isSaving ? <Spinner className="text-white" /> : <Save className="w-4 h-4" />}
+              <span>Save Agent</span>
+            </div>
+          </Button>
+        )}
       </div>
       <div className="glass-panel-strong p-4 py-8 md:p-16">
         <div className="flex flex-col gap-8">

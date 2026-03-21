@@ -20,9 +20,18 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 interface RemoveAgentProps {
   indexId?: string | null;
   onRemoved?: (deletedAgentId: string) => void;
+  label?: string;
+  description?: string;
+  buttonClassName?: string;
 }
 
-export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
+export function RemoveAgent({
+  indexId,
+  onRemoved,
+  label = "Remove Agent",
+  description = "This will remove the agent from your query dashboard.",
+  buttonClassName,
+}: RemoveAgentProps) {
   const { removeAgent } = useProfileContext();
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
@@ -43,12 +52,12 @@ export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
         <Button
           size="sm"
           variant="secondary"
-          className="text-sm w-full border-1 border-red-500 shadow-sm"
+          className={`text-sm border-1 border-accent shadow-sm ${buttonClassName ?? "w-full"}`}
           disabled={isDeleting || !indexId}
         >
-          <div className="flex items-center gap-2 text-red-500">
-            {isDeleting ? <Spinner className="text-red-500" /> : null}
-            Remove Agent
+          <div className="flex items-center gap-2 text-accent">
+            {isDeleting ? <Spinner className="text-accent" /> : null}
+            {label}
             <Trash className="w-2 h-2" />
           </div>
         </Button>
@@ -57,7 +66,7 @@ export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure?</AlertDialogTitle>
           <AlertDialogDescription>
-            This will remove the agent from your query dashboard.
+            {description}
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -69,7 +78,7 @@ export function RemoveAgent({ indexId, onRemoved }: RemoveAgentProps) {
             className="text-red-500 border-red-500 border-1 bg-white hover:bg-red-500 hover:text-white"
             disabled={isDeleting || !indexId}
           >
-            {isDeleting ? "Removing..." : "Remove Agent"}
+            {isDeleting ? "Removing..." : label}
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>

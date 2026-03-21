@@ -19,7 +19,7 @@ export const useDeleteAgentMatch = (options?: UseDeleteAgentMatchOptions) => {
       return { agentId };
     },
     onSuccess: (data) => {
-      toast.success("Agent match deleted successfully");
+      toast.success("Agent removed successfully");
       options?.onSuccess?.(data.agentId);
     },
     onError: () => {
