@@ -152,7 +152,7 @@ const SmartMatch = () => {
   }
 
   return (
-    <div className="ambient-page pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">
+    <div className="ambient-page pb-48 pt-6 px-4 md:px-6 md:pb-48 md:pt-4">
 
       {(queryMutation.isPending || queryMutation.isSuccess) && (
         <div className="mt-40 flex h-[700px] flex-col items-center md:mx-auto md:w-[700px]">

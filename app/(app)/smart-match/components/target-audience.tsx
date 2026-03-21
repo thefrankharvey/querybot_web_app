@@ -18,7 +18,7 @@ const TargetAudience = ({
 }) => {
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">
+      <label className="font-semibold mb-2 block text-accent">
         Target Audience<span className="text-accent text-xl font-bold">*</span>
       </label>
 

@@ -42,7 +42,7 @@ const Subgenres = ({
   };
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">
+      <label className="font-semibold mb-2 block text-accent">
         Subgenres<span className="text-accent text-xl font-bold">*</span>
       </label>
       <div className="flex items-center gap-2 w-full">

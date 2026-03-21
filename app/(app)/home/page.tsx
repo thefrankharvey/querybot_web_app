@@ -11,6 +11,20 @@ import QDashDialog from "./components/q-dash-dialog";
 import ButtonBar from "./components/button-bar";
 import QueryDashboardStats from "./components/query-dashboard-stats";
 
+const PAYMENT_PENDING_KEY = "payment_verification_pending";
+const RETRY_DELAYS_MS = [0, 1500, 3000, 4000] as const;
+
+async function verifySubscriptionServer(): Promise<boolean> {
+  try {
+    const res = await fetch("/api/verify-subscription");
+    if (!res.ok) return false;
+    const data = await res.json();
+    return data.isSubscribed === true;
+  } catch {
+    return false;
+  }
+}
+
 const HomePage = () => {
   const { agentsList, isLoading: isProfileLoading, refetch } = useProfileContext();
   const { isSubscribed, isLoading } = useClerkUser();
@@ -18,6 +32,7 @@ const HomePage = () => {
   const hasReloadedRef = useRef(false);
   const [isQDashDialogOpen, setIsQDashDialogOpen] = useState(false);
   const [isRefreshingHomeData, setIsRefreshingHomeData] = useState(true);
+  const [isVerifyingPayment, setIsVerifyingPayment] = useState(false);
 
   const qDashDismissedKey = useMemo(
     () =>
@@ -34,42 +49,51 @@ const HomePage = () => {
 
   // Handle return from successful Stripe payment
   useEffect(() => {
-    const paymentSuccess = new URLSearchParams(window.location.search).get(
-      "payment"
-    );
+    const urlHasPaymentSuccess =
+      new URLSearchParams(window.location.search).get("payment") === "success";
+    const hasPendingFlag =
+      sessionStorage.getItem(PAYMENT_PENDING_KEY) === "true";
+    const needsVerification = urlHasPaymentSuccess || hasPendingFlag;
 
-    if (paymentSuccess === "success" && user && !hasReloadedRef.current) {
-      hasReloadedRef.current = true;
+    if (!needsVerification || !user || hasReloadedRef.current) return;
+    hasReloadedRef.current = true;
 
-      const checkSubscription = async () => {
-        // Initial reload
-        await user.reload();
-
-        // Check if subscription is now active
-        if (user.publicMetadata?.isSubscribed) {
-          window.location.replace("/home");
-          return;
-        }
-
-        // Retry after 1 second
-        await new Promise((resolve) => setTimeout(resolve, 1000));
-        await user.reload();
-
-        if (user.publicMetadata?.isSubscribed) {
-          window.location.replace("/home");
-          return;
-        }
-
-        // Retry after 2 more seconds (3 seconds total)
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-        await user.reload();
-
-        // Clean up URL regardless of outcome
-        window.location.replace("/home");
-      };
-
-      checkSubscription();
+    if (urlHasPaymentSuccess) {
+      sessionStorage.setItem(PAYMENT_PENDING_KEY, "true");
     }
+
+    setIsVerifyingPayment(true);
+
+    const checkSubscription = async () => {
+      for (const delay of RETRY_DELAYS_MS) {
+        if (delay > 0) {
+          await new Promise((resolve) => setTimeout(resolve, delay));
+        }
+        await user.reload();
+        if (user.publicMetadata?.isSubscribed) {
+          sessionStorage.removeItem(PAYMENT_PENDING_KEY);
+          window.location.replace("/home");
+          return;
+        }
+      }
+
+      // Client-side retries exhausted -- verify directly against Stripe
+      const verified = await verifySubscriptionServer();
+      if (verified) {
+        sessionStorage.removeItem(PAYMENT_PENDING_KEY);
+        window.location.replace("/home");
+        return;
+      }
+
+      // Final attempt after giving the server-side verification time to propagate
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      await user.reload();
+
+      sessionStorage.removeItem(PAYMENT_PENDING_KEY);
+      window.location.replace("/home");
+    };
+
+    checkSubscription();
   }, [user]);
 
   useEffect(() => {
@@ -130,7 +154,7 @@ const HomePage = () => {
     isSubscribed &&
     Boolean(agentsList?.length);
 
-  const isLoadingState = isLoading || isProfileLoading || isRefreshingHomeData;
+  const isLoadingState = isLoading || isProfileLoading || isRefreshingHomeData || isVerifyingPayment;
 
   return (
     <div className="relative overflow-hidden pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">

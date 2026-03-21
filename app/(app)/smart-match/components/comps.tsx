@@ -26,14 +26,14 @@ export const Comps = ({
 
   return (
     <div className="w-full">
-      <h2 className="text-base font-semibold mb-1">Comparable Titles<span className="text-accent text-xl font-bold">*</span></h2>
+      <h2 className="text-base font-semibold mb-1 text-accent">Comparable Titles<span className="text-accent text-xl font-bold">*</span></h2>
       <div className="text-muted-foreground text-sm mb-4">
         published books, preferably recent, which compare to yours
       </div>
       {form.comps.map((comp, idx) => (
         <div key={idx} className="mb-4 flex flex-col md:flex-row gap-2">
           <div className="mb-2 flex-1">
-            <label className="font-semibold mb-2 block">Title</label>
+            <label className="font-semibold mb-2 block text-accent">Title</label>
             <Input
               value={comp.title}
               onChange={(e) => handleCompChange(idx, "title", e.target.value)}
@@ -41,7 +41,7 @@ export const Comps = ({
             />
           </div>
           <div className="flex-1">
-            <label className="font-semibold mb-2 block">Author</label>
+            <label className="font-semibold mb-2 block text-accent">Author</label>
             <Input
               value={comp.author}
               onChange={(e) => handleCompChange(idx, "author", e.target.value)}

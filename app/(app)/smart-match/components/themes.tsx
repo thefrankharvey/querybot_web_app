@@ -45,7 +45,7 @@ const Themes = ({
   };
   return (
     <div className="w-full">
-      <label className="font-semibold mb-2 block">Themes<span className="text-accent text-xl font-bold">*</span></label>
+      <label className="font-semibold mb-2 block text-accent">Themes<span className="text-accent text-xl font-bold">*</span></label>
       <div className="flex items-center gap-2 w-full">
         <InfiniteMultiSelect
           options={themeOptions}
