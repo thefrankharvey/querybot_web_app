@@ -136,7 +136,7 @@
   }
   body {
     overflow-x: hidden;
-    @apply bg-background text-foreground;
+    @apply bg-background text-accent;
     font-family: var(--font-sans);
 
     button {
