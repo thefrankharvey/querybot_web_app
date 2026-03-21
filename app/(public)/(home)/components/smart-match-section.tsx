@@ -16,30 +16,30 @@ const smartMatchBullets = [
 ] as const;
 
 const screenshotCallouts = [
-  {
-    label: "Match scores",
-    description: "Ranked fit indicators at a glance",
-    className: "left-[25%] top-[8%] sm:left-[8%] sm:top-[10%]",
-    lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-10 -translate-y-1/2 bg-accent/30 sm:block",
-  },
-  {
-    label: "Open to submissions",
-    description: "Live-ready status tags",
-    className: "right-[6%] top-[18%] text-right sm:right-[8%] sm:top-[20%]",
-    lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-12 -translate-y-1/2 bg-accent/30 sm:block",
-  },
-  {
-    label: "Matching genres + themes",
-    description: "Proof of why each agent fits",
-    className: "left-[4%] bottom-[12%] sm:left-[7%] sm:bottom-[14%]",
-    lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-16 -translate-y-1/2 bg-accent/30 sm:block",
-  },
-  {
-    label: "Country + status filters",
-    description: "Refine results in seconds",
-    className: "right-[3%] bottom-[8%] text-right sm:right-[7%] sm:bottom-[10%]",
-    lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-14 -translate-y-1/2 bg-accent/30 sm:block",
-  },
+  // {
+  //   label: "Match scores",
+  //   description: "Ranked fit indicators at a glance",
+  //   className: "left-[25%] top-[8%] sm:left-[8%] sm:top-[10%]",
+  //   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-10 -translate-y-1/2 bg-accent/30 sm:block",
+  // },
+  // {
+  //   label: "Open to submissions",
+  //   description: "Live-ready status tags",
+  //   className: "right-[6%] top-[18%] text-right sm:right-[8%] sm:top-[20%]",
+  //   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-12 -translate-y-1/2 bg-accent/30 sm:block",
+  // },
+  // {
+  //   label: "Matching genres + themes",
+  //   description: "Proof of why each agent fits",
+  //   className: "left-[4%] bottom-[12%] sm:left-[7%] sm:bottom-[14%]",
+  //   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-16 -translate-y-1/2 bg-accent/30 sm:block",
+  // },
+  // {
+  //   label: "Country + status filters",
+  //   description: "Refine results in seconds",
+  //   className: "right-[3%] bottom-[8%] text-right sm:right-[7%] sm:bottom-[10%]",
+  //   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-14 -translate-y-1/2 bg-accent/30 sm:block",
+  // },
 ] as const;
 
 const SmartMatchSection = () => {
@@ -132,12 +132,12 @@ const SmartMatchSection = () => {
                     alt="Smart Match interface showing ranked literary agent matches, match scores, submission status tags, matching genres and themes, and country and status filters."
                     fill
                     sizes="(max-width: 767px) 94vw, (max-width: 1279px) 92vw, 980px"
-                    className="object-cover object-left-top"
+                    className="object-cover object-[-170px_top]"
                     priority={false}
                   />
 
                   <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.02)_34%,rgba(17,33,48,0.06)_100%)]" />
-
+                  {/* 
                   {screenshotCallouts.map((callout) => (
                     <div
                       key={callout.label}
@@ -155,7 +155,7 @@ const SmartMatchSection = () => {
                         </p>
                       </div>
                     </div>
-                  ))}
+                  ))} */}
                 </div>
               </div>
             </div>

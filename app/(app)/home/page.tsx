@@ -151,7 +151,7 @@ const HomePage = () => {
               <Spinner className="size-16" />
             </div>
           ) : isSubscribed ? (
-            <div className="mt-3 min-h-[350px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
+            <div className="flex items-center justify-center mt-3 min-h-[350px] rounded-[24px] border border-white/90 bg-[linear-gradient(180deg,rgba(255,255,255,0.98),rgba(244,249,250,0.94))] p-3 shadow-[0_18px_40px_rgba(24,44,69,0.12)] sm:p-4">
               <div className="flex flex-1 flex-col items-center justify-center">
                 <SubscriberEmpty showSmartMatchPrompt={!shouldShowStats} />
                 {shouldShowStats && <QueryDashboardStats agentsList={agentsList} />}

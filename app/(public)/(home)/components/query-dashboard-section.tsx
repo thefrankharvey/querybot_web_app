@@ -61,11 +61,11 @@ const QueryDashboardSection = () => {
                     alt="Query Dashboard showing saved literary agent matches organized by submission status, manuscript readiness, notes, fit level, project name, and request progress."
                     fill
                     sizes="(max-width: 767px) 94vw, (max-width: 1279px) 92vw, 1020px"
-                    className="object-cover object-[72%_top]"
+                    className="object-cover object-[-175px_top]"
                     priority={false}
                   />
 
-                  {dashboardCallouts.map((callout) => (
+                  {/* {dashboardCallouts.map((callout) => (
                     <div
                       key={callout.title}
                       className={`pointer-events-none absolute z-20 hidden max-w-[180px] rounded-2xl border border-white/90 bg-white/88 px-3 py-2 shadow-[0_16px_36px_rgba(24,44,69,0.14)] backdrop-blur-md sm:block sm:max-w-[210px] sm:px-4 sm:py-3 ${callout.className}`}
@@ -77,7 +77,7 @@ const QueryDashboardSection = () => {
                         {callout.description}
                       </p>
                     </div>
-                  ))}
+                  ))} */}
                 </div>
               </div>
             </div>

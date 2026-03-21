@@ -41,17 +41,8 @@ const features = [
 export default function About() {
   return (
     <div className="relative w-full overflow-hidden">
-      {/* Radial gradient background */}
-      <div
-        className="pointer-events-none absolute inset-0 -z-10"
-        style={{
-          background:
-            "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(139,92,246,0.06) 0%, transparent 70%)",
-        }}
-      />
-
       <HomeContentShell className="max-w-3xl">
-        <div className="space-y-6 pb-24 pt-12 text-base leading-8 text-accent/90 md:pt-16">
+        <div className="space-y-6 pb-70 pt-12 text-base leading-8 text-accent/90 md:pt-16">
           {/* Avatars */}
           <div className="flex justify-center gap-6 !mb-5">
             <div className="flex flex-col items-center gap-2">

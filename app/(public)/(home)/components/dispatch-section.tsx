@@ -20,18 +20,18 @@ const dispatchTags = [
   },
 ] as const;
 
-const editorialCards = [
-  {
-    source: "Agent intel",
-    headline: "Submission windows move fast. Dispatch keeps the changes visible.",
-    className: "left-[7%] top-[22%] max-w-[220px] sm:max-w-[250px]",
-  },
-  {
-    source: "WQH Dispatch",
-    headline: "One feed for openings, wishlist shifts, AMA notes, and practical advice.",
-    className: "right-[6%] bottom-[22%] max-w-[210px] text-right sm:max-w-[250px]",
-  },
-] as const;
+// const editorialCards = [
+//   {
+//     source: "Agent intel",
+//     headline: "Submission windows move fast. Dispatch keeps the changes visible.",
+//     className: "left-[7%] top-[22%] max-w-[220px] sm:max-w-[250px]",
+//   },
+//   {
+//     source: "WQH Dispatch",
+//     headline: "One feed for openings, wishlist shifts, AMA notes, and practical advice.",
+//     className: "right-[6%] bottom-[22%] max-w-[210px] text-right sm:max-w-[250px]",
+//   },
+// ] as const;
 
 const DispatchSection = () => {
   return (
@@ -116,7 +116,7 @@ const DispatchSection = () => {
                       alt="Dispatch feed showing publishing updates, submission openings, wishlist changes, AMA takeaways, and query advice inside Write Query Hook."
                       fill
                       sizes="(max-width: 767px) 124vw, (max-width: 1279px) 118vw, 1240px"
-                      className="object-cover object-left-top"
+                      className="object-cover object-[-20px_top]"
                       priority={false}
                     />
                   </div>
@@ -132,7 +132,7 @@ const DispatchSection = () => {
                     </div>
                   ))}
 
-                  {editorialCards.map((card) => (
+                  {/* {editorialCards.map((card) => (
                     <div
                       key={card.headline}
                       className={`pointer-events-none absolute hidden rounded-[24px] border border-white/88 bg-[linear-gradient(180deg,rgba(255,255,255,0.94),rgba(249,247,243,0.9))] px-4 py-4 shadow-[0_18px_40px_rgba(24,44,69,0.14)] backdrop-blur-md sm:block sm:px-5 sm:py-5 ${card.className}`}
@@ -144,7 +144,7 @@ const DispatchSection = () => {
                         {card.headline}
                       </p>
                     </div>
-                  ))}
+                  ))} */}
                 </div>
               </div>
             </div>

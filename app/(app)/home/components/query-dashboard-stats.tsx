@@ -46,12 +46,12 @@ export default function QueryDashboardStats({
       aria-label="Query dashboard column totals"
     >
       <div className="w-full">
-        <div className="mt-7 flex w-full flex-wrap gap-3">
+        <div className="mt-7 flex w-full flex-wrap gap-3 items-center justify-center">
           {visibleColumns.map((column) => (
             <Link
               key={column.id}
               href="/query-dashboard"
-              className="group rounded-[24px] w-full md:w-auto border bg-white/88 p-4 shadow-[0_18px_44px_rgba(24,44,69,0.08)] backdrop-blur-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_24px_56px_rgba(24,44,69,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+              className="group rounded-[24px] w-full md:w-[202px] border bg-white/88 p-4 text-center shadow-[0_18px_44px_rgba(24,44,69,0.08)] backdrop-blur-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_24px_56px_rgba(24,44,69,0.12)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent/54">
                 {column.title}
@@ -59,7 +59,7 @@ export default function QueryDashboardStats({
               <p className="mt-3 text-4xl font-bold leading-none text-accent md:text-[40px]">
                 <AnimatedCount value={column.count} />
               </p>
-              <p className="mt-3 text-sm font-semibold text-accent">
+              <p className="mt-3 text-sm font-semibold text-accent/50">
                 Open Query Dashboard
               </p>
             </Link>
