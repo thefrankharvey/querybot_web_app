@@ -70,17 +70,18 @@ export const PublicHamburger = () => {
               </Link>
             )}
           </SignedIn>
-          <div className="flex justify-center flex-col items-center gap-8 w-full md:w-fit mt-10">
-            <Separator className="md:hidden" />
-            <SignedIn>
+          <SignedIn>
+            <div className="flex justify-center flex-col items-center gap-8 w-full md:w-fit mt-10">
+              <Separator className="md:hidden" />
               <div
                 className="w-full cursor-pointer rounded-full border border-accent/12 bg-white/82 px-4 py-3 text-center text-base font-medium text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)]"
                 onClick={() => setOpen(false)}
               >
                 <SignOutButton />
               </div>
-            </SignedIn>
-          </div>
+            </div>
+          </SignedIn>
+
           <SignedOut>
             <Link
               href="/sign-in"
@@ -94,6 +95,7 @@ export const PublicHamburger = () => {
                 Sign In
               </div>
             </Link>
+            <Separator className="md:hidden mt-4" />
             <Link
               href="/sign-up"
               onClick={() => setOpen(false)}
