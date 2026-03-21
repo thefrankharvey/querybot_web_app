@@ -37,7 +37,7 @@ const steps = [
     label: "Dispatch",
     title: "Stay current with Dispatch",
     description:
-      "Keep live openings, market movement, and publishing intel in view without leaving the workflow.",
+      "Keep agent openings, MSWLs, AMAs, and publishing intel in view without leaving the workflow.",
     chip: "Live updates + intel feed",
     imageSrc: "/dispatch-ss.png",
     imageAlt:
