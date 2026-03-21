@@ -2,24 +2,26 @@ import React from "react";
 
 const RefundPolicy = () => {
   return (
-    <div className="w-full">
-      <div className="pt-12 pb-10 md:pt-20 md:pb-20 w-full md:w-[85%] mx-auto max-w-4xl">
-        <h1 className="text-4xl md:text-[32px] font-semibold text-accent leading-tight mb-4 text-left">
+    <div className="ambient-page w-full">
+      <div className="ambient-orb-top" />
+      <div className="ambient-orb-bottom" />
+      <div className="ambient-page-shell-narrow pb-10 pt-12 md:pb-20 md:pt-20">
+        <h1 className="page-title mb-4 text-left text-4xl md:text-[32px]">
           Refund Policy
         </h1>
 
-        <div className="flex flex-col gap-6 bg-white rounded-lg p-6 md:p-12 shadow-lg max-w-4xl mx-auto">
+        <div className="glass-panel-strong rich-copy mx-auto flex max-w-4xl flex-col gap-6 p-6 md:p-12">
           <p className="text-lg font-semibold leading-relaxed">
             Effective Date: January, 2025
           </p>
 
-          <p className="text-gray-700">
+          <p>
             At Write Query Hook, we take pride in the quality of our service and
             the value it provides. Since our services are digital and automated,
             all sales are final, and we do not offer refunds.
           </p>
 
-          <div className="space-y-8 text-gray-700">
+          <div className="flex flex-col gap-8">
             <section>
               <h2 className="text-2xl font-bold mb-4">However</h2>
               <p className="mb-4">

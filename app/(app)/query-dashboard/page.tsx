@@ -60,7 +60,9 @@ function QueryDashboardContent() {
   }, []);
 
   return (
-    <div className="md:py-6 py-0 flex flex-col h-full min-h-0">
+    <div className="ambient-page flex h-full min-h-0 flex-col py-0 md:py-6">
+      <div className="ambient-orb-top" />
+      <div className="ambient-orb-bottom" />
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
           <Confetti
@@ -70,7 +72,7 @@ function QueryDashboardContent() {
           />
         </div>
       )}
-      {!isEmpty && !isLoading && <h1 className="text-xl md:text-[32px] md:flex hidden font-semibold leading-tight ml-4 items-center gap-2 text-accent">
+      {!isEmpty && !isLoading && <h1 className="ml-4 hidden items-center gap-2 text-xl font-semibold leading-tight text-accent md:flex md:text-[32px] font-serif">
         <LayoutDashboard className="w-10 h-10" />
         Query Dashboard
       </h1>}

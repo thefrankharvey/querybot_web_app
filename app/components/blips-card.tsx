@@ -30,21 +30,21 @@ const BlipsCard = ({
       : false;
 
   return isDataValid ? (
-    <div className="bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md flex flex-col gap-4">
+    <div className="glass-panel flex w-full flex-col gap-4 p-4 py-8 md:p-8">
       {blips.website ? (
         <>
           <Link href={blips.website} target="_blank">
-            <div className="flex justify-between items-center">
-              <div className="flex gap-2 items-center font-semibold">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 font-semibold text-accent">
                 <Users />
                 <h3 className="text-sm">{blips.name}</h3>
               </div>
               {isOpenToSubs ? (
-                <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
+                <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
                   Open to Submissions
                 </span>
               ) : (
-                <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
+                <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
                   Agent Update
                 </span>
               )}
@@ -52,7 +52,7 @@ const BlipsCard = ({
           </Link>
           {blips.agency && (
             <Link href={blips.website} target="_blank">
-              <div className="flex gap-2 text-sm">
+              <div className="flex gap-2 text-sm text-accent/78">
                 <h3 className="font-semibold">Agency:</h3>
                 <p>{blips.agency}</p>
               </div>
@@ -61,20 +61,20 @@ const BlipsCard = ({
         </>
       ) : (
         <>
-          <div className="flex justify-between items-center">
-            <div className="flex gap-2 items-center font-semibold">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2 font-semibold text-accent">
               <Users />
               <h3 className="text-sm">{blips.name}</h3>
             </div>
             {isOpenToSubs && (
-              <span className="bg-accent text-white text-sm p-1 px-3 rounded-xl font-semibold">
+              <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
                 Open to Submissions
               </span>
             )}
           </div>
 
           {blips.agency && (
-            <div className="flex gap-2 text-sm">
+            <div className="flex gap-2 text-sm text-accent/78">
               <h3 className="font-semibold">Agency:</h3>
               <p>{blips.agency}</p>
             </div>
@@ -83,14 +83,14 @@ const BlipsCard = ({
       )}
 
       <div>
-        <h3 className="text-sm font-semibold">Top Genres:</h3>
+        <h3 className="text-sm font-semibold text-accent">Top Genres:</h3>
         <div className="flex flex-wrap gap-1">
           {blips.genres
             ? formatGenres(blips.genres)
                 .slice(0, 8)
                 .map((genre, index) => (
                   <div
-                    className="bg-gray-100 px-2 py-1 text-xs rounded-md"
+                    className="surface-tag px-2 py-1 text-xs"
                     key={index}
                   >
                     {genre}
@@ -103,11 +103,11 @@ const BlipsCard = ({
         className="flex flex-col cursor-pointer text-sm"
         onClick={() => setOpenAccordion(!openAccordion)}
       >
-        <h3 className="text-sm font-semibold">Interests:</h3>
+        <h3 className="text-sm font-semibold text-accent">Interests:</h3>
         {!openAccordion ? (
-          <p className="line-clamp-3">{formattedInterests}</p>
+          <p className="line-clamp-3 text-accent/78">{formattedInterests}</p>
         ) : (
-          <p>{formattedInterests}</p>
+          <p className="text-accent/78">{formattedInterests}</p>
         )}
       </div>
     </div>

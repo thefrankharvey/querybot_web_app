@@ -42,12 +42,16 @@ const Dispatch = async () => {
 
 const renderContent = (data: FlattenedSlushFeed) => {
   return (
-    <div className="w-full flex flex-col justify-start md:w-[700px] md:mx-auto max-sm:px-4 max-sm:pt-8">
-      <h1 className="text-4xl md:text-[32px] font-semibold leading-tight mb-[27px] flex gap-2 items-center text-accent md:pt-17 pt-0">
-        <Newspaper className="w-10 h-10" />
-        Dispatch
-      </h1>
-      <Feed initialData={data} />
+    <div className="ambient-page px-4 pb-10 pt-8 md:px-6 md:pt-10">
+      <div className="ambient-orb-top" />
+      <div className="ambient-orb-bottom" />
+      <div className="mx-auto flex w-full max-w-screen-md flex-col justify-start">
+        <h1 className="mb-[27px] flex items-center gap-2 text-4xl font-semibold leading-tight text-accent md:text-[32px] ] font-serif">
+          <Newspaper className="w-10 h-10" />
+          Dispatch
+        </h1>
+        <Feed initialData={data} />
+      </div>
     </div>
   );
 };

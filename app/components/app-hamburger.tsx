@@ -8,6 +8,7 @@ import { useClerkUser } from "../hooks/use-clerk-user";
 import { usePathname } from "next/navigation";
 import { Home, Newspaper, NotebookPen, ScanSearch, LayoutDashboard } from "lucide-react";
 import { useProfileContext } from "../(app)/context/profile-context";
+import { Separator } from "@/app/ui-primitives/separator";
 
 export const AppHamburger = () => {
   const pathname = usePathname();
@@ -28,7 +29,7 @@ export const AppHamburger = () => {
         onClick={() => setOpen((o) => !o)}
         aria-label="Toggle menu"
         aria-expanded={open}
-        className="flex flex-col justify-center items-center w-10 h-10 p-0 md:hidden"
+        className="glass-panel flex size-11 flex-col items-center justify-center rounded-full p-0 md:hidden bg-transparent border-none"
       >
         <span
           className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
@@ -45,21 +46,22 @@ export const AppHamburger = () => {
       </button>
       <div
         className={cn(
-          "absolute inset-0 w-screen h-dvh-safe transition-opacity duration-300 bg-background z-99 overflow-hidden overscroll-none p-6 pt-16 mt-[80px]",
+          "absolute inset-0 z-99 mt-[80px] h-dvh-safe w-screen overflow-hidden overscroll-none bg-background/90 p-6 pt-0 md:pt-4 transition-opacity duration-300 backdrop-blur-xl",
           open
             ? "opacity-100 visible"
             : "opacity-0 invisible pointer-events-none"
         )}
       >
-        <div className="flex flex-col gap-4 items-center w-full h-full overflow-y-auto">
+        <div className="glass-panel-strong mx-auto flex h-full w-full max-w-xl flex-col gap-2 overflow-y-auto p-4">
           <SignedIn>
             {!isSubscribed && (
               <Link
                 onClick={() => setOpen(false)}
                 href="/subscribe"
+                prefetch={true}
                 className="text-base w-full text-center py-2"
               >
-                <div className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full">
+                <div className="rounded-full border border-accent bg-accent px-4 py-3 text-center text-base font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)]">
                   Subscribe
                 </div>
               </Link>
@@ -67,11 +69,12 @@ export const AppHamburger = () => {
             <Link
               onClick={() => setOpen(false)}
               href="/home"
+              prefetch={true}
               className={cn(
-                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("home")
-                  ? "text-accent bg-accent/10 rounded-md"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
               )}
             >
               <Home className="w-4 h-4" />
@@ -80,11 +83,12 @@ export const AppHamburger = () => {
             <Link
               onClick={() => setOpen(false)}
               href="/smart-match"
+              prefetch={true}
               className={cn(
-                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("smart-match")
-                  ? "text-accent bg-accent/10 rounded-md"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
               )}
             >
               <ScanSearch className="w-4 h-4" />
@@ -93,15 +97,16 @@ export const AppHamburger = () => {
             <Link
               onClick={() => setOpen(false)}
               href="/query-dashboard"
+              prefetch={true}
               className={cn(
-                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("query-dashboard")
-                  ? "text-accent bg-accent/10 rounded-md"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
               )}
             >
               {agentsList && agentsList.length > 0 ? (
-                <span className="flex justify-center items-center text-accent bg-accent/10 rounded-[50px] h-[18px] w-[18px] text-xs p-3 ml-[-3px]">
+                <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-accent/10 bg-white/88 px-2 text-xs text-accent">
                   {agentsList.length}
                 </span>
               ) : (
@@ -112,11 +117,12 @@ export const AppHamburger = () => {
             <Link
               onClick={() => setOpen(false)}
               href="/dispatch"
+              prefetch={true}
               className={cn(
-                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("dispatch")
-                  ? "text-accent bg-accent/10 rounded-md"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
               )}
             >
               <Newspaper className="w-4 h-4" />
@@ -125,29 +131,31 @@ export const AppHamburger = () => {
             <Link
               onClick={() => setOpen(false)}
               href="/blog"
+              prefetch={true}
               className={cn(
-                "text-base w-full font-medium text-center py-2 flex items-center justify-center gap-2",
+                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("blog")
-                  ? "text-accent bg-accent/10 rounded-md"
-                  : "text-black"
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
               )}
             >
               <NotebookPen className="w-4 h-4" />
               Blog
             </Link>
           </SignedIn>
-          <div className="flex justify-center flex-col items-center gap-6 w-full md:w-fit mt-10">
-            <hr className="w-full border-t-1 border-accent/10 md:hidden" />
+          <div className="flex justify-center flex-col items-center gap-2 w-full md:w-fit mt-4">
+            <Separator className="md:hidden" />
             <SignedIn>
               <Link
                 onClick={() => setOpen(false)}
                 href="/account"
-                className="text-base font-medium w-full text-center py-2 md:hidden"
+                prefetch={true}
+                className="w-full rounded-[22px] py-3 text-center text-base font-medium text-accent/74 md:hidden"
               >
                 Account
               </Link>
               <div
-                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="w-full cursor-pointer rounded-full border border-accent/12 bg-white/82 px-4 py-3 text-center text-base font-medium text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)]"
                 onClick={() => setOpen(false)}
               >
                 <SignOutButton />
@@ -161,7 +169,7 @@ export const AppHamburger = () => {
               className="w-full"
             >
               <div
-                className="cursor-pointer text-base font-medium text-center p-2 px-4 rounded-md bg-white text-black shadow-lg w-full"
+                className="w-full cursor-pointer rounded-full border border-accent/12 bg-white/82 px-4 py-3 text-center text-base font-medium text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)]"
                 onClick={() => setOpen(false)}
               >
                 Sign In
@@ -172,7 +180,7 @@ export const AppHamburger = () => {
               onClick={() => setOpen(false)}
               className="w-full"
             >
-              <div className="cursor-pointer text-base font-medium p-2 px-4 rounded-md bg-accent text-white shadow-lg w-full text-center mt-4">
+              <div className="mt-4 w-full cursor-pointer rounded-full border border-accent bg-accent px-4 py-3 text-center text-base font-medium text-white shadow-[0_18px_36px_rgba(28,74,78,0.18)]">
                 Create an Account
               </div>
             </Link>

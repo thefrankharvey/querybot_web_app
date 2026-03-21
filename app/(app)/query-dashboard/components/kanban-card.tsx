@@ -155,7 +155,7 @@ export function KanbanCard({
       <div className="flex items-center justify-between">
         <p
           className={cn(
-            "text-sm font-semibold text-gray-900 truncate capitalize",
+            "truncate text-sm font-semibold capitalize text-accent",
             isRejected && "line-through"
           )}
         >
@@ -178,8 +178,8 @@ export function KanbanCard({
       </div>
       {card.agency && (
         <p
-          className={cn(
-            "text-xs text-gray-500 truncate mt-0.5",
+            className={cn(
+            "mt-0.5 truncate text-xs text-accent/58",
             isRejected && "line-through"
           )}
         >
@@ -213,12 +213,12 @@ export function KanbanCard({
       {/* Fit Rating Pill */}
       <div className="mt-2 flex flex-wrap gap-2">
         <span
-          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white"
+          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-[0_8px_18px_rgba(24,44,69,0.12)]"
           style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
         >
           {FIT_RATING_CONFIG[card.fitRating].label}
         </span>
-        <span className="inline-block rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-white">
+        <span className="inline-block rounded-full border border-accent/12 bg-white/85 px-2 py-0.5 text-xs font-medium text-accent">
           {card.projectName?.trim() || "My Project"}
         </span>
       </div>
@@ -228,7 +228,7 @@ export function KanbanCard({
   if (isDragOverlay) {
     return (
       <div
-        className="bg-white rounded-lg p-3 shadow-lg cursor-grabbing select-none"
+        className="glass-panel rounded-[20px] p-3 cursor-grabbing select-none"
         style={{
           width: dragOverlayWidth ?? "248px",
           ...dragSurfaceProtectionStyle,
@@ -246,9 +246,9 @@ export function KanbanCard({
       {...(useDragHandle ? {} : { ...attributes, ...listeners })}
       onClick={handleCardClick}
       className={cn(
-        "group bg-white rounded-lg p-3 shadow-sm border-2 border-transparent hover:shadow-md hover:border-accent/60 transition-all duration-300 md:max-w-[256px]",
+        "glass-panel group rounded-[20px] border border-white/70 p-3 transition-all duration-300 md:max-w-[256px] hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_22px_52px_rgba(24,44,69,0.12)]",
         !useDragHandle && "cursor-grab active:cursor-grabbing",
-        isDragging && "opacity-50 shadow-lg"
+        isDragging && "opacity-50 shadow-[0_24px_60px_rgba(24,44,69,0.14)]"
       )}
     >
       {cardContent}

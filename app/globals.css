@@ -8,6 +8,11 @@
   --color-foreground: var(--foreground);
   --color-dark-blue: var(--text-dark-blue);
   --color-blue-accent: var(--blue-accent);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-surface-muted: var(--surface-muted);
+  --color-panel-border: var(--panel-border);
+  --color-panel-shadow: var(--panel-shadow);
   --font-sans: "Poppins", sans-serif;
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -48,6 +53,11 @@
 :root {
   --radius: 0.625rem;
   --blue-accent: oklch(0.7009 0.0839 204.45);
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.9);
+  --surface-muted: rgba(245, 248, 250, 0.9);
+  --panel-border: rgba(255, 255, 255, 0.78);
+  --panel-shadow: 0 24px 70px rgba(24, 44, 69, 0.1);
   --background: oklch(0.9527 0.008 114.22);
   --foreground: oklch(0.2 0.17 264);
   --card: oklch(1 0 0);
@@ -128,7 +138,6 @@
     overflow-x: hidden;
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
-    color: black;
 
     button {
       @apply cursor-pointer;
@@ -140,6 +149,183 @@
     .cl-drawerRoot {
       @apply z-50;
     }
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@utility ambient-page {
+  position: relative;
+  overflow: hidden;
+}
+
+@utility ambient-page-shell {
+  position: relative;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1rem;
+  @media (max-width: 767px) {
+    padding-inline: 0;
+  }
+}
+
+@utility ambient-page-shell-narrow {
+  position: relative;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 66rem;
+  padding-inline: 1rem;
+}
+
+@utility ambient-orb-top {
+  pointer-events: none;
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  z-index: -10;
+  margin-inline: auto;
+  height: 38rem;
+  width: min(79rem, 100vw);
+  background:
+    radial-gradient(
+      circle at 22% 18%,
+      rgba(112, 193, 202, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 76% 22%,
+      rgba(56, 88, 116, 0.14),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 52% 58%,
+      rgba(255, 255, 255, 0.92),
+      transparent 44%
+    );
+  filter: blur(56px);
+}
+
+@utility ambient-orb-bottom {
+  pointer-events: none;
+  position: absolute;
+  inset-inline: 0;
+  top: 34%;
+  z-index: -10;
+  margin-inline: auto;
+  height: 46rem;
+  width: min(84rem, 100vw);
+  background:
+    radial-gradient(
+      circle at 28% 30%,
+      rgba(250, 242, 232, 0.84),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 72% 34%,
+      rgba(112, 193, 202, 0.14),
+      transparent 30%
+    ),
+    radial-gradient(circle at 58% 72%, rgba(56, 88, 116, 0.1), transparent 34%);
+  filter: blur(56px);
+}
+
+@utility glass-panel {
+  border: 1px solid var(--color-panel-border);
+  background: var(--color-surface);
+  box-shadow: var(--panel-shadow);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 1.75rem;
+}
+
+@utility glass-panel-strong {
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  background: var(--color-surface-strong);
+  box-shadow: 0 28px 78px rgba(24, 44, 69, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 2rem;
+}
+
+@utility glass-input {
+  border: 1px solid rgba(28, 74, 78, 0.1);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 10px 30px rgba(24, 44, 69, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@utility surface-tag {
+  border: 1px solid rgba(28, 74, 78, 0.1);
+  background: rgba(245, 248, 250, 0.95);
+  color: color-mix(in oklab, var(--accent) 78%, black 10%);
+  border-radius: 0.85rem;
+}
+
+@utility surface-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(28, 74, 78, 0.1);
+  background: rgba(255, 255, 255, 0.82);
+  padding: 0.55rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: color-mix(in oklab, var(--accent) 65%, white 10%);
+  box-shadow: 0 12px 32px rgba(24, 44, 69, 0.06);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+@utility page-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.375rem);
+  line-height: 1.05;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+@utility page-subtitle {
+  max-width: 42rem;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: color-mix(in oklab, var(--accent) 78%, white 22%);
+}
+
+@utility rich-copy {
+  color: color-mix(in oklab, var(--accent) 76%, white 24%);
+}
+
+@layer components {
+  .rich-copy h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--accent);
+  }
+
+  .rich-copy h3 {
+    color: color-mix(in oklab, var(--accent) 88%, black 2%);
+  }
+
+  .rich-copy p,
+  .rich-copy li {
+    line-height: 1.85;
+  }
+
+  .rich-copy ul {
+    list-style: disc;
+    padding-left: 1.25rem;
   }
 }
 /* Custom scrollbar with transparent track */

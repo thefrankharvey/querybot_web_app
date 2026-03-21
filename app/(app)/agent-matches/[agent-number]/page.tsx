@@ -79,17 +79,17 @@ const AgentProfile = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 w-full lg:w-3/4 mx-auto md:mt-15 mt-0 md:p-0 p-4">
-      <div className="flex justify-between items-end">
+    <div className="mx-auto flex w-full flex-col gap-4 p-4 md:w-[90%] pb-10 md:pb-82">
+      <div className="flex items-end justify-between">
         <Link
           href="/agent-matches"
-          className="flex items-center gap-2 hover:text-accent transition-colors duration-300"
+          className="flex items-center gap-2 text-accent/72 transition-colors duration-300 hover:text-accent"
         >
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
         <Button
-          className="text-sm shadow-lg hover:shadow-xl"
+          className="text-sm"
           onClick={handleSaveAgent}
           disabled={isSaving}
         >
@@ -99,7 +99,7 @@ const AgentProfile = () => {
           </div>
         </Button>
       </div>
-      <div className="bg-white rounded-lg p-4 py-8 md:p-16 shadow-lg">
+      <div className="glass-panel-strong p-4 py-8 md:p-16">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex flex-col gap-2">
@@ -132,7 +132,7 @@ const AgentProfile = () => {
                   formatGenres(genre).map((genre: string) => (
                     <div
                       key={genre}
-                      className="bg-accent text-white px-2 py-1 text-sm rounded-md"
+                      className="surface-tag border-accent/18 bg-accent/10 px-2 py-1 text-sm text-accent"
                     >
                       {genre}
                     </div>
@@ -148,7 +148,7 @@ const AgentProfile = () => {
                 dedupedThemeMatches.map((theme: string) => (
                   <div
                     key={theme}
-                    className="bg-accent text-white px-2 py-1 text-sm rounded-md"
+                    className="surface-tag border-accent/18 bg-accent/10 px-2 py-1 text-sm text-accent"
                   >
                     {theme}
                   </div>
@@ -162,7 +162,7 @@ const AgentProfile = () => {
               {formatGenres(agent.genres).map((genre: string) => (
                 <div
                   key={genre}
-                  className="bg-gray-100 px-2 py-1 text-sm rounded-md"
+                  className="surface-tag px-2 py-1 text-sm"
                 >
                   {genre}
                 </div>
@@ -171,7 +171,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Favorites:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.favorites
                 ? capitalizeFirstCharacter(formatDisplayString(agent.favorites))
                 : "Info Unavailable"}
@@ -179,7 +179,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Interests:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
                   formatDisplayString(agent.extra_interest)
@@ -189,7 +189,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Negatives:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.negatives
                 ? capitalizeFirstCharacter(formatDisplayString(agent.negatives))
                 : "Info Unavailable"}
@@ -197,7 +197,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Bio:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.bio
                 ? capitalizeFirstCharacter(agent.bio)
                 : "Info Unavailable"}
@@ -205,7 +205,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Clients:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.clients
                 ? capitalizeFirstCharacter(agent.clients)
                 : "Info Unavailable"}
@@ -213,7 +213,7 @@ const AgentProfile = () => {
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Sales:</label>
-            <p className="text-base leading-relaxed text-gray-800">
+            <p className="text-base leading-relaxed text-accent/78">
               {agent.sales
                 ? capitalizeFirstCharacter(agent.sales)
                 : "Info Unavailable"}
