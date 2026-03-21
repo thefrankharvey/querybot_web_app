@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Check, Sparkles } from "lucide-react";
@@ -15,32 +14,32 @@ const smartMatchBullets = [
   "Export a query spreadsheet pre-filled with your matches",
 ] as const;
 
-const screenshotCallouts = [
-  // {
-  //   label: "Match scores",
-  //   description: "Ranked fit indicators at a glance",
-  //   className: "left-[25%] top-[8%] sm:left-[8%] sm:top-[10%]",
-  //   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-10 -translate-y-1/2 bg-accent/30 sm:block",
-  // },
-  // {
-  //   label: "Open to submissions",
-  //   description: "Live-ready status tags",
-  //   className: "right-[6%] top-[18%] text-right sm:right-[8%] sm:top-[20%]",
-  //   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-12 -translate-y-1/2 bg-accent/30 sm:block",
-  // },
-  // {
-  //   label: "Matching genres + themes",
-  //   description: "Proof of why each agent fits",
-  //   className: "left-[4%] bottom-[12%] sm:left-[7%] sm:bottom-[14%]",
-  //   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-16 -translate-y-1/2 bg-accent/30 sm:block",
-  // },
-  // {
-  //   label: "Country + status filters",
-  //   description: "Refine results in seconds",
-  //   className: "right-[3%] bottom-[8%] text-right sm:right-[7%] sm:bottom-[10%]",
-  //   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-14 -translate-y-1/2 bg-accent/30 sm:block",
-  // },
-] as const;
+// const screenshotCallouts = [
+// {
+//   label: "Match scores",
+//   description: "Ranked fit indicators at a glance",
+//   className: "left-[25%] top-[8%] sm:left-[8%] sm:top-[10%]",
+//   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-10 -translate-y-1/2 bg-accent/30 sm:block",
+// },
+// {
+//   label: "Open to submissions",
+//   description: "Live-ready status tags",
+//   className: "right-[6%] top-[18%] text-right sm:right-[8%] sm:top-[20%]",
+//   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-12 -translate-y-1/2 bg-accent/30 sm:block",
+// },
+// {
+//   label: "Matching genres + themes",
+//   description: "Proof of why each agent fits",
+//   className: "left-[4%] bottom-[12%] sm:left-[7%] sm:bottom-[14%]",
+//   lineClassName: "left-[calc(100%+0.5rem)] top-1/2 hidden h-px w-16 -translate-y-1/2 bg-accent/30 sm:block",
+// },
+// {
+//   label: "Country + status filters",
+//   description: "Refine results in seconds",
+//   className: "right-[3%] bottom-[8%] text-right sm:right-[7%] sm:bottom-[10%]",
+//   lineClassName: "right-[calc(100%+0.5rem)] top-1/2 hidden h-px w-14 -translate-y-1/2 bg-accent/30 sm:block",
+// },
+// ] as const;
 
 const SmartMatchSection = () => {
   return (
