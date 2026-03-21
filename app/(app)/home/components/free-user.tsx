@@ -34,9 +34,6 @@ export default function FreeUser() {
                 Keep your setup simple.
               </h3>
             </div>
-            <span className="rounded-full border border-white/80 bg-white/70 px-4 py-2 text-sm font-semibold text-accent/72">
-              Included
-            </span>
           </div>
           <div className="mt-6 flex flex-col gap-3">
             {freeTierFeatures.map((feature) => (
