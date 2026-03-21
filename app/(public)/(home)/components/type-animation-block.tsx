@@ -2,6 +2,7 @@
 
 import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
+import { Sparkles } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
@@ -61,6 +62,12 @@ const TypeAnimationBlock = () => {
         <Link href="/sign-up" className="w-full sm:w-auto">
           <Button className="cursor-pointer w-full sm:w-auto text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl">
             Get started <span className="font-normal text-sm">&mdash; it&apos;s free</span>
+          </Button>
+        </Link>
+        <Link href="/subscribe-public" className="w-full sm:w-auto">
+          <Button variant="outline" className="cursor-pointer w-full sm:w-auto text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl">
+            Subscribe
+            <Sparkles className="w-4 h-4" />
           </Button>
         </Link>
       </motion.div>

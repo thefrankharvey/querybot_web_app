@@ -4,6 +4,7 @@ import { Button } from "@/app/ui-primitives/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import HomeContentShell from "./home-content-shell";
+import { Sparkles } from "lucide-react";
 
 const FinalCtaSection = () => {
   return (
@@ -27,11 +28,19 @@ const FinalCtaSection = () => {
             </p>
           </div>
 
-          <Link href="/sign-up" className="mt-10">
-            <Button className="rounded-full px-8 py-6 text-base font-semibold shadow-[0_20px_44px_rgba(56,88,116,0.22)]">
-              Start free
-            </Button>
-          </Link>
+          <div className="flex gap-4 mt-10">
+            <Link href="/sign-up">
+              <Button className="rounded-full px-8 py-6 text-base font-semibold shadow-[0_20px_44px_rgba(56,88,116,0.22)]">
+                Start free
+              </Button>
+            </Link>
+            <Link href="/subscribe-public" className="w-full sm:w-auto">
+              <Button variant="outline" className="cursor-pointer w-full sm:w-auto text-lg px-8 py-6 font-semibold shadow-lg hover:shadow-xl">
+                Subscribe
+                <Sparkles className="w-4 h-4" />
+              </Button>
+            </Link>
+          </div>
         </motion.div>
       </HomeContentShell>
     </section>

@@ -8,7 +8,25 @@ const SIGN_UP_PROOF_ITEMS = [
   "Track multiple projects",
 ];
 
-export default function Page() {
+type SignUpPageProps = {
+  searchParams?: Promise<{
+    redirect_url?: string | string[];
+  }>;
+};
+
+export default async function Page({ searchParams }: SignUpPageProps) {
+  const params = searchParams ? await searchParams : undefined;
+  const redirectParam = params?.redirect_url;
+  const redirectUrl = Array.isArray(redirectParam)
+    ? redirectParam[0]
+    : redirectParam;
+  const safeRedirectUrl =
+    redirectUrl &&
+      redirectUrl.startsWith("/") &&
+      !redirectUrl.startsWith("//")
+      ? redirectUrl
+      : null;
+
   return (
     <AuthPageShell
       title="Start querying smarter."
@@ -19,7 +37,7 @@ export default function Page() {
       authLinkLabel="Sign in"
     >
       <SignUp
-        forceRedirectUrl="/home"
+        forceRedirectUrl={safeRedirectUrl ?? "/home"}
         fallbackRedirectUrl="/home"
         appearance={{
           elements: {
