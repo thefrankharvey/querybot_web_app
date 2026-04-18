@@ -127,7 +127,7 @@ export default function InfiniteMultiSelect({
           <ChevronDownIcon className="size-4 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className={`w-[280px] md:w-[555px] p-0`}>
+      <PopoverContent className={`w-[280px] md:w-[555px] p-0 !bg-white !backdrop-blur-none`}>
         <div className="flex flex-col">
           {/* Search Input */}
           <div className="p-2 border-b">

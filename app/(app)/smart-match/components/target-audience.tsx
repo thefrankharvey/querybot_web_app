@@ -31,7 +31,7 @@ const TargetAudience = ({
         <SelectTrigger className="w-full">
           <SelectValue placeholder="Please Select" />
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent className="!bg-white !backdrop-blur-none">
           {targetAudienceOptions.map((option) => (
             <SelectItem key={option.value} value={option.value}>
               {option.label}
