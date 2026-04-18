@@ -47,6 +47,7 @@ export const AgentMatchesFull = () => {
     sheetStatus,
     startSpreadsheetPolling,
     saveSpreadsheetUrl,
+    saveTotalAgents,
   } = useAgentMatches();
 
   const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
@@ -87,6 +88,14 @@ export const AgentMatchesFull = () => {
     },
 
     onSuccess: (data) => {
+      const nextTotal =
+        typeof data.total_agents === "number"
+          ? data.total_agents
+          : typeof data.total_available === "number"
+            ? data.total_available
+            : null;
+      saveTotalAgents(nextTotal);
+
       if (data.matches.length > 0) {
         saveMatches(data.matches);
         if (data.next_cursor !== null) {
