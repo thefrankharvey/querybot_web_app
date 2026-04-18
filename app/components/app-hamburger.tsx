@@ -29,14 +29,14 @@ export const AppHamburger = () => {
         onClick={() => setOpen((o) => !o)}
         aria-label="Toggle menu"
         aria-expanded={open}
-        className="glass-panel flex size-11 flex-col items-center justify-center rounded-full p-0 md:hidden bg-transparent border-none"
+        className="flex size-11 flex-col items-center justify-center rounded-full p-0 md:hidden"
       >
         <span
           className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
             }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current my-2 transition-opacity duration-200 ${open ? "opacity-0" : "opacity-100"
+          className={`block w-10 h-0.5 bg-current my-2 transition-all duration-200 ${open ? "opacity-0 scale-x-0" : "opacity-100 scale-x-100"
             }`}
         />
         <span

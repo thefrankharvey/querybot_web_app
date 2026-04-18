@@ -41,6 +41,7 @@ export const AgentMatchesPaywall = () => {
     sheetTaskId,
     spreadsheetUrl,
     sheetStatus,
+    saveTotalAgents,
   } = useAgentMatches();
   const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
@@ -77,6 +78,14 @@ export const AgentMatchesPaywall = () => {
       return res.json();
     },
     onSuccess: (data) => {
+      const nextTotal =
+        typeof data.total_agents === "number"
+          ? data.total_agents
+          : typeof data.total_available === "number"
+            ? data.total_available
+            : null;
+      saveTotalAgents(nextTotal);
+
       if (Array.isArray(data.matches)) {
         saveMatches(data.matches);
       }
