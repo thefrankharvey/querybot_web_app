@@ -26,6 +26,11 @@
       "sourceType": "github",
       "computedHash": "6a13eea450dda0b57edc358970f53c55ad7a2eb237d31decbc38e312555ddac5"
     },
+    "next-best-practices": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "computedHash": "db85045827ebeb83ac8dbc992b69188755eeb74dcf01cbf5e694d58aa494a106"
+    },
     "shadcn": {
       "source": "shadcn/ui",
       "sourceType": "github",
@@ -35,6 +40,11 @@
       "source": "stripe/ai",
       "sourceType": "github",
       "computedHash": "5d312c507b83e4df496cd763d9297a49662bdd235fc6b99ec8c7dc586f8235b4"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "ca7b0c0c6e5f2750043f7f0cd72d16ac4e2abc48f9b5500d047a4b77a2506212"
     }
   }
 }

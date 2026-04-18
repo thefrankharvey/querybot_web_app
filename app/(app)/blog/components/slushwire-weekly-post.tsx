@@ -4,9 +4,7 @@ import {
 } from "@/app/utils";
 import { WpPost } from "@/lib/wp";
 import Image from "next/image";
-import Script from "next/script";
 import React from "react";
-import { BlogPostingJsonLd } from "@/app/types";
 
 const StyledAlerts = ({
   alertsData,
@@ -42,11 +40,9 @@ const StyledAlerts = ({
 
 const SlushwireWeeklyPost = ({
   post,
-  jsonLd,
   contentHtml,
 }: {
   post: WpPost;
-  jsonLd: BlogPostingJsonLd;
   contentHtml: string;
 }) => {
   // Determine which processing function to use based on post date
@@ -65,11 +61,6 @@ const SlushwireWeeklyPost = ({
       <h1 className="mt-4 mb-10 break-words text-center font-serif text-xl font-semibold leading-tight text-accent md:text-2xl">
         {post.title}
       </h1>
-      <Script
-        id="post-jsonld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <figure className="not-prose my-6 w-full">
         <Image
           src={"/slushwire-weekly.png"}

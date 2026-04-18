@@ -1,8 +1,83 @@
+import type { Metadata } from "next";
 import React from "react";
+
+import {
+  DEFAULT_OG_IMAGE,
+  DEFAULT_OG_IMAGE_ALT,
+  DEFAULT_OG_IMAGE_HEIGHT,
+  DEFAULT_OG_IMAGE_TYPE,
+  DEFAULT_OG_IMAGE_WIDTH,
+  JsonLdScript,
+  SITE_NAME,
+  SITE_URL,
+  absoluteUrl,
+  buildBreadcrumbJsonLd,
+  buildOrganizationJsonLd,
+  buildSpeakableJsonLd,
+  buildWebPageJsonLd,
+} from "@/lib/seo";
+
+const PAGE_PATH = "/legal/privacy-policy";
+const PAGE_URL = absoluteUrl(PAGE_PATH);
+const PAGE_TITLE = "Privacy Policy";
+const PAGE_DESCRIPTION =
+  "How Write Query Hook collects, uses, and protects your personal data. Our GDPR-aligned privacy policy for writers and query tracker users.";
+
+export const metadata: Metadata = {
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  alternates: { canonical: PAGE_PATH },
+  openGraph: {
+    type: "website",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: PAGE_URL,
+    siteName: SITE_NAME,
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: DEFAULT_OG_IMAGE_WIDTH,
+        height: DEFAULT_OG_IMAGE_HEIGHT,
+        alt: DEFAULT_OG_IMAGE_ALT,
+        type: DEFAULT_OG_IMAGE_TYPE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+};
 
 const PrivacyPolicy = () => {
   return (
     <div className="ambient-page w-full">
+      <JsonLdScript
+        id="jsonld-webpage"
+        data={buildWebPageJsonLd({
+          title: PAGE_TITLE,
+          description: PAGE_DESCRIPTION,
+          url: PAGE_URL,
+        })}
+      />
+      <JsonLdScript
+        id="jsonld-organization"
+        data={buildOrganizationJsonLd()}
+      />
+      <JsonLdScript
+        id="jsonld-breadcrumb"
+        data={buildBreadcrumbJsonLd([
+          { name: "Home", url: SITE_URL },
+          { name: "Legal", url: absoluteUrl("/legal") },
+          { name: PAGE_TITLE, url: PAGE_URL },
+        ])}
+      />
+      <JsonLdScript
+        id="jsonld-speakable"
+        data={buildSpeakableJsonLd(PAGE_URL)}
+      />
       <div className="ambient-orb-top" />
       <div className="ambient-orb-bottom" />
       <div className="ambient-page-shell-narrow pb-10 pt-12 md:pb-20 md:pt-20">
