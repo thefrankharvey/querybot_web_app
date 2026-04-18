@@ -1,11 +1,25 @@
+import { auth } from "@clerk/nextjs/server";
 import Hamburger from "../components/hamburger";
 import { SideBarNav } from "../components/side-bar-nav";
 import { ProfileProvider } from "./context/profile-context";
 import Footer from "../components/footer";
 import { AgentMatchesProvider } from "./context/agent-matches-context";
 import { BrandLockup } from "../components/brand-lockup";
+import ClientNav from "../components/client-nav";
 
-export default function AppLayout({ children }: { children: React.ReactNode }) {
+export default async function AppLayout({ children }: { children: React.ReactNode }) {
+  const { userId } = await auth();
+
+  if (!userId) {
+    return (
+      <div className="flex min-h-screen w-full flex-col">
+        <ClientNav />
+        <div className="min-h-screen w-full">{children}</div>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
     <ProfileProvider>
       <AgentMatchesProvider>

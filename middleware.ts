@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 const protectedRoutePrefixes = [
   "/account",
   "/agent-matches",
-  "/blog",
   "/dispatch",
   "/home",
   "/query-dashboard",
@@ -75,10 +74,12 @@ export default clerkMiddleware(async (auth, req) => {
     if (userId) {
       // User is signed in, redirect to blog version
       return NextResponse.redirect(new URL(blogPath, req.url));
-    } else {
-      // User is not signed in, redirect to sign-in page with intended destination
-      return buildSignInRedirect(req, blogPath);
     }
+    // Anonymous users and crawlers: serve the blog content at the legacy
+    // slug so search engines can index it without a sign-in wall.
+    const rewriteUrl = new URL(blogPath, req.url);
+    rewriteUrl.search = req.nextUrl.search;
+    return NextResponse.rewrite(rewriteUrl);
   }
 
   return NextResponse.next();

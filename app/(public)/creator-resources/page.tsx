@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import React from "react";
 import InstagramIcon from "@/app/components/custom-icons/instagram-icon";
 import TiktokIcon from "@/app/components/custom-icons/tiktok-icon";
@@ -5,10 +6,82 @@ import XIcon from "@/app/components/custom-icons/x-icon";
 import BlueskyIcon from "@/app/components/custom-icons/bluesky-icon";
 import ThreadsIcon from "@/app/components/custom-icons/threads-icon";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
+import {
+  DEFAULT_OG_IMAGE,
+  DEFAULT_OG_IMAGE_ALT,
+  DEFAULT_OG_IMAGE_HEIGHT,
+  DEFAULT_OG_IMAGE_TYPE,
+  DEFAULT_OG_IMAGE_WIDTH,
+  JsonLdScript,
+  SITE_NAME,
+  SITE_URL,
+  absoluteUrl,
+  buildBreadcrumbJsonLd,
+  buildOrganizationJsonLd,
+  buildSpeakableJsonLd,
+  buildWebPageJsonLd,
+} from "@/lib/seo";
+
+const PAGE_PATH = "/creator-resources";
+const PAGE_URL = absoluteUrl(PAGE_PATH);
+const PAGE_TITLE = "Creator Resources for Querying Writers";
+const PAGE_DESCRIPTION =
+  "Affiliate copy, promo codes, social links, and brand assets for creators covering Write Query Hook — the modern platform for writers querying literary agents.";
+
+export const metadata: Metadata = {
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  alternates: { canonical: PAGE_PATH },
+  openGraph: {
+    type: "website",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: PAGE_URL,
+    siteName: SITE_NAME,
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: DEFAULT_OG_IMAGE_WIDTH,
+        height: DEFAULT_OG_IMAGE_HEIGHT,
+        alt: DEFAULT_OG_IMAGE_ALT,
+        type: DEFAULT_OG_IMAGE_TYPE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+};
 
 const CreatorResources = () => {
   return (
     <div className="ambient-page w-full pb-10 pt-12 md:pb-20">
+      <JsonLdScript
+        id="jsonld-webpage"
+        data={buildWebPageJsonLd({
+          title: PAGE_TITLE,
+          description: PAGE_DESCRIPTION,
+          url: PAGE_URL,
+        })}
+      />
+      <JsonLdScript
+        id="jsonld-organization"
+        data={buildOrganizationJsonLd()}
+      />
+      <JsonLdScript
+        id="jsonld-breadcrumb"
+        data={buildBreadcrumbJsonLd([
+          { name: "Home", url: SITE_URL },
+          { name: "Creator Resources", url: PAGE_URL },
+        ])}
+      />
+      <JsonLdScript
+        id="jsonld-speakable"
+        data={buildSpeakableJsonLd(PAGE_URL)}
+      />
       <div className="ambient-page-shell-narrow mx-auto max-w-4xl">
         <h1 className="page-title mb-4 text-left text-[32px]">
           Creator Resources

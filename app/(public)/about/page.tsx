@@ -1,9 +1,59 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 import HomeContentShell from "@/app/(public)/(home)/components/home-content-shell";
 import { Button } from "@/app/ui-primitives/button";
 import { cn } from "@/app/utils";
+import {
+  DEFAULT_OG_IMAGE,
+  DEFAULT_OG_IMAGE_ALT,
+  DEFAULT_OG_IMAGE_HEIGHT,
+  DEFAULT_OG_IMAGE_TYPE,
+  DEFAULT_OG_IMAGE_WIDTH,
+  JsonLdScript,
+  SITE_NAME,
+  SITE_URL,
+  absoluteUrl,
+  buildBreadcrumbJsonLd,
+  buildOrganizationJsonLd,
+  buildSpeakableJsonLd,
+  buildWebPageJsonLd,
+} from "@/lib/seo";
+
+const PAGE_PATH = "/about";
+const PAGE_URL = absoluteUrl(PAGE_PATH);
+const PAGE_TITLE = "About Write Query Hook";
+const PAGE_DESCRIPTION =
+  "Meet the team behind Write Query Hook. Built by queried writers for queried writers — one platform to match agents, track submissions, and follow the industry.";
+
+export const metadata: Metadata = {
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  alternates: { canonical: PAGE_PATH },
+  openGraph: {
+    type: "website",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: PAGE_URL,
+    siteName: SITE_NAME,
+    images: [
+      {
+        url: DEFAULT_OG_IMAGE,
+        width: DEFAULT_OG_IMAGE_WIDTH,
+        height: DEFAULT_OG_IMAGE_HEIGHT,
+        alt: DEFAULT_OG_IMAGE_ALT,
+        type: DEFAULT_OG_IMAGE_TYPE,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+};
 
 const features = [
   {
@@ -41,6 +91,29 @@ const features = [
 export default function About() {
   return (
     <div className="relative w-full overflow-hidden">
+      <JsonLdScript
+        id="jsonld-webpage"
+        data={buildWebPageJsonLd({
+          title: PAGE_TITLE,
+          description: PAGE_DESCRIPTION,
+          url: PAGE_URL,
+        })}
+      />
+      <JsonLdScript
+        id="jsonld-organization"
+        data={buildOrganizationJsonLd()}
+      />
+      <JsonLdScript
+        id="jsonld-breadcrumb"
+        data={buildBreadcrumbJsonLd([
+          { name: "Home", url: SITE_URL },
+          { name: "About", url: PAGE_URL },
+        ])}
+      />
+      <JsonLdScript
+        id="jsonld-speakable"
+        data={buildSpeakableJsonLd(PAGE_URL)}
+      />
       <HomeContentShell className="max-w-3xl">
         <div className="space-y-6 pb-70 pt-12 text-base leading-8 text-accent/90 md:pt-16">
           {/* Avatars */}

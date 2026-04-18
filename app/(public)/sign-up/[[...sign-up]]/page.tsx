@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import { SignUp } from "@clerk/nextjs";
 
 import { AuthPageShell } from "../../components/auth-page-shell";
+
+export const metadata: Metadata = {
+  title: "Create Account",
+  description:
+    "Create your Write Query Hook account to match agents, track queries, and stay current on MSWLs and agent openings.",
+  robots: { index: false, follow: false },
+  alternates: { canonical: "/sign-up" },
+};
 
 const SIGN_UP_PROOF_ITEMS = [
   "3,300+ agents",

@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import { SignIn } from "@clerk/nextjs";
 
 import { AuthPageShell } from "../../components/auth-page-shell";
+
+export const metadata: Metadata = {
+  title: "Sign In",
+  description: "Sign in to Write Query Hook to continue your query workflow.",
+  robots: { index: false, follow: false },
+  alternates: { canonical: "/sign-in" },
+};
 
 type SignInPageProps = {
   searchParams?: Promise<{
