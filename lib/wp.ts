@@ -78,8 +78,12 @@ async function graphqlFetch<T>(args: {
   // Only attach Next.js ISR options when the caller hasn't explicitly
   // opted out via `cache: "no-store"` (the two options conflict).
   if (!hasExplicitCache) {
-    (baseInit as RequestInit & { next?: { revalidate?: number; tags?: string[] } }).next = {
-      revalidate: revalidate ?? 21600,
+    (
+      baseInit as RequestInit & {
+        next?: { revalidate?: number; tags?: string[] };
+      }
+    ).next = {
+      revalidate: revalidate ?? 500,
       tags,
     };
   } else if (tags && tags.length > 0) {
@@ -224,7 +228,7 @@ export async function getRecentPosts(limit = 20): Promise<WpPost[]> {
     `,
     variables: { first: limit },
     tags: ["posts"],
-    revalidate: 300,
+    revalidate: 0,
   });
   return data.posts.nodes;
 }
@@ -241,9 +245,16 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
       "figure",
       "figcaption",
       "iframe",
+      // SVG icons injected by the blog regex transforms in app/utils.ts.
+      "svg",
+      "path",
+      "circle",
     ]),
     allowedAttributes: {
       ...sanitizeHtml.defaults.allowedAttributes,
+      // Preserve Tailwind `class` everywhere plus common inline hooks so the
+      // regex-based styling in app/utils.ts survives a second sanitize pass.
+      "*": ["class", "id", "style"],
       img: [
         "src",
         "srcset",
@@ -254,8 +265,9 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
         "height",
         "loading",
         "decoding",
+        "class",
       ],
-      a: ["href", "name", "target", "rel"],
+      a: ["href", "name", "target", "rel", "class"],
       iframe: [
         "src",
         "width",
@@ -264,7 +276,22 @@ export function sanitizeWordPressHtml(html: string | null | undefined): string {
         "allow",
         "allowfullscreen",
         "frameborder",
+        "class",
       ],
+      svg: [
+        "xmlns",
+        "width",
+        "height",
+        "viewBox",
+        "fill",
+        "stroke",
+        "stroke-width",
+        "stroke-linecap",
+        "stroke-linejoin",
+        "class",
+      ],
+      path: ["d", "fill", "stroke", "class"],
+      circle: ["cx", "cy", "r", "fill", "stroke", "class"],
     },
     transformTags: {
       // Enforce rel attributes for external links
