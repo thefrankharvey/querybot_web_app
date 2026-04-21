@@ -1,12 +1,19 @@
 import Link from "next/link";
-import { getRecentPosts } from "@/lib/wp";
+import { getRecentPosts, type WpPost } from "@/lib/wp";
 import SlushwireWeeklyThumbnail from "./components/slushwire-weekly-thumbnail";
 import { NotebookPen } from "lucide-react";
 
 export const revalidate = 1800; // 30 min for the index
 
 export default async function BlogIndexPage() {
-  const posts = await getRecentPosts(20);
+  let posts: WpPost[] = [];
+  try {
+    posts = await getRecentPosts(20);
+  } catch (err) {
+    console.error("[blog/page] getRecentPosts failed", {
+      message: err instanceof Error ? err.message : String(err),
+    });
+  }
 
   return (
     <main className="ambient-page px-4 pb-12 pt-8 md:px-6 md:pt-6">
@@ -17,6 +24,11 @@ export default async function BlogIndexPage() {
           <NotebookPen className="w-10 h-10" />
           Blog
         </h1>
+        {posts.length === 0 ? (
+          <p className="text-accent/70">
+            Posts are temporarily unavailable. Please check back soon.
+          </p>
+        ) : null}
         <ul className="flex flex-col gap-8">
           {posts.map((post, index) => {
             return post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||

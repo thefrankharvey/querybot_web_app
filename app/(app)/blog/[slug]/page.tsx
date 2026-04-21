@@ -31,7 +31,12 @@ type Params = { slug: string };
 export const dynamicParams = true;
 
 export async function generateStaticParams(): Promise<Params[]> {
-  const slugs = await getAllPostSlugs(100);
+  const slugs = await getAllPostSlugs(100).catch((err: unknown) => {
+    console.error("[blog/[slug]] getAllPostSlugs failed", {
+      message: err instanceof Error ? err.message : String(err),
+    });
+    return [] as string[];
+  });
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -104,7 +109,13 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const post = await getPostBySlug(slug).catch((err: unknown) => {
+    console.error("[blog/[slug]] getPostBySlug failed", {
+      slug,
+      message: err instanceof Error ? err.message : String(err),
+    });
+    return null;
+  });
   if (!post) return notFound();
 
   const contentHtml = sanitizeWordPressHtml(

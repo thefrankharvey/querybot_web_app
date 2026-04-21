@@ -27,12 +27,21 @@ export type WpPost = {
 
 const WPGRAPHQL_ENDPOINT = process.env.WPGRAPHQL_ENDPOINT as string | undefined;
 
-// Soft warn at runtime; avoid lint warning about no-console by guarding in dev only
-if (!WPGRAPHQL_ENDPOINT && process.env.NODE_ENV !== "production") {
-  // noop dev hint; removed console to avoid lint warning
+type GraphQLResponse<T> = { data?: T; errors?: { message: string }[] };
+
+function getOperationName(query: string): string {
+  const match = query.match(/\b(query|mutation)\s+(\w+)/);
+  return match?.[2] ?? "anonymous";
 }
 
-type GraphQLResponse<T> = { data?: T; errors?: { message: string }[] };
+function getEndpointHost(endpoint: string | undefined): string {
+  if (!endpoint) return "<unset>";
+  try {
+    return new URL(endpoint).host;
+  } catch {
+    return "<invalid>";
+  }
+}
 
 async function graphqlFetch<T>(args: {
   query: string;
@@ -44,22 +53,101 @@ async function graphqlFetch<T>(args: {
   nextFetchOptions?: RequestInit;
 }): Promise<T> {
   const { query, variables, tags, revalidate, nextFetchOptions } = args;
+  const operationName = getOperationName(query);
+  const endpointHost = getEndpointHost(WPGRAPHQL_ENDPOINT);
+  const variableKeys = variables ? Object.keys(variables) : [];
+
   if (!WPGRAPHQL_ENDPOINT) {
+    console.error("[wp.graphqlFetch] Missing WPGRAPHQL_ENDPOINT env var", {
+      operationName,
+      variableKeys,
+    });
     throw new Error("Missing WPGRAPHQL_ENDPOINT env var");
   }
-  const response = await fetch(WPGRAPHQL_ENDPOINT, {
+
+  const hasExplicitCache =
+    !!nextFetchOptions && "cache" in (nextFetchOptions as RequestInit);
+
+  const baseInit: RequestInit = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ query, variables }),
-    // Use Next.js fetch cache with ISR and tags
-    next: { revalidate: revalidate ?? 21600, tags },
     ...nextFetchOptions,
-  });
-  const json = (await response.json()) as GraphQLResponse<T>;
+  };
+
+  // Only attach Next.js ISR options when the caller hasn't explicitly
+  // opted out via `cache: "no-store"` (the two options conflict).
+  if (!hasExplicitCache) {
+    (baseInit as RequestInit & { next?: { revalidate?: number; tags?: string[] } }).next = {
+      revalidate: revalidate ?? 21600,
+      tags,
+    };
+  } else if (tags && tags.length > 0) {
+    // Preserve tag-based revalidation even when bypassing the data cache
+    (baseInit as RequestInit & { next?: { tags?: string[] } }).next = { tags };
+  }
+
+  let response: Response;
+  try {
+    response = await fetch(WPGRAPHQL_ENDPOINT, baseInit);
+  } catch (err) {
+    console.error("[wp.graphqlFetch] Network/fetch failed", {
+      operationName,
+      endpointHost,
+      variableKeys,
+      message: err instanceof Error ? err.message : String(err),
+    });
+    throw err;
+  }
+
+  const contentType = response.headers.get("content-type") || "";
+  if (!contentType.includes("application/json")) {
+    const bodyPreview = await response
+      .text()
+      .then((t) => t.slice(0, 300))
+      .catch(() => "<unreadable>");
+    console.error("[wp.graphqlFetch] Non-JSON response from WPGraphQL", {
+      operationName,
+      endpointHost,
+      status: response.status,
+      contentType,
+      bodyPreview,
+    });
+    throw new Error(
+      `WPGraphQL returned non-JSON response (status ${response.status}, content-type ${contentType})`,
+    );
+  }
+
+  let json: GraphQLResponse<T>;
+  try {
+    json = (await response.json()) as GraphQLResponse<T>;
+  } catch (err) {
+    console.error("[wp.graphqlFetch] Failed to parse JSON response", {
+      operationName,
+      endpointHost,
+      status: response.status,
+      message: err instanceof Error ? err.message : String(err),
+    });
+    throw err;
+  }
+
   if (json.errors && json.errors.length > 0) {
+    console.error("[wp.graphqlFetch] GraphQL errors returned", {
+      operationName,
+      endpointHost,
+      status: response.status,
+      errors: json.errors.map((e) => e.message),
+      variableKeys,
+    });
     throw new Error(json.errors.map((e) => e.message).join("\n"));
   }
   if (!json.data) {
+    console.error("[wp.graphqlFetch] No data returned from WPGraphQL", {
+      operationName,
+      endpointHost,
+      status: response.status,
+      variableKeys,
+    });
     throw new Error("No data returned from WPGraphQL");
   }
   return json.data;
@@ -86,6 +174,9 @@ export async function getAllPostSlugs(limit = 100): Promise<string[]> {
 
 export async function getPostBySlug(slug: string): Promise<WpPost | null> {
   type Data = { postBy: WpPost | null };
+  // Use cache: "no-store" to bypass Next's fetch data cache (2 MB limit per entry),
+  // since post content can exceed that threshold. Route-level `revalidate` in the
+  // /blog/[slug] segment still provides ISR at the page level.
   const data = await graphqlFetch<Data>({
     query: `
       query PostBySlug($slug: String!) {
@@ -106,7 +197,7 @@ export async function getPostBySlug(slug: string): Promise<WpPost | null> {
     `,
     variables: { slug },
     tags: [postTag(slug)],
-    revalidate: 21600,
+    nextFetchOptions: { cache: "no-store" },
   });
   return data.postBy;
 }
