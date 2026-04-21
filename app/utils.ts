@@ -984,11 +984,6 @@ export function processSlushwireContent(
   // Format Reddit content
   processedContent = formatSlushWeeklyContent(processedContent);
 
-  // Re-sanitize after all regex transforms to guarantee balanced HTML.
-  // Unbalanced markup here was the source of the React #418 hydration error
-  // on /blog/[slug] in production.
-  processedContent = sanitizeWordPressHtml(processedContent);
-
   return { processedContent, alertsData };
 }
 
@@ -1016,11 +1011,6 @@ export function processSlushwireContentAlt(
 
   // Format Reddit content with NEW formatter
   processedContent = formatSlushWeeklyContentAlt(processedContent);
-
-  // Re-sanitize after all regex transforms to guarantee balanced HTML.
-  // Unbalanced markup here was the source of the React #418 hydration error
-  // on /blog/[slug] in production.
-  processedContent = sanitizeWordPressHtml(processedContent);
 
   return { processedContent, alertsData };
 }
@@ -1099,7 +1089,5 @@ export function processBlogContent(contentHtml: string): string {
     '<ol class="list-decimal pl-6 mb-4 break-words"$1>'
   );
 
-  // Re-sanitize after all regex transforms to guarantee balanced HTML and
-  // avoid React hydration mismatches on blog detail pages.
-  return sanitizeWordPressHtml(processedContent);
+  return processedContent;
 }

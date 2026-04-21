@@ -157,7 +157,7 @@ export default async function BlogPostPage({
   const speakableJsonLd = buildSpeakableJsonLd(canonical);
 
   return (
-    <div className="ambient-page px-4 py-10 pt-8 md:px-6">
+    <main className="ambient-page px-4 py-10 pt-8 md:px-6">
       <JsonLdScript id="jsonld-blogposting" data={blogPostingJsonLd} />
       <JsonLdScript id="jsonld-organization" data={organizationJsonLd} />
       <JsonLdScript id="jsonld-breadcrumb" data={breadcrumbJsonLd} />
@@ -179,7 +179,7 @@ export default async function BlogPostPage({
           ) : null}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

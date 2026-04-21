@@ -16,7 +16,7 @@ export default async function BlogIndexPage() {
   }
 
   return (
-    <div className="ambient-page px-4 pb-12 pt-8 md:px-6 md:pt-6">
+    <main className="ambient-page px-4 pb-12 pt-8 md:px-6 md:pt-6">
       <div className="ambient-orb-top" />
       <div className="ambient-orb-bottom" />
       <div className="mx-auto max-w-4xl">
@@ -44,7 +44,7 @@ export default async function BlogIndexPage() {
           })}
         </ul>
       </div>
-    </div>
+    </main>
   );
 }
 
