@@ -7,7 +7,7 @@ import { KanbanBoard } from "./components/kanban-board";
 import { KanbanMobile } from "./components/kanban-mobile";
 import { QueryDashProvider, useQueryDashContext } from "./context/query-dash-context";
 import { cn } from "@/app/utils";
-import TypeForm from "@/app/components/type-form";
+// import TypeForm from "@/app/components/type-form";
 
 const CONFETTI_DURATION_MS = 10000;
 
@@ -92,7 +92,7 @@ export default function QueryDashboardPage() {
   return (
     <QueryDashProvider>
       <QueryDashboardContent />
-      <TypeForm id="xZn6IEXK" />
+      {/* <TypeForm id="xZn6IEXK" /> */}
     </QueryDashProvider>
   );
 }

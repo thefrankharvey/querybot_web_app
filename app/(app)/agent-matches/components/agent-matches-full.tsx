@@ -12,7 +12,7 @@ import {
 } from "@/app/ui-primitives/pagination";
 import { startSheetPolling } from "../../workers/sheet-worker-manager";
 import AgentMatchesInner from "./agent-matches-inner";
-import TypeForm from "@/app/components/type-form";
+// import TypeForm from "@/app/components/type-form";
 import { useProfileContext } from "../../context/profile-context";
 import { SaveAgentPayload } from "@/app/types";
 
@@ -234,7 +234,7 @@ export const AgentMatchesFull = () => {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-      <TypeForm id="BgfNaWmd" />
+      {/* <TypeForm id="BgfNaWmd" /> */}
     </>
   );
 };
