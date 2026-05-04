@@ -42,6 +42,8 @@ Add the following to `.env.local` to enable the WordPress-driven blog:
 ```
 # WordPress
 WPGRAPHQL_ENDPOINT=https://your-wp-site.com/graphql
+# Optional: max time (ms) to wait for each WPGraphQL request (default 10000, min 1000, max 60000)
+# WPGRAPHQL_FETCH_TIMEOUT_MS=15000
 WP_SITE_URL=https://your-wp-site.com
 # Optional: if your WordPress media is served from a specific host
 # WP_MEDIA_HOST=your-wp-site.com

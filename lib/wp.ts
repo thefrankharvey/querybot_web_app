@@ -27,7 +27,27 @@ export type WpPost = {
 
 const WPGRAPHQL_ENDPOINT = process.env.WPGRAPHQL_ENDPOINT as string | undefined;
 
+const DEFAULT_WPGRAPHQL_FETCH_TIMEOUT_MS = 10_000;
+
 type GraphQLResponse<T> = { data?: T; errors?: { message: string }[] };
+
+function getWpGraphqlFetchTimeoutMs(): number {
+  const raw = process.env.WPGRAPHQL_FETCH_TIMEOUT_MS;
+  if (raw === undefined || raw === "") return DEFAULT_WPGRAPHQL_FETCH_TIMEOUT_MS;
+  const n = Number.parseInt(raw, 10);
+  if (!Number.isFinite(n) || n < 1_000) return DEFAULT_WPGRAPHQL_FETCH_TIMEOUT_MS;
+  return Math.min(n, 60_000);
+}
+
+function isAbortOrTimeoutError(err: unknown): boolean {
+  if (typeof DOMException !== "undefined" && err instanceof DOMException) {
+    return err.name === "AbortError" || err.name === "TimeoutError";
+  }
+  if (err instanceof Error) {
+    return err.name === "AbortError" || err.name === "TimeoutError";
+  }
+  return false;
+}
 
 function getOperationName(query: string): string {
   const match = query.match(/\b(query|mutation)\s+(\w+)/);
@@ -68,11 +88,20 @@ async function graphqlFetch<T>(args: {
   const hasExplicitCache =
     !!nextFetchOptions && "cache" in (nextFetchOptions as RequestInit);
 
+  const timeoutMs = getWpGraphqlFetchTimeoutMs();
+  const userSignal = nextFetchOptions?.signal;
+  const timeoutSignal = AbortSignal.timeout(timeoutMs);
+  const signal: AbortSignal =
+    userSignal && typeof AbortSignal.any === "function"
+      ? AbortSignal.any([timeoutSignal, userSignal])
+      : timeoutSignal;
+
   const baseInit: RequestInit = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ query, variables }),
     ...nextFetchOptions,
+    signal,
   };
 
   // Only attach Next.js ISR options when the caller hasn't explicitly
@@ -91,6 +120,17 @@ async function graphqlFetch<T>(args: {
   try {
     response = await fetch(WPGRAPHQL_ENDPOINT, baseInit);
   } catch (err) {
+    if (isAbortOrTimeoutError(err)) {
+      console.error("[wp.graphqlFetch] Request timed out", {
+        operationName,
+        endpointHost,
+        variableKeys,
+        timeoutMs,
+      });
+      throw new Error(
+        `WPGraphQL request timed out after ${timeoutMs}ms (${operationName})`,
+      );
+    }
     console.error("[wp.graphqlFetch] Network/fetch failed", {
       operationName,
       endpointHost,

@@ -5,15 +5,35 @@ import { NotebookPen } from "lucide-react";
 
 export const revalidate = 1800; // 30 min for the index
 
+function isSlushwireWeeklyPost(post: WpPost): boolean {
+  return (
+    post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
+    post.title.includes("SlushWire Weekly")
+  );
+}
+
 export default async function BlogIndexPage() {
   let posts: WpPost[] = [];
+  let recentPostsFailed = false;
   try {
     posts = await getRecentPosts(20);
   } catch (err) {
+    recentPostsFailed = true;
     console.error("[blog/page] getRecentPosts failed", {
       message: err instanceof Error ? err.message : String(err),
     });
   }
+
+  const weeklyPosts = posts.filter(isSlushwireWeeklyPost);
+
+  const emptyMessage = recentPostsFailed
+    ? "We couldn’t load the blog just now. This is usually brief—please try again in a moment."
+    : posts.length === 0
+      ? "Posts are temporarily unavailable. Please check back soon."
+      : "No weekly digests match this page yet. If titles changed in WordPress, update the filter or post naming.";
+
+  const showEmptyState =
+    recentPostsFailed || weeklyPosts.length === 0;
 
   return (
     <main className="ambient-page px-4 pb-12 pt-8 md:px-6 md:pt-6">
@@ -24,24 +44,19 @@ export default async function BlogIndexPage() {
           <NotebookPen className="w-10 h-10" />
           Blog
         </h1>
-        {posts.length === 0 ? (
-          <p className="text-accent/70">
-            Posts are temporarily unavailable. Please check back soon.
-          </p>
+        {showEmptyState ? (
+          <p className="text-accent/70">{emptyMessage}</p>
         ) : null}
         <ul className="flex flex-col gap-8">
-          {posts.map((post, index) => {
-            return post.title.toUpperCase().includes("SLUSHWIRE WEEK") ||
-              post.title.includes("SlushWire Weekly") ? (
-              <Link
-                key={index}
-                href={`/blog/${post.slug}`}
-                className="glass-panel flex w-full cursor-pointer flex-col gap-4 p-4 py-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_70px_rgba(24,44,69,0.14)] md:p-8"
-              >
-                <SlushwireWeeklyThumbnail post={post} />
-              </Link>
-            ) : null;
-          })}
+          {weeklyPosts.map((post, index) => (
+            <Link
+              key={post.id ?? post.slug ?? index}
+              href={`/blog/${post.slug}`}
+              className="glass-panel flex w-full cursor-pointer flex-col gap-4 p-4 py-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_70px_rgba(24,44,69,0.14)] md:p-8"
+            >
+              <SlushwireWeeklyThumbnail post={post} />
+            </Link>
+          ))}
         </ul>
       </div>
     </main>
