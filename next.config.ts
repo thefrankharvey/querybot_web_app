@@ -42,7 +42,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/slushwire",
-        destination: "/",
+        destination: "/blog",
         permanent: true,
       },
     ];
