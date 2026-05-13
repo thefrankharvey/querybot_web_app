@@ -9,6 +9,8 @@ import { flattenAndSortFeed, formatFeedItem } from "@/app/utils/dispatch-utils";
 import { getWqhApiUrl } from "@/lib/config";
 import { auth } from "@clerk/nextjs/server";
 
+export const dynamic = "force-dynamic";
+
 const Dispatch = async () => {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 60000); // 1 minute timeout

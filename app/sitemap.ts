@@ -46,7 +46,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
       }))
       .filter((entry) => entry.url.startsWith(SITE_URL));
-  } catch {
+  } catch (err) {
+    console.error("[sitemap] getRecentPosts failed", {
+      message: err instanceof Error ? err.message : String(err),
+    });
     // WPGRAPHQL_ENDPOINT may be missing in a given environment; leaving the
     // sitemap with static entries only is preferable to a build failure.
     blogEntries = [];

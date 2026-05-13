@@ -3,6 +3,7 @@ import {
   getRecentPosts,
   buildCanonicalUrlForPost,
   sanitizeWordPressHtml,
+  type WpPost,
 } from "@/lib/wp";
 
 export const revalidate = 1800; // 30 min
@@ -11,7 +12,15 @@ export async function GET() {
   const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
   const title = "Query Blog";
   const description = "Latest articles from Query.";
-  const posts = await getRecentPosts(20);
+  let posts: WpPost[] = [];
+  try {
+    posts = await getRecentPosts(20);
+  } catch (err) {
+    console.error("[feed.xml] getRecentPosts failed", {
+      message: err instanceof Error ? err.message : String(err),
+    });
+  }
+
   const items = posts
     .map((p) => {
       const url = buildCanonicalUrlForPost(p.slug);
