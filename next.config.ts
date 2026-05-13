@@ -23,6 +23,24 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/rebecca",
+        destination:
+          "/?utm_source=instagram&utm_medium=influencer&utm_campaign=creator_partnership&utm_content=rebecca",
+        permanent: false,
+      },
+      {
+        source: "/kendall",
+        destination:
+          "/?utm_source=instagram&utm_medium=influencer&utm_campaign=creator_partnership&utm_content=kendall",
+        permanent: false,
+      },
+      {
+        source: "/matt",
+        destination:
+          "/?utm_source=instagram&utm_medium=influencer&utm_campaign=creator_partnership&utm_content=matt",
+        permanent: false,
+      },
+      {
         source: "/slushwire",
         destination: "/",
         permanent: true,
