@@ -3,18 +3,14 @@
 import HomeContentShell from "@/app/(public)/(home)/components/home-content-shell";
 import { DiscountCodeModalGate } from "@/app/components/discount-code-modal-gate";
 import { DISCOUNT_MODAL_STORAGE_KEYS } from "@/app/constants";
-import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import SubscriptionDetails from "./components/subscription-details";
 import { CompareCompetitors } from "./components/compare-competitors";
 import { SubscriptionFAQs } from "./components/subscription-faqs";
 
 const Subscription = () => {
-  const { isLoading, isSubscribed, user } = useClerkUser();
-
   return (
     <div className="relative overflow-hidden pb-28">
       <DiscountCodeModalGate
-        enabled={!isLoading && !isSubscribed && Boolean(user)}
         storageKey={DISCOUNT_MODAL_STORAGE_KEYS.SUBSCRIBE}
       />
       <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 mx-auto h-[620px] w-[min(1260px,100vw)] bg-[radial-gradient(circle_at_22%_18%,rgba(112,193,202,0.18),transparent_30%),radial-gradient(circle_at_76%_22%,rgba(56,88,116,0.14),transparent_30%),radial-gradient(circle_at_52%_58%,rgba(255,255,255,0.92),transparent_44%)] blur-3xl" />

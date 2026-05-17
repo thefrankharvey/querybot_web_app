@@ -7,7 +7,7 @@ import AgentMatchesPaywall from "./components/agent-matches-paywall";
 import AgentMatchesFull from "./components/agent-matches-full";
 
 export default function AgentMatchesPage() {
-  const { isSubscribed, isLoading, user } = useClerkUser();
+  const { isSubscribed, isLoading } = useClerkUser();
 
   if (isLoading) {
     return null;
@@ -16,7 +16,6 @@ export default function AgentMatchesPage() {
   return (
     <div className="mx-auto min-h-[700px] w-full pb-10 pt-8 md:w-[full] md:px-6 md:pb-82">
       <DiscountCodeModalGate
-        enabled={!isSubscribed && Boolean(user)}
         storageKey={DISCOUNT_MODAL_STORAGE_KEYS.AGENT_MATCHES}
       />
       {isSubscribed ? <AgentMatchesFull /> : <AgentMatchesPaywall />}

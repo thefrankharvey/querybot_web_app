@@ -6,6 +6,7 @@ import {
   DISCOUNT_CODE,
   DISCOUNT_MODAL_DELAY_MS,
 } from "@/app/constants";
+import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useStripeSubscribe } from "@/app/hooks/use-stripe-subscribe";
 import { useVisibleDwellGate } from "@/app/hooks/use-visible-dwell-gate";
 import { DiscountCodeModal } from "./discount-code-modal";
@@ -14,15 +15,17 @@ type Plan = "monthly" | "yearly";
 
 type DiscountCodeModalGateProps = {
   delayMs?: number;
-  enabled: boolean;
   storageKey: string;
 };
 
 export function DiscountCodeModalGate({
   delayMs = DISCOUNT_MODAL_DELAY_MS,
-  enabled,
   storageKey,
 }: DiscountCodeModalGateProps) {
+  const { isLoading, isSubscribed, user } = useClerkUser();
+  const enabled =
+    !isLoading && Boolean(user) && !isSubscribed;
+
   const { handleSubscribe, isSubscribing } = useStripeSubscribe();
   const [checkoutError, setCheckoutError] = useState<string | null>(null);
   const { dismiss, open, setOpen } = useVisibleDwellGate({
