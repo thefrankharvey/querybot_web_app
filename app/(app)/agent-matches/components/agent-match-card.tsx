@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import {
     cn,
@@ -11,13 +11,16 @@ import {
 import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
 import TooltipComponent from "@/app/components/tooltip";
-import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { Heart, Save } from "lucide-react";
+import { Heart } from "lucide-react";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { SaveAgentPayload } from "@/app/types";
 import { ALL_COUNTRY_FLAG_LABELS } from "@/app/constants";
+import {
+    FitRatingBadge,
+    getFitRatingFromScore,
+} from "@/app/components/fit-rating-badge";
 
 export const AgentMatchCard = ({
     agent,
@@ -37,8 +40,8 @@ export const AgentMatchCard = ({
     savingAgentId?: string | null;
 }) => {
     const { agentsList } = useProfileContext();
-    const [isHovered, setIsHovered] = useState(false);
     const isDisabled = index >= 6 && !isSubscribed;
+    const fitRating = getFitRatingFromScore(agent.normalized_score);
     const agentMatchSkeletonClass =
         "border-white/50 bg-[linear-gradient(135deg,rgba(245,249,250,0.92),rgba(224,233,236,0.86))] shadow-[inset_0_1px_0_rgba(255,255,255,0.72)]";
     const genreMatches = [
@@ -75,8 +78,6 @@ export const AgentMatchCard = ({
     return (
         <div
             id={id}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
             className={cn(
                 "glass-panel flex w-full flex-col p-4 py-8 hover:cursor-pointer md:p-8",
                 isDisabled
@@ -105,7 +106,7 @@ export const AgentMatchCard = ({
                                 >
                                     <div>
                                         <div className="flex items-center justify-center gap-2">
-                                            <Save className="w-7 h-7 text-accent" />
+                                            <Heart className="w-7 h-7 text-accent" />
                                         </div>
                                     </div>
                                 </TooltipComponent>
@@ -113,7 +114,7 @@ export const AgentMatchCard = ({
                                 agentsList && agentsList?.find(
                                     (a) => a.index_id === agent.agent_id,
                                 ) ? (
-                                    <Heart className="w-7 h-7 text-accent" />
+                                    <Heart className="w-7 h-7 fill-[#1D4A4E] text-[#1D4A4E]" />
                                 ) :
                                     (<div onClick={handleSaveClick}>
                                         <TooltipComponent
@@ -125,7 +126,7 @@ export const AgentMatchCard = ({
                                                 {savingAgentId === agent.agent_id ? (
                                                     <Spinner className="w-7 h-7 text-accent" />
                                                 ) : (
-                                                    <Save className="w-7 h-7 text-accent" />
+                                                    <Heart className="w-7 h-7 text-accent" />
                                                 )}
                                             </div>
                                         </TooltipComponent>
@@ -135,29 +136,27 @@ export const AgentMatchCard = ({
                     </div>
                     <Skeleton
                         isLoading={isLoading}
-                        className={cn("h-6 w-20", agentMatchSkeletonClass)}
+                        className={cn("h-11 w-28", agentMatchSkeletonClass)}
                     >
-                        <div className="flex flex-col items-start gap-1 w-fit">
-                            <TooltipComponent
-                                className="text-left"
-                                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
-                            >
+                        <TooltipComponent
+                            asChild
+                            className="flex w-fit flex-col items-start gap-1 text-left"
+                            content="We analyze agent profiles against your search to estimate how well each agent matches your needs."
+                        >
+                            <div>
                                 <label className="text-sm font-semibold cursor-pointer">
-                                    Match Score:
+                                    Fit Rating:
                                 </label>
-                                <AnimatedScoreDisplay
-                                    score={agent.normalized_score}
-                                    isHovered={isHovered}
-                                />
-                            </TooltipComponent>
-                        </div>
+                                <FitRatingBadge rating={fitRating} variant="agent" />
+                            </div>
+                        </TooltipComponent>
                     </Skeleton>
                     <Skeleton
                         isLoading={isLoading}
                         className={cn("h-6 w-1/2", agentMatchSkeletonClass)}
                     >
                         {agent.status && agent.status !== "closed" ? (
-                                <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
+                            <span className="w-fit rounded-full border border-accent bg-accent px-3 py-1 text-xs font-semibold text-white">
                                 Open to Submissions
                             </span>
                         ) : null}

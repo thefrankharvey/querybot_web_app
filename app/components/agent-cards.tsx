@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useState } from "react";
 import Link from "next/link";
 import {
   cn,
@@ -11,9 +10,12 @@ import {
 import { AgentMatch } from "../(app)/context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
-import AnimatedScoreDisplay from "./animated-score-display";
 import { useProfileContext } from "../(app)/context/profile-context";
 import { Heart } from "lucide-react";
+import {
+  FitRatingBadge,
+  getFitRatingFromScore,
+} from "./fit-rating-badge";
 
 export const AgentCards = ({
   agent,
@@ -29,14 +31,12 @@ export const AgentCards = ({
   isLoading: boolean;
 }) => {
   const { agentsList } = useProfileContext();
-  const [isHovered, setIsHovered] = useState(false);
   const isDisabled = index > 2 && !isSubscribed;
+  const fitRating = getFitRatingFromScore(agent.normalized_score);
 
   return (
     <div
       id={id}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       className={cn(
         "bg-white rounded-lg p-4 py-8 md:p-8 w-full shadow-md hover:cursor-pointer",
         isDisabled
@@ -55,24 +55,22 @@ export const AgentCards = ({
             </Skeleton>
             {agentsList &&
               agentsList.find((a) => a.index_id === agent.agent_id) && (
-                <Heart className="w-6 h-6 text-accent" />
+                <Heart className="w-6 h-6 fill-[#1D4A4E] text-[#1D4A4E]" />
               )}
           </div>
-          <Skeleton isLoading={isLoading} className="w-20 h-6">
-            <div className="flex flex-col items-start gap-1 w-fit">
-              <TooltipComponent
-                className="text-left"
-                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
-              >
+          <Skeleton isLoading={isLoading} className="h-11 w-28">
+            <TooltipComponent
+              asChild
+              className="flex w-fit flex-col items-start gap-1 text-left"
+              content="We analyze agent profiles against your search to estimate how well each agent matches your needs."
+            >
+              <div>
                 <label className="text-sm font-semibold cursor-pointer">
-                  Match Score:
+                  Fit Rating:
                 </label>
-                <AnimatedScoreDisplay
-                  score={agent.normalized_score}
-                  isHovered={isHovered}
-                />
-              </TooltipComponent>
-            </div>
+                <FitRatingBadge rating={fitRating} variant="agent" />
+              </div>
+            </TooltipComponent>
           </Skeleton>
           <Skeleton isLoading={isLoading} className="w-1/2 h-6">
             {agent.status && agent.status !== "closed" ? (

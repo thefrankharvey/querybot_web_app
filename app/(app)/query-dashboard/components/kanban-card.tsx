@@ -5,6 +5,10 @@ import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
 import { SquarePen, Grip, Circle, CircleCheckBigIcon } from "lucide-react";
+import {
+  FitRatingBadge,
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -35,27 +39,6 @@ function getCalendarDayDiffFromToday(date: Date): number {
   const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
   return Math.max(0, diffDays);
-}
-
-// Fit Rating types and configuration
-export type FitRating = "perfect" | "great" | "good" | "neutral";
-
-export const FIT_RATING_CONFIG: Record<
-  FitRating,
-  { label: string; color: string }
-> = {
-  perfect: { label: "Perfect Fit", color: "var(--fit-perfect)" },
-  great: { label: "Great Fit", color: "var(--fit-great)" },
-  good: { label: "Good Fit", color: "var(--fit-good)" },
-  neutral: { label: "Neutral Fit", color: "var(--fit-neutral)" },
-};
-
-export function getFitRatingFromScore(score: number | null | undefined): FitRating {
-  if (score == null) return "neutral";
-  if (score >= 4) return "perfect";
-  if (score >= 3) return "great";
-  if (score > 2.5) return "good";
-  return "neutral";
 }
 
 export interface KanbanCardData {
@@ -212,12 +195,7 @@ export function KanbanCard({
 
       {/* Fit Rating Pill */}
       <div className="mt-2 flex flex-wrap gap-2">
-        <span
-          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-[0_8px_18px_rgba(24,44,69,0.12)]"
-          style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
-        >
-          {FIT_RATING_CONFIG[card.fitRating].label}
-        </span>
+        <FitRatingBadge rating={card.fitRating} />
         <span className="inline-block rounded-full border border-accent/12 bg-white/85 px-2 py-0.5 text-xs font-medium text-accent">
           {card.projectName?.trim() || "My Project"}
         </span>

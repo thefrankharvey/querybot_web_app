@@ -1,10 +1,9 @@
 "use client";
 
 import { Check, ChevronDownIcon } from "lucide-react";
-import { useState, useMemo, useCallback, useRef } from "react";
+import { useState, useMemo, useCallback, useRef, useId } from "react";
 import { FixedSizeList as List } from "react-window";
 import { cn } from "../utils";
-import { Button } from "./button";
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 import { Input } from "./input";
 
@@ -60,6 +59,7 @@ export default function InfiniteMultiSelect({
   const [value, setValue] = useState<string[]>([]);
   const [searchValue, setSearchValue] = useState("");
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const listboxId = useId();
 
   // Filter options based on search with performance optimization
   const filteredOptions = useMemo(() => {
@@ -106,26 +106,29 @@ export default function InfiniteMultiSelect({
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <Button
-          variant="outline"
+        <button
+          type="button"
           role="combobox"
           aria-expanded={open}
-          className={`flex-1 md:w-[555px] justify-between bg-white h-fit`}
+          aria-controls={listboxId}
+          className="glass-input inline-flex h-auto min-h-11 min-w-0 flex-1 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent whitespace-normal shadow-none transition-[border-color,box-shadow,background-color] outline-none hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-ring/30 focus-visible:ring-[4px] md:w-[555px]"
         >
-          <div className="flex gap-2 justify-start flex-wrap">
+          <div className="flex min-w-0 flex-1 flex-wrap justify-start gap-2 text-left">
             {value?.length
               ? value.map((val, i) => (
                   <div
                     key={i}
-                    className="px-2 py-1 rounded-xl border bg-slate-200 text-xs font-medium"
+                    className="min-w-0 max-w-full rounded-xl border bg-slate-200 px-2 py-1 text-xs font-medium"
                   >
-                    {options.find((option) => option.value === val)?.label}
+                    <span className="block max-w-full truncate">
+                      {options.find((option) => option.value === val)?.label}
+                    </span>
                   </div>
                 ))
               : `Select ${optionTitle}...`}
           </div>
-          <ChevronDownIcon className="size-4 opacity-50" />
-        </Button>
+          <ChevronDownIcon className="mt-1 size-4 shrink-0 opacity-50" />
+        </button>
       </PopoverTrigger>
       <PopoverContent className={`w-[280px] md:w-[555px] p-0 !bg-white !backdrop-blur-none`}>
         <div className="flex flex-col">
@@ -141,7 +144,7 @@ export default function InfiniteMultiSelect({
           </div>
 
           {/* Results */}
-          <div className="flex-1">
+          <div id={listboxId} role="listbox" className="flex-1">
             {filteredOptions.length === 0 ? (
               <div className="py-6 text-center text-sm text-muted-foreground">
                 {searchValue.trim()

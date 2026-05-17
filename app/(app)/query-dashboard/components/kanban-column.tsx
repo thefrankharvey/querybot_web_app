@@ -6,7 +6,8 @@ import {
   SortableContext,
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
-import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
+import { KanbanCard, type KanbanCardData } from "./kanban-card";
+import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanColumnFilters, PrepQueryLetterFilter } from "./kanban-column-filters";
 import { cn } from "@/app/utils";
 

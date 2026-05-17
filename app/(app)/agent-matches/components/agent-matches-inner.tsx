@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, Save } from "lucide-react";
+import { ArrowLeft, ExternalLink, Heart } from "lucide-react";
 import { AgentMatch, SheetStatus } from "../../context/agent-matches-context";
 import AgentMatchCard from "./agent-match-card";
 import Link from "next/link";
@@ -84,7 +84,7 @@ export const AgentMatchesInner = ({
                   className="w-full md:w-auto"
                 >
                   <div className="flex items-center gap-2">
-                    <Save className="w-4 h-4 text-white" />
+                    <Heart className="w-4 h-4 text-white" />
                     <span>Save All Agents</span>
                   </div>
                 </Button>
@@ -97,7 +97,7 @@ export const AgentMatchesInner = ({
                   className="w-full md:w-auto"
                 >
                   <div className="flex items-center gap-2">
-                    {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Save className="w-4 h-4 text-white" />}
+                    {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Heart className="w-4 h-4 text-white" />}
                     <span>Save All Agents</span>
                   </div>
                 </Button>

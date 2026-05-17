@@ -13,7 +13,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/app/ui-primitives/select";
-import { FitRating, FIT_RATING_CONFIG } from "./kanban-card";
+import {
+  FIT_RATING_CONFIG,
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
 
 export type PrepQueryLetterFilter = "all" | "done" | "not_done";
 
@@ -42,7 +45,7 @@ export function KanbanColumnFilters({
           </button>
         </div>
       </PopoverTrigger>
-      <PopoverContent align="end" className="w-56">
+      <PopoverContent align="end" surface="solid" className="w-56">
         <div className="flex flex-col gap-4">
           {/* Fit Rating Filter */}
           <div className="flex flex-col gap-2">
@@ -54,7 +57,7 @@ export function KanbanColumnFilters({
               <SelectTrigger className="w-full">
                 <SelectValue />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent surface="solid">
                 <SelectItem value="all">All</SelectItem>
                 {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map((key) => (
                   <SelectItem key={key} value={key}>
@@ -81,7 +84,7 @@ export function KanbanColumnFilters({
               <SelectTrigger className="w-full">
                 <SelectValue />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent surface="solid">
                 <SelectItem value="all">All</SelectItem>
                 <SelectItem value="done">Ready</SelectItem>
                 <SelectItem value="not_done">Not Ready</SelectItem>

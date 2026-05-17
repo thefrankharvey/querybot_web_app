@@ -19,7 +19,11 @@ import {
 import { StarRating } from "@/app/components/star-rating";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import { formatEmail } from "@/app/utils";
-import { KanbanCardData, FitRating, FIT_RATING_CONFIG } from "./kanban-card";
+import type { KanbanCardData } from "./kanban-card";
+import {
+  FIT_RATING_CONFIG,
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
 import { KanbanNotes } from "./kanban-notes";
 import { KanbanDialogTools } from "./kanban-dialog-tools";
 import { Input } from "@/app/ui-primitives/input";

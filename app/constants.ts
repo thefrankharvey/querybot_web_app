@@ -399,6 +399,7 @@ export const genreOptions = [
   { value: "textbook", label: "Textbook" },
   { value: "thriller", label: "Thriller" },
   { value: "true-crime", label: "True Crime" },
+  { value: "womens-fiction", label: "Women's Fiction" },
 ];
 
 export const targetAudienceOptions = [

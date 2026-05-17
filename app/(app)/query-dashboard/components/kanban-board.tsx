@@ -13,7 +13,8 @@ import {
   useSensors,
 } from "@dnd-kit/core";
 import { KanbanColumn } from "./kanban-column";
-import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
+import { KanbanCard, type KanbanCardData } from "./kanban-card";
+import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanDialog } from "./kanban-dialog";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import {

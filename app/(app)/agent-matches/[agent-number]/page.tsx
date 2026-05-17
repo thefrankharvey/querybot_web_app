@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { ArrowLeft, Save } from "lucide-react";
+import { ArrowLeft, Heart } from "lucide-react";
 import Link from "next/link";
 import {
   formatGenres,
@@ -15,7 +15,6 @@ import {
 } from "@/app/(app)/context/agent-matches-context";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
-import StarRating from "@/app/components/star-rating";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import AgentContactDetails from "@/app/components/agent-contact-details";
@@ -24,6 +23,10 @@ import { useProfileContext } from "../../context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 // import TypeForm from "@/app/components/type-form";
 import { RemoveAgent } from "@/app/(app)/query-dashboard/components/remove-agent";
+import {
+  FitRatingBadge,
+  getFitRatingFromScore,
+} from "@/app/components/fit-rating-badge";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -68,6 +71,7 @@ const AgentProfile = () => {
     (savedMatch) => savedMatch.index_id === agent.agent_id
   );
   const isAlreadySaved = Boolean(savedAgent);
+  const fitRating = getFitRatingFromScore(agent.normalized_score);
 
   const handleSaveAgent = async () => {
     const payload = {
@@ -107,7 +111,7 @@ const AgentProfile = () => {
             disabled={isSaving}
           >
             <div className="flex items-center gap-2">
-              {isSaving ? <Spinner className="text-white" /> : <Save className="w-4 h-4" />}
+              {isSaving ? <Spinner className="text-white" /> : <Heart />}
               <span>Save Agent</span>
             </div>
           </Button>
@@ -124,15 +128,17 @@ const AgentProfile = () => {
                 </span>
               )}
             </div>
-            <div className="text-xl font-semibold flex flex-col gap-1 mt-8 md:mt-0">
-              <label className="text-lg font-semibold">Match Score:</label>
+            <div className="mt-8 flex flex-col items-start gap-1 md:mt-0 md:items-end">
               <TooltipComponent
-                className="w-fit"
-                content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate picture of agent match potential."
+                asChild
+                className="flex w-fit flex-col items-start gap-1 text-left md:items-end"
+                content="We analyze agent profiles against your search to estimate how well each agent matches your needs."
               >
-                <div className="text-xl font-semibold flex items-center gap-1">
-                  <StarRating rateNum={agent.normalized_score} />
-                  {agent.normalized_score}
+                <div>
+                  <label className="text-lg font-semibold cursor-pointer">
+                    Fit Rating:
+                  </label>
+                  <FitRatingBadge rating={fitRating} variant="agent" />
                 </div>
               </TooltipComponent>
             </div>

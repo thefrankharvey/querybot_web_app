@@ -13,10 +13,10 @@ import { useProfileContext } from "@/app/(app)/context/profile-context";
 import type { AgentMatch, UpdateAgentPayload } from "@/app/types";
 import { toast } from "sonner";
 import {
-  FitRating,
   getFitRatingFromScore,
-  KanbanCardData,
-} from "../components/kanban-card";
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
+import type { KanbanCardData } from "../components/kanban-card";
 import { FIRST_COLUMN_ID, sortFirstColumnByNewest } from "../components/kanban-ordering";
 import {
   isQueryDashColumnId,
