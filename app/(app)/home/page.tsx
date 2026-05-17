@@ -1,13 +1,12 @@
 "use client";
 
-import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { useProfileContext } from "../context/profile-context";
 import FreeUser from "./components/free-user";
 import SubscriberEmpty from "./components/subscriber-empty";
-import QDashDialog from "./components/q-dash-dialog";
 import ButtonBar from "./components/button-bar";
 import QueryDashboardStats from "./components/query-dashboard-stats";
 
@@ -30,22 +29,8 @@ const HomePage = () => {
   const { isSubscribed, isLoading } = useClerkUser();
   const { user } = useUser();
   const hasReloadedRef = useRef(false);
-  const [isQDashDialogOpen, setIsQDashDialogOpen] = useState(false);
   const [isRefreshingHomeData, setIsRefreshingHomeData] = useState(true);
   const [isVerifyingPayment, setIsVerifyingPayment] = useState(false);
-
-  const qDashDismissedKey = useMemo(
-    () =>
-      user?.id
-        ? `q_dash_migration_dismissed:${user.id}`
-        : "q_dash_migration_dismissed",
-    [user?.id]
-  );
-
-  const persistQDashDismissal = useCallback(() => {
-    if (typeof window === "undefined") return;
-    window.localStorage.setItem(qDashDismissedKey, "true");
-  }, [qDashDismissedKey]);
 
   // Handle return from successful Stripe payment
   useEffect(() => {
@@ -116,37 +101,6 @@ const HomePage = () => {
     };
   }, [refetch]);
 
-  useEffect(() => {
-    if (isLoading || isProfileLoading) return;
-    if (isRefreshingHomeData) return;
-    if (!isSubscribed || !agentsList || agentsList.length === 0) return;
-    if (typeof window === "undefined") return;
-
-    const hasDismissed = window.localStorage.getItem(qDashDismissedKey) === "true";
-    if (!hasDismissed) {
-      setIsQDashDialogOpen(true);
-    }
-  }, [
-    agentsList,
-    isLoading,
-    isProfileLoading,
-    isRefreshingHomeData,
-    isSubscribed,
-    qDashDismissedKey,
-  ]);
-
-  const handleQDashOpenChange = (open: boolean) => {
-    if (!open) {
-      persistQDashDismissal();
-    }
-    setIsQDashDialogOpen(open);
-  };
-
-  const handleQDashCtaClick = () => {
-    persistQDashDismissal();
-    setIsQDashDialogOpen(false);
-  };
-
   const shouldShowStats =
     !isLoading &&
     !isProfileLoading &&
@@ -159,12 +113,6 @@ const HomePage = () => {
   return (
     <div className="relative overflow-hidden pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-3 md:gap-4 px-4 md:px-0">
-        <QDashDialog
-          open={isQDashDialogOpen}
-          onOpenChange={handleQDashOpenChange}
-          onCtaClick={handleQDashCtaClick}
-        />
-
         <section className="rounded-[24px] border border-white/80 bg-white/64 p-3 shadow-[0_18px_40px_rgba(24,44,69,0.08)] ring-1 ring-accent/8 backdrop-blur-sm sm:p-4">
           <ButtonBar />
         </section>
