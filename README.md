@@ -35,7 +35,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Blog integration configuration
+## Stripe Checkout: automatic discount (optional)
+
+For the in-app discount modal and `/api/checkout-redirect?discount=WELCOME30`, pre-applied promos use these **optional** variables. Values must be the Promotion Code **id** from the Stripe Dashboard (`promo_...`), in the same test/live mode as your secret key and prices.
+
+```
+# When APP_ENV=dev — test mode promotion code id
+STRIPE_DEV_WELCOME30_PROMOTION_CODE_ID=promo_...
+
+# When APP_ENV=prod — live mode promotion code id
+STRIPE_PROD_WELCOME30_PROMOTION_CODE_ID=promo_...
+```
+
+If omitted, Checkout still allows customers to enter a code manually when no auto-discount is passed.
 
 Add the following to `.env.local` to enable the WordPress-driven blog:
 

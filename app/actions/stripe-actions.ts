@@ -30,11 +30,18 @@ export async function createStripeCustomer(userId: string, email: string) {
   }
 }
 
+export type CreateSubscriptionSessionOptions = {
+  promotionCodeId?: string;
+};
+
 export async function createSubscriptionSession(
   customerId: string,
   priceId: string,
+  options: CreateSubscriptionSessionOptions = {},
 ) {
   try {
+    const { promotionCodeId } = options;
+
     const session = await stripe.checkout.sessions.create({
       customer: customerId,
       payment_method_types: ["card"],
@@ -45,7 +52,13 @@ export async function createSubscriptionSession(
         },
       ],
       mode: "subscription",
-      allow_promotion_codes: true, // This enables coupon code input on Stripe's checkout page
+      ...(promotionCodeId
+        ? {
+            discounts: [{ promotion_code: promotionCodeId }],
+          }
+        : {
+            allow_promotion_codes: true,
+          }),
       success_url: `${
         process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
       }/home?payment=success`,

@@ -56,6 +56,28 @@ export function getStripePriceId(plan: "monthly" | "yearly"): string {
     : process.env.STRIPE_DEV_YEARLY_PRICE_ID!;
 }
 
+/** Stripe Promotion Code id (`promo_...`), not the customer-facing code string. Optional: if unset, Checkout uses manual promo entry only. Must exist in the same Stripe account/mode as `STRIPE_SECRET_KEY_*` and price IDs for the current `APP_ENV`. */
+export function getStripePromotionCodeId(discountCode: string): string | undefined {
+  if (discountCode !== "WELCOME30") {
+    throw new Error(`Unsupported Stripe discount code: ${discountCode}`);
+  }
+
+  const isProd = getAppEnv() === "prod";
+  const envKey = isProd
+    ? "STRIPE_PROD_WELCOME30_PROMOTION_CODE_ID"
+    : "STRIPE_DEV_WELCOME30_PROMOTION_CODE_ID";
+  const promotionCodeId = process.env[envKey];
+
+  if (!promotionCodeId) {
+    console.warn(
+      `Missing optional environment variable: ${envKey}. Checkout will allow manual promotion code entry.`
+    );
+    return undefined;
+  }
+
+  return promotionCodeId;
+}
+
 export function getStripeSecretKey(): string {
   return getAppEnv() === "prod"
     ? process.env.STRIPE_SECRET_KEY_PROD!
