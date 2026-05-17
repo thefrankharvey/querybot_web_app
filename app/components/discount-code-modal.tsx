@@ -1,13 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AlertCircle, Check, Copy, Sparkles } from "lucide-react";
-
-import { Button } from "@/app/ui-primitives/button";
+import { AlertCircle, Sparkles } from "lucide-react";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
+  // DialogDescription,
   DialogTitle,
 } from "@/app/ui-primitives/dialog";
 import { Spinner } from "@/app/ui-primitives/spinner";
