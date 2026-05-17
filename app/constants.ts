@@ -1,7 +1,7 @@
 export const ACCORDION_STORAGE_KEY = "sidebar-accordion-state";
 export const AGENT_MATCHES_TABLE = "agent_matches";
 export const DISCOUNT_CODE = "WELCOME30";
-export const DISCOUNT_MODAL_DELAY_MS = 10000;
+export const DISCOUNT_MODAL_DELAY_MS = 5000;
 export const DISCOUNT_MODAL_STORAGE_KEYS = {
   AGENT_MATCHES: "wqh_discount_modal_dismissed:agent-matches",
   SUBSCRIBE: "wqh_discount_modal_dismissed:subscribe",
