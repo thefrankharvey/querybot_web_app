@@ -34,7 +34,7 @@ const planCards = [
     title: "Monthly",
   },
   {
-    badge: "Save $9 + 30%",
+    badge: "Save $9",
     billingLabel: "/ year",
     discountedPrice: "$21",
     originalPrice: "$30 / year",
@@ -60,18 +60,21 @@ export function DiscountCodeModal({
     return () => window.clearTimeout(timeoutId);
   }, [hasCopied]);
 
-  const handleCopyCode = async () => {
-    try {
-      await navigator.clipboard.writeText(discountCode);
-      setHasCopied(true);
-    } catch {
-      setHasCopied(false);
-    }
-  };
+  // const handleCopyCode = async () => {
+  //   try {
+  //     await navigator.clipboard.writeText(discountCode);
+  //     setHasCopied(true);
+  //   } catch {
+  //     setHasCopied(false);
+  //   }
+  // };
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-h-[calc(100vh-2rem)] max-w-[calc(100%-1rem)] overflow-y-auto rounded-[24px] border border-white/80 bg-white p-4 shadow-[0_28px_72px_rgba(24,44,69,0.22)] sm:max-w-[680px] sm:p-6 md:p-7">
+      <DialogContent
+        className="max-h-[calc(100vh-2rem)] max-w-[calc(100%-1rem)] overflow-y-auto rounded-[24px] border border-white/80 bg-white p-4 shadow-[0_28px_72px_rgba(24,44,69,0.22)] sm:max-w-[680px] sm:p-6 md:p-7"
+        onInteractOutside={(event) => event.preventDefault()}
+      >
         <div className="flex flex-col gap-4">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-accent/10 bg-white px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.24em] text-accent/58 shadow-[0_10px_24px_rgba(24,44,69,0.06)]">
@@ -84,14 +87,14 @@ export function DiscountCodeModal({
             <DialogTitle className="mt-4 max-w-[520px] font-serif text-2xl font-bold leading-tight text-accent sm:text-3xl md:text-4xl">
               Hey friend! Interested in <em>30% off?</em>
             </DialogTitle>
-            <DialogDescription className="mt-3 max-w-[540px] text-sm font-medium leading-6 text-accent/72 sm:text-base sm:leading-7">
+            {/* <DialogDescription className="mt-3 max-w-[540px] text-sm font-medium leading-6 text-accent/72 sm:text-base sm:leading-7">
               Querying is hard enough - the tools shouldn&apos;t be. Apply the code
               at checkout and unlock full access to Smart Match, Query
               Dashboard, and Dispatch.
-            </DialogDescription>
+            </DialogDescription> */}
           </div>
 
-          <div className="flex flex-col gap-3 rounded-[18px] border border-dashed border-accent/18 p-3 sm:flex-row sm:items-center sm:justify-between">
+          {/* <div className="flex flex-col gap-3 rounded-[18px] border border-dashed border-accent/18 p-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-[10px] font-bold uppercase tracking-[0.26em] text-accent/52">
                 Your code
@@ -113,7 +116,7 @@ export function DiscountCodeModal({
               )}
               {hasCopied ? "Copied" : "Copy code"}
             </Button>
-          </div>
+          </div> */}
 
           {checkoutError && (
             <div className="flex items-start gap-2 rounded-[14px] border border-destructive/20 bg-destructive/5 px-3 py-2 text-sm font-medium leading-5 text-destructive">
