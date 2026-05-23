@@ -52,6 +52,8 @@ export const Comps = ({
       ))}
       <div className="flex flex-col md:flex-row gap-4">
         <Button
+          data-tour-target="smart-match-add-comp"
+          type="button"
           className="text-sm shadow-lg hover:shadow-xl"
           onClick={(e) => {
             e.preventDefault();
@@ -67,6 +69,8 @@ export const Comps = ({
           <PlusIcon className="size-4" />
         </Button>
         <Button
+          data-tour-target="smart-match-remove-comp"
+          type="button"
           className="text-sm shadow-lg hover:shadow-xl"
           onClick={(e) => {
             e.preventDefault();

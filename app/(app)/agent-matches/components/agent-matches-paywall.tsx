@@ -25,7 +25,11 @@ const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
   match_score: agent.normalized_score || null,
 });
 
-export const AgentMatchesPaywall = () => {
+export const AgentMatchesPaywall = ({
+  onWalkthroughActiveChange,
+}: {
+  onWalkthroughActiveChange?: (isActive: boolean) => void;
+}) => {
   const {
     matches,
     totalAgents,
@@ -151,6 +155,7 @@ export const AgentMatchesPaywall = () => {
         onSaveAgent={handleSaveAgent}
         isSavingAll={isSavingAll}
         savingAgentId={savingAgentId}
+        onWalkthroughActiveChange={onWalkthroughActiveChange}
       />
       <PayWall
         gridRef={gridRef}

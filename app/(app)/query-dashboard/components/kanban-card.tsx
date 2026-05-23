@@ -70,6 +70,7 @@ interface KanbanCardProps {
   onCardClick?: (card: KanbanCardData) => void;
   /** When true, only the grip handle is draggable (enables scroll on card body). Used on mobile. */
   useDragHandle?: boolean;
+  tourTarget?: string;
 }
 
 export function KanbanCard({
@@ -78,6 +79,7 @@ export function KanbanCard({
   dragOverlayWidth,
   onCardClick,
   useDragHandle = false,
+  tourTarget,
 }: KanbanCardProps) {
   const {
     attributes,
@@ -222,6 +224,7 @@ export function KanbanCard({
       ref={setNodeRef}
       style={style}
       {...(useDragHandle ? {} : { ...attributes, ...listeners })}
+      data-tour-target={tourTarget}
       onClick={handleCardClick}
       className={cn(
         "glass-panel group rounded-[20px] border border-white/70 p-3 transition-all duration-300 md:max-w-[256px] hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_22px_52px_rgba(24,44,69,0.12)]",

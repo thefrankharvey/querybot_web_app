@@ -47,6 +47,7 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/smart-match"
+              data-tour-target="home-walkthrough-smart-match-nav"
               className={cn(
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("smart-match") ||
@@ -60,6 +61,7 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/query-dashboard"
+              data-tour-target="home-walkthrough-query-dashboard-nav"
               style={{
                 paddingLeft: agentsList && agentsList.length > 0 ? "9px" : "",
                 paddingTop: agentsList && agentsList.length > 0 ? "7px" : "",
@@ -83,6 +85,7 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/dispatch"
+              data-tour-target="home-walkthrough-dispatch-nav"
               prefetch={true}
               className={cn(
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",

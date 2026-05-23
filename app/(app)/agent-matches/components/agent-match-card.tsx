@@ -30,6 +30,7 @@ export const AgentMatchCard = ({
     isLoading,
     onSaveAgent,
     savingAgentId,
+    tourTarget,
 }: {
     agent: AgentMatch;
     isSubscribed?: boolean;
@@ -38,6 +39,7 @@ export const AgentMatchCard = ({
     isLoading: boolean;
     onSaveAgent?: (payload: SaveAgentPayload) => void;
     savingAgentId?: string | null;
+    tourTarget?: string;
 }) => {
     const { agentsList } = useProfileContext();
     const isDisabled = index >= 6 && !isSubscribed;
@@ -77,6 +79,7 @@ export const AgentMatchCard = ({
 
     return (
         <div
+            data-tour-target={tourTarget}
             id={id}
             className={cn(
                 "glass-panel flex w-full flex-col p-4 py-8 hover:cursor-pointer md:p-8",

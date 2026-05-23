@@ -12,8 +12,10 @@ import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
 
 const Genre = ({
+  isWalkthroughGenreDropdownOpen,
   setForm,
 }: {
+  isWalkthroughGenreDropdownOpen?: boolean;
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
   const comboboxRef = useRef<ComboboxRef>(null);
@@ -47,9 +49,11 @@ const Genre = ({
       <div className="flex items-center w-full">
         <Combobox
           ref={comboboxRef}
+          forceOpen={isWalkthroughGenreDropdownOpen}
           options={genreOptions}
           optionTitle="genre"
           handleChange={handleSelectChange}
+          tourTarget="smart-match-genre-dropdown"
         />
         <TooltipComponent
           className="text-center"
@@ -58,6 +62,7 @@ const Genre = ({
           asChild
         >
           <Button
+            data-tour-target="smart-match-genre-plus"
             type="button"
             className="relative text-sm shadow-lg hover:shadow-xl rounded-md flex items-center justify-center w-10 ml-2"
             onClick={() => setShowInput((prev) => !prev)}

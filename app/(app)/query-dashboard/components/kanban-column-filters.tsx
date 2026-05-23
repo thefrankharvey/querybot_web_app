@@ -1,5 +1,6 @@
 "use client";
 
+import { useCallback, useEffect, useState } from "react";
 import { Ellipsis } from "lucide-react";
 import {
   Popover,
@@ -25,6 +26,8 @@ interface KanbanColumnFiltersProps {
   onFitRatingChange: (value: "all" | FitRating) => void;
   prepQueryLetterFilter: PrepQueryLetterFilter;
   onPrepQueryLetterChange: (value: PrepQueryLetterFilter) => void;
+  tourForceOpen?: boolean;
+  tourTargetsEnabled?: boolean;
 }
 
 export function KanbanColumnFilters({
@@ -32,15 +35,36 @@ export function KanbanColumnFilters({
   onFitRatingChange,
   prepQueryLetterFilter,
   onPrepQueryLetterChange,
+  tourForceOpen,
+  tourTargetsEnabled = false,
 }: KanbanColumnFiltersProps) {
+  const [userOpen, setUserOpen] = useState(false);
   const showDot = fitRatingFilter !== "all" || prepQueryLetterFilter !== "all";
+  const isTourControlled = tourForceOpen !== undefined;
+  const open = isTourControlled ? tourForceOpen : userOpen;
+
+  useEffect(() => {
+    if (tourForceOpen !== false) return;
+
+    setUserOpen(false);
+  }, [tourForceOpen]);
+
+  const handleOpenChange = useCallback(
+    (nextOpen: boolean) => {
+      if (tourForceOpen === true && !nextOpen) return;
+      if (isTourControlled) return;
+
+      setUserOpen(nextOpen);
+    },
+    [isTourControlled, tourForceOpen],
+  );
 
   return (
-    <Popover>
+    <Popover open={open} onOpenChange={handleOpenChange}>
       <PopoverTrigger asChild>
         <div className="flex flex-col items-end">
           {showDot ? <div className="w-2.5 h-2.5 bg-blue-accent rounded-full mb-[-6px]" /> : <div className="w-2.5 h-2.5 bg-transparent rounded-full mb-[-6px]" />}
-          <button className="p-1 hover:bg-accent/20 rounded">
+          <button aria-label="Filter column" className="p-1 hover:bg-accent/20 rounded">
             <Ellipsis className="w-6 h-6" />
           </button>
         </div>
@@ -48,7 +72,12 @@ export function KanbanColumnFilters({
       <PopoverContent align="end" surface="solid" className="w-56">
         <div className="flex flex-col gap-4">
           {/* Fit Rating Filter */}
-          <div className="flex flex-col gap-2">
+          <div
+            className="flex flex-col gap-2"
+            data-tour-target={
+              tourTargetsEnabled ? "query-dashboard-filter-fit-rating" : undefined
+            }
+          >
             <label className="text-sm font-medium">Filter by Fit Rating</label>
             <Select
               value={fitRatingFilter}
@@ -75,7 +104,14 @@ export function KanbanColumnFilters({
           </div>
 
           {/* Prep Query Letter Filter */}
-          <div className="flex flex-col gap-2">
+          <div
+            className="flex flex-col gap-2"
+            data-tour-target={
+              tourTargetsEnabled
+                ? "query-dashboard-filter-query-letter"
+                : undefined
+            }
+          >
             <label className="text-sm font-medium">Filter by Query Letter</label>
             <Select
               value={prepQueryLetterFilter}

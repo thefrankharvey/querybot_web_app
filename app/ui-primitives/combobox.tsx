@@ -15,9 +15,11 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 
 type ComboboxProps = {
+  forceOpen?: boolean;
   options: { value: string; label: string }[];
   optionTitle: string;
   handleChange: (value: string) => void;
+  tourTarget?: string;
 };
 
 export interface ComboboxRef {
@@ -25,9 +27,10 @@ export interface ComboboxRef {
 }
 
 const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
-  ({ options, optionTitle, handleChange }, ref) => {
+  ({ forceOpen, options, optionTitle, handleChange, tourTarget }, ref) => {
     const [open, setOpen] = React.useState(false);
     const [value, setValue] = React.useState("");
+    const isOpen = forceOpen ? true : open;
 
     React.useImperativeHandle(ref, () => ({
       clear: () => {
@@ -37,12 +40,20 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
     }));
 
     return (
-      <Popover open={open} onOpenChange={setOpen}>
+      <Popover
+        open={isOpen}
+        onOpenChange={(nextOpen) => {
+          if (!forceOpen) {
+            setOpen(nextOpen);
+          }
+        }}
+      >
         <PopoverTrigger asChild>
           <Button
+            data-tour-target={tourTarget}
             variant="outline"
             role="combobox"
-            aria-expanded={open}
+            aria-expanded={isOpen}
             className="flex-1 md:w-[555px] justify-between bg-white"
           >
             {value
@@ -67,7 +78,9 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
                     onSelect={(currentValue) => {
                       setValue(currentValue === value ? "" : currentValue);
                       handleChange(currentValue);
-                      setOpen(false);
+                      if (!forceOpen) {
+                        setOpen(false);
+                      }
                     }}
                   >
                     {option.label}

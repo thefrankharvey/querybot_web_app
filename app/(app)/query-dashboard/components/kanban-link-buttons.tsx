@@ -1,6 +1,6 @@
 import { Button } from "@/app/ui-primitives/button";
 import { urlFormatter } from "@/app/utils";
-import { KanbanCardData } from "./kanban-card";
+import type { KanbanCardData } from "./kanban-card";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 

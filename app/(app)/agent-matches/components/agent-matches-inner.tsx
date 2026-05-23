@@ -9,6 +9,8 @@ import CountryFilter from "./country-filter";
 import { SaveAgentPayload } from "@/app/types";
 import ProgressBar from "../../smart-match/components/progress-bar";
 import TooltipComponent from "@/app/components/tooltip";
+import AgentResultsWalkthrough from "./agent-results-walkthrough";
+import { useEffect, useState } from "react";
 
 export const AgentMatchesInner = ({
   matches,
@@ -27,6 +29,7 @@ export const AgentMatchesInner = ({
   isSavingAll,
   onSaveAgent,
   savingAgentId,
+  onWalkthroughActiveChange,
 }: {
   matches: AgentMatch[];
   totalAgents: number | null;
@@ -45,7 +48,24 @@ export const AgentMatchesInner = ({
   isSavingAll?: boolean;
   onSaveAgent?: (payload: SaveAgentPayload) => void;
   savingAgentId?: string | null;
+  onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
+  const [isDesktopViewport, setIsDesktopViewport] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateDesktopViewport = () => {
+      setIsDesktopViewport(mediaQuery.matches);
+    };
+
+    updateDesktopViewport();
+    mediaQuery.addEventListener("change", updateDesktopViewport);
+
+    return () => {
+      mediaQuery.removeEventListener("change", updateDesktopViewport);
+    };
+  }, []);
+
   return (
     <div className="md:p-0 p-4">
       <h1 className="mb-5 text-3xl font-semibold leading-tight text-accent md:text-[32px] font-serif">
@@ -62,97 +82,124 @@ export const AgentMatchesInner = ({
           </Link>
           <div className="flex flex-col mt-8 mb-8 md:mb-0 md:mt-0 md:flex-row items-start md:items-center md:gap-4 gap-6 w-full md:w-auto">
             {statusFilter && onStatusChange && (
-              <StatusFilter
-                value={statusFilter}
-                onValueChange={onStatusChange}
-              />
+              <div
+                className="w-full md:w-auto"
+                data-tour-target="agent-results-status-filter"
+              >
+                <StatusFilter
+                  value={statusFilter}
+                  onValueChange={onStatusChange}
+                />
+              </div>
             )}
             {countryFilter && onCountryChange && (
-              <CountryFilter
-                value={countryFilter}
-                onValueChange={onCountryChange}
-              />
-            )}
-            {!isSubscribed ? (
-              <TooltipComponent
-                className="w-full md:w-fit"
-                contentClass="text-center"
-                content="Subscribe to save all agent matches!"
-              >
-                <Button
-                  disabled={true}
-                  className="w-full md:w-auto"
-                >
-                  <div className="flex items-center gap-2">
-                    <Heart className="w-4 h-4 text-white" />
-                    <span>Save All Agents</span>
-                  </div>
-                </Button>
-              </TooltipComponent>
-            ) : (
-              onSaveAllAgents && (
-                <Button
-                  onClick={onSaveAllAgents}
-                  disabled={isSavingAll || isLoading || matches.length === 0}
-                  className="w-full md:w-auto"
-                >
-                  <div className="flex items-center gap-2">
-                    {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Heart className="w-4 h-4 text-white" />}
-                    <span>Save All Agents</span>
-                  </div>
-                </Button>
-              ))}
-            {!isSubscribed ? (
-              <TooltipComponent
-                className="w-full md:w-fit"
-                contentClass="text-center"
-                content="Subscribe to download all agent matches!"
-              >
-                <Button
-                  className="w-full md:w-auto"
-                  disabled={true}
-                >
-                  <div className="flex items-center gap-2">
-                    <ExternalLink className="w-4 h-4 text-white" />
-                    <span>Query Spreadsheet</span>
-                  </div>
-                </Button>
-              </TooltipComponent>
-            ) : (
-              <a
-                href={spreadsheetUrl || undefined}
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
                 className="w-full md:w-auto"
-                onClick={(e) => {
-                  if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
-                    e.preventDefault();
-                }}
+                data-tour-target="agent-results-country-filter"
               >
-                <Button
-                  disabled={
-                    sheetStatus === "pending" || !spreadsheetUrl || isLoading
-                  }
-                  className="w-full md:w-auto"
-                >
-                  <div className="flex items-center gap-2">
-                    {sheetStatus === "pending" ||
-                      !spreadsheetUrl ||
-                      isLoading ? (
-                      <Spinner className="w-4 h-4 text-white" />
-                    ) : (
-                      <ExternalLink className="w-4 h-4 text-white" />
-                    )}
-                    <span>Query Spreadsheet</span>
-                  </div>
-                </Button>
-              </a>
+                <CountryFilter
+                  value={countryFilter}
+                  onValueChange={onCountryChange}
+                />
+              </div>
             )}
+            <div
+              className="w-full md:w-auto"
+              data-tour-target="agent-results-save-all"
+            >
+              {!isSubscribed ? (
+                <TooltipComponent
+                  asChild
+                  className="inline-block w-full md:w-fit"
+                  contentClass="text-center"
+                  content="Subscribe to save all agent matches!"
+                >
+                  <span tabIndex={0}>
+                    <Button
+                      disabled={true}
+                      className="w-full md:w-auto"
+                    >
+                      <div className="flex items-center gap-2">
+                        <Heart className="w-4 h-4 text-white" />
+                        <span>Save All Agents</span>
+                      </div>
+                    </Button>
+                  </span>
+                </TooltipComponent>
+              ) : (
+                onSaveAllAgents && (
+                  <Button
+                    onClick={onSaveAllAgents}
+                    disabled={isSavingAll || isLoading || matches.length === 0}
+                    className="w-full md:w-auto"
+                  >
+                    <div className="flex items-center gap-2">
+                      {isSavingAll ? <Spinner className="w-4 h-4 text-white" /> : <Heart className="w-4 h-4 text-white" />}
+                      <span>Save All Agents</span>
+                    </div>
+                  </Button>
+                ))}
+            </div>
+            <div
+              className="w-full md:w-auto"
+              data-tour-target="agent-results-query-spreadsheet"
+            >
+              {!isSubscribed ? (
+                <TooltipComponent
+                  asChild
+                  className="inline-block w-full md:w-fit"
+                  contentClass="text-center"
+                  content="Subscribe to download all agent matches!"
+                >
+                  <span tabIndex={0}>
+                    <Button
+                      className="w-full md:w-auto"
+                      disabled={true}
+                    >
+                      <div className="flex items-center gap-2">
+                        <ExternalLink className="w-4 h-4 text-white" />
+                        <span>Query Spreadsheet</span>
+                      </div>
+                    </Button>
+                  </span>
+                </TooltipComponent>
+              ) : (
+                <a
+                  href={spreadsheetUrl || undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full md:w-auto"
+                  onClick={(e) => {
+                    if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
+                      e.preventDefault();
+                  }}
+                >
+                  <Button
+                    disabled={
+                      sheetStatus === "pending" || !spreadsheetUrl || isLoading
+                    }
+                    className="w-full md:w-auto"
+                  >
+                    <div className="flex items-center gap-2">
+                      {sheetStatus === "pending" ||
+                        !spreadsheetUrl ||
+                        isLoading ? (
+                        <Spinner className="w-4 h-4 text-white" />
+                      ) : (
+                        <ExternalLink className="w-4 h-4 text-white" />
+                      )}
+                      <span>Query Spreadsheet</span>
+                    </div>
+                  </Button>
+                </a>
+              )}
+            </div>
             {/* <ExplanationBlock /> */}
           </div>
         </div>
         {matches && matches.length > 0 ? (
           <div
+            data-tour-target="agent-results-grid"
             className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
             ref={gridRef}
           >
@@ -166,6 +213,9 @@ export const AgentMatchesInner = ({
                 isSubscribed={isSubscribed}
                 isLoading={isLoading}
                 id={`agent-${index}`}
+                tourTarget={
+                  index === 0 ? "agent-results-first-card" : undefined
+                }
               />
             ))}
           </div>
@@ -186,6 +236,10 @@ export const AgentMatchesInner = ({
           </div>
         )}
       </div>
+      <AgentResultsWalkthrough
+        enabled={isDesktopViewport && matches.length > 0 && !isLoading}
+        onActiveChange={onWalkthroughActiveChange}
+      />
     </div>
   );
 };

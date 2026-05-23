@@ -25,6 +25,9 @@ interface KanbanColumnProps {
   useDragHandle?: boolean;
   /** When true, column droppable is disabled (ignored during drag). Used on mobile to prevent drops on peek columns. */
   droppableDisabled?: boolean;
+  tourFilterForceOpen?: boolean;
+  tourFirstCardId?: string | null;
+  tourTargetsEnabled?: boolean;
 }
 
 function useHasScrollbar(
@@ -55,6 +58,9 @@ export function KanbanColumn({
   className,
   useDragHandle = false,
   droppableDisabled = false,
+  tourFilterForceOpen,
+  tourFirstCardId,
+  tourTargetsEnabled = false,
 }: KanbanColumnProps) {
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
@@ -100,6 +106,8 @@ export function KanbanColumn({
           onFitRatingChange={setFitRatingFilter}
           prepQueryLetterFilter={prepQueryLetterFilter}
           onPrepQueryLetterChange={setPrepQueryLetterFilter}
+          tourForceOpen={tourFilterForceOpen}
+          tourTargetsEnabled={tourTargetsEnabled}
         />
       </div>
       <div
@@ -118,6 +126,11 @@ export function KanbanColumn({
               key={card.id}
               card={card}
               onCardClick={onCardClick}
+              tourTarget={
+                tourFirstCardId === card.id
+                  ? "query-dashboard-first-card"
+                  : undefined
+              }
               useDragHandle={useDragHandle}
             />
           ))}

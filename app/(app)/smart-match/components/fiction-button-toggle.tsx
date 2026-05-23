@@ -15,7 +15,7 @@ const FictionButtonToggle = ({
   const isNonFiction = form.non_fiction;
 
   return (
-    <div className="w-full">
+    <div className="w-full" data-tour-target="smart-match-fiction-toggle">
       <div className="flex md:w-[50%] w-full">
         <div className="flex w-full">
           <Button

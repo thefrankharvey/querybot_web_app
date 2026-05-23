@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { useUser } from "@clerk/nextjs";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
@@ -12,6 +13,13 @@ import QueryDashboardStats from "./components/query-dashboard-stats";
 
 const PAYMENT_PENDING_KEY = "payment_verification_pending";
 const RETRY_DELAYS_MS = [0, 1500, 3000, 4000] as const;
+const HomeWalkthrough = dynamic(
+  () =>
+    import("./components/home-walkthrough").then(
+      (module) => module.HomeWalkthrough,
+    ),
+  { ssr: false },
+);
 
 async function verifySubscriptionServer(): Promise<boolean> {
   try {
@@ -31,6 +39,7 @@ const HomePage = () => {
   const hasReloadedRef = useRef(false);
   const [isRefreshingHomeData, setIsRefreshingHomeData] = useState(true);
   const [isVerifyingPayment, setIsVerifyingPayment] = useState(false);
+  const [isDesktopViewport, setIsDesktopViewport] = useState(false);
 
   // Handle return from successful Stripe payment
   useEffect(() => {
@@ -101,6 +110,20 @@ const HomePage = () => {
     };
   }, [refetch]);
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateDesktopViewport = () => {
+      setIsDesktopViewport(mediaQuery.matches);
+    };
+
+    updateDesktopViewport();
+    mediaQuery.addEventListener("change", updateDesktopViewport);
+
+    return () => {
+      mediaQuery.removeEventListener("change", updateDesktopViewport);
+    };
+  }, []);
+
   const shouldShowStats =
     !isLoading &&
     !isProfileLoading &&
@@ -138,6 +161,7 @@ const HomePage = () => {
           )}
         </div>
       </div>
+      <HomeWalkthrough enabled={isDesktopViewport && !isLoadingState} />
     </div>
   );
 };

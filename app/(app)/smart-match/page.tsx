@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
 import {
@@ -23,6 +24,15 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
+import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
+
+const SmartMatchWalkthrough = dynamic(
+  () =>
+    import("./components/smart-match-walkthrough").then(
+      (module) => module.SmartMatchWalkthrough,
+    ),
+  { ssr: false },
+);
 
 export type FormState = {
   genre: string;
@@ -41,6 +51,9 @@ const SmartMatch = () => {
   const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
+  const [activeWalkthroughStep, setActiveWalkthroughStep] =
+    useState<SmartMatchWalkthroughStepId | null>(null);
+  const [isDesktopViewport, setIsDesktopViewport] = useState(false);
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
     genre: "",
@@ -143,6 +156,23 @@ const SmartMatch = () => {
     });
   };
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateDesktopViewport = () => {
+      setIsDesktopViewport(mediaQuery.matches);
+    };
+
+    updateDesktopViewport();
+    mediaQuery.addEventListener("change", updateDesktopViewport);
+
+    return () => {
+      mediaQuery.removeEventListener("change", updateDesktopViewport);
+    };
+  }, []);
+
+  const isSearchInProgress = queryMutation.isPending || queryMutation.isSuccess;
+  const shouldEnableWalkthrough = isDesktopViewport && !isSearchInProgress;
+
   if (isLoading) {
     return (
       <div className="ambient-page flex items-center justify-center pt-48 md:ml-[-100px]">
@@ -196,7 +226,12 @@ const SmartMatch = () => {
           <form onSubmit={handleSubmit}>
             <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
-              <Genre setForm={setForm} />
+              <Genre
+                isWalkthroughGenreDropdownOpen={
+                  activeWalkthroughStep === "genre-dropdown"
+                }
+                setForm={setForm}
+              />
               <Subgenres setForm={setForm} />
               <Format setForm={setForm} />
               <TargetAudience form={form} setForm={setForm} />
@@ -219,6 +254,10 @@ const SmartMatch = () => {
           </form>
         </>
       )}
+      <SmartMatchWalkthrough
+        enabled={shouldEnableWalkthrough}
+        onActiveStepChange={setActiveWalkthroughStep}
+      />
     </div>
   );
 };

@@ -14,8 +14,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/app/ui-primitives/select";
-import { ColumnData } from "./kanban-column";
-import { KanbanCardData } from "./kanban-card";
+import type { ColumnData } from "./kanban-column";
+import type { KanbanCardData } from "./kanban-card";
 import { RemoveAgent } from "./remove-agent";
 import { useQueryDashContext } from "../context/query-dash-context";
 

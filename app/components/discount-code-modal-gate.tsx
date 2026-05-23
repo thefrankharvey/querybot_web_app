@@ -15,16 +15,18 @@ type Plan = "monthly" | "yearly";
 
 type DiscountCodeModalGateProps = {
   delayMs?: number;
+  enabled?: boolean;
   storageKey: string;
 };
 
 export function DiscountCodeModalGate({
   delayMs = DISCOUNT_MODAL_DELAY_MS,
+  enabled: isEnabled = true,
   storageKey,
 }: DiscountCodeModalGateProps) {
   const { isLoading, isSubscribed, user } = useClerkUser();
   const enabled =
-    !isLoading && Boolean(user) && !isSubscribed;
+    isEnabled && !isLoading && Boolean(user) && !isSubscribed;
 
   const { handleSubscribe, isSubscribing } = useStripeSubscribe();
   const [checkoutError, setCheckoutError] = useState<string | null>(null);

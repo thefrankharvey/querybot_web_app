@@ -28,7 +28,11 @@ const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
   match_score: agent.normalized_score || null,
 });
 
-export const AgentMatchesFull = () => {
+export const AgentMatchesFull = ({
+  onWalkthroughActiveChange,
+}: {
+  onWalkthroughActiveChange?: (isActive: boolean) => void;
+}) => {
   const {
     matches,
     totalAgents,
@@ -207,6 +211,7 @@ export const AgentMatchesFull = () => {
         isSavingAll={isSavingAll}
         onSaveAgent={handleSaveAgent}
         savingAgentId={savingAgentId}
+        onWalkthroughActiveChange={onWalkthroughActiveChange}
       />
       <Pagination className="mt-8">
         <PaginationContent>
