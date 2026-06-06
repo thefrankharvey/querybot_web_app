@@ -31,6 +31,7 @@ export const AgentMatchCard = ({
     onSaveAgent,
     savingAgentId,
     tourTarget,
+    projectName,
 }: {
     agent: AgentMatch;
     isSubscribed?: boolean;
@@ -40,6 +41,7 @@ export const AgentMatchCard = ({
     onSaveAgent?: (payload: SaveAgentPayload) => void;
     savingAgentId?: string | null;
     tourTarget?: string;
+    projectName?: string;
 }) => {
     const { agentsList } = useProfileContext();
     const isDisabled = index >= 6 && !isSubscribed;
@@ -61,6 +63,7 @@ export const AgentMatchCard = ({
     const isAlreadySaved = Boolean(savedAgent);
     const savedProjectName =
         savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
+    const currentProjectName = projectName?.trim() || DEFAULT_PROJECT_NAME;
 
     const handleSaveClick = (e: React.MouseEvent) => {
         e.preventDefault();
@@ -133,7 +136,7 @@ export const AgentMatchCard = ({
                                         <TooltipComponent
                                             className="w-full"
                                             contentClass="text-left w-[200px]"
-                                            content="Save agent to your query dashboard"
+                                            content={`Save agent to your ${currentProjectName} dashboard`}
                                         >
                                             <div className="flex items-center justify-center gap-2">
                                                 {savingAgentId === agent.agent_id ? (

@@ -6,6 +6,10 @@ import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
 import { SaveAgentPayload } from "@/app/types";
 import { useProfileContext } from "../../context/profile-context";
+import {
+  getProjectDashboardHref,
+  normalizeProjectName,
+} from "@/app/utils/project-dashboard-summary";
 
 declare global {
   interface Window {
@@ -48,9 +52,24 @@ export const AgentMatchesPaywall = ({
     saveTotalAgents,
     projectName,
   } = useAgentMatches();
-  const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
+  const {
+    agentsList,
+    saveAgent,
+    saveAllAgents,
+    savingAgentId,
+    isSavingAll,
+  } = useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
   const nextCursor = QUERY_LIMIT;
+  const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const hasSavedAgentsForActiveProject =
+    activeProjectName.length > 0 &&
+    Boolean(
+      agentsList?.some(
+        (agent) =>
+          normalizeProjectName(agent.project_name) === activeProjectName
+      )
+    );
 
   const queryMutation = useMutation({
     mutationFn: async (params: {
@@ -159,6 +178,12 @@ export const AgentMatchesPaywall = ({
         onSaveAgent={handleSaveAgent}
         isSavingAll={isSavingAll}
         savingAgentId={savingAgentId}
+        projectName={activeProjectName}
+        projectDashboardHref={
+          hasSavedAgentsForActiveProject
+            ? getProjectDashboardHref(activeProjectName)
+            : undefined
+        }
         onWalkthroughActiveChange={onWalkthroughActiveChange}
       />
       <PayWall
