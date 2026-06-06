@@ -39,7 +39,7 @@ const ListItem = ({
   return (
     <div
       style={style}
-      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent/10"
+      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent hover:text-white"
       onClick={() => onItemSelect(option.value)}
     >
       <Check

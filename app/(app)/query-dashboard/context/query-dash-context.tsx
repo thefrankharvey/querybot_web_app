@@ -37,6 +37,7 @@ export interface QueryDashState {
   offerMadeCelebrationNonce: number;
   activeProjectName: string | null;
   isRenamingProject: boolean;
+  isDeletingProject: boolean;
 }
 
 export interface QueryDashActions {
@@ -50,6 +51,7 @@ export interface QueryDashActions {
   setFitRating: (cardId: string, rating: FitRating) => void;
   setProjectName: (cardId: string, projectName: string) => void;
   renameActiveProject: (newName: string) => Promise<void>;
+  deleteActiveProject: () => Promise<boolean>;
   setNotes: (cardId: string, notes: string) => void;
   getCardsForColumn: (columnId: string) => KanbanCardData[];
   findCardById: (cardId: string) => KanbanCardData | undefined;
@@ -127,7 +129,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
 }
 
 export function QueryDashProvider({ children }: { children: React.ReactNode }) {
-  const { isLoading, refetch } = useProfileContext();
+  const { isLoading, refetch, removeProject } = useProfileContext();
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -139,6 +141,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
   const [isHydratingFromServer, setIsHydratingFromServer] = useState(true);
   const [offerMadeCelebrationNonce, setOfferMadeCelebrationNonce] = useState(0);
   const [isRenamingProject, setIsRenamingProject] = useState(false);
+  const [isDeletingProject, setIsDeletingProject] = useState(false);
 
   const visibleCards = useMemo(
     () =>
@@ -437,6 +440,66 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     [activeProjectName, pathname, refetch, router]
   );
 
+  const deleteActiveProject = useCallback(async () => {
+    const projectName = activeProjectName;
+
+    if (!projectName) {
+      return false;
+    }
+
+    setIsDeletingProject(true);
+    try {
+      const response = await fetch("/api/agent-matches/delete-project", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ projectName }),
+      });
+
+      if (!response.ok) {
+        let errorMessage = "Failed to delete project";
+        try {
+          const errorData = (await response.json()) as { error?: string };
+          if (errorData?.error) {
+            errorMessage = errorData.error;
+          }
+        } catch {
+          // Ignore parse errors and use fallback message.
+        }
+        throw new Error(errorMessage);
+      }
+
+      setCards((prevCards) =>
+        prevCards.filter((card) => card.projectName !== projectName)
+      );
+      removeProject(projectName);
+
+      toast.success("Project deleted", {
+        description: "Saved agents for this project were removed.",
+      });
+
+      try {
+        await refetch();
+      } catch {
+        // The local cache has already been updated; the next profile load can refresh.
+      }
+
+      router.replace("/home");
+      return true;
+    } catch (error) {
+      toast.error("Failed to delete project", {
+        description:
+          error instanceof Error
+            ? error.message
+            : "Please try again in a moment.",
+      });
+      return false;
+    } finally {
+      setIsDeletingProject(false);
+    }
+  }, [activeProjectName, refetch, removeProject, router]);
+
   const setNotes = useCallback(
     (cardId: string, notes: string) => {
       const currentCard = cards.find((card) => card.id === cardId);
@@ -494,12 +557,14 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       offerMadeCelebrationNonce,
       activeProjectName,
       isRenamingProject,
+      isDeletingProject,
       moveCard,
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
       setProjectName,
       renameActiveProject,
+      deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,
@@ -514,12 +579,14 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       offerMadeCelebrationNonce,
       activeProjectName,
       isRenamingProject,
+      isDeletingProject,
       moveCard,
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
       setProjectName,
       renameActiveProject,
+      deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,

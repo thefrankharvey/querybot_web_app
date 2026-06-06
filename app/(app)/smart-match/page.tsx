@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
@@ -26,6 +26,8 @@ import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
+import { useProfileContext } from "../context/profile-context";
+import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
 
 const SmartMatchWalkthrough = dynamic(
   () =>
@@ -49,6 +51,7 @@ export type FormState = {
 
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
+  const { agentsList } = useProfileContext();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
     useAgentMatches();
@@ -68,6 +71,23 @@ const SmartMatch = () => {
     enable_ai: true,
     non_fiction: false,
   });
+  const projectNames = useMemo(
+    () => getProjectNamesFromAgentMatches(agentsList),
+    [agentsList]
+  );
+
+  const resolveSubmittedProjectName = (projectName: string) => {
+    const trimmedProjectName = projectName.trim();
+    if (!trimmedProjectName) return "";
+
+    return (
+      projectNames.find(
+        (name) =>
+          name.toLocaleLowerCase() ===
+          trimmedProjectName.toLocaleLowerCase()
+      ) ?? trimmedProjectName
+    );
+  };
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
@@ -130,7 +150,9 @@ const SmartMatch = () => {
     e.preventDefault();
     await resetForNewSearch();
 
-    if (!form.project_name.trim()) {
+    const submittedProjectName = resolveSubmittedProjectName(form.project_name);
+
+    if (!submittedProjectName) {
       setApiMessage("Project name required");
       return;
     }
@@ -156,7 +178,7 @@ const SmartMatch = () => {
       return;
     }
 
-    saveProjectName(form.project_name.trim());
+    saveProjectName(submittedProjectName);
     saveFormData(payload);
     saveStatusFilter("all");
     saveCountryFilter("all");
@@ -236,7 +258,11 @@ const SmartMatch = () => {
           <form onSubmit={handleSubmit}>
             <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
-              <ProjectName form={form} setForm={setForm} />
+              <ProjectName
+                form={form}
+                setForm={setForm}
+                projectNames={projectNames}
+              />
               <Genre
                 isWalkthroughGenreDropdownOpen={
                   activeWalkthroughStep === "genre-dropdown"

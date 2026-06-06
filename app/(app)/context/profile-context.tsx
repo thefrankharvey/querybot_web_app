@@ -11,6 +11,7 @@ import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
 import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
 import { toast } from "sonner";
+import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
 
 // Context type definition
 interface ProfileContextType {
@@ -21,6 +22,7 @@ interface ProfileContextType {
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => void;
+  removeProject: (projectName: string) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
   saveAllAgents: (payloads: SaveAgentPayload[]) => Promise<SaveAgentResponse | null>;
@@ -67,6 +69,24 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
             (agent) => agent.index_id !== agentId
+          ),
+        };
+      }
+    );
+  };
+
+  const removeProject = (projectName: string) => {
+    const normalizedProjectName = normalizeProjectName(projectName);
+
+    queryClient.setQueryData(
+      ["agent-matches"],
+      (oldData: { agent_matches: AgentMatch[] } | undefined) => {
+        if (!oldData) return oldData;
+        return {
+          ...oldData,
+          agent_matches: oldData.agent_matches.filter(
+            (agent) =>
+              normalizeProjectName(agent.project_name) !== normalizedProjectName
           ),
         };
       }
@@ -204,6 +224,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     refetch,
     addAgent,
     removeAgent,
+    removeProject,
     saveAgent,
     saveAllAgents,
     savingAgentId,

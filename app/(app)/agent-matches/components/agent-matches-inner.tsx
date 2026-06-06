@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, Heart } from "lucide-react";
+import { ArrowLeft, ExternalLink, FolderOpen, Heart } from "lucide-react";
 import { AgentMatch, SheetStatus } from "../../context/agent-matches-context";
 import AgentMatchCard from "./agent-match-card";
 import Link from "next/link";
@@ -29,6 +29,8 @@ export const AgentMatchesInner = ({
   isSavingAll,
   onSaveAgent,
   savingAgentId,
+  projectName,
+  projectDashboardHref,
   onWalkthroughActiveChange,
 }: {
   matches: AgentMatch[];
@@ -48,6 +50,8 @@ export const AgentMatchesInner = ({
   isSavingAll?: boolean;
   onSaveAgent?: (payload: SaveAgentPayload) => void;
   savingAgentId?: string | null;
+  projectName?: string;
+  projectDashboardHref?: string;
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
@@ -71,6 +75,29 @@ export const AgentMatchesInner = ({
       <h1 className="mb-5 text-3xl font-semibold leading-tight text-accent md:text-[32px] font-serif">
         {totalAgents ? `${totalAgents} Agent matches` : "Agent matches"}
       </h1>
+      {projectName && (
+        <div className="mb-5 flex flex-col gap-3 rounded-[24px] border border-accent/10 bg-white/70 px-4 py-3 text-accent shadow-[0_16px_34px_rgba(24,44,69,0.07)] backdrop-blur-sm md:flex-row md:items-center md:justify-between">
+          <div className="min-w-0">
+            <p className="text-sm font-medium text-accent/72">Active project</p>
+            <p className="truncate text-lg font-semibold text-accent">
+              {projectName}
+            </p>
+          </div>
+          {projectDashboardHref && (
+            <Button
+              asChild
+              variant="secondary"
+              size="sm"
+              className="w-full md:w-auto"
+            >
+              <Link href={projectDashboardHref}>
+                <FolderOpen data-icon="inline-start" />
+                View Dashboard
+              </Link>
+            </Button>
+          )}
+        </div>
+      )}
       <div>
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-4">
           <Link
@@ -213,6 +240,7 @@ export const AgentMatchesInner = ({
                 isSubscribed={isSubscribed}
                 isLoading={isLoading}
                 id={`agent-${index}`}
+                projectName={projectName}
                 tourTarget={
                   index === 0 ? "agent-results-first-card" : undefined
                 }
