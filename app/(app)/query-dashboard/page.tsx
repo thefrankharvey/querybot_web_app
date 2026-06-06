@@ -1,18 +1,20 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import Confetti from "react-confetti";
 import { LayoutDashboard } from "lucide-react";
 import { KanbanBoard } from "./components/kanban-board";
 import { KanbanMobile } from "./components/kanban-mobile";
 import { QueryDashProvider, useQueryDashContext } from "./context/query-dash-context";
+import { EditableProjectTitle } from "./components/editable-project-title";
 import { cn } from "@/app/utils";
 // import TypeForm from "@/app/components/type-form";
 
 const CONFETTI_DURATION_MS = 10000;
 
 function QueryDashboardContent() {
-  const { offerMadeCelebrationNonce, isEmpty, isLoading } = useQueryDashContext();
+  const { offerMadeCelebrationNonce, isEmpty, isLoading, activeProjectName } =
+    useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -74,7 +76,7 @@ function QueryDashboardContent() {
       )}
       {!isEmpty && !isLoading && <h1 className="ml-4 hidden items-center gap-2 text-xl font-semibold leading-tight text-accent md:flex md:text-[32px] font-serif">
         <LayoutDashboard className="w-10 h-10" />
-        Query Dashboard
+        <EditableProjectTitle projectName={activeProjectName ?? ""} />
       </h1>}
       {/* Desktop view */}
       <div className="hidden md:block">
@@ -90,9 +92,11 @@ function QueryDashboardContent() {
 
 export default function QueryDashboardPage() {
   return (
-    <QueryDashProvider>
-      <QueryDashboardContent />
-      {/* <TypeForm id="xZn6IEXK" /> */}
-    </QueryDashProvider>
+    <Suspense fallback={null}>
+      <QueryDashProvider>
+        <QueryDashboardContent />
+        {/* <TypeForm id="xZn6IEXK" /> */}
+      </QueryDashProvider>
+    </Suspense>
   );
 }

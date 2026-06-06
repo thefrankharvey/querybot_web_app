@@ -9,6 +9,7 @@ import {
   FitRatingBadge,
   type FitRating,
 } from "@/app/components/fit-rating-badge";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -199,7 +200,7 @@ export function KanbanCard({
       <div className="mt-2 flex flex-wrap gap-2">
         <FitRatingBadge rating={card.fitRating} />
         <span className="inline-block rounded-full border border-accent/12 bg-white/85 px-2 py-0.5 text-xs font-medium text-accent">
-          {card.projectName?.trim() || "My Project"}
+          {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
         </span>
       </div>
     </>

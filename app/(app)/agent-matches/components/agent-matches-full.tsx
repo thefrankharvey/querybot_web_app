@@ -52,6 +52,7 @@ export const AgentMatchesFull = ({
     startSpreadsheetPolling,
     saveSpreadsheetUrl,
     saveTotalAgents,
+    projectName,
   } = useAgentMatches();
 
   const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
@@ -184,11 +185,14 @@ export const AgentMatchesFull = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent(payload);
+    saveAgent({ ...payload, project_name: projectName || null });
   };
 
   const handleSaveAllAgents = () => {
-    const payloads = matches.map(mapAgentToPayload);
+    const payloads = matches.map((agent) => ({
+      ...mapAgentToPayload(agent),
+      project_name: projectName || null,
+    }));
     saveAllAgents(payloads);
   };
 

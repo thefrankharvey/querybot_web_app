@@ -1,6 +1,12 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
 import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
@@ -31,6 +37,26 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const [isSavingAll, setIsSavingAll] = useState(false);
 
   const agentsList = data?.agent_matches;
+
+  const hasRunBackfillRef = useRef(false);
+  useEffect(() => {
+    if (hasRunBackfillRef.current || !agentsList?.length) return;
+    const needsBackfill = agentsList.some(
+      (a) => !a.project_name || a.project_name.trim() === ""
+    );
+    if (!needsBackfill) return;
+    hasRunBackfillRef.current = true;
+    (async () => {
+      try {
+        const res = await fetch("/api/agent-matches/backfill-project-name", {
+          method: "POST",
+        });
+        if (res.ok) await refetch();
+      } catch {
+        hasRunBackfillRef.current = false; // allow retry on next load
+      }
+    })();
+  }, [agentsList, refetch]);
 
   const removeAgent = (agentId: string) => {
     queryClient.setQueryData(

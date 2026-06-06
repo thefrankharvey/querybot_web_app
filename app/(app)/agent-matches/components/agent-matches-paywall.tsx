@@ -46,6 +46,7 @@ export const AgentMatchesPaywall = ({
     spreadsheetUrl,
     sheetStatus,
     saveTotalAgents,
+    projectName,
   } = useAgentMatches();
   const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
@@ -127,11 +128,14 @@ export const AgentMatchesPaywall = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent(payload);
+    saveAgent({ ...payload, project_name: projectName || null });
   };
 
   const handleSaveAllAgents = () => {
-    const payloads = matches.map(mapAgentToPayload);
+    const payloads = matches.map((agent) => ({
+      ...mapAgentToPayload(agent),
+      project_name: projectName || null,
+    }));
     saveAllAgents(payloads);
   };
 

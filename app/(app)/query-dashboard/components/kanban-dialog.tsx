@@ -25,9 +25,9 @@ import {
 } from "@/app/components/fit-rating-badge";
 import { KanbanNotes } from "./kanban-notes";
 import { KanbanDialogTools } from "./kanban-dialog-tools";
-import { Input } from "@/app/ui-primitives/input";
 import { KanbanLinkButtons } from "./kanban-link-buttons";
 import { Circle, CircleCheckBigIcon, X } from "lucide-react";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -74,7 +74,6 @@ interface KanbanDialogProps {
   onOpenChange: (open: boolean) => void;
   onTogglePrepQuery: (cardId: string) => void;
   onFitRatingChange: (cardId: string, rating: FitRating) => void;
-  onProjectNameChange: (cardId: string, projectName: string) => void;
   onNotesSave: (cardId: string, notes: string) => void;
   onMoveCard: (cardId: string, columnId: string) => void;
   tourModalActive?: boolean;
@@ -87,7 +86,6 @@ export function KanbanDialog({
   onOpenChange,
   onTogglePrepQuery,
   onFitRatingChange,
-  onProjectNameChange,
   onNotesSave,
   onMoveCard,
   tourModalActive = false,
@@ -262,16 +260,9 @@ export function KanbanDialog({
               <label className="text-sm font-semibold text-gray-700">
                 Project Name
               </label>
-              <Input
-                className="w-full md:w-[330px] border border-accent/30 hover:border-accent/70 transition-all duration-300"
-                maxLength={70}
-                value={card.projectName ?? "My Project"}
-                placeholder="My Project"
-                onChange={(e) => onProjectNameChange(card.id, e.target.value)}
-              />
-              {(card.projectName ?? "My Project").length >= 70 && (
-                <p className="text-red-500 text-sm">max characters reached</p>
-              )}
+              <span className="text-sm text-gray-600">
+                {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
+              </span>
             </div>
           </div>
 

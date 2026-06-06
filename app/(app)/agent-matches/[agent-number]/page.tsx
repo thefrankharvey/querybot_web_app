@@ -21,6 +21,7 @@ import AgentContactDetails from "@/app/components/agent-contact-details";
 import { Button } from "@/app/ui-primitives/button";
 import { useProfileContext } from "../../context/profile-context";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 // import TypeForm from "@/app/components/type-form";
 import { RemoveAgent } from "@/app/(app)/query-dashboard/components/remove-agent";
 import {
@@ -71,6 +72,8 @@ const AgentProfile = () => {
     (savedMatch) => savedMatch.index_id === agent.agent_id
   );
   const isAlreadySaved = Boolean(savedAgent);
+  const savedProjectName =
+    savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
   const fitRating = getFitRatingFromScore(agent.normalized_score);
 
   const handleSaveAgent = async () => {
@@ -83,6 +86,7 @@ const AgentProfile = () => {
       query_tracker: agent.querytracker || null,
       pub_marketplace: agent.pubmarketplace || null,
       match_score: agent.normalized_score || null,
+      project_name: matchesContext.projectName || null,
     };
     await saveAgent(payload);
   };
@@ -141,6 +145,15 @@ const AgentProfile = () => {
                   <FitRatingBadge rating={fitRating} variant="agent" />
                 </div>
               </TooltipComponent>
+              {isAlreadySaved && (
+                <p className="text-lg font-medium text-accent/72 md:text-right mt-4">
+                  Agent saved to:{" "}
+                  <br />
+                  <span className="font-semibold text-accent">
+                    {savedProjectName}
+                  </span>
+                </p>
+              )}
             </div>
           </div>
           <AgentContactDetails agent={agent} isSubscribed={agentIndex < 6 || isSubscribed} />

@@ -18,6 +18,7 @@ import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
 import Format from "./components/format";
+import ProjectName from "./components/project-name";
 import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -35,6 +36,7 @@ const SmartMatchWalkthrough = dynamic(
 );
 
 export type FormState = {
+  project_name: string;
   genre: string;
   subgenres: string[];
   format: string;
@@ -48,7 +50,7 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const [activeWalkthroughStep, setActiveWalkthroughStep] =
@@ -56,6 +58,7 @@ const SmartMatch = () => {
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
+    project_name: "",
     genre: "",
     subgenres: [],
     format: "",
@@ -126,6 +129,12 @@ const SmartMatch = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     await resetForNewSearch();
+
+    if (!form.project_name.trim()) {
+      setApiMessage("Project name required");
+      return;
+    }
+
     const comps = formatComps(form.comps);
 
     const payload = {
@@ -147,6 +156,7 @@ const SmartMatch = () => {
       return;
     }
 
+    saveProjectName(form.project_name.trim());
     saveFormData(payload);
     saveStatusFilter("all");
     saveCountryFilter("all");
@@ -226,6 +236,7 @@ const SmartMatch = () => {
           <form onSubmit={handleSubmit}>
             <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
+              <ProjectName form={form} setForm={setForm} />
               <Genre
                 isWalkthroughGenreDropdownOpen={
                   activeWalkthroughStep === "genre-dropdown"

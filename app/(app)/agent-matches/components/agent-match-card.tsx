@@ -16,7 +16,7 @@ import { Heart } from "lucide-react";
 import { normalizeAndDedup } from "@/app/utils/string-utils";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { SaveAgentPayload } from "@/app/types";
-import { ALL_COUNTRY_FLAG_LABELS } from "@/app/constants";
+import { ALL_COUNTRY_FLAG_LABELS, DEFAULT_PROJECT_NAME } from "@/app/constants";
 import {
     FitRatingBadge,
     getFitRatingFromScore,
@@ -57,7 +57,10 @@ export const AgentMatchCard = ({
     ];
     const dedupedThemeMatches = normalizeAndDedup(themeMatches);
 
-    const isAlreadySaved = agentsList?.some((a) => a.index_id === agent.agent_id);
+    const savedAgent = agentsList?.find((a) => a.index_id === agent.agent_id);
+    const isAlreadySaved = Boolean(savedAgent);
+    const savedProjectName =
+        savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
 
     const handleSaveClick = (e: React.MouseEvent) => {
         e.preventDefault();
@@ -114,10 +117,17 @@ export const AgentMatchCard = ({
                                     </div>
                                 </TooltipComponent>
                             ) : (
-                                agentsList && agentsList?.find(
-                                    (a) => a.index_id === agent.agent_id,
-                                ) ? (
-                                    <Heart className="w-7 h-7 fill-[#1D4A4E] text-[#1D4A4E]" />
+                                savedAgent ? (
+                                    <TooltipComponent
+                                        asChild
+                                        className="inline-flex"
+                                        contentClass="text-left w-[220px]"
+                                        content={`agent saved for ${savedProjectName}`}
+                                    >
+                                        <span tabIndex={0}>
+                                            <Heart className="w-7 h-7 fill-[#1D4A4E] text-[#1D4A4E]" />
+                                        </span>
+                                    </TooltipComponent>
                                 ) :
                                     (<div onClick={handleSaveClick}>
                                         <TooltipComponent

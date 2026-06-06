@@ -83,6 +83,7 @@ const QUERY_KEYS = {
   spreadsheetUrl: ["spreadsheetUrl"] as const,
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
+  projectName: ["projectName"] as const,
 };
 
 const STORAGE_KEYS = {
@@ -94,6 +95,7 @@ const STORAGE_KEYS = {
   spreadsheetUrl: "spreadsheet_url",
   statusFilter: "status_filter",
   countryFilter: "country_filter",
+  projectName: "project_name",
 };
 
 function canUseStorage() {
@@ -183,6 +185,13 @@ const useAgentData = () => {
     queryFn: async (): Promise<string> =>
       readJSON<string>(STORAGE_KEYS.countryFilter) ?? "all",
     initialData: () => readJSON<string>(STORAGE_KEYS.countryFilter) ?? "all",
+  });
+
+  const { data: projectName = "" } = useQuery({
+    queryKey: QUERY_KEYS.projectName,
+    queryFn: async (): Promise<string> =>
+      readJSON<string>(STORAGE_KEYS.projectName) ?? "",
+    initialData: () => readJSON<string>(STORAGE_KEYS.projectName) ?? "",
   });
 
   // ✅ Key fix: if we're pending and the URL arrives (from any source), mark ready
@@ -285,6 +294,17 @@ const useAgentData = () => {
     },
   });
 
+  const saveProjectNameMutation = useMutation({
+    mutationFn: async (name: string) => {
+      writeJSON(STORAGE_KEYS.projectName, name);
+      return name;
+    },
+    onMutate: async (name) => {
+      await queryClient.cancelQueries({ queryKey: QUERY_KEYS.projectName });
+      queryClient.setQueryData<string>(QUERY_KEYS.projectName, name);
+    },
+  });
+
   // ✅ Worker-tied API: status changes are guaranteed here
   const startSpreadsheetPolling = (taskId: string) => {
     setSheetTaskId(taskId);
@@ -338,6 +358,7 @@ const useAgentData = () => {
     removeKey(STORAGE_KEYS.currentCursor);
     removeKey(STORAGE_KEYS.totalAgents);
     removeKey(STORAGE_KEYS.spreadsheetUrl);
+    removeKey(STORAGE_KEYS.projectName);
     // keep or clear formData depending on your UX:
     // removeKey(STORAGE_KEYS.formData);
 
@@ -350,6 +371,7 @@ const useAgentData = () => {
     queryClient.setQueryData<number>(QUERY_KEYS.currentCursor, 0);
     queryClient.setQueryData<number | null>(QUERY_KEYS.totalAgents, null);
     queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, null);
+    queryClient.setQueryData<string>(QUERY_KEYS.projectName, "");
 
     // If you clear statusFilter in storage, also reset it here:
     // queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, "all");
@@ -371,6 +393,7 @@ const useAgentData = () => {
     spreadsheetUrl,
     statusFilter,
     countryFilter,
+    projectName,
     sheetTaskId,
     isLoading,
 
@@ -385,6 +408,7 @@ const useAgentData = () => {
     saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
+    saveProjectName: (name: string) => saveProjectNameMutation.mutate(name),
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
 
     startSpreadsheetPolling,
@@ -401,6 +425,7 @@ interface MatchesContextType {
   totalAgents: number | null;
   statusFilter: string;
   countryFilter: string;
+  projectName: string;
   sheetTaskId: string | null;
   isLoading: boolean;
 
@@ -415,6 +440,7 @@ interface MatchesContextType {
   saveSpreadsheetUrl: (url: string | null) => void;
   saveStatusFilter: (status: string) => void;
   saveCountryFilter: (country: string) => void;
+  saveProjectName: (name: string) => void;
   saveSheetTaskId: (taskId: string | null) => void;
 
   startSpreadsheetPolling: (taskId: string) => void;
@@ -461,6 +487,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       spreadsheetUrl: data.spreadsheetUrl,
       statusFilter: data.statusFilter,
       countryFilter: data.countryFilter,
+      projectName: data.projectName,
       sheetTaskId: data.sheetTaskId,
       isLoading: data.isLoading,
 
@@ -475,6 +502,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveSpreadsheetUrl: data.saveSpreadsheetUrl,
       saveStatusFilter: data.saveStatusFilter,
       saveCountryFilter: data.saveCountryFilter,
+      saveProjectName: data.saveProjectName,
       saveSheetTaskId: data.saveSheetTaskId,
 
       startSpreadsheetPolling: data.startSpreadsheetPolling,
@@ -491,6 +519,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.spreadsheetUrl,
       data.statusFilter,
       data.countryFilter,
+      data.projectName,
       data.sheetTaskId,
       data.isLoading,
       data.sheetStatus,
@@ -503,6 +532,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveSpreadsheetUrl,
       data.saveStatusFilter,
       data.saveCountryFilter,
+      data.saveProjectName,
       data.saveSheetTaskId,
       data.startSpreadsheetPolling,
       data.stopSpreadsheetPolling,
