@@ -40,7 +40,6 @@ export function KanbanMobile() {
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
-    setProjectName,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -142,14 +141,6 @@ export function KanbanMobile() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
-    }
-  };
-
-  const handleProjectNameChange = (cardId: string, projectName: string) => {
-    setProjectName(cardId, projectName);
-
-    if (selectedCard?.id === cardId) {
-      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -371,7 +362,6 @@ export function KanbanMobile() {
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
-        onProjectNameChange={handleProjectNameChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
       />

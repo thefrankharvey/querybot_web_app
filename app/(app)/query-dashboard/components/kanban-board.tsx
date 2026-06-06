@@ -41,11 +41,11 @@ export function KanbanBoard() {
     cards,
     isLoading,
     isEmpty,
+    isRenamingProject,
     moveCard,
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
-    setProjectName,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -130,7 +130,7 @@ export function KanbanBoard() {
     })
   );
 
-  if (isLoading) {
+  if (isLoading || isRenamingProject) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
         <Spinner className="size-16" />
@@ -185,14 +185,6 @@ export function KanbanBoard() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
-    }
-  };
-
-  const handleProjectNameChange = (cardId: string, projectName: string) => {
-    setProjectName(cardId, projectName);
-
-    if (selectedCard?.id === cardId) {
-      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -305,7 +297,6 @@ export function KanbanBoard() {
         onOpenChange={handleDialogOpenChange}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
-        onProjectNameChange={handleProjectNameChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
         tourModalActive={isModalTourStep}
