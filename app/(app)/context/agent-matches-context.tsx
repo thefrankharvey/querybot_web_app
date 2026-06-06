@@ -1,6 +1,13 @@
 "use client";
 
-import React, { createContext, useContext, useMemo, useState, useEffect } from "react";
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useState,
+  useEffect,
+} from "react";
 import {
   QueryClient,
   QueryClientProvider,
@@ -294,16 +301,29 @@ const useAgentData = () => {
     },
   });
 
-  const saveProjectNameMutation = useMutation({
-    mutationFn: async (name: string) => {
+  const saveProjectName = useCallback(
+    (name: string) => {
       writeJSON(STORAGE_KEYS.projectName, name);
-      return name;
-    },
-    onMutate: async (name) => {
-      await queryClient.cancelQueries({ queryKey: QUERY_KEYS.projectName });
       queryClient.setQueryData<string>(QUERY_KEYS.projectName, name);
     },
-  });
+    [queryClient]
+  );
+
+  const renameSavedProjectName = useCallback(
+    (oldName: string, newName: string) => {
+      const storedProjectName =
+        readJSON<string>(STORAGE_KEYS.projectName) ?? projectName;
+      const normalizedStoredProjectName = storedProjectName.trim();
+
+      if (!normalizedStoredProjectName || normalizedStoredProjectName !== oldName) {
+        return false;
+      }
+
+      saveProjectName(newName);
+      return true;
+    },
+    [projectName, saveProjectName]
+  );
 
   // ✅ Worker-tied API: status changes are guaranteed here
   const startSpreadsheetPolling = (taskId: string) => {
@@ -408,7 +428,8 @@ const useAgentData = () => {
     saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
-    saveProjectName: (name: string) => saveProjectNameMutation.mutate(name),
+    saveProjectName,
+    renameSavedProjectName,
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
 
     startSpreadsheetPolling,
@@ -441,6 +462,7 @@ interface MatchesContextType {
   saveStatusFilter: (status: string) => void;
   saveCountryFilter: (country: string) => void;
   saveProjectName: (name: string) => void;
+  renameSavedProjectName: (oldName: string, newName: string) => boolean;
   saveSheetTaskId: (taskId: string | null) => void;
 
   startSpreadsheetPolling: (taskId: string) => void;
@@ -503,6 +525,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveStatusFilter: data.saveStatusFilter,
       saveCountryFilter: data.saveCountryFilter,
       saveProjectName: data.saveProjectName,
+      renameSavedProjectName: data.renameSavedProjectName,
       saveSheetTaskId: data.saveSheetTaskId,
 
       startSpreadsheetPolling: data.startSpreadsheetPolling,
@@ -533,6 +556,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveStatusFilter,
       data.saveCountryFilter,
       data.saveProjectName,
+      data.renameSavedProjectName,
       data.saveSheetTaskId,
       data.startSpreadsheetPolling,
       data.stopSpreadsheetPolling,

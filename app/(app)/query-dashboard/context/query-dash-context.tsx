@@ -11,6 +11,7 @@ import {
 import { arrayMove } from "@dnd-kit/sortable";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
+import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import type { AgentMatch, UpdateAgentPayload } from "@/app/types";
 import { toast } from "sonner";
 import {
@@ -130,6 +131,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
 
 export function QueryDashProvider({ children }: { children: React.ReactNode }) {
   const { isLoading, refetch, removeProject } = useProfileContext();
+  const { renameSavedProjectName } = useAgentMatches();
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -422,6 +424,8 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
             throw new Error(errorMessage);
           }
 
+          renameSavedProjectName(oldName, trimmedNewName);
+
           router.replace(`${pathname}?project=${encodeURIComponent(trimmedNewName)}`);
           await refetch();
         } catch (error) {
@@ -437,7 +441,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         setIsRenamingProject(false);
       }
     },
-    [activeProjectName, pathname, refetch, router]
+    [activeProjectName, pathname, refetch, renameSavedProjectName, router]
   );
 
   const deleteActiveProject = useCallback(async () => {
