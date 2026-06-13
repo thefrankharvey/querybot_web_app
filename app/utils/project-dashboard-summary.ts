@@ -3,7 +3,7 @@ import {
   QUERY_DASH_COLUMNS,
   isQueryDashColumnId,
   type QueryDashColumnId,
-} from "@/app/(app)/query-dashboard/components/kanban-config";
+} from "@/app/(writer-app)/query-dashboard/components/kanban-config";
 import type { AgentMatch } from "@/app/types";
 
 const FALLBACK_COLUMN_ID = QUERY_DASH_COLUMNS[0].id;

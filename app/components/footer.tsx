@@ -18,7 +18,8 @@ const Footer = () => {
   if (
     pathname.includes("query-dashboard") ||
     pathname.startsWith("/sign-in") ||
-    pathname.startsWith("/sign-up")
+    pathname.startsWith("/sign-up") ||
+    pathname.startsWith("/literary-agents")
   ) {
     return null;
   }

@@ -12,14 +12,35 @@ const protectedRoutePrefixes = [
   "/subscribe",
 ];
 
+function isLiteraryAgentAuthRoute(pathname: string) {
+  return (
+    pathname === "/literary-agents/sign-in" ||
+    pathname.startsWith("/literary-agents/sign-in/") ||
+    pathname === "/literary-agents/sign-up" ||
+    pathname.startsWith("/literary-agents/sign-up/")
+  );
+}
+
+function isProtectedLiteraryAgentRoute(pathname: string) {
+  return (
+    (pathname === "/literary-agents" ||
+      pathname.startsWith("/literary-agents/")) &&
+    !isLiteraryAgentAuthRoute(pathname)
+  );
+}
+
 function isProtectedRoute(pathname: string) {
   return protectedRoutePrefixes.some(
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
   );
 }
 
-function buildSignInRedirect(req: Request, redirectPath: string) {
-  const signInUrl = new URL("/sign-in", req.url);
+function buildSignInRedirect(
+  req: Request,
+  redirectPath: string,
+  signInPath = "/sign-in"
+) {
+  const signInUrl = new URL(signInPath, req.url);
   signInUrl.searchParams.set("redirect_url", redirectPath);
   return NextResponse.redirect(signInUrl);
 }
@@ -46,6 +67,15 @@ export default clerkMiddleware(async (auth, req) => {
     return buildSignInRedirect(req, redirectPath);
   }
 
+  if (isProtectedLiteraryAgentRoute(pathname) && !userId) {
+    const redirectPath = `${pathname}${req.nextUrl.search}`;
+    return buildSignInRedirect(
+      req,
+      redirectPath,
+      "/literary-agents/sign-in"
+    );
+  }
+
   // Check if this looks like a blog post slug (not an existing app route)
   const isBlogPost =
     pathname.startsWith("/slushwire-") ||
@@ -64,6 +94,7 @@ export default clerkMiddleware(async (auth, req) => {
       !pathname.startsWith("/dispatch") &&
       !pathname.startsWith("/about") &&
       !pathname.startsWith("/legal") &&
+      !pathname.startsWith("/literary-agents") &&
       !pathname.startsWith("/thank-you") &&
       !pathname.includes(".") &&
       pathname.split("/").length === 2);

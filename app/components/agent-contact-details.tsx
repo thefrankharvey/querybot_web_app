@@ -1,6 +1,6 @@
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import TooltipComponent from "@/app/components/tooltip";
-import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
+import { AgentMatch } from "@/app/(writer-app)/context/agent-matches-context";
 import { formatEmail, urlFormatter } from "@/app/utils";
 import React from "react";
 import Link from "next/link";

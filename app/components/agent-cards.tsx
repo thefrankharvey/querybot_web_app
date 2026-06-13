@@ -7,10 +7,10 @@ import {
   formatGenres,
   capitalizeFirstCharacter,
 } from "../utils";
-import { AgentMatch } from "../(app)/context/agent-matches-context";
+import { AgentMatch } from "../(writer-app)/context/agent-matches-context";
 import { Skeleton } from "../ui-primitives/skeleton";
 import TooltipComponent from "./tooltip";
-import { useProfileContext } from "../(app)/context/profile-context";
+import { useProfileContext } from "../(writer-app)/context/profile-context";
 import { Heart } from "lucide-react";
 import {
   FitRatingBadge,

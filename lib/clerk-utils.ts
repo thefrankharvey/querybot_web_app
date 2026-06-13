@@ -57,6 +57,60 @@ export async function updateUserSubscriptionStatus(
   }
 }
 
+export async function syncAgentMetadataToClerk(
+  userId: string,
+  agentId: string,
+) {
+  try {
+    await clerkClient.users.updateUserMetadata(userId, {
+      publicMetadata: {
+        accountType: "agent",
+        isAgent: true,
+        agentId,
+      },
+    });
+
+    return {
+      success: true,
+    };
+  } catch (error) {
+    console.error(
+      `[clerk-utils] Failed to update agent metadata for user ${userId}:`,
+      error,
+    );
+    return {
+      success: false,
+      error:
+        error instanceof Error ? error.message : "Failed to sync agent data",
+    };
+  }
+}
+
+export async function syncWriterMetadataToClerk(userId: string) {
+  try {
+    await clerkClient.users.updateUserMetadata(userId, {
+      publicMetadata: {
+        accountType: "writer",
+        isAgent: false,
+      },
+    });
+
+    return {
+      success: true,
+    };
+  } catch (error) {
+    console.error(
+      `[clerk-utils] Failed to update writer metadata for user ${userId}:`,
+      error,
+    );
+    return {
+      success: false,
+      error:
+        error instanceof Error ? error.message : "Failed to sync writer data",
+    };
+  }
+}
+
 export async function deleteUserAccount(userId: string) {
   try {
     await clerkClient.users.deleteUser(userId);

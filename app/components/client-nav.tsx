@@ -47,7 +47,12 @@ const ClientNav = () => {
     };
   }, [scrolled]);
 
-  if (pathname.startsWith("/sign-in") || pathname.startsWith("/sign-up")) {
+  if (
+    pathname.startsWith("/sign-in") ||
+    pathname.startsWith("/sign-up") ||
+    pathname.startsWith("/literary-agents/sign-in") ||
+    pathname.startsWith("/literary-agents/sign-up")
+  ) {
     return null;
   }
 

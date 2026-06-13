@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Circle, CircleCheckBigIcon, SquarePen } from "lucide-react";
 import { motion } from "framer-motion";
 import QueryDashMockDialog from "./query-dash-mock-dialog";
-import DotIndicators from "@/app/(app)/query-dashboard/components/dot-indicators";
+import DotIndicators from "@/app/(writer-app)/query-dashboard/components/dot-indicators";
 
 export type MockColumn = {
   id: string;

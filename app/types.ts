@@ -74,10 +74,20 @@ export type ClerkEmailAddress = {
 };
 
 export type ClerkUserEventData = {
+  id?: string;
   primary_email_address_id?: string | null;
   email_addresses?: ClerkEmailAddress[];
   public_metadata?: {
+    accountType?: "writer" | "agent";
     isSubscribed?: boolean;
+    isAgent?: boolean;
+    agentId?: string;
+    [key: string]: unknown;
+  };
+  unsafe_metadata?: {
+    accountType?: "writer" | "agent";
+    isAgent?: boolean;
+    agentId?: string;
     [key: string]: unknown;
   };
 };

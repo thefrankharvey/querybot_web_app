@@ -7,6 +7,7 @@ import { BrandLockup } from "@/app/components/brand-lockup";
 import HomeContentShell from "../(home)/components/home-content-shell";
 
 type AuthPageShellProps = {
+  eyebrow?: string;
   title: string;
   description: string;
   proofItems?: string[];
@@ -17,6 +18,7 @@ type AuthPageShellProps = {
 };
 
 export function AuthPageShell({
+  eyebrow = "Writer workflow",
   title,
   description,
   proofItems,
@@ -52,7 +54,7 @@ export function AuthPageShell({
           <div className="grid w-full items-center gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(420px,520px)] lg:gap-16">
             <div className="mx-auto flex w-full max-w-xl flex-col items-center text-center lg:mx-0 lg:items-start lg:text-left">
               <span className="rounded-full border border-accent/10 bg-white/80 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-accent/65 shadow-[0_12px_32px_rgba(24,44,69,0.06)] backdrop-blur-sm">
-                Writer workflow
+                {eyebrow}
               </span>
 
               <h1 className="mt-6 font-serif text-4xl leading-tight text-accent md:text-5xl">

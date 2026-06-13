@@ -12,6 +12,10 @@ import {
   KitTagsResponse,
 } from "@/app/types";
 import { KIT_SUBSCRIBER_TAGS } from "@/app/constants";
+import {
+  syncAgentMetadataToClerk,
+  syncWriterMetadataToClerk,
+} from "@/lib/clerk-utils";
 
 // Lightweight fetch helper with AbortController timeouts to prevent webhook hangs
 const DEFAULT_KIT_TIMEOUT_MS = 2500;
@@ -63,6 +67,96 @@ function hasEmailShape(data: unknown): data is ClerkUserEventData {
   const obj = data as Record<string, unknown>;
   const emails = obj["email_addresses"];
   return Array.isArray(emails);
+}
+
+function getAgentId(value: unknown) {
+  return typeof value === "string" && value.length > 0 ? value : null;
+}
+
+function isAgentAccountEvent(data: ClerkUserEventData): boolean {
+  return (
+    data.public_metadata?.accountType === "agent" ||
+    data.public_metadata?.isAgent === true ||
+    (data.public_metadata?.accountType !== "writer" &&
+      data.unsafe_metadata?.accountType === "agent")
+  );
+}
+
+function shouldPromoteAgentMetadata(data: ClerkUserEventData): boolean {
+  const agentId = getAgentId(data.unsafe_metadata?.agentId);
+
+  if (
+    data.public_metadata?.accountType === "writer" ||
+    data.unsafe_metadata?.accountType !== "agent" ||
+    !agentId
+  ) {
+    return false;
+  }
+
+  return (
+    data.public_metadata?.accountType !== "agent" ||
+    data.public_metadata?.isAgent !== true ||
+    data.public_metadata?.agentId !== agentId
+  );
+}
+
+async function syncAgentMetadataFromClerkEvent(
+  data: ClerkUserEventData
+): Promise<void> {
+  const agentId = getAgentId(data.unsafe_metadata?.agentId);
+
+  if (!agentId || !shouldPromoteAgentMetadata(data)) return;
+
+  if (!data.id) {
+    console.error("[clerk-webhook] Agent user event missing Clerk user id", {
+      agentId,
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
+
+  const result = await syncAgentMetadataToClerk(data.id, agentId);
+
+  if (!result.success) {
+    console.error("[clerk-webhook] Failed to promote agent metadata", {
+      userId: data.id,
+      agentId,
+      error: result.error,
+      timestamp: new Date().toISOString(),
+    });
+  }
+}
+
+function shouldPromoteWriterMetadata(data: ClerkUserEventData): boolean {
+  return (
+    data.unsafe_metadata?.accountType === "writer" &&
+    data.public_metadata?.accountType !== "agent" &&
+    data.public_metadata?.isAgent !== true &&
+    data.public_metadata?.accountType !== "writer"
+  );
+}
+
+async function syncWriterMetadataFromClerkEvent(
+  data: ClerkUserEventData
+): Promise<void> {
+  if (!shouldPromoteWriterMetadata(data)) return;
+
+  if (!data.id) {
+    console.error("[clerk-webhook] Writer user event missing Clerk user id", {
+      timestamp: new Date().toISOString(),
+    });
+    return;
+  }
+
+  const result = await syncWriterMetadataToClerk(data.id);
+
+  if (!result.success) {
+    console.error("[clerk-webhook] Failed to promote writer metadata", {
+      userId: data.id,
+      error: result.error,
+      timestamp: new Date().toISOString(),
+    });
+  }
 }
 
 async function kitUpsertSubscriberByEmail(
@@ -396,15 +490,25 @@ export async function POST(req: NextRequest) {
     const { type, data } = evt;
 
     const kitApiKey = process.env.KIT_API_KEY;
-    if (!kitApiKey) {
-      return NextResponse.json(
-        { error: "Server misconfigured: missing KIT_API_KEY" },
-        { status: 500 }
-      );
-    }
 
     switch (type) {
       case "user.created": {
+        const userData = data as ClerkUserEventData;
+
+        if (isAgentAccountEvent(userData)) {
+          await syncAgentMetadataFromClerkEvent(userData);
+          break;
+        }
+
+        await syncWriterMetadataFromClerkEvent(userData);
+
+        if (!kitApiKey) {
+          return NextResponse.json(
+            { error: "Server misconfigured: missing KIT_API_KEY" },
+            { status: 500 }
+          );
+        }
+
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {
@@ -421,6 +525,22 @@ export async function POST(req: NextRequest) {
         break;
       }
       case "user.updated": {
+        const userData = data as ClerkUserEventData;
+
+        if (isAgentAccountEvent(userData)) {
+          await syncAgentMetadataFromClerkEvent(userData);
+          break;
+        }
+
+        await syncWriterMetadataFromClerkEvent(userData);
+
+        if (!kitApiKey) {
+          return NextResponse.json(
+            { error: "Server misconfigured: missing KIT_API_KEY" },
+            { status: 500 }
+          );
+        }
+
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {
@@ -467,6 +587,19 @@ export async function POST(req: NextRequest) {
         break;
       }
       case "user.deleted": {
+        const userData = data as ClerkUserEventData;
+
+        if (isAgentAccountEvent(userData)) {
+          break;
+        }
+
+        if (!kitApiKey) {
+          return NextResponse.json(
+            { error: "Server misconfigured: missing KIT_API_KEY" },
+            { status: 500 }
+          );
+        }
+
         if (hasEmailShape(data)) {
           const emailAddress = getPrimaryEmailAddress(data);
           if (emailAddress) {

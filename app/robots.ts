@@ -15,6 +15,7 @@ export default function robots(): MetadataRoute.Robots {
         "/preview/",
         "/sign-in",
         "/sign-up",
+        "/literary-agents",
         "/home",
         "/account",
         "/subscribe",

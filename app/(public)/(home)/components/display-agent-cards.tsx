@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
+import { AgentMatch } from "@/app/(writer-app)/context/agent-matches-context";
 import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
 import TooltipComponent from "@/app/components/tooltip";
