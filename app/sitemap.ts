@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
-import { SITE_URL, absoluteUrl } from "@/lib/seo";
-import { buildCanonicalUrlForPost, getRecentPosts } from "@/lib/wp";
+import { absoluteUrl } from "@/lib/seo";
+import { getPublishedPosts } from "@/lib/blog-posts";
 
 type ChangeFrequency = NonNullable<
   MetadataRoute.Sitemap[number]["changeFrequency"]
@@ -34,26 +34,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: entry.priority,
   }));
 
-  let blogEntries: MetadataRoute.Sitemap = [];
-  try {
-    const posts = await getRecentPosts(200);
-    blogEntries = posts
-      .filter((post) => Boolean(post.slug))
-      .map((post) => ({
-        url: buildCanonicalUrlForPost(post.slug) || absoluteUrl(`/blog/${post.slug}`),
-        lastModified: post.modified ? new Date(post.modified) : now,
-        changeFrequency: "weekly" as const,
-        priority: 0.7,
-      }))
-      .filter((entry) => entry.url.startsWith(SITE_URL));
-  } catch (err) {
-    console.error("[sitemap] getRecentPosts failed", {
-      message: err instanceof Error ? err.message : String(err),
-    });
-    // WPGRAPHQL_ENDPOINT may be missing in a given environment; leaving the
-    // sitemap with static entries only is preferable to a build failure.
-    blogEntries = [];
-  }
+  // Only published (non-future) posts — getPublishedPosts already applies the gate.
+  const posts = await getPublishedPosts(now);
+  const blogEntries: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: absoluteUrl(`/blog/${post.slug}`),
+    lastModified: post.modifiedDate ? new Date(post.modifiedDate) : post.publishAt,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
 
   return [...staticEntries, ...blogEntries];
 }

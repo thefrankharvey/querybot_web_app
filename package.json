@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "lint": "next lint"
+    "lint": "next lint",
+    "schedule:blogs": "node scripts/schedule-blog-posts.mjs"
   },
   "dependencies": {
     "@clerk/backend": "^2.5.0",

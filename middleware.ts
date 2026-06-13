@@ -1,5 +1,12 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
+import { isBlogPublished } from "@/lib/blog-schedule";
+
+// Returns the single blog post slug for `/blog/<slug>` requests, else null.
+function directBlogSlug(pathname: string): string | null {
+  const match = pathname.match(/^\/blog\/([^/]+)\/?$/);
+  return match ? decodeURIComponent(match[1]) : null;
+}
 
 const protectedRoutePrefixes = [
   "/account",
@@ -44,6 +51,14 @@ export default clerkMiddleware(async (auth, req) => {
   if (isProtectedRoute(pathname) && !userId) {
     const redirectPath = `${pathname}${req.nextUrl.search}`;
     return buildSignInRedirect(req, redirectPath);
+  }
+
+  // Date-gate blog posts: a post whose dated slug is in the future (or has no
+  // date / is a draft) must 404, even on direct URL access. This enforces the
+  // schedule for every post regardless of its file format.
+  const postSlug = directBlogSlug(pathname);
+  if (postSlug && !isBlogPublished(postSlug)) {
+    return NextResponse.rewrite(new URL("/blog-unavailable", req.url));
   }
 
   // Check if this looks like a blog post slug (not an existing app route)
