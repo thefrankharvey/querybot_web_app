@@ -7,8 +7,8 @@
  * be in this canonical form:
  *
  *     app/blog/<clean-slug>-MM-DD-YYYY-(am|pm)
- *         am -> 11:30 America/New_York   (morning)
- *         pm -> 18:00 America/New_York   (evening)
+ *         am -> 15:00 America/New_York   (3:00pm, afternoon)
+ *         pm -> 18:00 America/New_York   (6:00pm, evening)
  *
  * The folder name is also the public URL: /blog/<clean-slug>-MM-DD-YYYY-(am|pm).
  *
@@ -22,7 +22,7 @@
  *   1. reads the clean slug from PAGE_DATA (`"slug": "..."`) in page.tsx,
  *   2. uses the NNNN prefix as publish order and the MM_DD_YYYY as the date,
  *   3. buckets posts into publish-days (2/day) and gives the first the `am`
- *      slot (11:30am) and the second the `pm` slot (6pm),
+ *      slot (3:00pm) and the second the `pm` slot (6pm),
  *   4. renames the folder to `<clean-slug>-MM-DD-YYYY-(am|pm)`.
  *
  * Folders already in canonical form are recognised and left alone (idempotent),
@@ -213,8 +213,14 @@ for (const bucket of buckets) {
       `${bucket.date.mm}-${bucket.date.dd}-${bucket.date.yyyy} has ${bucket.posts.length} post(s), not 2.`,
     );
   }
-  bucket.posts.forEach((p, i) => {
-    const slot = SLOTS[i] ?? `extra${i}`;
+  // Preserve any slot a folder already carries (canonical posts), so re-runs are
+  // idempotent and never reshuffle am/pm. Slot-less posts (raw generator folders)
+  // fill the remaining slots in publish order — first free slot to the first post.
+  const taken = new Set(bucket.posts.map((p) => p.slot).filter(Boolean));
+  const free = SLOTS.filter((s) => !taken.has(s));
+  let freeIdx = 0;
+  bucket.posts.forEach((p) => {
+    const slot = p.slot ?? free[freeIdx++] ?? `extra${freeIdx}`;
     if (seenSlugs.has(p.slug)) {
       warnings.push(`duplicate clean slug "${p.slug}" (${p.dir} & ${seenSlugs.get(p.slug)}).`);
     } else {
@@ -226,7 +232,7 @@ for (const bucket of buckets) {
 }
 
 // ── Report + apply ───────────────────────────────────────────────────────────
-const time = (s) => (s === "pm" ? "6:00pm ET" : s === "am" ? "11:30am ET" : s);
+const time = (s) => (s === "pm" ? "6:00pm ET" : s === "am" ? "3:00pm ET" : s);
 const changes = plan.filter((p) => p.changed);
 
 console.log(`\n${DRY_RUN ? "DRY RUN — " : ""}Scheduling ${posts.length} post(s) across ${buckets.length} day(s):\n`);
