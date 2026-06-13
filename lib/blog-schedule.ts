@@ -8,14 +8,14 @@
  *
  *     <clean-slug>-MM-DD-YYYY[-am|-pm]
  *
- *   am -> 11:30 America/New_York   (morning slot)
- *   pm -> 18:00 America/New_York   (evening slot)
- *   no slot marker -> morning (11:30)
+ *   am -> 15:00 America/New_York   (3:00pm, afternoon slot)
+ *   pm -> 18:00 America/New_York   (6:00pm, evening slot)
+ *   no slot marker -> afternoon (15:00)
  */
 
 export const PUBLISH_TIMEZONE = "America/New_York";
 const SLOT_TIMES = {
-  am: { hour: 11, minute: 30 },
+  am: { hour: 15, minute: 0 },
   pm: { hour: 18, minute: 0 },
 } as const;
 
