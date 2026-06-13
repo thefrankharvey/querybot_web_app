@@ -1,37 +1,25 @@
 import { NextResponse } from "next/server";
-import {
-  getRecentPosts,
-  buildCanonicalUrlForPost,
-  sanitizeWordPressHtml,
-  type WpPost,
-} from "@/lib/wp";
 
-export const revalidate = 1800; // 30 min
+import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
+import { getPublishedPosts } from "@/lib/blog-posts";
+
+function escapeCdata(value: string): string {
+  return value.replace(/]]>/g, "]]]]><![CDATA[>");
+}
 
 export async function GET() {
-  const site = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "";
-  const title = "Query Blog";
-  const description = "Latest articles from Query.";
-  let posts: WpPost[] = [];
-  try {
-    posts = await getRecentPosts(20);
-  } catch (err) {
-    console.error("[feed.xml] getRecentPosts failed", {
-      message: err instanceof Error ? err.message : String(err),
-    });
-  }
+  const posts = await getPublishedPosts();
 
   const items = posts
-    .map((p) => {
-      const url = buildCanonicalUrlForPost(p.slug);
-      const content = sanitizeWordPressHtml(p.content || p.excerpt || "");
+    .map((post) => {
+      const url = absoluteUrl(`/blog/${post.slug}`);
       return `
       <item>
-        <title><![CDATA[${p.title}]]></title>
+        <title><![CDATA[${escapeCdata(post.title)}]]></title>
         <link>${url}</link>
         <guid>${url}</guid>
-        <pubDate>${new Date(p.date).toUTCString()}</pubDate>
-        <description><![CDATA[${content}]]></description>
+        <pubDate>${post.publishAt.toUTCString()}</pubDate>
+        <description><![CDATA[${escapeCdata(post.description)}]]></description>
       </item>`;
     })
     .join("\n");
@@ -39,9 +27,9 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
   <rss version="2.0">
     <channel>
-      <title><![CDATA[${title}]]></title>
-      <link>${site}</link>
-      <description><![CDATA[${description}]]></description>
+      <title><![CDATA[${SITE_NAME}]]></title>
+      <link>${SITE_URL}</link>
+      <description><![CDATA[Query letters, agent research, and publishing craft.]]></description>
       ${items}
     </channel>
   </rss>`;
