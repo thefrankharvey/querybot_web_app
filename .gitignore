@@ -43,3 +43,11 @@ next-env.d.ts
 .env.local
 # clerk configuration (can include secrets)
 /.clerk/
+
+# internal planning docs (not shipped)
+/auto_blog_publisher_master_blueprint/
+
+# blog generator scratch files — only page.tsx ships; the rest is generator output
+app/blog/**/parsed.json
+app/blog/**/schema.json
+app/blog/**/source_output.md
