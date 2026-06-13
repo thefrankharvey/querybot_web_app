@@ -5,7 +5,7 @@ import { AgentMatch } from "@/app/(app)/context/agent-matches-context";
 import AnimatedScoreDisplay from "@/app/components/animated-score-display";
 import { Skeleton } from "@/app/ui-primitives/skeleton";
 import TooltipComponent from "@/app/components/tooltip";
-import { Heart, Save } from "lucide-react";
+import { Heart } from "lucide-react";
 import { COUNTRY_FLAG_LABELS } from "@/app/constants";
 
 export const DisplayAgentCards = ({
@@ -55,7 +55,7 @@ export const DisplayAgentCards = ({
                 content="Agent saved to Query Dashboard"
               >
                 <div className="flex items-center justify-center gap-2">
-                  <Heart className="w-7 h-7 text-accent" />
+                  <Heart className="w-7 h-7 fill-[#1D4A4E] text-[#1D4A4E]" />
                 </div>
               </TooltipComponent>
             ) : (
@@ -65,7 +65,7 @@ export const DisplayAgentCards = ({
                 content="Save agent to your query dashboard"
               >
                 <div className="flex items-center justify-center gap-2">
-                  <Save className="w-7 h-7 text-accent" />
+                  <Heart className="w-7 h-7 text-accent" />
                 </div>
               </TooltipComponent>
             )}

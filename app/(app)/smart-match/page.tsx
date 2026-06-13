@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
 import { Button } from "@/app/ui-primitives/button";
 import {
@@ -17,14 +18,27 @@ import TargetAudience from "./components/target-audience";
 import Subgenres from "./components/subgenres";
 import Genre from "./components/genre";
 import Format from "./components/format";
+import ProjectName from "./components/project-name";
 import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
+import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
+import { useProfileContext } from "../context/profile-context";
+import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+
+const SmartMatchWalkthrough = dynamic(
+  () =>
+    import("./components/smart-match-walkthrough").then(
+      (module) => module.SmartMatchWalkthrough,
+    ),
+  { ssr: false },
+);
 
 export type FormState = {
+  project_name: string;
   genre: string;
   subgenres: string[];
   format: string;
@@ -37,12 +51,17 @@ export type FormState = {
 
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
+  const { agentsList } = useProfileContext();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents } =
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
+  const [activeWalkthroughStep, setActiveWalkthroughStep] =
+    useState<SmartMatchWalkthroughStepId | null>(null);
+  const [isDesktopViewport, setIsDesktopViewport] = useState(false);
   const router = useRouter();
   const [form, setForm] = useState<FormState>({
+    project_name: "",
     genre: "",
     subgenres: [],
     format: "",
@@ -52,6 +71,23 @@ const SmartMatch = () => {
     enable_ai: true,
     non_fiction: false,
   });
+  const projectNames = useMemo(
+    () => getProjectNamesFromAgentMatches(agentsList),
+    [agentsList]
+  );
+
+  const resolveSubmittedProjectName = (projectName: string) => {
+    const trimmedProjectName = projectName.trim();
+    if (!trimmedProjectName) return "";
+
+    return (
+      projectNames.find(
+        (name) =>
+          name.toLocaleLowerCase() ===
+          trimmedProjectName.toLocaleLowerCase()
+      ) ?? trimmedProjectName
+    );
+  };
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
@@ -113,6 +149,14 @@ const SmartMatch = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     await resetForNewSearch();
+
+    const submittedProjectName = resolveSubmittedProjectName(form.project_name);
+
+    if (!submittedProjectName) {
+      setApiMessage("Project name required");
+      return;
+    }
+
     const comps = formatComps(form.comps);
 
     const payload = {
@@ -134,6 +178,7 @@ const SmartMatch = () => {
       return;
     }
 
+    saveProjectName(submittedProjectName);
     saveFormData(payload);
     saveStatusFilter("all");
     saveCountryFilter("all");
@@ -142,6 +187,23 @@ const SmartMatch = () => {
       top: 0,
     });
   };
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateDesktopViewport = () => {
+      setIsDesktopViewport(mediaQuery.matches);
+    };
+
+    updateDesktopViewport();
+    mediaQuery.addEventListener("change", updateDesktopViewport);
+
+    return () => {
+      mediaQuery.removeEventListener("change", updateDesktopViewport);
+    };
+  }, []);
+
+  const isSearchInProgress = queryMutation.isPending || queryMutation.isSuccess;
+  const shouldEnableWalkthrough = isDesktopViewport && !isSearchInProgress;
 
   if (isLoading) {
     return (
@@ -196,7 +258,17 @@ const SmartMatch = () => {
           <form onSubmit={handleSubmit}>
             <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
-              <Genre setForm={setForm} />
+              <ProjectName
+                form={form}
+                setForm={setForm}
+                projectNames={projectNames}
+              />
+              <Genre
+                isWalkthroughGenreDropdownOpen={
+                  activeWalkthroughStep === "genre-dropdown"
+                }
+                setForm={setForm}
+              />
               <Subgenres setForm={setForm} />
               <Format setForm={setForm} />
               <TargetAudience form={form} setForm={setForm} />
@@ -219,6 +291,10 @@ const SmartMatch = () => {
           </form>
         </>
       )}
+      <SmartMatchWalkthrough
+        enabled={shouldEnableWalkthrough}
+        onActiveStepChange={setActiveWalkthroughStep}
+      />
     </div>
   );
 };

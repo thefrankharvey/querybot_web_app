@@ -67,7 +67,7 @@ const ExplanationBlock = () => {
 
             <li className="flex items-start">
               <div>
-                <strong>Add themes (optional)</strong>
+                <strong>Add themes</strong>
                 <br /> – Helps us better understand the emotional or topical
                 core of your book (e.g., grief, friendship, justice).
               </div>
@@ -76,7 +76,7 @@ const ExplanationBlock = () => {
             <li className="flex items-start">
               <div>
                 <div className="mb-2">
-                  <strong>Add comparable titles (optional but powerful)</strong>
+                  <strong>Add comparable titles</strong>
                   <br /> – Include any number of published books similar in
                   style, tone, or audience to yours. This boosts match accuracy.
                 </div>
@@ -87,14 +87,6 @@ const ExplanationBlock = () => {
                     <li>▪ Author: Markus Zusak</li>
                   </ul>
                 </div>
-              </div>
-            </li>
-            <li className="flex items-start">
-              <div>
-                <strong>Give us feedback</strong>
-                <br /> - this tool can only improve with your input - when you
-                have viewed your results please click the feedback button - it
-                will only take 2-3 minutes.
               </div>
             </li>
           </ul>

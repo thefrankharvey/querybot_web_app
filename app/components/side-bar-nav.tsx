@@ -1,20 +1,36 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen, Home, LayoutDashboard } from "lucide-react";
+import { ScanSearch, Newspaper, NotebookPen, Home, FolderOpen } from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { BrandLockup } from "./brand-lockup";
 import { Separator } from "@/app/ui-primitives/separator";
+import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/app/ui-primitives/accordion";
 
 export const SideBarNav = () => {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const { agentsList } = useProfileContext();
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
+
+  const projectNames = useMemo(() => {
+    return getProjectNamesFromAgentMatches(agentsList);
+  }, [agentsList]);
+
+  const activeProject = pathname.includes("query-dashboard")
+    ? searchParams.get("project")
+    : null;
 
   return (
     <div className={cn("hidden h-fit shrink-0 self-start pt-4 md:sticky md:top-0 md:ml-2 md:block", pathname.includes("query-dashboard") ? "mb:[0px]" : "md:w-[230px] mb-88")}>
@@ -47,6 +63,7 @@ export const SideBarNav = () => {
             </Link>
             <Link
               href="/smart-match"
+              data-tour-target="home-walkthrough-smart-match-nav"
               className={cn(
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("smart-match") ||
@@ -58,31 +75,51 @@ export const SideBarNav = () => {
               <ScanSearch className="w-4 h-4" />
               Smart Match
             </Link>
-            <Link
-              href="/query-dashboard"
-              style={{
-                paddingLeft: agentsList && agentsList.length > 0 ? "9px" : "",
-                paddingTop: agentsList && agentsList.length > 0 ? "7px" : "",
-                paddingBottom: agentsList && agentsList.length > 0 ? "7px" : "",
-              }}
-              className={cn(
-                "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
-                pathname.includes("query-dashboard")
-                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
-              )}
-            >
-              {agentsList && agentsList.length > 0 ? (
-                <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-accent/10 bg-white/88 px-2 text-xs text-accent shadow-[0_8px_18px_rgba(24,44,69,0.06)]">
-                  {agentsList.length}
-                </span>
-              ) : (
-                <LayoutDashboard className="w-4 h-4" />
-              )}
-              Query Dashboard
-            </Link>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="my-projects" className="border-b-0">
+                <AccordionTrigger
+                  data-tour-target="home-walkthrough-query-dashboard-nav"
+                  className={cn(
+                    "rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent hover:no-underline my-1",
+                    pathname.includes("query-dashboard")
+                      ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                      : "text-accent/74"
+                  )}
+                >
+                  <span className="flex items-center gap-3">
+                    <FolderOpen className="w-4 h-4" />
+                    My Projects
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="pb-0">
+                  {projectNames.length > 0 ? (
+                    <div className="flex flex-col pl-4">
+                      {projectNames.map((name) => (
+                        <Link
+                          key={name}
+                          href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                          className={cn(
+                            "truncate rounded-[20px] px-4 py-2.5 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-0.5",
+                            activeProject === name
+                              ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                              : "text-accent/74"
+                          )}
+                        >
+                          {name}
+                        </Link>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="px-4 py-2.5 pl-8 text-sm text-accent/60">
+                      No projects yet
+                    </p>
+                  )}
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
             <Link
               href="/dispatch"
+              data-tour-target="home-walkthrough-dispatch-nav"
               prefetch={true}
               className={cn(
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",

@@ -46,7 +46,7 @@ const Themes = ({
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block text-accent">Themes<span className="text-accent text-xl font-bold">*</span></label>
-      <div className="flex items-center gap-2 w-full">
+      <div className="flex items-start gap-2 w-full">
         <InfiniteMultiSelect
           options={themeOptions}
           optionTitle="themes"
@@ -60,7 +60,7 @@ const Themes = ({
         >
           <Button
             type="button"
-            className="relative text-sm shadow-lg hover:shadow-xl rounded-md flex items-center justify-center w-10"
+            className="relative flex size-10 shrink-0 items-center justify-center rounded-md p-0 text-sm shadow-lg hover:shadow-xl has-[>svg]:px-0"
             onClick={() => setShowInput((prev) => !prev)}
           >
             {showInput ? (

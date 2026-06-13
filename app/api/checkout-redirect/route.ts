@@ -5,7 +5,8 @@ import {
   createStripeCustomer,
   createSubscriptionSession,
 } from "@/app/actions/stripe-actions";
-import { getStripePriceId } from "@/lib/config";
+import { DISCOUNT_CODE } from "@/app/constants";
+import { getStripePriceId, getStripePromotionCodeId } from "@/lib/config";
 
 export async function GET(request: Request) {
   const { userId } = await auth();
@@ -18,6 +19,11 @@ export async function GET(request: Request) {
   const planParam = url.searchParams.get("plan");
   const plan: "monthly" | "yearly" =
     planParam === "yearly" ? "yearly" : "monthly";
+  const discountParam = url.searchParams.get("discount");
+  const promotionCodeId =
+    discountParam === DISCOUNT_CODE
+      ? getStripePromotionCodeId(DISCOUNT_CODE)
+      : undefined;
 
   try {
     const user = await clerkClient.users.getUser(userId);
@@ -51,6 +57,7 @@ export async function GET(request: Request) {
     const sessionResult = await createSubscriptionSession(
       customerResult.customerId,
       priceId,
+      { promotionCodeId },
     );
     if (!sessionResult.success || !sessionResult.url) {
       return NextResponse.redirect(

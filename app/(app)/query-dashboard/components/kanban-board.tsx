@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import {
   DndContext,
   DragOverlay,
@@ -13,27 +14,38 @@ import {
   useSensors,
 } from "@dnd-kit/core";
 import { KanbanColumn } from "./kanban-column";
-import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
+import { KanbanCard, type KanbanCardData } from "./kanban-card";
+import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanDialog } from "./kanban-dialog";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import {
   QUERY_DASH_COLUMNS,
-  QueryDashColumnId,
+  type QueryDashColumnId,
 } from "./kanban-config";
+import { FIRST_COLUMN_ID } from "./kanban-ordering";
 import { useQueryDashContext } from "../context/query-dash-context";
 import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
+import type { QueryDashboardWalkthroughStepId } from "./query-dashboard-walkthrough-config";
+
+const QueryDashboardWalkthrough = dynamic(
+  () =>
+    import("./query-dashboard-walkthrough").then(
+      (module) => module.QueryDashboardWalkthrough,
+    ),
+  { ssr: false },
+);
 
 export function KanbanBoard() {
   const {
     cards,
     isLoading,
     isEmpty,
+    isRenamingProject,
     moveCard,
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
-    setProjectName,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -42,7 +54,38 @@ export function KanbanBoard() {
 
   const [activeCard, setActiveCard] = useState<KanbanCardData | null>(null);
   const [selectedCard, setSelectedCard] = useState<KanbanCardData | null>(null);
+  const [tourStepId, setTourStepId] =
+    useState<QueryDashboardWalkthroughStepId | null>(null);
+  const [isDesktopViewport, setIsDesktopViewport] = useState(false);
   const dragStartColumnRef = useRef<string | null>(null);
+  const tourOpenedModalRef = useRef(false);
+  const firstColumnFirstCard = getCardsForColumn(FIRST_COLUMN_ID)[0] ?? null;
+  const isFilterTourStep =
+    tourStepId === "fit-rating-filter" || tourStepId === "query-letter-filter";
+  const isModalTourStep = tourStepId?.startsWith("modal-") ?? false;
+  const isWalkthroughEnabled =
+    isDesktopViewport && !isLoading && !isEmpty && !!firstColumnFirstCard;
+
+  const handleTourStepChange = useCallback(
+    (stepId: QueryDashboardWalkthroughStepId | null) => {
+      setTourStepId(stepId);
+
+      if (stepId === null && tourOpenedModalRef.current) {
+        setSelectedCard(null);
+        tourOpenedModalRef.current = false;
+      }
+    },
+    [],
+  );
+
+  const handleDialogOpenChange = useCallback(
+    (open: boolean) => {
+      if (open || isModalTourStep) return;
+
+      setSelectedCard(null);
+    },
+    [isModalTourStep],
+  );
 
   useEffect(() => {
     if (!selectedCard?.id) return;
@@ -56,6 +99,29 @@ export function KanbanBoard() {
     setSelectedCard((prev) => (prev === latestSelectedCard ? prev : latestSelectedCard));
   }, [cards, selectedCard?.id]);
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const updateDesktopViewport = () => {
+      setIsDesktopViewport(mediaQuery.matches);
+    };
+
+    updateDesktopViewport();
+    mediaQuery.addEventListener("change", updateDesktopViewport);
+
+    return () => {
+      mediaQuery.removeEventListener("change", updateDesktopViewport);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isModalTourStep || !firstColumnFirstCard) return;
+
+    tourOpenedModalRef.current = true;
+    setSelectedCard((prev) =>
+      prev?.id === firstColumnFirstCard.id ? prev : firstColumnFirstCard,
+    );
+  }, [firstColumnFirstCard, isModalTourStep]);
+
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
@@ -64,7 +130,7 @@ export function KanbanBoard() {
     })
   );
 
-  if (isLoading) {
+  if (isLoading || isRenamingProject) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
         <Spinner className="size-16" />
@@ -119,14 +185,6 @@ export function KanbanBoard() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
-    }
-  };
-
-  const handleProjectNameChange = (cardId: string, projectName: string) => {
-    setProjectName(cardId, projectName);
-
-    if (selectedCard?.id === cardId) {
-      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -212,6 +270,15 @@ export function KanbanBoard() {
               column={column}
               cards={getCardsForColumn(column.id)}
               onCardClick={handleCardClick}
+              tourFilterForceOpen={
+                column.id === FIRST_COLUMN_ID && tourStepId !== null
+                  ? isFilterTourStep
+                  : undefined
+              }
+              tourFirstCardId={
+                column.id === FIRST_COLUMN_ID ? firstColumnFirstCard?.id : null
+              }
+              tourTargetsEnabled={column.id === FIRST_COLUMN_ID}
             />
           ))}
         </div>
@@ -227,12 +294,17 @@ export function KanbanBoard() {
         card={selectedCard}
         columns={QUERY_DASH_COLUMNS}
         open={!!selectedCard}
-        onOpenChange={(open) => !open && setSelectedCard(null)}
+        onOpenChange={handleDialogOpenChange}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
-        onProjectNameChange={handleProjectNameChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
+        tourModalActive={isModalTourStep}
+      />
+
+      <QueryDashboardWalkthrough
+        enabled={isWalkthroughEnabled}
+        onActiveStepChange={handleTourStepChange}
       />
     </div>
   );

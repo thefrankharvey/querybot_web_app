@@ -15,6 +15,10 @@ import AgentMatchesInner from "./agent-matches-inner";
 // import TypeForm from "@/app/components/type-form";
 import { useProfileContext } from "../../context/profile-context";
 import { SaveAgentPayload } from "@/app/types";
+import {
+  getProjectDashboardHref,
+  normalizeProjectName,
+} from "@/app/utils/project-dashboard-summary";
 
 // Helper function to map AgentMatch to SaveAgentPayload
 const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
@@ -28,7 +32,11 @@ const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
   match_score: agent.normalized_score || null,
 });
 
-export const AgentMatchesFull = () => {
+export const AgentMatchesFull = ({
+  onWalkthroughActiveChange,
+}: {
+  onWalkthroughActiveChange?: (isActive: boolean) => void;
+}) => {
   const {
     matches,
     totalAgents,
@@ -48,11 +56,27 @@ export const AgentMatchesFull = () => {
     startSpreadsheetPolling,
     saveSpreadsheetUrl,
     saveTotalAgents,
+    projectName,
   } = useAgentMatches();
 
-  const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
+  const {
+    agentsList,
+    saveAgent,
+    saveAllAgents,
+    savingAgentId,
+    isSavingAll,
+  } = useProfileContext();
 
   const nextCursor = nextCursorCount || QUERY_LIMIT;
+  const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const hasSavedAgentsForActiveProject =
+    activeProjectName.length > 0 &&
+    Boolean(
+      agentsList?.some(
+        (agent) =>
+          normalizeProjectName(agent.project_name) === activeProjectName
+      )
+    );
 
   const queryMutation = useMutation({
     mutationFn: async (params: {
@@ -180,11 +204,14 @@ export const AgentMatchesFull = () => {
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent(payload);
+    saveAgent({ ...payload, project_name: projectName || null });
   };
 
   const handleSaveAllAgents = () => {
-    const payloads = matches.map(mapAgentToPayload);
+    const payloads = matches.map((agent) => ({
+      ...mapAgentToPayload(agent),
+      project_name: projectName || null,
+    }));
     saveAllAgents(payloads);
   };
 
@@ -207,6 +234,13 @@ export const AgentMatchesFull = () => {
         isSavingAll={isSavingAll}
         onSaveAgent={handleSaveAgent}
         savingAgentId={savingAgentId}
+        projectName={activeProjectName}
+        projectDashboardHref={
+          hasSavedAgentsForActiveProject
+            ? getProjectDashboardHref(activeProjectName)
+            : undefined
+        }
+        onWalkthroughActiveChange={onWalkthroughActiveChange}
       />
       <Pagination className="mt-8">
         <PaginationContent>

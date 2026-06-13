@@ -6,6 +6,10 @@ import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
 import { SaveAgentPayload } from "@/app/types";
 import { useProfileContext } from "../../context/profile-context";
+import {
+  getProjectDashboardHref,
+  normalizeProjectName,
+} from "@/app/utils/project-dashboard-summary";
 
 declare global {
   interface Window {
@@ -25,7 +29,11 @@ const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
   match_score: agent.normalized_score || null,
 });
 
-export const AgentMatchesPaywall = () => {
+export const AgentMatchesPaywall = ({
+  onWalkthroughActiveChange,
+}: {
+  onWalkthroughActiveChange?: (isActive: boolean) => void;
+}) => {
   const {
     matches,
     totalAgents,
@@ -42,10 +50,26 @@ export const AgentMatchesPaywall = () => {
     spreadsheetUrl,
     sheetStatus,
     saveTotalAgents,
+    projectName,
   } = useAgentMatches();
-  const { saveAgent, saveAllAgents, savingAgentId, isSavingAll } = useProfileContext();
+  const {
+    agentsList,
+    saveAgent,
+    saveAllAgents,
+    savingAgentId,
+    isSavingAll,
+  } = useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
   const nextCursor = QUERY_LIMIT;
+  const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const hasSavedAgentsForActiveProject =
+    activeProjectName.length > 0 &&
+    Boolean(
+      agentsList?.some(
+        (agent) =>
+          normalizeProjectName(agent.project_name) === activeProjectName
+      )
+    );
 
   const queryMutation = useMutation({
     mutationFn: async (params: {
@@ -123,11 +147,14 @@ export const AgentMatchesPaywall = () => {
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent(payload);
+    saveAgent({ ...payload, project_name: projectName || null });
   };
 
   const handleSaveAllAgents = () => {
-    const payloads = matches.map(mapAgentToPayload);
+    const payloads = matches.map((agent) => ({
+      ...mapAgentToPayload(agent),
+      project_name: projectName || null,
+    }));
     saveAllAgents(payloads);
   };
 
@@ -151,6 +178,13 @@ export const AgentMatchesPaywall = () => {
         onSaveAgent={handleSaveAgent}
         isSavingAll={isSavingAll}
         savingAgentId={savingAgentId}
+        projectName={activeProjectName}
+        projectDashboardHref={
+          hasSavedAgentsForActiveProject
+            ? getProjectDashboardHref(activeProjectName)
+            : undefined
+        }
+        onWalkthroughActiveChange={onWalkthroughActiveChange}
       />
       <PayWall
         gridRef={gridRef}

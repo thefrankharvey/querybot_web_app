@@ -1,20 +1,36 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { cn } from "../utils";
 import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
-import { usePathname } from "next/navigation";
-import { Home, Newspaper, NotebookPen, ScanSearch, LayoutDashboard } from "lucide-react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { Home, Newspaper, NotebookPen, ScanSearch, FolderOpen } from "lucide-react";
 import { useProfileContext } from "../(app)/context/profile-context";
 import { Separator } from "@/app/ui-primitives/separator";
+import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/app/ui-primitives/accordion";
 
 export const AppHamburger = () => {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const { agentsList } = useProfileContext();
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
+
+  const projectNames = useMemo(() => {
+    return getProjectNamesFromAgentMatches(agentsList);
+  }, [agentsList]);
+
+  const activeProject = pathname.includes("query-dashboard")
+    ? searchParams.get("project")
+    : null;
 
   return (
     <>
@@ -94,26 +110,48 @@ export const AppHamburger = () => {
               <ScanSearch className="w-4 h-4" />
               Smart Match
             </Link>
-            <Link
-              onClick={() => setOpen(false)}
-              href="/query-dashboard"
-              prefetch={true}
-              className={cn(
-                "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
-                pathname.includes("query-dashboard")
-                  ? "border border-accent/10 bg-white/82 text-accent"
-                  : "text-accent/74"
-              )}
-            >
-              {agentsList && agentsList.length > 0 ? (
-                <span className="flex h-8 min-w-8 items-center justify-center rounded-full border border-accent/10 bg-white/88 px-2 text-xs text-accent">
-                  {agentsList.length}
-                </span>
-              ) : (
-                <LayoutDashboard className="w-4 h-4" />
-              )}
-              Query Dashboard
-            </Link>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="my-projects" className="border-b-0">
+                <AccordionTrigger
+                  className={cn(
+                    "justify-center gap-2 rounded-[22px] py-3 text-base font-medium hover:no-underline",
+                    pathname.includes("query-dashboard")
+                      ? "border border-accent/10 bg-white/82 text-accent"
+                      : "text-accent/74"
+                  )}
+                >
+                  <span className="flex items-center gap-2">
+                    <FolderOpen className="w-4 h-4" />
+                    My Projects
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="pb-0">
+                  {projectNames.length > 0 ? (
+                    <div className="flex flex-col items-center gap-1">
+                      {projectNames.map((name) => (
+                        <Link
+                          key={name}
+                          onClick={() => setOpen(false)}
+                          href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                          className={cn(
+                            "flex w-full items-center justify-center gap-2 truncate rounded-[22px] py-2.5 text-base font-medium",
+                            activeProject === name
+                              ? "border border-accent/10 bg-white/82 text-accent"
+                              : "text-accent/74"
+                          )}
+                        >
+                          {name}
+                        </Link>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="py-2.5 text-center text-base text-accent/60">
+                      No projects yet
+                    </p>
+                  )}
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
             <Link
               onClick={() => setOpen(false)}
               href="/dispatch"

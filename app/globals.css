@@ -158,6 +158,19 @@
   select {
     -webkit-tap-highlight-color: transparent;
   }
+
+  input::selection,
+  textarea::selection,
+  select::selection,
+  [data-slot="input"]::selection,
+  [data-slot="textarea"]::selection,
+  [data-slot="command-input"]::selection,
+  [data-slot="select-trigger"]::selection,
+  [data-slot="select-value"]::selection,
+  [role="combobox"]::selection {
+    background-color: var(--accent);
+    color: white;
+  }
 }
 
 @utility ambient-page {

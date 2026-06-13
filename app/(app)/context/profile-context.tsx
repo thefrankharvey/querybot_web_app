@@ -1,10 +1,17 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
 import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
 import { toast } from "sonner";
+import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
 
 // Context type definition
 interface ProfileContextType {
@@ -15,6 +22,7 @@ interface ProfileContextType {
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => void;
+  removeProject: (projectName: string) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
   saveAllAgents: (payloads: SaveAgentPayload[]) => Promise<SaveAgentResponse | null>;
@@ -32,6 +40,26 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
   const agentsList = data?.agent_matches;
 
+  const hasRunBackfillRef = useRef(false);
+  useEffect(() => {
+    if (hasRunBackfillRef.current || !agentsList?.length) return;
+    const needsBackfill = agentsList.some(
+      (a) => !a.project_name || a.project_name.trim() === ""
+    );
+    if (!needsBackfill) return;
+    hasRunBackfillRef.current = true;
+    (async () => {
+      try {
+        const res = await fetch("/api/agent-matches/backfill-project-name", {
+          method: "POST",
+        });
+        if (res.ok) await refetch();
+      } catch {
+        hasRunBackfillRef.current = false; // allow retry on next load
+      }
+    })();
+  }, [agentsList, refetch]);
+
   const removeAgent = (agentId: string) => {
     queryClient.setQueryData(
       ["agent-matches"],
@@ -41,6 +69,24 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
             (agent) => agent.index_id !== agentId
+          ),
+        };
+      }
+    );
+  };
+
+  const removeProject = (projectName: string) => {
+    const normalizedProjectName = normalizeProjectName(projectName);
+
+    queryClient.setQueryData(
+      ["agent-matches"],
+      (oldData: { agent_matches: AgentMatch[] } | undefined) => {
+        if (!oldData) return oldData;
+        return {
+          ...oldData,
+          agent_matches: oldData.agent_matches.filter(
+            (agent) =>
+              normalizeProjectName(agent.project_name) !== normalizedProjectName
           ),
         };
       }
@@ -178,6 +224,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     refetch,
     addAgent,
     removeAgent,
+    removeProject,
     saveAgent,
     saveAllAgents,
     savingAgentId,

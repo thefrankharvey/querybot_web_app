@@ -12,16 +12,20 @@ import {
   clerkClient,
   updateUserSubscriptionStatus,
 } from "@/lib/clerk-utils";
-import { getStripePriceId } from "@/lib/config";
+import { getStripePriceId, getStripePromotionCodeId } from "@/lib/config";
 
 export async function initializeSubscription(
   userId: string,
   email: string,
-  planType: "monthly" | "yearly"
+  planType: "monthly" | "yearly",
+  discountCode?: "WELCOME30",
 ) {
   try {
     // Resolve the price ID from environment based on plan type
     const priceId = getStripePriceId(planType);
+    const promotionCodeId = discountCode
+      ? getStripePromotionCodeId(discountCode)
+      : undefined;
 
     // Step 1: Create Stripe customer
     const customerResult = await createStripeCustomer(userId, email);
@@ -49,7 +53,8 @@ export async function initializeSubscription(
     // Step 3: Create subscription session
     const sessionResult = await createSubscriptionSession(
       customerResult.customerId,
-      priceId
+      priceId,
+      { promotionCodeId }
     );
 
     if (!sessionResult.success) {

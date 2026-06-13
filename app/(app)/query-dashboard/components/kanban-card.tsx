@@ -5,6 +5,11 @@ import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
 import { SquarePen, Grip, Circle, CircleCheckBigIcon } from "lucide-react";
+import {
+  FitRatingBadge,
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -37,27 +42,6 @@ function getCalendarDayDiffFromToday(date: Date): number {
   return Math.max(0, diffDays);
 }
 
-// Fit Rating types and configuration
-export type FitRating = "perfect" | "great" | "good" | "neutral";
-
-export const FIT_RATING_CONFIG: Record<
-  FitRating,
-  { label: string; color: string }
-> = {
-  perfect: { label: "Perfect Fit", color: "var(--fit-perfect)" },
-  great: { label: "Great Fit", color: "var(--fit-great)" },
-  good: { label: "Good Fit", color: "var(--fit-good)" },
-  neutral: { label: "Neutral Fit", color: "var(--fit-neutral)" },
-};
-
-export function getFitRatingFromScore(score: number | null | undefined): FitRating {
-  if (score == null) return "neutral";
-  if (score >= 4) return "perfect";
-  if (score >= 3) return "great";
-  if (score > 2.5) return "good";
-  return "neutral";
-}
-
 export interface KanbanCardData {
   // From database
   id: string;
@@ -87,6 +71,7 @@ interface KanbanCardProps {
   onCardClick?: (card: KanbanCardData) => void;
   /** When true, only the grip handle is draggable (enables scroll on card body). Used on mobile. */
   useDragHandle?: boolean;
+  tourTarget?: string;
 }
 
 export function KanbanCard({
@@ -95,6 +80,7 @@ export function KanbanCard({
   dragOverlayWidth,
   onCardClick,
   useDragHandle = false,
+  tourTarget,
 }: KanbanCardProps) {
   const {
     attributes,
@@ -212,14 +198,9 @@ export function KanbanCard({
 
       {/* Fit Rating Pill */}
       <div className="mt-2 flex flex-wrap gap-2">
-        <span
-          className="inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white shadow-[0_8px_18px_rgba(24,44,69,0.12)]"
-          style={{ backgroundColor: FIT_RATING_CONFIG[card.fitRating].color }}
-        >
-          {FIT_RATING_CONFIG[card.fitRating].label}
-        </span>
+        <FitRatingBadge rating={card.fitRating} />
         <span className="inline-block rounded-full border border-accent/12 bg-white/85 px-2 py-0.5 text-xs font-medium text-accent">
-          {card.projectName?.trim() || "My Project"}
+          {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
         </span>
       </div>
     </>
@@ -244,6 +225,7 @@ export function KanbanCard({
       ref={setNodeRef}
       style={style}
       {...(useDragHandle ? {} : { ...attributes, ...listeners })}
+      data-tour-target={tourTarget}
       onClick={handleCardClick}
       className={cn(
         "glass-panel group rounded-[20px] border border-white/70 p-3 transition-all duration-300 md:max-w-[256px] hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_22px_52px_rgba(24,44,69,0.12)]",

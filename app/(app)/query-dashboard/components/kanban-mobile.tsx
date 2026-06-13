@@ -16,7 +16,8 @@ import {
   useSensors,
 } from "@dnd-kit/core";
 import { KanbanColumn } from "./kanban-column";
-import { KanbanCard, KanbanCardData, FitRating } from "./kanban-card";
+import { KanbanCard, type KanbanCardData } from "./kanban-card";
+import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanDialog } from "./kanban-dialog";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import DotIndicators from "./dot-indicators";
@@ -39,7 +40,6 @@ export function KanbanMobile() {
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
-    setProjectName,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -141,14 +141,6 @@ export function KanbanMobile() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, columnId } : null));
-    }
-  };
-
-  const handleProjectNameChange = (cardId: string, projectName: string) => {
-    setProjectName(cardId, projectName);
-
-    if (selectedCard?.id === cardId) {
-      setSelectedCard((prev) => (prev ? { ...prev, projectName } : null));
     }
   };
 
@@ -370,7 +362,6 @@ export function KanbanMobile() {
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
-        onProjectNameChange={handleProjectNameChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
       />

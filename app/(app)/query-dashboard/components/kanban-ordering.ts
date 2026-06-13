@@ -1,4 +1,4 @@
-import { KanbanCardData } from "./kanban-card";
+import type { KanbanCardData } from "./kanban-card";
 
 export const FIRST_COLUMN_ID = "agents-to-research";
 

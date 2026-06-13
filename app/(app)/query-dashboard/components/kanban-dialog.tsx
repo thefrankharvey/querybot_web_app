@@ -8,7 +8,7 @@ import {
   DialogDescription,
 } from "@/app/ui-primitives/dialog";
 import { Switch } from "@/app/ui-primitives/switch";
-import { ColumnData } from "./kanban-column";
+import type { ColumnData } from "./kanban-column";
 import {
   Select,
   SelectContent,
@@ -16,15 +16,18 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/app/ui-primitives/select";
-import { StarRating } from "@/app/components/star-rating";
 import CopyToClipboard from "@/app/components/copy-to-clipboard";
 import { formatEmail } from "@/app/utils";
-import { KanbanCardData, FitRating, FIT_RATING_CONFIG } from "./kanban-card";
+import type { KanbanCardData } from "./kanban-card";
+import {
+  FIT_RATING_CONFIG,
+  type FitRating,
+} from "@/app/components/fit-rating-badge";
 import { KanbanNotes } from "./kanban-notes";
 import { KanbanDialogTools } from "./kanban-dialog-tools";
-import { Input } from "@/app/ui-primitives/input";
 import { KanbanLinkButtons } from "./kanban-link-buttons";
 import { Circle, CircleCheckBigIcon, X } from "lucide-react";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -71,9 +74,9 @@ interface KanbanDialogProps {
   onOpenChange: (open: boolean) => void;
   onTogglePrepQuery: (cardId: string) => void;
   onFitRatingChange: (cardId: string, rating: FitRating) => void;
-  onProjectNameChange: (cardId: string, projectName: string) => void;
   onNotesSave: (cardId: string, notes: string) => void;
   onMoveCard: (cardId: string, columnId: string) => void;
+  tourModalActive?: boolean;
 }
 
 export function KanbanDialog({
@@ -83,9 +86,9 @@ export function KanbanDialog({
   onOpenChange,
   onTogglePrepQuery,
   onFitRatingChange,
-  onProjectNameChange,
   onNotesSave,
   onMoveCard,
+  tourModalActive = false,
 }: KanbanDialogProps) {
   const [notes, setNotes] = useState("");
 
@@ -131,7 +134,7 @@ export function KanbanDialog({
   };
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
+    <Dialog modal={!tourModalActive} open={open} onOpenChange={onOpenChange}>
       <DialogContent
         showCloseButton={false}
         className="max-h-[85vh] overflow-y-auto sm:max-w-xl overflow-x-hidden bg-white max-sm:w-[calc(100vw-16px)] max-sm:max-w-none max-sm:rounded-lg gap-6"
@@ -163,7 +166,7 @@ export function KanbanDialog({
               </DialogDescription>
             </div>
             {/* Match Score Section */}
-            {card.match_score != null && (
+            {/* {card.match_score != null && (
               <div className="flex flex-col md:items-end items-start gap-1">
                 <label className="text-sm font-semibold text-gray-700">
                   Match Score
@@ -175,7 +178,7 @@ export function KanbanDialog({
                   </span>
                 </div>
               </div>
-            )}
+            )} */}
           </div>
         </div>
 
@@ -219,7 +222,10 @@ export function KanbanDialog({
 
         <div className="flex flex-col gap-6">
           <div className="flex md:flex-row flex-col gap-4">
-            <div className="flex flex-col gap-1">
+            <div
+              className="flex flex-col gap-1"
+              data-tour-target="query-dashboard-modal-fit-rating"
+            >
               <label className="text-sm font-semibold text-gray-700">
                 Fit Rating
               </label>
@@ -247,25 +253,24 @@ export function KanbanDialog({
                 </SelectContent>
               </Select>
             </div>
-            <div className="flex flex-col gap-1">
+            <div
+              className="flex flex-col gap-1"
+              data-tour-target="query-dashboard-modal-project-name"
+            >
               <label className="text-sm font-semibold text-gray-700">
                 Project Name
               </label>
-              <Input
-                className="w-full md:w-[330px] border border-accent/30 hover:border-accent/70 transition-all duration-300"
-                maxLength={70}
-                value={card.projectName ?? "My Project"}
-                placeholder="My Project"
-                onChange={(e) => onProjectNameChange(card.id, e.target.value)}
-              />
-              {(card.projectName ?? "My Project").length >= 70 && (
-                <p className="text-red-500 text-sm">max characters reached</p>
-              )}
+              <span className="text-sm text-gray-600">
+                {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
+              </span>
             </div>
           </div>
 
           {/* Query Letter Ready Checkbox */}
-          <div className="flex flex-col gap-2">
+          <div
+            className="flex flex-col gap-2"
+            data-tour-target="query-dashboard-modal-query-letter-toggle"
+          >
             <div className="flex gap-2">
               <label
                 className="text-sm font-medium cursor-pointer"
