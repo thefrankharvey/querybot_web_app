@@ -1,6 +1,6 @@
 name: Scheduled blog publish
 
-# Triggers a fresh Render deploy so newly-dated posts (11:30 and 18:00
+# Triggers a fresh Render deploy so newly-dated posts (15:00 and 18:00
 # America/New_York) re-render and become visible. GitHub cron is fixed UTC, so we
 # fire at both DST offsets for each slot; the date gate (lib/blog-schedule.ts) is
 # DST-correct, so the redundant build is harmless — each post goes live at the
@@ -11,8 +11,8 @@ name: Scheduled blog publish
 # Actions repo secret. Render deploys whatever branch the service tracks (main).
 on:
   schedule:
-    - cron: "30 15 * * *" # 11:30 EDT (summer)
-    - cron: "30 16 * * *" # 11:30 EST (winter)
+    - cron: "0 19 * * *" # 15:00 EDT (summer)
+    - cron: "0 20 * * *" # 15:00 EST (winter)
     - cron: "0 22 * * *" # 18:00 EDT (summer)
     - cron: "0 23 * * *" # 18:00 EST (winter)
   workflow_dispatch: {} # allow manual "publish now" runs
