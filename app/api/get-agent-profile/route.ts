@@ -1,6 +1,7 @@
-import { getWqhApiUrl } from "@/lib/config";
-import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
+import { NextRequest, NextResponse } from "next/server";
+
+import { getWqhApiUrl } from "@/lib/config";
 
 export async function GET(req: NextRequest) {
   const controller = new AbortController();
@@ -14,32 +15,31 @@ export async function GET(req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const lookupBy = searchParams.get("lookup_by");
     const value = searchParams.get("value");
-    const agentId = searchParams.get("agent_id");
-    const name = searchParams.get("name");
-    const externalLookupBy = lookupBy ?? (agentId ? "id" : name ? "name" : null);
-    const externalValue = value ?? (lookupBy ? null : agentId ?? name);
+    const withLegacyData = searchParams.get("with_legacy_data");
 
-    if (!externalLookupBy || !externalValue) {
+    if (!lookupBy || !value) {
       return NextResponse.json(
         { error: "lookup_by and value parameters are required" },
         { status: 400 }
       );
     }
 
-    if (
-      externalLookupBy !== "id" &&
-      externalLookupBy !== "name" &&
-      externalLookupBy !== "email"
-    ) {
+    if (lookupBy !== "id" && lookupBy !== "name" && lookupBy !== "email") {
       return NextResponse.json(
         { error: 'lookup_by must be "id", "name", or "email"' },
         { status: 400 }
       );
     }
 
-    const externalUrl = new URL(`${getWqhApiUrl().replace(/\/$/, "")}/get-agent`);
-    externalUrl.searchParams.set("lookup_by", externalLookupBy);
-    externalUrl.searchParams.set("value", externalValue);
+    const externalUrl = new URL(
+      `${getWqhApiUrl().replace(/\/$/, "")}/get-agent-profile`
+    );
+    externalUrl.searchParams.set("lookup_by", lookupBy);
+    externalUrl.searchParams.set("value", value);
+
+    if (withLegacyData) {
+      externalUrl.searchParams.set("with_legacy_data", withLegacyData);
+    }
 
     const externalRes = await fetch(externalUrl, {
       method: "GET",
@@ -54,9 +54,14 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
-    console.error("GET AGENT API ERROR: ", error);
+    console.error("GET AGENT PROFILE API ERROR: ", error);
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "GET AGENT API ERROR" },
+      {
+        error:
+          error instanceof Error
+            ? error.message
+            : "GET AGENT PROFILE API ERROR",
+      },
       { status: 500 }
     );
   }

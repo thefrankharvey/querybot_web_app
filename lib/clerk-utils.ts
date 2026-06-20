@@ -62,8 +62,11 @@ export async function syncAgentMetadataToClerk(
   agentId: string,
 ) {
   try {
+    const user = await clerkClient.users.getUser(userId);
+
     await clerkClient.users.updateUserMetadata(userId, {
       publicMetadata: {
+        ...user.publicMetadata,
         accountType: "agent",
         isAgent: true,
         agentId,
