@@ -3,6 +3,10 @@ import { NextResponse } from "next/server";
 import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
 import { getPublishedPosts } from "@/lib/blog-posts";
 
+// Built at deploy time (the scheduled deploy rebuilds daily), not per request —
+// keeps the feed off the hot path and out of runtime memory.
+export const dynamic = "force-static";
+
 function escapeCdata(value: string): string {
   return value.replace(/]]>/g, "]]]]><![CDATA[>");
 }
