@@ -181,6 +181,34 @@ export function mergeTraitOptions(
   return merged;
 }
 
+export function resolveTraitValues(
+  type: TraitType,
+  rawValues: string[],
+  optionsOrValues: TraitOption[] | string[],
+): string[] {
+  const optionValues = optionsOrValues.map((optionOrValue) =>
+    typeof optionOrValue === "string" ? optionOrValue : optionOrValue.value,
+  );
+  const resolvedValues: string[] = [];
+  const seenKeys = new Set<string>();
+
+  for (const rawValue of rawValues) {
+    const trimmedValue = rawValue.trim();
+    if (!trimmedValue) continue;
+
+    const resolvedValue =
+      findExistingTraitValue(type, trimmedValue, optionValues) ?? trimmedValue;
+    const key = getTraitDedupKey(type, resolvedValue);
+
+    if (seenKeys.has(key)) continue;
+
+    seenKeys.add(key);
+    resolvedValues.push(resolvedValue);
+  }
+
+  return resolvedValues;
+}
+
 export function toTraitOption(value: string): TraitOption {
   const label = formatTraitLabel(value);
 
@@ -314,6 +342,13 @@ function getTraitComparisonKeys(type: TraitType, value: string): Set<string> {
   if (singularKey) keys.add(singularKey);
 
   return keys;
+}
+
+function getTraitDedupKey(type: TraitType, value: string): string {
+  return (
+    getTraitComparisonKeys(type, value).values().next().value ??
+    normalizeTraitSearchKeyword(value)
+  );
 }
 
 function singularizeToken(token: string): string {

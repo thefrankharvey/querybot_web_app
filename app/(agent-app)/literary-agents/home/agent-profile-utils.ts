@@ -18,6 +18,8 @@ export type AgentProfile = {
   bio?: string | null;
   genres?: string | null;
   subgenres?: string | string[] | null;
+  formats?: string | string[] | null;
+  audiences?: string | string[] | null;
   extra_interest?: string | null;
   favorites?: string | null;
   clients?: string | null;
@@ -61,7 +63,9 @@ export type AgentProfileMutableFields = {
   email?: string | null;
   agency?: string | null;
   genres?: string | null;
-  subgenres?: string[] | null;
+  subgenres?: string | null;
+  formats?: string | null;
+  audiences?: string | null;
   extra_interest?: string | null;
   favorites?: string | null;
   clients?: string | null;

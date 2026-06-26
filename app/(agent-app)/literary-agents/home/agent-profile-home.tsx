@@ -1,10 +1,14 @@
 "use client";
 
-import { useCallback, useEffect, useState, type FormEvent } from "react";
 import {
-  Check,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  type FormEvent,
+} from "react";
+import {
   CheckCircle2,
-  ChevronDown,
   ExternalLink,
   Mail,
   MapPin,
@@ -19,7 +23,12 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { Button } from "@/app/ui-primitives/button";
-import { genreOptions } from "@/app/constants";
+import { targetAudienceOptions } from "@/app/constants";
+import {
+  useManuscriptTraits,
+  type CreateOrSelectTrait,
+} from "@/app/hooks/use-manuscript-traits";
+import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
 import { Input } from "@/app/ui-primitives/input";
 import {
   Dialog,
@@ -29,11 +38,6 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/app/ui-primitives/dialog";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/app/ui-primitives/popover";
 import {
   Select,
   SelectContent,
@@ -45,7 +49,14 @@ import {
 import { Separator } from "@/app/ui-primitives/separator";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { Textarea } from "@/app/ui-primitives/textarea";
-import { cn, urlFormatter } from "@/app/utils";
+import { urlFormatter } from "@/app/utils";
+import {
+  formatTraitLabel,
+  mergeTraitOptions,
+  resolveTraitValues,
+  type TraitOption,
+  type TraitType,
+} from "@/lib/traits";
 
 import { syncCurrentAgentIdToClerk } from "./actions";
 import {
@@ -101,6 +112,8 @@ const EDITABLE_TEXT_FIELDS = [
 
 const EDITABLE_LIST_FIELDS = [
   "genres",
+  "subgenres",
+  "formats",
 ] as const satisfies readonly (keyof AgentProfileMutableFields)[];
 
 const TARGET_AUDIENCE_ACCEPTANCE_FIELDS = [
@@ -127,10 +140,11 @@ type AcceptanceField = (typeof ACCEPTANCE_FIELDS)[number];
 
 type AgentProfileDraft = Record<EditableTextField, string> &
   Record<EditableListField, string[]> &
+  { audiences: string[] } &
   Record<AcceptanceField, boolean>;
 
-type AcceptanceOption = {
-  field: AcceptanceField;
+type AudienceOption = {
+  value: string;
   label: string;
 };
 
@@ -155,52 +169,40 @@ const TEXT_FIELD_LABELS: Record<EditableTextField, string> = {
 
 const LIST_FIELD_LABELS: Record<EditableListField, string> = {
   genres: "Genres",
+  subgenres: "Subgenres",
+  formats: "Formats",
 };
 
-const ACCEPTANCE_FIELD_LABELS: Record<AcceptanceField, string> = {
-  accepts_middle_grade: "Middle Grade",
-  accepts_young_adult: "Young Adult",
-  accepts_children: "Children",
-  accepts_nonfiction: "Nonfiction",
-  accepts_comics: "Comics",
-  accepts_screenplay: "Screenplay",
-  accepts_poetry: "Poetry",
+const PROFILE_LIST_TRAIT_TYPES: Record<EditableListField, TraitType> = {
+  genres: "genre",
+  subgenres: "subgenre",
+  formats: "format",
 };
 
-const TARGET_AUDIENCE_ACCEPTANCE_OPTIONS = [
-  { field: "accepts_children", label: ACCEPTANCE_FIELD_LABELS.accepts_children },
-  {
-    field: "accepts_middle_grade",
-    label: ACCEPTANCE_FIELD_LABELS.accepts_middle_grade,
-  },
-  {
-    field: "accepts_young_adult",
-    label: ACCEPTANCE_FIELD_LABELS.accepts_young_adult,
-  },
-] as const satisfies readonly AcceptanceOption[];
+const AUDIENCE_OPTIONS = targetAudienceOptions.map((option) => ({
+  value: option.value,
+  label: option.label,
+})) satisfies AudienceOption[];
 
-const FORMAT_ACCEPTANCE_OPTIONS = [
+const AUDIENCE_ACCEPTANCE_FIELDS = {
+  children: "accepts_children",
+  "middle-grade": "accepts_middle_grade",
+  "young-adult": "accepts_young_adult",
+} as const satisfies Partial<Record<string, AcceptanceField>>;
+
+const FORMAT_ACCEPTANCE_TRAIT_VALUES: Partial<Record<AcceptanceField, string>> =
   {
-    field: "accepts_nonfiction",
-    label: ACCEPTANCE_FIELD_LABELS.accepts_nonfiction,
-  },
-  { field: "accepts_comics", label: ACCEPTANCE_FIELD_LABELS.accepts_comics },
-  {
-    field: "accepts_screenplay",
-    label: ACCEPTANCE_FIELD_LABELS.accepts_screenplay,
-  },
-  { field: "accepts_poetry", label: ACCEPTANCE_FIELD_LABELS.accepts_poetry },
-] as const satisfies readonly AcceptanceOption[];
+    accepts_comics: "comics",
+    accepts_screenplay: "screenplay",
+    accepts_poetry: "poetry",
+  };
 
 const SUBMISSION_STATUS_OPTIONS = [
   "Open for submissions",
   "Not open for submissions",
 ] as const;
 
-type SelectOption = {
-  value: string;
-  label: string;
-};
+const EMPTY_SELECTED_VALUES: string[] = [];
 
 async function readJson<T>(response: Response): Promise<T> {
   const body = await response.json().catch(() => ({}));
@@ -319,40 +321,6 @@ function uniqueList(values: string[]) {
   return uniqueValues;
 }
 
-function mergeProfileOptions(
-  baseOptions: SelectOption[],
-  selectedValues: string[]
-) {
-  const seen = new Set<string>();
-  const options: SelectOption[] = [];
-
-  for (const option of baseOptions) {
-    const label = option.label.trim();
-    const optionKey = normalizeOptionKey(label);
-
-    if (!label || seen.has(optionKey)) {
-      continue;
-    }
-
-    seen.add(optionKey);
-    options.push({ value: label, label });
-  }
-
-  for (const value of selectedValues) {
-    const trimmedValue = value.trim();
-    const optionKey = normalizeOptionKey(trimmedValue);
-
-    if (!trimmedValue || seen.has(optionKey)) {
-      continue;
-    }
-
-    seen.add(optionKey);
-    options.push({ value: trimmedValue, label: trimmedValue });
-  }
-
-  return options;
-}
-
 function listsMatch(left: string[], right: string[]) {
   if (left.length !== right.length) return false;
 
@@ -411,7 +379,77 @@ function profileNullableText(profile: AgentProfile, field: EditableTextField) {
   return typeof value === "string" && value.trim() ? value : null;
 }
 
-function createProfileDraft(profile: AgentProfile): AgentProfileDraft {
+function getProfileAudienceValues(profile: AgentProfile) {
+  const values = splitAgentList(profile.audiences);
+
+  for (const [audienceValue, field] of Object.entries(
+    AUDIENCE_ACCEPTANCE_FIELDS
+  )) {
+    if (profile[field] === true) {
+      values.push(audienceValue);
+    }
+  }
+
+  return uniqueList(values);
+}
+
+function resolveAudienceValues(values: string[]) {
+  const optionValues = AUDIENCE_OPTIONS.map((option) => option.value);
+  const optionLabelsByKey = new Map(
+    AUDIENCE_OPTIONS.map((option) => [normalizeOptionKey(option.label), option.value])
+  );
+
+  return uniqueList(
+    values
+      .map((value) => {
+        const trimmedValue = value.trim();
+        const optionKey = normalizeOptionKey(trimmedValue);
+
+        if (optionValues.includes(trimmedValue)) {
+          return trimmedValue;
+        }
+
+        return optionLabelsByKey.get(optionKey) ?? trimmedValue;
+      })
+      .filter(Boolean)
+  );
+}
+
+function getProfileDraftListValues(
+  profile: AgentProfile,
+  field: EditableListField
+) {
+  if (field !== "formats") {
+    return splitAgentList(profile[field]);
+  }
+
+  const values = splitAgentList(profile.formats);
+
+  for (const acceptanceField of FORMAT_ACCEPTANCE_FIELDS) {
+    const traitValue = FORMAT_ACCEPTANCE_TRAIT_VALUES[acceptanceField];
+
+    if (traitValue && profile[acceptanceField] === true) {
+      values.push(traitValue);
+    }
+  }
+
+  return uniqueList(values);
+}
+
+function resolveProfileListValues(
+  field: EditableListField,
+  values: string[],
+  traitOptions: Record<TraitType, TraitOption[]>
+) {
+  const traitType = PROFILE_LIST_TRAIT_TYPES[field];
+
+  return resolveTraitValues(traitType, values, traitOptions[traitType]);
+}
+
+function createProfileDraft(
+  profile: AgentProfile,
+  traitOptions: Record<TraitType, TraitOption[]>
+): AgentProfileDraft {
   const draft = {} as AgentProfileDraft;
 
   for (const field of EDITABLE_TEXT_FIELDS) {
@@ -419,11 +457,23 @@ function createProfileDraft(profile: AgentProfile): AgentProfileDraft {
   }
 
   for (const field of EDITABLE_LIST_FIELDS) {
-    draft[field] = splitAgentList(profile[field]);
+    draft[field] = resolveProfileListValues(
+      field,
+      getProfileDraftListValues(profile, field),
+      traitOptions
+    );
   }
+
+  draft.audiences = resolveAudienceValues(getProfileAudienceValues(profile));
 
   for (const field of ACCEPTANCE_FIELDS) {
     draft[field] = profile[field] === true;
+  }
+
+  for (const [audienceValue, field] of Object.entries(
+    AUDIENCE_ACCEPTANCE_FIELDS
+  )) {
+    draft[field] = draft.audiences.includes(audienceValue);
   }
 
   return draft;
@@ -431,7 +481,8 @@ function createProfileDraft(profile: AgentProfile): AgentProfileDraft {
 
 function buildUpdateAgentProfilePayload(
   profile: AgentProfile,
-  draft: AgentProfileDraft
+  draft: AgentProfileDraft,
+  traitOptions: Record<TraitType, TraitOption[]>
 ) {
   if (!profile.profile_id) {
     throw new Error("Profile ID is missing. Refresh the page and try again.");
@@ -454,13 +505,30 @@ function buildUpdateAgentProfilePayload(
   }
 
   for (const field of EDITABLE_LIST_FIELDS) {
-    const previousItems = splitAgentList(profile[field]);
-    const nextItems = uniqueList(draft[field]);
+    const previousItems = resolveProfileListValues(
+      field,
+      splitAgentList(profile[field]),
+      traitOptions
+    );
+    const nextItems = resolveProfileListValues(
+      field,
+      uniqueList(draft[field]),
+      traitOptions
+    );
 
     if (!listsMatch(previousItems, nextItems)) {
       indexedPayload[field] = nextItems.length > 0 ? nextItems.join("|") : null;
       hasChanges = true;
     }
+  }
+
+  const previousAudiences = resolveAudienceValues(getProfileAudienceValues(profile));
+  const nextAudiences = resolveAudienceValues(draft.audiences);
+
+  if (!listsMatch(previousAudiences, nextAudiences)) {
+    indexedPayload.audiences =
+      nextAudiences.length > 0 ? nextAudiences.join("|") : null;
+    hasChanges = true;
   }
 
   for (const field of ACCEPTANCE_FIELDS) {
@@ -533,6 +601,10 @@ function getAcceptanceFlags(profile: AgentProfile) {
     ["Screenplay", profile.accepts_screenplay],
     ["Poetry", profile.accepts_poetry],
   ].filter(([, value]) => value === true) as [string, true][];
+}
+
+function formatProfileTraitItems(items: string[]) {
+  return items.map(formatTraitLabel);
 }
 
 function ProfileTextBlock({
@@ -712,151 +784,85 @@ function ProfileSubmissionStatusSelect({
 }
 
 function ProfileTagSelector({
+  createOrSelectTrait,
   field,
+  isCreatingTrait,
   onDraftChange,
   options,
   selectedValues,
+  traitType,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
   field: EditableListField;
+  isCreatingTrait: boolean;
   onDraftChange: (field: EditableListField, value: string[]) => void;
-  options: SelectOption[];
+  options: TraitOption[];
   selectedValues: string[];
+  traitType: TraitType;
 }) {
-  const [open, setOpen] = useState(false);
-  const [searchValue, setSearchValue] = useState("");
   const [customValue, setCustomValue] = useState("");
   const [error, setError] = useState("");
   const id = `agent-profile-${field}`;
-  const selectedKeys = new Set(selectedValues.map(normalizeOptionKey));
-  const filteredOptions = options.filter((option) => {
-    const searchKey = normalizeOptionKey(searchValue);
-
-    if (!searchKey) return true;
-
-    return (
-      normalizeOptionKey(option.label).includes(searchKey) ||
-      normalizeOptionKey(option.value).includes(searchKey)
-    );
-  });
+  const singularLabel = LIST_FIELD_LABELS[field].slice(0, -1);
+  const selectedKeys = useMemo(
+    () => new Set(selectedValues.map(normalizeOptionKey)),
+    [selectedValues]
+  );
+  const optionLabelsByValue = useMemo(
+    () => new Map(options.map((option) => [option.value, option.label])),
+    [options]
+  );
 
   const setUniqueValues = (values: string[]) => {
     onDraftChange(field, uniqueList(values));
   };
 
-  const handleSelect = (value: string) => {
+  const handleSelect = (values: string[]) => {
     setError("");
-
-    if (selectedKeys.has(normalizeOptionKey(value))) {
-      setUniqueValues(
-        selectedValues.filter(
-          (selectedValue) =>
-            normalizeOptionKey(selectedValue) !== normalizeOptionKey(value)
-        )
-      );
-      return;
-    }
-
-    setUniqueValues([...selectedValues, value]);
+    setUniqueValues(values);
   };
 
-  const handleAddCustom = () => {
+  const handleAddCustom = async () => {
     const trimmedValue = customValue.trim();
 
-    if (!trimmedValue || selectedKeys.has(normalizeOptionKey(trimmedValue))) {
-      setError(`${LIST_FIELD_LABELS[field].slice(0, -1)} already exists`);
+    if (!trimmedValue) {
+      setError(`Enter a ${singularLabel.toLocaleLowerCase()}`);
       return;
     }
 
-    setUniqueValues([...selectedValues, trimmedValue]);
-    setCustomValue("");
-    setError("");
+    try {
+      const result = await createOrSelectTrait(traitType, trimmedValue);
+
+      if (selectedKeys.has(normalizeOptionKey(result.value))) {
+        setError(`${singularLabel} already exists`);
+        return;
+      }
+
+      setUniqueValues([...selectedValues, result.value]);
+      setCustomValue("");
+      setError("");
+    } catch (addError) {
+      setError(
+        addError instanceof Error
+          ? addError.message
+          : `Failed to add ${singularLabel.toLocaleLowerCase()}`
+      );
+    }
   };
 
   return (
     <ProfileFormField id={id} label={LIST_FIELD_LABELS[field]}>
       <div className="flex flex-col gap-3">
-        <Popover open={open} onOpenChange={setOpen}>
-          <PopoverTrigger asChild>
-            <button
-              aria-controls={`${id}-listbox`}
-              aria-expanded={open}
-              className="glass-input inline-flex min-h-11 w-full min-w-0 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent shadow-none outline-none transition-[border-color,box-shadow,background-color] hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-[4px] focus-visible:ring-ring/30"
-              id={id}
-              role="combobox"
-              type="button"
-            >
-              <span className="flex min-w-0 flex-1 flex-wrap gap-2 text-left">
-                {selectedValues.length > 0
-                  ? selectedValues.map((value) => (
-                      <span
-                        className="min-w-0 max-w-full rounded-full border border-accent/10 bg-[#E2E8F1] px-3 py-1 text-xs font-medium text-accent"
-                        key={value}
-                      >
-                        <span className="block max-w-full truncate">
-                          {value}
-                        </span>
-                      </span>
-                    ))
-                  : `Select ${LIST_FIELD_LABELS[field].toLocaleLowerCase()}...`}
-              </span>
-              <ChevronDown className="mt-1 size-4 shrink-0 opacity-50" />
-            </button>
-          </PopoverTrigger>
-          <PopoverContent
-            align="start"
-            className="w-[min(42rem,calc(100vw-2rem))] p-0"
-            surface="solid"
-          >
-            <div className="flex flex-col">
-              <div className="border-b border-accent/10 p-2">
-                <Input
-                  className="h-9"
-                  onChange={(event) => setSearchValue(event.target.value)}
-                  placeholder={`Search ${LIST_FIELD_LABELS[field].toLocaleLowerCase()}...`}
-                  value={searchValue}
-                />
-              </div>
-              <div
-                className="max-h-[300px] overflow-y-auto p-1"
-                id={`${id}-listbox`}
-                role="listbox"
-              >
-                {filteredOptions.length > 0 ? (
-                  filteredOptions.map((option) => {
-                    const isSelected = selectedKeys.has(
-                      normalizeOptionKey(option.value)
-                    );
-
-                    return (
-                      <button
-                        aria-selected={isSelected}
-                        className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm transition hover:bg-accent hover:text-white focus-visible:bg-accent focus-visible:text-white focus-visible:outline-none"
-                        key={option.value}
-                        onClick={() => handleSelect(option.value)}
-                        role="option"
-                        type="button"
-                      >
-                        <Check
-                          className={cn(
-                            "size-4 shrink-0",
-                            isSelected ? "opacity-100" : "opacity-0"
-                          )}
-                        />
-                        <span className="min-w-0 truncate">
-                          {option.label}
-                        </span>
-                      </button>
-                    );
-                  })
-                ) : (
-                  <p className="px-3 py-6 text-center text-sm text-accent/58">
-                    No {LIST_FIELD_LABELS[field].toLocaleLowerCase()} found.
-                  </p>
-                )}
-              </div>
-            </div>
-          </PopoverContent>
-        </Popover>
+        <InfiniteMultiSelect
+          contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
+          handleChange={handleSelect}
+          id={id}
+          optionTitle={LIST_FIELD_LABELS[field].toLocaleLowerCase()}
+          options={options}
+          selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
+          triggerClassName="w-full flex-none md:w-full"
+          value={selectedValues}
+        />
 
         {selectedValues.length > 0 ? (
           <div className="flex flex-wrap gap-2">
@@ -873,7 +879,9 @@ function ProfileTagSelector({
                 }
                 type="button"
               >
-                <span>{value}</span>
+                <span>
+                  {optionLabelsByValue.get(value) ?? formatTraitLabel(value)}
+                </span>
                 <X className="size-4" />
               </button>
             ))}
@@ -889,7 +897,7 @@ function ProfileTagSelector({
             onKeyDown={(event) => {
               if (event.key === "Enter") {
                 event.preventDefault();
-                handleAddCustom();
+                void handleAddCustom();
               }
             }}
             placeholder={`Add custom ${LIST_FIELD_LABELS[
@@ -898,13 +906,18 @@ function ProfileTagSelector({
             value={customValue}
           />
           <Button
+            disabled={isCreatingTrait}
             className="md:w-fit"
-            onClick={handleAddCustom}
+            onClick={() => void handleAddCustom()}
             type="button"
             variant="outline"
           >
-            <Plus data-icon="inline-start" />
-            Add
+            {isCreatingTrait ? (
+              <Spinner data-icon="inline-start" />
+            ) : (
+              <Plus data-icon="inline-start" />
+            )}
+            {isCreatingTrait ? "Adding" : "Add"}
           </Button>
         </div>
 
@@ -914,146 +927,86 @@ function ProfileTagSelector({
   );
 }
 
-function ProfileAcceptanceMultiSelect({
-  id,
+function ProfileAudienceSelector({
   onDraftChange,
-  options,
-  title,
-  values,
+  selectedValues,
 }: {
-  id: string;
-  onDraftChange: (field: AcceptanceField, value: boolean) => void;
-  options: readonly AcceptanceOption[];
-  title: string;
-  values: AgentProfileDraft;
+  onDraftChange: (value: string[]) => void;
+  selectedValues: string[];
 }) {
-  const [open, setOpen] = useState(false);
-  const selectedOptions = options.filter((option) => values[option.field]);
-  const selectedFields = new Set(
-    selectedOptions.map((option) => option.field)
-  );
-  const listboxId = `${id}-listbox`;
-
-  const handleToggle = (field: AcceptanceField) => {
-    onDraftChange(field, !values[field]);
-  };
+  const id = "agent-profile-audience";
 
   return (
-    <ProfileFormField id={id} label={title}>
-      <div className="flex flex-col gap-3">
-        <Popover open={open} onOpenChange={setOpen}>
-          <PopoverTrigger asChild>
-            <button
-              aria-controls={listboxId}
-              aria-expanded={open}
-              className="glass-input inline-flex min-h-11 w-full min-w-0 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent shadow-none outline-none transition-[border-color,box-shadow,background-color] hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-[4px] focus-visible:ring-ring/30"
-              id={id}
-              role="combobox"
-              type="button"
-            >
-              <span className="flex min-w-0 flex-1 flex-wrap gap-2 text-left">
-                {selectedOptions.length > 0
-                  ? selectedOptions.map((option) => (
-                      <span
-                        className="min-w-0 max-w-full rounded-full border border-accent/10 bg-[#E2E8F1] px-3 py-1 text-xs font-medium text-accent"
-                        key={option.field}
-                      >
-                        <span className="block max-w-full truncate">
-                          {option.label}
-                        </span>
-                      </span>
-                    ))
-                  : `Select ${title.toLocaleLowerCase()}...`}
-              </span>
-              <ChevronDown className="mt-1 size-4 shrink-0 opacity-50" />
-            </button>
-          </PopoverTrigger>
-          <PopoverContent
-            align="start"
-            className="w-[min(28rem,calc(100vw-2rem))] p-0"
-            surface="solid"
-          >
-            <div
-              className="max-h-[300px] overflow-y-auto p-1"
-              id={listboxId}
-              role="listbox"
-            >
-              {options.map((option) => {
-                const isSelected = selectedFields.has(option.field);
-
-                return (
-                  <button
-                    aria-selected={isSelected}
-                    className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm transition hover:bg-accent hover:text-white focus-visible:bg-accent focus-visible:text-white focus-visible:outline-none"
-                    key={option.field}
-                    onClick={() => handleToggle(option.field)}
-                    role="option"
-                    type="button"
-                  >
-                    <Check
-                      className={cn(
-                        "size-4 shrink-0",
-                        isSelected ? "opacity-100" : "opacity-0"
-                      )}
-                    />
-                    <span className="min-w-0 truncate">{option.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </PopoverContent>
-        </Popover>
-
-        {selectedOptions.length > 0 ? (
-          <div className="flex flex-wrap gap-2">
-            {selectedOptions.map((option) => (
-              <button
-                className="flex w-fit items-center gap-1 rounded-full bg-[#E2E8F1] p-2 text-xs font-medium text-accent transition hover:bg-accent/12"
-                key={option.field}
-                onClick={() => onDraftChange(option.field, false)}
-                type="button"
-              >
-                <span>{option.label}</span>
-                <X className="size-4" />
-              </button>
-            ))}
-          </div>
-        ) : null}
-      </div>
+    <ProfileFormField id={id} label="Audience">
+      <InfiniteMultiSelect
+        contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
+        handleChange={(values) => onDraftChange(resolveAudienceValues(values))}
+        id={id}
+        optionTitle="audience"
+        options={AUDIENCE_OPTIONS}
+        selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
+        triggerClassName="w-full flex-none md:w-full"
+        value={selectedValues}
+      />
     </ProfileFormField>
   );
 }
 
 function AgentProfileCard({
+  createOrSelectTrait,
   draft,
   isEditing,
+  isCreatingTrait,
+  isLoadingTraits,
   isSaving,
   onCancelEdit,
-  onDraftBooleanChange,
+  onDraftAudienceChange,
   onDraftListChange,
   onDraftTextChange,
   onEdit,
   onSave,
   profile,
+  traitOptions,
+  traitsError,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
   draft: AgentProfileDraft | null;
   isEditing: boolean;
+  isCreatingTrait: boolean;
+  isLoadingTraits: boolean;
   isSaving: boolean;
   onCancelEdit: () => void;
-  onDraftBooleanChange: (field: AcceptanceField, value: boolean) => void;
+  onDraftAudienceChange: (value: string[]) => void;
   onDraftListChange: (field: EditableListField, value: string[]) => void;
   onDraftTextChange: (field: EditableTextField, value: string) => void;
   onEdit: () => void;
   onSave: (event: FormEvent<HTMLFormElement>) => void;
   profile: AgentProfile;
+  traitOptions: Record<TraitType, TraitOption[]>;
+  traitsError: string;
 }) {
   const genres = splitAgentList(profile.genres);
+  const subgenres = splitAgentList(profile.subgenres);
+  const formats = getProfileDraftListValues(profile, "formats");
   const location = formatLocation(profile);
   const links = getProfileLinks(profile);
   const acceptanceFlags = getAcceptanceFlags(profile);
-  const genreSelectOptions = draft
-    ? mergeProfileOptions(genreOptions, draft.genres)
-    : [];
+  const selectedGenres = draft?.genres ?? EMPTY_SELECTED_VALUES;
+  const selectedSubgenres = draft?.subgenres ?? EMPTY_SELECTED_VALUES;
+  const selectedFormats = draft?.formats ?? EMPTY_SELECTED_VALUES;
+  const selectedAudiences = draft?.audiences ?? EMPTY_SELECTED_VALUES;
+  const genreSelectOptions = useMemo(
+    () => mergeTraitOptions(traitOptions.genre, selectedGenres),
+    [selectedGenres, traitOptions.genre]
+  );
+  const subgenreSelectOptions = useMemo(
+    () => mergeTraitOptions(traitOptions.subgenre, selectedSubgenres),
+    [selectedSubgenres, traitOptions.subgenre]
+  );
+  const formatSelectOptions = useMemo(
+    () => mergeTraitOptions(traitOptions.format, selectedFormats),
+    [selectedFormats, traitOptions.format]
+  );
 
   if (isEditing && draft) {
     return (
@@ -1159,11 +1112,43 @@ function AgentProfileCard({
               onDraftChange={onDraftTextChange}
               rows={7}
             />
+            {isLoadingTraits ? (
+              <p className="text-sm font-medium text-accent/64">
+                Loading trait options...
+              </p>
+            ) : null}
+            {traitsError ? (
+              <p className="text-sm font-medium text-destructive">
+                Trait options could not load. Using fallback options.{" "}
+                {traitsError}
+              </p>
+            ) : null}
             <ProfileTagSelector
+              createOrSelectTrait={createOrSelectTrait}
               field="genres"
+              isCreatingTrait={isCreatingTrait}
               onDraftChange={onDraftListChange}
               options={genreSelectOptions}
               selectedValues={draft.genres}
+              traitType="genre"
+            />
+            <ProfileTagSelector
+              createOrSelectTrait={createOrSelectTrait}
+              field="subgenres"
+              isCreatingTrait={isCreatingTrait}
+              onDraftChange={onDraftListChange}
+              options={subgenreSelectOptions}
+              selectedValues={draft.subgenres}
+              traitType="subgenre"
+            />
+            <ProfileTagSelector
+              createOrSelectTrait={createOrSelectTrait}
+              field="formats"
+              isCreatingTrait={isCreatingTrait}
+              onDraftChange={onDraftListChange}
+              options={formatSelectOptions}
+              selectedValues={draft.formats}
+              traitType="format"
             />
             <ProfileTextArea
               draft={draft}
@@ -1173,22 +1158,10 @@ function AgentProfileCard({
             />
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-2">
-            <ProfileAcceptanceMultiSelect
-              id="agent-profile-target-audience"
-              onDraftChange={onDraftBooleanChange}
-              options={TARGET_AUDIENCE_ACCEPTANCE_OPTIONS}
-              title="Target audience"
-              values={draft}
-            />
-            <ProfileAcceptanceMultiSelect
-              id="agent-profile-format"
-              onDraftChange={onDraftBooleanChange}
-              options={FORMAT_ACCEPTANCE_OPTIONS}
-              title="Format"
-              values={draft}
-            />
-          </div>
+          <ProfileAudienceSelector
+            onDraftChange={onDraftAudienceChange}
+            selectedValues={selectedAudiences}
+          />
 
           <ProfileTextBlock title="Links">
             <div className="grid gap-4 md:grid-cols-2">
@@ -1268,7 +1241,15 @@ function AgentProfileCard({
           <p>{profile.bio || "Info unavailable"}</p>
         </ProfileTextBlock>
 
-        <ProfileChips items={genres} title="Genres" />
+        <ProfileChips items={formatProfileTraitItems(genres)} title="Genres" />
+        <ProfileChips
+          items={formatProfileTraitItems(subgenres)}
+          title="Subgenres"
+        />
+        <ProfileChips
+          items={formatProfileTraitItems(formats)}
+          title="Formats"
+        />
 
         <ProfileTextBlock title="Interests">
           <p>
@@ -1344,6 +1325,13 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
   const [activeImportMode, setActiveImportMode] = useState<ImportMode | null>(
     null
   );
+  const {
+    createOrSelectTrait,
+    isCreatingTrait: isCreatingProfileTrait,
+    isLoadingTraits,
+    traitOptions,
+    traitsError,
+  } = useManuscriptTraits();
 
   const syncCanonicalAgentId = useCallback(
     async (agentId: string) => {
@@ -1473,7 +1461,7 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
   const handleStartEdit = () => {
     if (!profile) return;
 
-    setDraftProfile(createProfileDraft(profile));
+    setDraftProfile(createProfileDraft(profile, traitOptions));
     setIsEditingProfile(true);
     setProfileError(null);
   };
@@ -1483,23 +1471,49 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
     setIsEditingProfile(false);
   };
 
+  useEffect(() => {
+    if (!isEditingProfile) return;
+
+    setDraftProfile((currentDraft) => {
+      if (!currentDraft) return currentDraft;
+
+      let hasChanges = false;
+      const nextDraft = { ...currentDraft };
+
+      for (const field of EDITABLE_LIST_FIELDS) {
+        const resolvedValues = resolveProfileListValues(
+          field,
+          currentDraft[field],
+          traitOptions
+        );
+
+        if (!listsMatch(currentDraft[field], resolvedValues)) {
+          nextDraft[field] = resolvedValues;
+          hasChanges = true;
+        }
+      }
+
+      const resolvedAudiences = resolveAudienceValues(currentDraft.audiences);
+
+      if (!listsMatch(currentDraft.audiences, resolvedAudiences)) {
+        nextDraft.audiences = resolvedAudiences;
+
+        for (const [audienceValue, field] of Object.entries(
+          AUDIENCE_ACCEPTANCE_FIELDS
+        )) {
+          nextDraft[field] = resolvedAudiences.includes(audienceValue);
+        }
+
+        hasChanges = true;
+      }
+
+      return hasChanges ? nextDraft : currentDraft;
+    });
+  }, [isEditingProfile, traitOptions]);
+
   const handleDraftTextChange = (
     field: EditableTextField,
     value: string
-  ) => {
-    setDraftProfile((currentDraft) =>
-      currentDraft
-        ? {
-            ...currentDraft,
-            [field]: value,
-          }
-        : currentDraft
-    );
-  };
-
-  const handleDraftBooleanChange = (
-    field: AcceptanceField,
-    value: boolean
   ) => {
     setDraftProfile((currentDraft) =>
       currentDraft
@@ -1519,10 +1533,31 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
       currentDraft
         ? {
             ...currentDraft,
-            [field]: value,
+            [field]: resolveProfileListValues(field, value, traitOptions),
           }
         : currentDraft
     );
+  };
+
+  const handleDraftAudienceChange = (value: string[]) => {
+    const audiences = resolveAudienceValues(value);
+
+    setDraftProfile((currentDraft) => {
+      if (!currentDraft) return currentDraft;
+
+      const nextDraft = {
+        ...currentDraft,
+        audiences,
+      };
+
+      for (const [audienceValue, field] of Object.entries(
+        AUDIENCE_ACCEPTANCE_FIELDS
+      )) {
+        nextDraft[field] = audiences.includes(audienceValue);
+      }
+
+      return nextDraft;
+    });
   };
 
   const handleSaveProfile = async (event: FormEvent<HTMLFormElement>) => {
@@ -1536,7 +1571,11 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
     setProfileError(null);
 
     try {
-      const payload = buildUpdateAgentProfilePayload(profile, draftProfile);
+      const payload = buildUpdateAgentProfilePayload(
+        profile,
+        draftProfile,
+        traitOptions
+      );
 
       if (!payload) {
         setDraftProfile(null);
@@ -1584,16 +1623,21 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
         </section>
       ) : profile ? (
         <AgentProfileCard
+          createOrSelectTrait={createOrSelectTrait}
           draft={draftProfile}
+          isCreatingTrait={isCreatingProfileTrait}
           isEditing={isEditingProfile}
+          isLoadingTraits={isLoadingTraits}
           isSaving={isUpdatingProfile}
           onCancelEdit={handleCancelEdit}
-          onDraftBooleanChange={handleDraftBooleanChange}
+          onDraftAudienceChange={handleDraftAudienceChange}
           onDraftListChange={handleDraftListChange}
           onDraftTextChange={handleDraftTextChange}
           onEdit={handleStartEdit}
           onSave={handleSaveProfile}
           profile={profile}
+          traitOptions={traitOptions}
+          traitsError={traitsError}
         />
       ) : (
         <AgentProfileEmptyState />

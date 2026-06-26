@@ -24,8 +24,13 @@ type MultipleSelectorProps = {
   options: SearchableOption[];
   optionTitle: string;
   handleChange: (value: string[]) => void;
+  id?: string;
   width?: string;
   value?: string[];
+  contentClassName?: string;
+  listHeight?: number;
+  selectedBadgeClassName?: string;
+  triggerClassName?: string;
 };
 
 type ItemData = {
@@ -53,8 +58,10 @@ const ListItem = ({
   return (
     <div
       style={style}
-      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent hover:text-white"
+      aria-selected={isSelected}
+      className="group flex cursor-pointer items-center px-2 py-1.5 text-sm hover:bg-accent hover:text-white"
       onClick={() => onItemSelect(option.value)}
+      role="option"
     >
       <Check
         className={cn("mr-2 h-4 w-4", isSelected ? "opacity-100" : "opacity-0")}
@@ -65,9 +72,14 @@ const ListItem = ({
 };
 
 export default function InfiniteMultiSelect({
+  contentClassName,
+  id,
+  listHeight = 300,
   options,
   optionTitle,
   handleChange,
+  selectedBadgeClassName,
+  triggerClassName,
   value,
 }: MultipleSelectorProps) {
   const [open, setOpen] = useState(false);
@@ -151,18 +163,25 @@ export default function InfiniteMultiSelect({
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
         <button
+          id={id}
           type="button"
           role="combobox"
           aria-expanded={open}
           aria-controls={listboxId}
-          className="glass-input inline-flex h-auto min-h-11 min-w-0 flex-1 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent whitespace-normal shadow-none transition-[border-color,box-shadow,background-color] outline-none hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-ring/30 focus-visible:ring-[4px] md:w-[555px]"
+          className={cn(
+            "glass-input inline-flex h-auto min-h-11 min-w-0 flex-1 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium whitespace-normal text-accent shadow-none outline-none transition-[border-color,box-shadow,background-color] hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-[4px] focus-visible:ring-ring/30 md:w-[555px]",
+            triggerClassName
+          )}
         >
           <div className="flex min-w-0 flex-1 flex-wrap justify-start gap-2 text-left">
             {selectedValues?.length
               ? selectedValues.map((val, i) => (
                   <div
                     key={i}
-                    className="min-w-0 max-w-full rounded-xl border bg-slate-200 px-2 py-1 text-xs font-medium"
+                    className={cn(
+                      "min-w-0 max-w-full rounded-xl border bg-slate-200 px-2 py-1 text-xs font-medium",
+                      selectedBadgeClassName
+                    )}
                   >
                     <span className="block max-w-full truncate">
                       {optionLabelsByValue.get(val) ?? val}
@@ -174,7 +193,12 @@ export default function InfiniteMultiSelect({
           <ChevronDownIcon className="mt-1 size-4 shrink-0 opacity-50" />
         </button>
       </PopoverTrigger>
-      <PopoverContent className={`w-[280px] md:w-[555px] p-0 !bg-white !backdrop-blur-none`}>
+      <PopoverContent
+        className={cn(
+          "w-[280px] p-0 !bg-white !backdrop-blur-none md:w-[555px]",
+          contentClassName
+        )}
+      >
         <div className="flex flex-col">
           {/* Search Input */}
           <div className="p-2 border-b">
@@ -197,7 +221,7 @@ export default function InfiniteMultiSelect({
               </div>
             ) : (
               <List
-                height={Math.min(300, filteredOptions.length * 40)} // Max 300px height
+                height={Math.min(listHeight, filteredOptions.length * 40)}
                 width="100%"
                 itemCount={filteredOptions.length}
                 itemSize={40}

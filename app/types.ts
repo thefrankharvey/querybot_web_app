@@ -24,6 +24,8 @@ export type Blips = {
   extra_links?: string;
   favorites: string;
   genres: string;
+  formats?: string | string[] | null;
+  audiences?: string | string[] | null;
   id: string;
   location: string;
   name: string;
@@ -244,6 +246,8 @@ export type FetchAgentResponse = {
     match_score?: number;
     bio?: string;
     genres?: string;
+    formats?: string | string[] | null;
+    audiences?: string | string[] | null;
     submission_req?: string;
     [key: string]: unknown;
     location?: {
