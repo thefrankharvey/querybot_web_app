@@ -1,42 +1,46 @@
 "use client";
 
-import { formatOptions } from "@/app/constants";
-import Combobox, { ComboboxRef } from "@/app/ui-primitives/combobox";
-import React, { useRef, useState } from "react";
+import Combobox from "@/app/ui-primitives/combobox";
+import React, { useState } from "react";
 import { FormState } from "../page";
-import SelectedMetric from "./custom-metrics/selected-metric";
 import CustomInput from "./custom-metrics/custom-input";
-import { cn } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
+import { mergeTraitOptions, TraitOption } from "@/lib/traits";
+import { CreateOrSelectTrait } from "../hooks/use-smart-match-traits";
 
 const Format = ({
+  createOrSelectTrait,
+  form,
+  options,
   setForm,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
+  form: FormState;
+  options: TraitOption[];
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
-  const [customValue, setCustomValue] = useState<string>("");
-  const comboboxRef = useRef<ComboboxRef>(null);
   const [error, setError] = useState<string>("");
   const [showInput, setShowInput] = useState<boolean>(false);
+  const mergedOptions = mergeTraitOptions(options, [form.format]);
 
-  const handleAddFormat = (value: string) => {
-    if (
-      customValue.toLowerCase() === value.toLowerCase() ||
-      value.trim() === ""
-    ) {
-      setError("Format already exists");
-      return;
+  const handleAddFormat = async (value: string) => {
+    try {
+      const result = await createOrSelectTrait("format", value);
+
+      setForm((prev) => ({ ...prev, format: result.value }));
+      setError("");
+      setShowInput(false);
+    } catch (addError) {
+      setError(
+        addError instanceof Error ? addError.message : "Failed to add format",
+      );
     }
-    comboboxRef.current?.clear();
-    setForm((prev) => ({ ...prev, format: value }));
-    setCustomValue(value);
   };
 
   const handleSelectChange = (value: string) => {
     setForm((prev) => ({ ...prev, format: value }));
-    setCustomValue("");
   };
 
   return (
@@ -46,10 +50,10 @@ const Format = ({
       </label>
       <div className="flex items-center gap-2 w-full">
         <Combobox
-          ref={comboboxRef}
-          options={formatOptions}
+          options={mergedOptions}
           optionTitle="format"
           handleChange={handleSelectChange}
+          value={form.format}
         />
         <TooltipComponent
           className="text-center"
@@ -70,23 +74,10 @@ const Format = ({
           </Button>
         </TooltipComponent>
       </div>
-      <div
-        className={cn(
-          "flex flex-wrap gap-2 mt-2",
-          customValue === "" && "hidden"
-        )}
-      >
-        {customValue && (
-          <SelectedMetric
-            value={customValue}
-            handleRemove={() => setCustomValue("")}
-          />
-        )}
-      </div>
       <CustomInput
         label="format"
         handleAdd={handleAddFormat}
-        closeInput={!!customValue}
+        closeInput={!!form.format}
         setError={setError}
         showInput={showInput}
         setShowInput={setShowInput}

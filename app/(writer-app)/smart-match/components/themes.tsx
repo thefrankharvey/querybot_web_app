@@ -1,26 +1,31 @@
 import React, { useState } from "react";
 import { FormState } from "../page";
-import { themeOptions } from "@/app/constants";
 import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
-import SelectedMetric from "./custom-metrics/selected-metric";
 import CustomInput from "./custom-metrics/custom-input";
-import { cn } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
+import { mergeTraitOptions, TraitOption } from "@/lib/traits";
+import { CreateOrSelectTrait } from "../hooks/use-smart-match-traits";
 
 // light gray: #F9F9F9 gray-50
 // green: #1A4A56 teal-900 teal-800 emerald-900
 // white: #FFFFFF
 
 const Themes = ({
+  createOrSelectTrait,
+  form,
+  options,
   setForm,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
+  form: FormState;
+  options: TraitOption[];
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
-  const [customValues, setCustomValues] = useState<string[]>([]);
   const [error, setError] = useState<string>("");
   const [showInput, setShowInput] = useState<boolean>(false);
+  const mergedOptions = mergeTraitOptions(options, form.themes);
 
   const handleThemeChange = (themes: string[]) => {
     setForm((prev) => {
@@ -31,26 +36,33 @@ const Themes = ({
     });
   };
 
-  const handleAddCustomTheme = (value: string) => {
-    if (
-      customValues.map((v) => v.toLowerCase()).includes(value.toLowerCase()) ||
-      value.trim() === ""
-    ) {
-      setError("Theme already exists");
-      return;
+  const handleAddCustomTheme = async (value: string) => {
+    try {
+      const result = await createOrSelectTrait("theme", value);
+
+      setForm((prev) => ({
+        ...prev,
+        themes: prev.themes.includes(result.value)
+          ? prev.themes
+          : [...prev.themes, result.value],
+      }));
+      setError("");
+      setShowInput(false);
+    } catch (addError) {
+      setError(
+        addError instanceof Error ? addError.message : "Failed to add theme",
+      );
     }
-    setForm((prev) => ({ ...prev, themes: [...prev.themes, value] }));
-    setCustomValues((prev) => [...prev, value]);
-    setError("");
   };
   return (
     <div className="w-full">
       <label className="font-semibold mb-2 block text-accent">Themes<span className="text-accent text-xl font-bold">*</span></label>
       <div className="flex items-start gap-2 w-full">
         <InfiniteMultiSelect
-          options={themeOptions}
+          options={mergedOptions}
           optionTitle="themes"
           handleChange={handleThemeChange}
+          value={form.themes}
         />
         <TooltipComponent
           className="text-center"
@@ -70,22 +82,6 @@ const Themes = ({
             )}
           </Button>
         </TooltipComponent>
-      </div>
-      <div
-        className={cn(
-          "flex flex-wrap gap-2 mt-2",
-          customValues.length === 0 && "hidden"
-        )}
-      >
-        {customValues.map((value, index) => (
-          <SelectedMetric
-            key={index}
-            value={value}
-            handleRemove={() =>
-              setCustomValues(customValues.filter((v) => v !== value))
-            }
-          />
-        ))}
       </div>
       <CustomInput
         showInput={showInput}

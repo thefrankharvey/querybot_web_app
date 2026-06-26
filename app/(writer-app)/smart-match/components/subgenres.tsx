@@ -2,23 +2,28 @@
 
 import React, { useState } from "react";
 import { FormState } from "../page";
-import { subgenreOptions } from "@/app/constants";
-import MultiSelect from "@/app/ui-primitives/multi-select";
-import SelectedMetric from "./custom-metrics/selected-metric";
+import InfiniteMultiSelect from "@/app/ui-primitives/infinite-multi-select";
 import CustomInput from "./custom-metrics/custom-input";
-import { cn } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
+import { mergeTraitOptions, TraitOption } from "@/lib/traits";
+import { CreateOrSelectTrait } from "../hooks/use-smart-match-traits";
 
 const Subgenres = ({
+  createOrSelectTrait,
+  form,
+  options,
   setForm,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
+  form: FormState;
+  options: TraitOption[];
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
-  const [customValues, setCustomValues] = useState<string[]>([]);
   const [error, setError] = useState<string>("");
   const [showInput, setShowInput] = useState<boolean>(false);
+  const mergedOptions = mergeTraitOptions(options, form.subgenres);
 
   const handleSubgenreChange = (subgenres: string[]) => {
     setForm((prev) => {
@@ -29,16 +34,25 @@ const Subgenres = ({
     });
   };
 
-  const handleAddCustomSubgenre = (value: string) => {
-    if (
-      customValues.map((v) => v.toLowerCase()).includes(value.toLowerCase()) ||
-      value.trim() === ""
-    ) {
-      setError("Subgenre already exists");
-      return;
+  const handleAddCustomSubgenre = async (value: string) => {
+    try {
+      const result = await createOrSelectTrait("subgenre", value);
+
+      setForm((prev) => ({
+        ...prev,
+        subgenres: prev.subgenres.includes(result.value)
+          ? prev.subgenres
+          : [...prev.subgenres, result.value],
+      }));
+      setError("");
+      setShowInput(false);
+    } catch (addError) {
+      setError(
+        addError instanceof Error
+          ? addError.message
+          : "Failed to add subgenre",
+      );
     }
-    setForm((prev) => ({ ...prev, subgenres: [...prev.subgenres, value] }));
-    setCustomValues((prev) => [...prev, value]);
   };
   return (
     <div className="w-full">
@@ -46,10 +60,11 @@ const Subgenres = ({
         Subgenres<span className="text-accent text-xl font-bold">*</span>
       </label>
       <div className="flex items-center gap-2 w-full">
-        <MultiSelect
-          options={subgenreOptions}
+        <InfiniteMultiSelect
+          options={mergedOptions}
           optionTitle="subgenre"
           handleChange={handleSubgenreChange}
+          value={form.subgenres}
         />
         <TooltipComponent
           className="text-center"
@@ -69,22 +84,6 @@ const Subgenres = ({
             )}
           </Button>
         </TooltipComponent>
-      </div>
-      <div
-        className={cn(
-          "flex flex-wrap gap-2 mt-2",
-          customValues.length === 0 && "hidden"
-        )}
-      >
-        {customValues.map((value) => (
-          <SelectedMetric
-            key={value}
-            value={value}
-            handleRemove={() =>
-              setCustomValues(customValues.filter((v) => v !== value))
-            }
-          />
-        ))}
       </div>
       <CustomInput
         label="subgenre"

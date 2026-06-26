@@ -28,6 +28,7 @@ import { startSheetPolling } from "../workers/sheet-worker-manager";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
 import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
 
 const SmartMatchWalkthrough = dynamic(
   () =>
@@ -51,6 +52,8 @@ export type FormState = {
 
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
+  const { createOrSelectTrait, traitOptions, traitsError } =
+    useSmartMatchTraits();
   const { agentsList } = useProfileContext();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
@@ -264,16 +267,39 @@ const SmartMatch = () => {
                 projectNames={projectNames}
               />
               <Genre
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
                 isWalkthroughGenreDropdownOpen={
                   activeWalkthroughStep === "genre-dropdown"
                 }
+                options={traitOptions.genre}
                 setForm={setForm}
               />
-              <Subgenres setForm={setForm} />
-              <Format setForm={setForm} />
+              <Subgenres
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.subgenre}
+                setForm={setForm}
+              />
+              <Format
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.format}
+                setForm={setForm}
+              />
               <TargetAudience form={form} setForm={setForm} />
-              <Themes setForm={setForm} />
+              <Themes
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.theme}
+                setForm={setForm}
+              />
               <Comps form={form} setForm={setForm} />
+              {traitsError && (
+                <div className="w-full text-sm font-medium text-red-500">
+                  {traitsError}
+                </div>
+              )}
               {apiMessage && (
                 <div className="w-full text-base font-semibold text-red-500">
                   {apiMessage}

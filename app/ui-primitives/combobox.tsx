@@ -16,10 +16,11 @@ import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 
 type ComboboxProps = {
   forceOpen?: boolean;
-  options: { value: string; label: string }[];
+  options: { value: string; label: string; keywords?: string[] }[];
   optionTitle: string;
   handleChange: (value: string) => void;
   tourTarget?: string;
+  value?: string;
 };
 
 export interface ComboboxRef {
@@ -27,15 +28,32 @@ export interface ComboboxRef {
 }
 
 const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
-  ({ forceOpen, options, optionTitle, handleChange, tourTarget }, ref) => {
+  (
+    { forceOpen, options, optionTitle, handleChange, tourTarget, value },
+    ref,
+  ) => {
     const [open, setOpen] = React.useState(false);
-    const [value, setValue] = React.useState("");
+    const [internalValue, setInternalValue] = React.useState("");
     const isOpen = forceOpen ? true : open;
+    const selectedValue = value ?? internalValue;
+    const selectedOption = options.find(
+      (option) => option.value === selectedValue,
+    );
+
+    const updateValue = React.useCallback(
+      (nextValue: string) => {
+        if (value === undefined) {
+          setInternalValue(nextValue);
+        }
+
+        handleChange(nextValue);
+      },
+      [handleChange, value],
+    );
 
     React.useImperativeHandle(ref, () => ({
       clear: () => {
-        setValue("");
-        handleChange("");
+        updateValue("");
       },
     }));
 
@@ -56,8 +74,8 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
             aria-expanded={isOpen}
             className="flex-1 md:w-[555px] justify-between bg-white"
           >
-            {value
-              ? options.find((option) => option.value === value)?.label
+            {selectedValue
+              ? selectedOption?.label ?? selectedValue
               : `Select ${optionTitle}...`}
             <ChevronDownIcon className="size-4 opacity-50" />
           </Button>
@@ -74,10 +92,12 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
                 {options.map((option) => (
                   <CommandItem
                     key={option.value}
+                    keywords={option.keywords}
                     value={option.value}
                     onSelect={(currentValue) => {
-                      setValue(currentValue === value ? "" : currentValue);
-                      handleChange(currentValue);
+                      updateValue(
+                        currentValue === selectedValue ? "" : currentValue,
+                      );
                       if (!forceOpen) {
                         setOpen(false);
                       }
@@ -87,7 +107,9 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
                     <Check
                       className={cn(
                         "ml-auto",
-                        value === option.value ? "opacity-100" : "opacity-0"
+                        selectedValue === option.value
+                          ? "opacity-100"
+                          : "opacity-0"
                       )}
                     />
                   </CommandItem>

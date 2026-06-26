@@ -1,44 +1,48 @@
 "use client";
 
-import { genreOptions } from "@/app/constants";
-import Combobox, { ComboboxRef } from "@/app/ui-primitives/combobox";
-import React, { useRef, useState } from "react";
+import Combobox from "@/app/ui-primitives/combobox";
+import React, { useState } from "react";
 import { FormState } from "../page";
 import CustomInput from "./custom-metrics/custom-input";
-import SelectedMetric from "./custom-metrics/selected-metric";
-import { cn } from "@/app/utils";
 import { Button } from "@/app/ui-primitives/button";
 import { MinusIcon, PlusIcon } from "lucide-react";
 import TooltipComponent from "@/app/components/tooltip";
+import { mergeTraitOptions, TraitOption } from "@/lib/traits";
+import { CreateOrSelectTrait } from "../hooks/use-smart-match-traits";
 
 const Genre = ({
+  createOrSelectTrait,
+  form,
   isWalkthroughGenreDropdownOpen,
+  options,
   setForm,
 }: {
+  createOrSelectTrait: CreateOrSelectTrait;
+  form: FormState;
   isWalkthroughGenreDropdownOpen?: boolean;
+  options: TraitOption[];
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
 }) => {
-  const comboboxRef = useRef<ComboboxRef>(null);
-  const [customValue, setCustomValue] = useState<string>("");
   const [showInput, setShowInput] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
+  const mergedOptions = mergeTraitOptions(options, [form.genre]);
 
-  const handleAddGenre = (value: string) => {
-    if (
-      customValue.toLowerCase() === value.toLowerCase() ||
-      value.trim() === ""
-    ) {
-      setError("Genre already exists");
-      return;
+  const handleAddGenre = async (value: string) => {
+    try {
+      const result = await createOrSelectTrait("genre", value);
+
+      setForm((prev) => ({ ...prev, genre: result.value }));
+      setError("");
+      setShowInput(false);
+    } catch (addError) {
+      setError(
+        addError instanceof Error ? addError.message : "Failed to add genre",
+      );
     }
-    comboboxRef.current?.clear();
-    setForm((prev) => ({ ...prev, genre: value }));
-    setCustomValue(value);
   };
 
   const handleSelectChange = (value: string) => {
     setForm((prev) => ({ ...prev, genre: value }));
-    setCustomValue("");
   };
 
   return (
@@ -48,12 +52,12 @@ const Genre = ({
       </label>
       <div className="flex items-center w-full">
         <Combobox
-          ref={comboboxRef}
           forceOpen={isWalkthroughGenreDropdownOpen}
-          options={genreOptions}
+          options={mergedOptions}
           optionTitle="genre"
           handleChange={handleSelectChange}
           tourTarget="smart-match-genre-dropdown"
+          value={form.genre}
         />
         <TooltipComponent
           className="text-center"
@@ -75,25 +79,12 @@ const Genre = ({
           </Button>
         </TooltipComponent>
       </div>
-      <div
-        className={cn(
-          "flex flex-wrap gap-2 mt-2",
-          customValue === "" && "hidden"
-        )}
-      >
-        {customValue && (
-          <SelectedMetric
-            value={customValue}
-            handleRemove={() => setCustomValue("")}
-          />
-        )}
-      </div>
       <CustomInput
         showInput={showInput}
         setShowInput={setShowInput}
         label="genre"
         handleAdd={handleAddGenre}
-        closeInput={!!customValue}
+        closeInput={!!form.genre}
         setError={setError}
       />
       {error && <p className="text-red-500 text-sm">{error}</p>}

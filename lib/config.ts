@@ -44,6 +44,10 @@ export function getWqhApiUrl(): string {
     : process.env.WQH_DEV_API_URL!;
 }
 
+export function getWqhTraitsApiUrl(): string {
+  return process.env.WQH_TRAITS_API_URL?.trim() || getWqhApiUrl();
+}
+
 export function getStripePriceId(plan: "monthly" | "yearly"): string {
   const isProd = getAppEnv() === "prod";
   if (plan === "monthly") {

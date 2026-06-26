@@ -1,21 +1,35 @@
 "use client";
 
 import { Check, ChevronDownIcon } from "lucide-react";
-import { useState, useMemo, useCallback, useRef, useId } from "react";
+import {
+  useState,
+  useMemo,
+  useCallback,
+  useRef,
+  useId,
+  useDeferredValue,
+} from "react";
 import { FixedSizeList as List } from "react-window";
 import { cn } from "../utils";
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 import { Input } from "./input";
 
+type SearchableOption = {
+  value: string;
+  label: string;
+  keywords?: string[];
+};
+
 type MultipleSelectorProps = {
-  options: { value: string; label: string }[];
+  options: SearchableOption[];
   optionTitle: string;
   handleChange: (value: string[]) => void;
   width?: string;
+  value?: string[];
 };
 
 type ItemData = {
-  items: { value: string; label: string }[];
+  items: SearchableOption[];
   selectedValues: string[];
   onItemSelect: (value: string) => void;
 };
@@ -54,40 +68,70 @@ export default function InfiniteMultiSelect({
   options,
   optionTitle,
   handleChange,
+  value,
 }: MultipleSelectorProps) {
   const [open, setOpen] = useState(false);
-  const [value, setValue] = useState<string[]>([]);
+  const [internalValue, setInternalValue] = useState<string[]>([]);
   const [searchValue, setSearchValue] = useState("");
   const searchInputRef = useRef<HTMLInputElement>(null);
   const listboxId = useId();
+  const selectedValues = value ?? internalValue;
+  const deferredSearchValue = useDeferredValue(searchValue);
+  const searchableOptions = useMemo(
+    () =>
+      options.map((option) => ({
+        option,
+        searchText: [
+          option.label,
+          option.value,
+          ...(option.keywords ?? []),
+        ]
+          .join(" ")
+          .toLocaleLowerCase(),
+      })),
+    [options]
+  );
+  const optionLabelsByValue = useMemo(
+    () =>
+      new Map(
+        options.map((option) => [option.value, option.label] as const)
+      ),
+    [options]
+  );
 
-  // Filter options based on search with performance optimization
   const filteredOptions = useMemo(() => {
-    if (!searchValue.trim()) {
+    const searchTerm = deferredSearchValue.trim().toLocaleLowerCase();
+
+    if (!searchTerm) {
       return options;
     }
 
-    const searchTerm = searchValue.toLowerCase();
-    return options.filter(
-      (option) =>
-        option.label.toLowerCase().includes(searchTerm) ||
-        option.value.toLowerCase().includes(searchTerm)
-    );
-  }, [options, searchValue]);
+    return searchableOptions
+      .filter(({ searchText }) => searchText.includes(searchTerm))
+      .map(({ option }) => option);
+  }, [deferredSearchValue, options, searchableOptions]);
 
   const handleSetValue = useCallback(
     (val: string) => {
-      if (value.includes(val)) {
-        const newValues = value.filter((item) => item !== val);
-        setValue(newValues);
+      if (selectedValues.includes(val)) {
+        const newValues = selectedValues.filter((item) => item !== val);
+
+        if (value === undefined) {
+          setInternalValue(newValues);
+        }
+
         handleChange(newValues);
       } else {
-        const newValues = [...value, val];
-        setValue(newValues);
+        const newValues = [...selectedValues, val];
+
+        if (value === undefined) {
+          setInternalValue(newValues);
+        }
+
         handleChange(newValues);
       }
     },
-    [value, handleChange]
+    [handleChange, selectedValues, value]
   );
 
   const handleSearch = useCallback((search: string) => {
@@ -97,10 +141,10 @@ export default function InfiniteMultiSelect({
   const itemData: ItemData = useMemo(
     () => ({
       items: filteredOptions,
-      selectedValues: value,
+      selectedValues,
       onItemSelect: handleSetValue,
     }),
-    [filteredOptions, value, handleSetValue]
+    [filteredOptions, selectedValues, handleSetValue]
   );
 
   return (
@@ -114,14 +158,14 @@ export default function InfiniteMultiSelect({
           className="glass-input inline-flex h-auto min-h-11 min-w-0 flex-1 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent whitespace-normal shadow-none transition-[border-color,box-shadow,background-color] outline-none hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-ring/30 focus-visible:ring-[4px] md:w-[555px]"
         >
           <div className="flex min-w-0 flex-1 flex-wrap justify-start gap-2 text-left">
-            {value?.length
-              ? value.map((val, i) => (
+            {selectedValues?.length
+              ? selectedValues.map((val, i) => (
                   <div
                     key={i}
                     className="min-w-0 max-w-full rounded-xl border bg-slate-200 px-2 py-1 text-xs font-medium"
                   >
                     <span className="block max-w-full truncate">
-                      {options.find((option) => option.value === val)?.label}
+                      {optionLabelsByValue.get(val) ?? val}
                     </span>
                   </div>
                 ))

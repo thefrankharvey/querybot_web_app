@@ -14,30 +14,41 @@ import { useId, useState } from "react";
 import { cn } from "../utils";
 
 type MultipleSelectorProps = {
-  options: { value: string; label: string }[];
+  options: { value: string; label: string; keywords?: string[] }[];
   optionTitle: string;
   handleChange: (value: string[]) => void;
   width?: string;
+  value?: string[];
 };
 
 export default function MultiSelect({
   options,
   optionTitle,
   handleChange,
+  value,
 }: MultipleSelectorProps) {
   const [open, setOpen] = useState(false);
-  const [value, setValue] = useState<string[]>([]);
+  const [internalValue, setInternalValue] = useState<string[]>([]);
   const listboxId = useId();
+  const selectedValues = value ?? internalValue;
 
   const handleSetValue = (val: string) => {
-    if (value.includes(val)) {
-      value.splice(value.indexOf(val), 1);
-      const newValues = value.filter((item) => item !== val);
-      setValue(newValues);
+    if (selectedValues.includes(val)) {
+      const newValues = selectedValues.filter((item) => item !== val);
+
+      if (value === undefined) {
+        setInternalValue(newValues);
+      }
+
       handleChange(newValues);
     } else {
-      setValue((prevValue) => [...prevValue, val]);
-      handleChange([...value, val]);
+      const newValues = [...selectedValues, val];
+
+      if (value === undefined) {
+        setInternalValue(newValues);
+      }
+
+      handleChange(newValues);
     }
   };
 
@@ -52,8 +63,8 @@ export default function MultiSelect({
           className="glass-input inline-flex h-auto min-h-11 min-w-0 flex-1 items-start justify-between gap-2 rounded-[1.75rem] bg-white px-4 py-3 text-sm font-medium text-accent whitespace-normal shadow-none transition-[border-color,box-shadow,background-color] outline-none hover:border-accent/22 hover:bg-white/88 focus-visible:border-accent/20 focus-visible:ring-ring/30 focus-visible:ring-[4px] md:w-[555px]"
         >
           <div className="flex min-w-0 flex-1 flex-wrap justify-start gap-2 text-left">
-            {value?.length
-              ? value.map((val, i) => (
+            {selectedValues?.length
+              ? selectedValues.map((val, i) => (
                   <div
                     key={i}
                     className="min-w-0 max-w-full rounded-xl border bg-slate-200 px-2 py-1 text-xs font-medium"
@@ -77,6 +88,7 @@ export default function MultiSelect({
               {options.map((option) => (
                 <CommandItem
                   key={option.value}
+                  keywords={option.keywords}
                   value={option.value}
                   onSelect={() => {
                     handleSetValue(option.value);
@@ -85,7 +97,9 @@ export default function MultiSelect({
                   <Check
                     className={cn(
                       "mr-2 h-4 w-4",
-                      value.includes(option.value) ? "opacity-100" : "opacity-0"
+                      selectedValues.includes(option.value)
+                        ? "opacity-100"
+                        : "opacity-0"
                     )}
                   />
                   {option.label}
