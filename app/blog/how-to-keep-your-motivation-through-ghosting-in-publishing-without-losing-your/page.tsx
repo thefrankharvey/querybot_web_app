@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to keep your motivation through ghosting in publishing (without losing your mind)",
   "description": "Ghosting in publishing doesn't just hurt your feelings. It wrecks your ability to plan. One week you're refreshing your inbox like a sitcom character. The next week you're wondering if you should stop querying entirely because the silence feels like an answer.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-02",
+  "modifiedDate": "2027-02-02",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-keep-your-motivation-through-ghosting-in-publishing-without-losing-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -548,6 +548,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-keep-your-motivation-through-ghosting-in-publishing-without-losing-your#primaryimage"
       },
+      "datePublished": "2027-02-02",
+      "dateModified": "2027-02-02",
       "mentions": [
         {
           "@type": "WebPage",

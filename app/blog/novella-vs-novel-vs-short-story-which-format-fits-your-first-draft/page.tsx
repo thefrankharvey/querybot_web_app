@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Novella vs novel vs short story: which format fits your first draft?",
   "description": "Most writers don\u2019t struggle because they can\u2019t write a draft. They struggle because they don\u2019t know which container will keep the draft from collapsing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-18",
+  "modifiedDate": "2026-10-18",
   "canonicalUrl": "https://writequeryhook.com/blog/novella-vs-novel-vs-short-story-which-format-fits-your-first-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -576,6 +576,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/novella-vs-novel-vs-short-story-which-format-fits-your-first-draft#primaryimage"
       },
+      "datePublished": "2026-10-18",
+      "dateModified": "2026-10-18",
       "mentions": [
         {
           "@type": "WebPage",

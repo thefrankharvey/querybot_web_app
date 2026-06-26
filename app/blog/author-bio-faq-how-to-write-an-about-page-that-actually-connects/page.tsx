@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author Bio FAQ: how to write an About page that actually connects",
   "description": "If readers land on your About page before they've read your books, that page is your first handshake. They're not looking for your life story, and they definitely aren't here for a r\u00e9sum\u00e9 with commas. They want to understand your author brand and catch your writing voice\u2014then decide whether clicking deeper feels worth it.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-28",
+  "modifiedDate": "2026-08-28",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-faq-how-to-write-an-about-page-that-actually-connects",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-faq-how-to-write-an-about-page-that-actually-connects#primaryimage"
       },
+      "datePublished": "2026-08-28",
+      "dateModified": "2026-08-28",
       "mentions": [
         {
           "@type": "WebPage",

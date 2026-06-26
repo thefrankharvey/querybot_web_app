@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 rejection mindset mistakes that keep your confidence sunk (and the fixes that put you back in the ring)",
   "description": "You can call it \u201cthe writing life\u201d if you want. I call it: being judged in public, sometimes in cruel ways, and still having to show up for the next draft.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-14",
+  "modifiedDate": "2027-03-14",
   "canonicalUrl": "https://writequeryhook.com/blog/5-rejection-mindset-mistakes-that-keep-your-confidence-sunk-and-the-fixes-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -614,6 +614,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-rejection-mindset-mistakes-that-keep-your-confidence-sunk-and-the-fixes-that#primaryimage"
       },
+      "datePublished": "2027-03-14",
+      "dateModified": "2027-03-14",
       "mentions": [
         {
           "@type": "WebPage",

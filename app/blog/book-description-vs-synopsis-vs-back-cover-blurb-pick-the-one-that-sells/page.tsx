@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
   "description": "A writer can spend all day wrestling a manuscript into shape, then freeze when it's time to write a book blurb. The panic hits when you face the tiny word budget and the fear that you'll either spoil the good stuff or sound like every other page-one pitch online.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
+  "publishedDate": "2027-05-21",
+  "modifiedDate": "2027-05-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_hero_dread_blank_page_blog_hero_landscape_11ead66363a1.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_hero_dread_blank_page_blog_hero_landscape_11ead66363a1.jpeg?updatedAt=1782166479187",
     "alt": "blog hero \u00b7 dread blank-page",
     "width": 5760,
     "height": 3840,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "item": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "item": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     }
   ],
   "tldrBlocks": [],
@@ -167,7 +167,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_advertising_trailer_blog_section_landscape_8b890d2675bd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_advertising_trailer_blog_section_landscape_8b890d2675bd.gif?updatedAt=1782166480213",
         "alt": "Best keywords to include in book description",
         "width": 396,
         "height": 200,
@@ -343,7 +343,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_advertising_trailer_blog_section_landscape_8b890d2675bd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_advertising_trailer_blog_section_landscape_8b890d2675bd.gif?updatedAt=1782166480213",
         "alt": "Best keywords to include in book description",
         "width": 396,
         "height": 200,
@@ -373,7 +373,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_decision_checklist_energy_blog_section_landscape_f3d48d371516.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_decision_checklist_energy_blog_section_landscape_f3d48d371516.gif?updatedAt=1782166481344",
         "alt": "Comparison table: quick scan",
         "width": 226,
         "height": 200,
@@ -415,7 +415,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_fist_pump_decisive_blog_section_landscape_6fb0d6e39b26.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_fist_pump_decisive_blog_section_landscape_6fb0d6e39b26.jpeg?updatedAt=1782166482234",
         "alt": "The verdict",
         "width": 6000,
         "height": 4000,
@@ -426,32 +426,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_section_image_refresh_final_draft_blog_section_landscape_fdb1ff01bb5e.jpeg",
-    "alt": "blog section image \u00b7 refresh final draft",
-    "width": 6000,
-    "height": 4000,
-    "creator": "olia danilevich",
-    "creatorUrl": "https://www.pexels.com/@olia-danilevich",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     },
     {
       "title": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     },
     {
       "title": "Incorporating agent or editor feedback FAQ",
-      "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     },
     {
-      "title": "Book blurb FAQ: how to write a book description that sells",
-      "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+      "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -486,7 +477,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "url": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     }
   ]
 } as const;
@@ -516,7 +507,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -528,31 +519,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "item": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+          "item": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
+      "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#webpage",
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
       "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -568,11 +559,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#article",
+      "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#webpage"
+        "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells",
       "headline": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
       "alternativeHeadline": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
       "description": "A writer can spend all day wrestling a manuscript into shape, then freeze when it's time to write a book blurb. The panic hits when you face the tiny word budget and the fear that you'll either spoil the good stuff or sound like every other page-one pitch online.",
@@ -602,40 +593,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage"
       },
+      "datePublished": "2027-05-21",
+      "dateModified": "2027-05-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "url": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
+          "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         },
         {
           "@type": "WebPage",
           "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         },
         {
           "@type": "WebPage",
           "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+          "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent or editor feedback FAQ",
-          "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Book blurb FAQ: how to write a book description that sells",
-          "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+          "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_hero_dread_blank_page_blog_hero_landscape_11ead66363a1.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells/blog/blog_hero_dread_blank_page_blog_hero_landscape_11ead66363a1.jpeg?updatedAt=1782166479187",
       "width": 5760,
       "height": 3840,
       "caption": "blog hero \u00b7 dread blank-page",
@@ -650,7 +643,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#faq",
+      "@id": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells#faq",
       "mainEntity": [
         {
           "@type": "Question",

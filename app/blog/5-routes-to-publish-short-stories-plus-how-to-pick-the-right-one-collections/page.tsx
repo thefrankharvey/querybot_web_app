@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
   "description": "If you've got a stack of short stories and you're staring at the word \"publish\" like it owes you money, welcome. This is where ambition meets reality: sometimes the fiction is good, and the industry still says, \"Cool. Send us someone we already know.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
+  "publishedDate": "2027-10-04",
+  "modifiedDate": "2027-10-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_hero_recognition_rejection_blog_hero_landscape_d5adade64946.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_hero_recognition_rejection_blog_hero_landscape_d5adade64946.jpeg",
     "alt": "blog hero \u00b7 recognition rejection",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "alleksana",
+    "creatorUrl": "https://www.pexels.com/@alleksana",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-      "item": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
+      "item": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     }
   ],
   "tldrBlocks": [],
@@ -204,13 +204,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_niche_press_fit_blog_section_landscape_e325af054904.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_niche_press_fit_blog_section_landscape_e325af054904.gif",
         "alt": "Use a smaller specialized press (because \"fit\" is real)",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -271,13 +271,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_control_speed_blog_section_landscape_66c307cac0cb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_control_speed_blog_section_landscape_66c307cac0cb.jpeg",
         "alt": "Publish short stories online (fifth route, direct-to-reader credibility)",
-        "width": 186,
-        "height": 200,
-        "creator": "nog",
-        "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
-        "provider": "giphy",
+        "width": 4912,
+        "height": 2760,
+        "creator": "Mike Bird",
+        "creatorUrl": "https://www.pexels.com/@mikebirdy",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -379,13 +379,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_control_speed_blog_section_landscape_66c307cac0cb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_control_speed_blog_section_landscape_66c307cac0cb.jpeg",
         "alt": "Publish short stories online (fifth route, direct-to-reader credibility)",
-        "width": 186,
-        "height": 200,
-        "creator": "nog",
-        "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
-        "provider": "giphy",
+        "width": 4912,
+        "height": 2760,
+        "creator": "Mike Bird",
+        "creatorUrl": "https://www.pexels.com/@mikebirdy",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -413,43 +413,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_focus_magazine_fit_blog_section_landscape_47e8f073b39f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_focus_magazine_fit_blog_section_landscape_47e8f073b39f.gif",
         "alt": "The best ways to publish a single short story",
-        "width": 3637,
-        "height": 2433,
-        "creator": "Faruk Canpolat",
-        "creatorUrl": "https://www.pexels.com/@farukcanpolat",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_section_image_laugh_commit_blog_section_landscape_c573669b0e91.jpeg",
-    "alt": "blog section image \u00b7 laugh commit",
-    "width": 3237,
-    "height": 2161,
-    "creator": "Jonas Wilson",
-    "creatorUrl": "https://www.pexels.com/@jwfotografia",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to build an author platform off social media (without chasing follower counts)",
-      "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     },
     {
       "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     },
     {
       "title": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     },
     {
-      "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-      "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+      "title": "Copyright a book: the definitive guide FAQ",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -488,7 +479,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to build an author platform off social media (without chasing follower counts)",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     }
   ]
 } as const;
@@ -518,7 +509,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -530,31 +521,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-          "item": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
+          "item": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
+      "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#webpage",
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
       "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -570,11 +561,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#article",
+      "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#webpage"
+        "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections",
       "headline": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
       "alternativeHeadline": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
       "description": "If you've got a stack of short stories and you're staring at the word \"publish\" like it owes you money, welcome. This is where ambition meets reality: sometimes the fiction is good, and the industry still says, \"Cool. Send us someone we already know.\"",
@@ -604,55 +595,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage"
       },
+      "datePublished": "2027-10-04",
+      "dateModified": "2027-10-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to build an author platform off social media (without chasing follower counts)",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to build an author platform off social media (without chasing follower counts)",
-          "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         },
         {
           "@type": "WebPage",
           "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
         },
         {
           "@type": "WebPage",
-          "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-          "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+          "name": "Copyright a book: the definitive guide FAQ",
+          "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_hero_recognition_rejection_blog_hero_landscape_d5adade64946.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections/blog/blog_hero_recognition_rejection_blog_hero_landscape_d5adade64946.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition rejection",
-      "creditText": "dazn",
+      "creditText": "alleksana",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "alleksana",
+        "url": "https://www.pexels.com/@alleksana"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#faq",
+      "@id": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections#faq",
       "mainEntity": [
         {
           "@type": "Question",

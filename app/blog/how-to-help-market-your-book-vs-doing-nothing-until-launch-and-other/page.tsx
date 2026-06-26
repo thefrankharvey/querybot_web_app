@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
   "description": "If marketing feels like showing up to a party and loudly announcing, \"Hi, I wrote this!\"\u2014yeah. That vibe is real. And it's also why so many authors wait too long, then scramble when production is basically at the finish line.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
+  "publishedDate": "2027-05-20",
+  "modifiedDate": "2027-05-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_hero_party_announcement_awkward_blog_hero_landscape_3ce0ec18a52c.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_hero_party_announcement_awkward_blog_hero_landscape_3ce0ec18a52c.jpeg?updatedAt=1782165550065",
     "alt": "blog hero \u00b7 party-announcement awkward",
     "width": 6774,
     "height": 4492,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "item": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
+      "item": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     }
   ],
   "tldrBlocks": [],
@@ -132,7 +132,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_expectations_misconceptions_blog_section_landscape_5b70a3cd95fb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_expectations_misconceptions_blog_section_landscape_5b70a3cd95fb.gif?updatedAt=1782165551113",
         "alt": "What authors do after manuscript acceptance",
         "width": 356,
         "height": 200,
@@ -203,7 +203,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_expectations_misconceptions_blog_section_landscape_5b70a3cd95fb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_expectations_misconceptions_blog_section_landscape_5b70a3cd95fb.gif?updatedAt=1782165551113",
         "alt": "What authors do after manuscript acceptance",
         "width": 356,
         "height": 200,
@@ -347,7 +347,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_energy_risk_blog_section_landscape_d5fb6ebdd978.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_energy_risk_blog_section_landscape_d5fb6ebdd978.jpeg?updatedAt=1782165551784",
         "alt": "Cost, risk, and energy",
         "width": 5760,
         "height": 3840,
@@ -394,32 +394,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_section_image_permission_pick_a_plan_blog_section_landscape_10e21b0a2104.gif",
-    "alt": "blog section image \u00b7 permission pick a plan",
-    "width": 260,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/funny-nickelodeon-bob-esponja-Dps6uX4XPOKeA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     },
     {
       "title": "Incorporating agent or editor feedback FAQ",
-      "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     },
     {
       "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     },
     {
-      "title": "How to understand the publishing timeline after a publisher requests your manuscript",
-      "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+      "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -454,7 +445,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "url": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     }
   ]
 } as const;
@@ -484,7 +475,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -496,31 +487,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "item": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
+          "item": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
       "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -536,11 +527,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#article",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other",
       "headline": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
       "alternativeHeadline": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
       "description": "If marketing feels like showing up to a party and loudly announcing, \"Hi, I wrote this!\"\u2014yeah. That vibe is real. And it's also why so many authors wait too long, then scramble when production is basically at the finish line.",
@@ -570,40 +561,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage"
       },
+      "datePublished": "2027-05-20",
+      "dateModified": "2027-05-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "url": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+          "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent or editor feedback FAQ",
-          "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         },
         {
           "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
         },
         {
           "@type": "WebPage",
-          "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-          "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+          "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
+          "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_hero_party_announcement_awkward_blog_hero_landscape_3ce0ec18a52c.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other/blog/blog_hero_party_announcement_awkward_blog_hero_landscape_3ce0ec18a52c.jpeg?updatedAt=1782165550065",
       "width": 6774,
       "height": 4492,
       "caption": "blog hero \u00b7 party-announcement awkward",
@@ -618,7 +606,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other#faq",
       "mainEntity": [
         {
           "@type": "Question",

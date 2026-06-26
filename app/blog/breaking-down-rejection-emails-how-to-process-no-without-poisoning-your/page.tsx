@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down rejection emails: how to process \u201cno\u201d without poisoning your revisions",
   "description": "A rejection email is a weird little object. It\u2019s short, polite, and designed to end the conversation. Meanwhile your brain interprets it like an autopsy. You read \u201cno\u201d and it turns into a verdict on you as a writer, as if someone graded your worth in 14 seconds.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-09",
+  "modifiedDate": "2027-02-09",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-rejection-emails-how-to-process-no-without-poisoning-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -704,6 +704,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-rejection-emails-how-to-process-no-without-poisoning-your#primaryimage"
       },
+      "datePublished": "2027-02-09",
+      "dateModified": "2027-02-09",
       "mentions": [
         {
           "@type": "WebPage",

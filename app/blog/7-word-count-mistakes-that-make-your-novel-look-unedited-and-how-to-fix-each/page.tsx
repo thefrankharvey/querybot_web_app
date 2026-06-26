@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
   "description": "The contrarian truth is simple: more words doesn't automatically mean more story. And in query land, word count turns into a reason to say no fast\u2014because \"too long\" or \"too short\" often reads like \"I didn't see the editing pass.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
+  "publishedDate": "2027-07-27",
+  "modifiedDate": "2027-07-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_hero_contrarian_unedited_blog_hero_landscape_804fe622c801.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_hero_contrarian_unedited_blog_hero_landscape_804fe622c801.jpeg?updatedAt=1782266627443",
     "alt": "blog hero \u00b7 contrarian unedited",
     "width": 4951,
     "height": 3304,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-      "item": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+      "item": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     }
   ],
   "tldrBlocks": [],
@@ -122,13 +122,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_picture_books_page_length_blog_section_landscape_3e12b2c198ce.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_picture_books_page_length_blog_section_landscape_3e12b2c198ce.gif",
         "alt": "You're treating picture books like mini novels (so your page math betrays you)",
-        "width": 8485,
-        "height": 5657,
-        "creator": "Rafael Minguet Delgado",
-        "creatorUrl": "https://www.pexels.com/@thales13",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -168,13 +168,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_exception_gamble_blog_section_landscape_9ccf3eecf387.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_exception_gamble_blog_section_landscape_9ccf3eecf387.jpeg",
         "alt": "You're betting on exceptions (and hoping agents won't notice)",
-        "width": 200,
-        "height": 200,
-        "creator": "studioclip",
-        "creatorUrl": "https://giphy.com/gifs/studioclip-neon-jackpot-slotmachine-Ce18KspdcaxaKuZ1HC",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -295,13 +295,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_picture_books_page_length_blog_section_landscape_3e12b2c198ce.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_picture_books_page_length_blog_section_landscape_3e12b2c198ce.gif",
         "alt": "You're treating picture books like mini novels (so your page math betrays you)",
-        "width": 8485,
-        "height": 5657,
-        "creator": "Rafael Minguet Delgado",
-        "creatorUrl": "https://www.pexels.com/@thales13",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -384,7 +384,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_recap_blog_section_landscape_866d56db08da.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_recap_blog_section_landscape_866d56db08da.gif?updatedAt=1782266630556",
         "alt": "Recap",
         "width": 279,
         "height": 200,
@@ -395,32 +395,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_section_image_take_out_the_trash_deep_breath_blog_section_landscape_467cbf996647.jpeg",
-    "alt": "blog section image \u00b7 take out the trash deep breath",
-    "width": 3942,
-    "height": 2618,
-    "creator": "Orkhan  Sweden",
-    "creatorUrl": "https://www.pexels.com/@orkhanshots",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     },
     {
       "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-      "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
-    },
-    {
-      "title": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-      "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+      "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
     },
     {
       "title": "How to self-publish a family memoir when the story won't behave",
-      "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+    },
+    {
+      "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -455,7 +446,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "url": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     }
   ]
 } as const;
@@ -485,7 +476,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -497,31 +488,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-          "item": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+          "item": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
+      "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#webpage",
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
       "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -537,11 +528,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#article",
+      "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#webpage"
+        "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each",
       "headline": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
       "alternativeHeadline": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
       "description": "The contrarian truth is simple: more words doesn't automatically mean more story. And in query land, word count turns into a reason to say no fast\u2014because \"too long\" or \"too short\" often reads like \"I didn't see the editing pass.\"",
@@ -571,40 +562,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage"
       },
+      "datePublished": "2027-07-27",
+      "dateModified": "2027-07-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "url": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+          "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
         },
         {
           "@type": "WebPage",
           "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-          "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-          "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+          "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "How to self-publish a family memoir when the story won't behave",
-          "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
+          "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_hero_contrarian_unedited_blog_hero_landscape_804fe622c801.jpeg",
+      "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each/blog/blog_hero_contrarian_unedited_blog_hero_landscape_804fe622c801.jpeg?updatedAt=1782266627443",
       "width": 4951,
       "height": 3304,
       "caption": "blog hero \u00b7 contrarian unedited",
@@ -619,7 +607,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#faq",
+      "@id": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each#faq",
       "mainEntity": [
         {
           "@type": "Question",

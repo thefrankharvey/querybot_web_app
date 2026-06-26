@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to spot which rights you sign away in a book deal",
   "description": "If you've just received a book deal offer, the first wave of joy is great. Then the paperwork shows up, and suddenly it's not a glamorous \"publish my dream\" moment\u2014it's a publishing contract.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
+  "publishedDate": "2027-05-12",
+  "modifiedDate": "2027-05-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "red flags"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-spot-which-rights-you-sign-away-in-a-book-deal/blog/blog_hero_offer_email_adrenaline_crash_blog_hero_landscape_2bcaaeba255d.jpeg",
+    "alt": "blog hero \u00b7 offer email adrenaline crash",
+    "width": 7087,
+    "height": 5126,
+    "creator": "Roger Lagesse",
+    "creatorUrl": "https://www.pexels.com/@eyecatcher",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to spot which rights you sign away in a book deal",
-      "item": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+      "item": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +126,16 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-spot-which-rights-you-sign-away-in-a-book-deal/blog/blog_section_image_panic_checklist_blog_section_landscape_e72092649bf2.gif",
+        "alt": "Step 1: Write a \"rights inventory\" before you even read the clauses",
+        "width": 200,
+        "height": 200,
+        "creator": "PersonaJourney",
+        "creatorUrl": "https://giphy.com/gifs/PersonaJourney-stress-overwhelmed-long-checklist-ZgSc5jVwoaMWHzzmUh",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_advance_payments_next_how_the_book_contract_advance_payment_schedule_works",
@@ -308,7 +326,16 @@ const PAGE_DATA = {
           "text": "If the contract has weakened print obligations, treat that as a planning constraint. It changes what \"success\" looks like for this particular deal."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-spot-which-rights-you-sign-away-in-a-book-deal/blog/blog_section_image_uncertainty_dashed_hopes_blog_section_landscape_ae95368b5f91.jpeg",
+        "alt": "Step 4: Check \"format guarantees\" because print commitments have gotten weaker",
+        "width": 4500,
+        "height": 2994,
+        "creator": "Vika Glitter",
+        "creatorUrl": "https://www.pexels.com/@vika-glitter-392079",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_cover_and_promotional_materials_do_authors_get_cover_approval_in_a_book_deal",
@@ -369,7 +396,16 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-spot-which-rights-you-sign-away-in-a-book-deal/blog/blog_section_image_creative_control_eye_roll_blog_section_landscape_504ea0785b2f.gif",
+        "alt": "Step 5: Decide whether the cover and marketing are negotiable\u2014or just consultative",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_to_hand_to_your_agent_and_what_not_to_miss",
@@ -407,19 +443,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to understand the publishing timeline after a publisher requests your manuscript",
-      "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
     },
     {
       "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     },
     {
       "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     },
     {
-      "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-      "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
+      "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -458,7 +494,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to understand the publishing timeline after a publisher requests your manuscript",
-      "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
     }
   ]
 } as const;
@@ -488,7 +524,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -500,28 +536,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to spot which rights you sign away in a book deal",
-          "item": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+          "item": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
       "name": "How to spot which rights you sign away in a book deal",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -537,11 +576,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#article",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal",
       "headline": "How to spot which rights you sign away in a book deal",
       "alternativeHeadline": "How to spot which rights you sign away in a book deal",
       "description": "If you've just received a book deal offer, the first wave of joy is great. Then the paperwork shows up, and suddenly it's not a glamorous \"publish my dream\" moment\u2014it's a publishing contract.",
@@ -570,38 +609,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#primaryimage"
+      },
+      "datePublished": "2027-05-12",
+      "dateModified": "2027-05-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-          "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
         },
         {
           "@type": "WebPage",
           "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
         },
         {
           "@type": "WebPage",
-          "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-          "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
+          "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+          "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-spot-which-rights-you-sign-away-in-a-book-deal/blog/blog_hero_offer_email_adrenaline_crash_blog_hero_landscape_2bcaaeba255d.jpeg",
+      "width": 7087,
+      "height": 5126,
+      "caption": "blog hero \u00b7 offer email adrenaline crash",
+      "creditText": "Roger Lagesse",
+      "author": {
+        "@type": "Person",
+        "name": "Roger Lagesse",
+        "url": "https://www.pexels.com/@eyecatcher"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#howto",
       "name": "How to spot which rights you sign away in a book deal",
       "description": "If you've just received a book deal offer, the first wave of joy is great. Then the paperwork shows up, and suddenly it's not a glamorous \"publish my dream\" moment\u2014it's a publishing contract.",
       "totalTime": "PT7M",
@@ -611,49 +665,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Write a \"rights inventory\" before you even read the clauses",
           "text": "Start by making a list titled rights (literally a page in your notes). Your job is to identify the rights granted, the scope, and the exceptions.",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-1-write-a-rights-inventory-before-you-even-read-the-clauses"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-1-write-a-rights-inventory-before-you-even-read-the-clauses"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Map the advance and payment schedule like a timeline (not vibes)",
           "text": "Now do the money. The advance isn't just \"how much.\" It's also when you receive it and what conditions trigger payment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-2-map-the-advance-and-payment-schedule-like-a-timeline-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-2-map-the-advance-and-payment-schedule-like-a-timeline-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Identify publisher rights for print and ebook, then list the sub-rights",
           "text": "Next, locate the section that grants the publisher the publishing contract rights. In major-house agreements, the core grant usually includes permission to publish and distribute the work in:",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-3-identify-publisher-rights-for-print-and-ebook-then-list-the-sub-rights"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-3-identify-publisher-rights-for-print-and-ebook-then-list-the-sub-rights"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Check \"format guarantees\" because print commitments have gotten weaker",
           "text": "This is the part that quietly bites people: writers assume \"book deal\" automatically means the publisher will produce a print book. Sometimes that assumption is wrong\u2014or at least, not as strong as you think.",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-4-check-format-guarantees-because-print-commitments-have-gotten-weaker"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-4-check-format-guarantees-because-print-commitments-have-gotten-weaker"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Decide whether the cover and marketing are negotiable\u2014or just consultative",
           "text": "Now the creative-control anxiety: do authors get cover approval in a book deal?",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-5-decide-whether-the-cover-and-marketing-are-negotiable-or-just"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-5-decide-whether-the-cover-and-marketing-are-negotiable-or-just"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Turn your notes into agent-readable questions (and don't sign yet)",
           "text": "At this point you have a working list: the rights you're granting, a timeline of the advance, and a clear picture of format and creative control. Now hand that to your agent with direct questions.",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-6-turn-your-notes-into-agent-readable-questions-and-don-t-sign-yet"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#step-6-turn-your-notes-into-agent-readable-questions-and-don-t-sign-yet"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal#faq",
       "mainEntity": [
         {
           "@type": "Question",

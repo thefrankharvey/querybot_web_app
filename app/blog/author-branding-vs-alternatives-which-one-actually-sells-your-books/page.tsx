@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Author branding vs alternatives: which one actually sells your books",
   "description": "Some writers hear \u201cauthor branding\u201d and immediately picture a CEO doing a TED Talk in a hoodie. Totally normal reaction. Also totally unhelpful.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books",
+  "publishedDate": "2027-11-03",
+  "modifiedDate": "2027-11-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Author branding vs alternatives: which one actually sells your books",
-      "item": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+      "item": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     }
   ],
   "tldrBlocks": [],
@@ -740,20 +740,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-      "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
-    },
-    {
       "title": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-      "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+      "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
     },
     {
       "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-      "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
     },
     {
-      "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
-      "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+      "title": "Literary agent cost faq",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
+    },
+    {
+      "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
     }
   ],
   "alsoLikeAfterIndex": 10,
@@ -792,7 +792,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     }
   ]
 } as const;
@@ -822,7 +822,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -834,31 +834,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Author branding vs alternatives: which one actually sells your books",
-          "item": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+          "item": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#webpage",
-      "url": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books",
+      "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#webpage",
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books",
       "name": "Author branding vs alternatives: which one actually sells your books",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -874,11 +874,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#article",
+      "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#webpage"
+        "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books",
       "headline": "Author branding vs alternatives: which one actually sells your books",
       "alternativeHeadline": "Author branding vs alternatives: which one actually sells your books",
       "description": "Some writers hear \u201cauthor branding\u201d and immediately picture a CEO doing a TED Talk in a hoodie. Totally normal reaction. Also totally unhelpful.",
@@ -908,39 +908,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage"
       },
+      "datePublished": "2027-11-03",
+      "dateModified": "2027-11-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "url": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-          "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         },
         {
           "@type": "WebPage",
           "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-          "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+          "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
         },
         {
           "@type": "WebPage",
           "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-          "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-          "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+          "name": "Literary agent cost faq",
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
+          "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage",
+      "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_602/author-branding-vs-alternatives-which-one-actually-sells-your-books/blog/blog_hero_awkward_uncomfortable_blog_hero_landscape_e445f4ef646a.jpeg",
       "width": 6000,
       "height": 3368,
@@ -956,7 +958,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books#faq",
+      "@id": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books#faq",
       "mainEntity": [
         {
           "@type": "Question",

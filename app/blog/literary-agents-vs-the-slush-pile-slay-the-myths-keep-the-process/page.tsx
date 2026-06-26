@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Literary agents vs the slush pile: slay the myths, keep the process",
   "description": "Most of us come into querying with a mental movie already queued up: you send unsolicited submissions to literary agents, the slushpile gets tossed into the void, and your manuscript never gets a real chance. Sound familiar?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-12",
+  "modifiedDate": "2027-04-12",
   "canonicalUrl": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -536,6 +536,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process#primaryimage"
       },
+      "datePublished": "2027-04-12",
+      "dateModified": "2027-04-12",
       "mentions": [
         {
           "@type": "WebPage",

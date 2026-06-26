@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 author branding mistakes that make readers bounce before they read",
   "description": "You can have a great book and still watch people pass because your author presentation is giving them nothing stable to grab onto.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
+  "publishedDate": "2027-09-13",
+  "modifiedDate": "2027-09-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_hero_frustration_blank_page_blog_hero_landscape_d1475e9d1e0d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_hero_frustration_blank_page_blog_hero_landscape_d1475e9d1e0d.jpeg",
     "alt": "blog hero \u00b7 frustration blank-page",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-    "provider": "giphy",
+    "width": 3650,
+    "height": 2435,
+    "creator": "Marta Nogueira",
+    "creatorUrl": "https://www.pexels.com/@marta-nogueira-589022975",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 author branding mistakes that make readers bounce before they read",
-      "item": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+      "item": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
     }
   ],
   "tldrBlocks": [],
@@ -99,7 +99,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_tldr_blog_section_landscape_23e1a181625b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_tldr_blog_section_landscape_23e1a181625b.gif?updatedAt=1782332276609",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -325,13 +325,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_irritation_generic_blog_section_landscape_1db4626ebafe.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_irritation_generic_blog_section_landscape_1db4626ebafe.gif",
         "alt": "4) You're writing a tagline that sounds like every other author",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Towfiqu barbhuiya",
-        "creatorUrl": "https://www.pexels.com/@towfiqu-barbhuiya-3440682",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -437,7 +437,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_cringe_boundary_blog_section_landscape_9850eeb8ec69.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_cringe_boundary_blog_section_landscape_9850eeb8ec69.jpeg?updatedAt=1782332277691",
         "alt": "6) You're using your personal brand as a personality performance instead of a reader promise",
         "width": 5568,
         "height": 3712,
@@ -522,7 +522,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_cringe_boundary_blog_section_landscape_9850eeb8ec69.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_cringe_boundary_blog_section_landscape_9850eeb8ec69.jpeg?updatedAt=1782332277691",
         "alt": "6) You're using your personal brand as a personality performance instead of a reader promise",
         "width": 5568,
         "height": 3712,
@@ -551,32 +551,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_section_image_resolve_deep_breath_blog_section_landscape_396f84f248f3.jpeg",
-    "alt": "blog section image \u00b7 resolve deep breath",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-      "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
-    },
-    {
       "title": "How to build a marketing plan that actually targets readers (not vibes)",
-      "url": "https://writequeryhook.com/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
     },
     {
-      "title": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-      "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
+      "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
     },
     {
       "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-      "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
+    },
+    {
+      "title": "5 practical ways to market your self-published book (without living on random platforms)",
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -587,12 +578,7 @@ const PAGE_DATA = {
       "text": "Pick one mistake and fix it this week: write your tagline, draft your one-page author style guide, or build your author media kit folder with final assets. Then make your next post match the same promise your next book will deliver\u2014so readers stop bouncing and start recognizing you."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-      "url": "https://writequeryhook.com/query-letters/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -620,7 +606,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -632,31 +618,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 author branding mistakes that make readers bounce before they read",
-          "item": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+          "item": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
+      "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#webpage",
+      "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
       "name": "7 author branding mistakes that make readers bounce before they read",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -672,11 +658,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#article",
+      "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#webpage"
+        "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read",
       "headline": "7 author branding mistakes that make readers bounce before they read",
       "alternativeHeadline": "7 author branding mistakes that make readers bounce before they read",
       "description": "You can have a great book and still watch people pass because your author presentation is giving them nothing stable to grab onto.",
@@ -706,48 +692,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage"
       },
+      "datePublished": "2027-09-13",
+      "dateModified": "2027-09-13",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-          "url": "https://writequeryhook.com/query-letters/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-          "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to build a marketing plan that actually targets readers (not vibes)",
-          "url": "https://writequeryhook.com/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
         },
         {
           "@type": "WebPage",
-          "name": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-          "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
+          "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+          "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
         },
         {
           "@type": "WebPage",
           "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-          "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 practical ways to market your self-published book (without living on random platforms)",
+          "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_hero_frustration_blank_page_blog_hero_landscape_d1475e9d1e0d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_539/7-author-branding-mistakes-that-make-readers-bounce-before-they-read/blog/blog_hero_frustration_blank_page_blog_hero_landscape_d1475e9d1e0d.jpeg",
+      "width": 3650,
+      "height": 2435,
       "caption": "blog hero \u00b7 frustration blank-page",
-      "creditText": "trt_network",
+      "creditText": "Marta Nogueira",
       "author": {
         "@type": "Person",
-        "name": "trt_network",
-        "url": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc"
+        "name": "Marta Nogueira",
+        "url": "https://www.pexels.com/@marta-nogueira-589022975"
       },
       "@context": "https://schema.org"
     }

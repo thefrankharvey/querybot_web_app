@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
   "description": "Podcasting is one of the few ways podcasting doesn't just \"advertise\" you\u2014it puts your author voice in someone's day. The listener hears you on a commute, while folding laundry, during a workout. That kind of proximity creates audience trust that traditional book marketing usually can't manufacture.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
+  "publishedDate": "2027-06-06",
+  "modifiedDate": "2027-06-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_hero_visibility_intimidation_blog_hero_landscape_2bd92b061a3e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_hero_visibility_intimidation_blog_hero_landscape_2bd92b061a3e.jpeg?updatedAt=1782198102771",
     "alt": "blog hero \u00b7 visibility intimidation",
     "width": 8269,
     "height": 5513,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-      "item": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+      "item": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_focus_niche_clarity_blog_section_landscape_5f54085f783f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_focus_niche_clarity_blog_section_landscape_5f54085f783f.jpeg?updatedAt=1782198103647",
         "alt": "Step 1: Define your niche and goals (before you hit record)",
         "width": 5764,
         "height": 3843,
@@ -169,7 +169,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_consistency_schedule_blog_section_landscape_4c7177938b06.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_consistency_schedule_blog_section_landscape_4c7177938b06.gif?updatedAt=1782198104920",
         "alt": "Step 2: Plan a format that fits your brain (and your schedule)",
         "width": 356,
         "height": 200,
@@ -306,13 +306,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_imperfection_energy_blog_section_landscape_233c54ec2e16.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_imperfection_energy_blog_section_landscape_233c54ec2e16.gif",
         "alt": "Step 4: Record like a human and edit like a janitor",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Alissa Kennedy",
-        "creatorUrl": "https://www.pexels.com/@prizmatika",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/animation-EzxsmkHR24mTS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -478,32 +478,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_section_image_momentum_first_recording_blog_section_landscape_feab5720e435.gif",
-    "alt": "blog section image \u00b7 momentum first recording",
-    "width": 200,
-    "height": 200,
-    "creator": "thedoveinity",
-    "creatorUrl": "https://giphy.com/gifs/thedoveinity-action-start-momentum-lIIUpdVKss4ZS1JmfT",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-      "url": "https://writequeryhook.com/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches-and-pay"
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
     },
     {
       "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-      "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     },
     {
-      "title": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-      "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+      "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
+      "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
     },
     {
-      "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+      "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -542,7 +533,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
     }
   ]
 } as const;
@@ -572,7 +563,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -584,31 +575,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-          "item": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+          "item": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
       "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -624,11 +615,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#article",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic",
       "headline": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
       "alternativeHeadline": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
       "description": "Podcasting is one of the few ways podcasting doesn't just \"advertise\" you\u2014it puts your author voice in someone's day. The listener hears you on a commute, while folding laundry, during a workout. That kind of proximity creates audience trust that traditional book marketing usually can't manufacture.",
@@ -658,40 +649,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage"
       },
+      "datePublished": "2027-06-06",
+      "dateModified": "2027-06-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
         },
         {
           "@type": "WebPage",
           "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-          "url": "https://writequeryhook.com/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches-and-pay"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
         },
         {
           "@type": "WebPage",
           "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-          "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
         },
         {
           "@type": "WebPage",
-          "name": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-          "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+          "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
+          "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
         },
         {
           "@type": "WebPage",
-          "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+          "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
+          "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_hero_visibility_intimidation_blog_hero_landscape_2bd92b061a3e.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-leverage-podcasting-as-an-author-without-the-tech-panic/blog/blog_hero_visibility_intimidation_blog_hero_landscape_2bd92b061a3e.jpeg?updatedAt=1782198102771",
       "width": 8269,
       "height": 5513,
       "caption": "blog hero \u00b7 visibility intimidation",
@@ -706,7 +699,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#howto",
       "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
       "description": "Podcasting is one of the few ways podcasting doesn't just \"advertise\" you\u2014it puts your author voice in someone's day. The listener hears you on a commute, while folding laundry, during a workout. That kind of proximity creates audience trust that traditional book marketing usually can't manufacture.",
       "totalTime": "PT8M",
@@ -716,56 +709,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your niche and goals (before you hit record)",
           "text": "Start by writing one sentence each: 1) Who is this for? 2) What do they get from me?",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-1-define-your-niche-and-goals-before-you-hit-record"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-1-define-your-niche-and-goals-before-you-hit-record"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Plan a format that fits your brain (and your schedule)",
           "text": "Most authors don't fail at podcasting because they can't talk. They fail because they pick formats that create maintenance debt.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-2-plan-a-format-that-fits-your-brain-and-your-schedule"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-2-plan-a-format-that-fits-your-brain-and-your-schedule"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Set up basic recording and publishing (tech panic is optional)",
           "text": "A USB mic or a decent headset mic, a quiet room with soft surfaces to kill echo, headphones to catch clipping, and a simple audio editor that trims dead air and fixes levels\u2014that's the whole setup.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-3-set-up-basic-recording-and-publishing-tech-panic-is-optional"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-3-set-up-basic-recording-and-publishing-tech-panic-is-optional"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Record like a human and edit like a janitor",
           "text": "Your first goal isn't \"perfect audio.\" It's understandable audio with tight pacing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-4-record-like-a-human-and-edit-like-a-janitor"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-4-record-like-a-human-and-edit-like-a-janitor"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Promote with book marketing that doesn't feel sleazy",
           "text": "Now you get to the part authors fear: \"I don't want to sound salesy.\" Great. Don't. Build promotion into value.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-5-promote-with-book-marketing-that-doesn-t-feel-sleazy"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-5-promote-with-book-marketing-that-doesn-t-feel-sleazy"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Measure what matters",
           "text": "You can't improve what you can't see. Track the podcast metrics to track for authors that actually connect to growth.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-6-measure-what-matters"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-6-measure-what-matters"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: How to be a great podcast guest (to borrow reach the smart way)",
           "text": "Guesting is one of the fastest ways to expand podcasting reach without building an audience from scratch.",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-7-how-to-be-a-great-podcast-guest-to-borrow-reach-the-smart-way"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#step-7-how-to-be-a-great-podcast-guest-to-borrow-reach-the-smart-way"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic#faq",
       "mainEntity": [
         {
           "@type": "Question",

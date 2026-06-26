@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
   "description": "I get why writers do this. Synopsis writing feels like you're supposed to play calendar Tetris with your entire novel: compress, cut, explain\u2014without accidentally revealing the \"wrong\" thing or sounding like a robot.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
+  "publishedDate": "2027-11-11",
+  "modifiedDate": "2027-11-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-      "item": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
+      "item": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
     }
   ],
   "tldrBlocks": [],
@@ -422,19 +422,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 synopsis myths that keep your query package from reading like a blueprint",
-      "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+      "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
     },
     {
       "title": "Common book synopsis mistakes that make agents skim",
-      "url": "https://writequeryhook.com/common-book-synopsis-mistakes-that-make-agents-skim"
-    },
-    {
-      "title": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-      "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
+      "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
     },
     {
       "title": "The best nonfiction synopsis format is the one that matches how agents actually read",
-      "url": "https://writequeryhook.com/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents-actually-read"
+      "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+    },
+    {
+      "title": "5 tips for writing a novel synopsis that actually covers the whole story",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -448,7 +448,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 synopsis myths that keep your query package from reading like a blueprint",
-      "url": "https://writequeryhook.com/query-letters/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+      "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
     }
   ]
 } as const;
@@ -478,7 +478,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -490,31 +490,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-          "item": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
+          "item": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#webpage",
-      "url": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
+      "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#webpage",
+      "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
       "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -530,11 +530,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#article",
+      "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#webpage"
+        "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without",
       "headline": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
       "alternativeHeadline": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
       "description": "I get why writers do this. Synopsis writing feels like you're supposed to play calendar Tetris with your entire novel: compress, cut, explain\u2014without accidentally revealing the \"wrong\" thing or sounding like a robot.",
@@ -564,39 +564,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage"
       },
+      "datePublished": "2027-11-11",
+      "dateModified": "2027-11-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 synopsis myths that keep your query package from reading like a blueprint",
-          "url": "https://writequeryhook.com/query-letters/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 synopsis myths that keep your query package from reading like a blueprint",
-          "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+          "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
         },
         {
           "@type": "WebPage",
           "name": "Common book synopsis mistakes that make agents skim",
-          "url": "https://writequeryhook.com/common-book-synopsis-mistakes-that-make-agents-skim"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-          "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
+          "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
         },
         {
           "@type": "WebPage",
           "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
-          "url": "https://writequeryhook.com/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents-actually-read"
+          "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for writing a novel synopsis that actually covers the whole story",
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage",
+      "@id": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_610/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without/blog/blog_hero_recognition_facepalm_blog_hero_landscape_2385bf341255.jpeg",
       "width": 2592,
       "height": 1944,

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What Is Suspense in Fiction? FAQ for Writers",
   "description": "Suspense is what makes a reader keep turning pages even while they're trying not to. It's not \"something bad might happen.\" That's tension, and it's cheap if you don't convert it into an actual question the story answers (or fails to answer). Suspense is the reader's brain staying stuck on Will it work? Will they get there in time? Who's lying? What happens next if this goes wrong?",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-23",
+  "modifiedDate": "2026-09-23",
   "canonicalUrl": "https://writequeryhook.com/blog/what-is-suspense-in-fiction-faq-for-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -539,6 +539,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-is-suspense-in-fiction-faq-for-writers#primaryimage"
       },
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
       "mentions": [
         {
           "@type": "WebPage",

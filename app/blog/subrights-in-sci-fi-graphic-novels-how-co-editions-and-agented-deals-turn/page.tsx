@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
   "description": "Let\u2019s study a real-world problem writers keep bumping into: the moment you realize \u201cpublishing\u201d isn\u2019t one sale\u2014it\u2019s a pile of separate rights and separate decisions that all ladder up to money.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
+  "publishedDate": "2027-08-23",
+  "modifiedDate": "2027-08-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_hero_confusion_dread_blog_hero_landscape_2ed6b1a3dcc6.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_hero_confusion_dread_blog_hero_landscape_2ed6b1a3dcc6.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "item": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
+      "item": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     }
   ],
   "tldrBlocks": [],
@@ -117,13 +117,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_996557f470da.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_996557f470da.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -190,13 +190,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_revenue_layers_blog_section_landscape_a6c515a56bea.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_revenue_layers_blog_section_landscape_a6c515a56bea.gif",
         "alt": "H2 Subrights and co-editions: the money layer you keep missing",
-        "width": 8000,
-        "height": 4500,
-        "creator": "Monstera Production",
-        "creatorUrl": "https://www.pexels.com/@gabby-k",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -279,13 +279,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_collaboration_uncertainty_blog_section_landscape_5afab59231da.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_collaboration_uncertainty_blog_section_landscape_5afab59231da.jpeg",
         "alt": "H2 Case: graphic novel licensing with and without an artist",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -461,32 +461,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_section_image_hand_back_to_draft_final_pivot_blog_section_landscape_59d2e3d22118.jpeg",
-    "alt": "blog section image \u00b7 hand-back-to-draft final-pivot",
-    "width": 5472,
-    "height": 3648,
-    "creator": "www.kaboompics.com",
-    "creatorUrl": "https://www.pexels.com/@karola-g",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-      "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+      "title": "Common mistakes that make your category-busting book harder to sell",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
     },
     {
-      "title": "How a self-published romance author built releases that look pro (and shipped anyway)",
-      "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
+      "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     },
     {
-      "title": "Author websites that actually work: what five examples get right (and why)",
-      "url": "https://writequeryhook.com/author-websites-that-actually-work-what-five-examples-get-right-and-why"
+      "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     },
     {
-      "title": "The best websites for writers: build a daily habit, then learn the publishing math",
-      "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+      "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -525,7 +516,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A beginner's guide to writing IP FAQ",
-      "url": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq"
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     }
   ]
 } as const;
@@ -555,7 +546,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -567,31 +558,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "item": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
+          "item": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#webpage",
-      "url": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
+      "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#webpage",
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
       "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -607,11 +598,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#article",
+      "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#webpage"
+        "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn",
       "headline": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
       "alternativeHeadline": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
       "description": "Let\u2019s study a real-world problem writers keep bumping into: the moment you realize \u201cpublishing\u201d isn\u2019t one sale\u2014it\u2019s a pile of separate rights and separate decisions that all ladder up to money.",
@@ -641,55 +632,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage"
       },
+      "datePublished": "2027-08-23",
+      "dateModified": "2027-08-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A beginner's guide to writing IP FAQ",
-          "url": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq"
+          "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-          "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+          "name": "Common mistakes that make your category-busting book harder to sell",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
         },
         {
           "@type": "WebPage",
-          "name": "How a self-published romance author built releases that look pro (and shipped anyway)",
-          "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
+          "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         },
         {
           "@type": "WebPage",
-          "name": "Author websites that actually work: what five examples get right (and why)",
-          "url": "https://writequeryhook.com/author-websites-that-actually-work-what-five-examples-get-right-and-why"
+          "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
         },
         {
           "@type": "WebPage",
-          "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-          "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+          "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
+          "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_hero_confusion_dread_blog_hero_landscape_2ed6b1a3dcc6.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn/blog/blog_hero_confusion_dread_blog_hero_landscape_2ed6b1a3dcc6.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#faq",
+      "@id": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn#faq",
       "mainEntity": [
         {
           "@type": "Question",

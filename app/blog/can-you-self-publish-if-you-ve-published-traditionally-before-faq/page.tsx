@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
   "description": "If you've published traditionally and now want to self-publish, the scary part isn't the writing. It's the paperwork. Most authors don't want to \"game the system\" or do anything shady\u2014they just want to know they can switch gears without accidentally violating a contract.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
+  "publishedDate": "2027-07-31",
+  "modifiedDate": "2027-07-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_000421f47d08.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_000421f47d08.jpeg?updatedAt=1782268734177",
     "alt": "blog hero \u00b7 uncertainty contract anxiety",
     "width": 3999,
     "height": 2666,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "item": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "item": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     }
   ],
   "tldrBlocks": [],
@@ -154,7 +154,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_frustration_negotiation_blog_section_landscape_81a274495579.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_frustration_negotiation_blog_section_landscape_81a274495579.gif?updatedAt=1782268734707",
         "alt": "What should an author do if the publisher still holds the rights?",
         "width": 152,
         "height": 200,
@@ -195,7 +195,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_panic_risk_blog_section_landscape_9cbba4208b3b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_panic_risk_blog_section_landscape_9cbba4208b3b.jpeg?updatedAt=1782268735140",
         "alt": "What if the contract doesn't include a clear reversion or termination path?",
         "width": 6960,
         "height": 4640,
@@ -230,43 +230,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_annoyance_gotcha_blog_section_landscape_b97d17b37b25.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_annoyance_gotcha_blog_section_landscape_b97d17b37b25.gif",
         "alt": "What should authors check before self-publishing a new book after a traditional deal?",
-        "width": 4549,
-        "height": 2559,
-        "creator": "Marek Piwnicki",
-        "creatorUrl": "https://www.pexels.com/@marek-piwnicki-3907296",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "statefarm",
+        "creatorUrl": "https://giphy.com/gifs/statefarm-jake-insurance-state-farm-14kWxxmRHDiZzjhegP",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_section_image_closing_blog_section_landscape_b0d03e7a4dcd.gif",
-    "alt": "blog section image \u00b7 closing",
-    "width": 279,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     },
     {
       "title": "AI Use in Writing: A Real FAQ for Authors",
-      "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     },
     {
       "title": "How do advances and royalties work FAQ",
-      "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     },
     {
-      "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+      "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -284,7 +275,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
     }
   ]
 } as const;
@@ -314,7 +305,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -326,31 +317,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "item": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+          "item": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#webpage",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
       "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -366,11 +357,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#article",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq",
       "headline": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
       "alternativeHeadline": "Can You Self-Publish If You\u2019ve Published Traditionally Before? FAQ",
       "description": "If you've published traditionally and now want to self-publish, the scary part isn't the writing. It's the paperwork. Most authors don't want to \"game the system\" or do anything shady\u2014they just want to know they can switch gears without accidentally violating a contract.",
@@ -400,40 +391,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage"
       },
+      "datePublished": "2027-07-31",
+      "dateModified": "2027-07-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-          "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
         },
         {
           "@type": "WebPage",
           "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         },
         {
           "@type": "WebPage",
           "name": "AI Use in Writing: A Real FAQ for Authors",
-          "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+          "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
         },
         {
           "@type": "WebPage",
           "name": "How do advances and royalties work FAQ",
-          "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+          "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+          "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
+          "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_000421f47d08.jpeg",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/can-you-self-publish-if-you-ve-published-traditionally-before-faq/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_000421f47d08.jpeg?updatedAt=1782268734177",
       "width": 3999,
       "height": 2666,
       "caption": "blog hero \u00b7 uncertainty contract anxiety",

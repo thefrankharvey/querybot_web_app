@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing FAQ: printing, distribution, wholesale, and inventory",
   "description": "A lot of writers hear \u201cget an editor/agent\u201d and assume the rest is craft until the book appears in a store. Then reality shows up: publishing is also a set of operational relationships\u2014printing, distribution, wholesale, and inventory\u2014that turn a manuscript into something retail and libraries can actually order.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory",
+  "publishedDate": "2027-11-02",
+  "modifiedDate": "2027-11-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-      "item": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory"
+      "item": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
     }
   ],
   "tldrBlocks": [],
@@ -423,19 +423,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-      "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
     },
     {
       "title": "Literary agent cost faq",
-      "url": "https://writequeryhook.com/literary-agent-cost-faq"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
     },
     {
       "title": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-      "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
+      "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
     },
     {
-      "title": "Publishing myths that ignore printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -446,12 +446,7 @@ const PAGE_DATA = {
       "text": "If you want the shelf version of publishing to work, treat **publishing** like an ops chain: **printing**, **distribution**, **wholesale**, then **inventory** handling and fees. For authors actively preparing submissions and launch planning, it helps to track the channel realities early\u2014so budgets aren\u2019t surprises later. If you\u2019re trying to keep all this straight, Write Query Hook\u2019s tools are built for the messy, multi-step work that happens after the manuscript. ```"
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-      "url": "https://writequeryhook.com/query-letters/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -479,7 +474,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -491,31 +486,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-          "item": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory"
+          "item": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory",
+      "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory",
       "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -531,11 +526,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#article",
+      "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory",
       "headline": "Publishing FAQ: printing, distribution, wholesale, and inventory",
       "alternativeHeadline": "Publishing FAQ: printing, distribution, wholesale, and inventory",
       "description": "A lot of writers hear \u201cget an editor/agent\u201d and assume the rest is craft until the book appears in a store. Then reality shows up: publishing is also a set of operational relationships\u2014printing, distribution, wholesale, and inventory\u2014that turn a manuscript into something retail and libraries can actually order.",
@@ -565,39 +560,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage"
       },
+      "datePublished": "2027-11-02",
+      "dateModified": "2027-11-02",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-          "url": "https://writequeryhook.com/query-letters/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects"
-        },
-        {
-          "@type": "WebPage",
           "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-          "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
         },
         {
           "@type": "WebPage",
           "name": "Literary agent cost faq",
-          "url": "https://writequeryhook.com/literary-agent-cost-faq"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
         },
         {
           "@type": "WebPage",
           "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-          "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
+          "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
         },
         {
           "@type": "WebPage",
-          "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+          "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
+          "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage",
+      "@id": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_601/publishing-faq-printing-distribution-wholesale-and-inventory/blog/blog_hero_surprise_confusion_blog_hero_landscape_26a3a882ff20.gif",
       "width": 364,
       "height": 200,

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
   "description": "Most authors approach social media like it owes them a paycheck. Post a cover reveal. Drop a link. Refresh until your eyes dry out. When the sales don't magically appear, the brain concludes: waste of time.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during",
+  "publishedDate": "2027-08-14",
+  "modifiedDate": "2027-08-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_hero_waste_of_time_deadline_blog_hero_landscape_9464b51f3c2d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_hero_waste_of_time_deadline_blog_hero_landscape_9464b51f3c2d.jpeg",
     "alt": "blog hero \u00b7 waste-of-time deadline",
-    "width": 200,
-    "height": 200,
-    "creator": "konczakowski",
-    "creatorUrl": "https://giphy.com/gifs/time-clock-konczakowski-d3yxg15kJppJilnW",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Ann H",
+    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "item": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during"
+      "item": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     }
   ],
   "tldrBlocks": [],
@@ -76,13 +76,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_tldr_blog_section_landscape_337cf93cb2d4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_tldr_blog_section_landscape_337cf93cb2d4.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -429,7 +429,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_scan_friendly_checklist_blog_section_landscape_52fb04b96355.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_scan_friendly_checklist_blog_section_landscape_52fb04b96355.jpeg?updatedAt=1782311896834",
         "alt": "The comparison table",
         "width": 6016,
         "height": 4016,
@@ -460,43 +460,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_the_verdict_blog_section_landscape_70c0137cf7cb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_the_verdict_blog_section_landscape_70c0137cf7cb.gif",
         "alt": "The verdict",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_section_image_relief_decisive_blog_section_landscape_6f7dd8cccf7f.gif",
-    "alt": "blog section image \u00b7 relief decisive",
-    "width": 200,
-    "height": 200,
-    "creator": "cc0studios",
-    "creatorUrl": "https://giphy.com/gifs/cc0studios-cc0-mfer-studios-yCsm3PR6fPMT3P6j18",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     },
     {
       "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     },
     {
       "title": "Word count for novels and children's books FAQ",
-      "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     },
     {
-      "title": "What I didn't know about publishing bias (until I got forced to see it)",
-      "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+      "title": "Five ways to publish short stories (with realistic examples) for collections and singles",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -531,7 +522,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "url": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     }
   ]
 } as const;
@@ -561,7 +552,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -573,31 +564,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "item": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during"
+          "item": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#webpage",
-      "url": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during",
+      "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#webpage",
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during",
       "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage"
+        "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -613,11 +604,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#article",
+      "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#webpage"
+        "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during",
       "headline": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
       "alternativeHeadline": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
       "description": "Most authors approach social media like it owes them a paycheck. Post a cover reveal. Drop a link. Refresh until your eyes dry out. When the sales don't magically appear, the brain concludes: waste of time.",
@@ -647,55 +638,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage"
+        "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage"
       },
+      "datePublished": "2027-08-14",
+      "dateModified": "2027-08-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "url": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
-        },
-        {
-          "@type": "WebPage",
-          "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+          "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         },
         {
           "@type": "WebPage",
           "name": "Word count for novels and children's books FAQ",
-          "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+          "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What I didn't know about publishing bias (until I got forced to see it)",
-          "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+          "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_hero_waste_of_time_deadline_blog_hero_landscape_9464b51f3c2d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/social-media-vs-alternatives-which-builds-author-discoverability-during/blog/blog_hero_waste_of_time_deadline_blog_hero_landscape_9464b51f3c2d.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 waste-of-time deadline",
-      "creditText": "konczakowski",
+      "creditText": "Ann H",
       "author": {
         "@type": "Person",
-        "name": "konczakowski",
-        "url": "https://giphy.com/gifs/time-clock-konczakowski-d3yxg15kJppJilnW"
+        "name": "Ann H",
+        "url": "https://www.pexels.com/@ann-h-45017"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during#faq",
+      "@id": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during#faq",
       "mainEntity": [
         {
           "@type": "Question",

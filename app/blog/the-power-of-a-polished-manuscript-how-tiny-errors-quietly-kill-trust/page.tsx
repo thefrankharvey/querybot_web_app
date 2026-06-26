@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The power of a polished manuscript: how tiny errors quietly kill trust",
   "description": "Most writers think proofreading is about avoiding embarrassment.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-09",
+  "modifiedDate": "2026-12-09",
   "canonicalUrl": "https://writequeryhook.com/blog/the-power-of-a-polished-manuscript-how-tiny-errors-quietly-kill-trust",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -754,6 +754,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-power-of-a-polished-manuscript-how-tiny-errors-quietly-kill-trust#primaryimage"
       },
+      "datePublished": "2026-12-09",
+      "dateModified": "2026-12-09",
       "mentions": [
         {
           "@type": "WebPage",

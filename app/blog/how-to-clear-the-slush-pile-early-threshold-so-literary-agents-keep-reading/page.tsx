@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to clear the slush pile early-threshold so literary agents keep reading",
   "description": "The slush pile is basically the publishing industry's feedstock: unsolicited submissions stacked like a giant first-filter before anyone gets a real chance to fall in love with your manuscript. And yeah, that setup messes with your head. It's easy to assume slushpile rejections mean your book got stomped on, tossed in a trash can, or never read.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
+  "publishedDate": "2027-04-13",
+  "modifiedDate": "2027-04-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_hero_recognition_dread_blog_hero_landscape_eb3f68455c78.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_hero_recognition_dread_blog_hero_landscape_eb3f68455c78.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 300,
-    "height": 200,
-    "creator": "hamlet",
-    "creatorUrl": "https://giphy.com/gifs/hamlet-dread-sunday-scaries-existential-Gquide9H8KoB5tPO1a",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-      "item": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+      "item": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     }
   ],
   "tldrBlocks": [],
@@ -118,13 +118,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_clarify_definition_blog_section_landscape_f16fc11c9295.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_clarify_definition_blog_section_landscape_f16fc11c9295.gif",
         "alt": "Step 1: Clear the definition of slushpile (so you stop blaming \"rejection culture\")",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Nothing Ahead",
-        "creatorUrl": "https://www.pexels.com/@ian-panelo",
-        "provider": "pexels",
+        "width": 260,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/animation-2d-wibble-wobble-BcQ7hb2c4VxHq",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -164,13 +164,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_fast_review_fear_blog_section_landscape_de902ed6b097.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_fast_review_fear_blog_section_landscape_de902ed6b097.gif",
         "alt": "Step 2: Understand how agents handle slush pile submissions",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 160,
+        "height": 200,
+        "creator": "NeighborlyNotaryNYC",
+        "creatorUrl": "https://giphy.com/gifs/NeighborlyNotaryNYC-monogram-roberta-arnone-neighborly-notary-0SqgZUOQg9Lddao63A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -234,7 +234,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_sentences_concept_blog_section_landscape_61e543147338.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_sentences_concept_blog_section_landscape_61e543147338.jpeg?updatedAt=1781809798461",
         "alt": "Step 3: Pass the three early tests (sentences, concept, and opening-page promise)",
         "width": 6000,
         "height": 4000,
@@ -365,32 +365,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_3d2b31a8e487.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to stop comparing your writing (and get back to drafting)",
-      "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+      "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
     },
     {
-      "title": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-      "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+      "title": "Literary agents vs the slush pile: slay the myths, keep the process",
+      "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
     },
     {
-      "title": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-      "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
+      "title": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+      "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
     },
     {
-      "title": "Un-productivity tips for writers: the case for quiet stretches (and what to do instead)",
-      "url": "https://writequeryhook.com/un-productivity-tips-for-writers-the-case-for-quiet-stretches-and-what-to-do-instead"
+      "title": "Why your publishing \"mistakes\" aren't the real problem (and what to stop doing)",
+      "url": "https://writequeryhook.com/blog/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -429,7 +420,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-      "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     }
   ]
 } as const;
@@ -459,7 +450,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -471,31 +462,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-          "item": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+          "item": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
       "name": "How to clear the slush pile early-threshold so literary agents keep reading",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -511,11 +502,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#article",
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading",
       "headline": "How to clear the slush pile early-threshold so literary agents keep reading",
       "alternativeHeadline": "How to clear the slush pile early-threshold so literary agents keep reading",
       "description": "The slush pile is basically the publishing industry's feedstock: unsolicited submissions stacked like a giant first-filter before anyone gets a real chance to fall in love with your manuscript. And yeah, that setup messes with your head. It's easy to assume slushpile rejections mean your book got stomped on, tossed in a trash can, or never read.",
@@ -545,55 +536,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage"
       },
+      "datePublished": "2027-04-13",
+      "dateModified": "2027-04-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         },
         {
           "@type": "WebPage",
           "name": "How to stop comparing your writing (and get back to drafting)",
-          "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
         },
         {
           "@type": "WebPage",
-          "name": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-          "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+          "name": "Literary agents vs the slush pile: slay the myths, keep the process",
+          "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
         },
         {
           "@type": "WebPage",
-          "name": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-          "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
+          "name": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+          "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
         },
         {
           "@type": "WebPage",
-          "name": "Un-productivity tips for writers: the case for quiet stretches (and what to do instead)",
-          "url": "https://writequeryhook.com/un-productivity-tips-for-writers-the-case-for-quiet-stretches-and-what-to-do-instead"
+          "name": "Why your publishing \"mistakes\" aren't the real problem (and what to stop doing)",
+          "url": "https://writequeryhook.com/blog/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_hero_recognition_dread_blog_hero_landscape_eb3f68455c78.gif",
-      "width": 300,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading/blog/blog_hero_recognition_dread_blog_hero_landscape_eb3f68455c78.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "hamlet",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "hamlet",
-        "url": "https://giphy.com/gifs/hamlet-dread-sunday-scaries-existential-Gquide9H8KoB5tPO1a"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#howto",
       "name": "How to clear the slush pile early-threshold so literary agents keep reading",
       "description": "The slush pile is basically the publishing industry's feedstock: unsolicited submissions stacked like a giant first-filter before anyone gets a real chance to fall in love with your manuscript. And yeah, that setup messes with your head. It's easy to assume slushpile rejections mean your book got stomped on, tossed in a trash can, or never read.",
       "totalTime": "PT7M",
@@ -603,49 +596,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Clear the definition of slushpile (so you stop blaming \"rejection culture\")",
           "text": "Before you revise anything, stop mixing categories in your brain. A slush pile submission is unsolicited submissions: you sent material to literary agents without a prior referral or personal connection.",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-1-clear-the-definition-of-slushpile-so-you-stop-blaming-rejection-culture"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-1-clear-the-definition-of-slushpile-so-you-stop-blaming-rejection-culture"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Understand how agents handle slush pile submissions",
           "text": "The question do agents accept slush pile submissions has a straightforward answer: yes, most agents do. They need new talent replenishment, and standout manuscripts can emerge from anywhere in the pile. Some may prefer not to take unsolicited work in certain cases, but the assumption that slushpile = automatically ignored misses how the industry actually works.",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-2-understand-how-agents-handle-slush-pile-submissions"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-2-understand-how-agents-handle-slush-pile-submissions"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Pass the three early tests (sentences, concept, and opening-page promise)",
           "text": "If you remember one thing, make it this: early scrutiny usually checks three areas. Clear these and you earn the next stage\u2014the agent continues reading. Fail any one and you bounce early.",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-3-pass-the-three-early-tests-sentences-concept-and-opening-page-promise"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-3-pass-the-three-early-tests-sentences-concept-and-opening-page-promise"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build your querying materials around fit, not vibes",
           "text": "Here's the part where writers spiral: they think rejection means they're not \"marketable,\" or they got punished for being unknown, or the agent wanted a celebrity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-4-build-your-querying-materials-around-fit-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-4-build-your-querying-materials-around-fit-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Handle rejection and delegation without losing the plot",
           "text": "Rejection can happen before the decision-maker even touches your submission. Assistants, readers, reception staff\u2014someone else may screen first. That doesn't mean your work is garbage forever. It often means you didn't clear the early bar that keeps things moving.",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-5-handle-rejection-and-delegation-without-losing-the-plot"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-5-handle-rejection-and-delegation-without-losing-the-plot"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Stop expecting detailed feedback from agents who didn't represent you",
           "text": "This is the myth that keeps writers stuck the longest: \"If they rejected me, they should explain exactly what to fix.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-6-stop-expecting-detailed-feedback-from-agents-who-didn-t-represent-you"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#step-6-stop-expecting-detailed-feedback-from-agents-who-didn-t-represent-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading#faq",
       "mainEntity": [
         {
           "@type": "Question",

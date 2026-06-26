@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to handle repeated rejection in publishing: map the pipeline stall, then move",
   "description": "If you've gotten representation, maybe even published, and you're still getting rejected\u2014especially for picture books\u2014the emotional part can feel unfairly personal. Like, you did the work. You gave the industry the thing it asked for. Then the \"no\" shows up anyway, and it's hard not to spiral.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-09",
+  "modifiedDate": "2027-03-09",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-handle-repeated-rejection-in-publishing-map-the-pipeline-stall-then-move",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -534,6 +534,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-handle-repeated-rejection-in-publishing-map-the-pipeline-stall-then-move#primaryimage"
       },
+      "datePublished": "2027-03-09",
+      "dateModified": "2027-03-09",
       "mentions": [
         {
           "@type": "WebPage",

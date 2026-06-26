@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Your middle grade opening can be smooth and still be wrong if the kid doesn't try to steer what happens",
   "description": "I've seen this pattern enough times that I now clock it before page two: the opening reads beautifully. It's immersed. It's coherent. You can practically smell the setting.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-22",
+  "modifiedDate": "2027-01-22",
   "canonicalUrl": "https://writequeryhook.com/blog/your-middle-grade-opening-can-be-smooth-and-still-be-wrong-if-the-kid-doesn-t",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -681,6 +681,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/your-middle-grade-opening-can-be-smooth-and-still-be-wrong-if-the-kid-doesn-t#primaryimage"
       },
+      "datePublished": "2027-01-22",
+      "dateModified": "2027-01-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "External conflict explained: definitions, conflict types, and examples you can steal",
   "description": "A lot of writers get internal conflict. They can name the fear, the shame, the obsession. Then they draft a scene where the protagonist does a lot of thinking\u2014while the world politely stands still.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-09",
+  "modifiedDate": "2026-09-09",
   "canonicalUrl": "https://writequeryhook.com/blog/external-conflict-explained-definitions-conflict-types-and-examples-you-can",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -645,6 +645,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/external-conflict-explained-definitions-conflict-types-and-examples-you-can#primaryimage"
       },
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-09-09",
       "mentions": [
         {
           "@type": "WebPage",

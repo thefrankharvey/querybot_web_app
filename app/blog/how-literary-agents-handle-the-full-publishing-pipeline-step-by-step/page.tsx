@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How literary agents handle the full publishing pipeline\u2014step by step",
   "description": "Most writers picture \"agenting\" as a single moment: the query gets sent, the agent says yes, then\u2026 magic. Cute story. In reality, getting a book from submission to published involves many moving parts, and writers usually only see the last one\u2014when the offer lands and everyone starts panicking about contracts and timelines.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
+  "publishedDate": "2027-10-04",
+  "modifiedDate": "2027-10-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_hero_anxiety_submissions_blog_hero_landscape_c91f1ce63572.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_hero_anxiety_submissions_blog_hero_landscape_c91f1ce63572.jpeg?updatedAt=1782339600434",
     "alt": "blog hero \u00b7 anxiety submissions",
     "width": 3500,
     "height": 2333,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "item": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "item": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     }
   ],
   "tldrBlocks": [],
@@ -109,7 +109,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_gatekeeping_inbox_flood_blog_section_landscape_3a673034a82d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_gatekeeping_inbox_flood_blog_section_landscape_3a673034a82d.gif?updatedAt=1782339601318",
         "alt": "Step 1: Filter submissions for editors like it's triage (because it is)",
         "width": 110,
         "height": 200,
@@ -162,7 +162,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_pre_submission_revision_blog_section_landscape_cce6ba36d687.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_pre_submission_revision_blog_section_landscape_cce6ba36d687.jpeg?updatedAt=1782339602172",
         "alt": "Step 2: Strengthen the material with pre-submission editing (sometimes before an agent submits)",
         "width": 6720,
         "height": 4480,
@@ -300,13 +300,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_contracts_legal_blog_section_landscape_1369c1660385.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_contracts_legal_blog_section_landscape_1369c1660385.gif",
         "alt": "Step 5: Get the contracts right (and manage the \"what happens after\" details)",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Markus Spiske",
-        "creatorUrl": "https://www.pexels.com/@markusspiske",
-        "provider": "pexels",
+        "width": 275,
+        "height": 200,
+        "creator": "NeighborlyNotaryNYC",
+        "creatorUrl": "https://giphy.com/gifs/notarized-cjKapZO8qP5paborte",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -358,32 +358,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_section_image_momentum_draft_blog_section_landscape_83bbbf9bd90c.gif",
-    "alt": "blog section image \u00b7 momentum draft",
-    "width": 200,
-    "height": 200,
-    "creator": "nextperimeter",
-    "creatorUrl": "https://giphy.com/gifs/nextperimeter-momentum-milestones-nextp-tJBFRwGuDEk47i0oVX",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-      "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+      "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
     },
     {
       "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-      "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
-    },
-    {
-      "title": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-      "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+      "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
     },
     {
       "title": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-      "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that-matches-your-goal"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
+    },
+    {
+      "title": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -418,7 +409,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     }
   ]
 } as const;
@@ -448,7 +439,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -460,31 +451,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "item": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+          "item": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#webpage",
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
       "name": "How literary agents handle the full publishing pipeline\u2014step by step",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -500,11 +491,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#article",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#webpage"
+        "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step",
       "headline": "How literary agents handle the full publishing pipeline\u2014step by step",
       "alternativeHeadline": "How literary agents handle the full publishing pipeline\u2014step by step",
       "description": "Most writers picture \"agenting\" as a single moment: the query gets sent, the agent says yes, then\u2026 magic. Cute story. In reality, getting a book from submission to published involves many moving parts, and writers usually only see the last one\u2014when the offer lands and everyone starts panicking about contracts and timelines.",
@@ -534,40 +525,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage"
       },
+      "datePublished": "2027-10-04",
+      "dateModified": "2027-10-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         },
         {
           "@type": "WebPage",
           "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-          "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
         },
         {
           "@type": "WebPage",
           "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-          "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-          "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+          "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-          "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that-matches-your-goal"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_hero_anxiety_submissions_blog_hero_landscape_c91f1ce63572.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step/blog/blog_hero_anxiety_submissions_blog_hero_landscape_c91f1ce63572.jpeg?updatedAt=1782339600434",
       "width": 3500,
       "height": 2333,
       "caption": "blog hero \u00b7 anxiety submissions",
@@ -582,7 +575,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#howto",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#howto",
       "name": "How literary agents handle the full publishing pipeline\u2014step by step",
       "description": "Most writers picture \"agenting\" as a single moment: the query gets sent, the agent says yes, then\u2026 magic. Cute story. In reality, getting a book from submission to published involves many moving parts, and writers usually only see the last one\u2014when the offer lands and everyone starts panicking about contracts and timelines.",
       "totalTime": "PT7M",
@@ -592,49 +585,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Filter submissions for editors like it's triage (because it is)",
           "text": "Start with the boring truth: editors are slammed. Literary agents function as a filter between a flood of submissions and an editor's desk\u2014which has only so many hours in the day. Here's what to picture: your work is one entry in a huge stream, and the agent's job is deciding which projects are worth the editor's time.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-1-filter-submissions-for-editors-like-it-s-triage-because-it-is"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-1-filter-submissions-for-editors-like-it-s-triage-because-it-is"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Strengthen the material with pre-submission editing (sometimes before an agent submits)",
           "text": "Not every agent treats your draft like an artifact you're handing over untouched. Many do pre-submission editing with a literary agent\u2014revision notes, line-level guidance, or proposal restructuring\u2014so the manuscript or proposal arrives at editor attention in the best shape it can be.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-2-strengthen-the-material-with-pre-submission-editing-sometimes-before-an"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-2-strengthen-the-material-with-pre-submission-editing-sometimes-before-an"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Package the submission and send it to the right editors (art + science, still imperfect)",
           "text": "Agents use industry knowledge, relationships, and experience to figure out which editors are most likely to respond. That's the network side. Then there's the selection side: they decide who gets a submission based on editorial taste, list needs, and timing. Even with great judgment, agents can't fully predict who will respond strongest\u2014because editors are human, busy, and working through their own unread stacks.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-3-package-the-submission-and-send-it-to-the-right-editors-art-science"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-3-package-the-submission-and-send-it-to-the-right-editors-art-science"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: When an offer comes in, negotiate upward (and deal with auctions)",
           "text": "When you finally get an offer, the work shifts from \"submission strategy\" to how agents negotiate offers and contracts. The agent helps you decide what to do next and pushes terms in the direction that's most favorable to you\u2014especially when multiple parties are interested.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-4-when-an-offer-comes-in-negotiate-upward-and-deal-with-auctions"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-4-when-an-offer-comes-in-negotiate-upward-and-deal-with-auctions"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Get the contracts right (and manage the \"what happens after\" details)",
           "text": "How agents negotiate offers and contracts also means managing the paperwork that comes after the business side agrees. Contracts have to get completed, and the agent keeps the process moving until acceptance.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-5-get-the-contracts-right-and-manage-the-what-happens-after-details"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-5-get-the-contracts-right-and-manage-the-what-happens-after-details"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: After the book deal is underway, run it through payments, dates, and disputes",
           "text": "Finally: the agent doesn't disappear after contracts get signed. They keep the publishing process on track by following up on payments, tracking key dates, coordinating marketing expectations, and mediating disputes if they pop up.",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-6-after-the-book-deal-is-underway-run-it-through-payments-dates-and"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#step-6-after-the-book-deal-is-underway-run-it-through-payments-dates-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#faq",
+      "@id": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step#faq",
       "mainEntity": [
         {
           "@type": "Question",

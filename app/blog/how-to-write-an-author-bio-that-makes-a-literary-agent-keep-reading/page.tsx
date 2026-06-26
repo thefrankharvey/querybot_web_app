@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write an author bio that makes a literary agent keep reading",
   "description": "A lot of writers treat the author bio like a formality: \"Here's my name. Here are my accomplishments. Anyway, here's the book.\"",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-25",
+  "modifiedDate": "2026-08-25",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-an-author-bio-that-makes-a-literary-agent-keep-reading",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -672,6 +672,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-an-author-bio-that-makes-a-literary-agent-keep-reading#primaryimage"
       },
+      "datePublished": "2026-08-25",
+      "dateModified": "2026-08-25",
       "mentions": [
         {
           "@type": "WebPage",

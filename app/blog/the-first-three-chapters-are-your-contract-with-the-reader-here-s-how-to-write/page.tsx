@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The first three chapters are your contract with the reader\u2014here\u2019s how to write them",
   "description": "I\u2019ve watched writers do that thing where they fall in love with their own background. It starts innocently: Just a little context. Just enough to make it make sense. Then chapter two shows up looking like a museum tour with a sword fight in the gift shop.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-04",
+  "modifiedDate": "2026-09-04",
   "canonicalUrl": "https://writequeryhook.com/blog/the-first-three-chapters-are-your-contract-with-the-reader-here-s-how-to-write",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-first-three-chapters-are-your-contract-with-the-reader-here-s-how-to-write#primaryimage"
       },
+      "datePublished": "2026-09-04",
+      "dateModified": "2026-09-04",
       "mentions": [
         {
           "@type": "WebPage",

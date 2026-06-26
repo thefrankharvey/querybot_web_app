@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
   "description": "You can feel it in your stomach the first time you see a publishing agreement: territory language, a \u201cgrant of rights\u201d section, an advance, royalty math that looks like it was written to punish people who can\u2019t stand spreadsheets.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
+  "publishedDate": "2027-07-21",
+  "modifiedDate": "2027-07-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_hero_confusion_first_time_author_blog_hero_landscape_e4daeaac4100.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_hero_confusion_first_time_author_blog_hero_landscape_e4daeaac4100.jpeg",
     "alt": "blog hero \u00b7 confusion first-time-author",
-    "width": 266,
-    "height": 200,
-    "creator": "BenJammins",
-    "creatorUrl": "https://giphy.com/gifs/first-benjammins-rollercoaster-UMV4KbOAqYN29Dxd3f",
-    "provider": "giphy",
+    "width": 6016,
+    "height": 4016,
+    "creator": "Leeloo The First",
+    "creatorUrl": "https://www.pexels.com/@leeloothefirst",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-      "item": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
+      "item": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     }
   ],
   "tldrBlocks": [],
@@ -115,7 +115,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_handshake_contract_blog_section_landscape_4f428b30561a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_handshake_contract_blog_section_landscape_4f428b30561a.jpeg?updatedAt=1782260376274",
         "alt": "Basics of a publishing contract (vs alternatives) side-by-side",
         "width": 4160,
         "height": 2773,
@@ -187,13 +187,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_territory_region_blog_section_landscape_78578c434345.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_territory_region_blog_section_landscape_78578c434345.gif",
         "alt": "Territory and exclusivity: where your book can actually be sold",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Vladimir Srajber",
-        "creatorUrl": "https://www.pexels.com/@vladimirsrajber",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -349,7 +349,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_subrights_split_blog_section_landscape_520955cb97c0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_subrights_split_blog_section_landscape_520955cb97c0.gif?updatedAt=1782260377867",
         "alt": "Subrights + warranty and indemnity: where control and legal risk hide",
         "width": 226,
         "height": 200,
@@ -382,7 +382,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_handshake_contract_blog_section_landscape_4f428b30561a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_handshake_contract_blog_section_landscape_4f428b30561a.jpeg?updatedAt=1782260376274",
         "alt": "Basics of a publishing contract (vs alternatives) side-by-side",
         "width": 4160,
         "height": 2773,
@@ -433,32 +433,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_section_image_relief_decision_made_blog_section_landscape_c8e263f4f7cf.jpeg",
-    "alt": "blog section image \u00b7 relief decision-made",
-    "width": 6000,
-    "height": 3376,
-    "creator": "Thang Cao",
-    "creatorUrl": "https://www.pexels.com/@kacao",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     },
     {
       "title": "Platform FAQ: how to build an author platform off social media",
-      "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     },
     {
       "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     },
     {
-      "title": "What literary agents do (and what they don't do) FAQ",
-      "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
+      "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -497,7 +488,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-      "url": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
     }
   ]
 } as const;
@@ -527,7 +518,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -539,31 +530,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-          "item": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
+          "item": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
+      "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
       "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -579,11 +570,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#article",
+      "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your",
       "headline": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
       "alternativeHeadline": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
       "description": "You can feel it in your stomach the first time you see a publishing agreement: territory language, a \u201cgrant of rights\u201d section, an advance, royalty math that looks like it was written to punish people who can\u2019t stand spreadsheets.",
@@ -613,55 +604,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage"
       },
+      "datePublished": "2027-07-21",
+      "dateModified": "2027-07-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-          "url": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+          "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
         },
         {
           "@type": "WebPage",
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         },
         {
           "@type": "WebPage",
           "name": "Platform FAQ: how to build an author platform off social media",
-          "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+          "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What literary agents do (and what they don't do) FAQ",
-          "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+          "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
+          "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_hero_confusion_first_time_author_blog_hero_landscape_e4daeaac4100.gif",
-      "width": 266,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your/blog/blog_hero_confusion_first_time_author_blog_hero_landscape_e4daeaac4100.jpeg",
+      "width": 6016,
+      "height": 4016,
       "caption": "blog hero \u00b7 confusion first-time-author",
-      "creditText": "BenJammins",
+      "creditText": "Leeloo The First",
       "author": {
         "@type": "Person",
-        "name": "BenJammins",
-        "url": "https://giphy.com/gifs/first-benjammins-rollercoaster-UMV4KbOAqYN29Dxd3f"
+        "name": "Leeloo The First",
+        "url": "https://www.pexels.com/@leeloothefirst"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "In medias res definition and usage FAQ: how to start mid-action without losing readers",
   "description": "Most writers don't avoid in medias res because they hate the idea. They avoid it because they're terrified of the \"wait, what am I reading?\" moment. That fear is usually justified when someone starts in the middle but hasn't planned what context-delivery comes next.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-12",
+  "modifiedDate": "2026-12-12",
   "canonicalUrl": "https://writequeryhook.com/blog/in-medias-res-definition-and-usage-faq-how-to-start-mid-action-without-losing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -465,6 +465,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/in-medias-res-definition-and-usage-faq-how-to-start-mid-action-without-losing#primaryimage"
       },
+      "datePublished": "2026-12-12",
+      "dateModified": "2026-12-12",
       "mentions": [
         {
           "@type": "WebPage",

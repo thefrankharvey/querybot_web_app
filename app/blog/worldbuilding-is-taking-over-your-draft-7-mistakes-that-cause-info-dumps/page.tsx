@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Worldbuilding is taking over your draft\u20147 mistakes that cause info-dumps, inconsistency, and POV blur",
   "description": "If your worldbuilding starts feeling like it's eating the book\u2014like you're constantly reaching for the \"just one more detail\" spoon\u2014good. That's the problem: frozen draft, swollen pages, and a setting that stops being a place and turns into a wall.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-02",
+  "modifiedDate": "2027-01-02",
   "canonicalUrl": "https://writequeryhook.com/blog/worldbuilding-is-taking-over-your-draft-7-mistakes-that-cause-info-dumps",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/worldbuilding-is-taking-over-your-draft-7-mistakes-that-cause-info-dumps#primaryimage"
       },
+      "datePublished": "2027-01-02",
+      "dateModified": "2027-01-02",
       "mentions": [
         {
           "@type": "WebPage",

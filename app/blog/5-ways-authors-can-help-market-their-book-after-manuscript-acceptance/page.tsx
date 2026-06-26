@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 ways authors can help market their book after manuscript acceptance",
   "description": "Most authors expect the hard part to start right after \"yes.\" Then reality kicks in: revisions, meetings, questionnaires, production timelines\u2014and suddenly you're staring at the marketing part like it's a foreign language.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
+  "publishedDate": "2027-05-26",
+  "modifiedDate": "2027-05-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_hero_uncertainty_timeline_blog_hero_landscape_9c1a646677f3.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_hero_uncertainty_timeline_blog_hero_landscape_9c1a646677f3.jpeg",
     "alt": "blog hero \u00b7 uncertainty timeline",
-    "width": 112,
-    "height": 200,
-    "creator": "CoinsAndConnections",
-    "creatorUrl": "https://giphy.com/gifs/CoinsAndConnections-toxic-i-cant-negativity-lUmoP9WLeUeIfCXhfr",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Ann H",
+    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 ways authors can help market their book after manuscript acceptance",
-      "item": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+      "item": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
     }
   ],
   "tldrBlocks": [],
@@ -151,7 +151,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_revisions_timing_blog_section_landscape_cd34923f340c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_revisions_timing_blog_section_landscape_cd34923f340c.jpeg?updatedAt=1782174005978",
         "alt": "Tip 2: When revisions happen, keep marketing in the loop",
         "width": 4272,
         "height": 2848,
@@ -206,13 +206,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_project_manager_production_blog_section_landscape_f6a164454bfb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_project_manager_production_blog_section_landscape_f6a164454bfb.gif",
         "alt": "Tip 3: Work with your project manager to find contacts and blurbs",
-        "width": 6366,
-        "height": 4244,
-        "creator": "Thirdman",
-        "creatorUrl": "https://www.pexels.com/@thirdman",
-        "provider": "pexels",
+        "width": 199,
+        "height": 200,
+        "creator": "waikiki_beach_knokke",
+        "creatorUrl": "https://giphy.com/gifs/waikiki-beach-knokke-arMz93v2BtZC5CZTLC",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -264,7 +264,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_social_media_confidence_blog_section_landscape_1207e05e726b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_social_media_confidence_blog_section_landscape_1207e05e726b.gif?updatedAt=1782174008712",
         "alt": "Tip 4: Build social media confidence for authors\u2014starting small",
         "width": 200,
         "height": 200,
@@ -328,32 +328,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_section_image_finished_send_it_blog_section_landscape_b49c2add66d0.jpeg",
-    "alt": "blog section image \u00b7 finished send it",
-    "width": 4638,
-    "height": 2860,
-    "creator": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0412\u0435\u043b\u0438\u0433\u0443\u0440\u0430",
-    "creatorUrl": "https://www.pexels.com/@84328701",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-      "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
     },
     {
       "title": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     },
     {
       "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-      "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     },
     {
-      "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+      "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -388,7 +379,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-      "url": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     }
   ]
 } as const;
@@ -418,7 +409,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -430,31 +421,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 ways authors can help market their book after manuscript acceptance",
-          "item": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+          "item": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
+      "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#webpage",
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
       "name": "5 ways authors can help market their book after manuscript acceptance",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -470,11 +461,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#article",
+      "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#webpage"
+        "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance",
       "headline": "5 ways authors can help market their book after manuscript acceptance",
       "alternativeHeadline": "5 ways authors can help market their book after manuscript acceptance",
       "description": "Most authors expect the hard part to start right after \"yes.\" Then reality kicks in: revisions, meetings, questionnaires, production timelines\u2014and suddenly you're staring at the marketing part like it's a foreign language.",
@@ -504,55 +495,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage"
       },
+      "datePublished": "2027-05-26",
+      "dateModified": "2027-05-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-          "url": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
+          "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-          "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+          "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+          "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-          "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+          "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         },
         {
           "@type": "WebPage",
-          "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+          "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
+          "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_hero_uncertainty_timeline_blog_hero_landscape_9c1a646677f3.gif",
-      "width": 112,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance/blog/blog_hero_uncertainty_timeline_blog_hero_landscape_9c1a646677f3.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 uncertainty timeline",
-      "creditText": "CoinsAndConnections",
+      "creditText": "Ann H",
       "author": {
         "@type": "Person",
-        "name": "CoinsAndConnections",
-        "url": "https://giphy.com/gifs/CoinsAndConnections-toxic-i-cant-negativity-lUmoP9WLeUeIfCXhfr"
+        "name": "Ann H",
+        "url": "https://www.pexels.com/@ann-h-45017"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#faq",
+      "@id": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance#faq",
       "mainEntity": [
         {
           "@type": "Question",

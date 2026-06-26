@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Manuscript Readiness FAQ: Editing, Revisions, and What Literary Agents Really Want",
   "description": "A manuscript is not \"finished\" when the last page is written. The draft is a starting point; editing is where the book gets sharper, clearer, and more agent-ready\u2014sometimes in small ways, sometimes with big structural rewrites that change the whole reading experience.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-28",
+  "modifiedDate": "2026-10-28",
   "canonicalUrl": "https://writequeryhook.com/blog/manuscript-readiness-faq-editing-revisions-and-what-literary-agents-really-want",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -495,6 +495,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/manuscript-readiness-faq-editing-revisions-and-what-literary-agents-really-want#primaryimage"
       },
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
   "description": "Most author websites fail because they're built like a place to exist, not a system to sell. Like, you made a homepage. Congrats\u2014you now have a digital room where the visitors politely stand around, look for the exits, and leave.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
+  "publishedDate": "2027-08-22",
+  "modifiedDate": "2027-08-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_hero_myth_frustration_blog_hero_landscape_2104ccd00c3d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_hero_myth_frustration_blog_hero_landscape_2104ccd00c3d.jpeg",
     "alt": "blog hero \u00b7 myth frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 4608,
+    "height": 3456,
+    "creator": "energepic.com",
+    "creatorUrl": "https://www.pexels.com/@energepic-com-27411",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
+      "item": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     }
   ],
   "tldrBlocks": [],
@@ -95,13 +95,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_tldr_blog_section_landscape_74b9a7cbf931.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_tldr_blog_section_landscape_74b9a7cbf931.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -369,13 +369,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_fan_resources_time_on_site_blog_section_landscape_28407e84dcaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_fan_resources_time_on_site_blog_section_landscape_28407e84dcaa.gif",
         "alt": "Your fan resources are optional extras (so your engagement dies)",
-        "width": 5184,
-        "height": 3888,
-        "creator": "Kindel Media",
-        "creatorUrl": "https://www.pexels.com/@kindelmedia",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -392,7 +392,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_recap_blog_section_landscape_604e6c59bd27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_recap_blog_section_landscape_604e6c59bd27.jpeg?updatedAt=1782315407143",
         "alt": "Recap",
         "width": 4752,
         "height": 3168,
@@ -403,32 +403,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_section_image_fix_revise_blog_section_landscape_442d3d1aa771.gif",
-    "alt": "blog section image \u00b7 fix revise",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-      "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
-    },
-    {
       "title": "What independent publishers and bookstores protect when publishing gets consolidated",
-      "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+      "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
     },
     {
       "title": "How to protect your writing rights without accidentally scaring the people you need",
-      "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
     },
     {
-      "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "title": "The best websites for writers: build a daily habit, then learn the publishing math",
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+    },
+    {
+      "title": "5 tips for building your author platform without growing a Twitter following",
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -446,7 +437,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     }
   ]
 } as const;
@@ -476,7 +467,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -488,31 +479,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
+          "item": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
+      "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#webpage",
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
       "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -528,11 +519,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#article",
+      "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#webpage"
+        "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and",
       "headline": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
       "alternativeHeadline": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
       "description": "Most author websites fail because they're built like a place to exist, not a system to sell. Like, you made a homepage. Congrats\u2014you now have a digital room where the visitors politely stand around, look for the exits, and leave.",
@@ -562,48 +553,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage"
       },
+      "datePublished": "2027-08-22",
+      "dateModified": "2027-08-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-          "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
+          "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         },
         {
           "@type": "WebPage",
           "name": "What independent publishers and bookstores protect when publishing gets consolidated",
-          "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+          "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
         },
         {
           "@type": "WebPage",
           "name": "How to protect your writing rights without accidentally scaring the people you need",
-          "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+          "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+          "name": "The best websites for writers: build a daily habit, then learn the publishing math",
+          "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for building your author platform without growing a Twitter following",
+          "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_hero_myth_frustration_blog_hero_landscape_2104ccd00c3d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and/blog/blog_hero_myth_frustration_blog_hero_landscape_2104ccd00c3d.jpeg",
+      "width": 4608,
+      "height": 3456,
       "caption": "blog hero \u00b7 myth frustration",
-      "creditText": "wwe",
+      "creditText": "energepic.com",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "energepic.com",
+        "url": "https://www.pexels.com/@energepic-com-27411"
       },
       "@context": "https://schema.org"
     }

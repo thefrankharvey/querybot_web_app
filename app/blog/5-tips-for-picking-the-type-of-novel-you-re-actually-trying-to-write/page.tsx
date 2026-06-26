@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for picking the type of novel you're actually trying to write",
   "description": "If you're new to writing novels, the advice pile can feel like a stack of pamphlets at a DMV counter. One says \"start with character.\" Another says \"plot beats.\" Another says \"theme, theme, theme.\" And you're sitting there thinking: Cool. So\u2026 what am I actually making?",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
+  "publishedDate": "2027-09-10",
+  "modifiedDate": "2027-09-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_e9dcf76c41ea.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_e9dcf76c41ea.jpeg?updatedAt=1782328913206",
     "alt": "blog hero \u00b7 overwhelm blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for picking the type of novel you're actually trying to write",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+      "item": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     }
   ],
   "tldrBlocks": [],
@@ -155,7 +155,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_confusion_clarity_blog_section_landscape_353bdc64caac.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_confusion_clarity_blog_section_landscape_353bdc64caac.gif?updatedAt=1782328913909",
         "alt": "Define your three-bucket lens",
         "width": 200,
         "height": 200,
@@ -221,7 +221,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_anticipation_suspense_blog_section_landscape_928368a406c7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_anticipation_suspense_blog_section_landscape_928368a406c7.jpeg?updatedAt=1782328914458",
         "alt": "Map emotion and structure to genre fiction",
         "width": 5492,
         "height": 3661,
@@ -316,7 +316,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_marketing_stress_uncertainty_blog_section_landscape_88a261efbba4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_marketing_stress_uncertainty_blog_section_landscape_88a261efbba4.gif?updatedAt=1782328915132",
         "alt": "Plan mainstream fiction for marketable reader expectations",
         "width": 218,
         "height": 200,
@@ -327,32 +327,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_section_image_next_draft_commitment_blog_section_landscape_cc5604f8c26f.jpeg",
-    "alt": "blog section image \u00b7 next draft commitment",
-    "width": 6535,
-    "height": 4357,
-    "creator": "Yaroslav Shuraev",
-    "creatorUrl": "https://www.pexels.com/@yaroslav-shuraev",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 practical ways to market your self-published book (without living on random platforms)",
-      "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     },
     {
       "title": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     },
     {
       "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     },
     {
-      "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+      "title": "How to turn an essay into a book deal using proof of concept (not hope)",
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -387,7 +378,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
     }
   ]
 } as const;
@@ -417,7 +408,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -429,31 +420,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for picking the type of novel you're actually trying to write",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+          "item": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
       "name": "5 tips for picking the type of novel you're actually trying to write",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -469,11 +460,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write",
       "headline": "5 tips for picking the type of novel you're actually trying to write",
       "alternativeHeadline": "5 tips for picking the type of novel you\u2019re actually trying to write",
       "description": "If you're new to writing novels, the advice pile can feel like a stack of pamphlets at a DMV counter. One says \"start with character.\" Another says \"plot beats.\" Another says \"theme, theme, theme.\" And you're sitting there thinking: Cool. So\u2026 what am I actually making?",
@@ -503,40 +494,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage"
       },
+      "datePublished": "2027-09-10",
+      "dateModified": "2027-09-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+          "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
         },
         {
           "@type": "WebPage",
           "name": "5 practical ways to market your self-published book (without living on random platforms)",
-          "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+          "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         },
         {
           "@type": "WebPage",
           "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
         },
         {
           "@type": "WebPage",
           "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         },
         {
           "@type": "WebPage",
-          "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+          "name": "How to turn an essay into a book deal using proof of concept (not hope)",
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_e9dcf76c41ea.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_e9dcf76c41ea.jpeg?updatedAt=1782328913206",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 overwhelm blank-page dread",
@@ -551,7 +544,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write#faq",
       "mainEntity": [
         {
           "@type": "Question",

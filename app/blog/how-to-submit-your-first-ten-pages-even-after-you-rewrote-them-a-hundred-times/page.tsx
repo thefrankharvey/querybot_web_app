@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to submit your first ten pages (even after you rewrote them a hundred times)",
   "description": "You\u2019ve revised your opening so much you could probably recite it while brushing your teeth. That\u2019s the myth: if it feels familiar, it\u2019s probably correct.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-30",
+  "modifiedDate": "2026-10-30",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-submit-your-first-ten-pages-even-after-you-rewrote-them-a-hundred-times",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -529,6 +529,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-submit-your-first-ten-pages-even-after-you-rewrote-them-a-hundred-times#primaryimage"
       },
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
       "mentions": [
         {
           "@type": "WebPage",

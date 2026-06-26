@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to pitch \"series potential, but it resolves\" in your query letter (a breakdown of a winning structure)",
   "description": "A debut author pitching a series is basically walking into a meeting where half the room is thinking, Love it\u2014now prove I can afford it. The other half is thinking, If this doesn't land, I don't want egg on my face for making a bigger bet than the evidence supports.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-23",
+  "modifiedDate": "2026-07-23",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-pitch-series-potential-but-it-resolves-in-your-query-letter-a-breakdown",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -606,6 +606,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-pitch-series-potential-but-it-resolves-in-your-query-letter-a-breakdown#primaryimage"
       },
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-23",
       "mentions": [
         {
           "@type": "WebPage",

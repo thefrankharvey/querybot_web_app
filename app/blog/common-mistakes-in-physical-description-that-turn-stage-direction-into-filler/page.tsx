@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes in physical description that turn stage direction into filler",
   "description": "Your manuscript isn't \"low effort.\" It's probably just doing the thing writers do when they're nervous: throwing movement at the page like it's confetti. Hand wave. Shoulder drop. Tiny flinch. Another hand wave, but sadder. Then you wonder why the scene feels like you're watching someone act out the concept of tension instead of living inside it.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-01",
+  "modifiedDate": "2026-10-01",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-in-physical-description-that-turn-stage-direction-into-filler",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-in-physical-description-that-turn-stage-direction-into-filler#primaryimage"
       },
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
       "mentions": [
         {
           "@type": "WebPage",

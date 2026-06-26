@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What actually happens to your work at a writer conference: breakdown of the moments that make or break results",
   "description": "Every writer conference promises something different in its marketing copy: connections, inspiration, industry access, the big glow-up.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-29",
+  "modifiedDate": "2027-03-29",
   "canonicalUrl": "https://writequeryhook.com/blog/what-actually-happens-to-your-work-at-a-writer-conference-breakdown-of-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -746,6 +746,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-actually-happens-to-your-work-at-a-writer-conference-breakdown-of-the#primaryimage"
       },
+      "datePublished": "2027-03-29",
+      "dateModified": "2027-03-29",
       "mentions": [
         {
           "@type": "WebPage",

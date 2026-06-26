@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
   "description": "Romance gets mocked in writer circles like it's some guilty pleasure you have to hide in a sock drawer. Meanwhile, it keeps showing up on bestseller lists and paying bills in both traditional and self-led markets. That contrast is exactly why this FAQ exists.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
+  "publishedDate": "2027-11-01",
+  "modifiedDate": "2027-11-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-      "item": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+      "item": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
     }
   ],
   "tldrBlocks": [],
@@ -360,19 +360,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Literary agent cost faq",
-      "url": "https://writequeryhook.com/literary-agent-cost-faq"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
     },
     {
       "title": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-      "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
-    },
-    {
-      "title": "A case study in how to publish a poetry collection: from finished poems to a real release",
-      "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+      "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
     },
     {
       "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-      "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+    },
+    {
+      "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -390,7 +390,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Literary agent cost faq",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-faq"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
     }
   ]
 } as const;
@@ -420,7 +420,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -432,31 +432,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-          "item": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+          "item": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#webpage",
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
       "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -472,11 +472,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#article",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq",
       "headline": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
       "alternativeHeadline": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
       "description": "Romance gets mocked in writer circles like it's some guilty pleasure you have to hide in a sock drawer. Meanwhile, it keeps showing up on bestseller lists and paying bills in both traditional and self-led markets. That contrast is exactly why this FAQ exists.",
@@ -506,39 +506,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage"
       },
+      "datePublished": "2027-11-01",
+      "dateModified": "2027-11-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Literary agent cost faq",
-          "url": "https://writequeryhook.com/query-letters/literary-agent-cost-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Literary agent cost faq",
-          "url": "https://writequeryhook.com/literary-agent-cost-faq"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
         },
         {
           "@type": "WebPage",
           "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-          "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A case study in how to publish a poetry collection: from finished poems to a real release",
-          "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+          "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
         },
         {
           "@type": "WebPage",
           "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-          "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+          "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+        },
+        {
+          "@type": "WebPage",
+          "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
+          "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_600/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq/blog/blog_hero_judgment_embarrassment_blog_hero_landscape_b1420ea775a7.jpeg",
       "width": 5472,
       "height": 3648,

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Write an incredible synopsis in 4 simple steps faq",
   "description": "If synopsis writing feels like trying to compress an entire novel into a single breath\u2014no logic, no momentum, no stakes\u2014this is the place to fix that. This synopsis FAQ answers the questions writers ask when they're building materials for a query and worrying the synopsis won't match what agents and publishers expect.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq",
+  "publishedDate": "2027-11-14",
+  "modifiedDate": "2027-11-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Write an incredible synopsis in 4 simple steps faq",
-      "item": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "item": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
     }
   ],
   "tldrBlocks": [],
@@ -359,19 +359,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
-      "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     },
     {
       "title": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-      "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+      "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
     },
     {
       "title": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-      "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
     },
     {
       "title": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-      "url": "https://writequeryhook.com/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns-the-request"
+      "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -385,7 +385,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
-      "url": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     }
   ]
 } as const;
@@ -415,7 +415,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -427,31 +427,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Write an incredible synopsis in 4 simple steps faq",
-          "item": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "item": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq",
+      "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#webpage",
+      "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq",
       "name": "Write an incredible synopsis in 4 simple steps faq",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -467,11 +467,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#article",
+      "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq",
       "headline": "Write an incredible synopsis in 4 simple steps faq",
       "alternativeHeadline": "Write an incredible synopsis in 4 simple steps faq",
       "description": "If synopsis writing feels like trying to compress an entire novel into a single breath\u2014no logic, no momentum, no stakes\u2014this is the place to fix that. This synopsis FAQ answers the questions writers ask when they're building materials for a query and worrying the synopsis won't match what agents and publishers expect.",
@@ -501,39 +501,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage"
       },
+      "datePublished": "2027-11-14",
+      "dateModified": "2027-11-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-          "url": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-          "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+          "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
         },
         {
           "@type": "WebPage",
           "name": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-          "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+          "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-          "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
         },
         {
           "@type": "WebPage",
           "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-          "url": "https://writequeryhook.com/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns-the-request"
+          "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_614/write-an-incredible-synopsis-in-4-simple-steps-faq/blog/blog_hero_dread_blank_page_blog_hero_landscape_3dbdceaab89e.gif",
       "width": 200,
       "height": 200,

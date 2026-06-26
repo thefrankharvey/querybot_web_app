@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query a series: 7 mistakes that make debut authors look like they're asking for too much",
   "description": "You can feel it, right? That moment when you're drafting your query and \"series\" starts sounding like a dare\u2014like you're asking a publisher to bet big, before they've seen your book work.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-20",
+  "modifiedDate": "2026-07-20",
   "canonicalUrl": "https://writequeryhook.com/blog/query-a-series-7-mistakes-that-make-debut-authors-look-like-they-re-asking-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -595,6 +595,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-a-series-7-mistakes-that-make-debut-authors-look-like-they-re-asking-for#primaryimage"
       },
+      "datePublished": "2026-07-20",
+      "dateModified": "2026-07-20",
       "mentions": [
         {
           "@type": "WebPage",

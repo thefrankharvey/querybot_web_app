@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Simultaneous Submissions FAQ: What They Mean, When to Use Them, and What to Do After Acceptance",
   "description": "When writers talk about \"simultaneous submissions,\" the conversation usually turns into one of two vibes: \"How do I get answers faster?\" and \"What if I break a rule and torch my chances?\" Both worries are real. The educational angle here is simple: treat simultaneous submissions like a decision you can run cleanly, not a gamble you hope nobody notices.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-09",
+  "modifiedDate": "2027-02-09",
   "canonicalUrl": "https://writequeryhook.com/blog/simultaneous-submissions-faq-what-they-mean-when-to-use-them-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -454,6 +454,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/simultaneous-submissions-faq-what-they-mean-when-to-use-them-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-02-09",
+      "dateModified": "2027-02-09",
       "mentions": [
         {
           "@type": "WebPage",

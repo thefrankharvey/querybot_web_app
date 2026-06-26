@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dual timeline dual pov structure vs alternatives: pick the cadence that won't whiplash readers",
   "description": "Writers don't usually pick multiple storylines because they love suffering. They pick them because the book's engine begs for it: two time periods, two lives, two different kinds of tension.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-18",
+  "modifiedDate": "2027-01-18",
   "canonicalUrl": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-vs-alternatives-pick-the-cadence-that-won-t",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -568,6 +568,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-vs-alternatives-pick-the-cadence-that-won-t#primaryimage"
       },
+      "datePublished": "2027-01-18",
+      "dateModified": "2027-01-18",
       "mentions": [
         {
           "@type": "WebPage",

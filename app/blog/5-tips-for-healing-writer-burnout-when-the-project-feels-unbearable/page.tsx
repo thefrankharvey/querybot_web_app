@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for healing writer burnout when the project feels unbearable",
   "description": "Writer burnout is deeper than \"I can't write.\" It's the kind of exhaustion that makes the project feel unbearable\u2014like the manuscript has teeth, like every time you look at it your chest tightens, your brain goes white, and your thoughts start sounding like doom radio.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-11",
+  "modifiedDate": "2027-03-11",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-healing-writer-burnout-when-the-project-feels-unbearable",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -493,6 +493,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-healing-writer-burnout-when-the-project-feels-unbearable#primaryimage"
       },
+      "datePublished": "2027-03-11",
+      "dateModified": "2027-03-11",
       "mentions": [
         {
           "@type": "WebPage",

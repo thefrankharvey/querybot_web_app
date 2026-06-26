@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to develop fresh secondary characters (and keep them from turning into stock)",
   "description": "TLDR",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-19",
+  "modifiedDate": "2026-11-19",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-develop-fresh-secondary-characters-and-keep-them-from-turning-into-stock",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -725,6 +725,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-develop-fresh-secondary-characters-and-keep-them-from-turning-into-stock#primaryimage"
       },
+      "datePublished": "2026-11-19",
+      "dateModified": "2026-11-19",
       "mentions": [
         {
           "@type": "WebPage",

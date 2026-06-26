@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 important tips on how to pitch a literary agent in person without spiraling",
   "description": "You can write a pitch. You can even write it well. And then you step into the room, the agent looks at you like you're about to audition for oxygen, and suddenly your mouth forgets every word you spent hours polishing.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-03",
+  "modifiedDate": "2027-02-03",
   "canonicalUrl": "https://writequeryhook.com/blog/5-important-tips-on-how-to-pitch-a-literary-agent-in-person-without-spiraling",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -524,6 +524,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-important-tips-on-how-to-pitch-a-literary-agent-in-person-without-spiraling#primaryimage"
       },
+      "datePublished": "2027-02-03",
+      "dateModified": "2027-02-03",
       "mentions": [
         {
           "@type": "WebPage",

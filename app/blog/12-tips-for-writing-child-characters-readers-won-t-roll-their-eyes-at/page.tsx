@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "12 tips for writing child characters readers won't roll their eyes at",
   "description": "Kids don't reject books politely. If a protagonist feels like an adult in a costume, readers disengage fast\u2014like, page-skim fast. So yes, child characters have to feel believable, especially if you're writing middle grade where the reader's mental \"this is real\" detector is basically a bloodhound.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-16",
+  "modifiedDate": "2026-09-16",
   "canonicalUrl": "https://writequeryhook.com/blog/12-tips-for-writing-child-characters-readers-won-t-roll-their-eyes-at",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -739,6 +739,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/12-tips-for-writing-child-characters-readers-won-t-roll-their-eyes-at#primaryimage"
       },
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-09-16",
       "mentions": [
         {
           "@type": "WebPage",

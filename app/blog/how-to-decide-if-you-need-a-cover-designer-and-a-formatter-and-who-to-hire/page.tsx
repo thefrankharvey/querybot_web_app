@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to decide if you need a cover designer and a formatter (and who to hire)",
   "description": "Your book cover isn't \"decoration.\" It's the packaging readers use to judge your book in seconds. If you're self-publishing, that packaging lands entirely on you\u2014unless you outsource the parts that drain your energy and attention.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
+  "publishedDate": "2027-10-24",
+  "modifiedDate": "2027-10-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
-      "item": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+      "item": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
     }
   ],
   "tldrBlocks": [],
@@ -391,20 +391,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-      "url": "https://writequeryhook.com/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and-social-media"
-    },
-    {
       "title": "Great book title vs safer alternatives: pick the one that sells",
-      "url": "https://writequeryhook.com/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
     },
     {
       "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-      "url": "https://writequeryhook.com/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding-actually-come-from"
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
     },
     {
-      "title": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
+      "title": "How to Talk About Your Writing So People Want to Read It FAQ",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+    },
+    {
+      "title": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
+      "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -431,12 +431,7 @@ const PAGE_DATA = {
     }
   ],
   "closingBlocks": [],
-  "relatedLinks": [
-    {
-      "title": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-      "url": "https://writequeryhook.com/query-letters/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -464,7 +459,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -476,31 +471,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
-          "item": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+          "item": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
       "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -516,11 +511,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#article",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire",
       "headline": "How to decide if you need a cover designer and a formatter (and who to hire)",
       "alternativeHeadline": "How to decide if you need a cover designer and a formatter (and who to hire)",
       "description": "Your book cover isn't \"decoration.\" It's the packaging readers use to judge your book in seconds. If you're self-publishing, that packaging lands entirely on you\u2014unless you outsource the parts that drain your energy and attention.",
@@ -550,39 +545,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage"
       },
+      "datePublished": "2027-10-24",
+      "dateModified": "2027-10-24",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-          "url": "https://writequeryhook.com/query-letters/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-          "url": "https://writequeryhook.com/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and-social-media"
-        },
-        {
-          "@type": "WebPage",
           "name": "Great book title vs safer alternatives: pick the one that sells",
-          "url": "https://writequeryhook.com/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+          "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
         },
         {
           "@type": "WebPage",
           "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-          "url": "https://writequeryhook.com/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding-actually-come-from"
+          "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
         },
         {
           "@type": "WebPage",
-          "name": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
+          "name": "How to Talk About Your Writing So People Want to Read It FAQ",
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
+          "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_589/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire/blog/blog_hero_panic_overwhelm_blog_hero_landscape_cf7e15fd5a08.gif",
       "width": 200,
       "height": 200,
@@ -598,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#howto",
       "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
       "description": "Your book cover isn't \"decoration.\" It's the packaging readers use to judge your book in seconds. If you're self-publishing, that packaging lands entirely on you\u2014unless you outsource the parts that drain your energy and attention.",
       "totalTime": "PT7M",
@@ -608,42 +600,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Audit your contract and scope (traditional vs self-publishing)",
           "text": "Before hiring anyone, figure out what you're responsible for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-1-audit-your-contract-and-scope-traditional-vs-self-publishing"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-1-audit-your-contract-and-scope-traditional-vs-self-publishing"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Use typesetting vs book formatting to choose service level",
           "text": "Here's the split that prevents overpaying and prevents \"why does this look like a ransom note\" file disasters.",
-          "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-2-use-typesetting-vs-book-formatting-to-choose-service-level"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-2-use-typesetting-vs-book-formatting-to-choose-service-level"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Choose the cover level of customization (myth-bust the premade temptation)",
           "text": "A strong book cover is easy to read, uses professional fonts, keeps imagery from swallowing the title, and feels unique and memorable. It also looks like it belongs in your genre without copying whatever is hot this minute.",
-          "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-3-choose-the-cover-level-of-customization-myth-bust-the-premade-temptation"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-3-choose-the-cover-level-of-customization-myth-bust-the-premade-temptation"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Interview pros with clear scope and defined expectations",
           "text": "When you're evaluating who to hire\u2014cover designer or formatter\u2014make them answer the same way you would:",
-          "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-4-interview-pros-with-clear-scope-and-defined-expectations"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-4-interview-pros-with-clear-scope-and-defined-expectations"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Plan your timeline and key checkpoints to avoid scrambling",
           "text": "The last failure mode is chaotic sequencing: designing the cover before you know the final title/subtitle decisions, formatting the interior before your final manuscript passes proof, or uploading files before you've tested reflow.",
-          "url": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-5-plan-your-timeline-and-key-checkpoints-to-avoid-scrambling"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#step-5-plan-your-timeline-and-key-checkpoints-to-avoid-scrambling"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire#faq",
       "mainEntity": [
         {
           "@type": "Question",

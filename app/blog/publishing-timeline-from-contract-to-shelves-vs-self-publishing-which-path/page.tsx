@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
   "description": "Most writers imagine the moment they sign a contract is basically the book sprinting into stores like it's late for class.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
+  "publishedDate": "2027-08-01",
+  "modifiedDate": "2027-08-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_hero_confusion_dread_blog_hero_landscape_9996ce93ea52.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_hero_confusion_dread_blog_hero_landscape_9996ce93ea52.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-      "item": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
+      "item": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
     }
   ],
   "tldrBlocks": [],
@@ -227,7 +227,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_notes_revisions_blog_section_landscape_01ea0160b333.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_notes_revisions_blog_section_landscape_01ea0160b333.jpeg?updatedAt=1782268898879",
         "alt": "Editing",
         "width": 6720,
         "height": 4480,
@@ -351,13 +351,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_alignment_meetings_blog_section_landscape_e489da80afb4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_alignment_meetings_blog_section_landscape_e489da80afb4.gif",
         "alt": "Launch meeting roles in book publishing",
-        "width": 5898,
-        "height": 3932,
-        "creator": "Mikhail Nilov",
-        "creatorUrl": "https://www.pexels.com/@mikhail-nilov",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "kaleidadope",
+        "creatorUrl": "https://giphy.com/gifs/1111-synchronicity-alignment-HEL3qFOVs5qu2zZ5Bo",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -460,43 +460,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_the_verdict_blog_section_landscape_67f46535d877.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_the_verdict_blog_section_landscape_67f46535d877.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_section_image_choose_commit_blog_section_landscape_91de7a441c97.gif",
-    "alt": "blog section image \u00b7 choose commit",
-    "width": 200,
-    "height": 200,
-    "creator": "thenopecat",
-    "creatorUrl": "https://giphy.com/gifs/cat-chainsaw-blue-OKVpLQjuSTqcVv7Cki",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
-      "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
     },
     {
       "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     },
     {
       "title": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     },
     {
-      "title": "How do advances and royalties work FAQ",
-      "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+      "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -531,7 +522,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Building your author platform with Twitter followers vs off-social alternatives",
-      "url": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
     }
   ]
 } as const;
@@ -561,7 +552,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -573,31 +564,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-          "item": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
+          "item": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
       "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -613,11 +604,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#article",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path",
       "headline": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
       "alternativeHeadline": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
       "description": "Most writers imagine the moment they sign a contract is basically the book sprinting into stores like it's late for class.",
@@ -647,55 +638,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage"
       },
+      "datePublished": "2027-08-01",
+      "dateModified": "2027-08-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Building your author platform with Twitter followers vs off-social alternatives",
-          "url": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+          "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-          "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
         },
         {
           "@type": "WebPage",
           "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
         },
         {
           "@type": "WebPage",
           "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         },
         {
           "@type": "WebPage",
-          "name": "How do advances and royalties work FAQ",
-          "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+          "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_hero_confusion_dread_blog_hero_landscape_9996ce93ea52.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path/blog/blog_hero_confusion_dread_blog_hero_landscape_9996ce93ea52.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path#faq",
       "mainEntity": [
         {
           "@type": "Question",

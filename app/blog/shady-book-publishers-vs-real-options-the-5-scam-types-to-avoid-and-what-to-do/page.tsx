@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
   "description": "If you've ever gotten an email that reads like it was composed by a very eager fanfiction robot\u2014\"we absolutely adore your voice, your destiny is here, please remit payment\"\u2014congrats. You've met the publishing scams ecosystem.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
+  "publishedDate": "2027-10-01",
+  "modifiedDate": "2027-10-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_hero_paperwork_dread_inbox_chaos_blog_hero_landscape_4c9c26e192a8.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_hero_paperwork_dread_inbox_chaos_blog_hero_landscape_4c9c26e192a8.jpeg",
     "alt": "blog hero \u00b7 paperwork dread inbox chaos",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 6465,
+    "height": 4310,
+    "creator": "Tara Winstead",
+    "creatorUrl": "https://www.pexels.com/@tara-winstead",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+      "item": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -76,7 +76,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_tldr_blog_section_landscape_3c9dcd7ffa9e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_tldr_blog_section_landscape_3c9dcd7ffa9e.jpeg?updatedAt=1782339497310",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -296,13 +296,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_unnecessary_charges_do_it_yourself_blog_section_landscape_a06787e514c8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_unnecessary_charges_do_it_yourself_blog_section_landscape_a06787e514c8.gif",
         "alt": "Paid-for-free services vs paying only for clearly valuable work",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Michaela St",
-        "creatorUrl": "https://www.pexels.com/@michaela-st-3448542",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -455,13 +455,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_winner_overload_hidden_fees_blog_section_landscape_e832c61e8309.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_winner_overload_hidden_fees_blog_section_landscape_e832c61e8309.gif",
         "alt": "Fake contests and prize programs vs legitimate competitions with verifiable terms",
-        "width": 3000,
-        "height": 2001,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 186,
+        "height": 200,
+        "creator": "nog",
+        "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -600,32 +600,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_section_image_choices_final_verdict_blog_section_landscape_5af30d37557a.gif",
-    "alt": "blog section image \u00b7 choices final verdict",
-    "width": 298,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Copyright a book: the definitive guide FAQ",
-      "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
     },
     {
       "title": "How much does it cost to publish a book in 2025 FAQ",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
     },
     {
       "title": "Amazon Algorithms for Authors: Demystified FAQ",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     },
     {
-      "title": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "title": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -639,7 +630,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Copyright a book: the definitive guide FAQ",
-      "url": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
     }
   ]
 } as const;
@@ -669,7 +660,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -681,31 +672,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+          "item": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
+      "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
       "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -721,11 +712,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#article",
+      "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do",
       "headline": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
       "alternativeHeadline": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
       "description": "If you've ever gotten an email that reads like it was composed by a very eager fanfiction robot\u2014\"we absolutely adore your voice, your destiny is here, please remit payment\"\u2014congrats. You've met the publishing scams ecosystem.",
@@ -755,48 +746,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-10-01",
+      "dateModified": "2027-10-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Copyright a book: the definitive guide FAQ",
-          "url": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Copyright a book: the definitive guide FAQ",
-          "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
         },
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025 FAQ",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
         },
         {
           "@type": "WebPage",
           "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+          "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_hero_paperwork_dread_inbox_chaos_blog_hero_landscape_4c9c26e192a8.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do/blog/blog_hero_paperwork_dread_inbox_chaos_blog_hero_landscape_4c9c26e192a8.jpeg",
+      "width": 6465,
+      "height": 4310,
       "caption": "blog hero \u00b7 paperwork dread inbox chaos",
-      "creditText": "dazn",
+      "creditText": "Tara Winstead",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Tara Winstead",
+        "url": "https://www.pexels.com/@tara-winstead"
       },
       "@context": "https://schema.org"
     }

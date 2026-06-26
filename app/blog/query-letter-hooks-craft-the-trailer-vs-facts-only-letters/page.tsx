@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query letter hooks: craft the trailer (vs \"facts-only\" letters)",
   "description": "I get why \"facts-only\" query letters happen. You finish the manuscript, your brain is fried, and you think: Cool, I'm done. Now I just explain what happens.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-04",
+  "modifiedDate": "2026-07-04",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-hooks-craft-the-trailer-vs-facts-only-letters",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-hooks-craft-the-trailer-vs-facts-only-letters#primaryimage"
       },
+      "datePublished": "2026-07-04",
+      "dateModified": "2026-07-04",
       "mentions": [
         {
           "@type": "WebPage",

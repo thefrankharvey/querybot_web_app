@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to finish a novel in three days: a schedule-controlled sprint that actually works",
   "description": "The \"how do I finish this novel?\" panic hits hardest when the deadline stops being a concept and turns into a calendar page you can't unsee. The standard advice\u2014write more, be motivated, \"just keep going\"\u2014works fine for people with unlimited time. Most of us aren't those people.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-12",
+  "modifiedDate": "2026-11-12",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-finish-a-novel-in-three-days-a-schedule-controlled-sprint-that-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -565,6 +565,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-finish-a-novel-in-three-days-a-schedule-controlled-sprint-that-actually#primaryimage"
       },
+      "datePublished": "2026-11-12",
+      "dateModified": "2026-11-12",
       "mentions": [
         {
           "@type": "WebPage",

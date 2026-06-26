@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query Letter Blueprint: Hook, Pitch, Bio, and What Happens Next",
   "description": "I've seen the same pattern from writer after writer: they want to be seen, so they try to explain themselves into trust. Problem is, agents and publishers are building a pile of \"later\" decisions. If your letter reads like a plea, it goes to the category of \"unread.\" If it reads like a clean ask with proof, it earns time.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-26",
+  "modifiedDate": "2026-06-26",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-blueprint-hook-pitch-bio-and-what-happens-next",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -837,6 +837,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-blueprint-hook-pitch-bio-and-what-happens-next#primaryimage"
       },
+      "datePublished": "2026-06-26",
+      "dateModified": "2026-06-26",
       "mentions": [
         {
           "@type": "WebPage",

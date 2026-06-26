@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to pitch yourself first in a query letter so agents read past paragraph one",
   "description": "A lot of queries die in the first paragraph because the first paragraph often does the same boring job everyone else is doing: setting up story logistics, summarizing cast and plot, and reciting the premise like it's a class assignment.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-28",
+  "modifiedDate": "2026-07-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-pitch-yourself-first-in-a-query-letter-so-agents-read-past-paragraph-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -593,6 +593,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-pitch-yourself-first-in-a-query-letter-so-agents-read-past-paragraph-one#primaryimage"
       },
+      "datePublished": "2026-07-28",
+      "dateModified": "2026-07-28",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 editing mistakes that turn children's nonfiction into a flat facts pile (and how to fix them)",
   "description": "If your manuscript feels like \"informational but flat,\" you're not broken. Your editing choices are.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-03",
+  "modifiedDate": "2027-03-03",
   "canonicalUrl": "https://writequeryhook.com/blog/5-editing-mistakes-that-turn-children-s-nonfiction-into-a-flat-facts-pile-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -580,6 +580,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-editing-mistakes-that-turn-children-s-nonfiction-into-a-flat-facts-pile-and#primaryimage"
       },
+      "datePublished": "2027-03-03",
+      "dateModified": "2027-03-03",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Summer slowdown: how to keep query momentum when \"editorial agents\" and series timing collide",
   "description": "Most writers treat summer like it's a moral test.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-25",
+  "modifiedDate": "2027-03-25",
   "canonicalUrl": "https://writequeryhook.com/blog/summer-slowdown-how-to-keep-query-momentum-when-editorial-agents-and-series",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -522,6 +522,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/summer-slowdown-how-to-keep-query-momentum-when-editorial-agents-and-series#primaryimage"
       },
+      "datePublished": "2027-03-25",
+      "dateModified": "2027-03-25",
       "mentions": [
         {
           "@type": "WebPage",

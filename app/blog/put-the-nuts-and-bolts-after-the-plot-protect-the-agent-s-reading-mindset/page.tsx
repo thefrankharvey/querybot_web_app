@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Put the \"nuts and bolts\" after the plot: protect the agent's reading mindset",
   "description": "Most writers obsess over order like it's a magic spell. They'll stare at two different examples, see someone place the word count up front, then see another person tuck it under the plot description, and then\u2014cursor-blinking\u2014think, So which one is it?",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-19",
+  "modifiedDate": "2026-07-19",
   "canonicalUrl": "https://writequeryhook.com/blog/put-the-nuts-and-bolts-after-the-plot-protect-the-agent-s-reading-mindset",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -654,6 +654,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/put-the-nuts-and-bolts-after-the-plot-protect-the-agent-s-reading-mindset#primaryimage"
       },
+      "datePublished": "2026-07-19",
+      "dateModified": "2026-07-19",
       "mentions": [
         {
           "@type": "WebPage",

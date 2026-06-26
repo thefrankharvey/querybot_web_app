@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Exclusive submissions vs pitch contests vs querying with an agent: the stage-specific follow-up plan",
   "description": "You know that inbox ritual: you open it \"just to check,\" and it's still empty. Again. That's not \"just how it is,\" that's the exact moment panic starts drafting emails for you.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-10",
+  "modifiedDate": "2027-02-10",
   "canonicalUrl": "https://writequeryhook.com/blog/exclusive-submissions-vs-pitch-contests-vs-querying-with-an-agent-the-stage",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -687,6 +687,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/exclusive-submissions-vs-pitch-contests-vs-querying-with-an-agent-the-stage#primaryimage"
       },
+      "datePublished": "2027-02-10",
+      "dateModified": "2027-02-10",
       "mentions": [
         {
           "@type": "WebPage",

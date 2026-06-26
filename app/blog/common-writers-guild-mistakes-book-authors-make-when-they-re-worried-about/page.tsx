@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
   "description": "If you've been thinking, \"Writers have benefits and protections over there, but we just\u2026 hustle,\" the imbalance is real. You're asking a legitimate question: what happens when AI shifts the ground under your feet while you're still learning the industry language?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
+  "publishedDate": "2027-10-10",
+  "modifiedDate": "2027-10-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-      "item": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
+      "item": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
     }
   ],
   "tldrBlocks": [],
@@ -430,19 +430,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-      "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
     },
     {
       "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-      "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     },
     {
       "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     },
     {
-      "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+      "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -474,12 +474,7 @@ const PAGE_DATA = {
       "text": "If you're worried about healthcare, rights, and **AI**, don't \"figure it out later\" your way into chaos. Pick one mistake above and fix it this week\u2014by learning the missing language, tightening your process, and building the kind of support system that keeps writers healthy enough to keep creating."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-      "url": "https://writequeryhook.com/query-letters/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -507,7 +502,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -519,31 +514,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-          "item": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
+          "item": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
+      "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#webpage",
+      "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
       "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -559,11 +554,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#article",
+      "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#webpage"
+        "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about",
       "headline": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
       "alternativeHeadline": "Common writers\u2019 guild mistakes book authors make when they\u2019re worried about benefits, rights, and AI",
       "description": "If you've been thinking, \"Writers have benefits and protections over there, but we just\u2026 hustle,\" the imbalance is real. You're asking a legitimate question: what happens when AI shifts the ground under your feet while you're still learning the industry language?",
@@ -593,39 +588,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage"
       },
+      "datePublished": "2027-10-10",
+      "dateModified": "2027-10-10",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-          "url": "https://writequeryhook.com/query-letters/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision"
-        },
-        {
-          "@type": "WebPage",
           "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-          "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+          "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
         },
         {
           "@type": "WebPage",
           "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-          "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+          "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+          "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         },
         {
           "@type": "WebPage",
-          "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+          "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
+          "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage",
+      "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_569/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about/blog/blog_hero_recognition_dread_blog_hero_landscape_b8f4a196508a.gif",
       "width": 200,
       "height": 200,
@@ -641,7 +633,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#faq",
+      "@id": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about#faq",
       "mainEntity": [
         {
           "@type": "Question",

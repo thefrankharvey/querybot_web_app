@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Word count for novels and children's books FAQ",
   "description": "Writers obsess over word count because it feels like a clean, measurable gate. It isn't clean. It's still a lever.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq",
+  "publishedDate": "2027-08-13",
+  "modifiedDate": "2027-08-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_hero_uncertainty_spreadsheet_dread_blog_hero_landscape_ca05a4aeb39a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_hero_uncertainty_spreadsheet_dread_blog_hero_landscape_ca05a4aeb39a.jpeg?updatedAt=1782311840765",
     "alt": "blog hero \u00b7 uncertainty spreadsheet dread",
     "width": 3999,
     "height": 2666,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Word count for novels and children's books FAQ",
-      "item": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq"
+      "item": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_relief_safe_band_blog_section_landscape_8413d920fd81.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_relief_safe_band_blog_section_landscape_8413d920fd81.gif?updatedAt=1782311841629",
         "alt": "What word count range is generally considered \"safe\" for many adult novels?",
         "width": 226,
         "height": 200,
@@ -209,7 +209,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_relief_safe_band_blog_section_landscape_8413d920fd81.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_relief_safe_band_blog_section_landscape_8413d920fd81.gif?updatedAt=1782311841629",
         "alt": "What word count range is generally considered \"safe\" for many adult novels?",
         "width": 226,
         "height": 200,
@@ -247,7 +247,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_focus_picture_book_pages_blog_section_landscape_aacc8fb0c4fb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_focus_picture_book_pages_blog_section_landscape_aacc8fb0c4fb.jpeg?updatedAt=1782311842208",
         "alt": "What's the suggested word count approach for picture books?",
         "width": 5156,
         "height": 3437,
@@ -316,7 +316,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_quick_faq_checklist_for_not_overthinking_it_blog_section_landscape_367e03009345.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_quick_faq_checklist_for_not_overthinking_it_blog_section_landscape_367e03009345.gif?updatedAt=1782311842841",
         "alt": "Quick FAQ checklist for not overthinking it",
         "width": 279,
         "height": 200,
@@ -327,32 +327,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_section_image_next_draft_revision_pass_blog_section_landscape_825072867cf9.jpeg",
-    "alt": "blog section image \u00b7 next draft revision pass",
-    "width": 3500,
-    "height": 2333,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     },
     {
       "title": "How can you market your book effectively? FAQ for self-published authors",
-      "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     },
     {
       "title": "Do you need to hire a cover designer and book formatter?",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
     },
     {
-      "title": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
+      "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -366,7 +357,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "url": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     }
   ]
 } as const;
@@ -396,7 +387,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -408,31 +399,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Word count for novels and children's books FAQ",
-          "item": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq"
+          "item": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq",
+      "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#webpage",
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq",
       "name": "Word count for novels and children's books FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -448,11 +439,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#article",
+      "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq",
       "headline": "Word count for novels and children's books FAQ",
       "alternativeHeadline": "Word count for novels and children's books FAQ",
       "description": "Writers obsess over word count because it feels like a clean, measurable gate. It isn't clean. It's still a lever.",
@@ -482,40 +473,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#primaryimage"
       },
+      "datePublished": "2027-08-13",
+      "dateModified": "2027-08-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "url": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         },
         {
           "@type": "WebPage",
           "name": "How can you market your book effectively? FAQ for self-published authors",
-          "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+          "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
         },
         {
           "@type": "WebPage",
           "name": "Do you need to hire a cover designer and book formatter?",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
         },
         {
           "@type": "WebPage",
-          "name": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
+          "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
+          "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_hero_uncertainty_spreadsheet_dread_blog_hero_landscape_ca05a4aeb39a.jpeg",
+      "@id": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/word-count-for-novels-and-children-s-books-faq/blog/blog_hero_uncertainty_spreadsheet_dread_blog_hero_landscape_ca05a4aeb39a.jpeg?updatedAt=1782311840765",
       "width": 3999,
       "height": 2666,
       "caption": "blog hero \u00b7 uncertainty spreadsheet dread",

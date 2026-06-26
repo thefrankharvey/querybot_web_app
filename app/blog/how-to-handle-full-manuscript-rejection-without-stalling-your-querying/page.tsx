@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to handle full manuscript rejection without stalling your querying",
   "description": "A full-manuscript rejection can feel like someone pulled the rug out from under a hopeful \"they requested the manuscript\" moment. Then you open the email and it's\u2026 vague, quiet, or wrapped in polite language that doesn't tell you what actually broke.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-09",
+  "modifiedDate": "2027-03-09",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-handle-full-manuscript-rejection-without-stalling-your-querying",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -576,6 +576,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-handle-full-manuscript-rejection-without-stalling-your-querying#primaryimage"
       },
+      "datePublished": "2027-03-09",
+      "dateModified": "2027-03-09",
       "mentions": [
         {
           "@type": "WebPage",

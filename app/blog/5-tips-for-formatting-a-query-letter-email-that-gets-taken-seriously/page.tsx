@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for formatting a query letter email that gets taken seriously",
   "description": "The cursor blinks. You're staring at a blank email like it's a moral test: Will this look professional enough that someone reads it? Then you do the usual writer thing\u2014overthink the formatting, second-guess the subject line, and quietly spiral into, \"Maybe I should make it prettier.\"",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-28",
+  "modifiedDate": "2026-07-28",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-formatting-a-query-letter-email-that-gets-taken-seriously",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -501,6 +501,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-formatting-a-query-letter-email-that-gets-taken-seriously#primaryimage"
       },
+      "datePublished": "2026-07-28",
+      "dateModified": "2026-07-28",
       "mentions": [
         {
           "@type": "WebPage",

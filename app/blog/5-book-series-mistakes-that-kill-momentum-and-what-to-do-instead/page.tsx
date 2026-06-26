@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 book series mistakes that kill momentum (and what to do instead)",
   "description": "Writers don't usually kill momentum on purpose. They do it with bad series mechanics: weak planning, wrong pacing, and endings that don't pull forward. Then they blame everything but the page\u2014marketing, \"wrong audience,\" algorithm vibes\u2014while book two quietly feels improvised.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-30",
+  "modifiedDate": "2026-09-30",
   "canonicalUrl": "https://writequeryhook.com/blog/5-book-series-mistakes-that-kill-momentum-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -564,6 +564,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-book-series-mistakes-that-kill-momentum-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Character ideas: your own vs alternatives (and how to pick the better one)",
   "description": "Here's the fight writers keep having in private: either they try to invent a character from scratch and end up with \"generic competent person #7,\" or they grab an idea from a list and worry they're cheating.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-26",
+  "modifiedDate": "2026-12-26",
   "canonicalUrl": "https://writequeryhook.com/blog/character-ideas-your-own-vs-alternatives-and-how-to-pick-the-better-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -523,6 +523,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/character-ideas-your-own-vs-alternatives-and-how-to-pick-the-better-one#primaryimage"
       },
+      "datePublished": "2026-12-26",
+      "dateModified": "2026-12-26",
       "mentions": [
         {
           "@type": "WebPage",

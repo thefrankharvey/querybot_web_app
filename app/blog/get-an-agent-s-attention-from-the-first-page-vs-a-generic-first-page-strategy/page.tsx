@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Get an agent\u2019s attention from the first page vs a generic first-page strategy",
   "description": "You know the feeling: you\u2019ve revised the query letter, you\u2019ve tweaked a paragraph here, you\u2019ve done the respectable little \u201cmaybe I\u2019ll change the last sentence of chapter one\u201d dance\u2014then you hit submit and immediately start Googling \u201chow to get an agent\u2019s attention from the first page\u201d like it\u2019s a get-out-of-rejection free card.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-06",
+  "modifiedDate": "2026-10-06",
   "canonicalUrl": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-vs-a-generic-first-page-strategy",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -632,6 +632,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-vs-a-generic-first-page-strategy#primaryimage"
       },
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
       "mentions": [
         {
           "@type": "WebPage",

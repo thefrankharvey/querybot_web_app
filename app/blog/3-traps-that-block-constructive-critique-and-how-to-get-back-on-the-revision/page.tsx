@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 traps that block constructive critique (and how to get back on the revision track)",
   "description": "Writers ask for feedback, get some praise, and then\u2014somehow\u2014everything stops moving. Like the draft hit a \"green light,\" and the next step is just\u2026 basking.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-15",
+  "modifiedDate": "2027-02-15",
   "canonicalUrl": "https://writequeryhook.com/blog/3-traps-that-block-constructive-critique-and-how-to-get-back-on-the-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -467,6 +467,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-traps-that-block-constructive-critique-and-how-to-get-back-on-the-revision#primaryimage"
       },
+      "datePublished": "2027-02-15",
+      "dateModified": "2027-02-15",
       "mentions": [
         {
           "@type": "WebPage",

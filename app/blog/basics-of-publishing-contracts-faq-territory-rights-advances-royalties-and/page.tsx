@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
   "description": "Publishing contracts are mostly a \u201chow this deal works\u201d document. They spell out where your book can be sold, what rights the publisher actually gets, and how money flows back to you. If you\u2019re new to this, the language can feel like it\u2019s designed to hide the real moving parts\u2014especially territory, the grant of rights, and the mechanics behind an advance and royalties.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
+  "publishedDate": "2027-07-07",
+  "modifiedDate": "2027-07-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_hero_blank_page_anxiety_blog_hero_landscape_7b58fd24a883.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_hero_blank_page_anxiety_blog_hero_landscape_7b58fd24a883.jpeg?updatedAt=1782244867368",
     "alt": "blog hero \u00b7 blank-page anxiety",
     "width": 3999,
     "height": 2666,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "item": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
+      "item": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     }
   ],
   "tldrBlocks": [],
@@ -96,13 +96,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_territory_boundaries_blog_section_landscape_93079b1c7db8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_territory_boundaries_blog_section_landscape_93079b1c7db8.jpeg",
         "alt": "Bonus: what does warranty and indemnity mean in publishing contracts?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5184,
+        "height": 3456,
+        "creator": "P\u00e2m Santos",
+        "creatorUrl": "https://www.pexels.com/@pam-santos-2153999487",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -136,13 +136,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_exclusive_nonexclusive_blog_section_landscape_cc1a167b930d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_exclusive_nonexclusive_blog_section_landscape_cc1a167b930d.gif",
         "alt": "What\u2019s the difference between exclusive and nonexclusive rights?",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -179,13 +179,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_money_upfront_recoup_blog_section_landscape_eabc73d2be96.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_money_upfront_recoup_blog_section_landscape_eabc73d2be96.gif",
         "alt": "How does an advance work if my book doesn\u2019t sell much?",
-        "width": 2888,
-        "height": 1925,
-        "creator": "Jonathan Borba",
-        "creatorUrl": "https://www.pexels.com/@jonathanborba",
-        "provider": "pexels",
+        "width": 350,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/x5c8d75Tvt7sQ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -297,43 +297,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_territory_boundaries_blog_section_landscape_93079b1c7db8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_territory_boundaries_blog_section_landscape_93079b1c7db8.jpeg",
         "alt": "Bonus: what does warranty and indemnity mean in publishing contracts?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5184,
+        "height": 3456,
+        "creator": "P\u00e2m Santos",
+        "creatorUrl": "https://www.pexels.com/@pam-santos-2153999487",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_section_image_next_step_highlight_text_blog_section_landscape_282c4876549c.gif",
-    "alt": "blog section image \u00b7 next-step highlight text",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     },
     {
       "title": "Infographic 5 Key Book Publishing Paths FAQ",
-      "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     },
     {
       "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     },
     {
-      "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
-      "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+      "title": "Why social media is worth it even if it never sells your book (examples for authors)",
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -351,7 +342,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "url": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     }
   ]
 } as const;
@@ -381,7 +372,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -393,31 +384,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "item": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
+          "item": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
+      "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#webpage",
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
       "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -433,11 +424,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#article",
+      "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#webpage"
+        "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and",
       "headline": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
       "alternativeHeadline": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
       "description": "Publishing contracts are mostly a \u201chow this deal works\u201d document. They spell out where your book can be sold, what rights the publisher actually gets, and how money flows back to you. If you\u2019re new to this, the language can feel like it\u2019s designed to hide the real moving parts\u2014especially territory, the grant of rights, and the mechanics behind an advance and royalties.",
@@ -467,40 +458,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage"
       },
+      "datePublished": "2027-07-07",
+      "dateModified": "2027-07-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "url": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
+          "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         },
         {
           "@type": "WebPage",
           "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+          "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
         },
         {
           "@type": "WebPage",
           "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+          "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         },
         {
           "@type": "WebPage",
-          "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-          "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+          "name": "Why social media is worth it even if it never sells your book (examples for authors)",
+          "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_hero_blank_page_anxiety_blog_hero_landscape_7b58fd24a883.jpeg",
+      "@id": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and/blog/blog_hero_blank_page_anxiety_blog_hero_landscape_7b58fd24a883.jpeg?updatedAt=1782244867368",
       "width": 3999,
       "height": 2666,
       "caption": "blog hero \u00b7 blank-page anxiety",

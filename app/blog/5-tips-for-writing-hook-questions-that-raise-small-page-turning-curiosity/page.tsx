@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing hook questions that raise small, page-turning curiosity",
   "description": "Your first page is a handshake, and most drafts show up with their hat still on. The problem isn't that writers don't have ideas. It's that the opening sentences don't manufacture curiosity fast enough. And when that curiosity doesn't keep paying rent, the reader drifts.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-31",
+  "modifiedDate": "2026-12-31",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-hook-questions-that-raise-small-page-turning-curiosity",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -539,6 +539,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-hook-questions-that-raise-small-page-turning-curiosity#primaryimage"
       },
+      "datePublished": "2026-12-31",
+      "dateModified": "2026-12-31",
       "mentions": [
         {
           "@type": "WebPage",

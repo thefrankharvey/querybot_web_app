@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The description value test: a ruthless way to keep pacing alive",
   "description": "Writers don't usually set out to slow their own books down. They just get seduced by description\u2014the nice kind that feels inspiring while you're writing it.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-12",
+  "modifiedDate": "2026-10-12",
   "canonicalUrl": "https://writequeryhook.com/blog/the-description-value-test-a-ruthless-way-to-keep-pacing-alive",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -626,6 +626,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-description-value-test-a-ruthless-way-to-keep-pacing-alive#primaryimage"
       },
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
       "mentions": [
         {
           "@type": "WebPage",

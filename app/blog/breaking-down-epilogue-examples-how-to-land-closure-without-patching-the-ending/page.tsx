@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down epilogue examples: how to land closure without patching the ending",
   "description": "Most writers don\u2019t struggle with the idea of an epilogue. They struggle with the last thirty pages and a sneaking suspicion that an epilogue is going to feel like a band-aid for an ending that isn\u2019t working.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-15",
+  "modifiedDate": "2026-10-15",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-epilogue-examples-how-to-land-closure-without-patching-the-ending",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -805,6 +805,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-epilogue-examples-how-to-land-closure-without-patching-the-ending#primaryimage"
       },
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
       "mentions": [
         {
           "@type": "WebPage",

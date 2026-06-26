@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Community FAQ for writers: what to do when loneliness hits",
   "description": "Writing is psychologically exhausting. Not in a vague \"it's hard\" way\u2014more like the brain keeps scanning for danger every time you open the doc, revise the scene, or put your work in front of strangers. Then add the extra loneliness of doing all that alone while you wait for feedback that might never come.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-10",
+  "modifiedDate": "2027-04-10",
   "canonicalUrl": "https://writequeryhook.com/blog/community-faq-for-writers-what-to-do-when-loneliness-hits",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -452,6 +452,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/community-faq-for-writers-what-to-do-when-loneliness-hits#primaryimage"
       },
+      "datePublished": "2027-04-10",
+      "dateModified": "2027-04-10",
       "mentions": [
         {
           "@type": "WebPage",

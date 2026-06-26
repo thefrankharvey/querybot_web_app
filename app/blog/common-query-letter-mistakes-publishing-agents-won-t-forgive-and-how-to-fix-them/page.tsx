@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common query letter mistakes publishing agents won't forgive (and how to fix them)",
   "description": "If querying feels like being judged on vibes through a mail slot, yeah. That's real. But most slumps don't come from \"taste.\" They come from avoidable query letter habits\u2014especially ones that make publishing agents think, in five seconds, \"This is going to be work.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-03",
+  "modifiedDate": "2026-07-03",
   "canonicalUrl": "https://writequeryhook.com/blog/common-query-letter-mistakes-publishing-agents-won-t-forgive-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -519,6 +519,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-query-letter-mistakes-publishing-agents-won-t-forgive-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2026-07-03",
+      "dateModified": "2026-07-03",
       "mentions": [
         {
           "@type": "WebPage",

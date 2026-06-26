@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
   "description": "Writers think the publishing industry runs on talent and taste. Then you learn about scouting and\u2014surprise\u2014it also runs on speed, triage, and people who are paid to notice what's worth betting on before everyone else starts circling.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
+  "publishedDate": "2027-09-24",
+  "modifiedDate": "2027-09-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_hero_confusion_recognition_blog_hero_landscape_5feed1b56727.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_hero_confusion_recognition_blog_hero_landscape_5feed1b56727.jpeg?updatedAt=1782335980945",
     "alt": "blog hero \u00b7 confusion recognition",
     "width": 4500,
     "height": 2531,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "item": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
+      "item": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     }
   ],
   "tldrBlocks": [],
@@ -160,7 +160,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_reporting_eyes_and_ears_blog_section_landscape_ed24953e01c9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_reporting_eyes_and_ears_blog_section_landscape_ed24953e01c9.gif?updatedAt=1782335981515",
         "alt": "The real job is reporting not discovering",
         "width": 319,
         "height": 200,
@@ -241,7 +241,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_international_rights_acquisition_blog_section_landscape_d0c0c9ef2a21.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_international_rights_acquisition_blog_section_landscape_d0c0c9ef2a21.gif?updatedAt=1782335982159",
         "alt": "Why scout reports move rights across borders",
         "width": 226,
         "height": 200,
@@ -321,7 +321,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_reading_notes_blog_section_landscape_89b5202d88dc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_reading_notes_blog_section_landscape_89b5202d88dc.jpeg?updatedAt=1782335982648",
         "alt": "What a scout does day to day",
         "width": 6000,
         "height": 4000,
@@ -399,32 +399,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_section_image_fist_pump_resolve_blog_section_landscape_9d744b393038.jpeg",
-    "alt": "blog section image \u00b7 fist pump resolve",
-    "width": 5903,
-    "height": 3935,
-    "creator": "Luis Quintero",
-    "creatorUrl": "https://www.pexels.com/@jibarofoto",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     },
     {
       "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     },
     {
       "title": "5 tips for choosing a small press (and when you should actually say yes)",
-      "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     },
     {
       "title": "5 tips for writing IP when you don't own the world (or the rules)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -467,7 +458,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The mission statement tells you what a publisher is actually buying",
-      "url": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     }
   ]
 } as const;
@@ -497,7 +488,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -509,31 +500,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "item": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
+          "item": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#webpage",
-      "url": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
+      "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#webpage",
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
       "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -549,11 +540,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#article",
+      "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#webpage"
+        "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets",
       "headline": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
       "alternativeHeadline": "Literary scouting, decoded: why this \"behind-the-scenes\" job decides what gets bought",
       "description": "Writers think the publishing industry runs on talent and taste. Then you learn about scouting and\u2014surprise\u2014it also runs on speed, triage, and people who are paid to notice what's worth betting on before everyone else starts circling.",
@@ -583,40 +574,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage"
       },
+      "datePublished": "2027-09-24",
+      "dateModified": "2027-09-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The mission statement tells you what a publisher is actually buying",
-          "url": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         },
         {
           "@type": "WebPage",
           "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+          "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+          "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_hero_confusion_recognition_blog_hero_landscape_5feed1b56727.jpeg",
+      "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets/blog/blog_hero_confusion_recognition_blog_hero_landscape_5feed1b56727.jpeg?updatedAt=1782335980945",
       "width": 4500,
       "height": 2531,
       "caption": "blog hero \u00b7 confusion recognition",
@@ -631,7 +624,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#faq",
+      "@id": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets#faq",
       "mainEntity": [
         {
           "@type": "Question",

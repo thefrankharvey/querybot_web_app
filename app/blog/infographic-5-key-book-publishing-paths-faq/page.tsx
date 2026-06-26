@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Infographic 5 Key Book Publishing Paths FAQ",
   "description": "Most authors aren't actually stuck on writing\u2014they're stuck on publishing decisions. One year you're hearing \"traditional\" is the holy grail. The next year you're being told hybrid is \"the best of both worlds,\" and paid services are suddenly \"normal.\" The chart helps because it stops treating this like a single race and starts treating it like a set of tradeoffs.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq",
+  "publishedDate": "2027-07-06",
+  "modifiedDate": "2027-07-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_hero_stuck_confusion_blog_hero_landscape_0987aca7bc49.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_hero_stuck_confusion_blog_hero_landscape_0987aca7bc49.jpeg?updatedAt=1782244727585",
     "alt": "blog hero \u00b7 stuck confusion",
     "width": 5472,
     "height": 3648,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Infographic 5 Key Book Publishing Paths FAQ",
-      "item": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq"
+      "item": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     }
   ],
   "tldrBlocks": [],
@@ -131,13 +131,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_decision_fatigue_goals_blog_section_landscape_7ccc3cf99338.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_decision_fatigue_goals_blog_section_landscape_7ccc3cf99338.gif",
         "alt": "Why does the article say there's no single best publishing path?",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Nataliya Vaitkevich",
-        "creatorUrl": "https://www.pexels.com/@n-voitkevich",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -167,7 +167,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_label_mismatch_name_on_the_book_blog_section_landscape_0f9609bf489f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_label_mismatch_name_on_the_book_blog_section_landscape_0f9609bf489f.gif?updatedAt=1782244729012",
         "alt": "What's the difference between hybrid publishing and paid publishing services?",
         "width": 356,
         "height": 200,
@@ -207,13 +207,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_no_advance_contract_structure_blog_section_landscape_91896ac4b4fd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_no_advance_contract_structure_blog_section_landscape_91896ac4b4fd.jpeg",
         "alt": "Quick additional questions authors should ask",
-        "width": 200,
-        "height": 200,
-        "creator": "thesmarttteam",
-        "creatorUrl": "https://giphy.com/gifs/keller-williams-real-estate-contract-the-smartt-team-uR9SekbMYfLr5tVbbd",
-        "provider": "giphy",
+        "width": 4901,
+        "height": 3267,
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -290,43 +290,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_no_advance_contract_structure_blog_section_landscape_91896ac4b4fd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_no_advance_contract_structure_blog_section_landscape_91896ac4b4fd.jpeg",
         "alt": "Quick additional questions authors should ask",
-        "width": 200,
-        "height": 200,
-        "creator": "thesmarttteam",
-        "creatorUrl": "https://giphy.com/gifs/keller-williams-real-estate-contract-the-smartt-team-uR9SekbMYfLr5tVbbd",
-        "provider": "giphy",
+        "width": 4901,
+        "height": 3267,
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_section_image_next_step_verify_terms_blog_section_landscape_a97a79b5753d.jpeg",
-    "alt": "blog section image \u00b7 next step verify terms",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Zulfugar Karimov",
-    "creatorUrl": "https://www.pexels.com/@zulfugarkarimov",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     },
     {
       "title": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
-    },
-    {
-      "title": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-      "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     },
     {
       "title": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-      "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+    },
+    {
+      "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -340,7 +331,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     }
   ]
 } as const;
@@ -370,7 +361,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -382,31 +373,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "item": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq"
+          "item": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq",
+      "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#webpage",
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq",
       "name": "Infographic 5 Key Book Publishing Paths FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -422,11 +413,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#article",
+      "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq",
       "headline": "Infographic 5 Key Book Publishing Paths FAQ",
       "alternativeHeadline": "Infographic 5 Key Book Publishing Paths FAQ",
       "description": "Most authors aren't actually stuck on writing\u2014they're stuck on publishing decisions. One year you're hearing \"traditional\" is the holy grail. The next year you're being told hybrid is \"the best of both worlds,\" and paid services are suddenly \"normal.\" The chart helps because it stops treating this like a single race and starts treating it like a set of tradeoffs.",
@@ -456,40 +447,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#primaryimage"
       },
+      "datePublished": "2027-07-06",
+      "dateModified": "2027-07-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+          "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         },
         {
           "@type": "WebPage",
           "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-          "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+          "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-          "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_hero_stuck_confusion_blog_hero_landscape_0987aca7bc49.jpeg",
+      "@id": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/infographic-5-key-book-publishing-paths-faq/blog/blog_hero_stuck_confusion_blog_hero_landscape_0987aca7bc49.jpeg?updatedAt=1782244727585",
       "width": 5472,
       "height": 3648,
       "caption": "blog hero \u00b7 stuck confusion",

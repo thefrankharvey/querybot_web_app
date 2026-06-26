@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Synecdoche examples: breaking down a \"part stands in for the whole\" technique",
   "description": "If you've ever read a line and thought, That wording just clicks, you've probably bumped into synecdoche\u2014even if nobody handed you the term with a citation and a definition.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-21",
+  "modifiedDate": "2026-09-21",
   "canonicalUrl": "https://writequeryhook.com/blog/synecdoche-examples-breaking-down-a-part-stands-in-for-the-whole-technique",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -666,6 +666,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/synecdoche-examples-breaking-down-a-part-stands-in-for-the-whole-technique#primaryimage"
       },
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
       "mentions": [
         {
           "@type": "WebPage",

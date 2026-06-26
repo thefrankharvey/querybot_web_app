@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
   "description": "Most writers treat revision like a courtroom verdict: either the draft is correct, or you've doomed it with your edits. That's the myth.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
+  "publishedDate": "2027-08-27",
+  "modifiedDate": "2027-08-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_hero_myth_over_editing_blog_hero_landscape_0da5641267a3.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_hero_myth_over_editing_blog_hero_landscape_0da5641267a3.jpeg?updatedAt=1782318921616",
     "alt": "blog hero \u00b7 myth over-editing",
     "width": 5685,
     "height": 3790,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-      "item": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+      "item": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
     }
   ],
   "tldrBlocks": [],
@@ -106,13 +106,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_speed_safety_net_blog_section_landscape_15abf5af9812.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_speed_safety_net_blog_section_landscape_15abf5af9812.gif",
         "alt": "Step 1: Draft fast, then duplicate documents before deep changes",
-        "width": 2760,
-        "height": 1788,
-        "creator": "Gulin Yigiter",
-        "creatorUrl": "https://www.pexels.com/@gulin-yigiter-2160510905",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "diheyes",
+        "creatorUrl": "https://giphy.com/gifs/on9mg3K0m7RT7qNCbL",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -214,13 +214,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_read_aloud_mouth_test_blog_section_landscape_ecb4841e01da.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_read_aloud_mouth_test_blog_section_landscape_ecb4841e01da.jpeg",
         "alt": "Step 3: Read aloud to find tone and structure problems",
-        "width": 205,
-        "height": 200,
-        "creator": "inkygirl",
-        "creatorUrl": "https://giphy.com/gifs/read-aloud-a-book-mom-reading-to-child-ziIOyoh7MRcrczXfbt",
-        "provider": "giphy",
+        "width": 5760,
+        "height": 3840,
+        "creator": "Andrea Piacquadio",
+        "creatorUrl": "https://www.pexels.com/@olly",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -268,13 +268,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_word_check_obsessive_loop_blog_section_landscape_608e5106b64d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_word_check_obsessive_loop_blog_section_landscape_608e5106b64d.gif",
         "alt": "Step 4: Do targeted final sweeps, then set a hard stop date",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "focusfeatures",
+        "creatorUrl": "https://giphy.com/gifs/focusfeatures-obsession-movie-JuPocvVAinJmZnIDES",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -375,32 +375,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_section_image_quiet_confidence_next_draft_blog_section_landscape_82c5f28c0f26.gif",
-    "alt": "blog section image \u00b7 quiet confidence next draft",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-      "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
-    },
-    {
       "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-      "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
     },
     {
       "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-      "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
     },
     {
-      "title": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-      "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+      "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+    },
+    {
+      "title": "Five ways to publish your short stories FAQ",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -432,12 +423,7 @@ const PAGE_DATA = {
       "text": "Write the shitty draft fast, duplicate before deeper edits, revise **big to small**, and run the read-aloud pass. Then stop, ship it, and keep pitching\u2014because the **writing career** you want is built from repeatable work, not from waiting for the perfect moment."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-      "url": "https://writequeryhook.com/query-letters/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -465,7 +451,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -477,31 +463,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-          "item": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+          "item": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
       "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -517,11 +503,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#article",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career",
       "headline": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
       "alternativeHeadline": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
       "description": "Most writers treat revision like a courtroom verdict: either the draft is correct, or you've doomed it with your edits. That's the myth.",
@@ -551,40 +537,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage"
       },
+      "datePublished": "2027-08-27",
+      "dateModified": "2027-08-27",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-          "url": "https://writequeryhook.com/query-letters/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-          "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
-        },
-        {
-          "@type": "WebPage",
           "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-          "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+          "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
         },
         {
           "@type": "WebPage",
           "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-          "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+          "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
         },
         {
           "@type": "WebPage",
-          "name": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-          "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+          "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Five ways to publish your short stories FAQ",
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_hero_myth_over_editing_blog_hero_landscape_0da5641267a3.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_519/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career/blog/blog_hero_myth_over_editing_blog_hero_landscape_0da5641267a3.jpeg?updatedAt=1782318921616",
       "width": 5685,
       "height": 3790,
       "caption": "blog hero \u00b7 myth over-editing",
@@ -599,7 +582,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#howto",
       "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
       "description": "Most writers treat revision like a courtroom verdict: either the draft is correct, or you've doomed it with your edits. That's the myth.",
       "totalTime": "PT6M",
@@ -609,49 +592,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Draft fast, then duplicate documents before deep changes",
           "text": "Write the first draft quickly enough that you're not worshipping it. Then, before you touch the \"real\" document, duplicate it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-1-draft-fast-then-duplicate-documents-before-deep-changes"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-1-draft-fast-then-duplicate-documents-before-deep-changes"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Use big to small revision workflow steps",
           "text": "Here's where most writers derail: they polish prose before the chapter earns the right to be polished.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-2-use-big-to-small-revision-workflow-steps"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-2-use-big-to-small-revision-workflow-steps"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Read aloud to find tone and structure problems",
           "text": "After your big-to-small changes, do a read aloud pass. Not performance\u2014just a quick, honest mouth-test.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-3-read-aloud-to-find-tone-and-structure-problems"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-3-read-aloud-to-find-tone-and-structure-problems"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Do targeted final sweeps, then set a hard stop date",
           "text": "Revision loops aren't always about perfectionism. Sometimes they're about avoidance.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-4-do-targeted-final-sweeps-then-set-a-hard-stop-date"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-4-do-targeted-final-sweeps-then-set-a-hard-stop-date"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Build your writing career with repeatable proof",
           "text": "Revision alone won't build your career. You need repeatable proof: publish small, pitch consistently, and let the work attract the next opportunity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-5-build-your-writing-career-with-repeatable-proof"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-5-build-your-writing-career-with-repeatable-proof"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Market and pitch like a person",
           "text": "Most writers freeze at the word marketing. But marketing isn't all public speaking and performance.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-6-market-and-pitch-like-a-person"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#step-6-market-and-pitch-like-a-person"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career#faq",
       "mainEntity": [
         {
           "@type": "Question",

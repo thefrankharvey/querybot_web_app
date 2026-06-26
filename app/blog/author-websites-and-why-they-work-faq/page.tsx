@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Author websites and why they work FAQ",
   "description": "Most author websites are either \"a place to land\" (static, pretty, and useless) or \"a dumping ground\" (too much info, nowhere to go). Writers end up staring at the homepage wondering why visitors don't buy the book or subscribe.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq",
+  "publishedDate": "2027-09-05",
+  "modifiedDate": "2027-09-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_hero_skepticism_it_s_just_a_website_blog_hero_landscape_76efa7cb74f9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_hero_skepticism_it_s_just_a_website_blog_hero_landscape_76efa7cb74f9.jpeg?updatedAt=1782328683241",
     "alt": "blog hero \u00b7 skepticism it\u2019s just a website",
     "width": 3088,
     "height": 2056,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Author websites and why they work FAQ",
-      "item": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq"
+      "item": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
     }
   ],
   "tldrBlocks": [],
@@ -139,13 +139,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_direction_outcomes_blog_section_landscape_f892f6472c02.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_direction_outcomes_blog_section_landscape_f892f6472c02.gif",
         "alt": "How does an author website funnel work?",
-        "width": 8306,
-        "height": 5537,
-        "creator": "DS stories",
-        "creatorUrl": "https://www.pexels.com/@ds-stories",
-        "provider": "pexels",
+        "width": 160,
+        "height": 200,
+        "creator": "MuruganeEdits",
+        "creatorUrl": "https://giphy.com/gifs/wtJSrb1VB3mb52Tlq9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -230,13 +230,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_handshake_personality_blog_section_landscape_8e8226ffe5f9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_handshake_personality_blog_section_landscape_8e8226ffe5f9.gif",
         "alt": "What should an author include on the About/Bio page?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Edmond Dant\u00e8s",
-        "creatorUrl": "https://www.pexels.com/@edmond-dantes",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -280,13 +280,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_delight_repeat_visits_blog_section_landscape_66927c622857.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_delight_repeat_visits_blog_section_landscape_66927c622857.jpeg",
         "alt": "What's the simplest way to keep navigation clear?",
-        "width": 200,
-        "height": 200,
-        "creator": "Smashlings",
-        "creatorUrl": "https://giphy.com/gifs/Smashlings-happy-joyful-cheerful-zaVmr57BP50ctUbmXC",
-        "provider": "giphy",
+        "width": 6127,
+        "height": 4085,
+        "creator": "cottonbro studio",
+        "creatorUrl": "https://www.pexels.com/@cottonbro",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -322,13 +322,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_delight_repeat_visits_blog_section_landscape_66927c622857.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_delight_repeat_visits_blog_section_landscape_66927c622857.jpeg",
         "alt": "What's the simplest way to keep navigation clear?",
-        "width": 200,
-        "height": 200,
-        "creator": "Smashlings",
-        "creatorUrl": "https://giphy.com/gifs/Smashlings-happy-joyful-cheerful-zaVmr57BP50ctUbmXC",
-        "provider": "giphy",
+        "width": 6127,
+        "height": 4085,
+        "creator": "cottonbro studio",
+        "creatorUrl": "https://www.pexels.com/@cottonbro",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -397,43 +397,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_direction_outcomes_blog_section_landscape_f892f6472c02.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_direction_outcomes_blog_section_landscape_f892f6472c02.gif",
         "alt": "How does an author website funnel work?",
-        "width": 8306,
-        "height": 5537,
-        "creator": "DS stories",
-        "creatorUrl": "https://www.pexels.com/@ds-stories",
-        "provider": "pexels",
+        "width": 160,
+        "height": 200,
+        "creator": "MuruganeEdits",
+        "creatorUrl": "https://giphy.com/gifs/wtJSrb1VB3mb52Tlq9",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_section_image_action_draft_blog_section_landscape_7c78c340b8fb.gif",
-    "alt": "blog section image \u00b7 action draft",
-    "width": 356,
-    "height": 200,
-    "creator": "draftkings",
-    "creatorUrl": "https://giphy.com/gifs/draftkings-nfl-houston-texans-3ohs7WZVDymU8YxJ2o",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What i didnt know about my own industry FAQ (and what to do next)",
-      "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
-    },
-    {
       "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-      "url": "https://writequeryhook.com/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers-into-regulars"
+      "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
     },
     {
       "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-      "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
     },
     {
-      "title": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-      "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+      "title": "How to choose a book title that sells: five title moves explained",
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+    },
+    {
+      "title": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
+      "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -444,12 +435,7 @@ const PAGE_DATA = {
       "text": "If you build your **author website** around **branding**, **navigation** clarity, and a real **marketing funnel**, the rest gets easier\u2014especially **SEO**. Start by writing the pages your funnel needs most (home, book page, About/Bio, one fan resource), then publish, track newsletter signups and book sales, and adjust based on what happens."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-      "url": "https://writequeryhook.com/query-letters/allison-speka-self-published-romance-author-faq-self-publishing-covers"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -477,7 +463,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -489,31 +475,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Author websites and why they work FAQ",
-          "item": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq"
+          "item": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq",
+      "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#webpage",
+      "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq",
       "name": "Author websites and why they work FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -529,11 +515,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#article",
+      "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq",
       "headline": "Author websites and why they work FAQ",
       "alternativeHeadline": "Author websites and why they work FAQ",
       "description": "Most author websites are either \"a place to land\" (static, pretty, and useless) or \"a dumping ground\" (too much info, nowhere to go). Writers end up staring at the homepage wondering why visitors don't buy the book or subscribe.",
@@ -563,40 +549,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#primaryimage"
       },
+      "datePublished": "2027-09-05",
+      "dateModified": "2027-09-05",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-          "url": "https://writequeryhook.com/query-letters/allison-speka-self-published-romance-author-faq-self-publishing-covers"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What i didnt know about my own industry FAQ (and what to do next)",
-          "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
-        },
-        {
-          "@type": "WebPage",
           "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-          "url": "https://writequeryhook.com/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers-into-regulars"
+          "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
         },
         {
           "@type": "WebPage",
           "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-          "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+          "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
         },
         {
           "@type": "WebPage",
-          "name": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-          "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+          "name": "How to choose a book title that sells: five title moves explained",
+          "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
+          "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-and-why-they-work-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_hero_skepticism_it_s_just_a_website_blog_hero_landscape_76efa7cb74f9.jpeg",
+      "@id": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_530/author-websites-and-why-they-work-faq/blog/blog_hero_skepticism_it_s_just_a_website_blog_hero_landscape_76efa7cb74f9.jpeg?updatedAt=1782328683241",
       "width": 3088,
       "height": 2056,
       "caption": "blog hero \u00b7 skepticism it\u2019s just a website",

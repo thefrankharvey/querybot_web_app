@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "On-the-page dramatizing vs summarizing off-the-page: which choice keeps your novel moving?",
   "description": "A lot of novels don't fail because the ideas are bad. They fail because the pages start to feel like receipts\u2014\"here's what happened,\" then \"now imagine it again.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-03",
+  "modifiedDate": "2026-12-03",
   "canonicalUrl": "https://writequeryhook.com/blog/on-the-page-dramatizing-vs-summarizing-off-the-page-which-choice-keeps-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -482,6 +482,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/on-the-page-dramatizing-vs-summarizing-off-the-page-which-choice-keeps-your#primaryimage"
       },
+      "datePublished": "2026-12-03",
+      "dateModified": "2026-12-03",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "When Should You Stop Querying? 7 Mistakes That Keep You Stuck",
   "description": "Querying has no clean finish line. That's the cruel part. One writer gets \"interested\" fast, another rides out months of silence and confusing requests, and both people can be doing the right things.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-26",
+  "modifiedDate": "2027-03-26",
   "canonicalUrl": "https://writequeryhook.com/blog/when-should-you-stop-querying-7-mistakes-that-keep-you-stuck",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -594,6 +594,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/when-should-you-stop-querying-7-mistakes-that-keep-you-stuck#primaryimage"
       },
+      "datePublished": "2027-03-26",
+      "dateModified": "2027-03-26",
       "mentions": [
         {
           "@type": "WebPage",

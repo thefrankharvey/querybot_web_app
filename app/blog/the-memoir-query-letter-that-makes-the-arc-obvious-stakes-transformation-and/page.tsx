@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The memoir query letter that makes the arc obvious: stakes, transformation, and what to leave out",
   "description": "If you've ever stared at a memoir query draft and thought, This is my life. Why doesn't it read like a book? \u2014 yeah. That thought is usually a lie, or at least a half-truth.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-20",
+  "modifiedDate": "2026-07-20",
   "canonicalUrl": "https://writequeryhook.com/blog/the-memoir-query-letter-that-makes-the-arc-obvious-stakes-transformation-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -673,6 +673,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-memoir-query-letter-that-makes-the-arc-obvious-stakes-transformation-and#primaryimage"
       },
+      "datePublished": "2026-07-20",
+      "dateModified": "2026-07-20",
       "mentions": [
         {
           "@type": "WebPage",

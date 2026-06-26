@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
   "description": "If you've been doom-scrolling writing discourse and tripping over the headline \"half of authors use AI,\" you're not crazy for feeling rattled. Viral numbers hide the real question: what task did the AI actually do, and what will a reviewer think that implies about authorship and rights?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
+  "publishedDate": "2027-07-15",
+  "modifiedDate": "2027-07-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_24807a9f740a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_24807a9f740a.jpeg?updatedAt=1782252360489",
     "alt": "blog hero \u00b7 overwhelmed dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-      "item": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+      "item": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
     }
   ],
   "tldrBlocks": [],
@@ -113,13 +113,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_opening_blog_section_landscape_406290e32c21.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_opening_blog_section_landscape_406290e32c21.jpeg",
         "alt": "Opening",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -237,13 +237,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_documentation_paper_trail_blog_section_landscape_cdc663650ffc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_documentation_paper_trail_blog_section_landscape_cdc663650ffc.gif",
         "alt": "You're not tracking what you used, when you used it, and what changed",
-        "width": 4404,
-        "height": 2936,
-        "creator": "DS stories",
-        "creatorUrl": "https://www.pexels.com/@ds-stories",
-        "provider": "pexels",
+        "width": 310,
+        "height": 200,
+        "creator": "theaslgifs",
+        "creatorUrl": "https://giphy.com/gifs/asl-write-that-down-document-MygPdZ0LIv3Mu9wg66",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -361,13 +361,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_policies_skepticism_blog_section_landscape_01bb62d648c3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_policies_skepticism_blog_section_landscape_01bb62d648c3.gif",
         "alt": "You're assuming traditional publishers policies on AI content are uniform",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/confused-futurama-suspicious-ANbD1CCdA3iI8",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -427,32 +427,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_section_image_deep_breath_pick_a_tool_blog_section_landscape_81d49dd886fa.gif",
-    "alt": "blog section image \u00b7 deep breath pick a tool",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
-    },
-    {
-      "title": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     },
     {
       "title": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
     },
     {
-      "title": "5 things writers should know about Wattpad (and the future of publishing)",
-      "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+    },
+    {
+      "title": "8 reasons your book needs a business plan (before you write a word)",
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -491,7 +482,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     }
   ]
 } as const;
@@ -521,7 +512,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -533,31 +524,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-          "item": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+          "item": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#webpage",
-      "url": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
+      "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#webpage",
+      "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
       "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -573,11 +564,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#article",
+      "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#webpage"
+        "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk",
       "headline": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
       "alternativeHeadline": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
       "description": "If you've been doom-scrolling writing discourse and tripping over the headline \"half of authors use AI,\" you're not crazy for feeling rattled. Viral numbers hide the real question: what task did the AI actually do, and what will a reviewer think that implies about authorship and rights?",
@@ -607,40 +598,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage"
       },
+      "datePublished": "2027-07-15",
+      "dateModified": "2027-07-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
+          "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
         },
         {
           "@type": "WebPage",
-          "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
+          "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+        },
+        {
+          "@type": "WebPage",
+          "name": "8 reasons your book needs a business plan (before you write a word)",
+          "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_24807a9f740a.jpeg",
+      "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_24807a9f740a.jpeg?updatedAt=1782252360489",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 overwhelmed dread",
@@ -655,7 +643,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#faq",
+      "@id": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk#faq",
       "mainEntity": [
         {
           "@type": "Question",

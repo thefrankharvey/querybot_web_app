@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Novel synopsis vs alternatives: what actually belongs in your query package",
   "description": "Writers finish a novel and immediately hit the same wall: What belongs in the document that gets judged on a deadline? The manuscript is already there. The query package is the extra paperwork tax. And the word \"synopsis\" makes it worse\u2014because a lot of people assume it's supposed to tease.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
+  "publishedDate": "2027-11-15",
+  "modifiedDate": "2027-11-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Novel synopsis vs alternatives: what actually belongs in your query package",
-      "item": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
+      "item": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
     }
   ],
   "tldrBlocks": [],
@@ -458,19 +458,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Book synopsis vs logline vs query letter: what actually sells the story?",
-      "url": "https://writequeryhook.com/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+      "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
     },
     {
       "title": "Synopsis FAQ: what a synopsis is supposed to do",
-      "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+      "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
     },
     {
       "title": "Write an incredible synopsis in 4 simple steps faq",
-      "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
     },
     {
       "title": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-      "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -505,7 +505,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
-      "url": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
+      "url": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
     }
   ]
 } as const;
@@ -535,7 +535,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -547,31 +547,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Novel synopsis vs alternatives: what actually belongs in your query package",
-          "item": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
+          "item": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#webpage",
-      "url": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#webpage",
+      "url": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
       "name": "Novel synopsis vs alternatives: what actually belongs in your query package",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -587,11 +587,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#article",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#webpage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package",
       "headline": "Novel synopsis vs alternatives: what actually belongs in your query package",
       "alternativeHeadline": "Novel synopsis vs alternatives: what actually belongs in your query package",
       "description": "Writers finish a novel and immediately hit the same wall: What belongs in the document that gets judged on a deadline? The manuscript is already there. The query package is the extra paperwork tax. And the word \"synopsis\" makes it worse\u2014because a lot of people assume it's supposed to tease.",
@@ -621,39 +621,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage"
       },
+      "datePublished": "2027-11-15",
+      "dateModified": "2027-11-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
-          "url": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
+          "url": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
         },
         {
           "@type": "WebPage",
           "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
-          "url": "https://writequeryhook.com/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+          "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
         },
         {
           "@type": "WebPage",
           "name": "Synopsis FAQ: what a synopsis is supposed to do",
-          "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+          "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Write an incredible synopsis in 4 simple steps faq",
-          "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-          "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_616/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package/blog/blog_hero_dread_blank_page_blog_hero_landscape_aeda525cbb7e.gif",
       "width": 200,
       "height": 200,
@@ -669,7 +671,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#faq",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package#faq",
       "mainEntity": [
         {
           "@type": "Question",

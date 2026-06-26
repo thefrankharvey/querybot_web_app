@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
   "description": "A lot of writers treat series planning like a math problem: How do I leave enough unanswered that the next book is inevitable? Then they land on two bad extremes. Either book one resolves everything and the sequel feels optional, or book one \u201cdrops off\u201d midstream and the reader feels tricked for paying for an ending.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
+  "publishedDate": "2027-10-31",
+  "modifiedDate": "2027-10-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-      "item": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
+      "item": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
     }
   ],
   "tldrBlocks": [],
@@ -662,19 +662,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-      "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
     },
     {
       "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     },
     {
       "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-      "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     },
     {
-      "title": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-      "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+      "title": "Publishing myths that ignore printing, distribution, and wholesale",
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -713,7 +713,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-      "url": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
     }
   ]
 } as const;
@@ -743,7 +743,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -755,31 +755,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-          "item": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
+          "item": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#webpage",
-      "url": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
+      "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#webpage",
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
       "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -795,11 +795,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#article",
+      "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#webpage"
+        "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its",
       "headline": "Novel series examples: how book one earns its landing and book two earns its shadow",
       "alternativeHeadline": "Novel series examples: how book one earns its landing and book two earns its shadow",
       "description": "A lot of writers treat series planning like a math problem: How do I leave enough unanswered that the next book is inevitable? Then they land on two bad extremes. Either book one resolves everything and the sequel feels optional, or book one \u201cdrops off\u201d midstream and the reader feels tricked for paying for an ending.",
@@ -829,39 +829,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage"
       },
+      "datePublished": "2027-10-31",
+      "dateModified": "2027-10-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-          "url": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+          "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
         },
         {
           "@type": "WebPage",
           "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-          "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+          "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
           "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+          "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
         },
         {
           "@type": "WebPage",
           "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-          "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+          "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         },
         {
           "@type": "WebPage",
-          "name": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-          "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+          "name": "Publishing myths that ignore printing, distribution, and wholesale",
+          "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage",
+      "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_598/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its/blog/blog_hero_reader_expectation_dread_blog_hero_landscape_26296d9235d9.jpeg",
       "width": 6000,
       "height": 4000,
@@ -877,7 +879,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#faq",
+      "@id": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Acceptability clause in publishing contracts FAQ",
   "description": "Authors run into the phrase \"satisfactory\" and suddenly the whole contract feels like it's written in fog. The acceptability clause\u2014sometimes grouped under satisfaction-clause language\u2014sounds simple: the publisher decides whether your manuscript is acceptable. Then the controversy shows up: authors worry the decision can be opaque, hard to challenge, and stacked in the publisher's favor.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq",
+  "publishedDate": "2027-06-01",
+  "modifiedDate": "2027-06-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_hero_nervous_paperwork_blog_hero_landscape_0e24482f7c60.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_hero_nervous_paperwork_blog_hero_landscape_0e24482f7c60.jpeg?updatedAt=1782188230702",
     "alt": "blog hero \u00b7 nervous paperwork",
     "width": 5894,
     "height": 3935,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Acceptability clause in publishing contracts FAQ",
-      "item": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq"
+      "item": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_4bffad251ffa.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_4bffad251ffa.jpeg",
         "alt": "What does an acceptability clause do in a publishing contract?",
-        "width": 222,
-        "height": 200,
-        "creator": "gfxvarun",
-        "creatorUrl": "https://giphy.com/gifs/satisfaction-satisfied-level-BQ0xCPyGxcXpWS6qH8",
-        "provider": "giphy",
+        "width": 6480,
+        "height": 4320,
+        "creator": "Donald Tong",
+        "creatorUrl": "https://www.pexels.com/@donaldtong94",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -148,7 +148,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_unfairness_power_imbalance_blog_section_landscape_f6e02f0fe2fa.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_unfairness_power_imbalance_blog_section_landscape_f6e02f0fe2fa.gif?updatedAt=1782188232049",
         "alt": "Why do authors view the acceptability clause as unfair?",
         "width": 324,
         "height": 200,
@@ -194,13 +194,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_editorial_assistance_explicit_efforts_blog_section_landscape_57cbe064c8bc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_editorial_assistance_explicit_efforts_blog_section_landscape_57cbe064c8bc.gif",
         "alt": "What legal obligation can exist for the publisher even with a satisfaction clause?",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "SWAG",
+        "creatorUrl": "https://giphy.com/gifs/SWAG-parental-advisory-explicit-content-pEYYpt8vuoFQBJzo38",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -271,32 +271,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_section_image_next_draft_paperwork_stamina_blog_section_landscape_7834a2e771f5.jpeg",
-    "alt": "blog section image \u00b7 next draft paperwork stamina",
-    "width": 6535,
-    "height": 4357,
-    "creator": "Yaroslav Shuraev",
-    "creatorUrl": "https://www.pexels.com/@yaroslav-shuraev",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     },
     {
       "title": "Know when to leave your agent: a case-study checklist after the offer",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     },
     {
       "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     },
     {
       "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -314,7 +305,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Know when to leave your agent: a practical FAQ",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     }
   ]
 } as const;
@@ -344,7 +335,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -356,31 +347,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Acceptability clause in publishing contracts FAQ",
-          "item": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq"
+          "item": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#webpage",
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq",
       "name": "Acceptability clause in publishing contracts FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -396,11 +387,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#article",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq",
       "headline": "Acceptability clause in publishing contracts FAQ",
       "alternativeHeadline": "Acceptability clause in publishing contracts FAQ",
       "description": "Authors run into the phrase \"satisfactory\" and suddenly the whole contract feels like it's written in fog. The acceptability clause\u2014sometimes grouped under satisfaction-clause language\u2014sounds simple: the publisher decides whether your manuscript is acceptable. Then the controversy shows up: authors worry the decision can be opaque, hard to challenge, and stacked in the publisher's favor.",
@@ -430,40 +421,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#primaryimage"
       },
+      "datePublished": "2027-06-01",
+      "dateModified": "2027-06-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a practical FAQ",
-          "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         },
         {
           "@type": "WebPage",
           "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         },
         {
           "@type": "WebPage",
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+          "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_hero_nervous_paperwork_blog_hero_landscape_0e24482f7c60.jpeg",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/acceptability-clause-in-publishing-contracts-faq/blog/blog_hero_nervous_paperwork_blog_hero_landscape_0e24482f7c60.jpeg?updatedAt=1782188230702",
       "width": 5894,
       "height": 3935,
       "caption": "blog hero \u00b7 nervous paperwork",

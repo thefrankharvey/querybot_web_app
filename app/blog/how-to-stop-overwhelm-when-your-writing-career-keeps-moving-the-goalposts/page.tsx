@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
   "description": "Overwhelm has a special talent for showing up right after you \"fix\" something. You finish the task. You clear the list. You take a breath. Then\u2014new obligation, new revision note, new form to fill, new wait time to survive. And suddenly you're back in that underwater feeling.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
+  "publishedDate": "2027-04-13",
+  "modifiedDate": "2027-04-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_537c06d7917b.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_537c06d7917b.jpeg",
     "alt": "blog hero \u00b7 stuck overwhelm",
-    "width": 148,
-    "height": 200,
-    "creator": "NEOTheRobot",
-    "creatorUrl": "https://giphy.com/gifs/NEOTheRobot-no-tired-done-QTBpRnz25BrHZmuk7F",
-    "provider": "giphy",
+    "width": 7680,
+    "height": 5120,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-      "item": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+      "item": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     }
   ],
   "tldrBlocks": [],
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_to_do_list_mindset_blog_section_landscape_70a2f21cbcdc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_to_do_list_mindset_blog_section_landscape_70a2f21cbcdc.jpeg?updatedAt=1781809821626",
         "alt": "Step 1: Audit Your To-Do List Mindset",
         "width": 5568,
         "height": 3712,
@@ -168,13 +168,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_acceptance_normal_blog_section_landscape_d279d95474fe.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_acceptance_normal_blog_section_landscape_d279d95474fe.gif",
         "alt": "Step 5: Find Joy in the Present Moment as a Writer",
-        "width": 3008,
-        "height": 2000,
-        "creator": "Miguel \u00c1. Padri\u00f1\u00e1n",
-        "creatorUrl": "https://www.pexels.com/@padrinan",
-        "provider": "pexels",
+        "width": 176,
+        "height": 200,
+        "creator": "MoeWp2115",
+        "creatorUrl": "https://giphy.com/gifs/larp-no-limit-to-QqwajnOjzDViSEM3Xu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -233,7 +233,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_scarcity_mindset_time_pressure_blog_section_landscape_29d11ab42a39.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_scarcity_mindset_time_pressure_blog_section_landscape_29d11ab42a39.gif?updatedAt=1781809822314",
         "alt": "Step 3: Rewrite Your Scarcity Story",
         "width": 356,
         "height": 200,
@@ -364,43 +364,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_acceptance_normal_blog_section_landscape_d279d95474fe.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_acceptance_normal_blog_section_landscape_d279d95474fe.gif",
         "alt": "Step 5: Find Joy in the Present Moment as a Writer",
-        "width": 3008,
-        "height": 2000,
-        "creator": "Miguel \u00c1. Padri\u00f1\u00e1n",
-        "creatorUrl": "https://www.pexels.com/@padrinan",
-        "provider": "pexels",
+        "width": 176,
+        "height": 200,
+        "creator": "MoeWp2115",
+        "creatorUrl": "https://giphy.com/gifs/larp-no-limit-to-QqwajnOjzDViSEM3Xu",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_section_image_finish_line_myth_action_now_blog_section_landscape_20fa2ee17e4b.jpeg",
-    "alt": "blog section image \u00b7 finish line myth action now",
-    "width": 3159,
-    "height": 2106,
-    "creator": "RUN 4 FFWPU",
-    "creatorUrl": "https://www.pexels.com/@runffwpu",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to clear the slush pile early-threshold so literary agents keep reading",
-      "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     },
     {
       "title": "How to stop comparing your writing (and get back to drafting)",
-      "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+      "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
     },
     {
-      "title": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-      "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+      "title": "Literary agents vs the slush pile: slay the myths, keep the process",
+      "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
     },
     {
-      "title": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-      "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
+      "title": "Submission edits before you hear back: 7 myths that turn into inbox overload",
+      "url": "https://writequeryhook.com/blog/submission-edits-before-you-hear-back-7-myths-that-turn-into-inbox-overload"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -435,7 +426,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to clear the slush pile early-threshold so literary agents keep reading",
-      "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     }
   ]
 } as const;
@@ -465,7 +456,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -477,31 +468,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-          "item": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+          "item": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
       "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -517,11 +508,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#article",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts",
       "headline": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
       "alternativeHeadline": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
       "description": "Overwhelm has a special talent for showing up right after you \"fix\" something. You finish the task. You clear the list. You take a breath. Then\u2014new obligation, new revision note, new form to fill, new wait time to survive. And suddenly you're back in that underwater feeling.",
@@ -551,55 +542,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage"
       },
+      "datePublished": "2027-04-13",
+      "dateModified": "2027-04-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-          "url": "https://writequeryhook.com/query-letters/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-          "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
         },
         {
           "@type": "WebPage",
           "name": "How to stop comparing your writing (and get back to drafting)",
-          "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
         },
         {
           "@type": "WebPage",
-          "name": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-          "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+          "name": "Literary agents vs the slush pile: slay the myths, keep the process",
+          "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
         },
         {
           "@type": "WebPage",
-          "name": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-          "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
+          "name": "Submission edits before you hear back: 7 myths that turn into inbox overload",
+          "url": "https://writequeryhook.com/blog/submission-edits-before-you-hear-back-7-myths-that-turn-into-inbox-overload"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_537c06d7917b.gif",
-      "width": 148,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_352/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_537c06d7917b.jpeg",
+      "width": 7680,
+      "height": 5120,
       "caption": "blog hero \u00b7 stuck overwhelm",
-      "creditText": "NEOTheRobot",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "NEOTheRobot",
-        "url": "https://giphy.com/gifs/NEOTheRobot-no-tired-done-QTBpRnz25BrHZmuk7F"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#howto",
       "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
       "description": "Overwhelm has a special talent for showing up right after you \"fix\" something. You finish the task. You clear the list. You take a breath. Then\u2014new obligation, new revision note, new form to fill, new wait time to survive. And suddenly you're back in that underwater feeling.",
       "totalTime": "PT7M",
@@ -609,42 +597,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Audit Your To-Do List Mindset",
           "text": "Your first job is to catch the mental trap that makes overwhelm feel permanent.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-1-audit-your-to-do-list-mindset"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-1-audit-your-to-do-list-mindset"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Define Normal as Whatever Is Going On Right Now",
           "text": "Stop negotiating with the concept of \"normal\" like it owes you smooth sailing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-2-define-normal-as-whatever-is-going-on-right-now"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-2-define-normal-as-whatever-is-going-on-right-now"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Rewrite Your Scarcity Story",
           "text": "Scarcity mindset and time pressure for creatives is a nasty combo because it makes meaning feel conditional. You start believing joy is something you can only access after you fix the clock.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-3-rewrite-your-scarcity-story"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-3-rewrite-your-scarcity-story"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build a Revision Rhythm That Fits Your Real Life",
           "text": "Your next step is concrete. Schedule one revision action that fits inside your real schedule\u2014the one you actually live in, not the one where you finally catch up.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-4-build-a-revision-rhythm-that-fits-your-real-life"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-4-build-a-revision-rhythm-that-fits-your-real-life"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Find Joy in the Present Moment as a Writer",
           "text": "Your final step is the one overwhelm hates.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-5-find-joy-in-the-present-moment-as-a-writer"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#step-5-find-joy-in-the-present-moment-as-a-writer"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Storyboard mistakes: 7 ways pacing and scene organization quietly sabotage your novel",
   "description": "Most writers don't have an idea problem. They have a connective-tissue problem: characters, plots, themes, settings\u2014beautiful chaos\u2014then the draft happens and the cohesion goes missing. And if the plot pacing feels off? Usually it's not because you \"lack discipline.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-15",
+  "modifiedDate": "2027-01-15",
   "canonicalUrl": "https://writequeryhook.com/blog/storyboard-mistakes-7-ways-pacing-and-scene-organization-quietly-sabotage-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/storyboard-mistakes-7-ways-pacing-and-scene-organization-quietly-sabotage-your#primaryimage"
       },
+      "datePublished": "2027-01-15",
+      "dateModified": "2027-01-15",
       "mentions": [
         {
           "@type": "WebPage",

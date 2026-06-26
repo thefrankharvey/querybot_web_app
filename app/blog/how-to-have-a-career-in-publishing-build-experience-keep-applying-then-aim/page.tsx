@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
   "description": "Most people think a publishing career is either luck or geography. Like, you either live in the main publishing hub or you're doomed to watch other people's posts about \"making it.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
+  "publishedDate": "2027-08-03",
+  "modifiedDate": "2027-08-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_hero_doubt_deadline_blog_hero_landscape_e8e9a7543e44.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_hero_doubt_deadline_blog_hero_landscape_e8e9a7543e44.jpeg",
     "alt": "blog hero \u00b7 doubt deadline",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 3999,
+    "height": 2666,
+    "creator": "Markus Winkler",
+    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "item": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
+      "item": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     }
   ],
   "tldrBlocks": [],
@@ -122,7 +122,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_frustration_persistence_blog_section_landscape_026b40335edb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_frustration_persistence_blog_section_landscape_026b40335edb.jpeg?updatedAt=1782271114643",
         "alt": "Step 1: Research publishing opportunities near you and keep pursuing them",
         "width": 4608,
         "height": 3456,
@@ -179,13 +179,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_anxiety_curiosity_blog_section_landscape_7ff54dd1e69a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_anxiety_curiosity_blog_section_landscape_7ff54dd1e69a.gif",
         "alt": "Step 2: Get firsthand experience reading for a literary agency or interning with a publisher",
-        "width": 5941,
-        "height": 3961,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Dolpoong",
+        "creatorUrl": "https://giphy.com/gifs/apbadas-dolpin-dollpoong-rELWIJaAfX3LjkOrt2",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -241,7 +241,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_relief_possibility_blog_section_landscape_25e4ec83ed99.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_relief_possibility_blog_section_landscape_25e4ec83ed99.gif?updatedAt=1782271115999",
         "alt": "Step 3: Go remote\u2014build publication experience without relocating",
         "width": 200,
         "height": 200,
@@ -354,32 +354,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_section_image_fist_pump_action_blog_section_landscape_2a7d292d44a1.jpeg",
-    "alt": "blog section image \u00b7 fist pump action",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mustafa  Fatemi",
-    "creatorUrl": "https://www.pexels.com/@mustafa-fatemi-383794430",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     },
     {
       "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-      "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
-    },
-    {
-      "title": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-      "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+      "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
     },
     {
       "title": "Building your author platform with Twitter followers vs off-social alternatives",
-      "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+    },
+    {
+      "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -414,7 +405,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     }
   ]
 } as const;
@@ -444,7 +435,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -456,31 +447,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "item": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
+          "item": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
       "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -496,11 +487,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#article",
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim",
       "headline": "How to have a career in publishing: build experience, keep applying, then aim higher",
       "alternativeHeadline": "How to have a career in publishing: build experience, keep applying, then aim higher",
       "description": "Most people think a publishing career is either luck or geography. Like, you either live in the main publishing hub or you're doomed to watch other people's posts about \"making it.\"",
@@ -530,55 +521,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage"
       },
+      "datePublished": "2027-08-03",
+      "dateModified": "2027-08-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
         },
         {
           "@type": "WebPage",
           "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-          "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-          "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
         },
         {
           "@type": "WebPage",
           "name": "Building your author platform with Twitter followers vs off-social alternatives",
-          "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+          "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
+          "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_hero_doubt_deadline_blog_hero_landscape_e8e9a7543e44.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim/blog/blog_hero_doubt_deadline_blog_hero_landscape_e8e9a7543e44.jpeg",
+      "width": 3999,
+      "height": 2666,
       "caption": "blog hero \u00b7 doubt deadline",
-      "creditText": "Giphy",
+      "creditText": "Markus Winkler",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Markus Winkler",
+        "url": "https://www.pexels.com/@markus-winkler-1430818"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#howto",
       "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
       "description": "Most people think a publishing career is either luck or geography. Like, you either live in the main publishing hub or you're doomed to watch other people's posts about \"making it.\"",
       "totalTime": "PT7M",
@@ -588,42 +576,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Research publishing opportunities near you and keep pursuing them",
           "text": "Start with where you are\u2014not with where you wish you lived. Then make it repetitive.",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-1-research-publishing-opportunities-near-you-and-keep-pursuing-them"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-1-research-publishing-opportunities-near-you-and-keep-pursuing-them"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Get firsthand experience reading for a literary agency or interning with a publisher",
           "text": "You don't need perfect access. You need contact with real publishing work so you stop guessing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-2-get-firsthand-experience-reading-for-a-literary-agency-or-interning"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-2-get-firsthand-experience-reading-for-a-literary-agency-or-interning"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Go remote\u2014build publication experience without relocating",
           "text": "Remote opportunities exist, and they matter because not everyone can move to the main publishing hub on a whim.",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-3-go-remote-build-publication-experience-without-relocating"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-3-go-remote-build-publication-experience-without-relocating"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Convert an imperfect role into career direction",
           "text": "Your first role might not match your niche. That does not mean it's wasted.",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-4-convert-an-imperfect-role-into-career-direction"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-4-convert-an-imperfect-role-into-career-direction"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Stack industry learning with conferences, writing practice, and continued education",
           "text": "Experience is the spine. Learning is what strengthens it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-5-stack-industry-learning-with-conferences-writing-practice-and-continued"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#step-5-stack-industry-learning-with-conferences-writing-practice-and-continued"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing a query letter that reads like a trailer (not a r\u00e9sum\u00e9)",
   "description": "The first time we write a query letter, it's tempting to treat it like a polite introduction. Like: Hello, please enjoy my manuscript. I made it with love and also the plot is attached.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-17",
+  "modifiedDate": "2026-07-17",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-query-letter-that-reads-like-a-trailer-not-a-resume",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-query-letter-that-reads-like-a-trailer-not-a-resume#primaryimage"
       },
+      "datePublished": "2026-07-17",
+      "dateModified": "2026-07-17",
       "mentions": [
         {
           "@type": "WebPage",

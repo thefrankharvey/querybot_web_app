@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for writing IP when you don't own the world (or the rules)",
   "description": "IP in publishing sounds glamorous until you realize it's also paperwork, permissions, and someone else holding the deed to the world you're about to write. It's like getting invited to a party where the host owns the playlist\u2014and you're still responsible for the dance choreography. Cool. Also, terrifying.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
+  "publishedDate": "2027-09-21",
+  "modifiedDate": "2027-09-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_hero_confused_laugh_cry_blog_hero_landscape_4bd737450d86.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_hero_confused_laugh_cry_blog_hero_landscape_4bd737450d86.jpeg?updatedAt=1782335885536",
     "alt": "blog hero \u00b7 confused laugh-cry",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for writing IP when you don't own the world (or the rules)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "item": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     }
   ],
   "tldrBlocks": [],
@@ -187,7 +187,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_dread_paperwork_blog_section_landscape_ebeee388c178.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_dread_paperwork_blog_section_landscape_ebeee388c178.jpeg?updatedAt=1782335886080",
         "alt": "Make your IP pitch packet right: include what helps, skip what wastes space",
         "width": 6720,
         "height": 4480,
@@ -247,7 +247,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_confidence_proof_blog_section_landscape_fddea982a359.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_confidence_proof_blog_section_landscape_fddea982a359.gif?updatedAt=1782335886798",
         "alt": "Treat writing samples like auditions: show voice, perspective, and problem-solving",
         "width": 200,
         "height": 200,
@@ -303,7 +303,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_contract_anxiety_deadline_sweat_blog_section_landscape_835e5bc8fb4d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_contract_anxiety_deadline_sweat_blog_section_landscape_835e5bc8fb4d.gif?updatedAt=1782335887444",
         "alt": "Confirm what compensation looks like for IP work before you say \"yes, love that!\"",
         "width": 226,
         "height": 200,
@@ -314,32 +314,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_section_image_relief_fist_pump_blog_section_landscape_3fffc120abc1.jpeg",
-    "alt": "blog section image \u00b7 relief fist pump",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
-    },
-    {
-      "title": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     },
     {
       "title": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-      "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+      "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
     },
     {
       "title": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-      "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+      "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+    },
+    {
+      "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -378,7 +369,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     }
   ]
 } as const;
@@ -408,7 +399,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -420,31 +411,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+          "item": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
       "name": "5 tips for writing IP when you don't own the world (or the rules)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -460,11 +451,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules",
       "headline": "5 tips for writing IP when you don't own the world (or the rules)",
       "alternativeHeadline": "5 tips for writing IP when you don\u2019t own the world (or the rules)",
       "description": "IP in publishing sounds glamorous until you realize it's also paperwork, permissions, and someone else holding the deed to the world you're about to write. It's like getting invited to a party where the host owns the playlist\u2014and you're still responsible for the dance choreography. Cool. Also, terrifying.",
@@ -494,40 +485,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage"
       },
+      "datePublished": "2027-09-21",
+      "dateModified": "2027-09-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
         },
         {
           "@type": "WebPage",
           "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-          "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
         },
         {
           "@type": "WebPage",
           "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-          "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
+          "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_hero_confused_laugh_cry_blog_hero_landscape_4bd737450d86.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules/blog/blog_hero_confused_laugh_cry_blog_hero_landscape_4bd737450d86.jpeg?updatedAt=1782335885536",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confused laugh-cry",
@@ -542,7 +530,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules#faq",
       "mainEntity": [
         {
           "@type": "Question",

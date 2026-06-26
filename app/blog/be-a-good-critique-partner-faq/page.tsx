@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Be a good critique partner FAQ",
   "description": "Finding a critique partner is hard enough. The mental game is worse once you're actually in the session\u2014when you're staring at a document and wondering whether you're being helpful, being polite, or just auditioning your ego.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-11",
+  "modifiedDate": "2027-04-11",
   "canonicalUrl": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -573,6 +573,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq#primaryimage"
       },
+      "datePublished": "2027-04-11",
+      "dateModified": "2027-04-11",
       "mentions": [
         {
           "@type": "WebPage",

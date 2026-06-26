@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comp titles aren't decoration: they're proof you know your market",
   "description": "Most authors can tell you what their book is. They can describe the characters, the vibe, the premise, the \"if you liked X, you'll like Y\" instinct they felt while drafting.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-10",
+  "modifiedDate": "2026-08-10",
   "canonicalUrl": "https://writequeryhook.com/blog/comp-titles-aren-t-decoration-they-re-proof-you-know-your-market",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -617,6 +617,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comp-titles-aren-t-decoration-they-re-proof-you-know-your-market#primaryimage"
       },
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
       "mentions": [
         {
           "@type": "WebPage",

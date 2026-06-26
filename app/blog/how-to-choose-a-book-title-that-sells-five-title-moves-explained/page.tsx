@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to choose a book title that sells: five title moves explained",
   "description": "A book title is one of the few marketing elements that works before the blurb, before the sample pages, before anyone falls into your prose. It's the line that earns attention on a shelf and in a scrolling feed\u2014then decides whether the reader keeps going or keeps swiping.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
+  "publishedDate": "2027-09-03",
+  "modifiedDate": "2027-09-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_hero_bookshelf_scrolling_blog_hero_landscape_e31f10e4987e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_hero_bookshelf_scrolling_blog_hero_landscape_e31f10e4987e.jpeg?updatedAt=1782319244860",
     "alt": "blog hero \u00b7 bookshelf scrolling",
     "width": 3500,
     "height": 2333,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to choose a book title that sells: five title moves explained",
-      "item": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+      "item": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
     }
   ],
   "tldrBlocks": [],
@@ -285,7 +285,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_genre_expectations_promise_blog_section_landscape_fcb690a57edb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_genre_expectations_promise_blog_section_landscape_fcb690a57edb.gif?updatedAt=1782319245454",
         "alt": "Genre fit is a promise not a style choice",
         "width": 200,
         "height": 200,
@@ -441,13 +441,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_uniqueness_near_duplicate_blog_section_landscape_8980b349d92f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_uniqueness_near_duplicate_blog_section_landscape_8980b349d92f.jpeg",
         "alt": "Unique doesn't mean twisted",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6016,
+        "height": 4016,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -519,13 +519,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_feedback_panic_blog_section_landscape_ab8e7d5e52aa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_feedback_panic_blog_section_landscape_ab8e7d5e52aa.gif",
         "alt": "How to test book titles with readers without overthinking",
-        "width": 4240,
-        "height": 2384,
-        "creator": "Skylar Kang",
-        "creatorUrl": "https://www.pexels.com/@skylar-kang",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -583,32 +583,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_section_image_return_to_draft_bold_cuts_blog_section_landscape_f068638a8a8f.jpeg",
-    "alt": "blog section image \u00b7 return to draft bold cuts",
-    "width": 3888,
-    "height": 2592,
-    "creator": "Jane Blaze",
-    "creatorUrl": "https://www.pexels.com/@jane-blaze-78162534",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-      "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
-    },
-    {
       "title": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-      "url": "https://writequeryhook.com/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing-trap"
+      "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
     },
     {
       "title": "Common book title mistakes that quietly sabotage book marketing",
-      "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
     },
     {
-      "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-      "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+      "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
+    },
+    {
+      "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -643,7 +634,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-      "url": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
     }
   ]
 } as const;
@@ -673,7 +664,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -685,31 +676,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to choose a book title that sells: five title moves explained",
-          "item": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+          "item": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
+      "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
       "name": "How to choose a book title that sells: five title moves explained",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -725,11 +716,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#article",
+      "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained",
       "headline": "How to choose a book title that sells: five title moves explained",
       "alternativeHeadline": "How to choose a book title that sells: five title moves explained",
       "description": "A book title is one of the few marketing elements that works before the blurb, before the sample pages, before anyone falls into your prose. It's the line that earns attention on a shelf and in a scrolling feed\u2014then decides whether the reader keeps going or keeps swiping.",
@@ -759,40 +750,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage"
       },
+      "datePublished": "2027-09-03",
+      "dateModified": "2027-09-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-          "url": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-          "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+          "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
         },
         {
           "@type": "WebPage",
           "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-          "url": "https://writequeryhook.com/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing-trap"
+          "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
         },
         {
           "@type": "WebPage",
           "name": "Common book title mistakes that quietly sabotage book marketing",
-          "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+          "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
         },
         {
           "@type": "WebPage",
-          "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-          "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+          "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
+          "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_hero_bookshelf_scrolling_blog_hero_landscape_e31f10e4987e.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-choose-a-book-title-that-sells-five-title-moves-explained/blog/blog_hero_bookshelf_scrolling_blog_hero_landscape_e31f10e4987e.jpeg?updatedAt=1782319244860",
       "width": 3500,
       "height": 2333,
       "caption": "blog hero \u00b7 bookshelf scrolling",
@@ -807,7 +800,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained#faq",
       "mainEntity": [
         {
           "@type": "Question",

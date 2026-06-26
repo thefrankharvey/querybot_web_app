@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
   "description": "You see the headline and your brain does the math without asking permission: No advance? So\u2026 how do writers get paid while the book is being built?",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
+  "publishedDate": "2027-08-31",
+  "modifiedDate": "2027-08-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_hero_confused_skeptical_blog_hero_landscape_1ddbb82db5f4.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_hero_confused_skeptical_blog_hero_landscape_1ddbb82db5f4.jpeg?updatedAt=1782319111440",
     "alt": "blog hero \u00b7 confused skeptical",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-      "item": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
+      "item": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -108,7 +108,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_opening_blog_section_landscape_762aeaead5b3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_opening_blog_section_landscape_762aeaead5b3.jpeg?updatedAt=1782319111930",
         "alt": "Opening",
         "width": 6611,
         "height": 4407,
@@ -193,7 +193,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_equation_risk_blog_section_landscape_22d5a0cec0aa.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_equation_risk_blog_section_landscape_22d5a0cec0aa.gif?updatedAt=1782319112753",
         "alt": "How no-advance deals shift risk to authors (the part everyone hand-waves)",
         "width": 150,
         "height": 200,
@@ -245,7 +245,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_precarious_volatility_blog_section_landscape_a4f9a12360ab.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_precarious_volatility_blog_section_landscape_a4f9a12360ab.gif?updatedAt=1782319113500",
         "alt": "How profit sharing works without advances (and what that means for your cash flow)",
         "width": 356,
         "height": 200,
@@ -413,7 +413,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_precarious_volatility_blog_section_landscape_a4f9a12360ab.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_precarious_volatility_blog_section_landscape_a4f9a12360ab.gif?updatedAt=1782319113500",
         "alt": "How profit sharing works without advances (and what that means for your cash flow)",
         "width": 356,
         "height": 200,
@@ -424,32 +424,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_section_image_move_draft_blog_section_landscape_e1bd01a5ba84.jpeg",
-    "alt": "blog section image \u00b7 move draft",
-    "width": 7360,
-    "height": 4912,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-      "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
-    },
-    {
       "title": "Get your submission priorities wrong, and the agent will never forgive you",
-      "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     },
     {
       "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-      "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
     },
     {
       "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-      "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+    },
+    {
+      "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -485,12 +476,7 @@ const PAGE_DATA = {
       "text": "Pick your next move like a writer with deadlines, not like someone collecting slogans. Then keep your manuscript + query materials sharp\u2014because the next opportunity might still be the standard one, and you'll want your submission package ready no matter what the industry model does this week in books."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-      "url": "https://writequeryhook.com/query-letters/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -518,7 +504,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -530,31 +516,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-          "item": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
+          "item": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
+      "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
       "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -570,11 +556,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#article",
+      "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do",
       "headline": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
       "alternativeHeadline": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
       "description": "You see the headline and your brain does the math without asking permission: No advance? So\u2026 how do writers get paid while the book is being built?",
@@ -604,40 +590,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-08-31",
+      "dateModified": "2027-08-31",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-          "url": "https://writequeryhook.com/query-letters/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-          "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
-        },
-        {
-          "@type": "WebPage",
           "name": "Get your submission priorities wrong, and the agent will never forgive you",
-          "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+          "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-          "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-          "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+          "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
+          "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_hero_confused_skeptical_blog_hero_landscape_1ddbb82db5f4.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_524/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do/blog/blog_hero_confused_skeptical_blog_hero_landscape_1ddbb82db5f4.jpeg?updatedAt=1782319111440",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 confused skeptical",
@@ -652,7 +635,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#faq",
+      "@id": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Man vs nature conflict: The survival slog vs the belief-to-reversal engine",
   "description": "Nature stories are the rare kind of conflict that can be genuinely funny in the worst way. A character confidently says, \"I've got this,\" right before the wind proves physics doesn't care about their confidence. Then\u2014boom\u2014your reader believes in the danger, because it's coming from outside the human comfort zone.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-11",
+  "modifiedDate": "2026-09-11",
   "canonicalUrl": "https://writequeryhook.com/blog/man-vs-nature-conflict-the-survival-slog-vs-the-belief-to-reversal-engine",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -612,6 +612,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/man-vs-nature-conflict-the-survival-slog-vs-the-belief-to-reversal-engine#primaryimage"
       },
+      "datePublished": "2026-09-11",
+      "dateModified": "2026-09-11",
       "mentions": [
         {
           "@type": "WebPage",

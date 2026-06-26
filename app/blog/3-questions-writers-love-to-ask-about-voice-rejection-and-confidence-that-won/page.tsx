@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 questions writers love to ask about voice, rejection, and confidence (that won\u2019t give you a concrete answer)",
   "description": "There\u2019s a special kind of writerly torture that doesn\u2019t come from rejection itself. It comes from rejection with no specific diagnosis.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-03",
+  "modifiedDate": "2027-02-03",
   "canonicalUrl": "https://writequeryhook.com/blog/3-questions-writers-love-to-ask-about-voice-rejection-and-confidence-that-won",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -460,6 +460,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-questions-writers-love-to-ask-about-voice-rejection-and-confidence-that-won#primaryimage"
       },
+      "datePublished": "2027-02-03",
+      "dateModified": "2027-02-03",
       "mentions": [
         {
           "@type": "WebPage",

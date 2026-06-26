@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a good first chapter that earns the next page",
   "description": "A lot of first chapters fail in the same boring way: they start like a story and then behave like a r\u00e9sum\u00e9. Lots of setting. Lots of feeling, but the plot sits still.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-20",
+  "modifiedDate": "2026-10-20",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-good-first-chapter-that-earns-the-next-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -593,6 +593,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-good-first-chapter-that-earns-the-next-page#primaryimage"
       },
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
       "mentions": [
         {
           "@type": "WebPage",

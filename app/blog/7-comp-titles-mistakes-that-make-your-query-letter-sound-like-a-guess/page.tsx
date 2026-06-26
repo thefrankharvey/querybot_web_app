@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 comp titles mistakes that make your query letter sound like a guess",
   "description": "If you've ever stared at a draft and thought, \"What's my book about?\"\u2014and then heard yourself ramble anyway\u2014that's the pain comp titles are supposed to kill.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-11",
+  "modifiedDate": "2026-08-11",
   "canonicalUrl": "https://writequeryhook.com/blog/7-comp-titles-mistakes-that-make-your-query-letter-sound-like-a-guess",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -633,6 +633,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-comp-titles-mistakes-that-make-your-query-letter-sound-like-a-guess#primaryimage"
       },
+      "datePublished": "2026-08-11",
+      "dateModified": "2026-08-11",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a spine-chilling horror story without forcing scares",
   "description": "Horror writing gets treated like it runs on a shopping list: creepy house, cursed object, jump scare, done. Then the manuscript lands flat, and the writer assumes they \"just don't have the horror gene.\" That assumption is bullshit.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-29",
+  "modifiedDate": "2026-12-29",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-spine-chilling-horror-story-without-forcing-scares",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-spine-chilling-horror-story-without-forcing-scares#primaryimage"
       },
+      "datePublished": "2026-12-29",
+      "dateModified": "2026-12-29",
       "mentions": [
         {
           "@type": "WebPage",

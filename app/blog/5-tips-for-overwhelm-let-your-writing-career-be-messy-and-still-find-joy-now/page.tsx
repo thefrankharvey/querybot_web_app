@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
   "description": "Alex is a senior, stubborn dog with changing mobility. He also has the confidence of someone who has never heard of \"productivity\" in his life.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
+  "publishedDate": "2027-04-14",
+  "modifiedDate": "2027-04-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_hero_recognition_disbelief_blog_hero_landscape_545ac9ce006e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_hero_recognition_disbelief_blog_hero_landscape_545ac9ce006e.jpeg?updatedAt=1781809881899",
     "alt": "blog hero \u00b7 recognition disbelief",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+      "item": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
     }
   ],
   "tldrBlocks": [],
@@ -122,13 +122,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_snack_walk_blog_section_landscape_51ca7e8702b2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_snack_walk_blog_section_landscape_51ca7e8702b2.gif",
         "alt": "Add your \"now\" choice (small enough to survive changed mobility)",
-        "width": 6377,
-        "height": 4337,
-        "creator": "Nguy\u1ec5n V\u0103n Minh V\u01b0\u01a1ng",
-        "creatorUrl": "https://www.pexels.com/@nguy-n-van-minh-v-ng-73329638",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "snackbloc",
+        "creatorUrl": "https://giphy.com/gifs/XcGj1hh4nbAtylROiR",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -233,7 +233,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_vindication_setbacks_blog_section_landscape_a8a9d0b56e21.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_vindication_setbacks_blog_section_landscape_a8a9d0b56e21.jpeg?updatedAt=1781809882850",
         "alt": "Stop fearing challenges as a mistake (they're part of building a writing career)",
         "width": 5624,
         "height": 3164,
@@ -371,7 +371,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_revision_small_steps_blog_section_landscape_234ea89c2264.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_revision_small_steps_blog_section_landscape_234ea89c2264.gif?updatedAt=1781809883291",
         "alt": "Build a micro-revision practice for \"changed mobility\" days",
         "width": 253,
         "height": 200,
@@ -382,32 +382,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_section_image_cold_sign_off_satisfied_sigh_blog_section_landscape_41f984e4fa15.gif",
-    "alt": "blog section image \u00b7 cold sign-off satisfied sigh",
-    "width": 358,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/dean-winchester-sigh-facepalm-113RhN1oBm1yCc",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
     },
     {
       "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-      "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     },
     {
       "title": "How to clear the slush pile early-threshold so literary agents keep reading",
-      "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     },
     {
-      "title": "Community FAQ for writers: what to do when loneliness hits",
-      "url": "https://writequeryhook.com/community-faq-for-writers-what-to-do-when-loneliness-hits"
+      "title": "5 tips for comparing yourself without quitting writing",
+      "url": "https://writequeryhook.com/blog/5-tips-for-comparing-yourself-without-quitting-writing"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -442,7 +433,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
     }
   ]
 } as const;
@@ -472,7 +463,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -484,31 +475,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+          "item": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
       "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -524,11 +515,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now",
       "headline": "5 tips for overwhelm: let your writing career be messy and still find joy now",
       "alternativeHeadline": "5 tips for overwhelm: let your writing career be messy and still find joy now",
       "description": "Alex is a senior, stubborn dog with changing mobility. He also has the confidence of someone who has never heard of \"productivity\" in his life.",
@@ -558,40 +549,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage"
       },
+      "datePublished": "2027-04-14",
+      "dateModified": "2027-04-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
         },
         {
           "@type": "WebPage",
           "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-          "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         },
         {
           "@type": "WebPage",
           "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-          "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
         },
         {
           "@type": "WebPage",
-          "name": "Community FAQ for writers: what to do when loneliness hits",
-          "url": "https://writequeryhook.com/community-faq-for-writers-what-to-do-when-loneliness-hits"
+          "name": "5 tips for comparing yourself without quitting writing",
+          "url": "https://writequeryhook.com/blog/5-tips-for-comparing-yourself-without-quitting-writing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_hero_recognition_disbelief_blog_hero_landscape_545ac9ce006e.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now/blog/blog_hero_recognition_disbelief_blog_hero_landscape_545ac9ce006e.jpeg?updatedAt=1781809881899",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 recognition disbelief",
@@ -606,7 +594,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now#faq",
       "mainEntity": [
         {
           "@type": "Question",

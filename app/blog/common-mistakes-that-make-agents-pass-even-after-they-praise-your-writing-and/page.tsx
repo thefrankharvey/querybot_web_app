@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make agents pass even after they praise your writing (and why \"not lovable\" is usually a fit problem)",
   "description": "You get the email. It praises your writing talent. It sounds kind. It might even say something like \"great voice.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-02",
+  "modifiedDate": "2027-03-02",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-agents-pass-even-after-they-praise-your-writing-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -586,6 +586,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-agents-pass-even-after-they-praise-your-writing-and#primaryimage"
       },
+      "datePublished": "2027-03-02",
+      "dateModified": "2027-03-02",
       "mentions": [
         {
           "@type": "WebPage",

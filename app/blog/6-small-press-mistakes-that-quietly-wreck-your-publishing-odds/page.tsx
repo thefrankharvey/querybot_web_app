@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "6 small press mistakes that quietly wreck your publishing odds",
   "description": "Big-company imprints are loud. They get the conference banners, the bookshops floor space, the \"oh wow, congrats\" texts.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
+  "publishedDate": "2027-08-09",
+  "modifiedDate": "2027-08-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_hero_contrarian_eye_roll_blog_hero_landscape_036cd216677c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_hero_contrarian_eye_roll_blog_hero_landscape_036cd216677c.jpeg",
     "alt": "blog hero \u00b7 contrarian eye-roll",
-    "width": 262,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
-    "provider": "giphy",
+    "width": 6390,
+    "height": 4790,
+    "creator": "Ana Claudia Quevedo Estrada",
+    "creatorUrl": "https://www.pexels.com/@ana-claudia-quevedo-estrada-922193",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "6 small press mistakes that quietly wreck your publishing odds",
-      "item": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+      "item": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     }
   ],
   "tldrBlocks": [],
@@ -114,13 +114,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_labels_confusion_blog_section_landscape_b472f33583a4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_labels_confusion_blog_section_landscape_b472f33583a4.jpeg",
         "alt": "You're using the wrong definition of \"small press\"",
-        "width": 152,
-        "height": 200,
-        "creator": "MaryanneChisholm",
-        "creatorUrl": "https://giphy.com/gifs/jB7jOpGyhH59KSzv5T",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2667,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -283,13 +283,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_paranoia_red_flags_blog_section_landscape_ba4673e25f5c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_paranoia_red_flags_blog_section_landscape_ba4673e25f5c.gif",
         "alt": "You're ignoring vetting risk because the name isn't famous",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Tu\u1ea5n Ki\u1ec7t Jr.",
-        "creatorUrl": "https://www.pexels.com/@soldiervip",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -333,13 +333,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_fit_stubbornness_blog_section_landscape_e5b2047b3738.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_fit_stubbornness_blog_section_landscape_e5b2047b3738.gif",
         "alt": "You're choosing a small press without matching risk tolerance and expectations",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -369,32 +369,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_section_image_take_control_checklist_energy_blog_section_landscape_729bede0e47d.jpeg",
-    "alt": "blog section image \u00b7 take-control checklist-energy",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Daniel Andraski",
-    "creatorUrl": "https://www.pexels.com/@daniel-andraski-197681005",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-      "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     },
     {
       "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     },
     {
       "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     },
     {
       "title": "Literary agent cost: what you should pay (and what you should never pay)",
-      "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -433,7 +424,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     }
   ]
 } as const;
@@ -463,7 +454,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -475,31 +466,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "6 small press mistakes that quietly wreck your publishing odds",
-          "item": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+          "item": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#webpage",
-      "url": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
+      "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#webpage",
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
       "name": "6 small press mistakes that quietly wreck your publishing odds",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage"
+        "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -515,11 +506,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#article",
+      "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#webpage"
+        "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds",
       "headline": "6 small press mistakes that quietly wreck your publishing odds",
       "alternativeHeadline": "6 small press mistakes that quietly wreck your publishing odds",
       "description": "Big-company imprints are loud. They get the conference banners, the bookshops floor space, the \"oh wow, congrats\" texts.",
@@ -549,55 +540,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage"
+        "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage"
       },
+      "datePublished": "2027-08-09",
+      "dateModified": "2027-08-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-          "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-          "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
         },
         {
           "@type": "WebPage",
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         },
         {
           "@type": "WebPage",
           "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
         },
         {
           "@type": "WebPage",
           "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_hero_contrarian_eye_roll_blog_hero_landscape_036cd216677c.gif",
-      "width": 262,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds/blog/blog_hero_contrarian_eye_roll_blog_hero_landscape_036cd216677c.jpeg",
+      "width": 6390,
+      "height": 4790,
       "caption": "blog hero \u00b7 contrarian eye-roll",
-      "creditText": "Giphy",
+      "creditText": "Ana Claudia Quevedo Estrada",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK"
+        "name": "Ana Claudia Quevedo Estrada",
+        "url": "https://www.pexels.com/@ana-claudia-quevedo-estrada-922193"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#faq",
+      "@id": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds#faq",
       "mainEntity": [
         {
           "@type": "Question",

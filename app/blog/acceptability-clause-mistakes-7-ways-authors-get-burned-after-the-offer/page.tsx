@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
   "description": "You've heard the warning noise: \"Publishers can decide if they're satisfied.\" Fine. The contrarian part is this: the clause itself isn't automatically evil. It exists because publishers also want to reduce legal exposure and only move forward once concerns are cleared.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
+  "publishedDate": "2027-05-28",
+  "modifiedDate": "2027-05-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_hero_offer_dread_blog_hero_landscape_5d2469dc6a71.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_hero_offer_dread_blog_hero_landscape_5d2469dc6a71.jpeg?updatedAt=1782177872422",
     "alt": "blog hero \u00b7 offer dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "item": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "item": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     }
   ],
   "tldrBlocks": [],
@@ -95,7 +95,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_tldr_blog_section_landscape_58ddd06cf17f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_tldr_blog_section_landscape_58ddd06cf17f.gif?updatedAt=1782177872931",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -162,13 +162,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_f0a65ad0e5e5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_f0a65ad0e5e5.gif",
         "alt": "You're treating \"satisfactory\" like a neutral checklist",
-        "width": 6480,
-        "height": 4320,
-        "creator": "Donald Tong",
-        "creatorUrl": "https://www.pexels.com/@donaldtong94",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "robertkennedyjr",
+        "creatorUrl": "https://giphy.com/gifs/robertkennedyjr-be-rejection-discontent-tpMsusEXop71jKTYe7",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -211,7 +211,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_editorial_assistance_case_by_case_blog_section_landscape_a44c883e1edd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_editorial_assistance_case_by_case_blog_section_landscape_a44c883e1edd.jpeg?updatedAt=1782177873953",
         "alt": "You're assuming editorial assistance is optional \"support,\" not an obligation",
         "width": 5309,
         "height": 3539,
@@ -302,13 +302,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_f0a65ad0e5e5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_discretion_satisfaction_standard_blog_section_landscape_f0a65ad0e5e5.gif",
         "alt": "You're treating \"satisfactory\" like a neutral checklist",
-        "width": 6480,
-        "height": 4320,
-        "creator": "Donald Tong",
-        "creatorUrl": "https://www.pexels.com/@donaldtong94",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "robertkennedyjr",
+        "creatorUrl": "https://giphy.com/gifs/robertkennedyjr-be-rejection-discontent-tpMsusEXop71jKTYe7",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -442,32 +442,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_section_image_send_the_edits_ask_the_hard_questions_blog_section_landscape_9cf9a8030f01.gif",
-    "alt": "blog section image \u00b7 send the edits ask the hard questions",
-    "width": 357,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/question-HVPJVRSUtSuyI",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     },
     {
       "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     },
     {
       "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     },
     {
-      "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-      "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+      "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -506,7 +497,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     }
   ]
 } as const;
@@ -536,7 +527,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -548,31 +539,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "item": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "item": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#webpage",
-      "url": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#webpage",
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
       "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -588,11 +579,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#article",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#webpage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer",
       "headline": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
       "alternativeHeadline": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
       "description": "You've heard the warning noise: \"Publishers can decide if they're satisfied.\" Fine. The contrarian part is this: the clause itself isn't automatically evil. It exists because publishers also want to reduce legal exposure and only move forward once concerns are cleared.",
@@ -622,40 +613,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage"
       },
+      "datePublished": "2027-05-28",
+      "dateModified": "2027-05-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+          "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-          "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+          "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
+          "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_hero_offer_dread_blog_hero_landscape_5d2469dc6a71.jpeg",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer/blog/blog_hero_offer_dread_blog_hero_landscape_5d2469dc6a71.jpeg?updatedAt=1782177872422",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 offer dread",
@@ -670,7 +658,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#faq",
+      "@id": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer#faq",
       "mainEntity": [
         {
           "@type": "Question",

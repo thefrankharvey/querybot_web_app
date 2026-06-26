@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
   "description": "Most writers don't hate synopses because the concept is hard. They hate them because the assignment is impossible in the moment: condense an entire novel into synopsis form without breaking logic, momentum, or stakes.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
+  "publishedDate": "2027-11-16",
+  "modifiedDate": "2027-11-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
-      "item": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
+      "item": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
     }
   ],
   "tldrBlocks": [],
@@ -381,19 +381,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Novel synopsis vs alternatives: what actually belongs in your query package",
-      "url": "https://writequeryhook.com/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
     },
     {
       "title": "Book synopsis vs logline vs query letter: what actually sells the story?",
-      "url": "https://writequeryhook.com/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+      "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
     },
     {
       "title": "Synopsis FAQ: what a synopsis is supposed to do",
-      "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+      "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
     },
     {
-      "title": "Write an incredible synopsis in 4 simple steps faq",
-      "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -432,7 +432,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Novel synopsis vs alternatives: what actually belongs in your query package",
-      "url": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
     }
   ]
 } as const;
@@ -462,7 +462,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -474,31 +474,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
-          "item": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
+          "item": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
+      "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#webpage",
+      "url": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
       "name": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -514,11 +514,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#article",
+      "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#webpage"
+        "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that",
       "headline": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
       "alternativeHeadline": "An incredible synopsis in 4 simple steps vs the alternatives: pick the one that actually matches how you write",
       "description": "Most writers don't hate synopses because the concept is hard. They hate them because the assignment is impossible in the moment: condense an entire novel into synopsis form without breaking logic, momentum, or stakes.",
@@ -548,39 +548,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage"
       },
+      "datePublished": "2027-11-16",
+      "dateModified": "2027-11-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Novel synopsis vs alternatives: what actually belongs in your query package",
-          "url": "https://writequeryhook.com/query-letters/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Novel synopsis vs alternatives: what actually belongs in your query package",
-          "url": "https://writequeryhook.com/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
+          "url": "https://writequeryhook.com/blog/novel-synopsis-vs-alternatives-what-actually-belongs-in-your-query-package"
         },
         {
           "@type": "WebPage",
           "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
-          "url": "https://writequeryhook.com/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+          "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
         },
         {
           "@type": "WebPage",
           "name": "Synopsis FAQ: what a synopsis is supposed to do",
-          "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+          "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "Write an incredible synopsis in 4 simple steps faq",
-          "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
+          "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage",
+      "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_616/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that/blog/blog_hero_blank_page_dread_blog_hero_landscape_5436b2789639.gif",
       "width": 248,
       "height": 200,
@@ -596,7 +593,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#faq",
+      "@id": "https://writequeryhook.com/blog/an-incredible-synopsis-in-4-simple-steps-vs-the-alternatives-pick-the-one-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

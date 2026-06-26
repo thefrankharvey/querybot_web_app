@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Character Interview FAQ: questions for writing conflict-proof personalities",
   "description": "A character interview is one of those pre-writing rituals that saves you later. You\u2019re not \u201cbuilding\u201d the character for the sake of having a cute backstory. You\u2019re figuring out how they think, feel, and react when things get messy\u2014so conflict doesn\u2019t turn them into a different person every scene.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-16",
+  "modifiedDate": "2027-01-16",
   "canonicalUrl": "https://writequeryhook.com/blog/character-interview-faq-questions-for-writing-conflict-proof-personalities",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -582,6 +582,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/character-interview-faq-questions-for-writing-conflict-proof-personalities#primaryimage"
       },
+      "datePublished": "2027-01-16",
+      "dateModified": "2027-01-16",
       "mentions": [
         {
           "@type": "WebPage",

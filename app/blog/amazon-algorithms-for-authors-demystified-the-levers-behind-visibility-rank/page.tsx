@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
   "description": "You type \"Amazon algorithms\" into your search bar and get the same vague advice dressed in different language: rankings are mysterious, tweak the title and keywords, the algorithm is watching. That's not clarity. That's fog with SEO padding.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
+  "publishedDate": "2027-07-22",
+  "modifiedDate": "2027-07-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_hero_overwhelm_panic_blog_hero_landscape_f486be305834.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_hero_overwhelm_panic_blog_hero_landscape_f486be305834.jpeg?updatedAt=1782260924431",
     "alt": "blog hero \u00b7 overwhelm panic",
     "width": 5650,
     "height": 3741,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-      "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
+      "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
     }
   ],
   "tldrBlocks": [],
@@ -259,7 +259,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_conversion_frustration_blog_section_landscape_86c9c8c9d7fd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_conversion_frustration_blog_section_landscape_86c9c8c9d7fd.gif?updatedAt=1782260925261",
         "alt": "Sales conversion vs page visits: why clicks can help and still not help",
         "width": 226,
         "height": 200,
@@ -345,13 +345,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_fit_keyword_pressure_blog_section_landscape_6dc57d6fbadd.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_fit_keyword_pressure_blog_section_landscape_6dc57d6fbadd.gif",
         "alt": "Market fit knobs: keywords, categories, and metadata",
-        "width": 3454,
-        "height": 2201,
-        "creator": "Tobias Dziuba",
-        "creatorUrl": "https://www.pexels.com/@tobias-dziuba-319638",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "IamIshuSingh",
+        "creatorUrl": "https://giphy.com/gifs/seo-keyword-keywords-jrsWNmPJnIFv0jrLZy",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -497,43 +497,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_strategy_targeted_effort_blog_section_landscape_bfcc40da7869.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_strategy_targeted_effort_blog_section_landscape_bfcc40da7869.jpeg",
         "alt": "Visibility spots need different signals: bestseller lists, search, and emails",
-        "width": 200,
-        "height": 200,
-        "creator": "target",
-        "creatorUrl": "https://giphy.com/gifs/target-christmas-holiday-3ohs83bO7MKV9koZuE",
-        "provider": "giphy",
+        "width": 6433,
+        "height": 4289,
+        "creator": "RDNE Stock project",
+        "creatorUrl": "https://www.pexels.com/@rdne",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_section_image_determination_fist_pump_blog_section_landscape_8fcb9039b286.jpeg",
-    "alt": "blog section image \u00b7 determination fist pump",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mustafa  Fatemi",
-    "creatorUrl": "https://www.pexels.com/@mustafa-fatemi-383794430",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-      "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
     },
     {
       "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-      "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     },
     {
       "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     },
     {
-      "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "title": "Platform FAQ: how to build an author platform off social media",
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -580,7 +571,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-      "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
     }
   ]
 } as const;
@@ -610,7 +601,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -622,31 +613,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-          "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
+          "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
       "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -662,11 +653,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#article",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank",
       "headline": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
       "alternativeHeadline": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
       "description": "You type \"Amazon algorithms\" into your search bar and get the same vague advice dressed in different language: rankings are mysterious, tweak the title and keywords, the algorithm is watching. That's not clarity. That's fog with SEO padding.",
@@ -696,40 +687,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage"
       },
+      "datePublished": "2027-07-22",
+      "dateModified": "2027-07-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
         },
         {
           "@type": "WebPage",
           "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-          "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+          "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
         },
         {
           "@type": "WebPage",
           "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-          "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+          "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
         },
         {
           "@type": "WebPage",
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         },
         {
           "@type": "WebPage",
-          "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "name": "Platform FAQ: how to build an author platform off social media",
+          "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_hero_overwhelm_panic_blog_hero_landscape_f486be305834.jpeg",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank/blog/blog_hero_overwhelm_panic_blog_hero_landscape_f486be305834.jpeg?updatedAt=1782260924431",
       "width": 5650,
       "height": 3741,
       "caption": "blog hero \u00b7 overwhelm panic",
@@ -744,7 +737,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#faq",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank#faq",
       "mainEntity": [
         {
           "@type": "Question",

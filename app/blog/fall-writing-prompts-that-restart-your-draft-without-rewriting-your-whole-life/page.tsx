@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Fall writing prompts that restart your draft (without rewriting your whole life)",
   "description": "There's a specific kind of blank-page panic that only hits when the weather changes. One week you're writing like you owe the book money. The next week, you're staring at the document like it's going to blink first.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-16",
+  "modifiedDate": "2026-11-16",
   "canonicalUrl": "https://writequeryhook.com/blog/fall-writing-prompts-that-restart-your-draft-without-rewriting-your-whole-life",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -634,6 +634,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/fall-writing-prompts-that-restart-your-draft-without-rewriting-your-whole-life#primaryimage"
       },
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
       "mentions": [
         {
           "@type": "WebPage",

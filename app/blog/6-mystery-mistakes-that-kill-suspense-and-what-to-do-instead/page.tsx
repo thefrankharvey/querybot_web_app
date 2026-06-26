@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "6 mystery mistakes that kill suspense (and what to do instead)",
   "description": "You don't need \"more stuff happening\" to get suspense. You need the right slowness\u2014the kind that lets the sleuth think out loud (internally or on the page), connect a clue to a theory, revise their own assumptions, and accidentally nudge the reader's attention in a controlled direction.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-25",
+  "modifiedDate": "2027-01-25",
   "canonicalUrl": "https://writequeryhook.com/blog/6-mystery-mistakes-that-kill-suspense-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/6-mystery-mistakes-that-kill-suspense-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2027-01-25",
+      "dateModified": "2027-01-25",
       "mentions": [
         {
           "@type": "WebPage",

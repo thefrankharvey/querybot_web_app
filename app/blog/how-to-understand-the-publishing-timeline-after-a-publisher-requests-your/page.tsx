@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to understand the publishing timeline after a publisher requests your manuscript",
   "description": "If you've just hit the \"publisher requests my manuscript\" moment, congrats. Also: the waiting after it can feel like someone unplugged the calendar and left you staring at the blank screen.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
+  "publishedDate": "2027-05-12",
+  "modifiedDate": "2027-05-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_hero_recognition_dread_blog_hero_landscape_1596d1ddaca9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_hero_recognition_dread_blog_hero_landscape_1596d1ddaca9.jpeg?updatedAt=1782142473871",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-      "item": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
+      "item": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
     }
   ],
   "tldrBlocks": [],
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_research_pathway_blog_section_landscape_f4978d0f7e18.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_research_pathway_blog_section_landscape_f4978d0f7e18.gif?updatedAt=1782142486610",
         "alt": "Step 1: Find your next publishing pathway (even after the request)",
         "width": 356,
         "height": 200,
@@ -208,13 +208,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_editing_developmental_blog_section_landscape_4c1b292d1417.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_editing_developmental_blog_section_landscape_4c1b292d1417.gif",
         "alt": "Step 3: Plan for multiple editing rounds and understand developmental and copyediting differences",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Yan Krukau",
-        "creatorUrl": "https://www.pexels.com/@yankrukov",
-        "provider": "pexels",
+        "width": 299,
+        "height": 200,
+        "creator": "leopyrata",
+        "creatorUrl": "https://giphy.com/gifs/l41m21p7udStJ2ra8",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -375,7 +375,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_anxious_uncertainty_blog_section_landscape_91b84944d629.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_anxious_uncertainty_blog_section_landscape_91b84944d629.jpeg?updatedAt=1782142488369",
         "alt": "Step 6: Ask questions strategically",
         "width": 6000,
         "height": 4000,
@@ -386,32 +386,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_section_image_resolution_next_step_blog_section_landscape_b4d9066bf8f9.gif",
-    "alt": "blog section image \u00b7 resolution next step",
-    "width": 356,
-    "height": 200,
-    "creator": "cbbc",
-    "creatorUrl": "https://giphy.com/gifs/cbbc-betrayal-traitor-ultimate-dtVwmWe7N7WdoGeF0T",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     },
     {
       "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     },
     {
-      "title": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-      "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+      "title": "Which rights do I sign away in a book deal FAQ",
+      "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
     },
     {
-      "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-      "url": "https://writequeryhook.com/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+      "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -450,7 +441,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to spot which rights you sign away in a book deal",
-      "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     }
   ]
 } as const;
@@ -480,7 +471,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -492,31 +483,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-          "item": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
+          "item": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
       "name": "How to understand the publishing timeline after a publisher requests your manuscript",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -532,11 +523,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#article",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your",
       "headline": "How to understand the publishing timeline after a publisher requests your manuscript",
       "alternativeHeadline": "How to understand the publishing timeline after a publisher requests your manuscript",
       "description": "If you've just hit the \"publisher requests my manuscript\" moment, congrats. Also: the waiting after it can feel like someone unplugged the calendar and left you staring at the blank screen.",
@@ -566,40 +557,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage"
       },
+      "datePublished": "2027-05-12",
+      "dateModified": "2027-05-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to spot which rights you sign away in a book deal",
-          "url": "https://writequeryhook.com/query-letters/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         },
         {
           "@type": "WebPage",
           "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
         },
         {
           "@type": "WebPage",
-          "name": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-          "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+          "name": "Which rights do I sign away in a book deal FAQ",
+          "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-          "url": "https://writequeryhook.com/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+          "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
+          "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_hero_recognition_dread_blog_hero_landscape_1596d1ddaca9.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_394/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your/blog/blog_hero_recognition_dread_blog_hero_landscape_1596d1ddaca9.jpeg?updatedAt=1782142473871",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -614,7 +607,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#howto",
       "name": "How to understand the publishing timeline after a publisher requests your manuscript",
       "description": "If you've just hit the \"publisher requests my manuscript\" moment, congrats. Also: the waiting after it can feel like someone unplugged the calendar and left you staring at the blank screen.",
       "totalTime": "PT7M",
@@ -624,49 +617,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Find your next publishing pathway (even after the request)",
           "text": "Before you assume you're just \"waiting for the book,\" confirm the pathway the publisher is actually using. Some publishers want the manuscript fully completed before submission; others have intermediary steps, and those requirements change what \"in progress\" looks like.",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-1-find-your-next-publishing-pathway-even-after-the-request"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-1-find-your-next-publishing-pathway-even-after-the-request"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Expect acquisition and contract negotiation to take real time",
           "text": "Once a publisher requests your manuscript, the next phase is business and legal: contract negotiation.",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-2-expect-acquisition-and-contract-negotiation-to-take-real-time"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-2-expect-acquisition-and-contract-negotiation-to-take-real-time"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Plan for multiple editing rounds and understand developmental and copyediting differences",
           "text": "After contracts, the editing phase is where new writers usually feel the biggest mismatch between \"I submitted a manuscript\" and \"why are there still rounds?\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-3-plan-for-multiple-editing-rounds-and-understand-developmental-and"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-3-plan-for-multiple-editing-rounds-and-understand-developmental-and"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Track parallel work\u2014marketing, design, and formatting\u2014while you feel quiet",
           "text": "After you sign, you might hear periods of little communication. Writers often label it as \"radio silence,\" and then their brain fills in the blanks with the worst possible story.",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-4-track-parallel-work-marketing-design-and-formatting-while-you-feel-quiet"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-4-track-parallel-work-marketing-design-and-formatting-while-you-feel-quiet"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Account for audio and ebook format stages",
           "text": "If the book is going into multiple formats, the timeline gets extra layers. Audio and ebook production involve additional steps to reduce errors and improve accessibility.",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-5-account-for-audio-and-ebook-format-stages"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-5-account-for-audio-and-ebook-format-stages"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Ask questions strategically",
           "text": "New authors often need clarity in the moment. Not a pep talk\u2014clarity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-6-ask-questions-strategically"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#step-6-ask-questions-strategically"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

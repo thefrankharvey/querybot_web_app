@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common author website mistakes that trap you for years (and how to fix them)",
   "description": "You don't start an author website because you're confident. You start because someone asks, \"Where can I learn more about you?\" And then\u2014weeks later\u2014you're still tinkering with fonts like the wrongest possible use of your time.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
+  "publishedDate": "2027-06-10",
+  "modifiedDate": "2027-06-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_1bf9e3c280e0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_1bf9e3c280e0.jpeg?updatedAt=1782214281244",
     "alt": "blog hero \u00b7 anxiety blank-page",
     "width": 6048,
     "height": 4024,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common author website mistakes that trap you for years (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+      "item": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
     }
   ],
   "tldrBlocks": [],
@@ -161,13 +161,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_trap_vendor_lock_in_blog_section_landscape_4201e91bf9e4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_trap_vendor_lock_in_blog_section_landscape_4201e91bf9e4.gif",
         "alt": "1) You choose tools last (or \"whatever's cheapest\"), then you get trapped",
-        "width": 6000,
-        "height": 4500,
-        "creator": "Nathan Thomas",
-        "creatorUrl": "https://www.pexels.com/@nathanthomas",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/art-hoppip-DR3z7DBOIapfa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -338,13 +338,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_seconds_to_leave_identity_blog_section_landscape_057cff1047a4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_seconds_to_leave_identity_blog_section_landscape_057cff1047a4.jpeg",
         "alt": "5) You make the homepage vague, slow, or self-indulgent (so visitors leave)",
-        "width": 251,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/11tRBTlIlmb10k",
-        "provider": "giphy",
+        "width": 2592,
+        "height": 1728,
+        "creator": "Meirina Widianti",
+        "creatorUrl": "https://www.pexels.com/@meirina-widianti-173189171",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -410,43 +410,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_cc426becbe1c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_cc426becbe1c.gif",
         "alt": "Recap",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_section_image_deep_breath_fix_yours_blog_section_landscape_78359ae349b4.gif",
-    "alt": "blog section image \u00b7 deep breath fix yours",
-    "width": 400,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/1SfxXOJ0Q2Xni",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-      "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     },
     {
       "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     },
     {
       "title": "The publishing timeline from contract to shelves: where delays actually come from",
-      "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     },
     {
-      "title": "11 book title tips to make your next title sell before the blurb even loads",
-      "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+      "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -481,7 +472,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     }
   ]
 } as const;
@@ -511,7 +502,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -523,31 +514,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common author website mistakes that trap you for years (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+          "item": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
+      "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#webpage",
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
       "name": "Common author website mistakes that trap you for years (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -563,11 +554,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#article",
+      "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#webpage"
+        "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them",
       "headline": "Common author website mistakes that trap you for years (and how to fix them)",
       "alternativeHeadline": "Common author website mistakes that trap you for years (and how to fix them)",
       "description": "You don't start an author website because you're confident. You start because someone asks, \"Where can I learn more about you?\" And then\u2014weeks later\u2014you're still tinkering with fonts like the wrongest possible use of your time.",
@@ -597,40 +588,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-06-10",
+      "dateModified": "2027-06-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-          "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         },
         {
           "@type": "WebPage",
           "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+          "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
         },
         {
           "@type": "WebPage",
-          "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+          "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
+          "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_1bf9e3c280e0.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_1bf9e3c280e0.jpeg?updatedAt=1782214281244",
       "width": 6048,
       "height": 4024,
       "caption": "blog hero \u00b7 anxiety blank-page",
@@ -645,7 +633,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#faq",
+      "@id": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them#faq",
       "mainEntity": [
         {
           "@type": "Question",

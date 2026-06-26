@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What is a rhetorical device and how do you use them?",
   "description": "Rhetoric is the part of writing that moves someone\u2014makes them notice, agree, doubt, feel, or accept a particular interpretation. That can happen in a courtroom, a breakup text, a campaign speech, or a paragraph in a novel.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-22",
+  "modifiedDate": "2026-09-22",
   "canonicalUrl": "https://writequeryhook.com/blog/what-is-a-rhetorical-device-and-how-do-you-use-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -456,6 +456,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-is-a-rhetorical-device-and-how-do-you-use-them#primaryimage"
       },
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
       "mentions": [
         {
           "@type": "WebPage",

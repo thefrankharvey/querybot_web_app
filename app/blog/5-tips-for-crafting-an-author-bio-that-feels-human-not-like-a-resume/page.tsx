@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for crafting an author bio that feels human (not like a r\u00e9sum\u00e9)",
   "description": "Your About page is often the first or second place people click. Not because they're dying to learn your publishing trivia. Because they're trying to figure out whether you seem like a person they can spend time with.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-20",
+  "modifiedDate": "2026-08-20",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-crafting-an-author-bio-that-feels-human-not-like-a-resume",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -622,6 +622,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-crafting-an-author-bio-that-feels-human-not-like-a-resume#primaryimage"
       },
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-08-20",
       "mentions": [
         {
           "@type": "WebPage",

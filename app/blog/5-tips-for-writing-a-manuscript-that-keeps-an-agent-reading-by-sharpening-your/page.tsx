@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing a manuscript that keeps an agent reading by sharpening your desire line",
   "description": "If you've ever gotten to \"they're still reading\" and then watched your own manuscript go kind of\u2026 limp, you already know the problem. It's readable. It has events. It even has a protagonist.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-22",
+  "modifiedDate": "2027-01-22",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-manuscript-that-keeps-an-agent-reading-by-sharpening-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -471,6 +471,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-manuscript-that-keeps-an-agent-reading-by-sharpening-your#primaryimage"
       },
+      "datePublished": "2027-01-22",
+      "dateModified": "2027-01-22",
       "mentions": [
         {
           "@type": "WebPage",

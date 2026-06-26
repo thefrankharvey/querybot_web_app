@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common description mistakes that quietly wreck your pacing (and how to fix them)",
   "description": "Writers don't usually intend to stall a scene. We intend to make it pretty. Or immersive. Or \"more real.\" Then we turn around and realize the momentum died three paragraphs ago.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-04",
+  "modifiedDate": "2027-01-04",
   "canonicalUrl": "https://writequeryhook.com/blog/common-description-mistakes-that-quietly-wreck-your-pacing-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-description-mistakes-that-quietly-wreck-your-pacing-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-01-04",
+      "dateModified": "2027-01-04",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
   "description": "I swear the industry does this one sneaky thing: it trains writers to treat burnout like a personal failure of grit.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
+  "publishedDate": "2027-04-18",
+  "modifiedDate": "2027-04-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_hero_cranky_dread_blog_hero_landscape_83c3c07679a7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_hero_cranky_dread_blog_hero_landscape_83c3c07679a7.jpeg?updatedAt=1781832618449",
     "alt": "blog hero \u00b7 cranky dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-      "item": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
+      "item": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
     }
   ],
   "tldrBlocks": [],
@@ -110,13 +110,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_opening_blog_section_landscape_ded14ea325ae.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_opening_blog_section_landscape_ded14ea325ae.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -216,7 +216,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_motivation_slump_blog_section_landscape_e36c074379a8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_motivation_slump_blog_section_landscape_e36c074379a8.jpeg?updatedAt=1781832665748",
         "alt": "You're using motivation as a schedule",
         "width": 5908,
         "height": 3939,
@@ -375,7 +375,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_back_brain_ideas_blog_section_landscape_97999364e1f8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_back_brain_ideas_blog_section_landscape_97999364e1f8.gif?updatedAt=1781832666636",
         "alt": "You're ignoring your back brain and forcing \"serious focus\" anyway",
         "width": 200,
         "height": 200,
@@ -400,32 +400,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_section_image_recover_small_steps_blog_section_landscape_18a413aa7d33.gif",
-    "alt": "blog section image \u00b7 recover small-steps",
-    "width": 200,
-    "height": 200,
-    "creator": "wequorum",
-    "creatorUrl": "https://giphy.com/gifs/wequorum-world-weq-quorum-5ukAkt7SBpJS8a65Zv",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-      "url": "https://writequeryhook.com/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying-mistakes-to-avoid"
-    },
-    {
       "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-      "url": "https://writequeryhook.com/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel-reasonable"
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     },
     {
       "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-      "url": "https://writequeryhook.com/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re-radioactive"
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
     },
     {
-      "title": "High praise then crickets: why the silence hits harder (and what to do next)",
-      "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+      "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
+    },
+    {
+      "title": "5 tips for a writer conference that actually changes your draft",
+      "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -465,12 +456,7 @@ const PAGE_DATA = {
       "text": "If your \"solution\" to **writer burnout** is pushing through while you're cranky, terrified, and running on panic, stop. Unplug, rebuild a routine, and let your back brain do its quiet work\u2014so revision stops feeling like punishment and starts feeling like progress again."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-      "url": "https://writequeryhook.com/query-letters/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -498,7 +484,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -510,31 +496,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-          "item": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
+          "item": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#webpage",
-      "url": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
+      "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#webpage",
+      "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
       "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -550,11 +536,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#article",
+      "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#webpage"
+        "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse",
       "headline": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
       "alternativeHeadline": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
       "description": "I swear the industry does this one sneaky thing: it trains writers to treat burnout like a personal failure of grit.",
@@ -584,40 +570,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage"
       },
+      "datePublished": "2027-04-18",
+      "dateModified": "2027-04-18",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-          "url": "https://writequeryhook.com/query-letters/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-          "url": "https://writequeryhook.com/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying-mistakes-to-avoid"
-        },
-        {
-          "@type": "WebPage",
           "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-          "url": "https://writequeryhook.com/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel-reasonable"
+          "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         },
         {
           "@type": "WebPage",
           "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-          "url": "https://writequeryhook.com/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re-radioactive"
+          "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
         },
         {
           "@type": "WebPage",
-          "name": "High praise then crickets: why the silence hits harder (and what to do next)",
-          "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+          "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
+          "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for a writer conference that actually changes your draft",
+          "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_hero_cranky_dread_blog_hero_landscape_83c3c07679a7.jpeg",
+      "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_358/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse/blog/blog_hero_cranky_dread_blog_hero_landscape_83c3c07679a7.jpeg?updatedAt=1781832618449",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 cranky dread",
@@ -632,7 +615,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#faq",
+      "@id": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse#faq",
       "mainEntity": [
         {
           "@type": "Question",

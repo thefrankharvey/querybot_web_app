@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 d\u00e9nouement mistakes that make your story ending feel abrupt (and how to fix them)",
   "description": "If your climax hit hard but your ending feels like someone slapped a \"THE END\" sticker on top of the wreckage, the culprit is usually a d\u00e9nouement problem, not a vibes problem.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-17",
+  "modifiedDate": "2026-11-17",
   "canonicalUrl": "https://writequeryhook.com/blog/5-denouement-mistakes-that-make-your-story-ending-feel-abrupt-and-how-to-fix",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -621,6 +621,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-denouement-mistakes-that-make-your-story-ending-feel-abrupt-and-how-to-fix#primaryimage"
       },
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
   "description": "The first time an editorial letter hits your inbox, your brain does a weird little magic trick: it turns \"feedback\" into \"verdict.\" One minute you're reading about your manuscript like it's a living thing, and the next minute you're panicking like the pages just confessed your worst secrets. Cursor blinking. Stomach dropping. Fantastic.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
+  "publishedDate": "2027-05-23",
+  "modifiedDate": "2027-05-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "calm"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side/blog/blog_hero_anxiety_blindsided_blog_hero_landscape_94ddab0c820f.jpeg?updatedAt=1782169521967",
+    "alt": "blog hero \u00b7 anxiety blindsided",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "item": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
+      "item": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     }
   ],
   "tldrBlocks": [],
@@ -215,7 +224,16 @@ const PAGE_DATA = {
           "text": "Concrete example: someone flags that your protagonist makes a choice that \"doesn't feel earned.\" You might reject a proposed \"fix\" (say, adding a backstory beat), but you can't reject the underlying need. You adapt: maybe the choice becomes earned through a different action earlier, or a clearer consequence, or a more specific goal."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side/blog/blog_section_image_uncertainty_stubbornness_blog_section_landscape_1ebe2ee5d2b0.gif?updatedAt=1782169523074",
+        "alt": "What to do after receiving an editorial letter",
+        "width": 356,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/black-jack-mind-3kD2Eciolhy4VOzjRV",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_5_convert_big_critique_into_small_next_actions",
@@ -260,7 +278,16 @@ const PAGE_DATA = {
           "text": "Keep the tasks small enough that you can start today."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side/blog/blog_section_image_plan_rewrite_blog_section_landscape_665fdeaf72c0.jpeg",
+        "alt": "Step 5: Turn the big critique into a handful of next actions you can actually do",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Ann H",
+        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_6_handle_anger_when_revising_your_manuscript",
@@ -363,26 +390,35 @@ const PAGE_DATA = {
           "text": "Read it once and absorb what's being said. Don't react immediately. Put the letter away for at least a couple of days so the first emotional hit settles. When you come back, separate useful feedback from noise. Then sort by layers: structure first, then scenes, then line edits. Build a task list. Start with one small action."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side/blog/blog_section_image_uncertainty_stubbornness_blog_section_landscape_1ebe2ee5d2b0.gif?updatedAt=1782169523074",
+        "alt": "What to do after receiving an editorial letter",
+        "width": 356,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/black-jack-mind-3kD2Eciolhy4VOzjRV",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     },
     {
       "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     },
     {
       "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     },
     {
-      "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -421,7 +457,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     }
   ]
 } as const;
@@ -451,7 +487,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -463,28 +499,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "item": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
+          "item": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
       "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -500,11 +539,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#article",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side",
       "headline": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
       "alternativeHeadline": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
       "description": "The first time an editorial letter hits your inbox, your brain does a weird little magic trick: it turns \"feedback\" into \"verdict.\" One minute you're reading about your manuscript like it's a living thing, and the next minute you're panicking like the pages just confessed your worst secrets. Cursor blinking. Stomach dropping. Fantastic.",
@@ -533,38 +572,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#primaryimage"
+      },
+      "datePublished": "2027-05-23",
+      "dateModified": "2027-05-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
         },
         {
           "@type": "WebPage",
           "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         },
         {
           "@type": "WebPage",
           "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+          "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
         },
         {
           "@type": "WebPage",
-          "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+          "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
+          "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side/blog/blog_hero_anxiety_blindsided_blog_hero_landscape_94ddab0c820f.jpeg?updatedAt=1782169521967",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 anxiety blindsided",
+      "creditText": "MART  PRODUCTION",
+      "author": {
+        "@type": "Person",
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#howto",
       "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
       "description": "The first time an editorial letter hits your inbox, your brain does a weird little magic trick: it turns \"feedback\" into \"verdict.\" One minute you're reading about your manuscript like it's a living thing, and the next minute you're panicking like the pages just confessed your worst secrets. Cursor blinking. Stomach dropping. Fantastic.",
       "totalTime": "PT8M",
@@ -574,63 +628,63 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Read it once, absorb it, then put it away for at least a couple days",
           "text": "Do the first pass like it's surgery prep: no annotating like a maniac, no drafting a rebuttal in the margins, no speed-running to \"fix everything.\" One read. Absorb what's being said. Mark the big items if you need to, but don't start writing new prose yet.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-1-read-it-once-absorb-it-then-put-it-away-for-at-least-a-couple-days"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-1-read-it-once-absorb-it-then-put-it-away-for-at-least-a-couple-days"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Separate what's genuinely useful from what's just rattling you",
           "text": "Reopen the letter and sort your reaction into two piles:",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-2-separate-what-s-genuinely-useful-from-what-s-just-rattling-you"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-2-separate-what-s-genuinely-useful-from-what-s-just-rattling-you"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Sort the feedback by structure first, then scene-by-scene, then line edits",
           "text": "If your letter has a mix of issues\u2014major plot/structure notes plus nitpicky wording\u2014don't try to edit everything at once. That's how you end up with a Frankenstein draft that's worse in three places and \"better\" in none.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-3-sort-the-feedback-by-structure-first-then-scene-by-scene-then-line-edits"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-3-sort-the-feedback-by-structure-first-then-scene-by-scene-then-line-edits"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Decide what to accept, what to adapt, and what to leave alone (with reasons)",
           "text": "This is where writers either grow a backbone or get bullied by their own insecurity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-4-decide-what-to-accept-what-to-adapt-and-what-to-leave-alone-with-reasons"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-4-decide-what-to-accept-what-to-adapt-and-what-to-leave-alone-with-reasons"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Turn the big critique into a handful of next actions you can actually do",
           "text": "Now that you've sorted structure vs. scene vs. line, translate critique into revision tasks that fit on a sticky note.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-5-turn-the-big-critique-into-a-handful-of-next-actions-you-can-actually-do"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-5-turn-the-big-critique-into-a-handful-of-next-actions-you-can-actually-do"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: How to handle anger when revising your manuscript",
           "text": "Yes, anger is a dangerous side effect. You get upset because your work feels exposed. It can also mean the critique is correct but hard to implement. Either way, your goal isn't to \"win\" the argument in your head. Your goal is to get back to the work.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-6-how-to-handle-anger-when-revising-your-manuscript"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#step-6-how-to-handle-anger-when-revising-your-manuscript"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "How to prioritize revision changes from feedback",
           "text": "Start with structure. The skeleton must be sound before you polish sentences. Ask yourself: Does this change fix a plot issue, character motive problem, or pacing drag? If yes, it's a priority. If it's only about word choice, it can wait.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#how-to-prioritize-revision-changes-from-feedback"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#how-to-prioritize-revision-changes-from-feedback"
         },
         {
           "@type": "HowToStep",
           "position": 8,
           "name": "What to do after receiving an editorial letter",
           "text": "Read it once and absorb what's being said. Don't react immediately. Put the letter away for at least a couple of days so the first emotional hit settles. When you come back, separate useful feedback from noise. Then sort by layers: structure first, then scenes, then line edits. Build a task list. Start with one small action.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#what-to-do-after-receiving-an-editorial-letter"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#what-to-do-after-receiving-an-editorial-letter"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side#faq",
       "mainEntity": [
         {
           "@type": "Question",

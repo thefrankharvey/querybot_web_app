@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
   "description": "A lot of writers start with the same fantasy: \"I'll just keep working alone until it's perfect.\" Then rereading turns into a blur of the same mistakes you somehow stop seeing\u2014typos, inconsistent details, and the deeper craft issues that keep the book from landing.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
+  "publishedDate": "2027-06-04",
+  "modifiedDate": "2027-06-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_hero_deadline_dread_blog_hero_landscape_ab8acf845894.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_hero_deadline_dread_blog_hero_landscape_ab8acf845894.jpeg",
     "alt": "blog hero \u00b7 deadline dread",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-      "item": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+      "item": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
     }
   ],
   "tldrBlocks": [],
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_stage_match_uncertainty_blog_section_landscape_40c9abfaeb04.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_stage_match_uncertainty_blog_section_landscape_40c9abfaeb04.gif",
         "alt": "Editorial assessment vs developmental editing",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Fritz Jaspers",
-        "creatorUrl": "https://www.pexels.com/@fritz-jaspers-746891536",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/pedal-stage-12MwLgSAS0Qxk4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -284,7 +284,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_how_to_vetting_blog_section_landscape_bce776eb71ca.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_how_to_vetting_blog_section_landscape_bce776eb71ca.jpeg?updatedAt=1782192456028",
         "alt": "How to hire a book editor",
         "width": 5874,
         "height": 3916,
@@ -381,7 +381,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_the_verdict_blog_section_landscape_3fc2ed57ba8e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_the_verdict_blog_section_landscape_3fc2ed57ba8e.gif?updatedAt=1782192456803",
         "alt": "The verdict",
         "width": 279,
         "height": 200,
@@ -392,32 +392,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_section_image_pick_a_path_stop_overthinking_blog_section_landscape_7c105ad6229c.jpeg",
-    "alt": "blog section image \u00b7 pick-a-path stop-overthinking",
-    "width": 5715,
-    "height": 3762,
-    "creator": "Andrea Piacquadio",
-    "creatorUrl": "https://www.pexels.com/@olly",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-      "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     },
     {
       "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     },
     {
       "title": "Inside a book edit: what really happens (FAQ)",
-      "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     },
     {
-      "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-      "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+      "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -460,7 +451,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-      "url": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     }
   ]
 } as const;
@@ -490,7 +481,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -502,31 +493,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-          "item": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+          "item": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#webpage",
-      "url": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
+      "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#webpage",
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
       "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -542,11 +533,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#article",
+      "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#webpage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to",
       "headline": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
       "alternativeHeadline": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
       "description": "A lot of writers start with the same fantasy: \"I'll just keep working alone until it's perfect.\" Then rereading turns into a blur of the same mistakes you somehow stop seeing\u2014typos, inconsistent details, and the deeper craft issues that keep the book from landing.",
@@ -576,55 +567,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage"
       },
+      "datePublished": "2027-06-04",
+      "dateModified": "2027-06-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-          "url": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-          "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+          "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         },
         {
           "@type": "WebPage",
           "name": "Inside a book edit: what really happens (FAQ)",
-          "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+          "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
         },
         {
           "@type": "WebPage",
-          "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-          "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+          "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
+          "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_hero_deadline_dread_blog_hero_landscape_ab8acf845894.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to/blog/blog_hero_deadline_dread_blog_hero_landscape_ab8acf845894.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 deadline dread",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#faq",
+      "@id": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to#faq",
       "mainEntity": [
         {
           "@type": "Question",

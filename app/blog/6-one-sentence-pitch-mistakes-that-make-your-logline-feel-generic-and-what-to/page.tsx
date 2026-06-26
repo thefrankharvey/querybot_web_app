@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "6 one sentence pitch mistakes that make your logline feel generic (and what to do instead)",
   "description": "If your logline feels like it belongs to \"a thousand stories,\" the problem is compression, not the writing itself.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-31",
+  "modifiedDate": "2026-07-31",
   "canonicalUrl": "https://writequeryhook.com/blog/6-one-sentence-pitch-mistakes-that-make-your-logline-feel-generic-and-what-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -682,6 +682,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/6-one-sentence-pitch-mistakes-that-make-your-logline-feel-generic-and-what-to#primaryimage"
       },
+      "datePublished": "2026-07-31",
+      "dateModified": "2026-07-31",
       "mentions": [
         {
           "@type": "WebPage",

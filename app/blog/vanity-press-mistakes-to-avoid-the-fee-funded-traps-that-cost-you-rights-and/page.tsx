@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
   "description": "If you've ever heard \"distribution to major bookstores\" and felt your stomach tighten\u2014good. That reaction isn't paranoia. It's your brain noticing you might be paying for marketing language, not market demand.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
+  "publishedDate": "2027-07-28",
+  "modifiedDate": "2027-07-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_hero_confused_annoyed_blog_hero_landscape_1ea5faef674e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_hero_confused_annoyed_blog_hero_landscape_1ea5faef674e.jpeg?updatedAt=1782266651848",
     "alt": "blog hero \u00b7 confused annoyed",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-      "item": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
+      "item": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
     }
   ],
   "tldrBlocks": [],
@@ -93,7 +93,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_tldr_blog_section_landscape_f94c273d7a04.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_tldr_blog_section_landscape_f94c273d7a04.gif?updatedAt=1782266652485",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -143,13 +143,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_rage_clarity_blog_section_landscape_853e0ebdd6d6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_rage_clarity_blog_section_landscape_853e0ebdd6d6.gif",
         "alt": "Not understanding how the \"fee-funded\" profit model changes everything",
-        "width": 6734,
-        "height": 4450,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -197,13 +197,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_dread_blank_budget_blog_section_landscape_8b08d31e5dab.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_dread_blank_budget_blog_section_landscape_8b08d31e5dab.jpeg",
         "alt": "Paying \"publishing fees\" without clear receipts for what you're actually getting",
-        "width": 298,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
-        "provider": "giphy",
+        "width": 6590,
+        "height": 4393,
+        "creator": "Hanna Pad",
+        "creatorUrl": "https://www.pexels.com/@anna-nekrashevich",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -366,32 +366,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_section_image_decision_resolve_blog_section_landscape_bedebf80a50d.jpeg",
-    "alt": "blog section image \u00b7 decision resolve",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Yan Krukau",
-    "creatorUrl": "https://www.pexels.com/@yankrukov",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-      "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     },
     {
       "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     },
     {
       "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-      "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
     },
     {
-      "title": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -426,7 +417,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
     }
   ]
 } as const;
@@ -456,7 +447,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,31 +459,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-          "item": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
+          "item": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
+      "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#webpage",
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
       "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -508,11 +499,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#article",
+      "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#webpage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and",
       "headline": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
       "alternativeHeadline": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
       "description": "If you've ever heard \"distribution to major bookstores\" and felt your stomach tighten\u2014good. That reaction isn't paranoia. It's your brain noticing you might be paying for marketing language, not market demand.",
@@ -542,40 +533,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage"
       },
+      "datePublished": "2027-07-28",
+      "dateModified": "2027-07-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+          "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
         },
         {
           "@type": "WebPage",
           "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-          "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+          "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
         },
         {
           "@type": "WebPage",
           "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-          "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+          "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
+          "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_hero_confused_annoyed_blog_hero_landscape_1ea5faef674e.jpeg",
+      "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and/blog/blog_hero_confused_annoyed_blog_hero_landscape_1ea5faef674e.jpeg?updatedAt=1782266651848",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confused annoyed",
@@ -590,7 +583,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#faq",
+      "@id": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

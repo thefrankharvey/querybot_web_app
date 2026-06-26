@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
   "description": "You wrote the draft. You reread it until your brain went fuzzy. You swear it's \"pretty clean.\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
+  "publishedDate": "2027-05-29",
+  "modifiedDate": "2027-05-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_hero_solo_author_myth_collaboration_blog_hero_landscape_ecc2f0c5fd99.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_hero_solo_author_myth_collaboration_blog_hero_landscape_ecc2f0c5fd99.jpeg?updatedAt=1782177850472",
     "alt": "blog hero \u00b7 solo-author myth collaboration",
     "width": 3834,
     "height": 2875,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
+      "item": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     }
   ],
   "tldrBlocks": [],
@@ -120,7 +120,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_opening_blog_section_landscape_d357c4cf214c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_opening_blog_section_landscape_d357c4cf214c.gif?updatedAt=1782177851033",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -178,7 +178,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_dread_wrong_fit_blog_section_landscape_1e151111c9ba.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_dread_wrong_fit_blog_section_landscape_1e151111c9ba.jpeg?updatedAt=1782177851739",
         "alt": "You're hiring the wrong editor for the wrong stage",
         "width": 5000,
         "height": 3333,
@@ -320,13 +320,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_typos_terror_final_pass_panic_blog_section_landscape_047ad0736c2f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_typos_terror_final_pass_panic_blog_section_landscape_047ad0736c2f.gif",
         "alt": "You treat copy editing and proofreading like they're the same thing",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wahoomara",
+        "creatorUrl": "https://giphy.com/gifs/typo-minor-spelling-mistake-M56ODZS3lNohNIoVDd",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -458,32 +458,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_section_image_action_fix_it_now_blog_section_landscape_9ecc6dbb5633.gif",
-    "alt": "blog section image \u00b7 action fix it now",
-    "width": 346,
-    "height": 200,
-    "creator": "adrighen",
-    "creatorUrl": "https://giphy.com/gifs/adrighen-comeback-i-guess-bro-remastered-8Gilqf9XAwVte4GZGE",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     },
     {
       "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     },
     {
       "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-      "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+      "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
     },
     {
-      "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-      "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+      "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -526,7 +517,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "url": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     }
   ]
 } as const;
@@ -556,7 +547,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -568,31 +559,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
+          "item": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
       "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -608,11 +599,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth",
       "headline": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
       "alternativeHeadline": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
       "description": "You wrote the draft. You reread it until your brain went fuzzy. You swear it's \"pretty clean.\"",
@@ -642,40 +633,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage"
       },
+      "datePublished": "2027-05-29",
+      "dateModified": "2027-05-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "url": "https://writequeryhook.com/query-letters/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+          "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
         },
         {
           "@type": "WebPage",
           "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-          "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+          "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
         },
         {
           "@type": "WebPage",
-          "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-          "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+          "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_hero_solo_author_myth_collaboration_blog_hero_landscape_ecc2f0c5fd99.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_414/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth/blog/blog_hero_solo_author_myth_collaboration_blog_hero_landscape_ecc2f0c5fd99.jpeg?updatedAt=1782177850472",
       "width": 3834,
       "height": 2875,
       "caption": "blog hero \u00b7 solo-author myth collaboration",
@@ -690,7 +683,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#faq",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth#faq",
       "mainEntity": [
         {
           "@type": "Question",

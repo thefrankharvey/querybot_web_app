@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Submissions aren\u2019t failing you\u2014your excuses are: 7 writing mistakes that keep drafts in a folder",
   "description": "You know the myth I keep hearing in the trenches? That your work is failing because it\u2019s not good enough yet.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-27",
+  "modifiedDate": "2027-03-27",
   "canonicalUrl": "https://writequeryhook.com/blog/submissions-aren-t-failing-you-your-excuses-are-7-writing-mistakes-that-keep",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -726,6 +726,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/submissions-aren-t-failing-you-your-excuses-are-7-writing-mistakes-that-keep#primaryimage"
       },
+      "datePublished": "2027-03-27",
+      "dateModified": "2027-03-27",
       "mentions": [
         {
           "@type": "WebPage",

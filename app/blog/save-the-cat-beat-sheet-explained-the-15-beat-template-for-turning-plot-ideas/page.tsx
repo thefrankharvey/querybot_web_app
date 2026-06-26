@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Save the Cat Beat Sheet Explained: the 15-Beat Template for Turning Plot Ideas Into Pacing",
   "description": "The first time I tried to outline with \"good ideas\" instead of beats, I hit the same wall: the cursor blinked like it was mocking me.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-23",
+  "modifiedDate": "2026-11-23",
   "canonicalUrl": "https://writequeryhook.com/blog/save-the-cat-beat-sheet-explained-the-15-beat-template-for-turning-plot-ideas",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -979,6 +979,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/save-the-cat-beat-sheet-explained-the-15-beat-template-for-turning-plot-ideas#primaryimage"
       },
+      "datePublished": "2026-11-23",
+      "dateModified": "2026-11-23",
       "mentions": [
         {
           "@type": "WebPage",

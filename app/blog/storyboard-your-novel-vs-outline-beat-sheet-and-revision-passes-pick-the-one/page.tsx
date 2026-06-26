@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Storyboard your novel vs outline, beat sheet, and revision passes\u2014pick the one that actually fixes pacing",
   "description": "Most writers don't lack ideas. They have characters, settings, themes, random scenes that feel electric on their own\u2014then they try to assemble it into a novel and the whole thing starts sliding around like wet soap.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-31",
+  "modifiedDate": "2027-01-31",
   "canonicalUrl": "https://writequeryhook.com/blog/storyboard-your-novel-vs-outline-beat-sheet-and-revision-passes-pick-the-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -657,6 +657,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/storyboard-your-novel-vs-outline-beat-sheet-and-revision-passes-pick-the-one#primaryimage"
       },
+      "datePublished": "2027-01-31",
+      "dateModified": "2027-01-31",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
   "description": "Most blurbs die because online shoppers see only a tiny slice before deciding whether to keep reading. The first line does the selling because shoppers only see a tiny slice of your blurb.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
+  "publishedDate": "2027-06-03",
+  "modifiedDate": "2027-06-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_hero_dread_scroll_stopping_blog_hero_landscape_02d4d0485c0b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_hero_dread_scroll_stopping_blog_hero_landscape_02d4d0485c0b.jpeg?updatedAt=1782190435186",
     "alt": "blog hero \u00b7 dread scroll-stopping",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-      "item": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
+      "item": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     }
   ],
   "tldrBlocks": [
@@ -98,13 +98,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_opening_blog_section_landscape_223f9bcc1dc4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_opening_blog_section_landscape_223f9bcc1dc4.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -152,13 +152,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_tiny_window_read_more_click_blog_section_landscape_c31d91c1aa95.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_tiny_window_read_more_click_blog_section_landscape_c31d91c1aa95.jpeg",
         "alt": "Amazon vs other retailers: visibility and the \"read more\" problem",
-        "width": 356,
-        "height": 200,
-        "creator": "ThisIsOpel",
-        "creatorUrl": "https://giphy.com/gifs/ThisIsOpel-car-bright-corsa-WoKbj2IQ0yVsPbYyC5",
-        "provider": "giphy",
+        "width": 4288,
+        "height": 2848,
+        "creator": "wal_ 172619",
+        "creatorUrl": "https://www.pexels.com/@wal_-172619-2156618639",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -319,7 +319,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_reviews_sales_signals_blog_section_landscape_f7e1f5946c3a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_reviews_sales_signals_blog_section_landscape_f7e1f5946c3a.gif?updatedAt=1782190437161",
         "alt": "Amazon vs other retailers: proof signals and what to do when you don't have them",
         "width": 234,
         "height": 200,
@@ -370,32 +370,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_section_image_decision_commit_blog_section_landscape_f69d227ed8bc.jpeg",
-    "alt": "blog section image \u00b7 decision commit",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     },
     {
       "title": "Inside a book edit: what really happens (FAQ)",
-      "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     },
     {
       "title": "Know when to leave your agent: a practical FAQ",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     },
     {
-      "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+      "title": "Know when to leave your agent: a case-study checklist after the offer",
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -430,7 +421,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-      "url": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
     }
   ]
 } as const;
@@ -460,7 +451,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -472,31 +463,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-          "item": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
+          "item": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
+      "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
       "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -512,11 +503,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#article",
+      "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually",
       "headline": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
       "alternativeHeadline": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
       "description": "Most blurbs die because online shoppers see only a tiny slice before deciding whether to keep reading. The first line does the selling because shoppers only see a tiny slice of your blurb.",
@@ -546,40 +537,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage"
       },
+      "datePublished": "2027-06-03",
+      "dateModified": "2027-06-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-          "url": "https://writequeryhook.com/query-letters/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+          "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         },
         {
           "@type": "WebPage",
           "name": "Inside a book edit: what really happens (FAQ)",
-          "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+          "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a practical FAQ",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         },
         {
           "@type": "WebPage",
-          "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+          "name": "Know when to leave your agent: a case-study checklist after the offer",
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_hero_dread_scroll_stopping_blog_hero_landscape_02d4d0485c0b.jpeg",
+      "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_420/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually/blog/blog_hero_dread_scroll_stopping_blog_hero_landscape_02d4d0485c0b.jpeg?updatedAt=1782190435186",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread scroll-stopping",
@@ -594,7 +587,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#faq",
+      "@id": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually#faq",
       "mainEntity": [
         {
           "@type": "Question",

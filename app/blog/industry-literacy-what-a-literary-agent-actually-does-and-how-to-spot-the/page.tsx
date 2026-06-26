@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
   "description": "TLDR",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
+  "publishedDate": "2027-06-04",
+  "modifiedDate": "2027-06-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_hero_dread_confusion_blog_hero_landscape_1a542a5a88fb.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_hero_dread_confusion_blog_hero_landscape_1a542a5a88fb.jpeg?updatedAt=1782196912634",
     "alt": "blog hero \u00b7 dread confusion",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-      "item": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
+      "item": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
     }
   ],
   "tldrBlocks": [],
@@ -105,13 +105,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_opening_blog_section_landscape_fcdf0217eeb2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_opening_blog_section_landscape_fcdf0217eeb2.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -243,13 +243,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_money_fairness_blog_section_landscape_34db1fb1c6ba.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_money_fairness_blog_section_landscape_34db1fb1c6ba.jpeg",
         "alt": "How literary agents get paid royalties and advances (and why that matters)",
-        "width": 200,
-        "height": 200,
-        "creator": "laguarimba",
-        "creatorUrl": "https://giphy.com/gifs/laguarimba-balance-guarimba-comparing-StVj2exyZC9QBcERKP",
-        "provider": "giphy",
+        "width": 2888,
+        "height": 1925,
+        "creator": "Jonathan Borba",
+        "creatorUrl": "https://www.pexels.com/@jonathanborba",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -381,7 +381,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_panic_scam_blog_section_landscape_96da89824b0f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_panic_scam_blog_section_landscape_96da89824b0f.gif?updatedAt=1782196914430",
         "alt": "Red flags when choosing a literary agent",
         "width": 350,
         "height": 200,
@@ -567,32 +567,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_section_image_action_desk_blog_section_landscape_9255a18e460a.jpeg",
-    "alt": "blog section image \u00b7 action desk",
-    "width": 5192,
-    "height": 3466,
-    "creator": "Pavel Danilyuk",
-    "creatorUrl": "https://www.pexels.com/@pavel-danilyuk",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-      "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
     },
     {
       "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-      "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     },
     {
       "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     },
     {
       "title": "Know when to leave your agent: a practical FAQ",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -636,12 +627,7 @@ const PAGE_DATA = {
       "text": "And if you want a practical path you can execute without spiraling, keep your next step small: revise the manuscript, tighten the query letter, and treat red flags when choosing a literary agent like dealbreakers, not \"maybe later\" problems."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -669,7 +655,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -681,31 +667,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-          "item": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
+          "item": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
+      "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#webpage",
+      "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
       "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -721,11 +707,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#article",
+      "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#webpage"
+        "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the",
       "headline": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
       "alternativeHeadline": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
       "description": "TLDR",
@@ -755,40 +741,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage"
       },
+      "datePublished": "2027-06-04",
+      "dateModified": "2027-06-04",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs"
-        },
-        {
-          "@type": "WebPage",
           "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-          "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+          "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
         },
         {
           "@type": "WebPage",
           "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-          "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+          "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "url": "https://writequeryhook.com/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision-workflow-actually-works"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a practical FAQ",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_hero_dread_confusion_blog_hero_landscape_1a542a5a88fb.jpeg",
+      "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_421/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the/blog/blog_hero_dread_confusion_blog_hero_landscape_1a542a5a88fb.jpeg?updatedAt=1782196912634",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
@@ -803,7 +786,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#faq",
+      "@id": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

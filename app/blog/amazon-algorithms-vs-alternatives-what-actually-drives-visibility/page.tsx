@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon algorithms vs alternatives: what actually drives visibility",
   "description": "Amazon algorithms gets talked about like it's one magical brain that decides your fate. Authors show up with spreadsheets, prayers, and seven different \"trust me bro\" theories about what matters.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
+  "publishedDate": "2027-11-03",
+  "modifiedDate": "2027-11-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "item": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "item": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     }
   ],
   "tldrBlocks": [],
@@ -509,19 +509,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Author branding vs alternatives: which one actually sells your books",
-      "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
-    },
-    {
-      "title": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-      "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     },
     {
       "title": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-      "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+      "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
     },
     {
-      "title": "Literary agent cost faq",
-      "url": "https://writequeryhook.com/literary-agent-cost-faq"
+      "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+    },
+    {
+      "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -560,7 +560,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Author branding vs alternatives: which one actually sells your books",
-      "url": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     }
   ]
 } as const;
@@ -590,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -602,31 +602,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "item": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+          "item": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
       "name": "Amazon algorithms vs alternatives: what actually drives visibility",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -642,11 +642,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#article",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility",
       "headline": "Amazon algorithms vs alternatives: what actually drives visibility",
       "alternativeHeadline": "Amazon algorithms vs alternatives: what actually drives visibility",
       "description": "Amazon algorithms gets talked about like it's one magical brain that decides your fate. Authors show up with spreadsheets, prayers, and seven different \"trust me bro\" theories about what matters.",
@@ -676,39 +676,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage"
       },
+      "datePublished": "2027-11-03",
+      "dateModified": "2027-11-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Author branding vs alternatives: which one actually sells your books",
-          "url": "https://writequeryhook.com/query-letters/author-branding-vs-alternatives-which-one-actually-sells-your-books"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Author branding vs alternatives: which one actually sells your books",
-          "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-          "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+          "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
         },
         {
           "@type": "WebPage",
           "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-          "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+          "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
         },
         {
           "@type": "WebPage",
-          "name": "Literary agent cost faq",
-          "url": "https://writequeryhook.com/literary-agent-cost-faq"
+          "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
+          "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
+          "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_602/amazon-algorithms-vs-alternatives-what-actually-drives-visibility/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_3dd4cda39e0d.jpeg",
       "width": 6000,
       "height": 4000,
@@ -724,7 +721,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#faq",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility#faq",
       "mainEntity": [
         {
           "@type": "Question",

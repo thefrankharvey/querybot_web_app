@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to respond to an offer of representation without getting rushed",
   "description": "You finally got the email/voicemail/holy-crap call: a literary agent wants representation.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
+  "publishedDate": "2027-04-22",
+  "modifiedDate": "2027-04-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_hero_offer_adrenaline_blog_hero_landscape_9e56aecf3b9a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_hero_offer_adrenaline_blog_hero_landscape_9e56aecf3b9a.jpeg?updatedAt=1781851858668",
     "alt": "blog hero \u00b7 offer adrenaline",
     "width": 3732,
     "height": 2118,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to respond to an offer of representation without getting rushed",
-      "item": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "item": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     }
   ],
   "tldrBlocks": [],
@@ -153,13 +153,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_gratitude_thanks_blog_section_landscape_3cdd8bd10a4b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_gratitude_thanks_blog_section_landscape_3cdd8bd10a4b.jpeg",
         "alt": "Step 2: Thank the agent and schedule a separate time to discuss logistics",
-        "width": 200,
-        "height": 200,
-        "creator": "puffinsdotfun",
-        "creatorUrl": "https://giphy.com/gifs/puffinsdotfun-thank-you-thanks-grateful-oZe64q4AC4EdKrEge5",
-        "provider": "giphy",
+        "width": 5728,
+        "height": 3819,
+        "creator": "Vie Studio",
+        "creatorUrl": "https://www.pexels.com/@vie-studio",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -317,13 +317,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_uncertainty_hands_on_blog_section_landscape_70691d0e42fc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_uncertainty_hands_on_blog_section_landscape_70691d0e42fc.gif",
         "alt": "Step 6: Clarify revision requirements and hands-on support",
-        "width": 6000,
-        "height": 4000,
-        "creator": "lil artsy",
-        "creatorUrl": "https://www.pexels.com/@lilartsy",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bernardson-askb-ginad-aVaQPQ9hplsl6XBQiG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -367,13 +367,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_uncertainty_hands_on_blog_section_landscape_70691d0e42fc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_uncertainty_hands_on_blog_section_landscape_70691d0e42fc.gif",
         "alt": "Step 6: Clarify revision requirements and hands-on support",
-        "width": 6000,
-        "height": 4000,
-        "creator": "lil artsy",
-        "creatorUrl": "https://www.pexels.com/@lilartsy",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bernardson-askb-ginad-aVaQPQ9hplsl6XBQiG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -417,7 +417,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_gut_check_clarity_blog_section_landscape_6c092bc04cb6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_gut_check_clarity_blog_section_landscape_6c092bc04cb6.gif?updatedAt=1781851869661",
         "alt": "Step 7: Decide based on clarity\u2014then respond with professionalism",
         "width": 112,
         "height": 200,
@@ -428,32 +428,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_section_image_next_steps_write_notes_blog_section_landscape_5c7f3f8fb68d.jpeg",
-    "alt": "blog section image \u00b7 next steps write notes",
-    "width": 4272,
-    "height": 2848,
-    "creator": "jessica olivella",
-    "creatorUrl": "https://www.pexels.com/@jessica-olivella-555697728",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     },
     {
       "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-      "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+      "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
     },
     {
-      "title": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-      "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+      "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     },
     {
-      "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-      "url": "https://writequeryhook.com/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
+      "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -492,7 +483,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "url": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     }
   ]
 } as const;
@@ -522,7 +513,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -534,31 +525,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to respond to an offer of representation without getting rushed",
-          "item": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "item": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
       "name": "How to respond to an offer of representation without getting rushed",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -574,11 +565,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#article",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed",
       "headline": "How to respond to an offer of representation without getting rushed",
       "alternativeHeadline": "How to respond to an offer of representation without getting rushed",
       "description": "You finally got the email/voicemail/holy-crap call: a literary agent wants representation.",
@@ -608,40 +599,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage"
       },
+      "datePublished": "2027-04-22",
+      "dateModified": "2027-04-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "url": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
-        },
-        {
-          "@type": "WebPage",
-          "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+          "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
         },
         {
           "@type": "WebPage",
           "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-          "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+          "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
         },
         {
           "@type": "WebPage",
-          "name": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-          "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+          "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
+          "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         },
         {
           "@type": "WebPage",
-          "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-          "url": "https://writequeryhook.com/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
+          "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
+          "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_hero_offer_adrenaline_blog_hero_landscape_9e56aecf3b9a.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/how-to-respond-to-an-offer-of-representation-without-getting-rushed/blog/blog_hero_offer_adrenaline_blog_hero_landscape_9e56aecf3b9a.jpeg?updatedAt=1781851858668",
       "width": 3732,
       "height": 2118,
       "caption": "blog hero \u00b7 offer adrenaline",
@@ -656,7 +644,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#howto",
       "name": "How to respond to an offer of representation without getting rushed",
       "description": "You finally got the email/voicemail/holy-crap call: a literary agent wants representation.",
       "totalTime": "PT8M",
@@ -666,56 +654,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Calm down and buy time (without being a jerk)",
           "text": "First, breathe. Then assume you're not acting at your sharpest right now.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-1-calm-down-and-buy-time-without-being-a-jerk"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-1-calm-down-and-buy-time-without-being-a-jerk"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Thank the agent and schedule a separate time to discuss logistics",
           "text": "Send a quick, warm response. Thank them for the representation offer. Then schedule a separate time to discuss details\u2014contract, expectations, and next steps.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-2-thank-the-agent-and-schedule-a-separate-time-to-discuss-logistics"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-2-thank-the-agent-and-schedule-a-separate-time-to-discuss-logistics"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Check whether other agents already have the manuscript (and handle it cleanly)",
           "text": "Now you handle the social part without doing \"blast\" behavior.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-3-check-whether-other-agents-already-have-the-manuscript-and-handle-it"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-3-check-whether-other-agents-already-have-the-manuscript-and-handle-it"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Verify the agent and review the contract",
           "text": "Before you sign anything, verify the agent again. Not because you \"forgot\" earlier. Because you didn't just get an email\u2014you're about to accept a long-term relationship with real implications.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-4-verify-the-agent-and-review-the-contract"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-4-verify-the-agent-and-review-the-contract"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Ask what questions to ask a literary agent",
           "text": "Do not walk into the representation conversation with vibes and hope. Walk in with questions, because the agent's answers are the data you'll use to decide.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-5-ask-what-questions-to-ask-a-literary-agent"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-5-ask-what-questions-to-ask-a-literary-agent"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Clarify revision requirements and hands-on support",
           "text": "Agent excitement signals they like your work, but not that the manuscript is already ready for editors. Ask directly whether revisions are required and what that looks like:",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-6-clarify-revision-requirements-and-hands-on-support"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-6-clarify-revision-requirements-and-hands-on-support"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Decide based on clarity\u2014then respond with professionalism",
           "text": "Base your decision on the actual facts: the contract terms you've read, the communication style you observed, the payment timeline the agent outlined, what revisions they expect before submission, and what rights they control. Don't decide because fear of losing the offer, the adrenaline rush, or guilt about seeming ungrateful will cloud your judgment. Calm, notes, comparison, and gut feeling matter only when you've separated them from panic.",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-7-decide-based-on-clarity-then-respond-with-professionalism"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#step-7-decide-based-on-clarity-then-respond-with-professionalism"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed#faq",
       "mainEntity": [
         {
           "@type": "Question",

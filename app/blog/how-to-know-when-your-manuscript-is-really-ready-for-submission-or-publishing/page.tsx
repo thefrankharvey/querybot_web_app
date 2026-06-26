@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Know When Your Manuscript Is Really Ready for Submission or Publishing",
   "description": "You're in that weird no-man's-land where the manuscript is technically finished\u2026 except your brain keeps nudging you back into revision like it's a trapdoor. You spot one awkward sentence. Then another. Then suddenly you're rewriting whole paragraphs at 1:00 a.m. while fear whispers, Who would ever trust this?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-13",
+  "modifiedDate": "2027-02-13",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-know-when-your-manuscript-is-really-ready-for-submission-or-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -586,6 +586,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-know-when-your-manuscript-is-really-ready-for-submission-or-publishing#primaryimage"
       },
+      "datePublished": "2027-02-13",
+      "dateModified": "2027-02-13",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dual timeline, dual POV: how to stop whiplash and make switching feel inevitable",
   "description": "You already can tell when a book is doing dual timeline dual POV wrong. It's the moment you read a few pages, get comfy with a character's problem, and then\u2014bam\u2014your brain has to reorient to a different life, a different voice, a different clock.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-12",
+  "modifiedDate": "2026-10-12",
   "canonicalUrl": "https://writequeryhook.com/blog/dual-timeline-dual-pov-how-to-stop-whiplash-and-make-switching-feel-inevitable",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -581,6 +581,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dual-timeline-dual-pov-how-to-stop-whiplash-and-make-switching-feel-inevitable#primaryimage"
       },
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
       "mentions": [
         {
           "@type": "WebPage",

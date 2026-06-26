@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
   "description": "You can feel it when the delay starts winning. Day 12 turns into day 60. The inbox stays quiet. Your brain starts doing that fun, self-roasting thing where it turns silence into meaning.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
+  "publishedDate": "2027-04-28",
+  "modifiedDate": "2027-04-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_hero_recognition_stuck_blog_hero_landscape_dce5b8e9af4a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_hero_recognition_stuck_blog_hero_landscape_dce5b8e9af4a.jpeg?updatedAt=1782058480222",
     "alt": "blog hero \u00b7 recognition stuck",
     "width": 7732,
     "height": 5155,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "item": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "item": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     }
   ],
   "tldrBlocks": [],
@@ -203,13 +203,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_solidarity_partnership_blog_section_landscape_3adeec565d83.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_solidarity_partnership_blog_section_landscape_3adeec565d83.jpeg",
         "alt": "Agent-author creative team dynamics: stop treating the agent like a vending machine",
-        "width": 356,
-        "height": 200,
-        "creator": "OneevoAgency",
-        "creatorUrl": "https://giphy.com/gifs/montreal-odigues-oneevo-hTNxst5U2p3f6ZaCl7",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Gustavo Fring",
+        "creatorUrl": "https://www.pexels.com/@gustavo-fring",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -263,13 +263,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_agency_responsibility_blog_section_landscape_db41e9b685e1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_agency_responsibility_blog_section_landscape_db41e9b685e1.gif",
         "alt": "What to do when you control the submissions process (coordination becomes your job)",
-        "width": 4000,
-        "height": 2667,
-        "creator": "Anya  Ju\u00e1rez Tenorio",
-        "creatorUrl": "https://www.pexels.com/@anya-juarez-tenorio-227888521",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "stellifymedia",
+        "creatorUrl": "https://giphy.com/gifs/stellifymedia-wrong-millionaire-incorrect-u5OFEvEE2c4WBFIxMu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -351,7 +351,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_panic_isolation_blog_section_landscape_db7e252f32fd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_panic_isolation_blog_section_landscape_db7e252f32fd.gif?updatedAt=1782058483112",
         "alt": "What if the communication channel excludes the agent? Fix it, don't rationalize it",
         "width": 482,
         "height": 200,
@@ -362,32 +362,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_0cf03f08a7d9.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     },
     {
       "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     },
     {
       "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     },
     {
-      "title": "How to revise after bad reviews without losing your writer voice",
-      "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -434,7 +425,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "url": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
     }
   ]
 } as const;
@@ -464,7 +455,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -476,31 +467,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "item": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+          "item": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#webpage",
-      "url": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#webpage",
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
       "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -516,11 +507,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#article",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#webpage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict",
       "headline": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
       "alternativeHeadline": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
       "description": "You can feel it when the delay starts winning. Day 12 turns into day 60. The inbox stays quiet. Your brain starts doing that fun, self-roasting thing where it turns silence into meaning.",
@@ -550,40 +541,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage"
       },
+      "datePublished": "2027-04-28",
+      "dateModified": "2027-04-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "url": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
         },
         {
           "@type": "WebPage",
           "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         },
         {
           "@type": "WebPage",
           "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+          "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
         },
         {
           "@type": "WebPage",
           "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         },
         {
           "@type": "WebPage",
-          "name": "How to revise after bad reviews without losing your writer voice",
-          "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+          "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
+          "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_hero_recognition_stuck_blog_hero_landscape_dce5b8e9af4a.jpeg",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict/blog/blog_hero_recognition_stuck_blog_hero_landscape_dce5b8e9af4a.jpeg?updatedAt=1782058480222",
       "width": 7732,
       "height": 5155,
       "caption": "blog hero \u00b7 recognition stuck",
@@ -598,7 +591,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#faq",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict#faq",
       "mainEntity": [
         {
           "@type": "Question",

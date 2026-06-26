@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How literary agents actually handle the slush pile: myths, speed-reads, and what gets a second look",
   "description": "You send unsolicited submissions into the void. No referral, no connection, just your manuscript and the hope that it's the right kind of hope\u2014i.e., the kind that survives a professional screen.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-17",
+  "modifiedDate": "2027-03-17",
   "canonicalUrl": "https://writequeryhook.com/blog/how-literary-agents-actually-handle-the-slush-pile-myths-speed-reads-and-what",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -610,6 +610,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-literary-agents-actually-handle-the-slush-pile-myths-speed-reads-and-what#primaryimage"
       },
+      "datePublished": "2027-03-17",
+      "dateModified": "2027-03-17",
       "mentions": [
         {
           "@type": "WebPage",

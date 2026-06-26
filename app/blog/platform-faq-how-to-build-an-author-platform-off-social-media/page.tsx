@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Platform FAQ: how to build an author platform off social media",
   "description": "\"Platform\" gets abused constantly. People treat it like a follower-count trophy and call it a day. Then writers stare at their numbers like they're waiting for the universe to refresh their analytics dashboard.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media",
+  "publishedDate": "2027-07-20",
+  "modifiedDate": "2027-07-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_hero_confusion_follow_count_fixation_blog_hero_landscape_ac07d21d1af3.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_hero_confusion_follow_count_fixation_blog_hero_landscape_ac07d21d1af3.jpeg?updatedAt=1782260314201",
     "alt": "blog hero \u00b7 confusion follow-count fixation",
     "width": 3000,
     "height": 2000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Platform FAQ: how to build an author platform off social media",
-      "item": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media"
+      "item": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     }
   ],
   "tldrBlocks": [],
@@ -96,13 +96,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_relief_definition_blog_section_landscape_0b5e64281015.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_relief_definition_blog_section_landscape_0b5e64281015.gif",
         "alt": "What does \"author platform\" mean if it isn't social media followers?",
-        "width": 2560,
-        "height": 1707,
-        "creator": "neslihan \u0b68\u09ce",
-        "creatorUrl": "https://www.pexels.com/@neslihan-97164342",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -132,7 +132,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_frustration_algorithms_blog_section_landscape_62629da778e5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_frustration_algorithms_blog_section_landscape_62629da778e5.gif?updatedAt=1782260315517",
         "alt": "Why does the article say platform should be built off social media?",
         "width": 200,
         "height": 200,
@@ -226,7 +226,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_creative_energy_permission_blog_section_landscape_7fda03968848.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_creative_energy_permission_blog_section_landscape_7fda03968848.jpeg?updatedAt=1782260316132",
         "alt": "What kinds of writing count as platform-building if it's not novels or blog posts?",
         "width": 6720,
         "height": 4480,
@@ -262,7 +262,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_frustration_algorithms_blog_section_landscape_62629da778e5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_frustration_algorithms_blog_section_landscape_62629da778e5.gif?updatedAt=1782260315517",
         "alt": "Why does the article say platform should be built off social media?",
         "width": 200,
         "height": 200,
@@ -298,13 +298,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_relief_definition_blog_section_landscape_0b5e64281015.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_relief_definition_blog_section_landscape_0b5e64281015.gif",
         "alt": "What does \"author platform\" mean if it isn't social media followers?",
-        "width": 2560,
-        "height": 1707,
-        "creator": "neslihan \u0b68\u09ce",
-        "creatorUrl": "https://www.pexels.com/@neslihan-97164342",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -334,7 +334,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_creative_energy_permission_blog_section_landscape_7fda03968848.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_creative_energy_permission_blog_section_landscape_7fda03968848.jpeg?updatedAt=1782260316132",
         "alt": "What kinds of writing count as platform-building if it's not novels or blog posts?",
         "width": 6720,
         "height": 4480,
@@ -345,32 +345,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_section_image_action_plan_next_draft_blog_section_landscape_e6fb9f27ddef.gif",
-    "alt": "blog section image \u00b7 action plan next draft",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     },
     {
       "title": "What literary agents do (and what they don't do) FAQ",
-      "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     },
     {
       "title": "Aspiring author FAQ: how to get a book published",
-      "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     },
     {
-      "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-      "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+      "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -388,7 +379,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     }
   ]
 } as const;
@@ -418,7 +409,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -430,31 +421,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Platform FAQ: how to build an author platform off social media",
-          "item": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media"
+          "item": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#webpage",
-      "url": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media",
+      "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#webpage",
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media",
       "name": "Platform FAQ: how to build an author platform off social media",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage"
+        "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -470,11 +461,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#article",
+      "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#webpage"
+        "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media",
       "headline": "Platform FAQ: how to build an author platform off social media",
       "alternativeHeadline": "Platform FAQ: how to build an author platform off social media",
       "description": "\"Platform\" gets abused constantly. People treat it like a follower-count trophy and call it a day. Then writers stare at their numbers like they're waiting for the universe to refresh their analytics dashboard.",
@@ -504,40 +495,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage"
+        "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage"
       },
+      "datePublished": "2027-07-20",
+      "dateModified": "2027-07-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do (and what they don't do) FAQ",
-          "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
         },
         {
           "@type": "WebPage",
           "name": "Aspiring author FAQ: how to get a book published",
-          "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
-          "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-          "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+          "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_hero_confusion_follow_count_fixation_blog_hero_landscape_ac07d21d1af3.jpeg",
+      "@id": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/platform-faq-how-to-build-an-author-platform-off-social-media/blog/blog_hero_confusion_follow_count_fixation_blog_hero_landscape_ac07d21d1af3.jpeg?updatedAt=1782260314201",
       "width": 3000,
       "height": 2000,
       "caption": "blog hero \u00b7 confusion follow-count fixation",

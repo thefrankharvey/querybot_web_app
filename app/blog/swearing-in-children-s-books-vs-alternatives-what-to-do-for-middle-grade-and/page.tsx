@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Swearing in children's books vs alternatives: what to do for middle grade and young adult",
   "description": "Writers ask about swearing the same way they ask about pacing: with dread, because they can't see the finish line and they don't want to waste another revision cycle.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-07",
+  "modifiedDate": "2026-10-07",
   "canonicalUrl": "https://writequeryhook.com/blog/swearing-in-children-s-books-vs-alternatives-what-to-do-for-middle-grade-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -639,6 +639,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/swearing-in-children-s-books-vs-alternatives-what-to-do-for-middle-grade-and#primaryimage"
       },
+      "datePublished": "2026-10-07",
+      "dateModified": "2026-10-07",
       "mentions": [
         {
           "@type": "WebPage",

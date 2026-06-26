@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Ways to make your novel submission stand out: query email FAQ for the slush pile",
   "description": "A standout query is mostly boring competence. Clear subject line. Clean submission package. The right literary agent gets the right pages, for the right book, with the right story elements\u2014fast enough that a busy first reader doesn't lose interest or trust.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-04",
+  "modifiedDate": "2026-08-04",
   "canonicalUrl": "https://writequeryhook.com/blog/ways-to-make-your-novel-submission-stand-out-query-email-faq-for-the-slush-pile",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -520,6 +520,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/ways-to-make-your-novel-submission-stand-out-query-email-faq-for-the-slush-pile#primaryimage"
       },
+      "datePublished": "2026-08-04",
+      "dateModified": "2026-08-04",
       "mentions": [
         {
           "@type": "WebPage",

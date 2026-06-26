@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
   "description": "If you\u2019ve ever searched for \u201chow to write a novel\u201d and got hit with fifty contradictory rules\u2014congrats, you\u2019ve discovered the industry\u2019s favorite sport: Advice Ping-Pong.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
+  "publishedDate": "2027-09-05",
+  "modifiedDate": "2027-09-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_hero_confused_overwhelmed_blog_hero_landscape_aac9083d69b7.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_hero_confused_overwhelmed_blog_hero_landscape_aac9083d69b7.jpeg",
     "alt": "blog hero \u00b7 confused overwhelmed",
-    "width": 200,
-    "height": 200,
-    "creator": "myemotionalsupportanimal",
-    "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-thinking-loading-processing-rXYUKVOFOemfgG7gaR",
-    "provider": "giphy",
+    "width": 5652,
+    "height": 3768,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "item": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
+      "item": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     }
   ],
   "tldrBlocks": [],
@@ -150,7 +150,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_promise_expectations_blog_section_landscape_84710b39aeb8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_promise_expectations_blog_section_landscape_84710b39aeb8.jpeg?updatedAt=1782328741587",
         "alt": "What each category promises (the reader contract)",
         "width": 6000,
         "height": 4000,
@@ -224,7 +224,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_fear_dread_blog_section_landscape_4134809c380c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_fear_dread_blog_section_landscape_4134809c380c.gif?updatedAt=1782328742042",
         "alt": "Deep-dive: genre fiction (aka the reader wants the hit on schedule)",
         "width": 198,
         "height": 200,
@@ -359,13 +359,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_readability_linear_structure_blog_section_landscape_0c353fffb40d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_readability_linear_structure_blog_section_landscape_0c353fffb40d.gif",
         "alt": "Deep-dive: mainstream fiction (aka cross-genre access with a clearer ending)",
-        "width": 5833,
-        "height": 3889,
-        "creator": "Masood Aslami",
-        "creatorUrl": "https://www.pexels.com/@masoodaslami",
-        "provider": "pexels",
+        "width": 160,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/building-singapore-structure-Tl25hw4bD37AQ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -393,7 +393,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_fear_dread_blog_section_landscape_4134809c380c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_fear_dread_blog_section_landscape_4134809c380c.gif?updatedAt=1782328742042",
         "alt": "Deep-dive: genre fiction (aka the reader wants the hit on schedule)",
         "width": 198,
         "height": 200,
@@ -442,7 +442,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_promise_expectations_blog_section_landscape_84710b39aeb8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_promise_expectations_blog_section_landscape_84710b39aeb8.jpeg?updatedAt=1782328741587",
         "alt": "What each category promises (the reader contract)",
         "width": 6000,
         "height": 4000,
@@ -490,32 +490,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_section_image_breath_out_commit_blog_section_landscape_1d8a3efc9d1c.jpeg",
-    "alt": "blog section image \u00b7 breath out commit",
-    "width": 6912,
-    "height": 3888,
-    "creator": "Sava Savov",
-    "creatorUrl": "https://www.pexels.com/@sava-savov-445034768",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
-    },
-    {
-      "title": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     },
     {
       "title": "Author websites and why they work FAQ",
-      "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+      "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
     },
     {
-      "title": "What i didnt know about my own industry FAQ (and what to do next)",
-      "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
+      "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+      "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
+    },
+    {
+      "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -550,7 +541,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "url": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     }
   ]
 } as const;
@@ -580,7 +571,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -592,31 +583,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "item": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
+          "item": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#webpage",
-      "url": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
+      "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#webpage",
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
       "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage"
+        "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -632,11 +623,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#article",
+      "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#webpage"
+        "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type",
       "headline": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
       "alternativeHeadline": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
       "description": "If you\u2019ve ever searched for \u201chow to write a novel\u201d and got hit with fifty contradictory rules\u2014congrats, you\u2019ve discovered the industry\u2019s favorite sport: Advice Ping-Pong.",
@@ -666,55 +657,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage"
+        "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage"
       },
+      "datePublished": "2027-09-05",
+      "dateModified": "2027-09-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "url": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
         },
         {
           "@type": "WebPage",
           "name": "Author websites and why they work FAQ",
-          "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+          "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What i didnt know about my own industry FAQ (and what to do next)",
-          "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
+          "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+          "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
+          "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_hero_confused_overwhelmed_blog_hero_landscape_aac9083d69b7.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type/blog/blog_hero_confused_overwhelmed_blog_hero_landscape_aac9083d69b7.jpeg",
+      "width": 5652,
+      "height": 3768,
       "caption": "blog hero \u00b7 confused overwhelmed",
-      "creditText": "myemotionalsupportanimal",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "myemotionalsupportanimal",
-        "url": "https://giphy.com/gifs/myemotionalsupportanimal-thinking-loading-processing-rXYUKVOFOemfgG7gaR"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#faq",
+      "@id": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type#faq",
       "mainEntity": [
         {
           "@type": "Question",

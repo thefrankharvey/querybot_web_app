@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Happy harsh truths of a writing career faq",
   "description": "Writing career fantasies are loud. Writing career math is quiet, and it doesn't care about how talented someone is. Most of us figure that out the hard way\u2014after submissions stall, after pages pile up, after the \"maybe soon\" timeline turns into a long season of silence.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq",
+  "publishedDate": "2027-08-24",
+  "modifiedDate": "2027-08-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_hero_shocked_paper_cuts_blog_hero_landscape_3ed1d877600c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_hero_shocked_paper_cuts_blog_hero_landscape_3ed1d877600c.jpeg",
     "alt": "blog hero \u00b7 shocked paper cuts",
-    "width": 160,
-    "height": 200,
-    "creator": "parthkothekar",
-    "creatorUrl": "https://giphy.com/gifs/paper-art-cut-uRvQCJh263xXTgdPYR",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Gustavo Fring",
+    "creatorUrl": "https://www.pexels.com/@gustavo-fring",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Happy harsh truths of a writing career faq",
-      "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq"
+      "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_income_low_expectations_blog_section_landscape_07243042d2cd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_income_low_expectations_blog_section_landscape_07243042d2cd.gif",
         "alt": "How much do writers typically earn from writing?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Nicola Barts",
-        "creatorUrl": "https://www.pexels.com/@nicola-barts",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "SmartAptSolutions",
+        "creatorUrl": "https://giphy.com/gifs/SmartAptSolutions-tops-smartaptsolutions-smartapt-cOQEYjG7EddwOCO0Kp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -185,7 +185,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_advance_earn_out_blog_section_landscape_213f2735b4ae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_advance_earn_out_blog_section_landscape_213f2735b4ae.gif?updatedAt=1782315559497",
         "alt": "Do advances guarantee authors will make money from their books?",
         "width": 200,
         "height": 200,
@@ -276,7 +276,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_motivation_stalled_timeline_blog_section_landscape_616a3b28b877.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_motivation_stalled_timeline_blog_section_landscape_616a3b28b877.jpeg?updatedAt=1782315560050",
         "alt": "How can writers stay motivated despite setbacks or slow progress?",
         "width": 6000,
         "height": 4000,
@@ -301,32 +301,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_section_image_write_anyway_next_draft_blog_section_landscape_2ef12d88b27a.jpeg",
-    "alt": "blog section image \u00b7 write anyway next draft",
-    "width": 5760,
-    "height": 3840,
-    "creator": "Thought Catalog",
-    "creatorUrl": "https://www.pexels.com/@thought-catalog-317580",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "A beginner's guide to writing IP FAQ",
-      "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     },
     {
       "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     },
     {
-      "title": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-      "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+      "title": "Common mistakes that make your category-busting book harder to sell",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
     },
     {
       "title": "What independent publishers and bookstores protect when publishing gets consolidated",
-      "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+      "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -335,7 +326,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "url": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     }
   ]
 } as const;
@@ -365,7 +356,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -377,31 +368,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Happy harsh truths of a writing career faq",
-          "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq"
+          "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#webpage",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq",
       "name": "Happy harsh truths of a writing career faq",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -417,11 +408,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#article",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq",
       "headline": "Happy harsh truths of a writing career faq",
       "alternativeHeadline": "Happy harsh truths of a writing career faq",
       "description": "Writing career fantasies are loud. Writing career math is quiet, and it doesn't care about how talented someone is. Most of us figure that out the hard way\u2014after submissions stall, after pages pile up, after the \"maybe soon\" timeline turns into a long season of silence.",
@@ -451,48 +442,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#primaryimage"
       },
+      "datePublished": "2027-08-24",
+      "dateModified": "2027-08-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "url": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         },
         {
           "@type": "WebPage",
           "name": "A beginner's guide to writing IP FAQ",
-          "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+          "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         },
         {
           "@type": "WebPage",
           "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+          "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
         },
         {
           "@type": "WebPage",
-          "name": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-          "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+          "name": "Common mistakes that make your category-busting book harder to sell",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
         },
         {
           "@type": "WebPage",
           "name": "What independent publishers and bookstores protect when publishing gets consolidated",
-          "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+          "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_hero_shocked_paper_cuts_blog_hero_landscape_3ed1d877600c.gif",
-      "width": 160,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/happy-harsh-truths-of-a-writing-career-faq/blog/blog_hero_shocked_paper_cuts_blog_hero_landscape_3ed1d877600c.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 shocked paper cuts",
-      "creditText": "parthkothekar",
+      "creditText": "Gustavo Fring",
       "author": {
         "@type": "Person",
-        "name": "parthkothekar",
-        "url": "https://giphy.com/gifs/paper-art-cut-uRvQCJh263xXTgdPYR"
+        "name": "Gustavo Fring",
+        "url": "https://www.pexels.com/@gustavo-fring"
       },
       "@context": "https://schema.org"
     }

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "6 tips for making feedback actually change your revision",
   "description": "At some point in the writing process, the draft stops feeling like a story and starts feeling like a mirror. You revise, you polish, you swap words, and somehow the book won't get any clearer\u2014only more familiar. Then you hit the wall where outside feedback starts looking less like \"help\" and more like oxygen.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-29",
+  "modifiedDate": "2026-09-29",
   "canonicalUrl": "https://writequeryhook.com/blog/6-tips-for-making-feedback-actually-change-your-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -529,6 +529,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/6-tips-for-making-feedback-actually-change-your-revision#primaryimage"
       },
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
       "mentions": [
         {
           "@type": "WebPage",

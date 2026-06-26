@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "8 tips for naming characters that don\u2019t turn your cast into soup",
   "description": "If you\u2019ve got a big cast, character naming stops being \u201cfun brainstorming\u201d and starts being the part where your brain trips over itself. Like, you swear you named them yesterday\u2014yet now two characters share the same first syllable, and your reader has to do that slow mental rewind thing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-10",
+  "modifiedDate": "2026-10-10",
   "canonicalUrl": "https://writequeryhook.com/blog/8-tips-for-naming-characters-that-don-t-turn-your-cast-into-soup",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -603,6 +603,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/8-tips-for-naming-characters-that-don-t-turn-your-cast-into-soup#primaryimage"
       },
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-10-10",
       "mentions": [
         {
           "@type": "WebPage",

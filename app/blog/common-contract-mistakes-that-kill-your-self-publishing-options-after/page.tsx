@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
   "description": "Writers love a comforting story: You got traditionally published, so you must own the book forever, and self-publishing is just flipping a switch. Cute. Wrong.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after",
+  "publishedDate": "2027-07-15",
+  "modifiedDate": "2027-07-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_hero_confusion_fear_blog_hero_landscape_56b062ee866e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_hero_confusion_fear_blog_hero_landscape_56b062ee866e.jpeg",
     "alt": "blog hero \u00b7 confusion fear",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 8688,
+    "height": 5792,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-      "item": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after"
+      "item": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
     }
   ],
   "tldrBlocks": [],
@@ -93,13 +93,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_tldr_blog_section_landscape_323c92e27624.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_tldr_blog_section_landscape_323c92e27624.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -128,13 +128,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_opening_blog_section_landscape_fbe597d4468d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_opening_blog_section_landscape_fbe597d4468d.jpeg",
         "alt": "Opening",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -185,13 +185,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_panic_deadline_blog_section_landscape_eb714ad4767d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_panic_deadline_blog_section_landscape_eb714ad4767d.gif",
         "alt": "You're drafting a self-publishing plan without checking rights status",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "britishbakeoff",
+        "creatorUrl": "https://giphy.com/gifs/britishbakeoff-zMWTXLXa0KNek5yDPv",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -427,32 +427,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_80fbeb0d731e.jpeg",
-    "alt": "blog section image \u00b7 fist-pump deep breath",
-    "width": 6856,
-    "height": 4902,
-    "creator": "Andrea Piacquadio",
-    "creatorUrl": "https://www.pexels.com/@olly",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-      "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+      "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
     },
     {
       "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-      "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+      "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
     },
     {
       "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     },
     {
-      "title": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+      "title": "5 things writers should know about Wattpad (and the future of publishing)",
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -470,7 +461,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-      "url": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
+      "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
     }
   ]
 } as const;
@@ -500,7 +491,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -512,31 +503,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-          "item": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after"
+          "item": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after",
+      "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#webpage",
+      "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after",
       "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -552,11 +543,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#article",
+      "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#webpage"
+        "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after",
       "headline": "Common contract mistakes that kill your self-publishing options after traditional publishing",
       "alternativeHeadline": "Common contract mistakes that kill your self-publishing options after traditional publishing",
       "description": "Writers love a comforting story: You got traditionally published, so you must own the book forever, and self-publishing is just flipping a switch. Cute. Wrong.",
@@ -586,48 +577,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage"
       },
+      "datePublished": "2027-07-15",
+      "dateModified": "2027-07-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-          "url": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-          "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+          "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
         },
         {
           "@type": "WebPage",
           "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-          "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+          "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
         },
         {
           "@type": "WebPage",
           "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+          "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
         },
         {
           "@type": "WebPage",
-          "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+          "name": "5 things writers should know about Wattpad (and the future of publishing)",
+          "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_hero_confusion_fear_blog_hero_landscape_56b062ee866e.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/common-contract-mistakes-that-kill-your-self-publishing-options-after/blog/blog_hero_confusion_fear_blog_hero_landscape_56b062ee866e.jpeg",
+      "width": 8688,
+      "height": 5792,
       "caption": "blog hero \u00b7 confusion fear",
-      "creditText": "abcnetwork",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     }

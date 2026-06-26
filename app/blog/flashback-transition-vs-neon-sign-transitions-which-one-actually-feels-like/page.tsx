@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Flashback transition vs neon-sign transitions: which one actually feels like memory?",
   "description": "Most flashbacks don't fail because the past is \"bad.\" They fail because the prose shows its work\u2014like a magician flashing the assistant. One second you're in the present. The next second you're reading something that practically shouts, HEY, REMEMBER THIS? That's why the jump feels clunky.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-21",
+  "modifiedDate": "2026-11-21",
   "canonicalUrl": "https://writequeryhook.com/blog/flashback-transition-vs-neon-sign-transitions-which-one-actually-feels-like",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -541,6 +541,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/flashback-transition-vs-neon-sign-transitions-which-one-actually-feels-like#primaryimage"
       },
+      "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
       "mentions": [
         {
           "@type": "WebPage",

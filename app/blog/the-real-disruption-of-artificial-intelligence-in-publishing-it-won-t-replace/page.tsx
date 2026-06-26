@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
   "description": "If the fear about artificial intelligence in publishing only sounds like \"it's coming for creative jobs,\" you're looking at the wrong enemy. The actual disruption is that the first pass gets cheaper, faster, and more common\u2014so the humans who survive will be the ones who can clearly own the last decision.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
+  "publishedDate": "2027-09-23",
+  "modifiedDate": "2027-09-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_hero_dread_panic_blog_hero_landscape_433e84376761.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_hero_dread_panic_blog_hero_landscape_433e84376761.jpeg",
     "alt": "blog hero \u00b7 dread panic",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-claim-to-fame-abc-fameabc-4F2eb2qLwsqHoGqS9J",
-    "provider": "giphy",
+    "width": 2541,
+    "height": 1691,
+    "creator": "SHVETS production",
+    "creatorUrl": "https://www.pexels.com/@shvets-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "item": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
+      "item": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     }
   ],
   "tldrBlocks": [],
@@ -102,7 +102,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_tldr_blog_section_landscape_b47ade3b4324.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_tldr_blog_section_landscape_b47ade3b4324.jpeg?updatedAt=1782335962134",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -267,13 +267,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_anxious_careful_blog_section_landscape_30dece41d76b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_anxious_careful_blog_section_landscape_30dece41d76b.gif",
         "alt": "Revision and rights checks: how AI helps revise manuscripts faster without selling out your standards",
-        "width": 6960,
-        "height": 4350,
-        "creator": "Sanket  Mishra",
-        "creatorUrl": "https://www.pexels.com/@sanketgraphy",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "mtv",
+        "creatorUrl": "https://giphy.com/gifs/mtv-shokka-mhad-get-some-rest-to-be-your-best-sx0df0AiEZirb7cqOc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -409,43 +409,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_suspicion_targeting_blog_section_landscape_8ec4054b58be.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_suspicion_targeting_blog_section_landscape_8ec4054b58be.gif",
         "alt": "Market trends and reader-driven newsletters: AI for market trend research in publishing that doesn't kill taste",
-        "width": 5344,
-        "height": 3563,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_section_image_fist_pump_restart_blog_section_landscape_43130a50dd1d.gif",
-    "alt": "blog section image \u00b7 fist pump restart",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     },
     {
       "title": "5 tips for choosing a small press (and when you should actually say yes)",
-      "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     },
     {
       "title": "5 tips for facing the happy harsh truths of a writing career",
-      "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     },
     {
-      "title": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-      "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
+      "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -488,7 +479,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     }
   ]
 } as const;
@@ -518,7 +509,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -530,31 +521,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "item": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
+          "item": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
+      "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#webpage",
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
       "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -570,11 +561,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#article",
+      "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#webpage"
+        "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace",
       "headline": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
       "alternativeHeadline": "The real disruption of artificial intelligence in publishing: it won\u2019t replace editors\u2014it replaces the first pass",
       "description": "If the fear about artificial intelligence in publishing only sounds like \"it's coming for creative jobs,\" you're looking at the wrong enemy. The actual disruption is that the first pass gets cheaper, faster, and more common\u2014so the humans who survive will be the ones who can clearly own the last decision.",
@@ -604,55 +595,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage"
       },
+      "datePublished": "2027-09-23",
+      "dateModified": "2027-09-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+          "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for facing the happy harsh truths of a writing career",
-          "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+          "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
         },
         {
           "@type": "WebPage",
-          "name": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-          "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
+          "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_hero_dread_panic_blog_hero_landscape_433e84376761.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace/blog/blog_hero_dread_panic_blog_hero_landscape_433e84376761.jpeg",
+      "width": 2541,
+      "height": 1691,
       "caption": "blog hero \u00b7 dread panic",
-      "creditText": "abcnetwork",
+      "creditText": "SHVETS production",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-claim-to-fame-abc-fameabc-4F2eb2qLwsqHoGqS9J"
+        "name": "SHVETS production",
+        "url": "https://www.pexels.com/@shvets-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#faq",
+      "@id": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace#faq",
       "mainEntity": [
         {
           "@type": "Question",

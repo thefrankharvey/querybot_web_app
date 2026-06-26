@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Raising Question hooks vs alternatives: which one actually keeps pages turning?",
   "description": "Some openings land like a snack. Others land like a stale cracker you shove in your mouth out of guilt.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-13",
+  "modifiedDate": "2026-12-13",
   "canonicalUrl": "https://writequeryhook.com/blog/raising-question-hooks-vs-alternatives-which-one-actually-keeps-pages-turning",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -775,6 +775,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/raising-question-hooks-vs-alternatives-which-one-actually-keeps-pages-turning#primaryimage"
       },
+      "datePublished": "2026-12-13",
+      "dateModified": "2026-12-13",
       "mentions": [
         {
           "@type": "WebPage",

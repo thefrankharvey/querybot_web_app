@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What Is an Epigraph? Definition, Purpose, and How to Use One",
   "description": "Writers call it \"just a quote at the front,\" but an epigraph is doing more work than that. An epigraph is a short quotation, saying, or poem placed in a book\u2014usually near the start, and sometimes repeatedly\u2014to guide readers into the story's world.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-10",
+  "modifiedDate": "2026-09-10",
   "canonicalUrl": "https://writequeryhook.com/blog/what-is-an-epigraph-definition-purpose-and-how-to-use-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -495,6 +495,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-is-an-epigraph-definition-purpose-and-how-to-use-one#primaryimage"
       },
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
       "mentions": [
         {
           "@type": "WebPage",

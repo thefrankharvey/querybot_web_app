@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Shock vs seduction: pick the right opening hook for pacing and suspense",
   "description": "Writers don\u2019t start stories badly because they hate writing. They start them badly because they\u2019re scared. The cursor blinks. The clock in the back of your brain starts yelling. And you start measuring pacing in \u201ckeep them reading\u201d units instead of \u201cmake the story breathe\u201d units.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-12",
+  "modifiedDate": "2026-09-12",
   "canonicalUrl": "https://writequeryhook.com/blog/shock-vs-seduction-pick-the-right-opening-hook-for-pacing-and-suspense",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -713,6 +713,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/shock-vs-seduction-pick-the-right-opening-hook-for-pacing-and-suspense#primaryimage"
       },
+      "datePublished": "2026-09-12",
+      "dateModified": "2026-09-12",
       "mentions": [
         {
           "@type": "WebPage",

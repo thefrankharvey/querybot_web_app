@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for who's really writing the book: collaboration (without losing ownership)",
   "description": "The \"lone genius\" myth is cute. Like, \"the author typed one sentence at 3 a.m. and the muse handed them a Pulitzer\" cute.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-10",
+  "modifiedDate": "2027-01-10",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-who-s-really-writing-the-book-collaboration-without-losing-ownership",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -579,6 +579,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-who-s-really-writing-the-book-collaboration-without-losing-ownership#primaryimage"
       },
+      "datePublished": "2027-01-10",
+      "dateModified": "2027-01-10",
       "mentions": [
         {
           "@type": "WebPage",

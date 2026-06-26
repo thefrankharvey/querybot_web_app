@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
   "description": "Most writers don\u2019t fail because they can\u2019t invent ideas. They fail because they treat the first idea like a lightning strike instead of a thing you have to assemble into a machine.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
+  "publishedDate": "2027-09-27",
+  "modifiedDate": "2027-09-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_hero_confusion_blank_page_blog_hero_landscape_4e0c46b3e06f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_hero_confusion_blank_page_blog_hero_landscape_4e0c46b3e06f.jpeg?updatedAt=1782336120709",
     "alt": "blog hero \u00b7 confusion blank-page",
     "width": 7008,
     "height": 4672,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+      "item": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
     }
   ],
   "tldrBlocks": [],
@@ -98,13 +98,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_tldr_blog_section_landscape_353c514363b0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_tldr_blog_section_landscape_353c514363b0.jpeg",
         "alt": "TLDR",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -141,13 +141,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_opening_why_this_case_study_matters_and_why_your_blog_section_landscape_28f7dac579a5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_opening_why_this_case_study_matters_and_why_your_blog_section_landscape_28f7dac579a5.gif",
         "alt": "Opening \u2014 why this case study matters (and why your idea keeps stalling)",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -667,7 +667,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_lessons_takeaways_blog_section_landscape_77fb3a7ff841.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_lessons_takeaways_blog_section_landscape_77fb3a7ff841.gif?updatedAt=1782336123489",
         "alt": "Lessons / Takeaways",
         "width": 246,
         "height": 200,
@@ -678,32 +678,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_section_image_resolve_pen_to_paper_blog_section_landscape_356beb3922c1.jpeg",
-    "alt": "blog section image \u00b7 resolve pen-to-paper",
-    "width": 7008,
-    "height": 4672,
-    "creator": "Ahmed \u061c",
-    "creatorUrl": "https://www.pexels.com/@mutecevvil",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-      "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
     },
     {
       "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     },
     {
       "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     },
     {
-      "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+      "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -738,7 +729,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
     }
   ]
 } as const;
@@ -768,7 +759,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -780,31 +771,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+          "item": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
       "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -820,11 +811,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain",
       "headline": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
       "alternativeHeadline": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
       "description": "Most writers don\u2019t fail because they can\u2019t invent ideas. They fail because they treat the first idea like a lightning strike instead of a thing you have to assemble into a machine.",
@@ -854,40 +845,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage"
       },
+      "datePublished": "2027-09-27",
+      "dateModified": "2027-09-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
-        },
-        {
-          "@type": "WebPage",
-          "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-          "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+          "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
+          "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_hero_confusion_blank_page_blog_hero_landscape_4e0c46b3e06f.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain/blog/blog_hero_confusion_blank_page_blog_hero_landscape_4e0c46b3e06f.jpeg?updatedAt=1782336120709",
       "width": 7008,
       "height": 4672,
       "caption": "blog hero \u00b7 confusion blank-page",
@@ -902,7 +890,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain#faq",
       "mainEntity": [
         {
           "@type": "Question",

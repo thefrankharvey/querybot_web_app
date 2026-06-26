@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Craft a query letter that hooks publishing agents FAQ",
   "description": "Finishing the manuscript feels like the real work, and then the query phase shows up like a second job you didn't apply for. The trick is treating querying like attention management, not a one-shot talent test: your query letter, synopsis, and first page have to work together as one story the agent can follow quickly.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-03",
+  "modifiedDate": "2026-07-03",
   "canonicalUrl": "https://writequeryhook.com/blog/craft-a-query-letter-that-hooks-publishing-agents-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -454,6 +454,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/craft-a-query-letter-that-hooks-publishing-agents-faq#primaryimage"
       },
+      "datePublished": "2026-07-03",
+      "dateModified": "2026-07-03",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for ending a chapter when the blank space is begging for mercy",
   "description": "Every time you finish a chapter, your reader hits that lovely little wall: white space, a page break, and the sudden possibility they drift off like, \"Cool, anyway.\" The chapter ending is a decision point. Blank space gives their brain an exit ramp\u2014a moment to close the book and decide the next chapter can wait until tomorrow, or next week, or never.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-25",
+  "modifiedDate": "2026-11-25",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-ending-a-chapter-when-the-blank-space-is-begging-for-mercy",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -474,6 +474,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-ending-a-chapter-when-the-blank-space-is-begging-for-mercy#primaryimage"
       },
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
       "mentions": [
         {
           "@type": "WebPage",

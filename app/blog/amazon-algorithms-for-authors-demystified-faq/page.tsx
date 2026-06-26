@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon Algorithms for Authors: Demystified FAQ",
   "description": "Authors hear \"Amazon algorithms\" and immediately picture one god-like machine deciding their fate. I get it. That mental image is comforting in a dumb way, because it lets you blame a single villain.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq",
+  "publishedDate": "2027-09-30",
+  "modifiedDate": "2027-09-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_hero_overwhelm_dread_blog_hero_landscape_07db2a4fcd2b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_hero_overwhelm_dread_blog_hero_landscape_07db2a4fcd2b.jpeg?updatedAt=1782336221552",
     "alt": "blog hero \u00b7 overwhelm dread",
     "width": 7680,
     "height": 5120,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon Algorithms for Authors: Demystified FAQ",
-      "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq"
+      "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_multiple_systems_indexing_blog_section_landscape_7b3460d7db77.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_multiple_systems_indexing_blog_section_landscape_7b3460d7db77.gif?updatedAt=1782336222480",
         "alt": "Are there multiple Amazon algorithms or just one?",
         "width": 200,
         "height": 200,
@@ -140,7 +140,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg?updatedAt=1782336223659",
         "alt": "What data drives bestseller and search rankings?",
         "width": 6262,
         "height": 4175,
@@ -186,7 +186,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_spike_anomaly_blog_section_landscape_a0868fc42e92.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_spike_anomaly_blog_section_landscape_a0868fc42e92.gif?updatedAt=1782336223258",
         "alt": "How do sales spikes affect ranking?",
         "width": 226,
         "height": 200,
@@ -302,7 +302,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg?updatedAt=1782336223659",
         "alt": "What data drives bestseller and search rankings?",
         "width": 6262,
         "height": 4175,
@@ -353,7 +353,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_sales_buy_likelihood_blog_section_landscape_062e85724462.jpeg?updatedAt=1782336223659",
         "alt": "What data drives bestseller and search rankings?",
         "width": 6262,
         "height": 4175,
@@ -395,7 +395,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_spike_anomaly_blog_section_landscape_a0868fc42e92.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_spike_anomaly_blog_section_landscape_a0868fc42e92.gif?updatedAt=1782336223258",
         "alt": "How do sales spikes affect ranking?",
         "width": 226,
         "height": 200,
@@ -406,32 +406,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_section_image_control_levers_blog_section_landscape_6f75cdfb419f.jpeg",
-    "alt": "blog section image \u00b7 control levers",
-    "width": 6064,
-    "height": 4040,
-    "creator": "Jean-Paul Wettstein",
-    "creatorUrl": "https://www.pexels.com/@jean-paul-wettstein-677916508",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     },
     {
       "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
-    },
-    {
-      "title": "How JB Harris used research and direct outreach to publish successfully with a small press",
-      "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     },
     {
       "title": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
+    },
+    {
+      "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -449,7 +440,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How much does it cost to publish a book in 2025 FAQ",
-      "url": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
     }
   ]
 } as const;
@@ -479,7 +470,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -491,31 +482,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq"
+          "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq",
       "name": "Amazon Algorithms for Authors: Demystified FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -531,11 +522,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#article",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq",
       "headline": "Amazon Algorithms for Authors: Demystified FAQ",
       "alternativeHeadline": "Amazon Algorithms for Authors: Demystified FAQ",
       "description": "Authors hear \"Amazon algorithms\" and immediately picture one god-like machine deciding their fate. I get it. That mental image is comforting in a dumb way, because it lets you blame a single villain.",
@@ -565,40 +556,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#primaryimage"
       },
+      "datePublished": "2027-09-30",
+      "dateModified": "2027-09-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025 FAQ",
-          "url": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
         },
         {
           "@type": "WebPage",
           "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+          "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         },
         {
           "@type": "WebPage",
           "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How JB Harris used research and direct outreach to publish successfully with a small press",
-          "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_hero_overwhelm_dread_blog_hero_landscape_07db2a4fcd2b.jpeg",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/amazon-algorithms-for-authors-demystified-faq/blog/blog_hero_overwhelm_dread_blog_hero_landscape_07db2a4fcd2b.jpeg?updatedAt=1782336221552",
       "width": 7680,
       "height": 5120,
       "caption": "blog hero \u00b7 overwhelm dread",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Do you want the reader to understand your story page? Critique FAQ",
   "description": "Writers write the scene in their head like it's obvious. The reader, unfortunately, doesn't have that internal movie running. This FAQ is for the moment when beta readers (or critique partners) say your opening feels \"hostile,\" \"confusing,\" or like the story is moving too fast for them to catch up.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-09",
+  "modifiedDate": "2026-11-09",
   "canonicalUrl": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-story-page-critique-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -461,6 +461,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-story-page-critique-faq#primaryimage"
       },
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
       "mentions": [
         {
           "@type": "WebPage",

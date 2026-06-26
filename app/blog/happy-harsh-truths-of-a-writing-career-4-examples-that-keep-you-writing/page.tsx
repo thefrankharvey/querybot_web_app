@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
   "description": "If you've been querying, you already know the rejection part. What usually blindsides people is the career math: how rarely \"submitted manuscript\" turns into \"published book,\" and how often \"published book\" doesn't turn into author income that pays rent.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
+  "publishedDate": "2027-07-29",
+  "modifiedDate": "2027-07-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_hero_dread_surprise_blog_hero_landscape_82e6de90e241.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_hero_dread_surprise_blog_hero_landscape_82e6de90e241.jpeg?updatedAt=1782267963793",
     "alt": "blog hero \u00b7 dread surprise",
     "width": 6883,
     "height": 5315,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+      "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     }
   ],
   "tldrBlocks": [],
@@ -153,7 +153,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_money_math_thin_royalties_blog_section_landscape_2a91f1b05c36.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_money_math_thin_royalties_blog_section_landscape_2a91f1b05c36.gif?updatedAt=1782267964392",
         "alt": "The money story most writers never do",
         "width": 152,
         "height": 200,
@@ -234,13 +234,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_competition_chance_blog_section_landscape_8990faaf50bb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_competition_chance_blog_section_landscape_8990faaf50bb.gif",
         "alt": "The publishing odds you can't feel",
-        "width": 5309,
-        "height": 3129,
-        "creator": "Annashoots \ud83d\udcf7",
-        "creatorUrl": "https://www.pexels.com/@annashoots",
-        "provider": "pexels",
+        "width": 231,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/page-day-chance-5V9EDenSs7Fsc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -404,13 +404,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_motivation_meaning_blog_section_landscape_794adac664f2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_motivation_meaning_blog_section_landscape_794adac664f2.jpeg",
         "alt": "Motivation starts when you redefine success",
-        "width": 200,
-        "height": 200,
-        "creator": "jenniferaccomando",
-        "creatorUrl": "https://giphy.com/gifs/jenniferaccomando-inspiration-marathon-half-ilQ3XECzGQZIv7sJsE",
-        "provider": "giphy",
+        "width": 5760,
+        "height": 3840,
+        "creator": "Image Hunter",
+        "creatorUrl": "https://www.pexels.com/@image-hunter-281453274",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -439,32 +439,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_section_image_eye_roll_deep_breath_blog_section_landscape_f1a66e89e0d0.jpeg",
-    "alt": "blog section image \u00b7 eye-roll deep breath",
-    "width": 5869,
-    "height": 3913,
-    "creator": "Amel Uzunovic",
-    "creatorUrl": "https://www.pexels.com/@amel-uzunovic-440739273",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What IP Publishing Really Means (and how to study it through examples)",
-      "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
-    },
-    {
       "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-      "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+      "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
     },
     {
       "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
     },
     {
-      "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+      "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
+    },
+    {
+      "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -482,7 +473,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How do advances and royalties work FAQ",
-      "url": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq"
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     }
   ]
 } as const;
@@ -512,7 +503,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -524,31 +515,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+          "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#webpage",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#webpage",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
       "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -564,11 +555,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#article",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#webpage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing",
       "headline": "Happy harsh truths of a writing career: 4 examples that keep you writing",
       "alternativeHeadline": "Happy harsh truths of a writing career: 4 examples that keep you writing",
       "description": "If you've been querying, you already know the rejection part. What usually blindsides people is the career math: how rarely \"submitted manuscript\" turns into \"published book,\" and how often \"published book\" doesn't turn into author income that pays rent.",
@@ -598,40 +589,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage"
       },
+      "datePublished": "2027-07-29",
+      "dateModified": "2027-07-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How do advances and royalties work FAQ",
-          "url": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What IP Publishing Really Means (and how to study it through examples)",
-          "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+          "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         },
         {
           "@type": "WebPage",
           "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-          "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+          "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
         },
         {
           "@type": "WebPage",
           "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+          "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
         },
         {
           "@type": "WebPage",
-          "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+          "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
+          "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
+          "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_hero_dread_surprise_blog_hero_landscape_82e6de90e241.jpeg",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing/blog/blog_hero_dread_surprise_blog_hero_landscape_82e6de90e241.jpeg?updatedAt=1782267963793",
       "width": 6883,
       "height": 5315,
       "caption": "blog hero \u00b7 dread surprise",

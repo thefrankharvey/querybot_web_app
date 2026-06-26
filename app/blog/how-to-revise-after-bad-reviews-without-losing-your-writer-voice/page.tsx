@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to revise after bad reviews without losing your writer voice",
   "description": "Bad reviews land like a comment section got your address. One minute you\u2019re writing, the next minute you\u2019re doom-scrolling, refreshing, and wondering whether the whole manuscript is wrong\u2014or whether you\u2019re just fragile.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
+  "publishedDate": "2027-04-24",
+  "modifiedDate": "2027-04-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_hero_negative_reviews_dread_blog_hero_landscape_c7714757cf6f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_hero_negative_reviews_dread_blog_hero_landscape_c7714757cf6f.jpeg?updatedAt=1781851954205",
     "alt": "blog hero \u00b7 negative reviews dread",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to revise after bad reviews without losing your writer voice",
-      "item": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "item": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_reviews_signal_blog_section_landscape_d219b32d1819.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_reviews_signal_blog_section_landscape_d219b32d1819.gif?updatedAt=1781851954852",
         "alt": "Step 1: Invite feedback in like a data packet (not a verdict)",
         "width": 244,
         "height": 200,
@@ -167,7 +167,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_step_back_perspective_blog_section_landscape_50a96b91ec90.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_step_back_perspective_blog_section_landscape_50a96b91ec90.jpeg?updatedAt=1781851955366",
         "alt": "Step 2: Step back for perspective and clear reading (yes, read aloud)",
         "width": 6000,
         "height": 4000,
@@ -275,7 +275,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_continued_writing_add_new_good_blog_section_landscape_5d8a0f2f0873.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_continued_writing_add_new_good_blog_section_landscape_5d8a0f2f0873.gif?updatedAt=1781851955939",
         "alt": "Step 4: Do revision as continued writing, not damage control",
         "width": 200,
         "height": 200,
@@ -334,32 +334,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_section_image_submit_ready_manuscript_glow_up_blog_section_landscape_ad27f7d5c72a.jpeg",
-    "alt": "blog section image \u00b7 submit-ready manuscript glow-up",
-    "width": 6611,
-    "height": 4407,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to know when to leave your agent without burning the whole relationship",
-      "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     },
     {
       "title": "How to write a great book description that sells (not summarizes)",
-      "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     },
     {
       "title": "How to respond to an offer of representation without getting rushed",
-      "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     },
     {
-      "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+      "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
+      "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -398,7 +389,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "url": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     }
   ]
 } as const;
@@ -428,7 +419,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -440,31 +431,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to revise after bad reviews without losing your writer voice",
-          "item": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+          "item": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
       "name": "How to revise after bad reviews without losing your writer voice",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -480,11 +471,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#article",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice",
       "headline": "How to revise after bad reviews without losing your writer voice",
       "alternativeHeadline": "How to revise after bad reviews without losing your writer voice",
       "description": "Bad reviews land like a comment section got your address. One minute you\u2019re writing, the next minute you\u2019re doom-scrolling, refreshing, and wondering whether the whole manuscript is wrong\u2014or whether you\u2019re just fragile.",
@@ -514,40 +505,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage"
       },
+      "datePublished": "2027-04-24",
+      "dateModified": "2027-04-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "url": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         },
         {
           "@type": "WebPage",
           "name": "How to know when to leave your agent without burning the whole relationship",
-          "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         },
         {
           "@type": "WebPage",
           "name": "How to write a great book description that sells (not summarizes)",
-          "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
         },
         {
           "@type": "WebPage",
           "name": "How to respond to an offer of representation without getting rushed",
-          "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         },
         {
           "@type": "WebPage",
-          "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+          "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
+          "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_hero_negative_reviews_dread_blog_hero_landscape_c7714757cf6f.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/how-to-revise-after-bad-reviews-without-losing-your-writer-voice/blog/blog_hero_negative_reviews_dread_blog_hero_landscape_c7714757cf6f.jpeg?updatedAt=1781851954205",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 negative reviews dread",
@@ -562,7 +555,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#howto",
       "name": "How to revise after bad reviews without losing your writer voice",
       "description": "Bad reviews land like a comment section got your address. One minute you\u2019re writing, the next minute you\u2019re doom-scrolling, refreshing, and wondering whether the whole manuscript is wrong\u2014or whether you\u2019re just fragile.",
       "totalTime": "PT7M",
@@ -572,42 +565,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Invite feedback in like a data packet (not a verdict)",
           "text": "When the feedback is negative or politically charged, your brain wants to turn it into a moral ruling: wrong book, wrong writer, stop existing. Don\u2019t do that. Revision starts the second you treat reviews as signal instead of punishment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-1-invite-feedback-in-like-a-data-packet-not-a-verdict"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-1-invite-feedback-in-like-a-data-packet-not-a-verdict"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Step back for perspective and clear reading (yes, read aloud)",
           "text": "Ego makes revision feel urgent. Perspective makes it useful.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-2-step-back-for-perspective-and-clear-reading-yes-read-aloud"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-2-step-back-for-perspective-and-clear-reading-yes-read-aloud"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Sort feedback by confusion, enjoyment, or mismatch (and label it)",
           "text": "This is where writers usually fumble: they either (a) change everything because it\u2019s easier than deciding, or (b) cling to the draft because changing feels like betrayal.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-3-sort-feedback-by-confusion-enjoyment-or-mismatch-and-label-it"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-3-sort-feedback-by-confusion-enjoyment-or-mismatch-and-label-it"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Do revision as continued writing, not damage control",
           "text": "If you treat revision like damage control, you\u2019ll write the scariest sentence in publishing: I\u2019m going to make it smaller, safer, and more obedient. That\u2019s how your writer voice gets sanded down until nothing surprises anyone\u2014including you.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-4-do-revision-as-continued-writing-not-damage-control"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-4-do-revision-as-continued-writing-not-damage-control"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Keep editing: confidence through small, specific changes",
           "text": "After you step back and sort feedback, you\u2019re ready to edit. Editing is the controlled tightening pass. It\u2019s where you fix the measurable stuff: wording, clarity, pacing rhythm, sentence-level precision, continuity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-5-keep-editing-confidence-through-small-specific-changes"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#step-5-keep-editing-confidence-through-small-specific-changes"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice#faq",
       "mainEntity": [
         {
           "@type": "Question",

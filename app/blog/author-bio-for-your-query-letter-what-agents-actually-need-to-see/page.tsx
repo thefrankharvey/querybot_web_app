@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author Bio for Your Query Letter: What Agents Actually Need to See",
   "description": "The author bio is the part of querying that makes writers do that thing where they stare at the document and think, Why am I writing this?",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-17",
+  "modifiedDate": "2026-08-17",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-for-your-query-letter-what-agents-actually-need-to-see",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -807,6 +807,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-for-your-query-letter-what-agents-actually-need-to-see#primaryimage"
       },
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-08-17",
       "mentions": [
         {
           "@type": "WebPage",

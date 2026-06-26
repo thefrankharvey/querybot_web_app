@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to bridge characters' thoughts in omniscient POV without head hopping",
   "description": "You can write \"omniscient\" on the tin and still yank the reader's brain around like it's attached to a pinball machine.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-11",
+  "modifiedDate": "2026-11-11",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-bridge-characters-thoughts-in-omniscient-pov-without-head-hopping",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -643,6 +643,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-bridge-characters-thoughts-in-omniscient-pov-without-head-hopping#primaryimage"
       },
+      "datePublished": "2026-11-11",
+      "dateModified": "2026-11-11",
       "mentions": [
         {
           "@type": "WebPage",

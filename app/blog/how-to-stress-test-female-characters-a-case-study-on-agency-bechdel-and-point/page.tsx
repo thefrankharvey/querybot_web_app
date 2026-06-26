@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to stress-test female characters: a case-study on agency, Bechdel, and point of view",
   "description": "I'm going to treat \"female characters\" like we treat any other part of craft that's easy to lie about in a draft: with tests you can run, then revision you can actually do.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-26",
+  "modifiedDate": "2027-01-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stress-test-female-characters-a-case-study-on-agency-bechdel-and-point",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -728,6 +728,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stress-test-female-characters-a-case-study-on-agency-bechdel-and-point#primaryimage"
       },
+      "datePublished": "2027-01-26",
+      "dateModified": "2027-01-26",
       "mentions": [
         {
           "@type": "WebPage",

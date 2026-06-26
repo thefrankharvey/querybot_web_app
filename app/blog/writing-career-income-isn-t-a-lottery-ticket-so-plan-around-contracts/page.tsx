@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
   "description": "The happy harsh truth about a writing career is that many writers treat published books like a slow-motion jackpot\u2014the kind where the next submission might flip their whole life around, where a contract magically fixes rent, health insurance, and the basic human need to eat. The moment you realize writing career income doesn't arrive like wages, the motivation wobble hits hard\u2014because the draft doesn't care whether your bank account is calm.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
+  "publishedDate": "2027-07-01",
+  "modifiedDate": "2027-07-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_hero_recognition_dread_blog_hero_landscape_aeed7ceda8cd.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_hero_recognition_dread_blog_hero_landscape_aeed7ceda8cd.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "item": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
+      "item": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     }
   ],
   "tldrBlocks": [],
@@ -129,13 +129,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_math_budgeting_blog_section_landscape_8fda069279c9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_math_budgeting_blog_section_landscape_8fda069279c9.gif",
         "alt": "Writing career income is a math problem not a mood",
-        "width": 5259,
-        "height": 3098,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -185,7 +185,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_competition_rejection_blog_section_landscape_5fc9fa496165.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_competition_rejection_blog_section_landscape_5fc9fa496165.gif?updatedAt=1782242057928",
         "alt": "The chance of manuscript getting published is low but not pointless",
         "width": 226,
         "height": 200,
@@ -240,7 +240,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_ownership_autonomy_blog_section_landscape_ba2ab775a77b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_ownership_autonomy_blog_section_landscape_ba2ab775a77b.jpeg?updatedAt=1782242058621",
         "alt": "How publisher contracts affect creative control",
         "width": 5950,
         "height": 3967,
@@ -302,32 +302,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_section_image_deep_breath_acceptance_blog_section_landscape_c18518ba1c78.jpeg",
-    "alt": "blog section image \u00b7 deep breath acceptance",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     },
     {
       "title": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     },
     {
       "title": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-      "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
+      "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
     },
     {
-      "title": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-      "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
+      "title": "10 questions to ask before committing to any ebook publishing service",
+      "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -366,7 +357,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     }
   ]
 } as const;
@@ -396,7 +387,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -408,31 +399,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "item": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
+          "item": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#webpage",
-      "url": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
+      "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#webpage",
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
       "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -448,11 +439,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#article",
+      "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#webpage"
+        "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts",
       "headline": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
       "alternativeHeadline": "Writing career income isn\u2019t a lottery ticket\u2014so plan around contracts, royalties, and odds",
       "description": "The happy harsh truth about a writing career is that many writers treat published books like a slow-motion jackpot\u2014the kind where the next submission might flip their whole life around, where a contract magically fixes rent, health insurance, and the basic human need to eat. The moment you realize writing career income doesn't arrive like wages, the motivation wobble hits hard\u2014because the draft doesn't care whether your bank account is calm.",
@@ -482,55 +473,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage"
       },
+      "datePublished": "2027-07-01",
+      "dateModified": "2027-07-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+          "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         },
         {
           "@type": "WebPage",
           "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+          "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
         },
         {
           "@type": "WebPage",
           "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-          "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
+          "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
         },
         {
           "@type": "WebPage",
-          "name": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-          "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
+          "name": "10 questions to ask before committing to any ebook publishing service",
+          "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_hero_recognition_dread_blog_hero_landscape_aeed7ceda8cd.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts/blog/blog_hero_recognition_dread_blog_hero_landscape_aeed7ceda8cd.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#faq",
+      "@id": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts#faq",
       "mainEntity": [
         {
           "@type": "Question",

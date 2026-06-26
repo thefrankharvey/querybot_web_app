@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dunning-Kruger vs author despair syndrome vs alternatives: which mindset helps you keep revising?",
   "description": "The first time you get meaningful feedback, something weird happens. You reread your own work and it suddenly looks like a version of your story you've never met\u2014like you wrote it on autopilot while your brain was asleep.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-07",
+  "modifiedDate": "2027-03-07",
   "canonicalUrl": "https://writequeryhook.com/blog/dunning-kruger-vs-author-despair-syndrome-vs-alternatives-which-mindset-helps",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -585,6 +585,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dunning-kruger-vs-author-despair-syndrome-vs-alternatives-which-mindset-helps#primaryimage"
       },
+      "datePublished": "2027-03-07",
+      "dateModified": "2027-03-07",
       "mentions": [
         {
           "@type": "WebPage",

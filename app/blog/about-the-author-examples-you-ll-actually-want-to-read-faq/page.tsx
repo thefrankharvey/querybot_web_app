@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "About the Author Examples You'll Actually Want to Read FAQ",
   "description": "Writers treat the \"About the Author\" section like a harmless formality. It's not. It's back-of-book real estate, an author page's first impression, and a social profile's identity snapshot\u2014each with different space, expectations, and readers who don't want a ramble.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-27",
+  "modifiedDate": "2026-08-27",
   "canonicalUrl": "https://writequeryhook.com/blog/about-the-author-examples-you-ll-actually-want-to-read-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -467,6 +467,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/about-the-author-examples-you-ll-actually-want-to-read-faq#primaryimage"
       },
+      "datePublished": "2026-08-27",
+      "dateModified": "2026-08-27",
       "mentions": [
         {
           "@type": "WebPage",

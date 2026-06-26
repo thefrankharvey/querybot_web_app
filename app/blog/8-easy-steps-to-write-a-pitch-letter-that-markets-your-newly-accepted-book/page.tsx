@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
   "description": "You have a pitch problem\u2014specifically, the kind where your email subject line feels like a loaded weapon and your brain keeps replaying every awkward version of \"just circling back.\" Again.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
+  "publishedDate": "2027-04-25",
+  "modifiedDate": "2027-04-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "outreach plan"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book/blog/blog_hero_recognition_pitch_panic_blog_hero_landscape_d0b37f31d165.jpeg",
+    "alt": "blog hero \u00b7 recognition pitch panic",
+    "width": 5471,
+    "height": 3647,
+    "creator": "Iban Lopez Luna",
+    "creatorUrl": "https://www.pexels.com/@iban-lopez-luna-2159602676",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "item": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "item": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     }
   ],
   "tldrBlocks": [],
@@ -138,7 +147,16 @@ const PAGE_DATA = {
           "text": "This step exists because writers freeze when the options multiply. So choose your angle, then build the letter around it."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book/blog/blog_section_image_decision_clarity_blog_section_landscape_9482c4580807.gif",
+        "alt": "Choose one clear offer angle",
+        "width": 200,
+        "height": 200,
+        "creator": "Centronome",
+        "creatorUrl": "https://giphy.com/gifs/Centronome-gut-inner-peace-intuition-Xb5KaYfKILjpbqjSSc",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_write_a_stakes_hook_in_three_lines",
@@ -261,7 +279,16 @@ const PAGE_DATA = {
           "text": "The best pitches read like someone who respects the editor's time wrote them."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book/blog/blog_section_image_synopsis_compression_blog_section_landscape_95d9f3122806.jpeg",
+        "alt": "Make the synopsis short and readable",
+        "width": 4718,
+        "height": 3774,
+        "creator": "manu gvzman",
+        "creatorUrl": "https://www.pexels.com/@manu-gvzman-2159425384",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_tailor_the_bio_to_include_what_matters",
@@ -419,26 +446,35 @@ const PAGE_DATA = {
           "text": "(If you need a deeper walkthrough of the warm-to-cold logic and follow-up timing, see the cluster's \"A Step-by-Step Pitch Outreach Plan: Warm Contacts, Social Connections, Then Cold Pitch\" page.)"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book/blog/blog_section_image_outreach_plan_warm_contacts_blog_section_landscape_874662de6ae4.gif",
+        "alt": "Prioritize your contacts before cold outreach",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/stone-cold-acIy5aKe4nryg",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     },
     {
       "title": "How to revise after bad reviews without losing your writer voice",
-      "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     },
     {
       "title": "How to know when to leave your agent without burning the whole relationship",
-      "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     },
     {
-      "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-      "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+      "title": "How to write a great book description that sells (not summarizes)",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -473,7 +509,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "9 best practices for writing a blurb request that gets read (and answered)",
-      "url": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     }
   ]
 } as const;
@@ -503,7 +539,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -515,28 +551,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "item": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+          "item": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#webpage",
-      "url": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
+      "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#webpage",
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
       "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -552,11 +591,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#article",
+      "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#webpage"
+        "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book",
       "headline": "8 easy steps to write a pitch letter that markets your newly accepted book",
       "alternativeHeadline": "8 easy steps to write a pitch letter that markets your newly accepted book",
       "description": "You have a pitch problem\u2014specifically, the kind where your email subject line feels like a loaded weapon and your brain keeps replaying every awkward version of \"just circling back.\" Again.",
@@ -585,38 +624,58 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#primaryimage"
+      },
+      "datePublished": "2027-04-25",
+      "dateModified": "2027-04-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "9 best practices for writing a blurb request that gets read (and answered)",
-          "url": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+          "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         },
         {
           "@type": "WebPage",
           "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         },
         {
           "@type": "WebPage",
           "name": "How to revise after bad reviews without losing your writer voice",
-          "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
         },
         {
           "@type": "WebPage",
           "name": "How to know when to leave your agent without burning the whole relationship",
-          "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         },
         {
           "@type": "WebPage",
-          "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-          "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+          "name": "How to write a great book description that sells (not summarizes)",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book/blog/blog_hero_recognition_pitch_panic_blog_hero_landscape_d0b37f31d165.jpeg",
+      "width": 5471,
+      "height": 3647,
+      "caption": "blog hero \u00b7 recognition pitch panic",
+      "creditText": "Iban Lopez Luna",
+      "author": {
+        "@type": "Person",
+        "name": "Iban Lopez Luna",
+        "url": "https://www.pexels.com/@iban-lopez-luna-2159602676"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#faq",
+      "@id": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Stop Measuring Your Art by Pain: A Step-by-Step Joy-and-Mastery Routine",
   "description": "Creative people downplay their own accomplishments the way some folks check the mirror for flaws. You finish a draft, you take one look at it, and your brain goes: yeah, but\u2026 You don't let yourself feel pride. You don't even fully let yourself feel relief.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-03",
+  "modifiedDate": "2027-04-03",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-measuring-your-art-by-pain-a-step-by-step-joy-and-mastery-routine",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -521,6 +521,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-measuring-your-art-by-pain-a-step-by-step-joy-and-mastery-routine#primaryimage"
       },
+      "datePublished": "2027-04-03",
+      "dateModified": "2027-04-03",
       "mentions": [
         {
           "@type": "WebPage",

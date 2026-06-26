@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to build a brooding YA hero that can survive agent and editor notes",
   "description": "I've seen this pattern a bunch: someone falls in love with a character idea that first lived on a feed\u2014quick scenes, good aesthetic lighting, a brooding hero who feels close to the reader.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-19",
+  "modifiedDate": "2026-12-19",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-brooding-ya-hero-that-can-survive-agent-and-editor-notes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -654,6 +654,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-build-a-brooding-ya-hero-that-can-survive-agent-and-editor-notes#primaryimage"
       },
+      "datePublished": "2026-12-19",
+      "dateModified": "2026-12-19",
       "mentions": [
         {
           "@type": "WebPage",

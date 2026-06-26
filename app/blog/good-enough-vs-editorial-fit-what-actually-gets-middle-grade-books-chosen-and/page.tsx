@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
   "description": "Publishing loves to cosplay as if it's one single person making a single single decision. Like the whole thing is a judge-in-a-courtroom moment: you present your manuscript, they either \"like it\" or they don't. Haha. No.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
+  "publishedDate": "2027-07-07",
+  "modifiedDate": "2027-07-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_hero_mystery_novel_plot_twist_blog_hero_landscape_1357d6dfcf88.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_hero_mystery_novel_plot_twist_blog_hero_landscape_1357d6dfcf88.jpeg",
     "alt": "blog hero \u00b7 mystery-novel plot-twist",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/community-gif-gifs-PsBRTPKG71YVq",
-    "provider": "giphy",
+    "width": 6720,
+    "height": 4480,
+    "creator": "cottonbro studio",
+    "creatorUrl": "https://www.pexels.com/@cottonbro",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "item": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
+      "item": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     }
   ],
   "tldrBlocks": [],
@@ -76,7 +76,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_tldr_blog_section_landscape_a352e2f99b42.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_tldr_blog_section_landscape_a352e2f99b42.jpeg?updatedAt=1782244889602",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_comfort_denial_blog_section_landscape_de946aff8887.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_comfort_denial_blog_section_landscape_de946aff8887.gif",
         "alt": "Good enough vs editorial fit: the two mental models",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Anete Lusina",
-        "creatorUrl": "https://www.pexels.com/@anete-lusina",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -183,13 +183,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_comfort_denial_blog_section_landscape_de946aff8887.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_comfort_denial_blog_section_landscape_de946aff8887.gif",
         "alt": "Good enough vs editorial fit: the two mental models",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Anete Lusina",
-        "creatorUrl": "https://www.pexels.com/@anete-lusina",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -307,13 +307,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_where_your_odds_actually_change_blog_section_landscape_43458066fc39.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_where_your_odds_actually_change_blog_section_landscape_43458066fc39.gif",
         "alt": "Where your odds actually change",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -423,32 +423,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_section_image_permission_relief_blog_section_landscape_8470a7ffe7e9.gif",
-    "alt": "blog section image \u00b7 permission relief",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     },
     {
       "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     },
     {
       "title": "Infographic 5 Key Book Publishing Paths FAQ",
-      "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     },
     {
-      "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "title": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -487,7 +478,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "url": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     }
   ]
 } as const;
@@ -517,7 +508,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -529,31 +520,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "item": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
+          "item": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
+      "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#webpage",
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
       "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -569,11 +560,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#article",
+      "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#webpage"
+        "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and",
       "headline": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
       "alternativeHeadline": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
       "description": "Publishing loves to cosplay as if it's one single person making a single single decision. Like the whole thing is a judge-in-a-courtroom moment: you present your manuscript, they either \"like it\" or they don't. Haha. No.",
@@ -603,55 +594,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage"
       },
+      "datePublished": "2027-07-07",
+      "dateModified": "2027-07-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "url": "https://writequeryhook.com/query-letters/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+          "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
         },
         {
           "@type": "WebPage",
           "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+          "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+          "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_hero_mystery_novel_plot_twist_blog_hero_landscape_1357d6dfcf88.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_461/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and/blog/blog_hero_mystery_novel_plot_twist_blog_hero_landscape_1357d6dfcf88.jpeg",
+      "width": 6720,
+      "height": 4480,
       "caption": "blog hero \u00b7 mystery-novel plot-twist",
-      "creditText": "Giphy",
+      "creditText": "cottonbro studio",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/community-gif-gifs-PsBRTPKG71YVq"
+        "name": "cottonbro studio",
+        "url": "https://www.pexels.com/@cottonbro"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#faq",
+      "@id": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

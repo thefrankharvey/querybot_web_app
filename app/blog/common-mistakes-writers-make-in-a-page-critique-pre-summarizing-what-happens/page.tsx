@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes writers make in a page critique: pre-summarizing what happens next",
   "description": "If you've ever gotten feedback that sounds like: \"I lost the thread,\" \"Nothing landed,\" \"I felt like I was being told,\" you may have stumbled into the same trap I see constantly.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-21",
+  "modifiedDate": "2026-09-21",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-writers-make-in-a-page-critique-pre-summarizing-what-happens",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -653,6 +653,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-in-a-page-critique-pre-summarizing-what-happens#primaryimage"
       },
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
       "mentions": [
         {
           "@type": "WebPage",

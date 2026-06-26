@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Cope with Waiting as a Writer: The Practical Decision Tree FAQ",
   "description": "Waiting is built into writing. Not as a side quest\u2014the whole middle chapters of your life will involve waiting: waiting for ideas, waiting for revisions, waiting for editor response, waiting after submissions when nothing happens but your brain keeps sprinting.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-17",
+  "modifiedDate": "2027-03-17",
   "canonicalUrl": "https://writequeryhook.com/blog/cope-with-waiting-as-a-writer-the-practical-decision-tree-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -481,6 +481,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/cope-with-waiting-as-a-writer-the-practical-decision-tree-faq#primaryimage"
       },
+      "datePublished": "2027-03-17",
+      "dateModified": "2027-03-17",
       "mentions": [
         {
           "@type": "WebPage",

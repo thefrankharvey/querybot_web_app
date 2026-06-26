@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
   "description": "Selling ebooks on Amazon sounds like marketing wizardry until you stare at the parts that actually move money: pricing, metadata, discoverability, and whether anyone clicks your cover. Most writer-entrepreneurs don't fail because they \"lack hustle.\" They fail because they treat the listing like a postcard instead of a sales page.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
+  "publishedDate": "2027-06-19",
+  "modifiedDate": "2027-06-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_hero_frustration_blank_page_blog_hero_landscape_79e293412345.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_hero_frustration_blank_page_blog_hero_landscape_79e293412345.jpeg",
     "alt": "blog hero \u00b7 frustration blank-page",
-    "width": 200,
-    "height": 200,
-    "creator": "claynosaurz",
-    "creatorUrl": "https://giphy.com/gifs/claynosaurz-clayno-writers-block-mental-Iqbsx8TkRz7STm7WZn",
-    "provider": "giphy",
+    "width": 3650,
+    "height": 2435,
+    "creator": "Marta Nogueira",
+    "creatorUrl": "https://www.pexels.com/@marta-nogueira-589022975",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-      "item": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+      "item": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
     }
   ],
   "tldrBlocks": [],
@@ -113,13 +113,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_curiosity_obsession_blog_section_landscape_634818a86e04.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_curiosity_obsession_blog_section_landscape_634818a86e04.gif",
         "alt": "Write metadata that helps Amazon categorize you correctly",
-        "width": 6614,
-        "height": 4409,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "stebore91",
+        "creatorUrl": "https://giphy.com/gifs/playing-with-fire-zippo-lighter-caveman-vibes-9oih12Q5BNl4jniAF7",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -212,13 +212,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_curiosity_obsession_blog_section_landscape_634818a86e04.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_curiosity_obsession_blog_section_landscape_634818a86e04.gif",
         "alt": "Write metadata that helps Amazon categorize you correctly",
-        "width": 6614,
-        "height": 4409,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "stebore91",
+        "creatorUrl": "https://giphy.com/gifs/playing-with-fire-zippo-lighter-caveman-vibes-9oih12Q5BNl4jniAF7",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -323,7 +323,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_hope_voice_blog_section_landscape_95f95719356d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_hope_voice_blog_section_landscape_95f95719356d.jpeg?updatedAt=1782222546235",
         "alt": "Write a back-cover blurb that sells the book (not the author)",
         "width": 6026,
         "height": 4009,
@@ -452,43 +452,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_control_analytics_blog_section_landscape_6eb85a760f66.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_control_analytics_blog_section_landscape_6eb85a760f66.gif",
         "alt": "Schedule your ads and track results like a job, not a vibe",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Egor Komarov",
-        "creatorUrl": "https://www.pexels.com/@egorkomarov",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "WiseMonkeymeme",
+        "creatorUrl": "https://giphy.com/gifs/WiseMonkeymeme-virgo-personality-perfectionist-Da4fPajxe6yYih3n7k",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_section_image_relief_action_blog_section_landscape_66b824f52e07.gif",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 200,
-    "height": 200,
-    "creator": "IntoAction",
-    "creatorUrl": "https://giphy.com/gifs/IntoAction-diegodrawsart-stronger-together-climate-change-is-real-jaq9iy6caOdBX2B9BH",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     },
     {
       "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     },
     {
       "title": "How to make your manuscript more commercial (without rewriting your soul)",
-      "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     },
     {
-      "title": "How to copyright a book (and whether registration is worth it)",
-      "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "title": "How to build a compelling novel concept: turn your premise into a kicker",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -523,7 +514,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     }
   ]
 } as const;
@@ -553,7 +544,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -565,31 +556,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-          "item": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+          "item": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
+      "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#webpage",
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
       "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -605,11 +596,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#article",
+      "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#webpage"
+        "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without",
       "headline": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
       "alternativeHeadline": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
       "description": "Selling ebooks on Amazon sounds like marketing wizardry until you stare at the parts that actually move money: pricing, metadata, discoverability, and whether anyone clicks your cover. Most writer-entrepreneurs don't fail because they \"lack hustle.\" They fail because they treat the listing like a postcard instead of a sales page.",
@@ -639,55 +630,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage"
       },
+      "datePublished": "2027-06-19",
+      "dateModified": "2027-06-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
         },
         {
           "@type": "WebPage",
           "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         },
         {
           "@type": "WebPage",
           "name": "How to make your manuscript more commercial (without rewriting your soul)",
-          "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
         },
         {
           "@type": "WebPage",
-          "name": "How to copyright a book (and whether registration is worth it)",
-          "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+          "name": "How to build a compelling novel concept: turn your premise into a kicker",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_hero_frustration_blank_page_blog_hero_landscape_79e293412345.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without/blog/blog_hero_frustration_blank_page_blog_hero_landscape_79e293412345.jpeg",
+      "width": 3650,
+      "height": 2435,
       "caption": "blog hero \u00b7 frustration blank-page",
-      "creditText": "claynosaurz",
+      "creditText": "Marta Nogueira",
       "author": {
         "@type": "Person",
-        "name": "claynosaurz",
-        "url": "https://giphy.com/gifs/claynosaurz-clayno-writers-block-mental-Iqbsx8TkRz7STm7WZn"
+        "name": "Marta Nogueira",
+        "url": "https://www.pexels.com/@marta-nogueira-589022975"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#faq",
+      "@id": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without#faq",
       "mainEntity": [
         {
           "@type": "Question",

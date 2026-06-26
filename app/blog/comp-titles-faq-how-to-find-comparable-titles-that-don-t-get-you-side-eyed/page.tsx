@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comp Titles FAQ: How to Find Comparable Titles That Don't Get You Side-Eyed",
   "description": "Comp titles are supposed to be simple: books that would sit on the same shelf as yours and attract the same readers. In practice, they turn into a haunted house for querying authors\u2014too famous to be useful, too obscure to verify, or \"technically similar\" but clearly wrong in the room where decisions get made.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-14",
+  "modifiedDate": "2026-08-14",
   "canonicalUrl": "https://writequeryhook.com/blog/comp-titles-faq-how-to-find-comparable-titles-that-don-t-get-you-side-eyed",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -463,6 +463,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comp-titles-faq-how-to-find-comparable-titles-that-don-t-get-you-side-eyed#primaryimage"
       },
+      "datePublished": "2026-08-14",
+      "dateModified": "2026-08-14",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to build tension in a novel without turning every scene into a panic attack",
   "description": "Tension is what makes a reader lean forward, not because you\u2019re dumping bodies into the hallway, but because they feel an emotional question forming: where is this going?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-27",
+  "modifiedDate": "2026-09-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-tension-in-a-novel-without-turning-every-scene-into-a-panic-attack",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -562,6 +562,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-build-tension-in-a-novel-without-turning-every-scene-into-a-panic-attack#primaryimage"
       },
+      "datePublished": "2026-09-27",
+      "dateModified": "2026-09-27",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What happens on and off the page: a scene-by-scene breakdown of recaps, \"screenplay-izing,\" and time control",
   "description": "A lot of drafts don't fail because the writer can't picture the story.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-08",
+  "modifiedDate": "2026-11-08",
   "canonicalUrl": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-a-scene-by-scene-breakdown-of-recaps",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -708,6 +708,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-a-scene-by-scene-breakdown-of-recaps#primaryimage"
       },
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "A case study in description that doesn't murder pacing",
   "description": "Let's study a \"real\" artifact, not a vibes-only lecture: an invented-but-faithful sample scene written twice\u2014first as a common drafting mistake, then as a revision that respects momentum. This is a case study in description mechanics, using two versions of the same moment so you can see the cause-and-effect.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-11",
+  "modifiedDate": "2026-12-11",
   "canonicalUrl": "https://writequeryhook.com/blog/a-case-study-in-description-that-doesn-t-murder-pacing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -741,6 +741,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/a-case-study-in-description-that-doesn-t-murder-pacing#primaryimage"
       },
+      "datePublished": "2026-12-11",
+      "dateModified": "2026-12-11",
       "mentions": [
         {
           "@type": "WebPage",

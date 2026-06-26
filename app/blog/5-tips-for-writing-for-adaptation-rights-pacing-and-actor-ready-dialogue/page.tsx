@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
   "description": "Authors don't usually want to \"write for TV.\" They want their book to exist on screen\u2014felt, seen, and heard by strangers who never read page one.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
+  "publishedDate": "2027-10-16",
+  "modifiedDate": "2027-10-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+      "item": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
     }
   ],
   "tldrBlocks": [],
@@ -374,20 +374,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-      "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
-    },
-    {
       "title": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-      "url": "https://writequeryhook.com/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild-the-backlist"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
     },
     {
       "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-      "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+      "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
     },
     {
-      "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-      "url": "https://writequeryhook.com/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the-writer-s-room"
+      "title": "How advances work against royalties: when you'll actually see money",
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+    },
+    {
+      "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -426,7 +426,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 author branding tips for selling books without turning into a corporate robot",
-      "url": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+      "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
     }
   ]
 } as const;
@@ -456,7 +456,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,31 +468,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+          "item": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
       "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -508,11 +508,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue",
       "headline": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
       "alternativeHeadline": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
       "description": "Authors don't usually want to \"write for TV.\" They want their book to exist on screen\u2014felt, seen, and heard by strangers who never read page one.",
@@ -542,39 +542,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage"
       },
+      "datePublished": "2027-10-16",
+      "dateModified": "2027-10-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 author branding tips for selling books without turning into a corporate robot",
-          "url": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-          "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
+          "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
         },
         {
           "@type": "WebPage",
           "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-          "url": "https://writequeryhook.com/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild-the-backlist"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
         },
         {
           "@type": "WebPage",
           "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-          "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
         },
         {
           "@type": "WebPage",
-          "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-          "url": "https://writequeryhook.com/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the-writer-s-room"
+          "name": "How advances work against royalties: when you'll actually see money",
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_578/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue/blog/blog_hero_hopeful_anxious_blog_hero_landscape_b64fbe953009.jpeg",
       "width": 6000,
       "height": 4000,
@@ -590,7 +592,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Rein in Wandering Characters Without Killing the Discovery",
   "description": "You can absolutely draft a little weird. Sometimes the \"wandering\" is your brain listening to the character's inner logic instead of forcing a predetermined path. Cool. The problem is the myth that this same wandering should survive revision as-is.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-18",
+  "modifiedDate": "2027-01-18",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-rein-in-wandering-characters-without-killing-the-discovery",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-rein-in-wandering-characters-without-killing-the-discovery#primaryimage"
       },
+      "datePublished": "2027-01-18",
+      "dateModified": "2027-01-18",
       "mentions": [
         {
           "@type": "WebPage",

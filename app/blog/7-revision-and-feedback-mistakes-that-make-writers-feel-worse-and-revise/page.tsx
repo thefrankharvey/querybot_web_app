@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 Revision and Feedback Mistakes That Make Writers Feel Worse (and Revise Sloppier)",
   "description": "There's a special kind of quiet that happens after feedback lands\u2014like someone turned the lights off in the room where your writing lives. One harsh note and suddenly you can't tell the difference between revision and self-erasure. Then you go back to the draft, panic, and start \"fixing\" like the page is an enemy.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-18",
+  "modifiedDate": "2026-11-18",
   "canonicalUrl": "https://writequeryhook.com/blog/7-revision-and-feedback-mistakes-that-make-writers-feel-worse-and-revise",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -586,6 +586,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-revision-and-feedback-mistakes-that-make-writers-feel-worse-and-revise#primaryimage"
       },
+      "datePublished": "2026-11-18",
+      "dateModified": "2026-11-18",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 tips for writing your first novella that won\u2019t feel rushed",
   "description": "Your novella word count is basically a strict friend: it\u2019s not \u201cmean,\u201d it\u2019s just allergic to extra scenes. Bring a subplot that doesn\u2019t intensify the main conflict and it\u2019ll stare at you until you feel silly\u2014then it\u2019ll politely (and firmly) refuse to make space.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-02",
+  "modifiedDate": "2026-09-02",
   "canonicalUrl": "https://writequeryhook.com/blog/7-tips-for-writing-your-first-novella-that-won-t-feel-rushed",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -533,6 +533,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-tips-for-writing-your-first-novella-that-won-t-feel-rushed#primaryimage"
       },
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
       "mentions": [
         {
           "@type": "WebPage",

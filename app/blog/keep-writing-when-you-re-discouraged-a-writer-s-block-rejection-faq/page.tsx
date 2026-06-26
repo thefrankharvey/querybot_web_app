@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Keep writing when you're discouraged: a writer's block + rejection FAQ",
   "description": "Discouragement shows up like a flat tire: sometimes it's sudden, sometimes it's the slow leak you don't notice until you're already stuck on the shoulder. And it loves to dress itself up as \"I should do more research,\" or \"I'm not ready,\" or \"this draft is trash,\" or \"what's the point after rejection?\"",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-23",
+  "modifiedDate": "2027-02-23",
   "canonicalUrl": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-a-writer-s-block-rejection-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -423,6 +423,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-a-writer-s-block-rejection-faq#primaryimage"
       },
+      "datePublished": "2027-02-23",
+      "dateModified": "2027-02-23",
       "mentions": [
         {
           "@type": "WebPage",

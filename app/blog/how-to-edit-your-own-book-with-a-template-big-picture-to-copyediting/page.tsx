@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to edit your own book with a template (big picture to copyediting)",
   "description": "Editing your own book is brutal for one simple reason: your drafting brain wants to keep polishing the same spot until it feels \"done,\" and your story doesn't actually need polishing\u2014it needs fixing in a specific order.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-28",
+  "modifiedDate": "2026-09-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-edit-your-own-book-with-a-template-big-picture-to-copyediting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -583,6 +583,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-edit-your-own-book-with-a-template-big-picture-to-copyediting#primaryimage"
       },
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
       "mentions": [
         {
           "@type": "WebPage",

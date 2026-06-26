@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
   "description": "At some point, every querying writer stares at the manuscript and thinks: Is this the part where I lose because of numbers? The word count stops feeling like craft data and starts feeling like a verdict.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
+  "publishedDate": "2027-09-07",
+  "modifiedDate": "2027-09-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_hero_deadline_panic_blog_hero_landscape_f52149cbb96d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_hero_deadline_panic_blog_hero_landscape_f52149cbb96d.jpeg?updatedAt=1782328758813",
     "alt": "blog hero \u00b7 deadline panic",
     "width": 6960,
     "height": 4640,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "item": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "item": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     }
   ],
   "tldrBlocks": [],
@@ -76,7 +76,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_tldr_blog_section_landscape_c29c97d12583.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_tldr_blog_section_landscape_c29c97d12583.jpeg?updatedAt=1782328759354",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -299,7 +299,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_nervous_shrink_wrap_blog_section_landscape_b269a4629ee6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_nervous_shrink_wrap_blog_section_landscape_b269a4629ee6.gif?updatedAt=1782328760227",
         "alt": "Picture books and memoir: page math vs perceived \"too long\"",
         "width": 200,
         "height": 200,
@@ -365,13 +365,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_decision_control_blog_section_landscape_667fb654ce65.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_decision_control_blog_section_landscape_667fb654ce65.gif",
         "alt": "Word count strategy for query-minded revision",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -390,32 +390,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_section_image_breath_out_hands_on_keyboard_blog_section_landscape_e329836a663c.gif",
-    "alt": "blog section image \u00b7 breath out hands on keyboard",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     },
     {
       "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
-    },
-    {
-      "title": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     },
     {
       "title": "Author websites and why they work FAQ",
-      "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+      "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
+    },
+    {
+      "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+      "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -450,7 +441,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "url": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     }
   ]
 } as const;
@@ -480,7 +471,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -492,31 +483,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "item": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+          "item": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#webpage",
-      "url": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
+      "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#webpage",
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
       "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -532,11 +523,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#article",
+      "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#webpage"
+        "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth",
       "headline": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
       "alternativeHeadline": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
       "description": "At some point, every querying writer stares at the manuscript and thinks: Is this the part where I lose because of numbers? The word count stops feeling like craft data and starts feeling like a verdict.",
@@ -566,40 +557,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage"
       },
+      "datePublished": "2027-09-07",
+      "dateModified": "2027-09-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "url": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
+          "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         },
         {
           "@type": "WebPage",
           "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+          "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
         },
         {
           "@type": "WebPage",
           "name": "Author websites and why they work FAQ",
-          "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+          "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+          "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_hero_deadline_panic_blog_hero_landscape_f52149cbb96d.jpeg",
+      "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth/blog/blog_hero_deadline_panic_blog_hero_landscape_f52149cbb96d.jpeg?updatedAt=1782328758813",
       "width": 6960,
       "height": 4640,
       "caption": "blog hero \u00b7 deadline panic",
@@ -614,7 +607,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#faq",
+      "@id": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth#faq",
       "mainEntity": [
         {
           "@type": "Question",

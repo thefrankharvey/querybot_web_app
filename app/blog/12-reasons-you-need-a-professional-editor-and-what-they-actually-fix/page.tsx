@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "12 reasons you need a professional editor (and what they actually fix)",
   "description": "I've reread my own manuscript so many times the words start to blur, like staring at a screen until your eyes stop caring. You know the feeling: you \"know\" it's good because you've lived inside it\u2014while the real problems (typos, weak logic, pacing that crawls) quietly stack up anyway.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-16",
+  "modifiedDate": "2026-09-16",
   "canonicalUrl": "https://writequeryhook.com/blog/12-reasons-you-need-a-professional-editor-and-what-they-actually-fix",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -620,6 +620,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/12-reasons-you-need-a-professional-editor-and-what-they-actually-fix#primaryimage"
       },
+      "datePublished": "2026-09-16",
+      "dateModified": "2026-09-16",
       "mentions": [
         {
           "@type": "WebPage",

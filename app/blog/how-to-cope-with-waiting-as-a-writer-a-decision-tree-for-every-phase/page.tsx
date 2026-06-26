@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to cope with waiting as a writer: a decision tree for every phase",
   "description": "Waiting is the part of writing that feels like punishment. You finish a draft, you send a submission, you stare at the empty inbox\u2026 and suddenly the waiting takes over. Your brain spins on the email refresh cycle instead of the page.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-02",
+  "modifiedDate": "2027-02-02",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-cope-with-waiting-as-a-writer-a-decision-tree-for-every-phase",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-cope-with-waiting-as-a-writer-a-decision-tree-for-every-phase#primaryimage"
       },
+      "datePublished": "2027-02-02",
+      "dateModified": "2027-02-02",
       "mentions": [
         {
           "@type": "WebPage",

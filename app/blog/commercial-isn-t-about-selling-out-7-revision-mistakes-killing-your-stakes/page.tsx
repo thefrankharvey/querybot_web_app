@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
   "description": "\u201cCommercial\u201d is suddenly on everyone\u2019s lips, and it makes writers do this thing where they either panic or start defensively polishing prose like it\u2019s a personality test.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
+  "publishedDate": "2027-10-09",
+  "modifiedDate": "2027-10-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-      "item": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
+      "item": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     }
   ],
   "tldrBlocks": [],
@@ -533,19 +533,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     },
     {
       "title": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     },
     {
       "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     },
     {
       "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -580,7 +580,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
     }
   ]
 } as const;
@@ -610,7 +610,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -622,31 +622,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-          "item": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
+          "item": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#webpage",
-      "url": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
+      "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#webpage",
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
       "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -662,11 +662,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#article",
+      "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#webpage"
+        "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes",
       "headline": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
       "alternativeHeadline": "Commercial\" isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
       "description": "\u201cCommercial\u201d is suddenly on everyone\u2019s lips, and it makes writers do this thing where they either panic or start defensively polishing prose like it\u2019s a personality test.",
@@ -696,39 +696,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage"
       },
+      "datePublished": "2027-10-09",
+      "dateModified": "2027-10-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+          "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+          "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         },
         {
           "@type": "WebPage",
           "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+          "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
         },
         {
           "@type": "WebPage",
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         },
         {
           "@type": "WebPage",
           "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+          "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage",
+      "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_568/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes/blog/blog_hero_recognition_confusion_blog_hero_landscape_faf10272e47a.gif",
       "width": 200,
       "height": 200,
@@ -744,7 +746,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#faq",
+      "@id": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes#faq",
       "mainEntity": [
         {
           "@type": "Question",

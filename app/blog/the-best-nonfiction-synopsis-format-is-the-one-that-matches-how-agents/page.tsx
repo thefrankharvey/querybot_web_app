@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The best nonfiction synopsis format is the one that matches how agents actually read",
   "description": "Agents don't wake up excited to read your hundred-page research brain. They wake up, open submissions, and do triage\u2014fast enough that \"thoughtful\" formatting mistakes can cost you attention.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
+  "publishedDate": "2027-11-09",
+  "modifiedDate": "2027-11-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
-      "item": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+      "item": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
     }
   ],
   "tldrBlocks": [],
@@ -372,19 +372,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-      "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+      "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
     },
     {
       "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-      "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
     },
     {
       "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
     },
     {
-      "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -423,7 +423,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-      "url": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+      "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
     }
   ]
 } as const;
@@ -453,7 +453,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -465,31 +465,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
-          "item": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+          "item": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
+      "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#webpage",
+      "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
       "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -505,11 +505,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#article",
+      "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#webpage"
+        "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents",
       "headline": "The best nonfiction synopsis format is the one that matches how agents actually read",
       "alternativeHeadline": "The best nonfiction synopsis format is the one that matches how agents actually read",
       "description": "Agents don't wake up excited to read your hundred-page research brain. They wake up, open submissions, and do triage\u2014fast enough that \"thoughtful\" formatting mistakes can cost you attention.",
@@ -539,39 +539,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage"
       },
+      "datePublished": "2027-11-09",
+      "dateModified": "2027-11-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-          "url": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-          "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+          "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
         },
         {
           "@type": "WebPage",
           "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-          "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+          "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
         },
         {
           "@type": "WebPage",
-          "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+          "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage",
+      "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_608/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents/blog/blog_hero_recognition_blank_document_blog_hero_landscape_07fa9c7bef4b.gif",
       "width": 200,
       "height": 200,
@@ -587,7 +584,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#faq",
+      "@id": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents#faq",
       "mainEntity": [
         {
           "@type": "Question",

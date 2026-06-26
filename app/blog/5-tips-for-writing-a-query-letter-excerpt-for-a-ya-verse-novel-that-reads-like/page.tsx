@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing a query letter excerpt for a YA verse novel that reads like a live wire",
   "description": "Writers get weirdly brave about premise and then cowardly about stakes when they sit down to write a query letter. Especially for a YA verse novel. The minute trauma walks in the room, the language gets foggy\u2014like if we just say \"it's complicated,\" a literary agent will quietly fill in the blanks.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-18",
+  "modifiedDate": "2026-07-18",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-query-letter-excerpt-for-a-ya-verse-novel-that-reads-like",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-query-letter-excerpt-for-a-ya-verse-novel-that-reads-like#primaryimage"
       },
+      "datePublished": "2026-07-18",
+      "dateModified": "2026-07-18",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The clue is in the name: edit your picture book by cutting for illustration-ready meaning",
   "description": "Picture book editing has a special kind of violence to it. Cutting a picture book manuscript demands something different than cutting a novel. You're staring at a manuscript\u2014black words on white\u2014while the story's real body is split between text and pictures. So you do what your brain wants to do: you chase \"clean flow,\" you chase \"the right length,\" you chase that comforting feeling that once you revise enough, it will read perfectly as text.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-01",
+  "modifiedDate": "2026-10-01",
   "canonicalUrl": "https://writequeryhook.com/blog/the-clue-is-in-the-name-edit-your-picture-book-by-cutting-for-illustration",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -615,6 +615,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-clue-is-in-the-name-edit-your-picture-book-by-cutting-for-illustration#primaryimage"
       },
+      "datePublished": "2026-10-01",
+      "dateModified": "2026-10-01",
       "mentions": [
         {
           "@type": "WebPage",

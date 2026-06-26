@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
   "description": "The developmental edit email hits your inbox and your brain immediately starts drafting a eulogy. Not for the manuscript\u2014please. For you. The letter is long, the comments are specific, and somewhere in that stack of notes you decide the editor just proved a secret fear: they hate your book.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
+  "publishedDate": "2027-04-29",
+  "modifiedDate": "2027-04-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_hero_recognition_grief_like_blog_hero_landscape_e226405f0cfe.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_hero_recognition_grief_like_blog_hero_landscape_e226405f0cfe.jpeg?updatedAt=1782058536847",
     "alt": "blog hero \u00b7 recognition grief-like",
     "width": 6048,
     "height": 4024,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-      "item": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
+      "item": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     }
   ],
   "tldrBlocks": [],
@@ -123,7 +123,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_opening_the_moment_you_realize_you_re_touching_y_blog_section_landscape_7fa7b42315cc.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_opening_the_moment_you_realize_you_re_touching_y_blog_section_landscape_7fa7b42315cc.jpeg?updatedAt=1782058537218",
         "alt": "Opening: the moment you realize you're \"touching your baby\"",
         "width": 6611,
         "height": 4407,
@@ -237,7 +237,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_rage_misread_tone_blog_section_landscape_9e2a70c21bc5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_rage_misread_tone_blog_section_landscape_9e2a70c21bc5.gif?updatedAt=1782058538034",
         "alt": "Confusing tone with intent",
         "width": 200,
         "height": 200,
@@ -354,7 +354,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_fist_pump_underline_blog_section_landscape_77b8ea082ff2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_fist_pump_underline_blog_section_landscape_77b8ea082ff2.gif?updatedAt=1782058538580",
         "alt": "Skimming for betrayals, not patterns",
         "width": 239,
         "height": 200,
@@ -477,32 +477,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_section_image_commitment_revision_momentum_blog_section_landscape_24b9b3d51189.jpeg",
-    "alt": "blog section image \u00b7 commitment revision momentum",
-    "width": 6720,
-    "height": 4480,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
     },
     {
       "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     },
     {
       "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     },
     {
-      "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "title": "How to respond to an offer of representation without getting rushed",
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -541,7 +532,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-      "url": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     }
   ]
 } as const;
@@ -571,7 +562,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -583,31 +574,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-          "item": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
+          "item": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
+      "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#webpage",
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
       "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -623,11 +614,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#article",
+      "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#webpage"
+        "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your",
       "headline": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
       "alternativeHeadline": "Developmental Edit Myth: \u2018They Hate My Book\u2019 \u2014 How to Respond Without Touching Your Baby",
       "description": "The developmental edit email hits your inbox and your brain immediately starts drafting a eulogy. Not for the manuscript\u2014please. For you. The letter is long, the comments are specific, and somewhere in that stack of notes you decide the editor just proved a secret fear: they hate your book.",
@@ -657,40 +648,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage"
       },
+      "datePublished": "2027-04-29",
+      "dateModified": "2027-04-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-          "url": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+          "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         },
         {
           "@type": "WebPage",
           "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
         },
         {
           "@type": "WebPage",
           "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
         },
         {
           "@type": "WebPage",
           "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         },
         {
           "@type": "WebPage",
-          "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+          "name": "How to respond to an offer of representation without getting rushed",
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_hero_recognition_grief_like_blog_hero_landscape_e226405f0cfe.jpeg",
+      "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your/blog/blog_hero_recognition_grief_like_blog_hero_landscape_e226405f0cfe.jpeg?updatedAt=1782058536847",
       "width": 6048,
       "height": 4024,
       "caption": "blog hero \u00b7 recognition grief-like",
@@ -705,7 +698,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#faq",
+      "@id": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

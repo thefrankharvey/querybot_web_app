@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write faster: build a writing productivity mindset and system that sticks",
   "description": "Writing faster doesn't come from \"feeling inspired.\" It comes from a productivity routine that you can repeat when you're tired, busy, or convinced you're behind. Most procrastination is just the brain refusing to enter a vague situation.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-20",
+  "modifiedDate": "2027-01-20",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-faster-build-a-writing-productivity-mindset-and-system-that-sticks",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -571,6 +571,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-faster-build-a-writing-productivity-mindset-and-system-that-sticks#primaryimage"
       },
+      "datePublished": "2027-01-20",
+      "dateModified": "2027-01-20",
       "mentions": [
         {
           "@type": "WebPage",

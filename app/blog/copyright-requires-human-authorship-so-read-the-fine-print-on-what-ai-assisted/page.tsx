@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
   "description": "TLDR",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
+  "publishedDate": "2027-10-27",
+  "modifiedDate": "2027-10-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-      "item": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
+      "item": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
     }
   ],
   "tldrBlocks": [],
@@ -406,20 +406,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-      "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
-    },
-    {
       "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-      "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     },
     {
       "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-      "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
     },
     {
-      "title": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+      "title": "5 tips self-published authors use to turn early readers into real publishing success",
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
+    },
+    {
+      "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -459,12 +459,7 @@ const PAGE_DATA = {
       "text": "Then go back to the parts of your process you can actually control: selection, revision, structure. That's where authorship lives."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-      "url": "https://writequeryhook.com/query-letters/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -492,7 +487,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -504,31 +499,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-          "item": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
+          "item": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#webpage",
-      "url": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
+      "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#webpage",
+      "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
       "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -544,11 +539,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#article",
+      "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#webpage"
+        "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted",
       "headline": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
       "alternativeHeadline": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
       "description": "TLDR",
@@ -578,39 +573,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage"
       },
+      "datePublished": "2027-10-27",
+      "dateModified": "2027-10-27",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-          "url": "https://writequeryhook.com/query-letters/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-          "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
-        },
-        {
-          "@type": "WebPage",
           "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-          "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+          "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         },
         {
           "@type": "WebPage",
           "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-          "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+          "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+          "name": "5 tips self-published authors use to turn early readers into real publishing success",
+          "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
+          "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage",
+      "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_594/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted/blog/blog_hero_confusion_dread_blog_hero_landscape_1dacfb982dc3.jpeg",
       "width": 6000,
       "height": 4000,
@@ -626,7 +618,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#faq",
+      "@id": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted#faq",
       "mainEntity": [
         {
           "@type": "Question",

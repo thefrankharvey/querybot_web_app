@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Get your submission priorities wrong, and the agent will never forgive you",
   "description": "The contrarian truth is simple: you're probably spending your best energy on the wrong parts of your submission.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
+  "publishedDate": "2027-08-30",
+  "modifiedDate": "2027-08-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_hero_annoyed_dread_blog_hero_landscape_34169569b5b7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_hero_annoyed_dread_blog_hero_landscape_34169569b5b7.jpeg?updatedAt=1782319072187",
     "alt": "blog hero \u00b7 annoyed dread",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Get your submission priorities wrong, and the agent will never forgive you",
-      "item": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+      "item": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     }
   ],
   "tldrBlocks": [],
@@ -99,7 +99,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_tldr_blog_section_landscape_c4ed31b6ea0e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_tldr_blog_section_landscape_c4ed31b6ea0e.jpeg?updatedAt=1782319072741",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -174,7 +174,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_five_focus_blog_section_landscape_e954df1b1ebf.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_five_focus_blog_section_landscape_e954df1b1ebf.gif?updatedAt=1782319073384",
         "alt": "The only five things that matter",
         "width": 200,
         "height": 200,
@@ -303,13 +303,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_contrarian_gatekeeping_blog_section_landscape_50e0a8b683b7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_contrarian_gatekeeping_blog_section_landscape_50e0a8b683b7.gif",
         "alt": "Traditional submissions: plot pitch or bust",
-        "width": 10800,
-        "height": 6334,
-        "creator": "Monstera Production",
-        "creatorUrl": "https://www.pexels.com/@gabby-k",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "PixelBandits",
+        "creatorUrl": "https://giphy.com/gifs/PixelBandits-pixel-ghostbusters-bandits-FpYYlsk7yvj7AAGr7i",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -550,32 +550,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_section_image_exhale_checklist_blog_section_landscape_d4c0e632ca2e.gif",
-    "alt": "blog section image \u00b7 exhale checklist",
-    "width": 200,
-    "height": 200,
-    "creator": "patriotact",
-    "creatorUrl": "https://giphy.com/gifs/patriotact-netflix-hasan-minhaj-patriot-act-f8VOrdFZbIu5UqwixL",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-      "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
     },
     {
       "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-      "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
     },
     {
       "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
-      "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     },
     {
       "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -618,7 +609,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
     }
   ]
 } as const;
@@ -648,7 +639,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -660,31 +651,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Get your submission priorities wrong, and the agent will never forgive you",
-          "item": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+          "item": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#webpage",
-      "url": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
+      "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#webpage",
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
       "name": "Get your submission priorities wrong, and the agent will never forgive you",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -700,11 +691,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#article",
+      "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#webpage"
+        "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you",
       "headline": "Get your submission priorities wrong, and the agent will never forgive you",
       "alternativeHeadline": "Get your submission priorities wrong, and the agent will never forgive you",
       "description": "The contrarian truth is simple: you're probably spending your best energy on the wrong parts of your submission.",
@@ -734,40 +725,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage"
       },
+      "datePublished": "2027-08-30",
+      "dateModified": "2027-08-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-          "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-          "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+          "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-          "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+          "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+          "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_hero_annoyed_dread_blog_hero_landscape_34169569b5b7.jpeg",
+      "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you/blog/blog_hero_annoyed_dread_blog_hero_landscape_34169569b5b7.jpeg?updatedAt=1782319072187",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 annoyed dread",
@@ -782,7 +770,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#faq",
+      "@id": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Adapt and carry on: resilience, recovery, and hope after rejection",
   "description": "When life throws a wrench into \"normal,\" it doesn't pause your responsibilities\u2014it just changes the rules mid-game. Some writers get hit with real-world chaos. Others get hit with the paper kind: stalled submissions, rejection letters, criticism, the whole self-doubt blender.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-05",
+  "modifiedDate": "2027-03-05",
   "canonicalUrl": "https://writequeryhook.com/blog/adapt-and-carry-on-resilience-recovery-and-hope-after-rejection",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -405,6 +405,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/adapt-and-carry-on-resilience-recovery-and-hope-after-rejection#primaryimage"
       },
+      "datePublished": "2027-03-05",
+      "dateModified": "2027-03-05",
       "mentions": [
         {
           "@type": "WebPage",

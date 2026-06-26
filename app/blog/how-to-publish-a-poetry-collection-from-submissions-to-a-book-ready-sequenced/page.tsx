@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
   "description": "Poets don't need more \"inspiration.\" They need to write finished poems consistently, then arrange them into a collection that feels inevitable\u2014and get that book into readers' hands without turning the work into an internet costume.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
+  "publishedDate": "2027-06-28",
+  "modifiedDate": "2027-06-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_hero_blank_page_momentum_blog_hero_landscape_c0ed2c616f67.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_hero_blank_page_momentum_blog_hero_landscape_c0ed2c616f67.jpeg?updatedAt=1782236001315",
     "alt": "blog hero \u00b7 blank-page momentum",
     "width": 6192,
     "height": 4128,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-      "item": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
+      "item": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +117,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_routine_finished_poems_blog_section_landscape_d5b23b7cf8c3.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_routine_finished_poems_blog_section_landscape_d5b23b7cf8c3.gif?updatedAt=1782236002232",
         "alt": "Step 1: Write and finish poems until you can see your own voice",
         "width": 144,
         "height": 200,
@@ -311,7 +311,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_editing_clarity_blog_section_landscape_0c6115a548cb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_editing_clarity_blog_section_landscape_0c6115a548cb.jpeg?updatedAt=1782236003079",
         "alt": "Step 4: Edit for clarity and rhythm",
         "width": 6148,
         "height": 4099,
@@ -373,13 +373,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_chapbook_zine_blog_section_landscape_fd1bdee44f1e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_chapbook_zine_blog_section_landscape_fd1bdee44f1e.gif",
         "alt": "Step 5: Choose format and lock presentation",
-        "width": 3930,
-        "height": 2642,
-        "creator": "\u00c1nh \u0110\u1eb7ng",
-        "creatorUrl": "https://www.pexels.com/@anhdanghihi",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/zine-h5aIVP0DP8c9i",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -433,32 +433,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_section_image_done_draft_next_submission_blog_section_landscape_d7af39db444f.gif",
-    "alt": "blog section image \u00b7 done draft next submission",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     },
     {
       "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     },
     {
       "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     },
     {
       "title": "Middle grade vs young adult: which category your book actually fits",
-      "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -493,7 +484,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-      "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
     }
   ]
 } as const;
@@ -523,7 +514,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -535,31 +526,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-          "item": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
+          "item": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
       "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -575,11 +566,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#article",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced",
       "headline": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
       "alternativeHeadline": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
       "description": "Poets don't need more \"inspiration.\" They need to write finished poems consistently, then arrange them into a collection that feels inevitable\u2014and get that book into readers' hands without turning the work into an internet costume.",
@@ -609,40 +600,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage"
       },
+      "datePublished": "2027-06-28",
+      "dateModified": "2027-06-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
         },
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         },
         {
           "@type": "WebPage",
           "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
         },
         {
           "@type": "WebPage",
           "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+          "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Middle grade vs young adult: which category your book actually fits",
-          "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+          "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_hero_blank_page_momentum_blog_hero_landscape_c0ed2c616f67.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced/blog/blog_hero_blank_page_momentum_blog_hero_landscape_c0ed2c616f67.jpeg?updatedAt=1782236001315",
       "width": 6192,
       "height": 4128,
       "caption": "blog hero \u00b7 blank-page momentum",
@@ -657,7 +650,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#howto",
       "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
       "description": "Poets don't need more \"inspiration.\" They need to write finished poems consistently, then arrange them into a collection that feels inevitable\u2014and get that book into readers' hands without turning the work into an internet costume.",
       "totalTime": "PT7M",
@@ -667,49 +660,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Write and finish poems until you can see your own voice",
           "text": "Before you touch sequencing or submissions, produce enough finished material that you're no longer guessing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-1-write-and-finish-poems-until-you-can-see-your-own-voice"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-1-write-and-finish-poems-until-you-can-see-your-own-voice"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build momentum by sharing and submitting individual poems",
           "text": "Earn visibility the non-chaotic way: share as you write, and submit poems one at a time when they're ready.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-2-build-momentum-by-sharing-and-submitting-individual-poems"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-2-build-momentum-by-sharing-and-submitting-individual-poems"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: How to curate a cohesive poetry collection and sequence it into an emotional arc",
           "text": "Once you have a pool of poems, decide the collection format and let structure emerge from shared material\u2014not from random willpower.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-3-how-to-curate-a-cohesive-poetry-collection-and-sequence-it-into-an"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-3-how-to-curate-a-cohesive-poetry-collection-and-sequence-it-into-an"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Edit for clarity and rhythm",
           "text": "Editing is where your book becomes readable at speed\u2014while still rewarding slow attention.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-4-edit-for-clarity-and-rhythm"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-4-edit-for-clarity-and-rhythm"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Choose format and lock presentation",
           "text": "Presentation is not decoration. It's part of how readers experience the emotional arc.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-5-choose-format-and-lock-presentation"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-5-choose-format-and-lock-presentation"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Publish and plan your launch",
           "text": "Whether you pursue traditional or self-publishing, your strategy is the same: the launch is the delivery system for work that's already strong.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-6-publish-and-plan-your-launch"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#step-6-publish-and-plan-your-launch"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced#faq",
       "mainEntity": [
         {
           "@type": "Question",

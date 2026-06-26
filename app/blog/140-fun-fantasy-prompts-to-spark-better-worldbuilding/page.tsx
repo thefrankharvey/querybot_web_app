@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "140 fun fantasy prompts to spark better worldbuilding",
   "description": "Sometimes inspiration goes missing like it\u2019s offended you personally. You stare at the page, you refresh your brain, you swear you\u2019ve read every fantasy and seen every twist, and then\u2014nothing. Just fog.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-02",
+  "modifiedDate": "2026-11-02",
   "canonicalUrl": "https://writequeryhook.com/blog/140-fun-fantasy-prompts-to-spark-better-worldbuilding",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -619,6 +619,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/140-fun-fantasy-prompts-to-spark-better-worldbuilding#primaryimage"
       },
+      "datePublished": "2026-11-02",
+      "dateModified": "2026-11-02",
       "mentions": [
         {
           "@type": "WebPage",

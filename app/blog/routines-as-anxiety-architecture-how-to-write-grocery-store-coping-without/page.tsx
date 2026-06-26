@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Routines as Anxiety Architecture: How to Write Grocery-Store Coping Without Turning It Into a \"Quirk\"",
   "description": "I've read \"anxiety in public\" scenes that feel like someone googled the word anxious and sprinkled it over a grocery store like cinnamon.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-23",
+  "modifiedDate": "2026-10-23",
   "canonicalUrl": "https://writequeryhook.com/blog/routines-as-anxiety-architecture-how-to-write-grocery-store-coping-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -620,6 +620,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/routines-as-anxiety-architecture-how-to-write-grocery-store-coping-without#primaryimage"
       },
+      "datePublished": "2026-10-23",
+      "dateModified": "2026-10-23",
       "mentions": [
         {
           "@type": "WebPage",

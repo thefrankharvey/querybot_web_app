@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Epilogue vs alternatives: when \u201cjust one more thing\u201d helps\u2014and when it ruins the ending",
   "description": "Writers get it stuck in their head that the ending is a sinkhole. Something\u2019s unresolved. Something\u2019s emotionally loud. So the brain reaches for the classic fix: epilogue, a tidy little landing pad that whispers, \u201cDon\u2019t worry. Just one more thing.\u201d",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-30",
+  "modifiedDate": "2026-10-30",
   "canonicalUrl": "https://writequeryhook.com/blog/epilogue-vs-alternatives-when-just-one-more-thing-helps-and-when-it-ruins-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -661,6 +661,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/epilogue-vs-alternatives-when-just-one-more-thing-helps-and-when-it-ruins-the#primaryimage"
       },
+      "datePublished": "2026-10-30",
+      "dateModified": "2026-10-30",
       "mentions": [
         {
           "@type": "WebPage",

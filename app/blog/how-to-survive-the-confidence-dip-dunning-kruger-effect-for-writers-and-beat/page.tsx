@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to survive the confidence dip (Dunning-Kruger effect for writers) and beat author despair syndrome",
   "description": "The first few drafts can feel weirdly \"done.\" Like\u2014cool, this is fine, I can see the story, I understand what I'm making.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-21",
+  "modifiedDate": "2027-03-21",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-survive-the-confidence-dip-dunning-kruger-effect-for-writers-and-beat",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -577,6 +577,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-survive-the-confidence-dip-dunning-kruger-effect-for-writers-and-beat#primaryimage"
       },
+      "datePublished": "2027-03-21",
+      "dateModified": "2027-03-21",
       "mentions": [
         {
           "@type": "WebPage",

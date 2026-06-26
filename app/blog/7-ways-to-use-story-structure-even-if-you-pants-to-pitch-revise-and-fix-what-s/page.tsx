@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 ways to use story structure (even if you pants) to pitch, revise, and fix what's broken",
   "description": "There's a special kind of revision dread where the notes come back like: \"The voice is great. But where's the story?\" And your brain goes, How is the story missing? I wrote the whole damn thing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-27",
+  "modifiedDate": "2026-09-27",
   "canonicalUrl": "https://writequeryhook.com/blog/7-ways-to-use-story-structure-even-if-you-pants-to-pitch-revise-and-fix-what-s",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -589,6 +589,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-ways-to-use-story-structure-even-if-you-pants-to-pitch-revise-and-fix-what-s#primaryimage"
       },
+      "datePublished": "2026-09-27",
+      "dateModified": "2026-09-27",
       "mentions": [
         {
           "@type": "WebPage",

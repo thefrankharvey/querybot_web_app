@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Always-already marketing: treating your book like a product from page one",
   "description": "TL;DR",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one",
+  "publishedDate": "2027-09-07",
+  "modifiedDate": "2027-09-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_hero_recognition_frustration_blog_hero_landscape_a00cb644e68f.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_hero_recognition_frustration_blog_hero_landscape_a00cb644e68f.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Always-already marketing: treating your book like a product from page one",
-      "item": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "item": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     }
   ],
   "tldrBlocks": [],
@@ -342,7 +342,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_planning_anxiety_blog_section_landscape_283c3ea687d9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_planning_anxiety_blog_section_landscape_283c3ea687d9.gif?updatedAt=1782328805157",
         "alt": "How authors can think about sales early",
         "width": 200,
         "height": 200,
@@ -434,13 +434,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_craft_alignment_blog_section_landscape_5625d421a983.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_craft_alignment_blog_section_landscape_5625d421a983.gif",
         "alt": "Connect creative work to book selling without making it fake",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -529,7 +529,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_positioning_iteration_blog_section_landscape_689df033969f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_positioning_iteration_blog_section_landscape_689df033969f.jpeg?updatedAt=1782328806361",
         "alt": "Positioning is a continuous decision, not a one-time description dump",
         "width": 6000,
         "height": 4000,
@@ -601,32 +601,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_section_image_earned_hope_decisive_blog_section_landscape_91fb2c5448f1.jpeg",
-    "alt": "blog section image \u00b7 earned-hope decisive",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     },
     {
       "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     },
     {
       "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     },
     {
-      "title": "How to choose a book title that sells: five title moves explained",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+      "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -681,7 +672,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     }
   ]
 } as const;
@@ -711,7 +702,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -723,31 +714,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Always-already marketing: treating your book like a product from page one",
-          "item": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+          "item": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#webpage",
-      "url": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one",
+      "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#webpage",
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one",
       "name": "Always-already marketing: treating your book like a product from page one",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage"
+        "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -763,11 +754,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#article",
+      "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#webpage"
+        "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one",
       "headline": "Always-already marketing: treating your book like a product from page one",
       "alternativeHeadline": "Always-already marketing: treating your book like a product from page one",
       "description": "TL;DR",
@@ -797,55 +788,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage"
+        "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage"
       },
+      "datePublished": "2027-09-07",
+      "dateModified": "2027-09-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         },
         {
           "@type": "WebPage",
           "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+          "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         },
         {
           "@type": "WebPage",
           "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+          "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
         },
         {
           "@type": "WebPage",
           "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+          "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         },
         {
           "@type": "WebPage",
-          "name": "How to choose a book title that sells: five title moves explained",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+          "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
+          "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_hero_recognition_frustration_blog_hero_landscape_a00cb644e68f.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/always-already-marketing-treating-your-book-like-a-product-from-page-one/blog/blog_hero_recognition_frustration_blog_hero_landscape_a00cb644e68f.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one#faq",
+      "@id": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one#faq",
       "mainEntity": [
         {
           "@type": "Question",

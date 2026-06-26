@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write vivid verbs (so your sentences don't feel dead)",
   "description": "Your sentences feel dead, even after you \"fix\" them with adjectives and adverbs. The problem lies in your verbs\u2014they aren't carrying enough weight. When the verb is weak, you try to prop it up with adverbs\u2014and then the line turns cluttered, performative, and oddly distant from the action. The fix starts with the verb itself, letting the sentence recover its energy.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-05",
+  "modifiedDate": "2026-12-05",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-vivid-verbs-so-your-sentences-don-t-feel-dead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -602,6 +602,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-vivid-verbs-so-your-sentences-don-t-feel-dead#primaryimage"
       },
+      "datePublished": "2026-12-05",
+      "dateModified": "2026-12-05",
       "mentions": [
         {
           "@type": "WebPage",

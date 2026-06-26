@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Don't Suffer for Your Art: Creativity, Self-Doubt, and Mastery FAQ",
   "description": "Writers and artists don't just build worlds with their hands. They also build a whole inner story about what it \"means\" when they win, struggle, or improve. This FAQ is for the moments when your brain treats self-doubt like a requirement\u2014when you're convinced you can't be a \"real\" creator unless you're suffering in the process.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-18",
+  "modifiedDate": "2027-03-18",
   "canonicalUrl": "https://writequeryhook.com/blog/don-t-suffer-for-your-art-creativity-self-doubt-and-mastery-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -449,6 +449,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/don-t-suffer-for-your-art-creativity-self-doubt-and-mastery-faq#primaryimage"
       },
+      "datePublished": "2027-03-18",
+      "dateModified": "2027-03-18",
       "mentions": [
         {
           "@type": "WebPage",

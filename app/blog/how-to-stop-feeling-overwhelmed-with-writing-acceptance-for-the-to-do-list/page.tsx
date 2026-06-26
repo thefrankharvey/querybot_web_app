@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Stop Feeling Overwhelmed with Writing: Acceptance for the To-Do-List Mindset",
   "description": "The first time I watched Alex struggle, it wasn't dramatic. No movie-music swell. No tragic monologue. Just this: a body that used to move like a promise, suddenly negotiating stairs like they were a complicated moral stance.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-25",
+  "modifiedDate": "2027-02-25",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-feeling-overwhelmed-with-writing-acceptance-for-the-to-do-list",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -859,6 +859,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-feeling-overwhelmed-with-writing-acceptance-for-the-to-do-list#primaryimage"
       },
+      "datePublished": "2027-02-25",
+      "dateModified": "2027-02-25",
       "mentions": [
         {
           "@type": "WebPage",

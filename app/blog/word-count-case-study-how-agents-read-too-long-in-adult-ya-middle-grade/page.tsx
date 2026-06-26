@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
   "description": "Here's the case study: agents and editors don't read your word count like poets reading haiku. They read it like a fit check. A manuscript length is one of the fastest heuristics in the industry because it correlates with pacing, audience stamina, and genre expectations. And once your number lands outside what they're used to seeing, they start looking for a reason to brace.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
+  "publishedDate": "2027-07-28",
+  "modifiedDate": "2027-07-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_hero_dread_query_trenches_blog_hero_landscape_4eb639c4050c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_hero_dread_query_trenches_blog_hero_landscape_4eb639c4050c.jpeg",
     "alt": "blog hero \u00b7 dread query trenches",
-    "width": 254,
-    "height": 200,
-    "creator": "inkygirl",
-    "creatorUrl": "https://giphy.com/gifs/querying-1AttHJsJswPkfJYIiR",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 3368,
+    "creator": "D Goug",
+    "creatorUrl": "https://www.pexels.com/@d-goug-211350543",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-      "item": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+      "item": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
     }
   ],
   "tldrBlocks": [],
@@ -107,13 +107,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_opening_subject_context_blog_section_landscape_ae95ef9ba1fb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_opening_subject_context_blog_section_landscape_ae95ef9ba1fb.gif",
         "alt": "Opening \u2014 subject context",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -335,7 +335,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_a7166ba1136a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_a7166ba1136a.jpeg?updatedAt=1782266729151",
         "alt": "Body \u2014 structural breakdown",
         "width": 4752,
         "height": 3168,
@@ -393,7 +393,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_lessons_takeaways_blog_section_landscape_95b47840a5ed.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_lessons_takeaways_blog_section_landscape_95b47840a5ed.gif?updatedAt=1782266730799",
         "alt": "Lessons / Takeaways",
         "width": 246,
         "height": 200,
@@ -404,32 +404,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_section_image_determination_fist_pump_blog_section_landscape_a643fbee5ed2.jpeg",
-    "alt": "blog section image \u00b7 determination fist pump",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mustafa  Fatemi",
-    "creatorUrl": "https://www.pexels.com/@mustafa-fatemi-383794430",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-      "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
     },
     {
       "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-      "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     },
     {
       "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     },
     {
-      "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
+      "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -468,7 +459,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-      "url": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
     }
   ]
 } as const;
@@ -498,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -510,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-          "item": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+          "item": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#webpage",
-      "url": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
+      "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#webpage",
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
       "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -550,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#article",
+      "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#webpage"
+        "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade",
       "headline": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
       "alternativeHeadline": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
       "description": "Here's the case study: agents and editors don't read your word count like poets reading haiku. They read it like a fit check. A manuscript length is one of the fastest heuristics in the industry because it correlates with pacing, audience stamina, and genre expectations. And once your number lands outside what they're used to seeing, they start looking for a reason to brace.",
@@ -584,55 +575,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage"
       },
+      "datePublished": "2027-07-28",
+      "dateModified": "2027-07-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-          "url": "https://writequeryhook.com/query-letters/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-          "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+          "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
         },
         {
           "@type": "WebPage",
           "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-          "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "url": "https://writequeryhook.com/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your-novel-category"
+          "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
         },
         {
           "@type": "WebPage",
-          "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
+          "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_hero_dread_query_trenches_blog_hero_landscape_4eb639c4050c.gif",
-      "width": 254,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_485/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade/blog/blog_hero_dread_query_trenches_blog_hero_landscape_4eb639c4050c.jpeg",
+      "width": 6000,
+      "height": 3368,
       "caption": "blog hero \u00b7 dread query trenches",
-      "creditText": "inkygirl",
+      "creditText": "D Goug",
       "author": {
         "@type": "Person",
-        "name": "inkygirl",
-        "url": "https://giphy.com/gifs/querying-1AttHJsJswPkfJYIiR"
+        "name": "D Goug",
+        "url": "https://www.pexels.com/@d-goug-211350543"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#faq",
+      "@id": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade#faq",
       "mainEntity": [
         {
           "@type": "Question",

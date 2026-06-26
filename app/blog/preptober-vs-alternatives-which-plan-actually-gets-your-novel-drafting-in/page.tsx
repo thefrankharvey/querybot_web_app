@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Preptober vs alternatives: which plan actually gets your novel drafting in November?",
   "description": "Every October, somebody swears they'll \"figure it out in November.\" Usually they mean: they'll spend October as a vibe, then October-late becomes \"why am I rewriting the same scene three times,\" and November turns into cursor-blinking dread.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-03",
+  "modifiedDate": "2026-12-03",
   "canonicalUrl": "https://writequeryhook.com/blog/preptober-vs-alternatives-which-plan-actually-gets-your-novel-drafting-in",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -605,6 +605,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/preptober-vs-alternatives-which-plan-actually-gets-your-novel-drafting-in#primaryimage"
       },
+      "datePublished": "2026-12-03",
+      "dateModified": "2026-12-03",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "You Don't Need More Interiority\u2014You Need Reaction-Loop Interiority",
   "description": "There's a specific kind of scene that makes us groan in revisions: the POV character is doing a full mental TED Talk, and somehow the scene still reads like a waiting room.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-03",
+  "modifiedDate": "2026-11-03",
   "canonicalUrl": "https://writequeryhook.com/blog/you-don-t-need-more-interiority-you-need-reaction-loop-interiority",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -658,6 +658,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/you-don-t-need-more-interiority-you-need-reaction-loop-interiority#primaryimage"
       },
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
       "mentions": [
         {
           "@type": "WebPage",

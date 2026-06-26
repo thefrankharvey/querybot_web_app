@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
   "description": "You know the moment: someone says \"film/TV\" and your brain immediately tries to sprint ahead to mood boards, cast lists, and that one scene you just know would look gorgeous.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
+  "publishedDate": "2027-07-14",
+  "modifiedDate": "2027-07-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_hero_recognition_dread_blog_hero_landscape_ee63e4b3980a.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_hero_recognition_dread_blog_hero_landscape_ee63e4b3980a.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
+      "item": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     }
   ],
   "tldrBlocks": [],
@@ -161,7 +161,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_control_confusion_blog_section_landscape_569cd018020b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_control_confusion_blog_section_landscape_569cd018020b.jpeg?updatedAt=1782252334604",
         "alt": "Rights and creative control: adaptation rights licensing vs selling decides how much of \"your book\" survives",
         "width": 8000,
         "height": 4500,
@@ -294,7 +294,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_fear_exposure_blog_section_landscape_3613d92b47a3.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_fear_exposure_blog_section_landscape_3613d92b47a3.gif?updatedAt=1782252336829",
         "alt": "Turning inner monologue into screen: how to move interiority to dialogue, subtext, and pressure",
         "width": 358,
         "height": 200,
@@ -435,43 +435,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_panic_deadline_blog_section_landscape_79d83da93aaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_panic_deadline_blog_section_landscape_79d83da93aaa.gif",
         "alt": "Tightening pacing for screenplay: screen moves faster than prose, and your structure has to match",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "britishbakeoff",
+        "creatorUrl": "https://giphy.com/gifs/britishbakeoff-zMWTXLXa0KNek5yDPv",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_section_image_relief_fist_pump_blog_section_landscape_f63d9a8d040f.jpeg",
-    "alt": "blog section image \u00b7 relief fist pump",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
-    },
-    {
       "title": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
     },
     {
       "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-      "url": "https://writequeryhook.com/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral-system"
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
     },
     {
       "title": "8 reasons your book needs a business plan (before you write a word)",
-      "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+    },
+    {
+      "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -510,7 +501,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-      "url": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+      "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
     }
   ]
 } as const;
@@ -540,7 +531,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +543,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
+          "item": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
+      "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
       "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +583,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the",
       "headline": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
       "alternativeHeadline": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
       "description": "You know the moment: someone says \"film/TV\" and your brain immediately tries to sprint ahead to mood boards, cast lists, and that one scene you just know would look gorgeous.",
@@ -626,55 +617,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage"
       },
+      "datePublished": "2027-07-14",
+      "dateModified": "2027-07-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-          "url": "https://writequeryhook.com/query-letters/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
+          "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-that-still-fits-category-busting-without-becoming-a-gimmick"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
         },
         {
           "@type": "WebPage",
           "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-          "url": "https://writequeryhook.com/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral-system"
+          "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
         },
         {
           "@type": "WebPage",
           "name": "8 reasons your book needs a business plan (before you write a word)",
-          "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+          "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_hero_recognition_dread_blog_hero_landscape_ee63e4b3980a.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_469/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the/blog/blog_hero_recognition_dread_blog_hero_landscape_ee63e4b3980a.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

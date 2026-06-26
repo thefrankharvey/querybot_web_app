@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Cutting Every Word vs Picture-First Editing: Which Fixes Your Picture Book Manuscript?",
   "description": "You know that moment when you open your picture book manuscript and it \"reads fine\"\u2026 except you don't have pictures yet. So the text looks weirdly\u2026 loud. Or weirdly stingy. Or both. Then you start doing the thing that feels productive: attacking the word count like it personally offended you.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-25",
+  "modifiedDate": "2026-12-25",
   "canonicalUrl": "https://writequeryhook.com/blog/cutting-every-word-vs-picture-first-editing-which-fixes-your-picture-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -581,6 +581,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/cutting-every-word-vs-picture-first-editing-which-fixes-your-picture-book#primaryimage"
       },
+      "datePublished": "2026-12-25",
+      "dateModified": "2026-12-25",
       "mentions": [
         {
           "@type": "WebPage",

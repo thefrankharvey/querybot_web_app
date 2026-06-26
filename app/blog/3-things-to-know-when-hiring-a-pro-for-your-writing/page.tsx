@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "3 things to know when hiring a pro for your writing",
   "description": "Hiring feels like walking into a room where everyone else already did the homework. Service categories blur together. \"Editorial help\" turns into a dozen different meanings. Then the pricing lands, and your brain does that fun little spiral: Did I just buy the wrong thing?",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing",
+  "publishedDate": "2027-07-24",
+  "modifiedDate": "2027-07-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_hero_panic_dread_blog_hero_landscape_45f1e7439169.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_hero_panic_dread_blog_hero_landscape_45f1e7439169.jpeg?updatedAt=1782264019721",
     "alt": "blog hero \u00b7 panic dread",
     "width": 5680,
     "height": 3779,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "3 things to know when hiring a pro for your writing",
-      "item": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing"
+      "item": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     }
   ],
   "tldrBlocks": [],
@@ -160,13 +160,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_confusion_eye_roll_blog_section_landscape_b0f4d052c28a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_confusion_eye_roll_blog_section_landscape_b0f4d052c28a.gif",
         "alt": "How to match services to your creative goal",
-        "width": 8688,
-        "height": 5792,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -223,7 +223,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_skepticism_trust_blog_section_landscape_964127ac7bed.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_skepticism_trust_blog_section_landscape_964127ac7bed.gif?updatedAt=1782264020917",
         "alt": "How to verify relevant experience and set pricing expectations",
         "width": 200,
         "height": 200,
@@ -250,7 +250,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_how_to_hire_the_right_professional_for_writing_blog_section_landscape_f96169f2c705.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_how_to_hire_the_right_professional_for_writing_blog_section_landscape_f96169f2c705.jpeg?updatedAt=1782264021467",
         "alt": "How to hire the right professional for writing",
         "width": 6611,
         "height": 4407,
@@ -261,32 +261,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_section_image_action_breath_blog_section_landscape_4a96584f2c26.gif",
-    "alt": "blog section image \u00b7 action breath",
-    "width": 266,
-    "height": 200,
-    "creator": "muppetwiki",
-    "creatorUrl": "https://giphy.com/gifs/muppetwiki-sesame-street-muppets-elmo-fUQ4rhUZJYiQsas6WD",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     },
     {
       "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
-    },
-    {
-      "title": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-      "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     },
     {
       "title": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-      "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+      "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+    },
+    {
+      "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -325,7 +316,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-      "url": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
     }
   ]
 } as const;
@@ -355,7 +346,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -367,31 +358,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "3 things to know when hiring a pro for your writing",
-          "item": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing"
+          "item": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#webpage",
-      "url": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing",
+      "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#webpage",
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing",
       "name": "3 things to know when hiring a pro for your writing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -407,11 +398,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#article",
+      "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#webpage"
+        "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing",
       "headline": "3 things to know when hiring a pro for your writing",
       "alternativeHeadline": "3 things to know when hiring a pro for your writing",
       "description": "Hiring feels like walking into a room where everyone else already did the homework. Service categories blur together. \"Editorial help\" turns into a dozen different meanings. Then the pricing lands, and your brain does that fun little spiral: Did I just buy the wrong thing?",
@@ -441,40 +432,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage"
       },
+      "datePublished": "2027-07-24",
+      "dateModified": "2027-07-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-          "url": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+          "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
         },
         {
           "@type": "WebPage",
           "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+          "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         },
         {
           "@type": "WebPage",
           "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-          "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+          "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
         },
         {
           "@type": "WebPage",
           "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-          "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
+          "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_hero_panic_dread_blog_hero_landscape_45f1e7439169.jpeg",
+      "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/3-things-to-know-when-hiring-a-pro-for-your-writing/blog/blog_hero_panic_dread_blog_hero_landscape_45f1e7439169.jpeg?updatedAt=1782264019721",
       "width": 5680,
       "height": 3779,
       "caption": "blog hero \u00b7 panic dread",
@@ -489,7 +482,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing#faq",
+      "@id": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing#faq",
       "mainEntity": [
         {
           "@type": "Question",

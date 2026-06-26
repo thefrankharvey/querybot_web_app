@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing a denouement that fits the story ending you promised",
   "description": "You get to the climax and think, \"Great, I've earned the ending.\" Then you write the last pages and\u2014somehow\u2014it feels off. Abrupt. Distant. Like the climax hit the wall and bounced straight out of the book without giving the reader anywhere to land.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-06",
+  "modifiedDate": "2026-12-06",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-denouement-that-fits-the-story-ending-you-promised",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -525,6 +525,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-denouement-that-fits-the-story-ending-you-promised#primaryimage"
       },
+      "datePublished": "2026-12-06",
+      "dateModified": "2026-12-06",
       "mentions": [
         {
           "@type": "WebPage",

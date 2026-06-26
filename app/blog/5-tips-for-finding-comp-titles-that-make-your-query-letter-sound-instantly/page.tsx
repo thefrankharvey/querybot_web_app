@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for finding comp titles that make your query letter sound instantly readable",
   "description": "At some point, every querying writer has to answer the question that sounds simple and feels like a trap: \"What's your book about?\" Not the full novel-history dump. The short version that lands while someone's attention is still alive and caffeinated.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-07",
+  "modifiedDate": "2026-08-07",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-finding-comp-titles-that-make-your-query-letter-sound-instantly",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-finding-comp-titles-that-make-your-query-letter-sound-instantly#primaryimage"
       },
+      "datePublished": "2026-08-07",
+      "dateModified": "2026-08-07",
       "mentions": [
         {
           "@type": "WebPage",

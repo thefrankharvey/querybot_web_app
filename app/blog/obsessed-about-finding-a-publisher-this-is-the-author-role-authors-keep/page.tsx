@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Obsessed about finding a publisher? This is the author role authors keep forgetting FAQ",
   "description": "If \"publisher\" is the thing you're chasing, your brain starts acting like it's the only gate to legitimacy. That mental game is loud. It makes every draft feel like it's failing your worth test, and every rejection feels personal instead of process-based.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-06",
+  "modifiedDate": "2027-03-06",
   "canonicalUrl": "https://writequeryhook.com/blog/obsessed-about-finding-a-publisher-this-is-the-author-role-authors-keep",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -431,6 +431,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/obsessed-about-finding-a-publisher-this-is-the-author-role-authors-keep#primaryimage"
       },
+      "datePublished": "2027-03-06",
+      "dateModified": "2027-03-06",
       "mentions": [
         {
           "@type": "WebPage",

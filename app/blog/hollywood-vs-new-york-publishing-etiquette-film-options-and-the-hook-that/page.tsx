@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
   "description": "If Hollywood interest hits first, your career brain gets put into an improv scene\u2014except you\u2019re still holding the calmer New York publishing checklist. Same goal (get the story seen), totally different vibe (how fast decisions \u201cfeel\u201d like they have to happen).",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
+  "publishedDate": "2027-06-25",
+  "modifiedDate": "2027-06-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "urgency"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_hero_recognition_laugh_blog_hero_landscape_e573df4638f5.jpeg?updatedAt=1782428083509",
+    "alt": "blog hero \u00b7 recognition laugh",
+    "width": 7020,
+    "height": 4565,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-      "item": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
+      "item": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
     }
   ],
   "tldrBlocks": [],
@@ -129,7 +138,16 @@ const PAGE_DATA = {
           "text": "You don\u2019t need to pick which lane is \u201creal.\u201d You need to drive without swerving."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_section_image_speed_pressure_blog_section_landscape_2c3e8a113c9e.jpeg?updatedAt=1782428085130",
+        "alt": "How Hollywood FOMO changes decision-making (and why you feel pressured)",
+        "width": 5472,
+        "height": 3648,
+        "creator": "Erik Mclean",
+        "creatorUrl": "https://www.pexels.com/@introspectivedsgn",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_whats_different_about_what_agents_share_and_when",
@@ -192,7 +210,16 @@ const PAGE_DATA = {
           "text": "The problem isn\u2019t that one side is \u201cright.\u201d The problem is writers treat them like the same etiquette."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_section_image_timing_uncertainty_blog_section_landscape_10372b537bf0.gif?updatedAt=1782428084203",
+        "alt": "When agents send books to Hollywood (and why timing matters)",
+        "width": 200,
+        "height": 200,
+        "creator": "worldcup",
+        "creatorUrl": "https://giphy.com/gifs/world-cup-fifa-seleo-tB5edJNLYkZL5K0hGp",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_whats_different_about_what_agents_share_and_when",
@@ -249,7 +276,16 @@ const PAGE_DATA = {
           "text": "It does. It changes what the room thinks it\u2019s late to."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_section_image_timing_uncertainty_blog_section_landscape_10372b537bf0.gif?updatedAt=1782428084203",
+        "alt": "When agents send books to Hollywood (and why timing matters)",
+        "width": 200,
+        "height": 200,
+        "creator": "worldcup",
+        "creatorUrl": "https://giphy.com/gifs/world-cup-fifa-seleo-tB5edJNLYkZL5K0hGp",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_publishing_vs_hollywood_vibes_speed",
@@ -296,7 +332,16 @@ const PAGE_DATA = {
           "text": "You can\u2019t control the temperature. You can control your materials, your communications, and your risk-reduction steps."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_section_image_speed_pressure_blog_section_landscape_2c3e8a113c9e.jpeg?updatedAt=1782428085130",
+        "alt": "How Hollywood FOMO changes decision-making (and why you feel pressured)",
+        "width": 5472,
+        "height": 3648,
+        "creator": "Erik Mclean",
+        "creatorUrl": "https://www.pexels.com/@introspectivedsgn",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_publishing_vs_hollywood_vibes_speed",
@@ -367,7 +412,16 @@ const PAGE_DATA = {
           "text": "| Aspect | Hollywood (film options track) | New York publishing (book track) | |---|---|---| | Pace | Perception-driven urgency (FOMO energy) | Process-driven sequencing | | What changes outcomes | Signals, competition, announcements | Query package clarity, market fit, agent workflows | | Etiquette vibe | \u201cWe need to move\u201d tone | \u201cWe need to review\u201d tone | | How timing shows up | Decisions accelerate when scarcity feels real | Stages align with what agents can share and when | | Writer risk | Acting too fast, confusing momentum with commitment | Losing momentum by waiting too long |"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_section_image_speed_pressure_blog_section_landscape_2c3e8a113c9e.jpeg?updatedAt=1782428085130",
+        "alt": "How Hollywood FOMO changes decision-making (and why you feel pressured)",
+        "width": 5472,
+        "height": 3648,
+        "creator": "Erik Mclean",
+        "creatorUrl": "https://www.pexels.com/@introspectivedsgn",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_how_a_hook_plans_for_both_attention_cycles",
@@ -477,20 +531,20 @@ const PAGE_DATA = {
   "closingImage": null,
   "alsoLike": [
     {
-      "title": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-      "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
-    },
-    {
       "title": "What are you working toward? Goals, writing, legacy, and working less",
-      "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
     },
     {
       "title": "What is a chapbook and should you publish one? (FAQ)",
-      "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
     },
     {
-      "title": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-      "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
+      "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
+      "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+    },
+    {
+      "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -522,12 +576,7 @@ const PAGE_DATA = {
       "text": "You can\u2019t stop culture from having its own tempo, but you can stop yourself from guessing. Decide your timing assumptions, tighten your hook plan, and treat etiquette like a genre switch\u2014because in this workflow, it is."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-      "url": "https://writequeryhook.com/query-letters/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -555,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -567,28 +616,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-          "item": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
+          "item": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
+      "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#webpage",
+      "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
       "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -604,11 +656,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#article",
+      "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#webpage"
+        "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that",
       "headline": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
       "alternativeHeadline": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
       "description": "If Hollywood interest hits first, your career brain gets put into an improv scene\u2014except you\u2019re still holding the calmer New York publishing checklist. Same goal (get the story seen), totally different vibe (how fast decisions \u201cfeel\u201d like they have to happen).",
@@ -637,38 +689,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#primaryimage"
+      },
+      "datePublished": "2027-06-25",
+      "dateModified": "2027-06-25",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-          "url": "https://writequeryhook.com/query-letters/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-          "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
-        },
-        {
-          "@type": "WebPage",
           "name": "What are you working toward? Goals, writing, legacy, and working less",
-          "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+          "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
         },
         {
           "@type": "WebPage",
           "name": "What is a chapbook and should you publish one? (FAQ)",
-          "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
+          "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-          "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
+          "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
+          "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+        },
+        {
+          "@type": "WebPage",
+          "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
+          "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_447/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that/blog/blog_hero_recognition_laugh_blog_hero_landscape_e573df4638f5.jpeg?updatedAt=1782428083509",
+      "width": 7020,
+      "height": 4565,
+      "caption": "blog hero \u00b7 recognition laugh",
+      "creditText": "Andrea Piacquadio",
+      "author": {
+        "@type": "Person",
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#faq",
+      "@id": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Know when to leave your agent: a practical FAQ",
   "description": "Leaving an agent is one of those publishing decisions that feels emotional even when you swear you're going to be \"rational.\" The problem is you're dealing with a living relationship\u2014someone who has access to your manuscript and your manuscript's fate inside the industry.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq",
+  "publishedDate": "2027-06-02",
+  "modifiedDate": "2027-06-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_hero_uncertainty_high_stakes_blog_hero_landscape_40c374bca30e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_hero_uncertainty_high_stakes_blog_hero_landscape_40c374bca30e.jpeg",
     "alt": "blog hero \u00b7 uncertainty high stakes",
-    "width": 200,
-    "height": 200,
-    "creator": "officelady365",
-    "creatorUrl": "https://giphy.com/gifs/life-ol365-ollife-d5pBBi43j9FNUEZRwr",
-    "provider": "giphy",
+    "width": 4895,
+    "height": 3268,
+    "creator": "Pavel Danilyuk",
+    "creatorUrl": "https://www.pexels.com/@pavel-danilyuk",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Know when to leave your agent: a practical FAQ",
-      "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq"
+      "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     }
   ],
   "tldrBlocks": [],
@@ -102,7 +102,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_rejection_context_blog_section_landscape_b75ec493a5ef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_rejection_context_blog_section_landscape_b75ec493a5ef.jpeg?updatedAt=1782188257513",
         "alt": "Is it a good reason to leave if my agent couldn't sell my book?",
         "width": 6000,
         "height": 4000,
@@ -156,7 +156,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_ethics_unprofessional_blog_section_landscape_b1f24c589d92.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_ethics_unprofessional_blog_section_landscape_b1f24c589d92.gif?updatedAt=1782188258146",
         "alt": "What counts as a strong reason to leave an agent?",
         "width": 200,
         "height": 200,
@@ -250,13 +250,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_gone_incommunicado_dread_blog_section_landscape_bc409114e010.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_gone_incommunicado_dread_blog_section_landscape_bc409114e010.gif",
         "alt": "What if I can't reach my agent at all?",
-        "width": 3875,
-        "height": 2848,
-        "creator": "Alexandro David",
-        "creatorUrl": "https://www.pexels.com/@alexandro-david-871783",
-        "provider": "pexels",
+        "width": 358,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/christmas-bonus-XqpnXaeZPnupy",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -369,32 +369,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_section_image_decide_calm_action_blog_section_landscape_244ef2880a57.jpeg",
-    "alt": "blog section image \u00b7 decide calm action",
-    "width": 5260,
-    "height": 3507,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Acceptability clause in publishing contracts FAQ",
-      "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     },
     {
       "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     },
     {
       "title": "Know when to leave your agent: a case-study checklist after the offer",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     },
     {
-      "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+      "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -412,7 +403,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Acceptability clause in publishing contracts FAQ",
-      "url": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     }
   ]
 } as const;
@@ -442,7 +433,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -454,31 +445,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Know when to leave your agent: a practical FAQ",
-          "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq"
+          "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#webpage",
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq",
       "name": "Know when to leave your agent: a practical FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -494,11 +485,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#article",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq",
       "headline": "Know when to leave your agent: a practical FAQ",
       "alternativeHeadline": "Know when to leave your agent: a practical FAQ",
       "description": "Leaving an agent is one of those publishing decisions that feels emotional even when you swear you're going to be \"rational.\" The problem is you're dealing with a living relationship\u2014someone who has access to your manuscript and your manuscript's fate inside the industry.",
@@ -528,48 +519,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#primaryimage"
       },
+      "datePublished": "2027-06-02",
+      "dateModified": "2027-06-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Acceptability clause in publishing contracts FAQ",
-          "url": "https://writequeryhook.com/query-letters/acceptability-clause-in-publishing-contracts-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Acceptability clause in publishing contracts FAQ",
-          "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
         },
         {
           "@type": "WebPage",
           "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
         },
         {
           "@type": "WebPage",
-          "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+          "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-practical-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_hero_uncertainty_high_stakes_blog_hero_landscape_40c374bca30e.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_418/know-when-to-leave-your-agent-a-practical-faq/blog/blog_hero_uncertainty_high_stakes_blog_hero_landscape_40c374bca30e.jpeg",
+      "width": 4895,
+      "height": 3268,
       "caption": "blog hero \u00b7 uncertainty high stakes",
-      "creditText": "officelady365",
+      "creditText": "Pavel Danilyuk",
       "author": {
         "@type": "Person",
-        "name": "officelady365",
-        "url": "https://giphy.com/gifs/life-ol365-ollife-d5pBBi43j9FNUEZRwr"
+        "name": "Pavel Danilyuk",
+        "url": "https://www.pexels.com/@pavel-danilyuk"
       },
       "@context": "https://schema.org"
     }

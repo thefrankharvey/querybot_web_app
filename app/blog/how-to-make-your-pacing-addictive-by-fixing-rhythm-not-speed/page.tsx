@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to make your pacing addictive by fixing rhythm, not speed",
   "description": "Writers keep chasing \u201cmore\u201d\u2014more words, more explanation, more backstory, more everything\u2014because the draft feels too quiet. Then the reader hits page forty-five and vanishes. Not because your idea is bad. Because your pacing is lying to them.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-04",
+  "modifiedDate": "2026-12-04",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-your-pacing-addictive-by-fixing-rhythm-not-speed",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -576,6 +576,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-make-your-pacing-addictive-by-fixing-rhythm-not-speed#primaryimage"
       },
+      "datePublished": "2026-12-04",
+      "dateModified": "2026-12-04",
       "mentions": [
         {
           "@type": "WebPage",

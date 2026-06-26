@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query letter formatting vs alternatives: use the boring email rules",
   "description": "Picture your inbox like a tiny courthouse. Every email is a person showing up to make a case, and most of them arrive wearing a trench coat full of glitter.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-24",
+  "modifiedDate": "2026-07-24",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-formatting-vs-alternatives-use-the-boring-email-rules",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -484,6 +484,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-formatting-vs-alternatives-use-the-boring-email-rules#primaryimage"
       },
+      "datePublished": "2026-07-24",
+      "dateModified": "2026-07-24",
       "mentions": [
         {
           "@type": "WebPage",

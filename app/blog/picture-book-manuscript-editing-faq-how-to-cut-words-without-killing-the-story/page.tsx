@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Picture Book Manuscript Editing FAQ: How to Cut Words Without Killing the Story",
   "description": "Most writers treat picture book editing like line-level cleanup: tighten sentences, smooth the voice, make the page look \"clean.\" That's not wrong\u2014just incomplete. The picture book experience is the combination of text and illustration work, spread by spread, with page turns controlling pacing.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-01",
+  "modifiedDate": "2026-12-01",
   "canonicalUrl": "https://writequeryhook.com/blog/picture-book-manuscript-editing-faq-how-to-cut-words-without-killing-the-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -484,6 +484,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/picture-book-manuscript-editing-faq-how-to-cut-words-without-killing-the-story#primaryimage"
       },
+      "datePublished": "2026-12-01",
+      "dateModified": "2026-12-01",
       "mentions": [
         {
           "@type": "WebPage",

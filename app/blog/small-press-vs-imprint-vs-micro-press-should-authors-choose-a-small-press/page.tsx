@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
   "description": "Writers see \"small press\" in a dozen threads and submission spreadsheets, then hit the same wall: the term sounds cool, but nobody agrees what it actually covers. Is it legit publishing? Is it a stepping stone? Is it a hobby with a masthead?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
+  "publishedDate": "2027-09-19",
+  "modifiedDate": "2027-09-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_hero_confusion_definition_blog_hero_landscape_bf7ba3355ea0.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_hero_confusion_definition_blog_hero_landscape_bf7ba3355ea0.jpeg",
     "alt": "blog hero \u00b7 confusion definition",
-    "width": 356,
-    "height": 200,
-    "creator": "NEXTonFOX",
-    "creatorUrl": "https://giphy.com/gifs/NEXTonFOX-season-1-episode-5-foxtv-LiB4ZEXCrbI86hnRns",
-    "provider": "giphy",
+    "width": 7008,
+    "height": 4672,
+    "creator": "Will Oliveira",
+    "creatorUrl": "https://www.pexels.com/@willfotografia",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-      "item": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+      "item": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_opening_blog_section_landscape_fbaf8f087fee.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_opening_blog_section_landscape_fbaf8f087fee.jpeg?updatedAt=1782332548485",
         "alt": "Opening",
         "width": 6611,
         "height": 4407,
@@ -217,7 +217,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_panic_inbox_blog_section_landscape_450a330eacbe.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_panic_inbox_blog_section_landscape_450a330eacbe.gif?updatedAt=1782332549292",
         "alt": "Submissions: should authors submit to small presses?",
         "width": 200,
         "height": 200,
@@ -267,13 +267,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_budget_disappointment_blog_section_landscape_74f0cbdb87d9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_budget_disappointment_blog_section_landscape_74f0cbdb87d9.gif",
         "alt": "Money: advances and royalties (where reality punches)",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "freeform",
+        "creatorUrl": "https://giphy.com/gifs/freeform-ff-not-her-first-rodeo-nhfr-3HCTrqD4BpaHcziXzK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -411,32 +411,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_section_image_resolve_next_step_blog_section_landscape_fa9754c8d716.jpeg",
-    "alt": "blog section image \u00b7 resolve next-step",
-    "width": 3840,
-    "height": 2160,
-    "creator": "Houssam benamara",
-    "creatorUrl": "https://www.pexels.com/@exeroniq",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
     },
     {
       "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-      "url": "https://writequeryhook.com/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     },
     {
       "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     },
     {
-      "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+      "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -475,7 +466,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
     }
   ]
 } as const;
@@ -505,7 +496,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -517,31 +508,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-          "item": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+          "item": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#webpage",
-      "url": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
+      "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#webpage",
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
       "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage"
+        "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -557,11 +548,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#article",
+      "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#webpage"
+        "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press",
       "headline": "Small press vs imprint vs micro-press: should authors choose a small press?",
       "alternativeHeadline": "Small press vs imprint vs micro-press: should authors choose a small press?",
       "description": "Writers see \"small press\" in a dozen threads and submission spreadsheets, then hit the same wall: the term sounds cool, but nobody agrees what it actually covers. Is it legit publishing? Is it a stepping stone? Is it a hobby with a masthead?",
@@ -591,55 +582,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage"
+        "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage"
       },
+      "datePublished": "2027-09-19",
+      "dateModified": "2027-09-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-          "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
         },
         {
           "@type": "WebPage",
           "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-          "url": "https://writequeryhook.com/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+          "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         },
         {
           "@type": "WebPage",
           "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+          "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
         },
         {
           "@type": "WebPage",
-          "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+          "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
+          "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_hero_confusion_definition_blog_hero_landscape_bf7ba3355ea0.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press/blog/blog_hero_confusion_definition_blog_hero_landscape_bf7ba3355ea0.jpeg",
+      "width": 7008,
+      "height": 4672,
       "caption": "blog hero \u00b7 confusion definition",
-      "creditText": "NEXTonFOX",
+      "creditText": "Will Oliveira",
       "author": {
         "@type": "Person",
-        "name": "NEXTonFOX",
-        "url": "https://giphy.com/gifs/NEXTonFOX-season-1-episode-5-foxtv-LiB4ZEXCrbI86hnRns"
+        "name": "Will Oliveira",
+        "url": "https://www.pexels.com/@willfotografia"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#faq",
+      "@id": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press#faq",
       "mainEntity": [
         {
           "@type": "Question",

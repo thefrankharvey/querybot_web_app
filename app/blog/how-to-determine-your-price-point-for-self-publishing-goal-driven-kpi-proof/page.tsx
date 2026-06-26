@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
   "description": "Most writers treat pricing like it's a one-time moral judgment. You pick a number, you pray, and you pretend it can't be touched again.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
+  "publishedDate": "2027-08-03",
+  "modifiedDate": "2027-08-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_hero_blank_page_panic_price_anxiety_blog_hero_landscape_251004b84592.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_hero_blank_page_panic_price_anxiety_blog_hero_landscape_251004b84592.jpeg?updatedAt=1782271049912",
     "alt": "blog hero \u00b7 blank-page panic price anxiety",
     "width": 6960,
     "height": 4640,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "item": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "item": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     }
   ],
   "tldrBlocks": [],
@@ -216,7 +216,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_hopeful_validation_blog_section_landscape_26f62bd24236.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_hopeful_validation_blog_section_landscape_26f62bd24236.jpeg?updatedAt=1782271050333",
         "alt": "Step 3: Get community feedback to pressure-test your launch hunch",
         "width": 6720,
         "height": 4480,
@@ -269,7 +269,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_launch_day_educated_guess_blog_section_landscape_58fd8f6118b2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_launch_day_educated_guess_blog_section_landscape_58fd8f6118b2.gif?updatedAt=1782271051200",
         "alt": "Step 4: Launch with an educated guess (and accept you'll adjust)",
         "width": 200,
         "height": 200,
@@ -340,43 +340,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_experiments_price_drops_and_raises_blog_section_landscape_a1dc2be5b69f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_experiments_price_drops_and_raises_blog_section_landscape_a1dc2be5b69f.gif",
         "alt": "Step 5: Run experiments and track the right KPI",
-        "width": 3100,
-        "height": 1744,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "allsxxingeyes",
+        "creatorUrl": "https://giphy.com/gifs/allsxxingeyes-laugh-laughing-spit-XHeLeuirRbwptHhSWd",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_section_image_final_tweak_open_your_dashboard_blog_section_landscape_b75caf93a7b3.gif",
-    "alt": "blog section image \u00b7 final tweak open your dashboard",
-    "width": 400,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/1SfxXOJ0Q2Xni",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-      "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
-    },
-    {
-      "title": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-      "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+      "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
     },
     {
       "title": "Building your author platform with Twitter followers vs off-social alternatives",
-      "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
     },
     {
       "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-      "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
+    },
+    {
+      "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
+      "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -411,7 +402,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     }
   ]
 } as const;
@@ -441,7 +432,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -453,31 +444,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "item": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+          "item": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
       "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -493,11 +484,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#article",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof",
       "headline": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
       "alternativeHeadline": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
       "description": "Most writers treat pricing like it's a one-time moral judgment. You pick a number, you pray, and you pretend it can't be touched again.",
@@ -527,40 +518,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage"
       },
+      "datePublished": "2027-08-03",
+      "dateModified": "2027-08-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "url": "https://writequeryhook.com/query-letters/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         },
         {
           "@type": "WebPage",
           "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-          "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-          "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
         },
         {
           "@type": "WebPage",
           "name": "Building your author platform with Twitter followers vs off-social alternatives",
-          "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+          "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
         },
         {
           "@type": "WebPage",
           "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-          "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
+        },
+        {
+          "@type": "WebPage",
+          "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
+          "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_hero_blank_page_panic_price_anxiety_blog_hero_landscape_251004b84592.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_492/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof/blog/blog_hero_blank_page_panic_price_anxiety_blog_hero_landscape_251004b84592.jpeg?updatedAt=1782271049912",
       "width": 6960,
       "height": 4640,
       "caption": "blog hero \u00b7 blank-page panic price anxiety",
@@ -575,7 +568,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#howto",
       "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
       "description": "Most writers treat pricing like it's a one-time moral judgment. You pick a number, you pray, and you pretend it can't be touched again.",
       "totalTime": "PT6M",
@@ -585,42 +578,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your goal (reach, revenue, or reputation) before you touch the number",
           "text": "State your goal in concrete terms\u2014a specific outcome, not a feeling or a sense that a particular dollar amount \"feels fair.\" When your target is specific, decisions move faster.",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-1-define-your-goal-reach-revenue-or-reputation-before-you-touch-the-number"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-1-define-your-goal-reach-revenue-or-reputation-before-you-touch-the-number"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Research competition pricing so you know where your book fits",
           "text": "Now do the marketplace check. This is where you earn the right to be confident.",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-2-research-competition-pricing-so-you-know-where-your-book-fits"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-2-research-competition-pricing-so-you-know-where-your-book-fits"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Get community feedback to pressure-test your launch hunch",
           "text": "Even if your research is solid, your assumptions can still be wrong. Writers overthink numbers, and then they under-test them.",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-3-get-community-feedback-to-pressure-test-your-launch-hunch"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-3-get-community-feedback-to-pressure-test-your-launch-hunch"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Launch with an educated guess (and accept you'll adjust)",
           "text": "Here's the educational tension: writers want pricing to be perfect on day one. But the only \"perfect\" price is the one you validate through results.",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-4-launch-with-an-educated-guess-and-accept-you-ll-adjust"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-4-launch-with-an-educated-guess-and-accept-you-ll-adjust"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Run experiments and track the right KPI",
           "text": "Now do the part writers skip: measure. Without measurement, you only get feelings.",
-          "url": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-5-run-experiments-and-track-the-right-kpi"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#step-5-run-experiments-and-track-the-right-kpi"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof#faq",
       "mainEntity": [
         {
           "@type": "Question",

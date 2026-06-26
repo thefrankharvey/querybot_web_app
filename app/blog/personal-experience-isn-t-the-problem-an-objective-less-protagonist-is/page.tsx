@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Personal experience isn't the problem\u2014an objective-less protagonist is",
   "description": "I get why writers reach for personal experience. Real-life detail lands. It has weight. When your scenes have lived-in texture\u2014voices you recognize, habits you can't unsee\u2014you stop sounding like a tourist.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-11",
+  "modifiedDate": "2027-01-11",
   "canonicalUrl": "https://writequeryhook.com/blog/personal-experience-isn-t-the-problem-an-objective-less-protagonist-is",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -741,6 +741,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/personal-experience-isn-t-the-problem-an-objective-less-protagonist-is#primaryimage"
       },
+      "datePublished": "2027-01-11",
+      "dateModified": "2027-01-11",
       "mentions": [
         {
           "@type": "WebPage",

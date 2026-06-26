@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a rhyming picture book that works when read aloud",
   "description": "Rhyming picture books aren't \"hard because poetry.\" They're hard because they're a performance. If the lines only look rhyming but fall apart when spoken, the reader feels it fast\u2014like tripping over a curb you didn't see.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-04",
+  "modifiedDate": "2026-12-04",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-rhyming-picture-book-that-works-when-read-aloud",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-rhyming-picture-book-that-works-when-read-aloud#primaryimage"
       },
+      "datePublished": "2026-12-04",
+      "dateModified": "2026-12-04",
       "mentions": [
         {
           "@type": "WebPage",

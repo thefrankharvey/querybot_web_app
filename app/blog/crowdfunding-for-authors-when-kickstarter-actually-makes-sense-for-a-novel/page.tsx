@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
   "description": "Crowdfunding sounds like a freedom move until you picture the part that actually scares writers: staring at a funding goal, hitting \"launch,\" and then realizing the whole thing is live on the internet for months\u2014whether you succeed or not.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
+  "publishedDate": "2027-10-18",
+  "modifiedDate": "2027-10-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-      "item": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+      "item": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
     }
   ],
   "tldrBlocks": [],
@@ -376,20 +376,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "The 270 best writing contests (sorted by form, not vibes)",
-      "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
-    },
-    {
       "title": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-      "url": "https://writequeryhook.com/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their-book-can-work"
+      "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
     },
     {
       "title": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-      "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
     },
     {
       "title": "5 author branding tips for selling books without turning into a corporate robot",
-      "url": "https://writequeryhook.com/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+      "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+    },
+    {
+      "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
+      "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -425,12 +425,7 @@ const PAGE_DATA = {
       "text": "Do the math. Write the passion story like it's going to be judged by strangers on purpose. Then launch only when the pitch copy reads clean and the campaign amount makes sense on paper\u2014and in the real world."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "The 270 best writing contests (sorted by form, not vibes)",
-      "url": "https://writequeryhook.com/query-letters/the-270-best-writing-contests-sorted-by-form-not-vibes"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -458,7 +453,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -470,31 +465,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-          "item": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+          "item": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#webpage",
-      "url": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
+      "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#webpage",
+      "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
       "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage"
+        "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -510,11 +505,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#article",
+      "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#webpage"
+        "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel",
       "headline": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
       "alternativeHeadline": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
       "description": "Crowdfunding sounds like a freedom move until you picture the part that actually scares writers: staring at a funding goal, hitting \"launch,\" and then realizing the whole thing is live on the internet for months\u2014whether you succeed or not.",
@@ -544,39 +539,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage"
+        "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage"
       },
+      "datePublished": "2027-10-18",
+      "dateModified": "2027-10-18",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "The 270 best writing contests (sorted by form, not vibes)",
-          "url": "https://writequeryhook.com/query-letters/the-270-best-writing-contests-sorted-by-form-not-vibes"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The 270 best writing contests (sorted by form, not vibes)",
-          "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
-        },
-        {
-          "@type": "WebPage",
           "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-          "url": "https://writequeryhook.com/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their-book-can-work"
+          "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
         },
         {
           "@type": "WebPage",
           "name": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-          "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
         },
         {
           "@type": "WebPage",
           "name": "5 author branding tips for selling books without turning into a corporate robot",
-          "url": "https://writequeryhook.com/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+          "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage",
+      "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_580/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel/blog/blog_hero_panic_bills_due_blog_hero_landscape_6f63b5a45cc7.jpeg",
       "width": 5909,
       "height": 3939,
@@ -592,7 +584,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#faq",
+      "@id": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel#faq",
       "mainEntity": [
         {
           "@type": "Question",

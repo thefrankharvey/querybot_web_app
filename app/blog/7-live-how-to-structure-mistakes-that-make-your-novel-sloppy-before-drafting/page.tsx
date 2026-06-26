@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 Live-How-to Structure Mistakes That Make Your Novel Sloppy Before Drafting",
   "description": "If you\u2019ve ever hit \u201cfinished\u201d on a fat manuscript and then thought, Wait\u2026 what is the story actually about?\u2014yeah. That\u2019s not a vibes problem. That\u2019s a structure-without-an-engine problem.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-25",
+  "modifiedDate": "2026-10-25",
   "canonicalUrl": "https://writequeryhook.com/blog/7-live-how-to-structure-mistakes-that-make-your-novel-sloppy-before-drafting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -569,6 +569,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-live-how-to-structure-mistakes-that-make-your-novel-sloppy-before-drafting#primaryimage"
       },
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
       "mentions": [
         {
           "@type": "WebPage",

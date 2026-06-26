@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
   "description": "Every time I see a writer announce they're \"marketing\" on social media, I flinch. Posting isn't evil\u2014most people just walk in expecting a storefront when they should be building relationships instead.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
+  "publishedDate": "2027-08-30",
+  "modifiedDate": "2027-08-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_hero_waste_of_time_doom_scroll_blog_hero_landscape_a6a8fd17d084.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_hero_waste_of_time_doom_scroll_blog_hero_landscape_a6a8fd17d084.jpeg?updatedAt=1782319016298",
     "alt": "blog hero \u00b7 waste-of-time doom-scroll",
     "width": 5652,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
+      "item": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     }
   ],
   "tldrBlocks": [],
@@ -151,13 +151,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_belonging_curiosity_blog_section_landscape_9d45aebac7e3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_belonging_curiosity_blog_section_landscape_9d45aebac7e3.gif",
         "alt": "Use social media to build a community as an author (not a megaphone)",
-        "width": 6240,
-        "height": 4160,
-        "creator": "SHVETS production",
-        "creatorUrl": "https://www.pexels.com/@shvets-production",
-        "provider": "pexels",
+        "width": 272,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/curiosity-QqdyVT8H6uJ32",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -304,13 +304,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_deadline_nerves_blog_section_landscape_240f24137b03.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_deadline_nerves_blog_section_landscape_240f24137b03.jpeg",
         "alt": "Turn author-centric hashtag pitch events explained into serious opportunities",
-        "width": 200,
-        "height": 200,
-        "creator": "diegofarao",
-        "creatorUrl": "https://giphy.com/gifs/miedo-ua-nervio-J4yF0FV16mSjwlGunf",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Ann H",
+        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -362,7 +362,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_dread_balance_blog_section_landscape_91a79bc46e87.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_dread_balance_blog_section_landscape_91a79bc46e87.gif?updatedAt=1782319018157",
         "alt": "How to get discovered while querying without becoming annoying",
         "width": 226,
         "height": 200,
@@ -373,32 +373,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_section_image_final_breath_do_the_next_right_thing_blog_section_landscape_3feffe9fc899.jpeg",
-    "alt": "blog section image \u00b7 final-breath do-the-next-right-thing",
-    "width": 5722,
-    "height": 3376,
-    "creator": "Suzy Hazelwood",
-    "creatorUrl": "https://www.pexels.com/@suzyhazelwood",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     },
     {
       "title": "How to build a rocking author media kit (a 7-step template)",
-      "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     },
     {
       "title": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     },
     {
       "title": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-      "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+      "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -433,7 +424,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
     }
   ]
 } as const;
@@ -463,7 +454,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -475,31 +466,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
+          "item": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
       "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -515,11 +506,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your",
       "headline": "5 tips for using social media to earn buy-in, build community, and help your querying",
       "alternativeHeadline": "5 tips for using social media to earn buy-in, build community, and help your querying",
       "description": "Every time I see a writer announce they're \"marketing\" on social media, I flinch. Posting isn't evil\u2014most people just walk in expecting a storefront when they should be building relationships instead.",
@@ -549,40 +540,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage"
       },
+      "datePublished": "2027-08-30",
+      "dateModified": "2027-08-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+          "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+          "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         },
         {
           "@type": "WebPage",
           "name": "How to build a rocking author media kit (a 7-step template)",
-          "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
         },
         {
           "@type": "WebPage",
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-          "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_hero_waste_of_time_doom_scroll_blog_hero_landscape_a6a8fd17d084.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your/blog/blog_hero_waste_of_time_doom_scroll_blog_hero_landscape_a6a8fd17d084.jpeg?updatedAt=1782319016298",
       "width": 5652,
       "height": 4000,
       "caption": "blog hero \u00b7 waste-of-time doom-scroll",
@@ -597,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

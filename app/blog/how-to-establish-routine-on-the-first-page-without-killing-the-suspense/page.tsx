@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to establish routine on the first page without killing the suspense",
   "description": "You can absolutely open with something ordinary. The problem is that \"ordinary\" turns into a permission slip for lifeless prose\u2014because most writers feel pressure to perform routine until it becomes a show. Then the scene lands with the emotional bounce of wet cardboard.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-16",
+  "modifiedDate": "2026-12-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-establish-routine-on-the-first-page-without-killing-the-suspense",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-establish-routine-on-the-first-page-without-killing-the-suspense#primaryimage"
       },
+      "datePublished": "2026-12-16",
+      "dateModified": "2026-12-16",
       "mentions": [
         {
           "@type": "WebPage",

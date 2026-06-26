@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
   "description": "Resubmitting a revised manuscript after rejection sits in a special corner of the query trenches: you're not starting over, but you're also not \"done.\" Your earlier rejection happened, and now you're staring at the same inbox that ignored you the first time.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
+  "publishedDate": "2027-05-09",
+  "modifiedDate": "2027-05-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_7a8708b49e44.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_7a8708b49e44.jpeg?updatedAt=1782131162641",
     "alt": "blog hero \u00b7 dread cursor-blinking",
     "width": 5184,
     "height": 3456,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-      "item": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+      "item": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     }
   ],
   "tldrBlocks": [],
@@ -77,13 +77,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_tldr_blog_section_landscape_b5d12bf0daa1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_tldr_blog_section_landscape_b5d12bf0daa1.jpeg",
         "alt": "TLDR",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -125,13 +125,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_clarity_honesty_blog_section_landscape_4760e0198ac0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_clarity_honesty_blog_section_landscape_4760e0198ac0.gif",
         "alt": "Opening \u2014 subject context: what makes this case worth studying",
-        "width": 6634,
-        "height": 4423,
-        "creator": "Thirdman",
-        "creatorUrl": "https://www.pexels.com/@thirdman",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Artxman",
+        "creatorUrl": "https://giphy.com/gifs/fortune-deck-teller-ER4BDlDVNdOiNxbeG8",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -450,7 +450,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_lessons_takeaways_blog_section_landscape_1fe5b231699a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_lessons_takeaways_blog_section_landscape_1fe5b231699a.gif?updatedAt=1782131165156",
         "alt": "Lessons / Takeaways",
         "width": 296,
         "height": 200,
@@ -461,32 +461,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_section_image_send_it_heavy_sigh_blog_section_landscape_b46c90dd09ce.jpeg",
-    "alt": "blog section image \u00b7 send it heavy sigh",
-    "width": 3999,
-    "height": 2666,
-    "creator": "Markus Winkler",
-    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-      "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
-    },
-    {
-      "title": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-      "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     },
     {
       "title": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
     },
     {
-      "title": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-      "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+      "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
+    },
+    {
+      "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -521,7 +512,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-      "url": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     }
   ]
 } as const;
@@ -551,7 +542,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -563,31 +554,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-          "item": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+          "item": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#webpage",
-      "url": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
+      "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#webpage",
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
       "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage"
+        "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -603,11 +594,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#article",
+      "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#webpage"
+        "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest",
       "headline": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
       "alternativeHeadline": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
       "description": "Resubmitting a revised manuscript after rejection sits in a special corner of the query trenches: you're not starting over, but you're also not \"done.\" Your earlier rejection happened, and now you're staring at the same inbox that ignored you the first time.",
@@ -637,40 +628,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage"
+        "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage"
       },
+      "datePublished": "2027-05-09",
+      "dateModified": "2027-05-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-          "url": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-          "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-          "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
+          "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
         },
         {
           "@type": "WebPage",
           "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-          "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+          "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
+          "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_7a8708b49e44.jpeg",
+      "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_7a8708b49e44.jpeg?updatedAt=1782131162641",
       "width": 5184,
       "height": 3456,
       "caption": "blog hero \u00b7 dread cursor-blinking",
@@ -685,7 +673,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#faq",
+      "@id": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest#faq",
       "mainEntity": [
         {
           "@type": "Question",

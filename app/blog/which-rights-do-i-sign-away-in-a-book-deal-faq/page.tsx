@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Which rights do I sign away in a book deal FAQ",
   "description": "After the offer, the conversation stops being \"congratulations\" and starts being \"which clauses are you about to sign.\" A book deal isn't a trophy; it's a publishing contract written to be survivable for the publisher. Your job is to understand the few deal points that actually matter\u2014especially rights, advance, and the payment rhythm\u2014and to treat everything else like the boring boilerplate it usually is.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq",
+  "publishedDate": "2027-05-10",
+  "modifiedDate": "2027-05-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_hero_legal_contract_boilerplate_blog_hero_landscape_ab1686111898.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_hero_legal_contract_boilerplate_blog_hero_landscape_ab1686111898.jpeg?updatedAt=1782131212515",
     "alt": "blog hero \u00b7 legal contract boilerplate",
     "width": 6241,
     "height": 4161,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Which rights do I sign away in a book deal FAQ",
-      "item": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq"
+      "item": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
     }
   ],
   "tldrBlocks": [],
@@ -92,13 +92,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_contract_boilerplate_blog_section_landscape_2292eb2ead88.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_contract_boilerplate_blog_section_landscape_2292eb2ead88.gif",
         "alt": "Do authors get cover approval in a book deal?",
-        "width": 6241,
-        "height": 4161,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "BenJammins",
+        "creatorUrl": "https://giphy.com/gifs/signature-contract-john-hancock-cG81Mc8Lr9ZcrAhTjU",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -199,13 +199,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_contract_boilerplate_blog_section_landscape_2292eb2ead88.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_contract_boilerplate_blog_section_landscape_2292eb2ead88.gif",
         "alt": "Do authors get cover approval in a book deal?",
-        "width": 6241,
-        "height": 4161,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "BenJammins",
+        "creatorUrl": "https://giphy.com/gifs/signature-contract-john-hancock-cG81Mc8Lr9ZcrAhTjU",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -237,7 +237,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_decision_tree_negotiable_vs_boilerplate_blog_section_landscape_db6c22bf0096.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_decision_tree_negotiable_vs_boilerplate_blog_section_landscape_db6c22bf0096.jpeg?updatedAt=1782131214313",
         "alt": "What does this mean for my next review meeting?",
         "width": 5256,
         "height": 3509,
@@ -248,32 +248,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_section_image_agent_advocate_petty_business_crap_blog_section_landscape_0e9f7020b09a.gif",
-    "alt": "blog section image \u00b7 agent advocate petty business crap",
-    "width": 282,
-    "height": 200,
-    "creator": "MercuryMoth",
-    "creatorUrl": "https://giphy.com/gifs/what-police-stop-sign-YYEYiWfuOKu5ynp1Iw",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Agent\u2013author creative teams: when not to give up after the offer (and what to do during long submissions)",
-      "url": "https://writequeryhook.com/agent-author-creative-teams-when-not-to-give-up-after-the-offer-and-what-to-do-during-long-submissions"
-    },
-    {
       "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-      "url": "https://writequeryhook.com/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     },
     {
       "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-      "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     },
     {
-      "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "title": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+    },
+    {
+      "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -305,12 +296,7 @@ const PAGE_DATA = {
       "text": "If you're staring at **rights** clauses right after an offer, slow down: payments, **rights**, and format guarantees deserve the most attention because they shape your long-term outcomes. Bring your questions to your agent with the same structure you used here\u2014**advance**, **publishing contract** terms, and **format guarantee** language\u2014then get your paperwork to match the deal you think you're signing."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Agent\u2013author creative teams: when not to give up after the offer (and what to do during long submissions)",
-      "url": "https://writequeryhook.com/query-letters/agent-author-creative-teams-when-not-to-give-up-after-the-offer-and-what-to-do"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -338,7 +324,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -350,31 +336,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Which rights do I sign away in a book deal FAQ",
-          "item": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq"
+          "item": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq",
+      "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#webpage",
+      "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq",
       "name": "Which rights do I sign away in a book deal FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -390,11 +376,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#article",
+      "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq",
       "headline": "Which rights do I sign away in a book deal FAQ",
       "alternativeHeadline": "Which rights do I sign away in a book deal FAQ",
       "description": "After the offer, the conversation stops being \"congratulations\" and starts being \"which clauses are you about to sign.\" A book deal isn't a trophy; it's a publishing contract written to be survivable for the publisher. Your job is to understand the few deal points that actually matter\u2014especially rights, advance, and the payment rhythm\u2014and to treat everything else like the boring boilerplate it usually is.",
@@ -424,40 +410,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage"
       },
+      "datePublished": "2027-05-10",
+      "dateModified": "2027-05-10",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Agent\u2013author creative teams: when not to give up after the offer (and what to do during long submissions)",
-          "url": "https://writequeryhook.com/query-letters/agent-author-creative-teams-when-not-to-give-up-after-the-offer-and-what-to-do"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Agent\u2013author creative teams: when not to give up after the offer (and what to do during long submissions)",
-          "url": "https://writequeryhook.com/agent-author-creative-teams-when-not-to-give-up-after-the-offer-and-what-to-do-during-long-submissions"
-        },
-        {
-          "@type": "WebPage",
           "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-          "url": "https://writequeryhook.com/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+          "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         },
         {
           "@type": "WebPage",
           "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-          "url": "https://writequeryhook.com/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough-with-examples"
+          "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
         },
         {
           "@type": "WebPage",
-          "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_hero_legal_contract_boilerplate_blog_hero_landscape_ab1686111898.jpeg",
+      "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_389/which-rights-do-i-sign-away-in-a-book-deal-faq/blog/blog_hero_legal_contract_boilerplate_blog_hero_landscape_ab1686111898.jpeg?updatedAt=1782131212515",
       "width": 6241,
       "height": 4161,
       "caption": "blog hero \u00b7 legal contract boilerplate",
@@ -472,7 +455,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-do-i-sign-away-in-a-book-deal-faq#faq",
+      "@id": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Desire line master plan vs plot-first templates vs character-motivation passes: which keeps an agent reading?",
   "description": "Most manuscripts don't fail because the prose is bad. They fail because attention doesn't deepen.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-07",
+  "modifiedDate": "2027-01-07",
   "canonicalUrl": "https://writequeryhook.com/blog/desire-line-master-plan-vs-plot-first-templates-vs-character-motivation-passes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -616,6 +616,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/desire-line-master-plan-vs-plot-first-templates-vs-character-motivation-passes#primaryimage"
       },
+      "datePublished": "2027-01-07",
+      "dateModified": "2027-01-07",
       "mentions": [
         {
           "@type": "WebPage",

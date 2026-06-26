@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 epilogue tips for a \"just one more thing\" ending that actually earns itself",
   "description": "You know the feeling: you've finished the ending, you can finally breathe, and then\u2014like a last-minute \"just one more thing\"\u2014your brain starts demanding an epilogue. That's great. Also, it's a trap.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-07",
+  "modifiedDate": "2026-12-07",
   "canonicalUrl": "https://writequeryhook.com/blog/5-epilogue-tips-for-a-just-one-more-thing-ending-that-actually-earns-itself",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -491,6 +491,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-epilogue-tips-for-a-just-one-more-thing-ending-that-actually-earns-itself#primaryimage"
       },
+      "datePublished": "2026-12-07",
+      "dateModified": "2026-12-07",
       "mentions": [
         {
           "@type": "WebPage",

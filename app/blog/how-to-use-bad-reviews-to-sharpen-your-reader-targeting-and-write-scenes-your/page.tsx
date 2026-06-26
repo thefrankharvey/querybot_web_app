@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
   "description": "Bad reviews land like someone knocked over your desk while you were working. You stare at the screen. Your stomach does the little dip. Your brain starts spinning up the same question: Does this tank sales? Did they read the wrong book and then punish you for it?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
+  "publishedDate": "2027-08-17",
+  "modifiedDate": "2027-08-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_hero_dread_inbox_blog_hero_landscape_2ec567d69f17.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_hero_dread_inbox_blog_hero_landscape_2ec567d69f17.jpeg",
     "alt": "blog hero \u00b7 dread inbox",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
+    "width": 5819,
+    "height": 3879,
+    "creator": "Jan van der Wolf",
+    "creatorUrl": "https://www.pexels.com/@jan-van-der-wolf-11680885",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "item": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
+      "item": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     }
   ],
   "tldrBlocks": [],
@@ -278,7 +278,7 @@ const PAGE_DATA = {
   ],
   "sections": [],
   "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_section_image_deep_breath_cursor_blinking_blog_section_landscape_94bb08d7c7dc.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_section_image_deep_breath_cursor_blinking_blog_section_landscape_94bb08d7c7dc.gif?updatedAt=1782311988611",
     "alt": "blog section image \u00b7 deep breath cursor blinking",
     "width": 200,
     "height": 200,
@@ -290,19 +290,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
-      "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     },
     {
       "title": "How to emotionally move your readers (so they recommend and talk)",
-      "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     },
     {
       "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     },
     {
-      "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+      "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     }
   ],
   "alsoLikeAfterIndex": 0,
@@ -332,7 +332,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 things literary agents actually do (from submissions to contracts)",
-      "url": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     }
   ]
 } as const;
@@ -362,7 +362,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -374,31 +374,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "item": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
+          "item": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
       "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -414,11 +414,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#article",
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your",
       "headline": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
       "alternativeHeadline": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
       "description": "Bad reviews land like someone knocked over your desk while you were working. You stare at the screen. Your stomach does the little dip. Your brain starts spinning up the same question: Does this tank sales? Did they read the wrong book and then punish you for it?",
@@ -448,55 +448,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage"
       },
+      "datePublished": "2027-08-17",
+      "dateModified": "2027-08-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 things literary agents actually do (from submissions to contracts)",
-          "url": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         },
         {
           "@type": "WebPage",
           "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-          "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         },
         {
           "@type": "WebPage",
           "name": "How to emotionally move your readers (so they recommend and talk)",
-          "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
         },
         {
           "@type": "WebPage",
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         },
         {
           "@type": "WebPage",
-          "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+          "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
+          "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_hero_dread_inbox_blog_hero_landscape_2ec567d69f17.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your/blog/blog_hero_dread_inbox_blog_hero_landscape_2ec567d69f17.jpeg",
+      "width": 5819,
+      "height": 3879,
       "caption": "blog hero \u00b7 dread inbox",
-      "creditText": "theinnernette",
+      "creditText": "Jan van der Wolf",
       "author": {
         "@type": "Person",
-        "name": "theinnernette",
-        "url": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9"
+        "name": "Jan van der Wolf",
+        "url": "https://www.pexels.com/@jan-van-der-wolf-11680885"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#howto",
       "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
       "description": "Bad reviews land like someone knocked over your desk while you were working. You stare at the screen. Your stomach does the little dip. Your brain starts spinning up the same question: Does this tank sales? Did they read the wrong book and then punish you for it?",
       "totalTime": "PT8M",
@@ -505,7 +507,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

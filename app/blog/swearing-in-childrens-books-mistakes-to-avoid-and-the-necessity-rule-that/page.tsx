@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Swearing in childrens books mistakes to avoid (and the necessity rule that prevents rejection)",
   "description": "Adults in the room\u2014teachers, librarians, parents, other gatekeepers, plus publisher readers\u2014react to language fast. Too fast. And if you've ever sat there thinking, \"Is this allowed or am I about to torch my manuscript?\"\u2026 yeah. That dread is the whole problem.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-26",
+  "modifiedDate": "2026-10-26",
   "canonicalUrl": "https://writequeryhook.com/blog/swearing-in-childrens-books-mistakes-to-avoid-and-the-necessity-rule-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -582,6 +582,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/swearing-in-childrens-books-mistakes-to-avoid-and-the-necessity-rule-that#primaryimage"
       },
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
       "mentions": [
         {
           "@type": "WebPage",

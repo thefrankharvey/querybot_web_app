@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down rejection letters: how to keep querying after the inevitable no",
   "description": "Querying has a special kind of cruelty: it makes rejection feel personal even when it's mostly logistical. You send the same book into the same universe of taste filters, and the universe keeps answering with a soft nope and an even softer silence.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-16",
+  "modifiedDate": "2027-03-16",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-rejection-letters-how-to-keep-querying-after-the-inevitable-no",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -684,6 +684,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-rejection-letters-how-to-keep-querying-after-the-inevitable-no#primaryimage"
       },
+      "datePublished": "2027-03-16",
+      "dateModified": "2027-03-16",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make your \"mystery\" feel like vague confusion (and how to fix them)",
   "description": "You know that feeling when you read a submission opening and think, Ooh, what's going on?\u2014and then, two paragraphs later, you realize you're still waiting for the story to tell you what the protagonist actually wants?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-02",
+  "modifiedDate": "2026-10-02",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-your-mystery-feel-like-vague-confusion-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -757,6 +757,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-mystery-feel-like-vague-confusion-and-how-to#primaryimage"
       },
+      "datePublished": "2026-10-02",
+      "dateModified": "2026-10-02",
       "mentions": [
         {
           "@type": "WebPage",

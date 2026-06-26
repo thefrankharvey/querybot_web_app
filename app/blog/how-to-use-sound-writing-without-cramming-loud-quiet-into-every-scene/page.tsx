@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to use sound writing without cramming \u201cloud/quiet\u201d into every scene",
   "description": "You don\u2019t need to glue \u201cloud\u201d and \u201cquiet\u201d to every paragraph like it\u2019s punctuation class.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-15",
+  "modifiedDate": "2026-12-15",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-sound-writing-without-cramming-loud-quiet-into-every-scene",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -606,6 +606,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-use-sound-writing-without-cramming-loud-quiet-into-every-scene#primaryimage"
       },
+      "datePublished": "2026-12-15",
+      "dateModified": "2026-12-15",
       "mentions": [
         {
           "@type": "WebPage",

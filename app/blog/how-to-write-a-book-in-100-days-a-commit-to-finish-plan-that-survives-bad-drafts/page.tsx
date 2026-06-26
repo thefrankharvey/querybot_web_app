@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a book in 100 days: a commit-to-finish plan that survives bad drafts",
   "description": "There's a specific kind of blank-page moment that feels like a personal insult. You have an idea. You even want it. Then the cursor blinks and your brain asks, \"Yeah, but what if this is boring?\" or \"What if this sucks?\" or \"What if we never get to the end?\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-14",
+  "modifiedDate": "2027-02-14",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-book-in-100-days-a-commit-to-finish-plan-that-survives-bad-drafts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -541,6 +541,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-book-in-100-days-a-commit-to-finish-plan-that-survives-bad-drafts#primaryimage"
       },
+      "datePublished": "2027-02-14",
+      "dateModified": "2027-02-14",
       "mentions": [
         {
           "@type": "WebPage",

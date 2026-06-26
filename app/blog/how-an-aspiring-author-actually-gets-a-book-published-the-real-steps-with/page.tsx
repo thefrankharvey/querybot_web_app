@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
   "description": "If you\u2019re an aspiring author, you probably have two competing thoughts living in your chest at the same time.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
+  "publishedDate": "2027-06-23",
+  "modifiedDate": "2027-06-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_hero_aspiring_author_skepticism_blog_hero_landscape_a6452f3821c2.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_hero_aspiring_author_skepticism_blog_hero_landscape_a6452f3821c2.jpeg?updatedAt=1782229289714",
     "alt": "blog hero \u00b7 aspiring author skepticism",
     "width": 5979,
     "height": 3986,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-      "item": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
+      "item": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
     }
   ],
   "tldrBlocks": [],
@@ -202,13 +202,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_expectations_chaos_blog_section_landscape_d66f52faf777.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_expectations_chaos_blog_section_landscape_d66f52faf777.gif",
         "alt": "What the published path looks like in real life",
-        "width": 3974,
-        "height": 2981,
-        "creator": "\u0410\u043b\u0435\u0441\u044c \u0423\u0441\u0446\u0456\u043d\u0430\u045e",
-        "creatorUrl": "https://www.pexels.com/@alesustinau",
-        "provider": "pexels",
+        "width": 113,
+        "height": 200,
+        "creator": "emorylaneco",
+        "creatorUrl": "https://giphy.com/gifs/elhappymail-emorylaneco-littleblackbag-momlife-motherhood-Dwi2rdquAytkyEOsjn",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -339,13 +339,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_query_letter_synopsis_blog_section_landscape_479d6eed2a30.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_query_letter_synopsis_blog_section_landscape_479d6eed2a30.jpeg",
         "alt": "The artifacts that move a submission forward",
-        "width": 207,
-        "height": 200,
-        "creator": "inkygirl",
-        "creatorUrl": "https://giphy.com/gifs/AX74iZpE7KcarJpekW",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Ann H",
+        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -588,7 +588,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_revision_persistence_blog_section_landscape_c7ab426ae014.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_revision_persistence_blog_section_landscape_c7ab426ae014.gif?updatedAt=1782229291995",
         "alt": "What builds offer probability over time",
         "width": 226,
         "height": 200,
@@ -622,32 +622,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_section_image_fresh_start_eyes_on_draft_blog_section_landscape_a99e36e36d8b.jpeg",
-    "alt": "blog section image \u00b7 fresh start eyes on draft",
-    "width": 4457,
-    "height": 3381,
-    "creator": "Joan Jose",
-    "creatorUrl": "https://www.pexels.com/@joan-jose-1030760",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-      "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
-    },
-    {
       "title": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-      "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
     },
     {
       "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-      "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
     },
     {
-      "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-      "url": "https://writequeryhook.com/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing-actually-works"
+      "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+    },
+    {
+      "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -661,7 +652,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     }
   ]
 } as const;
@@ -691,7 +682,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -703,31 +694,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-          "item": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
+          "item": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
+      "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#webpage",
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
       "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -743,11 +734,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#article",
+      "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#webpage"
+        "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with",
       "headline": "How an aspiring author actually gets a book published: the real steps (with examples)",
       "alternativeHeadline": "How an aspiring author actually gets a book published: the real steps (with examples)",
       "description": "If you\u2019re an aspiring author, you probably have two competing thoughts living in your chest at the same time.",
@@ -777,40 +768,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage"
       },
+      "datePublished": "2027-06-23",
+      "dateModified": "2027-06-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-          "url": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-          "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-          "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-          "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+          "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
         },
         {
           "@type": "WebPage",
-          "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-          "url": "https://writequeryhook.com/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing-actually-works"
+          "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_hero_aspiring_author_skepticism_blog_hero_landscape_a6452f3821c2.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with/blog/blog_hero_aspiring_author_skepticism_blog_hero_landscape_a6452f3821c2.jpeg?updatedAt=1782229289714",
       "width": 5979,
       "height": 3986,
       "caption": "blog hero \u00b7 aspiring author skepticism",

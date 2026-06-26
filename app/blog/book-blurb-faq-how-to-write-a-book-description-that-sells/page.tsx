@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book blurb FAQ: how to write a book description that sells",
   "description": "A book description is not \u201cmore story.\u201d It\u2019s marketing copy that has to do a specific job fast: grab attention, build desire, and move the reader toward action. If you\u2019re rewriting after an offer (or prepping for the list page), you\u2019ll feel the usual pain: the words want to become a mini-summary, the plot wants to spill everywhere, and the result turns blurby just as the reader decides whether to keep reading.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells",
+  "publishedDate": "2027-05-18",
+  "modifiedDate": "2027-05-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_hero_stakes_blurby_blog_hero_landscape_4061d11d11a9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_hero_stakes_blurby_blog_hero_landscape_4061d11d11a9.jpeg?updatedAt=1782148223543",
     "alt": "blog hero \u00b7 stakes blurby",
     "width": 6109,
     "height": 4073,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book blurb FAQ: how to write a book description that sells",
-      "item": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells"
+      "item": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_ad_trailer_blog_section_landscape_1a3bea012694.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_ad_trailer_blog_section_landscape_1a3bea012694.gif?updatedAt=1782148227487",
         "alt": "What is a book description supposed to do?",
         "width": 284,
         "height": 200,
@@ -308,7 +308,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_250_words_upper_limit_blog_section_landscape_14eafd51e497.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_250_words_upper_limit_blog_section_landscape_14eafd51e497.gif?updatedAt=1782148228577",
         "alt": "What book blurb word count guidance should you follow?",
         "width": 176,
         "height": 200,
@@ -437,7 +437,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_keywords_seo_blog_section_landscape_01fcce7282f2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_keywords_seo_blog_section_landscape_01fcce7282f2.jpeg?updatedAt=1782148229890",
         "alt": "Best keywords to include in book description?",
         "width": 4160,
         "height": 3120,
@@ -448,32 +448,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_section_image_next_draft_tighter_copy_blog_section_landscape_4da5ddb8715f.jpeg",
-    "alt": "blog section image \u00b7 next draft tighter copy",
-    "width": 3500,
-    "height": 2333,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-      "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
-    },
-    {
       "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     },
     {
       "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-      "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
     },
     {
-      "title": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-      "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+      "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
+    },
+    {
+      "title": "How to understand the publishing timeline after a publisher requests your manuscript",
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -484,12 +475,7 @@ const PAGE_DATA = {
       "text": "If your book description feels like a mini-summary, rewrite in \u201cad mode\u201d: hook with protagonist + conflict, keep the **book description** tight, and make it scannable so skimmers get the point in seconds. Then do one final pass for **keywords**\u2014the kind that help the right reader find the right story."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -517,7 +503,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -529,31 +515,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book blurb FAQ: how to write a book description that sells",
-          "item": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells"
+          "item": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells",
+      "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#webpage",
+      "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells",
       "name": "Book blurb FAQ: how to write a book description that sells",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -569,11 +555,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#article",
+      "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#webpage"
+        "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells",
       "headline": "Book blurb FAQ: how to write a book description that sells",
       "alternativeHeadline": "Book blurb FAQ: how to write a book description that sells",
       "description": "A book description is not \u201cmore story.\u201d It\u2019s marketing copy that has to do a specific job fast: grab attention, build desire, and move the reader toward action. If you\u2019re rewriting after an offer (or prepping for the list page), you\u2019ll feel the usual pain: the words want to become a mini-summary, the plot wants to spill everywhere, and the result turns blurby just as the reader decides whether to keep reading.",
@@ -603,40 +589,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage"
       },
+      "datePublished": "2027-05-18",
+      "dateModified": "2027-05-18",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-          "url": "https://writequeryhook.com/query-letters/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-          "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
-        },
-        {
-          "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         },
         {
           "@type": "WebPage",
           "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-          "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
+          "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
         },
         {
           "@type": "WebPage",
-          "name": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-          "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+          "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to understand the publishing timeline after a publisher requests your manuscript",
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_hero_stakes_blurby_blog_hero_landscape_4061d11d11a9.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_403/book-blurb-faq-how-to-write-a-book-description-that-sells/blog/blog_hero_stakes_blurby_blog_hero_landscape_4061d11d11a9.jpeg?updatedAt=1782148223543",
       "width": 6109,
       "height": 4073,
       "caption": "blog hero \u00b7 stakes blurby",

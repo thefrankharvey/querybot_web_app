@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Secondary Characters FAQ: How to Develop Fresh, Not Stock, Supporting Cast",
   "description": "Secondary characters do the quiet heavy lifting. They show up, bounce off the protagonist, complicate plans, and make the story feel like it lives in a real world instead of a stage with two actors and a narrator.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-21",
+  "modifiedDate": "2026-11-21",
   "canonicalUrl": "https://writequeryhook.com/blog/secondary-characters-faq-how-to-develop-fresh-not-stock-supporting-cast",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -504,6 +504,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/secondary-characters-faq-how-to-develop-fresh-not-stock-supporting-cast#primaryimage"
       },
+      "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
       "mentions": [
         {
           "@type": "WebPage",

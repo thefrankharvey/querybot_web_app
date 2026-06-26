@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 email etiquette rules to nail tone, stay concise, and avoid send-stupid mistakes",
   "description": "You know the feeling: you hit send and instantly start negotiating with your own brain. Was that too formal? Too casual? Too flat? A single tone mismatch can turn a helpful message into something that feels defensive, angry, or weirdly impersonal.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-08",
+  "modifiedDate": "2026-07-08",
   "canonicalUrl": "https://writequeryhook.com/blog/3-email-etiquette-rules-to-nail-tone-stay-concise-and-avoid-send-stupid-mistakes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -417,6 +417,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-email-etiquette-rules-to-nail-tone-stay-concise-and-avoid-send-stupid-mistakes#primaryimage"
       },
+      "datePublished": "2026-07-08",
+      "dateModified": "2026-07-08",
       "mentions": [
         {
           "@type": "WebPage",

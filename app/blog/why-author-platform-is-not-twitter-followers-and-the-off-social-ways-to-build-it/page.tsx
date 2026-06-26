@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
   "description": "The first time you hear \"build your platform,\" it sounds like a simple math problem: grow the numbers, get noticed, get the deal.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
+  "publishedDate": "2027-06-15",
+  "modifiedDate": "2027-06-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_hero_recognition_confusion_blog_hero_landscape_fa307808ee5f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_hero_recognition_confusion_blog_hero_landscape_fa307808ee5f.jpeg?updatedAt=1782222341457",
     "alt": "blog hero \u00b7 recognition confusion",
     "width": 4500,
     "height": 2531,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "item": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "item": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     }
   ],
   "tldrBlocks": [],
@@ -181,7 +181,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_clarity_irritatation_blog_section_landscape_eff095e60138.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_clarity_irritatation_blog_section_landscape_eff095e60138.jpeg?updatedAt=1782222343699",
         "alt": "Blogging for others to grow your writing platform",
         "width": 5184,
         "height": 3456,
@@ -264,13 +264,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_algorithms_anxiety_blog_section_landscape_f5fe83df9ce9.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_algorithms_anxiety_blog_section_landscape_f5fe83df9ce9.gif",
         "alt": "Why social media follower counts are not the job",
-        "width": 7680,
-        "height": 4320,
-        "creator": "Google DeepMind",
-        "creatorUrl": "https://www.pexels.com/@googledeepmind",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "thx4bnu",
+        "creatorUrl": "https://giphy.com/gifs/thx4bnu-l3q2C7yzGWXFQ63Cg",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -399,7 +399,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_clarity_irritatation_blog_section_landscape_eff095e60138.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_clarity_irritatation_blog_section_landscape_eff095e60138.jpeg?updatedAt=1782222343699",
         "alt": "Blogging for others to grow your writing platform",
         "width": 5184,
         "height": 3456,
@@ -490,7 +490,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_confidence_nerves_blog_section_landscape_c54a1f5f4afb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_confidence_nerves_blog_section_landscape_c54a1f5f4afb.gif?updatedAt=1782222344518",
         "alt": "Use stages you don't own: speaking and recordings",
         "width": 226,
         "height": 200,
@@ -571,32 +571,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_section_image_resolve_action_blog_section_landscape_8c51a2e5ac7d.gif",
-    "alt": "blog section image \u00b7 resolve action",
-    "width": 373,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/jumanji-uN9YQre5kQQWA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Author promotion vs book promotion: stop treating them like the same job",
-      "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     },
     {
       "title": "Book fairs vs book festivals: which event matches your goal?",
-      "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     },
     {
-      "title": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-      "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+      "title": "What are subsidiary rights in publishing? FAQ",
+      "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
     },
     {
       "title": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-      "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+      "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -647,7 +638,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     }
   ]
 } as const;
@@ -677,7 +668,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -689,31 +680,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "item": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+          "item": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
+      "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#webpage",
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
       "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -729,11 +720,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#article",
+      "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#webpage"
+        "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it",
       "headline": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
       "alternativeHeadline": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
       "description": "The first time you hear \"build your platform,\" it sounds like a simple math problem: grow the numbers, get noticed, get the deal.",
@@ -763,40 +754,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage"
       },
+      "datePublished": "2027-06-15",
+      "dateModified": "2027-06-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         },
         {
           "@type": "WebPage",
           "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+          "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         },
         {
           "@type": "WebPage",
           "name": "Book fairs vs book festivals: which event matches your goal?",
-          "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+          "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
         },
         {
           "@type": "WebPage",
-          "name": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-          "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+          "name": "What are subsidiary rights in publishing? FAQ",
+          "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
         },
         {
           "@type": "WebPage",
           "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-          "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+          "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_hero_recognition_confusion_blog_hero_landscape_fa307808ee5f.jpeg",
+      "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it/blog/blog_hero_recognition_confusion_blog_hero_landscape_fa307808ee5f.jpeg?updatedAt=1782222341457",
       "width": 4500,
       "height": 2531,
       "caption": "blog hero \u00b7 recognition confusion",
@@ -811,7 +804,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#faq",
+      "@id": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

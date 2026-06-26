@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for are you an aspiring author: here's how to get a book published",
   "description": "You can have a solid manuscript and still feel totally lost because the publishing industry layers six different jobs on top of each other: manuscript review, query letter evaluation, synopsis assessment, sample pages review, tracking of responses, and timing management across all of it. Responses that arrive late, early, or not at all.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
+  "publishedDate": "2027-08-06",
+  "modifiedDate": "2027-08-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_hero_dread_confusion_blog_hero_landscape_d65ededfa8ff.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_hero_dread_confusion_blog_hero_landscape_d65ededfa8ff.jpeg?updatedAt=1782271421578",
     "alt": "blog hero \u00b7 dread confusion",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for are you an aspiring author: here's how to get a book published",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "item": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     }
   ],
   "tldrBlocks": [],
@@ -96,13 +96,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_deadline_notebook_blog_section_landscape_c5f664858052.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_deadline_notebook_blog_section_landscape_c5f664858052.gif",
         "alt": "Build a real plan first (not a vibes spreadsheet)",
-        "width": 2474,
-        "height": 1862,
-        "creator": "Michaela",
-        "creatorUrl": "https://www.pexels.com/@michaela-87369",
-        "provider": "pexels",
+        "width": 154,
+        "height": 200,
+        "creator": "claynosaurz",
+        "creatorUrl": "https://giphy.com/gifs/claynosaurz-working-studying-clayno-o1OHs6OEe3DrrTKWpe",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -223,13 +223,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_anxious_spreadsheet_blog_section_landscape_835c6c154637.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_anxious_spreadsheet_blog_section_landscape_835c6c154637.jpeg",
         "alt": "Track submissions and schedule revisions like you're running a project",
-        "width": 152,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-        "provider": "giphy",
+        "width": 3583,
+        "height": 2614,
+        "creator": "Mikhail Nilov",
+        "creatorUrl": "https://www.pexels.com/@mikhail-nilov",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -274,7 +274,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_rage_vindicated_blog_section_landscape_585894e190bb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_rage_vindicated_blog_section_landscape_585894e190bb.gif?updatedAt=1782271423546",
         "alt": "Treat rejection as feedback, not a hammer (and keep your standards sharp)",
         "width": 298,
         "height": 200,
@@ -285,32 +285,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_section_image_relief_resolve_blog_section_landscape_9fd50ccd9bec.jpeg",
-    "alt": "blog section image \u00b7 relief resolve",
-    "width": 8179,
-    "height": 5455,
-    "creator": "Calvin Seng",
-    "creatorUrl": "https://www.pexels.com/@calvinseng",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 basics of publishing contracts you should understand before you sign",
-      "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     },
     {
       "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     },
     {
       "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     },
     {
-      "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -345,7 +336,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "url": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     }
   ]
 } as const;
@@ -375,7 +366,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -387,31 +378,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+          "item": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
       "name": "5 tips for are you an aspiring author: here's how to get a book published",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -427,11 +418,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published",
       "headline": "5 tips for are you an aspiring author: here's how to get a book published",
       "alternativeHeadline": "5 tips for are you an aspiring author: here\u2019s how to get a book published",
       "description": "You can have a solid manuscript and still feel totally lost because the publishing industry layers six different jobs on top of each other: manuscript review, query letter evaluation, synopsis assessment, sample pages review, tracking of responses, and timing management across all of it. Responses that arrive late, early, or not at all.",
@@ -461,40 +452,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage"
       },
+      "datePublished": "2027-08-06",
+      "dateModified": "2027-08-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "url": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
+          "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         },
         {
           "@type": "WebPage",
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+          "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         },
         {
           "@type": "WebPage",
-          "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+          "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_hero_dread_confusion_blog_hero_landscape_d65ededfa8ff.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published/blog/blog_hero_dread_confusion_blog_hero_landscape_d65ededfa8ff.jpeg?updatedAt=1782271421578",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
@@ -509,7 +502,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published#faq",
       "mainEntity": [
         {
           "@type": "Question",

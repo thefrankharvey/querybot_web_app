@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Format a Query Letter Email That Looks Professional",
   "description": "A query email shouldn't look like it escaped from a word processor. It should look like something a busy decision-maker can read in 20 seconds and file correctly\u2014without wading through funky fonts, weird indentation, or \"why is this image embedded\" energy.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-27",
+  "modifiedDate": "2026-06-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-format-a-query-letter-email-that-looks-professional",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-format-a-query-letter-email-that-looks-professional#primaryimage"
       },
+      "datePublished": "2026-06-27",
+      "dateModified": "2026-06-27",
       "mentions": [
         {
           "@type": "WebPage",

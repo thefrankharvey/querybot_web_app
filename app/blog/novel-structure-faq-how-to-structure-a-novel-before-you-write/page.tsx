@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Novel Structure FAQ: How to Structure a Novel Before You Write",
   "description": "Writers don\u2019t struggle with story structure vocabulary. They struggle translating it into a plan that stops the long, unfocused manuscript from happening in the first place. This is an FAQ for novel structure that treats planning like an engineering problem\u2014but one solved with character consequence, moral choices, and plot cause-and-effect, not spreadsheets.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-24",
+  "modifiedDate": "2026-09-24",
   "canonicalUrl": "https://writequeryhook.com/blog/novel-structure-faq-how-to-structure-a-novel-before-you-write",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -531,6 +531,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/novel-structure-faq-how-to-structure-a-novel-before-you-write#primaryimage"
       },
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
       "mentions": [
         {
           "@type": "WebPage",

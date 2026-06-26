@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Transition Into a Flashback Without Jolting the Reader",
   "description": "Flashbacks are supposed to feel like memory\u2014messy, selective, intimate. Most writers accidentally write them like announcements.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-01",
+  "modifiedDate": "2026-09-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-transition-into-a-flashback-without-jolting-the-reader",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -587,6 +587,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-transition-into-a-flashback-without-jolting-the-reader#primaryimage"
       },
+      "datePublished": "2026-09-01",
+      "dateModified": "2026-09-01",
       "mentions": [
         {
           "@type": "WebPage",

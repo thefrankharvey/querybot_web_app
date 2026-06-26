@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "AI Use in Writing: A Real FAQ for Authors",
   "description": "Writers keep bumping into viral claims like \"nearly half of authors use generative AI.\" Cool\u2014now what? This FAQ is for the part that's missing from most headline coverage: what the survey actually measures, how writers are really using AI in publishing, and where disclosure gets messy fast.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors",
+  "publishedDate": "2027-07-31",
+  "modifiedDate": "2027-07-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_hero_confusion_cursor_blinking_blog_hero_landscape_eacd61ded2cb.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_hero_confusion_cursor_blinking_blog_hero_landscape_eacd61ded2cb.jpeg?updatedAt=1782268530777",
     "alt": "blog hero \u00b7 confusion cursor-blinking",
     "width": 4576,
     "height": 3051,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "AI Use in Writing: A Real FAQ for Authors",
-      "item": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors"
+      "item": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     }
   ],
   "tldrBlocks": [],
@@ -122,13 +122,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_hope_fear_blog_section_landscape_ffaafcd9bb38.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_hope_fear_blog_section_landscape_ffaafcd9bb38.jpeg",
         "alt": "Does the survey mean authors are using AI to write entire books?",
-        "width": 200,
-        "height": 200,
-        "creator": "creative-courage",
-        "creatorUrl": "https://giphy.com/gifs/creative-courage-heysp-hope-is-that-thing-inside-us-despite-all-the-evidence-wfuTQGRWN6rb3T4z1F",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -194,7 +194,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_ethics_first_copyright_anxiety_blog_section_landscape_ccba6d0efefe.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_ethics_first_copyright_anxiety_blog_section_landscape_ccba6d0efefe.gif?updatedAt=1782268531942",
         "alt": "Why do many authors avoid generative AI?",
         "width": 368,
         "height": 200,
@@ -241,43 +241,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_transparency_readers_blog_section_landscape_5ef77af33202.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_transparency_readers_blog_section_landscape_5ef77af33202.gif",
         "alt": "Should authors disclose AI assistance to readers?",
-        "width": 4608,
-        "height": 3072,
-        "creator": "Djordje Vezilic",
-        "creatorUrl": "https://www.pexels.com/@djordje-vezilic-59599374",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_section_image_decision_experiment_blog_section_landscape_2d4386196d41.jpeg",
-    "alt": "blog section image \u00b7 decision experiment",
-    "width": 6282,
-    "height": 4188,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How do advances and royalties work FAQ",
-      "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     },
     {
       "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     },
     {
-      "title": "What IP Publishing Really Means (and how to study it through examples)",
-      "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+      "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
+      "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
     },
     {
-      "title": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-      "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+      "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -295,7 +286,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "url": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     }
   ]
 } as const;
@@ -325,7 +316,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -337,31 +328,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "AI Use in Writing: A Real FAQ for Authors",
-          "item": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors"
+          "item": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#webpage",
-      "url": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors",
+      "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#webpage",
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors",
       "name": "AI Use in Writing: A Real FAQ for Authors",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -377,11 +368,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#article",
+      "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#webpage"
+        "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors",
       "headline": "AI Use in Writing: A Real FAQ for Authors",
       "alternativeHeadline": "AI Use in Writing: A Real FAQ for Authors",
       "description": "Writers keep bumping into viral claims like \"nearly half of authors use generative AI.\" Cool\u2014now what? This FAQ is for the part that's missing from most headline coverage: what the survey actually measures, how writers are really using AI in publishing, and where disclosure gets messy fast.",
@@ -411,40 +402,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#primaryimage"
       },
+      "datePublished": "2027-07-31",
+      "dateModified": "2027-07-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "url": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         },
         {
           "@type": "WebPage",
           "name": "How do advances and royalties work FAQ",
-          "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+          "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
         },
         {
           "@type": "WebPage",
-          "name": "What IP Publishing Really Means (and how to study it through examples)",
-          "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+          "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
+          "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
         },
         {
           "@type": "WebPage",
-          "name": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-          "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+          "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
+          "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_hero_confusion_cursor_blinking_blog_hero_landscape_eacd61ded2cb.jpeg",
+      "@id": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/ai-use-in-writing-a-real-faq-for-authors/blog/blog_hero_confusion_cursor_blinking_blog_hero_landscape_eacd61ded2cb.jpeg?updatedAt=1782268530777",
       "width": 4576,
       "height": 3051,
       "caption": "blog hero \u00b7 confusion cursor-blinking",

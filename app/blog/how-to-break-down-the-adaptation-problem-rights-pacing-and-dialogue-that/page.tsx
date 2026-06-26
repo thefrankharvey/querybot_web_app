@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
   "description": "Case studies work best when the subject is a real artifact you can stare at. So for this one, the \"example\" isn't a famous author's published screenplay or a random blog post. It's the moment a writer moves from \"my book is cinematic\" to \"show me how the adaptation will function on the page.\"",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
+  "publishedDate": "2027-09-04",
+  "modifiedDate": "2027-09-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_hero_dread_recognition_blog_hero_landscape_12c5bf259020.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_hero_dread_recognition_blog_hero_landscape_12c5bf259020.jpeg?updatedAt=1782319270650",
     "alt": "blog hero \u00b7 dread recognition",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-      "item": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
+      "item": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
     }
   ],
   "tldrBlocks": [],
@@ -111,7 +111,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_opening_subject_context_blog_section_landscape_606a4243ffaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_opening_subject_context_blog_section_landscape_606a4243ffaa.jpeg?updatedAt=1782319271103",
         "alt": "Opening \u2014 subject context",
         "width": 6611,
         "height": 4407,
@@ -479,13 +479,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_2e89d7ce53c9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_2e89d7ce53c9.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -508,7 +508,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_lessons_takeaways_blog_section_landscape_e08dccecc7a8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_lessons_takeaways_blog_section_landscape_e08dccecc7a8.gif?updatedAt=1782319272525",
         "alt": "Lessons / Takeaways",
         "width": 246,
         "height": 200,
@@ -519,32 +519,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_section_image_fist_pump_resolve_blog_section_landscape_d427fc746389.gif",
-    "alt": "blog section image \u00b7 fist pump resolve",
-    "width": 239,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/judd-nelson-breakfast-club-2hCmyEiGn9zkQ",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to choose a book title that sells: five title moves explained",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
-    },
-    {
-      "title": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-      "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
     },
     {
       "title": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-      "url": "https://writequeryhook.com/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing-trap"
+      "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
     },
     {
       "title": "Common book title mistakes that quietly sabotage book marketing",
-      "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+    },
+    {
+      "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -583,7 +574,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to choose a book title that sells: five title moves explained",
-      "url": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
     }
   ]
 } as const;
@@ -613,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -625,31 +616,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-          "item": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
+          "item": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
+      "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
       "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -665,11 +656,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#article",
+      "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that",
       "headline": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
       "alternativeHeadline": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
       "description": "Case studies work best when the subject is a real artifact you can stare at. So for this one, the \"example\" isn't a famous author's published screenplay or a random blog post. It's the moment a writer moves from \"my book is cinematic\" to \"show me how the adaptation will function on the page.\"",
@@ -699,40 +690,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage"
       },
+      "datePublished": "2027-09-04",
+      "dateModified": "2027-09-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to choose a book title that sells: five title moves explained",
-          "url": "https://writequeryhook.com/query-letters/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to choose a book title that sells: five title moves explained",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-          "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+          "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
         },
         {
           "@type": "WebPage",
           "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-          "url": "https://writequeryhook.com/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing-trap"
+          "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
         },
         {
           "@type": "WebPage",
           "name": "Common book title mistakes that quietly sabotage book marketing",
-          "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+          "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
+          "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_hero_dread_recognition_blog_hero_landscape_12c5bf259020.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_528/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that/blog/blog_hero_dread_recognition_blog_hero_landscape_12c5bf259020.jpeg?updatedAt=1782319270650",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread recognition",
@@ -747,7 +735,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

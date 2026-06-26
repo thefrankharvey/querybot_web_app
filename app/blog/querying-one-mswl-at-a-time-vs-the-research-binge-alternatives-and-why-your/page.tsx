@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
   "description": "The dumbest part of the whole thing is that I'd done the prep. I mean, I went full research gremlin: agent lists, MSWLs, \"what to submit first,\" \"what to put in the query,\" all of it.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
+  "publishedDate": "2027-04-21",
+  "modifiedDate": "2027-04-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_hero_almost_killed_me_adrenaline_blog_hero_landscape_a0353f5955ba.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_hero_almost_killed_me_adrenaline_blog_hero_landscape_a0353f5955ba.jpeg",
     "alt": "blog hero \u00b7 almost-killed-me adrenaline",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "David Rama",
+    "creatorUrl": "https://www.pexels.com/@phreewil",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-      "item": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
+      "item": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     }
   ],
   "tldrBlocks": [],
@@ -107,13 +107,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_opening_blog_section_landscape_46ec4fdae3f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_opening_blog_section_landscape_46ec4fdae3f4.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -339,7 +339,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_research_binge_learning_blog_section_landscape_4b617d007eef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_research_binge_learning_blog_section_landscape_4b617d007eef.jpeg?updatedAt=1781851746710",
         "alt": "Research style: curated vs endless",
         "width": 6000,
         "height": 4000,
@@ -446,43 +446,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_the_verdict_blog_section_landscape_7042b0dd96e1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_the_verdict_blog_section_landscape_7042b0dd96e1.gif",
         "alt": "The verdict",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_section_image_pick_a_system_stop_spiraling_blog_section_landscape_55e215978a48.gif",
-    "alt": "blog section image \u00b7 pick-a-system stop spiraling",
-    "width": 377,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/one-direction-1d-my-boys-InNTL0HQur82s",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
     },
     {
       "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-      "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
     },
     {
       "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-      "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     },
     {
-      "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+      "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -521,7 +512,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
     }
   ]
 } as const;
@@ -551,7 +542,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -563,31 +554,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-          "item": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
+          "item": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
+      "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#webpage",
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
       "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -603,11 +594,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#article",
+      "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#webpage"
+        "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your",
       "headline": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
       "alternativeHeadline": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
       "description": "The dumbest part of the whole thing is that I'd done the prep. I mean, I went full research gremlin: agent lists, MSWLs, \"what to submit first,\" \"what to put in the query,\" all of it.",
@@ -637,55 +628,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage"
       },
+      "datePublished": "2027-04-21",
+      "dateModified": "2027-04-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+          "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
         },
         {
           "@type": "WebPage",
           "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-          "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+          "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
         },
         {
           "@type": "WebPage",
           "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-          "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+          "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
         },
         {
           "@type": "WebPage",
-          "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+          "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
+          "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_hero_almost_killed_me_adrenaline_blog_hero_landscape_a0353f5955ba.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your/blog/blog_hero_almost_killed_me_adrenaline_blog_hero_landscape_a0353f5955ba.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 almost-killed-me adrenaline",
-      "creditText": "Giphy",
+      "creditText": "David Rama",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "David Rama",
+        "url": "https://www.pexels.com/@phreewil"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#faq",
+      "@id": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

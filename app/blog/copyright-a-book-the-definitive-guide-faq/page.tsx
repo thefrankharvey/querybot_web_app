@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Copyright a book: the definitive guide FAQ",
   "description": "If you've written a book, you already know producing the words is one thing\u2014the paperwork that follows is the real tax on your time. Copyright is the legal umbrella for your work, and registration is the step that can make enforcing that umbrella less miserable later.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq",
+  "publishedDate": "2027-10-01",
+  "modifiedDate": "2027-10-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_hero_overwhelmed_blank_page_panic_blog_hero_landscape_d1f165b7f2ba.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_hero_overwhelmed_blank_page_panic_blog_hero_landscape_d1f165b7f2ba.jpeg?updatedAt=1782339477636",
     "alt": "blog hero \u00b7 overwhelmed blank-page panic",
     "width": 5650,
     "height": 3741,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Copyright a book: the definitive guide FAQ",
-      "item": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq"
+      "item": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_relief_clarity_blog_section_landscape_ebc6f6cd94e3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_relief_clarity_blog_section_landscape_ebc6f6cd94e3.jpeg?updatedAt=1782339478376",
         "alt": "What does copyright actually protect for book authors?",
         "width": 5472,
         "height": 3648,
@@ -144,13 +144,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_anxious_insurance_metaphor_blog_section_landscape_f699673ec37a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_anxious_insurance_metaphor_blog_section_landscape_f699673ec37a.gif",
         "alt": "If copyright exists automatically, why register it?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "InsuranceNavy",
+        "creatorUrl": "https://giphy.com/gifs/insurance-navy-insurancenavy-z2q9QEAh1bFnQvVMwa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -190,7 +190,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_checklist_focused_blog_section_landscape_cb08a7999270.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_checklist_focused_blog_section_landscape_cb08a7999270.gif?updatedAt=1782339479606",
         "alt": "What are the steps to copyright a book online?",
         "width": 226,
         "height": 200,
@@ -240,7 +240,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_checklist_focused_blog_section_landscape_cb08a7999270.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_checklist_focused_blog_section_landscape_cb08a7999270.gif?updatedAt=1782339479606",
         "alt": "What are the steps to copyright a book online?",
         "width": 226,
         "height": 200,
@@ -333,32 +333,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_section_image_deep_breath_next_action_blog_section_landscape_809e7b859267.gif",
-    "alt": "blog section image \u00b7 deep breath next action",
-    "width": 200,
-    "height": 200,
-    "creator": "disneystudios",
-    "creatorUrl": "https://giphy.com/gifs/disneystudios-disney-stare-mena-massoud-S6q7a7nMOL2c11R4qq",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How much does it cost to publish a book in 2025 FAQ",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
     },
     {
       "title": "Amazon Algorithms for Authors: Demystified FAQ",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     },
     {
       "title": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     },
     {
-      "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+      "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -376,7 +367,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+      "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
     }
   ]
 } as const;
@@ -406,7 +397,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -418,31 +409,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Copyright a book: the definitive guide FAQ",
-          "item": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq"
+          "item": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#webpage",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq",
       "name": "Copyright a book: the definitive guide FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -458,11 +449,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#article",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq",
       "headline": "Copyright a book: the definitive guide FAQ",
       "alternativeHeadline": "Copyright a book: the definitive guide FAQ",
       "description": "If you've written a book, you already know producing the words is one thing\u2014the paperwork that follows is the real tax on your time. Copyright is the legal umbrella for your work, and registration is the step that can make enforcing that umbrella less miserable later.",
@@ -492,40 +483,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#primaryimage"
       },
+      "datePublished": "2027-10-01",
+      "dateModified": "2027-10-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+          "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025 FAQ",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
         },
         {
           "@type": "WebPage",
           "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
         },
         {
           "@type": "WebPage",
           "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+          "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         },
         {
           "@type": "WebPage",
-          "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+          "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-the-definitive-guide-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_hero_overwhelmed_blank_page_panic_blog_hero_landscape_d1f165b7f2ba.jpeg",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_559/copyright-a-book-the-definitive-guide-faq/blog/blog_hero_overwhelmed_blank_page_panic_blog_hero_landscape_d1f165b7f2ba.jpeg?updatedAt=1782339477636",
       "width": 5650,
       "height": 3741,
       "caption": "blog hero \u00b7 overwhelmed blank-page panic",

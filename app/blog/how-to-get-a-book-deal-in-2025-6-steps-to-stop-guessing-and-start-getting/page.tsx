@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to get a book deal in 2025: 6 steps to stop guessing and start getting responses",
   "description": "If you're querying in 2025 and it feels like your manuscript is being judged by vibes alone, same. You stare at a spreadsheet, reread your query letter for the 18th time, and wonder if the literary agent in question is even real\u2014or if your email is just going into some void with a \"forever pending\" sign.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-06",
+  "modifiedDate": "2026-07-06",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-get-a-book-deal-in-2025-6-steps-to-stop-guessing-and-start-getting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -495,6 +495,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-get-a-book-deal-in-2025-6-steps-to-stop-guessing-and-start-getting#primaryimage"
       },
+      "datePublished": "2026-07-06",
+      "dateModified": "2026-07-06",
       "mentions": [
         {
           "@type": "WebPage",

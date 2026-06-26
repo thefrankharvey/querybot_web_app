@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
   "description": "You can smell it before you even see the contract: polished websites, fast replies, and language that sounds like publishing success is a purchase you can make.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
+  "publishedDate": "2027-09-12",
+  "modifiedDate": "2027-09-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_hero_recognition_frustration_blog_hero_landscape_a353a5196893.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_hero_recognition_frustration_blog_hero_landscape_a353a5196893.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
+      "item": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
     }
   ],
   "tldrBlocks": [],
@@ -221,13 +221,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_paranoid_eye_roll_blog_section_landscape_7d5b937c18d8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_paranoid_eye_roll_blog_section_landscape_7d5b937c18d8.gif",
         "alt": "Verify book distribution claims in plain English",
-        "width": 8688,
-        "height": 5792,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "theparanoyds",
+        "creatorUrl": "https://giphy.com/gifs/theparanoyds-the-paranoyds-paranoids-nDTz5rwNItU66mtOgG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -284,13 +284,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_alarm_panic_blog_section_landscape_df0659ebd086.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_alarm_panic_blog_section_landscape_df0659ebd086.gif",
         "alt": "Read publishing rights clauses like your future depends on it",
-        "width": 6960,
-        "height": 4640,
-        "creator": "Marta Branco",
-        "creatorUrl": "https://www.pexels.com/@martabranco",
-        "provider": "pexels",
+        "width": 366,
+        "height": 200,
+        "creator": "holmesandwatson",
+        "creatorUrl": "https://giphy.com/gifs/holmesandwatson-XJW2rwqtcmU0xiS68v",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -347,7 +347,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_guarded_hope_confusion_blog_section_landscape_ba4dfcc146c6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_guarded_hope_confusion_blog_section_landscape_ba4dfcc146c6.jpeg?updatedAt=1782328953733",
         "alt": "Compare hybrid publisher vs vanity press differences",
         "width": 6000,
         "height": 4000,
@@ -358,32 +358,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_section_image_commitment_next_step_blog_section_landscape_40e21b0ac280.gif",
-    "alt": "blog section image \u00b7 commitment next step",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
     },
     {
       "title": "5 tips for picking the type of novel you're actually trying to write",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     },
     {
       "title": "5 practical ways to market your self-published book (without living on random platforms)",
-      "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     },
     {
-      "title": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -418,7 +409,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-      "url": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
     }
   ]
 } as const;
@@ -448,7 +439,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -460,31 +451,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
+          "item": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
       "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -500,11 +491,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you",
       "headline": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
       "alternativeHeadline": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
       "description": "You can smell it before you even see the contract: polished websites, fast replies, and language that sounds like publishing success is a purchase you can make.",
@@ -534,55 +525,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage"
       },
+      "datePublished": "2027-09-12",
+      "dateModified": "2027-09-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-          "url": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+          "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
         },
         {
           "@type": "WebPage",
           "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+          "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for picking the type of novel you're actually trying to write",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
         },
         {
           "@type": "WebPage",
           "name": "5 practical ways to market your self-published book (without living on random platforms)",
-          "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+          "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         },
         {
           "@type": "WebPage",
-          "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+          "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_hero_recognition_frustration_blog_hero_landscape_a353a5196893.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you/blog/blog_hero_recognition_frustration_blog_hero_landscape_a353a5196893.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for a basic pitch formula for novelists that actually hooks",
   "description": "Most pitch drafts I see fail for one boring reason: they take forever to get to the part that makes the reader care. The hook gets buried under premise explanation and backstory setup, and by the time the actual story engine appears, the reader has already checked out.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-30",
+  "modifiedDate": "2026-07-30",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-a-basic-pitch-formula-for-novelists-that-actually-hooks",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -532,6 +532,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-a-basic-pitch-formula-for-novelists-that-actually-hooks#primaryimage"
       },
+      "datePublished": "2026-07-30",
+      "dateModified": "2026-07-30",
       "mentions": [
         {
           "@type": "WebPage",

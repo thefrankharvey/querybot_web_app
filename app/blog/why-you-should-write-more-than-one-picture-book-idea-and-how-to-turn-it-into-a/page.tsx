@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
   "description": "The first time an idea feels perfect, you want to treat it like the whole job. Like one immaculate picture books manuscript is going to walk through the industry door and immediately get picked up.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
+  "publishedDate": "2027-06-28",
+  "modifiedDate": "2027-06-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_hero_blank_page_relief_blog_hero_landscape_41ab543e544e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_hero_blank_page_relief_blog_hero_landscape_41ab543e544e.jpeg?updatedAt=1782236034995",
     "alt": "blog hero \u00b7 blank-page relief",
     "width": 4000,
     "height": 2667,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-      "item": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+      "item": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
     }
   ],
   "tldrBlocks": [],
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_numbers_game_publishing_blog_section_landscape_8127c48189c6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_numbers_game_publishing_blog_section_landscape_8127c48189c6.gif?updatedAt=1782236038642",
         "alt": "Step 1: Define your goal as a querying numbers problem",
         "width": 312,
         "height": 200,
@@ -216,7 +216,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_counting_3_to_5_blog_section_landscape_5e57e01435af.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_counting_3_to_5_blog_section_landscape_5e57e01435af.gif?updatedAt=1782236039375",
         "alt": "Step 3: Figure out how many picture book manuscripts to query",
         "width": 200,
         "height": 200,
@@ -269,7 +269,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_idea_fatigue_prompts_blog_section_landscape_6e23f89d0439.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_idea_fatigue_prompts_blog_section_landscape_6e23f89d0439.jpeg?updatedAt=1782236039929",
         "alt": "Step 4: Generate more children\u2019s book ideas with twist + a reason to buy",
         "width": 5646,
         "height": 3764,
@@ -378,32 +378,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_section_image_do_it_now_next_draft_blog_section_landscape_59c61476adcf.jpeg",
-    "alt": "blog section image \u00b7 do it now next draft",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-      "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     },
     {
       "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     },
     {
       "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     },
     {
-      "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+      "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -442,7 +433,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     }
   ]
 } as const;
@@ -472,7 +463,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -484,31 +475,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-          "item": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+          "item": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#webpage",
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
       "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -524,11 +515,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#article",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#webpage"
+        "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a",
       "headline": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
       "alternativeHeadline": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
       "description": "The first time an idea feels perfect, you want to treat it like the whole job. Like one immaculate picture books manuscript is going to walk through the industry door and immediately get picked up.",
@@ -558,40 +549,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage"
       },
+      "datePublished": "2027-06-28",
+      "dateModified": "2027-06-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-          "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
         },
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         },
         {
           "@type": "WebPage",
           "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
         },
         {
           "@type": "WebPage",
-          "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+          "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
+          "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_hero_blank_page_relief_blog_hero_landscape_41ab543e544e.jpeg",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_450/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a/blog/blog_hero_blank_page_relief_blog_hero_landscape_41ab543e544e.jpeg?updatedAt=1782236034995",
       "width": 4000,
       "height": 2667,
       "caption": "blog hero \u00b7 blank-page relief",
@@ -606,7 +594,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#howto",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#howto",
       "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
       "description": "The first time an idea feels perfect, you want to treat it like the whole job. Like one immaculate picture books manuscript is going to walk through the industry door and immediately get picked up.",
       "totalTime": "PT8M",
@@ -616,49 +604,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your goal as a querying numbers problem",
           "text": "OK pause. Stop calling it \u201cone idea.\u201d Start calling it a stack of submissions.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-1-define-your-goal-as-a-querying-numbers-problem"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-1-define-your-goal-as-a-querying-numbers-problem"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Make rejection stop being a grade on you",
           "text": "Rejection is real. It also isn\u2019t a certificate of your talent.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-2-make-rejection-stop-being-a-grade-on-you"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-2-make-rejection-stop-being-a-grade-on-you"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Figure out how many picture book manuscripts to query",
           "text": "You asked for a number, so here\u2019s the blunt range the industry logic supports: you\u2019ll likely need between 3 and 5 picture book manuscripts ready for traditional querying.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-3-figure-out-how-many-picture-book-manuscripts-to-query"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-3-figure-out-how-many-picture-book-manuscripts-to-query"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Generate more children\u2019s book ideas with twist + a reason to buy",
           "text": "This is where writers usually stall. They write one concept, feel smart for having a theme, then run out of electricity when the novelty fades.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-4-generate-more-children-s-book-ideas-with-twist-a-reason-to-buy"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-4-generate-more-children-s-book-ideas-with-twist-a-reason-to-buy"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Study recently published picture books to steer topic + style",
           "text": "Like it or not, the market has taste right now, and shelves advertise that taste in real time.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-5-study-recently-published-picture-books-to-steer-topic-style"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-5-study-recently-published-picture-books-to-steer-topic-style"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Build a repeatable output routine (and stop treating it like one-off magic)",
           "text": "Once you accept \u201cmore than one\u201d as the plan, the real win is making it repeatable.",
-          "url": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-6-build-a-repeatable-output-routine-and-stop-treating-it-like-one-off-magic"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#step-6-build-a-repeatable-output-routine-and-stop-treating-it-like-one-off-magic"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#faq",
+      "@id": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a#faq",
       "mainEntity": [
         {
           "@type": "Question",

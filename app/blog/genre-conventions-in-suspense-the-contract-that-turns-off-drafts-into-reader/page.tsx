@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Genre conventions in suspense: the contract that turns \"off\" drafts into reader-satisfying scenes",
   "description": "Most writers can plot a book. They can outline a beginning, a middle, and an ending. Then the manuscript sits there like a correctly assembled chair that still somehow won't hold your weight.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-19",
+  "modifiedDate": "2026-12-19",
   "canonicalUrl": "https://writequeryhook.com/blog/genre-conventions-in-suspense-the-contract-that-turns-off-drafts-into-reader",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -682,6 +682,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/genre-conventions-in-suspense-the-contract-that-turns-off-drafts-into-reader#primaryimage"
       },
+      "datePublished": "2026-12-19",
+      "dateModified": "2026-12-19",
       "mentions": [
         {
           "@type": "WebPage",

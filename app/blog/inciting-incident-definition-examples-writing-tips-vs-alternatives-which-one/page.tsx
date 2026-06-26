@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Inciting Incident Definition Examples: Writing Tips vs Alternatives (Which One Actually Gets Readers Hooked?)",
   "description": "Your protagonist says \"Good day!\" Your plot replies, \"Nice try.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-09",
+  "modifiedDate": "2026-11-09",
   "canonicalUrl": "https://writequeryhook.com/blog/inciting-incident-definition-examples-writing-tips-vs-alternatives-which-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -602,6 +602,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/inciting-incident-definition-examples-writing-tips-vs-alternatives-which-one#primaryimage"
       },
+      "datePublished": "2026-11-09",
+      "dateModified": "2026-11-09",
       "mentions": [
         {
           "@type": "WebPage",

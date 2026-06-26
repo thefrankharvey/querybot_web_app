@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to choose and sharpen foggy story ideas\u2014before you write a full draft",
   "description": "You know that moment when you've got a handful of story ideas in your head, and none of them feels\u2026 real yet? Not \"bad,\" exactly. More like the image on a fogged-up car window\u2014shapes exist, but your brain keeps guessing what they are.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-28",
+  "modifiedDate": "2026-11-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-choose-and-sharpen-foggy-story-ideas-before-you-write-a-full-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -671,6 +671,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-choose-and-sharpen-foggy-story-ideas-before-you-write-a-full-draft#primaryimage"
       },
+      "datePublished": "2026-11-28",
+      "dateModified": "2026-11-28",
       "mentions": [
         {
           "@type": "WebPage",

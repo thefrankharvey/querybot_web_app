@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
   "description": "New writers often understand the writing part just fine. Then the submission happens, the manuscript gets requested, and suddenly publishing feels like a black box with a stopwatch attached.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
+  "publishedDate": "2027-05-03",
+  "modifiedDate": "2027-05-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_hero_blank_page_dread_radio_silence_blog_hero_landscape_af145a3c3493.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_hero_blank_page_dread_radio_silence_blog_hero_landscape_af145a3c3493.jpeg?updatedAt=1782086881201",
     "alt": "blog hero \u00b7 blank-page dread radio silence",
     "width": 5184,
     "height": 3456,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-      "item": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+      "item": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     }
   ],
   "tldrBlocks": [],
@@ -128,7 +128,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_research_pathway_blog_section_landscape_7eee026e68d9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_research_pathway_blog_section_landscape_7eee026e68d9.gif?updatedAt=1782086884076",
         "alt": "What should a new writer do first in publishing?",
         "width": 356,
         "height": 200,
@@ -238,7 +238,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_radio_silence_anxiety_blog_section_landscape_2625f412cbb2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_radio_silence_anxiety_blog_section_landscape_2625f412cbb2.jpeg?updatedAt=1782086885217",
         "alt": "Why do authors hear radio silence from publishers?",
         "width": 5670,
         "height": 3780,
@@ -277,43 +277,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_is_it_normal_to_go_quiet_during_the_process_blog_section_landscape_eb475e7a59d8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_is_it_normal_to_go_quiet_during_the_process_blog_section_landscape_eb475e7a59d8.gif",
         "alt": "Is it normal to go quiet during the process?",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_section_image_next_step_checklist_blog_section_landscape_e1aad08e0edd.gif",
-    "alt": "blog section image \u00b7 next step checklist",
-    "width": 200,
-    "height": 200,
-    "creator": "pudgypenguins",
-    "creatorUrl": "https://giphy.com/gifs/pudgypenguins-next-list-whos-gWWUmX65rdliVnaAw4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
-      "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     },
     {
       "title": "What Is an Editorial Letter? Developmental Editing FAQs",
-      "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     },
     {
       "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     },
     {
       "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -327,7 +318,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-      "url": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
     }
   ]
 } as const;
@@ -357,7 +348,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -369,31 +360,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-          "item": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+          "item": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#webpage",
-      "url": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
+      "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#webpage",
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
       "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -409,11 +400,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#article",
+      "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#webpage"
+        "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers",
       "headline": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
       "alternativeHeadline": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
       "description": "New writers often understand the writing part just fine. Then the submission happens, the manuscript gets requested, and suddenly publishing feels like a black box with a stopwatch attached.",
@@ -443,40 +434,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage"
       },
+      "datePublished": "2027-05-03",
+      "dateModified": "2027-05-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-          "url": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+          "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
         },
         {
           "@type": "WebPage",
           "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-          "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+          "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         },
         {
           "@type": "WebPage",
           "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-          "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+          "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
         },
         {
           "@type": "WebPage",
           "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         },
         {
           "@type": "WebPage",
           "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+          "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_hero_blank_page_dread_radio_silence_blog_hero_landscape_af145a3c3493.jpeg",
+      "@id": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers/blog/blog_hero_blank_page_dread_radio_silence_blog_hero_landscape_af145a3c3493.jpeg?updatedAt=1782086881201",
       "width": 5184,
       "height": 3456,
       "caption": "blog hero \u00b7 blank-page dread radio silence",

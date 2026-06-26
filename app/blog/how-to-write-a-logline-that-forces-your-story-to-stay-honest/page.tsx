@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a logline that forces your story to stay honest",
   "description": "You know the moment. The manuscript is fine for a chapter or two, then the pages start doing that slow magic trick where nothing obviously goes wrong\u2014yet the story stops moving the way you intended.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-13",
+  "modifiedDate": "2027-01-13",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-logline-that-forces-your-story-to-stay-honest",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -654,6 +654,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-logline-that-forces-your-story-to-stay-honest#primaryimage"
       },
+      "datePublished": "2027-01-13",
+      "dateModified": "2027-01-13",
       "mentions": [
         {
           "@type": "WebPage",

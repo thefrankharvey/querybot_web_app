@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make your villain read like a cardboard cutout on page one",
   "description": "Your opening can be gorgeous and still feel like the book equivalent of seeing the same actor in a different costume. The villain shows up, does the stalking-beat thing, and\u2014somehow\u2014you've already lost tension before anything \"big\" happens.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-13",
+  "modifiedDate": "2026-10-13",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-your-villain-read-like-a-cardboard-cutout-on-page-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -682,6 +682,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-villain-read-like-a-cardboard-cutout-on-page-one#primaryimage"
       },
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
       "mentions": [
         {
           "@type": "WebPage",

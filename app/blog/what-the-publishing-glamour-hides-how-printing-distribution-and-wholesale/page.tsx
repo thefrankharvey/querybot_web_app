@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
   "description": "You\u2019ve probably seen the romantic version of publishing: find the story, fall in love with the writing, shepherd it into print. Then you hit publish, the cover looks gorgeous, and reality waits politely behind the curtain.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
+  "publishedDate": "2027-10-30",
+  "modifiedDate": "2027-10-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-      "item": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+      "item": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
     }
   ],
   "tldrBlocks": [],
@@ -509,19 +509,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     },
     {
       "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-      "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     },
     {
       "title": "Publishing myths that ignore printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     },
     {
-      "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "title": "5 tips for copyrighting a book: what to protect, and whether to register",
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -560,7 +560,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "url": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     }
   ]
 } as const;
@@ -590,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -602,31 +602,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-          "item": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+          "item": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
+      "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#webpage",
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
       "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -642,11 +642,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#article",
+      "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#webpage"
+        "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale",
       "headline": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
       "alternativeHeadline": "What the publishing \"glamour\" hides: how printing, distribution, and wholesale actually get you into stores",
       "description": "You\u2019ve probably seen the romantic version of publishing: find the story, fall in love with the writing, shepherd it into print. Then you hit publish, the cover looks gorgeous, and reality waits politely behind the curtain.",
@@ -676,39 +676,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage"
       },
+      "datePublished": "2027-10-30",
+      "dateModified": "2027-10-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "url": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+          "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
         },
         {
           "@type": "WebPage",
           "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-          "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+          "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         },
         {
           "@type": "WebPage",
           "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
-          "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+          "name": "5 tips for copyrighting a book: what to protect, and whether to register",
+          "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage",
+      "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_597/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale/blog/blog_hero_glamour_reality_check_blog_hero_landscape_f4c046d029f3.gif",
       "width": 200,
       "height": 200,
@@ -724,7 +721,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#faq",
+      "@id": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale#faq",
       "mainEntity": [
         {
           "@type": "Question",

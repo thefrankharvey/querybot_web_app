@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
   "description": "\"Commercial\" is suddenly everywhere\u2014in conversations, in agency notes, in PubTips threads where everyone pretends they totally knew what it meant already. Most writers are confused because \"commercial\" gets treated like an identity problem instead of a revision problem. The confusion isn't about taste.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq",
+  "publishedDate": "2027-10-22",
+  "modifiedDate": "2027-10-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
-      "item": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq"
+      "item": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
     }
   ],
   "tldrBlocks": [],
@@ -357,19 +357,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-faq"
-    },
-    {
-      "title": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-      "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
     },
     {
       "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-      "url": "https://writequeryhook.com/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     },
     {
-      "title": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-      "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
+      "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
+    },
+    {
+      "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -387,7 +387,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Talk About Your Writing So People Want to Read It FAQ",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
     }
   ]
 } as const;
@@ -417,7 +417,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -429,31 +429,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
-          "item": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq"
+          "item": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq",
+      "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#webpage",
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq",
       "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -469,11 +469,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#article",
+      "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq",
       "headline": "Make Your Work More Commercial: a Revision-Focused FAQ",
       "alternativeHeadline": "Make Your Work More Commercial: a Revision-Focused FAQ",
       "description": "\"Commercial\" is suddenly everywhere\u2014in conversations, in agency notes, in PubTips threads where everyone pretends they totally knew what it meant already. Most writers are confused because \"commercial\" gets treated like an identity problem instead of a revision problem. The confusion isn't about taste.",
@@ -503,39 +503,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#primaryimage"
       },
+      "datePublished": "2027-10-22",
+      "dateModified": "2027-10-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Talk About Your Writing So People Want to Read It FAQ",
-          "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
         },
         {
           "@type": "WebPage",
           "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-          "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
         },
         {
           "@type": "WebPage",
           "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-          "url": "https://writequeryhook.com/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         },
         {
           "@type": "WebPage",
-          "name": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-          "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
+          "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
+        },
+        {
+          "@type": "WebPage",
+          "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
+          "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_586/make-your-work-more-commercial-a-revision-focused-faq/blog/blog_hero_confusion_deadline_blog_hero_landscape_3796312028bf.jpeg",
       "width": 7950,
       "height": 4472,

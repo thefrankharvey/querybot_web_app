@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Full manuscript rejection vs alternatives: what to fix, what to ignore, and how to keep querying",
   "description": "You get the full request. You feel that tiny, stupid spark of hope\u2014like the manuscript finally clicked into the right light.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-24",
+  "modifiedDate": "2027-02-24",
   "canonicalUrl": "https://writequeryhook.com/blog/full-manuscript-rejection-vs-alternatives-what-to-fix-what-to-ignore-and-how",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -636,6 +636,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/full-manuscript-rejection-vs-alternatives-what-to-fix-what-to-ignore-and-how#primaryimage"
       },
+      "datePublished": "2027-02-24",
+      "dateModified": "2027-02-24",
       "mentions": [
         {
           "@type": "WebPage",

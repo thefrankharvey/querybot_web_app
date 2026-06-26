@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
   "description": "Here's the setup: a writer has a family memoir they're genuinely compelled to write, and they don't believe the \"commercially viable\" story they're supposed to tell can survive contact with their actual life. They don't want to cram their history into someone else's notion of audience fit. So they choose self-publishing\u2014not as a fallback, but as a strategy for creative control and realistic speed.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
+  "publishedDate": "2027-09-28",
+  "modifiedDate": "2027-09-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_hero_gatekeeping_worried_blog_hero_landscape_3a4b54b78ce6.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_hero_gatekeeping_worried_blog_hero_landscape_3a4b54b78ce6.jpeg?updatedAt=1782336140220",
     "alt": "blog hero \u00b7 gatekeeping worried",
     "width": 7680,
     "height": 5120,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-      "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
+      "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
     }
   ],
   "tldrBlocks": [],
@@ -116,13 +116,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_d1d120e78abf.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_d1d120e78abf.jpeg",
         "alt": "Body \u2014 structural breakdown",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -370,7 +370,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_flat_broke_designers_blog_section_landscape_546ccc695c52.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_flat_broke_designers_blog_section_landscape_546ccc695c52.gif?updatedAt=1782336141314",
         "alt": "Cover design and formatting without a fortune",
         "width": 200,
         "height": 200,
@@ -400,43 +400,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_lessons_takeaways_blog_section_landscape_0cf090086a43.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_lessons_takeaways_blog_section_landscape_0cf090086a43.gif",
         "alt": "Lessons / Takeaways",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_section_image_deadline_next_project_blog_section_landscape_1fa88a5e358e.jpeg",
-    "alt": "blog section image \u00b7 deadline next project",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-      "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
     },
     {
       "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-      "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
     },
     {
       "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     },
     {
-      "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -468,12 +459,7 @@ const PAGE_DATA = {
       "text": "If you're trying to figure out how to self-publish a family memoir, don't treat editing, cover design, and typesetting like separate chores. In this case study, those decisions are the book's skeleton. Now look at yours: where are you still guessing, and where can you hire, restructure, or budget with intention\u2014before the next draft file gets buried again."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How JB Harris used research and direct outreach to publish successfully with a small press",
-      "url": "https://writequeryhook.com/query-letters/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -501,7 +487,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -513,31 +499,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-          "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
+          "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#webpage",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#webpage",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
       "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -553,11 +539,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#article",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#webpage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape",
       "headline": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
       "alternativeHeadline": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
       "description": "Here's the setup: a writer has a family memoir they're genuinely compelled to write, and they don't believe the \"commercially viable\" story they're supposed to tell can survive contact with their actual life. They don't want to cram their history into someone else's notion of audience fit. So they choose self-publishing\u2014not as a fallback, but as a strategy for creative control and realistic speed.",
@@ -587,40 +573,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage"
       },
+      "datePublished": "2027-09-28",
+      "dateModified": "2027-09-28",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How JB Harris used research and direct outreach to publish successfully with a small press",
-          "url": "https://writequeryhook.com/query-letters/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-          "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
         },
         {
           "@type": "WebPage",
           "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-          "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+          "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
+          "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_hero_gatekeeping_worried_blog_hero_landscape_3a4b54b78ce6.jpeg",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_556/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape/blog/blog_hero_gatekeeping_worried_blog_hero_landscape_3a4b54b78ce6.jpeg?updatedAt=1782336140220",
       "width": 7680,
       "height": 5120,
       "caption": "blog hero \u00b7 gatekeeping worried",
@@ -635,7 +618,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#faq",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape#faq",
       "mainEntity": [
         {
           "@type": "Question",

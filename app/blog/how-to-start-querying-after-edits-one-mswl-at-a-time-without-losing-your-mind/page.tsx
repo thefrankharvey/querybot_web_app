@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
   "description": "Most writers don't panic because they \"don't know what they're doing.\" They panic because they've finally finished edits and then they have to hit submit on an entire, fragile bucket of hope.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
+  "publishedDate": "2027-04-14",
+  "modifiedDate": "2027-04-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_hero_dread_ledge_blog_hero_landscape_928f13e215ca.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_hero_dread_ledge_blog_hero_landscape_928f13e215ca.jpeg?updatedAt=1781809861644",
     "alt": "blog hero \u00b7 dread ledge",
     "width": 2728,
     "height": 1830,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-      "item": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+      "item": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
     }
   ],
   "tldrBlocks": [],
@@ -130,7 +130,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_edits_milestone_blog_section_landscape_880a56cb1625.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_edits_milestone_blog_section_landscape_880a56cb1625.gif?updatedAt=1781809862649",
         "alt": "Step 1: Define your readiness contract (edits first, querying second)",
         "width": 357,
         "height": 200,
@@ -191,7 +191,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_research_notes_blog_section_landscape_dba0ed388b2b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_research_notes_blog_section_landscape_dba0ed388b2b.gif?updatedAt=1781809863378",
         "alt": "Step 2: Build a real research stack (not just a folder) so you can organize querying research notes",
         "width": 160,
         "height": 200,
@@ -352,7 +352,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_submissions_send_button_blog_section_landscape_7e6cc0a91506.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_submissions_send_button_blog_section_landscape_7e6cc0a91506.jpeg?updatedAt=1781809863945",
         "alt": "Step 5: Run the send cycle one submission at a time (querying + tracking + sanity)",
         "width": 3999,
         "height": 2666,
@@ -403,32 +403,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_section_image_forward_motion_one_more_email_blog_section_landscape_f9ff29404df9.jpeg",
-    "alt": "blog section image \u00b7 forward motion one more email",
-    "width": 5931,
-    "height": 3954,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-      "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     },
     {
       "title": "How to clear the slush pile early-threshold so literary agents keep reading",
-      "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     },
     {
       "title": "How to stop comparing your writing (and get back to drafting)",
-      "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+      "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
     },
     {
-      "title": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-      "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+      "title": "Hope and Action for Authors FAQ: keep writing when hope gets flickery",
+      "url": "https://writequeryhook.com/blog/hope-and-action-for-authors-faq-keep-writing-when-hope-gets-flickery"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -463,7 +454,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
     }
   ]
 } as const;
@@ -493,7 +484,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -505,31 +496,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-          "item": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+          "item": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
       "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -545,11 +536,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#article",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind",
       "headline": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
       "alternativeHeadline": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
       "description": "Most writers don't panic because they \"don't know what they're doing.\" They panic because they've finally finished edits and then they have to hit submit on an entire, fragile bucket of hope.",
@@ -579,40 +570,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage"
       },
+      "datePublished": "2027-04-14",
+      "dateModified": "2027-04-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+          "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
         },
         {
           "@type": "WebPage",
           "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-          "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         },
         {
           "@type": "WebPage",
           "name": "How to clear the slush pile early-threshold so literary agents keep reading",
-          "url": "https://writequeryhook.com/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
         },
         {
           "@type": "WebPage",
           "name": "How to stop comparing your writing (and get back to drafting)",
-          "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
         },
         {
           "@type": "WebPage",
-          "name": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-          "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
+          "name": "Hope and Action for Authors FAQ: keep writing when hope gets flickery",
+          "url": "https://writequeryhook.com/blog/hope-and-action-for-authors-faq-keep-writing-when-hope-gets-flickery"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_hero_dread_ledge_blog_hero_landscape_928f13e215ca.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_353/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind/blog/blog_hero_dread_ledge_blog_hero_landscape_928f13e215ca.jpeg?updatedAt=1781809861644",
       "width": 2728,
       "height": 1830,
       "caption": "blog hero \u00b7 dread ledge",
@@ -627,7 +620,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#howto",
       "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
       "description": "Most writers don't panic because they \"don't know what they're doing.\" They panic because they've finally finished edits and then they have to hit submit on an entire, fragile bucket of hope.",
       "totalTime": "PT7M",
@@ -637,49 +630,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your readiness contract (edits first, querying second)",
           "text": "Before you touch agents, write down your readiness contract in plain language. Not \"I feel ready.\" Feelings lie. You need criteria.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-1-define-your-readiness-contract-edits-first-querying-second"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-1-define-your-readiness-contract-edits-first-querying-second"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build a real research stack (not just a folder) so you can organize querying research notes",
           "text": "Research doesn't have to be endless. It has to be usable.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-2-build-a-real-research-stack-not-just-a-folder-so-you-can-organize"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-2-build-a-real-research-stack-not-just-a-folder-so-you-can-organize"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Map your query targets to your manuscript (what agents look for in query inboxes)",
           "text": "Now you'll stop treating agents like a giant blur. You're going to map what agents look for in query inboxes to your manuscript's actual selling points.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-3-map-your-query-targets-to-your-manuscript-what-agents-look-for-in-query"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-3-map-your-query-targets-to-your-manuscript-what-agents-look-for-in-query"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Write the query pieces that prevent second-guessing (how to start querying after edits)",
           "text": "You're not writing a \"perfect\" query. You're writing a query that you can send without inventing new doubt mid-email.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-4-write-the-query-pieces-that-prevent-second-guessing-how-to-start"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-4-write-the-query-pieces-that-prevent-second-guessing-how-to-start"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Run the send cycle one submission at a time (querying + tracking + sanity)",
           "text": "Send your query in small rounds so the querying process from start to finish stays manageable.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-5-run-the-send-cycle-one-submission-at-a-time-querying-tracking-sanity"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-5-run-the-send-cycle-one-submission-at-a-time-querying-tracking-sanity"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Turn anxiety into signal with mini checks (how to reduce anxiety when querying)",
           "text": "When anxiety hits (it will), do a mini check:",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-6-turn-anxiety-into-signal-with-mini-checks-how-to-reduce-anxiety-when"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#step-6-turn-anxiety-into-signal-with-mini-checks-how-to-reduce-anxiety-when"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind#faq",
       "mainEntity": [
         {
           "@type": "Question",

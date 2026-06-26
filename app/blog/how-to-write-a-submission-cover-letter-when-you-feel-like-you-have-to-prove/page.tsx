@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a submission cover letter when you feel like you have to prove everything",
   "description": "You stare at the blank doc and your brain goes, Cool, great, love this. Now I have to justify why you should care.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-22",
+  "modifiedDate": "2026-08-22",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-submission-cover-letter-when-you-feel-like-you-have-to-prove",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -555,6 +555,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-submission-cover-letter-when-you-feel-like-you-have-to-prove#primaryimage"
       },
+      "datePublished": "2026-08-22",
+      "dateModified": "2026-08-22",
       "mentions": [
         {
           "@type": "WebPage",

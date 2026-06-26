@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
   "description": "You can DIY a lot of publishing. You can also accidentally DIY the part that makes readers judge your book in seconds.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
+  "publishedDate": "2027-08-31",
+  "modifiedDate": "2027-08-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_hero_dread_fear_blog_hero_landscape_2f2d166c63fe.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_hero_dread_fear_blog_hero_landscape_2f2d166c63fe.jpeg?updatedAt=1782319053340",
     "alt": "blog hero \u00b7 dread fear",
     "width": 3991,
     "height": 2661,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
+      "item": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
     }
   ],
   "tldrBlocks": [],
@@ -151,7 +151,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_panic_imposter_syndrome_blog_section_landscape_6b9f1b0a97f7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_panic_imposter_syndrome_blog_section_landscape_6b9f1b0a97f7.jpeg?updatedAt=1782319053831",
         "alt": "Hire a cover designer when readability is harder than you think",
         "width": 3500,
         "height": 2333,
@@ -205,7 +205,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_eye_roll_sameness_blog_section_landscape_eddd0663e056.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_eye_roll_sameness_blog_section_landscape_eddd0663e056.gif?updatedAt=1782319054456",
         "alt": "Avoid premade book covers when you want to stand out",
         "width": 200,
         "height": 200,
@@ -270,13 +270,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_overwhelm_confusion_blog_section_landscape_3addd3107506.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_overwhelm_confusion_blog_section_landscape_3addd3107506.gif",
         "alt": "Understand typesetting vs book formatting before you order anything",
-        "width": 5652,
-        "height": 3768,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "myemotionalsupportanimal",
+        "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-thinking-loading-processing-rXYUKVOFOemfgG7gaR",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -322,32 +322,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_section_image_next_step_open_the_doc_blog_section_landscape_ebb78ba790b6.gif",
-    "alt": "blog section image \u00b7 next step open the doc",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-      "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
     },
     {
       "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
-      "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     },
     {
       "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     },
     {
-      "title": "How to build a rocking author media kit (a 7-step template)",
-      "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -382,7 +373,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Get your submission priorities wrong, and the agent will never forgive you",
-      "url": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     }
   ]
 } as const;
@@ -412,7 +403,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -424,31 +415,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
+          "item": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
       "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -464,11 +455,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without",
       "headline": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
       "alternativeHeadline": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
       "description": "You can DIY a lot of publishing. You can also accidentally DIY the part that makes readers judge your book in seconds.",
@@ -498,40 +489,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage"
       },
+      "datePublished": "2027-08-31",
+      "dateModified": "2027-08-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Get your submission priorities wrong, and the agent will never forgive you",
-          "url": "https://writequeryhook.com/query-letters/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+          "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-          "url": "https://writequeryhook.com/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book-without-wrecking-your-rights"
+          "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-          "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+          "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+          "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         },
         {
           "@type": "WebPage",
-          "name": "How to build a rocking author media kit (a 7-step template)",
-          "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+          "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
+          "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_hero_dread_fear_blog_hero_landscape_2f2d166c63fe.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_523/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without/blog/blog_hero_dread_fear_blog_hero_landscape_2f2d166c63fe.jpeg?updatedAt=1782319053340",
       "width": 3991,
       "height": 2661,
       "caption": "blog hero \u00b7 dread fear",
@@ -546,7 +539,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Successful Query Letters FAQ (three-paragraph structure, stakes, and a bio that fits)",
   "description": "Writers keep asking the same questions about the query itself: what actually goes in it, how much plot is too much, and whether your pitch is clear without turning into a book-length synopsis. This FAQ is for the moment you're staring at a blank doc and thinking the letter has to do everything at once\u2014protagonist, conflict, stakes, voice, and your entire life story.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-03",
+  "modifiedDate": "2026-08-03",
   "canonicalUrl": "https://writequeryhook.com/blog/successful-query-letters-faq-three-paragraph-structure-stakes-and-a-bio-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -442,6 +442,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/successful-query-letters-faq-three-paragraph-structure-stakes-and-a-bio-that#primaryimage"
       },
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
       "mentions": [
         {
           "@type": "WebPage",

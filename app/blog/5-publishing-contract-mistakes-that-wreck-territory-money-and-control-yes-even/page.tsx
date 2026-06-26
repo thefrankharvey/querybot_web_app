@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
   "description": "A lot of generic advice treats publishing contracts like a single idea: \"exclusive is good, right?\" Here's the contrarian truth: exclusive can still come with open-market pieces, and you can accidentally sign away how widely (and by whom) your book gets distributed.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
+  "publishedDate": "2027-06-21",
+  "modifiedDate": "2027-06-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_hero_blank_page_contracts_blog_hero_landscape_bdb772704a08.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_hero_blank_page_contracts_blog_hero_landscape_bdb772704a08.jpeg?updatedAt=1782228708816",
     "alt": "blog hero \u00b7 blank-page contracts",
     "width": 6241,
     "height": 4161,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-      "item": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+      "item": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
     }
   ],
   "tldrBlocks": [],
@@ -115,13 +115,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_opening_blog_section_landscape_0adb92cf0720.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_opening_blog_section_landscape_0adb92cf0720.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -165,7 +165,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_territory_map_blog_section_landscape_2480ef2fa876.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_territory_map_blog_section_landscape_2480ef2fa876.gif?updatedAt=1782228710571",
         "alt": "1. You're confusing territory with \"exclusive\"",
         "width": 200,
         "height": 200,
@@ -393,43 +393,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_recap_blog_section_landscape_c72f7723b225.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_recap_blog_section_landscape_c72f7723b225.jpeg",
         "alt": "Recap",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_section_image_fix_checklist_blog_section_landscape_9e1fbfc7654b.jpeg",
-    "alt": "blog section image \u00b7 fix checklist",
-    "width": 7950,
-    "height": 4472,
-    "creator": "Jakub Zerdzicki",
-    "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-      "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
     },
     {
       "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     },
     {
       "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     },
     {
-      "title": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-      "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+      "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -468,7 +459,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
     }
   ]
 } as const;
@@ -498,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -510,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-          "item": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+          "item": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
+      "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#webpage",
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
       "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -550,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#article",
+      "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#webpage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even",
       "headline": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
       "alternativeHeadline": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
       "description": "A lot of generic advice treats publishing contracts like a single idea: \"exclusive is good, right?\" Here's the contrarian truth: exclusive can still come with open-market pieces, and you can accidentally sign away how widely (and by whom) your book gets distributed.",
@@ -584,40 +575,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage"
       },
+      "datePublished": "2027-06-21",
+      "dateModified": "2027-06-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
-        },
-        {
-          "@type": "WebPage",
-          "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-          "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+          "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         },
         {
           "@type": "WebPage",
           "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
         },
         {
           "@type": "WebPage",
-          "name": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-          "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+          "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+          "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_hero_blank_page_contracts_blog_hero_landscape_bdb772704a08.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even/blog/blog_hero_blank_page_contracts_blog_hero_landscape_bdb772704a08.jpeg?updatedAt=1782228708816",
       "width": 6241,
       "height": 4161,
       "caption": "blog hero \u00b7 blank-page contracts",
@@ -632,7 +620,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#faq",
+      "@id": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even#faq",
       "mainEntity": [
         {
           "@type": "Question",

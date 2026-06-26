@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down a killer one sentence pitch logline: novel vs memoir (with a usable backbone)",
   "description": "A one sentence pitch\u2014aka a logline\u2014is supposed to be simple. That's the lie that makes writers panic.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-03",
+  "modifiedDate": "2026-08-03",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-a-killer-one-sentence-pitch-logline-novel-vs-memoir-with-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -837,6 +837,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-a-killer-one-sentence-pitch-logline-novel-vs-memoir-with-a#primaryimage"
       },
+      "datePublished": "2026-08-03",
+      "dateModified": "2026-08-03",
       "mentions": [
         {
           "@type": "WebPage",

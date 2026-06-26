@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query letter format faq",
   "description": "You're writing a query email, not a newsletter, not a graphic design portfolio, and definitely not a science project. Most of the \"do they like my work?\" signal gets buried when the email itself looks messy: odd fonts, weird spacing, attachments nobody asked for, or a subject line that reads like a marketing blast.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-12",
+  "modifiedDate": "2026-07-12",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-format-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -446,6 +446,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-format-faq#primaryimage"
       },
+      "datePublished": "2026-07-12",
+      "dateModified": "2026-07-12",
       "mentions": [
         {
           "@type": "WebPage",

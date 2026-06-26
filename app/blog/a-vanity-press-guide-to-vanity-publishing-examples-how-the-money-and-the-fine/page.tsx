@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
   "description": "If you've ever gotten a polished email that starts with \"congratulations\" and ends with a number that looks like a car down payment, you're not imagining the weirdness. The publishing world can describe the same basic service in wildly different ways: publishing, production support, marketing partnerships, distribution. The words sound close enough to make your brain reach for pattern-matching\u2014and that's exactly where a lot of people get trapped.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
+  "publishedDate": "2027-07-29",
+  "modifiedDate": "2027-07-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_hero_confusion_dread_blog_hero_landscape_af6f4227e093.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_hero_confusion_dread_blog_hero_landscape_af6f4227e093.jpeg?updatedAt=1782267246805",
     "alt": "blog hero \u00b7 confusion dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-      "item": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
+      "item": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
     }
   ],
   "tldrBlocks": [],
@@ -112,7 +112,7 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_b03e2d04f87e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_b03e2d04f87e.gif?updatedAt=1782267247658",
         "alt": "Body \u2014 structural breakdown",
         "width": 279,
         "height": 200,
@@ -460,13 +460,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_labels_risk_shifting_blog_section_landscape_2a1865a30e47.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_labels_risk_shifting_blog_section_landscape_2a1865a30e47.gif",
         "alt": "Hybrid publisher vs vanity press differences (gray labels, shifted risk)",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Lincoln Vandegriff",
-        "creatorUrl": "https://www.pexels.com/@astrovan",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -497,7 +497,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_lessons_takeaways_blog_section_landscape_07ac20167b5c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_lessons_takeaways_blog_section_landscape_07ac20167b5c.jpeg?updatedAt=1782267250569",
         "alt": "Lessons / Takeaways",
         "width": 4752,
         "height": 3168,
@@ -508,32 +508,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_section_image_resolve_control_blog_section_landscape_2bbd1cf672ed.gif",
-    "alt": "blog section image \u00b7 resolve control",
-    "width": 298,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
     },
     {
       "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-      "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+      "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
     },
     {
       "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-      "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     },
     {
-      "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-      "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
+      "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -548,12 +539,7 @@ const PAGE_DATA = {
       "text": "If you're staring at an agreement right now, start by finding the part that explains who pays, what's included, and what rights you give up. Then turn the page."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What IP Publishing Really Means (and how to study it through examples)",
-      "url": "https://writequeryhook.com/query-letters/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -581,7 +567,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -593,31 +579,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-          "item": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
+          "item": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
+      "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#webpage",
+      "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
       "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -633,11 +619,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#article",
+      "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#webpage"
+        "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine",
       "headline": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
       "alternativeHeadline": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
       "description": "If you've ever gotten a polished email that starts with \"congratulations\" and ends with a number that looks like a car down payment, you're not imagining the weirdness. The publishing world can describe the same basic service in wildly different ways: publishing, production support, marketing partnerships, distribution. The words sound close enough to make your brain reach for pattern-matching\u2014and that's exactly where a lot of people get trapped.",
@@ -667,40 +653,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage"
       },
+      "datePublished": "2027-07-29",
+      "dateModified": "2027-07-29",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What IP Publishing Really Means (and how to study it through examples)",
-          "url": "https://writequeryhook.com/query-letters/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
-        },
-        {
-          "@type": "WebPage",
           "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade-picture-books-and-memoir"
+          "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
         },
         {
           "@type": "WebPage",
           "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-          "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+          "url": "https://writequeryhook.com/blog/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and"
         },
         {
           "@type": "WebPage",
           "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-          "url": "https://writequeryhook.com/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
-          "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-          "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
+          "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
+          "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_hero_confusion_dread_blog_hero_landscape_af6f4227e093.jpeg",
+      "@id": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_486/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine/blog/blog_hero_confusion_dread_blog_hero_landscape_af6f4227e093.jpeg?updatedAt=1782267246805",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",

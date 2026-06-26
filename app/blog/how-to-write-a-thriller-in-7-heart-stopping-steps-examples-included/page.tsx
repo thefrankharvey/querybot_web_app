@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Thriller in 7 Heart-Stopping Steps (Examples Included)",
   "description": "A lot of \u201cthriller advice\u201d online sounds like it\u2019s trying to sell you a vibe: be darker, add more danger, sprinkle twists like confetti. That\u2019s how you end up with a book that feels busy instead of building pressure.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-23",
+  "modifiedDate": "2026-12-23",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-thriller-in-7-heart-stopping-steps-examples-included",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -955,6 +955,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-thriller-in-7-heart-stopping-steps-examples-included#primaryimage"
       },
+      "datePublished": "2026-12-23",
+      "dateModified": "2026-12-23",
       "mentions": [
         {
           "@type": "WebPage",

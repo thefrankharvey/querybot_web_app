@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
   "description": "You sign a contract, and your brain does the obvious math: \"Cool. After acquisitions, the book should hit shelves soon.\" Then\u2014surprise\u2014time passes. A lot of it.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
+  "publishedDate": "2027-10-03",
+  "modifiedDate": "2027-10-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_hero_contract_confusion_blog_hero_landscape_43707e8d7a49.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_hero_contract_confusion_blog_hero_landscape_43707e8d7a49.jpeg",
     "alt": "blog hero \u00b7 contract confusion",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 7008,
+    "height": 4672,
+    "creator": "Will Oliveira",
+    "creatorUrl": "https://www.pexels.com/@willfotografia",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "item": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
+      "item": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     }
   ],
   "tldrBlocks": [],
@@ -188,7 +188,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_release_date_scheduling_blog_section_landscape_c1bb91b6a1ef.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_release_date_scheduling_blog_section_landscape_c1bb91b6a1ef.gif?updatedAt=1782339619424",
         "alt": "Step 3: Decide the release window\u2014use the publishing calendar's spans, then plan for exceptions",
         "width": 245,
         "height": 200,
@@ -321,13 +321,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_marketing_publicity_blog_section_landscape_d674235a86cd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_marketing_publicity_blog_section_landscape_d674235a86cd.gif",
         "alt": "Step 6: Run publicity, marketing, and sales in parallel\u2014before anyone gets to on-sale",
-        "width": 5405,
-        "height": 3603,
-        "creator": "Derek Tsai",
-        "creatorUrl": "https://www.pexels.com/@derek-tsai-1335749494",
-        "provider": "pexels",
+        "width": 160,
+        "height": 200,
+        "creator": "mintwatermarketing",
+        "creatorUrl": "https://giphy.com/gifs/mintwatermarketing-gijs-personal-brand-gijsdellemijn-PQWlDARxJ7i9Nk8NC4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -367,7 +367,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_on_sale_momentum_blog_section_landscape_fbe82182c374.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_on_sale_momentum_blog_section_landscape_fbe82182c374.jpeg?updatedAt=1782339620348",
         "alt": "Step 7: Land on-sale day\u2014and keep excitement alive until it's earned",
         "width": 5846,
         "height": 3897,
@@ -378,32 +378,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_section_image_action_start_now_blog_section_landscape_6d1602274095.jpeg",
-    "alt": "blog section image \u00b7 action start now",
-    "width": 5746,
-    "height": 3831,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     },
     {
       "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-      "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+      "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
     },
     {
       "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-      "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
+      "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
     },
     {
-      "title": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-      "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+      "title": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -438,7 +429,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     }
   ]
 } as const;
@@ -468,7 +459,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -480,31 +471,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "item": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
+          "item": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#webpage",
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
       "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -520,11 +511,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#article",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#webpage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline",
       "headline": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
       "alternativeHeadline": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
       "description": "You sign a contract, and your brain does the obvious math: \"Cool. After acquisitions, the book should hit shelves soon.\" Then\u2014surprise\u2014time passes. A lot of it.",
@@ -554,55 +545,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage"
       },
+      "datePublished": "2027-10-03",
+      "dateModified": "2027-10-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "url": "https://writequeryhook.com/query-letters/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
         },
         {
           "@type": "WebPage",
           "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-          "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
         },
         {
           "@type": "WebPage",
           "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-          "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
+          "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
         },
         {
           "@type": "WebPage",
-          "name": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-          "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+          "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_hero_contract_confusion_blog_hero_landscape_43707e8d7a49.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_562/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline/blog/blog_hero_contract_confusion_blog_hero_landscape_43707e8d7a49.jpeg",
+      "width": 7008,
+      "height": 4672,
       "caption": "blog hero \u00b7 contract confusion",
-      "creditText": "dazn",
+      "creditText": "Will Oliveira",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Will Oliveira",
+        "url": "https://www.pexels.com/@willfotografia"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#howto",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#howto",
       "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
       "description": "You sign a contract, and your brain does the obvious math: \"Cool. After acquisitions, the book should hit shelves soon.\" Then\u2014surprise\u2014time passes. A lot of it.",
       "totalTime": "PT8M",
@@ -612,56 +600,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Contract is acquisition\u2014now the clock starts, not the book-in-a-box fantasy",
           "text": "Acquisition is the green light, but it's also when the real logistics start. Immediately after, the team turns the agreement into a schedule: editing work windows, production timing, and marketing/publicity planning all get slotted into the calendar.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-1-contract-is-acquisition-now-the-clock-starts-not-the-book-in-a-box"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-1-contract-is-acquisition-now-the-clock-starts-not-the-book-in-a-box"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Editing starts with a close read\u2014and doesn't stop after one round",
           "text": "After a book is under contract, the editing phase typically looks like a close, comprehensive read plus detailed notes. You'll usually see both line-level changes and broader guidance on structure, pacing, character, clarity\u2014whatever the manuscript needs.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-2-editing-starts-with-a-close-read-and-doesn-t-stop-after-one-round"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-2-editing-starts-with-a-close-read-and-doesn-t-stop-after-one-round"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Decide the release window\u2014use the publishing calendar's spans, then plan for exceptions",
           "text": "Publication dates aren't picked by whim. Publishers choose timing by looking at the seasonal spans in the publishing calendar\u2014spring, summer, fall\u2014and figuring out what tends to perform in each period.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-3-decide-the-release-window-use-the-publishing-calendar-s-spans-then-plan"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-3-decide-the-release-window-use-the-publishing-calendar-s-spans-then-plan"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Run the launch meeting\u2014clarify launch meeting roles in book publishing",
           "text": "At some point, teams hold a launch meeting to align sales, marketing, publicity, and editorial goals. This is where everyone stops operating in silos.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-4-run-the-launch-meeting-clarify-launch-meeting-roles-in-book-publishing"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-4-run-the-launch-meeting-clarify-launch-meeting-roles-in-book-publishing"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Send the book into production\u2014cover/jacket options, interior layout, proofing, approvals",
           "text": "Once revisions are close, the manuscript moves into production. This stage includes copy-editing, multiple rounds of proofing, and interior design. It also includes repeated decision-making around the cover jacket process and author approval.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-5-send-the-book-into-production-cover-jacket-options-interior-layout"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-5-send-the-book-into-production-cover-jacket-options-interior-layout"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Run publicity, marketing, and sales in parallel\u2014before anyone gets to on-sale",
           "text": "While production is happening, marketing and publicity run in parallel to the clock.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-6-run-publicity-marketing-and-sales-in-parallel-before-anyone-gets-to-on"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-6-run-publicity-marketing-and-sales-in-parallel-before-anyone-gets-to-on"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Land on-sale day\u2014and keep excitement alive until it's earned",
           "text": "On-sale day is the finish line people imagine, but it's more like the moment the planning starts paying off in public. Retailers start moving copies, readers start discovering the book, and the campaign has to sustain that reader excitement through release.",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-7-land-on-sale-day-and-keep-excitement-alive-until-it-s-earned"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#step-7-land-on-sale-day-and-keep-excitement-alive-until-it-s-earned"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#faq",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
   "description": "An offer of representation does something rude to your brain. It turns \"I will be professional\" into \"I am going to accept immediately because what if I lose this??\" Even intermediate writers\u2014people who've done the query grind, who've survived request emails\u2014can feel their hands move before their thoughts catch up.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
+  "publishedDate": "2027-05-01",
+  "modifiedDate": "2027-05-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_hero_offer_panic_adrenaline_blog_hero_landscape_7b70bff5d386.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_hero_offer_panic_adrenaline_blog_hero_landscape_7b70bff5d386.jpeg?updatedAt=1782059449920",
     "alt": "blog hero \u00b7 offer panic adrenaline",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "item": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
+      "item": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     }
   ],
   "tldrBlocks": [],
@@ -77,7 +77,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_tldr_blog_section_landscape_c138b1b05a42.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_tldr_blog_section_landscape_c138b1b05a42.jpeg?updatedAt=1782059450371",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -405,7 +405,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_980483c06ad7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_980483c06ad7.gif?updatedAt=1782059450958",
         "alt": "Body \u2014 Structural breakdown",
         "width": 296,
         "height": 200,
@@ -434,7 +434,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_lessons_takeaways_blog_section_landscape_c8c2db0260e3.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_lessons_takeaways_blog_section_landscape_c8c2db0260e3.gif?updatedAt=1782059451834",
         "alt": "Lessons / Takeaways",
         "width": 246,
         "height": 200,
@@ -445,32 +445,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_section_image_send_the_email_review_notes_blog_section_landscape_bffc80493683.jpeg",
-    "alt": "blog section image \u00b7 send the email review notes",
-    "width": 5092,
-    "height": 3700,
-    "creator": "Walls.io",
-    "creatorUrl": "https://www.pexels.com/@walls-io-440716388",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-      "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+      "title": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
     },
     {
-      "title": "What happened after a big book deal when benefits vanished\u2014and how writing income made life solvable",
-      "url": "https://writequeryhook.com/what-happened-after-a-big-book-deal-when-benefits-vanished-and-how-writing-income-made-life-solvable"
+      "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     },
     {
-      "title": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-      "url": "https://writequeryhook.com/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me-about-publisher-support"
+      "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     },
     {
-      "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "title": "8 steps to a book launch that actually sells",
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -505,7 +496,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "url": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     }
   ]
 } as const;
@@ -535,7 +526,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -547,31 +538,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "item": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
+          "item": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
+      "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#webpage",
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
       "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -587,11 +578,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#article",
+      "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#webpage"
+        "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right",
       "headline": "How a writer should handle an offer of representation: a breakdown of the right moves",
       "alternativeHeadline": "How a writer should handle an offer of representation: a breakdown of the right moves",
       "description": "An offer of representation does something rude to your brain. It turns \"I will be professional\" into \"I am going to accept immediately because what if I lose this??\" Even intermediate writers\u2014people who've done the query grind, who've survived request emails\u2014can feel their hands move before their thoughts catch up.",
@@ -621,40 +612,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage"
       },
+      "datePublished": "2027-05-01",
+      "dateModified": "2027-05-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "url": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         },
         {
           "@type": "WebPage",
-          "name": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-          "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+          "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "What happened after a big book deal when benefits vanished\u2014and how writing income made life solvable",
-          "url": "https://writequeryhook.com/what-happened-after-a-big-book-deal-when-benefits-vanished-and-how-writing-income-made-life-solvable"
+          "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+          "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         },
         {
           "@type": "WebPage",
-          "name": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-          "url": "https://writequeryhook.com/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me-about-publisher-support"
+          "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
+          "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
         },
         {
           "@type": "WebPage",
-          "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "name": "8 steps to a book launch that actually sells",
+          "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_hero_offer_panic_adrenaline_blog_hero_landscape_7b70bff5d386.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right/blog/blog_hero_offer_panic_adrenaline_blog_hero_landscape_7b70bff5d386.jpeg?updatedAt=1782059449920",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 offer panic adrenaline",
@@ -669,7 +662,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#faq",
+      "@id": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right#faq",
       "mainEntity": [
         {
           "@type": "Question",

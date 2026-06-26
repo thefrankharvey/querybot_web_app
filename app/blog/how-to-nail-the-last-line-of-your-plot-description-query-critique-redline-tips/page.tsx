@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to nail the last line of your plot description (query critique redline tips)",
   "description": "You already wrote a plot description. You probably even made it clean. And yet it still lands like a shrug: a generic wrap-up that fizzes out instead of driving.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-07",
+  "modifiedDate": "2026-07-07",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-nail-the-last-line-of-your-plot-description-query-critique-redline-tips",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -566,6 +566,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-nail-the-last-line-of-your-plot-description-query-critique-redline-tips#primaryimage"
       },
+      "datePublished": "2026-07-07",
+      "dateModified": "2026-07-07",
       "mentions": [
         {
           "@type": "WebPage",

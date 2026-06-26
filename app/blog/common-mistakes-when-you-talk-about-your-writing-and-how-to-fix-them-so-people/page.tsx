@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
   "description": "People don't stop listening because your book is \"not interesting.\" They stop listening because your answer feels like a presentation slide with lungs.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
+  "publishedDate": "2027-10-10",
+  "modifiedDate": "2027-10-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+      "item": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
     }
   ],
   "tldrBlocks": [],
@@ -470,19 +470,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-      "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     },
     {
       "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     },
     {
       "title": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     },
     {
       "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -496,7 +496,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-      "url": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     }
   ]
 } as const;
@@ -526,7 +526,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -538,31 +538,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+          "item": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
       "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -578,11 +578,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people",
       "headline": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
       "alternativeHeadline": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
       "description": "People don't stop listening because your book is \"not interesting.\" They stop listening because your answer feels like a presentation slide with lungs.",
@@ -612,39 +612,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage"
       },
+      "datePublished": "2027-10-10",
+      "dateModified": "2027-10-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-          "url": "https://writequeryhook.com/query-letters/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-          "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+          "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+          "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         },
         {
           "@type": "WebPage",
           "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+          "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
         },
         {
           "@type": "WebPage",
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_568/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people/blog/blog_hero_annoyance_recognition_blog_hero_landscape_4f1a56a609d2.png",
       "width": 7168,
       "height": 4500,

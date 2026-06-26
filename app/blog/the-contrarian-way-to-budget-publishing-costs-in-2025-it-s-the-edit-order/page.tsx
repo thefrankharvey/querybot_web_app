@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
   "description": "Most authors don't underestimate the total cost to publish in 2025 because they can't find price lists.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
+  "publishedDate": "2027-07-25",
+  "modifiedDate": "2027-07-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_hero_recognition_spreadsheet_dread_blog_hero_landscape_6996ee70f2fc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_hero_recognition_spreadsheet_dread_blog_hero_landscape_6996ee70f2fc.jpeg?updatedAt=1782264209954",
     "alt": "blog hero \u00b7 recognition spreadsheet dread",
     "width": 6143,
     "height": 4095,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-      "item": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+      "item": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
     }
   ],
   "tldrBlocks": [],
@@ -103,7 +103,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_tldr_blog_section_landscape_fe47604a82ce.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_tldr_blog_section_landscape_fe47604a82ce.gif?updatedAt=1782264210965",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -174,13 +174,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_rage_gatekeeping_energy_blog_section_landscape_09e594cfbad4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_rage_gatekeeping_energy_blog_section_landscape_09e594cfbad4.jpeg",
         "alt": "The cost map that ruins budgets",
-        "width": 152,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-        "provider": "giphy",
+        "width": 6734,
+        "height": 4450,
+        "creator": "Andrea Piacquadio",
+        "creatorUrl": "https://www.pexels.com/@olly",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -285,13 +285,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_dread_editor_hunt_blog_section_landscape_8ff0c1276c54.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_dread_editor_hunt_blog_section_landscape_8ff0c1276c54.gif",
         "alt": "Self publishing editing costs by type and order",
-        "width": 3875,
-        "height": 2848,
-        "creator": "Alexandro David",
-        "creatorUrl": "https://www.pexels.com/@alexandro-david-871783",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "pennydreadful",
+        "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -438,32 +438,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_85af745a614d.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "3 things to know when hiring a pro for your writing",
-      "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     },
     {
       "title": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     },
     {
       "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     },
     {
-      "title": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-      "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+      "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -506,7 +497,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "3 things to know when hiring a pro for your writing",
-      "url": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing"
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     }
   ]
 } as const;
@@ -536,7 +527,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -548,31 +539,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-          "item": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+          "item": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
+      "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#webpage",
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
       "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -588,11 +579,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#article",
+      "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#webpage"
+        "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order",
       "headline": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
       "alternativeHeadline": "The contrarian way to budget publishing costs in 2025 (it\u2019s the edit order)",
       "description": "Most authors don't underestimate the total cost to publish in 2025 because they can't find price lists.",
@@ -622,40 +613,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage"
       },
+      "datePublished": "2027-07-25",
+      "dateModified": "2027-07-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "3 things to know when hiring a pro for your writing",
-          "url": "https://writequeryhook.com/query-letters/3-things-to-know-when-hiring-a-pro-for-your-writing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "3 things to know when hiring a pro for your writing",
-          "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+          "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
         },
         {
           "@type": "WebPage",
           "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+          "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         },
         {
           "@type": "WebPage",
           "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
+          "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
         },
         {
           "@type": "WebPage",
-          "name": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-          "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+          "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_hero_recognition_spreadsheet_dread_blog_hero_landscape_6996ee70f2fc.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_481/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order/blog/blog_hero_recognition_spreadsheet_dread_blog_hero_landscape_6996ee70f2fc.jpeg?updatedAt=1782264209954",
       "width": 6143,
       "height": 4095,
       "caption": "blog hero \u00b7 recognition spreadsheet dread",
@@ -670,7 +658,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#faq",
+      "@id": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
   "description": "Every year, the pressure machine demands the same thing: more output, more days, more grinding. Then your mind and body hit the wall\u2014burnout, a foggy head, the \"cursor blinking but nothing's happening\" feeling. That's when writers start panicking, because rest starts feeling like failure.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
+  "publishedDate": "2027-04-19",
+  "modifiedDate": "2027-04-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_hero_burnout_guilt_spiral_blog_hero_landscape_cf52a05a3daf.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_hero_burnout_guilt_spiral_blog_hero_landscape_cf52a05a3daf.jpeg",
     "alt": "blog hero \u00b7 burnout guilt spiral",
-    "width": 356,
-    "height": 200,
-    "creator": "glitchers",
-    "creatorUrl": "https://giphy.com/gifs/hypno-glitchers-game-8DguZ6zMuBM6YiHHFC",
-    "provider": "giphy",
+    "width": 6240,
+    "height": 4160,
+    "creator": "Nataliya Vaitkevich",
+    "creatorUrl": "https://www.pexels.com/@n-voitkevich",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-      "item": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+      "item": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_guilt_identity_blog_section_landscape_38851c32c0a4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_guilt_identity_blog_section_landscape_38851c32c0a4.jpeg?updatedAt=1781834010150",
         "alt": "Is it really okay not to write?",
         "width": 6064,
         "height": 4042,
@@ -209,13 +209,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_fear_impostor_feelings_blog_section_landscape_04d8bdc74f0a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_fear_impostor_feelings_blog_section_landscape_04d8bdc74f0a.gif",
         "alt": "Do I have to write every day to be a real writer?",
-        "width": 7008,
-        "height": 4672,
-        "creator": "Nathan J Hilton",
-        "creatorUrl": "https://www.pexels.com/@nathanjhilton",
-        "provider": "pexels",
+        "width": 224,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/dumb-dummy-i-feel-KBaxHrT7rkeW5ma77z",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -259,7 +259,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_mind_wandering_meditation_blog_section_landscape_ff79ce7684b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_mind_wandering_meditation_blog_section_landscape_ff79ce7684b5.gif?updatedAt=1781834012631",
         "alt": "How can I stay creative during fallow periods?",
         "width": 112,
         "height": 200,
@@ -303,43 +303,29 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_section_image_permission_next_draft_blog_section_landscape_d1c8a37d9b0b.jpeg",
-    "alt": "blog section image \u00b7 permission next draft",
-    "width": 7360,
-    "height": 4912,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-      "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+      "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+      "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
     },
     {
-      "title": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-      "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+      "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+      "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
     },
     {
-      "title": "When should you nudge agents? 6 real-life examples tied to their own rules",
-      "url": "https://writequeryhook.com/when-should-you-nudge-agents-6-real-life-examples-tied-to-their-own-rules"
+      "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     },
     {
-      "title": "How to stop comparing your writing (and get back to drafting)",
-      "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+      "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     }
   ],
   "alsoLikeAfterIndex": 2,
   "faq": [],
   "closingBlocks": [],
-  "relatedLinks": [
-    {
-      "title": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-      "url": "https://writequeryhook.com/query-letters/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -367,7 +353,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -379,31 +365,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-          "item": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+          "item": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#webpage",
-      "url": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
+      "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#webpage",
+      "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
       "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage"
+        "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -419,11 +405,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#article",
+      "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#webpage"
+        "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write",
       "headline": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
       "alternativeHeadline": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
       "description": "Every year, the pressure machine demands the same thing: more output, more days, more grinding. Then your mind and body hit the wall\u2014burnout, a foggy head, the \"cursor blinking but nothing's happening\" feeling. That's when writers start panicking, because rest starts feeling like failure.",
@@ -453,48 +439,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage"
+        "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage"
       },
+      "datePublished": "2027-04-19",
+      "dateModified": "2027-04-19",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-          "url": "https://writequeryhook.com/query-letters/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+          "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+          "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
         },
         {
           "@type": "WebPage",
-          "name": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-          "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+          "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+          "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
         },
         {
           "@type": "WebPage",
-          "name": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-          "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+          "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
+          "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         },
         {
           "@type": "WebPage",
-          "name": "When should you nudge agents? 6 real-life examples tied to their own rules",
-          "url": "https://writequeryhook.com/when-should-you-nudge-agents-6-real-life-examples-tied-to-their-own-rules"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to stop comparing your writing (and get back to drafting)",
-          "url": "https://writequeryhook.com/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+          "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
+          "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_hero_burnout_guilt_spiral_blog_hero_landscape_cf52a05a3daf.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_361/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write/blog/blog_hero_burnout_guilt_spiral_blog_hero_landscape_cf52a05a3daf.jpeg",
+      "width": 6240,
+      "height": 4160,
       "caption": "blog hero \u00b7 burnout guilt spiral",
-      "creditText": "glitchers",
+      "creditText": "Nataliya Vaitkevich",
       "author": {
         "@type": "Person",
-        "name": "glitchers",
-        "url": "https://giphy.com/gifs/hypno-glitchers-game-8DguZ6zMuBM6YiHHFC"
+        "name": "Nataliya Vaitkevich",
+        "url": "https://www.pexels.com/@n-voitkevich"
       },
       "@context": "https://schema.org"
     }

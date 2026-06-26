@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a YA Verse Query Letter That Proves Stakes and Voice",
   "description": "Most query letters die in one of two ways: they're either generic (\"YA verse about healing!\") or they're mysteriously vague about what happens on the page.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-17",
+  "modifiedDate": "2026-07-17",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-ya-verse-query-letter-that-proves-stakes-and-voice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -629,6 +629,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-ya-verse-query-letter-that-proves-stakes-and-voice#primaryimage"
       },
+      "datePublished": "2026-07-17",
+      "dateModified": "2026-07-17",
       "mentions": [
         {
           "@type": "WebPage",

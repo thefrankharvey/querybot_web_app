@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Worldbuilding Without the Info-Dump Trap: How to Build a Fantasy Setting That Stays Coherent While You Draft",
   "description": "I once watched a fantasy draft die in slow motion, and it wasn't because the author couldn't invent cool stuff.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-08",
+  "modifiedDate": "2026-10-08",
   "canonicalUrl": "https://writequeryhook.com/blog/worldbuilding-without-the-info-dump-trap-how-to-build-a-fantasy-setting-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -871,6 +871,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/worldbuilding-without-the-info-dump-trap-how-to-build-a-fantasy-setting-that#primaryimage"
       },
+      "datePublished": "2026-10-08",
+      "dateModified": "2026-10-08",
       "mentions": [
         {
           "@type": "WebPage",

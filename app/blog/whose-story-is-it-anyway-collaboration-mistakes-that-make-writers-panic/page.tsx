@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Whose Story Is It Anyway? Collaboration Mistakes That Make Writers Panic",
   "description": "A lot of writers hear \"collaboration\" and immediately picture the worst-case scenario: someone else making choices inside their story until it stops feeling like theirs. That fear shows up fast\u2014in how we treat notes, in how we revise, and in how we act (or freeze) when an editor or an illustrator enters the room.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-20",
+  "modifiedDate": "2026-12-20",
   "canonicalUrl": "https://writequeryhook.com/blog/whose-story-is-it-anyway-collaboration-mistakes-that-make-writers-panic",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/whose-story-is-it-anyway-collaboration-mistakes-that-make-writers-panic#primaryimage"
       },
+      "datePublished": "2026-12-20",
+      "dateModified": "2026-12-20",
       "mentions": [
         {
           "@type": "WebPage",

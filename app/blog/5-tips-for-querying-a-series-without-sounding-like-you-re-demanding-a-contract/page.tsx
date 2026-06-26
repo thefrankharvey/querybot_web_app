@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for querying a series without sounding like you\u2019re demanding a contract on book one",
   "description": "Querying a series can feel like walking into a first date and immediately asking for wedding venue options. You\u2019re not wrong that there\u2019s chemistry. You\u2019re wrong about the timing. Publishers and agents don\u2019t want to bankroll a whole logistics circus before they even know the book works.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-27",
+  "modifiedDate": "2026-07-27",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-querying-a-series-without-sounding-like-you-re-demanding-a-contract",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -502,6 +502,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-querying-a-series-without-sounding-like-you-re-demanding-a-contract#primaryimage"
       },
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
       "mentions": [
         {
           "@type": "WebPage",

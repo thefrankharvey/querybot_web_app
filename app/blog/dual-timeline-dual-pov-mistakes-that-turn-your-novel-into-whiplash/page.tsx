@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dual timeline, dual POV mistakes that turn your novel into whiplash",
   "description": "Most writers think faster switching equals more excitement.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-14",
+  "modifiedDate": "2027-01-14",
   "canonicalUrl": "https://writequeryhook.com/blog/dual-timeline-dual-pov-mistakes-that-turn-your-novel-into-whiplash",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -640,6 +640,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dual-timeline-dual-pov-mistakes-that-turn-your-novel-into-whiplash#primaryimage"
       },
+      "datePublished": "2027-01-14",
+      "dateModified": "2027-01-14",
       "mentions": [
         {
           "@type": "WebPage",

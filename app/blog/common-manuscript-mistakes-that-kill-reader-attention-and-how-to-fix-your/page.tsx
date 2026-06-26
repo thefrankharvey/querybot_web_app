@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common manuscript mistakes that kill reader attention (and how to fix your desire line + deeper wish)",
   "description": "You can absolutely write a scene that \"works.\" The plot moves. The prose is fine. You even get through revision without setting the manuscript on fire.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-03",
+  "modifiedDate": "2027-01-03",
   "canonicalUrl": "https://writequeryhook.com/blog/common-manuscript-mistakes-that-kill-reader-attention-and-how-to-fix-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -640,6 +640,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-manuscript-mistakes-that-kill-reader-attention-and-how-to-fix-your#primaryimage"
       },
+      "datePublished": "2027-01-03",
+      "dateModified": "2027-01-03",
       "mentions": [
         {
           "@type": "WebPage",

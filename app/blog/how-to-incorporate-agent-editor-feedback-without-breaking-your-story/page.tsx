@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to incorporate agent/editor feedback without breaking your story",
   "description": "The email hits after the manuscript is \"done,\" and suddenly you're supposed to believe it needs\u2026 more. More clarity. More layers. More connection. More something. Cool. Love that for us.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
+  "publishedDate": "2027-05-24",
+  "modifiedDate": "2027-05-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_hero_rejection_after_submission_panic_blog_hero_landscape_f465cf2d3604.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_hero_rejection_after_submission_panic_blog_hero_landscape_f465cf2d3604.jpeg",
     "alt": "blog hero \u00b7 rejection after submission panic",
-    "width": 356,
-    "height": 200,
-    "creator": "iQiyiOfficial",
-    "creatorUrl": "https://giphy.com/gifs/iQiyiOfficial-anime-attackontitan-iqiyi-s3yvjYV2gf8T7zcUpQ",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "alleksana",
+    "creatorUrl": "https://www.pexels.com/@alleksana",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to incorporate agent/editor feedback without breaking your story",
-      "item": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+      "item": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     }
   ],
   "tldrBlocks": [],
@@ -156,7 +156,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_structure_anchor_blog_section_landscape_93ea1ee5f4d5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_structure_anchor_blog_section_landscape_93ea1ee5f4d5.gif?updatedAt=1782172736366",
         "alt": "Step 2: Map comments to what's working vs what's breaking",
         "width": 356,
         "height": 200,
@@ -203,13 +203,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_outline_thirty_thousand_foot_view_blog_section_landscape_2a0cb9f67bfb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_outline_thirty_thousand_foot_view_blog_section_landscape_2a0cb9f67bfb.gif",
         "alt": "Step 3: Revisit your outline after feedback",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Dimitar Dimitrov",
-        "creatorUrl": "https://www.pexels.com/@ddimitrovph",
-        "provider": "pexels",
+        "width": 156,
+        "height": 200,
+        "creator": "JasLOVEStomakegifs",
+        "creatorUrl": "https://giphy.com/gifs/thousand-yard-stare-1000-shell-shock-oaXRLIMnkGBnuQOBzE",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -369,7 +369,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_mentor_texts_clarity_blog_section_landscape_f4ec0f59ffb7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_mentor_texts_clarity_blog_section_landscape_f4ec0f59ffb7.jpeg?updatedAt=1782172737511",
         "alt": "Step 7: Read mentor texts for tone and execution when clarity won't come",
         "width": 3872,
         "height": 2592,
@@ -380,32 +380,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_section_image_next_draft_targeted_revisions_blog_section_landscape_34603498cd60.jpeg",
-    "alt": "blog section image \u00b7 next draft targeted revisions",
-    "width": 6322,
-    "height": 4215,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     },
     {
       "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     },
     {
       "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     },
     {
-      "title": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-      "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+      "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -444,7 +435,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     }
   ]
 } as const;
@@ -474,7 +465,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +477,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to incorporate agent/editor feedback without breaking your story",
-          "item": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+          "item": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
       "name": "How to incorporate agent/editor feedback without breaking your story",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +517,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#article",
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story",
       "headline": "How to incorporate agent/editor feedback without breaking your story",
       "alternativeHeadline": "How to incorporate agent/editor feedback without breaking your story",
       "description": "The email hits after the manuscript is \"done,\" and suddenly you're supposed to believe it needs\u2026 more. More clarity. More layers. More connection. More something. Cool. Love that for us.",
@@ -560,55 +551,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage"
       },
+      "datePublished": "2027-05-24",
+      "dateModified": "2027-05-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
+          "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         },
         {
           "@type": "WebPage",
           "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         },
         {
           "@type": "WebPage",
           "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
         },
         {
           "@type": "WebPage",
           "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         },
         {
           "@type": "WebPage",
-          "name": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-          "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+          "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_hero_rejection_after_submission_panic_blog_hero_landscape_f465cf2d3604.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/how-to-incorporate-agent-editor-feedback-without-breaking-your-story/blog/blog_hero_rejection_after_submission_panic_blog_hero_landscape_f465cf2d3604.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 rejection after submission panic",
-      "creditText": "iQiyiOfficial",
+      "creditText": "alleksana",
       "author": {
         "@type": "Person",
-        "name": "iQiyiOfficial",
-        "url": "https://giphy.com/gifs/iQiyiOfficial-anime-attackontitan-iqiyi-s3yvjYV2gf8T7zcUpQ"
+        "name": "alleksana",
+        "url": "https://www.pexels.com/@alleksana"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#howto",
       "name": "How to incorporate agent/editor feedback without breaking your story",
       "description": "The email hits after the manuscript is \"done,\" and suddenly you're supposed to believe it needs\u2026 more. More clarity. More layers. More connection. More something. Cool. Love that for us.",
       "totalTime": "PT7M",
@@ -618,56 +611,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Read every feedback passively first, take notes separately",
           "text": "Before you do anything that looks like writing, read the feedback straight through once. No editing yet. No \"fixing.\" Just absorb.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-1-read-every-feedback-passively-first-take-notes-separately"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-1-read-every-feedback-passively-first-take-notes-separately"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Map comments to what's working vs what's breaking",
           "text": "Now turn the notes into a diagnosis. Track which parts of the manuscript need revisions and which parts should stay instead of just collecting opinions.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-2-map-comments-to-what-s-working-vs-what-s-breaking"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-2-map-comments-to-what-s-working-vs-what-s-breaking"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Revisit your outline after feedback",
           "text": "If you touch the manuscript before the outline, you're driving with the dashboard lights off. Pull your working outline (chapter list or beat sheet). For each chapter, write two quick checks:",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-3-revisit-your-outline-after-feedback"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-3-revisit-your-outline-after-feedback"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Add layers to a completed novel using Act-based continuity",
           "text": "When feedback is basically \"the story needs more layers,\" treat it like a structural request, not a vibe request.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-4-add-layers-to-a-completed-novel-using-act-based-continuity"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-4-add-layers-to-a-completed-novel-using-act-based-continuity"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Fix a vague \"something missing\" comment by diagnosing predictability and character connection",
           "text": "Vague notes are the worst because your brain tries to answer with guesswork.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-5-fix-a-vague-something-missing-comment-by-diagnosing-predictability-and"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-5-fix-a-vague-something-missing-comment-by-diagnosing-predictability-and"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Brainstorm point-by-point solutions with continuity in mind",
           "text": "Once the diagnosis exists, brainstorm revisions like an editor, not like a desperate fan rewriting their favorite show.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-6-brainstorm-point-by-point-solutions-with-continuity-in-mind"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-6-brainstorm-point-by-point-solutions-with-continuity-in-mind"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Read mentor texts for tone and execution when clarity won't come",
           "text": "Sometimes you can diagnose and still not know what to do next. When that happens, take a break, then read recent mentor texts close to your story's genre, emotional temperature, and reader expectations.",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-7-read-mentor-texts-for-tone-and-execution-when-clarity-won-t-come"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#step-7-read-mentor-texts-for-tone-and-execution-when-clarity-won-t-come"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Deal With Writing Milestone Hangovers (So the Crash Doesn't Tell You You're Unworthy)",
   "description": "You just finished a draft. Or you heard \"yes.\" Or you watched a publication moment click over into real life.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-12",
+  "modifiedDate": "2027-02-12",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-deal-with-writing-milestone-hangovers-so-the-crash-doesn-t-tell-you-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -556,6 +556,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-deal-with-writing-milestone-hangovers-so-the-crash-doesn-t-tell-you-you#primaryimage"
       },
+      "datePublished": "2027-02-12",
+      "dateModified": "2027-02-12",
       "mentions": [
         {
           "@type": "WebPage",

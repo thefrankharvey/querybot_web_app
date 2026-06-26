@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
   "description": "If you've ever stared at a camera and thought, Cool, so I'm supposed to sell my book by talking to a lens, you're not alone. A lot of authors want a \"platform,\" but they don't know what to post, when to start, or how video turns into actual book marketing instead of awkward performance.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release",
+  "publishedDate": "2027-09-09",
+  "modifiedDate": "2027-09-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_3025063d492c.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_3025063d492c.jpeg?updatedAt=1782328859455",
     "alt": "blog hero \u00b7 blank-page dread recognition",
     "width": 4240,
     "height": 2832,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "item": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "item": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     }
   ],
   "tldrBlocks": [],
@@ -168,13 +168,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_deadline_anticipation_blog_section_landscape_2b6d748e417f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_deadline_anticipation_blog_section_landscape_2b6d748e417f.gif",
         "alt": "Step 2: Start video early so your audience builds familiarity before launch",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Towfiqu barbhuiya",
-        "creatorUrl": "https://www.pexels.com/@towfiqu-barbhuiya-3440682",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -227,7 +227,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_vulnerability_curiosity_blog_section_landscape_e9248c36fd9a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_vulnerability_curiosity_blog_section_landscape_e9248c36fd9a.jpeg?updatedAt=1782328860545",
         "alt": "Step 3: Show behind-the-scenes videos for authors that create curiosity without dumping the whole book",
         "width": 3008,
         "height": 2000,
@@ -357,7 +357,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_momentum_replies_blog_section_landscape_7728e29fdda0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_momentum_replies_blog_section_landscape_7728e29fdda0.gif?updatedAt=1782328861129",
         "alt": "Step 5: Pair video with an email list and social platform engagement from day one",
         "width": 355,
         "height": 200,
@@ -423,32 +423,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_section_image_done_now_first_recording_blog_section_landscape_78b2ba0da34d.gif",
-    "alt": "blog section image \u00b7 done-now first recording",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     },
     {
       "title": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     },
     {
       "title": "Always-already marketing: treating your book like a product from page one",
-      "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     },
     {
-      "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+      "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -462,7 +453,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     }
   ]
 } as const;
@@ -492,7 +483,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -504,31 +495,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "item": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "item": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release",
+      "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release",
       "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -544,11 +535,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#article",
+      "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release",
       "headline": "How to Use Video to Sell More Books (Before Launch, After Release)",
       "alternativeHeadline": "How to Use Video to Sell More Books (Before Launch, After Release)",
       "description": "If you've ever stared at a camera and thought, Cool, so I'm supposed to sell my book by talking to a lens, you're not alone. A lot of authors want a \"platform,\" but they don't know what to post, when to start, or how video turns into actual book marketing instead of awkward performance.",
@@ -578,40 +569,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage"
       },
+      "datePublished": "2027-09-09",
+      "dateModified": "2027-09-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
         },
         {
           "@type": "WebPage",
           "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         },
         {
           "@type": "WebPage",
           "name": "Always-already marketing: treating your book like a product from page one",
-          "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+          "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
         },
         {
           "@type": "WebPage",
-          "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+          "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
+          "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_3025063d492c.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-use-video-to-sell-more-books-before-launch-after-release/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_3025063d492c.jpeg?updatedAt=1782328859455",
       "width": 4240,
       "height": 2832,
       "caption": "blog hero \u00b7 blank-page dread recognition",
@@ -626,7 +614,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#howto",
       "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
       "description": "If you've ever stared at a camera and thought, Cool, so I'm supposed to sell my book by talking to a lens, you're not alone. A lot of authors want a \"platform,\" but they don't know what to post, when to start, or how video turns into actual book marketing instead of awkward performance.",
       "totalTime": "PT7M",
@@ -636,42 +624,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Pick one point of view and commit to it (so your author platform isn't random)",
           "text": "Before you film anything, decide what your author brand promise is. Not \"I write books.\" A sharper angle. Something you can repeat without feeling like a broken record.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-1-pick-one-point-of-view-and-commit-to-it-so-your-author-platform-isn-t"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-1-pick-one-point-of-view-and-commit-to-it-so-your-author-platform-isn-t"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Start video early so your audience builds familiarity before launch",
           "text": "Authors often sabotage themselves by waiting until the book is about to hit shelves, then trying to introduce themselves while also asking for money.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-2-start-video-early-so-your-audience-builds-familiarity-before-launch"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-2-start-video-early-so-your-audience-builds-familiarity-before-launch"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Show behind-the-scenes videos for authors that create curiosity without dumping the whole book",
           "text": "Behind the scenes videos for authors should show:",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-3-show-behind-the-scenes-videos-for-authors-that-create-curiosity-without"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-3-show-behind-the-scenes-videos-for-authors-that-create-curiosity-without"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build how to create a call to action in videos that fits the scene",
           "text": "How to create a call to action in videos means matching the CTA to the value you just gave, not slapping a generic \"link in bio\" at the end.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-4-build-how-to-create-a-call-to-action-in-videos-that-fits-the-scene"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-4-build-how-to-create-a-call-to-action-in-videos-that-fits-the-scene"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Pair video with an email list and social platform engagement from day one",
           "text": "Video alone gets attention. Video plus follow-through gets sales.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-5-pair-video-with-an-email-list-and-social-platform-engagement-from-day-one"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-5-pair-video-with-an-email-list-and-social-platform-engagement-from-day-one"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Keep making video after release to sustain support",
           "text": "Release week is a spike, not a finish line. If you stop filming the second the book goes live, you're letting the audience cool off.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release#step-6-keep-making-video-after-release-to-sustain-support"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release#step-6-keep-making-video-after-release-to-sustain-support"
         }
       ]
     }

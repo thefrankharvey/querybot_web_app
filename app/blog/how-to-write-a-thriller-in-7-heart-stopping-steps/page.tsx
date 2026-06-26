@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Thriller in 7 Heart-Stopping Steps",
   "description": "You can feel it when a thriller works: the pages don't wait for you to catch up. Something is happening\u2014then it gets worse, fast, and the protagonist keeps moving because stopping means losing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-15",
+  "modifiedDate": "2026-09-15",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-thriller-in-7-heart-stopping-steps",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -593,6 +593,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-thriller-in-7-heart-stopping-steps#primaryimage"
       },
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
       "mentions": [
         {
           "@type": "WebPage",

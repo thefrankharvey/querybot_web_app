@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The editor-proof cover letter: how to write a literary journal intro that doesn't hijack the manuscript",
   "description": "There's a specific kind of cover letter panic that hits writers right before they press send. Not \"will my manuscript be good enough?\" panic. The other one. The letter panic\u2014the part where your brain starts treating a literary journal like it's grading your charm, your LinkedIn, and your ability to perform confidence on demand.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-22",
+  "modifiedDate": "2026-08-22",
   "canonicalUrl": "https://writequeryhook.com/blog/the-editor-proof-cover-letter-how-to-write-a-literary-journal-intro-that-doesn",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -538,6 +538,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-editor-proof-cover-letter-how-to-write-a-literary-journal-intro-that-doesn#primaryimage"
       },
+      "datePublished": "2026-08-22",
+      "dateModified": "2026-08-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
   "description": "Most authors think the question \"Tell me about your book\" means they have to explain every detail, every twist, every research rabbit hole. So they either go vague\u2014\"It's kind of about\u2026\"\u2014or they ramble until their listener's eyes glaze over.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
+  "publishedDate": "2027-06-27",
+  "modifiedDate": "2027-06-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -18,7 +18,7 @@ const PAGE_DATA = {
   "keywords": [],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_hero_opening_blog_hero_landscape_8e55eb54076a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_hero_opening_blog_hero_landscape_8e55eb54076a.jpeg?updatedAt=1782234743637",
     "alt": "blog hero \u00b7 opening",
     "width": 6611,
     "height": 4407,
@@ -34,11 +34,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
+      "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     }
   ],
   "tldrBlocks": [],
@@ -137,13 +137,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_2_add_interest_without_choking_the_spine_blog_section_landscape_5a058032284f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_2_add_interest_without_choking_the_spine_blog_section_landscape_5a058032284f.gif",
         "alt": "Step 2: Add interest without choking the spine",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -181,7 +181,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_3_tell_it_in_stories_not_facts_research_bac_blog_section_landscape_48aa8eca46c4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_3_tell_it_in_stories_not_facts_research_bac_blog_section_landscape_48aa8eca46c4.gif?updatedAt=1782234751812",
         "alt": "Step 3: Tell it in stories, not facts (research, background, anecdotes)",
         "width": 246,
         "height": 200,
@@ -271,43 +271,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_5_handle_predictable_interview_questions_wi_blog_section_landscape_c7926e1387ee.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_step_5_handle_predictable_interview_questions_wi_blog_section_landscape_c7926e1387ee.jpeg",
         "alt": "Step 5: Handle predictable interview questions with practice (so you don't freeze)",
-        "width": 159,
-        "height": 200,
-        "creator": "gifitup",
-        "creatorUrl": "https://giphy.com/gifs/gifitup-medieval-gifitup2021-manuscript-mmH8yHjk0P1sx1Dpoq",
-        "provider": "giphy",
+        "width": 6655,
+        "height": 4437,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_section_image_closing_blog_section_landscape_a4c1f93f195c.jpeg",
-    "alt": "blog section image \u00b7 closing",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     },
     {
       "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     },
     {
       "title": "Middle grade vs young adult: which category your book actually fits",
-      "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     },
     {
-      "title": "What is a chapbook and should you publish one? (FAQ)",
-      "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
+      "title": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
+      "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -346,7 +337,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     }
   ]
 } as const;
@@ -376,7 +367,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -388,31 +379,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
+          "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
       "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -428,11 +419,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#article",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story",
       "headline": "How to talk about your writing so people actually lean in (premise + story question spine)",
       "alternativeHeadline": "How to talk about your writing so people actually lean in (premise + story question spine)",
       "description": "Most authors think the question \"Tell me about your book\" means they have to explain every detail, every twist, every research rabbit hole. So they either go vague\u2014\"It's kind of about\u2026\"\u2014or they ramble until their listener's eyes glaze over.",
@@ -449,40 +440,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage"
       },
+      "datePublished": "2027-06-27",
+      "dateModified": "2027-06-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
         },
         {
           "@type": "WebPage",
           "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+          "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Middle grade vs young adult: which category your book actually fits",
-          "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+          "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
         },
         {
           "@type": "WebPage",
-          "name": "What is a chapbook and should you publish one? (FAQ)",
-          "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
+          "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
+          "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_hero_opening_blog_hero_landscape_8e55eb54076a.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story/blog/blog_hero_opening_blog_hero_landscape_8e55eb54076a.jpeg?updatedAt=1782234743637",
       "width": 6611,
       "height": 4407,
       "caption": "blog hero \u00b7 opening",
@@ -497,7 +485,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story#faq",
       "mainEntity": [
         {
           "@type": "Question",

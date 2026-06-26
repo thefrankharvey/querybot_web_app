@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write for young adults even if you aren't one",
   "description": "Writing for young adults when you didn\u2019t live in that exact time window is where a lot of writers freeze. Not because they can\u2019t write\u2014because they\u2019re scared of doing it wrong. The fear shows up as \u201ctoo mature,\u201d \u201ctoo cringe,\u201d or the dreaded blank-page paralysis where you keep rechecking your character\u2019s age like it\u2019s a quiz.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-08",
+  "modifiedDate": "2027-01-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-for-young-adults-even-if-you-aren-t-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -525,6 +525,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-for-young-adults-even-if-you-aren-t-one#primaryimage"
       },
+      "datePublished": "2027-01-08",
+      "dateModified": "2027-01-08",
       "mentions": [
         {
           "@type": "WebPage",

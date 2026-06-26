@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "End a chapter vs alternatives: choose the hook that keeps momentum",
   "description": "Writers love the idea that a chapter end is \"just the last paragraph.\" It isn't. The ending creates that stretch of white space where readers feel the page break, glance up, and decide whether the next page is worth their time. If the chapter ending doesn't give them a reason to continue, you get drift\u2014quiet, invisible, fatal.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-07",
+  "modifiedDate": "2026-10-07",
   "canonicalUrl": "https://writequeryhook.com/blog/end-a-chapter-vs-alternatives-choose-the-hook-that-keeps-momentum",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/end-a-chapter-vs-alternatives-choose-the-hook-that-keeps-momentum#primaryimage"
       },
+      "datePublished": "2026-10-07",
+      "dateModified": "2026-10-07",
       "mentions": [
         {
           "@type": "WebPage",

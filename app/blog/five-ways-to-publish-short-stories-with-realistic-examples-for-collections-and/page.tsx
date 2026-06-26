@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five ways to publish short stories (with realistic examples) for collections and singles",
   "description": "TLDR",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
+  "publishedDate": "2027-08-11",
+  "modifiedDate": "2027-08-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_hero_dread_deadline_blog_hero_landscape_f02c610ffd93.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_hero_dread_deadline_blog_hero_landscape_f02c610ffd93.jpeg?updatedAt=1782311742262",
     "alt": "blog hero \u00b7 dread deadline",
     "width": 6016,
     "height": 4016,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
-      "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
+      "item": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
     }
   ],
   "tldrBlocks": [],
@@ -101,13 +101,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_opening_why_these_five_routes_matter_and_where_w_blog_section_landscape_14e72223937b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_opening_why_these_five_routes_matter_and_where_w_blog_section_landscape_14e72223937b.gif",
         "alt": "Opening \u2014 why these five routes matter (and where writers get stuck)",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -340,7 +340,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_b06fe83d21e4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_b06fe83d21e4.gif?updatedAt=1782311744290",
         "alt": "Body \u2014 structural breakdown",
         "width": 296,
         "height": 200,
@@ -352,31 +352,31 @@ const PAGE_DATA = {
     }
   ],
   "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_fist_pump_resolve_blog_section_landscape_609e99265acb.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_section_image_fist_pump_resolve_blog_section_landscape_609e99265acb.jpeg",
     "alt": "blog section image \u00b7 fist pump resolve",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
+    "width": 5903,
+    "height": 3935,
+    "creator": "Luis Quintero",
+    "creatorUrl": "https://www.pexels.com/@jibarofoto",
+    "provider": "pexels",
     "role": "section"
   },
   "alsoLike": [
     {
-      "title": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
-    },
-    {
       "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-      "url": "https://writequeryhook.com/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re-trading"
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
     },
     {
       "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-      "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+    },
+    {
+      "title": "6 small press mistakes that quietly wreck your publishing odds",
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     },
     {
       "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     }
   ],
   "alsoLikeAfterIndex": 0,
@@ -408,12 +408,7 @@ const PAGE_DATA = {
       "text": "Pick the route that matches what you have right now: a single story ready to target, or a collection ready to exist as a book. Then build the track record that makes the next step easier\u2014because the publishing world runs on proof, not vibes. Now look at yours and decide what you're submitting next: the story, the collection, or both."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-      "url": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -441,7 +436,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -453,31 +448,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
-          "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
+          "item": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#webpage",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
       "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -493,11 +488,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#article",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#webpage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and",
       "headline": "Five ways to publish short stories (with realistic examples) for collections and singles",
       "alternativeHeadline": "Five ways to publish short stories (with realistic examples) for collections and singles",
       "description": "TLDR",
@@ -527,40 +522,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage"
       },
+      "datePublished": "2027-08-11",
+      "dateModified": "2027-08-11",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-          "url": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
-        },
-        {
-          "@type": "WebPage",
           "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-          "url": "https://writequeryhook.com/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re-trading"
+          "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
         },
         {
           "@type": "WebPage",
           "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-          "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "6 small press mistakes that quietly wreck your publishing odds",
+          "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         },
         {
           "@type": "WebPage",
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_hero_dread_deadline_blog_hero_landscape_f02c610ffd93.jpeg",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_500/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and/blog/blog_hero_dread_deadline_blog_hero_landscape_f02c610ffd93.jpeg?updatedAt=1782311742262",
       "width": 6016,
       "height": 4016,
       "caption": "blog hero \u00b7 dread deadline",
@@ -575,7 +567,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#faq",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

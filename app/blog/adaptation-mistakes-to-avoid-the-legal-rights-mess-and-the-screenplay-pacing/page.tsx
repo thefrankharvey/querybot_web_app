@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
   "description": "The first time you realize you might not get to choose what happens next after you sell or license adaptation rights, you'll feel it in your gut. That's the moment the contract stops being \"paperwork\" and starts being a control problem.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
+  "publishedDate": "2027-09-03",
+  "modifiedDate": "2027-09-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_hero_recognition_dread_blog_hero_landscape_81181ddb2ff8.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_hero_recognition_dread_blog_hero_landscape_81181ddb2ff8.jpeg?updatedAt=1782319207627",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-      "item": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
+      "item": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
     }
   ],
   "tldrBlocks": [],
@@ -126,13 +126,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_anxiety_panic_blog_section_landscape_a6e1d6e4077b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_anxiety_panic_blog_section_landscape_a6e1d6e4077b.jpeg",
         "alt": "Your adaptation rights are vague, and you act surprised when control disappears",
-        "width": 218,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-        "provider": "giphy",
+        "width": 6960,
+        "height": 4640,
+        "creator": "Marta Branco",
+        "creatorUrl": "https://www.pexels.com/@martabranco",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -195,13 +195,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.gif",
         "alt": "You preserve novel pacing, then wonder why the screenplay feels slow",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Zhine Pics",
-        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
-        "provider": "pexels",
+        "width": 112,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/VFZDuY0nePXry",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -273,13 +273,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.gif",
         "alt": "You preserve novel pacing, then wonder why the screenplay feels slow",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Zhine Pics",
-        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
-        "provider": "pexels",
+        "width": 112,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/VFZDuY0nePXry",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -427,13 +427,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_eye_roll_nerves_blog_section_landscape_44950d571019.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_eye_roll_nerves_blog_section_landscape_44950d571019.gif",
         "alt": "Your dialogue is written like a reading experience, not a performance",
-        "width": 5840,
-        "height": 3568,
-        "creator": "Rodrigo Gabotto",
-        "creatorUrl": "https://www.pexels.com/@rodrigo-gabotto-199275842",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -470,13 +470,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_stuck_dread_blog_section_landscape_cc3160fd5b27.gif",
         "alt": "You preserve novel pacing, then wonder why the screenplay feels slow",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Zhine Pics",
-        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
-        "provider": "pexels",
+        "width": 112,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/VFZDuY0nePXry",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -504,43 +504,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_anxiety_panic_blog_section_landscape_a6e1d6e4077b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_anxiety_panic_blog_section_landscape_a6e1d6e4077b.jpeg",
         "alt": "Your adaptation rights are vague, and you act surprised when control disappears",
-        "width": 218,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-        "provider": "giphy",
+        "width": 6960,
+        "height": 4640,
+        "creator": "Marta Branco",
+        "creatorUrl": "https://www.pexels.com/@martabranco",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_section_image_vindication_fist_pump_blog_section_landscape_cf9826b43810.gif",
-    "alt": "blog section image \u00b7 vindication fist pump",
-    "width": 239,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/judd-nelson-breakfast-club-2hCmyEiGn9zkQ",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common book title mistakes that quietly sabotage book marketing",
-      "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
     },
     {
       "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-      "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
     },
     {
       "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-      "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     },
     {
-      "title": "Get your submission priorities wrong, and the agent will never forgive you",
-      "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+      "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -572,12 +563,7 @@ const PAGE_DATA = {
       "text": "If your draft feels slow on screen, don't blame \"film adaptation is hard.\" Check the five mistakes above\u2014especially the **rights** control piece and the pacing/tightening choices. Then rewrite with fewer words and sharper pressure, and make your contract read like a tool, not a mystery novel."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-      "url": "https://writequeryhook.com/query-letters/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -605,7 +591,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -617,31 +603,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
-          "item": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
+          "item": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#webpage",
-      "url": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
+      "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#webpage",
+      "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
       "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -657,11 +643,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#article",
+      "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#webpage"
+        "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing",
       "headline": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
       "alternativeHeadline": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
       "description": "The first time you realize you might not get to choose what happens next after you sell or license adaptation rights, you'll feel it in your gut. That's the moment the contract stops being \"paperwork\" and starts being a control problem.",
@@ -691,40 +677,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage"
       },
+      "datePublished": "2027-09-03",
+      "dateModified": "2027-09-03",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-          "url": "https://writequeryhook.com/query-letters/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first"
-        },
-        {
-          "@type": "WebPage",
           "name": "Common book title mistakes that quietly sabotage book marketing",
-          "url": "https://writequeryhook.com/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+          "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-          "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
         },
         {
           "@type": "WebPage",
           "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-          "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+          "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         },
         {
           "@type": "WebPage",
-          "name": "Get your submission priorities wrong, and the agent will never forgive you",
-          "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+          "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
+          "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_hero_recognition_dread_blog_hero_landscape_81181ddb2ff8.jpeg",
+      "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_527/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing/blog/blog_hero_recognition_dread_blog_hero_landscape_81181ddb2ff8.jpeg?updatedAt=1782319207627",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -739,7 +722,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#faq",
+      "@id": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing#faq",
       "mainEntity": [
         {
           "@type": "Question",

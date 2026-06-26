@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
   "description": "You open the doc. You type \"Synopsis\" at the top. Then your brain does that fun thing where it pretends it can't remember what a book is.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
+  "publishedDate": "2027-11-04",
+  "modifiedDate": "2027-11-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "item": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
+      "item": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     }
   ],
   "tldrBlocks": [],
@@ -668,19 +668,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     },
     {
       "title": "Author branding vs alternatives: which one actually sells your books",
-      "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
-    },
-    {
-      "title": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-      "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     },
     {
       "title": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-      "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+      "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
+    },
+    {
+      "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -735,7 +735,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     }
   ]
 } as const;
@@ -765,7 +765,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -777,31 +777,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "item": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
+          "item": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
+      "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#webpage",
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
       "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -817,11 +817,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#article",
+      "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#webpage"
+        "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that",
       "headline": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
       "alternativeHeadline": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
       "description": "You open the doc. You type \"Synopsis\" at the top. Then your brain does that fun thing where it pretends it can't remember what a book is.",
@@ -851,39 +851,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage"
       },
+      "datePublished": "2027-11-04",
+      "dateModified": "2027-11-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         },
         {
           "@type": "WebPage",
           "name": "Author branding vs alternatives: which one actually sells your books",
-          "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-          "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+          "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
         },
         {
           "@type": "WebPage",
           "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
-          "url": "https://writequeryhook.com/publishing-faq-printing-distribution-wholesale-and-inventory"
+          "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
+          "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage",
+      "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_603/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_32ea610c2b78.gif",
       "width": 200,
       "height": 200,
@@ -899,7 +901,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#faq",
+      "@id": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

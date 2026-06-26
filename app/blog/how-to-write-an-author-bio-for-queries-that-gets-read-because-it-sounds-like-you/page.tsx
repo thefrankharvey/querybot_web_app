@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write an Author Bio for Queries That Gets Read (Because It Sounds Like You)",
   "description": "Most writers think a query letter bio has to sound like a polite brochure. Agents don't need a resume\u2014they get your first taste of who you are, and they use that to predict your writing voice and what kind of book you're likely to write.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-17",
+  "modifiedDate": "2026-08-17",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-an-author-bio-for-queries-that-gets-read-because-it-sounds-like-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -597,6 +597,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-an-author-bio-for-queries-that-gets-read-because-it-sounds-like-you#primaryimage"
       },
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-08-17",
       "mentions": [
         {
           "@type": "WebPage",

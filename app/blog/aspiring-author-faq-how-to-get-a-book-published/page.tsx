@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Aspiring author FAQ: how to get a book published",
   "description": "If you're trying to get a book published, you probably have the same handful of questions that keep looping in your head: which route is real, what agents/publishers actually look for, how long this will take, and what to do when the inbox goes quiet. This page is the fast, writer-brained version\u2014straight answers, no mysticism, no \"just keep believing\" fluff.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published",
+  "publishedDate": "2027-07-18",
+  "modifiedDate": "2027-07-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_hero_aspiring_uncertainty_blog_hero_landscape_b5d54bf3671e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_hero_aspiring_uncertainty_blog_hero_landscape_b5d54bf3671e.jpeg?updatedAt=1782260149595",
     "alt": "blog hero \u00b7 aspiring uncertainty",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Aspiring author FAQ: how to get a book published",
-      "item": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published"
+      "item": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     }
   ],
   "tldrBlocks": [],
@@ -105,7 +105,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_choice_anxiety_blog_section_landscape_d9e6d3698e67.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_choice_anxiety_blog_section_landscape_d9e6d3698e67.gif?updatedAt=1782260150681",
         "alt": "How do I know which path to choose?",
         "width": 152,
         "height": 200,
@@ -229,13 +229,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_query_trenches_dread_blog_section_landscape_eee70b5cf0bd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_query_trenches_dread_blog_section_landscape_eee70b5cf0bd.jpeg",
         "alt": "How do I write a query letter that works?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Zhine Pics",
+        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -281,13 +281,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_waiting_impatience_blog_section_landscape_d6c935b9e449.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_waiting_impatience_blog_section_landscape_d6c935b9e449.gif",
         "alt": "How long does the publishing process take?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ono  Kosuki",
-        "creatorUrl": "https://www.pexels.com/@ono-kosuki",
-        "provider": "pexels",
+        "width": 280,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/judge-judy-hurry-up-Emg9qPKR5hquI",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -379,32 +379,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_section_image_action_submission_blog_section_landscape_c3ca7250876f.jpeg",
-    "alt": "blog section image \u00b7 action submission",
-    "width": 5184,
-    "height": 3456,
-    "creator": "Bruno Bueno",
-    "creatorUrl": "https://www.pexels.com/@brunogobofoto",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
-    },
-    {
-      "title": "How to market a self-published book: 3 real-world examples you can copy",
-      "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     },
     {
       "title": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-      "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+      "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
     },
     {
-      "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-      "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+      "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
+    },
+    {
+      "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -422,7 +413,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "url": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     }
   ]
 } as const;
@@ -452,7 +443,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -464,31 +455,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Aspiring author FAQ: how to get a book published",
-          "item": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published"
+          "item": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#webpage",
-      "url": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published",
+      "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#webpage",
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published",
       "name": "Aspiring author FAQ: how to get a book published",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#primaryimage"
+        "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -504,11 +495,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#article",
+      "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#webpage"
+        "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published",
       "headline": "Aspiring author FAQ: how to get a book published",
       "alternativeHeadline": "Aspiring author FAQ: how to get a book published",
       "description": "If you're trying to get a book published, you probably have the same handful of questions that keep looping in your head: which route is real, what agents/publishers actually look for, how long this will take, and what to do when the inbox goes quiet. This page is the fast, writer-brained version\u2014straight answers, no mysticism, no \"just keep believing\" fluff.",
@@ -538,40 +529,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#primaryimage"
+        "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#primaryimage"
       },
+      "datePublished": "2027-07-18",
+      "dateModified": "2027-07-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "url": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to market a self-published book: 3 real-world examples you can copy",
-          "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+          "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
         },
         {
           "@type": "WebPage",
           "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-          "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+          "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
         },
         {
           "@type": "WebPage",
-          "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-          "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+          "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
+          "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_hero_aspiring_uncertainty_blog_hero_landscape_b5d54bf3671e.jpeg",
+      "@id": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/aspiring-author-faq-how-to-get-a-book-published/blog/blog_hero_aspiring_uncertainty_blog_hero_landscape_b5d54bf3671e.jpeg?updatedAt=1782260149595",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 aspiring uncertainty",

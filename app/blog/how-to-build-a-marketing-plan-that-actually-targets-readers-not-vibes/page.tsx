@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build a marketing plan that actually targets readers (not vibes)",
   "description": "If your marketing feels scattered, it's not because you lack hustle. It's because the plan doesn't have a single job: define the audience and steer every other decision from that one point.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
+  "publishedDate": "2027-09-12",
+  "modifiedDate": "2027-09-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_hero_recognition_blank_page_blog_hero_landscape_eff45c773b10.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_hero_recognition_blank_page_blog_hero_landscape_eff45c773b10.jpeg",
     "alt": "blog hero \u00b7 recognition blank-page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 5433,
+    "height": 3622,
+    "creator": "Dan Cristian P\u0103dure\u021b",
+    "creatorUrl": "https://www.pexels.com/@paduret",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build a marketing plan that actually targets readers (not vibes)",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+      "item": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
     }
   ],
   "tldrBlocks": [],
@@ -148,13 +148,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_indignation_audience_first_blog_section_landscape_c4db14ce223b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_indignation_audience_first_blog_section_landscape_c4db14ce223b.gif",
         "alt": "Define the marketing plan as a reader target, not a checklist of tasks",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Bombeiros MT",
-        "creatorUrl": "https://www.pexels.com/@bombeirosmt",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -331,7 +331,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_pressure_deadline_blog_section_landscape_6c7aa00cc48c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_pressure_deadline_blog_section_landscape_6c7aa00cc48c.jpeg?updatedAt=1782329007632",
         "alt": "Write the hook and back-cover copy as search-friendly, value-first copy",
         "width": 6000,
         "height": 4000,
@@ -417,43 +417,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_panic_scroll_loss_blog_section_landscape_01bf886b7d27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_panic_scroll_loss_blog_section_landscape_01bf886b7d27.gif",
         "alt": "Use keywords for online visibility, matching audience discovery routes",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_608c22b46de4.gif",
-    "alt": "blog section image \u00b7 fist-pump deep breath",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-      "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
-    },
-    {
       "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-      "url": "https://writequeryhook.com/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
     },
     {
       "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-      "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
     },
     {
       "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+    },
+    {
+      "title": "5 tips for picking the type of novel you're actually trying to write",
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -493,12 +484,7 @@ const PAGE_DATA = {
       "text": "Like, that's the whole trick."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-      "url": "https://writequeryhook.com/query-letters/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -526,7 +512,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -538,31 +524,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build a marketing plan that actually targets readers (not vibes)",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+          "item": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
       "name": "How to build a marketing plan that actually targets readers (not vibes)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -578,11 +564,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes",
       "headline": "How to build a marketing plan that actually targets readers (not vibes)",
       "alternativeHeadline": "How to build a marketing plan that actually targets readers (not vibes)",
       "description": "If your marketing feels scattered, it's not because you lack hustle. It's because the plan doesn't have a single job: define the audience and steer every other decision from that one point.",
@@ -612,55 +598,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage"
       },
+      "datePublished": "2027-09-12",
+      "dateModified": "2027-09-12",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-          "url": "https://writequeryhook.com/query-letters/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-          "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
-        },
-        {
-          "@type": "WebPage",
           "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-          "url": "https://writequeryhook.com/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+          "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
         },
         {
           "@type": "WebPage",
           "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-          "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
         },
         {
           "@type": "WebPage",
           "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+          "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for picking the type of novel you're actually trying to write",
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_hero_recognition_blank_page_blog_hero_landscape_eff45c773b10.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_538/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes/blog/blog_hero_recognition_blank_page_blog_hero_landscape_eff45c773b10.jpeg",
+      "width": 5433,
+      "height": 3622,
       "caption": "blog hero \u00b7 recognition blank-page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Dan Cristian P\u0103dure\u021b",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Dan Cristian P\u0103dure\u021b",
+        "url": "https://www.pexels.com/@paduret"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes#faq",
       "mainEntity": [
         {
           "@type": "Question",

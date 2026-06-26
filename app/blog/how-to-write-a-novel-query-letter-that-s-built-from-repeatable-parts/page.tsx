@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Novel Query Letter That's Built from Repeatable Parts",
   "description": "Most writers don't fail because their novel is weak. They fail because their query letter is one big blob of \"here's everything I know,\" and it gets impossible to judge quickly.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-06",
+  "modifiedDate": "2026-07-06",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-novel-query-letter-that-s-built-from-repeatable-parts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -555,6 +555,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-query-letter-that-s-built-from-repeatable-parts#primaryimage"
       },
+      "datePublished": "2026-07-06",
+      "dateModified": "2026-07-06",
       "mentions": [
         {
           "@type": "WebPage",

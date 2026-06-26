@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Do you need to hire a cover designer and book formatter?",
   "description": "Self-publishing makes you the boss of the stuff readers actually see: the book cover and the inside book formatting that survives every platform upload. Traditional publishing usually handles those pieces. Self-publishing usually doesn't.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter",
+  "publishedDate": "2027-08-11",
+  "modifiedDate": "2027-08-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_hero_overwhelmed_decision_fatigue_blog_hero_landscape_4723e593b625.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_hero_overwhelmed_decision_fatigue_blog_hero_landscape_4723e593b625.jpeg",
     "alt": "blog hero \u00b7 overwhelmed decision fatigue",
-    "width": 286,
-    "height": 200,
-    "creator": "unhcrinnovation",
-    "creatorUrl": "https://giphy.com/gifs/cTCiKedhyUR7ucPxfc",
-    "provider": "giphy",
+    "width": 3840,
+    "height": 2160,
+    "creator": "Vitaly Gariev",
+    "creatorUrl": "https://www.pexels.com/@silverkblack",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Do you need to hire a cover designer and book formatter?",
-      "item": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+      "item": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_comfort_clarity_blog_section_landscape_db572c2a5897.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_comfort_clarity_blog_section_landscape_db572c2a5897.jpeg",
         "alt": "Do traditional publishing contracts include cover design and formatting?",
-        "width": 226,
-        "height": 200,
-        "creator": "theinnernette",
-        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-        "provider": "giphy",
+        "width": 6720,
+        "height": 4480,
+        "creator": "www.kaboompics.com",
+        "creatorUrl": "https://www.pexels.com/@karola-g",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -139,13 +139,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_anxious_doubtful_blog_section_landscape_f8cddd03b5a6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_anxious_doubtful_blog_section_landscape_f8cddd03b5a6.gif",
         "alt": "When should an author consider hiring a professional for cover design?",
-        "width": 8688,
-        "height": 5792,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -230,13 +230,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_confused_spreadsheet_dread_blog_section_landscape_2f204f7e533d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_confused_spreadsheet_dread_blog_section_landscape_2f204f7e533d.gif",
         "alt": "Typesetting vs book formatting explained",
-        "width": 7008,
-        "height": 4672,
-        "creator": "Will Oliveira",
-        "creatorUrl": "https://www.pexels.com/@willfotografia",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/excited-QnbnVPVWhzbCE",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -319,32 +319,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_section_image_next_draft_calm_planning_blog_section_landscape_7426ca3e187f.jpeg",
-    "alt": "blog section image \u00b7 next draft calm planning",
-    "width": 6360,
-    "height": 4240,
-    "creator": "Thirdman",
-    "creatorUrl": "https://www.pexels.com/@thirdman",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What I didn't know about publishing bias (until I got forced to see it)",
-      "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
-    },
-    {
       "title": "Five ways to publish short stories (with realistic examples) for collections and singles",
-      "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
-    },
-    {
-      "title": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
     },
     {
       "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-      "url": "https://writequeryhook.com/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re-trading"
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+    },
+    {
+      "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+    },
+    {
+      "title": "6 small press mistakes that quietly wreck your publishing odds",
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -359,12 +350,7 @@ const PAGE_DATA = {
       "text": "If you want a decision-support angle for **self-publishing** admin, that's the kind of problem WQH's tools are built to reduce\u2014less chaos, fewer wrong purchases, and more time for the actual writing."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What I didn't know about publishing bias (until I got forced to see it)",
-      "url": "https://writequeryhook.com/query-letters/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -392,7 +378,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -404,31 +390,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Do you need to hire a cover designer and book formatter?",
-          "item": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+          "item": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#webpage",
-      "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#webpage",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter",
       "name": "Do you need to hire a cover designer and book formatter?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -444,11 +430,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#article",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#webpage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter",
       "headline": "Do you need to hire a cover designer and book formatter?",
       "alternativeHeadline": "Do you need to hire a cover designer and book formatter?",
       "description": "Self-publishing makes you the boss of the stuff readers actually see: the book cover and the inside book formatting that survives every platform upload. Traditional publishing usually handles those pieces. Self-publishing usually doesn't.",
@@ -478,48 +464,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage"
       },
+      "datePublished": "2027-08-11",
+      "dateModified": "2027-08-11",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What I didn't know about publishing bias (until I got forced to see it)",
-          "url": "https://writequeryhook.com/query-letters/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What I didn't know about publishing bias (until I got forced to see it)",
-          "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
-        },
-        {
-          "@type": "WebPage",
           "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
-          "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Book publishers to avoid: a case-study breakdown of 5 shady company examples",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-a-case-study-breakdown-of-5-shady-company-examples"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
         },
         {
           "@type": "WebPage",
           "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-          "url": "https://writequeryhook.com/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re-trading"
+          "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "6 small press mistakes that quietly wreck your publishing odds",
+          "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_hero_overwhelmed_decision_fatigue_blog_hero_landscape_4723e593b625.gif",
-      "width": 286,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_501/do-you-need-to-hire-a-cover-designer-and-book-formatter/blog/blog_hero_overwhelmed_decision_fatigue_blog_hero_landscape_4723e593b625.jpeg",
+      "width": 3840,
+      "height": 2160,
       "caption": "blog hero \u00b7 overwhelmed decision fatigue",
-      "creditText": "unhcrinnovation",
+      "creditText": "Vitaly Gariev",
       "author": {
         "@type": "Person",
-        "name": "unhcrinnovation",
-        "url": "https://giphy.com/gifs/cTCiKedhyUR7ucPxfc"
+        "name": "Vitaly Gariev",
+        "url": "https://www.pexels.com/@silverkblack"
       },
       "@context": "https://schema.org"
     }

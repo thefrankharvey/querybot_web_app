@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
   "description": "Writers obsess over platform the way they obsess over word count targets: earnestly, anxiously, and with the wrong measurement.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
+  "publishedDate": "2027-07-04",
+  "modifiedDate": "2027-07-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_hero_confusion_dread_blog_hero_landscape_ba6f899c3e84.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_hero_confusion_dread_blog_hero_landscape_ba6f899c3e84.jpeg?updatedAt=1782244038108",
     "alt": "blog hero \u00b7 confusion dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
+      "item": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     }
   ],
   "tldrBlocks": [],
@@ -289,7 +289,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_home_base_website_blog_section_landscape_36b34facfa9f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_home_base_website_blog_section_landscape_36b34facfa9f.jpeg?updatedAt=1782244038750",
         "alt": "Blogging for others to grow your writing platform with a home base",
         "width": 3648,
         "height": 2522,
@@ -506,7 +506,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_performer_stage_blog_section_landscape_03252bc07dfd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_performer_stage_blog_section_landscape_03252bc07dfd.gif?updatedAt=1782244039613",
         "alt": "You don't own your platform: using other outlets without begging for permission",
         "width": 200,
         "height": 200,
@@ -535,7 +535,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_lessons_takeaways_blog_section_landscape_65d6332975c6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_lessons_takeaways_blog_section_landscape_65d6332975c6.gif?updatedAt=1782244040264",
         "alt": "Lessons / Takeaways",
         "width": 279,
         "height": 200,
@@ -546,32 +546,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_section_image_breath_resolve_blog_section_landscape_6bb5259bf3c7.jpeg",
-    "alt": "blog section image \u00b7 breath resolve",
-    "width": 3840,
-    "height": 2160,
-    "creator": "Houssam benamara",
-    "creatorUrl": "https://www.pexels.com/@exeroniq",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-      "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
     },
     {
       "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     },
     {
       "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     },
     {
-      "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -610,7 +601,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-      "url": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
     }
   ]
 } as const;
@@ -640,7 +631,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -652,31 +643,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
+          "item": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
       "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -692,11 +683,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples",
       "headline": "How to build a real author platform off social media: five off-feed examples that actually compound",
       "alternativeHeadline": "How to build a real author platform off social media: five off-feed examples that actually compound",
       "description": "Writers obsess over platform the way they obsess over word count targets: earnestly, anxiously, and with the wrong measurement.",
@@ -726,40 +717,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage"
       },
+      "datePublished": "2027-07-04",
+      "dateModified": "2027-07-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-          "url": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-          "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+          "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
         },
         {
           "@type": "WebPage",
           "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         },
         {
           "@type": "WebPage",
           "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
+          "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_hero_confusion_dread_blog_hero_landscape_ba6f899c3e84.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples/blog/blog_hero_confusion_dread_blog_hero_landscape_ba6f899c3e84.jpeg?updatedAt=1782244038108",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
@@ -774,7 +762,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Great book title vs safer alternatives: pick the one that sells",
   "description": "A book title is doing real work. Like, before the cover blurb gets a chance to babysit the reader's attention. It's the line in the sand between \"oh, hell yes\" and \"nope.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
+  "publishedDate": "2027-10-23",
+  "modifiedDate": "2027-10-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Great book title vs safer alternatives: pick the one that sells",
-      "item": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+      "item": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
     }
   ],
   "tldrBlocks": [],
@@ -483,19 +483,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-      "url": "https://writequeryhook.com/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding-actually-come-from"
-    },
-    {
-      "title": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
-    },
-    {
-      "title": "Writers on strike lessons for book authors FAQ",
-      "url": "https://writequeryhook.com/writers-on-strike-lessons-for-book-authors-faq"
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
     },
     {
       "title": "How to Talk About Your Writing So People Want to Read It FAQ",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+    },
+    {
+      "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
+    },
+    {
+      "title": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -509,7 +509,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-      "url": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
     }
   ]
 } as const;
@@ -539,7 +539,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -551,31 +551,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Great book title vs safer alternatives: pick the one that sells",
-          "item": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+          "item": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#webpage",
-      "url": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
+      "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#webpage",
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
       "name": "Great book title vs safer alternatives: pick the one that sells",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -591,11 +591,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#article",
+      "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#webpage"
+        "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells",
       "headline": "Great book title vs safer alternatives: pick the one that sells",
       "alternativeHeadline": "Great book title vs safer alternatives: pick the one that sells",
       "description": "A book title is doing real work. Like, before the cover blurb gets a chance to babysit the reader's attention. It's the line in the sand between \"oh, hell yes\" and \"nope.\"",
@@ -625,39 +625,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage"
       },
+      "datePublished": "2027-10-23",
+      "dateModified": "2027-10-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-          "url": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-          "url": "https://writequeryhook.com/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding-actually-come-from"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Writers on strike lessons for book authors FAQ",
-          "url": "https://writequeryhook.com/writers-on-strike-lessons-for-book-authors-faq"
+          "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
         },
         {
           "@type": "WebPage",
           "name": "How to Talk About Your Writing So People Want to Read It FAQ",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
+          "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage",
+      "@id": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_588/great-book-title-vs-safer-alternatives-pick-the-one-that-sells/blog/blog_hero_stuck_title_shelf_anxiety_blog_hero_landscape_e1a2df1d56d9.gif",
       "width": 200,
       "height": 200,

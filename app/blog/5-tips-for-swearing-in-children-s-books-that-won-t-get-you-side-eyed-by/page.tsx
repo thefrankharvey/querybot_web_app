@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for swearing in children's books that won't get you side-eyed by gatekeepers",
   "description": "Swearing in children's books is one of those topics where writers get punished for doing the \"right\" thing with the \"wrong\" tone. One adult thinks it's educational honesty. Another adult thinks it's moral collapse. And somehow the manuscript gets treated like a referendum on the author's values instead of a story choice.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-25",
+  "modifiedDate": "2026-11-25",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-swearing-in-children-s-books-that-won-t-get-you-side-eyed-by",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -477,6 +477,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-swearing-in-children-s-books-that-won-t-get-you-side-eyed-by#primaryimage"
       },
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
       "mentions": [
         {
           "@type": "WebPage",

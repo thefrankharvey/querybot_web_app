@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
   "description": "Everyone loves the advice that makes writers feel safe: write what you know. Except this kind of family memoir has a nasty detour\u2014drafts start as fiction, then you realize the real story needs creative non-fiction framing. That detour can take years. Your manuscript doesn't fail because you're bad at \"memoir.\" It fails because the form is wrong, and your whole process is responding to the wrong target.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
+  "publishedDate": "2027-09-27",
+  "modifiedDate": "2027-09-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_hero_recognition_blank_page_blog_hero_landscape_6f3cc7cb0ec0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_hero_recognition_blank_page_blog_hero_landscape_6f3cc7cb0ec0.jpeg?updatedAt=1782336081385",
     "alt": "blog hero \u00b7 recognition blank-page",
     "width": 5433,
     "height": 3622,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-      "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
+      "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     }
   ],
   "tldrBlocks": [],
@@ -278,7 +278,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_frustration_overpaying_blog_section_landscape_b130ad27a36d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_frustration_overpaying_blog_section_landscape_b130ad27a36d.jpeg?updatedAt=1782336081987",
         "alt": "You're hiring an editor without a structural request",
         "width": 5867,
         "height": 3833,
@@ -400,7 +400,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_flat_broke_facepalm_blog_section_landscape_63030afa394e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_flat_broke_facepalm_blog_section_landscape_63030afa394e.gif?updatedAt=1782336082814",
         "alt": "You're treating cover design like a last-minute prize",
         "width": 280,
         "height": 200,
@@ -469,7 +469,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_panic_technophobe_blog_section_landscape_23a1cffce9b0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_panic_technophobe_blog_section_landscape_23a1cffce9b0.gif?updatedAt=1782336083596",
         "alt": "You're shrugging at navigating typesetting for self-publishing",
         "width": 226,
         "height": 200,
@@ -505,32 +505,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_section_image_action_stop_guessing_blog_section_landscape_7156003481b5.jpeg",
-    "alt": "blog section image \u00b7 action stop-guessing",
-    "width": 6240,
-    "height": 4160,
-    "creator": "Mathias Reding",
-    "creatorUrl": "https://www.pexels.com/@matreding",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     },
     {
       "title": "17 mistakes indie authors keep making on the road to publishing success",
-      "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     },
     {
       "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     },
     {
-      "title": "5 tips for facing the happy harsh truths of a writing career",
-      "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -544,7 +535,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     }
   ]
 } as const;
@@ -574,7 +565,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -586,31 +577,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-          "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
+          "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#webpage",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#webpage",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
       "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -626,11 +617,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#article",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#webpage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken",
       "headline": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
       "alternativeHeadline": "Self-publishing a family memoir mistakes that prove your draft isn\u2019t broken\u2014your form is",
       "description": "Everyone loves the advice that makes writers feel safe: write what you know. Except this kind of family memoir has a nasty detour\u2014drafts start as fiction, then you realize the real story needs creative non-fiction framing. That detour can take years. Your manuscript doesn't fail because you're bad at \"memoir.\" It fails because the form is wrong, and your whole process is responding to the wrong target.",
@@ -660,40 +651,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage"
       },
+      "datePublished": "2027-09-27",
+      "dateModified": "2027-09-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         },
         {
           "@type": "WebPage",
           "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+          "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for facing the happy harsh truths of a writing career",
-          "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+          "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
+          "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_hero_recognition_blank_page_blog_hero_landscape_6f3cc7cb0ec0.jpeg",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken/blog/blog_hero_recognition_blank_page_blog_hero_landscape_6f3cc7cb0ec0.jpeg?updatedAt=1782336081385",
       "width": 5433,
       "height": 3622,
       "caption": "blog hero \u00b7 recognition blank-page",

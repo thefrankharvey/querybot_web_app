@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Make a Character Revelation Feel Earned (Not Author-Approved)",
   "description": "Ever read a scene where a character suddenly \"gets it,\" and you can feel the author smile through the page?",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-24",
+  "modifiedDate": "2026-10-24",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-a-character-revelation-feel-earned-not-author-approved",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -638,6 +638,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-make-a-character-revelation-feel-earned-not-author-approved#primaryimage"
       },
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
       "mentions": [
         {
           "@type": "WebPage",

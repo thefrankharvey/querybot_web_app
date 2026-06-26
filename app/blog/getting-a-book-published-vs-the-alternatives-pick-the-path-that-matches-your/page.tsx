@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
   "description": "If you're an aspiring author, the publishing question isn't \"Can I write a book?\" It's \"Which route makes sense without lighting your time and money on fire?\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
+  "publishedDate": "2027-07-21",
+  "modifiedDate": "2027-07-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_hero_frustrated_blank_page_blog_hero_landscape_42ba5f31473e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_hero_frustrated_blank_page_blog_hero_landscape_42ba5f31473e.jpeg?updatedAt=1782260398375",
     "alt": "blog hero \u00b7 frustrated blank-page",
     "width": 5760,
     "height": 3840,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-      "item": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+      "item": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
     }
   ],
   "tldrBlocks": [],
@@ -223,7 +223,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_budget_spreadsheet_blog_section_landscape_d1e7a3dd9e11.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_budget_spreadsheet_blog_section_landscape_d1e7a3dd9e11.gif?updatedAt=1782260399394",
         "alt": "Costs and timeline",
         "width": 354,
         "height": 200,
@@ -402,7 +402,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_confident_decisive_blog_section_landscape_d800003d5fd5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_confident_decisive_blog_section_landscape_d800003d5fd5.jpeg?updatedAt=1782260400030",
         "alt": "How to choose",
         "width": 4928,
         "height": 3264,
@@ -429,43 +429,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_the_verdict_blog_section_landscape_d92f63dce74e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_the_verdict_blog_section_landscape_d92f63dce74e.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_section_image_relief_action_blog_section_landscape_dff01bbca93a.gif",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 200,
-    "height": 200,
-    "creator": "IntoAction",
-    "creatorUrl": "https://giphy.com/gifs/IntoAction-diegodrawsart-stronger-together-climate-change-is-real-jaq9iy6caOdBX2B9BH",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-      "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     },
     {
       "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     },
     {
       "title": "Platform FAQ: how to build an author platform off social media",
-      "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     },
     {
-      "title": "Aspiring author FAQ: how to get a book published",
-      "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+      "title": "What literary agents do (and what they don't do) FAQ",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -500,7 +491,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-      "url": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     }
   ]
 } as const;
@@ -530,7 +521,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -542,31 +533,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-          "item": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+          "item": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
+      "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#webpage",
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
       "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -582,11 +573,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#article",
+      "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#webpage"
+        "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your",
       "headline": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
       "alternativeHeadline": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
       "description": "If you're an aspiring author, the publishing question isn't \"Can I write a book?\" It's \"Which route makes sense without lighting your time and money on fire?\"",
@@ -616,40 +607,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage"
       },
+      "datePublished": "2027-07-21",
+      "dateModified": "2027-07-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-          "url": "https://writequeryhook.com/query-letters/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-          "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+          "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
         },
         {
           "@type": "WebPage",
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         },
         {
           "@type": "WebPage",
           "name": "Platform FAQ: how to build an author platform off social media",
-          "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+          "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
         },
         {
           "@type": "WebPage",
-          "name": "Aspiring author FAQ: how to get a book published",
-          "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+          "name": "What literary agents do (and what they don't do) FAQ",
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_hero_frustrated_blank_page_blog_hero_landscape_42ba5f31473e.jpeg",
+      "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_476/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your/blog/blog_hero_frustrated_blank_page_blog_hero_landscape_42ba5f31473e.jpeg?updatedAt=1782260398375",
       "width": 5760,
       "height": 3840,
       "caption": "blog hero \u00b7 frustrated blank-page",
@@ -664,7 +652,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#faq",
+      "@id": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

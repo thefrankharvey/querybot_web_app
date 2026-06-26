@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Using Women as Emotional Furniture: How to Write Female Characters with Agency",
   "description": "A lot of drafts that feel \"good\" on the sentence level still fail when you zoom out. You'll have the right era, the right voice, even decent prose. Then you notice the women only show up when they can either (a) calm the man down, (b) propel him forward, or (c) suffer in a way that makes his pain legible.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-24",
+  "modifiedDate": "2026-10-24",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-using-women-as-emotional-furniture-how-to-write-female-characters-with",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -673,6 +673,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-using-women-as-emotional-furniture-how-to-write-female-characters-with#primaryimage"
       },
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
       "mentions": [
         {
           "@type": "WebPage",

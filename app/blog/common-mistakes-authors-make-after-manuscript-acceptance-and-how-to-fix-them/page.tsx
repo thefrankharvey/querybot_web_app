@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
   "description": "If the words \"after manuscript acceptance\" make you want to crawl under a desk, good. That means you're paying attention to the right problem: you think marketing starts at the end, and you're terrified you're going to be bad at it anyway.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
+  "publishedDate": "2027-05-15",
+  "modifiedDate": "2027-05-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_hero_after_the_offer_dread_blog_hero_landscape_5182c1be62ff.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_hero_after_the_offer_dread_blog_hero_landscape_5182c1be62ff.jpeg?updatedAt=1782147364799",
     "alt": "blog hero \u00b7 after the offer dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
+      "item": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
     }
   ],
   "tldrBlocks": [],
@@ -131,7 +131,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_panic_deadline_blog_section_landscape_5fda8a0b9a7d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_panic_deadline_blog_section_landscape_5fda8a0b9a7d.gif?updatedAt=1782147368018",
         "alt": "You're waiting until production is done",
         "width": 200,
         "height": 200,
@@ -265,13 +265,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_impostor_syndrome_authenticity_blog_section_landscape_9180c230cdcf.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_impostor_syndrome_authenticity_blog_section_landscape_9180c230cdcf.gif",
         "alt": "You're hiding your expertise in launch content",
-        "width": 6720,
-        "height": 4480,
-        "creator": "ShotPot",
-        "creatorUrl": "https://www.pexels.com/@shotpot",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "mostexpensivest",
+        "creatorUrl": "https://giphy.com/gifs/mostexpensivest-viceland-2-chainz-most-expensivest-MZohQX4qVKadEwx4dh",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -419,7 +419,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_78f9718fd77d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_78f9718fd77d.jpeg?updatedAt=1782147373046",
         "alt": "Recap",
         "width": 6611,
         "height": 4407,
@@ -430,32 +430,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_7efc0ff288b0.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-      "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+      "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     },
     {
-      "title": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-      "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+      "title": "5 tips to understand the publishing timeline after the offer",
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     },
     {
-      "title": "In-person publishing meetings: the moment your book stops being an email thread",
-      "url": "https://writequeryhook.com/in-person-publishing-meetings-the-moment-your-book-stops-being-an-email-thread"
+      "title": "5 tips for handling a representation offer without making a panic decision",
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     },
     {
-      "title": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+      "title": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -466,12 +457,7 @@ const PAGE_DATA = {
       "text": "Open your after-the-offer checklist and pick one mistake to delete. Then do the replacement while the process is still alive: send one specific marketing idea, write one engagement post, or make one community outreach plan that isn't built on hype. Now go fix yours."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-      "url": "https://writequeryhook.com/query-letters/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -499,7 +485,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +497,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
+          "item": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
       "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +537,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them",
       "headline": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
       "alternativeHeadline": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
       "description": "If the words \"after manuscript acceptance\" make you want to crawl under a desk, good. That means you're paying attention to the right problem: you think marketing starts at the end, and you're terrified you're going to be bad at it anyway.",
@@ -585,40 +571,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-05-15",
+      "dateModified": "2027-05-15",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-          "url": "https://writequeryhook.com/query-letters/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+          "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+          "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         },
         {
           "@type": "WebPage",
-          "name": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-          "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+          "name": "5 tips to understand the publishing timeline after the offer",
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
         },
         {
           "@type": "WebPage",
-          "name": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-          "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+          "name": "5 tips for handling a representation offer without making a panic decision",
+          "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         },
         {
           "@type": "WebPage",
-          "name": "In-person publishing meetings: the moment your book stops being an email thread",
-          "url": "https://writequeryhook.com/in-person-publishing-meetings-the-moment-your-book-stops-being-an-email-thread"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+          "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_hero_after_the_offer_dread_blog_hero_landscape_5182c1be62ff.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_399/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them/blog/blog_hero_after_the_offer_dread_blog_hero_landscape_5182c1be62ff.jpeg?updatedAt=1782147364799",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 after the offer dread",

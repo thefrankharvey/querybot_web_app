@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
   "description": "If you think \"author platform\" means \"how famous are you,\" congrats\u2014you've already been misled.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
+  "publishedDate": "2027-10-19",
+  "modifiedDate": "2027-10-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-      "item": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
+      "item": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
     }
   ],
   "tldrBlocks": [],
@@ -518,19 +518,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 economics of publishing mistakes that make author income look like a scam",
-      "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+      "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
     },
     {
       "title": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-      "url": "https://writequeryhook.com/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+      "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
     },
     {
       "title": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-      "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+      "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
     },
     {
-      "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-      "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+      "title": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
+      "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -548,7 +548,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
     }
   ]
 } as const;
@@ -578,7 +578,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -590,31 +590,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-          "item": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
+          "item": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
+      "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#webpage",
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
       "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -630,11 +630,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#article",
+      "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#webpage"
+        "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and",
       "headline": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
       "alternativeHeadline": "An author platform doesn\u2019t mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
       "description": "If you think \"author platform\" means \"how famous are you,\" congrats\u2014you've already been misled.",
@@ -664,39 +664,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage"
       },
+      "datePublished": "2027-10-19",
+      "dateModified": "2027-10-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 economics of publishing mistakes that make author income look like a scam",
-          "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+          "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
         },
         {
           "@type": "WebPage",
           "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-          "url": "https://writequeryhook.com/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+          "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
         },
         {
           "@type": "WebPage",
           "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-          "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+          "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-          "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+          "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
+          "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage",
+      "@id": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_582/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and/blog/blog_hero_myth_confusion_blog_hero_landscape_a8ee4d80e758.jpeg",
       "width": 7008,
       "height": 4672,

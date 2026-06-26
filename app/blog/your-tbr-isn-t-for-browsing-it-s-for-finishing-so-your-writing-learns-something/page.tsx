@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
   "description": "I have a theory, and I'm putting it on the table before we pretend this is \"productivity\": browsing isn't reading. Browsing is what you do while your reading life waits in the lobby, holding a clipboard and wondering if today is its day.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
+  "publishedDate": "2027-10-26",
+  "modifiedDate": "2027-10-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-      "item": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+      "item": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     }
   ],
   "tldrBlocks": [],
@@ -489,19 +489,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-      "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
     },
     {
       "title": "5 tips self-published authors use to turn early readers into real publishing success",
-      "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
     },
     {
       "title": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     },
     {
-      "title": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-      "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
+      "title": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
+      "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -544,7 +544,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-      "url": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
     }
   ]
 } as const;
@@ -574,7 +574,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -586,31 +586,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-          "item": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+          "item": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#webpage",
-      "url": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
+      "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#webpage",
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
       "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -626,11 +626,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#article",
+      "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#webpage"
+        "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something",
       "headline": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
       "alternativeHeadline": "Your TBR Isn\u2019t for Browsing\u2014It\u2019s for Finishing (So Your Writing Learns Something)",
       "description": "I have a theory, and I'm putting it on the table before we pretend this is \"productivity\": browsing isn't reading. Browsing is what you do while your reading life waits in the lobby, holding a clipboard and wondering if today is its day.",
@@ -660,39 +660,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage"
       },
+      "datePublished": "2027-10-26",
+      "dateModified": "2027-10-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-          "url": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-          "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+          "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
         },
         {
           "@type": "WebPage",
           "name": "5 tips self-published authors use to turn early readers into real publishing success",
-          "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+          "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+          "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
         },
         {
           "@type": "WebPage",
-          "name": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-          "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
+          "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage",
+      "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_593/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something/blog/blog_hero_catalog_scrolling_dread_blog_hero_landscape_8c237d102b5b.jpeg",
       "width": 6000,
       "height": 4000,
@@ -708,7 +705,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#faq",
+      "@id": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something#faq",
       "mainEntity": [
         {
           "@type": "Question",

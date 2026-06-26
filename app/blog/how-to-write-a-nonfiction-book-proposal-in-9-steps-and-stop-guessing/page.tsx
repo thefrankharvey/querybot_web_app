@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
   "description": "Nonfiction proposals are where writers go to play a very specific game: guess what the agent and editor want more than anything. Spoiler\u2014it's not \"vibes.\" It's a clear business case.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
+  "publishedDate": "2027-06-06",
+  "modifiedDate": "2027-06-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "sample chapters"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing/blog/blog_hero_rage_spreadsheets_blog_hero_landscape_25a5e2c3e79a.jpeg?updatedAt=1782199053537",
+    "alt": "blog hero \u00b7 rage spreadsheets",
+    "width": 6143,
+    "height": 4095,
+    "creator": "RDNE Stock project",
+    "creatorUrl": "https://www.pexels.com/@rdne",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
     }
   ],
   "tldrBlocks": [],
@@ -154,7 +163,16 @@ const PAGE_DATA = {
           "text": "If you can't summarize the gap in 2-3 sentences, no fancy format will save you."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing/blog/blog_section_image_panic_research_notes_blog_section_landscape_e4f2206a6699.gif?updatedAt=1782199054867",
+        "alt": "Step 2: Write the need argument before you fill the form",
+        "width": 160,
+        "height": 200,
+        "creator": "TheWadeEmpire2",
+        "creatorUrl": "https://giphy.com/gifs/teacher-homework-payingattentioninclass-vtFZ8O85q8g3MmXK51",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_3_define_target_market_who_and_where",
@@ -245,7 +263,16 @@ const PAGE_DATA = {
           "text": "A useful test: if an editor skims your comps paragraph, they should understand fast: 1) \"We know what shelf this belongs on.\" 2) \"We don't already have the exact version of this need.\""
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing/blog/blog_section_image_comps_credibility_blog_section_landscape_a3b2fa6e56a0.jpeg",
+        "alt": "Step 4: Choose comparative titles\u2014how to choose comparative titles for a proposal",
+        "width": 3750,
+        "height": 2500,
+        "creator": "Hartono Creative Studio",
+        "creatorUrl": "https://www.pexels.com/@hartonocreativestudio",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_5_build_overview_with_a_book_hook_last",
@@ -341,7 +368,16 @@ const PAGE_DATA = {
           "text": "If you don't have big numbers, show the signals cleanly. Don't pad."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing/blog/blog_section_image_platform_authority_blog_section_landscape_7079e39fe4a7.gif",
+        "alt": "Step 6: Write your author bio as reach (not performance)",
+        "width": 186,
+        "height": 200,
+        "creator": "rafaheli",
+        "creatorUrl": "https://giphy.com/gifs/black-pride-heritage-wotG7lhItM0rm8aqJD",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_7_pitch_marketing_as_what_you_can_do_now",
@@ -489,19 +525,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-      "url": "https://writequeryhook.com/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
     },
     {
       "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-      "url": "https://writequeryhook.com/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches-and-pay"
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
     },
     {
       "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-      "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     },
     {
-      "title": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-      "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+      "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
+      "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -536,7 +572,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-      "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
     }
   ]
 } as const;
@@ -566,7 +602,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -578,28 +614,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
       "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -615,11 +654,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing",
       "headline": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
       "alternativeHeadline": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
       "description": "Nonfiction proposals are where writers go to play a very specific game: guess what the agent and editor want more than anything. Spoiler\u2014it's not \"vibes.\" It's a clear business case.",
@@ -648,38 +687,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#primaryimage"
+      },
+      "datePublished": "2027-06-06",
+      "dateModified": "2027-06-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-          "url": "https://writequeryhook.com/query-letters/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-          "url": "https://writequeryhook.com/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
         },
         {
           "@type": "WebPage",
           "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-          "url": "https://writequeryhook.com/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches-and-pay"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
         },
         {
           "@type": "WebPage",
           "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-          "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
         },
         {
           "@type": "WebPage",
-          "name": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-          "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+          "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
+          "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_423/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing/blog/blog_hero_rage_spreadsheets_blog_hero_landscape_25a5e2c3e79a.jpeg?updatedAt=1782199053537",
+      "width": 6143,
+      "height": 4095,
+      "caption": "blog hero \u00b7 rage spreadsheets",
+      "creditText": "RDNE Stock project",
+      "author": {
+        "@type": "Person",
+        "name": "RDNE Stock project",
+        "url": "https://www.pexels.com/@rdne"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing#faq",
       "mainEntity": [
         {
           "@type": "Question",

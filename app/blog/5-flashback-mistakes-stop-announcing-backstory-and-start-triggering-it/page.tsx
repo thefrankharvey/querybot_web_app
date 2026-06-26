@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 flashback mistakes: stop \"announcing\" backstory and start triggering it",
   "description": "Smooth flashbacks live in trigger-logic, not in phrasing choices. Most writers announce backstory like a stage direction, and the reader yanks their attention back to authorland.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-29",
+  "modifiedDate": "2026-11-29",
   "canonicalUrl": "https://writequeryhook.com/blog/5-flashback-mistakes-stop-announcing-backstory-and-start-triggering-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -574,6 +574,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-flashback-mistakes-stop-announcing-backstory-and-start-triggering-it#primaryimage"
       },
+      "datePublished": "2026-11-29",
+      "dateModified": "2026-11-29",
       "mentions": [
         {
           "@type": "WebPage",

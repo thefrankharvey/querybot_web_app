@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Love marketing: how to treat every release like relationship work, not a hustle",
   "description": "The first time you hear the word \"marketing\" connected to your writing, your brain probably does that thing where it immediately imagines a megaphone, a chase, and a room full of people you're supposed to convince.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
+  "publishedDate": "2027-10-08",
+  "modifiedDate": "2027-10-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "item": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "item": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     }
   ],
   "tldrBlocks": [],
@@ -366,19 +366,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     },
     {
       "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     },
     {
       "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     },
     {
       "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -417,7 +417,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     }
   ]
 } as const;
@@ -447,7 +447,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,31 +459,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "item": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+          "item": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#webpage",
-      "url": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
+      "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#webpage",
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
       "name": "Love marketing: how to treat every release like relationship work, not a hustle",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage"
+        "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -499,11 +499,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#article",
+      "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#webpage"
+        "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle",
       "headline": "Love marketing: how to treat every release like relationship work, not a hustle",
       "alternativeHeadline": "Love marketing: how to treat every release like relationship work, not a hustle",
       "description": "The first time you hear the word \"marketing\" connected to your writing, your brain probably does that thing where it immediately imagines a megaphone, a chase, and a room full of people you're supposed to convince.",
@@ -533,39 +533,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage"
+        "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage"
       },
+      "datePublished": "2027-10-08",
+      "dateModified": "2027-10-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
+          "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         },
         {
           "@type": "WebPage",
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         },
         {
           "@type": "WebPage",
           "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+          "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
         },
         {
           "@type": "WebPage",
           "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+          "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage",
+      "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_567/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle/blog/blog_hero_awkward_marketing_fear_blog_hero_landscape_dac96b367d17.jpeg",
       "width": 6000,
       "height": 3368,
@@ -581,7 +583,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#faq",
+      "@id": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle#faq",
       "mainEntity": [
         {
           "@type": "Question",

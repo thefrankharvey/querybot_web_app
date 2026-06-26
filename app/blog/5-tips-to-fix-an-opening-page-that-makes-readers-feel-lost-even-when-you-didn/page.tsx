@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips to fix an opening page that makes readers feel lost (even when you didn't mean it)",
   "description": "There's a special kind of humiliation when someone says your opening page feels \"hostile\" or \"confusing.\" Not because your prose is bad. Because the reader is standing there holding your book like, Cool. But what is \"this,\" and why do I care?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-30",
+  "modifiedDate": "2026-12-30",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-fix-an-opening-page-that-makes-readers-feel-lost-even-when-you-didn",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -539,6 +539,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-to-fix-an-opening-page-that-makes-readers-feel-lost-even-when-you-didn#primaryimage"
       },
+      "datePublished": "2026-12-30",
+      "dateModified": "2026-12-30",
       "mentions": [
         {
           "@type": "WebPage",

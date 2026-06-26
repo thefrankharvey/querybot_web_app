@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for writing a novel synopsis that actually covers the whole story",
   "description": "You can finish a novel and still freeze when someone says, \"Now write a synopsis.\" The freeze isn't about plot knowledge\u2014you've lived in those scenes for months and know every turn. The problem is fitting forty thousand moving parts into something that fits on paper and still tells the truth.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
+  "publishedDate": "2027-11-07",
+  "modifiedDate": "2027-11-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+      "item": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     }
   ],
   "tldrBlocks": [],
@@ -323,19 +323,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     },
     {
       "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     },
     {
       "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     },
     {
       "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -370,7 +370,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "url": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     }
   ]
 } as const;
@@ -400,7 +400,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -412,31 +412,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+          "item": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
       "name": "5 tips for writing a novel synopsis that actually covers the whole story",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -452,11 +452,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story",
       "headline": "5 tips for writing a novel synopsis that actually covers the whole story",
       "alternativeHeadline": "5 tips for writing a novel synopsis that actually covers the whole story",
       "description": "You can finish a novel and still freeze when someone says, \"Now write a synopsis.\" The freeze isn't about plot knowledge\u2014you've lived in those scenes for months and know every turn. The problem is fitting forty thousand moving parts into something that fits on paper and still tells the truth.",
@@ -486,39 +486,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage"
       },
+      "datePublished": "2027-11-07",
+      "dateModified": "2027-11-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "url": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
-        },
-        {
-          "@type": "WebPage",
-          "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+          "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         },
         {
           "@type": "WebPage",
           "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
         },
         {
           "@type": "WebPage",
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_606/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story/blog/blog_hero_dread_compressed_plot_blog_hero_landscape_89ae47d76af2.gif",
       "width": 300,
       "height": 200,
@@ -534,7 +531,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story#faq",
       "mainEntity": [
         {
           "@type": "Question",

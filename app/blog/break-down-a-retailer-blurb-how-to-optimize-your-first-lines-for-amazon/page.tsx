@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
   "description": "Retail blurbs don't get the luxury of a slow read. A browser lands on a book page, sees a cover, and then\u2014if your text doesn't pay rent\u2014keeps scrolling. On Amazon and other retailers, only the initial lines often appear before the reader has to click to expand.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
+  "publishedDate": "2027-05-30",
+  "modifiedDate": "2027-05-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_hero_scrolling_read_more_click_blog_hero_landscape_71e73344988b.jpg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_hero_scrolling_read_more_click_blog_hero_landscape_71e73344988b.jpg?updatedAt=1782179097106",
     "alt": "blog hero \u00b7 scrolling read-more click",
     "width": 3000,
     "height": 2092,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "item": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
+      "item": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     }
   ],
   "tldrBlocks": [],
@@ -76,7 +76,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_tldr_blog_section_landscape_fa9258aa9c61.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_tldr_blog_section_landscape_fa9258aa9c61.jpeg?updatedAt=1782179097585",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -448,7 +448,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_8e3aa2dfeefd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_8e3aa2dfeefd.gif?updatedAt=1782179098223",
         "alt": "Body \u2014 structural breakdown",
         "width": 296,
         "height": 200,
@@ -477,7 +477,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_lessons_takeaways_blog_section_landscape_f738d3eaa96a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_lessons_takeaways_blog_section_landscape_f738d3eaa96a.gif?updatedAt=1782179099440",
         "alt": "Lessons / takeaways",
         "width": 246,
         "height": 200,
@@ -488,32 +488,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_section_image_revision_pass_tighten_blog_section_landscape_ca6d27f22609.jpeg",
-    "alt": "blog section image \u00b7 revision pass tighten",
-    "width": 4918,
-    "height": 3279,
-    "creator": "Anastasia  Shuraeva",
-    "creatorUrl": "https://www.pexels.com/@anastasia-shuraeva",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     },
     {
       "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     },
     {
       "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     },
     {
-      "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+      "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -531,7 +522,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     }
   ]
 } as const;
@@ -561,7 +552,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -573,31 +564,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "item": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
+          "item": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#webpage",
-      "url": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
+      "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#webpage",
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
       "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage"
+        "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -613,11 +604,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#article",
+      "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#webpage"
+        "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon",
       "headline": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
       "alternativeHeadline": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
       "description": "Retail blurbs don't get the luxury of a slow read. A browser lands on a book page, sees a cover, and then\u2014if your text doesn't pay rent\u2014keeps scrolling. On Amazon and other retailers, only the initial lines often appear before the reader has to click to expand.",
@@ -647,40 +638,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage"
+        "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage"
       },
+      "datePublished": "2027-05-30",
+      "dateModified": "2027-05-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
         },
         {
           "@type": "WebPage",
-          "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+          "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_hero_scrolling_read_more_click_blog_hero_landscape_71e73344988b.jpg",
+      "@id": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon/blog/blog_hero_scrolling_read_more_click_blog_hero_landscape_71e73344988b.jpg?updatedAt=1782179097106",
       "width": 3000,
       "height": 2092,
       "caption": "blog hero \u00b7 scrolling read-more click",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
   "description": "You finish the draft and suddenly everyone expects you to \"just publish it.\" OK. So what's next\u2014agent research? a proposal? figuring out contracts? waiting for replies that may never come?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
+  "publishedDate": "2027-06-05",
+  "modifiedDate": "2027-06-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_hero_recognition_stuck_blog_hero_landscape_0844515f17d2.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_hero_recognition_stuck_blog_hero_landscape_0844515f17d2.jpeg",
     "alt": "blog hero \u00b7 recognition stuck",
-    "width": 113,
-    "height": 200,
-    "creator": "juanbilly",
-    "creatorUrl": "https://giphy.com/gifs/time-deadline-loopartcritique2023-CvrdRQFY5YCbTCGKxY",
-    "provider": "giphy",
+    "width": 7732,
+    "height": 5155,
+    "creator": "DS stories",
+    "creatorUrl": "https://www.pexels.com/@ds-stories",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-      "item": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+      "item": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     }
   ],
   "tldrBlocks": [],
@@ -156,13 +156,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_revision_spine_blog_section_landscape_0593564e7199.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_revision_spine_blog_section_landscape_0593564e7199.gif",
         "alt": "Step 2: Make your manuscript query-ready (not \"draft-ready\")",
-        "width": 5585,
-        "height": 3723,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 110,
+        "height": 200,
+        "creator": "wizartStudios",
+        "creatorUrl": "https://giphy.com/gifs/spin-roulette-revisionroulette-QzcpPtoDPD0RZMyRra",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -223,7 +223,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_materials_synopsis_blog_section_landscape_81a92e5825ea.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_materials_synopsis_blog_section_landscape_81a92e5825ea.gif?updatedAt=1782198036543",
         "alt": "Step 3: Build your proposal and samples (one \"right-sized\" package)",
         "width": 134,
         "height": 200,
@@ -427,7 +427,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_launch_distribution_blog_section_landscape_45acf1c25e0f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_launch_distribution_blog_section_landscape_45acf1c25e0f.jpeg?updatedAt=1782198037336",
         "alt": "Step 7: Prepare for marketing and distribution (even for \"just one book\")",
         "width": 3999,
         "height": 2666,
@@ -438,32 +438,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_section_image_finish_line_deep_breath_blog_section_landscape_973233d8e5b1.jpeg",
-    "alt": "blog section image \u00b7 finish line deep breath",
-    "width": 4492,
-    "height": 2995,
-    "creator": "RUN 4 FFWPU",
-    "creatorUrl": "https://www.pexels.com/@runffwpu",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-      "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
-    },
-    {
       "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-      "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+      "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
     },
     {
       "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-      "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+    },
+    {
+      "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     },
     {
       "title": "Acceptability clause in publishing contracts FAQ",
-      "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -502,7 +493,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
     }
   ]
 } as const;
@@ -532,7 +523,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -544,31 +535,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-          "item": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+          "item": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
       "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -584,11 +575,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#article",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic",
       "headline": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
       "alternativeHeadline": "How to Get a Book Published: the Practical Steps (Without Pretending It\u2019s Magic)",
       "description": "You finish the draft and suddenly everyone expects you to \"just publish it.\" OK. So what's next\u2014agent research? a proposal? figuring out contracts? waiting for replies that may never come?",
@@ -618,55 +609,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage"
       },
+      "datePublished": "2027-06-05",
+      "dateModified": "2027-06-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-          "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
         },
         {
           "@type": "WebPage",
           "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-          "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+          "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
         },
         {
           "@type": "WebPage",
           "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-          "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+          "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
+          "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause in publishing contracts FAQ",
-          "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_hero_recognition_stuck_blog_hero_landscape_0844515f17d2.gif",
-      "width": 113,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic/blog/blog_hero_recognition_stuck_blog_hero_landscape_0844515f17d2.jpeg",
+      "width": 7732,
+      "height": 5155,
       "caption": "blog hero \u00b7 recognition stuck",
-      "creditText": "juanbilly",
+      "creditText": "DS stories",
       "author": {
         "@type": "Person",
-        "name": "juanbilly",
-        "url": "https://giphy.com/gifs/time-deadline-loopartcritique2023-CvrdRQFY5YCbTCGKxY"
+        "name": "DS stories",
+        "url": "https://www.pexels.com/@ds-stories"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#howto",
       "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
       "description": "You finish the draft and suddenly everyone expects you to \"just publish it.\" OK. So what's next\u2014agent research? a proposal? figuring out contracts? waiting for replies that may never come?",
       "totalTime": "PT7M",
@@ -676,56 +669,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Map your publishing path (traditional, hybrid, or self-publishing)",
           "text": "Before you write another sentence of query copy or pay for another service, pick the lane that matches your goals and risk tolerance. This isn't branding advice; it's logistics.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-1-map-your-publishing-path-traditional-hybrid-or-self-publishing"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-1-map-your-publishing-path-traditional-hybrid-or-self-publishing"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Make your manuscript query-ready (not \"draft-ready\")",
           "text": "Most \"aspiring author\" projects die because the opening pages don't earn attention or the story structure is still wobbling. Industry people don't want your potential. They want the book you're prepared to defend.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-2-make-your-manuscript-query-ready-not-draft-ready"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-2-make-your-manuscript-query-ready-not-draft-ready"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build your proposal and samples (one \"right-sized\" package)",
           "text": "Your publishing path determines which materials you need, but the principle stays the same: your work must be easy to evaluate.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-3-build-your-proposal-and-samples-one-right-sized-package"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-3-build-your-proposal-and-samples-one-right-sized-package"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Target agents or editors and follow MSWL (seriously)",
           "text": "Research is not optional busywork. It's how you avoid shotgun submissions that get ignored.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-4-target-agents-or-editors-and-follow-mswl-seriously"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-4-target-agents-or-editors-and-follow-mswl-seriously"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Run submissions like a real job (because \"later\" isn't a plan)",
           "text": "Submit in batches, record everything, and stop yourself from spiraling.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-5-run-submissions-like-a-real-job-because-later-isn-t-a-plan"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-5-run-submissions-like-a-real-job-because-later-isn-t-a-plan"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Handle contracts and rights carefully (get terms in writing)",
           "text": "Whether you go traditional or self-publish, you'll face agreements. This is where aspiring authors get sloppy, and it gets expensive.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-6-handle-contracts-and-rights-carefully-get-terms-in-writing"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-6-handle-contracts-and-rights-carefully-get-terms-in-writing"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Prepare for marketing and distribution (even for \"just one book\")",
           "text": "Publishing isn't done when the contract is signed. It's done when the book is available in the places readers actually shop\u2014and when you've prepared the materials that let people discover it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-7-prepare-for-marketing-and-distribution-even-for-just-one-book"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#step-7-prepare-for-marketing-and-distribution-even-for-just-one-book"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic#faq",
       "mainEntity": [
         {
           "@type": "Question",

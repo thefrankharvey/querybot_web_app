@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Economics of publishing FAQ: how to do the cost-and-receipts math",
   "description": "If you've ever heard \"the publisher made a killing\" and then watched the author's payout look\u2026 suspiciously small, that disconnect is the whole point of publishing economics. Readers assume list price turns into clean profit. In reality, the industry runs on discounts, unit costs, and spend\u2014and then waits to see what actually gets recouped.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
+  "publishedDate": "2027-11-01",
+  "modifiedDate": "2027-11-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-      "item": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
+      "item": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
     }
   ],
   "tldrBlocks": [],
@@ -280,20 +280,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "A case study in how to publish a poetry collection: from finished poems to a real release",
-      "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
-    },
-    {
       "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-      "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
     },
     {
       "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
-      "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
     },
     {
-      "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+      "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+    },
+    {
+      "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -308,12 +308,7 @@ const PAGE_DATA = {
       "text": "When you review any publishing claim\u2014advance, expected earnings, \"how this bestseller works\"\u2014ask for the cost-and-receipts math. That's the only version that holds up."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "A case study in how to publish a poetry collection: from finished poems to a real release",
-      "url": "https://writequeryhook.com/query-letters/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -341,7 +336,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -353,31 +348,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-          "item": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
+          "item": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#webpage",
-      "url": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
+      "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#webpage",
+      "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
       "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage"
+        "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -393,11 +388,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#article",
+      "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#webpage"
+        "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math",
       "headline": "Economics of publishing FAQ: how to do the cost-and-receipts math",
       "alternativeHeadline": "Economics of publishing FAQ: how to do the cost-and-receipts math",
       "description": "If you've ever heard \"the publisher made a killing\" and then watched the author's payout look\u2026 suspiciously small, that disconnect is the whole point of publishing economics. Readers assume list price turns into clean profit. In reality, the industry runs on discounts, unit costs, and spend\u2014and then waits to see what actually gets recouped.",
@@ -427,39 +422,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage"
+        "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage"
       },
+      "datePublished": "2027-11-01",
+      "dateModified": "2027-11-01",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "A case study in how to publish a poetry collection: from finished poems to a real release",
-          "url": "https://writequeryhook.com/query-letters/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A case study in how to publish a poetry collection: from finished poems to a real release",
-          "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
-        },
-        {
-          "@type": "WebPage",
           "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-          "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+          "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
         },
         {
           "@type": "WebPage",
           "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-          "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+          "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
         },
         {
           "@type": "WebPage",
-          "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+          "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
+          "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
+          "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage",
+      "@id": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_599/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math/blog/blog_hero_shock_confusion_blog_hero_landscape_1afc5093ec91.jpeg",
       "width": 8688,
       "height": 5792,

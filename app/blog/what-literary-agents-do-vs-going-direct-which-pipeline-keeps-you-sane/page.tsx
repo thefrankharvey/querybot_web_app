@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
   "description": "Here's the thing about querying: you're sending a r\u00e9sum\u00e9 to a dream job, except you don't get paid until the company officially hires you, and you're expected to keep refreshing your inbox like it owes you money.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
+  "publishedDate": "2027-08-01",
+  "modifiedDate": "2027-08-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_hero_dread_inbox_refresh_blog_hero_landscape_7b318cb7517b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_hero_dread_inbox_refresh_blog_hero_landscape_7b318cb7517b.jpeg?updatedAt=1782268758086",
     "alt": "blog hero \u00b7 dread inbox-refresh",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-      "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+      "item": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
     }
   ],
   "tldrBlocks": [],
@@ -98,13 +98,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_opening_blog_section_landscape_b0f40fe1faf1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_opening_blog_section_landscape_b0f40fe1faf1.jpeg",
         "alt": "Opening",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -125,13 +125,13 @@ const PAGE_DATA = {
       ],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.gif",
         "alt": "What happens after the offer lands",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "4ad",
+        "creatorUrl": "https://giphy.com/gifs/4ad-dance-dancing-methylethel-EBo7ygbbpitHIck9w5",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -178,13 +178,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.gif",
         "alt": "What happens after the offer lands",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "4ad",
+        "creatorUrl": "https://giphy.com/gifs/4ad-dance-dancing-methylethel-EBo7ygbbpitHIck9w5",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -236,13 +236,13 @@ const PAGE_DATA = {
       ],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_contracts_clauses_blog_section_landscape_0a747558349b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_contracts_clauses_blog_section_landscape_0a747558349b.gif",
         "alt": "Contracts: where the alternatives start charging you back",
-        "width": 5040,
-        "height": 3360,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "spongebob",
+        "creatorUrl": "https://giphy.com/gifs/spongebob-spongebob-squarepants-season-7-3o6wNS51SFsGCIeNd6",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -343,13 +343,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.gif",
         "alt": "What happens after the offer lands",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "4ad",
+        "creatorUrl": "https://giphy.com/gifs/4ad-dance-dancing-methylethel-EBo7ygbbpitHIck9w5",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -375,13 +375,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_filtering_triage_blog_section_landscape_4f65f69def7b.gif",
         "alt": "What happens after the offer lands",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "4ad",
+        "creatorUrl": "https://giphy.com/gifs/4ad-dance-dancing-methylethel-EBo7ygbbpitHIck9w5",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -473,32 +473,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_section_image_final_pick_go_ahead_blog_section_landscape_876e5646fd7e.gif",
-    "alt": "blog section image \u00b7 final-pick go-ahead",
-    "width": 258,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/moodman-da75JuW2HHuBNqOHHE",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     },
     {
       "title": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     },
     {
       "title": "AI Use in Writing: A Real FAQ for Authors",
-      "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     },
     {
-      "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+      "title": "How do advances and royalties work FAQ",
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     }
   ],
   "alsoLikeAfterIndex": 6,
@@ -512,7 +503,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "url": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     }
   ]
 } as const;
@@ -542,7 +533,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -554,31 +545,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-          "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+          "item": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#webpage",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
       "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -594,11 +585,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#article",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#webpage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane",
       "headline": "What literary agents do vs going direct: which pipeline keeps you sane?",
       "alternativeHeadline": "What literary agents do vs going direct: which pipeline keeps you sane?",
       "description": "Here's the thing about querying: you're sending a r\u00e9sum\u00e9 to a dream job, except you don't get paid until the company officially hires you, and you're expected to keep refreshing your inbox like it owes you money.",
@@ -628,40 +619,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage"
       },
+      "datePublished": "2027-08-01",
+      "dateModified": "2027-08-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "url": "https://writequeryhook.com/query-letters/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
         },
         {
           "@type": "WebPage",
           "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         },
         {
           "@type": "WebPage",
           "name": "AI Use in Writing: A Real FAQ for Authors",
-          "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+          "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
         },
         {
           "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+          "name": "How do advances and royalties work FAQ",
+          "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_hero_dread_inbox_refresh_blog_hero_landscape_7b318cb7517b.jpeg",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_489/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane/blog/blog_hero_dread_inbox_refresh_blog_hero_landscape_7b318cb7517b.jpeg?updatedAt=1782268758086",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread inbox-refresh",

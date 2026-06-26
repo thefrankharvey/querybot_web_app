@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing your first novella FAQ",
   "description": "If you're staring at the blank page wondering whether a novella is \"enough story\" or \"too much pressure,\" this page is for that exact brain panic. We're going to talk about what a novella is (word count and scope), why it's appealing for writing your first longer project, and how to keep it from turning into a rushed mess.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-16",
+  "modifiedDate": "2026-10-16",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-your-first-novella-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -515,6 +515,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-your-first-novella-faq#primaryimage"
       },
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
       "mentions": [
         {
           "@type": "WebPage",

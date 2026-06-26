@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
   "description": "The scariest part of a publishing deal isn't the rejection. It's the moment you realize success comes with trade-offs.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
+  "publishedDate": "2027-05-26",
+  "modifiedDate": "2027-05-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_hero_blindsided_offer_joy_blog_hero_landscape_58e2872f4161.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_hero_blindsided_offer_joy_blog_hero_landscape_58e2872f4161.jpeg?updatedAt=1782174041670",
     "alt": "blog hero \u00b7 blindsided offer-joy",
     "width": 5440,
     "height": 3627,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-      "item": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
+      "item": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     }
   ],
   "tldrBlocks": [],
@@ -160,7 +160,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_uneasy_branding_blog_section_landscape_4d53acff41a6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_uneasy_branding_blog_section_landscape_4d53acff41a6.jpeg?updatedAt=1782174042118",
         "alt": "H2: Title and pen name control are packaging decisions in disguise",
         "width": 6963,
         "height": 4642,
@@ -250,7 +250,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_exasperation_editing_blog_section_landscape_de329cafad9b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_exasperation_editing_blog_section_landscape_de329cafad9b.gif?updatedAt=1782174042748",
         "alt": "H2: Editing scope is usually smaller than you fear\u2014but the pressure is bigger than you expect",
         "width": 200,
         "height": 200,
@@ -392,7 +392,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_deadline_delay_blog_section_landscape_2ef0149cbe19.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_deadline_delay_blog_section_landscape_2ef0149cbe19.gif?updatedAt=1782174043590",
         "alt": "H2: Release schedule control changes your life, not just your publication date",
         "width": 200,
         "height": 200,
@@ -403,32 +403,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_section_image_breath_out_decision_blog_section_landscape_1613644da381.jpeg",
-    "alt": "blog section image \u00b7 breath-out decision",
-    "width": 6912,
-    "height": 3888,
-    "creator": "Sava Savov",
-    "creatorUrl": "https://www.pexels.com/@sava-savov-445034768",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 ways authors can help market their book after manuscript acceptance",
-      "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
     },
     {
       "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-      "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
     },
     {
       "title": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     },
     {
-      "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+      "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -471,7 +462,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 ways authors can help market their book after manuscript acceptance",
-      "url": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
     }
   ]
 } as const;
@@ -501,7 +492,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -513,31 +504,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-          "item": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
+          "item": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
+      "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#webpage",
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
       "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -553,11 +544,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#article",
+      "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#webpage"
+        "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control",
       "headline": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
       "alternativeHeadline": "A publisher won\u2019t \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
       "description": "The scariest part of a publishing deal isn't the rejection. It's the moment you realize success comes with trade-offs.",
@@ -587,40 +578,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage"
       },
+      "datePublished": "2027-05-26",
+      "dateModified": "2027-05-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 ways authors can help market their book after manuscript acceptance",
-          "url": "https://writequeryhook.com/query-letters/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways authors can help market their book after manuscript acceptance",
-          "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+          "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-          "url": "https://writequeryhook.com/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long-submissions"
+          "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+          "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
         },
         {
           "@type": "WebPage",
-          "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+          "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_hero_blindsided_offer_joy_blog_hero_landscape_58e2872f4161.jpeg",
+      "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_411/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control/blog/blog_hero_blindsided_offer_joy_blog_hero_landscape_58e2872f4161.jpeg?updatedAt=1782174041670",
       "width": 5440,
       "height": 3627,
       "caption": "blog hero \u00b7 blindsided offer-joy",
@@ -635,7 +623,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#faq",
+      "@id": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control#faq",
       "mainEntity": [
         {
           "@type": "Question",

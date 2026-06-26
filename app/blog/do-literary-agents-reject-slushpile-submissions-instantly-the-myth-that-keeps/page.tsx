@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Do literary agents reject slushpile submissions instantly? The myth that keeps writers stuck",
   "description": "The first time you hear \"slushpile,\" your brain goes somewhere ugly. Like: They'll see it's unsolicited and toss it before it breathes. Then you get a quick rejection and your stomach interprets that speed as a verdict\u2014about your worth, your talent, your \"market.\"",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-17",
+  "modifiedDate": "2027-02-17",
   "canonicalUrl": "https://writequeryhook.com/blog/do-literary-agents-reject-slushpile-submissions-instantly-the-myth-that-keeps",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/do-literary-agents-reject-slushpile-submissions-instantly-the-myth-that-keeps#primaryimage"
       },
+      "datePublished": "2027-02-17",
+      "dateModified": "2027-02-17",
       "mentions": [
         {
           "@type": "WebPage",

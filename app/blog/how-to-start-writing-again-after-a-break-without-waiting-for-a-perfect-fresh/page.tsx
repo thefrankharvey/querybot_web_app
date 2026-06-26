@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to start writing again after a break without waiting for a \"perfect\" fresh start",
   "description": "If you took a long writing break, you probably did the classic move: you stared at the manuscript and waited for your brain to \"remember\" it the way it felt back then.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-28",
+  "modifiedDate": "2026-12-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-start-writing-again-after-a-break-without-waiting-for-a-perfect-fresh",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -509,6 +509,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-start-writing-again-after-a-break-without-waiting-for-a-perfect-fresh#primaryimage"
       },
+      "datePublished": "2026-12-28",
+      "dateModified": "2026-12-28",
       "mentions": [
         {
           "@type": "WebPage",

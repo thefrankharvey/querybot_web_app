@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that keep you from feeling pride (and force your creativity into pain)",
   "description": "If you finish a scene, a draft, a painting, a chapter\u2014then your brain goes: Cool. Now point out everything wrong with it. Yeah. I've done that. I watch myself do it and I still hate how automatic it is.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-07",
+  "modifiedDate": "2027-02-07",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-keep-you-from-feeling-pride-and-force-your-creativity",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -574,6 +574,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-keep-you-from-feeling-pride-and-force-your-creativity#primaryimage"
       },
+      "datePublished": "2027-02-07",
+      "dateModified": "2027-02-07",
       "mentions": [
         {
           "@type": "WebPage",

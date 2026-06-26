@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to survive a writing car crash: use craft as your sword and shield",
   "description": "You can take a bad draft personally. The industry will cheerfully help you do that, too\u2014because the whole \"maybe it's not for me\" fog makes you doubt your instincts and stop working.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-14",
+  "modifiedDate": "2027-02-14",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-survive-a-writing-car-crash-use-craft-as-your-sword-and-shield",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -551,6 +551,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-survive-a-writing-car-crash-use-craft-as-your-sword-and-shield#primaryimage"
       },
+      "datePublished": "2027-02-14",
+      "dateModified": "2027-02-14",
       "mentions": [
         {
           "@type": "WebPage",

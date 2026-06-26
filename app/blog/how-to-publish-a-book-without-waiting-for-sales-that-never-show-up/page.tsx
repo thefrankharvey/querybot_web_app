@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
   "description": "TLDR",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
+  "publishedDate": "2027-10-14",
+  "modifiedDate": "2027-10-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-      "item": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+      "item": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     }
   ],
   "tldrBlocks": [],
@@ -612,19 +612,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
-    },
-    {
-      "title": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
     },
     {
       "title": "Author websites vs alternatives: pick the funnel-y option that converts",
-      "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+      "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
     },
     {
-      "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+      "title": "Research and marketing for small press success: key questions answered",
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
+    },
+    {
+      "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -679,7 +679,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How advances work against royalties: when you'll actually see money",
-      "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
     }
   ]
 } as const;
@@ -709,7 +709,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -721,31 +721,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-          "item": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+          "item": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
       "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -761,11 +761,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#article",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up",
       "headline": "How to Publish a Book Without Waiting for Sales That Never Show Up",
       "alternativeHeadline": "How to Publish a Book Without Waiting for Sales That Never Show Up",
       "description": "TLDR",
@@ -795,39 +795,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage"
       },
+      "datePublished": "2027-10-14",
+      "dateModified": "2027-10-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How advances work against royalties: when you'll actually see money",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
         },
         {
           "@type": "WebPage",
           "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-          "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+          "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
         },
         {
           "@type": "WebPage",
-          "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+          "name": "Research and marketing for small press success: key questions answered",
+          "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_575/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up/blog/blog_hero_recognition_rejection_blog_hero_landscape_6ad9f370ad1c.gif",
       "width": 360,
       "height": 200,
@@ -843,7 +845,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up#faq",
       "mainEntity": [
         {
           "@type": "Question",

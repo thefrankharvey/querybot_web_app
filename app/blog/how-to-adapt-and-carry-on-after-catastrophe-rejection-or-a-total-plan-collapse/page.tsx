@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to adapt and carry on after catastrophe, rejection, or a total plan collapse",
   "description": "When the \"normal\" version of your life gets wiped out\u2014by a storm, a missed deadline, a surprise rejection\u2014you don't need a motivational poster. You need a process.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-23",
+  "modifiedDate": "2027-03-23",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-adapt-and-carry-on-after-catastrophe-rejection-or-a-total-plan-collapse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -553,6 +553,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-adapt-and-carry-on-after-catastrophe-rejection-or-a-total-plan-collapse#primaryimage"
       },
+      "datePublished": "2027-03-23",
+      "dateModified": "2027-03-23",
       "mentions": [
         {
           "@type": "WebPage",

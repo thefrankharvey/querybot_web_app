@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 ways to keep writing when discouragement shows up (and it will)",
   "description": "Discouragement has a special talent for showing up right when you're finally sitting down to write. One minute you're \"mush-writing\" through a scene, and the next your brain is filing a formal complaint that you're not legitimate, not prepared, and not about to magically become consistent on command.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-10",
+  "modifiedDate": "2027-03-10",
   "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-keep-writing-when-discouragement-shows-up-and-it-will",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-ways-to-keep-writing-when-discouragement-shows-up-and-it-will#primaryimage"
       },
+      "datePublished": "2027-03-10",
+      "dateModified": "2027-03-10",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "End a chapter examples: how to write page-turn hooks that keep pacing alive",
   "description": "A lot of chapter-ending advice treats the last paragraph like decoration. \u201cWrap it up.\u201d \u201cMake it exciting.\u201d \u201cAdd a cliffhanger.\u201d",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-03",
+  "modifiedDate": "2026-10-03",
   "canonicalUrl": "https://writequeryhook.com/blog/end-a-chapter-examples-how-to-write-page-turn-hooks-that-keep-pacing-alive",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -728,6 +728,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/end-a-chapter-examples-how-to-write-page-turn-hooks-that-keep-pacing-alive#primaryimage"
       },
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
       "mentions": [
         {
           "@type": "WebPage",

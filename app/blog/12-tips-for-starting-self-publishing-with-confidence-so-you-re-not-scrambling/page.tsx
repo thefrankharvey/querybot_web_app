@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
   "description": "The moment you think self-publishing is going to be mostly \"upload and relax,\" reality climbs out of the screen like a jump-scare. You press publish. The book is live. And then\u2014surprise\u2014you discover nobody buys what nobody knows exists.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
+  "publishedDate": "2027-07-11",
+  "modifiedDate": "2027-07-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_hero_scrambling_algorithm_honeymoon_blog_hero_landscape_abce160ec9c0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_hero_scrambling_algorithm_honeymoon_blog_hero_landscape_abce160ec9c0.jpeg?updatedAt=1782249922030",
     "alt": "blog hero \u00b7 scrambling algorithm honeymoon",
     "width": 7680,
     "height": 4320,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-      "item": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
+      "item": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     }
   ],
   "tldrBlocks": [],
@@ -106,13 +106,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_confidence_course_blog_section_landscape_ab88893abff2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_confidence_course_blog_section_landscape_ab88893abff2.gif",
         "alt": "Tip 1: Learn the process before you press publish",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Tima Miroshnichenko",
-        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -143,13 +143,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_fear_quality_blog_section_landscape_2e9aaba47fb0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_fear_quality_blog_section_landscape_2e9aaba47fb0.jpeg",
         "alt": "Tip 2: Outsource the quality-risk areas",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3738,
+        "height": 2492,
+        "creator": "Public Domain Pictures",
+        "creatorUrl": "https://www.pexels.com/@public-domain-pictures",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -402,7 +402,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_royalties_data_blog_section_landscape_320a2ec48e3c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_royalties_data_blog_section_landscape_320a2ec48e3c.gif?updatedAt=1782249924477",
         "alt": "Tip 10: Track what selling queries respond to",
         "width": 200,
         "height": 200,
@@ -476,32 +476,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_section_image_relief_next_step_blog_section_landscape_cebfc330aacb.jpeg",
-    "alt": "blog section image \u00b7 relief next step",
-    "width": 3840,
-    "height": 2160,
-    "creator": "Kanhaiya Sharma",
-    "creatorUrl": "https://www.pexels.com/@kanhaiya-sharma-284427440",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     },
     {
       "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     },
     {
       "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     },
     {
-      "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+      "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -540,7 +531,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     }
   ]
 } as const;
@@ -570,7 +561,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -582,31 +573,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-          "item": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
+          "item": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#webpage",
-      "url": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
+      "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#webpage",
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
       "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage"
+        "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -622,11 +613,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#article",
+      "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#webpage"
+        "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling",
       "headline": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
       "alternativeHeadline": "12 tips for starting self-publishing with confidence (so you\u2019re not scrambling after it\u2019s live)",
       "description": "The moment you think self-publishing is going to be mostly \"upload and relax,\" reality climbs out of the screen like a jump-scare. You press publish. The book is live. And then\u2014surprise\u2014you discover nobody buys what nobody knows exists.",
@@ -656,40 +647,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage"
+        "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage"
       },
+      "datePublished": "2027-07-11",
+      "dateModified": "2027-07-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
         },
         {
           "@type": "WebPage",
           "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         },
         {
           "@type": "WebPage",
           "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
         },
         {
           "@type": "WebPage",
-          "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+          "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
+          "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_hero_scrambling_algorithm_honeymoon_blog_hero_landscape_abce160ec9c0.jpeg",
+      "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling/blog/blog_hero_scrambling_algorithm_honeymoon_blog_hero_landscape_abce160ec9c0.jpeg?updatedAt=1782249922030",
       "width": 7680,
       "height": 4320,
       "caption": "blog hero \u00b7 scrambling algorithm honeymoon",
@@ -704,7 +692,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#faq",
+      "@id": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling#faq",
       "mainEntity": [
         {
           "@type": "Question",

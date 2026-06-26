@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author bio vs generic bio vs no bio: which one gets you an agent?",
   "description": "You know that moment where a form asks for your \"author bio\" and your brain turns into a tiny box of pure cringe? Yeah. Welcome to querying.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-28",
+  "modifiedDate": "2026-08-28",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-vs-generic-bio-vs-no-bio-which-one-gets-you-an-agent",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-vs-generic-bio-vs-no-bio-which-one-gets-you-an-agent#primaryimage"
       },
+      "datePublished": "2026-08-28",
+      "dateModified": "2026-08-28",
       "mentions": [
         {
           "@type": "WebPage",

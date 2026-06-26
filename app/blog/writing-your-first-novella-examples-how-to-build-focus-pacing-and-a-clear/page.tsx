@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing your first novella examples: how to build focus, pacing, and a clear protagonist arc",
   "description": "A lot of \"novella advice\" floats around like a motivational poster: vague, inspiring, useless when you're staring at a blinking cursor and thinking, How the hell do I fit a whole story into this smaller shape?",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-15",
+  "modifiedDate": "2026-10-15",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-your-first-novella-examples-how-to-build-focus-pacing-and-a-clear",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -699,6 +699,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-your-first-novella-examples-how-to-build-focus-pacing-and-a-clear#primaryimage"
       },
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
       "mentions": [
         {
           "@type": "WebPage",

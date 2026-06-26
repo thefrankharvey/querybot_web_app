@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "You pov works when \u201cyou\u201d is the engine\u2014not a pop-in gimmick",
   "description": "You sit down to write, and the page offers you a seductive shortcut: slap in \u201cyou,\u201d and suddenly the scene feels intimate. Like you\u2019ve opened a door from the outside and the reader walks through with you.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-01",
+  "modifiedDate": "2027-01-01",
   "canonicalUrl": "https://writequeryhook.com/blog/you-pov-works-when-you-is-the-engine-not-a-pop-in-gimmick",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -616,6 +616,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/you-pov-works-when-you-is-the-engine-not-a-pop-in-gimmick#primaryimage"
       },
+      "datePublished": "2027-01-01",
+      "dateModified": "2027-01-01",
       "mentions": [
         {
           "@type": "WebPage",

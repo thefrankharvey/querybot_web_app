@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Before You Hit Submit vs the 'Just Send It' Alternatives: Pick the Version That Gets Reads",
   "description": "You've finished the manuscript. You typed \"the end,\" celebrated like a normal human, and then\u2014right when you should feel smug\u2014you feel that itch to hit submit before the joy evaporates.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-14",
+  "modifiedDate": "2026-07-14",
   "canonicalUrl": "https://writequeryhook.com/blog/before-you-hit-submit-vs-the-just-send-it-alternatives-pick-the-version-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -622,6 +622,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/before-you-hit-submit-vs-the-just-send-it-alternatives-pick-the-version-that#primaryimage"
       },
+      "datePublished": "2026-07-14",
+      "dateModified": "2026-07-14",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
   "description": "Getting book reviews is supposed to feel like \"marketing,\" but the part that breaks writers is the process. The chicken-and-egg is real: you want early reviews to create visibility, and you need visibility before reviewers will take your book seriously. So don't treat this like vibes and goodwill. Build a system instead.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq",
+  "publishedDate": "2027-10-22",
+  "modifiedDate": "2027-10-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-      "item": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq"
+      "item": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
     }
   ],
   "tldrBlocks": [],
@@ -361,20 +361,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-      "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
-    },
-    {
       "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-      "url": "https://writequeryhook.com/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     },
     {
       "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-      "url": "https://writequeryhook.com/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio-and-screen"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
     },
     {
-      "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-      "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+      "title": "7 literary agent cost mistakes that make writers sign the wrong deal",
+      "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+    },
+    {
+      "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -389,12 +389,7 @@ const PAGE_DATA = {
       "text": "If you want the tracking piece to stop being a messy spreadsheet in your brain, **Query Dashboard** is built for exactly this: keeping submissions organized so you don't double-submit, miss responses, or lose the thread when launch week hits."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-      "url": "https://writequeryhook.com/query-letters/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -422,7 +417,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -434,31 +429,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-          "item": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq"
+          "item": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#webpage",
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq",
       "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -474,11 +469,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#article",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq",
       "headline": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
       "alternativeHeadline": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
       "description": "Getting book reviews is supposed to feel like \"marketing,\" but the part that breaks writers is the process. The chicken-and-egg is real: you want early reviews to create visibility, and you need visibility before reviewers will take your book seriously. So don't treat this like vibes and goodwill. Build a system instead.",
@@ -508,39 +503,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#primaryimage"
       },
+      "datePublished": "2027-10-22",
+      "dateModified": "2027-10-22",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-          "url": "https://writequeryhook.com/query-letters/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-          "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
-        },
-        {
-          "@type": "WebPage",
           "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-          "url": "https://writequeryhook.com/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         },
         {
           "@type": "WebPage",
           "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-          "url": "https://writequeryhook.com/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio-and-screen"
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
         },
         {
           "@type": "WebPage",
-          "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-          "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+          "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
+          "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_585/get-book-reviews-in-5-steps-2025-update-faq/blog/blog_hero_kickoff_tension_blog_hero_landscape_61c5bc801e7a.jpeg",
       "width": 6000,
       "height": 4000,

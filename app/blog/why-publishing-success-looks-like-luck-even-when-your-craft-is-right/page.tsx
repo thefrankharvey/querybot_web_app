@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why publishing success looks like luck (even when your craft is right)",
   "description": "Here's the example that repeats in querying rooms, in PubTips threads, and in my own half-mad refresh cycles: you send dozens of queries after revising what you thought was \"the real improvement.\" The pages are cleaner. The stakes are sharper. The comp titles are closer. You're doing the work.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-08",
+  "modifiedDate": "2027-02-08",
   "canonicalUrl": "https://writequeryhook.com/blog/why-publishing-success-looks-like-luck-even-when-your-craft-is-right",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -668,6 +668,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-publishing-success-looks-like-luck-even-when-your-craft-is-right#primaryimage"
       },
+      "datePublished": "2027-02-08",
+      "dateModified": "2027-02-08",
       "mentions": [
         {
           "@type": "WebPage",

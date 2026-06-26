@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
   "description": "Study this infographic: \"5 key book publishing paths examples.\" Not because it's pretty (it is), but because it solves a writer problem that never goes away: the label lottery.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
+  "publishedDate": "2027-06-12",
+  "modifiedDate": "2027-06-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_hero_confused_stuck_blog_hero_landscape_950de68e254b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_hero_confused_stuck_blog_hero_landscape_950de68e254b.jpeg?updatedAt=1782215875056",
     "alt": "blog hero \u00b7 confused stuck",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-      "item": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
+      "item": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
     }
   ],
   "tldrBlocks": [],
@@ -120,13 +120,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_96080b7cafd7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_96080b7cafd7.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -361,13 +361,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_rights_no_advance_blog_section_landscape_a783519f0cec.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_rights_no_advance_blog_section_landscape_a783519f0cec.jpeg",
         "alt": "H2: Traditional vs no-advance traditional\u2014how risk removal changes the deal",
-        "width": 356,
-        "height": 200,
-        "creator": "dazn",
-        "creatorUrl": "https://giphy.com/gifs/dazn-fifa-world-cup-2026-71FDDPyb77jHY43kw8",
-        "provider": "giphy",
+        "width": 6701,
+        "height": 4467,
+        "creator": "RDNE Stock project",
+        "creatorUrl": "https://www.pexels.com/@rdne",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -551,7 +551,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_control_audience_building_blog_section_landscape_4fd3c3a81842.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_control_audience_building_blog_section_landscape_4fd3c3a81842.gif?updatedAt=1782215880256",
         "alt": "H2: Self-publishing and social publishing\u2014control, audience-building, and sales stress",
         "width": 356,
         "height": 200,
@@ -582,32 +582,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_section_image_back_to_your_draft_practical_next_step_blog_section_landscape_429e3c9705c7.jpeg",
-    "alt": "blog section image \u00b7 back to your draft practical next step",
-    "width": 3360,
-    "height": 2240,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-      "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
-    },
-    {
       "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-      "url": "https://writequeryhook.com/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits-that-sell"
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
     },
     {
       "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-      "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     },
     {
       "title": "Common author website mistakes that trap you for years (and how to fix them)",
-      "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+    },
+    {
+      "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -639,12 +630,7 @@ const PAGE_DATA = {
       "text": "When you're staring at the publishing label and feeling trapped, go back to what the infographic keeps trying to make you see: **who carries the risk and who owns the rights**. Then compare offers as if you're protecting your future budget and your control, because that's exactly what you're doing when you sign a contract. Now look at your options again\u2014line by line\u2014and make the choice that fits the work you actually want to do."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-      "url": "https://writequeryhook.com/query-letters/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -672,7 +658,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -684,31 +670,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-          "item": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
+          "item": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
+      "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#webpage",
+      "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
       "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -724,11 +710,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#article",
+      "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#webpage"
+        "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the",
       "headline": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
       "alternativeHeadline": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
       "description": "Study this infographic: \"5 key book publishing paths examples.\" Not because it's pretty (it is), but because it solves a writer problem that never goes away: the label lottery.",
@@ -758,40 +744,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage"
       },
+      "datePublished": "2027-06-12",
+      "dateModified": "2027-06-12",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-          "url": "https://writequeryhook.com/query-letters/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-          "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-          "url": "https://writequeryhook.com/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits-that-sell"
+          "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
         },
         {
           "@type": "WebPage",
           "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-          "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+          "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "Common author website mistakes that trap you for years (and how to fix them)",
-          "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_hero_confused_stuck_blog_hero_landscape_950de68e254b.jpeg",
+      "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_430/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the/blog/blog_hero_confused_stuck_blog_hero_landscape_950de68e254b.jpeg?updatedAt=1782215875056",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confused stuck",
@@ -806,7 +789,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#faq",
+      "@id": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

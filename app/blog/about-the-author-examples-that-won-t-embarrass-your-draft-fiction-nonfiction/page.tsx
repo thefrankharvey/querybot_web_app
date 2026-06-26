@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "About the Author examples that won't embarrass your draft: fiction, nonfiction, and social bios",
   "description": "Writers tend to treat the \"About the Author\" section like a paperwork garnish. The kind you do last. The kind you slap together because the book is already almost done and the final draft deserves a reward.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-26",
+  "modifiedDate": "2026-08-26",
   "canonicalUrl": "https://writequeryhook.com/blog/about-the-author-examples-that-won-t-embarrass-your-draft-fiction-nonfiction",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -718,6 +718,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/about-the-author-examples-that-won-t-embarrass-your-draft-fiction-nonfiction#primaryimage"
       },
+      "datePublished": "2026-08-26",
+      "dateModified": "2026-08-26",
       "mentions": [
         {
           "@type": "WebPage",

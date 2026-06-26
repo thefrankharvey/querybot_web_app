@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Collaboration vs \"solo genius\": which writing process actually gets picture books published?",
   "description": "Writers get told a bedtime story about creation: one person, one desk, one genius spark\u2014everything else is noise. And then someone mentions \"feedback\" and suddenly the room turns into a courtroom.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-14",
+  "modifiedDate": "2026-12-14",
   "canonicalUrl": "https://writequeryhook.com/blog/collaboration-vs-solo-genius-which-writing-process-actually-gets-picture-books",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -521,6 +521,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/collaboration-vs-solo-genius-which-writing-process-actually-gets-picture-books#primaryimage"
       },
+      "datePublished": "2026-12-14",
+      "dateModified": "2026-12-14",
       "mentions": [
         {
           "@type": "WebPage",

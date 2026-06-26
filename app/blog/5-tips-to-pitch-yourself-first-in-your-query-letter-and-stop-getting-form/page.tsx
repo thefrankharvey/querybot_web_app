@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips to pitch yourself first in your query letter (and stop getting form-rejections)",
   "description": "Most query letter advice has gotten\u2026 boring. The opening paragraph becomes a template of familiar story logistics, the project summary shows up on autopilot, and pretty soon the agent's brain does the thing you don't want it to do: it glazes over.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-29",
+  "modifiedDate": "2026-07-29",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-pitch-yourself-first-in-your-query-letter-and-stop-getting-form",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -494,6 +494,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-to-pitch-yourself-first-in-your-query-letter-and-stop-getting-form#primaryimage"
       },
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
       "mentions": [
         {
           "@type": "WebPage",

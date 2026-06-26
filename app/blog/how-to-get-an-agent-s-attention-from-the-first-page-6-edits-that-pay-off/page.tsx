@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Get an Agent's Attention From the First Page: 6 Edits That Pay Off",
   "description": "You can write a solid novel and still get stuck in the polite-rejection loop, because agents don't read your book in a vacuum. They read it inside a submission packet\u2014query letter, first page, and whatever story-specific expectations come with your format and audience.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-21",
+  "modifiedDate": "2027-01-21",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-get-an-agent-s-attention-from-the-first-page-6-edits-that-pay-off",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -609,6 +609,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-get-an-agent-s-attention-from-the-first-page-6-edits-that-pay-off#primaryimage"
       },
+      "datePublished": "2027-01-21",
+      "dateModified": "2027-01-21",
       "mentions": [
         {
           "@type": "WebPage",

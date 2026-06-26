@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to research a novel without getting stuck in the research wormhole",
   "description": "Research is supposed to make your novel feel believable. It's also really good at stealing your writing time until you look up one day and realize you've become a part-time librarian with zero pages to show for it.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-24",
+  "modifiedDate": "2026-11-24",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-research-a-novel-without-getting-stuck-in-the-research-wormhole",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -496,6 +496,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-research-a-novel-without-getting-stuck-in-the-research-wormhole#primaryimage"
       },
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why author despair hits right when you're getting better (Dunning-Kruger for writers)",
   "description": "You know that moment. Your draft is humming in your head\u2014maybe not publish-ready, but for you it's fine. Then feedback arrives, or you send the submission, or you join critique, and suddenly the same pages look\u2026 different. Worse. Flimsier. Like the \"perfect\" version was just your ignorance in nicer lighting.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-05",
+  "modifiedDate": "2027-02-05",
   "canonicalUrl": "https://writequeryhook.com/blog/why-author-despair-hits-right-when-you-re-getting-better-dunning-kruger-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -630,6 +630,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-author-despair-hits-right-when-you-re-getting-better-dunning-kruger-for#primaryimage"
       },
+      "datePublished": "2027-02-05",
+      "dateModified": "2027-02-05",
       "mentions": [
         {
           "@type": "WebPage",

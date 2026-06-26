@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
   "description": "Your book synopsis shouldn't feel like a trapdoor under your chair.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
+  "publishedDate": "2027-11-06",
+  "modifiedDate": "2027-11-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+      "item": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     }
   ],
   "tldrBlocks": [],
@@ -466,19 +466,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     },
     {
       "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     },
     {
       "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     },
     {
-      "title": "Author branding vs alternatives: which one actually sells your books",
-      "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+      "title": "Amazon algorithms vs alternatives: what actually drives visibility",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -517,7 +517,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     }
   ]
 } as const;
@@ -547,7 +547,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -559,31 +559,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+          "item": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
       "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -599,11 +599,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof",
       "headline": "5 tips for writing a compelling book synopsis that ends with the right proof",
       "alternativeHeadline": "5 tips for writing a compelling book synopsis that ends with the right proof",
       "description": "Your book synopsis shouldn't feel like a trapdoor under your chair.",
@@ -633,39 +633,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage"
       },
+      "datePublished": "2027-11-06",
+      "dateModified": "2027-11-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         },
         {
           "@type": "WebPage",
           "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
         },
         {
           "@type": "WebPage",
-          "name": "Author branding vs alternatives: which one actually sells your books",
-          "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+          "name": "Amazon algorithms vs alternatives: what actually drives visibility",
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_605/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof/blog/blog_hero_recognition_dread_blog_hero_landscape_7909b31f2c77.gif",
       "width": 200,
       "height": 200,
@@ -681,7 +678,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof#faq",
       "mainEntity": [
         {
           "@type": "Question",

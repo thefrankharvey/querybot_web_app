@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips to tell an editor, coach, and beta reader apart (and hire the right kind of help)",
   "description": "The feedback market has gotten big enough that \"editor\" and \"coach\" and \"beta reader\" can start to feel like clothing labels: same word, totally different cut. Add pricing and buzzwords, and suddenly you're lost in the noise of what each role actually means.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-26",
+  "modifiedDate": "2026-11-26",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-tell-an-editor-coach-and-beta-reader-apart-and-hire-the-right-kind",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -555,6 +555,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-to-tell-an-editor-coach-and-beta-reader-apart-and-hire-the-right-kind#primaryimage"
       },
+      "datePublished": "2026-11-26",
+      "dateModified": "2026-11-26",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
   "description": "The first time you see an acceptability clause in publishing contracts, it doesn't feel like \"a clause.\" It feels like a trapdoor.",
   "readTime": "18 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
+  "publishedDate": "2027-05-11",
+  "modifiedDate": "2027-05-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_hero_recognition_dread_blog_hero_landscape_0252b23ec747.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_hero_recognition_dread_blog_hero_landscape_0252b23ec747.jpeg?updatedAt=1782140846985",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "item": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
+      "item": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     }
   ],
   "tldrBlocks": [],
@@ -121,13 +121,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_opening_blog_section_landscape_4b44a8714ad7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_opening_blog_section_landscape_4b44a8714ad7.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -353,7 +353,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_editorial_support_obligation_blog_section_landscape_8b5fd12ef42c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_editorial_support_obligation_blog_section_landscape_8b5fd12ef42c.gif?updatedAt=1782140857843",
         "alt": "How editorial assistance can create an obligation",
         "width": 192,
         "height": 200,
@@ -568,7 +568,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_fairness_proposal_payment_blog_section_landscape_ecaaf8919928.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_fairness_proposal_payment_blog_section_landscape_ecaaf8919928.jpeg?updatedAt=1782140858616",
         "alt": "Kill-fee-style fixes and the real-world limitations",
         "width": 5000,
         "height": 2812,
@@ -709,32 +709,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_section_image_resolution_next_draft_energy_blog_section_landscape_f60aa40bc4cc.gif",
-    "alt": "blog section image \u00b7 resolution next draft energy",
-    "width": 200,
-    "height": 200,
-    "creator": "Fuzzlets",
-    "creatorUrl": "https://giphy.com/gifs/Fuzzlets-kiss-blowing-a-fuzzlets-PF6e8Xq8dVnVX1BGLS",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-      "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+      "title": "Which rights do I sign away in a book deal FAQ",
+      "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
     },
     {
-      "title": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-      "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
+      "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     },
     {
-      "title": "Book deal vs alternatives: which rights you sign away (and what you should fight for)",
-      "url": "https://writequeryhook.com/book-deal-vs-alternatives-which-rights-you-sign-away-and-what-you-should-fight-for"
+      "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     },
     {
-      "title": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-      "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
+      "title": "How to incorporate agent/editor feedback without breaking your story",
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -757,7 +748,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     }
   ]
 } as const;
@@ -787,7 +778,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -799,31 +790,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "item": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
+          "item": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#webpage",
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
       "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -839,11 +830,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#article",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#webpage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really",
       "headline": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
       "alternativeHeadline": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
       "description": "The first time you see an acceptability clause in publishing contracts, it doesn't feel like \"a clause.\" It feels like a trapdoor.",
@@ -873,40 +864,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage"
       },
+      "datePublished": "2027-05-11",
+      "dateModified": "2027-05-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         },
         {
           "@type": "WebPage",
-          "name": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-          "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+          "name": "Which rights do I sign away in a book deal FAQ",
+          "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-          "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
+          "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+          "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         },
         {
           "@type": "WebPage",
-          "name": "Book deal vs alternatives: which rights you sign away (and what you should fight for)",
-          "url": "https://writequeryhook.com/book-deal-vs-alternatives-which-rights-you-sign-away-and-what-you-should-fight-for"
+          "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
+          "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
         },
         {
           "@type": "WebPage",
-          "name": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-          "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
+          "name": "How to incorporate agent/editor feedback without breaking your story",
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_hero_recognition_dread_blog_hero_landscape_0252b23ec747.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really/blog/blog_hero_recognition_dread_blog_hero_landscape_0252b23ec747.jpeg?updatedAt=1782140846985",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -921,7 +914,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#faq",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really#faq",
       "mainEntity": [
         {
           "@type": "Question",

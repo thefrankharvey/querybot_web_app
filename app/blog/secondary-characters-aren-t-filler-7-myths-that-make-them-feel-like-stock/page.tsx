@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Secondary characters aren't filler\u20147 myths that make them feel like stock",
   "description": "Most writers can spot the problem in a draft within ten pages: the story starts to feel predictable, like the cast is on autopilot. You'll read a scene and realize you already know what the \"friend,\" \"mentor,\" \"rival,\" or \"mysterious stranger\" will do next. Predictability is boring. And if the secondary characters are running predictable scripts, they'll drag your novel writing down with them.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-21",
+  "modifiedDate": "2026-12-21",
   "canonicalUrl": "https://writequeryhook.com/blog/secondary-characters-aren-t-filler-7-myths-that-make-them-feel-like-stock",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -563,6 +563,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/secondary-characters-aren-t-filler-7-myths-that-make-them-feel-like-stock#primaryimage"
       },
+      "datePublished": "2026-12-21",
+      "dateModified": "2026-12-21",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How that 100+ character ideas list actually generates usable protagonists",
   "description": "A lot of \"character idea\" lists are basically decorative. You scroll, you nod, you maybe save one, and then\u2014surprise\u2014you still don't have a protagonist you can draft scenes with.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-30",
+  "modifiedDate": "2026-11-30",
   "canonicalUrl": "https://writequeryhook.com/blog/how-that-100-character-ideas-list-actually-generates-usable-protagonists",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -639,6 +639,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-that-100-character-ideas-list-actually-generates-usable-protagonists#primaryimage"
       },
+      "datePublished": "2026-11-30",
+      "dateModified": "2026-11-30",
       "mentions": [
         {
           "@type": "WebPage",

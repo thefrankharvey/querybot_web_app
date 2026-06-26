@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
   "description": "An offer from a literary agent feels like the floor moved under you. Heart up. Hands shaking. Brain doing fireworks. And then\u2014bam\u2014you're tempted to say yes immediately, because excitement feels like proof.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
+  "publishedDate": "2027-04-30",
+  "modifiedDate": "2027-04-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_hero_excited_overwhelmed_blog_hero_landscape_9b25ebfad728.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_hero_excited_overwhelmed_blog_hero_landscape_9b25ebfad728.jpeg?updatedAt=1782058667314",
     "alt": "blog hero \u00b7 excited overwhelmed",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
+      "item": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
     }
   ],
   "tldrBlocks": [],
@@ -193,13 +193,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_relationships_tension_blog_section_landscape_9842f33c0aba.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_relationships_tension_blog_section_landscape_9842f33c0aba.gif",
         "alt": "You're mishandling other agents: ghosting or mass-querying",
-        "width": 5810,
-        "height": 3873,
-        "creator": "Anete Lusina",
-        "creatorUrl": "https://www.pexels.com/@anete-lusina",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "itsbubblesnboo",
+        "creatorUrl": "https://giphy.com/gifs/0k3WIY6sqXJAGIM9gK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -294,13 +294,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_paperwork_author_rights_blog_section_landscape_bdd4b6dde417.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_paperwork_author_rights_blog_section_landscape_bdd4b6dde417.gif",
         "alt": "You're ignoring contract terms because you think you already covered it",
-        "width": 5184,
-        "height": 2920,
-        "creator": "Kindel Media",
-        "creatorUrl": "https://www.pexels.com/@kindelmedia",
-        "provider": "pexels",
+        "width": 312,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/misc-terminator-RfEbMBTPQ7MOY",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -450,13 +450,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_paperwork_author_rights_blog_section_landscape_bdd4b6dde417.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_paperwork_author_rights_blog_section_landscape_bdd4b6dde417.gif",
         "alt": "You're ignoring contract terms because you think you already covered it",
-        "width": 5184,
-        "height": 2920,
-        "creator": "Kindel Media",
-        "creatorUrl": "https://www.pexels.com/@kindelmedia",
-        "provider": "pexels",
+        "width": 312,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/misc-terminator-RfEbMBTPQ7MOY",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -473,43 +473,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_a2f091d6bf6d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_recap_blog_section_landscape_a2f091d6bf6d.jpeg",
         "alt": "Recap",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_section_image_calm_structured_questions_blog_section_landscape_40df6fdbe321.gif",
-    "alt": "blog section image \u00b7 calm structured questions",
-    "width": 357,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/question-HVPJVRSUtSuyI",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-      "url": "https://writequeryhook.com/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     },
     {
       "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-      "url": "https://writequeryhook.com/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your-baby"
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     },
     {
       "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
     },
     {
-      "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -541,12 +532,7 @@ const PAGE_DATA = {
       "text": "Now, pick one item from this list and fix it before you reply again: schedule logistics, draft your question list, and re-check the agreement basics like it matters\u2014because it does. Your excitement is fine. Your decision needs receipts."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-      "url": "https://writequeryhook.com/query-letters/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -574,7 +560,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -586,31 +572,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
+          "item": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
+      "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#webpage",
+      "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
       "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -626,11 +612,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#article",
+      "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#webpage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them",
       "headline": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
       "alternativeHeadline": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
       "description": "An offer from a literary agent feels like the floor moved under you. Heart up. Hands shaking. Brain doing fireworks. And then\u2014bam\u2014you're tempted to say yes immediately, because excitement feels like proof.",
@@ -660,40 +646,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-04-30",
+      "dateModified": "2027-04-30",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-          "url": "https://writequeryhook.com/query-letters/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me"
-        },
-        {
-          "@type": "WebPage",
           "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-          "url": "https://writequeryhook.com/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+          "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         },
         {
           "@type": "WebPage",
           "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-          "url": "https://writequeryhook.com/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your-baby"
+          "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
         },
         {
           "@type": "WebPage",
           "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
         },
         {
           "@type": "WebPage",
-          "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
+          "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_hero_excited_overwhelmed_blog_hero_landscape_9b25ebfad728.jpeg",
+      "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_373/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them/blog/blog_hero_excited_overwhelmed_blog_hero_landscape_9b25ebfad728.jpeg?updatedAt=1782058667314",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 excited overwhelmed",
@@ -708,7 +691,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#faq",
+      "@id": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them#faq",
       "mainEntity": [
         {
           "@type": "Question",

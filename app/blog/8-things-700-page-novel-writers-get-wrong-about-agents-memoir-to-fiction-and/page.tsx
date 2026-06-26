@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "8 things 700-page novel writers get wrong about agents, memoir-to-fiction, and food descriptions",
   "description": "A 700-page novel can feel like a giant, awkward handshake you're forcing agents to endure. You can almost hear the internal monologue: They'll see the page count and move on. And then there's the extra fun\u2014if your book has memoir DNA, you might also worry you've confused \"truth\" with \"fiction.\" Add in food writing (the kind that makes people chew with their imagination), and it's easy to start doubting every choice.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-03",
+  "modifiedDate": "2026-11-03",
   "canonicalUrl": "https://writequeryhook.com/blog/8-things-700-page-novel-writers-get-wrong-about-agents-memoir-to-fiction-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -617,6 +617,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/8-things-700-page-novel-writers-get-wrong-about-agents-memoir-to-fiction-and#primaryimage"
       },
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
       "mentions": [
         {
           "@type": "WebPage",

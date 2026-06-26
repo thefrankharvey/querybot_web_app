@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "D\u00e9nouement definition: tips and examples vs epilogue, sequel teaser, and cliffhanger",
   "description": "Most writers don\u2019t struggle with the idea of an ending. They struggle with the moment right after the high point\u2014when the climax ends and the story should quietly start making sense of itself.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-29",
+  "modifiedDate": "2026-10-29",
   "canonicalUrl": "https://writequeryhook.com/blog/denouement-definition-tips-and-examples-vs-epilogue-sequel-teaser-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -620,6 +620,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/denouement-definition-tips-and-examples-vs-epilogue-sequel-teaser-and#primaryimage"
       },
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
       "mentions": [
         {
           "@type": "WebPage",

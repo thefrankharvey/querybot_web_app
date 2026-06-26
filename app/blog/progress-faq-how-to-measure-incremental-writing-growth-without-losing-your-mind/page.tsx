@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
   "description": "Writers get good at the \"work\" part\u2014then the \"am I actually improving?\" part starts eating your attention. Some days you feel stronger; other days you can't believe you ever thought that sentence was acceptable. That whiplash is normal, and it's also how a lot of people talk themselves out of continuing.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
+  "publishedDate": "2027-04-20",
+  "modifiedDate": "2027-04-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_hero_stuck_feeling_quiet_wins_blog_hero_landscape_f8c399bee0cd.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_hero_stuck_feeling_quiet_wins_blog_hero_landscape_f8c399bee0cd.jpeg?updatedAt=1781851725560",
     "alt": "blog hero \u00b7 stuck feeling quiet wins",
     "width": 3840,
     "height": 2160,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-      "item": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+      "item": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
     }
   ],
   "tldrBlocks": [],
@@ -91,7 +91,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_how_does_the_article_suggest_i_should_think_abou_blog_section_landscape_19adf1797f67.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_how_does_the_article_suggest_i_should_think_abou_blog_section_landscape_19adf1797f67.jpeg?updatedAt=1781851726013",
         "alt": "How does the article suggest I should think about progress in writing?",
         "width": 6611,
         "height": 4407,
@@ -129,7 +129,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_what_should_i_do_if_i_don_t_feel_like_i_m_improv_blog_section_landscape_ccac5690671b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_what_should_i_do_if_i_don_t_feel_like_i_m_improv_blog_section_landscape_ccac5690671b.gif?updatedAt=1781851726738",
         "alt": "What should I do if I don't feel like I'm improving week to week?",
         "width": 296,
         "height": 200,
@@ -220,43 +220,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_what_kinds_of_achievements_should_i_consider_whe_blog_section_landscape_9bd8dee5f92d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_what_kinds_of_achievements_should_i_consider_whe_blog_section_landscape_9bd8dee5f92d.gif",
         "alt": "What kinds of achievements should I consider when measuring my growth?",
-        "width": 6655,
-        "height": 4437,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_section_image_next_draft_measured_wins_blog_section_landscape_862c41f52fd1.gif",
-    "alt": "blog section image \u00b7 next draft measured wins",
-    "width": 200,
-    "height": 200,
-    "creator": "bad_arithmetic",
-    "creatorUrl": "https://giphy.com/gifs/under-construction-measure-up-3og0IQttlo3NfcsIiQ",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-      "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
     },
     {
       "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-      "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     },
     {
       "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-      "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+      "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
     },
     {
-      "title": "Literary agents vs the slush pile: slay the myths, keep the process",
-      "url": "https://writequeryhook.com/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
+      "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -270,7 +261,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-      "url": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     }
   ]
 } as const;
@@ -300,7 +291,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -312,31 +303,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-          "item": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+          "item": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#webpage",
-      "url": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
+      "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#webpage",
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
       "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage"
+        "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -352,11 +343,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#article",
+      "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#webpage"
+        "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind",
       "headline": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
       "alternativeHeadline": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
       "description": "Writers get good at the \"work\" part\u2014then the \"am I actually improving?\" part starts eating your attention. Some days you feel stronger; other days you can't believe you ever thought that sentence was acceptable. That whiplash is normal, and it's also how a lot of people talk themselves out of continuing.",
@@ -386,40 +377,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage"
+        "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage"
       },
+      "datePublished": "2027-04-20",
+      "dateModified": "2027-04-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-          "url": "https://writequeryhook.com/query-letters/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
+          "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         },
         {
           "@type": "WebPage",
           "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-          "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+          "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
         },
         {
           "@type": "WebPage",
           "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-          "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+          "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
         },
         {
           "@type": "WebPage",
           "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-          "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+          "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
         },
         {
           "@type": "WebPage",
-          "name": "Literary agents vs the slush pile: slay the myths, keep the process",
-          "url": "https://writequeryhook.com/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
+          "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_hero_stuck_feeling_quiet_wins_blog_hero_landscape_f8c399bee0cd.jpeg",
+      "@id": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_363/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind/blog/blog_hero_stuck_feeling_quiet_wins_blog_hero_landscape_f8c399bee0cd.jpeg?updatedAt=1781851725560",
       "width": 3840,
       "height": 2160,
       "caption": "blog hero \u00b7 stuck feeling quiet wins",

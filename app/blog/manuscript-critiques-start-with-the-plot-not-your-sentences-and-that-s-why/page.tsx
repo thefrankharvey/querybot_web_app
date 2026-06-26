@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
   "description": "When you hear \u201cyour manuscript has been accepted,\u201d your brain does this cute little sprint toward the finish line. Then reality shows up in an inbox, usually with the word edit, and suddenly you\u2019re staring at a draft like it\u2019s a tax form you didn\u2019t study for.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
+  "publishedDate": "2027-05-14",
+  "modifiedDate": "2027-05-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_hero_offer_dread_blog_hero_landscape_2961dc5e64b5.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_hero_offer_dread_blog_hero_landscape_2961dc5e64b5.jpeg?updatedAt=1782146127486",
     "alt": "blog hero \u00b7 offer dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-      "item": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
+      "item": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     }
   ],
   "tldrBlocks": [],
@@ -99,13 +99,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_tldr_blog_section_landscape_c7964fb4ea83.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_tldr_blog_section_landscape_c7964fb4ea83.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -146,13 +146,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_opening_blog_section_landscape_28c4e5cb931e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_opening_blog_section_landscape_28c4e5cb931e.jpeg",
         "alt": "Opening",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -410,7 +410,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_craft_ownership_blog_section_landscape_6e0d7cf29c0a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_craft_ownership_blog_section_landscape_6e0d7cf29c0a.gif?updatedAt=1782146142144",
         "alt": "How editors revise plot, character, pacing without messing with your voice",
         "width": 246,
         "height": 200,
@@ -497,32 +497,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_section_image_deep_breath_open_the_manuscript_blog_section_landscape_ec8ff1538f78.jpeg",
-    "alt": "blog section image \u00b7 deep breath open the manuscript",
-    "width": 4097,
-    "height": 2303,
-    "creator": "Yerzhan Kamalov",
-    "creatorUrl": "https://www.pexels.com/@yerzhan-kamalov-239928520",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips to understand the publishing timeline after the offer",
-      "url": "https://writequeryhook.com/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     },
     {
       "title": "5 tips for handling a representation offer without making a panic decision",
-      "url": "https://writequeryhook.com/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     },
     {
       "title": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     },
     {
-      "title": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-      "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+      "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -565,7 +556,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips to understand the publishing timeline after the offer",
-      "url": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     }
   ]
 } as const;
@@ -595,7 +586,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -607,31 +598,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-          "item": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
+          "item": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#webpage",
-      "url": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
+      "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#webpage",
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
       "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -647,11 +638,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#article",
+      "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#webpage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why",
       "headline": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
       "alternativeHeadline": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
       "description": "When you hear \u201cyour manuscript has been accepted,\u201d your brain does this cute little sprint toward the finish line. Then reality shows up in an inbox, usually with the word edit, and suddenly you\u2019re staring at a draft like it\u2019s a tax form you didn\u2019t study for.",
@@ -681,40 +672,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage"
       },
+      "datePublished": "2027-05-14",
+      "dateModified": "2027-05-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips to understand the publishing timeline after the offer",
-          "url": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips to understand the publishing timeline after the offer",
-          "url": "https://writequeryhook.com/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for handling a representation offer without making a panic decision",
-          "url": "https://writequeryhook.com/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+          "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         },
         {
           "@type": "WebPage",
           "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+          "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
         },
         {
           "@type": "WebPage",
-          "name": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-          "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+          "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_hero_offer_dread_blog_hero_landscape_2961dc5e64b5.jpeg",
+      "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why/blog/blog_hero_offer_dread_blog_hero_landscape_2961dc5e64b5.jpeg?updatedAt=1782146127486",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 offer dread",
@@ -729,7 +717,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#faq",
+      "@id": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why#faq",
       "mainEntity": [
         {
           "@type": "Question",

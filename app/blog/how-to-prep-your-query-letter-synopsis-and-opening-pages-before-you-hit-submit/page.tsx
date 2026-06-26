@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to prep your query letter, synopsis, and opening pages before you hit submit",
   "description": "Finishing a manuscript feels like stepping onstage after weeks of rehearsal. Then you stare at \"the end\" and think, Great. Now I'm supposed to query this thing while it's still warm.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-26",
+  "modifiedDate": "2026-07-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-prep-your-query-letter-synopsis-and-opening-pages-before-you-hit-submit",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -592,6 +592,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-prep-your-query-letter-synopsis-and-opening-pages-before-you-hit-submit#primaryimage"
       },
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
       "mentions": [
         {
           "@type": "WebPage",

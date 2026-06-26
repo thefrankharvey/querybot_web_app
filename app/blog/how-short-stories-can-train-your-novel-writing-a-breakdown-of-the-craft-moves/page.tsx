@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How short stories can train your novel writing: a breakdown of the craft moves",
   "description": "If you've ever stared at a novel doc and felt your brain try to do parkour off the edge of the page\u2014good. That reaction is common. The novel's word count is loud, the scope feels huge, and your ideas start acting like they're everywhere at once.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-23",
+  "modifiedDate": "2026-12-23",
   "canonicalUrl": "https://writequeryhook.com/blog/how-short-stories-can-train-your-novel-writing-a-breakdown-of-the-craft-moves",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -590,6 +590,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-short-stories-can-train-your-novel-writing-a-breakdown-of-the-craft-moves#primaryimage"
       },
+      "datePublished": "2026-12-23",
+      "dateModified": "2026-12-23",
       "mentions": [
         {
           "@type": "WebPage",

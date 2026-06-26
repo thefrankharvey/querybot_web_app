@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The 7 worst reasons a picture book query gets ignored (and what to do instead)",
   "description": "There's a special kind of confidence that shows up when someone sends a picture book query letter that absolutely refuses to match what the recipient asked for. It's not \"bold.\" It's more like walking into a dentist appointment wearing snorkeling gear and insisting the appointment is \"still basically dental.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-28",
+  "modifiedDate": "2026-06-28",
   "canonicalUrl": "https://writequeryhook.com/blog/the-7-worst-reasons-a-picture-book-query-gets-ignored-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -520,6 +520,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-7-worst-reasons-a-picture-book-query-gets-ignored-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2026-06-28",
+      "dateModified": "2026-06-28",
       "mentions": [
         {
           "@type": "WebPage",

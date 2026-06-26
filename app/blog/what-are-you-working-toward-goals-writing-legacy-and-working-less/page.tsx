@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What are you working toward? Goals, writing, legacy, and working less",
   "description": "Writers ask for deadlines, systems, and checklists. Fair. But \"what are you working toward\" hits different: it forces a stop-and-name moment when your goals are blurry and your calendar is doing the driving.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less",
+  "publishedDate": "2027-06-24",
+  "modifiedDate": "2027-06-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_hero_moment_of_question_pause_blog_hero_landscape_ab6192a91ed0.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_hero_moment_of_question_pause_blog_hero_landscape_ab6192a91ed0.jpeg",
     "alt": "blog hero \u00b7 moment-of-question pause",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 3698,
+    "height": 2703,
+    "creator": "Pixabay",
+    "creatorUrl": "https://www.pexels.com/@pixabay",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What are you working toward? Goals, writing, legacy, and working less",
-      "item": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+      "item": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
     }
   ],
   "tldrBlocks": [],
@@ -98,13 +98,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_freedom_logistics_blog_section_landscape_5bb01ed7a546.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_freedom_logistics_blog_section_landscape_5bb01ed7a546.gif",
         "alt": "How does the article suggest working less without derailing a career?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Kaique Rocha",
-        "creatorUrl": "https://www.pexels.com/@hikaique",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -222,13 +222,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_planning_windows_of_time_blog_section_landscape_c2fdb4b1ff48.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_planning_windows_of_time_blog_section_landscape_c2fdb4b1ff48.jpeg",
         "alt": "What is \"time bucketing,\" and how does it apply to goals?",
-        "width": 260,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/funny-nickelodeon-bob-esponja-Dps6uX4XPOKeA",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Nothing Ahead",
+        "creatorUrl": "https://www.pexels.com/@ian-panelo",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -264,43 +264,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_joy_choice_blog_section_landscape_1b690e89a78c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_joy_choice_blog_section_landscape_1b690e89a78c.gif",
         "alt": "If you love your work, should you still try to work less?",
-        "width": 6720,
-        "height": 4480,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "musicchoice",
+        "creatorUrl": "https://giphy.com/gifs/musicchoice-5h-ally-brooke-allybrooke-MaPWE3lfpy6QkRSXx9",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_section_image_next_48_hours_calendar_blog_section_landscape_fe282645409f.jpeg",
-    "alt": "blog section image \u00b7 next-48-hours calendar",
-    "width": 5184,
-    "height": 3456,
-    "creator": "Towfiqu barbhuiya",
-    "creatorUrl": "https://www.pexels.com/@towfiqu-barbhuiya-3440682",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What is a chapbook and should you publish one? (FAQ)",
-      "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
-    },
-    {
-      "title": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-      "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
     },
     {
       "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-      "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+      "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+    },
+    {
+      "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     },
     {
       "title": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-      "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -331,7 +322,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What is a chapbook and should you publish one? (FAQ)",
-      "url": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq"
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
     }
   ]
 } as const;
@@ -361,7 +352,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -373,31 +364,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What are you working toward? Goals, writing, legacy, and working less",
-          "item": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+          "item": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less",
+      "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#webpage",
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less",
       "name": "What are you working toward? Goals, writing, legacy, and working less",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -413,11 +404,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#article",
+      "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#webpage"
+        "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less",
       "headline": "What are you working toward? Goals, writing, legacy, and working less",
       "alternativeHeadline": "What are you working toward? Goals, writing, legacy, and working less",
       "description": "Writers ask for deadlines, systems, and checklists. Fair. But \"what are you working toward\" hits different: it forces a stop-and-name moment when your goals are blurry and your calendar is doing the driving.",
@@ -447,55 +438,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage"
       },
+      "datePublished": "2027-06-24",
+      "dateModified": "2027-06-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What is a chapbook and should you publish one? (FAQ)",
-          "url": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What is a chapbook and should you publish one? (FAQ)",
-          "url": "https://writequeryhook.com/what-is-a-chapbook-and-should-you-publish-one-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-          "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
+          "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
         },
         {
           "@type": "WebPage",
           "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-          "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+          "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+        },
+        {
+          "@type": "WebPage",
+          "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
+          "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-          "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_hero_moment_of_question_pause_blog_hero_landscape_ab6192a91ed0.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-are-you-working-toward-goals-writing-legacy-and-working-less/blog/blog_hero_moment_of_question_pause_blog_hero_landscape_ab6192a91ed0.jpeg",
+      "width": 3698,
+      "height": 2703,
       "caption": "blog hero \u00b7 moment-of-question pause",
-      "creditText": "Giphy",
+      "creditText": "Pixabay",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Pixabay",
+        "url": "https://www.pexels.com/@pixabay"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less#faq",
+      "@id": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less#faq",
       "mainEntity": [
         {
           "@type": "Question",

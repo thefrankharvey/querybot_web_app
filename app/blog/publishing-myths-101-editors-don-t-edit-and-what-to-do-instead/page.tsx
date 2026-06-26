@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
   "description": "Somewhere in the revision fog, you've probably heard it: editors don't edit. Or worse\u2014you've watched a typo survive in the manuscript and decided the industry must not care.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
+  "publishedDate": "2027-06-10",
+  "modifiedDate": "2027-06-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "editing"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_hero_doubt_anger_blog_hero_landscape_a5b90766c3c2.jpeg",
+    "alt": "blog hero \u00b7 doubt anger",
+    "width": 3999,
+    "height": 2666,
+    "creator": "Markus Winkler",
+    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+      "item": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     }
   ],
   "tldrBlocks": [],
@@ -157,7 +166,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** You get a note that a chapter \"needs more specificity.\" You also see a stray typo on page 12. Don't assume the typo means the note is meaningless. Fix the note first. Then run copyediting-level cleanup in the next pass."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_section_image_defeat_defensiveness_blog_section_landscape_d9ccc42f0938.jpeg?updatedAt=1782212421005",
+        "alt": "You're treating the \"editors don't edit\" myth like a diagnosis",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Franco Monsalvo",
+        "creatorUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_you_think_copyediting_is_the_entire_job",
@@ -314,7 +332,16 @@ const PAGE_DATA = {
           "text": "This work is separate from\u2014and happens before\u2014copyediting. When you mistake one stage for the entire job, you miss the actual guidance that's being offered."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_section_image_typos_punctuation_blog_section_landscape_69f027b21dca.gif",
+        "alt": "Do editors still edit manuscripts?",
+        "width": 396,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/nDbpk7leGbu12",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_you_treat_editor_feedback_like_judgment",
@@ -362,7 +389,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** Your editor says a section \"doesn't move the story.\" Instead of arguing that it's well-written, ask what outcome they expected from the scene\u2014information, reversal, escalation, or a decision. Then revise toward the expected job."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_section_image_defeat_defensiveness_blog_section_landscape_d9ccc42f0938.jpeg?updatedAt=1782212421005",
+        "alt": "You're treating the \"editors don't edit\" myth like a diagnosis",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Franco Monsalvo",
+        "creatorUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_you_ignore_title_and_direction_suggestions",
@@ -402,7 +438,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** Your working title is metaphor-heavy and vague. Your editor suggests something more concrete that matches the book's actual conflict. That's not \"changing vibes.\" It's aligning the title with what the manuscript is doing now."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_section_image_title_change_direction_blog_section_landscape_0181d99492d4.gif",
+        "alt": "You're ignoring title and direction suggestions",
+        "width": 408,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-titles-BAqHO7r3rZTPy",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_editors_are_typo_police",
@@ -427,7 +472,16 @@ const PAGE_DATA = {
           "text": "Yes. **Do editors still edit manuscripts?** Absolutely. The confusion arises because publishing separates editorial roles\u2014substantive editing, line editing, copyediting, and proofreading\u2014so that each stage serves its purpose. A typo that slips through copyediting doesn't mean the manuscript wasn't edited broadly. It means the boundaries between copyediting and other editorial work are real and function separately."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_section_image_typos_punctuation_blog_section_landscape_69f027b21dca.gif",
+        "alt": "Do editors still edit manuscripts?",
+        "width": 396,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/nDbpk7leGbu12",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_recap",
@@ -452,19 +506,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     },
     {
       "title": "The publishing timeline from contract to shelves: where delays actually come from",
-      "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     },
     {
       "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     },
     {
       "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -482,7 +536,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common author website mistakes that trap you for years (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
     }
   ]
 } as const;
@@ -512,7 +566,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -524,28 +578,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+          "item": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
       "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -561,11 +618,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#article",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead",
       "headline": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
       "alternativeHeadline": "Publishing myths 101: \"Editors don\u2019t edit\" (and what to do instead)",
       "description": "Somewhere in the revision fog, you've probably heard it: editors don't edit. Or worse\u2014you've watched a typo survive in the manuscript and decided the industry must not care.",
@@ -594,33 +651,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#primaryimage"
+      },
+      "datePublished": "2027-06-10",
+      "dateModified": "2027-06-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common author website mistakes that trap you for years (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         },
         {
           "@type": "WebPage",
           "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+          "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         },
         {
           "@type": "WebPage",
           "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+          "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_428/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead/blog/blog_hero_doubt_anger_blog_hero_landscape_a5b90766c3c2.jpeg",
+      "width": 3999,
+      "height": 2666,
+      "caption": "blog hero \u00b7 doubt anger",
+      "creditText": "Markus Winkler",
+      "author": {
+        "@type": "Person",
+        "name": "Markus Winkler",
+        "url": "https://www.pexels.com/@markus-winkler-1430818"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

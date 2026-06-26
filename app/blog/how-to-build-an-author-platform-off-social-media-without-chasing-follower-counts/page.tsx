@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build an author platform off social media (without chasing follower counts)",
   "description": "If \u201cplatform\u201d means follower counts and likes, no wonder writers stall out. You post. You refresh. You obsess over engagement, then you go back to writing feeling like promotion stole your oxygen.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
+  "publishedDate": "2027-10-05",
+  "modifiedDate": "2027-10-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_hero_stuck_confused_blog_hero_landscape_862b9ef2f65d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_hero_stuck_confused_blog_hero_landscape_862b9ef2f65d.jpeg",
     "alt": "blog hero \u00b7 stuck confused",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 7680,
+    "height": 5120,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build an author platform off social media (without chasing follower counts)",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "item": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     }
   ],
   "tldrBlocks": [],
@@ -117,13 +117,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_clarity_frustration_blog_section_landscape_7d633869b0ee.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_clarity_frustration_blog_section_landscape_7d633869b0ee.gif",
         "alt": "Step 1: Define platform like this (then stop using Twitter math)",
-        "width": 5184,
-        "height": 2920,
-        "creator": "Kindel Media",
-        "creatorUrl": "https://www.pexels.com/@kindelmedia",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "abcnetwork",
+        "creatorUrl": "https://giphy.com/gifs/abcnetwork-greys-anatomy-abc-anatomyabc-ec7XwW3NkbbaL1SLns",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -337,7 +337,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_speaking_visibility_blog_section_landscape_d4554b36270c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_speaking_visibility_blog_section_landscape_d4554b36270c.gif?updatedAt=1782339637992",
         "alt": "Step 5: Use speaking to expand reach (and leave recordings behind)",
         "width": 226,
         "height": 200,
@@ -432,7 +432,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_uncertainty_risk_blog_section_landscape_d5878a92465d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_uncertainty_risk_blog_section_landscape_d5878a92465d.jpeg?updatedAt=1782339638439",
         "alt": "Step 7: Measure possibility, not guarantees (because platform always has uncertainty)",
         "width": 6000,
         "height": 4000,
@@ -443,32 +443,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_section_image_send_the_next_thing_draft_blog_section_landscape_5bc0af557493.jpeg",
-    "alt": "blog section image \u00b7 send the next thing draft",
-    "width": 5760,
-    "height": 3840,
-    "creator": "Thought Catalog",
-    "creatorUrl": "https://www.pexels.com/@thought-catalog-317580",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     },
     {
       "title": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     },
     {
       "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-      "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+      "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
     },
     {
       "title": "Amazon Algorithms for Authors: Demystified FAQ",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -503,7 +494,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-      "url": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     }
   ]
 } as const;
@@ -533,7 +524,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -545,31 +536,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build an author platform off social media (without chasing follower counts)",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+          "item": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
       "name": "How to build an author platform off social media (without chasing follower counts)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -585,11 +576,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts",
       "headline": "How to build an author platform off social media (without chasing follower counts)",
       "alternativeHeadline": "How to build an author platform off social media (without chasing follower counts)",
       "description": "If \u201cplatform\u201d means follower counts and likes, no wonder writers stall out. You post. You refresh. You obsess over engagement, then you go back to writing feeling like promotion stole your oxygen.",
@@ -619,55 +610,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage"
       },
+      "datePublished": "2027-10-05",
+      "dateModified": "2027-10-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-          "url": "https://writequeryhook.com/query-letters/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
+          "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         },
         {
           "@type": "WebPage",
           "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
         },
         {
           "@type": "WebPage",
           "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-          "url": "https://writequeryhook.com/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties-myth"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
         },
         {
           "@type": "WebPage",
           "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_hero_stuck_confused_blog_hero_landscape_862b9ef2f65d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_563/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts/blog/blog_hero_stuck_confused_blog_hero_landscape_862b9ef2f65d.jpeg",
+      "width": 7680,
+      "height": 5120,
       "caption": "blog hero \u00b7 stuck confused",
-      "creditText": "dazn",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#howto",
       "name": "How to build an author platform off social media (without chasing follower counts)",
       "description": "If \u201cplatform\u201d means follower counts and likes, no wonder writers stall out. You post. You refresh. You obsess over engagement, then you go back to writing feeling like promotion stole your oxygen.",
       "totalTime": "PT7M",
@@ -677,56 +670,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define platform like this (then stop using Twitter math)",
           "text": "Most writers equate platform with social media. That\u2019s the \u201cwhy am I doing all this and still not selling anything?\u201d pain.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-1-define-platform-like-this-then-stop-using-twitter-math"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-1-define-platform-like-this-then-stop-using-twitter-math"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build a home base website that can outlive any feed",
           "text": "Now do something boring that prevents chaos: create a website and treat it as a home base.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-2-build-a-home-base-website-that-can-outlive-any-feed"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-2-build-a-home-base-website-that-can-outlive-any-feed"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Publish off social media in outlets where readers already show up",
           "text": "Here\u2019s the performer analogy that saves people: you don\u2019t own the stage, but you can still reach a bigger audience by taking your act to stages that already exist.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-3-publish-off-social-media-in-outlets-where-readers-already-show-up"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-3-publish-off-social-media-in-outlets-where-readers-already-show-up"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Blog in a way that includes others\u2019 work (yes, blogging for others)",
           "text": "You want reach, not a hollow echo chamber. So use blogging as a platform-building tool that doesn\u2019t only talk about your own book-in-progress.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-4-blog-in-a-way-that-includes-others-work-yes-blogging-for-others"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-4-blog-in-a-way-that-includes-others-work-yes-blogging-for-others"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Use speaking to expand reach (and leave recordings behind)",
           "text": "If you can speak credibly about your craft, speaking becomes a long tail asset.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-5-use-speaking-to-expand-reach-and-leave-recordings-behind"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-5-use-speaking-to-expand-reach-and-leave-recordings-behind"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Publish short fiction to create multiple pathways to later book exposure",
           "text": "Long projects take time. That\u2019s fine. Don\u2019t wait until the \u201creal launch\u201d to build momentum.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-6-publish-short-fiction-to-create-multiple-pathways-to-later-book-exposure"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-6-publish-short-fiction-to-create-multiple-pathways-to-later-book-exposure"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Measure possibility, not guarantees (because platform always has uncertainty)",
           "text": "Every platform-building plan includes uncertainty. 100% of your potential audience won\u2019t buy. That\u2019s not a failure. It\u2019s math.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-7-measure-possibility-not-guarantees-because-platform-always-has"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#step-7-measure-possibility-not-guarantees-because-platform-always-has"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts#faq",
       "mainEntity": [
         {
           "@type": "Question",

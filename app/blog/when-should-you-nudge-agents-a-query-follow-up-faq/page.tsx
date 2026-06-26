@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
   "description": "If you sent a query and then got silence, your brain will try to turn that quiet into a verdict. It doesn't help that writers swap advice like it's sports trivia: too early is \"rude,\" too late is \"wasted opportunity,\" and nobody agrees on the exact number of days.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq",
+  "publishedDate": "2027-04-20",
+  "modifiedDate": "2027-04-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_hero_overthinking_inbox_silence_blog_hero_landscape_e52a21702f3d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_hero_overthinking_inbox_silence_blog_hero_landscape_e52a21702f3d.jpeg?updatedAt=1781851682813",
     "alt": "blog hero \u00b7 overthinking inbox silence",
     "width": 6025,
     "height": 4017,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-      "item": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq"
+      "item": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_panic_waiting_blog_section_landscape_d4a1d818a66a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_panic_waiting_blog_section_landscape_d4a1d818a66a.jpeg?updatedAt=1781851683476",
         "alt": "When should I follow up a query?",
         "width": 5994,
         "height": 3373,
@@ -302,7 +302,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_what_to_say_wording_blog_section_landscape_9f9dbad2e9f9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_what_to_say_wording_blog_section_landscape_9f9dbad2e9f9.gif?updatedAt=1781851684331",
         "alt": "What to say in a query follow up",
         "width": 358,
         "height": 200,
@@ -339,13 +339,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_reply_new_email_blog_section_landscape_d37890a3f39e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_reply_new_email_blog_section_landscape_d37890a3f39e.gif",
         "alt": "Should you send a new email or reply?",
-        "width": 3200,
-        "height": 2133,
-        "creator": "Solen Feyissa",
-        "creatorUrl": "https://www.pexels.com/@solenfeyissa",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "BoredMemes",
+        "creatorUrl": "https://giphy.com/gifs/bayc-boredmemes-bored-apes-O2pT179OMCBU8kijxz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -393,32 +393,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_section_image_send_with_confidence_next_draft_blog_section_landscape_4236ee1dfa6f.gif",
-    "alt": "blog section image \u00b7 send with confidence next draft",
-    "width": 356,
-    "height": 200,
-    "creator": "FoodClubFOX",
-    "creatorUrl": "https://giphy.com/gifs/FoodClubFOX-crazy-next-level-chef-drafted-Mko90WBgEzDMVenvGN",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-      "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     },
     {
       "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-      "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+      "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
     },
     {
-      "title": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-      "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+      "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+      "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
     },
     {
-      "title": "Breaking down the \"ghosts effect\": how writers keep querying passion when publishing turns unfair",
-      "url": "https://writequeryhook.com/breaking-down-the-ghosts-effect-how-writers-keep-querying-passion-when-publishing-turns-unfair"
+      "title": "Community FAQ for writers: what to do when loneliness hits",
+      "url": "https://writequeryhook.com/blog/community-faq-for-writers-what-to-do-when-loneliness-hits"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -432,7 +423,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-      "url": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     }
   ]
 } as const;
@@ -462,7 +453,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -474,31 +465,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-          "item": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq"
+          "item": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq",
+      "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#webpage",
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq",
       "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -514,11 +505,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#article",
+      "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq",
       "headline": "When Should You Nudge Agents? A Query Follow-Up FAQ",
       "alternativeHeadline": "When Should You Nudge Agents? A Query Follow-Up FAQ",
       "description": "If you sent a query and then got silence, your brain will try to turn that quiet into a verdict. It doesn't help that writers swap advice like it's sports trivia: too early is \"rude,\" too late is \"wasted opportunity,\" and nobody agrees on the exact number of days.",
@@ -548,40 +539,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage"
       },
+      "datePublished": "2027-04-20",
+      "dateModified": "2027-04-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-          "url": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-          "url": "https://writequeryhook.com/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels-unfair"
+          "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
         },
         {
           "@type": "WebPage",
           "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-          "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+          "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
         },
         {
           "@type": "WebPage",
-          "name": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-          "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+          "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+          "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
         },
         {
           "@type": "WebPage",
-          "name": "Breaking down the \"ghosts effect\": how writers keep querying passion when publishing turns unfair",
-          "url": "https://writequeryhook.com/breaking-down-the-ghosts-effect-how-writers-keep-querying-passion-when-publishing-turns-unfair"
+          "name": "Community FAQ for writers: what to do when loneliness hits",
+          "url": "https://writequeryhook.com/blog/community-faq-for-writers-what-to-do-when-loneliness-hits"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_hero_overthinking_inbox_silence_blog_hero_landscape_e52a21702f3d.jpeg",
+      "@id": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/when-should-you-nudge-agents-a-query-follow-up-faq/blog/blog_hero_overthinking_inbox_silence_blog_hero_landscape_e52a21702f3d.jpeg?updatedAt=1781851682813",
       "width": 6025,
       "height": 4017,
       "caption": "blog hero \u00b7 overthinking inbox silence",

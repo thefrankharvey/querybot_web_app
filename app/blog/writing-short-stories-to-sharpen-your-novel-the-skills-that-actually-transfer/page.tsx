@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing Short Stories to Sharpen Your Novel: The Skills That Actually Transfer",
   "description": "The moment a novel idea starts making your brain sound like a motivational poster, it's probably too big.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-13",
+  "modifiedDate": "2026-10-13",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-short-stories-to-sharpen-your-novel-the-skills-that-actually-transfer",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-short-stories-to-sharpen-your-novel-the-skills-that-actually-transfer#primaryimage"
       },
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
       "mentions": [
         {
           "@type": "WebPage",

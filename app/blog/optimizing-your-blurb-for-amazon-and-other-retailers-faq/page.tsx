@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Optimizing your blurb for Amazon and other retailers FAQ",
   "description": "Online retailers are brutal in the best way: shoppers see only a tiny slice of your blurb before they decide whether to click \"read more.\" So yes, the first line matters. But \"matters\" is doing a lot of work\u2014what you need is a description that's both genre-clear and human-readable, with keywords placed early enough to match search intent without turning your text into a keyword dump.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
+  "publishedDate": "2027-05-20",
+  "modifiedDate": "2027-05-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_hero_panic_blank_screen_blog_hero_landscape_fe8410842edb.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_hero_panic_blank_screen_blog_hero_landscape_fe8410842edb.jpeg",
     "alt": "blog hero \u00b7 panic blank screen",
-    "width": 332,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/moodman-iDgshzou381JfBt0wK",
-    "provider": "giphy",
+    "width": 5545,
+    "height": 3697,
+    "creator": "KATRIN  BOLOVTSOVA",
+    "creatorUrl": "https://www.pexels.com/@ekaterina-bolovtsova",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "item": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "item": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     }
   ],
   "tldrBlocks": [],
@@ -102,7 +102,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_frustration_skim_blog_section_landscape_b45d49d041cd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_frustration_skim_blog_section_landscape_b45d49d041cd.gif?updatedAt=1782165527692",
         "alt": "Why does the first line of a blurb matter so much on online retailers?",
         "width": 190,
         "height": 200,
@@ -193,13 +193,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_search_intent_discoverability_blog_section_landscape_8bf84897e86a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_search_intent_discoverability_blog_section_landscape_8bf84897e86a.gif",
         "alt": "How should I use keywords in my book description?",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "s9icysir3n",
+        "creatorUrl": "https://giphy.com/gifs/searching-searchingfor-lmao-sFOfDaoQG79HT2cRQa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -239,7 +239,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_annoyance_spammy_blog_section_landscape_d4e5637fc63b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_annoyance_spammy_blog_section_landscape_d4e5637fc63b.jpeg?updatedAt=1782165531727",
         "alt": "What does it take to make a blurb work on Amazon?",
         "width": 4229,
         "height": 2482,
@@ -318,7 +318,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_annoyance_spammy_blog_section_landscape_d4e5637fc63b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_annoyance_spammy_blog_section_landscape_d4e5637fc63b.jpeg?updatedAt=1782165531727",
         "alt": "What does it take to make a blurb work on Amazon?",
         "width": 4229,
         "height": 2482,
@@ -329,32 +329,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_section_image_next_draft_tighten_blog_section_landscape_972940b65794.jpeg",
-    "alt": "blog section image \u00b7 next draft tighten",
-    "width": 4918,
-    "height": 3279,
-    "creator": "Anastasia  Shuraeva",
-    "creatorUrl": "https://www.pexels.com/@anastasia-shuraeva",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Incorporating agent or editor feedback FAQ",
-      "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     },
     {
       "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     },
     {
       "title": "Book blurb FAQ: how to write a book description that sells",
-      "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+      "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
     },
     {
-      "title": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-      "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
+      "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -368,7 +359,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     }
   ]
 } as const;
@@ -398,7 +389,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -410,31 +401,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "item": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+          "item": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
+      "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#webpage",
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
       "name": "Optimizing your blurb for Amazon and other retailers FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -450,11 +441,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#article",
+      "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq",
       "headline": "Optimizing your blurb for Amazon and other retailers FAQ",
       "alternativeHeadline": "Optimizing your blurb for Amazon and other retailers FAQ",
       "description": "Online retailers are brutal in the best way: shoppers see only a tiny slice of your blurb before they decide whether to click \"read more.\" So yes, the first line matters. But \"matters\" is doing a lot of work\u2014what you need is a description that's both genre-clear and human-readable, with keywords placed early enough to match search intent without turning your text into a keyword dump.",
@@ -484,48 +475,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage"
       },
+      "datePublished": "2027-05-20",
+      "dateModified": "2027-05-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         },
         {
           "@type": "WebPage",
           "name": "Incorporating agent or editor feedback FAQ",
-          "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         },
         {
           "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book blurb FAQ: how to write a book description that sells",
-          "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+          "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
         },
         {
           "@type": "WebPage",
-          "name": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-          "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
+          "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+          "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_hero_panic_blank_screen_blog_hero_landscape_fe8410842edb.gif",
-      "width": 332,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_405/optimizing-your-blurb-for-amazon-and-other-retailers-faq/blog/blog_hero_panic_blank_screen_blog_hero_landscape_fe8410842edb.jpeg",
+      "width": 5545,
+      "height": 3697,
       "caption": "blog hero \u00b7 panic blank screen",
-      "creditText": "Giphy",
+      "creditText": "KATRIN  BOLOVTSOVA",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/moodman-iDgshzou381JfBt0wK"
+        "name": "KATRIN  BOLOVTSOVA",
+        "url": "https://www.pexels.com/@ekaterina-bolovtsova"
       },
       "@context": "https://schema.org"
     }

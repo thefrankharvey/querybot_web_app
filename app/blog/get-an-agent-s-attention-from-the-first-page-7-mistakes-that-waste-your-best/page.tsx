@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Get an agent's attention from the first page: 7 mistakes that waste your best lines",
   "description": "You can write a perfectly competent first page and still watch the agent's attention die in thirty seconds\u2014not because the book is hopeless, but because the first page is doing the wrong job.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-26",
+  "modifiedDate": "2026-10-26",
   "canonicalUrl": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-7-mistakes-that-waste-your-best",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -575,6 +575,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-7-mistakes-that-waste-your-best#primaryimage"
       },
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
       "mentions": [
         {
           "@type": "WebPage",

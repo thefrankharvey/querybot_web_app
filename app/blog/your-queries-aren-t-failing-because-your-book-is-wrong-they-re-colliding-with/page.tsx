@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Your queries aren't failing because your book is \"wrong\"\u2014they're colliding with luck, timing, and capacity",
   "description": "If you've been querying long enough to develop a relationship with silence, you've probably had the same thought in the shower: So what\u2014my writing is suddenly worse?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-04",
+  "modifiedDate": "2027-02-04",
   "canonicalUrl": "https://writequeryhook.com/blog/your-queries-aren-t-failing-because-your-book-is-wrong-they-re-colliding-with",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -571,6 +571,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/your-queries-aren-t-failing-because-your-book-is-wrong-they-re-colliding-with#primaryimage"
       },
+      "datePublished": "2027-02-04",
+      "dateModified": "2027-02-04",
       "mentions": [
         {
           "@type": "WebPage",

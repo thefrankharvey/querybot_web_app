@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "A burnout spiral to repair: breaking down writer burnout recovery steps that actually hold",
   "description": "Let's look at a \"real\" burnout moment\u2014not the inspirational kind. The kind where the cursor blinks at you like it's laughing. The kind where you can technically sit down and still feel like the project is made of wet cement.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-21",
+  "modifiedDate": "2027-02-21",
   "canonicalUrl": "https://writequeryhook.com/blog/a-burnout-spiral-to-repair-breaking-down-writer-burnout-recovery-steps-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -566,6 +566,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/a-burnout-spiral-to-repair-breaking-down-writer-burnout-recovery-steps-that#primaryimage"
       },
+      "datePublished": "2027-02-21",
+      "dateModified": "2027-02-21",
       "mentions": [
         {
           "@type": "WebPage",

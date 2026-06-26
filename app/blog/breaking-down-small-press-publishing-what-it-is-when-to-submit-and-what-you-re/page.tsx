@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
   "description": "People throw around \"small press\" like it's one category and not three different ecosystems. Which is cute, until you're the one writing cover copy in a template you found online, sweating whether your submission will be seen, and wondering if \"small\" means \"legitimate\" or \"cheap trap.\" Yeah, same.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
+  "publishedDate": "2027-08-10",
+  "modifiedDate": "2027-08-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "mislabeling"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re/blog/blog_hero_confusion_dread_blog_hero_landscape_f88ba2abee96.jpeg",
+    "alt": "blog hero \u00b7 confusion dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-      "item": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+      "item": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
     }
   ],
   "tldrBlocks": [],
@@ -67,7 +76,16 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re/blog/blog_section_image_tldr_blog_section_landscape_85b5885babdb.gif",
+        "alt": "TLDR",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_opening_why_this_case_study_is_worth_reading",
@@ -97,7 +115,16 @@ const PAGE_DATA = {
           "text": "OK pause. Writer brain loves one big question: *Will they accept me?* Let's replace that with a better question: *Does their model match what I need from the publishing experience?*"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re/blog/blog_section_image_opening_why_this_case_study_is_worth_reading_blog_section_landscape_943d1ebbe488.gif",
+        "alt": "Opening \u2014 why this case study is worth reading",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_body_structural_breakdown",
@@ -372,26 +399,35 @@ const PAGE_DATA = {
           "text": "The fit test is straightforward: Does their operating model match your expectations for money, collaboration, and visibility?"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re/blog/blog_section_image_threshold_mislabeling_blog_section_landscape_ef8d85687ff6.jpeg",
+        "alt": "Lessons / Takeaways \u2014 pros and cons of working with a small press",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Roman Ska",
+        "creatorUrl": "https://www.pexels.com/@roman-ska-3453281",
+        "provider": "pexels",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-      "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
     },
     {
       "title": "6 small press mistakes that quietly wreck your publishing odds",
-      "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     },
     {
       "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-      "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     },
     {
-      "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+      "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -413,7 +449,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-      "url": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
     }
   ]
 } as const;
@@ -443,7 +479,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -455,28 +491,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-          "item": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+          "item": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#webpage",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
+      "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#webpage",
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
       "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -492,11 +531,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#article",
+      "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#webpage"
+        "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re",
       "headline": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
       "alternativeHeadline": "Breaking down small press publishing: what it is, when to submit, and what you\u2019re trading",
       "description": "People throw around \"small press\" like it's one category and not three different ecosystems. Which is cute, until you're the one writing cover copy in a template you found online, sweating whether your submission will be seen, and wondering if \"small\" means \"legitimate\" or \"cheap trap.\" Yeah, same.",
@@ -525,33 +564,48 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#primaryimage"
+      },
+      "datePublished": "2027-08-10",
+      "dateModified": "2027-08-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-          "url": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-          "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
         },
         {
           "@type": "WebPage",
           "name": "6 small press mistakes that quietly wreck your publishing odds",
-          "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+          "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-          "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
         },
         {
           "@type": "WebPage",
-          "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+          "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
+          "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re/blog/blog_hero_confusion_dread_blog_hero_landscape_f88ba2abee96.jpeg",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 confusion dread",
+      "creditText": "Zhine Pics",
+      "author": {
+        "@type": "Person",
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

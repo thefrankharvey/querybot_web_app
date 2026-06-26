@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Write a thriller in 7 heart-stopping steps FAQ",
   "description": "If you've ever slapped the label \"thriller\" on a draft and then panicked\u2014because the scenes feel more like errands than danger\u2014you're not alone. The genre is simple on paper and mean on the page: thriller means motion, suspense, twists, and stakes that keep ratcheting up, not vibes that fade after chapter one.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-05",
+  "modifiedDate": "2027-01-05",
   "canonicalUrl": "https://writequeryhook.com/blog/write-a-thriller-in-7-heart-stopping-steps-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -441,6 +441,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/write-a-thriller-in-7-heart-stopping-steps-faq#primaryimage"
       },
+      "datePublished": "2027-01-05",
+      "dateModified": "2027-01-05",
       "mentions": [
         {
           "@type": "WebPage",

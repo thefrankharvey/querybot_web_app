@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes authors make when they hire an editor, writing coach, book coach, or beta reader (and what to do instead)",
   "description": "Every time we search \"editor\" or \"writing coach,\" the listings start sounding interchangeable. Same vibes, same pricing ranges, same buzzwords\u2014then you pay, and suddenly you're holding notes that don't solve the actual problem you were trying to fix.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-05",
+  "modifiedDate": "2026-11-05",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-authors-make-when-they-hire-an-editor-writing-coach-book-coach",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -641,6 +641,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-authors-make-when-they-hire-an-editor-writing-coach-book-coach#primaryimage"
       },
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
       "mentions": [
         {
           "@type": "WebPage",

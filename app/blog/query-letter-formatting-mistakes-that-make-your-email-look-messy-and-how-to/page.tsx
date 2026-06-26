@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query letter formatting mistakes that make your email look messy (and how to fix them)",
   "description": "Most writers think they need to \"stand out\" in the inbox with bold colors, fancy fonts, or some extra visual flourish. That's a myth. Your email query doesn't need a costume. It needs to look like you have basic respect for the reader's time\u2014and that you can follow formatting rules.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-21",
+  "modifiedDate": "2026-07-21",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-formatting-mistakes-that-make-your-email-look-messy-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -577,6 +577,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-formatting-mistakes-that-make-your-email-look-messy-and-how-to#primaryimage"
       },
+      "datePublished": "2026-07-21",
+      "dateModified": "2026-07-21",
       "mentions": [
         {
           "@type": "WebPage",

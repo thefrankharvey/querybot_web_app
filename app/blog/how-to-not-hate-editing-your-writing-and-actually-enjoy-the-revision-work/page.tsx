@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to not hate editing your writing (and actually enjoy the revision work)",
   "description": "The first draft feels like creation because your brain gets to do the fun part: invention. Then editing arrives, and suddenly you're not \"making,\" you're scrutinizing. You're staring at the same pages like they owe you money. Revision turns into endless, minute fine-tuning, and your motivation evaporates faster than a character who's only there to deliver exposition.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-24",
+  "modifiedDate": "2026-11-24",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-not-hate-editing-your-writing-and-actually-enjoy-the-revision-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -538,6 +538,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-not-hate-editing-your-writing-and-actually-enjoy-the-revision-work#primaryimage"
       },
+      "datePublished": "2026-11-24",
+      "dateModified": "2026-11-24",
       "mentions": [
         {
           "@type": "WebPage",

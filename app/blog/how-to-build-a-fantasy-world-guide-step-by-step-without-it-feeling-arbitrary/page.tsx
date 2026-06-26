@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to build a fantasy world guide step by step (without it feeling arbitrary)",
   "description": "Most writers don't struggle with imagination. They struggle with the part where imagination has to stay consistent when someone points a reader at the \"wait, why?\" button.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-13",
+  "modifiedDate": "2026-11-13",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-fantasy-world-guide-step-by-step-without-it-feeling-arbitrary",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -564,6 +564,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-build-a-fantasy-world-guide-step-by-step-without-it-feeling-arbitrary#primaryimage"
       },
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-13",
       "mentions": [
         {
           "@type": "WebPage",

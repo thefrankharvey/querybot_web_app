@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Revise a Manuscript for Joy (Without Becoming a Perfectionist)",
   "description": "Most writers think revision is where the punishment lives. Like, you're supposed to hate your draft a little, chop it up, and earn the right to feel proud later.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-08",
+  "modifiedDate": "2026-10-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-a-manuscript-for-joy-without-becoming-a-perfectionist",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -535,6 +535,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-revise-a-manuscript-for-joy-without-becoming-a-perfectionist#primaryimage"
       },
+      "datePublished": "2026-10-08",
+      "dateModified": "2026-10-08",
       "mentions": [
         {
           "@type": "WebPage",

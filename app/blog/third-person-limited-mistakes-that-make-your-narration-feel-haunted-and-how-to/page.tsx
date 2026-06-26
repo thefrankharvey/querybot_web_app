@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Third person limited mistakes that make your narration feel haunted (and how to fix them)",
   "description": "If your third person limited draft feels off\u2014like the emotional lens keeps slipping, even when you swear you're \"staying in one head\"\u2014that's usually not vibes. It's the POV contract breaking in small, almost-invisible ways.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-25",
+  "modifiedDate": "2027-01-25",
   "canonicalUrl": "https://writequeryhook.com/blog/third-person-limited-mistakes-that-make-your-narration-feel-haunted-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -720,6 +720,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/third-person-limited-mistakes-that-make-your-narration-feel-haunted-and-how-to#primaryimage"
       },
+      "datePublished": "2027-01-25",
+      "dateModified": "2027-01-25",
       "mentions": [
         {
           "@type": "WebPage",

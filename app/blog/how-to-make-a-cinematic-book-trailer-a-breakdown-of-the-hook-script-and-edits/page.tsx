@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
   "description": "Book marketing people will tell you video is \"the next big thing.\" The rest of us have watched a couple of trailers that feel like they were assembled by vibes alone\u2014pretty images, zero clarity, and a CTA that sneaks in so late you miss it entirely.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
+  "publishedDate": "2027-06-11",
+  "modifiedDate": "2027-06-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_hero_skeptical_curious_blog_hero_landscape_805a4fef36d1.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_hero_skeptical_curious_blog_hero_landscape_805a4fef36d1.jpeg?updatedAt=1782214525117",
     "alt": "blog hero \u00b7 skeptical curious",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-      "item": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+      "item": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
     }
   ],
   "tldrBlocks": [],
@@ -77,7 +77,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_tldr_blog_section_landscape_a81860f7be0e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_tldr_blog_section_landscape_a81860f7be0e.jpeg?updatedAt=1782214525725",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -120,7 +120,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_opening_why_this_is_worth_studying_blog_section_landscape_5a01b1a42094.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_opening_why_this_is_worth_studying_blog_section_landscape_5a01b1a42094.gif?updatedAt=1782214526410",
         "alt": "Opening \u2014 why this is worth studying",
         "width": 296,
         "height": 200,
@@ -404,13 +404,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_56a08fc1e903.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_56a08fc1e903.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -440,32 +440,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_section_image_take_action_messy_draft_blog_section_landscape_4c5d593c0df6.gif",
-    "alt": "blog section image \u00b7 take action messy draft",
-    "width": 200,
-    "height": 200,
-    "creator": "justin",
-    "creatorUrl": "https://giphy.com/gifs/justin-lol-spit-take-kC8N6DPOkbqWTxkNTe",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-      "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     },
     {
       "title": "Common author website mistakes that trap you for years (and how to fix them)",
-      "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
     },
     {
       "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-      "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     },
     {
       "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -504,7 +495,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-      "url": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     }
   ]
 } as const;
@@ -534,7 +525,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -546,31 +537,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-          "item": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+          "item": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
+      "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
       "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -586,11 +577,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#article",
+      "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits",
       "headline": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
       "alternativeHeadline": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
       "description": "Book marketing people will tell you video is \"the next big thing.\" The rest of us have watched a couple of trailers that feel like they were assembled by vibes alone\u2014pretty images, zero clarity, and a CTA that sneaks in so late you miss it entirely.",
@@ -620,40 +611,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage"
       },
+      "datePublished": "2027-06-11",
+      "dateModified": "2027-06-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-          "url": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-          "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+          "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "Common author website mistakes that trap you for years (and how to fix them)",
-          "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-          "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_hero_skeptical_curious_blog_hero_landscape_805a4fef36d1.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits/blog/blog_hero_skeptical_curious_blog_hero_landscape_805a4fef36d1.jpeg?updatedAt=1782214525117",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 skeptical curious",
@@ -668,7 +656,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits#faq",
       "mainEntity": [
         {
           "@type": "Question",

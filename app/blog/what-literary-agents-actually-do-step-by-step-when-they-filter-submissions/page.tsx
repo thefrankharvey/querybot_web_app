@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
   "description": "When writers query, they hit send, then they wait. The industry calls that waiting \"the process,\" but in practice it feels like standing in a hallway outside a room you can't see into. You can't tell whether anyone opened the door, glanced at your pages, or threw it in the slush pile fire.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
+  "publishedDate": "2027-06-23",
+  "modifiedDate": "2027-06-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_hero_confusion_dread_blog_hero_landscape_438f3a1ec94a.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_hero_confusion_dread_blog_hero_landscape_438f3a1ec94a.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-      "item": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
+      "item": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     }
   ],
   "tldrBlocks": [],
@@ -178,13 +178,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_slush_pile_sorting_blog_section_landscape_ea031be28ff9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_slush_pile_sorting_blog_section_landscape_ea031be28ff9.jpeg",
         "alt": "1) The filter before the editor: how agents filter submissions for editors",
-        "width": 200,
-        "height": 200,
-        "creator": "trt_network",
-        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
-        "provider": "giphy",
+        "width": 6712,
+        "height": 4475,
+        "creator": "HONG SON",
+        "creatorUrl": "https://www.pexels.com/@hson",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -324,13 +324,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_offer_negotiation_blog_section_landscape_310b8633ffca.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_offer_negotiation_blog_section_landscape_310b8633ffca.gif",
         "alt": "3) Offer to contract: how agents negotiate offers and contracts (and sometimes run auctions)",
-        "width": 4618,
-        "height": 3079,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -396,13 +396,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_payments_key_dates_blog_section_landscape_d90d433432de.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_payments_key_dates_blog_section_landscape_d90d433432de.gif",
         "alt": "4) After the deal: what happens after a publishing offer (payments, dates, marketing, mediation)",
-        "width": 4032,
-        "height": 3024,
-        "creator": "Niepoddawajsie.pl Luk",
-        "creatorUrl": "https://www.pexels.com/@niepoddawajsie-pl-luk-2156505622",
-        "provider": "pexels",
+        "width": 293,
+        "height": 200,
+        "creator": "thisisnice",
+        "creatorUrl": "https://giphy.com/gifs/julie-fabulous-xTiN0nntxuuV6rIeZO",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -426,32 +426,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_section_image_send_the_draft_revise_with_purpose_blog_section_landscape_d11fc161f59d.jpeg",
-    "alt": "blog section image \u00b7 send the draft revise with purpose",
-    "width": 3500,
-    "height": 2333,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
-      "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
-    },
-    {
-      "title": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-      "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
     },
     {
       "title": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-      "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
     },
     {
-      "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+      "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+    },
+    {
+      "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -486,7 +477,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
-      "url": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
     }
   ]
 } as const;
@@ -516,7 +507,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -528,31 +519,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-          "item": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
+          "item": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#webpage",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
       "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -568,11 +559,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#article",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#webpage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions",
       "headline": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
       "alternativeHeadline": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
       "description": "When writers query, they hit send, then they wait. The industry calls that waiting \"the process,\" but in practice it feels like standing in a hallway outside a room you can't see into. You can't tell whether anyone opened the door, glanced at your pages, or threw it in the slush pile fire.",
@@ -602,55 +593,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage"
       },
+      "datePublished": "2027-06-23",
+      "dateModified": "2027-06-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-          "url": "https://writequeryhook.com/query-letters/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-          "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-          "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
+          "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
         },
         {
           "@type": "WebPage",
           "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-          "url": "https://writequeryhook.com/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+          "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
+          "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+        },
+        {
+          "@type": "WebPage",
+          "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_hero_confusion_dread_blog_hero_landscape_438f3a1ec94a.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_444/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions/blog/blog_hero_confusion_dread_blog_hero_landscape_438f3a1ec94a.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#faq",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions#faq",
       "mainEntity": [
         {
           "@type": "Question",

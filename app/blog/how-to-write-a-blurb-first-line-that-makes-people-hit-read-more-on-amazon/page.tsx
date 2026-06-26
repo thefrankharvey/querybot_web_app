@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
   "description": "TLDR",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
+  "publishedDate": "2027-05-07",
+  "modifiedDate": "2027-05-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_hero_recognition_dread_blog_hero_landscape_db789017ace7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_hero_recognition_dread_blog_hero_landscape_db789017ace7.jpeg?updatedAt=1782095793019",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_opening_the_part_everyone_ignores_until_the_clic_blog_section_landscape_fd697d566791.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_opening_the_part_everyone_ignores_until_the_clic_blog_section_landscape_fd697d566791.jpeg",
         "alt": "Opening: the part everyone ignores (until the click count stings)",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -280,13 +280,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_search_keywords_blog_section_landscape_9002e8bf5b75.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_search_keywords_blog_section_landscape_9002e8bf5b75.gif",
         "alt": "Keywords should clarify genre and premise early\u2014then fade into the background",
-        "width": 4160,
-        "height": 3120,
-        "creator": "Tobias Dziuba",
-        "creatorUrl": "https://www.pexels.com/@tobias-dziuba-319638",
-        "provider": "pexels",
+        "width": 303,
+        "height": 200,
+        "creator": "BattleFin",
+        "creatorUrl": "https://giphy.com/gifs/BattleFin-ensemble-battlefin-alternative-data-7j5w6nUYPmuUDIXOAD",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -431,43 +431,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_anxious_no_proof_yet_blog_section_landscape_808ea9c00cb2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_anxious_no_proof_yet_blog_section_landscape_808ea9c00cb2.gif",
         "alt": "No reviews, no sales stats\u2014your blurb first line still needs receipts",
-        "width": 3999,
-        "height": 2666,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 324,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_section_image_resolve_edit_session_blog_section_landscape_b92d9ece7873.gif",
-    "alt": "blog section image \u00b7 resolve edit session",
-    "width": 200,
-    "height": 200,
-    "creator": "BenJammins",
-    "creatorUrl": "https://giphy.com/gifs/benjammins-delete-this-UI0rkpIMarEmCGvZ6Z",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to incorporate agent/editor feedback without breaking your story",
-      "url": "https://writequeryhook.com/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     },
     {
       "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-      "url": "https://writequeryhook.com/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage-the-root"
+      "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
     },
     {
       "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-      "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+      "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
     },
     {
-      "title": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-      "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
+      "title": "5 things to do after your offer (that keep your publishing on track)",
+      "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -506,7 +497,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to incorporate agent/editor feedback without breaking your story",
-      "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     }
   ]
 } as const;
@@ -536,7 +527,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -548,31 +539,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
       "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -588,11 +579,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon",
       "headline": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
       "alternativeHeadline": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
       "description": "TLDR",
@@ -622,40 +613,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage"
       },
+      "datePublished": "2027-05-07",
+      "dateModified": "2027-05-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to incorporate agent/editor feedback without breaking your story",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to incorporate agent/editor feedback without breaking your story",
-          "url": "https://writequeryhook.com/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
         },
         {
           "@type": "WebPage",
           "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-          "url": "https://writequeryhook.com/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage-the-root"
+          "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
         },
         {
           "@type": "WebPage",
           "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-          "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+          "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
         },
         {
           "@type": "WebPage",
-          "name": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-          "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
+          "name": "5 things to do after your offer (that keep your publishing on track)",
+          "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_hero_recognition_dread_blog_hero_landscape_db789017ace7.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_384/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon/blog/blog_hero_recognition_dread_blog_hero_landscape_db789017ace7.jpeg?updatedAt=1782095793019",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -670,7 +658,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write themes in novels without sounding preachy",
   "description": "Most writers can describe plot and character. Theme is where things get fuzzy fast. People start saying \"themes\" when they mean \"what happens,\" or they shove an idea into dialogue like it's a billboard and wonder why it reads crass.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-29",
+  "modifiedDate": "2026-12-29",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-themes-in-novels-without-sounding-preachy",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-themes-in-novels-without-sounding-preachy#primaryimage"
       },
+      "datePublished": "2026-12-29",
+      "dateModified": "2026-12-29",
       "mentions": [
         {
           "@type": "WebPage",

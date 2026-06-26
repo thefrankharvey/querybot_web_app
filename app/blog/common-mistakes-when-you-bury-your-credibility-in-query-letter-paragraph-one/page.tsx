@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes when you bury your credibility in query letter paragraph one",
   "description": "If your query letter feels \"technically correct\" but still lands in the same hole as everyone else's\u2014form rejections, no reply, the slow fade\u2014there's a good chance the problem isn't your manuscript.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-21",
+  "modifiedDate": "2026-07-21",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-when-you-bury-your-credibility-in-query-letter-paragraph-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -665,6 +665,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-when-you-bury-your-credibility-in-query-letter-paragraph-one#primaryimage"
       },
+      "datePublished": "2026-07-21",
+      "dateModified": "2026-07-21",
       "mentions": [
         {
           "@type": "WebPage",

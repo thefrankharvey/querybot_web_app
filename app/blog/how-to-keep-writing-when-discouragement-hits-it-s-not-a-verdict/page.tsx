@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Keep Writing When Discouragement Hits (It's Not a Verdict)",
   "description": "Discouragement is a flat tire moment on the writing road. It can hit fast (a harsh critique, a rejection, a bad email), or it can creep in slowly until your draft feels like it's made of wet sand. Writers start telling themselves the lie that this feeling means something about their talent or legitimacy.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-01",
+  "modifiedDate": "2027-02-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-keep-writing-when-discouragement-hits-it-s-not-a-verdict",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -555,6 +555,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-keep-writing-when-discouragement-hits-it-s-not-a-verdict#primaryimage"
       },
+      "datePublished": "2027-02-01",
+      "dateModified": "2027-02-01",
       "mentions": [
         {
           "@type": "WebPage",

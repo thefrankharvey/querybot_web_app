@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Paint Character in a Flick of Paint with Dialogue and Interior Monologue",
   "description": "When the scene isn't working, the problem usually lives somewhere else: the page is behaving like a pamphlet.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-27",
+  "modifiedDate": "2026-12-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-paint-character-in-a-flick-of-paint-with-dialogue-and-interior-monologue",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -1084,6 +1084,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-paint-character-in-a-flick-of-paint-with-dialogue-and-interior-monologue#primaryimage"
       },
+      "datePublished": "2026-12-27",
+      "dateModified": "2026-12-27",
       "mentions": [
         {
           "@type": "WebPage",

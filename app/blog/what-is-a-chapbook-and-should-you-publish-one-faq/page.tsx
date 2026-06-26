@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What is a chapbook and should you publish one? (FAQ)",
   "description": "Chapbooks sit in this weird middle zone where poets feel like they should have one, but can't always answer the basics: what it is, how many pages it's supposed to be, and whether it actually helps your career or just creates another print object nobody buys. This FAQ is the practical version\u2014no mystical gatekeeping, no vague \"brand building\" talk. Just definitions, decisions, and the business reality.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq",
+  "publishedDate": "2027-06-25",
+  "modifiedDate": "2027-06-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_hero_confusion_practical_blog_hero_landscape_b4312fabf13d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_hero_confusion_practical_blog_hero_landscape_b4312fabf13d.jpeg?updatedAt=1782230301275",
     "alt": "blog hero \u00b7 confusion practical",
     "width": 4500,
     "height": 2531,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What is a chapbook and should you publish one? (FAQ)",
-      "item": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq"
+      "item": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
     }
   ],
   "tldrBlocks": [],
@@ -131,7 +131,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_structure_limit_blog_section_landscape_b871b38eec1a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_structure_limit_blog_section_landscape_b871b38eec1a.gif?updatedAt=1782230302441",
         "alt": "Why are chapbooks usually so short?",
         "width": 128,
         "height": 200,
@@ -169,7 +169,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_contrast_focus_blog_section_landscape_b9d59dc71496.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_contrast_focus_blog_section_landscape_b9d59dc71496.jpeg?updatedAt=1782230302843",
         "alt": "What makes a chapbook different from a full-length poetry collection?",
         "width": 5184,
         "height": 2912,
@@ -292,7 +292,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_workflow_packaging_blog_section_landscape_fe5b9d5f4652.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_workflow_packaging_blog_section_landscape_fe5b9d5f4652.gif?updatedAt=1782230303452",
         "alt": "How to publish a poetry chapbook?",
         "width": 358,
         "height": 200,
@@ -356,32 +356,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_section_image_next_step_sanity_blog_section_landscape_911efe212977.jpeg",
-    "alt": "blog section image \u00b7 next step sanity",
-    "width": 4800,
-    "height": 3200,
-    "creator": "Jan van der Wolf",
-    "creatorUrl": "https://www.pexels.com/@jan-van-der-wolf-11680885",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-      "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
-    },
-    {
       "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-      "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+      "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
     },
     {
       "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-      "url": "https://writequeryhook.com/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions-negotiate-and-keep-the-deal-moving"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     },
     {
       "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
-      "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
+    },
+    {
+      "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -399,7 +390,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What are you working toward? Goals, writing, legacy, and working less",
-      "url": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
     }
   ]
 } as const;
@@ -429,7 +420,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -441,31 +432,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What is a chapbook and should you publish one? (FAQ)",
-          "item": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq"
+          "item": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq",
+      "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#webpage",
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq",
       "name": "What is a chapbook and should you publish one? (FAQ)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -481,11 +472,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#article",
+      "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq",
       "headline": "What is a chapbook and should you publish one? (FAQ)",
       "alternativeHeadline": "What is a chapbook and should you publish one? (FAQ)",
       "description": "Chapbooks sit in this weird middle zone where poets feel like they should have one, but can't always answer the basics: what it is, how many pages it's supposed to be, and whether it actually helps your career or just creates another print object nobody buys. This FAQ is the practical version\u2014no mystical gatekeeping, no vague \"brand building\" talk. Just definitions, decisions, and the business reality.",
@@ -515,40 +506,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage"
       },
+      "datePublished": "2027-06-25",
+      "dateModified": "2027-06-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What are you working toward? Goals, writing, legacy, and working less",
-          "url": "https://writequeryhook.com/query-letters/what-are-you-working-toward-goals-writing-legacy-and-working-less"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-          "url": "https://writequeryhook.com/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
+          "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
         },
         {
           "@type": "WebPage",
           "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-          "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+          "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-          "url": "https://writequeryhook.com/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions-negotiate-and-keep-the-deal-moving"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-          "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
+          "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
+          "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_hero_confusion_practical_blog_hero_landscape_b4312fabf13d.jpeg",
+      "@id": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_446/what-is-a-chapbook-and-should-you-publish-one-faq/blog/blog_hero_confusion_practical_blog_hero_landscape_b4312fabf13d.jpeg?updatedAt=1782230301275",
       "width": 4500,
       "height": 2531,
       "caption": "blog hero \u00b7 confusion practical",

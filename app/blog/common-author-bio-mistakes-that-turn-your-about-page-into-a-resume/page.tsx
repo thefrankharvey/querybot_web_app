@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common author bio mistakes that turn your About page into a r\u00e9sum\u00e9",
   "description": "The contrarian truth: people don't click your About page to learn your credentials. They click because they want a quick sense of who you are, then they decide whether your books are worth the next minute.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-24",
+  "modifiedDate": "2026-08-24",
   "canonicalUrl": "https://writequeryhook.com/blog/common-author-bio-mistakes-that-turn-your-about-page-into-a-resume",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -522,6 +522,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-author-bio-mistakes-that-turn-your-about-page-into-a-resume#primaryimage"
       },
+      "datePublished": "2026-08-24",
+      "dateModified": "2026-08-24",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "If you feel like sht, sit with it: discomfort FAQ for writers",
   "description": "If you're stuck in a draft and your brain starts screaming discomfort thoughts like \"I'm not good enough\" or \"this isn't good enough,\" this FAQ is for that exact moment. The goal isn't to make you feel better by pretending everything is fine. The goal is to help you separate what's actually happening in the work from the extra suffering you add with resistance and self-attack.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-05",
+  "modifiedDate": "2027-03-05",
   "canonicalUrl": "https://writequeryhook.com/blog/if-you-feel-like-sht-sit-with-it-discomfort-faq-for-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -489,6 +489,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/if-you-feel-like-sht-sit-with-it-discomfort-faq-for-writers#primaryimage"
       },
+      "datePublished": "2027-03-05",
+      "dateModified": "2027-03-05",
       "mentions": [
         {
           "@type": "WebPage",

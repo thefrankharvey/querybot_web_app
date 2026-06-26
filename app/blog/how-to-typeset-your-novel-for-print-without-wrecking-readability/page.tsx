@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to typeset your novel for print without wrecking readability",
   "description": "You can do \"book design\" that looks gorgeous and still hand a reader a headache. Typesetting is where that headache gets made\u2014or prevented\u2014because it's the boring-but-dead-serious part: dimensions, page count, spacing, and the way text behaves on paper.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability",
+  "publishedDate": "2027-05-05",
+  "modifiedDate": "2027-05-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_hero_stuck_blank_page_dread_blog_hero_landscape_be00e588fb28.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_hero_stuck_blank_page_dread_blog_hero_landscape_be00e588fb28.jpeg?updatedAt=1782095362264",
     "alt": "blog hero \u00b7 stuck blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to typeset your novel for print without wrecking readability",
-      "item": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+      "item": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_relief_cleanup_blog_section_landscape_7648423e6304.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_relief_cleanup_blog_section_landscape_7648423e6304.gif?updatedAt=1782095363324",
         "alt": "Step 1: Prepare a clean manuscript you can trust",
         "width": 356,
         "height": 200,
@@ -231,7 +231,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_discipline_consistency_blog_section_landscape_27189d8e4c6c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_discipline_consistency_blog_section_landscape_27189d8e4c6c.jpeg?updatedAt=1782095363907",
         "alt": "Step 3: Build paragraph styles that accomplish the work",
         "width": 5184,
         "height": 3888,
@@ -381,7 +381,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_fist_pump_controlled_edits_blog_section_landscape_64da44f71288.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_fist_pump_controlled_edits_blog_section_landscape_64da44f71288.gif?updatedAt=1782095365993",
         "alt": "Step 6: Handle advanced wrangling last, only where it removes real distraction",
         "width": 287,
         "height": 200,
@@ -392,32 +392,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_section_image_finished_draft_calm_confidence_blog_section_landscape_adaf57edbf74.jpeg",
-    "alt": "blog section image \u00b7 finished draft calm confidence",
-    "width": 3500,
-    "height": 2333,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How to Format Your Ebook in Word Without Breaking on Real Devices",
-      "url": "https://writequeryhook.com/how-to-format-your-ebook-in-word-without-breaking-on-real-devices"
-    },
-    {
       "title": "How to write jacket copy that sells without spoilers or wasted space",
-      "url": "https://writequeryhook.com/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+      "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
     },
     {
-      "title": "How to navigate a debut launch through social media when you don\u2019t have a \u201cperfect\u201d platform",
-      "url": "https://writequeryhook.com/how-to-navigate-a-debut-launch-through-social-media-when-you-don-t-have-a-perfect-platform"
+      "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
     },
     {
-      "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "title": "Representation offer vs other agent options: what to do first, and what to ask",
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+    },
+    {
+      "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -449,12 +440,7 @@ const PAGE_DATA = {
       "text": "Set your foundation (trim size, margins, and page structure), then let **paragraph styles** do the heavy lifting. After that, only do advanced wrangling to remove real reader distractions\u2014no pointless tinkering. When your **novel formatting** reads cleanly from the first page to the last, you're ready to move on to print confidently."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-      "url": "https://writequeryhook.com/query-letters/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -482,7 +468,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -494,31 +480,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to typeset your novel for print without wrecking readability",
-          "item": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+          "item": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability",
       "name": "How to typeset your novel for print without wrecking readability",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -534,11 +520,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#article",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability",
       "headline": "How to typeset your novel for print without wrecking readability",
       "alternativeHeadline": "How to typeset your novel for print without wrecking readability",
       "description": "You can do \"book design\" that looks gorgeous and still hand a reader a headache. Typesetting is where that headache gets made\u2014or prevented\u2014because it's the boring-but-dead-serious part: dimensions, page count, spacing, and the way text behaves on paper.",
@@ -568,40 +554,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage"
       },
+      "datePublished": "2027-05-05",
+      "dateModified": "2027-05-05",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-          "url": "https://writequeryhook.com/query-letters/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Format Your Ebook in Word Without Breaking on Real Devices",
-          "url": "https://writequeryhook.com/how-to-format-your-ebook-in-word-without-breaking-on-real-devices"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to write jacket copy that sells without spoilers or wasted space",
-          "url": "https://writequeryhook.com/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
         },
         {
           "@type": "WebPage",
-          "name": "How to navigate a debut launch through social media when you don\u2019t have a \u201cperfect\u201d platform",
-          "url": "https://writequeryhook.com/how-to-navigate-a-debut-launch-through-social-media-when-you-don-t-have-a-perfect-platform"
+          "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+          "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
         },
         {
           "@type": "WebPage",
-          "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+          "name": "Representation offer vs other agent options: what to do first, and what to ask",
+          "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
+          "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_hero_stuck_blank_page_dread_blog_hero_landscape_be00e588fb28.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_381/how-to-typeset-your-novel-for-print-without-wrecking-readability/blog/blog_hero_stuck_blank_page_dread_blog_hero_landscape_be00e588fb28.jpeg?updatedAt=1782095362264",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 stuck blank-page dread",
@@ -616,7 +599,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#howto",
       "name": "How to typeset your novel for print without wrecking readability",
       "description": "You can do \"book design\" that looks gorgeous and still hand a reader a headache. Typesetting is where that headache gets made\u2014or prevented\u2014because it's the boring-but-dead-serious part: dimensions, page count, spacing, and the way text behaves on paper.",
       "totalTime": "PT7M",
@@ -626,49 +609,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Prepare a clean manuscript you can trust",
           "text": "Before you touch any layout settings, make your manuscript behave like it's going to be printed. Writers always lose time here by starting typesetting while the file is still wearing its \"draft\" clothes.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-1-prepare-a-clean-manuscript-you-can-trust"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-1-prepare-a-clean-manuscript-you-can-trust"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Set trim size, margins, and the page structure",
           "text": "Now you control the physical reality: best margins and trim size for novels, plus what the reader sees at the top and bottom of each page.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-2-set-trim-size-margins-and-the-page-structure"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-2-set-trim-size-margins-and-the-page-structure"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build paragraph styles that accomplish the work",
           "text": "Here's where DIY typesetting becomes realistic: novels are mostly body paragraphs. You need paragraph styles for every repeated element, applied consistently across the whole manuscript.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-3-build-paragraph-styles-that-accomplish-the-work"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-3-build-paragraph-styles-that-accomplish-the-work"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Format chapter headings and scene transitions so meaning shows",
           "text": "Visual transitions are part of the storytelling job. They shouldn't look random. They should signal changes without stealing attention from the plot.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-4-format-chapter-headings-and-scene-transitions-so-meaning-shows"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-4-format-chapter-headings-and-scene-transitions-so-meaning-shows"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Run readability and page-edge checks",
           "text": "Once your typesetting is mostly in place, do the sanity passes that catch what readers feel even when they don't name it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-5-run-readability-and-page-edge-checks"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-5-run-readability-and-page-edge-checks"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Handle advanced wrangling last, only where it removes real distraction",
           "text": "\"Advanced wrangling\" is the final pass: the surgical edits for subtle page-level distractions. Do it after the structure is stable, and only after you've verified your base styles and spacing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-6-handle-advanced-wrangling-last-only-where-it-removes-real-distraction"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#step-6-handle-advanced-wrangling-last-only-where-it-removes-real-distraction"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-typeset-your-novel-for-print-without-wrecking-readability#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
   "description": "You don't need to believe in the \"author working alone\" myth to hire an editor. That myth is just a way for writers to feel guilty while they wrestle a draft that's asking for professional eyes.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
+  "publishedDate": "2027-05-31",
+  "modifiedDate": "2027-05-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_hero_dread_blank_page_blog_hero_landscape_5356b77073fb.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_hero_dread_blank_page_blog_hero_landscape_5356b77073fb.jpeg?updatedAt=1782180029918",
     "alt": "blog hero \u00b7 dread blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "item": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
+      "item": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     }
   ],
   "tldrBlocks": [],
@@ -142,7 +142,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_pinpointing_diagnosis_blog_section_landscape_af701984eda2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_pinpointing_diagnosis_blog_section_landscape_af701984eda2.gif?updatedAt=1782180030574",
         "alt": "Editorial assessment: the starting signal when you're not sure what's broken",
         "width": 356,
         "height": 200,
@@ -308,13 +308,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_consistency_voice_blog_section_landscape_e9da4db71988.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_consistency_voice_blog_section_landscape_e9da4db71988.gif",
         "alt": "Copy editing: when the story works but the prose is messy",
-        "width": 5150,
-        "height": 3421,
-        "creator": "Jonathan Borba",
-        "creatorUrl": "https://www.pexels.com/@jonathanborba",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "AntiSocialMediaSolutions",
+        "creatorUrl": "https://giphy.com/gifs/AntiSocialMediaSolutions-gkd8cjJXd8a56n2pUj",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -445,13 +445,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_budget_genre_fit_blog_section_landscape_54829829aff9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_budget_genre_fit_blog_section_landscape_54829829aff9.jpeg",
         "alt": "Lessons and takeaways from this editor-match case study",
-        "width": 150,
-        "height": 200,
-        "creator": "RobertEBlackmon",
-        "creatorUrl": "https://giphy.com/gifs/RobertEBlackmon-broke-pinching-pennies-financial-struggles-PyoyQRPyZXYq7mfxxs",
-        "provider": "giphy",
+        "width": 4032,
+        "height": 3024,
+        "creator": "Niepoddawajsie.pl Luk",
+        "creatorUrl": "https://www.pexels.com/@niepoddawajsie-pl-luk-2156505622",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -489,43 +489,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_budget_genre_fit_blog_section_landscape_54829829aff9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_budget_genre_fit_blog_section_landscape_54829829aff9.jpeg",
         "alt": "Lessons and takeaways from this editor-match case study",
-        "width": 150,
-        "height": 200,
-        "creator": "RobertEBlackmon",
-        "creatorUrl": "https://giphy.com/gifs/RobertEBlackmon-broke-pinching-pennies-financial-struggles-PyoyQRPyZXYq7mfxxs",
-        "provider": "giphy",
+        "width": 4032,
+        "height": 3024,
+        "creator": "Niepoddawajsie.pl Luk",
+        "creatorUrl": "https://www.pexels.com/@niepoddawajsie-pl-luk-2156505622",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_section_image_send_it_revise_blog_section_landscape_e9f9e63fe83c.jpeg",
-    "alt": "blog section image \u00b7 send it revise",
-    "width": 3906,
-    "height": 3024,
-    "creator": "Shamia Casiano",
-    "creatorUrl": "https://www.pexels.com/@shamia-casiano-183672",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     },
     {
       "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     },
     {
       "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     },
     {
-      "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "title": "5 ways authors can help market their book after manuscript acceptance",
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -564,7 +555,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     }
   ]
 } as const;
@@ -594,7 +585,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -606,31 +597,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "item": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
+          "item": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
+      "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#webpage",
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
       "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -646,11 +637,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#article",
+      "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#webpage"
+        "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing",
       "headline": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
       "alternativeHeadline": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
       "description": "You don't need to believe in the \"author working alone\" myth to hire an editor. That myth is just a way for writers to feel guilty while they wrestle a draft that's asking for professional eyes.",
@@ -680,40 +671,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage"
       },
+      "datePublished": "2027-05-31",
+      "dateModified": "2027-05-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         },
         {
           "@type": "WebPage",
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+          "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         },
         {
           "@type": "WebPage",
           "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "name": "5 ways authors can help market their book after manuscript acceptance",
+          "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_hero_dread_blank_page_blog_hero_landscape_5356b77073fb.jpeg",
+      "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing/blog/blog_hero_dread_blank_page_blog_hero_landscape_5356b77073fb.jpeg?updatedAt=1782180029918",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 dread blank page",
@@ -728,7 +721,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#faq",
+      "@id": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to publish a short story final draft without turning feedback into a rewrite spiral",
   "description": "You've revised this thing so many times your draft probably knows your keyboard sounds. And yet you still can't spot the thing readers notice first. That's the myth: you can self-edit your way to a publication-ready short story if you just \"try harder\" with editing.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-22",
+  "modifiedDate": "2026-11-22",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-publish-a-short-story-final-draft-without-turning-feedback-into-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -579,6 +579,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-publish-a-short-story-final-draft-without-turning-feedback-into-a#primaryimage"
       },
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22",
       "mentions": [
         {
           "@type": "WebPage",

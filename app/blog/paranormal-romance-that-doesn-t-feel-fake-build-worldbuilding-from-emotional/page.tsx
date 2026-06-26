@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Paranormal romance that doesn't feel fake: build worldbuilding from emotional need",
   "description": "TLDR",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-01",
+  "modifiedDate": "2027-01-01",
   "canonicalUrl": "https://writequeryhook.com/blog/paranormal-romance-that-doesn-t-feel-fake-build-worldbuilding-from-emotional",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -702,6 +702,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/paranormal-romance-that-doesn-t-feel-fake-build-worldbuilding-from-emotional#primaryimage"
       },
+      "datePublished": "2027-01-01",
+      "dateModified": "2027-01-01",
       "mentions": [
         {
           "@type": "WebPage",

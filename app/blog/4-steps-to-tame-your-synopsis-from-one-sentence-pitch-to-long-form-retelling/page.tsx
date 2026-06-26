@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
   "description": "Writers treat the synopsis like it's a separate boss fight. Meanwhile, they're already drafting the manuscript, already wrestling character and plot and pacing\u2014and then the synopsis shows up like, \"Sure, but can you compress your entire book into something a stranger can digest?\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
+  "publishedDate": "2027-11-07",
+  "modifiedDate": "2027-11-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "item": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "item": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     }
   ],
   "tldrBlocks": [],
@@ -313,19 +313,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     },
     {
       "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     },
     {
       "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     },
     {
-      "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+      "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -360,7 +360,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for writing a novel synopsis that actually covers the whole story",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     }
   ]
 } as const;
@@ -390,7 +390,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -402,31 +402,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "item": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+          "item": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#webpage",
-      "url": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
+      "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#webpage",
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
       "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -442,11 +442,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#article",
+      "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#webpage"
+        "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling",
       "headline": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
       "alternativeHeadline": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
       "description": "Writers treat the synopsis like it's a separate boss fight. Meanwhile, they're already drafting the manuscript, already wrestling character and plot and pacing\u2014and then the synopsis shows up like, \"Sure, but can you compress your entire book into something a stranger can digest?\"",
@@ -476,39 +476,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage"
       },
+      "datePublished": "2027-11-07",
+      "dateModified": "2027-11-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         },
         {
           "@type": "WebPage",
           "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         },
         {
           "@type": "WebPage",
-          "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+          "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage",
+      "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_606/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling/blog/blog_hero_overwhelmed_dread_blog_hero_landscape_a9b0ccd59dd8.gif",
       "width": 200,
       "height": 200,
@@ -524,7 +526,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#faq",
+      "@id": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
   "description": "There's a special kind of panic that hits right after \"the manuscript is done.\"",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
+  "publishedDate": "2027-06-27",
+  "modifiedDate": "2027-06-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_hero_recognition_dread_blog_hero_landscape_093361fd5512.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_hero_recognition_dread_blog_hero_landscape_093361fd5512.jpeg?updatedAt=1782232735557",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "item": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
+      "item": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     }
   ],
   "tldrBlocks": [],
@@ -350,7 +350,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_panic_checklist_blog_section_landscape_b94cc8090542.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_panic_checklist_blog_section_landscape_b94cc8090542.gif?updatedAt=1782232737409",
         "alt": "How to tell what service level you actually need for your book",
         "width": 200,
         "height": 200,
@@ -568,7 +568,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_line_by_line_spacing_blog_section_landscape_7c7d71b7e85b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_line_by_line_spacing_blog_section_landscape_7c7d71b7e85b.jpeg?updatedAt=1782232738909",
         "alt": "Typesetting vs book formatting explained (because the names are confusing)",
         "width": 5880,
         "height": 3925,
@@ -670,7 +670,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_cheap_temptation_blending_in_blog_section_landscape_8a9538434f2b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_cheap_temptation_blending_in_blog_section_landscape_8a9538434f2b.gif?updatedAt=1782232740483",
         "alt": "Premade book covers: are they worth it?",
         "width": 200,
         "height": 200,
@@ -806,32 +806,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_section_image_action_relief_blog_section_landscape_eb4ac67d676a.jpeg",
-    "alt": "blog section image \u00b7 action relief",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Anderson Alves",
-    "creatorUrl": "https://www.pexels.com/@anderson-alves-2158767102",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     },
     {
       "title": "Middle grade vs young adult: which category your book actually fits",
-      "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     },
     {
       "title": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-      "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
+      "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
     },
     {
-      "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-      "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+      "title": "What are you working toward? Goals, writing, legacy, and working less",
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -878,7 +869,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     }
   ]
 } as const;
@@ -908,7 +899,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -920,31 +911,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "item": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
+          "item": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#webpage",
-      "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#webpage",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
       "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -960,11 +951,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#article",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#webpage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what",
       "headline": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
       "alternativeHeadline": "Do You Need to Hire a Cover Designer and Book Formatter? Here\u2019s What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
       "description": "There's a special kind of panic that hits right after \"the manuscript is done.\"",
@@ -994,40 +985,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage"
       },
+      "datePublished": "2027-06-27",
+      "dateModified": "2027-06-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         },
         {
           "@type": "WebPage",
           "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "url": "https://writequeryhook.com/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing-will-label-it"
+          "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Middle grade vs young adult: which category your book actually fits",
-          "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+          "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
         },
         {
           "@type": "WebPage",
           "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-          "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
+          "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
         },
         {
           "@type": "WebPage",
-          "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-          "url": "https://writequeryhook.com/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book-to-shelves"
+          "name": "What are you working toward? Goals, writing, legacy, and working less",
+          "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_hero_recognition_dread_blog_hero_landscape_093361fd5512.jpeg",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_449/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what/blog/blog_hero_recognition_dread_blog_hero_landscape_093361fd5512.jpeg?updatedAt=1782232735557",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -1042,7 +1035,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#faq",
+      "@id": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Nudge agents only when their published response rules run out (not when your anxiety does)",
   "description": "There's a special kind of silence that wrecks a querying writer's brain. You hit send, you refresh your inbox like it owes you money, and then\u2026 nothing. Cursor-blinking. Cold coffee. The brain starts filling in the blank with \"rejected,\" because \"rejected\" is at least an explanation.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-12",
+  "modifiedDate": "2027-03-12",
   "canonicalUrl": "https://writequeryhook.com/blog/nudge-agents-only-when-their-published-response-rules-run-out-not-when-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/nudge-agents-only-when-their-published-response-rules-run-out-not-when-your#primaryimage"
       },
+      "datePublished": "2027-03-12",
+      "dateModified": "2027-03-12",
       "mentions": [
         {
           "@type": "WebPage",

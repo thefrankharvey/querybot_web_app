@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
   "description": "You can write a killer sci-fi graphic novel and still feel like you\u2019re pitching into a fog machine.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
+  "publishedDate": "2027-10-07",
+  "modifiedDate": "2027-10-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_hero_dread_confusion_blog_hero_landscape_7fd9834d087a.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_hero_dread_confusion_blog_hero_landscape_7fd9834d087a.jpeg",
     "alt": "blog hero \u00b7 dread confusion",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 3875,
+    "height": 2848,
+    "creator": "Alexandro David",
+    "creatorUrl": "https://www.pexels.com/@alexandro-david-871783",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
+      "item": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     }
   ],
   "tldrBlocks": [],
@@ -118,7 +118,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_revenue_royalties_blog_section_landscape_8c0e3487e816.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_revenue_royalties_blog_section_landscape_8c0e3487e816.gif?updatedAt=1782339712796",
         "alt": "Tip 1: Treat subrights like part of the product, not a side quest",
         "width": 200,
         "height": 200,
@@ -218,7 +218,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_uncertainty_disappointment_blog_section_landscape_2b8827093b19.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_uncertainty_disappointment_blog_section_landscape_2b8827093b19.jpeg?updatedAt=1782339713362",
         "alt": "Tip 3: Stop worshiping ebook predictions\u2014build for uncertainty",
         "width": 7680,
         "height": 5120,
@@ -337,13 +337,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_collaboration_trust_blog_section_landscape_4339aea7e22e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_collaboration_trust_blog_section_landscape_4339aea7e22e.gif",
         "alt": "Tip 5: Decide whether to include an artist\u2014because graphic novels are collaboration math",
-        "width": 5760,
-        "height": 3840,
-        "creator": "Ketut Subiyanto",
-        "creatorUrl": "https://www.pexels.com/@ketut-subiyanto",
-        "provider": "pexels",
+        "width": 206,
+        "height": 200,
+        "creator": "therealmarkpain",
+        "creatorUrl": "https://giphy.com/gifs/therealmarkpain-partnership-me-and-you-were-a-team-zHomr3I92Ev8MldMDH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -381,32 +381,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_section_image_fist_pump_next_steps_blog_section_landscape_e6afc39cc69a.jpeg",
-    "alt": "blog section image \u00b7 fist pump next steps",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for unconventional writing when your book refuses to fit",
-      "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     },
     {
       "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     },
     {
       "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-      "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     },
     {
-      "title": "How to build an author platform off social media (without chasing follower counts)",
-      "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "title": "How literary agents handle the full publishing pipeline\u2014step by step",
+      "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -441,7 +432,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "url": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     }
   ]
 } as const;
@@ -471,7 +462,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -483,31 +474,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
+          "item": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
       "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -523,11 +514,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing",
       "headline": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
       "alternativeHeadline": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
       "description": "You can write a killer sci-fi graphic novel and still feel like you\u2019re pitching into a fog machine.",
@@ -557,55 +548,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage"
       },
+      "datePublished": "2027-10-07",
+      "dateModified": "2027-10-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "url": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
+          "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for unconventional writing when your book refuses to fit",
-          "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+          "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
         },
         {
           "@type": "WebPage",
           "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-          "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+          "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         },
         {
           "@type": "WebPage",
-          "name": "How to build an author platform off social media (without chasing follower counts)",
-          "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+          "name": "How literary agents handle the full publishing pipeline\u2014step by step",
+          "url": "https://writequeryhook.com/blog/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_hero_dread_confusion_blog_hero_landscape_7fd9834d087a.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing/blog/blog_hero_dread_confusion_blog_hero_landscape_7fd9834d087a.jpeg",
+      "width": 3875,
+      "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
-      "creditText": "abcnetwork",
+      "creditText": "Alexandro David",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Alexandro David",
+        "url": "https://www.pexels.com/@alexandro-david-871783"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

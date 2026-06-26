@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to emotionally move your readers (so they recommend and talk)",
   "description": "If you've ever watched your book get polite \"likes\" and then\u2026 nothing. No threads. No DMs. No one saying, \"You HAVE to read this,\" you already know the real problem: your readers aren't experiencing the kind of emotion that makes them want to share it with someone else.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
+  "publishedDate": "2027-08-16",
+  "modifiedDate": "2027-08-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_hero_competing_content_promotion_fatigue_blog_hero_landscape_53f3239ea42d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_hero_competing_content_promotion_fatigue_blog_hero_landscape_53f3239ea42d.jpeg?updatedAt=1782311958506",
     "alt": "blog hero \u00b7 competing content promotion fatigue",
     "width": 6963,
     "height": 4642,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to emotionally move your readers (so they recommend and talk)",
-      "item": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "item": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     }
   ],
   "tldrBlocks": [],
@@ -118,13 +118,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_emotion_honesty_blog_section_landscape_cac632deee5b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_emotion_honesty_blog_section_landscape_cac632deee5b.gif",
         "alt": "Step 1: Map the feeling to each scene (emotion design, not vibes)",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -225,7 +225,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_dread_tension_blog_section_landscape_951600a807b4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_dread_tension_blog_section_landscape_951600a807b4.gif?updatedAt=1782311959958",
         "alt": "Step 3: Write the setup so the payoff feels inevitable (even when it's surprising)",
         "width": 356,
         "height": 200,
@@ -342,7 +342,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_experiments_iteration_blog_section_landscape_a92b1e8beb0a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_experiments_iteration_blog_section_landscape_a92b1e8beb0a.jpeg?updatedAt=1782311960573",
         "alt": "Step 5: Test one tactic at a time, then learn what actually created conversation",
         "width": 6495,
         "height": 4330,
@@ -353,32 +353,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_section_image_momentum_pen_to_paper_blog_section_landscape_08c8c059c2b2.gif",
-    "alt": "blog section image \u00b7 momentum pen to paper",
-    "width": 266,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/pokemon-awww-meowth-uw0KpagtwEJtC",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     },
     {
       "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     },
     {
       "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     },
     {
       "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -413,7 +404,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     }
   ]
 } as const;
@@ -443,7 +434,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -455,31 +446,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to emotionally move your readers (so they recommend and talk)",
-          "item": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+          "item": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
       "name": "How to emotionally move your readers (so they recommend and talk)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -495,11 +486,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#article",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk",
       "headline": "How to emotionally move your readers (so they recommend and talk)",
       "alternativeHeadline": "How to emotionally move your readers (so they recommend and talk)",
       "description": "If you've ever watched your book get polite \"likes\" and then\u2026 nothing. No threads. No DMs. No one saying, \"You HAVE to read this,\" you already know the real problem: your readers aren't experiencing the kind of emotion that makes them want to share it with someone else.",
@@ -529,40 +520,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage"
       },
+      "datePublished": "2027-08-16",
+      "dateModified": "2027-08-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         },
         {
           "@type": "WebPage",
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         },
         {
           "@type": "WebPage",
           "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+          "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
         },
         {
           "@type": "WebPage",
           "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+          "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_hero_competing_content_promotion_fatigue_blog_hero_landscape_53f3239ea42d.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-emotionally-move-your-readers-so-they-recommend-and-talk/blog/blog_hero_competing_content_promotion_fatigue_blog_hero_landscape_53f3239ea42d.jpeg?updatedAt=1782311958506",
       "width": 6963,
       "height": 4642,
       "caption": "blog hero \u00b7 competing content promotion fatigue",
@@ -577,7 +570,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#howto",
       "name": "How to emotionally move your readers (so they recommend and talk)",
       "description": "If you've ever watched your book get polite \"likes\" and then\u2026 nothing. No threads. No DMs. No one saying, \"You HAVE to read this,\" you already know the real problem: your readers aren't experiencing the kind of emotion that makes them want to share it with someone else.",
       "totalTime": "PT6M",
@@ -587,42 +580,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Map the feeling to each scene (emotion design, not vibes)",
           "text": "Start by naming the exact emotion each major scene is responsible for. Write down the feeling the reader is supposed to have while they're reading that scene, not the theme you wish you wrote.",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-1-map-the-feeling-to-each-scene-emotion-design-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-1-map-the-feeling-to-each-scene-emotion-design-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Choose one of three emotion levers (don't mash all of them)",
           "text": "Most writers try to do everything: tender, ragey, thrilling, funny, devastating, hopeful\u2014so the work feels like it's jogging in place. Pick a lever.",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-2-choose-one-of-three-emotion-levers-don-t-mash-all-of-them"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-2-choose-one-of-three-emotion-levers-don-t-mash-all-of-them"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write the setup so the payoff feels inevitable (even when it's surprising)",
           "text": "Shock and controversy fail when the reader feels tricked. Readers talk when the emotional result feels earned.",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-3-write-the-setup-so-the-payoff-feels-inevitable-even-when-it-s-surprising"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-3-write-the-setup-so-the-payoff-feels-inevitable-even-when-it-s-surprising"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Create distribution that invites readers in",
           "text": "How to distribute your book in a surprising way without confusing readers means designing a path that rewards curiosity with a next step. You're earning a look that creates anticipation\u2014not trying to sell first.",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-4-create-distribution-that-invites-readers-in"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-4-create-distribution-that-invites-readers-in"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Test one tactic at a time, then learn what actually created conversation",
           "text": "Emotional strategies don't live in your head. They live in what readers do next: recommend, argue, share, and come back for more. Your goal is to find ways to get readers to talk about your book\u2014not just click, not just consume.",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-5-test-one-tactic-at-a-time-then-learn-what-actually-created-conversation"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#step-5-test-one-tactic-at-a-time-then-learn-what-actually-created-conversation"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk#faq",
       "mainEntity": [
         {
           "@type": "Question",

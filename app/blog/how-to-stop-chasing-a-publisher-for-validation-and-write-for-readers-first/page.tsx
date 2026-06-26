@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to stop chasing a publisher for validation and write for readers first",
   "description": "You're not \"lazy.\" You're not \"failing at the process.\" You're doing the most common mental trick in publishing: confusing publisher approval with legitimacy, then letting that confusion hijack revision, sleep, and sometimes your whole week.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-02",
+  "modifiedDate": "2027-04-02",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-chasing-a-publisher-for-validation-and-write-for-readers-first",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -562,6 +562,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-chasing-a-publisher-for-validation-and-write-for-readers-first#primaryimage"
       },
+      "datePublished": "2027-04-02",
+      "dateModified": "2027-04-02",
       "mentions": [
         {
           "@type": "WebPage",

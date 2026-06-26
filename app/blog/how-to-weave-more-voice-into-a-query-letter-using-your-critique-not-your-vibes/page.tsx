@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to weave more voice into a query letter (using your critique, not your vibes)",
   "description": "You got a query critique. It told you your letter is \"missing voice,\" or \"reads generic,\" or \"sounds like a template with plot pasted on top.\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-15",
+  "modifiedDate": "2026-07-15",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-weave-more-voice-into-a-query-letter-using-your-critique-not-your-vibes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -562,6 +562,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-weave-more-voice-into-a-query-letter-using-your-critique-not-your-vibes#primaryimage"
       },
+      "datePublished": "2026-07-15",
+      "dateModified": "2026-07-15",
       "mentions": [
         {
           "@type": "WebPage",

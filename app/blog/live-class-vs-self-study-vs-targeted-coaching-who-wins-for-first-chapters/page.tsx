@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Live class vs. self-study vs. targeted coaching: who wins for first chapters?",
   "description": "Some of us write with notebooks open. Some of us draft with sticky notes like it's a crime scene. And then we submit chapter one anyway\u2014complete with the museum tour narration:",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-17",
+  "modifiedDate": "2026-10-17",
   "canonicalUrl": "https://writequeryhook.com/blog/live-class-vs-self-study-vs-targeted-coaching-who-wins-for-first-chapters",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -648,6 +648,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/live-class-vs-self-study-vs-targeted-coaching-who-wins-for-first-chapters#primaryimage"
       },
+      "datePublished": "2026-10-17",
+      "dateModified": "2026-10-17",
       "mentions": [
         {
           "@type": "WebPage",

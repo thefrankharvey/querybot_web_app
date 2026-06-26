@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
   "description": "The word vanity gets tossed around like everyone already knows what it means. Most writers don't. And the offers don't always look like a cartoon villain with a \"Pay us!\" sign.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
+  "publishedDate": "2027-06-12",
+  "modifiedDate": "2027-06-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "doubt"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_hero_uncertainty_fine_print_blog_hero_landscape_8e4eebd2bc1e.jpeg?updatedAt=1782219818333",
+    "alt": "blog hero \u00b7 uncertainty fine print",
+    "width": 3999,
+    "height": 2667,
+    "creator": "Markus Winkler",
+    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-      "item": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+      "item": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
     }
   ],
   "tldrBlocks": [],
@@ -96,7 +105,16 @@ const PAGE_DATA = {
           "text": "Search terms you'll see (and should be suspicious of when they're vague): vanity press, vanity publishing, and publishing fees."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_section_image_profit_incentive_author_payments_blog_section_landscape_25d4a88b976b.gif?updatedAt=1782219819125",
+        "alt": "Quick self-check: what to ask before you pay",
+        "width": 200,
+        "height": 200,
+        "creator": "eToro_Official",
+        "creatorUrl": "https://giphy.com/gifs/eToro-Official-commissionfree-zerocommission-50dollars-f5XkFNjfuoRFT5HTrT",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_how_does_traditional_publishing_differ_from_vanity_publishing",
@@ -129,7 +147,16 @@ const PAGE_DATA = {
           "text": "The clean way to remember it: vanity press vs traditional publishing model = who pays first, and who gets paid if sales are weak."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_section_image_contrast_royalties_blog_section_landscape_a6f41574dcef.jpeg",
+        "alt": "Warning signs of vanity publishing contracts",
+        "width": 6000,
+        "height": 3592,
+        "creator": "JOSE GALLARDO",
+        "creatorUrl": "https://www.pexels.com/@jose-gallardo-369986",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_how_does_traditional_publishing_differ_from_vanity_publishing",
@@ -154,7 +181,16 @@ const PAGE_DATA = {
           "text": "Vanity presses operate on a simple model: the author pays, the publisher keeps the revenue\u2014usually through an upfront fee, \u00e0 la carte service charges, or both. This is how vanity presses make money from authors, and it's why quality can vary wildly. When revenue is decoupled from reader demand, there's no built-in incentive to defend the book's actual market performance. The publisher's profit margin is locked in the moment you sign the contract and send the check."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_section_image_contrast_royalties_blog_section_landscape_a6f41574dcef.jpeg",
+        "alt": "Warning signs of vanity publishing contracts",
+        "width": 6000,
+        "height": 3592,
+        "creator": "JOSE GALLARDO",
+        "creatorUrl": "https://www.pexels.com/@jose-gallardo-369986",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_why_does_vanity_publishing_often_lead_to_lower_quality_editing_and_design",
@@ -264,7 +300,16 @@ const PAGE_DATA = {
           "text": "Hybrid publisher vs vanity press differences get murky here, because \"hybrid\" labels sometimes soften the risk messaging. The legal reality is what matters: who holds the rights, for how long, and under what conditions."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_section_image_contrast_royalties_blog_section_landscape_a6f41574dcef.jpeg",
+        "alt": "Warning signs of vanity publishing contracts",
+        "width": 6000,
+        "height": 3592,
+        "creator": "JOSE GALLARDO",
+        "creatorUrl": "https://www.pexels.com/@jose-gallardo-369986",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_can_a_vanity_press_take_long_term_rights_from_an_author",
@@ -328,26 +373,35 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_section_image_profit_incentive_author_payments_blog_section_landscape_25d4a88b976b.gif?updatedAt=1782219819125",
+        "alt": "Quick self-check: what to ask before you pay",
+        "width": 200,
+        "height": 200,
+        "creator": "eToro_Official",
+        "creatorUrl": "https://giphy.com/gifs/eToro-Official-commissionfree-zerocommission-50dollars-f5XkFNjfuoRFT5HTrT",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
-      "title": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-      "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
-    },
-    {
       "title": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-      "url": "https://writequeryhook.com/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the-rights"
+      "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
     },
     {
-      "title": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-      "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
+      "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+    },
+    {
+      "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     },
     {
       "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -362,12 +416,7 @@ const PAGE_DATA = {
       "text": "If you want a system for tracking offers and spotting mismatches fast, the kind of \"incentive-first\" thinking you use here is exactly what we build for at WQH\u2014so you spend less time guessing and more time making clean publishing decisions."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-      "url": "https://writequeryhook.com/query-letters/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -395,7 +444,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -407,28 +456,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-          "item": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+          "item": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work#webpage",
-      "url": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
+      "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#webpage",
+      "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
       "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -444,11 +496,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work#article",
+      "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work#webpage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work",
       "headline": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
       "alternativeHeadline": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
       "description": "The word vanity gets tossed around like everyone already knows what it means. Most writers don't. And the offers don't always look like a cartoon villain with a \"Pay us!\" sign.",
@@ -477,33 +529,48 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#primaryimage"
+      },
+      "datePublished": "2027-06-12",
+      "dateModified": "2027-06-12",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-          "url": "https://writequeryhook.com/query-letters/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
-        },
-        {
-          "@type": "WebPage",
-          "name": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-          "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
-        },
-        {
-          "@type": "WebPage",
           "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-          "url": "https://writequeryhook.com/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the-rights"
+          "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-          "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
+          "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+          "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
+          "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_431/vanity-press-faq-how-fees-rights-and-distribution-actually-work/blog/blog_hero_uncertainty_fine_print_blog_hero_landscape_8e4eebd2bc1e.jpeg?updatedAt=1782219818333",
+      "width": 3999,
+      "height": 2667,
+      "caption": "blog hero \u00b7 uncertainty fine print",
+      "creditText": "Markus Winkler",
+      "author": {
+        "@type": "Person",
+        "name": "Markus Winkler",
+        "url": "https://www.pexels.com/@markus-winkler-1430818"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

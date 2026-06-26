@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for about the author examples that actually read like a person",
   "description": "You know the moment: you\u2019re staring at a tiny block of text called \u201cAbout the Author,\u201d and suddenly it feels like you\u2019re supposed to summarize a whole life, a whole career, and a whole marketing plan\u2014using three sentences and a font size that hates you.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-20",
+  "modifiedDate": "2026-08-20",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-about-the-author-examples-that-actually-read-like-a-person",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -503,6 +503,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-about-the-author-examples-that-actually-read-like-a-person#primaryimage"
       },
+      "datePublished": "2026-08-20",
+      "dateModified": "2026-08-20",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for dealing with inevitable rejection (without turning it into a personality trait)",
   "description": "Rejection has a talent for showing up exactly when your brain starts getting confident. Like, you\u2019ll think, Maybe this one\u2019s different, and then the response arrives and your stomach does a small, practical drop into the basement.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-03",
+  "modifiedDate": "2027-04-03",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-dealing-with-inevitable-rejection-without-turning-it-into-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -463,6 +463,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-dealing-with-inevitable-rejection-without-turning-it-into-a#primaryimage"
       },
+      "datePublished": "2027-04-03",
+      "dateModified": "2027-04-03",
       "mentions": [
         {
           "@type": "WebPage",

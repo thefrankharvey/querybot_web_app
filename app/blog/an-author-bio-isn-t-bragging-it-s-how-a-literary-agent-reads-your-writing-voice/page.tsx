@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "An author bio isn't bragging\u2014it's how a literary agent reads your writing voice",
   "description": "Most writers don't hate bios because they're hard to write. They hate bios because they're hard to be in.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-23",
+  "modifiedDate": "2026-08-23",
   "canonicalUrl": "https://writequeryhook.com/blog/an-author-bio-isn-t-bragging-it-s-how-a-literary-agent-reads-your-writing-voice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -620,6 +620,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/an-author-bio-isn-t-bragging-it-s-how-a-literary-agent-reads-your-writing-voice#primaryimage"
       },
+      "datePublished": "2026-08-23",
+      "dateModified": "2026-08-23",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How advances work against royalties: when you'll actually see money",
   "description": "You hear \"advance\" and your brain does the obvious thing: money now, momentum later. That's the myth.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money",
+  "publishedDate": "2027-10-14",
+  "modifiedDate": "2027-10-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How advances work against royalties: when you'll actually see money",
-      "item": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+      "item": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
     }
   ],
   "tldrBlocks": [],
@@ -387,19 +387,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-      "url": "https://writequeryhook.com/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     },
     {
       "title": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
-    },
-    {
-      "title": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
     },
     {
       "title": "Author websites vs alternatives: pick the funnel-y option that converts",
-      "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+      "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+    },
+    {
+      "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -438,7 +438,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     }
   ]
 } as const;
@@ -468,7 +468,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -480,31 +480,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How advances work against royalties: when you'll actually see money",
-          "item": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+          "item": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#webpage",
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money",
       "name": "How advances work against royalties: when you'll actually see money",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -520,11 +520,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#article",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#webpage"
+        "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money",
       "headline": "How advances work against royalties: when you'll actually see money",
       "alternativeHeadline": "How advances work against royalties: when you\u2019ll actually see money",
       "description": "You hear \"advance\" and your brain does the obvious thing: money now, momentum later. That's the myth.",
@@ -554,39 +554,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage"
       },
+      "datePublished": "2027-10-14",
+      "dateModified": "2027-10-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-          "url": "https://writequeryhook.com/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
         },
         {
           "@type": "WebPage",
           "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-          "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+          "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_575/how-advances-work-against-royalties-when-you-ll-actually-see-money/blog/blog_hero_confusion_deadline_blog_hero_landscape_18f45e9e0b48.jpeg",
       "width": 7950,
       "height": 4472,
@@ -602,7 +599,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#howto",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#howto",
       "name": "How advances work against royalties: when you'll actually see money",
       "description": "You hear \"advance\" and your brain does the obvious thing: money now, momentum later. That's the myth.",
       "totalTime": "PT7M",
@@ -612,42 +609,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Ace the definitions first (so you stop mixing up money types)",
           "text": "Before you touch a contract clause, lock these in. No vibes. No blur.",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-1-ace-the-definitions-first-so-you-stop-mixing-up-money-types"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-1-ace-the-definitions-first-so-you-stop-mixing-up-money-types"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Find the \"earn-out\" trigger (when do you start earning royalties?)",
           "text": "Here's the myth-busting core: when do you start earning royalties isn't \"publication day.\" It's \"after the sales catch up.\"",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-2-find-the-earn-out-trigger-when-do-you-start-earning-royalties"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-2-find-the-earn-out-trigger-when-do-you-start-earning-royalties"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Map the traditional advance stages (what the contract actually says)",
           "text": "Advances are rarely one clean payment. Contracts typically define a schedule\u2014often tied to milestones like signing, delivery, or acceptance.",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-3-map-the-traditional-advance-stages-what-the-contract-actually-says"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-3-map-the-traditional-advance-stages-what-the-contract-actually-says"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Understand royalty rates by route (traditional publishing vs self-publishing)",
           "text": "Now the percentages. This is where people get smug and wrong at the same time.",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-4-understand-royalty-rates-by-route-traditional-publishing-vs-self"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-4-understand-royalty-rates-by-route-traditional-publishing-vs-self"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Work returns into the math (because your check can shrink)",
           "text": "Here's the part that ruins the \"advance = safe money\" fantasy.",
-          "url": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-5-work-returns-into-the-math-because-your-check-can-shrink"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#step-5-work-returns-into-the-math-because-your-check-can-shrink"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-work-against-royalties-when-you-ll-actually-see-money#faq",
+      "@id": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money#faq",
       "mainEntity": [
         {
           "@type": "Question",

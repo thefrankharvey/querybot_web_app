@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Flash fiction FAQ: 5 answers for mini masterpieces",
   "description": "Writers call it flash fiction, but most of the frustration shows up the same way: you start with a spark, the draft gets crowded, and the ending either disappears or lands like a wet thud. This FAQ treats micro-fiction like what it is\u2014a real story form with real job requirements, not a \"vibes-only\" exercise.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-25",
+  "modifiedDate": "2026-12-25",
   "canonicalUrl": "https://writequeryhook.com/blog/flash-fiction-faq-5-answers-for-mini-masterpieces",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -435,6 +435,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/flash-fiction-faq-5-answers-for-mini-masterpieces#primaryimage"
       },
+      "datePublished": "2026-12-25",
+      "dateModified": "2026-12-25",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
   "description": "The standard advice says resubmission after rejection is risky and weird. Cool. Here\u2019s the contrarian part: waiting for perfect timing can cost you the only chance you get.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
+  "publishedDate": "2027-05-08",
+  "modifiedDate": "2027-05-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_hero_contrarian_rejection_blog_hero_landscape_d2112e922481.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_hero_contrarian_rejection_blog_hero_landscape_d2112e922481.jpeg?updatedAt=1782131071741",
     "alt": "blog hero \u00b7 contrarian rejection",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
+      "item": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
     }
   ],
   "tldrBlocks": [],
@@ -137,7 +137,7 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_body_anti_patterns_to_avoid_blog_section_landscape_44e37c8bcc62.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_body_anti_patterns_to_avoid_blog_section_landscape_44e37c8bcc62.gif?updatedAt=1782131072636",
         "alt": "Body: anti-patterns to avoid",
         "width": 279,
         "height": 200,
@@ -411,13 +411,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_obedience_compliance_blog_section_landscape_4210b49f6687.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_obedience_compliance_blog_section_landscape_4210b49f6687.gif",
         "alt": "You ignored the explicit \u201crevise and resubmit\u201d instruction",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "amc_tv",
+        "creatorUrl": "https://giphy.com/gifs/amc-tv-missed-chance-opportunity-missing-an-qpUV2RiqTqC7mcJW1w",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -468,7 +468,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_doubt_impostor_syndrome_blog_section_landscape_d220657acc12.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_doubt_impostor_syndrome_blog_section_landscape_d220657acc12.jpeg?updatedAt=1782131073819",
         "alt": "You resubmitted with \u201cchanges,\u201d but zero evidence of what actually got better",
         "width": 6000,
         "height": 4000,
@@ -497,32 +497,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_section_image_send_it_relief_blog_section_landscape_5ab99cd4e66c.gif",
-    "alt": "blog section image \u00b7 send-it relief",
-    "width": 356,
-    "height": 200,
-    "creator": "nambsocial",
-    "creatorUrl": "https://giphy.com/gifs/nambsocial-water-sendrelief-send-relief-IH3Vea3mVBtRHFENUI",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-      "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
     },
     {
-      "title": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-      "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+      "title": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
     },
     {
-      "title": "The editorial assessment should come first: how to tell what your book actually needs",
-      "url": "https://writequeryhook.com/the-editorial-assessment-should-come-first-how-to-tell-what-your-book-actually-needs"
+      "title": "How to incorporate agent/editor feedback without breaking your story",
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     },
     {
-      "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-      "url": "https://writequeryhook.com/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage-the-root"
+      "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
+      "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -536,7 +527,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-      "url": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
     }
   ]
 } as const;
@@ -566,7 +557,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -578,31 +569,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
+          "item": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
+      "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#webpage",
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
       "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -618,11 +609,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#article",
+      "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#webpage"
+        "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and",
       "headline": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
       "alternativeHeadline": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
       "description": "The standard advice says resubmission after rejection is risky and weird. Cool. Here\u2019s the contrarian part: waiting for perfect timing can cost you the only chance you get.",
@@ -652,40 +643,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage"
       },
+      "datePublished": "2027-05-08",
+      "dateModified": "2027-05-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-          "url": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+          "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
         },
         {
           "@type": "WebPage",
-          "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-          "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+          "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-          "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+          "name": "How to incorporate agent/editor feedback without breaking your story",
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
         },
         {
           "@type": "WebPage",
-          "name": "The editorial assessment should come first: how to tell what your book actually needs",
-          "url": "https://writequeryhook.com/the-editorial-assessment-should-come-first-how-to-tell-what-your-book-actually-needs"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-          "url": "https://writequeryhook.com/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage-the-root"
+          "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
+          "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_hero_contrarian_rejection_blog_hero_landscape_d2112e922481.jpeg",
+      "@id": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and/blog/blog_hero_contrarian_rejection_blog_hero_landscape_d2112e922481.jpeg?updatedAt=1782131071741",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 contrarian rejection",

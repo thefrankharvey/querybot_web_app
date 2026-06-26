@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Editor vs writing coach vs book coach vs beta reader: which feedback do you actually need?",
   "description": "The feedback market has gotten loud. Scroll for long enough and you'll see \"coach\" and \"editor\" and \"reader\" used like they all mean the same thing\u2014except they don't.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-18",
+  "modifiedDate": "2026-10-18",
   "canonicalUrl": "https://writequeryhook.com/blog/editor-vs-writing-coach-vs-book-coach-vs-beta-reader-which-feedback-do-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -526,6 +526,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/editor-vs-writing-coach-vs-book-coach-vs-beta-reader-which-feedback-do-you#primaryimage"
       },
+      "datePublished": "2026-10-18",
+      "dateModified": "2026-10-18",
       "mentions": [
         {
           "@type": "WebPage",

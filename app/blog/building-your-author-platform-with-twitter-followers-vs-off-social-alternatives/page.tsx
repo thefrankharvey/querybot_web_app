@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Building your author platform with Twitter followers vs off-social alternatives",
   "description": "Twitter can feel like the whole game. Post more. Engage more. Watch numbers climb. That vibe turns \"platform\" into a follower-count hostage situation.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
+  "publishedDate": "2027-08-02",
+  "modifiedDate": "2027-08-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_hero_anxious_confused_blog_hero_landscape_1d727c05133d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_hero_anxious_confused_blog_hero_landscape_1d727c05133d.jpeg?updatedAt=1782268919300",
     "alt": "blog hero \u00b7 anxious confused",
     "width": 5472,
     "height": 3648,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Building your author platform with Twitter followers vs off-social alternatives",
-      "item": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+      "item": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
     }
   ],
   "tldrBlocks": [],
@@ -131,13 +131,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.gif",
         "alt": "Why author platform is not twitter followers: the alternative lineup",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "jeopardy",
+        "creatorUrl": "https://giphy.com/gifs/jeopardy-jeopardyclue-misconception-xqKe5D5fZowGSmGbeu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -237,13 +237,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.gif",
         "alt": "Why author platform is not twitter followers: the alternative lineup",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "jeopardy",
+        "creatorUrl": "https://giphy.com/gifs/jeopardy-jeopardyclue-misconception-xqKe5D5fZowGSmGbeu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -287,13 +287,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_time_drain_budgeting_blog_section_landscape_2ab0c7199043.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_time_drain_budgeting_blog_section_landscape_2ab0c7199043.jpeg",
         "alt": "Cost, time, effort: what actually drains you",
-        "width": 150,
-        "height": 200,
-        "creator": "RobertEBlackmon",
-        "creatorUrl": "https://giphy.com/gifs/RobertEBlackmon-broke-pinching-pennies-financial-struggles-PyoyQRPyZXYq7mfxxs",
-        "provider": "giphy",
+        "width": 6720,
+        "height": 4480,
+        "creator": "www.kaboompics.com",
+        "creatorUrl": "https://www.pexels.com/@karola-g",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -349,13 +349,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_frustration_misconception_blog_section_landscape_3d8913c9386c.gif",
         "alt": "Why author platform is not twitter followers: the alternative lineup",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "jeopardy",
+        "creatorUrl": "https://giphy.com/gifs/jeopardy-jeopardyclue-misconception-xqKe5D5fZowGSmGbeu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -411,32 +411,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_section_image_permission_relief_blog_section_landscape_aa9e66641553.gif",
-    "alt": "blog section image \u00b7 permission relief",
-    "width": 330,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/relief-z23hGvopHu7w4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-      "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
     },
     {
       "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
-      "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
     },
     {
       "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-      "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     },
     {
-      "title": "What IP Publishing Really Means (and how to study it through examples)",
-      "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+      "title": "AI Use in Writing: A Real FAQ for Authors",
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -471,7 +462,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-      "url": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
     }
   ]
 } as const;
@@ -501,7 +492,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -513,31 +504,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Building your author platform with Twitter followers vs off-social alternatives",
-          "item": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+          "item": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#webpage",
-      "url": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
+      "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#webpage",
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
       "name": "Building your author platform with Twitter followers vs off-social alternatives",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage"
+        "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -553,11 +544,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#article",
+      "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#webpage"
+        "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives",
       "headline": "Building your author platform with Twitter followers vs off-social alternatives",
       "alternativeHeadline": "Building your author platform with Twitter followers vs off-social alternatives",
       "description": "Twitter can feel like the whole game. Post more. Engage more. Watch numbers climb. That vibe turns \"platform\" into a follower-count hostage situation.",
@@ -587,40 +578,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage"
+        "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage"
       },
+      "datePublished": "2027-08-02",
+      "dateModified": "2027-08-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-          "url": "https://writequeryhook.com/query-letters/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-          "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-          "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
         },
         {
           "@type": "WebPage",
           "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
-          "url": "https://writequeryhook.com/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What IP Publishing Really Means (and how to study it through examples)",
-          "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+          "name": "AI Use in Writing: A Real FAQ for Authors",
+          "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_hero_anxious_confused_blog_hero_landscape_1d727c05133d.jpeg",
+      "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_490/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives/blog/blog_hero_anxious_confused_blog_hero_landscape_1d727c05133d.jpeg?updatedAt=1782268919300",
       "width": 5472,
       "height": 3648,
       "caption": "blog hero \u00b7 anxious confused",
@@ -635,7 +623,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#faq",
+      "@id": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives#faq",
       "mainEntity": [
         {
           "@type": "Question",

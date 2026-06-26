@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Mystery Novel Step by Step by Committing to the Crime First",
   "description": "Most mystery advice makes it sound like success is mostly vibes. Like you feel tense, sprinkle a few clues, and the twist magically lands. That's a myth.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-25",
+  "modifiedDate": "2026-09-25",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-mystery-novel-step-by-step-by-committing-to-the-crime-first",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -578,6 +578,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-mystery-novel-step-by-step-by-committing-to-the-crime-first#primaryimage"
       },
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Un-productivity tips for writers: the case for quiet stretches (and what to do instead)",
   "description": "Here's the case study subject: the idea set behind \"un-productivity\" tips for writers, reframing rest as part of the job\u2014not a detour from it. The article's core move is psychological and practical: it argues that not writing can be a healthy signal that your mind and body need slowing down.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-09",
+  "modifiedDate": "2027-04-09",
   "canonicalUrl": "https://writequeryhook.com/blog/un-productivity-tips-for-writers-the-case-for-quiet-stretches-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -486,6 +486,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/un-productivity-tips-for-writers-the-case-for-quiet-stretches-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-04-09",
+      "dateModified": "2027-04-09",
       "mentions": [
         {
           "@type": "WebPage",

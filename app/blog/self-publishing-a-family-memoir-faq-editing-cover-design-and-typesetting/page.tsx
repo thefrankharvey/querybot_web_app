@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
   "description": "Family memoir is a specific kind of publishing brain-burn. You're trying to honor real people, keep the \"invisible\" parts of family history from getting erased, and still make the book feel readable\u2014like a book, not an annotated archive. Then you hit the second job: how to self-publish this thing without getting crushed by editing, cover design, or navigating typesetting for self-publishing.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
+  "publishedDate": "2027-10-12",
+  "modifiedDate": "2027-10-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-      "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+      "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
     }
   ],
   "tldrBlocks": [],
@@ -288,20 +288,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-      "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+      "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     },
     {
-      "title": "Successful self-published authors: 17 inspiring stories FAQ",
-      "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+      "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     },
     {
-      "title": "Economics of publishing examples: the napkin math that explains author income vs publisher profit",
-      "url": "https://writequeryhook.com/economics-of-publishing-examples-the-napkin-math-that-explains-author-income-vs-publisher-profit"
+      "title": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
+      "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
     },
     {
-      "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-      "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+      "title": "5 tips for unconventional writing when your book refuses to fit",
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -316,12 +316,7 @@ const PAGE_DATA = {
       "text": "If you want the cleanest planning for the next pass, put these three hiring questions on your notes: what structural help you need, how they handle **editing continuity gaps in a family memoir**, and what files they'll deliver for final publication. That's the fastest way to turn anxiety into a schedule that actually finishes."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-      "url": "https://writequeryhook.com/query-letters/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -349,7 +344,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -361,31 +356,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-          "item": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+          "item": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#webpage",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#webpage",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
       "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -401,11 +396,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#article",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#webpage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting",
       "headline": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
       "alternativeHeadline": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
       "description": "Family memoir is a specific kind of publishing brain-burn. You're trying to honor real people, keep the \"invisible\" parts of family history from getting erased, and still make the book feel readable\u2014like a book, not an annotated archive. Then you hit the second job: how to self-publish this thing without getting crushed by editing, cover design, or navigating typesetting for self-publishing.",
@@ -435,39 +430,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage"
       },
+      "datePublished": "2027-10-12",
+      "dateModified": "2027-10-12",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-          "url": "https://writequeryhook.com/query-letters/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+          "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+          "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-          "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+          "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
         },
         {
           "@type": "WebPage",
-          "name": "Successful self-published authors: 17 inspiring stories FAQ",
-          "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+          "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
+          "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
         },
         {
           "@type": "WebPage",
-          "name": "Economics of publishing examples: the napkin math that explains author income vs publisher profit",
-          "url": "https://writequeryhook.com/economics-of-publishing-examples-the-napkin-math-that-explains-author-income-vs-publisher-profit"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-          "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+          "name": "5 tips for unconventional writing when your book refuses to fit",
+          "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_572/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting/blog/blog_hero_anxious_curious_blog_hero_landscape_c2f7f7fc8fb1.gif",
       "width": 200,
       "height": 200,

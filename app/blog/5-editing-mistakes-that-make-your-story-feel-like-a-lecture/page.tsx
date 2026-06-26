@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 editing mistakes that make your story feel like a lecture",
   "description": "If your draft keeps stopping to explain itself, congratulations: you've written a convincing audio-essay. The only problem is your agent/editor/potential reader is not here for a lecture.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-12",
+  "modifiedDate": "2026-11-12",
   "canonicalUrl": "https://writequeryhook.com/blog/5-editing-mistakes-that-make-your-story-feel-like-a-lecture",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-editing-mistakes-that-make-your-story-feel-like-a-lecture#primaryimage"
       },
+      "datePublished": "2026-11-12",
+      "dateModified": "2026-11-12",
       "mentions": [
         {
           "@type": "WebPage",

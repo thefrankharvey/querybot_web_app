@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to use your book's bonus content to grow your community (and your email list)",
   "description": "Most authors don't have a problem creating a book. They have a problem keeping momentum after publication, when the \"now what?\" hits like a dropped tray at a signing line.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
+  "publishedDate": "2027-08-28",
+  "modifiedDate": "2027-08-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_hero_published_fear_between_releases_blog_hero_landscape_90d0415f8fbb.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_hero_published_fear_between_releases_blog_hero_landscape_90d0415f8fbb.jpeg",
     "alt": "blog hero \u00b7 published-fear between-releases",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 5184,
+    "height": 3456,
+    "creator": "Pixabay",
+    "creatorUrl": "https://www.pexels.com/@pixabay",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to use your book's bonus content to grow your community (and your email list)",
-      "item": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "item": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     }
   ],
   "tldrBlocks": [],
@@ -125,13 +125,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_strategy_decision_blog_section_landscape_07f8ef4934f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_strategy_decision_blog_section_landscape_07f8ef4934f4.gif",
         "alt": "Step 4: Schedule your bonus windows (pre-launch, launch, between-release)",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Vlada Karpovich",
-        "creatorUrl": "https://www.pexels.com/@vlada-karpovich",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -258,7 +258,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_worksheets_maps_blog_section_landscape_eb8272e7bda4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_worksheets_maps_blog_section_landscape_eb8272e7bda4.jpeg?updatedAt=1782318942273",
         "alt": "Step 3: Package bonus materials for fiction and non-fiction differently",
         "width": 5416,
         "height": 3611,
@@ -318,13 +318,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_strategy_decision_blog_section_landscape_07f8ef4934f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_strategy_decision_blog_section_landscape_07f8ef4934f4.gif",
         "alt": "Step 4: Schedule your bonus windows (pre-launch, launch, between-release)",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Vlada Karpovich",
-        "creatorUrl": "https://www.pexels.com/@vlada-karpovich",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -377,13 +377,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_marketing_welcome_blog_section_landscape_c4bb22422071.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_marketing_welcome_blog_section_landscape_c4bb22422071.gif",
         "alt": "Step 5: Keep marketing ethically welcoming (and actually consistent)",
-        "width": 5859,
-        "height": 3906,
-        "creator": "Tim Mossholder",
-        "creatorUrl": "https://www.pexels.com/@timmossholder",
-        "provider": "pexels",
+        "width": 526,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -438,32 +438,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_section_image_send_it_publish_blog_section_landscape_325f948539aa.gif",
-    "alt": "blog section image \u00b7 send-it publish",
-    "width": 400,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/hello-hi-wave-xT9IgG50Fb7Mi0prBC",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-      "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
-    },
-    {
-      "title": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-      "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+      "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
     },
     {
       "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-      "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
     },
     {
-      "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-      "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+      "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
+    },
+    {
+      "title": "Happy harsh truths of a writing career faq",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -502,7 +493,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     }
   ]
 } as const;
@@ -532,7 +523,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -544,31 +535,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "item": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+          "item": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
       "name": "How to use your book's bonus content to grow your community (and your email list)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -584,11 +575,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#article",
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list",
       "headline": "How to use your book's bonus content to grow your community (and your email list)",
       "alternativeHeadline": "How to use your book\u2019s bonus content to grow your community (and your email list)",
       "description": "Most authors don't have a problem creating a book. They have a problem keeping momentum after publication, when the \"now what?\" hits like a dropped tray at a signing line.",
@@ -618,55 +609,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage"
       },
+      "datePublished": "2027-08-28",
+      "dateModified": "2027-08-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-          "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-          "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
         },
         {
           "@type": "WebPage",
           "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-          "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+          "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
         },
         {
           "@type": "WebPage",
-          "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-          "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+          "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
+          "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Happy harsh truths of a writing career faq",
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_hero_published_fear_between_releases_blog_hero_landscape_90d0415f8fbb.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list/blog/blog_hero_published_fear_between_releases_blog_hero_landscape_90d0415f8fbb.jpeg",
+      "width": 5184,
+      "height": 3456,
       "caption": "blog hero \u00b7 published-fear between-releases",
-      "creditText": "wwe",
+      "creditText": "Pixabay",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "Pixabay",
+        "url": "https://www.pexels.com/@pixabay"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#howto",
       "name": "How to use your book's bonus content to grow your community (and your email list)",
       "description": "Most authors don't have a problem creating a book. They have a problem keeping momentum after publication, when the \"now what?\" hits like a dropped tray at a signing line.",
       "totalTime": "PT7M",
@@ -676,49 +669,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Decide what job the bonus content does (value, list-building, or discovery)",
           "text": "Before you make anything, write down which outcome you're targeting. Pick one primary job per bonus. (You can stack jobs later, but first choose the mission.)",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-1-decide-what-job-the-bonus-content-does-value-list-building-or-discovery"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-1-decide-what-job-the-bonus-content-does-value-list-building-or-discovery"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build one bonus that leads to a name + email (responsibly)",
           "text": "Now package the bonus so it's easy to get and clear why readers are signing up.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-2-build-one-bonus-that-leads-to-a-name-email-responsibly"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-2-build-one-bonus-that-leads-to-a-name-email-responsibly"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Package bonus materials for fiction and non-fiction differently",
           "text": "Different readers want different payoffs. So don't copy/paste the same bonus across formats.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-3-package-bonus-materials-for-fiction-and-non-fiction-differently"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-3-package-bonus-materials-for-fiction-and-non-fiction-differently"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Schedule your bonus windows (pre-launch, launch, between-release)",
           "text": "If your bonuses only happen when you're launching, you end up doing all your community-building during the busiest time. Plan for windows instead.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-4-schedule-your-bonus-windows-pre-launch-launch-between-release"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-4-schedule-your-bonus-windows-pre-launch-launch-between-release"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Keep marketing ethically welcoming (and actually consistent)",
           "text": "Here's the rule: the reader gave permission because your bonus helped them. Your follow-up emails should respect that.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-5-keep-marketing-ethically-welcoming-and-actually-consistent"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-5-keep-marketing-ethically-welcoming-and-actually-consistent"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Measure reader fit, then revise the bonus (not your whole personality)",
           "text": "You don't need perfect analytics. Watch for signals: which bonuses got downloads, which ones triggered follow-up clicks, which ones caused unsubscribes.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-6-measure-reader-fit-then-revise-the-bonus-not-your-whole-personality"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#step-6-measure-reader-fit-then-revise-the-bonus-not-your-whole-personality"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list#faq",
       "mainEntity": [
         {
           "@type": "Question",

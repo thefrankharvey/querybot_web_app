@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Choose Comp Titles for Your Query Letter (So a Literary Agent Can Actually Place Your Book)",
   "description": "The first time I hunted for comps, I grabbed two shiny, vaguely similar books I'd seen on shelves, slapped them into my query letter like I was seasoning soup, and hit send with the confidence of a person who has never had to justify anything to a cranky reviewer.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-05",
+  "modifiedDate": "2026-08-05",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-choose-comp-titles-for-your-query-letter-so-a-literary-agent-can",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -884,6 +884,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-choose-comp-titles-for-your-query-letter-so-a-literary-agent-can#primaryimage"
       },
+      "datePublished": "2026-08-05",
+      "dateModified": "2026-08-05",
       "mentions": [
         {
           "@type": "WebPage",

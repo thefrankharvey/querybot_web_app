@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How agent-likely attention works: desire line, deeper wish, and the plot that won't let go",
   "description": "TLDR",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-01",
+  "modifiedDate": "2026-12-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-agent-likely-attention-works-desire-line-deeper-wish-and-the-plot-that-won",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -587,6 +587,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-agent-likely-attention-works-desire-line-deeper-wish-and-the-plot-that-won#primaryimage"
       },
+      "datePublished": "2026-12-01",
+      "dateModified": "2026-12-01",
       "mentions": [
         {
           "@type": "WebPage",

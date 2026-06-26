@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
   "description": "Everyone's got deadlines, everyone's got budget, and \"stages\" feel like bureaucratic bloat\u2014like the manuscript is trapped in a conveyor belt labeled developmental first, copyediting later, proofreading at the end.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
+  "publishedDate": "2027-10-06",
+  "modifiedDate": "2027-10-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_hero_worry_dread_blog_hero_landscape_4716cc7414cf.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_hero_worry_dread_blog_hero_landscape_4716cc7414cf.jpeg?updatedAt=1782339731698",
     "alt": "blog hero \u00b7 worry dread",
     "width": 5814,
     "height": 3876,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "item": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
+      "item": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     }
   ],
   "tldrBlocks": [],
@@ -103,13 +103,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_opening_blog_section_landscape_d4e1555969f6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_opening_blog_section_landscape_d4e1555969f6.jpeg",
         "alt": "Opening",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -237,13 +237,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_clarity_tone_consistency_blog_section_landscape_2e5d22fa1ad3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_clarity_tone_consistency_blog_section_landscape_2e5d22fa1ad3.gif",
         "alt": "Line editing vs copyediting differences (where the edits feel different)",
-        "width": 5764,
-        "height": 3843,
-        "creator": "DS stories",
-        "creatorUrl": "https://www.pexels.com/@ds-stories",
-        "provider": "pexels",
+        "width": 378,
+        "height": 200,
+        "creator": "tonesandi",
+        "creatorUrl": "https://giphy.com/gifs/tonesandi-tones-and-i-bad-child-hogauKfMiUeBNnhpx9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -375,7 +375,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_overlap_role_confusion_blog_section_landscape_8bfd5c49c955.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_overlap_role_confusion_blog_section_landscape_8bfd5c49c955.gif?updatedAt=1782339733336",
         "alt": "What to watch for when stages compress",
         "width": 244,
         "height": 200,
@@ -386,32 +386,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_section_image_heavy_sigh_deep_breath_blog_section_landscape_edac30d86c40.jpeg",
-    "alt": "blog section image \u00b7 heavy sigh deep breath",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     },
     {
       "title": "5 tips for unconventional writing when your book refuses to fit",
-      "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     },
     {
       "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     },
     {
-      "title": "Copyright a book: the definitive guide FAQ",
-      "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+      "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -450,7 +441,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     }
   ]
 } as const;
@@ -480,7 +471,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -492,31 +483,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "item": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
+          "item": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
+      "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#webpage",
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
       "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -532,11 +523,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#article",
+      "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#webpage"
+        "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your",
       "headline": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
       "alternativeHeadline": "Line editing is the murky middle for a reason\u2014don\u2019t let \"efficiency\" eat your sentence-level attention",
       "description": "Everyone's got deadlines, everyone's got budget, and \"stages\" feel like bureaucratic bloat\u2014like the manuscript is trapped in a conveyor belt labeled developmental first, copyediting later, proofreading at the end.",
@@ -566,40 +557,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage"
       },
+      "datePublished": "2027-10-06",
+      "dateModified": "2027-10-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for unconventional writing when your book refuses to fit",
-          "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+          "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
         },
         {
           "@type": "WebPage",
-          "name": "Copyright a book: the definitive guide FAQ",
-          "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+          "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
+          "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_hero_worry_dread_blog_hero_landscape_4716cc7414cf.jpeg",
+      "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_565/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your/blog/blog_hero_worry_dread_blog_hero_landscape_4716cc7414cf.jpeg?updatedAt=1782339731698",
       "width": 5814,
       "height": 3876,
       "caption": "blog hero \u00b7 worry dread",
@@ -614,7 +602,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#faq",
+      "@id": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

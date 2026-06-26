@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
   "description": "Nonfiction proposals get treated like paperwork, which is why so many writers panic when they sit down to write one. A book proposal isn't craft-pageantry. It's closer to a business case: market need, a clearly defined audience, and receipts that prove you're the person who can deliver the value.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq",
+  "publishedDate": "2027-07-06",
+  "modifiedDate": "2027-07-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_0b2bdd6c4928.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_0b2bdd6c4928.jpeg?updatedAt=1782244748499",
     "alt": "blog hero \u00b7 confusion blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "item": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "item": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     }
   ],
   "tldrBlocks": [],
@@ -195,13 +195,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_eye_roll_comps_pressure_blog_section_landscape_93a66ecda935.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_eye_roll_comps_pressure_blog_section_landscape_93a66ecda935.gif",
         "alt": "How should comparative titles be chosen and discussed?",
-        "width": 4127,
-        "height": 2751,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -244,13 +244,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_hook_excitement_blog_section_landscape_673235bb382f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_hook_excitement_blog_section_landscape_673235bb382f.gif",
         "alt": "What should the overview include, and how do you make it compelling?",
-        "width": 6240,
-        "height": 4160,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -280,13 +280,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_timeline_dread_page_count_blog_section_landscape_954c95a59a0e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_timeline_dread_page_count_blog_section_landscape_954c95a59a0e.jpeg",
         "alt": "What to include for agents who request logistics?",
-        "width": 314,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw",
-        "provider": "giphy",
+        "width": 3000,
+        "height": 2000,
+        "creator": "Black  ice",
+        "creatorUrl": "https://www.pexels.com/@black-ice-551383",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -370,13 +370,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_timeline_dread_page_count_blog_section_landscape_954c95a59a0e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_timeline_dread_page_count_blog_section_landscape_954c95a59a0e.jpeg",
         "alt": "What to include for agents who request logistics?",
-        "width": 314,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/math-lady-meme-WRQBXSCnEFJIuxktnw",
-        "provider": "giphy",
+        "width": 3000,
+        "height": 2000,
+        "creator": "Black  ice",
+        "creatorUrl": "https://www.pexels.com/@black-ice-551383",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -405,32 +405,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_section_image_final_checklist_next_step_blog_section_landscape_f8dec314f4c0.gif",
-    "alt": "blog section image \u00b7 final checklist next step",
-    "width": 200,
-    "height": 200,
-    "creator": "pudgypenguins",
-    "creatorUrl": "https://giphy.com/gifs/pudgypenguins-next-list-whos-gWWUmX65rdliVnaAw4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Infographic 5 Key Book Publishing Paths FAQ",
-      "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     },
     {
       "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     },
     {
       "title": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     },
     {
-      "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+      "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -439,7 +430,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Infographic 5 Key Book Publishing Paths FAQ",
-      "url": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq"
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     }
   ]
 } as const;
@@ -469,7 +460,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -481,31 +472,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "item": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "item": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#webpage",
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq",
       "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -521,11 +512,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#article",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq",
       "headline": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
       "alternativeHeadline": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
       "description": "Nonfiction proposals get treated like paperwork, which is why so many writers panic when they sit down to write one. A book proposal isn't craft-pageantry. It's closer to a business case: market need, a clearly defined audience, and receipts that prove you're the person who can deliver the value.",
@@ -555,40 +546,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage"
       },
+      "datePublished": "2027-07-06",
+      "dateModified": "2027-07-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "url": "https://writequeryhook.com/query-letters/infographic-5-key-book-publishing-paths-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+          "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
         },
         {
           "@type": "WebPage",
           "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "url": "https://writequeryhook.com/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+          "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         },
         {
           "@type": "WebPage",
           "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
+          "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
         },
         {
           "@type": "WebPage",
-          "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+          "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
+          "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_0b2bdd6c4928.jpeg",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_460/write-a-nonfiction-book-proposal-in-9-steps-faq/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_0b2bdd6c4928.jpeg?updatedAt=1782244748499",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion blank-page dread",

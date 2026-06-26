@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 things literary agents actually do (from submissions to contracts)",
   "description": "If you've ever sent a manuscript out and then spent the next week refreshing your inbox like it owes you money, congratulations: you've met the emotional reality of publishing. It's stressful. It's also structured.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts",
+  "publishedDate": "2027-08-17",
+  "modifiedDate": "2027-08-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_hero_recognition_frustration_blog_hero_landscape_d18489f26b5f.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_hero_recognition_frustration_blog_hero_landscape_d18489f26b5f.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 things literary agents actually do (from submissions to contracts)",
-      "item": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "item": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     }
   ],
   "tldrBlocks": [],
@@ -202,7 +202,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_networking_art_and_science_blog_section_landscape_8b5336b4a578.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_networking_art_and_science_blog_section_landscape_8b5336b4a578.png?updatedAt=1782312006914",
         "alt": "Step 3: Use publishing networking and judgment to pick where to submit",
         "width": 7680,
         "height": 4320,
@@ -258,13 +258,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_negotiation_contracts_blog_section_landscape_6e094790fca7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_negotiation_contracts_blog_section_landscape_6e094790fca7.gif",
         "alt": "Step 4: Negotiate offers, then negotiate the contracts (including auctions)",
-        "width": 8000,
-        "height": 4500,
-        "creator": "Monstera Production",
-        "creatorUrl": "https://www.pexels.com/@gabby-k",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Jordan_Lawlar",
+        "creatorUrl": "https://giphy.com/gifs/mlb-baseball-player-jordan-lawlar-ZOWojGSxaka2H5S0eS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -311,7 +311,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_payments_dates_blog_section_landscape_22eb2011a8c1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_payments_dates_blog_section_landscape_22eb2011a8c1.gif?updatedAt=1782312008095",
         "alt": "Step 5: Manage the timeline, payments, and disputes after a deal closes",
         "width": 226,
         "height": 200,
@@ -322,32 +322,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_section_image_relief_checklist_blog_section_landscape_f4829e659ee0.jpeg",
-    "alt": "blog section image \u00b7 relief checklist",
-    "width": 5472,
-    "height": 3648,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     },
     {
       "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
-      "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     },
     {
       "title": "How to emotionally move your readers (so they recommend and talk)",
-      "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     },
     {
-      "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+      "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -382,7 +373,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     }
   ]
 } as const;
@@ -412,7 +403,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -424,31 +415,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 things literary agents actually do (from submissions to contracts)",
-          "item": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "item": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts",
+      "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#webpage",
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts",
       "name": "5 things literary agents actually do (from submissions to contracts)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -464,11 +455,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#article",
+      "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#webpage"
+        "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts",
       "headline": "5 things literary agents actually do (from submissions to contracts)",
       "alternativeHeadline": "5 things literary agents actually do (from submissions to contracts)",
       "description": "If you've ever sent a manuscript out and then spent the next week refreshing your inbox like it owes you money, congratulations: you've met the emotional reality of publishing. It's stressful. It's also structured.",
@@ -498,55 +489,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage"
       },
+      "datePublished": "2027-08-17",
+      "dateModified": "2027-08-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+          "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
         },
         {
           "@type": "WebPage",
           "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-          "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         },
         {
           "@type": "WebPage",
           "name": "How to emotionally move your readers (so they recommend and talk)",
-          "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
         },
         {
           "@type": "WebPage",
-          "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+          "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
+          "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_hero_recognition_frustration_blog_hero_landscape_d18489f26b5f.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_507/5-things-literary-agents-actually-do-from-submissions-to-contracts/blog/blog_hero_recognition_frustration_blog_hero_landscape_d18489f26b5f.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "theinnernette",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "theinnernette",
-        "url": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-things-literary-agents-actually-do-from-submissions-to-contracts#faq",
+      "@id": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts#faq",
       "mainEntity": [
         {
           "@type": "Question",

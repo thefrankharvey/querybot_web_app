@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Choosing a great book title FAQ",
   "description": "A book title is doing real work before your blurb ever gets a chance. It has to pull readers in, signal what kind of experience they're about to have, and stick in their heads long enough that they can recommend the book later without fumbling the name.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq",
+  "publishedDate": "2027-09-17",
+  "modifiedDate": "2027-09-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_hero_stressed_blank_page_blog_hero_landscape_6f49e4f61afe.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_hero_stressed_blank_page_blog_hero_landscape_6f49e4f61afe.jpeg",
     "alt": "blog hero \u00b7 stressed blank-page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 3650,
+    "height": 2435,
+    "creator": "Marta Nogueira",
+    "creatorUrl": "https://www.pexels.com/@marta-nogueira-589022975",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Choosing a great book title FAQ",
-      "item": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq"
+      "item": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_indignation_marketing_reality_blog_section_landscape_a892762b2d61.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_indignation_marketing_reality_blog_section_landscape_a892762b2d61.gif",
         "alt": "Why should a writer spend time creating a great book title?",
-        "width": 5130,
-        "height": 3424,
-        "creator": "Kampus Production",
-        "creatorUrl": "https://www.pexels.com/@kampus",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -201,7 +201,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_anxiety_sameness_blog_section_landscape_c4ff6a204631.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_anxiety_sameness_blog_section_landscape_c4ff6a204631.jpeg?updatedAt=1782332473396",
         "alt": "How to make a book title memorable",
         "width": 6000,
         "height": 4000,
@@ -242,7 +242,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_genre_promise_expectation_blog_section_landscape_aa6fb8329b96.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_genre_promise_expectation_blog_section_landscape_aa6fb8329b96.gif?updatedAt=1782332472979",
         "alt": "How to create a unique book title that fits your genre",
         "width": 226,
         "height": 200,
@@ -280,7 +280,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_anxiety_sameness_blog_section_landscape_c4ff6a204631.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_anxiety_sameness_blog_section_landscape_c4ff6a204631.jpeg?updatedAt=1782332473396",
         "alt": "How to make a book title memorable",
         "width": 6000,
         "height": 4000,
@@ -399,7 +399,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_genre_promise_expectation_blog_section_landscape_aa6fb8329b96.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_genre_promise_expectation_blog_section_landscape_aa6fb8329b96.gif?updatedAt=1782332472979",
         "alt": "How to create a unique book title that fits your genre",
         "width": 226,
         "height": 200,
@@ -410,32 +410,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_section_image_closing_blog_section_landscape_86635f7bb88c.jpeg",
-    "alt": "blog section image \u00b7 closing",
-    "width": 6611,
-    "height": 4407,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Leverage Podcasting: A Guide for Authors FAQ",
-      "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     },
     {
       "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-      "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     },
     {
       "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     },
     {
-      "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-      "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+      "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -444,7 +435,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Leverage Podcasting: A Guide for Authors FAQ",
-      "url": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq"
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     }
   ]
 } as const;
@@ -474,7 +465,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +477,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Choosing a great book title FAQ",
-          "item": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq"
+          "item": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq",
+      "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#webpage",
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq",
       "name": "Choosing a great book title FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +517,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#article",
+      "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq",
       "headline": "Choosing a great book title FAQ",
       "alternativeHeadline": "Choosing a great book title FAQ",
       "description": "A book title is doing real work before your blurb ever gets a chance. It has to pull readers in, signal what kind of experience they're about to have, and stick in their heads long enough that they can recommend the book later without fumbling the name.",
@@ -560,48 +551,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#primaryimage"
       },
+      "datePublished": "2027-09-17",
+      "dateModified": "2027-09-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "url": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+          "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
         },
         {
           "@type": "WebPage",
           "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-          "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+          "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         },
         {
           "@type": "WebPage",
           "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+          "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-          "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+          "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_hero_stressed_blank_page_blog_hero_landscape_6f49e4f61afe.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/choosing-a-great-book-title-faq/blog/blog_hero_stressed_blank_page_blog_hero_landscape_6f49e4f61afe.jpeg",
+      "width": 3650,
+      "height": 2435,
       "caption": "blog hero \u00b7 stressed blank-page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Marta Nogueira",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Marta Nogueira",
+        "url": "https://www.pexels.com/@marta-nogueira-589022975"
       },
       "@context": "https://schema.org"
     }

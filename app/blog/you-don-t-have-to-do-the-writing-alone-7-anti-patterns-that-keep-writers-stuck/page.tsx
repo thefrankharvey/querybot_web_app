@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "You don't have to do the writing alone: 7 anti-patterns that keep writers stuck",
   "description": "There's a specific kind of pain that shows up right after rejection: not just \"no,\" but the extra meaning your brain attaches to it.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-16",
+  "modifiedDate": "2027-03-16",
   "canonicalUrl": "https://writequeryhook.com/blog/you-don-t-have-to-do-the-writing-alone-7-anti-patterns-that-keep-writers-stuck",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -636,6 +636,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/you-don-t-have-to-do-the-writing-alone-7-anti-patterns-that-keep-writers-stuck#primaryimage"
       },
+      "datePublished": "2027-03-16",
+      "dateModified": "2027-03-16",
       "mentions": [
         {
           "@type": "WebPage",

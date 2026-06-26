@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "8 steps to a book launch that actually sells",
   "description": "A book launch is not \u201cpublish and hope.\u201d Publishing is one step; the rest is a job where readers have to notice you, remember you, and decide to buy\u2014usually after seeing you more than once.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells",
+  "publishedDate": "2027-04-26",
+  "modifiedDate": "2027-04-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_hero_panic_overwhelm_blog_hero_landscape_f8dc66c91a11.png",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_hero_panic_overwhelm_blog_hero_landscape_f8dc66c91a11.jpeg?updatedAt=1782427940271",
     "alt": "blog hero \u00b7 panic overwhelm",
-    "width": 1600,
-    "height": 900,
-    "creator": null,
-    "creatorUrl": null,
-    "provider": "static_fallback",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "8 steps to a book launch that actually sells",
-      "item": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells"
+      "item": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     }
   ],
   "tldrBlocks": [],
@@ -204,13 +204,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_conversion_anxious_clicks_blog_section_landscape_709bd30afe29.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_conversion_anxious_clicks_blog_section_landscape_709bd30afe29.jpeg?updatedAt=1782427941095",
         "alt": "Create a book landing page that collects emails",
-        "width": 1600,
-        "height": 900,
-        "creator": null,
-        "creatorUrl": null,
-        "provider": "static_fallback",
+        "width": 4288,
+        "height": 2848,
+        "creator": "Roberto Cosentino",
+        "creatorUrl": "https://www.pexels.com/@rcfoto",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -257,13 +257,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_eye_roll_consistency_blog_section_landscape_2f386351ef4c.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_eye_roll_consistency_blog_section_landscape_2f386351ef4c.gif?updatedAt=1782427941964",
         "alt": "Use social media with a job description, not a personality contest",
-        "width": 1600,
-        "height": 900,
-        "creator": null,
-        "creatorUrl": null,
-        "provider": "static_fallback",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -351,13 +351,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_buzz_parties_blog_section_landscape_794a70f95c7a.png",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_buzz_parties_blog_section_landscape_794a70f95c7a.gif?updatedAt=1782427942699",
         "alt": "Launch with a giveaway or a launch party that ties to the date",
-        "width": 1600,
-        "height": 900,
-        "creator": null,
-        "creatorUrl": null,
-        "provider": "static_fallback",
+        "width": 200,
+        "height": 200,
+        "creator": "claynosaurz",
+        "creatorUrl": "https://giphy.com/gifs/claynosaurz-rawr-lfg-buzzing-goxmKNI6pm49L3QIfl",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -448,32 +448,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_section_image_fist_pump_action_blog_section_landscape_13ae279988e1.png",
-    "alt": "blog section image \u00b7 fist pump action",
-    "width": 1600,
-    "height": 900,
-    "creator": null,
-    "creatorUrl": null,
-    "provider": "static_fallback",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "9 best practices for writing a blurb request that gets read (and answered)",
-      "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     },
     {
       "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     },
     {
       "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     },
     {
-      "title": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-      "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+      "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
+      "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -508,7 +499,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "url": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     }
   ]
 } as const;
@@ -538,7 +529,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -550,31 +541,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "8 steps to a book launch that actually sells",
-          "item": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells"
+          "item": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#webpage",
-      "url": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells",
+      "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#webpage",
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells",
       "name": "8 steps to a book launch that actually sells",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -590,11 +581,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#article",
+      "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#webpage"
+        "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells",
       "headline": "8 steps to a book launch that actually sells",
       "alternativeHeadline": "8 steps to a book launch that actually sells",
       "description": "A book launch is not \u201cpublish and hope.\u201d Publishing is one step; the rest is a job where readers have to notice you, remember you, and decide to buy\u2014usually after seeing you more than once.",
@@ -624,49 +615,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#primaryimage"
       },
+      "datePublished": "2027-04-26",
+      "dateModified": "2027-04-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "url": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         },
         {
           "@type": "WebPage",
           "name": "9 best practices for writing a blurb request that gets read (and answered)",
-          "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+          "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         },
         {
           "@type": "WebPage",
           "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+          "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
         },
         {
           "@type": "WebPage",
           "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         },
         {
           "@type": "WebPage",
-          "name": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-          "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+          "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
+          "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_hero_panic_overwhelm_blog_hero_landscape_f8dc66c91a11.png",
-      "width": 1600,
-      "height": 900,
+      "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/8-steps-to-a-book-launch-that-actually-sells/blog/blog_hero_panic_overwhelm_blog_hero_landscape_f8dc66c91a11.jpeg?updatedAt=1782427940271",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 panic overwhelm",
+      "creditText": "MART  PRODUCTION",
+      "author": {
+        "@type": "Person",
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
+      },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells#faq",
+      "@id": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for story mastermind interviews: worldbuild like a painter, not a museum curator",
   "description": "I used to write \"world bible\" notes like I was preparing a museum exhibit. Hundreds of tabs. A drawer of facts. A solemn commitment to correct atmosphere.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-20",
+  "modifiedDate": "2027-01-20",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-story-mastermind-interviews-worldbuild-like-a-painter-not-a-museum",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -532,6 +532,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-story-mastermind-interviews-worldbuild-like-a-painter-not-a-museum#primaryimage"
       },
+      "datePublished": "2027-01-20",
+      "dateModified": "2027-01-20",
       "mentions": [
         {
           "@type": "WebPage",

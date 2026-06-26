@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Editors, coaches, and beta readers FAQ: what each role actually does",
   "description": "If you've been shopping around for feedback, you've probably noticed the problem: the labels sound similar, the prices vary wildly, and there's no unified standard that tells you what you're actually buying. That's how writers end up paying for the wrong role\u2014then wondering why the notes don't match the problem in their manuscript.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-16",
+  "modifiedDate": "2026-10-16",
   "canonicalUrl": "https://writequeryhook.com/blog/editors-coaches-and-beta-readers-faq-what-each-role-actually-does",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -575,6 +575,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/editors-coaches-and-beta-readers-faq-what-each-role-actually-does#primaryimage"
       },
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
       "mentions": [
         {
           "@type": "WebPage",

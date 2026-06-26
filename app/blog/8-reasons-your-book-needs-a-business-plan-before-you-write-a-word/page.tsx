@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "8 reasons your book needs a business plan (before you write a word)",
   "description": "I've watched writers spend months \"just writing,\" then act shocked when the market doesn't bite. The manuscript itself might be solid. The problem is the work never got stress-tested as a product\u2014with a clear reader promise, a believable category fit, and an honest look at what's already winning in publishing.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
+  "publishedDate": "2027-07-13",
+  "modifiedDate": "2027-07-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_hero_indignation_dread_blog_hero_landscape_f71b3f21242e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_hero_indignation_dread_blog_hero_landscape_f71b3f21242e.jpeg?updatedAt=1782250117225",
     "alt": "blog hero \u00b7 indignation dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "8 reasons your book needs a business plan (before you write a word)",
-      "item": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+      "item": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
     }
   ],
   "tldrBlocks": [],
@@ -160,7 +160,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_revision_tweak_blog_section_landscape_c87d82d01c68.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_revision_tweak_blog_section_landscape_c87d82d01c68.gif?updatedAt=1782250117963",
         "alt": "Run market analysis before drafting so you don't bet on empty rooms",
         "width": 356,
         "height": 200,
@@ -268,7 +268,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_structure_table_of_contents_blog_section_landscape_05e59e8b85c7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_structure_table_of_contents_blog_section_landscape_05e59e8b85c7.jpeg?updatedAt=1782250118439",
         "alt": "Build marketable structure by turning the idea into organized elements",
         "width": 9504,
         "height": 6336,
@@ -323,7 +323,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_validation_anxiety_blog_section_landscape_53e13f2d13cc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_validation_anxiety_blog_section_landscape_53e13f2d13cc.gif?updatedAt=1782250119345",
         "alt": "Plan tweaks before you write so the manuscript matches the market",
         "width": 226,
         "height": 200,
@@ -471,32 +471,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_section_image_decision_next_step_blog_section_landscape_fcc0a1fb05e3.jpeg",
-    "alt": "blog section image \u00b7 decision next step",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 things writers should know about Wattpad (and the future of publishing)",
-      "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     },
     {
       "title": "4 tips to market children's books to parents (so your titles get discovered)",
-      "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     },
     {
       "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-      "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     },
     {
-      "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+      "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -531,7 +522,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-      "url": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
     }
   ]
 } as const;
@@ -561,7 +552,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -573,31 +564,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "8 reasons your book needs a business plan (before you write a word)",
-          "item": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+          "item": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#webpage",
-      "url": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
+      "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#webpage",
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
       "name": "8 reasons your book needs a business plan (before you write a word)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage"
+        "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -613,11 +604,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#article",
+      "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#webpage"
+        "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word",
       "headline": "8 reasons your book needs a business plan (before you write a word)",
       "alternativeHeadline": "8 reasons your book needs a business plan (before you write a word)",
       "description": "I've watched writers spend months \"just writing,\" then act shocked when the market doesn't bite. The manuscript itself might be solid. The problem is the work never got stress-tested as a product\u2014with a clear reader promise, a believable category fit, and an honest look at what's already winning in publishing.",
@@ -647,40 +638,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage"
+        "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage"
       },
+      "datePublished": "2027-07-13",
+      "dateModified": "2027-07-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-          "url": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+          "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
         },
         {
           "@type": "WebPage",
           "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         },
         {
           "@type": "WebPage",
           "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+          "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
         },
         {
           "@type": "WebPage",
           "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-          "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+          "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         },
         {
           "@type": "WebPage",
-          "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+          "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_hero_indignation_dread_blog_hero_landscape_f71b3f21242e.jpeg",
+      "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word/blog/blog_hero_indignation_dread_blog_hero_landscape_f71b3f21242e.jpeg?updatedAt=1782250117225",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 indignation dread",
@@ -695,7 +688,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#faq",
+      "@id": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word#faq",
       "mainEntity": [
         {
           "@type": "Question",

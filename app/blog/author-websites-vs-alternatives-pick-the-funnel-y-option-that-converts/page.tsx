@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Author websites vs alternatives: pick the funnel-y option that converts",
   "description": "If your author website is a scavenger hunt, don't blame the reader. Blame the design that asks them to whisper, Where do I buy? and Who is this person, again? from the other end of a dozen tabs.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
+  "publishedDate": "2027-10-12",
+  "modifiedDate": "2027-10-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-      "item": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+      "item": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
     }
   ],
   "tldrBlocks": [],
@@ -479,19 +479,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Research and marketing for small press success: key questions answered",
-      "url": "https://writequeryhook.com/research-and-marketing-for-small-press-success-key-questions-answered"
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
     },
     {
       "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
     },
     {
-      "title": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-      "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+      "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     },
     {
-      "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-      "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+      "title": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
+      "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -530,7 +530,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Research and marketing for small press success: key questions answered",
-      "url": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered"
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
     }
   ]
 } as const;
@@ -560,7 +560,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -572,31 +572,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-          "item": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+          "item": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#webpage",
-      "url": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
+      "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#webpage",
+      "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
       "name": "Author websites vs alternatives: pick the funnel-y option that converts",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -612,11 +612,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#article",
+      "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#webpage"
+        "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts",
       "headline": "Author websites vs alternatives: pick the funnel-y option that converts",
       "alternativeHeadline": "Author websites vs alternatives: pick the funnel-y option that converts",
       "description": "If your author website is a scavenger hunt, don't blame the reader. Blame the design that asks them to whisper, Where do I buy? and Who is this person, again? from the other end of a dozen tabs.",
@@ -646,39 +646,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage"
       },
+      "datePublished": "2027-10-12",
+      "dateModified": "2027-10-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Research and marketing for small press success: key questions answered",
-          "url": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Research and marketing for small press success: key questions answered",
-          "url": "https://writequeryhook.com/research-and-marketing-for-small-press-success-key-questions-answered"
+          "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
         },
         {
           "@type": "WebPage",
           "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
         },
         {
           "@type": "WebPage",
-          "name": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-          "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+          "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+          "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
-          "url": "https://writequeryhook.com/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes-characters-and-payoff"
+          "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
+          "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage",
+      "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_573/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts/blog/blog_hero_scavenger_hunt_where_do_i_buy_blog_hero_landscape_f95d52ca1acc.jpeg",
       "width": 5184,
       "height": 3456,
@@ -694,7 +691,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#faq",
+      "@id": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts#faq",
       "mainEntity": [
         {
           "@type": "Question",

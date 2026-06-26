@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
   "description": "Word count is one of those annoyingly binary things in querying. You can be brilliant on the page, and still get treated like you didn't read the room\u2014because the room has rules, and the rules are often numbers.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
+  "publishedDate": "2027-09-11",
+  "modifiedDate": "2027-09-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_hero_dread_blank_page_blog_hero_landscape_febb9ceaf54a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_hero_dread_blank_page_blog_hero_landscape_febb9ceaf54a.jpeg?updatedAt=1782328932774",
     "alt": "blog hero \u00b7 dread blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-      "item": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+      "item": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
     }
   ],
   "tldrBlocks": [],
@@ -203,7 +203,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_tense_hope_blog_section_landscape_e55329805284.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_tense_hope_blog_section_landscape_e55329805284.jpeg?updatedAt=1782328933309",
         "alt": "3) Treat young adult as flexible\u2014with a reason that fits genre expectations",
         "width": 6000,
         "height": 4000,
@@ -253,7 +253,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_practical_calm_blog_section_landscape_57adfd6542d5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_practical_calm_blog_section_landscape_57adfd6542d5.gif?updatedAt=1782328934131",
         "alt": "4) Match picture book word count per page to page length reality",
         "width": 200,
         "height": 200,
@@ -314,7 +314,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_anxious_careful_blog_section_landscape_4af5081f88ba.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_anxious_careful_blog_section_landscape_4af5081f88ba.gif?updatedAt=1782328934650",
         "alt": "5) For memoir, manage thresholds like they're submission landmines",
         "width": 200,
         "height": 200,
@@ -325,32 +325,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_section_image_determined_relief_blog_section_landscape_150ca03abd18.jpeg",
-    "alt": "blog section image \u00b7 determined relief",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Anderson Alves",
-    "creatorUrl": "https://www.pexels.com/@anderson-alves-2158767102",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for picking the type of novel you're actually trying to write",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     },
     {
       "title": "5 practical ways to market your self-published book (without living on random platforms)",
-      "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     },
     {
       "title": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     },
     {
       "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -385,7 +376,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for picking the type of novel you're actually trying to write",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     }
   ]
 } as const;
@@ -415,7 +406,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -427,31 +418,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-          "item": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
+          "item": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
+      "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#webpage",
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
       "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -467,11 +458,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#article",
+      "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#webpage"
+        "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture",
       "headline": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
       "alternativeHeadline": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
       "description": "Word count is one of those annoyingly binary things in querying. You can be brilliant on the page, and still get treated like you didn't read the room\u2014because the room has rules, and the rules are often numbers.",
@@ -501,40 +492,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage"
       },
+      "datePublished": "2027-09-11",
+      "dateModified": "2027-09-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for picking the type of novel you're actually trying to write",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for picking the type of novel you're actually trying to write",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
         },
         {
           "@type": "WebPage",
           "name": "5 practical ways to market your self-published book (without living on random platforms)",
-          "url": "https://writequeryhook.com/5-practical-ways-to-market-your-self-published-book-without-living-on-random-platforms"
+          "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         },
         {
           "@type": "WebPage",
           "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
         },
         {
           "@type": "WebPage",
           "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_hero_dread_blank_page_blog_hero_landscape_febb9ceaf54a.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_536/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture/blog/blog_hero_dread_blank_page_blog_hero_landscape_febb9ceaf54a.jpeg?updatedAt=1782328932774",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 dread blank page",
@@ -549,7 +537,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#faq",
+      "@id": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture#faq",
       "mainEntity": [
         {
           "@type": "Question",

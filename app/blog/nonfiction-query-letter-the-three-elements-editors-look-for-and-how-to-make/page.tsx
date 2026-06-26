@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Nonfiction query letter: the three elements editors look for (and how to make your premise and audience click)",
   "description": "You can feel it when you open a nonfiction query letter draft: that quiet dread that it\u2019s going to sound like a blog post. Or worse\u2014like a resume stapled to a book idea nobody asked for.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-15",
+  "modifiedDate": "2026-07-15",
   "canonicalUrl": "https://writequeryhook.com/blog/nonfiction-query-letter-the-three-elements-editors-look-for-and-how-to-make",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -1025,6 +1025,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/nonfiction-query-letter-the-three-elements-editors-look-for-and-how-to-make#primaryimage"
       },
+      "datePublished": "2026-07-15",
+      "dateModified": "2026-07-15",
       "mentions": [
         {
           "@type": "WebPage",

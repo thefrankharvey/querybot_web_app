@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
   "description": "You wrote the book. Now the one question that keeps buzzing: is copyright registration worth it\u2014or are you paying a fee just to feel busy?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
+  "publishedDate": "2027-09-15",
+  "modifiedDate": "2027-09-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_hero_stuck_dread_blog_hero_landscape_bab22b8a5618.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_hero_stuck_dread_blog_hero_landscape_bab22b8a5618.jpeg?updatedAt=1782332331558",
     "alt": "blog hero \u00b7 stuck dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-      "item": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
+      "item": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
     }
   ],
   "tldrBlocks": [],
@@ -150,7 +150,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_confusion_but_it_s_my_story_blog_section_landscape_88e1fe41bead.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_confusion_but_it_s_my_story_blog_section_landscape_88e1fe41bead.jpeg?updatedAt=1782332332196",
         "alt": "Your mistake: confusing expression with ideas",
         "width": 3096,
         "height": 2063,
@@ -199,7 +199,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_money_panic_risk_tolerance_blog_section_landscape_611f9d7a438c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_money_panic_risk_tolerance_blog_section_landscape_611f9d7a438c.gif?updatedAt=1782332333592",
         "alt": "Your mistake: skipping registration to save a fee (when the risk is higher than you think)",
         "width": 350,
         "height": 200,
@@ -360,7 +360,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_confidence_bomb_courtroom_fear_blog_section_landscape_3d821957b831.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_confidence_bomb_courtroom_fear_blog_section_landscape_3d821957b831.gif?updatedAt=1782332334451",
         "alt": "Your mistake: assuming registration will guarantee a win in court",
         "width": 320,
         "height": 200,
@@ -385,32 +385,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_section_image_deep_breath_spreadsheet_of_steps_blog_section_landscape_ad085bd47604.jpeg",
-    "alt": "blog section image \u00b7 deep breath spreadsheet of steps",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-      "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+      "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
     },
     {
       "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     },
     {
       "title": "7 author branding mistakes that make readers bounce before they read",
-      "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+      "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
     },
     {
-      "title": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-      "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+      "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -445,7 +436,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon algorithms for authors: a demystified example of how books get shown",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
     }
   ]
 } as const;
@@ -475,7 +466,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -487,31 +478,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-          "item": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
+          "item": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#webpage",
-      "url": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#webpage",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
       "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -527,11 +518,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#article",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#webpage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker",
       "headline": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
       "alternativeHeadline": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
       "description": "You wrote the book. Now the one question that keeps buzzing: is copyright registration worth it\u2014or are you paying a fee just to feel busy?",
@@ -561,40 +552,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage"
       },
+      "datePublished": "2027-09-15",
+      "dateModified": "2027-09-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-          "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
         },
         {
           "@type": "WebPage",
           "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-          "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+          "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
         },
         {
           "@type": "WebPage",
           "name": "7 author branding mistakes that make readers bounce before they read",
-          "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+          "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
         },
         {
           "@type": "WebPage",
-          "name": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-          "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+          "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+          "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_hero_stuck_dread_blog_hero_landscape_bab22b8a5618.jpeg",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker/blog/blog_hero_stuck_dread_blog_hero_landscape_bab22b8a5618.jpeg?updatedAt=1782332331558",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 stuck dread",
@@ -609,7 +602,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#faq",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker#faq",
       "mainEntity": [
         {
           "@type": "Question",

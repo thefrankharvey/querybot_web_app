@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Keep Hope While Writing: Turn It into Action (and Still Submit)",
   "description": "TLDR",
   "readTime": "18 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-08",
+  "modifiedDate": "2027-03-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-keep-hope-while-writing-turn-it-into-action-and-still-submit",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -1011,6 +1011,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-keep-hope-while-writing-turn-it-into-action-and-still-submit#primaryimage"
       },
+      "datePublished": "2027-03-08",
+      "dateModified": "2027-03-08",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Publishing credits in your query letter bio? 7 mistakes that waste space the agent will not read",
   "description": "If you're stuck on your author bio\u2014like, stuck-stuck\u2014it's usually not because you \"can't write.\" It's because you're trying to solve the wrong problem.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-25",
+  "modifiedDate": "2026-08-25",
   "canonicalUrl": "https://writequeryhook.com/blog/publishing-credits-in-your-query-letter-bio-7-mistakes-that-waste-space-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -602,6 +602,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/publishing-credits-in-your-query-letter-bio-7-mistakes-that-waste-space-the#primaryimage"
       },
+      "datePublished": "2026-08-25",
+      "dateModified": "2026-08-25",
       "mentions": [
         {
           "@type": "WebPage",

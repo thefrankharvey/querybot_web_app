@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "When is your manuscript ready? Stop asking \"finished\"\u2014start measuring edit-readiness for literary agent eyes",
   "description": "Most writers hit \"the last page\" and feel this weird, irrational surge of relief. Like the book has already been judged and passed go. Then a week later you're back in the doc, making tiny edits, and wondering why it still feels\u2026 not submit-able.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-18",
+  "modifiedDate": "2026-09-18",
   "canonicalUrl": "https://writequeryhook.com/blog/when-is-your-manuscript-ready-stop-asking-finished-start-measuring-edit",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -565,6 +565,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/when-is-your-manuscript-ready-stop-asking-finished-start-measuring-edit#primaryimage"
       },
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18",
       "mentions": [
         {
           "@type": "WebPage",

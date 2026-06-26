@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Flash fiction vs alternatives: which format actually lands the punchline?",
   "description": "A lot of writers treat flash fiction like a dare: \"How small can I make it before it stops being a story?\" Then they panic because the tiny thing starts feeling directionless, or worse\u2014cluttered. Like they shoved a whole novel into a lunchbox and expected it to fit.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-30",
+  "modifiedDate": "2027-01-30",
   "canonicalUrl": "https://writequeryhook.com/blog/flash-fiction-vs-alternatives-which-format-actually-lands-the-punchline",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -658,6 +658,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/flash-fiction-vs-alternatives-which-format-actually-lands-the-punchline#primaryimage"
       },
+      "datePublished": "2027-01-30",
+      "dateModified": "2027-01-30",
       "mentions": [
         {
           "@type": "WebPage",

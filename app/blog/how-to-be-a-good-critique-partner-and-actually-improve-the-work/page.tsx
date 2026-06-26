@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to be a good critique partner (and actually improve the work)",
   "description": "A critique partner can feel like a lottery ticket. Sometimes you get notes that make you wince and then fix your draft with surgical precision. Sometimes you get a performance review of someone else's opinion. And if you're stuck in the middle\u2014trying to say \"I like it\" without sounding useless\u2014it's exhausting.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-01",
+  "modifiedDate": "2027-02-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-be-a-good-critique-partner-and-actually-improve-the-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-be-a-good-critique-partner-and-actually-improve-the-work#primaryimage"
       },
+      "datePublished": "2027-02-01",
+      "dateModified": "2027-02-01",
       "mentions": [
         {
           "@type": "WebPage",

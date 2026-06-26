@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
   "description": "Writers stall on the synopsis for a dumb reason: it feels like you're trying to \"pitch\" a whole novel in a document no one supposedly wants to read.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
+  "publishedDate": "2027-11-05",
+  "modifiedDate": "2027-11-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     }
   ],
   "tldrBlocks": [],
@@ -436,19 +436,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     },
     {
       "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     },
     {
       "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     },
     {
-      "title": "A case study in how to publish a poetry collection: from finished poems to a real release",
-      "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+      "title": "Publishing FAQ: printing, distribution, wholesale, and inventory",
+      "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -487,7 +487,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     }
   ]
 } as const;
@@ -517,7 +517,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -529,31 +529,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
       "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -569,11 +569,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending",
       "headline": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
       "alternativeHeadline": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
       "description": "Writers stall on the synopsis for a dumb reason: it feels like you're trying to \"pitch\" a whole novel in a document no one supposedly wants to read.",
@@ -603,39 +603,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage"
       },
+      "datePublished": "2027-11-05",
+      "dateModified": "2027-11-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
         },
         {
           "@type": "WebPage",
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         },
         {
           "@type": "WebPage",
           "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+          "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
         },
         {
           "@type": "WebPage",
-          "name": "A case study in how to publish a poetry collection: from finished poems to a real release",
-          "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+          "name": "Publishing FAQ: printing, distribution, wholesale, and inventory",
+          "url": "https://writequeryhook.com/blog/publishing-faq-printing-distribution-wholesale-and-inventory"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_604/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_fdc626ca5bc5.gif",
       "width": 200,
       "height": 200,
@@ -651,7 +648,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#howto",
       "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
       "description": "Writers stall on the synopsis for a dumb reason: it feels like you're trying to \"pitch\" a whole novel in a document no one supposedly wants to read.",
       "totalTime": "PT7M",
@@ -661,56 +658,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Decide what the synopsis must prove for a query",
           "text": "Before you write a single sentence, list the job-to-be-done your query package needs the synopsis to handle.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-1-decide-what-the-synopsis-must-prove-for-a-query"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-1-decide-what-the-synopsis-must-prove-for-a-query"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Pick a synopsis format one to two pages (and respect the squeeze)",
           "text": "You don't need a universal length, but you do need a submission-friendly size. Many agents prefer synopsis format one to two pages (often single-spaced). Some ask for something else, like a chapter-by-chapter outline\u2014if that's the case, you follow that agent's instructions.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-2-pick-a-synopsis-format-one-to-two-pages-and-respect-the-squeeze"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-2-pick-a-synopsis-format-one-to-two-pages-and-respect-the-squeeze"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write in active voice third person synopsis tips\u2014then cut wordiness hard",
           "text": "Use active voice third person synopsis tips as your rule.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-3-write-in-active-voice-third-person-synopsis-tips-then-cut-wordiness-hard"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-3-write-in-active-voice-third-person-synopsis-tips-then-cut-wordiness-hard"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Include emotions in a synopsis\u2014so motivation and stakes survive the compression",
           "text": "You can advance the story using actions, but you need how to include emotions in a synopsis so the reader understands motivation and stakes without guessing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-4-include-emotions-in-a-synopsis-so-motivation-and-stakes-survive-the"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-4-include-emotions-in-a-synopsis-so-motivation-and-stakes-survive-the"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Choose your characters and plot details like an editor (don't overstuff)",
           "text": "Writers struggle to fit an entire story into a synopsis without overloading it with characters, twists, and excess detail. The solution is selection.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-5-choose-your-characters-and-plot-details-like-an-editor-don-t-overstuff"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-5-choose-your-characters-and-plot-details-like-an-editor-don-t-overstuff"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: What to avoid in a book synopsis\u2014and where most drafts fail",
           "text": "The biggest mistake writers make when writing a synopsis is treating it like a sales document instead of a summary. Here's what to avoid in a book synopsis:",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-6-what-to-avoid-in-a-book-synopsis-and-where-most-drafts-fail"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-6-what-to-avoid-in-a-book-synopsis-and-where-most-drafts-fail"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Quick-scan and revise for query readiness",
           "text": "Do one final pass before you send anything out.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-7-quick-scan-and-revise-for-query-readiness"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#step-7-quick-scan-and-revise-for-query-readiness"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Talk About Your Writing So People Want to Read It FAQ",
   "description": "Writers get asked the same thing at every stage: \"So\u2026 what's your book about?\" And the answer is rarely smooth. Either it turns into a messy recap, or it comes out so vague it lands with a thud.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
+  "publishedDate": "2027-10-23",
+  "modifiedDate": "2027-10-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Talk About Your Writing So People Want to Read It FAQ",
-      "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+      "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
     }
   ],
   "tldrBlocks": [],
@@ -322,19 +322,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
-      "url": "https://writequeryhook.com/make-your-work-more-commercial-a-revision-focused-faq"
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
     },
     {
       "title": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-faq"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
     },
     {
-      "title": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-      "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
+      "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     },
     {
       "title": "7 literary agent cost mistakes that make writers sign the wrong deal",
-      "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+      "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -348,7 +348,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
-      "url": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq"
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
     }
   ]
 } as const;
@@ -378,7 +378,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -390,31 +390,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Talk About Your Writing So People Want to Read It FAQ",
-          "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+          "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
       "name": "How to Talk About Your Writing So People Want to Read It FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -430,11 +430,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#article",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq",
       "headline": "How to Talk About Your Writing So People Want to Read It FAQ",
       "alternativeHeadline": "How to Talk About Your Writing So People Want to Read It FAQ",
       "description": "Writers get asked the same thing at every stage: \"So\u2026 what's your book about?\" And the answer is rarely smooth. Either it turns into a messy recap, or it comes out so vague it lands with a thud.",
@@ -464,39 +464,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage"
       },
+      "datePublished": "2027-10-23",
+      "dateModified": "2027-10-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
-          "url": "https://writequeryhook.com/query-letters/make-your-work-more-commercial-a-revision-focused-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
-          "url": "https://writequeryhook.com/make-your-work-more-commercial-a-revision-focused-faq"
+          "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
         },
         {
           "@type": "WebPage",
           "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-faq"
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Why 'I believe in a thing called love' romance works: a craft-and-market breakdown of reader expectations",
-          "url": "https://writequeryhook.com/why-i-believe-in-a-thing-called-love-romance-works-a-craft-and-market-breakdown-of-reader-expectations"
+          "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         },
         {
           "@type": "WebPage",
           "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
-          "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+          "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_586/how-to-talk-about-your-writing-so-people-want-to-read-it-faq/blog/blog_hero_stuck_blank_page_feeling_blog_hero_landscape_786dcbb30e1f.jpeg",
       "width": 5469,
       "height": 3647,

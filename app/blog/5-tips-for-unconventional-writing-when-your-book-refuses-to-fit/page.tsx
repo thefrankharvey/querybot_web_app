@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for unconventional writing when your book refuses to fit",
   "description": "Publishing runs on buckets. Buckets are how books get discovered, shelved, and matched to the kind of reader who will actually pick them up. That's not evil. It's logistics.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
+  "publishedDate": "2027-10-05",
+  "modifiedDate": "2027-10-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_hero_indignation_recognition_blog_hero_landscape_c4a5727c2ae8.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_hero_indignation_recognition_blog_hero_landscape_c4a5727c2ae8.jpeg?updatedAt=1782339693282",
     "alt": "blog hero \u00b7 indignation recognition",
     "width": 6415,
     "height": 4277,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for unconventional writing when your book refuses to fit",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "item": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     }
   ],
   "tldrBlocks": [],
@@ -120,7 +120,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_skepticism_focus_blog_section_landscape_42106557a26f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_skepticism_focus_blog_section_landscape_42106557a26f.gif?updatedAt=1782339694141",
         "alt": "Figure out the category you're actually fighting",
         "width": 226,
         "height": 200,
@@ -250,13 +250,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_fear_skepticism_blog_section_landscape_1696e1e85d0e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_fear_skepticism_blog_section_landscape_1696e1e85d0e.jpeg",
         "alt": "Use execution to demolish the gimmick fear",
-        "width": 186,
-        "height": 200,
-        "creator": "nog",
-        "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
-        "provider": "giphy",
+        "width": 5892,
+        "height": 3928,
+        "creator": "MART  PRODUCTION",
+        "creatorUrl": "https://www.pexels.com/@mart-production",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -338,43 +338,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_excitement_cultural_resonance_blog_section_landscape_3c7d50905662.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_excitement_cultural_resonance_blog_section_landscape_3c7d50905662.gif",
         "alt": "Attach your boundaries to something timely",
-        "width": 8588,
-        "height": 5725,
-        "creator": "Jonatan Bermudez Pascuas",
-        "creatorUrl": "https://www.pexels.com/@jonatan-bermudez-pascuas-683765779",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "USAKilts",
+        "creatorUrl": "https://giphy.com/gifs/USAKilts-kilt-kilts-usa-6wxrudWhAxJkhlMhB8",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_section_image_cold_start_deep_breath_blog_section_landscape_972a649a1eda.jpeg",
-    "alt": "blog section image \u00b7 cold-start deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     },
     {
       "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-      "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     },
     {
       "title": "How to build an author platform off social media (without chasing follower counts)",
-      "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     },
     {
-      "title": "How literary agents handle the full publishing pipeline\u2014step by step",
-      "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+      "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
+      "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -409,7 +400,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     }
   ]
 } as const;
@@ -439,7 +430,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -451,31 +442,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for unconventional writing when your book refuses to fit",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "item": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
       "name": "5 tips for unconventional writing when your book refuses to fit",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -491,11 +482,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit",
       "headline": "5 tips for unconventional writing when your book refuses to fit",
       "alternativeHeadline": "5 tips for unconventional writing when your book refuses to fit",
       "description": "Publishing runs on buckets. Buckets are how books get discovered, shelved, and matched to the kind of reader who will actually pick them up. That's not evil. It's logistics.",
@@ -525,40 +516,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage"
       },
+      "datePublished": "2027-10-05",
+      "dateModified": "2027-10-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "url": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+          "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
         },
         {
           "@type": "WebPage",
           "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-          "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+          "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         },
         {
           "@type": "WebPage",
           "name": "How to build an author platform off social media (without chasing follower counts)",
-          "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
         },
         {
           "@type": "WebPage",
-          "name": "How literary agents handle the full publishing pipeline\u2014step by step",
-          "url": "https://writequeryhook.com/how-literary-agents-handle-the-full-publishing-pipeline-step-by-step"
+          "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
+          "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_hero_indignation_recognition_blog_hero_landscape_c4a5727c2ae8.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit/blog/blog_hero_indignation_recognition_blog_hero_landscape_c4a5727c2ae8.jpeg?updatedAt=1782339693282",
       "width": 6415,
       "height": 4277,
       "caption": "blog hero \u00b7 indignation recognition",
@@ -573,7 +561,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit#faq",
       "mainEntity": [
         {
           "@type": "Question",

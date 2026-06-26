@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Handle rejection vs sending a comeback: which move actually helps your revisions",
   "description": "If you\u2019ve ever stared at a rejection email like it personally betrayed you\u2014fair. The inbox hurts. The \u201calmost\u201d stings worse. Your brain starts drafting a reply that\u2019s part apology, part courtroom drama, part mic-drop.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-24",
+  "modifiedDate": "2027-02-24",
   "canonicalUrl": "https://writequeryhook.com/blog/handle-rejection-vs-sending-a-comeback-which-move-actually-helps-your-revisions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -813,6 +813,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/handle-rejection-vs-sending-a-comeback-which-move-actually-helps-your-revisions#primaryimage"
       },
+      "datePublished": "2027-02-24",
+      "dateModified": "2027-02-24",
       "mentions": [
         {
           "@type": "WebPage",

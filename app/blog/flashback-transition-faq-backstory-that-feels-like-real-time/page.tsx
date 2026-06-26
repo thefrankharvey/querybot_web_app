@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Flashback Transition FAQ: backstory that feels like real-time",
   "description": "Flashbacks should feel like you're still inside the character's head\u2014just with the camera stuck on the past. If the shift is obvious, readers don't \"enter memory.\" They get yanked into author instructions.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-28",
+  "modifiedDate": "2026-10-28",
   "canonicalUrl": "https://writequeryhook.com/blog/flashback-transition-faq-backstory-that-feels-like-real-time",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -584,6 +584,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/flashback-transition-faq-backstory-that-feels-like-real-time#primaryimage"
       },
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
       "mentions": [
         {
           "@type": "WebPage",

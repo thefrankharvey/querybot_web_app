@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
   "description": "Series talk usually makes writers do one of two dumb things: either they drop book one right when the reader starts to care, or they over-explain the \u201cnext arc\u201d so aggressively that book one feels like homework.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
+  "publishedDate": "2027-10-29",
+  "modifiedDate": "2027-10-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-      "item": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
+      "item": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     }
   ],
   "tldrBlocks": [],
@@ -456,19 +456,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Publishing myths that ignore printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     },
     {
       "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     },
     {
       "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     },
     {
-      "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-      "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+      "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -507,7 +507,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing myths that ignore printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     }
   ]
 } as const;
@@ -537,7 +537,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -549,31 +549,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-          "item": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
+          "item": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#webpage",
-      "url": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
+      "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#webpage",
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
       "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -589,11 +589,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#article",
+      "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#webpage"
+        "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still",
       "headline": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
       "alternativeHeadline": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
       "description": "Series talk usually makes writers do one of two dumb things: either they drop book one right when the reader starts to care, or they over-explain the \u201cnext arc\u201d so aggressively that book one feels like homework.",
@@ -623,39 +623,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage"
       },
+      "datePublished": "2027-10-29",
+      "dateModified": "2027-10-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
           "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         },
         {
           "@type": "WebPage",
           "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+          "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
         },
         {
           "@type": "WebPage",
-          "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-          "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+          "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
+          "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage",
+      "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_596/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still/blog/blog_hero_recognition_contrarian_blog_hero_landscape_6b76d155adb3.jpeg",
       "width": 6415,
       "height": 4277,
@@ -671,7 +668,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#faq",
+      "@id": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still#faq",
       "mainEntity": [
         {
           "@type": "Question",

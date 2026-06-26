@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write jacket copy that sells without spoilers or wasted space",
   "description": "Jacket copy isn't a hobby project. It's marketing copy that has to survive brutal placement constraints\u2014especially that tiny, top portion of an online listing where the reader can bail before your book ever gets a fair shot.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
+  "publishedDate": "2027-05-04",
+  "modifiedDate": "2027-05-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,16 +30,7 @@ const PAGE_DATA = {
     "authority"
   ],
   "author": null,
-  "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_hero_burning_dread_tiny_space_blog_hero_landscape_79c8515d5014.png",
-    "alt": "blog hero \u00b7 burning-dread tiny space",
-    "width": 1600,
-    "height": 900,
-    "creator": null,
-    "creatorUrl": null,
-    "provider": "static_fallback",
-    "role": "hero"
-  },
+  "hero": null,
   "breadcrumbs": [
     {
       "name": "Home",
@@ -47,11 +38,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write jacket copy that sells without spoilers or wasted space",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+      "item": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
     }
   ],
   "tldrBlocks": [],
@@ -125,16 +116,7 @@ const PAGE_DATA = {
           "text": "**Do this now:** open a listing for comparable books in your category and take one screenshot showing where the description starts and how much is visible before \"more\"/scroll. That \"above the fold\" slice is your target."
         }
       ],
-      "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_placement_retail_listing_blog_section_landscape_15df875e727a.png",
-        "alt": "Step 1: Define where the copy lives and what it must do",
-        "width": 1600,
-        "height": 900,
-        "creator": null,
-        "creatorUrl": null,
-        "provider": "static_fallback",
-        "role": "section"
-      }
+      "image": null
     },
     {
       "section_id": "h2_step_2_pull_your_selling_points_into_a_one_sentence_pitch",
@@ -323,7 +305,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_details_below_the_fold_blog_section_landscape_c9e875187fae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_details_below_the_fold_blog_section_landscape_c9e875187fae.gif?updatedAt=1782094952063",
         "alt": "Step 4: Fleshen out the description for the right format space",
         "width": 375,
         "height": 200,
@@ -392,7 +374,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_authority_credentials_blog_section_landscape_4bfbdd9bd994.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_authority_credentials_blog_section_landscape_4bfbdd9bd994.gif?updatedAt=1782094952626",
         "alt": "Step 5: Show author authority with proof, not bragging",
         "width": 256,
         "height": 200,
@@ -469,7 +451,7 @@ const PAGE_DATA = {
     }
   ],
   "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_finish_line_open_doc_blog_section_landscape_c6862870a908.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_section_image_finish_line_open_doc_blog_section_landscape_c6862870a908.jpeg?updatedAt=1782094953729",
     "alt": "blog section image \u00b7 finish line open doc",
     "width": 3159,
     "height": 2106,
@@ -480,20 +462,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "How to navigate a debut launch through social media when you don\u2019t have a \u201cperfect\u201d platform",
-      "url": "https://writequeryhook.com/how-to-navigate-a-debut-launch-through-social-media-when-you-don-t-have-a-perfect-platform"
-    },
-    {
-      "title": "What Authors Do After Manuscript Acceptance: How to Help Market Your Book Without Cringing",
-      "url": "https://writequeryhook.com/what-authors-do-after-manuscript-acceptance-how-to-help-market-your-book-without-cringing"
-    },
-    {
       "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-      "url": "https://writequeryhook.com/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it-alternatives"
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
     },
     {
-      "title": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-      "url": "https://writequeryhook.com/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me-about-publisher-support"
+      "title": "Representation offer vs other agent options: what to do first, and what to ask",
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+    },
+    {
+      "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+    },
+    {
+      "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -525,12 +507,7 @@ const PAGE_DATA = {
       "text": "Open your draft file and do the only productive thing: write three hook versions for your book description, then commit to one spoiler-free opener that fits the above-the-fold space. Once that opener earns attention, your details can finally do their job."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How to Format Your Ebook in Word Without Breaking on Real Devices",
-      "url": "https://writequeryhook.com/query-letters/how-to-format-your-ebook-in-word-without-breaking-on-real-devices"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -558,7 +535,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -570,31 +547,28 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write jacket copy that sells without spoilers or wasted space",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+          "item": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
+      "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
       "name": "How to write jacket copy that sells without spoilers or wasted space",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
-      "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#primaryimage"
-      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -610,11 +584,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space",
       "headline": "How to write jacket copy that sells without spoilers or wasted space",
       "alternativeHeadline": "How to write jacket copy that sells without spoilers or wasted space",
       "description": "Jacket copy isn't a hobby project. It's marketing copy that has to survive brutal placement constraints\u2014especially that tiny, top portion of an online listing where the reader can bail before your book ever gets a fair shot.",
@@ -643,50 +617,35 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
-      "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#primaryimage"
-      },
+      "datePublished": "2027-05-04",
+      "dateModified": "2027-05-04",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How to Format Your Ebook in Word Without Breaking on Real Devices",
-          "url": "https://writequeryhook.com/query-letters/how-to-format-your-ebook-in-word-without-breaking-on-real-devices"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to navigate a debut launch through social media when you don\u2019t have a \u201cperfect\u201d platform",
-          "url": "https://writequeryhook.com/how-to-navigate-a-debut-launch-through-social-media-when-you-don-t-have-a-perfect-platform"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What Authors Do After Manuscript Acceptance: How to Help Market Your Book Without Cringing",
-          "url": "https://writequeryhook.com/what-authors-do-after-manuscript-acceptance-how-to-help-market-your-book-without-cringing"
-        },
-        {
-          "@type": "WebPage",
           "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-          "url": "https://writequeryhook.com/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it-alternatives"
+          "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
         },
         {
           "@type": "WebPage",
-          "name": "How I got my rights back from HarperCollins\u2014and what that process taught me about publisher support",
-          "url": "https://writequeryhook.com/how-i-got-my-rights-back-from-harpercollins-and-what-that-process-taught-me-about-publisher-support"
+          "name": "Representation offer vs other agent options: what to do first, and what to ask",
+          "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
+          "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
+          "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         }
       ]
     },
     {
-      "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_380/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space/blog/blog_hero_burning_dread_tiny_space_blog_hero_landscape_79c8515d5014.png",
-      "width": 1600,
-      "height": 900,
-      "caption": "blog hero \u00b7 burning-dread tiny space",
-      "@context": "https://schema.org"
-    },
-    {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#howto",
       "name": "How to write jacket copy that sells without spoilers or wasted space",
       "description": "Jacket copy isn't a hobby project. It's marketing copy that has to survive brutal placement constraints\u2014especially that tiny, top portion of an online listing where the reader can bail before your book ever gets a fair shot.",
       "totalTime": "PT8M",
@@ -696,49 +655,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define where the copy lives and what it must do",
           "text": "Before you write anything, decide the placement reality. Jacket copy doesn't exist in a vacuum\u2014it's squeezed into formats with different \"read behavior.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-1-define-where-the-copy-lives-and-what-it-must-do"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-1-define-where-the-copy-lives-and-what-it-must-do"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Pull your selling points into a one-sentence pitch",
           "text": "You can't market a blur. You need a pitch that forces decisions about what to include and what to cut.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-2-pull-your-selling-points-into-a-one-sentence-pitch"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-2-pull-your-selling-points-into-a-one-sentence-pitch"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write a hook that sells in the first lines",
           "text": "This is the part writers dread because it feels like \"advertising.\" Good. Jacket copy is marketing copy. Placement determines what you should say, and the opener is what earns the rest of the reading.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-3-write-a-hook-that-sells-in-the-first-lines"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-3-write-a-hook-that-sells-in-the-first-lines"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Fleshen out the description for the right format space",
           "text": "Now you expand, but you do it with restraint. Retail readers scan. The \"below the fold\" part is where you can breathe\u2014just not at the expense of clarity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-4-fleshen-out-the-description-for-the-right-format-space"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-4-fleshen-out-the-description-for-the-right-format-space"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Show author authority with proof, not bragging",
           "text": "Authority helps especially in nonfiction, but writers in fiction can earn trust too\u2014just in a different way.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-5-show-author-authority-with-proof-not-bragging"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-5-show-author-authority-with-proof-not-bragging"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Test hook versions and watch what sells",
           "text": "Writers don't need a \"perfect\" description. They need a description that performs. And performance comes from testing what actually moves books.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-6-test-hook-versions-and-watch-what-sells"
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#step-6-test-hook-versions-and-watch-what-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space#faq",
       "mainEntity": [
         {
           "@type": "Question",

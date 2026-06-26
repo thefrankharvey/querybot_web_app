@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 signs your critique feedback is harmful (and how to respond without losing the plot)",
   "description": "You can tell when critique is trying to help. It leaves you with clearer options, sharper questions, and maybe a few bruised feelings\u2014but the writing itself gets better afterward.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-16",
+  "modifiedDate": "2027-02-16",
   "canonicalUrl": "https://writequeryhook.com/blog/7-signs-your-critique-feedback-is-harmful-and-how-to-respond-without-losing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -612,6 +612,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-signs-your-critique-feedback-is-harmful-and-how-to-respond-without-losing#primaryimage"
       },
+      "datePublished": "2027-02-16",
+      "dateModified": "2027-02-16",
       "mentions": [
         {
           "@type": "WebPage",

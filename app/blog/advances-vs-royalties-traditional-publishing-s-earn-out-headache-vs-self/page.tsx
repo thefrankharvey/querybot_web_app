@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
   "description": "You know the vibe: traditional publishing says, \"Here's an advance!\" and then, two minutes later, whispers, \"Cool cool\u2014now wait for the book to earn it back first. We'll do royalties after.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
+  "publishedDate": "2027-08-13",
+  "modifiedDate": "2027-08-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_hero_book_contract_eye_roll_blog_hero_landscape_c3c6d8ced560.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_hero_book_contract_eye_roll_blog_hero_landscape_c3c6d8ced560.jpeg?updatedAt=1782311859006",
     "alt": "blog hero \u00b7 book contract eye roll",
     "width": 6390,
     "height": 4790,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "item": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
+      "item": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     }
   ],
   "tldrBlocks": [],
@@ -155,13 +155,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_upfront_money_fake_certainty_blog_section_landscape_d1e97c672fef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_upfront_money_fake_certainty_blog_section_landscape_d1e97c672fef.gif",
         "alt": "What you get paid with: advances vs royalties",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Tara Winstead",
-        "creatorUrl": "https://www.pexels.com/@tara-winstead",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -224,13 +224,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_earn_out_delay_blog_section_landscape_76be631e5cb1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_earn_out_delay_blog_section_landscape_76be631e5cb1.jpeg",
         "alt": "Traditional publishing: the earn-out mechanism",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5307,
+        "height": 4246,
+        "creator": "Josh Withers",
+        "creatorUrl": "https://www.pexels.com/@hellojoshwithers",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -441,43 +441,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_the_verdict_blog_section_landscape_fbb3adea8b75.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_the_verdict_blog_section_landscape_fbb3adea8b75.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_section_image_pick_a_route_decide_today_blog_section_landscape_c262dec29b87.gif",
-    "alt": "blog section image \u00b7 pick a route decide today",
-    "width": 350,
-    "height": 200,
-    "creator": "ramseysolutions",
-    "creatorUrl": "https://giphy.com/gifs/ramseysolutions-whatever-xl3Biy7X0kRlzlQBx4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Word count for novels and children's books FAQ",
-      "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     },
     {
       "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     },
     {
       "title": "How can you market your book effectively? FAQ for self-published authors",
-      "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     },
     {
-      "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-      "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+      "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -516,7 +507,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Word count for novels and children's books FAQ",
-      "url": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq"
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     }
   ]
 } as const;
@@ -546,7 +537,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -558,31 +549,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "item": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
+          "item": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#webpage",
-      "url": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#webpage",
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
       "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -598,11 +589,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#article",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#webpage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self",
       "headline": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
       "alternativeHeadline": "Advances vs royalties: traditional publishing\u2019s earn-out headache vs self-publishing\u2019s platform math",
       "description": "You know the vibe: traditional publishing says, \"Here's an advance!\" and then, two minutes later, whispers, \"Cool cool\u2014now wait for the book to earn it back first. We'll do royalties after.\"",
@@ -632,40 +623,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage"
       },
+      "datePublished": "2027-08-13",
+      "dateModified": "2027-08-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Word count for novels and children's books FAQ",
-          "url": "https://writequeryhook.com/query-letters/word-count-for-novels-and-children-s-books-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Word count for novels and children's books FAQ",
-          "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+          "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         },
         {
           "@type": "WebPage",
           "name": "How can you market your book effectively? FAQ for self-published authors",
-          "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+          "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
         },
         {
           "@type": "WebPage",
-          "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-          "url": "https://writequeryhook.com/five-short-story-publishing-mistakes-that-block-first-time-collections-and-what-to-do-instead"
+          "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
+          "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_hero_book_contract_eye_roll_blog_hero_landscape_c3c6d8ced560.jpeg",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_503/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self/blog/blog_hero_book_contract_eye_roll_blog_hero_landscape_c3c6d8ced560.jpeg?updatedAt=1782311859006",
       "width": 6390,
       "height": 4790,
       "caption": "blog hero \u00b7 book contract eye roll",
@@ -680,7 +668,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#faq",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self#faq",
       "mainEntity": [
         {
           "@type": "Question",

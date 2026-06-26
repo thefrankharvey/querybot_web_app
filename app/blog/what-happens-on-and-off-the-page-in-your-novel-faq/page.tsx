@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What happens on and off the page in your novel: FAQ",
   "description": "Writers don't struggle with \"what is a scene?\" so much as what it should include\u2014what to dramatize on the page, what to recap after, and what to leave off entirely. Recap feels like it keeps things moving, but it often steals the very immediacy novels are built to deliver.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-10",
+  "modifiedDate": "2026-11-10",
   "canonicalUrl": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-in-your-novel-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -481,6 +481,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-in-your-novel-faq#primaryimage"
       },
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
       "mentions": [
         {
           "@type": "WebPage",

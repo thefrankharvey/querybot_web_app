@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
   "description": "The first time you hit \"submission sent,\" you think: cool, the manuscript exists now. The rest should be\u2026 immediate. Like ordering shoes. Like pressing play.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
+  "publishedDate": "2027-04-26",
+  "modifiedDate": "2027-04-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_hero_recognition_dread_blog_hero_landscape_30b0b7dc1fe9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_hero_recognition_dread_blog_hero_landscape_30b0b7dc1fe9.jpeg?updatedAt=1782058064058",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "item": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "item": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     }
   ],
   "tldrBlocks": [],
@@ -167,13 +167,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_pipeline_month_by_month_blog_section_landscape_6ab3140b88fc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_pipeline_month_by_month_blog_section_landscape_6ab3140b88fc.jpeg",
         "alt": "Why publishing takes months (not days)",
-        "width": 361,
-        "height": 200,
-        "creator": "rise",
-        "creatorUrl": "https://giphy.com/gifs/rise-viceland-26xBurAOpVvAYvGV2",
-        "provider": "giphy",
+        "width": 8256,
+        "height": 5504,
+        "creator": "Wolfgang Weiser",
+        "creatorUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -242,13 +242,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_contract_uncertainty_blog_section_landscape_35cf9f5f227a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_contract_uncertainty_blog_section_landscape_35cf9f5f227a.gif",
         "alt": "What happens after a publisher requests my manuscript",
-        "width": 6241,
-        "height": 4161,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 350,
+        "height": 200,
+        "creator": "AMAVIC",
+        "creatorUrl": "https://giphy.com/gifs/AMAVIC-IjRHbBkcRtcY5HDHoO",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -401,7 +401,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_radio_silence_dread_spiral_blog_section_landscape_abed3cb0f623.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_radio_silence_dread_spiral_blog_section_landscape_abed3cb0f623.gif?updatedAt=1782058067831",
         "alt": "How to handle radio silence without assuming the worst",
         "width": 204,
         "height": 200,
@@ -412,32 +412,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_section_image_fist_pump_forward_motion_blog_section_landscape_ff5768dc129a.jpeg",
-    "alt": "blog section image \u00b7 fist pump forward motion",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "8 steps to a book launch that actually sells",
-      "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     },
     {
       "title": "9 best practices for writing a blurb request that gets read (and answered)",
-      "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     },
     {
       "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     },
     {
-      "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-      "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+      "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -480,7 +471,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "8 steps to a book launch that actually sells",
-      "url": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells"
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     }
   ]
 } as const;
@@ -510,7 +501,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -522,31 +513,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "item": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "item": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
+      "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#webpage",
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
       "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -562,11 +553,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#article",
+      "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#webpage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening",
       "headline": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
       "alternativeHeadline": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
       "description": "The first time you hit \"submission sent,\" you think: cool, the manuscript exists now. The rest should be\u2026 immediate. Like ordering shoes. Like pressing play.",
@@ -596,40 +587,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage"
       },
+      "datePublished": "2027-04-26",
+      "dateModified": "2027-04-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "8 steps to a book launch that actually sells",
-          "url": "https://writequeryhook.com/query-letters/8-steps-to-a-book-launch-that-actually-sells"
-        },
-        {
-          "@type": "WebPage",
-          "name": "8 steps to a book launch that actually sells",
-          "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+          "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
         },
         {
           "@type": "WebPage",
           "name": "9 best practices for writing a blurb request that gets read (and answered)",
-          "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+          "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         },
         {
           "@type": "WebPage",
           "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+          "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
         },
         {
           "@type": "WebPage",
-          "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-          "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+          "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
+          "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_hero_recognition_dread_blog_hero_landscape_30b0b7dc1fe9.jpeg",
+      "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_369/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening/blog/blog_hero_recognition_dread_blog_hero_landscape_30b0b7dc1fe9.jpeg?updatedAt=1782058064058",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -644,7 +632,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#faq",
+      "@id": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening#faq",
       "mainEntity": [
         {
           "@type": "Question",

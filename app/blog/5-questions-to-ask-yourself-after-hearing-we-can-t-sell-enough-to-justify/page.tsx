@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
   "description": "A publisher (or editor, or agent-who-is-relaying-the-message-with-a-straight-face) just told you they \"can't sell enough to justify\" moving forward.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
+  "publishedDate": "2027-04-24",
+  "modifiedDate": "2027-04-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_hero_indignation_disbelief_blog_hero_landscape_947d613289b9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_hero_indignation_disbelief_blog_hero_landscape_947d613289b9.jpeg?updatedAt=1781851985645",
     "alt": "blog hero \u00b7 indignation disbelief",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "item": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "item": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     }
   ],
   "tldrBlocks": [],
@@ -112,13 +112,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.gif",
         "alt": "Ask what you learn you can reuse on your next pitch (instead of haunting this one)",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "juliamichaels",
+        "creatorUrl": "https://giphy.com/gifs/juliamichaels-julia-michaels-tryouts-try-your-luck-Uxt30QVM6KmHj36s28",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -172,13 +172,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.gif",
         "alt": "Ask what you learn you can reuse on your next pitch (instead of haunting this one)",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "juliamichaels",
+        "creatorUrl": "https://giphy.com/gifs/juliamichaels-julia-michaels-tryouts-try-your-luck-Uxt30QVM6KmHj36s28",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -237,13 +237,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.gif",
         "alt": "Ask what you learn you can reuse on your next pitch (instead of haunting this one)",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "juliamichaels",
+        "creatorUrl": "https://giphy.com/gifs/juliamichaels-julia-michaels-tryouts-try-your-luck-Uxt30QVM6KmHj36s28",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -305,13 +305,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.gif",
         "alt": "Ask what you learn you can reuse on your next pitch (instead of haunting this one)",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "juliamichaels",
+        "creatorUrl": "https://giphy.com/gifs/juliamichaels-julia-michaels-tryouts-try-your-luck-Uxt30QVM6KmHj36s28",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -373,43 +373,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_comedic_relatability_self_audit_blog_section_landscape_d9ad84a8a9f6.gif",
         "alt": "Ask what you learn you can reuse on your next pitch (instead of haunting this one)",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 320,
+        "height": 200,
+        "creator": "juliamichaels",
+        "creatorUrl": "https://giphy.com/gifs/juliamichaels-julia-michaels-tryouts-try-your-luck-Uxt30QVM6KmHj36s28",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_section_image_stubborn_hope_next_draft_blog_section_landscape_5304544c83c3.jpeg",
-    "alt": "blog section image \u00b7 stubborn hope next draft",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Cup of  Couple",
-    "creatorUrl": "https://www.pexels.com/@cup-of-couple",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to revise after bad reviews without losing your writer voice",
-      "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     },
     {
       "title": "How to know when to leave your agent without burning the whole relationship",
-      "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     },
     {
       "title": "How to write a great book description that sells (not summarizes)",
-      "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     },
     {
       "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -444,7 +435,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to revise after bad reviews without losing your writer voice",
-      "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     }
   ]
 } as const;
@@ -474,7 +465,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +477,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "item": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "item": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
+      "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#webpage",
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
       "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +517,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#article",
+      "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#webpage"
+        "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify",
       "headline": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
       "alternativeHeadline": "5 questions to ask yourself after hearing \"we can\u2019t sell enough to justify",
       "description": "A publisher (or editor, or agent-who-is-relaying-the-message-with-a-straight-face) just told you they \"can't sell enough to justify\" moving forward.",
@@ -560,40 +551,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage"
       },
+      "datePublished": "2027-04-24",
+      "dateModified": "2027-04-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to revise after bad reviews without losing your writer voice",
-          "url": "https://writequeryhook.com/query-letters/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to revise after bad reviews without losing your writer voice",
-          "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
         },
         {
           "@type": "WebPage",
           "name": "How to know when to leave your agent without burning the whole relationship",
-          "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         },
         {
           "@type": "WebPage",
           "name": "How to write a great book description that sells (not summarizes)",
-          "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
         },
         {
           "@type": "WebPage",
           "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+          "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_hero_indignation_disbelief_blog_hero_landscape_947d613289b9.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_367/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify/blog/blog_hero_indignation_disbelief_blog_hero_landscape_947d613289b9.jpeg?updatedAt=1781851985645",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 indignation disbelief",
@@ -608,7 +596,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#faq",
+      "@id": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify#faq",
       "mainEntity": [
         {
           "@type": "Question",

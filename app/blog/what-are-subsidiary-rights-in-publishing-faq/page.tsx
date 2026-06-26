@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What are subsidiary rights in publishing? FAQ",
   "description": "If you've opened a publishing contract and hit the phrase \"subsidiary rights,\" you're reading standard boilerplate. These clauses are where a book quietly grows a second (and third, and tenth) life: translated editions, audio versions, film and television options, serializations, licensed products, and more.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq",
+  "publishedDate": "2027-06-14",
+  "modifiedDate": "2027-06-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_hero_confusion_contract_paperwork_blog_hero_landscape_a60fa34f508f.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_hero_confusion_contract_paperwork_blog_hero_landscape_a60fa34f508f.jpeg",
     "alt": "blog hero \u00b7 confusion contract paperwork",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
+    "width": 5731,
+    "height": 3821,
+    "creator": "RDNE Stock project",
+    "creatorUrl": "https://www.pexels.com/@rdne",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What are subsidiary rights in publishing? FAQ",
-      "item": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq"
+      "item": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
     }
   ],
   "tldrBlocks": [],
@@ -133,7 +133,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_why_do_subsidiary_rights_matter_for_authors_and_blog_section_landscape_ccb2afdd2b34.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_why_do_subsidiary_rights_matter_for_authors_and_blog_section_landscape_ccb2afdd2b34.jpeg?updatedAt=1782221374548",
         "alt": "Why do subsidiary rights matter for authors and publishers?",
         "width": 6611,
         "height": 4407,
@@ -168,7 +168,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_how_should_authors_manage_subsidiary_rights_effe_blog_section_landscape_b4f66d4e70c2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_how_should_authors_manage_subsidiary_rights_effe_blog_section_landscape_b4f66d4e70c2.gif?updatedAt=1782221376084",
         "alt": "How should authors manage subsidiary rights effectively?",
         "width": 296,
         "height": 200,
@@ -199,43 +199,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_what_role_do_literary_agents_play_in_subsidiary_blog_section_landscape_ed202d679491.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_what_role_do_literary_agents_play_in_subsidiary_blog_section_landscape_ed202d679491.gif",
         "alt": "What role do literary agents play in subsidiary rights?",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_section_image_next_step_rights_list_blog_section_landscape_0664792f0574.jpeg",
-    "alt": "blog section image \u00b7 next step rights list",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Lara Jameson",
-    "creatorUrl": "https://www.pexels.com/@lara-jameson",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-      "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
     },
     {
       "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-      "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
     },
     {
       "title": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-      "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+      "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
     },
     {
-      "title": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-      "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+      "title": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
+      "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -250,12 +241,7 @@ const PAGE_DATA = {
       "text": "For tracking and follow-through, use that list to set up a monitoring rhythm early\u2014because royalty slips are easier to catch when you're not scrambling months later."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-      "url": "https://writequeryhook.com/query-letters/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -283,7 +269,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -295,31 +281,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What are subsidiary rights in publishing? FAQ",
-          "item": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq"
+          "item": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq",
+      "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#webpage",
+      "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq",
       "name": "What are subsidiary rights in publishing? FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -335,11 +321,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#article",
+      "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq",
       "headline": "What are subsidiary rights in publishing? FAQ",
       "alternativeHeadline": "What are subsidiary rights in publishing? FAQ",
       "description": "If you've opened a publishing contract and hit the phrase \"subsidiary rights,\" you're reading standard boilerplate. These clauses are where a book quietly grows a second (and third, and tenth) life: translated editions, audio versions, film and television options, serializations, licensed products, and more.",
@@ -369,48 +355,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#primaryimage"
       },
+      "datePublished": "2027-06-14",
+      "dateModified": "2027-06-14",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-          "url": "https://writequeryhook.com/query-letters/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
-        },
-        {
-          "@type": "WebPage",
           "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-          "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+          "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
         },
         {
           "@type": "WebPage",
           "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-          "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+          "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
         },
         {
           "@type": "WebPage",
           "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-          "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+          "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
         },
         {
           "@type": "WebPage",
-          "name": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-          "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+          "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
+          "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-are-subsidiary-rights-in-publishing-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_hero_confusion_contract_paperwork_blog_hero_landscape_a60fa34f508f.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_433/what-are-subsidiary-rights-in-publishing-faq/blog/blog_hero_confusion_contract_paperwork_blog_hero_landscape_a60fa34f508f.jpeg",
+      "width": 5731,
+      "height": 3821,
       "caption": "blog hero \u00b7 confusion contract paperwork",
-      "creditText": "Thestrongtoothbrush",
+      "creditText": "RDNE Stock project",
       "author": {
         "@type": "Person",
-        "name": "Thestrongtoothbrush",
-        "url": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22"
+        "name": "RDNE Stock project",
+        "url": "https://www.pexels.com/@rdne"
       },
       "@context": "https://schema.org"
     }

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to act like a good critique partner: 3 example sessions broken down",
   "description": "A critique partner relationship can feel like a social test: Do I have something smart to say? Will they think I'm wasting their time? Will I look stupid? That anxiety is real.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-08",
+  "modifiedDate": "2027-04-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-act-like-a-good-critique-partner-3-example-sessions-broken-down",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -722,6 +722,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-act-like-a-good-critique-partner-3-example-sessions-broken-down#primaryimage"
       },
+      "datePublished": "2027-04-08",
+      "dateModified": "2027-04-08",
       "mentions": [
         {
           "@type": "WebPage",

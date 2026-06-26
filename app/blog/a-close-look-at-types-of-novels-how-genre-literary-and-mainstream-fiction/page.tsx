@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
   "description": "New writers get hit with a tidal wave of advice. One person says \"plot.\" Another says \"character.\" Someone else insists you must nail your opening pages, your hook, your worldbuilding, your theme, your prose style, your pacing, your ending.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
+  "publishedDate": "2027-07-18",
+  "modifiedDate": "2027-07-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "beginner calm"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction/blog/blog_hero_overwhelmed_too_much_advice_blog_hero_landscape_37b652d7e50f.jpeg?updatedAt=1782427996300",
+    "alt": "blog hero \u00b7 overwhelmed too much advice",
+    "width": 5260,
+    "height": 3511,
+    "creator": "Moe Magners",
+    "creatorUrl": "https://www.pexels.com/@moe-magners",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "item": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
+      "item": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     }
   ],
   "tldrBlocks": [],
@@ -66,7 +75,16 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction/blog/blog_section_image_tldr_blog_section_landscape_5f0bf1b5e307.jpeg?updatedAt=1782427997752",
+        "alt": "TLDR",
+        "width": 6000,
+        "height": 4000,
+        "creator": "AXP Photography",
+        "creatorUrl": "https://www.pexels.com/@axp-photography-500641970",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_opening_what_we_re_studying_and_why_types_of_novels_examples_is_harder_than_it_sounds",
@@ -104,7 +122,16 @@ const PAGE_DATA = {
           "text": "The moment you stop guessing what you're writing and decide what reader experience you're aiming for, the craft advice stops talking past you."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction/blog/blog_section_image_opening_what_we_re_studying_and_why_types_of_nov_blog_section_landscape_816ae55aa1d9.gif?updatedAt=1782428000743",
+        "alt": "Opening \u2014 what we're studying (and why \"types of novels examples\" is harder than it sounds)",
+        "width": 267,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/frustrated-writing-writers-block-dvtl5jBWB35pC",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_body_structural_breakdown",
@@ -320,26 +347,35 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction/blog/blog_section_image_lessons_takeaways_blog_section_landscape_8d7149f1a808.gif?updatedAt=1782428001598",
+        "alt": "Lessons / Takeaways",
+        "width": 356,
+        "height": 200,
+        "creator": "abcnetwork",
+        "creatorUrl": "https://giphy.com/gifs/abcnetwork-j45vwYvnZ73oaOTOEo",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
-      "title": "How to market a self-published book: 3 real-world examples you can copy",
-      "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
-    },
-    {
       "title": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-      "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+      "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
     },
     {
       "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-      "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
     },
     {
-      "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-      "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+      "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
+    },
+    {
+      "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
+      "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -374,7 +410,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Aspiring author FAQ: how to get a book published",
-      "url": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     }
   ]
 } as const;
@@ -404,7 +440,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -416,28 +452,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "item": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
+          "item": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
+      "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#webpage",
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
       "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -453,11 +492,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#article",
+      "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#webpage"
+        "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction",
       "headline": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
       "alternativeHeadline": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
       "description": "New writers get hit with a tidal wave of advice. One person says \"plot.\" Another says \"character.\" Someone else insists you must nail your opening pages, your hook, your worldbuilding, your theme, your prose style, your pacing, your ending.",
@@ -486,38 +525,58 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#primaryimage"
+      },
+      "datePublished": "2027-07-18",
+      "dateModified": "2027-07-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Aspiring author FAQ: how to get a book published",
-          "url": "https://writequeryhook.com/query-letters/aspiring-author-faq-how-to-get-a-book-published"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to market a self-published book: 3 real-world examples you can copy",
-          "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+          "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-          "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+          "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
         },
         {
           "@type": "WebPage",
           "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-          "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
         },
         {
           "@type": "WebPage",
-          "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-          "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+          "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
+          "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_473/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction/blog/blog_hero_overwhelmed_too_much_advice_blog_hero_landscape_37b652d7e50f.jpeg?updatedAt=1782427996300",
+      "width": 5260,
+      "height": 3511,
+      "caption": "blog hero \u00b7 overwhelmed too much advice",
+      "creditText": "Moe Magners",
+      "author": {
+        "@type": "Person",
+        "name": "Moe Magners",
+        "url": "https://www.pexels.com/@moe-magners"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#faq",
+      "@id": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction#faq",
       "mainEntity": [
         {
           "@type": "Question",

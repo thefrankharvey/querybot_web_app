@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Picking the Right Genre for Your Query When Genres Blur",
   "description": "TLDR",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-09",
+  "modifiedDate": "2026-07-09",
   "canonicalUrl": "https://writequeryhook.com/blog/picking-the-right-genre-for-your-query-when-genres-blur",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/picking-the-right-genre-for-your-query-when-genres-blur#primaryimage"
       },
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
       "mentions": [
         {
           "@type": "WebPage",

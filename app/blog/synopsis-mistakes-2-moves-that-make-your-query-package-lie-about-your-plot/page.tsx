@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
   "description": "Writers put a ton of pressure on the synopsis to sound \"literary.\" Like, if the prose doesn't glow, the plot won't land. That instinct is backwards. A synopsis is there to answer what happens\u2014so the reader (agent, editor, whomever) can trust your plot outcomes.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
+  "publishedDate": "2027-11-12",
+  "modifiedDate": "2027-11-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-      "item": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+      "item": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
     }
   ],
   "tldrBlocks": [],
@@ -418,19 +418,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-      "url": "https://writequeryhook.com/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without-worshipping-three-acts"
+      "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
     },
     {
       "title": "5 synopsis myths that keep your query package from reading like a blueprint",
-      "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+      "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
     },
     {
       "title": "Common book synopsis mistakes that make agents skim",
-      "url": "https://writequeryhook.com/common-book-synopsis-mistakes-that-make-agents-skim"
+      "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
     },
     {
-      "title": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-      "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+      "title": "The best nonfiction synopsis format is the one that matches how agents actually read",
+      "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -465,7 +465,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
+      "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
     }
   ]
 } as const;
@@ -495,7 +495,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -507,31 +507,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-          "item": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+          "item": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#webpage",
-      "url": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
+      "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#webpage",
+      "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
       "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -547,11 +547,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#article",
+      "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#webpage"
+        "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot",
       "headline": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
       "alternativeHeadline": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
       "description": "Writers put a ton of pressure on the synopsis to sound \"literary.\" Like, if the prose doesn't glow, the plot won't land. That instinct is backwards. A synopsis is there to answer what happens\u2014so the reader (agent, editor, whomever) can trust your plot outcomes.",
@@ -581,39 +581,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage"
       },
+      "datePublished": "2027-11-12",
+      "dateModified": "2027-11-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-          "url": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
+          "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
         },
         {
           "@type": "WebPage",
           "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-          "url": "https://writequeryhook.com/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without-worshipping-three-acts"
+          "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
         },
         {
           "@type": "WebPage",
           "name": "5 synopsis myths that keep your query package from reading like a blueprint",
-          "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+          "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
         },
         {
           "@type": "WebPage",
           "name": "Common book synopsis mistakes that make agents skim",
-          "url": "https://writequeryhook.com/common-book-synopsis-mistakes-that-make-agents-skim"
+          "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
         },
         {
           "@type": "WebPage",
-          "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-          "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+          "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
+          "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage",
+      "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_611/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot/blog/blog_hero_recognition_blank_page_blog_hero_landscape_1df7efe3e703.jpeg",
       "width": 5433,
       "height": 3622,
@@ -629,7 +631,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#faq",
+      "@id": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot#faq",
       "mainEntity": [
         {
           "@type": "Question",

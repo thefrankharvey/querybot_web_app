@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Basic pitch formula for novelists FAQ",
   "description": "Writers keep getting told to \"pitch better,\" like it's some mysterious talent you either have or you don't. Meanwhile, most pitch problems are just fixable clarity problems: you're starting late, you're explaining instead of hooking, or you're dumping too many people into the sentence.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-22",
+  "modifiedDate": "2026-07-22",
   "canonicalUrl": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -420,6 +420,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-faq#primaryimage"
       },
+      "datePublished": "2026-07-22",
+      "dateModified": "2026-07-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
   "description": "The first time I saw a cover that looked gorgeous but didn't read\u2014that awful moment where my brain went, \"Wait, what is this?\"\u2014I felt personally betrayed. The design didn't respect how humans actually shop: fast, blurry, half-distracted, thumb hovering, choosing before you even finish thinking.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
+  "publishedDate": "2027-05-22",
+  "modifiedDate": "2027-05-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_hero_recognition_bookstore_glance_blog_hero_landscape_961cb0156dce.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_hero_recognition_bookstore_glance_blog_hero_landscape_961cb0156dce.jpeg?updatedAt=1782166883327",
     "alt": "blog hero \u00b7 recognition bookstore-glance",
     "width": 4608,
     "height": 3072,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "item": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
+      "item": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     }
   ],
   "tldrBlocks": [],
@@ -105,7 +105,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_opening_blog_section_landscape_f6005e64b812.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_opening_blog_section_landscape_f6005e64b812.gif?updatedAt=1782166884415",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -178,7 +178,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_panic_first_glance_blog_section_landscape_248e2fb7e9f1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_panic_first_glance_blog_section_landscape_248e2fb7e9f1.jpeg?updatedAt=1782166885033",
         "alt": "The front cover elements that carry the first impression",
         "width": 2541,
         "height": 1691,
@@ -681,7 +681,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_relief_extra_real_estate_blog_section_landscape_3dfa634d959a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_relief_extra_real_estate_blog_section_landscape_3dfa634d959a.gif?updatedAt=1782166886537",
         "alt": "Hardback dust jacket flaps: what to put where (and why it works)",
         "width": 330,
         "height": 200,
@@ -730,7 +730,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_panic_first_glance_blog_section_landscape_248e2fb7e9f1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_panic_first_glance_blog_section_landscape_248e2fb7e9f1.jpeg?updatedAt=1782166885033",
         "alt": "The front cover elements that carry the first impression",
         "width": 2541,
         "height": 1691,
@@ -741,32 +741,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_section_image_earned_hope_next_step_blog_section_landscape_7fb1acb98621.jpeg",
-    "alt": "blog section image \u00b7 earned hope next step",
-    "width": 6240,
-    "height": 4160,
-    "creator": "Emine Gizem",
-    "creatorUrl": "https://www.pexels.com/@emine-gizem-806264421",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     },
     {
       "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     },
     {
       "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     },
     {
-      "title": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -813,7 +804,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     }
   ]
 } as const;
@@ -843,7 +834,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -855,31 +846,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "item": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
+          "item": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
+      "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#webpage",
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
       "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -895,11 +886,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#article",
+      "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#webpage"
+        "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type",
       "headline": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
       "alternativeHeadline": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
       "description": "The first time I saw a cover that looked gorgeous but didn't read\u2014that awful moment where my brain went, \"Wait, what is this?\"\u2014I felt personally betrayed. The design didn't respect how humans actually shop: fast, blurry, half-distracted, thumb hovering, choosing before you even finish thinking.",
@@ -929,40 +920,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage"
       },
+      "datePublished": "2027-05-22",
+      "dateModified": "2027-05-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         },
         {
           "@type": "WebPage",
           "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+          "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         },
         {
           "@type": "WebPage",
           "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+          "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
         },
         {
           "@type": "WebPage",
           "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         },
         {
           "@type": "WebPage",
-          "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+          "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_hero_recognition_bookstore_glance_blog_hero_landscape_961cb0156dce.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type/blog/blog_hero_recognition_bookstore_glance_blog_hero_landscape_961cb0156dce.jpeg?updatedAt=1782166883327",
       "width": 4608,
       "height": 3072,
       "caption": "blog hero \u00b7 recognition bookstore-glance",
@@ -977,7 +970,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#faq",
+      "@id": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type#faq",
       "mainEntity": [
         {
           "@type": "Question",

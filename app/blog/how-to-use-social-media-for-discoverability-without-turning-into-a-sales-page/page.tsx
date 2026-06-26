@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
   "description": "If social media has you doomscrolling and asking, \"Where are the book sales?\" you're using it wrong\u2014or at least, you're measuring the wrong thing. Most of the time, it won't behave like an ad campaign with a clean click-through line to your Amazon page.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
+  "publishedDate": "2027-10-15",
+  "modifiedDate": "2027-10-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-      "item": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+      "item": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
     }
   ],
   "tldrBlocks": [],
@@ -407,20 +407,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-      "url": "https://writequeryhook.com/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the-viral-half-of-authors-number"
-    },
-    {
       "title": "How advances work against royalties: when you'll actually see money",
-      "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
     },
     {
       "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-      "url": "https://writequeryhook.com/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     },
     {
-      "title": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+      "title": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
+    },
+    {
+      "title": "Research and marketing for small press success: key questions answered",
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -452,12 +452,7 @@ const PAGE_DATA = {
       "text": "Pick the non-sales goal you actually want\u2014discoverability, community credibility, querying serendipity\u2014then act like social media is the room, not the receipt. Post with curiosity, participate like you belong, and let buy-in accumulate until the right inboxes start opening."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-      "url": "https://writequeryhook.com/query-letters/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -485,7 +480,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -497,31 +492,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-          "item": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+          "item": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
       "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -537,11 +532,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#article",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page",
       "headline": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
       "alternativeHeadline": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
       "description": "If social media has you doomscrolling and asking, \"Where are the book sales?\" you're using it wrong\u2014or at least, you're measuring the wrong thing. Most of the time, it won't behave like an ad campaign with a clean click-through line to your Amazon page.",
@@ -571,39 +566,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage"
       },
+      "datePublished": "2027-10-15",
+      "dateModified": "2027-10-15",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-          "url": "https://writequeryhook.com/query-letters/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-          "url": "https://writequeryhook.com/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the-viral-half-of-authors-number"
-        },
-        {
-          "@type": "WebPage",
           "name": "How advances work against royalties: when you'll actually see money",
-          "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
         },
         {
           "@type": "WebPage",
           "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
-          "url": "https://writequeryhook.com/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
         },
         {
           "@type": "WebPage",
-          "name": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
+          "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
+          "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Research and marketing for small press success: key questions answered",
+          "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_576/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page/blog/blog_hero_blank_page_dread_doomscroll_blog_hero_landscape_a1c7c874068a.gif",
       "width": 200,
       "height": 200,
@@ -619,7 +611,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#howto",
       "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
       "description": "If social media has you doomscrolling and asking, \"Where are the book sales?\" you're using it wrong\u2014or at least, you're measuring the wrong thing. Most of the time, it won't behave like an ad campaign with a clean click-through line to your Amazon page.",
       "totalTime": "PT6M",
@@ -629,49 +621,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Choose a useful goal, not a sales target",
           "text": "Start by writing the goal in one plain sentence: what should social media accomplish that book-selling ads can't? For most authors, the answer is usually one of these:",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-1-choose-a-useful-goal-not-a-sales-target"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-1-choose-a-useful-goal-not-a-sales-target"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Join as a guest, not as a billboard",
           "text": "Community is work. The work is showing up like you belong, not broadcasting yourself into the room.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-2-join-as-a-guest-not-as-a-billboard"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-2-join-as-a-guest-not-as-a-billboard"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: How to build a community as an author",
           "text": "The goal isn't sales. It's buy-in: making it easy for people to quickly understand who you are and what you might be good for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-3-how-to-build-a-community-as-an-author"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-3-how-to-build-a-community-as-an-author"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: How social media helps authors besides sales",
           "text": "When you're querying, serendipity is the point: people see you, decide you're relevant, and the right conversation starts without forcing it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-4-how-social-media-helps-authors-besides-sales"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-4-how-social-media-helps-authors-besides-sales"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Author-centric hashtag pitch events explained",
           "text": "Hashtag pitch events are where social media can do something more direct: author-centric hashtag pitch events explained as a structured way for editors and agents to browse actively.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-5-author-centric-hashtag-pitch-events-explained"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-5-author-centric-hashtag-pitch-events-explained"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: How to get discovered while querying",
           "text": "Track the right signals so you don't ragequit because \"nothing happened.\" Sales are too delayed and noisy. Track outcomes that match your actual purpose:",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-6-how-to-get-discovered-while-querying"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#step-6-how-to-get-discovered-while-querying"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
   "description": "A lot of \"publishing help\" doesn't help publish anything. It helps you part with money\u2014usually through fees, vague promises, and pressure that turns your good intentions into their profit.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
+  "publishedDate": "2027-09-24",
+  "modifiedDate": "2027-09-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_hero_recognition_frustration_blog_hero_landscape_c1ff64937a99.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_hero_recognition_frustration_blog_hero_landscape_c1ff64937a99.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
+      "item": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     }
   ],
   "tldrBlocks": [],
@@ -104,7 +104,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_anxiety_dread_blog_section_landscape_df3b9f03b8be.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_anxiety_dread_blog_section_landscape_df3b9f03b8be.jpeg?updatedAt=1782335943017",
         "alt": "Fee-based publishing is the big red flag",
         "width": 6000,
         "height": 4000,
@@ -192,13 +192,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_paranoia_vigilance_blog_section_landscape_cbd9fbd40f3c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_paranoia_vigilance_blog_section_landscape_cbd9fbd40f3c.gif",
         "alt": "Impersonators hide in branding and email patterns",
-        "width": 5213,
-        "height": 3475,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -244,7 +244,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_confusion_relief_blog_section_landscape_8106f32a4091.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_confusion_relief_blog_section_landscape_8106f32a4091.gif?updatedAt=1782335944265",
         "alt": "Services authors should not pay for that get faked as must-haves",
         "width": 226,
         "height": 200,
@@ -310,32 +310,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_section_image_moment_of_resolve_hands_on_hips_blog_section_landscape_fe5e267bdf31.jpeg",
-    "alt": "blog section image \u00b7 moment of resolve hands-on-hips",
-    "width": 6720,
-    "height": 4480,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for choosing a small press (and when you should actually say yes)",
-      "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     },
     {
       "title": "5 tips for facing the happy harsh truths of a writing career",
-      "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     },
     {
       "title": "5 tips for writing IP when you don't own the world (or the rules)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     },
     {
       "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -370,7 +361,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "url": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     }
   ]
 } as const;
@@ -400,7 +391,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -412,31 +403,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
+          "item": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
       "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -452,11 +443,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet",
       "headline": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
       "alternativeHeadline": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
       "description": "A lot of \"publishing help\" doesn't help publish anything. It helps you part with money\u2014usually through fees, vague promises, and pressure that turns your good intentions into their profit.",
@@ -486,55 +477,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage"
       },
+      "datePublished": "2027-09-24",
+      "dateModified": "2027-09-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "url": "https://writequeryhook.com/query-letters/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
+          "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for facing the happy harsh truths of a writing career",
-          "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+          "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         },
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_hero_recognition_frustration_blog_hero_landscape_c1ff64937a99.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_551/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet/blog/blog_hero_recognition_frustration_blog_hero_landscape_c1ff64937a99.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet#faq",
       "mainEntity": [
         {
           "@type": "Question",

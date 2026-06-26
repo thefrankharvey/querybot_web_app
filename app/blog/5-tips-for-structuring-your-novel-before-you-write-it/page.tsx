@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for structuring your novel before you write it",
   "description": "Most writers start drafting a novel the way you start cooking without a recipe: pan gets hot, things fall into it, and then you stare at the mess wondering where the flavor went.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-14",
+  "modifiedDate": "2026-11-14",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-structuring-your-novel-before-you-write-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -501,6 +501,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-structuring-your-novel-before-you-write-it#primaryimage"
       },
+      "datePublished": "2026-11-14",
+      "dateModified": "2026-11-14",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
   "description": "You can publish through traditional houses, self-publish, go hybrid, or use paid publishing services\u2014each with different financial structures and control dynamics. When someone says \"just choose traditional,\" then another person says \"hybrid is the modern middle,\" the decision becomes overwhelming\u2014until you focus on what actually matters: rights, money risk, and what you're signing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
+  "publishedDate": "2027-07-08",
+  "modifiedDate": "2027-07-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_1689934b1e16.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_1689934b1e16.jpeg?updatedAt=1782244994555",
     "alt": "blog hero \u00b7 stuck overwhelm",
     "width": 7680,
     "height": 5120,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "item": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
+      "item": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     }
   ],
   "tldrBlocks": [],
@@ -90,7 +90,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_tldr_blog_section_landscape_26f3f1794f09.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_tldr_blog_section_landscape_26f3f1794f09.gif?updatedAt=1782244995265",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -248,13 +248,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_ownership_control_blog_section_landscape_2f51bb0fa5a5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_ownership_control_blog_section_landscape_2f51bb0fa5a5.gif",
         "alt": "Self-publishing: maximum control, minimum hand-holding",
-        "width": 5616,
-        "height": 3744,
-        "creator": "Julia Avamotive",
-        "creatorUrl": "https://www.pexels.com/@stockphotoartist",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "masterclass",
+        "creatorUrl": "https://giphy.com/gifs/masterclass-ls3dnK9y9dbluKLQ5A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -380,13 +380,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_comparison_table_scan_this_when_you_re_tired_blog_section_landscape_66e9e2e4cfa0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_comparison_table_scan_this_when_you_re_tired_blog_section_landscape_66e9e2e4cfa0.jpeg",
         "alt": "Comparison table (scan this when you're tired)",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -425,32 +425,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_section_image_fresh_start_stop_spiraling_blog_section_landscape_6349bd46cb4d.jpeg",
-    "alt": "blog section image \u00b7 fresh start stop spiraling",
-    "width": 5184,
-    "height": 2912,
-    "creator": "Jessica Thames",
-    "creatorUrl": "https://www.pexels.com/@funandthames",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     },
     {
       "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     },
     {
       "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     },
     {
-      "title": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
+      "title": "Infographic 5 Key Book Publishing Paths FAQ",
+      "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -489,7 +480,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "url": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     }
   ]
 } as const;
@@ -519,7 +510,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -531,31 +522,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "item": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
+          "item": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
+      "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
       "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -571,11 +562,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#article",
+      "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the",
       "headline": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
       "alternativeHeadline": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
       "description": "You can publish through traditional houses, self-publish, go hybrid, or use paid publishing services\u2014each with different financial structures and control dynamics. When someone says \"just choose traditional,\" then another person says \"hybrid is the modern middle,\" the decision becomes overwhelming\u2014until you focus on what actually matters: rights, money risk, and what you're signing.",
@@ -605,40 +596,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage"
       },
+      "datePublished": "2027-07-08",
+      "dateModified": "2027-07-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "url": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+          "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
         },
         {
           "@type": "WebPage",
           "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+          "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         },
         {
           "@type": "WebPage",
           "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+          "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
         },
         {
           "@type": "WebPage",
-          "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
+          "name": "Infographic 5 Key Book Publishing Paths FAQ",
+          "url": "https://writequeryhook.com/blog/infographic-5-key-book-publishing-paths-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_1689934b1e16.jpeg",
+      "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the/blog/blog_hero_stuck_overwhelm_blog_hero_landscape_1689934b1e16.jpeg?updatedAt=1782244994555",
       "width": 7680,
       "height": 5120,
       "caption": "blog hero \u00b7 stuck overwhelm",
@@ -653,7 +641,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

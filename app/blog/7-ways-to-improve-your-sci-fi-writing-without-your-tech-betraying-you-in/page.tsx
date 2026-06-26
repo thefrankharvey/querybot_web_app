@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 ways to improve your sci-fi writing (without your tech betraying you in chapter 3)",
   "description": "Science fiction is supposed to feel like a deliciously argued \"what if,\" not like a magic trick with paperwork. But a lot of drafts end up doing the same dumb thing: the tech is totally logical\u2014right up until the next scene, where it quietly contradicts itself, and readers go, \"Wait. How does that work again?\"",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-09",
+  "modifiedDate": "2026-10-09",
   "canonicalUrl": "https://writequeryhook.com/blog/7-ways-to-improve-your-sci-fi-writing-without-your-tech-betraying-you-in",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -596,6 +596,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-ways-to-improve-your-sci-fi-writing-without-your-tech-betraying-you-in#primaryimage"
       },
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
       "mentions": [
         {
           "@type": "WebPage",

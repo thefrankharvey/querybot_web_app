@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Third Person Limited FAQ: Definition, Head-Hopping Fixes, and When It Works",
   "description": "Writers ask for third person limited because they want the intimacy of a close viewpoint without the \"I, me, my\" spotlight. The promise is simple: the narration can only share what the viewpoint character can know and perceive\u2014and if you drift, readers feel it fast. Not because they're POV police, but because the mind-slip is jarring.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-05",
+  "modifiedDate": "2027-01-05",
   "canonicalUrl": "https://writequeryhook.com/blog/third-person-limited-faq-definition-head-hopping-fixes-and-when-it-works",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -548,6 +548,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/third-person-limited-faq-definition-head-hopping-fixes-and-when-it-works#primaryimage"
       },
+      "datePublished": "2027-01-05",
+      "dateModified": "2027-01-05",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes writers make by withholding protagonists' plans (and how to prime suspense instead)",
   "description": "TLDR",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-14",
+  "modifiedDate": "2026-10-14",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-writers-make-by-withholding-protagonists-plans-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -609,6 +609,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-by-withholding-protagonists-plans-and-how-to#primaryimage"
       },
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
       "mentions": [
         {
           "@type": "WebPage",

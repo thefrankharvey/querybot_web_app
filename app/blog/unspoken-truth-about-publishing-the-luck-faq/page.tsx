@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Unspoken truth about publishing: the luck FAQ",
   "description": "If you've been querying for a while, you've probably started tracking outcomes the way a sane person tracks traffic jams: with annoyance, dread, and a quiet hope that the pattern will finally show up. Then you get dozens of near-misses. Or maybe you get some reads, but no traction, and it makes you question your own taste for your own work.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-10",
+  "modifiedDate": "2027-02-10",
   "canonicalUrl": "https://writequeryhook.com/blog/unspoken-truth-about-publishing-the-luck-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -452,6 +452,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/unspoken-truth-about-publishing-the-luck-faq#primaryimage"
       },
+      "datePublished": "2027-02-10",
+      "dateModified": "2027-02-10",
       "mentions": [
         {
           "@type": "WebPage",

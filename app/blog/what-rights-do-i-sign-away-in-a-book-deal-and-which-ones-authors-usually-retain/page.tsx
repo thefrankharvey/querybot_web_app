@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
   "description": "The first time you read a \"book deal\" offer letter, it feels like winning. Then the contract lands, and suddenly you're squinting at dense pages of boilerplate trying to figure out what you actually gave away.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
+  "publishedDate": "2027-04-27",
+  "modifiedDate": "2027-04-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_hero_recognition_panic_blog_hero_landscape_9c0ee0128e4e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_hero_recognition_panic_blog_hero_landscape_9c0ee0128e4e.jpeg?updatedAt=1782058119566",
     "alt": "blog hero \u00b7 recognition panic",
     "width": 3500,
     "height": 2333,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "item": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "item": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     }
   ],
   "tldrBlocks": [],
@@ -99,7 +99,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_tldr_blog_section_landscape_9a28504b25fd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_tldr_blog_section_landscape_9a28504b25fd.jpeg?updatedAt=1782058120568",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -171,7 +171,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_ownership_paperwork_blog_section_landscape_b1a720b67381.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_ownership_paperwork_blog_section_landscape_b1a720b67381.gif?updatedAt=1782058121761",
         "alt": "Rights list you need before you obsess over every line of boilerplate",
         "width": 200,
         "height": 200,
@@ -317,7 +317,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_uncertainty_frustration_blog_section_landscape_eef78189b8b0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_uncertainty_frustration_blog_section_landscape_eef78189b8b0.gif?updatedAt=1782058122405",
         "alt": "Format guarantee print vs ebook in publishing contracts: why \"we'll publish it\" may mean \"we'll try\"",
         "width": 200,
         "height": 200,
@@ -380,32 +380,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_section_image_resolve_exhale_blog_section_landscape_4ae87397f505.jpeg",
-    "alt": "blog section image \u00b7 resolve exhale",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Nikita Korchagin",
-    "creatorUrl": "https://www.pexels.com/@nikkor",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     },
     {
       "title": "8 steps to a book launch that actually sells",
-      "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     },
     {
       "title": "9 best practices for writing a blurb request that gets read (and answered)",
-      "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     },
     {
-      "title": "How to know when to leave your agent without burning the whole relationship",
-      "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "title": "How to revise after bad reviews without losing your writer voice",
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -448,7 +439,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     }
   ]
 } as const;
@@ -478,7 +469,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -490,31 +481,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "item": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+          "item": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
+      "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#webpage",
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
       "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -530,11 +521,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#article",
+      "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#webpage"
+        "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain",
       "headline": "What rights do I sign away in a book deal (and which ones authors usually retain)",
       "alternativeHeadline": "What rights do I sign away in a book deal (and which ones authors usually retain)",
       "description": "The first time you read a \"book deal\" offer letter, it feels like winning. Then the contract lands, and suddenly you're squinting at dense pages of boilerplate trying to figure out what you actually gave away.",
@@ -564,40 +555,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage"
       },
+      "datePublished": "2027-04-27",
+      "dateModified": "2027-04-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         },
         {
           "@type": "WebPage",
           "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         },
         {
           "@type": "WebPage",
           "name": "8 steps to a book launch that actually sells",
-          "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+          "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
         },
         {
           "@type": "WebPage",
           "name": "9 best practices for writing a blurb request that gets read (and answered)",
-          "url": "https://writequeryhook.com/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+          "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         },
         {
           "@type": "WebPage",
-          "name": "How to know when to leave your agent without burning the whole relationship",
-          "url": "https://writequeryhook.com/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "name": "How to revise after bad reviews without losing your writer voice",
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_hero_recognition_panic_blog_hero_landscape_9c0ee0128e4e.jpeg",
+      "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain/blog/blog_hero_recognition_panic_blog_hero_landscape_9c0ee0128e4e.jpeg?updatedAt=1782058119566",
       "width": 3500,
       "height": 2333,
       "caption": "blog hero \u00b7 recognition panic",
@@ -612,7 +605,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#faq",
+      "@id": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain#faq",
       "mainEntity": [
         {
           "@type": "Question",

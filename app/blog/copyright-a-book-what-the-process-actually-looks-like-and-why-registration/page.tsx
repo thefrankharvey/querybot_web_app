@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
   "description": "If you've ever searched \"copyright a book a definitive guide examples,\" you've probably seen two kinds of advice fight each other in the comments:",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
+  "publishedDate": "2027-09-15",
+  "modifiedDate": "2027-09-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_hero_anxious_overwhelmed_blog_hero_landscape_33c1b9295bf5.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_hero_anxious_overwhelmed_blog_hero_landscape_33c1b9295bf5.jpeg?updatedAt=1782332394727",
     "alt": "blog hero \u00b7 anxious overwhelmed",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-      "item": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
+      "item": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
     }
   ],
   "tldrBlocks": [],
@@ -129,13 +129,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_dread_insurance_blog_section_landscape_83ebd9d5f037.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_dread_insurance_blog_section_landscape_83ebd9d5f037.gif",
         "alt": "Opening \u2014 why study \"definitive guide\" examples at all?",
-        "width": 6032,
-        "height": 4021,
-        "creator": "Vlad Deep",
-        "creatorUrl": "https://www.pexels.com/@vlad-deep-29415806",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -398,7 +398,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_93b0f9dcb32e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_93b0f9dcb32e.gif?updatedAt=1782332396005",
         "alt": "Body \u2014 Structural breakdown",
         "width": 279,
         "height": 200,
@@ -427,43 +427,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_lessons_takeaways_blog_section_landscape_0ccaf5794e5a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_lessons_takeaways_blog_section_landscape_0ccaf5794e5a.jpeg",
         "alt": "Lessons / Takeaways",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_section_image_fist_pump_back_to_draft_blog_section_landscape_7387f2960a27.jpeg",
-    "alt": "blog section image \u00b7 fist pump back to draft",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
     },
     {
       "title": "Amazon algorithms for authors: a demystified example of how books get shown",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
     },
     {
       "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-      "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
     },
     {
-      "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+      "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
+      "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -498,7 +489,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-      "url": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
     }
   ]
 } as const;
@@ -528,7 +519,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -540,31 +531,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-          "item": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
+          "item": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#webpage",
-      "url": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#webpage",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
       "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -580,11 +571,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#article",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#webpage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration",
       "headline": "Copyright a book: what the process actually looks like (and why registration still matters)",
       "alternativeHeadline": "Copyright a book: what the process actually looks like (and why registration still matters)",
       "description": "If you've ever searched \"copyright a book a definitive guide examples,\" you've probably seen two kinds of advice fight each other in the comments:",
@@ -614,40 +605,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage"
+        "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage"
       },
+      "datePublished": "2027-09-15",
+      "dateModified": "2027-09-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-          "url": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
         },
         {
           "@type": "WebPage",
           "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-          "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
         },
         {
           "@type": "WebPage",
-          "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+          "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
+          "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_hero_anxious_overwhelmed_blog_hero_landscape_33c1b9295bf5.jpeg",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_542/copyright-a-book-what-the-process-actually-looks-like-and-why-registration/blog/blog_hero_anxious_overwhelmed_blog_hero_landscape_33c1b9295bf5.jpeg?updatedAt=1782332394727",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 anxious overwhelmed",
@@ -662,7 +650,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#faq",
+      "@id": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to draft a novel in November: a Preptober plan you can actually follow (examples)",
   "description": "Preptober isn't \"productivity cosplay\" where you pretend you're the kind of writer who outlines for fun. It's the month where you do the boring setup so November can be a drafting sprint, not a long argument with your own blank page.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-07",
+  "modifiedDate": "2026-11-07",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-draft-a-novel-in-november-a-preptober-plan-you-can-actually-follow",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -592,6 +592,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-draft-a-novel-in-november-a-preptober-plan-you-can-actually-follow#primaryimage"
       },
+      "datePublished": "2026-11-07",
+      "dateModified": "2026-11-07",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for creating character chemistry that actually shows up on the page",
   "description": "Your scene has \"good dialogue,\" the stakes are technically present, and nobody does anything egregiously stupid.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-10",
+  "modifiedDate": "2026-10-10",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-creating-character-chemistry-that-actually-shows-up-on-the-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -492,6 +492,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-creating-character-chemistry-that-actually-shows-up-on-the-page#primaryimage"
       },
+      "datePublished": "2026-10-10",
+      "dateModified": "2026-10-10",
       "mentions": [
         {
           "@type": "WebPage",

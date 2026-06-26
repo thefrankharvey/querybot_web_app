@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
   "description": "Most writers hear \u201cauthor branding\u201d and immediately picture a corporate logo slide deck. I get it. The word branding has been through the wringer.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
+  "publishedDate": "2027-09-04",
+  "modifiedDate": "2027-09-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_hero_awkward_cringe_blog_hero_landscape_bb133a80abd5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_hero_awkward_cringe_blog_hero_landscape_bb133a80abd5.jpeg",
     "alt": "blog hero \u00b7 awkward cringe",
-    "width": 250,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/britney-spears-awkward-uncomfortable-tHJA1JRzcWDlzzMQ7F",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Pavel Danilyuk",
+    "creatorUrl": "https://www.pexels.com/@pavel-danilyuk",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-      "item": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
+      "item": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
     }
   ],
   "tldrBlocks": [],
@@ -77,7 +77,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_tldr_blog_section_landscape_5dca90be2cd7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_tldr_blog_section_landscape_5dca90be2cd7.gif?updatedAt=1782328641616",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -580,13 +580,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_media_kit_bio_blog_section_landscape_895d2a9582dd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_media_kit_bio_blog_section_landscape_895d2a9582dd.gif",
         "alt": "What to include in an author media kit (and why \u201cbrief and focused\u201d matters)",
-        "width": 5663,
-        "height": 3775,
-        "creator": "Beyzanur K.",
-        "creatorUrl": "https://www.pexels.com/@thefullonmonet",
-        "provider": "pexels",
+        "width": 300,
+        "height": 200,
+        "creator": "giannivilleda",
+        "creatorUrl": "https://giphy.com/gifs/kit-wqX1jPKUSGSmfOfZKG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -678,7 +678,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_book_sales_repeat_readers_blog_section_landscape_d5075843cf21.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_book_sales_repeat_readers_blog_section_landscape_d5075843cf21.jpeg?updatedAt=1782328645898",
         "alt": "Turning branding into marketing momentum (without pretending it\u2019s magic)",
         "width": 4032,
         "height": 3024,
@@ -709,32 +709,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_section_image_return_to_draft_checklist_blog_section_landscape_524d02ff4148.jpeg",
-    "alt": "blog section image \u00b7 return to draft checklist",
-    "width": 6016,
-    "height": 4016,
-    "creator": "Leeloo The First",
-    "creatorUrl": "https://www.pexels.com/@leeloothefirst",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-      "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
     },
     {
       "title": "How to choose a book title that sells: five title moves explained",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
     },
     {
-      "title": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-      "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+      "title": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
+      "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
     },
     {
       "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-      "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -770,12 +761,7 @@ const PAGE_DATA = {
       "text": "Branding isn\u2019t a costume. It\u2019s a promise you can repeat\u2014cleanly\u2014until readers decide you\u2019re the kind of author they want to follow."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What i didnt know about my own industry FAQ (and what to do next)",
-      "url": "https://writequeryhook.com/query-letters/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -803,7 +789,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -815,31 +801,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-          "item": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
+          "item": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#webpage",
-      "url": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
+      "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#webpage",
+      "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
       "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -855,11 +841,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#article",
+      "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#webpage"
+        "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers",
       "headline": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
       "alternativeHeadline": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
       "description": "Most writers hear \u201cauthor branding\u201d and immediately picture a corporate logo slide deck. I get it. The word branding has been through the wringer.",
@@ -889,55 +875,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage"
       },
+      "datePublished": "2027-09-04",
+      "dateModified": "2027-09-04",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What i didnt know about my own industry FAQ (and what to do next)",
-          "url": "https://writequeryhook.com/query-letters/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-          "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+          "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
         },
         {
           "@type": "WebPage",
           "name": "How to choose a book title that sells: five title moves explained",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
+          "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
         },
         {
           "@type": "WebPage",
-          "name": "What \"podcasting\" got right for authors: a breakdown of a practical author-first guide",
-          "url": "https://writequeryhook.com/what-podcasting-got-right-for-authors-a-breakdown-of-a-practical-author-first-guide"
+          "name": "Adaptation mistakes to avoid: the legal rights mess and the screenplay pacing trap",
+          "url": "https://writequeryhook.com/blog/adaptation-mistakes-to-avoid-the-legal-rights-mess-and-the-screenplay-pacing"
         },
         {
           "@type": "WebPage",
           "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-          "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_hero_awkward_cringe_blog_hero_landscape_bb133a80abd5.gif",
-      "width": 250,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_529/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers/blog/blog_hero_awkward_cringe_blog_hero_landscape_bb133a80abd5.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 awkward cringe",
-      "creditText": "Giphy",
+      "creditText": "Pavel Danilyuk",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/britney-spears-awkward-uncomfortable-tHJA1JRzcWDlzzMQ7F"
+        "name": "Pavel Danilyuk",
+        "url": "https://www.pexels.com/@pavel-danilyuk"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#faq",
+      "@id": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers#faq",
       "mainEntity": [
         {
           "@type": "Question",

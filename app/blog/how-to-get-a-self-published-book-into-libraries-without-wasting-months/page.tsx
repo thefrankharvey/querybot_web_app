@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to get a self-published book into libraries without wasting months",
   "description": "You can't treat getting into libraries like an online retail listing. Libraries aren't buying because you exist. They're buying because something about your book fits a community need they're already planning to serve.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
+  "publishedDate": "2027-06-29",
+  "modifiedDate": "2027-06-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_hero_dread_rejection_blog_hero_landscape_4fa8b7a4350d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_hero_dread_rejection_blog_hero_landscape_4fa8b7a4350d.jpeg?updatedAt=1782236517969",
     "alt": "blog hero \u00b7 dread rejection",
     "width": 10800,
     "height": 6334,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to get a self-published book into libraries without wasting months",
-      "item": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
+      "item": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_neighbors_deadline_blog_section_landscape_c6eadd84df53.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_neighbors_deadline_blog_section_landscape_c6eadd84df53.gif?updatedAt=1782236518674",
         "alt": "Step 1: Make a local call list of 10 libraries that match your book",
         "width": 152,
         "height": 200,
@@ -210,7 +210,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_phone_anxiety_gatekeeping_blog_section_landscape_06dce6b206c4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_phone_anxiety_gatekeeping_blog_section_landscape_06dce6b206c4.gif?updatedAt=1782236519516",
         "alt": "Step 3: Contact acquisitions librarian for book ordering and ask the right questions",
         "width": 226,
         "height": 200,
@@ -317,7 +317,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_frustration_ordering_path_blog_section_landscape_6cb9c1b83221.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_frustration_ordering_path_blog_section_landscape_6cb9c1b83221.jpeg?updatedAt=1782236520099",
         "alt": "Step 5: Make your book available through wholesalers",
         "width": 5184,
         "height": 3456,
@@ -413,32 +413,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_section_image_next_steps_open_laptop_blog_section_landscape_7dbb9a9ea2ca.jpeg",
-    "alt": "blog section image \u00b7 next steps open laptop",
-    "width": 3802,
-    "height": 2383,
-    "creator": "500photos.com",
-    "creatorUrl": "https://www.pexels.com/@500photos-com-15338",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-      "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
     },
     {
       "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-      "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     },
     {
       "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     },
     {
-      "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+      "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -470,12 +461,7 @@ const PAGE_DATA = {
       "text": "Build the list, make the pitch about programming fit, and remove ordering friction with a sell sheet one page and wholesaler availability. Then follow up like you mean it\u2014libraries move on their schedule, not yours."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-      "url": "https://writequeryhook.com/query-letters/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -503,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -515,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to get a self-published book into libraries without wasting months",
-          "item": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
+          "item": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
       "name": "How to get a self-published book into libraries without wasting months",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -555,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#article",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months",
       "headline": "How to get a self-published book into libraries without wasting months",
       "alternativeHeadline": "How to get a self-published book into libraries without wasting months",
       "description": "You can't treat getting into libraries like an online retail listing. Libraries aren't buying because you exist. They're buying because something about your book fits a community need they're already planning to serve.",
@@ -589,40 +575,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage"
       },
+      "datePublished": "2027-06-29",
+      "dateModified": "2027-06-29",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-          "url": "https://writequeryhook.com/query-letters/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
-        },
-        {
-          "@type": "WebPage",
           "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-          "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
         },
         {
           "@type": "WebPage",
           "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-          "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
         },
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         },
         {
           "@type": "WebPage",
-          "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what-traditional-publishing-handles-vs-what-self-publishing-leaves-you-holding"
+          "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
+          "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_hero_dread_rejection_blog_hero_landscape_4fa8b7a4350d.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_451/how-to-get-a-self-published-book-into-libraries-without-wasting-months/blog/blog_hero_dread_rejection_blog_hero_landscape_4fa8b7a4350d.jpeg?updatedAt=1782236517969",
       "width": 10800,
       "height": 6334,
       "caption": "blog hero \u00b7 dread rejection",
@@ -637,7 +620,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#howto",
       "name": "How to get a self-published book into libraries without wasting months",
       "description": "You can't treat getting into libraries like an online retail listing. Libraries aren't buying because you exist. They're buying because something about your book fits a community need they're already planning to serve.",
       "totalTime": "PT7M",
@@ -647,56 +630,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Make a local call list of 10 libraries that match your book",
           "text": "Start local. Make a list of about 10 nearby libraries (branch or system-level, depending on how your area is organized) and pull their basic contact info so you're not hunting around mid-pitch.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-1-make-a-local-call-list-of-10-libraries-that-match-your-book"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-1-make-a-local-call-list-of-10-libraries-that-match-your-book"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Match your pitch to how libraries decide what books to purchase",
           "text": "This is the part most self-publishing attempts get wrong. You don't walk in and ask for \"placement.\" You connect your book to what they're already doing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-2-match-your-pitch-to-how-libraries-decide-what-books-to-purchase"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-2-match-your-pitch-to-how-libraries-decide-what-books-to-purchase"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Contact acquisitions librarian for book ordering and ask the right questions",
           "text": "Call, email, or use the contact form\u2014but aim for the acquisitions librarian (the person or team responsible for purchasing decisions), not a generic \"support\" inbox.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-3-contact-acquisitions-librarian-for-book-ordering-and-ask-the-right"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-3-contact-acquisitions-librarian-for-book-ordering-and-ask-the-right"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build a sell sheet one page for librarians",
           "text": "A sell sheet one page for librarians turns your pitch into something acquisitions staff can order quickly. That's not marketing fluff\u2014that's buying friction removed.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-4-build-a-sell-sheet-one-page-for-librarians"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-4-build-a-sell-sheet-one-page-for-librarians"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Make your book available through wholesalers",
           "text": "Here's the confounding part: linking directly through common self-publishing storefronts is often not enough. Libraries frequently prefer ordering through wholesalers because it reduces special approval and extra friction.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-5-make-your-book-available-through-wholesalers"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-5-make-your-book-available-through-wholesalers"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Follow up persistently, then turn patrons into library advocates",
           "text": "Libraries don't always respond fast. Sometimes you'll get a \"we'll review it\" and then silence. Build a follow-up rhythm.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-6-follow-up-persistently-then-turn-patrons-into-library-advocates"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-6-follow-up-persistently-then-turn-patrons-into-library-advocates"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Offer a donation only as a last resort",
           "text": "If a library won't purchase, you can still aim for community access\u2014but don't treat donation as a shortcut to getting on shelves.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-7-offer-a-donation-only-as-a-last-resort"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#step-7-offer-a-donation-only-as-a-last-resort"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-a-self-published-book-into-libraries-without-wasting-months#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months#faq",
       "mainEntity": [
         {
           "@type": "Question",

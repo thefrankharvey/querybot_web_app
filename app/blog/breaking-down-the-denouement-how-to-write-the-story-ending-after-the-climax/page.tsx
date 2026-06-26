@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down the d\u00e9nouement: how to write the story ending after the climax",
   "description": "Every writer has done it: you earn the climax\u2014then you hit \"the end\" and realize the last stretch doesn't feel like part of the story. It feels like the author remembered a timer exists.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-07",
+  "modifiedDate": "2026-09-07",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-the-denouement-how-to-write-the-story-ending-after-the-climax",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -679,6 +679,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-the-denouement-how-to-write-the-story-ending-after-the-climax#primaryimage"
       },
+      "datePublished": "2026-09-07",
+      "dateModified": "2026-09-07",
       "mentions": [
         {
           "@type": "WebPage",

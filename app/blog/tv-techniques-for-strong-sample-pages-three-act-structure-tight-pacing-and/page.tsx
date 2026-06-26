@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Tv Techniques for Strong Sample Pages: Three-Act Structure, Tight Pacing, and Dynamic Dialogue",
   "description": "You can tell when someone wrote sample pages by \"vibe.\"",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-31",
+  "modifiedDate": "2026-10-31",
   "canonicalUrl": "https://writequeryhook.com/blog/tv-techniques-for-strong-sample-pages-three-act-structure-tight-pacing-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -969,6 +969,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/tv-techniques-for-strong-sample-pages-three-act-structure-tight-pacing-and#primaryimage"
       },
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
       "mentions": [
         {
           "@type": "WebPage",

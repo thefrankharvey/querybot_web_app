@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
   "description": "Most authors don't get \"stuck\" because they can't write. They get stuck because audio looks like one big, intimidating decision: either hire a narrator or accept that you'll never reach audiobook listeners.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
+  "publishedDate": "2027-05-06",
+  "modifiedDate": "2027-05-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_hero_recognition_frustration_blog_hero_landscape_54585356ecdc.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_hero_recognition_frustration_blog_hero_landscape_54585356ecdc.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-      "item": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+      "item": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
     }
   ],
   "tldrBlocks": [],
@@ -116,16 +116,7 @@ const PAGE_DATA = {
           "text": "Named example: if your print chapter begins with scene-setting (weather, history, backstory dump), move one \"arrival moment\" earlier\u2014someone enters, someone lies, someone threatens. Then let the explanation catch up after the listener is already hooked."
         }
       ],
-      "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_interactive_choose_your_ending_blog_section_landscape_1ece87d70fcf.jpeg",
-        "alt": "Make audiobooks by turning chapters into an audio-shaped experience",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
-        "role": "section"
-      }
+      "image": null
     },
     {
       "section_id": "h2_release_it_as_a_podcast_series",
@@ -171,7 +162,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_podcast_episodes_blog_section_landscape_f8fbd93dd921.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_podcast_episodes_blog_section_landscape_f8fbd93dd921.jpeg?updatedAt=1782095728720",
         "alt": "Release it as a podcast series (and treat episodes like mini-stories)",
         "width": 3999,
         "height": 2667,
@@ -278,7 +269,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_immersive_fictional_podcast_blog_section_landscape_338b68abbd47.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_immersive_fictional_podcast_blog_section_landscape_338b68abbd47.gif?updatedAt=1782095730233",
         "alt": "Build immersive fictional podcast worldbuilding ideas (present it like it's real)",
         "width": 402,
         "height": 200,
@@ -334,44 +325,26 @@ const PAGE_DATA = {
           "text": "If that sounds scary, start small. Pick one subplot with two plausible end states, and build the interactive layer there. Let the experiment prove whether your audience cares."
         }
       ],
-      "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_interactive_choose_your_ending_blog_section_landscape_1ece87d70fcf.jpeg",
-        "alt": "Make audiobooks by turning chapters into an audio-shaped experience",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
-        "role": "section"
-      }
+      "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_section_image_hope_forward_motion_blog_section_landscape_6125803de6d2.jpeg",
-    "alt": "blog section image \u00b7 hope forward motion",
-    "width": 4592,
-    "height": 3062,
-    "creator": "Mike",
-    "creatorUrl": "https://www.pexels.com/@mike-468229",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 things to do after your offer (that keep your publishing on track)",
-      "url": "https://writequeryhook.com/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
-    },
-    {
-      "title": "5 publisher meeting tips for authors after an offer",
-      "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
-    },
-    {
-      "title": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-      "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
+      "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
     },
     {
       "title": "How to typeset your novel for print without wrecking readability",
-      "url": "https://writequeryhook.com/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+      "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+    },
+    {
+      "title": "How to write jacket copy that sells without spoilers or wasted space",
+      "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+    },
+    {
+      "title": "Representation offer vs other agent options: what to do first, and what to ask",
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -406,7 +379,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-      "url": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+      "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
     }
   ]
 } as const;
@@ -436,7 +409,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -448,31 +421,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-          "item": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+          "item": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
+      "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#webpage",
+      "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
       "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -488,11 +461,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#article",
+      "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#webpage"
+        "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud",
       "headline": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
       "alternativeHeadline": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
       "description": "Most authors don't get \"stuck\" because they can't write. They get stuck because audio looks like one big, intimidating decision: either hire a narrator or accept that you'll never reach audiobook listeners.",
@@ -522,55 +495,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage"
       },
+      "datePublished": "2027-05-06",
+      "dateModified": "2027-05-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-          "url": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+          "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
         },
         {
           "@type": "WebPage",
           "name": "5 things to do after your offer (that keep your publishing on track)",
-          "url": "https://writequeryhook.com/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 publisher meeting tips for authors after an offer",
-          "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-          "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
         },
         {
           "@type": "WebPage",
           "name": "How to typeset your novel for print without wrecking readability",
-          "url": "https://writequeryhook.com/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to write jacket copy that sells without spoilers or wasted space",
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Representation offer vs other agent options: what to do first, and what to ask",
+          "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_hero_recognition_frustration_blog_hero_landscape_54585356ecdc.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud/blog/blog_hero_recognition_frustration_blog_hero_landscape_54585356ecdc.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#faq",
+      "@id": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud#faq",
       "mainEntity": [
         {
           "@type": "Question",

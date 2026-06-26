@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to handle rejection 2 without losing your next draft",
   "description": "Rejection lands like a small punch to the ribs\u2014worse when it feels close. The second \u201cno\u201d tends to make your brain do that fun little trick where it turns subjective decisions into objective failure.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-10",
+  "modifiedDate": "2027-03-10",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-handle-rejection-2-without-losing-your-next-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -507,6 +507,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-handle-rejection-2-without-losing-your-next-draft#primaryimage"
       },
+      "datePublished": "2027-03-10",
+      "dateModified": "2027-03-10",
       "mentions": [
         {
           "@type": "WebPage",

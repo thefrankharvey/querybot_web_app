@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
   "description": "You do not need a studio and a decade of audio engineering to start podcasting as an author. That myth alone costs writers months\u2014months spent reading gear threads instead of building episodes.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
+  "publishedDate": "2027-09-02",
+  "modifiedDate": "2027-09-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_hero_overwhelm_blank_page_blog_hero_landscape_2d24fe879e13.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_hero_overwhelm_blank_page_blog_hero_landscape_2d24fe879e13.jpeg",
     "alt": "blog hero \u00b7 overwhelm blank-page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 5763,
+    "height": 3842,
+    "creator": "Cup of  Couple",
+    "creatorUrl": "https://www.pexels.com/@cup-of-couple",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
+      "item": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
     }
   ],
   "tldrBlocks": [],
@@ -125,13 +125,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_opening_blog_section_landscape_85b8ebd4bd42.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_opening_blog_section_landscape_85b8ebd4bd42.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -280,13 +280,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_eye_roll_salesy_blog_section_landscape_926964a0ae30.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_eye_roll_salesy_blog_section_landscape_926964a0ae30.gif",
         "alt": "You're doing book marketing as a random interruption",
-        "width": 6390,
-        "height": 4790,
-        "creator": "Ana Claudia Quevedo Estrada",
-        "creatorUrl": "https://www.pexels.com/@ana-claudia-quevedo-estrada-922193",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -490,13 +490,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_you_re_publishing_inconsistently_then_quitting_blog_section_landscape_da5f578c587c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_you_re_publishing_inconsistently_then_quitting_blog_section_landscape_da5f578c587c.jpeg",
         "alt": "You're publishing inconsistently (then quitting)",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -523,32 +523,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_section_image_relief_decision_blog_section_landscape_1aa506507cf8.jpeg",
-    "alt": "blog section image \u00b7 relief decision",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-      "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     },
     {
       "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-      "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     },
     {
       "title": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-      "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+      "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
     },
     {
-      "title": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-      "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+      "title": "Get your submission priorities wrong, and the agent will never forgive you",
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -562,7 +553,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common book title mistakes that quietly sabotage book marketing",
-      "url": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
     }
   ]
 } as const;
@@ -592,7 +583,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -604,31 +595,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
+          "item": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
+      "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#webpage",
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
       "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -644,11 +635,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#article",
+      "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#webpage"
+        "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and",
       "headline": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
       "alternativeHeadline": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
       "description": "You do not need a studio and a decade of audio engineering to start podcasting as an author. That myth alone costs writers months\u2014months spent reading gear threads instead of building episodes.",
@@ -678,48 +669,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage"
       },
+      "datePublished": "2027-09-02",
+      "dateModified": "2027-09-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common book title mistakes that quietly sabotage book marketing",
-          "url": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+          "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-          "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+          "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         },
         {
           "@type": "WebPage",
           "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-          "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+          "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
         },
         {
           "@type": "WebPage",
           "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-          "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-          "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+          "name": "Get your submission priorities wrong, and the agent will never forgive you",
+          "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_hero_overwhelm_blank_page_blog_hero_landscape_2d24fe879e13.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and/blog/blog_hero_overwhelm_blank_page_blog_hero_landscape_2d24fe879e13.jpeg",
+      "width": 5763,
+      "height": 3842,
       "caption": "blog hero \u00b7 overwhelm blank-page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Cup of  Couple",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Cup of  Couple",
+        "url": "https://www.pexels.com/@cup-of-couple"
       },
       "@context": "https://schema.org"
     }

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
   "description": "First-time publishing feels like you're walking into a machine shop without the manual. Everyone's giving advice, and half of it contradicts the other half. So here's the fix: a step-by-step FAQ sequence for the decisions and requirements that actually show up in publishing\u2014publishing, self-publishing, traditional publishing, and querying\u2014from manuscript prep to the waiting period after you sign with an agent.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
+  "publishedDate": "2027-07-05",
+  "modifiedDate": "2027-07-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_hero_blank_page_deadline_blog_hero_landscape_6ad13bcbfde6.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_hero_blank_page_deadline_blog_hero_landscape_6ad13bcbfde6.jpeg?updatedAt=1782244335247",
     "alt": "blog hero \u00b7 blank-page deadline",
     "width": 6016,
     "height": 4016,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "item": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "item": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     }
   ],
   "tldrBlocks": [],
@@ -179,7 +179,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_editing_typos_blog_section_landscape_60c1eea4b7a6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_editing_typos_blog_section_landscape_60c1eea4b7a6.gif?updatedAt=1782244337402",
         "alt": "What formatting and preparation steps should a writer follow for a manuscript?",
         "width": 226,
         "height": 200,
@@ -232,7 +232,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_pitch_attention_blog_section_landscape_6715029956ef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_pitch_attention_blog_section_landscape_6715029956ef.jpeg?updatedAt=1782244339097",
         "alt": "How much money do authors make?",
         "width": 4160,
         "height": 2774,
@@ -325,13 +325,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_short_list_answers_for_the_questions_writers_ask_blog_section_landscape_3bfec33c878e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_short_list_answers_for_the_questions_writers_ask_blog_section_landscape_3bfec33c878e.gif",
         "alt": "Short-list answers for the questions writers ask next",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -365,7 +365,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_pitch_attention_blog_section_landscape_6715029956ef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_pitch_attention_blog_section_landscape_6715029956ef.jpeg?updatedAt=1782244339097",
         "alt": "How much money do authors make?",
         "width": 4160,
         "height": 2774,
@@ -376,32 +376,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_section_image_next_steps_write_the_query_blog_section_landscape_f08a5c3c3af6.gif",
-    "alt": "blog section image \u00b7 next steps write the query",
-    "width": 266,
-    "height": 200,
-    "creator": "muppetwiki",
-    "creatorUrl": "https://giphy.com/gifs/muppetwiki-sesame-street-muppets-elmo-fUQ4rhUZJYiQsas6WD",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
-    },
-    {
-      "title": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-      "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     },
     {
       "title": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-      "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+    },
+    {
+      "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     },
     {
       "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-      "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -410,7 +401,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "url": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     }
   ]
 } as const;
@@ -440,7 +431,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -452,31 +443,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "item": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+          "item": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#webpage",
-      "url": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
+      "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#webpage",
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
       "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage"
+        "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -492,11 +483,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#article",
+      "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#webpage"
+        "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path",
       "headline": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
       "alternativeHeadline": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
       "description": "First-time publishing feels like you're walking into a machine shop without the manual. Everyone's giving advice, and half of it contradicts the other half. So here's the fix: a step-by-step FAQ sequence for the decisions and requirements that actually show up in publishing\u2014publishing, self-publishing, traditional publishing, and querying\u2014from manuscript prep to the waiting period after you sign with an agent.",
@@ -526,40 +517,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage"
+        "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage"
       },
+      "datePublished": "2027-07-05",
+      "dateModified": "2027-07-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "url": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "url": "https://writequeryhook.com/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for-authors"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-          "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+          "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-          "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         },
         {
           "@type": "WebPage",
           "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-          "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+          "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_hero_blank_page_deadline_blog_hero_landscape_6ad13bcbfde6.jpeg",
+      "@id": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path/blog/blog_hero_blank_page_deadline_blog_hero_landscape_6ad13bcbfde6.jpeg?updatedAt=1782244335247",
       "width": 6016,
       "height": 4016,
       "caption": "blog hero \u00b7 blank-page deadline",

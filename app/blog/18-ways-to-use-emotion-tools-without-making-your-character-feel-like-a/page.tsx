@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "18 ways to use emotion tools without making your character feel like a compliance checkbox",
   "description": "A lot of writing tools will happily hand you options for emotion. Great. Also: a lot of writers will dutifully copy those options into the scene like they're filling out a form.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-15",
+  "modifiedDate": "2026-09-15",
   "canonicalUrl": "https://writequeryhook.com/blog/18-ways-to-use-emotion-tools-without-making-your-character-feel-like-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -921,6 +921,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/18-ways-to-use-emotion-tools-without-making-your-character-feel-like-a#primaryimage"
       },
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
       "mentions": [
         {
           "@type": "WebPage",

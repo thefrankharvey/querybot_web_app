@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Rejection isn\u2019t proof your writing is bad: 7 mistakes that make the sting worse",
   "description": "TLDR (the mistakes, fast):",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-06",
+  "modifiedDate": "2027-02-06",
   "canonicalUrl": "https://writequeryhook.com/blog/rejection-isn-t-proof-your-writing-is-bad-7-mistakes-that-make-the-sting-worse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -611,6 +611,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/rejection-isn-t-proof-your-writing-is-bad-7-mistakes-that-make-the-sting-worse#primaryimage"
       },
+      "datePublished": "2027-02-06",
+      "dateModified": "2027-02-06",
       "mentions": [
         {
           "@type": "WebPage",

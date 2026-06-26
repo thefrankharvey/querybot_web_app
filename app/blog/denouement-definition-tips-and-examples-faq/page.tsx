@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "D\u00e9nouement definition tips and examples FAQ",
   "description": "The d\u00e9nouement is the part of the story ending that comes after the climax and the falling action\u2014the stretch where the narrative tension finally releases, and the book starts letting the reader breathe. Writers hit this phase and panic for three reasons: how much to resolve, what emotional tone to land in, and whether a sequel-friendly ending will feel earned or unfair.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-17",
+  "modifiedDate": "2026-10-17",
   "canonicalUrl": "https://writequeryhook.com/blog/denouement-definition-tips-and-examples-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -485,6 +485,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/denouement-definition-tips-and-examples-faq#primaryimage"
       },
+      "datePublished": "2026-10-17",
+      "dateModified": "2026-10-17",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Write hook questions by raising small answers fast\u2014then renewing them",
   "description": "Your opening isn't failing because it's \"boring.\" It's failing because the reader can predict it.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-30",
+  "modifiedDate": "2026-09-30",
   "canonicalUrl": "https://writequeryhook.com/blog/write-hook-questions-by-raising-small-answers-fast-then-renewing-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -626,6 +626,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/write-hook-questions-by-raising-small-answers-fast-then-renewing-them#primaryimage"
       },
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
       "mentions": [
         {
           "@type": "WebPage",

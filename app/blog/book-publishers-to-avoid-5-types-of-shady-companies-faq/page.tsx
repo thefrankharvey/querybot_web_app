@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book publishers to avoid: 5 types of shady companies FAQ",
   "description": "Writers get pitched a lot of \"help\" that isn't help. The industry is full of offers that sound flattering, move fast, and ask for money up front\u2014while the actual outcome (real editing, real distribution, real readership) stays vague.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq",
+  "publishedDate": "2027-08-24",
+  "modifiedDate": "2027-08-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_hero_dread_suspicious_outreach_blog_hero_landscape_4c4cdad9c7d7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_hero_dread_suspicious_outreach_blog_hero_landscape_4c4cdad9c7d7.jpeg?updatedAt=1782315578383",
     "alt": "blog hero \u00b7 dread suspicious outreach",
     "width": 5595,
     "height": 3730,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "item": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "item": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     }
   ],
   "tldrBlocks": [],
@@ -101,13 +101,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_money_upfront_disappointment_blog_section_landscape_3b4c7b286ee8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_money_upfront_disappointment_blog_section_landscape_3b4c7b286ee8.gif",
         "alt": "How can I tell if a publisher is a vanity press?",
-        "width": 4928,
-        "height": 3264,
-        "creator": "Lukas Blazek",
-        "creatorUrl": "https://www.pexels.com/@goumbik",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -155,7 +155,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_inbox_anxiety_impersonators_blog_section_landscape_48c1d8e68430.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_inbox_anxiety_impersonators_blog_section_landscape_48c1d8e68430.gif?updatedAt=1782315579750",
         "alt": "What should I look for to detect Big Five-style impersonation emails?",
         "width": 226,
         "height": 200,
@@ -290,13 +290,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_dread_entry_fees_blog_section_landscape_68df4ad459f0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_dread_entry_fees_blog_section_landscape_68df4ad459f0.jpeg",
         "alt": "How do I check if a writing contest is legitimate?",
-        "width": 526,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-        "provider": "giphy",
+        "width": 5964,
+        "height": 3976,
+        "creator": "Patrick",
+        "creatorUrl": "https://www.pexels.com/@jaralol",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -345,32 +345,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_section_image_cold_take_protect_your_wallet_blog_section_landscape_8f244f2cdd76.jpeg",
-    "alt": "blog section image \u00b7 cold take protect your wallet",
-    "width": 5472,
-    "height": 3648,
-    "creator": "Erik Mclean",
-    "creatorUrl": "https://www.pexels.com/@introspectivedsgn",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Happy harsh truths of a writing career faq",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     },
     {
       "title": "A beginner's guide to writing IP FAQ",
-      "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     },
     {
       "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     },
     {
-      "title": "Common mistakes that make your category-busting book harder to sell",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
+      "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -388,7 +379,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Happy harsh truths of a writing career faq",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     }
   ]
 } as const;
@@ -418,7 +409,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -430,31 +421,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "item": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "item": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq",
+      "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#webpage",
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq",
       "name": "Book publishers to avoid: 5 types of shady companies FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -470,11 +461,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#article",
+      "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq",
       "headline": "Book publishers to avoid: 5 types of shady companies FAQ",
       "alternativeHeadline": "Book publishers to avoid: 5 types of shady companies FAQ",
       "description": "Writers get pitched a lot of \"help\" that isn't help. The industry is full of offers that sound flattering, move fast, and ask for money up front\u2014while the actual outcome (real editing, real distribution, real readership) stays vague.",
@@ -504,40 +495,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage"
       },
+      "datePublished": "2027-08-24",
+      "dateModified": "2027-08-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career faq",
-          "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career faq",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
         },
         {
           "@type": "WebPage",
           "name": "A beginner's guide to writing IP FAQ",
-          "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+          "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         },
         {
           "@type": "WebPage",
           "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+          "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes that make your category-busting book harder to sell",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
+          "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_hero_dread_suspicious_outreach_blog_hero_landscape_4c4cdad9c7d7.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_516/book-publishers-to-avoid-5-types-of-shady-companies-faq/blog/blog_hero_dread_suspicious_outreach_blog_hero_landscape_4c4cdad9c7d7.jpeg?updatedAt=1782315578383",
       "width": 5595,
       "height": 3730,
       "caption": "blog hero \u00b7 dread suspicious outreach",

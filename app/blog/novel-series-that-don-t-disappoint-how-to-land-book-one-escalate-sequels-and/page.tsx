@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
   "description": "Somewhere around chapter twelve of book one, you start doing that math in your head. If we stop here, can the book still feel \"complete\"? If we don't stop here, are we just\u2026 postponing the real story until the next installment?",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
+  "publishedDate": "2027-08-15",
+  "modifiedDate": "2027-08-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_hero_recognition_dread_blog_hero_landscape_2ef86c8f1195.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_hero_recognition_dread_blog_hero_landscape_2ef86c8f1195.jpeg?updatedAt=1782311920971",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "item": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
+      "item": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     }
   ],
   "tldrBlocks": [],
@@ -188,7 +188,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_climax_payoff_blog_section_landscape_7d9784995e50.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_climax_payoff_blog_section_landscape_7d9784995e50.gif?updatedAt=1782311921751",
         "alt": "Book one must land: what \"series potential\" actually means",
         "width": 226,
         "height": 200,
@@ -555,7 +555,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_tone_genre_blog_section_landscape_89ff5a7e30b0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_tone_genre_blog_section_landscape_89ff5a7e30b0.jpeg?updatedAt=1782311922381",
         "alt": "Keep tone and genre consistent across books (or justify the shift)",
         "width": 3024,
         "height": 2016,
@@ -633,7 +633,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_ya_audience_drift_blog_section_landscape_d9652d2cb769.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_ya_audience_drift_blog_section_landscape_d9652d2cb769.gif?updatedAt=1782311923218",
         "alt": "Age-specific series: managing character aging and audience drift",
         "width": 356,
         "height": 200,
@@ -644,32 +644,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_section_image_action_notebook_open_blog_section_landscape_7c5c3b0f5a1c.jpeg",
-    "alt": "blog section image \u00b7 action notebook open",
-    "width": 5784,
-    "height": 3856,
-    "creator": "Yan Krukau",
-    "creatorUrl": "https://www.pexels.com/@yankrukov",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     },
     {
       "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     },
     {
       "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     },
     {
-      "title": "Word count for novels and children's books FAQ",
-      "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+      "title": "How can you market your book effectively? FAQ for self-published authors",
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -712,7 +703,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     }
   ]
 } as const;
@@ -742,7 +733,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -754,31 +745,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "item": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
+          "item": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
+      "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#webpage",
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
       "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -794,11 +785,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#article",
+      "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#webpage"
+        "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and",
       "headline": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
       "alternativeHeadline": "Novel series that don\u2019t disappoint: how to land book one, escalate sequels, and keep tone consistent",
       "description": "Somewhere around chapter twelve of book one, you start doing that math in your head. If we stop here, can the book still feel \"complete\"? If we don't stop here, are we just\u2026 postponing the real story until the next installment?",
@@ -828,40 +819,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage"
       },
+      "datePublished": "2027-08-15",
+      "dateModified": "2027-08-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         },
         {
           "@type": "WebPage",
           "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+          "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         },
         {
           "@type": "WebPage",
           "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+          "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         },
         {
           "@type": "WebPage",
-          "name": "Word count for novels and children's books FAQ",
-          "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+          "name": "How can you market your book effectively? FAQ for self-published authors",
+          "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_hero_recognition_dread_blog_hero_landscape_2ef86c8f1195.jpeg",
+      "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and/blog/blog_hero_recognition_dread_blog_hero_landscape_2ef86c8f1195.jpeg?updatedAt=1782311920971",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -876,7 +869,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#faq",
+      "@id": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

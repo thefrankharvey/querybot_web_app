@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
   "description": "Writers hear \"we acquired your book\" and assume the next scene is\u2026 bookstores. Then months (often a year or more) evaporate, and the only visible activity is maybe a few emails titled \"feedback\" or \"proof.\"",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
+  "publishedDate": "2027-07-19",
+  "modifiedDate": "2027-07-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_hero_contract_surprise_blog_hero_landscape_97a490f04d56.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_hero_contract_surprise_blog_hero_landscape_97a490f04d56.jpeg?updatedAt=1782260284767",
     "alt": "blog hero \u00b7 contract surprise",
     "width": 6720,
     "height": 4480,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "item": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "item": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     }
   ],
   "tldrBlocks": [],
@@ -130,13 +130,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_seasonal_planning_spring_summer_fall_blog_section_landscape_8166594ba4aa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_seasonal_planning_spring_summer_fall_blog_section_landscape_8166594ba4aa.gif",
         "alt": "How do publishers choose a publication date?",
-        "width": 11483,
-        "height": 6459,
-        "creator": "K",
-        "creatorUrl": "https://www.pexels.com/@kelly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -210,7 +210,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_hands_on_level_workload_blog_section_landscape_aa5620afc58f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_hands_on_level_workload_blog_section_landscape_aa5620afc58f.gif?updatedAt=1782260288793",
         "alt": "Do editors really \"edit,\" or is it sometimes less hands-on?",
         "width": 200,
         "height": 200,
@@ -257,7 +257,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg?updatedAt=1782260289424",
         "alt": "What work happens during production, marketing, and publicity before release?",
         "width": 6720,
         "height": 4480,
@@ -292,7 +292,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg?updatedAt=1782260289424",
         "alt": "What work happens during production, marketing, and publicity before release?",
         "width": 6720,
         "height": 4480,
@@ -341,7 +341,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_production_proofs_cover_decisions_blog_section_landscape_e43457fed11c.jpeg?updatedAt=1782260289424",
         "alt": "What work happens during production, marketing, and publicity before release?",
         "width": 6720,
         "height": 4480,
@@ -352,32 +352,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_section_image_next_step_prep_for_feedback_blog_section_landscape_4878b45713e8.gif",
-    "alt": "blog section image \u00b7 next step prep for feedback",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What literary agents do (and what they don't do) FAQ",
-      "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     },
     {
       "title": "Aspiring author FAQ: how to get a book published",
-      "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     },
     {
       "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     },
     {
-      "title": "How to market a self-published book: 3 real-world examples you can copy",
-      "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+      "title": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
+      "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -395,7 +386,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What literary agents do (and what they don't do) FAQ",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     }
   ]
 } as const;
@@ -425,7 +416,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -437,31 +428,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "item": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "item": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#webpage",
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
       "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -477,11 +468,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#article",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq",
       "headline": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
       "alternativeHeadline": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
       "description": "Writers hear \"we acquired your book\" and assume the next scene is\u2026 bookstores. Then months (often a year or more) evaporate, and the only visible activity is maybe a few emails titled \"feedback\" or \"proof.\"",
@@ -511,40 +502,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage"
       },
+      "datePublished": "2027-07-19",
+      "dateModified": "2027-07-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What literary agents do (and what they don't do) FAQ",
-          "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What literary agents do (and what they don't do) FAQ",
-          "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
         },
         {
           "@type": "WebPage",
           "name": "Aspiring author FAQ: how to get a book published",
-          "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
+          "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
         },
         {
           "@type": "WebPage",
-          "name": "How to market a self-published book: 3 real-world examples you can copy",
-          "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+          "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
+          "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_hero_contract_surprise_blog_hero_landscape_97a490f04d56.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq/blog/blog_hero_contract_surprise_blog_hero_landscape_97a490f04d56.jpeg?updatedAt=1782260284767",
       "width": 6720,
       "height": 4480,
       "caption": "blog hero \u00b7 contract surprise",

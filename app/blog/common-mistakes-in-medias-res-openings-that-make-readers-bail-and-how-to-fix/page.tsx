@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes in medias res openings that make readers bail (and how to fix them)",
   "description": "Every \"how to start\" article loves to say in medias res will grab attention. Sure. But if your opening feels like chaos instead of curiosity, readers don't think \"ooh, technique.\" They think \"I'm lost.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-03",
+  "modifiedDate": "2027-01-03",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-in-medias-res-openings-that-make-readers-bail-and-how-to-fix",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -615,6 +615,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-in-medias-res-openings-that-make-readers-bail-and-how-to-fix#primaryimage"
       },
+      "datePublished": "2027-01-03",
+      "dateModified": "2027-01-03",
       "mentions": [
         {
           "@type": "WebPage",

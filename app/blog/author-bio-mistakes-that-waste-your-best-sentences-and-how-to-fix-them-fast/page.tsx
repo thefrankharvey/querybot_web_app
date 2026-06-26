@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author bio mistakes that waste your best sentences (and how to fix them fast)",
   "description": "Most author bios fail because they chase the wrong goal: sounding impressive. The myth says the bio should \"sell\" the book the way the back cover does.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-24",
+  "modifiedDate": "2026-08-24",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-mistakes-that-waste-your-best-sentences-and-how-to-fix-them-fast",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -594,6 +594,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-mistakes-that-waste-your-best-sentences-and-how-to-fix-them-fast#primaryimage"
       },
+      "datePublished": "2026-08-24",
+      "dateModified": "2026-08-24",
       "mentions": [
         {
           "@type": "WebPage",

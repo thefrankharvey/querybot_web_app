@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for editing a picture book manuscript so every word earns its page",
   "description": "A picture book manuscript doesn't get judged like a novel draft. It's not \"pretty prose on the page.\" It's prose plus pictures, taking turns like a relay team. When writers edit like it's text-only, they either cling to too much (\"But the sentence is beautiful!\") or cut randomly (\"We need fewer words!\"). Neither helps.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-10",
+  "modifiedDate": "2027-01-10",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-editing-a-picture-book-manuscript-so-every-word-earns-its-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -556,6 +556,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-editing-a-picture-book-manuscript-so-every-word-earns-its-page#primaryimage"
       },
+      "datePublished": "2027-01-10",
+      "dateModified": "2027-01-10",
       "mentions": [
         {
           "@type": "WebPage",

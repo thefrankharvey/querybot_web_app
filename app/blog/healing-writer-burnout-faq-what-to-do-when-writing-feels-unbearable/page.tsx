@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Healing Writer Burnout FAQ: what to do when writing feels unbearable",
   "description": "Burnout hits harder than \"I can't write today.\" writer burnout is sustained exhaustion\u2014stress plus deadlines, years with the same manuscript, or the awful moment when you can't stand to look at the thing anymore. When you're in it, motivation feels like a rumor and revisions feel like punishment.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-23",
+  "modifiedDate": "2027-02-23",
   "canonicalUrl": "https://writequeryhook.com/blog/healing-writer-burnout-faq-what-to-do-when-writing-feels-unbearable",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -448,6 +448,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/healing-writer-burnout-faq-what-to-do-when-writing-feels-unbearable#primaryimage"
       },
+      "datePublished": "2027-02-23",
+      "dateModified": "2027-02-23",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Literary agent cost: what you should pay (and what you should never pay)",
   "description": "A lot of writers don't actually struggle with what a literary agent does. They struggle with the part that feels like a vending machine: what a literary agent costs, and when payment is supposed to happen.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
+  "publishedDate": "2027-08-07",
+  "modifiedDate": "2027-08-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_hero_confusion_spreadsheet_dread_blog_hero_landscape_eb562a67041b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_hero_confusion_spreadsheet_dread_blog_hero_landscape_eb562a67041b.jpeg?updatedAt=1782271465578",
     "alt": "blog hero \u00b7 confusion spreadsheet dread",
     "width": 7008,
     "height": 4672,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Literary agent cost: what you should pay (and what you should never pay)",
-      "item": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "item": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     }
   ],
   "tldrBlocks": [],
@@ -128,13 +128,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_vindicated_relief_blog_section_landscape_628aa9a1d8b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_vindicated_relief_blog_section_landscape_628aa9a1d8b5.jpeg",
         "alt": "Traditional agent cost: commission after sale (publisher pays first)",
-        "width": 152,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Anderson Alves",
+        "creatorUrl": "https://www.pexels.com/@anderson-alves-2158767102",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -198,13 +198,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_numbers_nerves_blog_section_landscape_5559683ca06c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_numbers_nerves_blog_section_landscape_5559683ca06c.gif",
         "alt": "Literary agent commission 15 percent 20 25: the math (and when it changes)",
-        "width": 3696,
-        "height": 2448,
-        "creator": "Quenani Leal",
-        "creatorUrl": "https://www.pexels.com/@quenani-leal-227493",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -361,7 +361,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_alarm_disgust_blog_section_landscape_85c200c28c34.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_alarm_disgust_blog_section_landscape_85c200c28c34.gif?updatedAt=1782271467133",
         "alt": "Hybrid publishing and pay-to-play models",
         "width": 240,
         "height": 200,
@@ -372,32 +372,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_5a089b2afef9.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     },
     {
       "title": "5 tips for are you an aspiring author: here's how to get a book published",
-      "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     },
     {
       "title": "5 basics of publishing contracts you should understand before you sign",
-      "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     },
     {
       "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -436,7 +427,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-      "url": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     }
   ]
 } as const;
@@ -466,7 +457,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -478,31 +469,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "item": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+          "item": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#webpage",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#webpage",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
       "name": "Literary agent cost: what you should pay (and what you should never pay)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -518,11 +509,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#article",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#webpage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay",
       "headline": "Literary agent cost: what you should pay (and what you should never pay)",
       "alternativeHeadline": "Literary agent cost: what you should pay (and what you should never pay) ",
       "description": "A lot of writers don't actually struggle with what a literary agent does. They struggle with the part that feels like a vending machine: what a literary agent costs, and when payment is supposed to happen.",
@@ -552,40 +543,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage"
       },
+      "datePublished": "2027-08-07",
+      "dateModified": "2027-08-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-          "url": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         },
         {
           "@type": "WebPage",
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+          "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_hero_confusion_spreadsheet_dread_blog_hero_landscape_eb562a67041b.jpeg",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay/blog/blog_hero_confusion_spreadsheet_dread_blog_hero_landscape_eb562a67041b.jpeg?updatedAt=1782271465578",
       "width": 7008,
       "height": 4672,
       "caption": "blog hero \u00b7 confusion spreadsheet dread",
@@ -600,7 +593,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#faq",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay#faq",
       "mainEntity": [
         {
           "@type": "Question",

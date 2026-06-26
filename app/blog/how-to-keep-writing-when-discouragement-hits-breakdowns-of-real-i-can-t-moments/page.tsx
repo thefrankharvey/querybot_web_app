@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to keep writing when discouragement hits: breakdowns of real \u201cI can\u2019t\u201d moments",
   "description": "Discouragement doesn\u2019t always arrive like a dramatic monologue. Sometimes it shows up as a flat tire: sudden, obvious, and suddenly your brain is negotiating with physics\u2014do we really have to keep going?",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-20",
+  "modifiedDate": "2027-02-20",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-keep-writing-when-discouragement-hits-breakdowns-of-real-i-can-t-moments",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -895,6 +895,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-keep-writing-when-discouragement-hits-breakdowns-of-real-i-can-t-moments#primaryimage"
       },
+      "datePublished": "2027-02-20",
+      "dateModified": "2027-02-20",
       "mentions": [
         {
           "@type": "WebPage",

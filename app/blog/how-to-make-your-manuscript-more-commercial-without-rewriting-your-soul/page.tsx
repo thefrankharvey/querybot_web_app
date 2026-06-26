@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to make your manuscript more commercial (without rewriting your soul)",
   "description": "\"Commercial\" is suddenly everywhere, and it makes writers feel like they're being asked to sell their book by lunchtime. Like, what changed overnight\u2014did the industry wake up and decide to be mean?",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
+  "publishedDate": "2027-06-18",
+  "modifiedDate": "2027-06-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_hero_confusion_commercial_trend_blog_hero_landscape_f7f5e66b288a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_hero_confusion_commercial_trend_blog_hero_landscape_f7f5e66b288a.jpeg?updatedAt=1782222454340",
     "alt": "blog hero \u00b7 confusion commercial trend",
     "width": 5261,
     "height": 3507,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to make your manuscript more commercial (without rewriting your soul)",
-      "item": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+      "item": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     }
   ],
   "tldrBlocks": [],
@@ -157,13 +157,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_stakes_character_blog_section_landscape_df5e2da87e12.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_stakes_character_blog_section_landscape_df5e2da87e12.gif",
         "alt": "Step 2: Audit your draft for stakes, characters, and payoff",
-        "width": 6066,
-        "height": 4044,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "RobertEBlackmon",
+        "creatorUrl": "https://giphy.com/gifs/RobertEBlackmon-fortnite-hype-streak-9VgujJCeTUCcVPVQ5v",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -297,7 +297,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_ending_payoff_blog_section_landscape_79edf46ec307.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_ending_payoff_blog_section_landscape_79edf46ec307.gif?updatedAt=1782222456396",
         "alt": "Step 5: Make payoff match the promises you made",
         "width": 373,
         "height": 200,
@@ -339,7 +339,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_testing_reader_experience_blog_section_landscape_7663d40d16cd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_testing_reader_experience_blog_section_landscape_7663d40d16cd.jpeg?updatedAt=1782222457716",
         "alt": "Step 6: Test \"commercialness\" by rereading like a buyer (fast and honest)",
         "width": 6000,
         "height": 4000,
@@ -350,32 +350,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_section_image_commitment_next_draft_blog_section_landscape_f7aa81792c3e.gif",
-    "alt": "blog section image \u00b7 commitment next draft",
-    "width": 691,
-    "height": 200,
-    "creator": "Lunamies",
-    "creatorUrl": "https://giphy.com/gifs/Lunamies-tiger-luna-lunamies-FLG5B13WM3flwuhlpX",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to build a compelling novel concept: turn your premise into a kicker",
-      "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     },
     {
       "title": "How to copyright a book (and whether registration is worth it)",
-      "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     },
     {
       "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     },
     {
       "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -410,7 +401,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "url": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     }
   ]
 } as const;
@@ -440,7 +431,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -452,31 +443,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to make your manuscript more commercial (without rewriting your soul)",
-          "item": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+          "item": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
       "name": "How to make your manuscript more commercial (without rewriting your soul)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -492,11 +483,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#article",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul",
       "headline": "How to make your manuscript more commercial (without rewriting your soul)",
       "alternativeHeadline": "How to make your manuscript more commercial (without rewriting your soul)",
       "description": "\"Commercial\" is suddenly everywhere, and it makes writers feel like they're being asked to sell their book by lunchtime. Like, what changed overnight\u2014did the industry wake up and decide to be mean?",
@@ -526,40 +517,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage"
       },
+      "datePublished": "2027-06-18",
+      "dateModified": "2027-06-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "url": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         },
         {
           "@type": "WebPage",
           "name": "How to build a compelling novel concept: turn your premise into a kicker",
-          "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         },
         {
           "@type": "WebPage",
           "name": "How to copyright a book (and whether registration is worth it)",
-          "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
         },
         {
           "@type": "WebPage",
           "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         },
         {
           "@type": "WebPage",
           "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+          "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_hero_confusion_commercial_trend_blog_hero_landscape_f7f5e66b288a.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul/blog/blog_hero_confusion_commercial_trend_blog_hero_landscape_f7f5e66b288a.jpeg?updatedAt=1782222454340",
       "width": 5261,
       "height": 3507,
       "caption": "blog hero \u00b7 confusion commercial trend",
@@ -574,7 +567,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#howto",
       "name": "How to make your manuscript more commercial (without rewriting your soul)",
       "description": "\"Commercial\" is suddenly everywhere, and it makes writers feel like they're being asked to sell their book by lunchtime. Like, what changed overnight\u2014did the industry wake up and decide to be mean?",
       "totalTime": "PT6M",
@@ -584,49 +577,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define \"commercial\" in reader terms, not author vibes",
           "text": "Before you touch the manuscript, define commercial as the thing readers can feel while they're reading. Not \"more mainstream.\" Not \"more obvious.\" Not \"less literary.\" Commercial is: the reader understands what's at risk, trusts the character decisions, and gets a payoff that matches the promise.",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-1-define-commercial-in-reader-terms-not-author-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-1-define-commercial-in-reader-terms-not-author-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Audit your draft for stakes, characters, and payoff",
           "text": "Now do the ugly part: check whether your revision actually matches what the story does on the page. Make three passes\u2014yes, three. Each pass answers one question and forces you to cite evidence:",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-2-audit-your-draft-for-stakes-characters-and-payoff"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-2-audit-your-draft-for-stakes-characters-and-payoff"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Tighten stakes by tightening the questions your scenes refuse to answer",
           "text": "Most manuscripts have stakes the way a fog bank has weather: it's present, but you can't predict anything yet. Your job in revision is to make the story ask questions with teeth\u2014and then keep paying those questions off.",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-3-tighten-stakes-by-tightening-the-questions-your-scenes-refuse-to-answer"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-3-tighten-stakes-by-tightening-the-questions-your-scenes-refuse-to-answer"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Strengthen characters by making their choices change outcomes",
           "text": "You can make characters more commercial without flattening them. Revise so their character-driven decisions become legible and consequential.",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-4-strengthen-characters-by-making-their-choices-change-outcomes"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-4-strengthen-characters-by-making-their-choices-change-outcomes"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Make payoff match the promises you made",
           "text": "Payoff is where readers decide whether the book earned its space. The ending has to deliver on what the first acts promised, even if the delivery is surprising or bitter.",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-5-make-payoff-match-the-promises-you-made"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-5-make-payoff-match-the-promises-you-made"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Test \"commercialness\" by rereading like a buyer (fast and honest)",
           "text": "After revisions, don't reread like you're admiring your own paragraphs. Reread like a reader deciding whether this was a good use of time.",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-6-test-commercialness-by-rereading-like-a-buyer-fast-and-honest"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#step-6-test-commercialness-by-rereading-like-a-buyer-fast-and-honest"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul#faq",
       "mainEntity": [
         {
           "@type": "Question",

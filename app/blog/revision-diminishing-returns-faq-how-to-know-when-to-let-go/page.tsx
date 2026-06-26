@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
   "description": "If revision feels like a treadmill that keeps speeding up, you're probably not \"working hard.\" You're stuck in the revision trap: a loop where each pass changes the work but doesn't move it forward. This FAQ is a practical way to spot that point of diminishing returns using symptoms you can actually observe\u2014low energy, circular feedback, micro-editing, and the moment you start undoing earlier choices.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
+  "publishedDate": "2027-04-30",
+  "modifiedDate": "2027-04-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_hero_stuck_draft_fading_energy_blog_hero_landscape_a6878bd96225.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_hero_stuck_draft_fading_energy_blog_hero_landscape_a6878bd96225.jpeg?updatedAt=1782059470633",
     "alt": "blog hero \u00b7 stuck draft fading energy",
     "width": 3091,
     "height": 2048,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "item": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "item": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     }
   ],
   "tldrBlocks": [],
@@ -96,7 +96,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_what_is_the_revision_trap_blog_section_landscape_99322da585a6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_what_is_the_revision_trap_blog_section_landscape_99322da585a6.jpeg?updatedAt=1782059471347",
         "alt": "What is the \"revision trap\"?",
         "width": 6611,
         "height": 4407,
@@ -212,7 +212,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_how_to_set_criteria_for_good_enough_blog_section_landscape_129cfa3e5cc0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_how_to_set_criteria_for_good_enough_blog_section_landscape_129cfa3e5cc0.gif?updatedAt=1782059471996",
         "alt": "How to set criteria for \"good enough\"",
         "width": 296,
         "height": 200,
@@ -235,7 +235,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_how_to_know_when_revision_is_done_blog_section_landscape_4c5b7fc0b258.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_how_to_know_when_revision_is_done_blog_section_landscape_4c5b7fc0b258.gif?updatedAt=1782059473164",
         "alt": "How to know when revision is done",
         "width": 246,
         "height": 200,
@@ -246,32 +246,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_section_image_release_protect_momentum_blog_section_landscape_52fa83a1515a.jpeg",
-    "alt": "blog section image \u00b7 release protect momentum",
-    "width": 6000,
-    "height": 3376,
-    "creator": "Mikhail Nilov",
-    "creatorUrl": "https://www.pexels.com/@mikhail-nilov",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     },
     {
-      "title": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-      "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+      "title": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
     },
     {
-      "title": "What happened after a big book deal when benefits vanished\u2014and how writing income made life solvable",
-      "url": "https://writequeryhook.com/what-happened-after-a-big-book-deal-when-benefits-vanished-and-how-writing-income-made-life-solvable"
+      "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     },
     {
-      "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -285,7 +276,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "url": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     }
   ]
 } as const;
@@ -315,7 +306,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -327,31 +318,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "item": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "item": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#webpage",
-      "url": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
+      "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#webpage",
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
       "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage"
+        "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -367,11 +358,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#article",
+      "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#webpage"
+        "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go",
       "headline": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
       "alternativeHeadline": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
       "description": "If revision feels like a treadmill that keeps speeding up, you're probably not \"working hard.\" You're stuck in the revision trap: a loop where each pass changes the work but doesn't move it forward. This FAQ is a practical way to spot that point of diminishing returns using symptoms you can actually observe\u2014low energy, circular feedback, micro-editing, and the moment you start undoing earlier choices.",
@@ -401,40 +392,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage"
+        "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage"
       },
+      "datePublished": "2027-04-30",
+      "dateModified": "2027-04-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "url": "https://writequeryhook.com/query-letters/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
+          "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
         },
         {
           "@type": "WebPage",
-          "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+          "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-          "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+          "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+          "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         },
         {
           "@type": "WebPage",
-          "name": "What happened after a big book deal when benefits vanished\u2014and how writing income made life solvable",
-          "url": "https://writequeryhook.com/what-happened-after-a-big-book-deal-when-benefits-vanished-and-how-writing-income-made-life-solvable"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
+          "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_hero_stuck_draft_fading_energy_blog_hero_landscape_a6878bd96225.jpeg",
+      "@id": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_375/revision-diminishing-returns-faq-how-to-know-when-to-let-go/blog/blog_hero_stuck_draft_fading_energy_blog_hero_landscape_a6878bd96225.jpeg?updatedAt=1782059470633",
       "width": 3091,
       "height": 2048,
       "caption": "blog hero \u00b7 stuck draft fading energy",

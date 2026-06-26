@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
   "description": "If you're getting unsolicited messages with \"you're a perfect fit\" energy and an implied deadline, you're not imagining the pressure. Scammers count on it.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
+  "publishedDate": "2027-06-09",
+  "modifiedDate": "2027-06-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_hero_pressure_confusion_blog_hero_landscape_7b7651671f40.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_hero_pressure_confusion_blog_hero_landscape_7b7651671f40.jpeg?updatedAt=1782210464707",
     "alt": "blog hero \u00b7 pressure confusion",
     "width": 6720,
     "height": 4480,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "item": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "item": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     }
   ],
   "tldrBlocks": [],
@@ -140,7 +140,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_red_flag_upfront_fees_blog_section_landscape_81f638ca3327.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_red_flag_upfront_fees_blog_section_landscape_81f638ca3327.gif?updatedAt=1782210465913",
         "alt": "You're treating \"vanity press\" like \"publishing help\" (fee-driven vanity companies)",
         "width": 200,
         "height": 200,
@@ -299,13 +299,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_false_promises_pressure_blog_section_landscape_2ab08acd798f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_false_promises_pressure_blog_section_landscape_2ab08acd798f.jpeg",
         "alt": "You're buying \"guaranteed bestseller\" marketing because you want certainty (guaranteed bestseller marketing scam)",
-        "width": 358,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/JEZ3wy3IUQR8s",
-        "provider": "giphy",
+        "width": 5184,
+        "height": 3456,
+        "creator": "Ruslan Rozanov",
+        "creatorUrl": "https://www.pexels.com/@ruslan-rozanov-174297693",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -399,7 +399,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_red_flag_upfront_fees_blog_section_landscape_81f638ca3327.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_red_flag_upfront_fees_blog_section_landscape_81f638ca3327.gif?updatedAt=1782210465913",
         "alt": "You're treating \"vanity press\" like \"publishing help\" (fee-driven vanity companies)",
         "width": 200,
         "height": 200,
@@ -430,43 +430,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_recap_blog_section_landscape_52ba3a0d6a1b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_recap_blog_section_landscape_52ba3a0d6a1b.gif",
         "alt": "Recap",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_section_image_decision_action_blog_section_landscape_f56d38d9ccd6.jpeg",
-    "alt": "blog section image \u00b7 decision action",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The publishing timeline from contract to shelves: where delays actually come from",
-      "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     },
     {
       "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     },
     {
       "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     },
     {
-      "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-      "url": "https://writequeryhook.com/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+      "title": "11 book title tips to make your next title sell before the blurb even loads",
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -505,7 +496,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The publishing timeline from contract to shelves: where delays actually come from",
-      "url": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     }
   ]
 } as const;
@@ -535,7 +526,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -547,31 +538,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "item": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "item": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
+      "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#webpage",
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
       "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -587,11 +578,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#article",
+      "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#webpage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead",
       "headline": "5 publishing company mistakes that get authors scammed (and what to check instead)",
       "alternativeHeadline": "5 publishing company mistakes that get authors scammed (and what to check instead)",
       "description": "If you're getting unsolicited messages with \"you're a perfect fit\" energy and an implied deadline, you're not imagining the pressure. Scammers count on it.",
@@ -621,40 +612,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage"
       },
+      "datePublished": "2027-06-09",
+      "dateModified": "2027-06-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "url": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+          "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         },
         {
           "@type": "WebPage",
           "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+          "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
         },
         {
           "@type": "WebPage",
-          "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
-          "url": "https://writequeryhook.com/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+          "name": "11 book title tips to make your next title sell before the blurb even loads",
+          "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_hero_pressure_confusion_blog_hero_landscape_7b7651671f40.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead/blog/blog_hero_pressure_confusion_blog_hero_landscape_7b7651671f40.jpeg?updatedAt=1782210464707",
       "width": 6720,
       "height": 4480,
       "caption": "blog hero \u00b7 pressure confusion",
@@ -669,7 +657,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#faq",
+      "@id": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead#faq",
       "mainEntity": [
         {
           "@type": "Question",

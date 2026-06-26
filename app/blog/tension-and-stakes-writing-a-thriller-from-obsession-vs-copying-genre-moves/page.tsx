@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Tension and stakes: writing a thriller from obsession vs copying genre moves",
   "description": "Every few months, we get a new wave of thriller writing advice that's basically: \"Add more danger.\" Cool. Which danger? Why now? And\u2014this is the part people skip\u2014which character relationship is going to bleed over it?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-27",
+  "modifiedDate": "2026-12-27",
   "canonicalUrl": "https://writequeryhook.com/blog/tension-and-stakes-writing-a-thriller-from-obsession-vs-copying-genre-moves",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -545,6 +545,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/tension-and-stakes-writing-a-thriller-from-obsession-vs-copying-genre-moves#primaryimage"
       },
+      "datePublished": "2026-12-27",
+      "dateModified": "2026-12-27",
       "mentions": [
         {
           "@type": "WebPage",

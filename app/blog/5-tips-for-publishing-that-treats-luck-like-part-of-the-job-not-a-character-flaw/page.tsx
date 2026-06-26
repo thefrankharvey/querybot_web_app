@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for publishing that treats luck like part of the job (not a character flaw)",
   "description": "Publishing has a cute way of pretending it's all merit and matching algorithms.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-27",
+  "modifiedDate": "2027-02-27",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-publishing-that-treats-luck-like-part-of-the-job-not-a-character-flaw",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -534,6 +534,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-publishing-that-treats-luck-like-part-of-the-job-not-a-character-flaw#primaryimage"
       },
+      "datePublished": "2027-02-27",
+      "dateModified": "2027-02-27",
       "mentions": [
         {
           "@type": "WebPage",

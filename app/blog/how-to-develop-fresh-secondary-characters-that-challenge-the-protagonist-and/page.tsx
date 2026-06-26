@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to develop fresh secondary characters that challenge the protagonist (and earn their pages)",
   "description": "Your secondary cast should not feel like set dressing. If your side characters only exist to look pleasant in the background, readers will feel it fast\u2014like the book is performing a magic trick where everyone stays politely in the same places.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-13",
+  "modifiedDate": "2026-09-13",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-develop-fresh-secondary-characters-that-challenge-the-protagonist-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -508,6 +508,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-develop-fresh-secondary-characters-that-challenge-the-protagonist-and#primaryimage"
       },
+      "datePublished": "2026-09-13",
+      "dateModified": "2026-09-13",
       "mentions": [
         {
           "@type": "WebPage",

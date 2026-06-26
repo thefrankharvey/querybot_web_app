@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Treating Publisher Approval Like Legitimacy\u2014Start Writing for the Readers Who Actually Make This Work",
   "description": "Every writer has a version of the same spiral. You finish pages, you stare at the empty next section, and your brain starts bargaining with the universe:",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-17",
+  "modifiedDate": "2027-02-17",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-treating-publisher-approval-like-legitimacy-start-writing-for-the-readers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -688,6 +688,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-treating-publisher-approval-like-legitimacy-start-writing-for-the-readers#primaryimage"
       },
+      "datePublished": "2027-02-17",
+      "dateModified": "2027-02-17",
       "mentions": [
         {
           "@type": "WebPage",

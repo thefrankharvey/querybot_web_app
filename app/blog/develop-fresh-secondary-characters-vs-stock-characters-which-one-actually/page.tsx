@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Develop fresh secondary characters vs stock characters: which one actually moves your novel",
   "description": "You don\u2019t need more characters. You need characters that earn their screen time\u2014and \u201cscreen time\u201d absolutely includes the page.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-14",
+  "modifiedDate": "2026-12-14",
   "canonicalUrl": "https://writequeryhook.com/blog/develop-fresh-secondary-characters-vs-stock-characters-which-one-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -649,6 +649,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/develop-fresh-secondary-characters-vs-stock-characters-which-one-actually#primaryimage"
       },
+      "datePublished": "2026-12-14",
+      "dateModified": "2026-12-14",
       "mentions": [
         {
           "@type": "WebPage",

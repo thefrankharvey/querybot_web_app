@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Rejection isn't the enemy: 7 anti-patterns that keep us stuck",
   "description": "Rejection shows up like a tax bill: inevitable, annoying, and never timed to your best mood. The contrarian part? The problem usually isn't the rejection.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-07",
+  "modifiedDate": "2027-02-07",
   "canonicalUrl": "https://writequeryhook.com/blog/rejection-isn-t-the-enemy-7-anti-patterns-that-keep-us-stuck",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -697,6 +697,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/rejection-isn-t-the-enemy-7-anti-patterns-that-keep-us-stuck#primaryimage"
       },
+      "datePublished": "2027-02-07",
+      "dateModified": "2027-02-07",
       "mentions": [
         {
           "@type": "WebPage",

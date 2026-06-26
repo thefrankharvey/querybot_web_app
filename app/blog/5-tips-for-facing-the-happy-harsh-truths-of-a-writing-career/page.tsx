@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for facing the happy harsh truths of a writing career",
   "description": "A writing career can look glamorous from the outside, and then the bills show up like, \"Cool story.\" Most of the time, the money doesn't cooperate, the timelines don't cooperate, and the publishing odds sure as hell don't cooperate. And if we're being honest, the second you treat your work like it owes you a payout, your relationship to the manuscript starts to rot from the inside.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
+  "publishedDate": "2027-09-23",
+  "modifiedDate": "2027-09-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_hero_dread_recognition_blog_hero_landscape_9b6dd684be89.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_hero_dread_recognition_blog_hero_landscape_9b6dd684be89.jpeg?updatedAt=1782335903740",
     "alt": "blog hero \u00b7 dread recognition",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for facing the happy harsh truths of a writing career",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "item": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     }
   ],
   "tldrBlocks": [],
@@ -106,7 +106,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_blindsided_panic_blog_section_landscape_d52a771eaeb6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_blindsided_panic_blog_section_landscape_d52a771eaeb6.gif?updatedAt=1782335904429",
         "alt": "Mind the gap between publishing and income",
         "width": 218,
         "height": 200,
@@ -152,7 +152,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_earn_out_installments_blog_section_landscape_db0f17f862fa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_earn_out_installments_blog_section_landscape_db0f17f862fa.jpeg?updatedAt=1782335904827",
         "alt": "Stop building your life around a payout that might never arrive",
         "width": 6720,
         "height": 4480,
@@ -239,7 +239,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_contracts_control_blog_section_landscape_385d5ac2fc14.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_contracts_control_blog_section_landscape_385d5ac2fc14.gif?updatedAt=1782335905888",
         "alt": "Understand how publisher contracts affect creative control",
         "width": 200,
         "height": 200,
@@ -287,32 +287,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_section_image_breath_out_keep_writing_blog_section_landscape_16466eac816d.jpeg",
-    "alt": "blog section image \u00b7 breath out keep writing",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Tara Winstead",
-    "creatorUrl": "https://www.pexels.com/@tara-winstead",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for writing IP when you don't own the world (or the rules)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     },
     {
       "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
-    },
-    {
-      "title": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     },
     {
       "title": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-      "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+      "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+    },
+    {
+      "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -347,7 +338,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for choosing a small press (and when you should actually say yes)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     }
   ]
 } as const;
@@ -377,7 +368,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -389,31 +380,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for facing the happy harsh truths of a writing career",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+          "item": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
       "name": "5 tips for facing the happy harsh truths of a writing career",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -429,11 +420,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career",
       "headline": "5 tips for facing the happy harsh truths of a writing career",
       "alternativeHeadline": "5 tips for facing the happy harsh truths of a writing career",
       "description": "A writing career can look glamorous from the outside, and then the bills show up like, \"Cool story.\" Most of the time, the money doesn't cooperate, the timelines don't cooperate, and the publishing odds sure as hell don't cooperate. And if we're being honest, the second you treat your work like it owes you a payout, your relationship to the manuscript starts to rot from the inside.",
@@ -463,40 +454,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage"
       },
+      "datePublished": "2027-09-23",
+      "dateModified": "2027-09-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         },
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
         },
         {
           "@type": "WebPage",
           "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-          "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
+          "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_hero_dread_recognition_blog_hero_landscape_9b6dd684be89.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career/blog/blog_hero_dread_recognition_blog_hero_landscape_9b6dd684be89.jpeg?updatedAt=1782335903740",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread recognition",
@@ -511,7 +504,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career#faq",
       "mainEntity": [
         {
           "@type": "Question",

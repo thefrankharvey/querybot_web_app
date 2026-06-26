@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Your guide to author branding: FAQs for building a consistent personal brand",
   "description": "Branding gets treated like corporate cosplay. Like you only \"need\" it if you're selling sunglasses with a $25M ad budget and a lighting team. That's not how this works.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
+  "publishedDate": "2027-09-29",
+  "modifiedDate": "2027-09-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_hero_awkward_discomfort_blog_hero_landscape_b7e340e50356.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_hero_awkward_discomfort_blog_hero_landscape_b7e340e50356.jpeg",
     "alt": "blog hero \u00b7 awkward discomfort",
-    "width": 266,
-    "height": 200,
-    "creator": "AnnoyingOrangeGifs",
-    "creatorUrl": "https://giphy.com/gifs/awkward-fake-smile-annoying-orange-Vuz4fLZE0TEZPa1xo6",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 3368,
+    "creator": "Nothing Ahead",
+    "creatorUrl": "https://www.pexels.com/@ian-panelo",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "item": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "item": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     }
   ],
   "tldrBlocks": [],
@@ -87,13 +87,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_why_does_an_author_need_a_brand_if_they_re_not_a_blog_section_landscape_3c33bc8bda76.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_why_does_an_author_need_a_brand_if_they_re_not_a_blog_section_landscape_3c33bc8bda76.gif",
         "alt": "Why does an author need a brand if they're not a corporation?",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_how_does_branding_influence_book_sales_blog_section_landscape_ccfbc8f7c329.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_how_does_branding_influence_book_sales_blog_section_landscape_ccfbc8f7c329.gif?updatedAt=1782336203815",
         "alt": "How does branding influence book sales?",
         "width": 296,
         "height": 200,
@@ -209,7 +209,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_how_to_brand_yourself_as_an_author_blog_section_landscape_e3f270fadd94.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_how_to_brand_yourself_as_an_author_blog_section_landscape_e3f270fadd94.jpeg?updatedAt=1782336204317",
         "alt": "How to brand yourself as an author",
         "width": 3000,
         "height": 2000,
@@ -272,32 +272,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_section_image_next_draft_practical_assets_blog_section_landscape_d95b88d78cbd.jpeg",
-    "alt": "blog section image \u00b7 next draft practical assets",
-    "width": 4609,
-    "height": 3073,
-    "creator": "Tima Miroshnichenko",
-    "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
-    },
-    {
-      "title": "How JB Harris used research and direct outreach to publish successfully with a small press",
-      "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     },
     {
       "title": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
     },
     {
       "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-      "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+    },
+    {
+      "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -315,7 +306,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "url": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     }
   ]
 } as const;
@@ -345,7 +336,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -357,31 +348,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "item": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+          "item": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#webpage",
-      "url": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
+      "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#webpage",
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
       "name": "Your guide to author branding: FAQs for building a consistent personal brand",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -397,11 +388,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#article",
+      "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#webpage"
+        "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand",
       "headline": "Your guide to author branding: FAQs for building a consistent personal brand",
       "alternativeHeadline": "Your guide to author branding: FAQs for building a consistent personal brand",
       "description": "Branding gets treated like corporate cosplay. Like you only \"need\" it if you're selling sunglasses with a $25M ad budget and a lighting team. That's not how this works.",
@@ -431,48 +422,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage"
       },
+      "datePublished": "2027-09-29",
+      "dateModified": "2027-09-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "url": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How JB Harris used research and direct outreach to publish successfully with a small press",
-          "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
         },
         {
           "@type": "WebPage",
           "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-          "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+        },
+        {
+          "@type": "WebPage",
+          "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_hero_awkward_discomfort_blog_hero_landscape_b7e340e50356.gif",
-      "width": 266,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand/blog/blog_hero_awkward_discomfort_blog_hero_landscape_b7e340e50356.jpeg",
+      "width": 6000,
+      "height": 3368,
       "caption": "blog hero \u00b7 awkward discomfort",
-      "creditText": "AnnoyingOrangeGifs",
+      "creditText": "Nothing Ahead",
       "author": {
         "@type": "Person",
-        "name": "AnnoyingOrangeGifs",
-        "url": "https://giphy.com/gifs/awkward-fake-smile-annoying-orange-Vuz4fLZE0TEZPa1xo6"
+        "name": "Nothing Ahead",
+        "url": "https://www.pexels.com/@ian-panelo"
       },
       "@context": "https://schema.org"
     }

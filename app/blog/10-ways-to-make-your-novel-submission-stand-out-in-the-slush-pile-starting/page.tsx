@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "10 ways to make your novel submission stand out in the slush pile (starting with the query)",
   "description": "The slush pile isn't a metaphor. It's a busy inbox, it's tired eyes, and it's a stack that gets sorted fast.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-29",
+  "modifiedDate": "2026-06-29",
   "canonicalUrl": "https://writequeryhook.com/blog/10-ways-to-make-your-novel-submission-stand-out-in-the-slush-pile-starting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -734,6 +734,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/10-ways-to-make-your-novel-submission-stand-out-in-the-slush-pile-starting#primaryimage"
       },
+      "datePublished": "2026-06-29",
+      "dateModified": "2026-06-29",
       "mentions": [
         {
           "@type": "WebPage",

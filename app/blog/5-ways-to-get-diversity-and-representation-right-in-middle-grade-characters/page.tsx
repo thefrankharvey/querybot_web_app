@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 ways to get diversity and representation right in middle grade characters",
   "description": "Writers get stuck in a loop: Can I write this? And then the whole room goes quiet, like we just walked into the principal's office with a crayon drawing and no permission slip.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-17",
+  "modifiedDate": "2026-09-17",
   "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-get-diversity-and-representation-right-in-middle-grade-characters",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -481,6 +481,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-ways-to-get-diversity-and-representation-right-in-middle-grade-characters#primaryimage"
       },
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
       "mentions": [
         {
           "@type": "WebPage",

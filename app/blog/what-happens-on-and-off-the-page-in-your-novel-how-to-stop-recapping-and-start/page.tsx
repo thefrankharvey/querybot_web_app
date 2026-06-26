@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What Happens On and Off the Page in Your Novel: How to Stop Recapping and Start Dramatizing",
   "description": "I once watched a scene die in slow motion\u2014not because the plot was bad, but because the page stopped doing the work. The manuscript kept telling me what happened, like it was afraid I couldn't handle the moment.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-26",
+  "modifiedDate": "2026-09-26",
   "canonicalUrl": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-in-your-novel-how-to-stop-recapping-and-start",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -888,6 +888,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-happens-on-and-off-the-page-in-your-novel-how-to-stop-recapping-and-start#primaryimage"
       },
+      "datePublished": "2026-09-26",
+      "dateModified": "2026-09-26",
       "mentions": [
         {
           "@type": "WebPage",

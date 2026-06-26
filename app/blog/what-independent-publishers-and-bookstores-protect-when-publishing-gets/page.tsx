@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What independent publishers and bookstores protect when publishing gets consolidated",
   "description": "Every time publishing consolidation shows up on the page, it sounds abstract. Like a news headline you nod at while you still have to write your query letter that night.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
+  "publishedDate": "2027-08-21",
+  "modifiedDate": "2027-08-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_hero_anxiety_midlist_blog_hero_landscape_f5c081743a19.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_hero_anxiety_midlist_blog_hero_landscape_f5c081743a19.jpeg",
     "alt": "blog hero \u00b7 anxiety midlist",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What independent publishers and bookstores protect when publishing gets consolidated",
-      "item": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
+      "item": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
     }
   ],
   "tldrBlocks": [],
@@ -150,13 +150,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_fear_shrinking_shelf_blog_section_landscape_bdcdd49e82ef.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_fear_shrinking_shelf_blog_section_landscape_bdcdd49e82ef.gif",
         "alt": "Consolidation reduces discovery",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Thought Catalog",
-        "creatorUrl": "https://www.pexels.com/@thought-catalog-317580",
-        "provider": "pexels",
+        "width": 360,
+        "height": 200,
+        "creator": "Cameron-Smith",
+        "creatorUrl": "https://giphy.com/gifs/Cameron-Smith-trailblazers-camjaysmith-nickgnai-U16SolXvAi4Cy3Kn3q",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -224,7 +224,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_risk_taking_stubborn_hope_blog_section_landscape_36ef4bebafc9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_risk_taking_stubborn_hope_blog_section_landscape_36ef4bebafc9.gif?updatedAt=1782315369164",
         "alt": "Why independent publishers need to survive",
         "width": 200,
         "height": 200,
@@ -356,7 +356,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_how_to_write_a_strong_novel_ending_blog_section_landscape_46e5745e20e7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_how_to_write_a_strong_novel_ending_blog_section_landscape_46e5745e20e7.jpeg?updatedAt=1782315369804",
         "alt": "How to write a strong novel ending",
         "width": 6611,
         "height": 4407,
@@ -367,32 +367,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_section_image_deep_breath_pen_to_paper_blog_section_landscape_e360823a7a13.jpeg",
-    "alt": "blog section image \u00b7 deep breath pen to paper",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Tara Winstead",
-    "creatorUrl": "https://www.pexels.com/@tara-winstead",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to protect your writing rights without accidentally scaring the people you need",
-      "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
     },
     {
       "title": "The best websites for writers: build a daily habit, then learn the publishing math",
-      "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
     },
     {
       "title": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     },
     {
-      "title": "5 tips for building your author platform without growing a Twitter following",
-      "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -432,12 +423,7 @@ const PAGE_DATA = {
       "text": "Keep your eyes open for the doors that still exist. Then walk through the ones that do."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-      "url": "https://writequeryhook.com/query-letters/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -465,7 +451,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -477,31 +463,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What independent publishers and bookstores protect when publishing gets consolidated",
-          "item": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
+          "item": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
+      "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#webpage",
+      "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
       "name": "What independent publishers and bookstores protect when publishing gets consolidated",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -517,11 +503,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#article",
+      "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#webpage"
+        "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets",
       "headline": "What independent publishers and bookstores protect when publishing gets consolidated",
       "alternativeHeadline": "What independent publishers and bookstores protect when publishing gets consolidated",
       "description": "Every time publishing consolidation shows up on the page, it sounds abstract. Like a news headline you nod at while you still have to write your query letter that night.",
@@ -551,55 +537,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage"
       },
+      "datePublished": "2027-08-21",
+      "dateModified": "2027-08-21",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-          "url": "https://writequeryhook.com/query-letters/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to protect your writing rights without accidentally scaring the people you need",
-          "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+          "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
         },
         {
           "@type": "WebPage",
           "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-          "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+          "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
         },
         {
           "@type": "WebPage",
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for building your author platform without growing a Twitter following",
-          "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
+          "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_hero_anxiety_midlist_blog_hero_landscape_f5c081743a19.gif",
-      "width": 218,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_511/what-independent-publishers-and-bookstores-protect-when-publishing-gets/blog/blog_hero_anxiety_midlist_blog_hero_landscape_f5c081743a19.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 anxiety midlist",
-      "creditText": "Giphy",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-independent-publishers-and-bookstores-protect-when-publishing-gets#faq",
+      "@id": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets#faq",
       "mainEntity": [
         {
           "@type": "Question",

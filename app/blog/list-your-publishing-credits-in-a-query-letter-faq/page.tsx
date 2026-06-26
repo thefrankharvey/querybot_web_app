@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "List Your Publishing Credits in a Query Letter FAQ",
   "description": "Writers obsess over the query letter bio and publishing credits because it feels like a gate key. But agents aren\u2019t doing a deep background search to decide whether your book deserves their attention. They\u2019re looking for fit\u2014starting with the manuscript, then using your author bio to confirm you\u2019re the kind of person they can work with.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-29",
+  "modifiedDate": "2026-08-29",
   "canonicalUrl": "https://writequeryhook.com/blog/list-your-publishing-credits-in-a-query-letter-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -511,6 +511,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/list-your-publishing-credits-in-a-query-letter-faq#primaryimage"
       },
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
       "mentions": [
         {
           "@type": "WebPage",

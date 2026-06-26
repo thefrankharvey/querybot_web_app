@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
   "description": "I used to assume publishing was mostly about taste. You know\u2014people read manuscripts, pick what sings, move it forward. Then I hit a workshop conversation that landed like a bad foundation-shake: not \"racism exists,\" but \"your industry literacy is missing the mechanics.\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
+  "publishedDate": "2027-07-13",
+  "modifiedDate": "2027-07-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_hero_recognition_workshop_blog_hero_landscape_e96acd78860f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_hero_recognition_workshop_blog_hero_landscape_e96acd78860f.jpeg?updatedAt=1782250439645",
     "alt": "blog hero \u00b7 recognition workshop",
     "width": 5926,
     "height": 3956,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-      "item": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+      "item": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
     }
   ],
   "tldrBlocks": [],
@@ -78,7 +78,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_tldr_blog_section_landscape_6ddb1291cce1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_tldr_blog_section_landscape_6ddb1291cce1.gif?updatedAt=1782250440492",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -331,7 +331,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_unconscious_bias_repetition_blog_section_landscape_4a2ac9a65dea.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_unconscious_bias_repetition_blog_section_landscape_4a2ac9a65dea.jpeg?updatedAt=1782250441207",
         "alt": "Unconscious bias in publishing industry is training data you never asked for",
         "width": 6000,
         "height": 4000,
@@ -416,43 +416,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_action_checklist_blog_section_landscape_42eb3f4f8a23.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_action_checklist_blog_section_landscape_42eb3f4f8a23.gif",
         "alt": "How to broaden reading parameters that force visibility",
-        "width": 3000,
-        "height": 1774,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_section_image_fist_pump_stubborn_hope_blog_section_landscape_f8500c030f32.gif",
-    "alt": "blog section image \u00b7 fist pump stubborn hope",
-    "width": 239,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/judd-nelson-breakfast-club-2hCmyEiGn9zkQ",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "8 reasons your book needs a business plan (before you write a word)",
-      "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
     },
     {
       "title": "5 things writers should know about Wattpad (and the future of publishing)",
-      "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     },
     {
       "title": "4 tips to market children's books to parents (so your titles get discovered)",
-      "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     },
     {
-      "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+      "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -495,7 +486,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "8 reasons your book needs a business plan (before you write a word)",
-      "url": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
     }
   ]
 } as const;
@@ -525,7 +516,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -537,31 +528,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-          "item": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
+          "item": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
+      "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#webpage",
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
       "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -577,11 +568,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#article",
+      "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#webpage"
+        "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral",
       "headline": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
       "alternativeHeadline": "How publishing hides books with \"interest\" labels (and why it isn\u2019t a neutral system)",
       "description": "I used to assume publishing was mostly about taste. You know\u2014people read manuscripts, pick what sings, move it forward. Then I hit a workshop conversation that landed like a bad foundation-shake: not \"racism exists,\" but \"your industry literacy is missing the mechanics.\"",
@@ -611,40 +602,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage"
       },
+      "datePublished": "2027-07-13",
+      "dateModified": "2027-07-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "8 reasons your book needs a business plan (before you write a word)",
-          "url": "https://writequeryhook.com/query-letters/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
-        },
-        {
-          "@type": "WebPage",
-          "name": "8 reasons your book needs a business plan (before you write a word)",
-          "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+          "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
         },
         {
           "@type": "WebPage",
           "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         },
         {
           "@type": "WebPage",
           "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+          "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
         },
         {
           "@type": "WebPage",
-          "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+          "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
+          "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_hero_recognition_workshop_blog_hero_landscape_e96acd78860f.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_467/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral/blog/blog_hero_recognition_workshop_blog_hero_landscape_e96acd78860f.jpeg?updatedAt=1782250439645",
       "width": 5926,
       "height": 3956,
       "caption": "blog hero \u00b7 recognition workshop",
@@ -659,7 +647,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#faq",
+      "@id": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Hook Questions FAQ: how to write a raising question hook (without overbaiting)",
   "description": "Writers keep asking for a repeatable way to build openings that pull. Not \u201cwrite something interesting.\u201d Not vibes. Actual hook mechanics.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-20",
+  "modifiedDate": "2026-11-20",
   "canonicalUrl": "https://writequeryhook.com/blog/hook-questions-faq-how-to-write-a-raising-question-hook-without-overbaiting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -613,6 +613,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/hook-questions-faq-how-to-write-a-raising-question-hook-without-overbaiting#primaryimage"
       },
+      "datePublished": "2026-11-20",
+      "dateModified": "2026-11-20",
       "mentions": [
         {
           "@type": "WebPage",

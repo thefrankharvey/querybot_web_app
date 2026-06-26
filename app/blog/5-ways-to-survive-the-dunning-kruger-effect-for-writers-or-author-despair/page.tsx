@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 ways to survive the Dunning-Kruger effect for writers (or author despair syndrome) when feedback hits",
   "description": "The first draft can feel like a miracle. The scenes are \"there.\" The character voice \"shows up.\" The book is, in your head, basically finished\u2014just waiting for the world to catch up.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-11",
+  "modifiedDate": "2027-03-11",
   "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-survive-the-dunning-kruger-effect-for-writers-or-author-despair",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -487,6 +487,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-ways-to-survive-the-dunning-kruger-effect-for-writers-or-author-despair#primaryimage"
       },
+      "datePublished": "2027-03-11",
+      "dateModified": "2027-03-11",
       "mentions": [
         {
           "@type": "WebPage",

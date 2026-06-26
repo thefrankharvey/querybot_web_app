@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to pace reveals in YA suspense: give answers, then weaponize the next question",
   "description": "A lot of writers say they're trying to \"keep the tension up,\" and then they write the tension like it's a lightbulb they can turn on and off. Click. No click. Repeat until the last page.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-16",
+  "modifiedDate": "2026-11-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-pace-reveals-in-ya-suspense-give-answers-then-weaponize-the-next-question",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -627,6 +627,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-pace-reveals-in-ya-suspense-give-answers-then-weaponize-the-next-question#primaryimage"
       },
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Use Hopes and Dreams to Make a Character Come Alive (No More Vanilla Motivation)",
   "description": "Most writing advice about characters sounds like it's trying to save you from being \"too much.\" So you end up with motivation that reads like a polite receipt: She wants success. He wants love. They all want meaning.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-19",
+  "modifiedDate": "2026-10-19",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-hopes-and-dreams-to-make-a-character-come-alive-no-more-vanilla",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-use-hopes-and-dreams-to-make-a-character-come-alive-no-more-vanilla#primaryimage"
       },
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-19",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
   "description": "Getting an agent response feels like the finish line. Then\u2014right when you're trying to exhale\u2014you realize the real work is still ahead: contracts, negotiation, rights, payments, key dates, marketing coordination, and whatever weird little fires pop up in between.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
+  "publishedDate": "2027-07-02",
+  "modifiedDate": "2027-07-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_hero_panic_recognition_blog_hero_landscape_00da22c0d688.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_hero_panic_recognition_blog_hero_landscape_00da22c0d688.jpeg?updatedAt=1782242078937",
     "alt": "blog hero \u00b7 panic recognition",
     "width": 3500,
     "height": 2333,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "item": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     }
   ],
   "tldrBlocks": [],
@@ -123,7 +123,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_post_offer_dread_payments_blog_section_landscape_008d0fffe93e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_post_offer_dread_payments_blog_section_landscape_008d0fffe93e.gif?updatedAt=1782242079864",
         "alt": "Before the \"what happens after\" panic, fix the early misunderstandings",
         "width": 288,
         "height": 200,
@@ -227,13 +227,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_perfectionism_dread_blog_section_landscape_f4b2a286fa40.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_perfectionism_dread_blog_section_landscape_f4b2a286fa40.gif",
         "alt": "You're assuming agents won't touch your draft or proposal",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Zhine Pics",
-        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
-        "provider": "pexels",
+        "width": 348,
+        "height": 200,
+        "creator": "news",
+        "creatorUrl": "https://giphy.com/gifs/news-virgil-abloh-5WgB1JuxWXqX577iNA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -435,7 +435,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_post_offer_dread_payments_blog_section_landscape_008d0fffe93e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_post_offer_dread_payments_blog_section_landscape_008d0fffe93e.gif?updatedAt=1782242079864",
         "alt": "Before the \"what happens after\" panic, fix the early misunderstandings",
         "width": 288,
         "height": 200,
@@ -470,43 +470,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_recap_blog_section_landscape_60ba42ce28d8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_recap_blog_section_landscape_60ba42ce28d8.jpeg",
         "alt": "Recap",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_section_image_cold_start_action_blog_section_landscape_24249bd46dd9.jpeg",
-    "alt": "blog section image \u00b7 cold start action",
-    "width": 5442,
-    "height": 3400,
-    "creator": "Marek Piwnicki",
-    "creatorUrl": "https://www.pexels.com/@marek-piwnicki-3907296",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     },
     {
       "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     },
     {
       "title": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     },
     {
-      "title": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-      "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+      "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -541,7 +532,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "url": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     }
   ]
 } as const;
@@ -571,7 +562,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -583,31 +574,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "item": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
       "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -623,11 +614,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions",
       "headline": "Common mistakes writers make when they assume agents only \"filter\" submissions",
       "alternativeHeadline": "Common mistakes writers make when they assume agents only \"filter\" submissions",
       "description": "Getting an agent response feels like the finish line. Then\u2014right when you're trying to exhale\u2014you realize the real work is still ahead: contracts, negotiation, rights, payments, key dates, marketing coordination, and whatever weird little fires pop up in between.",
@@ -657,40 +648,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage"
       },
+      "datePublished": "2027-07-02",
+      "dateModified": "2027-07-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "url": "https://writequeryhook.com/query-letters/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+          "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
         },
         {
           "@type": "WebPage",
           "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+          "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         },
         {
           "@type": "WebPage",
           "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+          "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
         },
         {
           "@type": "WebPage",
-          "name": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-          "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+          "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_hero_panic_recognition_blog_hero_landscape_00da22c0d688.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_455/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions/blog/blog_hero_panic_recognition_blog_hero_landscape_00da22c0d688.jpeg?updatedAt=1782242078937",
       "width": 3500,
       "height": 2333,
       "caption": "blog hero \u00b7 panic recognition",
@@ -705,7 +693,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#faq",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions#faq",
       "mainEntity": [
         {
           "@type": "Question",

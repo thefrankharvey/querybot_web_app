@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book synopsis vs logline vs query letter: what actually sells the story?",
   "description": "If writing a book synopsis feels like being asked to fit your whole novel into a tiny carry-on\u2014plus prove it'll arrive intact\u2014yeah. Welcome to the query trenches.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
+  "publishedDate": "2027-11-15",
+  "modifiedDate": "2027-11-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
-      "item": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+      "item": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
     }
   ],
   "tldrBlocks": [],
@@ -540,19 +540,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Synopsis FAQ: what a synopsis is supposed to do",
-      "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+      "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
     },
     {
       "title": "Write an incredible synopsis in 4 simple steps faq",
-      "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
     },
     {
       "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
-      "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     },
     {
-      "title": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-      "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
+      "title": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
+      "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -587,7 +587,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Synopsis FAQ: what a synopsis is supposed to do",
-      "url": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+      "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
     }
   ]
 } as const;
@@ -617,7 +617,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -629,31 +629,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
-          "item": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+          "item": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
+      "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#webpage",
+      "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
       "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -669,11 +669,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#article",
+      "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#webpage"
+        "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story",
       "headline": "Book synopsis vs logline vs query letter: what actually sells the story?",
       "alternativeHeadline": "Book synopsis vs logline vs query letter: what actually sells the story?",
       "description": "If writing a book synopsis feels like being asked to fit your whole novel into a tiny carry-on\u2014plus prove it'll arrive intact\u2014yeah. Welcome to the query trenches.",
@@ -703,39 +703,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage"
       },
+      "datePublished": "2027-11-15",
+      "dateModified": "2027-11-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Synopsis FAQ: what a synopsis is supposed to do",
-          "url": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Synopsis FAQ: what a synopsis is supposed to do",
-          "url": "https://writequeryhook.com/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+          "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Write an incredible synopsis in 4 simple steps faq",
-          "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-          "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+          "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
         },
         {
           "@type": "WebPage",
-          "name": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-          "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
+          "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
+          "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage",
+      "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_615/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story/blog/blog_hero_deadline_cursor_blinking_blog_hero_landscape_f9027c2cf55b.gif",
       "width": 248,
       "height": 200,
@@ -751,7 +748,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#faq",
+      "@id": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story#faq",
       "mainEntity": [
         {
           "@type": "Question",

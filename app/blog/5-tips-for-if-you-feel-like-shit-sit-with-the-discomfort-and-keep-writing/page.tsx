@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for if you feel like shit: sit with the discomfort (and keep writing)",
   "description": "There's a special kind of writing misery where your brain doesn't just say, \"This draft sucks.\" It says, \"You suck,\" and it says it with a confidence that feels medically suspicious.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-12",
+  "modifiedDate": "2027-03-12",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-if-you-feel-like-shit-sit-with-the-discomfort-and-keep-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -562,6 +562,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-if-you-feel-like-shit-sit-with-the-discomfort-and-keep-writing#primaryimage"
       },
+      "datePublished": "2027-03-12",
+      "dateModified": "2027-03-12",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What a Full Manuscript Rejection Really Means (Breakdown of How Agents Decide Later, Not Just at the Opening)",
   "description": "You get the full manuscript request. You feel the dopamine hit in your shoulders. Then the rejection comes back anyway\u2014often with vague language that makes you stare at your draft like it personally betrayed you.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-08",
+  "modifiedDate": "2027-02-08",
   "canonicalUrl": "https://writequeryhook.com/blog/what-a-full-manuscript-rejection-really-means-breakdown-of-how-agents-decide",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -683,6 +683,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-a-full-manuscript-rejection-really-means-breakdown-of-how-agents-decide#primaryimage"
       },
+      "datePublished": "2027-02-08",
+      "dateModified": "2027-02-08",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
   "description": "The query trenches tell the real story: the publishing landscape is fragmented, and agents, publishers, and platforms pitch their route as the universal answer. Meanwhile, the actual mechanisms\u2014contract variations, rights ownership, and money risk\u2014sometimes make the same word (\"hybrid,\" \"paid,\" \"traditional\") describe totally different outcomes.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
+  "publishedDate": "2027-08-05",
+  "modifiedDate": "2027-08-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_hero_stuck_confusion_blog_hero_landscape_04bb99077df7.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_hero_stuck_confusion_blog_hero_landscape_04bb99077df7.jpeg",
     "alt": "blog hero \u00b7 stuck confusion",
-    "width": 222,
-    "height": 200,
-    "creator": "joluijten",
-    "creatorUrl": "https://giphy.com/gifs/confused-stuck-not-getting-it-rqOiHrynEe543tASYu",
-    "provider": "giphy",
+    "width": 5472,
+    "height": 3648,
+    "creator": "Andrew Neel",
+    "creatorUrl": "https://www.pexels.com/@andrew",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "item": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     }
   ],
   "tldrBlocks": [],
@@ -106,13 +106,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_indignation_financial_risk_blog_section_landscape_492464939406.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_indignation_financial_risk_blog_section_landscape_492464939406.gif",
         "alt": "Use money flow to define traditional publishing (risk first, label second)",
-        "width": 3000,
-        "height": 2026,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 150,
+        "height": 200,
+        "creator": "RobertEBlackmon",
+        "creatorUrl": "https://giphy.com/gifs/RobertEBlackmon-broke-pinching-pennies-financial-struggles-PyoyQRPyZXYq7mfxxs",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -167,13 +167,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_suspicion_scam_radar_blog_section_landscape_996de40ea556.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_suspicion_scam_radar_blog_section_landscape_996de40ea556.jpeg",
         "alt": "Treat hybrid as a label test: publisher of record vs service agreement",
-        "width": 200,
-        "height": 200,
-        "creator": "Koluz",
-        "creatorUrl": "https://giphy.com/gifs/looking-for-tgpu-radar-shoebill-8iEUx51Ezn0vXCLAIu",
-        "provider": "giphy",
+        "width": 6720,
+        "height": 4480,
+        "creator": "Tara Winstead",
+        "creatorUrl": "https://www.pexels.com/@tara-winstead",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -309,43 +309,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_hopeful_patience_blog_section_landscape_195d400742ce.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_hopeful_patience_blog_section_landscape_195d400742ce.gif",
         "alt": "Use social/serialized publishing to build readership\u2014then stress-test monetization",
-        "width": 6000,
-        "height": 4000,
-        "creator": "PREM GS",
-        "creatorUrl": "https://www.pexels.com/@prem-gs-3404648",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_section_image_fist_pump_build_the_chart_blog_section_landscape_ddd45d2a5038.jpeg",
-    "alt": "blog section image \u00b7 fist pump build the chart",
-    "width": 6016,
-    "height": 4016,
-    "creator": "AlphaTradeZone",
-    "creatorUrl": "https://www.pexels.com/@alphatradezone",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     },
     {
       "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     },
     {
       "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     },
     {
-      "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-      "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+      "title": "Reasons to use social media that have nothing to do with selling books FAQ",
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -380,7 +371,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 basics of publishing contracts you should understand before you sign",
-      "url": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     }
   ]
 } as const;
@@ -410,7 +401,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -422,31 +413,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+          "item": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
       "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -462,11 +453,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label",
       "headline": "5 tips for picking the right publishing path (and not getting baited by the label)",
       "alternativeHeadline": "5 tips for picking the right publishing path (and not getting baited by the label)",
       "description": "The query trenches tell the real story: the publishing landscape is fragmented, and agents, publishers, and platforms pitch their route as the universal answer. Meanwhile, the actual mechanisms\u2014contract variations, rights ownership, and money risk\u2014sometimes make the same word (\"hybrid,\" \"paid,\" \"traditional\") describe totally different outcomes.",
@@ -496,55 +487,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage"
       },
+      "datePublished": "2027-08-05",
+      "dateModified": "2027-08-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "url": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+          "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         },
         {
           "@type": "WebPage",
           "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
         },
         {
           "@type": "WebPage",
           "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         },
         {
           "@type": "WebPage",
-          "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-          "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+          "name": "Reasons to use social media that have nothing to do with selling books FAQ",
+          "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_hero_stuck_confusion_blog_hero_landscape_04bb99077df7.gif",
-      "width": 222,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label/blog/blog_hero_stuck_confusion_blog_hero_landscape_04bb99077df7.jpeg",
+      "width": 5472,
+      "height": 3648,
       "caption": "blog hero \u00b7 stuck confusion",
-      "creditText": "joluijten",
+      "creditText": "Andrew Neel",
       "author": {
         "@type": "Person",
-        "name": "joluijten",
-        "url": "https://giphy.com/gifs/confused-stuck-not-getting-it-rqOiHrynEe543tASYu"
+        "name": "Andrew Neel",
+        "url": "https://www.pexels.com/@andrew"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
   "description": "A lot of writers get to \"manuscript complete\" and immediately hit a different wall: the synopsis, the document that shows up only after a query letter does its one job\u2014getting the literary agents to ask for it. Writers often underestimate how much selection lives in the synopsis; missing that selection costs them requests.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
+  "publishedDate": "2027-11-11",
+  "modifiedDate": "2027-11-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-      "item": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
+      "item": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
     }
   ],
   "tldrBlocks": [],
@@ -463,19 +463,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-      "url": "https://writequeryhook.com/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+      "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
     },
     {
       "title": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-      "url": "https://writequeryhook.com/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without-worshipping-three-acts"
+      "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
     },
     {
       "title": "5 synopsis myths that keep your query package from reading like a blueprint",
-      "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+      "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
     },
     {
-      "title": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-      "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
+      "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -510,7 +510,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-      "url": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+      "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
     }
   ]
 } as const;
@@ -540,7 +540,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +552,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-          "item": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
+          "item": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#webpage",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
+      "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#webpage",
+      "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
       "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage"
+        "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +592,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#article",
+      "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#webpage"
+        "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns",
       "headline": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
       "alternativeHeadline": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
       "description": "A lot of writers get to \"manuscript complete\" and immediately hit a different wall: the synopsis, the document that shows up only after a query letter does its one job\u2014getting the literary agents to ask for it. Writers often underestimate how much selection lives in the synopsis; missing that selection costs them requests.",
@@ -626,39 +626,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage"
+        "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage"
       },
+      "datePublished": "2027-11-11",
+      "dateModified": "2027-11-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-          "url": "https://writequeryhook.com/query-letters/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-          "url": "https://writequeryhook.com/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+          "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
         },
         {
           "@type": "WebPage",
           "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
-          "url": "https://writequeryhook.com/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without-worshipping-three-acts"
+          "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
         },
         {
           "@type": "WebPage",
           "name": "5 synopsis myths that keep your query package from reading like a blueprint",
-          "url": "https://writequeryhook.com/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
+          "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
         },
         {
           "@type": "WebPage",
-          "name": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-          "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
+          "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
+          "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage",
+      "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_611/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns/blog/blog_hero_stuck_deadline_blog_hero_landscape_854a8aa03cf8.jpeg",
       "width": 6000,
       "height": 4000,
@@ -674,7 +671,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#faq",
+      "@id": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author bio mistakes: the self-promo that backfires on a literary agent",
   "description": "If writing your author bio makes your shoulders climb toward your ears, you're not alone. The query process already has enough forms, waiting, and tiny humiliations\u2014then we're asked to \"introduce ourselves\" like we're trying to win an audition with a r\u00e9sum\u00e9.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-23",
+  "modifiedDate": "2026-08-23",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-mistakes-the-self-promo-that-backfires-on-a-literary-agent",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -620,6 +620,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-mistakes-the-self-promo-that-backfires-on-a-literary-agent#primaryimage"
       },
+      "datePublished": "2026-08-23",
+      "dateModified": "2026-08-23",
       "mentions": [
         {
           "@type": "WebPage",

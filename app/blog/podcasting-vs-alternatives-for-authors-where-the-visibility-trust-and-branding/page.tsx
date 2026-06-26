@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
   "description": "A lot of authors want more reach, but they keep trying to solve it like a one-time announcement problem. Then they wonder why the book marketing energy turns into noise instead of trust.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
+  "publishedDate": "2027-10-24",
+  "modifiedDate": "2027-10-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-      "item": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
+      "item": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
     }
   ],
   "tldrBlocks": [],
@@ -410,20 +410,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
-    },
-    {
-      "title": "Writers on strike lessons for book authors FAQ",
-      "url": "https://writequeryhook.com/writers-on-strike-lessons-for-book-authors-faq"
-    },
-    {
       "title": "How to Talk About Your Writing So People Want to Read It FAQ",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
     },
     {
       "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
-      "url": "https://writequeryhook.com/make-your-work-more-commercial-a-revision-focused-faq"
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
+    },
+    {
+      "title": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
+    },
+    {
+      "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -458,7 +458,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Great book title vs safer alternatives: pick the one that sells",
-      "url": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
     }
   ]
 } as const;
@@ -488,7 +488,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -500,31 +500,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
-          "item": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
+          "item": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#webpage",
-      "url": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
+      "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#webpage",
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
       "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage"
+        "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -540,11 +540,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#article",
+      "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#webpage"
+        "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding",
       "headline": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
       "alternativeHeadline": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
       "description": "A lot of authors want more reach, but they keep trying to solve it like a one-time announcement problem. Then they wonder why the book marketing energy turns into noise instead of trust.",
@@ -574,39 +574,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage"
+        "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage"
       },
+      "datePublished": "2027-10-24",
+      "dateModified": "2027-10-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Great book title vs safer alternatives: pick the one that sells",
-          "url": "https://writequeryhook.com/query-letters/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Subrights & co-editions: agent hype vs the alternatives for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/subrights-co-editions-agent-hype-vs-the-alternatives-for-sci-fi-graphic-novels"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Writers on strike lessons for book authors FAQ",
-          "url": "https://writequeryhook.com/writers-on-strike-lessons-for-book-authors-faq"
+          "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
         },
         {
           "@type": "WebPage",
           "name": "How to Talk About Your Writing So People Want to Read It FAQ",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
         },
         {
           "@type": "WebPage",
           "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
-          "url": "https://writequeryhook.com/make-your-work-more-commercial-a-revision-focused-faq"
+          "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Get Book Reviews in 5 Steps (2025 Update) FAQ",
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage",
+      "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_588/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding/blog/blog_hero_hesitation_doubt_blog_hero_landscape_78518549d5a3.jpeg",
       "width": 6000,
       "height": 3368,
@@ -622,7 +624,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#faq",
+      "@id": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding#faq",
       "mainEntity": [
         {
           "@type": "Question",

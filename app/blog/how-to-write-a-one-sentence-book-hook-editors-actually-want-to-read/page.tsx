@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a one-sentence book hook editors actually want to read",
   "description": "A lot of writers treat a book hook like it's a clever caption for the back cover. Then they wonder why it comes out vague. Or worse: competent, but dead\u2014like the sentence is trying to explain the book instead of lighting a fire under it.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-05",
+  "modifiedDate": "2026-07-05",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-one-sentence-book-hook-editors-actually-want-to-read",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -670,6 +670,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-one-sentence-book-hook-editors-actually-want-to-read#primaryimage"
       },
+      "datePublished": "2026-07-05",
+      "dateModified": "2026-07-05",
       "mentions": [
         {
           "@type": "WebPage",

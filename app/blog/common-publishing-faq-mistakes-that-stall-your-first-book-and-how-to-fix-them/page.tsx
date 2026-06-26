@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
   "description": "If you're in that sweet, awful spot\u2014asking how to publish your first book, reading a pile of advice, and still feeling unsure what matters most\u2014this is probably why: the FAQs get treated like trivia instead of a sequence of \"what you do now.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
+  "publishedDate": "2027-06-11",
+  "modifiedDate": "2027-06-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_hero_panic_blank_page_blog_hero_landscape_b0630a8bf853.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_hero_panic_blank_page_blog_hero_landscape_b0630a8bf853.jpeg?updatedAt=1782214303361",
     "alt": "blog hero \u00b7 panic blank-page",
     "width": 6960,
     "height": 4640,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-      "item": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
+      "item": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     }
   ],
   "tldrBlocks": [],
@@ -118,13 +118,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_choice_ideology_blog_section_landscape_01eb1762eb63.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_choice_ideology_blog_section_landscape_01eb1762eb63.gif",
         "alt": "You're treating traditional vs self-publishing like a personality test",
-        "width": 3999,
-        "height": 2666,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 355,
+        "height": 200,
+        "creator": "jonahprimiano",
+        "creatorUrl": "https://giphy.com/gifs/zizek-ideology-r7bjWH3xADPZObjK0y",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -176,13 +176,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_unfinished_dread_blog_section_landscape_ca79fba8f6a9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_unfinished_dread_blog_section_landscape_ca79fba8f6a9.jpeg",
         "alt": "You're trying to query before you have what traditional publishing actually needs",
-        "width": 267,
-        "height": 200,
-        "creator": "Carolines_music",
-        "creatorUrl": "https://giphy.com/gifs/Carolines-music-unfinished-songs-bXMZMwoFZufRhJC6vF",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Felicity Tai",
+        "creatorUrl": "https://www.pexels.com/@felicity-tai",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -357,13 +357,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_waiting_slow_blog_section_landscape_6acc85193375.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_waiting_slow_blog_section_landscape_6acc85193375.gif",
         "alt": "You're misreading what happens after an agent signs with you",
-        "width": 3840,
-        "height": 2560,
-        "creator": "kevin christonar",
-        "creatorUrl": "https://www.pexels.com/@kevin-christonar-2151621118",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/reaction-xU1spRleFHmtjvskXw",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -412,32 +412,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_section_image_do_next_action_blog_section_landscape_80c8e415c4f0.gif",
-    "alt": "blog section image \u00b7 do-next action",
-    "width": 403,
-    "height": 200,
-    "creator": "pbs",
-    "creatorUrl": "https://giphy.com/gifs/pbs-season-2-drama-hotel-portofino-aVe6TxgV8VQ7S3bwnG",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common author website mistakes that trap you for years (and how to fix them)",
-      "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
     },
     {
       "title": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-      "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
     },
     {
       "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     },
     {
-      "title": "The publishing timeline from contract to shelves: where delays actually come from",
-      "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -475,7 +466,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
     }
   ]
 } as const;
@@ -505,7 +496,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -517,31 +508,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-          "item": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
+          "item": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
+      "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#webpage",
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
       "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -557,11 +548,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#article",
+      "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#webpage"
+        "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them",
       "headline": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
       "alternativeHeadline": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
       "description": "If you're in that sweet, awful spot\u2014asking how to publish your first book, reading a pile of advice, and still feeling unsure what matters most\u2014this is probably why: the FAQs get treated like trivia instead of a sequence of \"what you do now.\"",
@@ -591,40 +582,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-06-11",
+      "dateModified": "2027-06-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+          "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
         },
         {
           "@type": "WebPage",
           "name": "Common author website mistakes that trap you for years (and how to fix them)",
-          "url": "https://writequeryhook.com/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "Publishing myths 101: \"Editors don't edit\" (and what to do instead)",
-          "url": "https://writequeryhook.com/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/publishing-myths-101-editors-don-t-edit-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "url": "https://writequeryhook.com/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         },
         {
           "@type": "WebPage",
-          "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "url": "https://writequeryhook.com/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+          "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
+          "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_hero_panic_blank_page_blog_hero_landscape_b0630a8bf853.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_429/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them/blog/blog_hero_panic_blank_page_blog_hero_landscape_b0630a8bf853.jpeg?updatedAt=1782214303361",
       "width": 6960,
       "height": 4640,
       "caption": "blog hero \u00b7 panic blank-page",

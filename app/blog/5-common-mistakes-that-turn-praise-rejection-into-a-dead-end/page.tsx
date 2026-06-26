@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
   "description": "Most rejection letters don't say, \"Your writing is bad.\" They say things like \"the manuscript is strong\" and then they disappear into \"marketing\" and \"positioning\" language.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
+  "publishedDate": "2027-04-29",
+  "modifiedDate": "2027-04-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_hero_recognition_dread_blog_hero_landscape_882b474750c2.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_hero_recognition_dread_blog_hero_landscape_882b474750c2.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-      "item": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+      "item": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     }
   ],
   "tldrBlocks": [],
@@ -130,7 +130,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_dissonance_false_hope_blog_section_landscape_f2f666f72da6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_dissonance_false_hope_blog_section_landscape_f2f666f72da6.gif?updatedAt=1782058558614",
         "alt": "You're reading praise as certainty",
         "width": 356,
         "height": 200,
@@ -191,7 +191,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_anxiety_panic_blog_section_landscape_428c002f548d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_anxiety_panic_blog_section_landscape_428c002f548d.jpeg?updatedAt=1782058559044",
         "alt": "You're worrying you picked the \"wrong\" audience for a difference-centered story",
         "width": 6960,
         "height": 4640,
@@ -390,43 +390,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_recap_blog_section_landscape_45d72a6aae08.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_recap_blog_section_landscape_45d72a6aae08.gif",
         "alt": "Recap",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_section_image_resolve_next_draft_blog_section_landscape_0cd3d4b541f1.jpeg",
-    "alt": "blog section image \u00b7 resolve next draft",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Fuka jaz",
-    "creatorUrl": "https://www.pexels.com/@fukajaz",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-      "url": "https://writequeryhook.com/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your-baby"
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     },
     {
       "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
     },
     {
       "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     },
     {
-      "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-      "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+      "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -444,7 +435,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-      "url": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
+      "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
     }
   ]
 } as const;
@@ -474,7 +465,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +477,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
-          "item": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
+          "item": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
+      "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#webpage",
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
       "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +517,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#article",
+      "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#webpage"
+        "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end",
       "headline": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
       "alternativeHeadline": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
       "description": "Most rejection letters don't say, \"Your writing is bad.\" They say things like \"the manuscript is strong\" and then they disappear into \"marketing\" and \"positioning\" language.",
@@ -560,48 +551,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage"
       },
+      "datePublished": "2027-04-29",
+      "dateModified": "2027-04-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-          "url": "https://writequeryhook.com/query-letters/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Developmental Edit Myth: 'They Hate My Book' \u2014 How to Respond Without Touching Your Baby",
-          "url": "https://writequeryhook.com/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your-baby"
+          "url": "https://writequeryhook.com/blog/developmental-edit-myth-they-hate-my-book-how-to-respond-without-touching-your"
         },
         {
           "@type": "WebPage",
           "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "url": "https://writequeryhook.com/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
         },
         {
           "@type": "WebPage",
           "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
         },
         {
           "@type": "WebPage",
-          "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-          "url": "https://writequeryhook.com/when-should-you-nudge-agents-a-query-follow-up-faq"
+          "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_hero_recognition_dread_blog_hero_landscape_882b474750c2.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_372/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end/blog/blog_hero_recognition_dread_blog_hero_landscape_882b474750c2.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     }

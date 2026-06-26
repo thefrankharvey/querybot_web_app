@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 helpful tips for how to rewrite a novel without losing your mind",
   "description": "Some writers hear \u201crewrite\u201d and immediately translate it to \u201cyour idea failed\u201d or \u201cyour first draft was garbage.\u201d That\u2019s not what rewrite means. Rewrite means you found a better way to deliver what you\u2019re actually trying to say in the manuscript.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-28",
+  "modifiedDate": "2026-09-28",
   "canonicalUrl": "https://writequeryhook.com/blog/3-helpful-tips-for-how-to-rewrite-a-novel-without-losing-your-mind",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -414,6 +414,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-helpful-tips-for-how-to-rewrite-a-novel-without-losing-your-mind#primaryimage"
       },
+      "datePublished": "2026-09-28",
+      "dateModified": "2026-09-28",
       "mentions": [
         {
           "@type": "WebPage",

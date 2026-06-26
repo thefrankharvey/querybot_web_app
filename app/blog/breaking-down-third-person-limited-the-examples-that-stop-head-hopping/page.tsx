@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down third person limited: the examples that stop head-hopping",
   "description": "The hardest part of writing third person limited isn't the grammar. It's the vow.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-08",
+  "modifiedDate": "2026-09-08",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-third-person-limited-the-examples-that-stop-head-hopping",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -636,6 +636,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-third-person-limited-the-examples-that-stop-head-hopping#primaryimage"
       },
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-09-08",
       "mentions": [
         {
           "@type": "WebPage",

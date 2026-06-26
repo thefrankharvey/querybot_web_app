@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
   "description": "If the words advances and royalties make your brain do that cursor-blinking thing, good. That means you're paying attention instead of signing a contract on vibes. This stuff is \"simple\" in the way a lock looks simple until you try to open it with your eyes closed.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
+  "publishedDate": "2027-08-19",
+  "modifiedDate": "2027-08-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_hero_confusion_overwhelm_blog_hero_landscape_18f8394cabb6.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_hero_confusion_overwhelm_blog_hero_landscape_18f8394cabb6.jpeg",
     "alt": "blog hero \u00b7 confusion overwhelm",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
+    "width": 5652,
+    "height": 3768,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "item": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     }
   ],
   "tldrBlocks": [],
@@ -101,13 +101,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_money_upfront_signing_stage_blog_section_landscape_d87649938ff9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_money_upfront_signing_stage_blog_section_landscape_d87649938ff9.gif",
         "alt": "Know what an advance is",
-        "width": 5593,
-        "height": 3729,
-        "creator": "Tima Miroshnichenko",
-        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-        "provider": "pexels",
+        "width": 350,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/x5c8d75Tvt7sQ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -179,7 +179,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_earn_out_wait_time_blog_section_landscape_37712d9fcc23.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_earn_out_wait_time_blog_section_landscape_37712d9fcc23.jpeg?updatedAt=1782312063032",
         "alt": "Learn how earning out works",
         "width": 6240,
         "height": 4160,
@@ -236,13 +236,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_contract_stages_blog_section_landscape_caf4c80b3d55.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_contract_stages_blog_section_landscape_caf4c80b3d55.gif",
         "alt": "Read contract payment schedules carefully",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 348,
+        "height": 200,
+        "creator": "LitVM",
+        "creatorUrl": "https://giphy.com/gifs/LitVM-justin-bieber-litecoin-litvm-AzUZj4jR9lb0OebJtu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -282,32 +282,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_section_image_next_step_sharpen_clarity_blog_section_landscape_e0457ef536a2.gif",
-    "alt": "blog section image \u00b7 next step sharpen clarity",
-    "width": 200,
-    "height": 200,
-    "creator": "pumupuz",
-    "creatorUrl": "https://giphy.com/gifs/knife-sharpen-knives-aHFgDHucMrnPrXOQYl",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for building your author platform without growing a Twitter following",
-      "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     },
     {
       "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     },
     {
       "title": "5 things literary agents actually do (from submissions to contracts)",
-      "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     },
     {
-      "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+      "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -342,7 +333,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "url": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     }
   ]
 } as const;
@@ -372,7 +363,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -384,31 +375,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+          "item": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
       "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -424,11 +415,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid",
       "headline": "5 tips for making sense of advances and royalties (and when you actually get paid)",
       "alternativeHeadline": "5 tips for making sense of advances and royalties (and when you actually get paid)",
       "description": "If the words advances and royalties make your brain do that cursor-blinking thing, good. That means you're paying attention instead of signing a contract on vibes. This stuff is \"simple\" in the way a lock looks simple until you try to open it with your eyes closed.",
@@ -458,55 +449,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage"
       },
+      "datePublished": "2027-08-19",
+      "dateModified": "2027-08-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "url": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for building your author platform without growing a Twitter following",
-          "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         },
         {
           "@type": "WebPage",
           "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+          "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
         },
         {
           "@type": "WebPage",
           "name": "5 things literary agents actually do (from submissions to contracts)",
-          "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         },
         {
           "@type": "WebPage",
-          "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+          "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
+          "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_hero_confusion_overwhelm_blog_hero_landscape_18f8394cabb6.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid/blog/blog_hero_confusion_overwhelm_blog_hero_landscape_18f8394cabb6.jpeg",
+      "width": 5652,
+      "height": 3768,
       "caption": "blog hero \u00b7 confusion overwhelm",
-      "creditText": "theinnernette",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "theinnernette",
-        "url": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid#faq",
       "mainEntity": [
         {
           "@type": "Question",

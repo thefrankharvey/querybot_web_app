@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
   "description": "A lot of writers treat \"getting an editor\" like a single mysterious upgrade. Spoiler: it's not. The book almost always gets better through collaboration, and the collaboration only works when you pick the right editing type for where your manuscript is currently stuck.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
+  "publishedDate": "2027-06-01",
+  "modifiedDate": "2027-06-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_hero_confusion_dread_blog_hero_landscape_9befaf18d7ec.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_hero_confusion_dread_blog_hero_landscape_9befaf18d7ec.jpeg?updatedAt=1782182768705",
     "alt": "blog hero \u00b7 confusion dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "item": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "item": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     }
   ],
   "tldrBlocks": [],
@@ -111,7 +111,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_structure_pacing_blog_section_landscape_178c62457c0e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_structure_pacing_blog_section_landscape_178c62457c0e.gif?updatedAt=1782182769400",
         "alt": "What are the main types of editing a book might need?",
         "width": 356,
         "height": 200,
@@ -170,7 +170,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_wrong_editor_fear_plot_vs_prose_blog_section_landscape_66664c53e479.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_wrong_editor_fear_plot_vs_prose_blog_section_landscape_66664c53e479.jpeg?updatedAt=1782182769968",
         "alt": "How do I choose between developmental editing and copy editing?",
         "width": 5158,
         "height": 3439,
@@ -242,7 +242,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_unsure_self_doubt_blog_section_landscape_13a1a4b2a985.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_unsure_self_doubt_blog_section_landscape_13a1a4b2a985.gif?updatedAt=1782182770699",
         "alt": "Why start with an editorial assessment if I'm unsure what I need?",
         "width": 356,
         "height": 200,
@@ -316,32 +316,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_section_image_commit_revise_plan_blog_section_landscape_162e9926886e.jpeg",
-    "alt": "blog section image \u00b7 commit revise plan",
-    "width": 6720,
-    "height": 4480,
-    "creator": "www.kaboompics.com",
-    "creatorUrl": "https://www.pexels.com/@karola-g",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Know when to leave your agent: a case-study checklist after the offer",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     },
     {
       "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     },
     {
       "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     },
     {
       "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -359,7 +350,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Know when to leave your agent: a case-study checklist after the offer",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     }
   ]
 } as const;
@@ -389,7 +380,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -401,31 +392,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "item": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "item": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#webpage",
-      "url": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
+      "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#webpage",
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
       "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -441,11 +432,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#article",
+      "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#webpage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist",
       "headline": "Professional editor: is your book ready for editing? (types + hiring checklist)",
       "alternativeHeadline": "Professional editor: is your book ready for editing? (types + hiring checklist)",
       "description": "A lot of writers treat \"getting an editor\" like a single mysterious upgrade. Spoiler: it's not. The book almost always gets better through collaboration, and the collaboration only works when you pick the right editing type for where your manuscript is currently stuck.",
@@ -475,40 +466,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage"
+        "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage"
       },
+      "datePublished": "2027-06-01",
+      "dateModified": "2027-06-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         },
         {
           "@type": "WebPage",
           "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+          "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
         },
         {
           "@type": "WebPage",
           "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_hero_confusion_dread_blog_hero_landscape_9befaf18d7ec.jpeg",
+      "@id": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist/blog/blog_hero_confusion_dread_blog_hero_landscape_9befaf18d7ec.jpeg?updatedAt=1782182768705",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",

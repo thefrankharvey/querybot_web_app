@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "End a chapter mistakes: how to avoid the cliffhanger trap (and keep reader engagement)",
   "description": "Everybody says \"end on a cliffhanger.\" Sure. It's a tool.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-25",
+  "modifiedDate": "2026-10-25",
   "canonicalUrl": "https://writequeryhook.com/blog/end-a-chapter-mistakes-how-to-avoid-the-cliffhanger-trap-and-keep-reader",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/end-a-chapter-mistakes-how-to-avoid-the-cliffhanger-trap-and-keep-reader#primaryimage"
       },
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-25",
       "mentions": [
         {
           "@type": "WebPage",

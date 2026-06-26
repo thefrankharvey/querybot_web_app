@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "17 mistakes indie authors keep making on the road to publishing success",
   "description": "Most Slushies (and yes, that includes people who can write circles around the average human) get stuck on the same emotional tripwire:",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
+  "publishedDate": "2027-09-26",
+  "modifiedDate": "2027-09-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_hero_recognition_fear_of_being_real_blog_hero_landscape_5cb170852904.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_hero_recognition_fear_of_being_real_blog_hero_landscape_5cb170852904.jpeg",
     "alt": "blog hero \u00b7 recognition fear-of-being-real",
-    "width": 200,
-    "height": 200,
-    "creator": "bananakitty04",
-    "creatorUrl": "https://giphy.com/gifs/really-not-funny-cool-d4CnuaS1BQl7W5nowu",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "17 mistakes indie authors keep making on the road to publishing success",
-      "item": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "item": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     }
   ],
   "tldrBlocks": [],
@@ -222,13 +222,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_editing_dread_revision_blog_section_landscape_3c6e83e41f75.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_editing_dread_revision_blog_section_landscape_3c6e83e41f75.gif",
         "alt": "You treat manuscript quality as a one-time thing",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Zhine Pics",
-        "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
-        "provider": "pexels",
+        "width": 274,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/spongebob-p-writing-11wMQAPRnXaVoc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -340,13 +340,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_community_engagement_blog_section_landscape_8cfda8794767.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_community_engagement_blog_section_landscape_8cfda8794767.jpeg",
         "alt": "You post like a contributor, not a marketer",
-        "width": 200,
-        "height": 200,
-        "creator": "SocialMediaTools",
-        "creatorUrl": "https://giphy.com/gifs/A4qEsr8Kb6mIE3v4AZ",
-        "provider": "giphy",
+        "width": 4240,
+        "height": 2832,
+        "creator": "Matheus Amaral",
+        "creatorUrl": "https://www.pexels.com/@eumatheusamaral",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -402,13 +402,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_identity_fear_career_death_blog_section_landscape_69876c777ad4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_identity_fear_career_death_blog_section_landscape_69876c777ad4.gif",
         "alt": "You think self-publishing is career death",
-        "width": 5184,
-        "height": 3888,
-        "creator": "France  Trottier",
-        "creatorUrl": "https://www.pexels.com/@france-trottier-347727083",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -473,32 +473,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_section_image_action_fix_yours_now_blog_section_landscape_b6fcc984e994.jpeg",
-    "alt": "blog section image \u00b7 action fix-yours-now",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     },
     {
       "title": "The mission statement tells you what a publisher is actually buying",
-      "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     },
     {
       "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     },
     {
-      "title": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+      "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -533,7 +524,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "url": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     }
   ]
 } as const;
@@ -563,7 +554,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -575,31 +566,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "item": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "item": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#webpage",
-      "url": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
+      "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#webpage",
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
       "name": "17 mistakes indie authors keep making on the road to publishing success",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage"
+        "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -615,11 +606,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#article",
+      "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#webpage"
+        "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success",
       "headline": "17 mistakes indie authors keep making on the road to publishing success",
       "alternativeHeadline": "17 mistakes indie authors keep making on the road to publishing success",
       "description": "Most Slushies (and yes, that includes people who can write circles around the average human) get stuck on the same emotional tripwire:",
@@ -649,55 +640,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage"
+        "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage"
       },
+      "datePublished": "2027-09-26",
+      "dateModified": "2027-09-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "url": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
-        },
-        {
-          "@type": "WebPage",
-          "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+          "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
         },
         {
           "@type": "WebPage",
           "name": "The mission statement tells you what a publisher is actually buying",
-          "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         },
         {
           "@type": "WebPage",
           "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+          "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
         },
         {
           "@type": "WebPage",
-          "name": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+          "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
+          "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_hero_recognition_fear_of_being_real_blog_hero_landscape_5cb170852904.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success/blog/blog_hero_recognition_fear_of_being_real_blog_hero_landscape_5cb170852904.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition fear-of-being-real",
-      "creditText": "bananakitty04",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "bananakitty04",
-        "url": "https://giphy.com/gifs/really-not-funny-cool-d4CnuaS1BQl7W5nowu"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#faq",
+      "@id": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success#faq",
       "mainEntity": [
         {
           "@type": "Question",

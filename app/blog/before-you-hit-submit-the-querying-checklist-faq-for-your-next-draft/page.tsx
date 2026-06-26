@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Before you hit submit: the querying checklist FAQ for your next draft",
   "description": "You finished your manuscript. Great. Now comes the part that makes querying feel either efficient\u2014or like throwing pages into a fire and calling it \"process.\"",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-12",
+  "modifiedDate": "2026-07-12",
   "canonicalUrl": "https://writequeryhook.com/blog/before-you-hit-submit-the-querying-checklist-faq-for-your-next-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -462,6 +462,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/before-you-hit-submit-the-querying-checklist-faq-for-your-next-draft#primaryimage"
       },
+      "datePublished": "2026-07-12",
+      "dateModified": "2026-07-12",
       "mentions": [
         {
           "@type": "WebPage",

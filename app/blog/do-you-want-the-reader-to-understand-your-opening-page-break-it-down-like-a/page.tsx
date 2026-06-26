@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Do you want the reader to understand your opening page? Break it down like a critique",
   "description": "Your opening page has one job: make it easy for a reader to know what's happening next\u2014without requiring them to mind-read.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-06",
+  "modifiedDate": "2026-11-06",
   "canonicalUrl": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-opening-page-break-it-down-like-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -696,6 +696,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-opening-page-break-it-down-like-a#primaryimage"
       },
+      "datePublished": "2026-11-06",
+      "dateModified": "2026-11-06",
       "mentions": [
         {
           "@type": "WebPage",

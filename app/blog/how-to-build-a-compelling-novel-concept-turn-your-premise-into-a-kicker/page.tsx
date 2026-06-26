@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build a compelling novel concept: turn your premise into a kicker",
   "description": "Most writers don\u2019t \u201clack ideas.\u201d They lack a concept that can carry weight for hundreds of pages without turning into same-old, same-old in chapter six. The fix isn\u2019t more drafting magic. It\u2019s building the right kind of premise first\u2014one with a kicker.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
+  "publishedDate": "2027-06-16",
+  "modifiedDate": "2027-06-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_7384f1546871.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_7384f1546871.jpeg?updatedAt=1782222411866",
     "alt": "blog hero \u00b7 blank-page dread recognition",
     "width": 4240,
     "height": 2832,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build a compelling novel concept: turn your premise into a kicker",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+      "item": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     }
   ],
   "tldrBlocks": [],
@@ -177,7 +177,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_brainstorming_questions_blog_section_landscape_d88528a930fe.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_brainstorming_questions_blog_section_landscape_d88528a930fe.gif?updatedAt=1782222412310",
         "alt": "Step 2: Ask the questions that find your novel\u2019s kicker",
         "width": 202,
         "height": 200,
@@ -299,13 +299,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_theme_purpose_blog_section_landscape_e2c1bfe3b86f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_theme_purpose_blog_section_landscape_e2c1bfe3b86f.gif",
         "alt": "Step 4: Tweak a basic plot idea without making random choices",
-        "width": 5385,
-        "height": 3546,
-        "creator": "Magda Ehlers",
-        "creatorUrl": "https://www.pexels.com/@magda-ehlers-pexels",
-        "provider": "pexels",
+        "width": 700,
+        "height": 200,
+        "creator": "itsdeannaseymour",
+        "creatorUrl": "https://giphy.com/gifs/itsdeannaseymour-deanna-seymour-the-playhouse-plan-with-purpose-gFNh3rw0yZ5UUzWqhD",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -414,43 +414,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_gut_check_rejection_fear_blog_section_landscape_2cd717b0d995.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_gut_check_rejection_fear_blog_section_landscape_2cd717b0d995.jpeg",
         "alt": "Step 6: Do a kicker readiness check (can it survive a full novel?)",
-        "width": 373,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/jumanji-uN9YQre5kQQWA",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "alleksana",
+        "creatorUrl": "https://www.pexels.com/@alleksana",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_section_image_relief_momentum_blog_section_landscape_11e55c206cec.jpeg",
-    "alt": "blog section image \u00b7 relief momentum",
-    "width": 5830,
-    "height": 3887,
-    "creator": "Jose Manuel Gonzalez  Lupia\u00f1ez Photography",
-    "creatorUrl": "https://www.pexels.com/@jose-manuel-gonzalez-lupianez-photography-2656620",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to copyright a book (and whether registration is worth it)",
-      "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     },
     {
       "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     },
     {
       "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     },
     {
-      "title": "Book fairs vs book festivals: which event matches your goal?",
-      "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+      "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -489,7 +480,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to copyright a book (and whether registration is worth it)",
-      "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     }
   ]
 } as const;
@@ -519,7 +510,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -531,31 +522,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build a compelling novel concept: turn your premise into a kicker",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+          "item": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
       "name": "How to build a compelling novel concept: turn your premise into a kicker",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -571,11 +562,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker",
       "headline": "How to build a compelling novel concept: turn your premise into a kicker",
       "alternativeHeadline": "How to build a compelling novel concept: turn your premise into a kicker",
       "description": "Most writers don\u2019t \u201clack ideas.\u201d They lack a concept that can carry weight for hundreds of pages without turning into same-old, same-old in chapter six. The fix isn\u2019t more drafting magic. It\u2019s building the right kind of premise first\u2014one with a kicker.",
@@ -605,40 +596,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage"
       },
+      "datePublished": "2027-06-16",
+      "dateModified": "2027-06-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to copyright a book (and whether registration is worth it)",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to copyright a book (and whether registration is worth it)",
-          "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
         },
         {
           "@type": "WebPage",
           "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         },
         {
           "@type": "WebPage",
           "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+          "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
         },
         {
           "@type": "WebPage",
-          "name": "Book fairs vs book festivals: which event matches your goal?",
-          "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+          "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
+          "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_7384f1546871.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker/blog/blog_hero_blank_page_dread_recognition_blog_hero_landscape_7384f1546871.jpeg?updatedAt=1782222411866",
       "width": 4240,
       "height": 2832,
       "caption": "blog hero \u00b7 blank-page dread recognition",
@@ -653,7 +641,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#howto",
       "name": "How to build a compelling novel concept: turn your premise into a kicker",
       "description": "Most writers don\u2019t \u201clack ideas.\u201d They lack a concept that can carry weight for hundreds of pages without turning into same-old, same-old in chapter six. The fix isn\u2019t more drafting magic. It\u2019s building the right kind of premise first\u2014one with a kicker.",
       "totalTime": "PT9M",
@@ -663,49 +651,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your kicker (and level-set against plot twists)",
           "text": "Before you tweak anything, write a one-sentence definition that you can actually use:",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-1-define-your-kicker-and-level-set-against-plot-twists"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-1-define-your-kicker-and-level-set-against-plot-twists"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Ask the questions that find your novel\u2019s kicker",
           "text": "Now brainstorming like you mean it: not vibes, not aesthetic mood boards\u2014questions to find your novel\u2019s kicker that force uniqueness, conflict, and emotional stakes.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-2-ask-the-questions-that-find-your-novel-s-kicker"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-2-ask-the-questions-that-find-your-novel-s-kicker"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Raise stakes for emotional tension (not just more danger)",
           "text": "Writers confuse \u201chigher stakes\u201d with \u201cmore explosions.\u201d That\u2019s not it. How to raise stakes and emotional tension means: attach consequences to the protagonist\u2019s values, relationships, reputation, identity\u2014something they\u2019d actually lose.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-3-raise-stakes-for-emotional-tension-not-just-more-danger"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-3-raise-stakes-for-emotional-tension-not-just-more-danger"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Tweak a basic plot idea without making random choices",
           "text": "You can how to tweak a basic plot idea all day\u2014change the setting, switch careers, swap time periods, toss in a new event\u2014but if you do it randomly, you\u2019ll end up with a weird mashup that doesn\u2019t serve the story\u2019s heart.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-4-tweak-a-basic-plot-idea-without-making-random-choices"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-4-tweak-a-basic-plot-idea-without-making-random-choices"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Layer dilemmas so the kicker keeps escalating",
           "text": "Now build something that can\u2019t coast. You want a multi-layer kicker where each win creates a worse choice next.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-5-layer-dilemmas-so-the-kicker-keeps-escalating"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-5-layer-dilemmas-so-the-kicker-keeps-escalating"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Do a kicker readiness check (can it survive a full novel?)",
           "text": "Before you outline, do a brutal gut-check. You\u2019re verifying kicker readiness, not \u201cvibes.\u201d",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-6-do-a-kicker-readiness-check-can-it-survive-a-full-novel"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#step-6-do-a-kicker-readiness-check-can-it-survive-a-full-novel"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker#faq",
       "mainEntity": [
         {
           "@type": "Question",

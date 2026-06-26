@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
   "description": "If you\u2019ve been traditionally published before, the question \u201ccan you self-publish a previously published book?\u201d doesn\u2019t feel like curiosity. It feels like standing in front of a locked door with your key ring rattling\u2014but you still have to confirm which locks it actually opens.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
+  "publishedDate": "2027-08-29",
+  "modifiedDate": "2027-08-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_hero_recognition_dread_blog_hero_landscape_b50cd40af705.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_hero_recognition_dread_blog_hero_landscape_b50cd40af705.jpeg?updatedAt=1782319034934",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+      "item": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
     }
   ],
   "tldrBlocks": [],
@@ -123,13 +123,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_royalty_statements_remaindered_blog_section_landscape_c59253614590.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_royalty_statements_remaindered_blog_section_landscape_c59253614590.gif",
         "alt": "Request rights when sales fall below thresholds or the book is remaindered",
-        "width": 5408,
-        "height": 3600,
-        "creator": "Anik\u00f3 Liptai",
-        "creatorUrl": "https://www.pexels.com/@aniko-liptai-842186932",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -178,7 +178,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_reversion_timing_blog_section_landscape_aa6451832920.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_reversion_timing_blog_section_landscape_aa6451832920.jpeg?updatedAt=1782319035330",
         "alt": "Find the reversion windows your deal actually provides",
         "width": 4480,
         "height": 2520,
@@ -236,13 +236,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_royalty_statements_remaindered_blog_section_landscape_c59253614590.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_royalty_statements_remaindered_blog_section_landscape_c59253614590.gif",
         "alt": "Request rights when sales fall below thresholds or the book is remaindered",
-        "width": 5408,
-        "height": 3600,
-        "creator": "Anik\u00f3 Liptai",
-        "creatorUrl": "https://www.pexels.com/@aniko-liptai-842186932",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -313,7 +313,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_cover_rights_layout_ownership_blog_section_landscape_a1fc9aaf88c3.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_cover_rights_layout_ownership_blog_section_landscape_a1fc9aaf88c3.gif?updatedAt=1782319036707",
         "alt": "Reassess cover and interior ownership before you \u201cpackage\u201d the recovered backlist",
         "width": 226,
         "height": 200,
@@ -368,32 +368,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_section_image_action_calendar_blog_section_landscape_68a424884451.gif",
-    "alt": "blog section image \u00b7 action calendar",
-    "width": 526,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
-      "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     },
     {
       "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     },
     {
       "title": "How to build a rocking author media kit (a 7-step template)",
-      "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     },
     {
       "title": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -428,7 +419,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for using social media to earn buy-in, build community, and help your querying",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
+      "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
     }
   ]
 } as const;
@@ -458,7 +449,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -470,31 +461,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
+          "item": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
       "name": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -510,11 +501,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book",
       "headline": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
       "alternativeHeadline": "5 tips for can you self-publish a previously traditionally published book (without wrecking your rights)",
       "description": "If you\u2019ve been traditionally published before, the question \u201ccan you self-publish a previously published book?\u201d doesn\u2019t feel like curiosity. It feels like standing in front of a locked door with your key ring rattling\u2014but you still have to confirm which locks it actually opens.",
@@ -544,40 +535,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage"
       },
+      "datePublished": "2027-08-29",
+      "dateModified": "2027-08-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for using social media to earn buy-in, build community, and help your querying",
-          "url": "https://writequeryhook.com/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your-querying"
+          "url": "https://writequeryhook.com/blog/5-tips-for-using-social-media-to-earn-buy-in-build-community-and-help-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "url": "https://writequeryhook.com/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more-specifics"
+          "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         },
         {
           "@type": "WebPage",
           "name": "How to build a rocking author media kit (a 7-step template)",
-          "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
         },
         {
           "@type": "WebPage",
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_hero_recognition_dread_blog_hero_landscape_b50cd40af705.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_522/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book/blog/blog_hero_recognition_dread_blog_hero_landscape_b50cd40af705.jpeg?updatedAt=1782319034934",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -592,7 +580,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-can-you-self-publish-a-previously-traditionally-published-book#faq",
       "mainEntity": [
         {
           "@type": "Question",

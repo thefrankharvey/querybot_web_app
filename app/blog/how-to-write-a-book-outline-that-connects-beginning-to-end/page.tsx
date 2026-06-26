@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Book Outline That Connects Beginning to End",
   "description": "A lot of writers start drafting and then hit the same wall: the early scenes don't \"link up\" to the ending, momentum dies, and the middle turns into dead air wearing a trench coat. Then you're left doing the discouraging work\u2014pages and pages of revision\u2014mostly to repair the connection you didn't map first.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-09",
+  "modifiedDate": "2026-10-09",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-book-outline-that-connects-beginning-to-end",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-book-outline-that-connects-beginning-to-end#primaryimage"
       },
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
       "mentions": [
         {
           "@type": "WebPage",

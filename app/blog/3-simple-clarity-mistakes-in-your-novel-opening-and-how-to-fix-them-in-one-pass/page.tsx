@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 simple clarity mistakes in your novel opening (and how to fix them in one pass)",
   "description": "You've done the rounds. You rewrote the opening after reading every \"strong openings\" post on the internet. The prose is smoother. The metaphors are shinier. And yet the first pages still feel\u2026 murky. Like you're doing craft gymnastics while your reader is trying to find their seat on a moving train.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-07",
+  "modifiedDate": "2026-09-07",
   "canonicalUrl": "https://writequeryhook.com/blog/3-simple-clarity-mistakes-in-your-novel-opening-and-how-to-fix-them-in-one-pass",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-simple-clarity-mistakes-in-your-novel-opening-and-how-to-fix-them-in-one-pass#primaryimage"
       },
+      "datePublished": "2026-09-07",
+      "dateModified": "2026-09-07",
       "mentions": [
         {
           "@type": "WebPage",

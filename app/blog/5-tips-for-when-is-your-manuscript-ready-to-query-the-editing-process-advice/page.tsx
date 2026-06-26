@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for when is your manuscript ready to query: the editing-process advice literary agents actually use",
   "description": "Writers love one clean answer: \u201cMy manuscript is finished.\u201d And then they can move on, right?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-18",
+  "modifiedDate": "2026-12-18",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-when-is-your-manuscript-ready-to-query-the-editing-process-advice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -496,6 +496,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-when-is-your-manuscript-ready-to-query-the-editing-process-advice#primaryimage"
       },
+      "datePublished": "2026-12-18",
+      "dateModified": "2026-12-18",
       "mentions": [
         {
           "@type": "WebPage",

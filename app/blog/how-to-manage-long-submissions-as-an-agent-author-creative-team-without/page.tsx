@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
   "description": "Long submissions feel like a verdict. Like you're being quietly graded, and the score is \"not yet.\" That's the myth.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
+  "publishedDate": "2027-05-22",
+  "modifiedDate": "2027-05-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "inbox"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/how-to-manage-long-submissions-as-an-agent-author-creative-team-without/blog/blog_hero_stuck_dread_blog_hero_landscape_b4b747d4d450.jpeg?updatedAt=1782167405947",
+    "alt": "blog hero \u00b7 stuck dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "item": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
+      "item": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     }
   ],
   "tldrBlocks": [],
@@ -105,7 +114,16 @@ const PAGE_DATA = {
           "text": "This is agent author creative team dynamics, not a transactional handshake. You're coordinating roles, not guessing."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/how-to-manage-long-submissions-as-an-agent-author-creative-team-without/blog/blog_section_image_role_clarity_creative_team_blog_section_landscape_cd68d93cf00e.gif",
+        "alt": "Step 1: Align the team expectations so \"waiting\" isn't a mystery",
+        "width": 230,
+        "height": 200,
+        "creator": "theaslgifs",
+        "creatorUrl": "https://giphy.com/gifs/team-member-part-of-the-group-bGZpPzmQAjpwn1Q8g1",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_2_audit_your_submission_timeline_context",
@@ -214,7 +232,16 @@ const PAGE_DATA = {
           "text": "\"Long submissions give you two options: doomscroll the calendar, or do revision work that makes the next request easier.\""
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/how-to-manage-long-submissions-as-an-agent-author-creative-team-without/blog/blog_section_image_editing_revision_blog_section_landscape_bb2026b70d8b.gif",
+        "alt": "Step 3: Do editing that supports the next round",
+        "width": 358,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/JEZ3wy3IUQR8s",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_4_handle_the_agent_not_included_problem",
@@ -251,7 +278,16 @@ const PAGE_DATA = {
           "text": "You're fixing the coordination so the agent author creative team dynamics actually function. This directly addresses **what to do when agent not included** in your team's workflow."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/how-to-manage-long-submissions-as-an-agent-author-creative-team-without/blog/blog_section_image_exclusion_communication_channel_blog_section_landscape_1b62f449351d.jpeg",
+        "alt": "Step 4: Fix communication gaps immediately",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_5_choose_give_up_rules_not_feelings",
@@ -340,19 +376,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     },
     {
       "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     },
     {
       "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     },
     {
-      "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+      "title": "Optimizing your blurb for Amazon and other retailers FAQ",
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -391,7 +427,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "url": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     }
   ]
 } as const;
@@ -421,7 +457,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -433,28 +469,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "item": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
+          "item": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
       "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -470,11 +509,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#article",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without",
       "headline": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
       "alternativeHeadline": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
       "description": "Long submissions feel like a verdict. Like you're being quietly graded, and the score is \"not yet.\" That's the myth.",
@@ -503,38 +542,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#primaryimage"
+      },
+      "datePublished": "2027-05-22",
+      "dateModified": "2027-05-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "url": "https://writequeryhook.com/query-letters/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+          "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
         },
         {
           "@type": "WebPage",
           "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+          "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         },
         {
           "@type": "WebPage",
           "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+          "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+          "name": "Optimizing your blurb for Amazon and other retailers FAQ",
+          "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_407/how-to-manage-long-submissions-as-an-agent-author-creative-team-without/blog/blog_hero_stuck_dread_blog_hero_landscape_b4b747d4d450.jpeg?updatedAt=1782167405947",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 stuck dread",
+      "creditText": "Felicity Tai",
+      "author": {
+        "@type": "Person",
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#howto",
       "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
       "description": "Long submissions feel like a verdict. Like you're being quietly graded, and the score is \"not yet.\" That's the myth.",
       "totalTime": "PT6M",
@@ -544,49 +598,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Align the team expectations so \"waiting\" isn't a mystery",
           "text": "Do this before you spiral. Clarify what your agent is doing and what you are responsible for while submissions are active.",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-1-align-the-team-expectations-so-waiting-isn-t-a-mystery"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-1-align-the-team-expectations-so-waiting-isn-t-a-mystery"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Audit your submission timeline context (not your feelings)",
           "text": "Take the dread out of your head and put it on paper. You need a timeline that answers: what changed, and when?",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-2-audit-your-submission-timeline-context-not-your-feelings"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-2-audit-your-submission-timeline-context-not-your-feelings"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Do editing that supports the next round",
           "text": "If you can't control when agents read, you can control what you're building while they do.",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-3-do-editing-that-supports-the-next-round"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-3-do-editing-that-supports-the-next-round"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Fix communication gaps immediately",
           "text": "Here's where things get ugly\u2014because it's confusing and preventable.",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-4-fix-communication-gaps-immediately"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-4-fix-communication-gaps-immediately"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Choose \"when to give up on submissions\" rules\u2014not vibes",
           "text": "Don't quit because the timeline is long. Decide on defensible rules:",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-5-choose-when-to-give-up-on-submissions-rules-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-5-choose-when-to-give-up-on-submissions-rules-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Keep a submission loop during waits",
           "text": "Follow a structured check-in process instead of random follow-ups.",
-          "url": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-6-keep-a-submission-loop-during-waits"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#step-6-keep-a-submission-loop-during-waits"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without#faq",
       "mainEntity": [
         {
           "@type": "Question",

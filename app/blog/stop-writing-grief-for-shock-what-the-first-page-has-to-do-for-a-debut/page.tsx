@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop writing grief for shock: what the first page has to do for a debut literary agent",
   "description": "A lot of writers think the job is to scare the reader into caring. If the book is about grief, they assume the only way to earn attention is to \"go darker,\" sharpen the knife, and hope the agent thinks, Finally\u2014serious.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-07",
+  "modifiedDate": "2026-12-07",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-writing-grief-for-shock-what-the-first-page-has-to-do-for-a-debut",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -589,6 +589,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-writing-grief-for-shock-what-the-first-page-has-to-do-for-a-debut#primaryimage"
       },
+      "datePublished": "2026-12-07",
+      "dateModified": "2026-12-07",
       "mentions": [
         {
           "@type": "WebPage",

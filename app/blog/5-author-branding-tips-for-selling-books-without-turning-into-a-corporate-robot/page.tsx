@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 author branding tips for selling books without turning into a corporate robot",
   "description": "Most authors don't get rejected because their writing is \"bad.\" They get ignored because nobody knows what to do with them yet.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
+  "publishedDate": "2027-10-16",
+  "modifiedDate": "2027-10-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 author branding tips for selling books without turning into a corporate robot",
-      "item": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+      "item": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
     }
   ],
   "tldrBlocks": [],
@@ -402,19 +402,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-      "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
-    },
-    {
-      "title": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-      "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
     },
     {
       "title": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-      "url": "https://writequeryhook.com/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild-the-backlist"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
     },
     {
-      "title": "How advances work against royalties: when you'll actually see money",
-      "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+      "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
+      "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+    },
+    {
+      "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -449,7 +449,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
     }
   ]
 } as const;
@@ -479,7 +479,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -491,31 +491,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 author branding tips for selling books without turning into a corporate robot",
-          "item": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+          "item": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
+      "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#webpage",
+      "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
       "name": "5 author branding tips for selling books without turning into a corporate robot",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -531,11 +531,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#article",
+      "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#webpage"
+        "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot",
       "headline": "5 author branding tips for selling books without turning into a corporate robot",
       "alternativeHeadline": "5 author branding tips for selling books without turning into a corporate robot",
       "description": "Most authors don't get rejected because their writing is \"bad.\" They get ignored because nobody knows what to do with them yet.",
@@ -565,39 +565,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage"
       },
+      "datePublished": "2027-10-16",
+      "dateModified": "2027-10-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-          "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-          "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
         },
         {
           "@type": "WebPage",
           "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-          "url": "https://writequeryhook.com/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild-the-backlist"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
         },
         {
           "@type": "WebPage",
-          "name": "How advances work against royalties: when you'll actually see money",
-          "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+          "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+        },
+        {
+          "@type": "WebPage",
+          "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+          "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_578/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot/blog/blog_hero_awkward_reputation_blog_hero_landscape_70e9fffe9262.jpeg",
       "width": 6764,
       "height": 4545,
@@ -613,7 +610,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#faq",
+      "@id": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot#faq",
       "mainEntity": [
         {
           "@type": "Question",

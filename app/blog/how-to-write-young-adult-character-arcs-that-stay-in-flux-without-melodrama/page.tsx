@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write young adult character arcs that stay in flux (without melodrama)",
   "description": "TLDR",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-04",
+  "modifiedDate": "2026-11-04",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-young-adult-character-arcs-that-stay-in-flux-without-melodrama",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -613,6 +613,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-young-adult-character-arcs-that-stay-in-flux-without-melodrama#primaryimage"
       },
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-04",
       "mentions": [
         {
           "@type": "WebPage",

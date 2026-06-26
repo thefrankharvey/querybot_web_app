@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
   "description": "You'd think \"how long should a novel be?\" would come with a soothing answer like: as long as it takes. That's true in craft terms, sure\u2014but querying doesn't run on craft vibes. It runs on category expectations, and those expectations show up in word count and pages the second an agent/editor has to make a fast decision.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
+  "publishedDate": "2027-07-01",
+  "modifiedDate": "2027-07-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_hero_confused_dread_blog_hero_landscape_6bf7262ed9f5.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_hero_confused_dread_blog_hero_landscape_6bf7262ed9f5.jpeg?updatedAt=1782240636417",
     "alt": "blog hero \u00b7 confused dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "item": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
+      "item": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     }
   ],
   "tldrBlocks": [],
@@ -125,7 +125,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_rejection_letter_gatekeeping_blog_section_landscape_c7c2dfa2c553.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_rejection_letter_gatekeeping_blog_section_landscape_c7c2dfa2c553.jpeg?updatedAt=1782240637129",
         "alt": "The real reason word count gets you rejected",
         "width": 6000,
         "height": 4000,
@@ -222,7 +222,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_safe_range_caution_blog_section_landscape_7e20d27cbd45.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_safe_range_caution_blog_section_landscape_7e20d27cbd45.gif?updatedAt=1782240639467",
         "alt": "Adult, YA, MG, picture books, and memoir targets by age",
         "width": 356,
         "height": 200,
@@ -355,43 +355,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_edit_down_options_blog_section_landscape_9bcb6c675104.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_edit_down_options_blog_section_landscape_9bcb6c675104.gif",
         "alt": "How to decide between tiny and huge without ruining the story",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_section_image_deep_breath_commit_blog_section_landscape_5d7ef53a4645.gif",
-    "alt": "blog section image \u00b7 deep breath commit",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     },
     {
       "title": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-      "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
-    },
-    {
-      "title": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-      "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+      "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
     },
     {
       "title": "10 questions to ask before committing to any ebook publishing service",
-      "url": "https://writequeryhook.com/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+      "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+    },
+    {
+      "title": "How to get a self-published book into libraries without wasting months",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -434,7 +425,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "url": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     }
   ]
 } as const;
@@ -464,7 +455,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -476,31 +467,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "item": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
+          "item": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
+      "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#webpage",
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
       "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -516,11 +507,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#article",
+      "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#webpage"
+        "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that",
       "headline": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
       "alternativeHeadline": "Word count isn\u2019t a vibe: the ranges that get manuscripts read (and the ones that don\u2019t)",
       "description": "You'd think \"how long should a novel be?\" would come with a soothing answer like: as long as it takes. That's true in craft terms, sure\u2014but querying doesn't run on craft vibes. It runs on category expectations, and those expectations show up in word count and pages the second an agent/editor has to make a fast decision.",
@@ -550,40 +541,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage"
       },
+      "datePublished": "2027-07-01",
+      "dateModified": "2027-07-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "url": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+          "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
         },
         {
           "@type": "WebPage",
           "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-          "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-          "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+          "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
         },
         {
           "@type": "WebPage",
           "name": "10 questions to ask before committing to any ebook publishing service",
-          "url": "https://writequeryhook.com/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+          "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to get a self-published book into libraries without wasting months",
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_hero_confused_dread_blog_hero_landscape_6bf7262ed9f5.jpeg",
+      "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that/blog/blog_hero_confused_dread_blog_hero_landscape_6bf7262ed9f5.jpeg?updatedAt=1782240636417",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confused dread",
@@ -598,7 +586,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#faq",
+      "@id": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

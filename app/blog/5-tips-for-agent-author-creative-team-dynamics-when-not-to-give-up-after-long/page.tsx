@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
   "description": "The hardest part of the submission period isn't the writing. It's the waiting while your brain treats every slow week like a verdict.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
+  "publishedDate": "2027-05-25",
+  "modifiedDate": "2027-05-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_hero_stuck_spiraling_blog_hero_landscape_2d0610caa96b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_hero_stuck_spiraling_blog_hero_landscape_2d0610caa96b.jpeg?updatedAt=1782173972946",
     "alt": "blog hero \u00b7 stuck spiraling",
     "width": 5501,
     "height": 3883,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+      "item": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
     }
   ],
   "tldrBlocks": [],
@@ -175,7 +175,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_panic_clarity_blog_section_landscape_9bf17b2f06e5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_panic_clarity_blog_section_landscape_9bf17b2f06e5.gif?updatedAt=1782173975217",
         "alt": "When to give up on submissions: Stop when your data says \"no,\" not when your brain says \"soon\"",
         "width": 200,
         "height": 200,
@@ -237,7 +237,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_calendar_dread_waiting_game_blog_section_landscape_82a9bcdd5e96.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_calendar_dread_waiting_game_blog_section_landscape_82a9bcdd5e96.gif?updatedAt=1782173976789",
         "alt": "How to manage submission timelines: Build a cadence you can survive",
         "width": 334,
         "height": 200,
@@ -365,7 +365,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_revision_feedback_loop_blog_section_landscape_c975691d2112.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_revision_feedback_loop_blog_section_landscape_c975691d2112.jpeg?updatedAt=1782173977732",
         "alt": "Editing guidance during long submissions: Keep revising without breaking the submission thread",
         "width": 3999,
         "height": 2667,
@@ -376,32 +376,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_section_image_fist_pump_resolve_blog_section_landscape_0be56746043c.jpeg",
-    "alt": "blog section image \u00b7 fist pump resolve",
-    "width": 5903,
-    "height": 3935,
-    "creator": "Luis Quintero",
-    "creatorUrl": "https://www.pexels.com/@jibarofoto",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     },
     {
       "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-      "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     },
     {
-      "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-      "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+      "title": "Incorporating agent or editor feedback FAQ",
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     },
     {
-      "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+      "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -440,7 +431,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     }
   ]
 } as const;
@@ -470,7 +461,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -482,31 +473,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+          "item": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
       "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -522,11 +513,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long",
       "headline": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
       "alternativeHeadline": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
       "description": "The hardest part of the submission period isn't the writing. It's the waiting while your brain treats every slow week like a verdict.",
@@ -556,40 +547,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage"
       },
+      "datePublished": "2027-05-25",
+      "dateModified": "2027-05-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+          "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-          "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+          "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         },
         {
           "@type": "WebPage",
-          "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-          "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+          "name": "Incorporating agent or editor feedback FAQ",
+          "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+          "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
+          "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_hero_stuck_spiraling_blog_hero_landscape_2d0610caa96b.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long/blog/blog_hero_stuck_spiraling_blog_hero_landscape_2d0610caa96b.jpeg?updatedAt=1782173972946",
       "width": 5501,
       "height": 3883,
       "caption": "blog hero \u00b7 stuck spiraling",
@@ -604,7 +592,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long#faq",
       "mainEntity": [
         {
           "@type": "Question",

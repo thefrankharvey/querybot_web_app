@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for handling rejection when \"almost\" feels worse",
   "description": "Rejection hurts. Not \"oh, bummer\" hurts\u2014mailbox-to-the-chest hurts. And when the email comes with something like \"we were close\" or \"we loved X,\" the sting doesn't magically get smaller. It gets sharper. Because your brain starts bargaining: If I fix one thing, maybe they'll come back. Maybe this was the last no.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-28",
+  "modifiedDate": "2027-02-28",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-handling-rejection-when-almost-feels-worse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -491,6 +491,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-handling-rejection-when-almost-feels-worse#primaryimage"
       },
+      "datePublished": "2027-02-28",
+      "dateModified": "2027-02-28",
       "mentions": [
         {
           "@type": "WebPage",

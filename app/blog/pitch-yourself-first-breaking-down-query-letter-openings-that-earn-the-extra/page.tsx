@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Pitch yourself first: breaking down query-letter openings that earn the extra read",
   "description": "Most query advice tells you to \"hook the story\" right away. Which is adorable. And also why so many submissions look like they came from the same template printer.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-02",
+  "modifiedDate": "2026-08-02",
   "canonicalUrl": "https://writequeryhook.com/blog/pitch-yourself-first-breaking-down-query-letter-openings-that-earn-the-extra",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -649,6 +649,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/pitch-yourself-first-breaking-down-query-letter-openings-that-earn-the-extra#primaryimage"
       },
+      "datePublished": "2026-08-02",
+      "dateModified": "2026-08-02",
       "mentions": [
         {
           "@type": "WebPage",

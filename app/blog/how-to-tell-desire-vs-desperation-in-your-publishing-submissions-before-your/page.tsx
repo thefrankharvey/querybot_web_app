@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to tell desire vs desperation in your publishing submissions (before your heart pays the bill)",
   "description": "Rejection doesn't just sting. It nags. It turns into background radiation that makes your brain start bargaining: Just pick me. Just choose me. Any email that isn't silence. Then submissions turn from \"publishing\" into an emotional scramble.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-26",
+  "modifiedDate": "2027-02-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-tell-desire-vs-desperation-in-your-publishing-submissions-before-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -599,6 +599,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-tell-desire-vs-desperation-in-your-publishing-submissions-before-your#primaryimage"
       },
+      "datePublished": "2027-02-26",
+      "dateModified": "2027-02-26",
       "mentions": [
         {
           "@type": "WebPage",

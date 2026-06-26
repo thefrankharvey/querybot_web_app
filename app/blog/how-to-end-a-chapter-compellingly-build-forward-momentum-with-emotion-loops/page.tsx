@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to end a chapter compellingly: build forward momentum with emotion, loops, and restraint",
   "description": "If your chapters feel great up until the last paragraph\u2026 and then readers drift when they hit the page break, that's not your imagination. That blank space is prime real estate for distraction, and readers use it to decide whether the next chapter is worth the effort.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-31",
+  "modifiedDate": "2026-08-31",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-end-a-chapter-compellingly-build-forward-momentum-with-emotion-loops",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -509,6 +509,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-end-a-chapter-compellingly-build-forward-momentum-with-emotion-loops#primaryimage"
       },
+      "datePublished": "2026-08-31",
+      "dateModified": "2026-08-31",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Competitive Title Analysis for a Nonfiction Proposal",
   "description": "You can feel it when you pitch nonfiction: the idea is good, the writing is solid, and then\u2014mysterious dread\u2014comes the part where you have to explain why this book is needed. That's where title analysis stops being busywork and starts being nonfiction marketing math.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-06",
+  "modifiedDate": "2026-08-06",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-competitive-title-analysis-for-a-nonfiction-proposal",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -573,6 +573,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-competitive-title-analysis-for-a-nonfiction-proposal#primaryimage"
       },
+      "datePublished": "2026-08-06",
+      "dateModified": "2026-08-06",
       "mentions": [
         {
           "@type": "WebPage",

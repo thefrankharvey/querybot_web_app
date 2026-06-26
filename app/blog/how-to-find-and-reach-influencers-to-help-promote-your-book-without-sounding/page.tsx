@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
   "description": "Book promotion is maddening when the book is good and the traction still doesn't show up. Most writers don't have a \"content\" problem\u2014they have an audience problem they can't quite translate into real outreach targets. And then influencer marketing feels like this giant, unapproachable thing: big names, loud opinions, and inboxes that never empty.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
+  "publishedDate": "2027-08-16",
+  "modifiedDate": "2027-08-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_hero_confusion_book_promotion_blog_hero_landscape_91be51231de0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_hero_confusion_book_promotion_blog_hero_landscape_91be51231de0.jpeg?updatedAt=1782311978153",
     "alt": "blog hero \u00b7 confusion book promotion",
     "width": 5802,
     "height": 3868,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-      "item": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
+      "item": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     }
   ],
   "tldrBlocks": [],
@@ -118,7 +118,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_clarity_target_audience_blog_section_landscape_ac1caf349050.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_clarity_target_audience_blog_section_landscape_ac1caf349050.gif?updatedAt=1782311978719",
         "alt": "Step 1: Define your exact audience like you're naming real humans",
         "width": 113,
         "height": 200,
@@ -218,7 +218,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_confidence_judgment_blog_section_landscape_f5c11a3b9bd8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_confidence_judgment_blog_section_landscape_f5c11a3b9bd8.jpeg?updatedAt=1782311979366",
         "alt": "Step 3: Qualify who counts as an influencer for authors (fit beats fame)",
         "width": 5472,
         "height": 3648,
@@ -272,7 +272,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_sincerity_value_blog_section_landscape_49aac3be0b1b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_sincerity_value_blog_section_landscape_49aac3be0b1b.gif?updatedAt=1782311980097",
         "alt": "Step 4: Prepare your value first (get on the radar without asking for favors)",
         "width": 356,
         "height": 200,
@@ -379,32 +379,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_section_image_next_action_open_tab_blog_section_landscape_07bc06c2cf8c.jpeg",
-    "alt": "blog section image \u00b7 next action open tab",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Diana \u2728",
-    "creatorUrl": "https://www.pexels.com/@didsss",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to emotionally move your readers (so they recommend and talk)",
-      "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     },
     {
       "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     },
     {
       "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     },
     {
-      "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -443,7 +434,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to emotionally move your readers (so they recommend and talk)",
-      "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     }
   ]
 } as const;
@@ -473,7 +464,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -485,31 +476,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-          "item": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
+          "item": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
       "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -525,11 +516,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#article",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding",
       "headline": "How to find and reach influencers to help promote your book (without sounding transactional)",
       "alternativeHeadline": "How to find and reach influencers to help promote your book (without sounding transactional)",
       "description": "Book promotion is maddening when the book is good and the traction still doesn't show up. Most writers don't have a \"content\" problem\u2014they have an audience problem they can't quite translate into real outreach targets. And then influencer marketing feels like this giant, unapproachable thing: big names, loud opinions, and inboxes that never empty.",
@@ -559,40 +550,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage"
       },
+      "datePublished": "2027-08-16",
+      "dateModified": "2027-08-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to emotionally move your readers (so they recommend and talk)",
-          "url": "https://writequeryhook.com/query-letters/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to emotionally move your readers (so they recommend and talk)",
-          "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
         },
         {
           "@type": "WebPage",
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         },
         {
           "@type": "WebPage",
           "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+          "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
         },
         {
           "@type": "WebPage",
-          "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+          "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_hero_confusion_book_promotion_blog_hero_landscape_91be51231de0.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_506/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding/blog/blog_hero_confusion_book_promotion_blog_hero_landscape_91be51231de0.jpeg?updatedAt=1782311978153",
       "width": 5802,
       "height": 3868,
       "caption": "blog hero \u00b7 confusion book promotion",
@@ -607,7 +595,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#howto",
       "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
       "description": "Book promotion is maddening when the book is good and the traction still doesn't show up. Most writers don't have a \"content\" problem\u2014they have an audience problem they can't quite translate into real outreach targets. And then influencer marketing feels like this giant, unapproachable thing: big names, loud opinions, and inboxes that never empty.",
       "totalTime": "PT7M",
@@ -617,49 +605,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your exact audience like you're naming real humans",
           "text": "Start with your audience, not your genre. \"Writers who like fantasy\" is vague. \"Readers who want cozy, character-first fantasy with found-family vibes\" is an actual target.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-1-define-your-exact-audience-like-you-re-naming-real-humans"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-1-define-your-exact-audience-like-you-re-naming-real-humans"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Map the movers in that audience (creators, communities, and businesses)",
           "text": "Now you're doing the inventory work: how to find influencers for your book by identifying who already moves in your reader space.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-2-map-the-movers-in-that-audience-creators-communities-and-businesses"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-2-map-the-movers-in-that-audience-creators-communities-and-businesses"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Qualify who counts as an influencer for authors (fit beats fame)",
           "text": "Next, decide who counts as an influencer for authors in a way that matches your book promotion goal. A small, active person can be better than a huge account with dead engagement.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-3-qualify-who-counts-as-an-influencer-for-authors-fit-beats-fame"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-3-qualify-who-counts-as-an-influencer-for-authors-fit-beats-fame"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Prepare your value first (get on the radar without asking for favors)",
           "text": "Before outreach, get your ducks in a row. If you approach with only \"please promote my book,\" you're basically asking a stranger to bet their credibility on your draft.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-4-prepare-your-value-first-get-on-the-radar-without-asking-for-favors"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-4-prepare-your-value-first-get-on-the-radar-without-asking-for-favors"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: How to reach out to book influencers with sincerity and clarity",
           "text": "This is where outreach feels intimidating. The trick is tone and structure: be clear, be human, and make the first ask small.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-5-how-to-reach-out-to-book-influencers-with-sincerity-and-clarity"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-5-how-to-reach-out-to-book-influencers-with-sincerity-and-clarity"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Building relationships with influencers sincerely, over time",
           "text": "One message doesn't build trust. Relationship building happens through consistent, helpful interaction.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-6-building-relationships-with-influencers-sincerely-over-time"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#step-6-building-relationships-with-influencers-sincerely-over-time"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding#faq",
       "mainEntity": [
         {
           "@type": "Question",

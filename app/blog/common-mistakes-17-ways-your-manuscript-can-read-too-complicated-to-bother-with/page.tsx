@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes: 17 ways your manuscript can read \u201ctoo complicated\u201d to bother with",
   "description": "If you keep getting rejection, here\u2019s the contrarian problem: you might be mistaking complex for compelling. Complex can also read as \u201cconfusing,\u201d and confusion kills momentum fast.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-02",
+  "modifiedDate": "2026-07-02",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-17-ways-your-manuscript-can-read-too-complicated-to-bother-with",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -850,6 +850,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-17-ways-your-manuscript-can-read-too-complicated-to-bother-with#primaryimage"
       },
+      "datePublished": "2026-07-02",
+      "dateModified": "2026-07-02",
       "mentions": [
         {
           "@type": "WebPage",

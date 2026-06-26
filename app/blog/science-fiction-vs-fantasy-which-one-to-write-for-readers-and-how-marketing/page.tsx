@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
   "description": "Most writers don't struggle with the word \"genre.\" They struggle with the moment after they tell someone what they wrote and get hit with a different label than expected.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
+  "publishedDate": "2027-06-26",
+  "modifiedDate": "2027-06-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_hero_confusion_genre_label_panic_blog_hero_landscape_30149f7257b1.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_hero_confusion_genre_label_panic_blog_hero_landscape_30149f7257b1.jpeg",
     "alt": "blog hero \u00b7 confusion genre label panic",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 4240,
+    "height": 2384,
+    "creator": "Skylar Kang",
+    "creatorUrl": "https://www.pexels.com/@skylar-kang",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "item": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
+      "item": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     }
   ],
   "tldrBlocks": [],
@@ -126,13 +126,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_contrast_tension_blog_section_landscape_0b593b2824f0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_contrast_tension_blog_section_landscape_0b593b2824f0.gif",
         "alt": "Science fiction vs fantasy differences: possible vs impossible",
-        "width": 6000,
-        "height": 4000,
-        "creator": "AMOL NAKVE",
-        "creatorUrl": "https://www.pexels.com/@amol-nakve-2148578663",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "stebore91",
+        "creatorUrl": "https://giphy.com/gifs/hands-raised-smug-smile-good-looking-guy-GgubxlrL2OPZRvhICv",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -347,13 +347,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_shelf_placement_category_forms_blog_section_landscape_bb88577b5a90.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_shelf_placement_category_forms_blog_section_landscape_bb88577b5a90.jpeg",
         "alt": "How marketing decides genre classification: for buyers",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3089,
+        "height": 2048,
+        "creator": "Darya Sannikova",
+        "creatorUrl": "https://www.pexels.com/@myatezhny39",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -378,43 +378,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_the_verdict_blog_section_landscape_0b3dde5468e5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_the_verdict_blog_section_landscape_0b3dde5468e5.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_section_image_final_choice_commit_blog_section_landscape_342b4ad59ac8.jpeg",
-    "alt": "blog section image \u00b7 final choice commit",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Middle grade vs young adult: which category your book actually fits",
-      "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     },
     {
       "title": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-      "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
-    },
-    {
-      "title": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-      "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
+      "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
     },
     {
       "title": "What are you working toward? Goals, writing, legacy, and working less",
-      "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+    },
+    {
+      "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
+      "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -453,7 +444,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Middle grade vs young adult: which category your book actually fits",
-      "url": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     }
   ]
 } as const;
@@ -483,7 +474,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -495,31 +486,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "item": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
+          "item": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#webpage",
-      "url": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
+      "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#webpage",
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
       "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -535,11 +526,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#article",
+      "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#webpage"
+        "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing",
       "headline": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
       "alternativeHeadline": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
       "description": "Most writers don't struggle with the word \"genre.\" They struggle with the moment after they tell someone what they wrote and get hit with a different label than expected.",
@@ -569,55 +560,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage"
       },
+      "datePublished": "2027-06-26",
+      "dateModified": "2027-06-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Middle grade vs young adult: which category your book actually fits",
-          "url": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Middle grade vs young adult: which category your book actually fits",
-          "url": "https://writequeryhook.com/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+          "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
         },
         {
           "@type": "WebPage",
           "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-          "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-          "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
+          "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
         },
         {
           "@type": "WebPage",
           "name": "What are you working toward? Goals, writing, legacy, and working less",
-          "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+          "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+        },
+        {
+          "@type": "WebPage",
+          "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
+          "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_hero_confusion_genre_label_panic_blog_hero_landscape_30149f7257b1.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing/blog/blog_hero_confusion_genre_label_panic_blog_hero_landscape_30149f7257b1.jpeg",
+      "width": 4240,
+      "height": 2384,
       "caption": "blog hero \u00b7 confusion genre label panic",
-      "creditText": "Giphy",
+      "creditText": "Skylar Kang",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Skylar Kang",
+        "url": "https://www.pexels.com/@skylar-kang"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#faq",
+      "@id": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing#faq",
       "mainEntity": [
         {
           "@type": "Question",

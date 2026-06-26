@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing 'Not Literary Enough' Is a Trap\u2014Stop Waiting for Permission and Start (Stupidly) Shipping",
   "description": "Writers keep asking for \"permission\" the way other people ask HR for an office badge. Like if we can just earn the right identity\u2014capital-W Writer\u2014then the act of writing will finally become legitimate.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-15",
+  "modifiedDate": "2027-03-15",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-not-literary-enough-is-a-trap-stop-waiting-for-permission-and-start",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -614,6 +614,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-not-literary-enough-is-a-trap-stop-waiting-for-permission-and-start#primaryimage"
       },
+      "datePublished": "2027-03-15",
+      "dateModified": "2027-03-15",
       "mentions": [
         {
           "@type": "WebPage",

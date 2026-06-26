@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
   "description": "When a literary agent offers representation, the excitement is real. So is the risk: your adrenaline wants a \"yes\" on the spot, while the contract and the working relationship are the real decision.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
+  "publishedDate": "2027-05-02",
+  "modifiedDate": "2027-05-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_hero_offer_rush_excitement_blog_hero_landscape_1bf0c20e220c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_hero_offer_rush_excitement_blog_hero_landscape_1bf0c20e220c.jpeg",
     "alt": "blog hero \u00b7 offer-rush excitement",
-    "width": 356,
-    "height": 200,
-    "creator": "ForbesTheCulture",
-    "creatorUrl": "https://giphy.com/gifs/pause-dame-dash-ai1UxGMqU7G5TZQmJa",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Gustavo Fring",
+    "creatorUrl": "https://www.pexels.com/@gustavo-fring",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-      "item": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+      "item": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     }
   ],
   "tldrBlocks": [],
@@ -164,7 +164,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg?updatedAt=1782086294607",
         "alt": "Are agents allowed to charge fees upfront?",
         "width": 6016,
         "height": 4016,
@@ -212,7 +212,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg?updatedAt=1782086294607",
         "alt": "Are agents allowed to charge fees upfront?",
         "width": 6016,
         "height": 4016,
@@ -339,7 +339,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_author_rights_contract_clauses_blog_section_landscape_18351494c276.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_author_rights_contract_clauses_blog_section_landscape_18351494c276.gif?updatedAt=1782086295564",
         "alt": "What to check in an author agreement before signing",
         "width": 120,
         "height": 200,
@@ -375,7 +375,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_other_agents_relationships_blog_section_landscape_212c78ea6903.jpeg?updatedAt=1782086294607",
         "alt": "Are agents allowed to charge fees upfront?",
         "width": 6016,
         "height": 4016,
@@ -414,32 +414,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_section_image_reply_draft_question_list_blog_section_landscape_b77d8d604791.jpeg",
-    "alt": "blog section image \u00b7 reply-draft question-list",
-    "width": 6016,
-    "height": 4016,
-    "creator": "Leeloo The First",
-    "creatorUrl": "https://www.pexels.com/@leeloothefirst",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What Is an Editorial Letter? Developmental Editing FAQs",
-      "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     },
     {
       "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     },
     {
       "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     },
     {
-      "title": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-      "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+      "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -453,7 +444,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What Is an Editorial Letter? Developmental Editing FAQs",
-      "url": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs"
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     }
   ]
 } as const;
@@ -483,7 +474,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -495,31 +486,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-          "item": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+          "item": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#webpage",
-      "url": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
+      "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#webpage",
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
       "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -535,11 +526,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#article",
+      "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#webpage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights",
       "headline": "Representation offer FAQ: how to respond, decide, and protect your rights",
       "alternativeHeadline": "Representation offer FAQ: how to respond, decide, and protect your rights",
       "description": "When a literary agent offers representation, the excitement is real. So is the risk: your adrenaline wants a \"yes\" on the spot, while the contract and the working relationship are the real decision.",
@@ -569,48 +560,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage"
       },
+      "datePublished": "2027-05-02",
+      "dateModified": "2027-05-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-          "url": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-          "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+          "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
         },
         {
           "@type": "WebPage",
           "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         },
         {
           "@type": "WebPage",
           "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+          "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
         },
         {
           "@type": "WebPage",
-          "name": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-          "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+          "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
+          "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_hero_offer_rush_excitement_blog_hero_landscape_1bf0c20e220c.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/representation-offer-faq-how-to-respond-decide-and-protect-your-rights/blog/blog_hero_offer_rush_excitement_blog_hero_landscape_1bf0c20e220c.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 offer-rush excitement",
-      "creditText": "ForbesTheCulture",
+      "creditText": "Gustavo Fring",
       "author": {
         "@type": "Person",
-        "name": "ForbesTheCulture",
-        "url": "https://giphy.com/gifs/pause-dame-dash-ai1UxGMqU7G5TZQmJa"
+        "name": "Gustavo Fring",
+        "url": "https://www.pexels.com/@gustavo-fring"
       },
       "@context": "https://schema.org"
     }

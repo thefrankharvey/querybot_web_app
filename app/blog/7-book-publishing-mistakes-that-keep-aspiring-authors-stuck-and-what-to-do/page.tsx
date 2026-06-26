@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
   "description": "If you're trying to get a book published and it feels like you're sprinting into a wall, the problem isn't effort\u2014it's mechanics. Publishing-mechanics, not craft mechanics. The kind that turns a \"great manuscript\" into a polite rejection and a growing pile of \"why?\" tabs.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
+  "publishedDate": "2027-06-22",
+  "modifiedDate": "2027-06-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_hero_stuck_confusion_blog_hero_landscape_b4e82dfa30af.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_hero_stuck_confusion_blog_hero_landscape_b4e82dfa30af.jpeg",
     "alt": "blog hero \u00b7 stuck confusion",
-    "width": 222,
-    "height": 200,
-    "creator": "joluijten",
-    "creatorUrl": "https://giphy.com/gifs/confused-stuck-not-getting-it-rqOiHrynEe543tASYu",
-    "provider": "giphy",
+    "width": 5472,
+    "height": 3648,
+    "creator": "Andrew Neel",
+    "creatorUrl": "https://www.pexels.com/@andrew",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
+      "item": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -183,7 +183,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_purpose_confusion_blog_section_landscape_aa28bc02b3d9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_purpose_confusion_blog_section_landscape_aa28bc02b3d9.gif?updatedAt=1782228737087",
         "alt": "You're writing the wrong thing for the submission reality",
         "width": 200,
         "height": 200,
@@ -254,7 +254,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_delusion_denial_blog_section_landscape_90028eb10728.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_delusion_denial_blog_section_landscape_90028eb10728.jpeg?updatedAt=1782228737676",
         "alt": "You're ignoring market realities when you pitch",
         "width": 6240,
         "height": 4160,
@@ -381,13 +381,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_messy_pages_formatting_blog_section_landscape_e341360ff6dd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_messy_pages_formatting_blog_section_landscape_e341360ff6dd.gif",
         "alt": "You're skipping professional presentation on the packet",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -554,32 +554,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_section_image_rip_it_up_fix_yours_blog_section_landscape_98845a5ce053.jpeg",
-    "alt": "blog section image \u00b7 rip it up fix yours",
-    "width": 4835,
-    "height": 2231,
-    "creator": "Sergey  Meshkov",
-    "creatorUrl": "https://www.pexels.com/@19x14",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-      "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
     },
     {
       "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-      "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
     },
     {
       "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     },
     {
-      "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+      "title": "How to copyright a book (and whether registration is worth it)",
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -594,12 +585,7 @@ const PAGE_DATA = {
       "text": "That's how you get out of the \"stuck\" loop and back into the work that actually moves the book forward."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-      "url": "https://writequeryhook.com/query-letters/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -627,7 +613,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -639,31 +625,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
+          "item": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
+      "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
       "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -679,11 +665,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#article",
+      "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do",
       "headline": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
       "alternativeHeadline": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
       "description": "If you're trying to get a book published and it feels like you're sprinting into a wall, the problem isn't effort\u2014it's mechanics. Publishing-mechanics, not craft mechanics. The kind that turns a \"great manuscript\" into a polite rejection and a growing pile of \"why?\" tabs.",
@@ -713,48 +699,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-06-22",
+      "dateModified": "2027-06-22",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-          "url": "https://writequeryhook.com/query-letters/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and"
-        },
-        {
-          "@type": "WebPage",
           "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-          "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+          "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
         },
         {
           "@type": "WebPage",
           "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-          "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+          "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         },
         {
           "@type": "WebPage",
-          "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+          "name": "How to copyright a book (and whether registration is worth it)",
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_hero_stuck_confusion_blog_hero_landscape_b4e82dfa30af.gif",
-      "width": 222,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_443/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do/blog/blog_hero_stuck_confusion_blog_hero_landscape_b4e82dfa30af.jpeg",
+      "width": 5472,
+      "height": 3648,
       "caption": "blog hero \u00b7 stuck confusion",
-      "creditText": "joluijten",
+      "creditText": "Andrew Neel",
       "author": {
         "@type": "Person",
-        "name": "joluijten",
-        "url": "https://giphy.com/gifs/confused-stuck-not-getting-it-rqOiHrynEe543tASYu"
+        "name": "Andrew Neel",
+        "url": "https://www.pexels.com/@andrew"
       },
       "@context": "https://schema.org"
     }

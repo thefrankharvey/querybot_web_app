@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes that make your category-busting book harder to sell",
   "description": "Your manuscript can be brilliant and still get treated like a problem during a sales conversation. That's the pain point nobody loves admitting out loud\u2014especially when you're a debut author with something unconventional and your brain keeps screaming, Will anyone on the team risk this?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
+  "publishedDate": "2027-08-22",
+  "modifiedDate": "2027-08-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_hero_worry_debut_author_anxiety_blog_hero_landscape_713e16e0fe10.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_hero_worry_debut_author_anxiety_blog_hero_landscape_713e16e0fe10.jpeg",
     "alt": "blog hero \u00b7 worry debut author anxiety",
-    "width": 267,
-    "height": 200,
-    "creator": "inkygirl",
-    "creatorUrl": "https://giphy.com/gifs/debut-author-illustrator-zZOcaiusBzIVMKicq4",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Lucas Pezeta",
+    "creatorUrl": "https://www.pexels.com/@lucaspezeta",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes that make your category-busting book harder to sell",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
+      "item": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
     }
   ],
   "tldrBlocks": [],
@@ -226,7 +226,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_gimmick_experiment_blog_section_landscape_f6da299b1edb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_gimmick_experiment_blog_section_landscape_f6da299b1edb.jpeg?updatedAt=1782315443654",
         "alt": "You're making an experiment instead of a story-critical unconventional choice",
         "width": 6144,
         "height": 3456,
@@ -396,13 +396,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_expectations_tropes_blog_section_landscape_a9b67070556a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_expectations_tropes_blog_section_landscape_a9b67070556a.gif",
         "alt": "You're ignoring tropes, so the reader can't predict what's coming",
-        "width": 6720,
-        "height": 4480,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "FourRestFilms",
+        "creatorUrl": "https://giphy.com/gifs/FourRestFilms-sosoaked-so-soaked-tropical-tropes-2CBez9snmzCfXEzrbK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -419,7 +419,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_recap_blog_section_landscape_df997fb1be52.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_recap_blog_section_landscape_df997fb1be52.gif?updatedAt=1782315444780",
         "alt": "Recap",
         "width": 279,
         "height": 200,
@@ -430,32 +430,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_section_image_reset_revise_blog_section_landscape_01757dd09a5d.jpeg",
-    "alt": "blog section image \u00b7 reset revise",
-    "width": 6720,
-    "height": 4480,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-      "url": "https://writequeryhook.com/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     },
     {
       "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-      "url": "https://writequeryhook.com/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     },
     {
-      "title": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-      "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
+      "title": "What independent publishers and bookstores protect when publishing gets consolidated",
+      "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
     },
     {
       "title": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -470,12 +461,7 @@ const PAGE_DATA = {
       "text": "Now go fix yours\u2014starting with the one sentence where you explain what readers actually get when they open this book. A debut lives or dies on that kind of clarity."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Author websites that actually work: what five examples get right (and why)",
-      "url": "https://writequeryhook.com/query-letters/author-websites-that-actually-work-what-five-examples-get-right-and-why"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -503,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -515,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes that make your category-busting book harder to sell",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
+          "item": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
       "name": "Common mistakes that make your category-busting book harder to sell",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -555,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell",
       "headline": "Common mistakes that make your category-busting book harder to sell",
       "alternativeHeadline": "Common mistakes that make your category-busting book harder to sell",
       "description": "Your manuscript can be brilliant and still get treated like a problem during a sales conversation. That's the pain point nobody loves admitting out loud\u2014especially when you're a debut author with something unconventional and your brain keeps screaming, Will anyone on the team risk this?",
@@ -589,48 +575,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage"
       },
+      "datePublished": "2027-08-22",
+      "dateModified": "2027-08-22",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Author websites that actually work: what five examples get right (and why)",
-          "url": "https://writequeryhook.com/query-letters/author-websites-that-actually-work-what-five-examples-get-right-and-why"
-        },
-        {
-          "@type": "WebPage",
           "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-          "url": "https://writequeryhook.com/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         },
         {
           "@type": "WebPage",
           "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-          "url": "https://writequeryhook.com/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
         },
         {
           "@type": "WebPage",
-          "name": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-          "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
+          "name": "What independent publishers and bookstores protect when publishing gets consolidated",
+          "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
         },
         {
           "@type": "WebPage",
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_hero_worry_debut_author_anxiety_blog_hero_landscape_713e16e0fe10.gif",
-      "width": 267,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_513/common-mistakes-that-make-your-category-busting-book-harder-to-sell/blog/blog_hero_worry_debut_author_anxiety_blog_hero_landscape_713e16e0fe10.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 worry debut author anxiety",
-      "creditText": "inkygirl",
+      "creditText": "Lucas Pezeta",
       "author": {
         "@type": "Person",
-        "name": "inkygirl",
-        "url": "https://giphy.com/gifs/debut-author-illustrator-zZOcaiusBzIVMKicq4"
+        "name": "Lucas Pezeta",
+        "url": "https://www.pexels.com/@lucaspezeta"
       },
       "@context": "https://schema.org"
     }

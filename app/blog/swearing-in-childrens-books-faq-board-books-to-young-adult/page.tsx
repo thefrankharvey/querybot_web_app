@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Swearing in childrens books FAQ: board books to young adult",
   "description": "Writers ask about swearing because the publishing brainwashing is real: one person says \"it's fine,\" another says \"publishers won't touch it,\" and your manuscript is sitting there like a charged landmine. Most of the anxiety comes from gatekeepers\u2014teachers, librarians, parents, and other adult decision-makers\u2014because their expectations can shape what gets purchased, promoted, and even discussed.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-05",
+  "modifiedDate": "2026-10-05",
   "canonicalUrl": "https://writequeryhook.com/blog/swearing-in-childrens-books-faq-board-books-to-young-adult",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -415,6 +415,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/swearing-in-childrens-books-faq-board-books-to-young-adult#primaryimage"
       },
+      "datePublished": "2026-10-05",
+      "dateModified": "2026-10-05",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
   "description": "Some authors have this sweet little fantasy where \"publishing\" happens like a movie montage: manuscript \u2192 editorial approval \u2192 announcement \u2192 books appear in stores.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
+  "publishedDate": "2027-08-08",
+  "modifiedDate": "2027-08-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_hero_recognition_dread_blog_hero_landscape_e6bb123409ce.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_hero_recognition_dread_blog_hero_landscape_e6bb123409ce.jpeg?updatedAt=1782273707157",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "item": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
+      "item": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     }
   ],
   "tldrBlocks": [],
@@ -165,13 +165,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_printing_paper_blog_section_landscape_7461c92dd027.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_printing_paper_blog_section_landscape_7461c92dd027.gif",
         "alt": "Printing: where \"how many copies\" becomes \"what the book costs\"",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Brando.ltd",
-        "creatorUrl": "https://www.pexels.com/@brando-ltd-120530945",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "CartridgePeople",
+        "creatorUrl": "https://giphy.com/gifs/8RkkBiTNe6dmLbfN3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -239,7 +239,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_retailers_bookstores_blog_section_landscape_620fdeb08424.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_retailers_bookstores_blog_section_landscape_620fdeb08424.jpeg?updatedAt=1782273708266",
         "alt": "Distribution: how book availability gets gated by channel mechanics",
         "width": 6718,
         "height": 4479,
@@ -330,7 +330,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_wholesale_inventory_blog_section_landscape_6cf6f978b354.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_wholesale_inventory_blog_section_landscape_6cf6f978b354.gif?updatedAt=1782273708923",
         "alt": "Wholesale, warehousing, and inventory: the margin squeeze nobody puts on the book jacket",
         "width": 298,
         "height": 200,
@@ -341,32 +341,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_section_image_relief_resolve_blog_section_landscape_381a07ac097b.gif",
-    "alt": "blog section image \u00b7 relief resolve",
-    "width": 330,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/relief-z23hGvopHu7w4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-      "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     },
     {
       "title": "Literary agent cost: what you should pay (and what you should never pay)",
-      "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     },
     {
       "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     },
     {
-      "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -409,7 +400,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "url": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     }
   ]
 } as const;
@@ -439,7 +430,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -451,31 +442,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "item": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
+          "item": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
+      "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#webpage",
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
       "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -491,11 +482,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#article",
+      "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#webpage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing",
       "headline": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
       "alternativeHeadline": "Why \u2018publishing\u2019 is really three businesses in a trench coat: printing, distribution, and wholesale",
       "description": "Some authors have this sweet little fantasy where \"publishing\" happens like a movie montage: manuscript \u2192 editorial approval \u2192 announcement \u2192 books appear in stores.",
@@ -525,40 +516,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage"
       },
+      "datePublished": "2027-08-08",
+      "dateModified": "2027-08-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "url": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         },
         {
           "@type": "WebPage",
           "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-          "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         },
         {
           "@type": "WebPage",
           "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
         },
         {
           "@type": "WebPage",
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+          "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         },
         {
           "@type": "WebPage",
-          "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+          "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
+          "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_hero_recognition_dread_blog_hero_landscape_e6bb123409ce.jpeg",
+      "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/why-publishing-is-really-three-businesses-in-a-trench-coat-printing/blog/blog_hero_recognition_dread_blog_hero_landscape_e6bb123409ce.jpeg?updatedAt=1782273707157",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -573,7 +566,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#faq",
+      "@id": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing#faq",
       "mainEntity": [
         {
           "@type": "Question",

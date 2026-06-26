@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Hope and Action for Authors FAQ: keep writing when hope gets flickery",
   "description": "Hope is a weird substance to build with. Some days it's everywhere\u2014on the page, in the characters, in the tiny belief that this draft could become something. Other days it turns into fog. Life, headlines, and the publishing machine keep punching the \"will this matter?\" button, and suddenly the work feels disconnected from any outcome you care about.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-10",
+  "modifiedDate": "2027-04-10",
   "canonicalUrl": "https://writequeryhook.com/blog/hope-and-action-for-authors-faq-keep-writing-when-hope-gets-flickery",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -447,6 +447,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/hope-and-action-for-authors-faq-keep-writing-when-hope-gets-flickery#primaryimage"
       },
+      "datePublished": "2027-04-10",
+      "dateModified": "2027-04-10",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Premise in YA: why \"emotional stakes\" matter more than the trend",
   "description": "If you've ever stared at your manuscript and thought, I know this is good, so why doesn't it feel like the stuff editors keep buying?\u2014yeah. That's a specific kind of panic.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
+  "publishedDate": "2027-10-18",
+  "modifiedDate": "2027-10-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-      "item": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+      "item": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
     }
   ],
   "tldrBlocks": [],
@@ -436,19 +436,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-      "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
-    },
-    {
-      "title": "The 270 best writing contests (sorted by form, not vibes)",
-      "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
+      "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
     },
     {
       "title": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-      "url": "https://writequeryhook.com/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their-book-can-work"
+      "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
     },
     {
       "title": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-      "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+    },
+    {
+      "title": "5 author branding tips for selling books without turning into a corporate robot",
+      "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -487,7 +487,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 economics of publishing mistakes that make author income look like a scam",
-      "url": "https://writequeryhook.com/query-letters/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+      "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
     }
   ]
 } as const;
@@ -517,7 +517,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -529,31 +529,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-          "item": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+          "item": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#webpage",
-      "url": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
+      "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#webpage",
+      "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
       "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage"
+        "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -569,11 +569,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#article",
+      "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#webpage"
+        "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend",
       "headline": "Premise in YA: why \"emotional stakes\" matter more than the trend",
       "alternativeHeadline": "Premise in YA: why \"emotional stakes\" matter more than the trend",
       "description": "If you've ever stared at your manuscript and thought, I know this is good, so why doesn't it feel like the stuff editors keep buying?\u2014yeah. That's a specific kind of panic.",
@@ -603,39 +603,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage"
+        "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage"
       },
+      "datePublished": "2027-10-18",
+      "dateModified": "2027-10-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 economics of publishing mistakes that make author income look like a scam",
-          "url": "https://writequeryhook.com/query-letters/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+          "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
         },
         {
           "@type": "WebPage",
           "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-          "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The 270 best writing contests (sorted by form, not vibes)",
-          "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
+          "url": "https://writequeryhook.com/blog/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
         },
         {
           "@type": "WebPage",
           "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-          "url": "https://writequeryhook.com/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their-book-can-work"
+          "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
         },
         {
           "@type": "WebPage",
           "name": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-          "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 author branding tips for selling books without turning into a corporate robot",
+          "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage",
+      "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_581/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend/blog/blog_hero_confusion_trend_chasing_blog_hero_landscape_db255366f999.jpeg",
       "width": 6720,
       "height": 4480,
@@ -651,7 +653,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#faq",
+      "@id": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend#faq",
       "mainEntity": [
         {
           "@type": "Question",

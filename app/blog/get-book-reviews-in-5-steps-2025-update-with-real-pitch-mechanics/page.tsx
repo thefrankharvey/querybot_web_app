@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
   "description": "If you're trying to get book reviews, you're also trying to solve the most annoying hiring problem in the publishing world: you need early momentum to earn attention, and you need attention to earn reviews. That loop is real, and it feels personal because your inbox is the only place you can watch the clock.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
+  "publishedDate": "2027-09-29",
+  "modifiedDate": "2027-09-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_hero_book_marketing_chicken_and_egg_blog_hero_landscape_95ed1fbe56eb.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_hero_book_marketing_chicken_and_egg_blog_hero_landscape_95ed1fbe56eb.jpeg?updatedAt=1782336183829",
     "alt": "blog hero \u00b7 book marketing chicken-and-egg",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "item": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+      "item": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     }
   ],
   "tldrBlocks": [],
@@ -124,7 +124,7 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_5fe87ee574e7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_5fe87ee574e7.gif?updatedAt=1782336184463",
         "alt": "Body \u2014 Structural breakdown",
         "width": 279,
         "height": 200,
@@ -253,7 +253,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_persona_audience_fit_blog_section_landscape_2a4bda139242.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_persona_audience_fit_blog_section_landscape_2a4bda139242.jpeg?updatedAt=1782336184956",
         "alt": "Step 2: Clarify your \"who\" with an audience questionnaire (then use comps)",
         "width": 6000,
         "height": 4000,
@@ -416,7 +416,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_pitching_policy_blog_section_landscape_73506ba8e01d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_pitching_policy_blog_section_landscape_73506ba8e01d.gif?updatedAt=1782336185631",
         "alt": "Step 4: Pitch policy-compliant, personalized review requests (no bulk pitching)",
         "width": 358,
         "height": 200,
@@ -560,32 +560,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_section_image_revision_energy_do_the_work_blog_section_landscape_bd408d7fdc95.jpeg",
-    "alt": "blog section image \u00b7 revision energy do the work",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How JB Harris used research and direct outreach to publish successfully with a small press",
-      "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
-    },
-    {
       "title": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
     },
     {
       "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-      "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
     },
     {
-      "title": "17 mistakes indie authors keep making on the road to publishing success",
-      "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
+    },
+    {
+      "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -620,7 +611,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "url": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     }
   ]
 } as const;
@@ -650,7 +641,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -662,31 +653,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "item": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+          "item": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#webpage",
-      "url": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#webpage",
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
       "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -702,11 +693,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#article",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#webpage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics",
       "headline": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
       "alternativeHeadline": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
       "description": "If you're trying to get book reviews, you're also trying to solve the most annoying hiring problem in the publishing world: you need early momentum to earn attention, and you need attention to earn reviews. That loop is real, and it feels personal because your inbox is the only place you can watch the clock.",
@@ -736,40 +727,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage"
+        "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage"
       },
+      "datePublished": "2027-09-29",
+      "dateModified": "2027-09-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "url": "https://writequeryhook.com/query-letters/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How JB Harris used research and direct outreach to publish successfully with a small press",
-          "url": "https://writequeryhook.com/how-jb-harris-used-research-and-direct-outreach-to-publish-successfully-with-a-small-press"
+          "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir: how the editing + cover design decisions shape the whole book",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape-the-whole-book"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-how-the-editing-cover-design-decisions-shape"
         },
         {
           "@type": "WebPage",
           "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-          "url": "https://writequeryhook.com/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain-tension"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
         },
         {
           "@type": "WebPage",
-          "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_hero_book_marketing_chicken_and_egg_blog_hero_landscape_95ed1fbe56eb.jpeg",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_557/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics/blog/blog_hero_book_marketing_chicken_and_egg_blog_hero_landscape_95ed1fbe56eb.jpeg?updatedAt=1782336183829",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 book marketing chicken-and-egg",
@@ -784,7 +777,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#faq",
+      "@id": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics#faq",
       "mainEntity": [
         {
           "@type": "Question",

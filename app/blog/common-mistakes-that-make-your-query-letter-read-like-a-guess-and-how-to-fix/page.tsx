@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make your query letter read like a guess (and how to fix them)",
   "description": "Somewhere around the fifth \"just circling back\" draft (I've been there), you start treating the query like a vibe check.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-11",
+  "modifiedDate": "2026-07-11",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-your-query-letter-read-like-a-guess-and-how-to-fix",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -595,6 +595,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-query-letter-read-like-a-guess-and-how-to-fix#primaryimage"
       },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
       "mentions": [
         {
           "@type": "WebPage",

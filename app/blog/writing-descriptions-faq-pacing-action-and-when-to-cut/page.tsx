@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing descriptions FAQ: pacing, action, and when to cut",
   "description": "Descriptions are supposed to help. They should deepen character, clarify setting, tilt theme, or make the reader feel something they can't get from dialogue alone. The problem is that writers don't usually struggle with whether to describe. They struggle with how much to describe\u2014especially when a scene is moving fast and the temptation is to document every last movement like a camera on a tripod.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-13",
+  "modifiedDate": "2026-12-13",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-descriptions-faq-pacing-action-and-when-to-cut",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -481,6 +481,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-descriptions-faq-pacing-action-and-when-to-cut#primaryimage"
       },
+      "datePublished": "2026-12-13",
+      "dateModified": "2026-12-13",
       "mentions": [
         {
           "@type": "WebPage",

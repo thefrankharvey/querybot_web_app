@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Inciting Incident Definition and Examples FAQ",
   "description": "Your inciting incident isn't \"the first interesting thing that happens.\" It's the scene that breaks the protagonist's normal life and forces the main conflict to start moving. Most writers know that in theory\u2014then they stall on execution, because they can't tell what counts versus setup, and they worry the first pages won't grip.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-27",
+  "modifiedDate": "2026-10-27",
   "canonicalUrl": "https://writequeryhook.com/blog/inciting-incident-definition-and-examples-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -472,6 +472,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/inciting-incident-definition-and-examples-faq#primaryimage"
       },
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
       "mentions": [
         {
           "@type": "WebPage",

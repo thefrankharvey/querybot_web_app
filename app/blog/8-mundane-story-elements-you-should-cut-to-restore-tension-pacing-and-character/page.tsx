@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "8 mundane story elements you should cut to restore tension, pacing, and character",
   "description": "Your plot can be \"technically happening\" and still feel dead. Scenes drag. Dialogue sounds like two people doing customer service. Action turns into a step-by-step tutorial. And you're sitting there thinking, Why does it feel slow when nothing is actually missing?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-22",
+  "modifiedDate": "2026-10-22",
   "canonicalUrl": "https://writequeryhook.com/blog/8-mundane-story-elements-you-should-cut-to-restore-tension-pacing-and-character",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -655,6 +655,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/8-mundane-story-elements-you-should-cut-to-restore-tension-pacing-and-character#primaryimage"
       },
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
       "mentions": [
         {
           "@type": "WebPage",

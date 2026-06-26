@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The answer is always community: why writers crack when they try to do it solo",
   "description": "The first time writers expose vulnerable work to public eyes, something inside them tightens. Not just \"I hope this goes well.\" More like: if this goes badly, I'll find out I'm alone.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-02",
+  "modifiedDate": "2027-03-02",
   "canonicalUrl": "https://writequeryhook.com/blog/the-answer-is-always-community-why-writers-crack-when-they-try-to-do-it-solo",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -701,6 +701,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-answer-is-always-community-why-writers-crack-when-they-try-to-do-it-solo#primaryimage"
       },
+      "datePublished": "2027-03-02",
+      "dateModified": "2027-03-02",
       "mentions": [
         {
           "@type": "WebPage",

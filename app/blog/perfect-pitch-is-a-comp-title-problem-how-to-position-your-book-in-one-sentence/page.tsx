@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Perfect pitch is a comp title problem: how to position your book in one sentence",
   "description": "TLDR",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-10",
+  "modifiedDate": "2026-08-10",
   "canonicalUrl": "https://writequeryhook.com/blog/perfect-pitch-is-a-comp-title-problem-how-to-position-your-book-in-one-sentence",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -740,6 +740,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/perfect-pitch-is-a-comp-title-problem-how-to-position-your-book-in-one-sentence#primaryimage"
       },
+      "datePublished": "2026-08-10",
+      "dateModified": "2026-08-10",
       "mentions": [
         {
           "@type": "WebPage",

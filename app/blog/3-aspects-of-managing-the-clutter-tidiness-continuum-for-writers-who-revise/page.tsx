@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 aspects of managing the clutter tidiness continuum (for writers who revise stuck drafts)",
   "description": "Most writers have two versions of the same problem.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-13",
+  "modifiedDate": "2026-11-13",
   "canonicalUrl": "https://writequeryhook.com/blog/3-aspects-of-managing-the-clutter-tidiness-continuum-for-writers-who-revise",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -435,6 +435,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-aspects-of-managing-the-clutter-tidiness-continuum-for-writers-who-revise#primaryimage"
       },
+      "datePublished": "2026-11-13",
+      "dateModified": "2026-11-13",
       "mentions": [
         {
           "@type": "WebPage",

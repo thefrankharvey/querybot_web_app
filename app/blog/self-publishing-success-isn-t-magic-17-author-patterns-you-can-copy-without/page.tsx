@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
   "description": "Most writers come at self-publishing like it's either a last resort or a secret shortcut.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
+  "publishedDate": "2027-07-26",
+  "modifiedDate": "2027-07-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_hero_recognition_dread_blog_hero_landscape_f8c8d58dda26.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_hero_recognition_dread_blog_hero_landscape_f8c8d58dda26.jpeg?updatedAt=1782264234306",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-      "item": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
+      "item": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
     }
   ],
   "tldrBlocks": [],
@@ -207,7 +207,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_marketing_community_blog_section_landscape_ba0e6096f455.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_marketing_community_blog_section_landscape_ba0e6096f455.jpeg?updatedAt=1782264234927",
         "alt": "How indie authors build an audience: marketing as the delivery system",
         "width": 5184,
         "height": 3888,
@@ -289,13 +289,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_editing_tension_blog_section_landscape_a3614dd8342b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_editing_tension_blog_section_landscape_a3614dd8342b.gif",
         "alt": "Improving a manuscript before pitching: the editorial leverage that compounds",
-        "width": 5568,
-        "height": 3712,
-        "creator": "Amar  Preciado",
-        "creatorUrl": "https://www.pexels.com/@amar",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -359,7 +359,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_rights_control_blog_section_landscape_9c753cbe3bfe.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_rights_control_blog_section_landscape_9c753cbe3bfe.gif?updatedAt=1782264236696",
         "alt": "Rights, control, and re-release: building optionality into your career",
         "width": 200,
         "height": 200,
@@ -370,32 +370,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_dba03e22909a.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-      "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
     },
     {
       "title": "3 things to know when hiring a pro for your writing",
-      "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     },
     {
       "title": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     },
     {
-      "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+      "title": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
+      "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -434,7 +425,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to self-publish a family memoir when the story won't behave",
-      "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
     }
   ]
 } as const;
@@ -464,7 +455,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -476,31 +467,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-          "item": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
+          "item": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#webpage",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
+      "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#webpage",
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
       "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -516,11 +507,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#article",
+      "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#webpage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without",
       "headline": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
       "alternativeHeadline": "Self-publishing success isn\u2019t magic: 17 author patterns you can copy (without becoming a celebrity)",
       "description": "Most writers come at self-publishing like it's either a last resort or a secret shortcut.",
@@ -550,40 +541,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage"
       },
+      "datePublished": "2027-07-26",
+      "dateModified": "2027-07-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to self-publish a family memoir when the story won't behave",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
         },
         {
           "@type": "WebPage",
           "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-          "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+          "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
         },
         {
           "@type": "WebPage",
           "name": "3 things to know when hiring a pro for your writing",
-          "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+          "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
         },
         {
           "@type": "WebPage",
           "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "url": "https://writequeryhook.com/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+          "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         },
         {
           "@type": "WebPage",
-          "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+          "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_hero_recognition_dread_blog_hero_landscape_f8c8d58dda26.jpeg",
+      "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without/blog/blog_hero_recognition_dread_blog_hero_landscape_f8c8d58dda26.jpeg?updatedAt=1782264234306",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -598,7 +591,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#faq",
+      "@id": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without#faq",
       "mainEntity": [
         {
           "@type": "Question",

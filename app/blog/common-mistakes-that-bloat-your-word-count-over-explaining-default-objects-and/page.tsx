@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that bloat your word count: over-explaining default objects and gestures",
   "description": "Writers keep getting told to \u201ccut what doesn\u2019t matter.\u201d Cool. The problem is that a lot of what doesn\u2019t matter hides inside sentences you didn\u2019t notice were doing extra work\u2014especially when you\u2019re describing default objects and gestures like you\u2019re writing a museum placard.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-06",
+  "modifiedDate": "2026-09-06",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-bloat-your-word-count-over-explaining-default-objects-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -629,6 +629,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-bloat-your-word-count-over-explaining-default-objects-and#primaryimage"
       },
+      "datePublished": "2026-09-06",
+      "dateModified": "2026-09-06",
       "mentions": [
         {
           "@type": "WebPage",

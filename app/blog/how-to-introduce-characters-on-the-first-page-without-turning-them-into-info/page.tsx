@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to introduce characters on the first page without turning them into info dumps",
   "description": "You know that moment when the reader arrives in Chapter One and immediately starts thinking, Wait\u2014why am I hearing a character\u2019s r\u00e9sum\u00e9? That\u2019s the info-dump vibe. It usually starts with \u201cHere\u2019s who this person is,\u201d instead of \u201cHere\u2019s what they\u2019re doing right now.\u201d",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-23",
+  "modifiedDate": "2026-11-23",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-introduce-characters-on-the-first-page-without-turning-them-into-info",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-introduce-characters-on-the-first-page-without-turning-them-into-info#primaryimage"
       },
+      "datePublished": "2026-11-23",
+      "dateModified": "2026-11-23",
       "mentions": [
         {
           "@type": "WebPage",

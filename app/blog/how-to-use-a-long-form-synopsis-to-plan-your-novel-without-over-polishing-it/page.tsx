@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
   "description": "A long-form synopsis can feel weirdly threatening. Not because it's hard\u2014but because it wants to be a \"real document.\" Like, polished. Like, pitch-ready. Like it should come out perfect on page one.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
+  "publishedDate": "2027-11-06",
+  "modifiedDate": "2027-11-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "item": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "item": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
     }
   ],
   "tldrBlocks": [],
@@ -408,19 +408,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     },
     {
       "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     },
     {
       "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     },
     {
-      "title": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -459,7 +459,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     }
   ]
 } as const;
@@ -489,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -501,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "item": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+          "item": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
       "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -541,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#article",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it",
       "headline": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
       "alternativeHeadline": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
       "description": "A long-form synopsis can feel weirdly threatening. Not because it's hard\u2014but because it wants to be a \"real document.\" Like, polished. Like, pitch-ready. Like it should come out perfect on page one.",
@@ -575,39 +575,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage"
       },
+      "datePublished": "2027-11-06",
+      "dateModified": "2027-11-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         },
         {
           "@type": "WebPage",
           "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
         },
         {
           "@type": "WebPage",
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         },
         {
           "@type": "WebPage",
-          "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+          "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
+          "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_605/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it/blog/blog_hero_recognition_dread_blog_hero_landscape_a215e0da9866.gif",
       "width": 200,
       "height": 200,
@@ -623,7 +625,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#howto",
       "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
       "description": "A long-form synopsis can feel weirdly threatening. Not because it's hard\u2014but because it wants to be a \"real document.\" Like, polished. Like, pitch-ready. Like it should come out perfect on page one.",
       "totalTime": "PT7M",
@@ -633,49 +635,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Write the story essentials in a dump page (not a final draft)",
           "text": "Start with the minimum set of facts you can't improvise reliably later. This becomes your spine. Your first pass can be ugly. Use headings if that helps, but the goal is dumping the essentials, not writing something \"beautiful.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-1-write-the-story-essentials-in-a-dump-page-not-a-final-draft"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-1-write-the-story-essentials-in-a-dump-page-not-a-final-draft"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Turn gaps into plot structure with an ordinary-world \u2192 problem \u2192 confrontation \u2192 climax \u2192 resolution sequence",
           "text": "Now you stop being a notetaker and start being a mechanic. The chaos becomes useful when you translate it into a familiar story shape.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-2-turn-gaps-into-plot-structure-with-an-ordinary-world-problem"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-2-turn-gaps-into-plot-structure-with-an-ordinary-world-problem"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Do a logic read and list unanswered questions while the draft is still chaotic",
           "text": "Read your long-form synopsis and grade your own coherence for logic, not style.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-3-do-a-logic-read-and-list-unanswered-questions-while-the-draft-is-still"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-3-do-a-logic-read-and-list-unanswered-questions-while-the-draft-is-still"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Revise until the plot and arc make sense when you explain them out loud",
           "text": "Tighten enough that you can describe it without fumbling.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-4-revise-until-the-plot-and-arc-make-sense-when-you-explain-them-out-loud"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-4-revise-until-the-plot-and-arc-make-sense-when-you-explain-them-out-loud"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Share with critique partners by setting boundaries that prevent nitpicking and wasted time",
           "text": "Now share it. But do not dump it on people without guidance\u2014especially if your synopsis is meant to be messy.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-5-share-with-critique-partners-by-setting-boundaries-that-prevent"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-5-share-with-critique-partners-by-setting-boundaries-that-prevent"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Treat your synopsis like a living document you revisit during planning, drafting, and revising",
           "text": "Your long-form synopsis should not freeze at \"done.\" It should move with your manuscript.",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-6-treat-your-synopsis-like-a-living-document-you-revisit-during-planning"
+          "url": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#step-6-treat-your-synopsis-like-a-living-document-you-revisit-during-planning"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

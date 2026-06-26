@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
   "description": "If you're trying to learn how to publish your first book and you keep bouncing between \"traditional vs self-publishing\" takes, you're not alone. You're collecting the wrong kind of help for your current stage\u2014and wasting hours you could spend writing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
+  "publishedDate": "2027-07-08",
+  "modifiedDate": "2027-07-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_hero_confusion_blank_page_blog_hero_landscape_3a1a620fdd8b.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_hero_confusion_blank_page_blog_hero_landscape_3a1a620fdd8b.jpeg?updatedAt=1782244972763",
     "alt": "blog hero \u00b7 confusion blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "item": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
+      "item": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     }
   ],
   "tldrBlocks": [],
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_structure_checklists_blog_section_landscape_16bc84d69d3c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_structure_checklists_blog_section_landscape_16bc84d69d3c.gif",
         "alt": "What you get from the FAQs series vs alternatives",
-        "width": 4500,
-        "height": 3000,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -157,13 +157,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_comparison_table_quick_scan_blog_section_landscape_8c02488ca075.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_comparison_table_quick_scan_blog_section_landscape_8c02488ca075.jpeg",
         "alt": "Comparison table (quick scan)",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -365,7 +365,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_relief_vindication_blog_section_landscape_daba6c1a64a4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_relief_vindication_blog_section_landscape_daba6c1a64a4.gif?updatedAt=1782244975067",
         "alt": "The FAQs that keep you from common first-book mistakes",
         "width": 226,
         "height": 200,
@@ -394,32 +394,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_section_image_decision_made_deep_breath_blog_section_landscape_c558338d2677.jpeg",
-    "alt": "blog section image \u00b7 decision made deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ivan S",
-    "creatorUrl": "https://www.pexels.com/@ivan-s",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     },
     {
       "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     },
     {
       "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     },
     {
-      "title": "Infographic 5 Key Book Publishing Paths FAQ",
-      "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+      "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -462,7 +453,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "url": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     }
   ]
 } as const;
@@ -492,7 +483,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -504,31 +495,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "item": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
+          "item": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
+      "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#webpage",
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
       "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -544,11 +535,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#article",
+      "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#webpage"
+        "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that",
       "headline": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
       "alternativeHeadline": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
       "description": "If you're trying to learn how to publish your first book and you keep bouncing between \"traditional vs self-publishing\" takes, you're not alone. You're collecting the wrong kind of help for your current stage\u2014and wasting hours you could spend writing.",
@@ -578,40 +569,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage"
       },
+      "datePublished": "2027-07-08",
+      "dateModified": "2027-07-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "url": "https://writequeryhook.com/query-letters/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
+          "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+          "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         },
         {
           "@type": "WebPage",
           "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+          "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
         },
         {
           "@type": "WebPage",
           "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Infographic 5 Key Book Publishing Paths FAQ",
-          "url": "https://writequeryhook.com/infographic-5-key-book-publishing-paths-faq"
+          "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
+          "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_hero_confusion_blank_page_blog_hero_landscape_3a1a620fdd8b.jpeg",
+      "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_462/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that/blog/blog_hero_confusion_blank_page_blog_hero_landscape_3a1a620fdd8b.jpeg?updatedAt=1782244972763",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 confusion blank page",
@@ -626,7 +619,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#faq",
+      "@id": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

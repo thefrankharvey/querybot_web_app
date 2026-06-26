@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Finding comp titles examples: how the best queries signal tone, not just genre",
   "description": "You already know the annoying part: \u201cWhat\u2019s your book about?\u201d is easy to answer badly.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-13",
+  "modifiedDate": "2026-08-13",
   "canonicalUrl": "https://writequeryhook.com/blog/finding-comp-titles-examples-how-the-best-queries-signal-tone-not-just-genre",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -863,6 +863,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/finding-comp-titles-examples-how-the-best-queries-signal-tone-not-just-genre#primaryimage"
       },
+      "datePublished": "2026-08-13",
+      "dateModified": "2026-08-13",
       "mentions": [
         {
           "@type": "WebPage",

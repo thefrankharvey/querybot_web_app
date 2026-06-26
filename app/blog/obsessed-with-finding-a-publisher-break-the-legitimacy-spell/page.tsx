@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Obsessed With Finding a Publisher? Break the Legitimacy Spell",
   "description": "This case-study isn't breaking down a single agent's response letter or a query packet. It's breaking down a published mindset: the argument that writers obsessing over legitimacy get pulled off the road they're actually supposed to drive\u2014writing for readers.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-04",
+  "modifiedDate": "2027-03-04",
   "canonicalUrl": "https://writequeryhook.com/blog/obsessed-with-finding-a-publisher-break-the-legitimacy-spell",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/obsessed-with-finding-a-publisher-break-the-legitimacy-spell#primaryimage"
       },
+      "datePublished": "2027-03-04",
+      "dateModified": "2027-03-04",
       "mentions": [
         {
           "@type": "WebPage",

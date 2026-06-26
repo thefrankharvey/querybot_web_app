@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
   "description": "A lot of writers hear \"author platform\" and assume it means: be online, post more, hope for the best. That's not what it means. In publishing, an author platform is best understood as authority and eyeballs\u2014credibility to be trusted, plus the ability to get readers to notice (and then buy).",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want",
+  "publishedDate": "2027-06-13",
+  "modifiedDate": "2027-06-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "trust"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/author-platform-faq-what-it-means-and-what-publishers-actually-want/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_6cdd0c03912b.jpeg?updatedAt=1782428180218",
+    "alt": "blog hero \u00b7 confusion blank-page dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-      "item": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+      "item": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
     }
   ],
   "tldrBlocks": [],
@@ -153,7 +162,16 @@ const PAGE_DATA = {
           "text": "The second piece is important: platforms that are vague are easy to dismiss. Publishers prefer **clear and measurable proof**\u2014a strong, specific author bio and numbers when you cite audience reach. \"I'm active on social media\" is easy to ignore; \"here's what my work reaches\" is harder to wave away."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/author-platform-faq-what-it-means-and-what-publishers-actually-want/blog/blog_section_image_hesitation_evidence_blog_section_landscape_2e1c76a0f6d0.gif?updatedAt=1782428181148",
+        "alt": "What do publishers look for in an author platform?",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_where_can_authority_come_from_if_you_dont_have_a_big_audience",
@@ -224,7 +242,16 @@ const PAGE_DATA = {
           "text": "Examples that often work (depending on your niche): publishing topic articles, blogging or newsletters in your area, guest appearances, pitching yourself for expert interviews, or creating credibility content tied to your book's promise. The point is to create a steady trail of authority and audience reach you can reference when you pitch."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/author-platform-faq-what-it-means-and-what-publishers-actually-want/blog/blog_section_image_consistency_sustainable_routine_blog_section_landscape_bb1ec64c0ee3.gif?updatedAt=1782428181980",
+        "alt": "How should an author boost their platform before pitching?",
+        "width": 200,
+        "height": 200,
+        "creator": "worldcup",
+        "creatorUrl": "https://giphy.com/gifs/world-cup-fifa-seleo-tB5edJNLYkZL5K0hGp",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_additional_questions_writers_ask_about_author_platform",
@@ -265,26 +292,35 @@ const PAGE_DATA = {
           "text": "Fiction and memoir may not require it the way prescriptive nonfiction does. But publishers still respond to a clear author bio and evidence that you can connect with readers. You can build visibility through community and recognized venues, even if your primary engine is the work itself."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/author-platform-faq-what-it-means-and-what-publishers-actually-want/blog/blog_section_image_realistic_expectations_social_media_blog_section_landscape_9a5e84ed0989.jpeg?updatedAt=1782428182406",
+        "alt": "Additional questions writers ask about author platform",
+        "width": 4653,
+        "height": 3133,
+        "creator": "Visual Tag Mx",
+        "creatorUrl": "https://www.pexels.com/@visual-tag-mx-1321732",
+        "provider": "pexels",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-      "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
     },
     {
       "title": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-      "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+      "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
     },
     {
-      "title": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-      "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+      "title": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
+      "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
     },
     {
-      "title": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-      "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
+      "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
+      "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -298,7 +334,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-      "url": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
     }
   ]
 } as const;
@@ -328,7 +364,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -340,28 +376,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-          "item": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+          "item": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want#webpage",
-      "url": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want",
+      "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#webpage",
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want",
       "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -377,11 +416,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want#article",
+      "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want#webpage"
+        "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want",
       "headline": "Author Platform FAQ: What It Means and What Publishers Actually Want",
       "alternativeHeadline": "Author Platform FAQ: What It Means and What Publishers Actually Want",
       "description": "A lot of writers hear \"author platform\" and assume it means: be online, post more, hope for the best. That's not what it means. In publishing, an author platform is best understood as authority and eyeballs\u2014credibility to be trusted, plus the ability to get readers to notice (and then buy).",
@@ -410,33 +449,48 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#primaryimage"
+      },
+      "datePublished": "2027-06-13",
+      "dateModified": "2027-06-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-          "url": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-          "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+          "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
         },
         {
           "@type": "WebPage",
           "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-          "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
+          "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
         },
         {
           "@type": "WebPage",
-          "name": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-          "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+          "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
+          "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "The FAQs That Teach Publishing First: a Case-Study of How Tools for Your First Book Actually Fit",
-          "url": "https://writequeryhook.com/the-faqs-that-teach-publishing-first-a-case-study-of-how-tools-for-your-first-book-actually-fit"
+          "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
+          "url": "https://writequeryhook.com/blog/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/author-platform-faq-what-it-means-and-what-publishers-actually-want/blog/blog_hero_confusion_blank_page_dread_blog_hero_landscape_6cdd0c03912b.jpeg?updatedAt=1782428180218",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 confusion blank-page dread",
+      "creditText": "Zhine Pics",
+      "author": {
+        "@type": "Person",
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

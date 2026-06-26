@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to turn an essay into a book deal using proof of concept (not hope)",
   "description": "Most writers are told the same lie: \"Get good, then a book deal will happen.\" The part they skip over is the other requirement\u2014proof of concept. Agents want measurable evidence that readers already care enough to click, read, share, and comment. They need data, not hunches about what readers might find interesting.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
+  "publishedDate": "2027-09-08",
+  "modifiedDate": "2027-09-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_hero_hope_myth_blog_hero_landscape_a4f9f68c60bc.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_hero_hope_myth_blog_hero_landscape_a4f9f68c60bc.jpeg",
     "alt": "blog hero \u00b7 hope myth",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-    "provider": "giphy",
+    "width": 2592,
+    "height": 1944,
+    "creator": "JP Nunes",
+    "creatorUrl": "https://www.pexels.com/@jp-nunes-2018610829",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "item": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "item": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     }
   ],
   "tldrBlocks": [],
@@ -145,7 +145,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_essay_nutshell_blog_section_landscape_f04f6b2adf0d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_essay_nutshell_blog_section_landscape_f04f6b2adf0d.gif?updatedAt=1782328823479",
         "alt": "Step 2: Write the essay pilot that matches your book's central promise",
         "width": 150,
         "height": 200,
@@ -306,7 +306,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_query_letter_proposal_blog_section_landscape_0c81019b5e93.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_query_letter_proposal_blog_section_landscape_0c81019b5e93.jpeg?updatedAt=1782328824057",
         "alt": "Step 5: Translate essay success into sharper query/proposal wording",
         "width": 6000,
         "height": 4000,
@@ -351,43 +351,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_dread_failure_blog_section_landscape_ef5a65f9bcaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_dread_failure_blog_section_landscape_ef5a65f9bcaa.gif",
         "alt": "Step 6: Troubleshoot when the pilot gets modest traction",
-        "width": 3875,
-        "height": 2848,
-        "creator": "Alexandro David",
-        "creatorUrl": "https://www.pexels.com/@alexandro-david-871783",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "thenopecat",
+        "creatorUrl": "https://giphy.com/gifs/burnout-overwhelmed-crying-at-work-SlvAP8JCqtclUduzL1",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_section_image_pipeline_keep_writing_blog_section_landscape_78f6312d0720.jpeg",
-    "alt": "blog section image \u00b7 pipeline keep writing",
-    "width": 8256,
-    "height": 5504,
-    "creator": "Wolfgang Weiser",
-    "creatorUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Always-already marketing: treating your book like a product from page one",
-      "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     },
     {
       "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     },
     {
       "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     },
     {
-      "title": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+      "title": "Author websites and why they work FAQ",
+      "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -422,7 +413,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Always-already marketing: treating your book like a product from page one",
-      "url": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     }
   ]
 } as const;
@@ -452,7 +443,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -464,31 +455,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "item": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "item": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
       "name": "How to turn an essay into a book deal using proof of concept (not hope)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -504,11 +495,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#article",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope",
       "headline": "How to turn an essay into a book deal using proof of concept (not hope)",
       "alternativeHeadline": "How to turn an essay into a book deal using proof of concept (not hope)",
       "description": "Most writers are told the same lie: \"Get good, then a book deal will happen.\" The part they skip over is the other requirement\u2014proof of concept. Agents want measurable evidence that readers already care enough to click, read, share, and comment. They need data, not hunches about what readers might find interesting.",
@@ -538,55 +529,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage"
       },
+      "datePublished": "2027-09-08",
+      "dateModified": "2027-09-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Always-already marketing: treating your book like a product from page one",
-          "url": "https://writequeryhook.com/query-letters/always-already-marketing-treating-your-book-like-a-product-from-page-one"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Always-already marketing: treating your book like a product from page one",
-          "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+          "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
         },
         {
           "@type": "WebPage",
           "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+          "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         },
         {
           "@type": "WebPage",
           "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+          "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
         },
         {
           "@type": "WebPage",
-          "name": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+          "name": "Author websites and why they work FAQ",
+          "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_hero_hope_myth_blog_hero_landscape_a4f9f68c60bc.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_533/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope/blog/blog_hero_hope_myth_blog_hero_landscape_a4f9f68c60bc.jpeg",
+      "width": 2592,
+      "height": 1944,
       "caption": "blog hero \u00b7 hope myth",
-      "creditText": "trt_network",
+      "creditText": "JP Nunes",
       "author": {
         "@type": "Person",
-        "name": "trt_network",
-        "url": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc"
+        "name": "JP Nunes",
+        "url": "https://www.pexels.com/@jp-nunes-2018610829"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#howto",
       "name": "How to turn an essay into a book deal using proof of concept (not hope)",
       "description": "Most writers are told the same lie: \"Get good, then a book deal will happen.\" The part they skip over is the other requirement\u2014proof of concept. Agents want measurable evidence that readers already care enough to click, read, share, and comment. They need data, not hunches about what readers might find interesting.",
       "totalTime": "PT7M",
@@ -596,49 +584,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your proof of concept before you write anything",
           "text": "Do not start by polishing your essay like it's just another piece of writing. Start by defining what counts as proof for a traditional book deal.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-1-define-your-proof-of-concept-before-you-write-anything"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-1-define-your-proof-of-concept-before-you-write-anything"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write the essay pilot that matches your book's central promise",
           "text": "The essay is a pilot\u2014a concept test, not a random sample chapter. Follow this structure:",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-2-write-the-essay-pilot-that-matches-your-book-s-central-promise"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-2-write-the-essay-pilot-that-matches-your-book-s-central-promise"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Promote like it's a real launch",
           "text": "Writers underestimate how much visibility matters after publication. Most pilots fail because the essay gets published and then sits in silence\u2014no promotion, no visible traction, no reason for an agent to believe readers care.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-3-promote-like-it-s-a-real-launch"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-3-promote-like-it-s-a-real-launch"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Track the performance signals that actually count",
           "text": "Publish, promote, then collect concrete performance signals on a simple sheet:",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-4-track-the-performance-signals-that-actually-count"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-4-track-the-performance-signals-that-actually-count"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Translate essay success into sharper query/proposal wording",
           "text": "This is where most writers stumble: they collect proof, then bury it in the query like trivia.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-5-translate-essay-success-into-sharper-query-proposal-wording"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-5-translate-essay-success-into-sharper-query-proposal-wording"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Troubleshoot when the pilot gets modest traction",
           "text": "Proof doesn't have to look like fireworks. Sometimes your pilot gets modest engagement. It can still show audience fit if the engagement quality is strong\u2014especially if it lands in the right niche.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-6-troubleshoot-when-the-pilot-gets-modest-traction"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#step-6-troubleshoot-when-the-pilot-gets-modest-traction"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope#faq",
       "mainEntity": [
         {
           "@type": "Question",

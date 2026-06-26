@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
   "description": "So you got past the \"will they want it?\" stage. Now you're staring at weeks and months of waiting, thinking: I wrote the manuscript. Shouldn't the rest be faster?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
+  "publishedDate": "2027-05-03",
+  "modifiedDate": "2027-05-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_hero_dread_confusion_blog_hero_landscape_d99219cfc9dc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_hero_dread_confusion_blog_hero_landscape_d99219cfc9dc.jpeg?updatedAt=1782087954000",
     "alt": "blog hero \u00b7 dread confusion",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-      "item": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+      "item": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_opening_blog_section_landscape_2ad0a7e34f5b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_opening_blog_section_landscape_2ad0a7e34f5b.jpeg",
         "alt": "Opening",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -219,13 +219,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_panic_spreadsheety_blog_section_landscape_518e338275f9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_panic_spreadsheety_blog_section_landscape_518e338275f9.gif",
         "alt": "Alternative path 1: the \"silence panic\" approach",
-        "width": 6960,
-        "height": 4640,
-        "creator": "Marta Branco",
-        "creatorUrl": "https://www.pexels.com/@martabranco",
-        "provider": "pexels",
+        "width": 355,
+        "height": 200,
+        "creator": "natgeochannel",
+        "creatorUrl": "https://giphy.com/gifs/natgeochannel-shark-national-geographic-sharkfest-3sNOe8g3WCqT4f52GB",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -287,13 +287,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_rush_mistakes_blog_section_landscape_cf1932e4eae9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_rush_mistakes_blog_section_landscape_cf1932e4eae9.gif",
         "alt": "Alternative path 2: the \"rush it\" approach",
-        "width": 5901,
-        "height": 3934,
-        "creator": "Anna Klymenko",
-        "creatorUrl": "https://www.pexels.com/@anna-klymenko-2154232859",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "discovery",
+        "creatorUrl": "https://giphy.com/gifs/discovery-mining-gold-rush-goldrush-SJWZDnQfQe46YAvIxj",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -388,32 +388,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_section_image_breath_out_choice_blog_section_landscape_8ec2adeecd3b.gif",
-    "alt": "blog section image \u00b7 breath out choice",
-    "width": 200,
-    "height": 200,
-    "creator": "justin",
-    "creatorUrl": "https://giphy.com/gifs/justin-lol-spit-take-kC8N6DPOkbqWTxkNTe",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Representation offer vs other agent options: what to do first, and what to ask",
-      "url": "https://writequeryhook.com/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
     },
     {
       "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-      "url": "https://writequeryhook.com/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing-choices"
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
     },
     {
       "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-      "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     },
     {
       "title": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
-      "url": "https://writequeryhook.com/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -452,7 +443,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Representation offer vs other agent options: what to do first, and what to ask",
-      "url": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
     }
   ]
 } as const;
@@ -482,7 +473,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -494,31 +485,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-          "item": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+          "item": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
+      "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
       "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -534,11 +525,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#article",
+      "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it",
       "headline": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
       "alternativeHeadline": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
       "description": "So you got past the \"will they want it?\" stage. Now you're staring at weeks and months of waiting, thinking: I wrote the manuscript. Shouldn't the rest be faster?",
@@ -568,40 +559,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage"
       },
+      "datePublished": "2027-05-03",
+      "dateModified": "2027-05-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Representation offer vs other agent options: what to do first, and what to ask",
-          "url": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Representation offer vs other agent options: what to do first, and what to ask",
-          "url": "https://writequeryhook.com/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+          "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
         },
         {
           "@type": "WebPage",
           "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-          "url": "https://writequeryhook.com/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing-choices"
+          "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
         },
         {
           "@type": "WebPage",
           "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-          "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+          "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
         },
         {
           "@type": "WebPage",
           "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
-          "url": "https://writequeryhook.com/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_hero_dread_confusion_blog_hero_landscape_d99219cfc9dc.jpeg",
+      "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it/blog/blog_hero_dread_confusion_blog_hero_landscape_d99219cfc9dc.jpeg?updatedAt=1782087954000",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
@@ -616,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

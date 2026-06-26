@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Reasons to use social media that have nothing to do with selling books FAQ",
   "description": "Social media is loud, and authors can feel like they're supposed to use it like a sales funnel. It's understandable to be skeptical. Most posts don't magically turn into purchase orders, and the algorithm doesn't care what your launch date says.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
+  "publishedDate": "2027-07-30",
+  "modifiedDate": "2027-07-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_hero_worry_wasting_time_blog_hero_landscape_c83d4d2c5ec5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_hero_worry_wasting_time_blog_hero_landscape_c83d4d2c5ec5.jpeg",
     "alt": "blog hero \u00b7 worry wasting time",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Ketut Subiyanto",
+    "creatorUrl": "https://www.pexels.com/@ketut-subiyanto",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "item": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "item": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
     }
   ],
   "tldrBlocks": [],
@@ -96,13 +96,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.gif",
         "alt": "Does social media mainly help authors sell books?",
-        "width": 6571,
-        "height": 4381,
-        "creator": "Vlada Karpovich",
-        "creatorUrl": "https://www.pexels.com/@vlada-karpovich",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -168,13 +168,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_fist_pump_party_analogy_blog_section_landscape_a87d61a2e16e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_fist_pump_party_analogy_blog_section_landscape_a87d61a2e16e.gif",
         "alt": "How should an author participate in a community without being annoying?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Mario Am\u00e9",
-        "creatorUrl": "https://www.pexels.com/@imperioame",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -204,7 +204,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_buy_in_visibility_blog_section_landscape_c8fe54aea0f3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_buy_in_visibility_blog_section_landscape_c8fe54aea0f3.jpeg?updatedAt=1782268555972",
         "alt": "What counts as helpful interaction instead of selling?",
         "width": 6000,
         "height": 4000,
@@ -241,13 +241,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_fist_pump_party_analogy_blog_section_landscape_a87d61a2e16e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_fist_pump_party_analogy_blog_section_landscape_a87d61a2e16e.gif",
         "alt": "How should an author participate in a community without being annoying?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Mario Am\u00e9",
-        "creatorUrl": "https://www.pexels.com/@imperioame",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -305,13 +305,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.gif",
         "alt": "Does social media mainly help authors sell books?",
-        "width": 6571,
-        "height": 4381,
-        "creator": "Vlada Karpovich",
-        "creatorUrl": "https://www.pexels.com/@vlada-karpovich",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -379,7 +379,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_buy_in_visibility_blog_section_landscape_c8fe54aea0f3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_buy_in_visibility_blog_section_landscape_c8fe54aea0f3.jpeg?updatedAt=1782268555972",
         "alt": "What counts as helpful interaction instead of selling?",
         "width": 6000,
         "height": 4000,
@@ -415,43 +415,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_sales_pressure_indirect_results_blog_section_landscape_f11a71a76c43.gif",
         "alt": "Does social media mainly help authors sell books?",
-        "width": 6571,
-        "height": 4381,
-        "creator": "Vlada Karpovich",
-        "creatorUrl": "https://www.pexels.com/@vlada-karpovich",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_section_image_deep_breath_next_step_blog_section_landscape_0c57bdc34518.gif",
-    "alt": "blog section image \u00b7 deep breath next step",
-    "width": 200,
-    "height": 200,
-    "creator": "disneystudios",
-    "creatorUrl": "https://giphy.com/gifs/disneystudios-disney-stare-mena-massoud-S6q7a7nMOL2c11R4qq",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "AI Use in Writing: A Real FAQ for Authors",
-      "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     },
     {
       "title": "How do advances and royalties work FAQ",
-      "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     },
     {
       "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     },
     {
-      "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-      "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+      "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -469,7 +460,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "AI Use in Writing: A Real FAQ for Authors",
-      "url": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors"
+      "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
     }
   ]
 } as const;
@@ -499,7 +490,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +502,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "item": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "item": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
+      "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#webpage",
+      "url": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
       "name": "Reasons to use social media that have nothing to do with selling books FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +542,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#article",
+      "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq",
       "headline": "Reasons to use social media that have nothing to do with selling books FAQ",
       "alternativeHeadline": "Reasons to use social media that have nothing to do with selling books FAQ",
       "description": "Social media is loud, and authors can feel like they're supposed to use it like a sales funnel. It's understandable to be skeptical. Most posts don't magically turn into purchase orders, and the algorithm doesn't care what your launch date says.",
@@ -585,48 +576,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage"
       },
+      "datePublished": "2027-07-30",
+      "dateModified": "2027-07-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "AI Use in Writing: A Real FAQ for Authors",
-          "url": "https://writequeryhook.com/query-letters/ai-use-in-writing-a-real-faq-for-authors"
-        },
-        {
-          "@type": "WebPage",
-          "name": "AI Use in Writing: A Real FAQ for Authors",
-          "url": "https://writequeryhook.com/ai-use-in-writing-a-real-faq-for-authors"
+          "url": "https://writequeryhook.com/blog/ai-use-in-writing-a-real-faq-for-authors"
         },
         {
           "@type": "WebPage",
           "name": "How do advances and royalties work FAQ",
-          "url": "https://writequeryhook.com/how-do-advances-and-royalties-work-faq"
+          "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
         },
         {
           "@type": "WebPage",
-          "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-          "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+          "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
+          "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_hero_worry_wasting_time_blog_hero_landscape_c83d4d2c5ec5.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_488/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq/blog/blog_hero_worry_wasting_time_blog_hero_landscape_c83d4d2c5ec5.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 worry wasting time",
-      "creditText": "Giphy",
+      "creditText": "Ketut Subiyanto",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Ketut Subiyanto",
+        "url": "https://www.pexels.com/@ketut-subiyanto"
       },
       "@context": "https://schema.org"
     }

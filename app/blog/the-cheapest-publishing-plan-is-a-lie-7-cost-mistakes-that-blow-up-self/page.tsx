@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
   "description": "\"Cost to publish\" guides always sound comforting right up until you realize they're written for someone who hasn't been burned by rework.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
+  "publishedDate": "2027-09-14",
+  "modifiedDate": "2027-09-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_hero_sticker_shock_contrarian_blog_hero_landscape_f4c4a11c3b21.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_hero_sticker_shock_contrarian_blog_hero_landscape_f4c4a11c3b21.jpeg?updatedAt=1782332311776",
     "alt": "blog hero \u00b7 sticker shock contrarian",
     "width": 3100,
     "height": 2271,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-      "item": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
+      "item": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
     }
   ],
   "tldrBlocks": [],
@@ -108,7 +108,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_opening_blog_section_landscape_c5bbb8205ab4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_opening_blog_section_landscape_c5bbb8205ab4.gif?updatedAt=1782332312375",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -126,7 +126,7 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_body_blog_section_landscape_55406abbfced.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_body_blog_section_landscape_55406abbfced.gif?updatedAt=1782332313172",
         "alt": "Body",
         "width": 296,
         "height": 200,
@@ -533,7 +533,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_recap_blog_section_landscape_22163878f40f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_recap_blog_section_landscape_22163878f40f.jpeg?updatedAt=1782332313770",
         "alt": "Recap",
         "width": 3000,
         "height": 2000,
@@ -544,32 +544,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_section_image_fix_it_now_spreadsheet_blog_section_landscape_e70e61cc92cb.jpeg",
-    "alt": "blog section image \u00b7 fix it now spreadsheet",
-    "width": 3583,
-    "height": 2614,
-    "creator": "Mikhail Nilov",
-    "creatorUrl": "https://www.pexels.com/@mikhail-nilov",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     },
     {
       "title": "7 author branding mistakes that make readers bounce before they read",
-      "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+      "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
     },
     {
-      "title": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-      "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+      "title": "How to build a marketing plan that actually targets readers (not vibes)",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
     },
     {
-      "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -583,7 +574,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     }
   ]
 } as const;
@@ -613,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -625,31 +616,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-          "item": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
+          "item": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
+      "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#webpage",
+      "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
       "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -665,11 +656,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#article",
+      "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#webpage"
+        "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self",
       "headline": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
       "alternativeHeadline": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
       "description": "\"Cost to publish\" guides always sound comforting right up until you realize they're written for someone who hasn't been burned by rework.",
@@ -699,40 +690,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage"
       },
+      "datePublished": "2027-09-14",
+      "dateModified": "2027-09-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "url": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
         },
         {
           "@type": "WebPage",
           "name": "7 author branding mistakes that make readers bounce before they read",
-          "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+          "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
         },
         {
           "@type": "WebPage",
-          "name": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-          "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+          "name": "How to build a marketing plan that actually targets readers (not vibes)",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
         },
         {
           "@type": "WebPage",
-          "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
+          "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_hero_sticker_shock_contrarian_blog_hero_landscape_f4c4a11c3b21.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self/blog/blog_hero_sticker_shock_contrarian_blog_hero_landscape_f4c4a11c3b21.jpeg?updatedAt=1782332311776",
       "width": 3100,
       "height": 2271,
       "caption": "blog hero \u00b7 sticker shock contrarian",

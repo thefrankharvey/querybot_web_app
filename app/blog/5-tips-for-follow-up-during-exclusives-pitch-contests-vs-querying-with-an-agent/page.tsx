@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for follow-up during exclusives: pitch contests vs querying with an agent",
   "description": "The follow-up emails are where good writers start acting like panicked baristas: refreshing the screen, shaking the cup, forgetting the order they actually promised.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-23",
+  "modifiedDate": "2027-03-23",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-follow-up-during-exclusives-pitch-contests-vs-querying-with-an-agent",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -535,6 +535,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-follow-up-during-exclusives-pitch-contests-vs-querying-with-an-agent#primaryimage"
       },
+      "datePublished": "2027-03-23",
+      "dateModified": "2027-03-23",
       "mentions": [
         {
           "@type": "WebPage",

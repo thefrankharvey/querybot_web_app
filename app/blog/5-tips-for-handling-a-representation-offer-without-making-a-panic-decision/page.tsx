@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for handling a representation offer without making a panic decision",
   "description": "An offer of representation hits like a slammed car door in your chest. One second you're staring at your query tracker like it owes you money, the next you're thinking, Yes, this is it\u2014sign and celebrate.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
+  "publishedDate": "2027-05-14",
+  "modifiedDate": "2027-05-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_hero_dread_adrenaline_blog_hero_landscape_3b97597a6169.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_hero_dread_adrenaline_blog_hero_landscape_3b97597a6169.jpeg?updatedAt=1782144355816",
     "alt": "blog hero \u00b7 dread adrenaline",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for handling a representation offer without making a panic decision",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+      "item": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     }
   ],
   "tldrBlocks": [],
@@ -140,13 +140,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_gratitude_professionalism_blog_section_landscape_c2508eb4bc0a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_gratitude_professionalism_blog_section_landscape_c2508eb4bc0a.jpeg",
         "alt": "Tip 2: Thank the agent, keep it transparent, and ask about next steps",
-        "width": 276,
-        "height": 200,
-        "creator": "news",
-        "creatorUrl": "https://giphy.com/gifs/news-senate-2022-midterms-new-hampshire-8v6RUBtwar0NXb9WE1",
-        "provider": "giphy",
+        "width": 6571,
+        "height": 4381,
+        "creator": "www.kaboompics.com",
+        "creatorUrl": "https://www.pexels.com/@karola-g",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -247,13 +247,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_skepticism_receipts_blog_section_landscape_974dd439e2b4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_skepticism_receipts_blog_section_landscape_974dd439e2b4.gif",
         "alt": "Tip 4: Re-check the agent's reputation, then review author rights before signing anything",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "PersonaJourney",
+        "creatorUrl": "https://giphy.com/gifs/PersonaJourney-sure-jan-side-eye-i-doubt-it-SMKlkdWhMfcXLqD73q",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -308,7 +308,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_fist_pump_curiosity_blog_section_landscape_4108408ad114.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_fist_pump_curiosity_blog_section_landscape_4108408ad114.gif?updatedAt=1782144370381",
         "alt": "Tip 5: Prepare a structured question list, then listen hard to the answers",
         "width": 272,
         "height": 200,
@@ -319,32 +319,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_section_image_mount_slushmore_avoidance_grounded_resolve_blog_section_landscape_71fe1b0c2dd8.jpeg",
-    "alt": "blog section image \u00b7 mount slushmore avoidance grounded resolve",
-    "width": 2817,
-    "height": 2254,
-    "creator": "Jan Simpson",
-    "creatorUrl": "https://www.pexels.com/@jan-simpson-2151593949",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
-    },
-    {
-      "title": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-      "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     },
     {
       "title": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+    },
+    {
+      "title": "How to spot which rights you sign away in a book deal",
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     },
     {
       "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -383,7 +374,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "url": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     }
   ]
 } as const;
@@ -413,7 +404,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -425,31 +416,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for handling a representation offer without making a panic decision",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+          "item": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
       "name": "5 tips for handling a representation offer without making a panic decision",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -465,11 +456,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision",
       "headline": "5 tips for handling a representation offer without making a panic decision",
       "alternativeHeadline": "5 tips for handling a representation offer without making a panic decision",
       "description": "An offer of representation hits like a slammed car door in your chest. One second you're staring at your query tracker like it owes you money, the next you're thinking, Yes, this is it\u2014sign and celebrate.",
@@ -499,40 +490,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage"
       },
+      "datePublished": "2027-05-14",
+      "dateModified": "2027-05-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "url": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-          "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
+          "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to spot which rights you sign away in a book deal",
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_hero_dread_adrenaline_blog_hero_landscape_3b97597a6169.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision/blog/blog_hero_dread_adrenaline_blog_hero_landscape_3b97597a6169.jpeg?updatedAt=1782144355816",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread adrenaline",
@@ -547,7 +535,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision#faq",
       "mainEntity": [
         {
           "@type": "Question",

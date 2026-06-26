@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
   "description": "Unagented submission advice online is\u2026 spiky. It's either \"never\" or \"try this magic hack,\" and neither helps when your draft is ready but your representation situation isn't.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
+  "publishedDate": "2027-10-31",
+  "modifiedDate": "2027-10-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-      "item": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+      "item": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
     }
   ],
   "tldrBlocks": [],
@@ -516,19 +516,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
-      "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
     },
     {
       "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-      "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
     },
     {
       "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     },
     {
-      "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -563,7 +563,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
-      "url": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
     }
   ]
 } as const;
@@ -593,7 +593,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -605,31 +605,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-          "item": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
+          "item": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#webpage",
-      "url": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#webpage",
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
       "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -645,11 +645,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#article",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#webpage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each",
       "headline": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
       "alternativeHeadline": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
       "description": "Unagented submission advice online is\u2026 spiky. It's either \"never\" or \"try this magic hack,\" and neither helps when your draft is ready but your representation situation isn't.",
@@ -679,39 +679,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage"
       },
+      "datePublished": "2027-10-31",
+      "dateModified": "2027-10-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-          "url": "https://writequeryhook.com/query-letters/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
-          "url": "https://writequeryhook.com/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its-shadow"
+          "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
         },
         {
           "@type": "WebPage",
           "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-          "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+          "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
           "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "url": "https://writequeryhook.com/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s-actually-acceptable"
+          "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
         },
         {
           "@type": "WebPage",
-          "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
+          "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_598/unagented-submission-examples-three-real-world-submission-paths-and-what-each/blog/blog_hero_anxious_dread_blog_hero_landscape_7bc1b2ffa86a.jpeg",
       "width": 6000,
       "height": 4000,
@@ -727,7 +724,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-examples-three-real-world-submission-paths-and-what-each#faq",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each#faq",
       "mainEntity": [
         {
           "@type": "Question",

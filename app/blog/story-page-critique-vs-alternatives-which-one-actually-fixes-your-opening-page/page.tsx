@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Story page critique vs alternatives: which one actually fixes your opening page",
   "description": "There's a special kind of misery reserved for the opening page. You've done your best. You've got voice. You've got dialogue. You've got a million reasons why what you wrote feels right.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-22",
+  "modifiedDate": "2026-11-22",
   "canonicalUrl": "https://writequeryhook.com/blog/story-page-critique-vs-alternatives-which-one-actually-fixes-your-opening-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/story-page-critique-vs-alternatives-which-one-actually-fixes-your-opening-page#primaryimage"
       },
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to tolerate discomfort in writing when you feel like shit (and still do the work)",
   "description": "If your writing feels bad, it\u2019s tempting to treat that feeling like a verdict. Like the manuscript is the problem. Like you\u2019re the problem. Then the spiraling starts: panic, self-attack, control-grabs, and that special kind of \u201cI can\u2019t move\u201d that looks suspiciously like perfectionism.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-22",
+  "modifiedDate": "2027-03-22",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-tolerate-discomfort-in-writing-when-you-feel-like-shit-and-still-do-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -571,6 +571,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-tolerate-discomfort-in-writing-when-you-feel-like-shit-and-still-do-the#primaryimage"
       },
+      "datePublished": "2027-03-22",
+      "dateModified": "2027-03-22",
       "mentions": [
         {
           "@type": "WebPage",

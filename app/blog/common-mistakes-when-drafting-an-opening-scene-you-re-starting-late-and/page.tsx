@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes when drafting an opening scene: you're starting late (and calling it \"context\")",
   "description": "Your novel opening might not be boring.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-29",
+  "modifiedDate": "2026-11-29",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-when-drafting-an-opening-scene-you-re-starting-late-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -779,6 +779,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-when-drafting-an-opening-scene-you-re-starting-late-and#primaryimage"
       },
+      "datePublished": "2026-11-29",
+      "dateModified": "2026-11-29",
       "mentions": [
         {
           "@type": "WebPage",

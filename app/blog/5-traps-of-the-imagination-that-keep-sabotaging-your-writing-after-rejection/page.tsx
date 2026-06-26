@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 traps of the imagination that keep sabotaging your writing after rejection",
   "description": "I swear the imagination is a talent and a menace. It can keep a writer warm at night\u2026 and then, the next morning, it can steal the entire day by showing fantasy rewards instead of actual drafting. You sit down with a manuscript, and your brain starts auditioning a future you haven't earned yet: the big deal, the instant win, the \"finally.\" The writing doesn't move. The screen just stares back.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-04",
+  "modifiedDate": "2027-02-04",
   "canonicalUrl": "https://writequeryhook.com/blog/5-traps-of-the-imagination-that-keep-sabotaging-your-writing-after-rejection",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -482,6 +482,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-traps-of-the-imagination-that-keep-sabotaging-your-writing-after-rejection#primaryimage"
       },
+      "datePublished": "2027-02-04",
+      "dateModified": "2027-02-04",
       "mentions": [
         {
           "@type": "WebPage",

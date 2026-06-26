@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
   "description": "A \"book deal\" sounds like fireworks. Reality: you get a contract, you get boilerplate, and you get the kind of legal language that makes your brain do the cursor-blinking thing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
+  "publishedDate": "2027-05-24",
+  "modifiedDate": "2027-05-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_hero_fireworks_fantasy_fine_print_dread_blog_hero_landscape_f181c5e61c43.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_hero_fireworks_fantasy_fine_print_dread_blog_hero_landscape_f181c5e61c43.jpeg?updatedAt=1782172964982",
     "alt": "blog hero \u00b7 fireworks fantasy fine-print dread",
     "width": 5863,
     "height": 3867,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
+      "item": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     }
   ],
   "tldrBlocks": [],
@@ -134,7 +134,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_money_installments_blog_section_landscape_cb7cc23b419c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_money_installments_blog_section_landscape_cb7cc23b419c.jpeg?updatedAt=1782172965542",
         "alt": "1) Pin down the advance and payment schedule first",
         "width": 2550,
         "height": 1700,
@@ -324,7 +324,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_print_promise_ebook_uncertainty_blog_section_landscape_13d1e5b54d12.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_print_promise_ebook_uncertainty_blog_section_landscape_13d1e5b54d12.gif?updatedAt=1782172966164",
         "alt": "4) Don't trust \"format guarantees\" like they're promises from the future",
         "width": 176,
         "height": 200,
@@ -384,20 +384,11 @@ const PAGE_DATA = {
           "text": "**Keywords in play:** do authors get cover approval in a book deal."
         }
       ],
-      "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_cover_approval_design_power_blog_section_landscape_bd12328456ec.jpeg",
-        "alt": "5) Check cover and promotional control: \"consulted\" is not \"approved\"",
-        "width": 7680,
-        "height": 4320,
-        "creator": "cottonbro CG studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro-cg-studio",
-        "provider": "pexels",
-        "role": "section"
-      }
+      "image": null
     }
   ],
   "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_signing_day_calm_brain_blog_section_landscape_0bc1f7810375.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_section_image_signing_day_calm_brain_blog_section_landscape_0bc1f7810375.gif?updatedAt=1782172967042",
     "alt": "blog section image \u00b7 signing day calm brain",
     "width": 202,
     "height": 200,
@@ -409,19 +400,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     },
     {
       "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     },
     {
-      "title": "Incorporating agent or editor feedback FAQ",
-      "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+      "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     },
     {
-      "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-      "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
+      "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -464,7 +455,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to incorporate agent/editor feedback without breaking your story",
-      "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
     }
   ]
 } as const;
@@ -494,7 +485,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -506,31 +497,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
+          "item": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
       "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -546,11 +537,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine",
       "headline": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
       "alternativeHeadline": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
       "description": "A \"book deal\" sounds like fireworks. Reality: you get a contract, you get boilerplate, and you get the kind of legal language that makes your brain do the cursor-blinking thing.",
@@ -580,40 +571,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage"
       },
+      "datePublished": "2027-05-24",
+      "dateModified": "2027-05-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to incorporate agent/editor feedback without breaking your story",
-          "url": "https://writequeryhook.com/query-letters/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
         },
         {
           "@type": "WebPage",
           "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         },
         {
           "@type": "WebPage",
           "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
         },
         {
           "@type": "WebPage",
-          "name": "Incorporating agent or editor feedback FAQ",
-          "url": "https://writequeryhook.com/incorporating-agent-or-editor-feedback-faq"
+          "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         },
         {
           "@type": "WebPage",
-          "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-          "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
+          "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
+          "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_hero_fireworks_fantasy_fine_print_dread_blog_hero_landscape_f181c5e61c43.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_409/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine/blog/blog_hero_fireworks_fantasy_fine_print_dread_blog_hero_landscape_f181c5e61c43.jpeg?updatedAt=1782172964982",
       "width": 5863,
       "height": 3867,
       "caption": "blog hero \u00b7 fireworks fantasy fine-print dread",
@@ -628,7 +621,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine#faq",
       "mainEntity": [
         {
           "@type": "Question",

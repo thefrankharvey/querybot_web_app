@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why your publishing \"mistakes\" aren't the real problem (and what to stop doing)",
   "description": "The unspoken truth is annoying on purpose: querying outcomes aren't a pure scoreboard for merit. Even when your craft is strong and your strategy is disciplined, publishing still runs on a narrower funnel than most advice admits\u2014agent availability, capacity, subjective taste, and luck.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-08",
+  "modifiedDate": "2027-04-08",
   "canonicalUrl": "https://writequeryhook.com/blog/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -618,6 +618,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing#primaryimage"
       },
+      "datePublished": "2027-04-08",
+      "dateModified": "2027-04-08",
       "mentions": [
         {
           "@type": "WebPage",

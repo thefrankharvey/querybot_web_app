@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Recovering from the storm: adapt and carry on vs the alternatives writers actually try",
   "description": "Storms don't just break roads. They break rhythms\u2014power, schedules, \"normal,\" the little assumptions that your brain uses like autopilot.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-20",
+  "modifiedDate": "2027-03-20",
   "canonicalUrl": "https://writequeryhook.com/blog/recovering-from-the-storm-adapt-and-carry-on-vs-the-alternatives-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -612,6 +612,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/recovering-from-the-storm-adapt-and-carry-on-vs-the-alternatives-writers#primaryimage"
       },
+      "datePublished": "2027-03-20",
+      "dateModified": "2027-03-20",
       "mentions": [
         {
           "@type": "WebPage",

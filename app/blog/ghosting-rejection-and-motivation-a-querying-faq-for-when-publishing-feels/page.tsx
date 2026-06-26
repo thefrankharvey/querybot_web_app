@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
   "description": "Publishing can feel like it's running on a different calendar than the one on your wall. One week you're waiting on a reply that never arrives. Next week you're watching timelines drag, offers take too long to finalize, and communication go quiet at the worst possible moment. It messes with your head because your brain tries to treat silence like feedback.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
+  "publishedDate": "2027-04-19",
+  "modifiedDate": "2027-04-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_hero_ignored_pitches_dread_blog_hero_landscape_cc99360a9755.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_hero_ignored_pitches_dread_blog_hero_landscape_cc99360a9755.jpeg?updatedAt=1781834032782",
     "alt": "blog hero \u00b7 ignored pitches dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-      "item": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
+      "item": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     }
   ],
   "tldrBlocks": [],
@@ -137,7 +137,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_passion_unfair_blog_section_landscape_334674b63b59.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_passion_unfair_blog_section_landscape_334674b63b59.gif?updatedAt=1781834033345",
         "alt": "How can a writer keep passion when publishing feels unfair?",
         "width": 356,
         "height": 200,
@@ -187,13 +187,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_gamify_milestones_blog_section_landscape_57496a593592.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_gamify_milestones_blog_section_landscape_57496a593592.gif",
         "alt": "How to handle ghosting when querying",
-        "width": 5874,
-        "height": 3916,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 188,
+        "height": 200,
+        "creator": "shippingmanager",
+        "creatorUrl": "https://giphy.com/gifs/shippingmanager-gamify-bHlxZXG96mKy0U5ttJ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -242,13 +242,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_helicopter_view_zoom_out_blog_section_landscape_aff0168256d9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_helicopter_view_zoom_out_blog_section_landscape_aff0168256d9.jpeg",
         "alt": "What is the \"helicopter view\" mindset?",
-        "width": 166,
-        "height": 200,
-        "creator": "Chickenseason1",
-        "creatorUrl": "https://giphy.com/gifs/wojak-chud-diddyblud-B34wyqAgvAheFgPTqy",
-        "provider": "giphy",
+        "width": 5456,
+        "height": 3070,
+        "creator": "Chait Goli",
+        "creatorUrl": "https://www.pexels.com/@chaitaastic",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -279,13 +279,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_gamify_milestones_blog_section_landscape_57496a593592.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_gamify_milestones_blog_section_landscape_57496a593592.gif",
         "alt": "How to handle ghosting when querying",
-        "width": 5874,
-        "height": 3916,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 188,
+        "height": 200,
+        "creator": "shippingmanager",
+        "creatorUrl": "https://giphy.com/gifs/shippingmanager-gamify-bHlxZXG96mKy0U5ttJ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -331,32 +331,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_section_image_next_submissions_tighten_hook_blog_section_landscape_cd86d0ebd015.jpeg",
-    "alt": "blog section image \u00b7 next submissions tighten hook",
-    "width": 4918,
-    "height": 3279,
-    "creator": "Anastasia  Shuraeva",
-    "creatorUrl": "https://www.pexels.com/@anastasia-shuraeva",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-      "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+      "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
     },
     {
-      "title": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-      "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+      "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+      "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
     },
     {
-      "title": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-      "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+      "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+      "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
     },
     {
-      "title": "When should you nudge agents? 6 real-life examples tied to their own rules",
-      "url": "https://writequeryhook.com/when-should-you-nudge-agents-6-real-life-examples-tied-to-their-own-rules"
+      "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -374,7 +365,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-      "url": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq"
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
     }
   ]
 } as const;
@@ -404,7 +395,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -416,31 +407,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
-          "item": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
+          "item": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#webpage",
-      "url": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
+      "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#webpage",
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
       "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -456,11 +447,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#article",
+      "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#webpage"
+        "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels",
       "headline": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
       "alternativeHeadline": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
       "description": "Publishing can feel like it's running on a different calendar than the one on your wall. One week you're waiting on a reply that never arrives. Next week you're watching timelines drag, offers take too long to finalize, and communication go quiet at the worst possible moment. It messes with your head because your brain tries to treat silence like feedback.",
@@ -490,40 +481,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage"
       },
+      "datePublished": "2027-04-19",
+      "dateModified": "2027-04-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
-          "url": "https://writequeryhook.com/query-letters/when-should-you-nudge-agents-a-query-follow-up-faq"
+          "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
         },
         {
           "@type": "WebPage",
           "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-          "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+          "url": "https://writequeryhook.com/blog/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
         },
         {
           "@type": "WebPage",
-          "name": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-          "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+          "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+          "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
         },
         {
           "@type": "WebPage",
-          "name": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-          "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+          "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+          "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
         },
         {
           "@type": "WebPage",
-          "name": "When should you nudge agents? 6 real-life examples tied to their own rules",
-          "url": "https://writequeryhook.com/when-should-you-nudge-agents-6-real-life-examples-tied-to-their-own-rules"
+          "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
+          "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_hero_ignored_pitches_dread_blog_hero_landscape_cc99360a9755.jpeg",
+      "@id": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_362/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels/blog/blog_hero_ignored_pitches_dread_blog_hero_landscape_cc99360a9755.jpeg?updatedAt=1781834032782",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 ignored pitches dread",

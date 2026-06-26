@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common query letter mistakes when your premise looks like \"theft\"",
   "description": "A query letter doesn't fail because your plot is \"problematic.\" It fails because the letter makes the agent's job harder than it needs to be: they can't tell the motive from the surface crime, the stakes from the vibes, or the character from the concept.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-10",
+  "modifiedDate": "2026-07-10",
   "canonicalUrl": "https://writequeryhook.com/blog/common-query-letter-mistakes-when-your-premise-looks-like-theft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -662,6 +662,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-query-letter-mistakes-when-your-premise-looks-like-theft#primaryimage"
       },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
       "mentions": [
         {
           "@type": "WebPage",

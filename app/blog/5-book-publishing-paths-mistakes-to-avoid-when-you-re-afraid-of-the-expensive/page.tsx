@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
   "description": "If publishing choices make your stomach do that tight little knot\u2014good. That means you're not being casual about money risk.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
+  "publishedDate": "2027-06-21",
+  "modifiedDate": "2027-06-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_hero_stuck_dread_blog_hero_landscape_bcd7696c041a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_hero_stuck_dread_blog_hero_landscape_bcd7696c041a.jpeg?updatedAt=1782227125942",
     "alt": "blog hero \u00b7 stuck dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "item": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
+      "item": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     }
   ],
   "tldrBlocks": [],
@@ -132,7 +132,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_assumptions_stigma_blog_section_landscape_b47f511c2fc7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_assumptions_stigma_blog_section_landscape_b47f511c2fc7.jpeg?updatedAt=1782227126603",
         "alt": "You're treating \"the best path\" as a label, not a long-term fit",
         "width": 3500,
         "height": 2333,
@@ -335,13 +335,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_overpay_basic_services_blog_section_landscape_b4dcfc944457.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_overpay_basic_services_blog_section_landscape_b4dcfc944457.gif",
         "alt": "You're paying for basic services and assuming it comes bundled with distribution outcomes",
-        "width": 6000,
-        "height": 4000,
-        "creator": "olia danilevich",
-        "creatorUrl": "https://www.pexels.com/@olia-danilevich",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -394,7 +394,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_short_faq_blog_section_landscape_1a320c5121d2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_short_faq_blog_section_landscape_1a320c5121d2.gif?updatedAt=1782227127807",
         "alt": "Short FAQ",
         "width": 279,
         "height": 200,
@@ -419,32 +419,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_section_image_resolve_checklist_blog_section_landscape_2b6dfc23f2b4.gif",
-    "alt": "blog section image \u00b7 resolve checklist",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     },
     {
-      "title": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-      "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+      "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     },
     {
-      "title": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-      "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
+      "title": "12 types of travel writing every writer should know (and what editors expect from each)",
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
     },
     {
-      "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+      "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -462,7 +453,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "url": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     }
   ]
 } as const;
@@ -492,7 +483,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -504,31 +495,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "item": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
+          "item": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
+      "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#webpage",
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
       "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -544,11 +535,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#article",
+      "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#webpage"
+        "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive",
       "headline": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
       "alternativeHeadline": "5 book publishing paths mistakes to avoid when you\u2019re afraid of the expensive misstep",
       "description": "If publishing choices make your stomach do that tight little knot\u2014good. That means you're not being casual about money risk.",
@@ -578,40 +569,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage"
       },
+      "datePublished": "2027-06-21",
+      "dateModified": "2027-06-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "url": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
         },
         {
           "@type": "WebPage",
-          "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+          "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+          "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         },
         {
           "@type": "WebPage",
-          "name": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-          "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+          "name": "12 types of travel writing every writer should know (and what editors expect from each)",
+          "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
         },
         {
           "@type": "WebPage",
-          "name": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-          "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+          "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
+          "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_hero_stuck_dread_blog_hero_landscape_bcd7696c041a.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive/blog/blog_hero_stuck_dread_blog_hero_landscape_bcd7696c041a.jpeg?updatedAt=1782227125942",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 stuck dread",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What Is an Editorial Letter? Developmental Editing FAQs",
   "description": "Getting an editorial letter after the offer can feel oddly personal\u2014like someone read your manuscript and judged your taste. The good news is that developmental editing isn't primarily about catching typo-level stuff. It's about whether the whole book works for a reader: plot logic, structure, pacing, worldbuilding, characterization. This FAQ answers the questions writers actually ask when they're staring at an editorial letter PDF and wondering what's in scope, what's optional, and how to respond without surrendering their creative intent.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs",
+  "publishedDate": "2027-05-01",
+  "modifiedDate": "2027-05-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_815a20ec7a27.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_815a20ec7a27.jpeg?updatedAt=1782086209157",
     "alt": "blog hero \u00b7 after the offer nerves",
     "width": 4000,
     "height": 2667,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-      "item": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs"
+      "item": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     }
   ],
   "tldrBlocks": [],
@@ -119,7 +119,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif?updatedAt=1782086271891",
         "alt": "What does developmental editing focus on?",
         "width": 300,
         "height": 200,
@@ -154,13 +154,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_comma_fear_misconception_blog_section_landscape_5702b73ba895.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_comma_fear_misconception_blog_section_landscape_5702b73ba895.jpeg",
         "alt": "Is developmental editing about grammar and spelling?",
-        "width": 200,
-        "height": 200,
-        "creator": "UseCommas",
-        "creatorUrl": "https://giphy.com/gifs/UseCommas-q1G8ml9enY0KiyZeuh",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2667,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -200,13 +200,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_advisory_not_authoritative_final_decisions_blog_section_landscape_973c6990210a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_advisory_not_authoritative_final_decisions_blog_section_landscape_973c6990210a.gif",
         "alt": "How should an author treat the suggestions in an editorial letter?",
-        "width": 3008,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "garyvee",
+        "creatorUrl": "https://giphy.com/gifs/garyvee-garyvaynerchuk-garyv-vayner-5SUZYKNUYfW29VJwNt",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -270,7 +270,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif?updatedAt=1782086271891",
         "alt": "What does developmental editing focus on?",
         "width": 300,
         "height": 200,
@@ -306,7 +306,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_big_picture_plot_blog_section_landscape_8ba035b2b64d.gif?updatedAt=1782086271891",
         "alt": "What does developmental editing focus on?",
         "width": 300,
         "height": 200,
@@ -317,32 +317,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_section_image_publisher_timeline_next_draft_blog_section_landscape_1e4f0cba6a86.jpeg",
-    "alt": "blog section image \u00b7 publisher timeline next draft",
-    "width": 6000,
-    "height": 3376,
-    "creator": "Suzy Hazelwood",
-    "creatorUrl": "https://www.pexels.com/@suzyhazelwood",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-      "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+      "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
     },
     {
       "title": "How a writer should handle an offer of representation: a breakdown of the right moves",
-      "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+      "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
     },
     {
-      "title": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-      "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+      "title": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
     },
     {
-      "title": "8 steps to a book launch that actually sells",
-      "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+      "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+      "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -356,7 +347,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
-      "url": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     }
   ]
 } as const;
@@ -386,7 +377,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -398,31 +389,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-          "item": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs"
+          "item": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs",
+      "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#webpage",
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs",
       "name": "What Is an Editorial Letter? Developmental Editing FAQs",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -438,11 +429,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#article",
+      "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#webpage"
+        "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs",
       "headline": "What Is an Editorial Letter? Developmental Editing FAQs",
       "alternativeHeadline": "What Is an Editorial Letter? Developmental Editing FAQs",
       "description": "Getting an editorial letter after the offer can feel oddly personal\u2014like someone read your manuscript and judged your taste. The good news is that developmental editing isn't primarily about catching typo-level stuff. It's about whether the whole book works for a reader: plot logic, structure, pacing, worldbuilding, characterization. This FAQ answers the questions writers actually ask when they're staring at an editorial letter PDF and wondering what's in scope, what's optional, and how to respond without surrendering their creative intent.",
@@ -472,40 +463,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage"
       },
+      "datePublished": "2027-05-01",
+      "dateModified": "2027-05-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-          "url": "https://writequeryhook.com/query-letters/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+          "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         },
         {
           "@type": "WebPage",
           "name": "Revision Diminishing Returns FAQ: How to Know When to Let Go",
-          "url": "https://writequeryhook.com/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
+          "url": "https://writequeryhook.com/blog/revision-diminishing-returns-faq-how-to-know-when-to-let-go"
         },
         {
           "@type": "WebPage",
           "name": "How a writer should handle an offer of representation: a breakdown of the right moves",
-          "url": "https://writequeryhook.com/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right-moves"
+          "url": "https://writequeryhook.com/blog/how-a-writer-should-handle-an-offer-of-representation-a-breakdown-of-the-right"
         },
         {
           "@type": "WebPage",
-          "name": "How a memoir pitch turned into a book deal (after a brutal run of rejections)",
-          "url": "https://writequeryhook.com/how-a-memoir-pitch-turned-into-a-book-deal-after-a-brutal-run-of-rejections"
+          "name": "Representation offer panic: 7 mistakes that cost you clarity (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/representation-offer-panic-7-mistakes-that-cost-you-clarity-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "8 steps to a book launch that actually sells",
-          "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+          "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
+          "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_815a20ec7a27.jpeg",
+      "@id": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_376/what-is-an-editorial-letter-developmental-editing-faqs/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_815a20ec7a27.jpeg?updatedAt=1782086209157",
       "width": 4000,
       "height": 2667,
       "caption": "blog hero \u00b7 after the offer nerves",

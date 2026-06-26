@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five ways to publish your short stories FAQ",
   "description": "Publishing short stories comes with fewer \"pathways\" than novels, but more decisions that actually matter. Do we go traditional first and build a track record? Do we chase collections with a literary publisher, or move faster with self-publishing? And if the goal is just getting published (not becoming a mass-market celebrity), how do publishing choices change?",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq",
+  "publishedDate": "2027-08-25",
+  "modifiedDate": "2027-08-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_hero_decision_fatigue_first_time_author_blog_hero_landscape_599a9c55d5e4.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_hero_decision_fatigue_first_time_author_blog_hero_landscape_599a9c55d5e4.jpeg",
     "alt": "blog hero \u00b7 decision fatigue first-time author",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 6240,
+    "height": 4160,
+    "creator": "Nataliya Vaitkevich",
+    "creatorUrl": "https://www.pexels.com/@n-voitkevich",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five ways to publish your short stories FAQ",
-      "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq"
+      "item": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     }
   ],
   "tldrBlocks": [],
@@ -96,13 +96,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_confidence_credibility_blog_section_landscape_f2cbc62db3ce.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_confidence_credibility_blog_section_landscape_f2cbc62db3ce.gif",
         "alt": "What are the main ways to publish a short story collection?",
-        "width": 3750,
-        "height": 2500,
-        "creator": "Hartono Creative Studio",
-        "creatorUrl": "https://www.pexels.com/@hartonocreativestudio",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "robertkennedyjr",
+        "creatorUrl": "https://giphy.com/gifs/robertkennedyjr-serious-emphasis-resolute-Av7sqkDugb7kgLCjef",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -132,7 +132,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_frustration_gatekeeping_blog_section_landscape_2963143e7fa7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_frustration_gatekeeping_blog_section_landscape_2963143e7fa7.jpeg?updatedAt=1782315598365",
         "alt": "Why is it harder for first-time authors to get short story collections traditionally?",
         "width": 5184,
         "height": 3456,
@@ -245,13 +245,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_targeting_fit_blog_section_landscape_0c1f3b8f4507.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_targeting_fit_blog_section_landscape_0c1f3b8f4507.gif",
         "alt": "What's the best traditional option for publishing a single short story?",
-        "width": 6016,
-        "height": 4016,
-        "creator": "Kampus Production",
-        "creatorUrl": "https://www.pexels.com/@kampus",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -287,32 +287,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_section_image_next_draft_small_wins_blog_section_landscape_b5af1a138177.gif",
-    "alt": "blog section image \u00b7 next draft small wins",
-    "width": 526,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     },
     {
       "title": "Happy harsh truths of a writing career faq",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     },
     {
       "title": "A beginner's guide to writing IP FAQ",
-      "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     },
     {
-      "title": "How a self-published romance author built releases that look pro (and shipped anyway)",
-      "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
+      "title": "Common mistakes that make your category-busting book harder to sell",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -326,7 +317,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
     }
   ]
 } as const;
@@ -356,7 +347,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -368,31 +359,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five ways to publish your short stories FAQ",
-          "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq"
+          "item": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#webpage",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq",
       "name": "Five ways to publish your short stories FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -408,11 +399,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#article",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq",
       "headline": "Five ways to publish your short stories FAQ",
       "alternativeHeadline": "Five ways to publish your short stories FAQ",
       "description": "Publishing short stories comes with fewer \"pathways\" than novels, but more decisions that actually matter. Do we go traditional first and build a track record? Do we chase collections with a literary publisher, or move faster with self-publishing? And if the goal is just getting published (not becoming a mass-market celebrity), how do publishing choices change?",
@@ -442,48 +433,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#primaryimage"
       },
+      "datePublished": "2027-08-25",
+      "dateModified": "2027-08-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-          "url": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
         },
         {
           "@type": "WebPage",
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career faq",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
         },
         {
           "@type": "WebPage",
           "name": "A beginner's guide to writing IP FAQ",
-          "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+          "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         },
         {
           "@type": "WebPage",
-          "name": "How a self-published romance author built releases that look pro (and shipped anyway)",
-          "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
+          "name": "Common mistakes that make your category-busting book harder to sell",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_hero_decision_fatigue_first_time_author_blog_hero_landscape_599a9c55d5e4.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/five-ways-to-publish-your-short-stories-faq/blog/blog_hero_decision_fatigue_first_time_author_blog_hero_landscape_599a9c55d5e4.jpeg",
+      "width": 6240,
+      "height": 4160,
       "caption": "blog hero \u00b7 decision fatigue first-time author",
-      "creditText": "wwe",
+      "creditText": "Nataliya Vaitkevich",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "Nataliya Vaitkevich",
+        "url": "https://www.pexels.com/@n-voitkevich"
       },
       "@context": "https://schema.org"
     }

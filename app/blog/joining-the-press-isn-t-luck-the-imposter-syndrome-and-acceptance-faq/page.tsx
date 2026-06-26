@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Joining the press isn't luck: the imposter syndrome and acceptance FAQ",
   "description": "Getting into a publishing program (or joining \"the press\") can feel like a high-five and a gut punch at the same time. One minute you're celebrating. The next minute your brain starts whispering that it was \"just luck,\" and that you'll be found out the first time someone asks you something you don't know yet.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-31",
+  "modifiedDate": "2027-03-31",
   "canonicalUrl": "https://writequeryhook.com/blog/joining-the-press-isn-t-luck-the-imposter-syndrome-and-acceptance-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -533,6 +533,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/joining-the-press-isn-t-luck-the-imposter-syndrome-and-acceptance-faq#primaryimage"
       },
+      "datePublished": "2027-03-31",
+      "dateModified": "2027-03-31",
       "mentions": [
         {
           "@type": "WebPage",

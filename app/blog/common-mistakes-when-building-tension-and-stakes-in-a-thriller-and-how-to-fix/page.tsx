@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes when building tension and stakes in a thriller (and how to fix them fast)",
   "description": "Writers keep saying their thriller is \"interesting,\" and then\u2014somewhere around page 35\u2014their tension just\u2026 stops. The plot keeps moving. The sentences get prettier. The stakes don't actually escalate, though. That's why it feels like you're gripping a wet bar of soap.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-05",
+  "modifiedDate": "2026-09-05",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-when-building-tension-and-stakes-in-a-thriller-and-how-to-fix",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -589,6 +589,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-when-building-tension-and-stakes-in-a-thriller-and-how-to-fix#primaryimage"
       },
+      "datePublished": "2026-09-05",
+      "dateModified": "2026-09-05",
       "mentions": [
         {
           "@type": "WebPage",

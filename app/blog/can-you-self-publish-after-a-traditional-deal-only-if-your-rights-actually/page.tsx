@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
   "description": "A lot of authors get the same punch in the gut: the manuscript is \"yours\" in the emotional sense, but the rights are not automatically yours in the legal sense. So when you start asking about self-publishing\u2014especially for a backlist you can still imagine readers caring about\u2014you hit that wall that feels like a maze made of PDFs, royalty statements, and contract clauses.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
+  "publishedDate": "2027-06-20",
+  "modifiedDate": "2027-06-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_2134d031bf67.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_2134d031bf67.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "item": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
+      "item": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     }
   ],
   "tldrBlocks": [],
@@ -264,13 +264,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_contract_clauses_thresholds_blog_section_landscape_1bd8928d3616.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_contract_clauses_thresholds_blog_section_landscape_1bd8928d3616.gif",
         "alt": "What to check in your contract for self-publishing",
-        "width": 5040,
-        "height": 3360,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -405,13 +405,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_fist_on_desk_cost_math_blog_section_landscape_dfa51a214f1e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_fist_on_desk_cost_math_blog_section_landscape_dfa51a214f1e.jpeg",
         "alt": "How to choose between reversion and negotiation",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5184,
+        "height": 3888,
+        "creator": "Kindel Media",
+        "creatorUrl": "https://www.pexels.com/@kindelmedia",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -493,43 +493,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_revival_layout_blog_section_landscape_876dd0c10376.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_revival_layout_blog_section_landscape_876dd0c10376.gif",
         "alt": "Packaging and marketing a recovered backlist",
-        "width": 7680,
-        "height": 4320,
-        "creator": "Google DeepMind",
-        "creatorUrl": "https://www.pexels.com/@googledeepmind",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "ATLUSWest",
+        "creatorUrl": "https://giphy.com/gifs/ATLUSWest-persona-4-p4r-revival-KaqFd7Nag5FYSS1nKK",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_section_image_deep_breath_checklist_blog_section_landscape_03c0ffa1cb0e.jpeg",
-    "alt": "blog section image \u00b7 deep breath checklist",
-    "width": 4086,
-    "height": 2471,
-    "creator": "G\u00fcl\u015fah Aydo\u011fan",
-    "creatorUrl": "https://www.pexels.com/@gulsahaydgn",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-      "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
-    },
-    {
-      "title": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-      "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
-    },
-    {
       "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-      "url": "https://writequeryhook.com/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing-actually-works"
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     },
     {
       "title": "12 types of travel writing every writer should know (and what editors expect from each)",
-      "url": "https://writequeryhook.com/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect-from-each"
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
+    },
+    {
+      "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+    },
+    {
+      "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -568,7 +559,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "url": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     }
   ]
 } as const;
@@ -598,7 +589,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -610,31 +601,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "item": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
+          "item": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#webpage",
-      "url": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#webpage",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
       "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -650,11 +641,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#article",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#webpage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually",
       "headline": "Can you self-publish after a traditional deal? Only if your rights actually revert",
       "alternativeHeadline": "Can you self-publish after a traditional deal? Only if your rights actually revert",
       "description": "A lot of authors get the same punch in the gut: the manuscript is \"yours\" in the emotional sense, but the rights are not automatically yours in the legal sense. So when you start asking about self-publishing\u2014especially for a backlist you can still imagine readers caring about\u2014you hit that wall that feels like a maze made of PDFs, royalty statements, and contract clauses.",
@@ -684,55 +675,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage"
       },
+      "datePublished": "2027-06-20",
+      "dateModified": "2027-06-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "url": "https://writequeryhook.com/query-letters/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-          "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-          "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
+          "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         },
         {
           "@type": "WebPage",
           "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-          "url": "https://writequeryhook.com/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing-actually-works"
+          "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         },
         {
           "@type": "WebPage",
           "name": "12 types of travel writing every writer should know (and what editors expect from each)",
-          "url": "https://writequeryhook.com/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect-from-each"
+          "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
+        },
+        {
+          "@type": "WebPage",
+          "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
+          "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
+          "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_2134d031bf67.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_441/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_2134d031bf67.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#faq",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually#faq",
       "mainEntity": [
         {
           "@type": "Question",

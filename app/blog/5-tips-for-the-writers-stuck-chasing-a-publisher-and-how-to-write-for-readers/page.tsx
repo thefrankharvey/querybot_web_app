@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for the writers stuck chasing a publisher (and how to write for readers anyway)",
   "description": "The writer-brain is sneaky. It looks at the publishing label and decides that label equals legitimacy. Then it starts treating every silence like a verdict on your worth.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-24",
+  "modifiedDate": "2027-03-24",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-the-writers-stuck-chasing-a-publisher-and-how-to-write-for-readers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -527,6 +527,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-the-writers-stuck-chasing-a-publisher-and-how-to-write-for-readers#primaryimage"
       },
+      "datePublished": "2027-03-24",
+      "dateModified": "2027-03-24",
       "mentions": [
         {
           "@type": "WebPage",

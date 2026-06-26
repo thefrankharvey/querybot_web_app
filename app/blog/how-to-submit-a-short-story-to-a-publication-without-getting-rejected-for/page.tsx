@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
   "description": "Getting a short story ready is the hard part. The second-hard part is sending it in a way that doesn't give an editor an excuse to reject it before they read a single word.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
+  "publishedDate": "2027-07-11",
+  "modifiedDate": "2027-07-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_hero_anxious_intimidation_blog_hero_landscape_20c7eb6feed6.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_hero_anxious_intimidation_blog_hero_landscape_20c7eb6feed6.jpeg?updatedAt=1782249899996",
     "alt": "blog hero \u00b7 anxious intimidation",
     "width": 5941,
     "height": 3961,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "item": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
+      "item": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     }
   ],
   "tldrBlocks": [],
@@ -166,13 +166,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.jpeg",
         "alt": "Step 6: What to do after submitting a short story",
-        "width": 356,
-        "height": 200,
-        "creator": "LaGuardia-Wagner",
-        "creatorUrl": "https://giphy.com/gifs/LaGuardia-Wagner-formation-marching-get-in-j6AdhEDQSkmEtopILo",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -264,13 +264,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.jpeg",
         "alt": "Step 6: What to do after submitting a short story",
-        "width": 356,
-        "height": 200,
-        "creator": "LaGuardia-Wagner",
-        "creatorUrl": "https://giphy.com/gifs/LaGuardia-Wagner-formation-marching-get-in-j6AdhEDQSkmEtopILo",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -316,13 +316,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_panic_double_check_blog_section_landscape_8ed5a0306ca1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_panic_double_check_blog_section_landscape_8ed5a0306ca1.gif",
         "alt": "Step 5: Sanity-check attachments, email subject, and delivery",
-        "width": 5680,
-        "height": 3779,
-        "creator": "SHVETS production",
-        "creatorUrl": "https://www.pexels.com/@shvets-production",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -374,43 +374,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_prep_formatting_blog_section_landscape_12418ebf858e.jpeg",
         "alt": "Step 6: What to do after submitting a short story",
-        "width": 356,
-        "height": 200,
-        "creator": "LaGuardia-Wagner",
-        "creatorUrl": "https://giphy.com/gifs/LaGuardia-Wagner-formation-marching-get-in-j6AdhEDQSkmEtopILo",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_section_image_finish_line_next_draft_blog_section_landscape_05839bc9b295.jpeg",
-    "alt": "blog section image \u00b7 finish line next draft",
-    "width": 4492,
-    "height": 2995,
-    "creator": "RUN 4 FFWPU",
-    "creatorUrl": "https://www.pexels.com/@runffwpu",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     },
     {
       "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     },
     {
       "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     },
     {
-      "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+      "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -449,7 +440,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-      "url": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     }
   ]
 } as const;
@@ -479,7 +470,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -491,31 +482,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "item": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
+          "item": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
       "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -531,11 +522,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#article",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for",
       "headline": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
       "alternativeHeadline": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
       "description": "Getting a short story ready is the hard part. The second-hard part is sending it in a way that doesn't give an editor an excuse to reject it before they read a single word.",
@@ -565,40 +556,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage"
       },
+      "datePublished": "2027-07-11",
+      "dateModified": "2027-07-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-          "url": "https://writequeryhook.com/query-letters/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
+          "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         },
         {
           "@type": "WebPage",
           "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         },
         {
           "@type": "WebPage",
           "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
         },
         {
           "@type": "WebPage",
           "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         },
         {
           "@type": "WebPage",
-          "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+          "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
+          "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_hero_anxious_intimidation_blog_hero_landscape_20c7eb6feed6.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_465/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for/blog/blog_hero_anxious_intimidation_blog_hero_landscape_20c7eb6feed6.jpeg?updatedAt=1782249899996",
       "width": 5941,
       "height": 3961,
       "caption": "blog hero \u00b7 anxious intimidation",
@@ -613,7 +606,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#howto",
       "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
       "description": "Getting a short story ready is the hard part. The second-hard part is sending it in a way that doesn't give an editor an excuse to reject it before they read a single word.",
       "totalTime": "PT7M",
@@ -623,49 +616,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Read the guidelines like they owe you money",
           "text": "Check the publication's submission page first. The actual guidelines that control this particular publishing path matter most.",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-1-read-the-guidelines-like-they-owe-you-money"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-1-read-the-guidelines-like-they-owe-you-money"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Prepare the manuscript in the requested format",
           "text": "Build the manuscript exactly how they want it. If the guidelines say \".docx,\" use .docx. If they say \"PDF,\" send a PDF. Don't guess and don't \"best effort\" your way into a rejection.",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-2-prepare-the-manuscript-in-the-requested-format"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-2-prepare-the-manuscript-in-the-requested-format"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write a brief cover letter that matches the request",
           "text": "A cover letter should be brief, professional, and match the guidelines. No life story. No sympathy essay. No \"I'm grateful you're reading this.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-3-write-a-brief-cover-letter-that-matches-the-request"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-3-write-a-brief-cover-letter-that-matches-the-request"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Learn how to format a manuscript for submissions",
           "text": "Understanding how to format a manuscript for submissions means matching the file type, spacing, font, and identifying-info rules to the publication's exact request.",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-4-learn-how-to-format-a-manuscript-for-submissions"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-4-learn-how-to-format-a-manuscript-for-submissions"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Sanity-check attachments, email subject, and delivery",
           "text": "Before you submit, verify:",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-5-sanity-check-attachments-email-subject-and-delivery"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-5-sanity-check-attachments-email-subject-and-delivery"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: What to do after submitting a short story",
           "text": "After you hit send, do two things\u2014immediately:",
-          "url": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-6-what-to-do-after-submitting-a-short-story"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#step-6-what-to-do-after-submitting-a-short-story"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for#faq",
       "mainEntity": [
         {
           "@type": "Question",

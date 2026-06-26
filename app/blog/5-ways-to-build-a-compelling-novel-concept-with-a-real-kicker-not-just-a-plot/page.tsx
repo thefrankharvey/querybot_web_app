@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
   "description": "Most writers start with a \"novel concept\" that's basically a polite premise wearing a hoodie. It has a vibe. Maybe it even has a scene. Then, somehow, the draft stretches and stretches until it turns into \"same old, same old,\" and you start praying the middle will fix itself.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
+  "publishedDate": "2027-10-27",
+  "modifiedDate": "2027-10-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-      "item": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
+      "item": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
     }
   ],
   "tldrBlocks": [],
@@ -409,19 +409,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips self-published authors use to turn early readers into real publishing success",
-      "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
     },
     {
       "title": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
-    },
-    {
-      "title": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-      "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     },
     {
       "title": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-      "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+      "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
+    },
+    {
+      "title": "Great book title vs safer alternatives: pick the one that sells",
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -456,7 +456,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-      "url": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     }
   ]
 } as const;
@@ -486,7 +486,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -498,31 +498,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-          "item": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
+          "item": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#webpage",
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
       "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -538,11 +538,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#article",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#webpage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot",
       "headline": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
       "alternativeHeadline": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
       "description": "Most writers start with a \"novel concept\" that's basically a polite premise wearing a hoodie. It has a vibe. Maybe it even has a scene. Then, somehow, the draft stretches and stretches until it turns into \"same old, same old,\" and you start praying the middle will fix itself.",
@@ -572,39 +572,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage"
       },
+      "datePublished": "2027-10-27",
+      "dateModified": "2027-10-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-          "url": "https://writequeryhook.com/query-letters/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+          "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         },
         {
           "@type": "WebPage",
           "name": "5 tips self-published authors use to turn early readers into real publishing success",
-          "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+          "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-          "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+          "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
         },
         {
           "@type": "WebPage",
           "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-          "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Great book title vs safer alternatives: pick the one that sells",
+          "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_593/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot/blog/blog_hero_dread_blank_page_blog_hero_landscape_8723a6505e5c.gif",
       "width": 200,
       "height": 200,
@@ -620,7 +622,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#faq",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot#faq",
       "mainEntity": [
         {
           "@type": "Question",

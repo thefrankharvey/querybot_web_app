@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon algorithms for authors: a demystified example of how books get shown",
   "description": "Most writers hear \"Amazon algorithms\" and picture one giant brain deciding their fate. Then they do the common thing: panic-refresh rankings, change keywords ten times, and assume the system is either broken or magic.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
+  "publishedDate": "2027-09-14",
+  "modifiedDate": "2027-09-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_hero_overwhelmed_blank_page_blog_hero_landscape_1ff132a40c5c.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_hero_overwhelmed_blank_page_blog_hero_landscape_1ff132a40c5c.jpeg?updatedAt=1782332350554",
     "alt": "blog hero \u00b7 overwhelmed blank-page",
     "width": 5763,
     "height": 3842,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-      "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+      "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
     }
   ],
   "tldrBlocks": [],
@@ -93,7 +93,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_tldr_blog_section_landscape_3a027a03af24.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_tldr_blog_section_landscape_3a027a03af24.gif?updatedAt=1782332351266",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -276,7 +276,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_click_conversion_blog_section_landscape_b0031465bb0e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_click_conversion_blog_section_landscape_b0031465bb0e.jpeg?updatedAt=1782332351720",
         "alt": "Sales conversion vs page visits: why the same sales can rank differently",
         "width": 4288,
         "height": 2848,
@@ -366,7 +366,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_lessons_takeaways_blog_section_landscape_39f5adb2845e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_lessons_takeaways_blog_section_landscape_39f5adb2845e.gif?updatedAt=1782332352584",
         "alt": "Lessons / Takeaways",
         "width": 296,
         "height": 200,
@@ -377,32 +377,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_section_image_cold_reality_fist_pump_blog_section_landscape_3b1a7a169617.jpeg",
-    "alt": "blog section image \u00b7 cold-reality fist-pump",
-    "width": 7680,
-    "height": 4320,
-    "creator": "cottonbro CG studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro-cg-studio",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-      "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
     },
     {
       "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-      "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+      "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
     },
     {
       "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     },
     {
-      "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-      "url": "https://writequeryhook.com/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+      "title": "How to build a marketing plan that actually targets readers (not vibes)",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -437,7 +428,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-      "url": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
     }
   ]
 } as const;
@@ -467,7 +458,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -479,31 +470,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-          "item": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+          "item": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
       "name": "Amazon algorithms for authors: a demystified example of how books get shown",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -519,11 +510,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#article",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown",
       "headline": "Amazon algorithms for authors: a demystified example of how books get shown",
       "alternativeHeadline": "Amazon algorithms for authors: a demystified example of how books get shown",
       "description": "Most writers hear \"Amazon algorithms\" and picture one giant brain deciding their fate. Then they do the common thing: panic-refresh rankings, change keywords ten times, and assume the system is either broken or magic.",
@@ -553,40 +544,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage"
       },
+      "datePublished": "2027-09-14",
+      "dateModified": "2027-09-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-          "url": "https://writequeryhook.com/query-letters/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
-          "url": "https://writequeryhook.com/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker-than-you-think"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
         },
         {
           "@type": "WebPage",
           "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-          "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+          "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "url": "https://writequeryhook.com/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm-like-one-thing"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
         },
         {
           "@type": "WebPage",
-          "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-          "url": "https://writequeryhook.com/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+          "name": "How to build a marketing plan that actually targets readers (not vibes)",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_hero_overwhelmed_blank_page_blog_hero_landscape_1ff132a40c5c.jpeg",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_541/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown/blog/blog_hero_overwhelmed_blank_page_blog_hero_landscape_1ff132a40c5c.jpeg?updatedAt=1782332350554",
       "width": 5763,
       "height": 3842,
       "caption": "blog hero \u00b7 overwhelmed blank-page",
@@ -601,7 +589,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#faq",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
   "description": "You get an offer. Then the contract arrives, and suddenly the \"win\" turns into a stack of legal language that reads like it was written to discourage eye contact.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
+  "publishedDate": "2027-05-10",
+  "modifiedDate": "2027-05-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_hero_relief_dread_blog_hero_landscape_6f597998c9ae.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_hero_relief_dread_blog_hero_landscape_6f597998c9ae.jpeg",
     "alt": "blog hero \u00b7 relief dread",
-    "width": 356,
-    "height": 200,
-    "creator": "MysticTV",
-    "creatorUrl": "https://giphy.com/gifs/MysticTV-mystic-cbbc-mystictv-Rjvzi9HrfGzLuWCONQ",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-      "item": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
+      "item": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     }
   ],
   "tldrBlocks": [],
@@ -94,7 +94,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_tldr_blog_section_landscape_95769fcc0170.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_tldr_blog_section_landscape_95769fcc0170.jpeg?updatedAt=1782131143831",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -155,7 +155,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_ownership_publication_rights_blog_section_landscape_dcdb2add5eaa.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_ownership_publication_rights_blog_section_landscape_dcdb2add5eaa.gif?updatedAt=1782131144975",
         "alt": "Opening \u2014 what \"signing away rights\" really means",
         "width": 238,
         "height": 200,
@@ -366,43 +366,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_confidence_checklist_blog_section_landscape_416f3526112f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_confidence_checklist_blog_section_landscape_416f3526112f.gif",
         "alt": "Lessons / Takeaways \u2014 what you should do with this in your own contract",
-        "width": 3456,
-        "height": 2304,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Checklist_Legal",
+        "creatorUrl": "https://giphy.com/gifs/contracts-business-checklist-legal-ca72IyeiPTMCEMfvWJ",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_section_image_send_it_back_lawyer_eyes_blog_section_landscape_2b9b2f842d6e.jpeg",
-    "alt": "blog section image \u00b7 send it back lawyer eyes",
-    "width": 9504,
-    "height": 5346,
-    "creator": "khezez  | \u062e\u0632\u0627\u0632",
-    "creatorUrl": "https://www.pexels.com/@khezez",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-      "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
-    },
-    {
       "title": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
     },
     {
       "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-      "url": "https://writequeryhook.com/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
     },
     {
-      "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-      "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+      "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+    },
+    {
+      "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -441,7 +432,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-      "url": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     }
   ]
 } as const;
@@ -471,7 +462,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -483,31 +474,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
-          "item": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
+          "item": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#webpage",
-      "url": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
+      "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#webpage",
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
       "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage"
+        "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -523,11 +514,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#article",
+      "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#webpage"
+        "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough",
       "headline": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
       "alternativeHeadline": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
       "description": "You get an offer. Then the contract arrives, and suddenly the \"win\" turns into a stack of legal language that reads like it was written to discourage eye contact.",
@@ -557,55 +548,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage"
+        "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage"
       },
+      "datePublished": "2027-05-10",
+      "dateModified": "2027-05-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
-          "url": "https://writequeryhook.com/query-letters/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-          "url": "https://writequeryhook.com/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and-editing-reality-with-examples"
+          "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         },
         {
           "@type": "WebPage",
           "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
         },
         {
           "@type": "WebPage",
           "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-          "url": "https://writequeryhook.com/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
         },
         {
           "@type": "WebPage",
-          "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-          "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+          "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
+          "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
+          "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_hero_relief_dread_blog_hero_landscape_6f597998c9ae.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_388/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough/blog/blog_hero_relief_dread_blog_hero_landscape_6f597998c9ae.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 relief dread",
-      "creditText": "MysticTV",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "MysticTV",
-        "url": "https://giphy.com/gifs/MysticTV-mystic-cbbc-mystictv-Rjvzi9HrfGzLuWCONQ"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#faq",
+      "@id": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough#faq",
       "mainEntity": [
         {
           "@type": "Question",

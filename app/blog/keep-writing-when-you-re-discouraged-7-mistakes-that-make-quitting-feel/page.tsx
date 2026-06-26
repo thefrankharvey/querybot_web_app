@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
   "description": "Discouragement hits like a flat tire: sometimes it\u2019s sudden, sometimes you\u2019ve been rolling on it for days and wondering why you can\u2019t get where you meant to go. Either way, the mind starts negotiating. Maybe this is the wrong project. Maybe you\u2019re not legitimate. Maybe you should stop writing until you feel better.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
+  "publishedDate": "2027-04-17",
+  "modifiedDate": "2027-04-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "confusion"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel/blog/blog_hero_discouragement_dread_blog_hero_landscape_bf9c42d784a4.jpeg?updatedAt=1781831543543",
+    "alt": "blog hero \u00b7 discouragement dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-      "item": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
+      "item": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     }
   ],
   "tldrBlocks": [],
@@ -85,7 +94,16 @@ const PAGE_DATA = {
           ]
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel/blog/blog_section_image_tldr_blog_section_landscape_5b69aa346054.gif",
+        "alt": "TLDR",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_opening",
@@ -304,7 +322,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** You spend 30 minutes checking who got requests on querytracker and who posted a \u201cmonth of progress\u201d thread. Then you stop. You do 15 minutes of scene writing and you don\u2019t check anything else until tomorrow."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel/blog/blog_section_image_comparison_motivation_blog_section_landscape_d8c72de8c4ab.gif",
+        "alt": "You feed comparison because it feels like \u201cchecking reality\u201d",
+        "width": 200,
+        "height": 200,
+        "creator": "Abster_Abstract",
+        "creatorUrl": "https://giphy.com/gifs/Abster-Abstract-abstract-abster-abstractchain-gaFjfCvkoUXTfB02lQ",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_calling_fear_perfectionism_be_the_problem",
@@ -484,26 +511,35 @@ const PAGE_DATA = {
           "text": "When you\u2019re discouraged, avoid these anti-patterns: 1. Using journaling as a \u201cfix my feelings\u201d ritual 2. Setting daily goals that require you to feel good first 3. Waiting for \u201cprepared\u201d permission instead of writing anyway 4. Comparing progress until motivation dies 5. Feeding fear/perfectionism with thinking-only work 6. Turning rejection into a verdict on your identity 7. Skipping movement and community and expecting clarity"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel/blog/blog_section_image_recap_blog_section_landscape_87b6e5a21baf.jpeg",
+        "alt": "Recap",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-      "url": "https://writequeryhook.com/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re-radioactive"
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
     },
     {
       "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-      "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
     },
     {
       "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     },
     {
-      "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-      "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+      "title": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+      "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -538,7 +574,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-      "url": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
     }
   ]
 } as const;
@@ -568,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -580,28 +616,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-          "item": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
+          "item": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#webpage",
-      "url": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
+      "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#webpage",
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
       "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -617,11 +656,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#article",
+      "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#webpage"
+        "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel",
       "headline": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
       "alternativeHeadline": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \"reasonable",
       "description": "Discouragement hits like a flat tire: sometimes it\u2019s sudden, sometimes you\u2019ve been rolling on it for days and wondering why you can\u2019t get where you meant to go. Either way, the mind starts negotiating. Maybe this is the wrong project. Maybe you\u2019re not legitimate. Maybe you should stop writing until you feel better.",
@@ -650,38 +689,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#primaryimage"
+      },
+      "datePublished": "2027-04-17",
+      "dateModified": "2027-04-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-          "url": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-          "url": "https://writequeryhook.com/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re-radioactive"
+          "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
         },
         {
           "@type": "WebPage",
           "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-          "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+          "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
         },
         {
           "@type": "WebPage",
           "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+          "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-          "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+          "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+          "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel/blog/blog_hero_discouragement_dread_blog_hero_landscape_bf9c42d784a4.jpeg?updatedAt=1781831543543",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 discouragement dread",
+      "creditText": "Felicity Tai",
+      "author": {
+        "@type": "Person",
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#faq",
+      "@id": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel#faq",
       "mainEntity": [
         {
           "@type": "Question",

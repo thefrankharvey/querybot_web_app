@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to recover from writer burnout with an unplug-first routine (and back-brain mindfulness)",
   "description": "Writer burnout feels like more than \"I can't write.\" It's that ugly, sustained exhaustion where the project starts to feel unbearable\u2014like staring at a locked door that somehow got heavier overnight.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-21",
+  "modifiedDate": "2027-03-21",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-recover-from-writer-burnout-with-an-unplug-first-routine-and-back-brain",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-recover-from-writer-burnout-with-an-unplug-first-routine-and-back-brain#primaryimage"
       },
+      "datePublished": "2027-03-21",
+      "dateModified": "2027-03-21",
       "mentions": [
         {
           "@type": "WebPage",

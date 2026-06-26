@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop pitching your thriller like a list of events\u2014engineer unputdownable through character, POV, and motive",
   "description": "If your thriller pitch reads like a conveyor belt of events\u2014inciting incident, chase, twist, explosion, end\u2014this is the part where I tap the brake. Because that pitch can be \"technically correct\" and still fail the one job it has: making the right reader want to keep going.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-14",
+  "modifiedDate": "2026-11-14",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-pitching-your-thriller-like-a-list-of-events-engineer-unputdownable",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -603,6 +603,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-pitching-your-thriller-like-a-list-of-events-engineer-unputdownable#primaryimage"
       },
+      "datePublished": "2026-11-14",
+      "dateModified": "2026-11-14",
       "mentions": [
         {
           "@type": "WebPage",

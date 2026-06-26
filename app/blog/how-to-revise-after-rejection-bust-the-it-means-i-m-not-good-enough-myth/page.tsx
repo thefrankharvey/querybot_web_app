@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Revise After Rejection: Bust the \"It Means I'm Not Good Enough\" Myth",
   "description": "Rejection lands like a punch to the gut, and then your brain starts writing fanfic about what it means. \"No\" becomes a character judgment. Your manuscript turns into a personality test.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-25",
+  "modifiedDate": "2027-02-25",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-after-rejection-bust-the-it-means-i-m-not-good-enough-myth",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -553,6 +553,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-revise-after-rejection-bust-the-it-means-i-m-not-good-enough-myth#primaryimage"
       },
+      "datePublished": "2027-02-25",
+      "dateModified": "2027-02-25",
       "mentions": [
         {
           "@type": "WebPage",

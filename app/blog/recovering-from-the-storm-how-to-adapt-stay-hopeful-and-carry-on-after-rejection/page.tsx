@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Recovering from the storm: how to adapt, stay hopeful, and carry on after rejection",
   "description": "A storm doesn't just destroy buildings. It wrecks normal. Schedules vanish. Power cuts. Your routes stop existing. The calendar you were using to feel in control turns into confetti.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-04",
+  "modifiedDate": "2027-03-04",
   "canonicalUrl": "https://writequeryhook.com/blog/recovering-from-the-storm-how-to-adapt-stay-hopeful-and-carry-on-after-rejection",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -556,6 +556,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/recovering-from-the-storm-how-to-adapt-stay-hopeful-and-carry-on-after-rejection#primaryimage"
       },
+      "datePublished": "2027-03-04",
+      "dateModified": "2027-03-04",
       "mentions": [
         {
           "@type": "WebPage",

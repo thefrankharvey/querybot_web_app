@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to know when to leave your agent without burning the whole relationship",
   "description": "Signing with an agent feels like the end of one kind of stress\u2014then querying stops, and a different stress starts. Now we're in publishing territory: the stakes are bigger, the timelines are longer, and the \"why hasn't this moved?\" question can start eating your brain at 2 a.m.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
+  "publishedDate": "2027-04-23",
+  "modifiedDate": "2027-04-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_hero_dread_uncertainty_blog_hero_landscape_378d2cf3f4c7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_hero_dread_uncertainty_blog_hero_landscape_378d2cf3f4c7.jpeg?updatedAt=1781851930021",
     "alt": "blog hero \u00b7 dread uncertainty",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to know when to leave your agent without burning the whole relationship",
-      "item": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "item": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     }
   ],
   "tldrBlocks": [],
@@ -125,7 +125,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_context_publishing_reality_blog_section_landscape_2314ea1e40bb.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_context_publishing_reality_blog_section_landscape_2314ea1e40bb.gif?updatedAt=1781851930636",
         "alt": "Step 1: Assess the context first (is this a failed sale or a failed effort?)",
         "width": 200,
         "height": 200,
@@ -188,13 +188,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_directness_transparency_blog_section_landscape_82ca7a0e4130.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_directness_transparency_blog_section_landscape_82ca7a0e4130.gif",
         "alt": "Step 2: Raise concerns in plain terms (and do it before you leave)",
-        "width": 5564,
-        "height": 3714,
-        "creator": "Edoardo Tommasini",
-        "creatorUrl": "https://www.pexels.com/@edotommo99",
-        "provider": "pexels",
+        "width": 282,
+        "height": 200,
+        "creator": "theaslgifs",
+        "creatorUrl": "https://giphy.com/gifs/think-conversation-discuss-pF8xShdMhJtfwyAXar",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -330,7 +330,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_reflection_evidence_blog_section_landscape_7c0de2b0672a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_reflection_evidence_blog_section_landscape_7c0de2b0672a.jpeg?updatedAt=1781851931553",
         "alt": "Step 5: Understand what to do if agent stops responding",
         "width": 6469,
         "height": 4313,
@@ -376,7 +376,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_reflection_evidence_blog_section_landscape_7c0de2b0672a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_reflection_evidence_blog_section_landscape_7c0de2b0672a.jpeg?updatedAt=1781851931553",
         "alt": "Step 5: Understand what to do if agent stops responding",
         "width": 6469,
         "height": 4313,
@@ -387,32 +387,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_section_image_send_the_email_final_checklist_blog_section_landscape_a4fea8f781aa.gif",
-    "alt": "blog section image \u00b7 send the email final checklist",
-    "width": 144,
-    "height": 200,
-    "creator": "NYSports13",
-    "creatorUrl": "https://giphy.com/gifs/jalen-brunson-knicks-5-og-QMSHsxIQgEGUVoZlwI",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write a great book description that sells (not summarizes)",
-      "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     },
     {
       "title": "How to respond to an offer of representation without getting rushed",
-      "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     },
     {
       "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     },
     {
-      "title": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-      "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+      "title": "Literary agents vs the slush pile: slay the myths, keep the process",
+      "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -455,7 +446,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a great book description that sells (not summarizes)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     }
   ]
 } as const;
@@ -485,7 +476,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -497,31 +488,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to know when to leave your agent without burning the whole relationship",
-          "item": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "item": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
       "name": "How to know when to leave your agent without burning the whole relationship",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -537,11 +528,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#article",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship",
       "headline": "How to know when to leave your agent without burning the whole relationship",
       "alternativeHeadline": "How to know when to leave your agent without burning the whole relationship",
       "description": "Signing with an agent feels like the end of one kind of stress\u2014then querying stops, and a different stress starts. Now we're in publishing territory: the stakes are bigger, the timelines are longer, and the \"why hasn't this moved?\" question can start eating your brain at 2 a.m.",
@@ -571,40 +562,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage"
       },
+      "datePublished": "2027-04-23",
+      "dateModified": "2027-04-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a great book description that sells (not summarizes)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to write a great book description that sells (not summarizes)",
-          "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
         },
         {
           "@type": "WebPage",
           "name": "How to respond to an offer of representation without getting rushed",
-          "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         },
         {
           "@type": "WebPage",
           "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+          "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
         },
         {
           "@type": "WebPage",
-          "name": "How I Built a Submissions Spreadsheet That Makes Rejection Feel Like Data",
-          "url": "https://writequeryhook.com/how-i-built-a-submissions-spreadsheet-that-makes-rejection-feel-like-data"
+          "name": "Literary agents vs the slush pile: slay the myths, keep the process",
+          "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_hero_dread_uncertainty_blog_hero_landscape_378d2cf3f4c7.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship/blog/blog_hero_dread_uncertainty_blog_hero_landscape_378d2cf3f4c7.jpeg?updatedAt=1781851930021",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread uncertainty",
@@ -619,7 +607,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#howto",
       "name": "How to know when to leave your agent without burning the whole relationship",
       "description": "Signing with an agent feels like the end of one kind of stress\u2014then querying stops, and a different stress starts. Now we're in publishing territory: the stakes are bigger, the timelines are longer, and the \"why hasn't this moved?\" question can start eating your brain at 2 a.m.",
       "totalTime": "PT7M",
@@ -629,49 +617,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Assess the context first (is this a failed sale or a failed effort?)",
           "text": "Before you decide on anything harsh, separate two things that look identical from the outside:",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-1-assess-the-context-first-is-this-a-failed-sale-or-a-failed-effort"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-1-assess-the-context-first-is-this-a-failed-sale-or-a-failed-effort"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Raise concerns in plain terms (and do it before you leave)",
           "text": "If something feels off\u2014lack of updates, unclear strategy, weird delays, vague answers\u2014don't pre-pack your resignation letter. Ask for clarity first.",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-2-raise-concerns-in-plain-terms-and-do-it-before-you-leave"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-2-raise-concerns-in-plain-terms-and-do-it-before-you-leave"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Define \"reasonable\" for communication, then measure it",
           "text": "Writers can't evaluate anything if the rules are invisible. The trap is thinking \"reasonable\" is whatever you personally feel at the moment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-3-define-reasonable-for-communication-then-measure-it"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-3-define-reasonable-for-communication-then-measure-it"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Watch for ethics and unprofessional behavior (this is where the \"leave\" case gets real)",
           "text": "Now you're moving from \"is this normal?\" to \"is this unethical or unworkable?\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-4-watch-for-ethics-and-unprofessional-behavior-this-is-where-the-leave"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-4-watch-for-ethics-and-unprofessional-behavior-this-is-where-the-leave"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Understand what to do if agent stops responding",
           "text": "Extended inability to reach your agent\u2014after multiple reasonable attempts\u2014is more serious than slow replies. When you cross into being consistently unreachable, that's a warning sign. If you keep trying and still can't get in touch within a reasonable timeframe, you may have a real problem on your hands. At this point, what to do if agent stops responding becomes your immediate question: do you send a final written request for contact, set a deadline for a response, or begin exploring your next steps?",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-5-understand-what-to-do-if-agent-stops-responding"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-5-understand-what-to-do-if-agent-stops-responding"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Decide after you get answers, then let time do its job",
           "text": "The \"non-emotional\" part you're aiming for comes after concerns are raised, responses are considered, time has passed, and you reflect on what the full pattern says\u2014not just one miserable moment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-6-decide-after-you-get-answers-then-let-time-do-its-job"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#step-6-decide-after-you-get-answers-then-let-time-do-its-job"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship#faq",
       "mainEntity": [
         {
           "@type": "Question",

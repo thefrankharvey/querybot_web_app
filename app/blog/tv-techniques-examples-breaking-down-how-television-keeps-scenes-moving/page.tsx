@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Tv techniques examples: breaking down how television keeps scenes moving",
   "description": "If you\u2019ve ever had a draft where the middle starts to feel like you\u2019re dragging it by the ankles, you\u2019re not imagining things. A lot of writer advice basically hands you a comforting lie: \u201cWord count doesn\u2019t matter. Just tell the story.\u201d That sounds humane\u2014until the story starts to sag right when it needs to sprint.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-27",
+  "modifiedDate": "2027-01-27",
   "canonicalUrl": "https://writequeryhook.com/blog/tv-techniques-examples-breaking-down-how-television-keeps-scenes-moving",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -614,6 +614,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/tv-techniques-examples-breaking-down-how-television-keeps-scenes-moving#primaryimage"
       },
+      "datePublished": "2027-01-27",
+      "dateModified": "2027-01-27",
       "mentions": [
         {
           "@type": "WebPage",

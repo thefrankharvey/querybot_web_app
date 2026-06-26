@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common \"don't/can't/shouldn't\" writing rules that block your creativity (and when they don't apply)",
   "description": "Most writers aren't \"bad at writing.\" We're just allergic to contradictory advice.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-20",
+  "modifiedDate": "2026-09-20",
   "canonicalUrl": "https://writequeryhook.com/blog/common-don-t-can-t-shouldn-t-writing-rules-that-block-your-creativity-and-when",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -518,6 +518,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-don-t-can-t-shouldn-t-writing-rules-that-block-your-creativity-and-when#primaryimage"
       },
+      "datePublished": "2026-09-20",
+      "dateModified": "2026-09-20",
       "mentions": [
         {
           "@type": "WebPage",

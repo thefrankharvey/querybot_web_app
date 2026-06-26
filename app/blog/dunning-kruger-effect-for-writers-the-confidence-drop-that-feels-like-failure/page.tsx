@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dunning-Kruger effect for writers: the confidence drop that feels like failure",
   "description": "A lot of writers don't start self-doubt because they're broken. They start self-doubt because the process finally turns the lights on.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-20",
+  "modifiedDate": "2027-02-20",
   "canonicalUrl": "https://writequeryhook.com/blog/dunning-kruger-effect-for-writers-the-confidence-drop-that-feels-like-failure",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -657,6 +657,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dunning-kruger-effect-for-writers-the-confidence-drop-that-feels-like-failure#primaryimage"
       },
+      "datePublished": "2027-02-20",
+      "dateModified": "2027-02-20",
       "mentions": [
         {
           "@type": "WebPage",

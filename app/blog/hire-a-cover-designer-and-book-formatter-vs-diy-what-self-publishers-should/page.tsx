@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
   "description": "If you're self-publishing, nobody's coming to save you from the two things that can quietly wreck your launch: a book cover that looks generic and a manuscript that isn't book formatting-ready for the platform. Meanwhile, you're staring at options like DIY, premades, or paying someone to do it \"right.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
+  "publishedDate": "2027-08-26",
+  "modifiedDate": "2027-08-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_hero_overwhelm_contract_confusion_blog_hero_landscape_0313245f9efc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_hero_overwhelm_contract_confusion_blog_hero_landscape_0313245f9efc.jpeg?updatedAt=1782315634940",
     "alt": "blog hero \u00b7 overwhelm contract confusion",
     "width": 6150,
     "height": 4755,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-      "item": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
+      "item": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
     }
   ],
   "tldrBlocks": [],
@@ -152,7 +152,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_accountability_contract_blog_section_landscape_e67b1ddd0d12.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_accountability_contract_blog_section_landscape_e67b1ddd0d12.jpeg?updatedAt=1782315635584",
         "alt": "Traditional vs self-publishing responsibility",
         "width": 6720,
         "height": 4480,
@@ -294,13 +294,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_line_by_line_widows_or_orphans_blog_section_landscape_7b3cb33c2d0e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_line_by_line_widows_or_orphans_blog_section_landscape_7b3cb33c2d0e.gif",
         "alt": "Typesetting vs book formatting: what you're really buying",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Mitchell Luo",
-        "creatorUrl": "https://www.pexels.com/@mitchel3uo",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -451,7 +451,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_the_verdict_blog_section_landscape_f5455b791b56.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_the_verdict_blog_section_landscape_f5455b791b56.gif?updatedAt=1782315636714",
         "alt": "The verdict",
         "width": 279,
         "height": 200,
@@ -462,32 +462,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_section_image_commitment_pick_a_path_blog_section_landscape_807ec71ccdd8.gif",
-    "alt": "blog section image \u00b7 commitment pick a path",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-      "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
     },
     {
       "title": "Five ways to publish your short stories FAQ",
-      "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     },
     {
       "title": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     },
     {
-      "title": "Happy harsh truths of a writing career faq",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+      "title": "A beginner's guide to writing IP FAQ",
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -522,7 +513,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-      "url": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
     }
   ]
 } as const;
@@ -552,7 +543,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -564,31 +555,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-          "item": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
+          "item": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#webpage",
-      "url": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
+      "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#webpage",
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
       "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage"
+        "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -604,11 +595,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#article",
+      "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#webpage"
+        "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should",
       "headline": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
       "alternativeHeadline": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
       "description": "If you're self-publishing, nobody's coming to save you from the two things that can quietly wreck your launch: a book cover that looks generic and a manuscript that isn't book formatting-ready for the platform. Meanwhile, you're staring at options like DIY, premades, or paying someone to do it \"right.\"",
@@ -638,40 +629,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage"
+        "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage"
       },
+      "datePublished": "2027-08-26",
+      "dateModified": "2027-08-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-          "url": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+          "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-          "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish your short stories FAQ",
-          "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career faq",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+          "name": "A beginner's guide to writing IP FAQ",
+          "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_hero_overwhelm_contract_confusion_blog_hero_landscape_0313245f9efc.jpeg",
+      "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should/blog/blog_hero_overwhelm_contract_confusion_blog_hero_landscape_0313245f9efc.jpeg?updatedAt=1782315634940",
       "width": 6150,
       "height": 4755,
       "caption": "blog hero \u00b7 overwhelm contract confusion",
@@ -686,7 +679,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#faq",
+      "@id": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Unconventional writing that still fits: category-busting without becoming a gimmick",
   "description": "Unconventional writing can feel like the only honest way to tell the story\u2014until you hit the part of publishing where honesty has to survive contact with a shelf.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
+  "publishedDate": "2027-07-14",
+  "modifiedDate": "2027-07-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_hero_confusion_dread_blog_hero_landscape_a5fa25be6a93.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_hero_confusion_dread_blog_hero_landscape_a5fa25be6a93.jpeg?updatedAt=1782250663694",
     "alt": "blog hero \u00b7 confusion dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-      "item": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
+      "item": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
     }
   ],
   "tldrBlocks": [],
@@ -156,7 +156,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_labels_buckets_blog_section_landscape_4003201c31c9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_labels_buckets_blog_section_landscape_4003201c31c9.gif?updatedAt=1782250669829",
         "alt": "Categories are commercial navigation, not vibes",
         "width": 356,
         "height": 200,
@@ -240,13 +240,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_inseparable_proof_blog_section_landscape_dd797c40df24.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_inseparable_proof_blog_section_landscape_dd797c40df24.gif",
         "alt": "Unconventional is allowed, but only if it's story-critical",
-        "width": 5324,
-        "height": 3549,
-        "creator": "Cats Coming",
-        "creatorUrl": "https://www.pexels.com/@catscoming",
-        "provider": "pexels",
+        "width": 348,
+        "height": 200,
+        "creator": "JudgeJerryTV",
+        "creatorUrl": "https://giphy.com/gifs/JudgeJerryTV-reality-tv-judgejerry-judge-jerry-rules-YoEYAdxkQpbpp0rdsH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -388,7 +388,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_how_to_category_bust_as_a_debut_author_blog_section_landscape_7ce125367ab3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_how_to_category_bust_as_a_debut_author_blog_section_landscape_7ce125367ab3.jpeg?updatedAt=1782250672528",
         "alt": "How to category-bust as a debut author",
         "width": 6611,
         "height": 4407,
@@ -399,32 +399,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_section_image_take_action_rewrite_blog_section_landscape_7f434a796e62.gif",
-    "alt": "blog section image \u00b7 take-action rewrite",
-    "width": 200,
-    "height": 200,
-    "creator": "justin",
-    "creatorUrl": "https://giphy.com/gifs/justin-lol-spit-take-kC8N6DPOkbqWTxkNTe",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-      "url": "https://writequeryhook.com/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral-system"
+      "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
     },
     {
       "title": "8 reasons your book needs a business plan (before you write a word)",
-      "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+      "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
     },
     {
       "title": "5 things writers should know about Wattpad (and the future of publishing)",
-      "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     },
     {
-      "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -464,12 +455,7 @@ const PAGE_DATA = {
       "text": "Give the team something they can place, describe, and believe\u2014because \"awesome on the page\" is only step one. The rest is execution, in plain language, aimed at the shelf."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/query-letters/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -497,7 +483,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -509,31 +495,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
-          "item": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
+          "item": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#webpage",
-      "url": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#webpage",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
       "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -549,11 +535,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#article",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#webpage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a",
       "headline": "Unconventional writing that still fits: category-busting without becoming a gimmick",
       "alternativeHeadline": "Unconventional writing that still fits: category-busting without becoming a gimmick",
       "description": "Unconventional writing can feel like the only honest way to tell the story\u2014until you hit the part of publishing where honesty has to survive contact with a shelf.",
@@ -583,40 +569,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage"
       },
+      "datePublished": "2027-07-14",
+      "dateModified": "2027-07-14",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/query-letters/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
-        },
-        {
-          "@type": "WebPage",
           "name": "How publishing hides books with \"interest\" labels (and why it isn't a neutral system)",
-          "url": "https://writequeryhook.com/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral-system"
+          "url": "https://writequeryhook.com/blog/how-publishing-hides-books-with-interest-labels-and-why-it-isn-t-a-neutral"
         },
         {
           "@type": "WebPage",
           "name": "8 reasons your book needs a business plan (before you write a word)",
-          "url": "https://writequeryhook.com/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
+          "url": "https://writequeryhook.com/blog/8-reasons-your-book-needs-a-business-plan-before-you-write-a-word"
         },
         {
           "@type": "WebPage",
           "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "url": "https://writequeryhook.com/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         },
         {
           "@type": "WebPage",
-          "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
+          "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_hero_confusion_dread_blog_hero_landscape_a5fa25be6a93.jpeg",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_468/unconventional-writing-that-still-fits-category-busting-without-becoming-a/blog/blog_hero_confusion_dread_blog_hero_landscape_a5fa25be6a93.jpeg?updatedAt=1782250663694",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
@@ -631,7 +614,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-that-still-fits-category-busting-without-becoming-a#faq",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a#faq",
       "mainEntity": [
         {
           "@type": "Question",

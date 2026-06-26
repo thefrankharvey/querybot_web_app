@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comparing your writing FAQ: stop the spiral, start drafting",
   "description": "Comparing your writing is supposed to \"motivate\" you. What it usually does instead is twist your mood into a permanent frown and steal your attention right when you're trying to craft sentences. Comparing hijacks your brain's job from writing to watching.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-19",
+  "modifiedDate": "2027-03-19",
   "canonicalUrl": "https://writequeryhook.com/blog/comparing-your-writing-faq-stop-the-spiral-start-drafting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -458,6 +458,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comparing-your-writing-faq-stop-the-spiral-start-drafting#primaryimage"
       },
+      "datePublished": "2027-03-19",
+      "dateModified": "2027-03-19",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What literary agents do (and what they don't do) FAQ",
   "description": "Writers hear the romantic version of \"agenting\" and the vague version of \"the process,\" and somehow that turns into dread. If you're wondering how literary agents fit into publishing\u2014from submissions to contracts to the inevitable \"so what now?\" moment\u2014this is the straight answer page.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq",
+  "publishedDate": "2027-07-19",
+  "modifiedDate": "2027-07-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "busy editors"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/what-literary-agents-do-and-what-they-don-t-do-faq/blog/blog_hero_confused_submission_pipeline_blog_hero_landscape_43571b38269c.jpeg?updatedAt=1782428017300",
+    "alt": "blog hero \u00b7 confused submission pipeline",
+    "width": 8256,
+    "height": 5504,
+    "creator": "Wolfgang Weiser",
+    "creatorUrl": "https://www.pexels.com/@wolfgang-weiser-467045605",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What literary agents do (and what they don't do) FAQ",
-      "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "item": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     }
   ],
   "tldrBlocks": [],
@@ -94,7 +103,16 @@ const PAGE_DATA = {
           "text": "When an agent sits down with incoming **submissions**, they're checking whether the manuscript matches an editor who's actively buying in this space, whether the premise is strong enough to survive the editor's slush pile, and whether the comp titles actually track. An agent who sees fifty queries a week might forward three to editors\u2014sometimes fewer. The filtering matters because editors trust agents who consistently send work that's close to publishable and aligned with what those editors actually want."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/what-literary-agents-do-and-what-they-don-t-do-faq/blog/blog_section_image_busy_editors_filter_blog_section_landscape_a3eab5bca2e7.gif?updatedAt=1782428019787",
+        "alt": "Why do publishers rely on agents for submissions?",
+        "width": 200,
+        "height": 200,
+        "creator": "KPN",
+        "creatorUrl": "https://giphy.com/gifs/KPN-kpn-kpnkat-kpnunlimited-KDEitMzaZdkfUAIGet",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_do_agents_ever_edit_manuscripts_before_submitting_them",
@@ -125,7 +143,16 @@ const PAGE_DATA = {
           "text": "If you've been rewriting the wrong thing for months, this is the moment to ask what an agent would change before they'd want to submit."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/what-literary-agents-do-and-what-they-don-t-do-faq/blog/blog_section_image_perfectionism_revision_blog_section_landscape_00a8cc8096a4.gif?updatedAt=1782428020249",
+        "alt": "Do agents ever edit manuscripts before submitting them?",
+        "width": 253,
+        "height": 200,
+        "creator": "inkygirl",
+        "creatorUrl": "https://giphy.com/gifs/revising-5lESd7gYwNzXQp2nxk",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_does_the_submission_process_involve_for_an_agent",
@@ -164,7 +191,16 @@ const PAGE_DATA = {
           "text": "An agent's work moves through distinct stages. First comes the intake phase: reading queries and samples, deciding what fits their list. Second is the developmental phase, where they ask the writer for revisions or additional work if needed. Third is the submission phase\u2014identifying which editors to contact, writing a tight pitch letter, and tracking responses. Fourth is the offer phase, where **how agents negotiate offers and contracts** kicks in: evaluating terms, running auctions if multiple publishers bid, and protecting the author's interests. Finally comes the post-deal phase: monitoring payment schedules, key dates, and any disputes that emerge during **contracts** execution. Each step has different demands and timelines."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/what-literary-agents-do-and-what-they-don-t-do-faq/blog/blog_section_image_networking_selection_blog_section_landscape_c087fab09082.jpeg?updatedAt=1782428020842",
+        "alt": "What does the submission process involve for an agent?",
+        "width": 4630,
+        "height": 3081,
+        "creator": "Brett Sayles",
+        "creatorUrl": "https://www.pexels.com/@brett-sayles",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_happens_when_an_offer_comes_in",
@@ -237,19 +273,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Aspiring author FAQ: how to get a book published",
-      "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     },
     {
       "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
-    },
-    {
-      "title": "How to market a self-published book: 3 real-world examples you can copy",
-      "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     },
     {
       "title": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-      "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+      "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
+    },
+    {
+      "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -267,7 +303,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     }
   ]
 } as const;
@@ -297,7 +333,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -309,28 +345,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What literary agents do (and what they don't do) FAQ",
-          "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq"
+          "item": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#webpage",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq",
       "name": "What literary agents do (and what they don't do) FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -346,11 +385,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq#article",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-literary-agents-do-and-what-they-don-t-do-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq",
       "headline": "What literary agents do (and what they don't do) FAQ",
       "alternativeHeadline": "What literary agents do (and what they don\u2019t do) FAQ",
       "description": "Writers hear the romantic version of \"agenting\" and the vague version of \"the process,\" and somehow that turns into dread. If you're wondering how literary agents fit into publishing\u2014from submissions to contracts to the inevitable \"so what now?\" moment\u2014this is the straight answer page.",
@@ -379,33 +418,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#primaryimage"
+      },
+      "datePublished": "2027-07-19",
+      "dateModified": "2027-07-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "url": "https://writequeryhook.com/query-letters/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         },
         {
           "@type": "WebPage",
           "name": "Aspiring author FAQ: how to get a book published",
-          "url": "https://writequeryhook.com/aspiring-author-faq-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to market a self-published book: 3 real-world examples you can copy",
-          "url": "https://writequeryhook.com/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
+          "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
         },
         {
           "@type": "WebPage",
           "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-          "url": "https://writequeryhook.com/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it-saves-you-time-and-when-it-doesn-t"
+          "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_474/what-literary-agents-do-and-what-they-don-t-do-faq/blog/blog_hero_confused_submission_pipeline_blog_hero_landscape_43571b38269c.jpeg?updatedAt=1782428017300",
+      "width": 8256,
+      "height": 5504,
+      "caption": "blog hero \u00b7 confused submission pipeline",
+      "creditText": "Wolfgang Weiser",
+      "author": {
+        "@type": "Person",
+        "name": "Wolfgang Weiser",
+        "url": "https://www.pexels.com/@wolfgang-weiser-467045605"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

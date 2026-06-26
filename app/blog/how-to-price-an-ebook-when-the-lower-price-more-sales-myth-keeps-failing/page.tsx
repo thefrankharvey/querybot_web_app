@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
   "description": "My kingdom for a pricing lever that always works. Sadly, \u201clower price\u201d is the myth that keeps showing up like a bad sequel.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
+  "publishedDate": "2027-08-02",
+  "modifiedDate": "2027-08-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_hero_stuck_pricing_eye_roll_blog_hero_landscape_ef94afce9cc2.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_hero_stuck_pricing_eye_roll_blog_hero_landscape_ef94afce9cc2.jpeg",
     "alt": "blog hero \u00b7 stuck pricing eye-roll",
-    "width": 262,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
-    "provider": "giphy",
+    "width": 4273,
+    "height": 2838,
+    "creator": "Adriana Beckova",
+    "creatorUrl": "https://www.pexels.com/@adriana-beckova-1584864721",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-      "item": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+      "item": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
     }
   ],
   "tldrBlocks": [],
@@ -104,7 +104,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_baseline_price_reference_points_blog_section_landscape_fe8b73b0cd67.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_baseline_price_reference_points_blog_section_landscape_fe8b73b0cd67.gif?updatedAt=1782271028055",
         "alt": "Step 1: Set the baseline using *reader perception*, not just your costs",
         "width": 356,
         "height": 200,
@@ -299,7 +299,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_market_shift_update_cadence_blog_section_landscape_8331ae2bdec9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_market_shift_update_cadence_blog_section_landscape_8331ae2bdec9.jpeg?updatedAt=1782271028613",
         "alt": "Step 5: Choose a pricing strategy that can move when the market moves",
         "width": 3999,
         "height": 2667,
@@ -357,43 +357,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_traditional_publishers_reluctance_blog_section_landscape_a3322530ca6e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_traditional_publishers_reluctance_blog_section_landscape_a3322530ca6e.gif",
         "alt": "Step 6: Avoid the channel trap\u2014especially if you\u2019re dealing with traditional publishers",
-        "width": 6016,
-        "height": 3638,
-        "creator": "Moussa Idrissi",
-        "creatorUrl": "https://www.pexels.com/@mographe",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_00c079a0d096.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-      "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
-    },
-    {
       "title": "Building your author platform with Twitter followers vs off-social alternatives",
-      "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
     },
     {
       "title": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-      "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
     },
     {
-      "title": "Reasons to use social media that have nothing to do with selling books FAQ",
-      "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+      "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+    },
+    {
+      "title": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -425,12 +416,7 @@ const PAGE_DATA = {
       "text": "Pick a baseline that matches how readers interpret value, then make pricing decisions based on the failure mode you\u2019re seeing\u2014throttled sales from too-high pricing, or suppressed demand from too-low pricing. Then run a controlled adjustment loop so your pricing strategy keeps up with what the market is telling you, not what you wish it would do. If you want a tool built for this kind of uncertainty, use **Dispatch** for real-time publishing intel so you\u2019re not flying blind while your ebook pricing gets tested."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-      "url": "https://writequeryhook.com/query-letters/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -458,7 +444,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -470,31 +456,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-          "item": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+          "item": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
       "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -510,11 +496,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#article",
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing",
       "headline": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
       "alternativeHeadline": "How to price an ebook when the \"lower price = more sales\" myth keeps failing",
       "description": "My kingdom for a pricing lever that always works. Sadly, \u201clower price\u201d is the myth that keeps showing up like a bad sequel.",
@@ -544,55 +530,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage"
       },
+      "datePublished": "2027-08-02",
+      "dateModified": "2027-08-02",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-          "url": "https://writequeryhook.com/query-letters/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-          "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
-        },
-        {
-          "@type": "WebPage",
           "name": "Building your author platform with Twitter followers vs off-social alternatives",
-          "url": "https://writequeryhook.com/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
+          "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
         },
         {
           "@type": "WebPage",
           "name": "Publishing timeline from contract to shelves vs self-publishing: which path actually gets you in stores?",
-          "url": "https://writequeryhook.com/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path-actually-gets-you-in-stores"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-from-contract-to-shelves-vs-self-publishing-which-path"
         },
         {
           "@type": "WebPage",
-          "name": "Reasons to use social media that have nothing to do with selling books FAQ",
-          "url": "https://writequeryhook.com/reasons-to-use-social-media-that-have-nothing-to-do-with-selling-books-faq"
+          "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Can You Self-Publish If You've Published Traditionally Before? FAQ",
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-if-you-ve-published-traditionally-before-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_hero_stuck_pricing_eye_roll_blog_hero_landscape_ef94afce9cc2.gif",
-      "width": 262,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_491/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing/blog/blog_hero_stuck_pricing_eye_roll_blog_hero_landscape_ef94afce9cc2.jpeg",
+      "width": 4273,
+      "height": 2838,
       "caption": "blog hero \u00b7 stuck pricing eye-roll",
-      "creditText": "Giphy",
+      "creditText": "Adriana Beckova",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK"
+        "name": "Adriana Beckova",
+        "url": "https://www.pexels.com/@adriana-beckova-1584864721"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#howto",
       "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
       "description": "My kingdom for a pricing lever that always works. Sadly, \u201clower price\u201d is the myth that keeps showing up like a bad sequel.",
       "totalTime": "PT8M",
@@ -602,49 +585,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Set the baseline using reader perception, not just your costs",
           "text": "Start by picking a \u201creference zone\u201d the way readers do. Not what you spent on editing. Not your minimum survival number. The question is: what price level will a typical reader interpret as \u201cthis is worth my time\u201d?",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-1-set-the-baseline-using-reader-perception-not-just-your-costs"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-1-set-the-baseline-using-reader-perception-not-just-your-costs"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Check whether \u201cpricing too high throttles sales\u201d is actually what\u2019s happening",
           "text": "Now assume your current price is wrong\u2014then verify the type of wrong.",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-2-check-whether-pricing-too-high-throttles-sales-is-actually-what-s"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-2-check-whether-pricing-too-high-throttles-sales-is-actually-what-s"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build a \u201ccheap can suppress demand\u201d plan into your pricing thinking",
           "text": "Here\u2019s the myth-bust: very low ebook prices can reduce demand.",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-3-build-a-cheap-can-suppress-demand-plan-into-your-pricing-thinking"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-3-build-a-cheap-can-suppress-demand-plan-into-your-pricing-thinking"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Account for the yearly buying ceiling\u2014why one discounted title won\u2019t \u201cfix\u201d aggregate sales",
           "text": "This step is where the myth really gets embarrassing for most advice online.",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-4-account-for-the-yearly-buying-ceiling-why-one-discounted-title-won-t"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-4-account-for-the-yearly-buying-ceiling-why-one-discounted-title-won-t"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Choose a pricing strategy that can move when the market moves",
           "text": "The market is not a static board game. The \u201cright answer\u201d can change over time as reader expectations, competitor pricing, and platform dynamics shift.",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-5-choose-a-pricing-strategy-that-can-move-when-the-market-moves"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-5-choose-a-pricing-strategy-that-can-move-when-the-market-moves"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Avoid the channel trap\u2014especially if you\u2019re dealing with traditional publishers",
           "text": "If you\u2019re operating in traditional publishing routes, you run into another reality: traditional publishers tend to be reluctant to price ebooks at certain low mid-range levels, even when it could boost individual title sales.",
-          "url": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-6-avoid-the-channel-trap-especially-if-you-re-dealing-with-traditional"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#step-6-avoid-the-channel-trap-especially-if-you-re-dealing-with-traditional"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing#faq",
       "mainEntity": [
         {
           "@type": "Question",

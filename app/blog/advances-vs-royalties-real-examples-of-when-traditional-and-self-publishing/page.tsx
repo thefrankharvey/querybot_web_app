@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
   "description": "Most writer math problems aren't about writing; they're about translating contract language into real life.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
+  "publishedDate": "2027-07-04",
+  "modifiedDate": "2027-07-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_hero_confusion_paycheck_dread_blog_hero_landscape_c1b29823f549.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_hero_confusion_paycheck_dread_blog_hero_landscape_c1b29823f549.jpeg?updatedAt=1782244062381",
     "alt": "blog hero \u00b7 confusion paycheck dread",
     "width": 6720,
     "height": 4480,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-      "item": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+      "item": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
     }
   ],
   "tldrBlocks": [],
@@ -111,7 +111,7 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_d207cca50831.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_d207cca50831.gif?updatedAt=1782244063011",
         "alt": "Body \u2014 Structural breakdown",
         "width": 279,
         "height": 200,
@@ -256,13 +256,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_earn_out_waiting_blog_section_landscape_6abec248ae43.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_earn_out_waiting_blog_section_landscape_6abec248ae43.jpeg",
         "alt": "Earning out: when do you start earning royalties (and why \"royalty\" doesn't mean \"immediate\")",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5248,
+        "height": 3749,
+        "creator": "Matt Hardy",
+        "creatorUrl": "https://www.pexels.com/@matthardy",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -340,13 +340,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_percentages_deductions_blog_section_landscape_df7519cd83f7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_percentages_deductions_blog_section_landscape_df7519cd83f7.gif",
         "alt": "Traditional royalty rates explained + deductions: where the percentages and returns get you",
-        "width": 6232,
-        "height": 4155,
-        "creator": "Nataliya Vaitkevich",
-        "creatorUrl": "https://www.pexels.com/@n-voitkevich",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "EncounterParty",
+        "creatorUrl": "https://giphy.com/gifs/EncounterParty-dungeons-and-dragons-encounter-party-encounterparty-KInUkaHcYYo9rZtAhJ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -429,32 +429,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_section_image_turn_back_to_draft_protect_yourself_blog_section_landscape_85d057f39e49.jpeg",
-    "alt": "blog section image \u00b7 turn back to draft protect yourself",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Tara Winstead",
-    "creatorUrl": "https://www.pexels.com/@tara-winstead",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
-      "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     },
     {
       "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-      "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
     },
     {
       "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     },
     {
-      "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+      "title": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
+      "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -486,12 +477,7 @@ const PAGE_DATA = {
       "text": "If you remember nothing else, remember this: advances and royalties are different machines with different timing rules. Traditional publishing pays you in two phases\u2014milestones first, then recoupment-driven royalty checks\u2014while self-publishing mostly runs on platform royalties and payout schedules."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-      "url": "https://writequeryhook.com/query-letters/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -519,7 +505,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -531,31 +517,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-          "item": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
+          "item": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#webpage",
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
       "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -571,11 +557,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#article",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#webpage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing",
       "headline": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
       "alternativeHeadline": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
       "description": "Most writer math problems aren't about writing; they're about translating contract language into real life.",
@@ -605,40 +591,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage"
       },
+      "datePublished": "2027-07-04",
+      "dateModified": "2027-07-04",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-          "url": "https://writequeryhook.com/query-letters/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-          "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         },
         {
           "@type": "WebPage",
           "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-          "url": "https://writequeryhook.com/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+          "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
         },
         {
           "@type": "WebPage",
           "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         },
         {
           "@type": "WebPage",
-          "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+          "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
+          "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_hero_confusion_paycheck_dread_blog_hero_landscape_c1b29823f549.jpeg",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_458/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing/blog/blog_hero_confusion_paycheck_dread_blog_hero_landscape_c1b29823f549.jpeg?updatedAt=1782244062381",
       "width": 6720,
       "height": 4480,
       "caption": "blog hero \u00b7 confusion paycheck dread",
@@ -653,7 +636,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#faq",
+      "@id": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

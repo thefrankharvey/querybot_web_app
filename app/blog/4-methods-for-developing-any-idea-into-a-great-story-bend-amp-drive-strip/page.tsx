@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "4 methods for developing any idea into a great story (bend, amp, drive, strip)",
   "description": "Most writers have the \"idea part\" handled. The problem shows up the moment the drafting starts. Suddenly that premise you loved turns into something polite, familiar, and\u2014worst of all\u2014optional. Like the story is waiting for you to do all the thinking, because it refuses to generate consequences on its own.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-11",
+  "modifiedDate": "2026-10-11",
   "canonicalUrl": "https://writequeryhook.com/blog/4-methods-for-developing-any-idea-into-a-great-story-bend-amp-drive-strip",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -481,6 +481,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/4-methods-for-developing-any-idea-into-a-great-story-bend-amp-drive-strip#primaryimage"
       },
+      "datePublished": "2026-10-11",
+      "dateModified": "2026-10-11",
       "mentions": [
         {
           "@type": "WebPage",

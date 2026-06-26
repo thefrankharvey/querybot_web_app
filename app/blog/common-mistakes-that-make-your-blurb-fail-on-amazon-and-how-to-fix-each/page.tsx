@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
   "description": "You know what's coming for your blurb, right? Only a tiny slice shows up before the buyer decides whether to click \"read more.\" That's why the first lines matter more than the whole, elegant paragraph you sweated over last night.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
+  "publishedDate": "2027-05-28",
+  "modifiedDate": "2027-05-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_hero_dread_scroll_panic_blog_hero_landscape_d5d99d3dd9ab.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_hero_dread_scroll_panic_blog_hero_landscape_d5d99d3dd9ab.jpeg",
     "alt": "blog hero \u00b7 dread scroll-panic",
-    "width": 356,
-    "height": 200,
-    "creator": "freshcake",
-    "creatorUrl": "https://giphy.com/gifs/cartoon-scared-loading-5FMVTsWyna8fQS1je9",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "item": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     }
   ],
   "tldrBlocks": [],
@@ -160,7 +160,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_disappointment_eye_roll_blog_section_landscape_e901b0b9745a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_disappointment_eye_roll_blog_section_landscape_e901b0b9745a.gif?updatedAt=1782176923975",
         "alt": "You're panicking about missing reviews/sales signals (so your first line gives up)",
         "width": 170,
         "height": 200,
@@ -257,7 +257,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_disappointment_eye_roll_blog_section_landscape_e901b0b9745a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_disappointment_eye_roll_blog_section_landscape_e901b0b9745a.gif?updatedAt=1782176923975",
         "alt": "You're panicking about missing reviews/sales signals (so your first line gives up)",
         "width": 170,
         "height": 200,
@@ -344,7 +344,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_confusion_foggy_middle_blog_section_landscape_e8b602cb8078.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_confusion_foggy_middle_blog_section_landscape_e8b602cb8078.jpeg?updatedAt=1782176924461",
         "alt": "You're delaying premise and conflict until the middle (so readers lose momentum)",
         "width": 5899,
         "height": 3318,
@@ -392,13 +392,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_uncertainty_wrong_audience_blog_section_landscape_57ecad714ffd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_uncertainty_wrong_audience_blog_section_landscape_57ecad714ffd.gif",
         "alt": "You're vague about genre (so the wrong readers find you)",
-        "width": 4752,
-        "height": 3168,
-        "creator": "John-Mark Smith",
-        "creatorUrl": "https://www.pexels.com/@jmark",
-        "provider": "pexels",
+        "width": 336,
+        "height": 200,
+        "creator": "election2016",
+        "creatorUrl": "https://giphy.com/gifs/election2016-donald-trump-election-2016-3oz8xLd9DJq2l2VFtu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -417,32 +417,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_section_image_fix_it_energy_delete_and_rewrite_blog_section_landscape_fd5709a23e39.jpeg",
-    "alt": "blog section image \u00b7 fix-it energy delete and rewrite",
-    "width": 5472,
-    "height": 3648,
-    "creator": "KATRIN  BOLOVTSOVA",
-    "creatorUrl": "https://www.pexels.com/@ekaterina-bolovtsova",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     },
     {
       "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-      "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+      "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
     },
     {
-      "title": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-      "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+      "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     },
     {
-      "title": "5 ways authors can help market their book after manuscript acceptance",
-      "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+      "title": "5 tips for resubmitting a revision to an agent without sounding shady",
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -456,7 +447,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "url": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     }
   ]
 } as const;
@@ -486,7 +477,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -498,31 +489,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "item": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
       "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -538,11 +529,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each",
       "headline": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
       "alternativeHeadline": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
       "description": "You know what's coming for your blurb, right? Only a tiny slice shows up before the buyer decides whether to click \"read more.\" That's why the first lines matter more than the whole, elegant paragraph you sweated over last night.",
@@ -572,48 +563,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage"
       },
+      "datePublished": "2027-05-28",
+      "dateModified": "2027-05-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "url": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "url": "https://writequeryhook.com/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides-whether-reviews-happen"
+          "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
         },
         {
           "@type": "WebPage",
           "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-          "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
+          "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
         },
         {
           "@type": "WebPage",
-          "name": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-          "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+          "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
+          "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         },
         {
           "@type": "WebPage",
-          "name": "5 ways authors can help market their book after manuscript acceptance",
-          "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+          "name": "5 tips for resubmitting a revision to an agent without sounding shady",
+          "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_hero_dread_scroll_panic_blog_hero_landscape_d5d99d3dd9ab.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each/blog/blog_hero_dread_scroll_panic_blog_hero_landscape_d5d99d3dd9ab.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 dread scroll-panic",
-      "creditText": "freshcake",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "freshcake",
-        "url": "https://giphy.com/gifs/cartoon-scared-loading-5FMVTsWyna8fQS1je9"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     }

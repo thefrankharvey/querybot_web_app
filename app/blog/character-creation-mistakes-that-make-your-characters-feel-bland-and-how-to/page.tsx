@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Character creation mistakes that make your characters feel bland (and how to fix them fast)",
   "description": "If your character ideas keep coming out \"fine,\" I get it. We all stare at the page, pull a trait from somewhere\u2014nice job, good heart, anxious, competent\u2014and wonder why it doesn't spark.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-22",
+  "modifiedDate": "2026-12-22",
   "canonicalUrl": "https://writequeryhook.com/blog/character-creation-mistakes-that-make-your-characters-feel-bland-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -592,6 +592,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/character-creation-mistakes-that-make-your-characters-feel-bland-and-how-to#primaryimage"
       },
+      "datePublished": "2026-12-22",
+      "dateModified": "2026-12-22",
       "mentions": [
         {
           "@type": "WebPage",

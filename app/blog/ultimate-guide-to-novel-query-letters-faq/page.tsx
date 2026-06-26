@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Ultimate guide to novel query letters: FAQ",
   "description": "Querying feels like a mess until you break it into repeatable pieces. A strong query letter has a clear shape: a standout novel hook, intentional personalization, a bio with the right key elements, and a professional closing that doesn't read like you're apologizing for existing.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-04",
+  "modifiedDate": "2026-08-04",
   "canonicalUrl": "https://writequeryhook.com/blog/ultimate-guide-to-novel-query-letters-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -367,6 +367,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/ultimate-guide-to-novel-query-letters-faq#primaryimage"
       },
+      "datePublished": "2026-08-04",
+      "dateModified": "2026-08-04",
       "mentions": [
         {
           "@type": "WebPage",

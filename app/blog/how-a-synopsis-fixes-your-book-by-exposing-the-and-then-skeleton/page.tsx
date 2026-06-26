@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
   "description": "Writers dread synopsis writing because it feels like you're supposed to compress your soul into a tiny document and hope the industry takes you seriously. Like the manuscript can be brilliant, but the synopsis might still land with a dull thud\u2014and suddenly you're panicking about whether your book \"counts.\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
+  "publishedDate": "2027-11-09",
+  "modifiedDate": "2027-11-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-      "item": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+      "item": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
     }
   ],
   "tldrBlocks": [],
@@ -393,19 +393,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-      "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
     },
     {
       "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
     },
     {
       "title": "5 tips for writing a novel synopsis that actually covers the whole story",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     },
     {
-      "title": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-      "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+      "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -444,7 +444,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The best nonfiction synopsis format is the one that matches how agents actually read",
-      "url": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+      "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
     }
   ]
 } as const;
@@ -474,7 +474,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +486,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-          "item": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+          "item": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
+      "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#webpage",
+      "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
       "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +526,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#article",
+      "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#webpage"
+        "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton",
       "headline": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
       "alternativeHeadline": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
       "description": "Writers dread synopsis writing because it feels like you're supposed to compress your soul into a tiny document and hope the industry takes you seriously. Like the manuscript can be brilliant, but the synopsis might still land with a dull thud\u2014and suddenly you're panicking about whether your book \"counts.\"",
@@ -560,39 +560,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage"
       },
+      "datePublished": "2027-11-09",
+      "dateModified": "2027-11-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
-          "url": "https://writequeryhook.com/query-letters/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
+          "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
         },
         {
           "@type": "WebPage",
           "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-          "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+          "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         },
         {
           "@type": "WebPage",
-          "name": "How to use a long-form synopsis to plan your novel (without over-polishing it)",
-          "url": "https://writequeryhook.com/how-to-use-a-long-form-synopsis-to-plan-your-novel-without-over-polishing-it"
+          "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_608/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton/blog/blog_hero_dread_blank_page_panic_blog_hero_landscape_6078ee691979.gif",
       "width": 200,
       "height": 200,
@@ -608,7 +610,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#faq",
+      "@id": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton#faq",
       "mainEntity": [
         {
           "@type": "Question",

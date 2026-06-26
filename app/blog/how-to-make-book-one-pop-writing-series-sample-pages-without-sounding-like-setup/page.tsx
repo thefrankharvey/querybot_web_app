@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to make book one pop: writing series sample pages without sounding like setup",
   "description": "I recognize the specific panic: the page count is fine, the prose is fine, the characters are fine\u2014so why do the sample pages feel like they're showing up to meetings they never planned to be at?",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-20",
+  "modifiedDate": "2026-12-20",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-book-one-pop-writing-series-sample-pages-without-sounding-like-setup",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -657,6 +657,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-make-book-one-pop-writing-series-sample-pages-without-sounding-like-setup#primaryimage"
       },
+      "datePublished": "2026-12-20",
+      "dateModified": "2026-12-20",
       "mentions": [
         {
           "@type": "WebPage",

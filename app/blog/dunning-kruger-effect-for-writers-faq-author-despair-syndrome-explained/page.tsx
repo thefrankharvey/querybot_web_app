@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dunning-Kruger Effect for Writers FAQ: author despair syndrome explained",
   "description": "If your confidence takes a nosedive after you start getting feedback, you're not alone. Most writers don't wake up bad at writing\u2014they get better at seeing what's wrong. And when you can suddenly name the problems (plot logic, character believability, stakes, tension, structure), your earlier \"this is perfect\" draft starts looking like a flashlight in fog.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-22",
+  "modifiedDate": "2027-02-22",
   "canonicalUrl": "https://writequeryhook.com/blog/dunning-kruger-effect-for-writers-faq-author-despair-syndrome-explained",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -414,6 +414,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dunning-kruger-effect-for-writers-faq-author-despair-syndrome-explained#primaryimage"
       },
+      "datePublished": "2027-02-22",
+      "dateModified": "2027-02-22",
       "mentions": [
         {
           "@type": "WebPage",

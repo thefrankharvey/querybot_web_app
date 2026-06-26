@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Sit with discomfort vs spiraling: the 'second arrow' fix for writing and revision",
   "description": "TLDR",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-19",
+  "modifiedDate": "2027-03-19",
   "canonicalUrl": "https://writequeryhook.com/blog/sit-with-discomfort-vs-spiraling-the-second-arrow-fix-for-writing-and-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -645,6 +645,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/sit-with-discomfort-vs-spiraling-the-second-arrow-fix-for-writing-and-revision#primaryimage"
       },
+      "datePublished": "2027-03-19",
+      "dateModified": "2027-03-19",
       "mentions": [
         {
           "@type": "WebPage",

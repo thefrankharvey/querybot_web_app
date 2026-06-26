@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Healing writer burnout vs powering through: which option actually gets your draft back?",
   "description": "There's \"writer's block,\" and then there's writer burnout\u2014the kind that doesn't just stop the words, it makes the whole project feel like a loaded weapon you can't put down. The exhaustion hangs around. Deadlines don't motivate you; they bruise you. The cursor becomes personal.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-07",
+  "modifiedDate": "2027-03-07",
   "canonicalUrl": "https://writequeryhook.com/blog/healing-writer-burnout-vs-powering-through-which-option-actually-gets-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -610,6 +610,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/healing-writer-burnout-vs-powering-through-which-option-actually-gets-your#primaryimage"
       },
+      "datePublished": "2027-03-07",
+      "dateModified": "2027-03-07",
       "mentions": [
         {
           "@type": "WebPage",

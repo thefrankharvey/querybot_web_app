@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "100 writing, publishing, and querying tips that actually survive revision",
   "description": "A lot of writing advice reads like it was assembled from a stack of vague sticky notes. \"Be consistent.\" \"Revise more.\" \"Add stakes.\" Cool\u2014now what? When your pages are messy, your POV is drifting, and your query underperforms, a philosophy won't fix it. You need concrete moves\u2014revision passes that isolate one problem at a time, POV choices that stay locked, character wants that drive every scene\u2014something that still works when you're tired and the draft still isn't cooperating.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-07",
+  "modifiedDate": "2026-07-07",
   "canonicalUrl": "https://writequeryhook.com/blog/100-writing-publishing-and-querying-tips-that-actually-survive-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -329,6 +329,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/100-writing-publishing-and-querying-tips-that-actually-survive-revision#primaryimage"
       },
+      "datePublished": "2026-07-07",
+      "dateModified": "2026-07-07",
       "mentions": [
         {
           "@type": "WebPage",

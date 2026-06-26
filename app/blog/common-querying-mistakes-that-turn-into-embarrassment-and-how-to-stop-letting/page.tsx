@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common Querying Mistakes That Turn Into Embarrassment (and How to Stop Letting Them)",
   "description": "There's a very specific kind of embarrassment that shows up during querying. Not the \"I tried\" kind. The \"why did I say that out loud\" kind. You hit submit. You watch inbox silence. And when something goes wrong\u2014form rejection, delay, confusing request\u2014you start treating it like evidence. Evidence that you're doing it wrong. Evidence that the book is wrong. Evidence that you should crawl back into the middle-school shell and never speak again.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-18",
+  "modifiedDate": "2027-02-18",
   "canonicalUrl": "https://writequeryhook.com/blog/common-querying-mistakes-that-turn-into-embarrassment-and-how-to-stop-letting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -521,6 +521,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-querying-mistakes-that-turn-into-embarrassment-and-how-to-stop-letting#primaryimage"
       },
+      "datePublished": "2027-02-18",
+      "dateModified": "2027-02-18",
       "mentions": [
         {
           "@type": "WebPage",

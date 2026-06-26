@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "First Three Chapters FAQ: Worldbuilding, Character Introduction, and Pacing",
   "description": "The first three chapters carry a disproportionate amount of pressure. Readers decide whether to keep going fast, and editors/revision passes tend to camp out here first. So yes\u2014this is where attention is earned, or lost.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-06",
+  "modifiedDate": "2026-10-06",
   "canonicalUrl": "https://writequeryhook.com/blog/first-three-chapters-faq-worldbuilding-character-introduction-and-pacing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -484,6 +484,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/first-three-chapters-faq-worldbuilding-character-introduction-and-pacing#primaryimage"
       },
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
       "mentions": [
         {
           "@type": "WebPage",

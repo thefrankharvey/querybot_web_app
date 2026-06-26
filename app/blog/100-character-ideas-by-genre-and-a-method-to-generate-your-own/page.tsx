@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "100 character ideas by genre (and a method to generate your own)",
   "description": "Writers don't lack creativity. They lack usable options.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-02",
+  "modifiedDate": "2026-09-02",
   "canonicalUrl": "https://writequeryhook.com/blog/100-character-ideas-by-genre-and-a-method-to-generate-your-own",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -503,6 +503,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/100-character-ideas-by-genre-and-a-method-to-generate-your-own#primaryimage"
       },
+      "datePublished": "2026-09-02",
+      "dateModified": "2026-09-02",
       "mentions": [
         {
           "@type": "WebPage",

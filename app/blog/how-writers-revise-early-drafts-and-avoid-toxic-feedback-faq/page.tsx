@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How writers revise early drafts and avoid toxic feedback (FAQ)",
   "description": "Revision and feedback are both writing craft, but they get treated like personality tests. That's how drafts start to feel like evidence, not material\u2014and how \"help\" turns into emotional splinters. This FAQ answers the questions writers keep circling when they've got a manuscript that feels amorphous, a critique that landed too hard, or a process that doesn't match their brain.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-27",
+  "modifiedDate": "2026-10-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-writers-revise-early-drafts-and-avoid-toxic-feedback-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -573,6 +573,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-writers-revise-early-drafts-and-avoid-toxic-feedback-faq#primaryimage"
       },
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
       "mentions": [
         {
           "@type": "WebPage",

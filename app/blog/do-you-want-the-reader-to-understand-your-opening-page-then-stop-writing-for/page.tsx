@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Do you want the reader to understand your opening page? Then stop writing for your intent",
   "description": "If your opening page keeps getting you side-eye from beta readers\u2014\"I can't tell what's happening,\" \"I'm not sure who's here,\" \"Why does this matter?\"\u2014there's a good chance you're committing the most common crime in the first chapter.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-19",
+  "modifiedDate": "2026-09-19",
   "canonicalUrl": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-opening-page-then-stop-writing-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -695,6 +695,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/do-you-want-the-reader-to-understand-your-opening-page-then-stop-writing-for#primaryimage"
       },
+      "datePublished": "2026-09-19",
+      "dateModified": "2026-09-19",
       "mentions": [
         {
           "@type": "WebPage",

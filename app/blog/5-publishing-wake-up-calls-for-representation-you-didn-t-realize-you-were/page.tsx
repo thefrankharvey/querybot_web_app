@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
   "description": "I used to think \"industry literacy\" was about knowing the job\u2014how editors read, how books get packaged, how marketing copy gets written. Then a workshop conversation hit me with a worse question: What if the way we've been trained to see stories quietly trains us to miss people?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
+  "publishedDate": "2027-10-06",
+  "modifiedDate": "2027-10-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_hero_recognized_pattern_workshop_shock_blog_hero_landscape_89b719f60d8d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_hero_recognized_pattern_workshop_shock_blog_hero_landscape_89b719f60d8d.jpeg",
     "alt": "blog hero \u00b7 recognized pattern workshop shock",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Harvey Tan Villarino",
+    "creatorUrl": "https://www.pexels.com/@harveyvillarino",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "item": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
+      "item": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
     }
   ],
   "tldrBlocks": [],
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_mirror_perspective_blog_section_landscape_b9873cbdf735.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_mirror_perspective_blog_section_landscape_b9873cbdf735.jpeg?updatedAt=1782339674424",
         "alt": "Hold up a mirror: stop reading your own assumptions as \"objective perspective\"",
         "width": 3089,
         "height": 2048,
@@ -262,13 +262,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_reading_list_parameters_blog_section_landscape_69ae1dced6bd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_reading_list_parameters_blog_section_landscape_69ae1dced6bd.gif",
         "alt": "Broaden your reading parameters until you stop relying on the same three categories",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Tima Miroshnichenko",
-        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/list-B7o99rIuystY4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -316,43 +316,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_truthful_storytelling_social_change_blog_section_landscape_f018dd3c02c8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_truthful_storytelling_social_change_blog_section_landscape_f018dd3c02c8.gif",
         "alt": "Tell truthful storytelling\u2014and make space for the perspective that gets labeled \"special interest\"",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Polina Tankilevitch",
-        "creatorUrl": "https://www.pexels.com/@polina-tankilevitch",
-        "provider": "pexels",
+        "width": 220,
+        "height": 200,
+        "creator": "getthecoast",
+        "creatorUrl": "https://giphy.com/gifs/getthecoast-facts-known-these-are-v3rDPxacmwfN9mZ6cz",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_section_image_do_the_work_send_the_request_blog_section_landscape_0b9d5d1cb9af.gif",
-    "alt": "blog section image \u00b7 do the work send the request",
-    "width": 186,
-    "height": 200,
-    "creator": "nog",
-    "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-      "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+      "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
     },
     {
       "title": "How to build an author platform off social media (without chasing follower counts)",
-      "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     },
     {
       "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     },
     {
-      "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-      "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
+      "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
+      "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -387,7 +378,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for unconventional writing when your book refuses to fit",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     }
   ]
 } as const;
@@ -417,7 +408,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -429,31 +420,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "item": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
+          "item": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
+      "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#webpage",
+      "url": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
       "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -469,11 +460,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#article",
+      "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#webpage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were",
       "headline": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
       "alternativeHeadline": "5 publishing wake-up calls for representation you didn\u2019t realize you were reinforcing",
       "description": "I used to think \"industry literacy\" was about knowing the job\u2014how editors read, how books get packaged, how marketing copy gets written. Then a workshop conversation hit me with a worse question: What if the way we've been trained to see stories quietly trains us to miss people?",
@@ -503,55 +494,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage"
       },
+      "datePublished": "2027-10-06",
+      "dateModified": "2027-10-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for unconventional writing when your book refuses to fit",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         },
         {
           "@type": "WebPage",
           "name": "5 routes to publish short stories, plus how to pick the right one (collections vs singles)",
-          "url": "https://writequeryhook.com/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections-vs-singles"
+          "url": "https://writequeryhook.com/blog/5-routes-to-publish-short-stories-plus-how-to-pick-the-right-one-collections"
         },
         {
           "@type": "WebPage",
           "name": "How to build an author platform off social media (without chasing follower counts)",
-          "url": "https://writequeryhook.com/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         },
         {
           "@type": "WebPage",
-          "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-          "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
+          "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_hero_recognized_pattern_workshop_shock_blog_hero_landscape_89b719f60d8d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_564/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were/blog/blog_hero_recognized_pattern_workshop_shock_blog_hero_landscape_89b719f60d8d.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognized pattern workshop shock",
-      "creditText": "dazn",
+      "creditText": "Harvey Tan Villarino",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Harvey Tan Villarino",
+        "url": "https://www.pexels.com/@harveyvillarino"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#faq",
+      "@id": "https://writequeryhook.com/blog/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were#faq",
       "mainEntity": [
         {
           "@type": "Question",

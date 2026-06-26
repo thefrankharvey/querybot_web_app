@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book fairs vs book festivals: which event matches your goal?",
   "description": "If you\u2019ve ever looked at an event calendar and thought, \u201cCool, books,\u201d then realized you might be walking into the wrong kind of room\u2014yeah. You\u2019re not alone. The industry names are close enough to confuse, but the experience is usually not.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal",
+  "publishedDate": "2027-06-15",
+  "modifiedDate": "2027-06-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_hero_confusion_stakes_blog_hero_landscape_2ed9c1c2acdc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_hero_confusion_stakes_blog_hero_landscape_2ed9c1c2acdc.jpeg?updatedAt=1782222089769",
     "alt": "blog hero \u00b7 confusion stakes",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book fairs vs book festivals: which event matches your goal?",
-      "item": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+      "item": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     }
   ],
   "tldrBlocks": [],
@@ -172,7 +172,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_budget_tickets_blog_section_landscape_617a7410ada7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_budget_tickets_blog_section_landscape_617a7410ada7.gif?updatedAt=1782222090803",
         "alt": "Cost and audience",
         "width": 350,
         "height": 200,
@@ -317,13 +317,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_rights_deal_making_blog_section_landscape_b58d60c3c102.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_rights_deal_making_blog_section_landscape_b58d60c3c102.jpeg",
         "alt": "Rights exchange and industry meetings",
-        "width": 268,
-        "height": 200,
-        "creator": "gilmoregirls",
-        "creatorUrl": "https://giphy.com/gifs/gilmoregirls-netflix-gilmore-girls-xUySTC5LyWTKj3Dc0U",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -436,43 +436,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_the_verdict_blog_section_landscape_9dacb00ec19b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_the_verdict_blog_section_landscape_9dacb00ec19b.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_section_image_relief_choose_today_blog_section_landscape_cdc11a4b18e5.jpeg",
-    "alt": "blog section image \u00b7 relief choose today",
-    "width": 3492,
-    "height": 2328,
-    "creator": "Visual Tag Mx",
-    "creatorUrl": "https://www.pexels.com/@visual-tag-mx-1321732",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-      "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
-    },
-    {
       "title": "What are subsidiary rights in publishing? FAQ",
-      "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+      "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
     },
     {
       "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-      "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
     },
     {
-      "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-      "url": "https://writequeryhook.com/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits-that-sell"
+      "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+    },
+    {
+      "title": "The publishing timeline from contract to shelves: where delays actually come from",
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -507,7 +498,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Author promotion vs book promotion: stop treating them like the same job",
-      "url": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     }
   ]
 } as const;
@@ -537,7 +528,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -549,31 +540,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book fairs vs book festivals: which event matches your goal?",
-          "item": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+          "item": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal",
+      "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#webpage",
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal",
       "name": "Book fairs vs book festivals: which event matches your goal?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -589,11 +580,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#article",
+      "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#webpage"
+        "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal",
       "headline": "Book fairs vs book festivals: which event matches your goal?",
       "alternativeHeadline": "Book fairs vs book festivals: which event matches your goal?",
       "description": "If you\u2019ve ever looked at an event calendar and thought, \u201cCool, books,\u201d then realized you might be walking into the wrong kind of room\u2014yeah. You\u2019re not alone. The industry names are close enough to confuse, but the experience is usually not.",
@@ -623,40 +614,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage"
       },
+      "datePublished": "2027-06-15",
+      "dateModified": "2027-06-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "url": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
-        },
-        {
-          "@type": "WebPage",
-          "name": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-          "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+          "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         },
         {
           "@type": "WebPage",
           "name": "What are subsidiary rights in publishing? FAQ",
-          "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+          "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
         },
         {
           "@type": "WebPage",
           "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-          "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+          "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
         },
         {
           "@type": "WebPage",
-          "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
-          "url": "https://writequeryhook.com/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits-that-sell"
+          "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
+          "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+        },
+        {
+          "@type": "WebPage",
+          "name": "The publishing timeline from contract to shelves: where delays actually come from",
+          "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_hero_confusion_stakes_blog_hero_landscape_2ed9c1c2acdc.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/book-fairs-vs-book-festivals-which-event-matches-your-goal/blog/blog_hero_confusion_stakes_blog_hero_landscape_2ed9c1c2acdc.jpeg?updatedAt=1782222089769",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 confusion stakes",
@@ -671,7 +664,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal#faq",
+      "@id": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal#faq",
       "mainEntity": [
         {
           "@type": "Question",

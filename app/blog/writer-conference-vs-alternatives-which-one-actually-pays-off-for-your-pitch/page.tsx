@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
   "description": "Writer conference marketing sells the fantasy: show up, feel inspired, walk out \"changed.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
+  "publishedDate": "2027-04-21",
+  "modifiedDate": "2027-04-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_hero_dread_cash_register_anxiety_blog_hero_landscape_895d4bdbb460.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_hero_dread_cash_register_anxiety_blog_hero_landscape_895d4bdbb460.jpeg",
     "alt": "blog hero \u00b7 dread cash-register anxiety",
-    "width": 356,
-    "height": 200,
-    "creator": "LEGOMastersAU",
-    "creatorUrl": "https://giphy.com/gifs/LEGOMastersAU-australia-lego-masters-legomastersau-kBsmKsJSOivD91TKBC",
-    "provider": "giphy",
+    "width": 4172,
+    "height": 2781,
+    "creator": "Hans Keim",
+    "creatorUrl": "https://www.pexels.com/@hans-keim-357823387",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-      "item": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
+      "item": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
     }
   ],
   "tldrBlocks": [],
@@ -417,7 +417,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_comparison_table_scan_this_fast_blog_section_landscape_c0cb744b59c7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_comparison_table_scan_this_fast_blog_section_landscape_c0cb744b59c7.gif?updatedAt=1781851792066",
         "alt": "Comparison table (scan this fast)",
         "width": 279,
         "height": 200,
@@ -483,13 +483,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_first_time_conference_confidence_blog_section_landscape_7147745bdbb2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_first_time_conference_confidence_blog_section_landscape_7147745bdbb2.gif",
         "alt": "Which to pick for each writer type",
-        "width": 6097,
-        "height": 4065,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "BenJammins",
+        "creatorUrl": "https://giphy.com/gifs/first-benjammins-rollercoaster-UMV4KbOAqYN29Dxd3f",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -510,7 +510,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_the_verdict_blog_section_landscape_07de0974a79c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_the_verdict_blog_section_landscape_07de0974a79c.jpeg?updatedAt=1781851793013",
         "alt": "The verdict",
         "width": 4752,
         "height": 3168,
@@ -521,32 +521,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_f275cb927ff8.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-      "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
-    },
-    {
       "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-      "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     },
     {
       "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
     },
     {
-      "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
-      "url": "https://writequeryhook.com/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
+      "title": "When Should You Nudge Agents? A Query Follow-Up FAQ",
+      "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
+    },
+    {
+      "title": "How to stay sane during querying: the festival-debut mindset that turns rejection into momentum",
+      "url": "https://writequeryhook.com/blog/how-to-stay-sane-during-querying-the-festival-debut-mindset-that-turns"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -578,12 +569,7 @@ const PAGE_DATA = {
       "text": "If you're choosing between a writer conference and alternatives, stop asking which one feels more prestigious. Ask which one forces the most useful **preparation**, the best **workshop** critique, and the most realistic pitch practice. Then commit\u2014because the event doesn't do the rewriting for you."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-      "url": "https://writequeryhook.com/query-letters/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -611,7 +597,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -623,31 +609,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-          "item": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
+          "item": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#webpage",
-      "url": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
+      "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#webpage",
+      "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
       "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -663,11 +649,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#article",
+      "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#webpage"
+        "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch",
       "headline": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
       "alternativeHeadline": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
       "description": "Writer conference marketing sells the fantasy: show up, feel inspired, walk out \"changed.\"",
@@ -697,55 +683,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage"
       },
+      "datePublished": "2027-04-21",
+      "dateModified": "2027-04-21",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-          "url": "https://writequeryhook.com/query-letters/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-          "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
-        },
-        {
-          "@type": "WebPage",
           "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-          "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+          "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         },
         {
           "@type": "WebPage",
           "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+          "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
         },
         {
           "@type": "WebPage",
-          "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
-          "url": "https://writequeryhook.com/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
+          "name": "When Should You Nudge Agents? A Query Follow-Up FAQ",
+          "url": "https://writequeryhook.com/blog/when-should-you-nudge-agents-a-query-follow-up-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to stay sane during querying: the festival-debut mindset that turns rejection into momentum",
+          "url": "https://writequeryhook.com/blog/how-to-stay-sane-during-querying-the-festival-debut-mindset-that-turns"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_hero_dread_cash_register_anxiety_blog_hero_landscape_895d4bdbb460.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_364/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch/blog/blog_hero_dread_cash_register_anxiety_blog_hero_landscape_895d4bdbb460.jpeg",
+      "width": 4172,
+      "height": 2781,
       "caption": "blog hero \u00b7 dread cash-register anxiety",
-      "creditText": "LEGOMastersAU",
+      "creditText": "Hans Keim",
       "author": {
         "@type": "Person",
-        "name": "LEGOMastersAU",
-        "url": "https://giphy.com/gifs/LEGOMastersAU-australia-lego-masters-legomastersau-kBsmKsJSOivD91TKBC"
+        "name": "Hans Keim",
+        "url": "https://www.pexels.com/@hans-keim-357823387"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#faq",
+      "@id": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch#faq",
       "mainEntity": [
         {
           "@type": "Question",

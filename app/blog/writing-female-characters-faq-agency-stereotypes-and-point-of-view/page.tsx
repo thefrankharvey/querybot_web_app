@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing female characters FAQ: agency, stereotypes, and point of view",
   "description": "Most drafts don't \"hate women.\" They just\u2026 default. The female characters show up to validate someone else's feelings, decorate scenes, or add convenient emotional lighting. Then the manuscript gets flattened into stereotypes so quietly you almost miss the damage.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-29",
+  "modifiedDate": "2027-01-29",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-female-characters-faq-agency-stereotypes-and-point-of-view",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -427,6 +427,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-female-characters-faq-agency-stereotypes-and-point-of-view#primaryimage"
       },
+      "datePublished": "2027-01-29",
+      "dateModified": "2027-01-29",
       "mentions": [
         {
           "@type": "WebPage",

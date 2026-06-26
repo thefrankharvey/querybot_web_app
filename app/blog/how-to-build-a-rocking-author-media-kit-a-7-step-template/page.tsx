@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to build a rocking author media kit (a 7-step template)",
   "description": "You know the kind of email that ruins your afternoon: \"Hi! I'd love to feature your book\u2014can you send your headshot, bio, and a few quick details?\" Then you're digging through a messy folder while the clock does that thing where it speeds up.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template",
+  "publishedDate": "2027-08-28",
+  "modifiedDate": "2027-08-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_hero_recognition_dread_blog_hero_landscape_b6be75e72722.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_hero_recognition_dread_blog_hero_landscape_b6be75e72722.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to build a rocking author media kit (a 7-step template)",
-      "item": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "item": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     }
   ],
   "tldrBlocks": [],
@@ -128,13 +128,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_structure_doorway_blog_section_landscape_c96ad01604b7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_structure_doorway_blog_section_landscape_c96ad01604b7.gif",
         "alt": "Step 1: Choose your kit homepage (the single \"start here\" link)",
-        "width": 2982,
-        "height": 1977,
-        "creator": "Jimmy Chan",
-        "creatorUrl": "https://www.pexels.com/@jimbear",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -180,7 +180,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_confidence_credibility_blog_section_landscape_1a3713546812.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_confidence_credibility_blog_section_landscape_1a3713546812.jpeg?updatedAt=1782318981085",
         "alt": "What to include in an author media kit",
         "width": 3750,
         "height": 2500,
@@ -448,7 +448,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_sales_clarity_polished_resume_blog_section_landscape_452448c0af12.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_sales_clarity_polished_resume_blog_section_landscape_452448c0af12.gif?updatedAt=1782318980635",
         "alt": "Step 7: Create a one-page sell sheet for retailers and bloggers",
         "width": 200,
         "height": 200,
@@ -479,7 +479,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_confidence_credibility_blog_section_landscape_1a3713546812.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_confidence_credibility_blog_section_landscape_1a3713546812.jpeg?updatedAt=1782318981085",
         "alt": "What to include in an author media kit",
         "width": 3750,
         "height": 2500,
@@ -490,32 +490,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_section_image_momentum_next_steps_blog_section_landscape_65860065d993.jpeg",
-    "alt": "blog section image \u00b7 momentum next steps",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Nothing Ahead",
-    "creatorUrl": "https://www.pexels.com/@ian-panelo",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     },
     {
       "title": "How to use your book's bonus content to grow your community (and your email list)",
-      "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     },
     {
       "title": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-      "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+      "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
     },
     {
-      "title": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-      "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+      "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -546,7 +537,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     }
   ]
 } as const;
@@ -576,7 +567,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -588,31 +579,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to build a rocking author media kit (a 7-step template)",
-          "item": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+          "item": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template",
       "name": "How to build a rocking author media kit (a 7-step template)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -628,11 +619,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#article",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template",
       "headline": "How to build a rocking author media kit (a 7-step template)",
       "alternativeHeadline": "How to build a rocking author media kit (a 7-step template)",
       "description": "You know the kind of email that ruins your afternoon: \"Hi! I'd love to feature your book\u2014can you send your headshot, bio, and a few quick details?\" Then you're digging through a messy folder while the clock does that thing where it speeds up.",
@@ -662,55 +653,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage"
       },
+      "datePublished": "2027-08-28",
+      "dateModified": "2027-08-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
+          "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         },
         {
           "@type": "WebPage",
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
         },
         {
           "@type": "WebPage",
           "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-          "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
         },
         {
           "@type": "WebPage",
-          "name": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-          "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+          "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
+          "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_hero_recognition_dread_blog_hero_landscape_b6be75e72722.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/how-to-build-a-rocking-author-media-kit-a-7-step-template/blog/blog_hero_recognition_dread_blog_hero_landscape_b6be75e72722.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#howto",
       "name": "How to build a rocking author media kit (a 7-step template)",
       "description": "You know the kind of email that ruins your afternoon: \"Hi! I'd love to feature your book\u2014can you send your headshot, bio, and a few quick details?\" Then you're digging through a messy folder while the clock does that thing where it speeds up.",
       "totalTime": "PT7M",
@@ -720,63 +713,63 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Choose your kit homepage (the single \"start here\" link)",
           "text": "Your kit needs an obvious home. Build a dedicated digital author media kit for press page on your website (HTML works best), then link to all files from there. This avoids the classic problem where everything lives in a zip file named \"final-final2.zip\" and nobody can extract anything.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-1-choose-your-kit-homepage-the-single-start-here-link"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-1-choose-your-kit-homepage-the-single-start-here-link"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write your author bio (100\u2013200 words, not a novel)",
           "text": "Your author bio goes in two places: (1) inside the kit, where press can copy it, and (2) as part of whatever kit assets you include (some authors also keep a bio variant for specific outlets, but the core stays consistent).",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-2-write-your-author-bio-100-200-words-not-a-novel"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-2-write-your-author-bio-100-200-words-not-a-novel"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Add key contact details + book metadata (so busy people can move)",
           "text": "This is where many kits fall apart: they include vibes, but not the details press needs to publish without friction.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-3-add-key-contact-details-book-metadata-so-busy-people-can-move"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-3-add-key-contact-details-book-metadata-so-busy-people-can-move"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build a sample Q&A / tip sheet that journalists can actually use",
           "text": "A sample Q&A tip sheet for journalists saves you from \"What should I ask?\" emails. It also helps you control the angles without sounding defensive.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-4-build-a-sample-q-a-tip-sheet-that-journalists-can-actually-use"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-4-build-a-sample-q-a-tip-sheet-that-journalists-can-actually-use"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Create the press release\u2014only when you're launching",
           "text": "The press release is the only time-sensitive component. Keep the rest of the kit evergreen. It should appear when you're releasing the book (launch window), and you can swap it out for future titles without breaking your kit structure.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-5-create-the-press-release-only-when-you-re-launching"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-5-create-the-press-release-only-when-you-re-launching"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Upload and label photographs + excerpt (hi/lo-res + first-pages only)",
           "text": "Press doesn't want obstacles. They want usable assets.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-6-upload-and-label-photographs-excerpt-hi-lo-res-first-pages-only"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-6-upload-and-label-photographs-excerpt-hi-lo-res-first-pages-only"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Create a one-page sell sheet for retailers and bloggers",
           "text": "Your sell sheet is a polished, single-page document for retailers and bloggers who want the essentials fast\u2014a polished r\u00e9sum\u00e9 for the book, not a mini book report.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-7-create-a-one-page-sell-sheet-for-retailers-and-bloggers"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#step-7-create-a-one-page-sell-sheet-for-retailers-and-bloggers"
         },
         {
           "@type": "HowToStep",
           "position": 8,
           "name": "What to include in an author media kit",
           "text": "When you assemble what to include in an author media kit, remember that press and retailers work under time pressure. Every section should be scannable, copy-ready, and complete. Don't make them hunt for the ISBN, the author's email, or a usable photo. The kit succeeds when it answers questions before they're asked.",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#what-to-include-in-an-author-media-kit"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#what-to-include-in-an-author-media-kit"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template#faq",
       "mainEntity": [
         {
           "@type": "Question",

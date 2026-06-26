@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 memoir writing tips to find your theme (and stop retelling your whole life)",
   "description": "You have a million memories. Readers have, at most, attention span and a vague tolerance for \"wait, which year is this?\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-21",
+  "modifiedDate": "2026-10-21",
   "canonicalUrl": "https://writequeryhook.com/blog/7-memoir-writing-tips-to-find-your-theme-and-stop-retelling-your-whole-life",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -580,6 +580,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-memoir-writing-tips-to-find-your-theme-and-stop-retelling-your-whole-life#primaryimage"
       },
+      "datePublished": "2026-10-21",
+      "dateModified": "2026-10-21",
       "mentions": [
         {
           "@type": "WebPage",

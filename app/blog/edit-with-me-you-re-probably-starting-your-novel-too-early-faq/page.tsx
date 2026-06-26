@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Edit with me: you're probably starting your novel too early FAQ",
   "description": "If your novel opening feels slow, you don't necessarily have a \"writing problem.\" You might have a timing problem: you started at a place that's easy to explain, not at the moment your story actually begins to work.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-08",
+  "modifiedDate": "2026-11-08",
   "canonicalUrl": "https://writequeryhook.com/blog/edit-with-me-you-re-probably-starting-your-novel-too-early-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -510,6 +510,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/edit-with-me-you-re-probably-starting-your-novel-too-early-faq#primaryimage"
       },
+      "datePublished": "2026-11-08",
+      "dateModified": "2026-11-08",
       "mentions": [
         {
           "@type": "WebPage",

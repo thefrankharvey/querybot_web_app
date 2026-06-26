@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to revise a novel manuscript in lap passes that actually tighten the story",
   "description": "Most writers don't fear revision because it's hard. They fear it because the draft is loud and their brain keeps whispering, I can't write this yet.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-14",
+  "modifiedDate": "2026-09-14",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-a-novel-manuscript-in-lap-passes-that-actually-tighten-the-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -502,6 +502,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-revise-a-novel-manuscript-in-lap-passes-that-actually-tighten-the-story#primaryimage"
       },
+      "datePublished": "2026-09-14",
+      "dateModified": "2026-09-14",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing prompts when you feel blank: don't wait for inspiration\u2014pick a cat or dog scenario and write anyway",
   "description": "The standard advice sounds reasonable: wait until you feel inspired, then write. Meanwhile, your cursor blinks like it's judging you. Your brain does the \"frozen hamburger meat\" thing. And you sit there staring at the blank page, acting like you're trying to summon lightning instead of writing words.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-26",
+  "modifiedDate": "2026-11-26",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-prompts-when-you-feel-blank-don-t-wait-for-inspiration-pick-a-cat-or",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -529,6 +529,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-prompts-when-you-feel-blank-don-t-wait-for-inspiration-pick-a-cat-or#primaryimage"
       },
+      "datePublished": "2026-11-26",
+      "dateModified": "2026-11-26",
       "mentions": [
         {
           "@type": "WebPage",

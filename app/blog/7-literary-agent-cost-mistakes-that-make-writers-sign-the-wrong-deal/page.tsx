@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 literary agent cost mistakes that make writers sign the wrong deal",
   "description": "The second you're staring at a contract pdf with your manuscript's future on the line, \"how much does a literary agent cost?\" stops being a trivia question and becomes a stomach-drop moment.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
+  "publishedDate": "2027-10-20",
+  "modifiedDate": "2027-10-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
-      "item": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+      "item": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
     }
   ],
   "tldrBlocks": [],
@@ -486,19 +486,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-      "url": "https://writequeryhook.com/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
     },
     {
       "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-      "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
     },
     {
       "title": "5 economics of publishing mistakes that make author income look like a scam",
-      "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+      "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
     },
     {
-      "title": "The 270 best writing contests (sorted by form, not vibes)",
-      "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
+      "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -509,12 +509,7 @@ const PAGE_DATA = {
       "text": "Check the contract like a machine that only understands one thing: *money flow and payment triggers*. If the deal can't explain **when should a literary agent charge you** in plain language, it's not the deal you need to protect\u2014it's the one you should not sign."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-      "url": "https://writequeryhook.com/query-letters/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -542,7 +537,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -554,31 +549,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
-          "item": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+          "item": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
+      "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#webpage",
+      "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
       "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -594,11 +589,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#article",
+      "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#webpage"
+        "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal",
       "headline": "7 literary agent cost mistakes that make writers sign the wrong deal",
       "alternativeHeadline": "7 literary agent cost mistakes that make writers sign the wrong deal",
       "description": "The second you're staring at a contract pdf with your manuscript's future on the line, \"how much does a literary agent cost?\" stops being a trivia question and becomes a stomach-drop moment.",
@@ -628,39 +623,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage"
       },
+      "datePublished": "2027-10-20",
+      "dateModified": "2027-10-20",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-          "url": "https://writequeryhook.com/query-letters/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
-        },
-        {
-          "@type": "WebPage",
           "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-          "url": "https://writequeryhook.com/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
           "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-          "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+          "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
         },
         {
           "@type": "WebPage",
           "name": "5 economics of publishing mistakes that make author income look like a scam",
-          "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+          "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
         },
         {
           "@type": "WebPage",
-          "name": "The 270 best writing contests (sorted by form, not vibes)",
-          "url": "https://writequeryhook.com/the-270-best-writing-contests-sorted-by-form-not-vibes"
+          "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage",
+      "@id": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_583/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal/blog/blog_hero_anxiety_signing_blog_hero_landscape_5fca5beb9f12.jpeg",
       "width": 5851,
       "height": 3901,

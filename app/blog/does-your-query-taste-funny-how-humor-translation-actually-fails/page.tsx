@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Does Your Query Taste Funny? How Humor Translation Actually Fails",
   "description": "Every querying writer hits the same weird moment: you've got a letter that says \"I want an agent\" and \"here's my book,\" but your brain keeps whispering, Wouldn't this land better if I just made them laugh? So you draft the joke anyway. You squint at it. You imagine the agent smiling.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-09",
+  "modifiedDate": "2026-07-09",
   "canonicalUrl": "https://writequeryhook.com/blog/does-your-query-taste-funny-how-humor-translation-actually-fails",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -464,6 +464,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/does-your-query-taste-funny-how-humor-translation-actually-fails#primaryimage"
       },
+      "datePublished": "2026-07-09",
+      "dateModified": "2026-07-09",
       "mentions": [
         {
           "@type": "WebPage",

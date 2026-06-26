@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
   "description": "There's a particular kind of querying panic that doesn't come from getting rejected. It comes from imagining the wrong outcome: that someone reads your query, latches onto your premise, and then\u2014bam\u2014your \"original\" story shows up somewhere else with the same skeleton and a slightly shinier coat of paint.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
+  "publishedDate": "2027-04-17",
+  "modifiedDate": "2027-04-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_hero_anxiety_cursor_blinking_blog_hero_landscape_cbcef2d6efa8.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_hero_anxiety_cursor_blinking_blog_hero_landscape_cbcef2d6efa8.jpeg?updatedAt=1781831525903",
     "alt": "blog hero \u00b7 anxiety cursor-blinking",
     "width": 3000,
     "height": 2400,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-      "item": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
+      "item": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
     }
   ],
   "tldrBlocks": [],
@@ -158,13 +158,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_baseline_boundaries_blog_section_landscape_1a8445219937.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_baseline_boundaries_blog_section_landscape_1a8445219937.gif",
         "alt": "Confidentiality is the baseline, and agents are professionals (not group-chats)",
-        "width": 6240,
-        "height": 4160,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 282,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/guide-weekly-baseline-dapshK9WpLlHG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -309,7 +309,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_rejection_mismatch_blog_section_landscape_3cc40e245c0a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_rejection_mismatch_blog_section_landscape_3cc40e245c0a.jpeg?updatedAt=1781831526908",
         "alt": "Why agents reject even good projects (and why wish lists can lie)",
         "width": 6000,
         "height": 4000,
@@ -395,7 +395,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_execution_craft_blog_section_landscape_50ee355b1661.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_execution_craft_blog_section_landscape_50ee355b1661.gif?updatedAt=1781831527430",
         "alt": "Execution matters more than ideas: the craft pieces agents actually react to",
         "width": 113,
         "height": 200,
@@ -406,32 +406,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_section_image_deep_breath_stop_spiraling_blog_section_landscape_3b08e0670fd2.gif",
-    "alt": "blog section image \u00b7 deep breath stop spiraling",
-    "width": 160,
-    "height": 200,
-    "creator": "snapmybrand",
-    "creatorUrl": "https://giphy.com/gifs/snapmybrand-stop-motion-frame-by-snap-my-brand-uOdHUKr3RrmHevymWB",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-      "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
     },
     {
       "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     },
     {
-      "title": "High praise then crickets: why the silence hits harder (and what to do next)",
-      "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+      "title": "5 tips for a writer conference that actually changes your draft",
+      "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
     },
     {
-      "title": "Why your publishing \"mistakes\" aren't the real problem (and what to stop doing)",
-      "url": "https://writequeryhook.com/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing"
+      "title": "How to stop comparing your writing (and get back to drafting)",
+      "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -474,7 +465,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-      "url": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     }
   ]
 } as const;
@@ -504,7 +495,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -516,31 +507,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
-          "item": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
+          "item": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
+      "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#webpage",
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
       "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -556,11 +547,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#article",
+      "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#webpage"
+        "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re",
       "headline": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
       "alternativeHeadline": "Book ideas aren\u2019t sacred\u2014so why are you treating your submissions like they\u2019re radioactive?",
       "description": "There's a particular kind of querying panic that doesn't come from getting rejected. It comes from imagining the wrong outcome: that someone reads your query, latches onto your premise, and then\u2014bam\u2014your \"original\" story shows up somewhere else with the same skeleton and a slightly shinier coat of paint.",
@@ -590,40 +581,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage"
       },
+      "datePublished": "2027-04-17",
+      "dateModified": "2027-04-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-          "url": "https://writequeryhook.com/query-letters/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
+          "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         },
         {
           "@type": "WebPage",
           "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-          "url": "https://writequeryhook.com/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result-whiplash"
+          "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
         },
         {
           "@type": "WebPage",
           "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+          "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
         },
         {
           "@type": "WebPage",
-          "name": "High praise then crickets: why the silence hits harder (and what to do next)",
-          "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+          "name": "5 tips for a writer conference that actually changes your draft",
+          "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
         },
         {
           "@type": "WebPage",
-          "name": "Why your publishing \"mistakes\" aren't the real problem (and what to stop doing)",
-          "url": "https://writequeryhook.com/why-your-publishing-mistakes-aren-t-the-real-problem-and-what-to-stop-doing"
+          "name": "How to stop comparing your writing (and get back to drafting)",
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_hero_anxiety_cursor_blinking_blog_hero_landscape_cbcef2d6efa8.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_357/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re/blog/blog_hero_anxiety_cursor_blinking_blog_hero_landscape_cbcef2d6efa8.jpeg?updatedAt=1781831525903",
       "width": 3000,
       "height": 2400,
       "caption": "blog hero \u00b7 anxiety cursor-blinking",
@@ -638,7 +631,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#faq",
+      "@id": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re#faq",
       "mainEntity": [
         {
           "@type": "Question",

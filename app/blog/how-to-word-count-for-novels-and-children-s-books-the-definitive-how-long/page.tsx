@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
   "description": "Word count is one of those boring numbers that quietly runs the whole publishing process. Not because art dies at the margins\u2014but because agents and editors use length as a fast rejection lever when the rest of the submission needs more time than they have.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
+  "publishedDate": "2027-10-25",
+  "modifiedDate": "2027-10-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-      "item": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
+      "item": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
     }
   ],
   "tldrBlocks": [],
@@ -393,20 +393,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-      "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
-    },
-    {
-      "title": "How to Market Your Book Effectively (Step-by-Step for Self-Publishing Authors)",
-      "url": "https://writequeryhook.com/how-to-market-your-book-effectively-step-by-step-for-self-publishing-authors"
-    },
-    {
       "title": "How to decide if you need a cover designer and a formatter (and who to hire)",
-      "url": "https://writequeryhook.com/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+      "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
     },
     {
-      "title": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-      "url": "https://writequeryhook.com/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and-social-media"
+      "title": "Great book title vs safer alternatives: pick the one that sells",
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+    },
+    {
+      "title": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
+      "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
+    },
+    {
+      "title": "Make Your Work More Commercial: a Revision-Focused FAQ",
+      "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -442,12 +442,7 @@ const PAGE_DATA = {
       "text": "If you want to stay sane while you query, track your submissions in **Query Dashboard** so length tweaks don't turn into a never-ending recounting ritual."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-      "url": "https://writequeryhook.com/query-letters/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -475,7 +470,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -487,31 +482,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-          "item": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
+          "item": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
       "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -527,11 +522,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#article",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long",
       "headline": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
       "alternativeHeadline": "How to word count for novels and children\u2019s books (the definitive \"how long should it be?\" method)",
       "description": "Word count is one of those boring numbers that quietly runs the whole publishing process. Not because art dies at the margins\u2014but because agents and editors use length as a fast rejection lever when the rest of the submission needs more time than they have.",
@@ -561,39 +556,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage"
       },
+      "datePublished": "2027-10-25",
+      "dateModified": "2027-10-25",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-          "url": "https://writequeryhook.com/query-letters/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-          "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Market Your Book Effectively (Step-by-Step for Self-Publishing Authors)",
-          "url": "https://writequeryhook.com/how-to-market-your-book-effectively-step-by-step-for-self-publishing-authors"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
-          "url": "https://writequeryhook.com/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
         },
         {
           "@type": "WebPage",
-          "name": "Reclaim Your Time: A Writers' System to Take Back Focus from Phone, Email, and Social Media",
-          "url": "https://writequeryhook.com/reclaim-your-time-a-writers-system-to-take-back-focus-from-phone-email-and-social-media"
+          "name": "Great book title vs safer alternatives: pick the one that sells",
+          "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Podcasting vs. alternatives for authors: where the visibility, trust, and branding actually come from",
+          "url": "https://writequeryhook.com/blog/podcasting-vs-alternatives-for-authors-where-the-visibility-trust-and-branding"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Make Your Work More Commercial: a Revision-Focused FAQ",
+          "url": "https://writequeryhook.com/blog/make-your-work-more-commercial-a-revision-focused-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_591/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long/blog/blog_hero_dread_blank_page_anxiety_blog_hero_landscape_873a86f2a4cf.gif",
       "width": 200,
       "height": 200,
@@ -609,7 +601,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#howto",
       "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
       "description": "Word count is one of those boring numbers that quietly runs the whole publishing process. Not because art dies at the margins\u2014but because agents and editors use length as a fast rejection lever when the rest of the submission needs more time than they have.",
       "totalTime": "PT7M",
@@ -619,42 +611,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Establish the format and age bucket before you touch the counter",
           "text": "Start with what the book actually is, not what you wish it were.",
-          "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-1-establish-the-format-and-age-bucket-before-you-touch-the-counter"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-1-establish-the-format-and-age-bucket-before-you-touch-the-counter"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Use baseline word count ranges instead of vibes",
           "text": "Now pick the baseline ranges that match how most submissions are screened.",
-          "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-2-use-baseline-word-count-ranges-instead-of-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-2-use-baseline-word-count-ranges-instead-of-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Treat deviations as a justification problem",
           "text": "This is where most writers accidentally self-sabotage. They see their draft's manuscript length and assume the right response is to \"accept the number\" or \"pretend it doesn't matter.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-3-treat-deviations-as-a-justification-problem"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-3-treat-deviations-as-a-justification-problem"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Run an editability reality check before you lock the number",
           "text": "Your word count should be survivable. Can the draft get better while also hitting a reasonable novel length?",
-          "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-4-run-an-editability-reality-check-before-you-lock-the-number"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-4-run-an-editability-reality-check-before-you-lock-the-number"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Lock your count and move forward",
           "text": "Make a decision rule:",
-          "url": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-5-lock-your-count-and-move-forward"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#step-5-lock-your-count-and-move-forward"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long#faq",
       "mainEntity": [
         {
           "@type": "Question",

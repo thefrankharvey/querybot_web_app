@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
   "description": "Here's the contrarian truth that makes a lot of writers mad (which, fair): the danger in manuscript critique isn't the criticism itself. It's what you do while your nervous system thinks you're being attacked.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
+  "publishedDate": "2027-05-06",
+  "modifiedDate": "2027-05-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_hero_blindside_dread_blog_hero_landscape_78c2d80ea2f2.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_hero_blindside_dread_blog_hero_landscape_78c2d80ea2f2.jpeg?updatedAt=1782095746999",
     "alt": "blog hero \u00b7 blindside dread",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-      "item": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+      "item": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
     }
   ],
   "tldrBlocks": [],
@@ -90,13 +90,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_tldr_blog_section_landscape_d24640442cba.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_tldr_blog_section_landscape_d24640442cba.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -129,7 +129,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_opening_blog_section_landscape_a6340b282d88.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_opening_blog_section_landscape_a6340b282d88.jpeg?updatedAt=1782095748221",
         "alt": "Opening",
         "width": 4752,
         "height": 3168,
@@ -333,7 +333,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_body_blog_section_landscape_3bbd370e46b1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_body_blog_section_landscape_3bbd370e46b1.gif?updatedAt=1782095749631",
         "alt": "Body",
         "width": 246,
         "height": 200,
@@ -381,32 +381,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_section_image_deep_breath_return_to_work_blog_section_landscape_c77bff6f4d0f.gif",
-    "alt": "blog section image \u00b7 deep breath return to work",
-    "width": 152,
-    "height": 200,
-    "creator": "citylifelansing",
-    "creatorUrl": "https://giphy.com/gifs/citylifelansing-4o8TLdXkOphlpfjCeR",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-      "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+      "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
     },
     {
       "title": "5 things to do after your offer (that keep your publishing on track)",
-      "url": "https://writequeryhook.com/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
+      "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
     },
     {
-      "title": "5 publisher meeting tips for authors after an offer",
-      "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
+      "title": "How to typeset your novel for print without wrecking readability",
+      "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
     },
     {
-      "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-      "url": "https://writequeryhook.com/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it-alternatives"
+      "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -449,7 +440,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-      "url": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+      "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
     }
   ]
 } as const;
@@ -479,7 +470,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -491,31 +482,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
-          "item": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+          "item": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#webpage",
-      "url": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
+      "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#webpage",
+      "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
       "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -531,11 +522,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#article",
+      "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#webpage"
+        "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage",
       "headline": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
       "alternativeHeadline": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
       "description": "Here's the contrarian truth that makes a lot of writers mad (which, fair): the danger in manuscript critique isn't the criticism itself. It's what you do while your nervous system thinks you're being attacked.",
@@ -565,40 +556,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage"
+        "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage"
       },
+      "datePublished": "2027-05-06",
+      "dateModified": "2027-05-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-          "url": "https://writequeryhook.com/query-letters/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 creative ways to turn your book into audiobooks (without just reading it aloud)",
-          "url": "https://writequeryhook.com/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
+          "url": "https://writequeryhook.com/blog/5-creative-ways-to-turn-your-book-into-audiobooks-without-just-reading-it-aloud"
         },
         {
           "@type": "WebPage",
           "name": "5 things to do after your offer (that keep your publishing on track)",
-          "url": "https://writequeryhook.com/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
+          "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
         },
         {
           "@type": "WebPage",
-          "name": "5 publisher meeting tips for authors after an offer",
-          "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
+          "name": "How to typeset your novel for print without wrecking readability",
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
         },
         {
           "@type": "WebPage",
-          "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-          "url": "https://writequeryhook.com/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it-alternatives"
+          "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
+          "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_hero_blindside_dread_blog_hero_landscape_78c2d80ea2f2.jpeg",
+      "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_383/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage/blog/blog_hero_blindside_dread_blog_hero_landscape_78c2d80ea2f2.jpeg?updatedAt=1782095746999",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 blindside dread",
@@ -613,7 +601,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#faq",
+      "@id": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage#faq",
       "mainEntity": [
         {
           "@type": "Question",

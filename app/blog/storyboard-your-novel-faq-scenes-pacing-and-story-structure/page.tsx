@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Storyboard your novel FAQ: scenes, pacing, and story structure",
   "description": "Most writers don't struggle with ideas. They struggle with assembly\u2014getting characters, settings, themes, and a thousand half-formed plot pieces to behave like one coherent novel. Then revision hits, and the problems show up as dull chapters, redundant scenes, or momentum that mysteriously dies in the middle.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-24",
+  "modifiedDate": "2026-12-24",
   "canonicalUrl": "https://writequeryhook.com/blog/storyboard-your-novel-faq-scenes-pacing-and-story-structure",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -417,6 +417,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/storyboard-your-novel-faq-scenes-pacing-and-story-structure#primaryimage"
       },
+      "datePublished": "2026-12-24",
+      "dateModified": "2026-12-24",
       "mentions": [
         {
           "@type": "WebPage",

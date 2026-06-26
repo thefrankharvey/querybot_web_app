@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
   "description": "Querying taught us to measure everything with our pulse. The reply times, the form rejections, the \"we'll be in touch.\" After the offer\u2014when you're supposed to feel safer\u2014those same nerves come roaring back.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
+  "publishedDate": "2027-05-29",
+  "modifiedDate": "2027-05-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_hero_gone_incommunicado_dread_blog_hero_landscape_67e7eb417f43.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_hero_gone_incommunicado_dread_blog_hero_landscape_67e7eb417f43.jpeg?updatedAt=1782179076757",
     "alt": "blog hero \u00b7 gone incommunicado dread",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
+      "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     }
   ],
   "tldrBlocks": [],
@@ -126,7 +126,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_rejection_disappointment_blog_section_landscape_5f9b8d40ee77.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_rejection_disappointment_blog_section_landscape_5f9b8d40ee77.gif?updatedAt=1782179077367",
         "alt": "Don't bail after a failed sale without context",
         "width": 200,
         "height": 200,
@@ -289,7 +289,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_warning_sign_silence_blog_section_landscape_8e6ae7e8b885.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_warning_sign_silence_blog_section_landscape_8e6ae7e8b885.gif?updatedAt=1782179077946",
         "alt": "How to know when to leave your agent",
         "width": 160,
         "height": 200,
@@ -348,7 +348,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_don_t_leave_without_raising_concerns_directly_blog_section_landscape_1d4834cdd718.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_don_t_leave_without_raising_concerns_directly_blog_section_landscape_1d4834cdd718.jpeg?updatedAt=1782179078527",
         "alt": "Don't leave without raising concerns directly",
         "width": 6611,
         "height": 4407,
@@ -398,7 +398,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_warning_sign_silence_blog_section_landscape_8e6ae7e8b885.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_warning_sign_silence_blog_section_landscape_8e6ae7e8b885.gif?updatedAt=1782179077946",
         "alt": "How to know when to leave your agent",
         "width": 160,
         "height": 200,
@@ -423,32 +423,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_section_image_open_the_draft_message_prepared_blog_section_landscape_528a6904c696.jpeg",
-    "alt": "blog section image \u00b7 open the draft message prepared",
-    "width": 5472,
-    "height": 3648,
-    "creator": "Brando.ltd",
-    "creatorUrl": "https://www.pexels.com/@brando-ltd-120530945",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     },
     {
       "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     },
     {
       "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     },
     {
-      "title": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-      "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+      "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
+      "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -462,7 +453,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "url": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     }
   ]
 } as const;
@@ -492,7 +483,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -504,31 +495,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
+          "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#webpage",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#webpage",
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
       "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -544,11 +535,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#article",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#webpage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail",
       "headline": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
       "alternativeHeadline": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
       "description": "Querying taught us to measure everything with our pulse. The reply times, the form rejections, the \"we'll be in touch.\" After the offer\u2014when you're supposed to feel safer\u2014those same nerves come roaring back.",
@@ -578,40 +569,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage"
       },
+      "datePublished": "2027-05-29",
+      "dateModified": "2027-05-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "url": "https://writequeryhook.com/query-letters/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
+          "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
-          "name": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-          "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+          "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
+          "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_hero_gone_incommunicado_dread_blog_hero_landscape_67e7eb417f43.jpeg",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_415/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail/blog/blog_hero_gone_incommunicado_dread_blog_hero_landscape_67e7eb417f43.jpeg?updatedAt=1782179076757",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 gone incommunicado dread",

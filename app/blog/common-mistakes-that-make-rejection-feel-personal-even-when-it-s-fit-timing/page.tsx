@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make rejection feel personal (even when it's fit, timing, and guidelines)",
   "description": "Rejection letters arrive like a verdict. Your brain turns the ink into a headline: not good enough. And then you start bargaining with the universe\u2014if only I'd written the perfect query, the perfect sentence, the perfect version of me.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-15",
+  "modifiedDate": "2027-03-15",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-rejection-feel-personal-even-when-it-s-fit-timing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -622,6 +622,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-rejection-feel-personal-even-when-it-s-fit-timing#primaryimage"
       },
+      "datePublished": "2027-03-15",
+      "dateModified": "2027-03-15",
       "mentions": [
         {
           "@type": "WebPage",

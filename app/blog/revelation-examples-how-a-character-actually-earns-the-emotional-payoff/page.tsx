@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Revelation examples: how a character actually earns the emotional payoff",
   "description": "\"Revelation examples\" sounds like a craft teacher showing you a handful of shiny moments: a character looks up, the truth arrives, the page glows. In real drafting, it's uglier.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-15",
+  "modifiedDate": "2027-01-15",
   "canonicalUrl": "https://writequeryhook.com/blog/revelation-examples-how-a-character-actually-earns-the-emotional-payoff",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -779,6 +779,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/revelation-examples-how-a-character-actually-earns-the-emotional-payoff#primaryimage"
       },
+      "datePublished": "2027-01-15",
+      "dateModified": "2027-01-15",
       "mentions": [
         {
           "@type": "WebPage",

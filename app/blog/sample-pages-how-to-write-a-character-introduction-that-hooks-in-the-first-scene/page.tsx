@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Sample Pages: How to Write a Character Introduction That Hooks in the First Scene",
   "description": "There's a special kind of dread that hits right before you write your sample pages: the fear that the \"real\" writing starts later, and the first scene is just a warm-up where your character stands around explaining themselves.",
   "readTime": "18 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-30",
+  "modifiedDate": "2026-08-30",
   "canonicalUrl": "https://writequeryhook.com/blog/sample-pages-how-to-write-a-character-introduction-that-hooks-in-the-first-scene",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -960,6 +960,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/sample-pages-how-to-write-a-character-introduction-that-hooks-in-the-first-scene#primaryimage"
       },
+      "datePublished": "2026-08-30",
+      "dateModified": "2026-08-30",
       "mentions": [
         {
           "@type": "WebPage",

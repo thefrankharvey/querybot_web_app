@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 ways to write, edit, and market with an eye on risk after the offer",
   "description": "Getting an offer is supposed to feel like winning. Cool. But a lot of authors hit the same wall right after: the work gets real in five different directions at once\u2014craft choices, revision, contracts, and then marketing that can feel like it was designed by someone who\u2019s never published anything.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
+  "publishedDate": "2027-05-13",
+  "modifiedDate": "2027-05-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_d2f34fcc87b1.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_d2f34fcc87b1.jpeg?updatedAt=1782144328642",
     "alt": "blog hero \u00b7 after-the-offer nerves",
     "width": 3604,
     "height": 2255,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "item": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+      "item": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     }
   ],
   "tldrBlocks": [],
@@ -121,13 +121,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_laugh_cringe_blog_section_landscape_8f61d1c7c1d2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_laugh_cringe_blog_section_landscape_8f61d1c7c1d2.gif",
         "alt": "Why humor needs surprise and brevity",
-        "width": 4717,
-        "height": 3183,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 238,
+        "height": 200,
+        "creator": "cbc",
+        "creatorUrl": "https://giphy.com/gifs/cbc-funny-comedy-9Y5aQvvoVULaAuigjM",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -179,13 +179,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_laugh_cringe_blog_section_landscape_8f61d1c7c1d2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_laugh_cringe_blog_section_landscape_8f61d1c7c1d2.gif",
         "alt": "Why humor needs surprise and brevity",
-        "width": 4717,
-        "height": 3183,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 238,
+        "height": 200,
+        "creator": "cbc",
+        "creatorUrl": "https://giphy.com/gifs/cbc-funny-comedy-9Y5aQvvoVULaAuigjM",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -241,7 +241,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_ugly_editing_disassemble_blog_section_landscape_97fe2b529f3f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_ugly_editing_disassemble_blog_section_landscape_97fe2b529f3f.gif?updatedAt=1782144334550",
         "alt": "Balancing editing without losing flow",
         "width": 356,
         "height": 200,
@@ -409,32 +409,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_section_image_sign_your_name_revise_with_hands_blog_section_landscape_49687f45d724.gif",
-    "alt": "blog section image \u00b7 sign-your-name revise-with-hands",
-    "width": 302,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/moodman-meditation-zen-meditate-H7kfFDvD9HSYGRbvid",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-      "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
-    },
-    {
       "title": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
     },
     {
       "title": "How to spot which rights you sign away in a book deal",
-      "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     },
     {
-      "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-      "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+      "title": "How to understand the publishing timeline after a publisher requests your manuscript",
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
+    },
+    {
+      "title": "Which rights do I sign away in a book deal FAQ",
+      "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -469,7 +460,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for handling a representation offer without making a panic decision",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     }
   ]
 } as const;
@@ -499,7 +490,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +502,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "item": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
+          "item": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#webpage",
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
       "name": "5 ways to write, edit, and market with an eye on risk after the offer",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +542,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#article",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#webpage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer",
       "headline": "5 ways to write, edit, and market with an eye on risk after the offer",
       "alternativeHeadline": "5 ways to write, edit, and market with an eye on risk after the offer",
       "description": "Getting an offer is supposed to feel like winning. Cool. But a lot of authors hit the same wall right after: the work gets real in five different directions at once\u2014craft choices, revision, contracts, and then marketing that can feel like it was designed by someone who\u2019s never published anything.",
@@ -585,40 +576,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage"
       },
+      "datePublished": "2027-05-13",
+      "dateModified": "2027-05-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for handling a representation offer without making a panic decision",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-          "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
+          "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         },
         {
           "@type": "WebPage",
           "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
         },
         {
           "@type": "WebPage",
           "name": "How to spot which rights you sign away in a book deal",
-          "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         },
         {
           "@type": "WebPage",
-          "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-          "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+          "name": "How to understand the publishing timeline after a publisher requests your manuscript",
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Which rights do I sign away in a book deal FAQ",
+          "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_d2f34fcc87b1.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_396/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer/blog/blog_hero_after_the_offer_nerves_blog_hero_landscape_d2f34fcc87b1.jpeg?updatedAt=1782144328642",
       "width": 3604,
       "height": 2255,
       "caption": "blog hero \u00b7 after-the-offer nerves",
@@ -633,7 +626,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#faq",
+      "@id": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer#faq",
       "mainEntity": [
         {
           "@type": "Question",

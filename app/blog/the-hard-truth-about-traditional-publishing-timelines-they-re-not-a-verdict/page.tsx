@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The hard truth about traditional publishing timelines: they're not a verdict",
   "description": "You're staring at your inbox like it owes you money.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-14",
+  "modifiedDate": "2027-03-14",
   "canonicalUrl": "https://writequeryhook.com/blog/the-hard-truth-about-traditional-publishing-timelines-they-re-not-a-verdict",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -523,6 +523,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-hard-truth-about-traditional-publishing-timelines-they-re-not-a-verdict#primaryimage"
       },
+      "datePublished": "2027-03-14",
+      "dateModified": "2027-03-14",
       "mentions": [
         {
           "@type": "WebPage",

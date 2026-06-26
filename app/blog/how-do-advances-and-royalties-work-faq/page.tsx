@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How do advances and royalties work FAQ",
   "description": "If money timing in publishing makes your stomach do a little backflip, good. That feeling is useful. Advances and royalties are supposed to be simple concepts, but traditional publishing tacks on an earn-out rule, and self-publishing tacks on platform payout rules and return handling.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq",
+  "publishedDate": "2027-07-30",
+  "modifiedDate": "2027-07-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_hero_confusion_money_timing_blog_hero_landscape_31d466897c0f.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_hero_confusion_money_timing_blog_hero_landscape_31d466897c0f.jpeg",
     "alt": "blog hero \u00b7 confusion money-timing",
-    "width": 350,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/x5c8d75Tvt7sQ",
-    "provider": "giphy",
+    "width": 6720,
+    "height": 4480,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How do advances and royalties work FAQ",
-      "item": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq"
+      "item": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
     }
   ],
   "tldrBlocks": [],
@@ -127,7 +127,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_dread_earn_out_blog_section_landscape_41dc72d2ee0f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_dread_earn_out_blog_section_landscape_41dc72d2ee0f.jpeg?updatedAt=1782267986078",
         "alt": "Do traditional publishers pay royalties immediately after publication?",
         "width": 3875,
         "height": 2848,
@@ -167,13 +167,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_contract_milestones_blog_section_landscape_56c05fbf5a09.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_contract_milestones_blog_section_landscape_56c05fbf5a09.gif",
         "alt": "How advances work against royalties",
-        "width": 6241,
-        "height": 4161,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "LitVM",
+        "creatorUrl": "https://giphy.com/gifs/LitVM-litecoin-lester-litvm-IeJcggcTlncGSDDvay",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -211,13 +211,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_rates_formats_blog_section_landscape_4ce45e899fe8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_rates_formats_blog_section_landscape_4ce45e899fe8.gif",
         "alt": "What royalty rates can authors expect in traditional publishing versus self-publishing?",
-        "width": 3000,
-        "height": 2001,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "spiritform",
+        "creatorUrl": "https://giphy.com/gifs/l3nW8unCUshKa0fDO",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -274,32 +274,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_section_image_relief_next_step_blog_section_landscape_e6f75422f3a3.gif",
-    "alt": "blog section image \u00b7 relief next-step",
-    "width": 356,
-    "height": 200,
-    "creator": "cbbc",
-    "creatorUrl": "https://giphy.com/gifs/cbbc-the-next-step-nxt-uFktORqmpg7qa4HuNI",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
-    },
-    {
-      "title": "What IP Publishing Really Means (and how to study it through examples)",
-      "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     },
     {
       "title": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-      "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+      "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
     },
     {
-      "title": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-      "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+      "title": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
+      "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+    },
+    {
+      "title": "How to self-publish a family memoir when the story won't behave",
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -317,7 +308,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
     }
   ]
 } as const;
@@ -347,7 +338,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -359,31 +350,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How do advances and royalties work FAQ",
-          "item": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq"
+          "item": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq",
+      "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#webpage",
+      "url": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq",
       "name": "How do advances and royalties work FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -399,11 +390,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#article",
+      "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq",
       "headline": "How do advances and royalties work FAQ",
       "alternativeHeadline": "How do advances and royalties work FAQ",
       "description": "If money timing in publishing makes your stomach do a little backflip, good. That feeling is useful. Advances and royalties are supposed to be simple concepts, but traditional publishing tacks on an earn-out rule, and self-publishing tacks on platform payout rules and return handling.",
@@ -433,48 +424,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#primaryimage"
       },
+      "datePublished": "2027-07-30",
+      "dateModified": "2027-07-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career: 4 examples that keep you writing",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What IP Publishing Really Means (and how to study it through examples)",
-          "url": "https://writequeryhook.com/what-ip-publishing-really-means-and-how-to-study-it-through-examples"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-4-examples-that-keep-you-writing"
         },
         {
           "@type": "WebPage",
           "name": "A vanity press guide to vanity publishing examples: how the money and the fine print actually work",
-          "url": "https://writequeryhook.com/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine-print-actually-work"
+          "url": "https://writequeryhook.com/blog/a-vanity-press-guide-to-vanity-publishing-examples-how-the-money-and-the-fine"
         },
         {
           "@type": "WebPage",
-          "name": "Vanity press mistakes to avoid: the \"fee-funded\" traps that cost you rights and credibility",
-          "url": "https://writequeryhook.com/vanity-press-mistakes-to-avoid-the-fee-funded-traps-that-cost-you-rights-and-credibility"
+          "name": "Word count case study: how agents read \"too long\" in adult, YA, middle grade, picture books, and memoir",
+          "url": "https://writequeryhook.com/blog/word-count-case-study-how-agents-read-too-long-in-adult-ya-middle-grade"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to self-publish a family memoir when the story won't behave",
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-do-advances-and-royalties-work-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_hero_confusion_money_timing_blog_hero_landscape_31d466897c0f.gif",
-      "width": 350,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-do-advances-and-royalties-work-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_487/how-do-advances-and-royalties-work-faq/blog/blog_hero_confusion_money_timing_blog_hero_landscape_31d466897c0f.jpeg",
+      "width": 6720,
+      "height": 4480,
       "caption": "blog hero \u00b7 confusion money-timing",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/x5c8d75Tvt7sQ"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     }

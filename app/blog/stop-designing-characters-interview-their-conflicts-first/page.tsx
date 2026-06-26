@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Designing Characters\u2014Interview Their Conflicts First",
   "description": "Most writers start with the outside: hair color, backstory wallpaper, \"what kind of person are they?\" scribbled like a personality horoscope.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-23",
+  "modifiedDate": "2026-10-23",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-designing-characters-interview-their-conflicts-first",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -656,6 +656,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-designing-characters-interview-their-conflicts-first#primaryimage"
       },
+      "datePublished": "2026-10-23",
+      "dateModified": "2026-10-23",
       "mentions": [
         {
           "@type": "WebPage",

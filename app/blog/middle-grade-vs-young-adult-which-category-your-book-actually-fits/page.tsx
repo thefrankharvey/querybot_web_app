@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Middle grade vs young adult: which category your book actually fits",
   "description": "You\u2019re not the first person to stare at a manuscript and think, Is this middle grade or young adult? The panic usually starts with a number\u2014word count\u2014because numbers feel objective when everything else feels wobbly.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
+  "publishedDate": "2027-06-26",
+  "modifiedDate": "2027-06-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_hero_confusion_in_between_blog_hero_landscape_9bf384fb8532.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_hero_confusion_in_between_blog_hero_landscape_9bf384fb8532.jpeg?updatedAt=1782231308604",
     "alt": "blog hero \u00b7 confusion in-between",
     "width": 6016,
     "height": 4016,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Middle grade vs young adult: which category your book actually fits",
-      "item": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+      "item": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
     }
   ],
   "tldrBlocks": [],
@@ -163,13 +163,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_voice_formality_blog_section_landscape_4eb2acf4e0bd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_voice_formality_blog_section_landscape_4eb2acf4e0bd.gif",
         "alt": "Voice (how to tell MG vs YA by voice)",
-        "width": 5472,
-        "height": 3648,
-        "creator": "freestocks.org",
-        "creatorUrl": "https://www.pexels.com/@freestocks",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -222,7 +222,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_word_count_range_anxiety_blog_section_landscape_5a5e41cd9d72.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_word_count_range_anxiety_blog_section_landscape_5a5e41cd9d72.jpeg?updatedAt=1782231310180",
         "alt": "Q: What word count guidelines should I follow for middle grade and YA?",
         "width": 3500,
         "height": 2333,
@@ -352,7 +352,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_q_how_do_i_decide_if_my_manuscript_is_mg_or_ya_w_blog_section_landscape_0790da4b4a76.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_q_how_do_i_decide_if_my_manuscript_is_mg_or_ya_w_blog_section_landscape_0790da4b4a76.gif?updatedAt=1782231309767",
         "alt": "Q: How do I decide if my manuscript is MG or YA when it\u2019s in-between?",
         "width": 279,
         "height": 200,
@@ -384,7 +384,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_word_count_range_anxiety_blog_section_landscape_5a5e41cd9d72.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_word_count_range_anxiety_blog_section_landscape_5a5e41cd9d72.jpeg?updatedAt=1782231310180",
         "alt": "Q: What word count guidelines should I follow for middle grade and YA?",
         "width": 3500,
         "height": 2333,
@@ -417,13 +417,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_voice_formality_blog_section_landscape_4eb2acf4e0bd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_voice_formality_blog_section_landscape_4eb2acf4e0bd.gif",
         "alt": "Voice (how to tell MG vs YA by voice)",
-        "width": 5472,
-        "height": 3648,
-        "creator": "freestocks.org",
-        "creatorUrl": "https://www.pexels.com/@freestocks",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -473,32 +473,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_section_image_final_choice_decisive_action_blog_section_landscape_47db62c552d6.gif",
-    "alt": "blog section image \u00b7 final choice decisive action",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-      "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
-    },
-    {
-      "title": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-      "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
+      "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
     },
     {
       "title": "What are you working toward? Goals, writing, legacy, and working less",
-      "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+      "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
     },
     {
-      "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-      "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+      "title": "What is a chapbook and should you publish one? (FAQ)",
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
+    },
+    {
+      "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     }
   ],
   "alsoLikeAfterIndex": 6,
@@ -512,7 +503,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-      "url": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
+      "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
     }
   ]
 } as const;
@@ -542,7 +533,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -554,31 +545,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Middle grade vs young adult: which category your book actually fits",
-          "item": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
+          "item": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#webpage",
-      "url": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
+      "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#webpage",
+      "url": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
       "name": "Middle grade vs young adult: which category your book actually fits",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage"
+        "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -594,11 +585,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#article",
+      "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#webpage"
+        "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits",
       "headline": "Middle grade vs young adult: which category your book actually fits",
       "alternativeHeadline": "Middle grade vs young adult: which category your book actually fits",
       "description": "You\u2019re not the first person to stare at a manuscript and think, Is this middle grade or young adult? The panic usually starts with a number\u2014word count\u2014because numbers feel objective when everything else feels wobbly.",
@@ -628,40 +619,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage"
+        "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage"
       },
+      "datePublished": "2027-06-26",
+      "dateModified": "2027-06-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Science fiction vs fantasy: which one to write for readers (and how marketing will label it)",
-          "url": "https://writequeryhook.com/query-letters/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
+          "url": "https://writequeryhook.com/blog/science-fiction-vs-fantasy-which-one-to-write-for-readers-and-how-marketing"
         },
         {
           "@type": "WebPage",
           "name": "Hollywood vs New York publishing etiquette: film options and the hook that keeps both tracks alive",
-          "url": "https://writequeryhook.com/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that-keeps-both-tracks-alive"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What does the future hold for writers? Predictions FAQ for 2010\u20132020",
-          "url": "https://writequeryhook.com/what-does-the-future-hold-for-writers-predictions-faq-for-2010-2020"
+          "url": "https://writequeryhook.com/blog/hollywood-vs-new-york-publishing-etiquette-film-options-and-the-hook-that"
         },
         {
           "@type": "WebPage",
           "name": "What are you working toward? Goals, writing, legacy, and working less",
-          "url": "https://writequeryhook.com/what-are-you-working-toward-goals-writing-legacy-and-working-less"
+          "url": "https://writequeryhook.com/blog/what-are-you-working-toward-goals-writing-legacy-and-working-less"
         },
         {
           "@type": "WebPage",
-          "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-          "url": "https://writequeryhook.com/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+          "name": "What is a chapbook and should you publish one? (FAQ)",
+          "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
+          "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_hero_confusion_in_between_blog_hero_landscape_9bf384fb8532.jpeg",
+      "@id": "https://writequeryhook.com/blog/middle-grade-vs-young-adult-which-category-your-book-actually-fits#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_448/middle-grade-vs-young-adult-which-category-your-book-actually-fits/blog/blog_hero_confusion_in_between_blog_hero_landscape_9bf384fb8532.jpeg?updatedAt=1782231308604",
       "width": 6016,
       "height": 4016,
       "caption": "blog hero \u00b7 confusion in-between",

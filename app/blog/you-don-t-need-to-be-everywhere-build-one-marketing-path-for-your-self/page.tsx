@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
   "description": "Most authors have two competing instincts right after a book is \"ready.\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
+  "publishedDate": "2027-06-30",
+  "modifiedDate": "2027-06-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_hero_panic_disbelief_blog_hero_landscape_249489eadc96.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_hero_panic_disbelief_blog_hero_landscape_249489eadc96.jpeg",
     "alt": "blog hero \u00b7 panic disbelief",
-    "width": 200,
-    "height": 200,
-    "creator": "FeelTheMagicProductions",
-    "creatorUrl": "https://giphy.com/gifs/FeelTheMagicProductions-movie-rent-a-boyfriend-amy-homberg-Z3NXaDSIrcf6s3JFUo",
-    "provider": "giphy",
+    "width": 8688,
+    "height": 5792,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-      "item": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
+      "item": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
     }
   ],
   "tldrBlocks": [],
@@ -136,7 +136,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_frustration_focus_blog_section_landscape_010d0d03efc6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_frustration_focus_blog_section_landscape_010d0d03efc6.jpeg?updatedAt=1782239685831",
         "alt": "Build one path, not a personality",
         "width": 4891,
         "height": 3261,
@@ -216,13 +216,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_skepticism_stubbornness_blog_section_landscape_18186ef602ee.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_skepticism_stubbornness_blog_section_landscape_18186ef602ee.gif",
         "alt": "Pricing as a reader onramp",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Tima Miroshnichenko",
-        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/confused-futurama-suspicious-ANbD1CCdA3iI8",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -374,43 +374,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_indignation_overwhelmed_blog_section_landscape_dfa87463c412.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_indignation_overwhelmed_blog_section_landscape_dfa87463c412.gif",
         "alt": "Outreach and team scale the work",
-        "width": 7680,
-        "height": 5120,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_6b1bd225fb0a.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 200,
-    "height": 200,
-    "creator": "disneystudios",
-    "creatorUrl": "https://giphy.com/gifs/disneystudios-disney-stare-mena-massoud-S6q7a7nMOL2c11R4qq",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-      "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
-    },
-    {
-      "title": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-      "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
-    },
-    {
       "title": "10 questions to ask before committing to any ebook publishing service",
-      "url": "https://writequeryhook.com/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+      "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+    },
+    {
+      "title": "How to get a self-published book into libraries without wasting months",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
     },
     {
       "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-      "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+    },
+    {
+      "title": "What is a chapbook and should you publish one? (FAQ)",
+      "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -450,12 +441,7 @@ const PAGE_DATA = {
       "text": "Now pick one platform pair, open your site, and write the next three posts that point to the same next step. That's the marketing path. Build it and run it until it teaches you what to do next."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-      "url": "https://writequeryhook.com/query-letters/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -483,7 +469,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -495,31 +481,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-          "item": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
+          "item": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#webpage",
-      "url": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
+      "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#webpage",
+      "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
       "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -535,11 +521,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#article",
+      "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#webpage"
+        "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self",
       "headline": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
       "alternativeHeadline": "You Don\u2019t Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
       "description": "Most authors have two competing instincts right after a book is \"ready.\"",
@@ -569,55 +555,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage"
       },
+      "datePublished": "2027-06-30",
+      "dateModified": "2027-06-30",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-          "url": "https://writequeryhook.com/query-letters/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-          "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-          "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
-        },
-        {
-          "@type": "WebPage",
           "name": "10 questions to ask before committing to any ebook publishing service",
-          "url": "https://writequeryhook.com/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+          "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to get a self-published book into libraries without wasting months",
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
         },
         {
           "@type": "WebPage",
           "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-          "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+        },
+        {
+          "@type": "WebPage",
+          "name": "What is a chapbook and should you publish one? (FAQ)",
+          "url": "https://writequeryhook.com/blog/what-is-a-chapbook-and-should-you-publish-one-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_hero_panic_disbelief_blog_hero_landscape_249489eadc96.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_453/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self/blog/blog_hero_panic_disbelief_blog_hero_landscape_249489eadc96.jpeg",
+      "width": 8688,
+      "height": 5792,
       "caption": "blog hero \u00b7 panic disbelief",
-      "creditText": "FeelTheMagicProductions",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "FeelTheMagicProductions",
-        "url": "https://giphy.com/gifs/FeelTheMagicProductions-movie-rent-a-boyfriend-amy-homberg-Z3NXaDSIrcf6s3JFUo"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#faq",
+      "@id": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self#faq",
       "mainEntity": [
         {
           "@type": "Question",

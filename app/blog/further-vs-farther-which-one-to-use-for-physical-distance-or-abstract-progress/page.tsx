@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Further vs farther: which one to use for physical distance or abstract progress",
   "description": "Writers get stuck on this the way we get stuck on a crooked comma: not because we can't understand the concept, but because the sentence starts feeling fragile.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-24",
+  "modifiedDate": "2026-09-24",
   "canonicalUrl": "https://writequeryhook.com/blog/further-vs-farther-which-one-to-use-for-physical-distance-or-abstract-progress",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -556,6 +556,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/further-vs-farther-which-one-to-use-for-physical-distance-or-abstract-progress#primaryimage"
       },
+      "datePublished": "2026-09-24",
+      "dateModified": "2026-09-24",
       "mentions": [
         {
           "@type": "WebPage",

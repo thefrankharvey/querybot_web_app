@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
   "description": "Most writers hear \"collaboration agreement\" and assume it means blank-page legal cosplay: invent a contract structure from scratch, worry you'll miss something, and then panic when an agent asks for paperwork.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
+  "publishedDate": "2027-05-11",
+  "modifiedDate": "2027-05-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_hero_myth_dread_blog_hero_landscape_e3036d306444.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_hero_myth_dread_blog_hero_landscape_e3036d306444.jpeg?updatedAt=1782140883709",
     "alt": "blog hero \u00b7 myth dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "item": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
+      "item": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     }
   ],
   "tldrBlocks": [],
@@ -118,7 +118,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_relief_relief_face_blog_section_landscape_a2b4896d861e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_relief_relief_face_blog_section_landscape_a2b4896d861e.jpeg?updatedAt=1782140885275",
         "alt": "Step 1: Find an author-focused legal forms resource (not a random PDF dump)",
         "width": 6000,
         "height": 4000,
@@ -299,13 +299,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_deadline_panic_blog_section_landscape_e5a6ee48e1ec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_deadline_panic_blog_section_landscape_e5a6ee48e1ec.gif",
         "alt": "Step 5: Turn the forms package into agent-ready paperwork (with less chaos)",
-        "width": 6960,
-        "height": 4640,
-        "creator": "Marta Branco",
-        "creatorUrl": "https://www.pexels.com/@martabranco",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "britishbakeoff",
+        "creatorUrl": "https://giphy.com/gifs/britishbakeoff-zMWTXLXa0KNek5yDPv",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -355,7 +355,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_stiff_shoulders_honest_talk_blog_section_landscape_ee22bf9498a7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_stiff_shoulders_honest_talk_blog_section_landscape_ee22bf9498a7.gif?updatedAt=1782140886753",
         "alt": "Step 6: Prepare for the co-author conversation with a rights checklist",
         "width": 200,
         "height": 200,
@@ -366,32 +366,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_section_image_satisfying_win_relief_blog_section_landscape_d66c556d895b.gif",
-    "alt": "blog section image \u00b7 satisfying win relief",
-    "width": 356,
-    "height": 200,
-    "creator": "cbbc",
-    "creatorUrl": "https://giphy.com/gifs/cbbc-betrayal-traitor-ultimate-dtVwmWe7N7WdoGeF0T",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     },
     {
-      "title": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-      "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+      "title": "Which rights do I sign away in a book deal FAQ",
+      "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
     },
     {
-      "title": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-      "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
+      "title": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+      "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
     },
     {
-      "title": "When to Give Up Submissions: Agent-Author Creative Team FAQ",
-      "url": "https://writequeryhook.com/when-to-give-up-submissions-agent-author-creative-team-faq"
+      "title": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -426,7 +417,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-      "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
     }
   ]
 } as const;
@@ -456,7 +447,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,31 +459,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "item": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
+          "item": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
       "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -508,11 +499,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#article",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co",
       "headline": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
       "alternativeHeadline": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
       "description": "Most writers hear \"collaboration agreement\" and assume it means blank-page legal cosplay: invent a contract structure from scratch, worry you'll miss something, and then panic when an agent asks for paperwork.",
@@ -542,40 +533,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage"
       },
+      "datePublished": "2027-05-11",
+      "dateModified": "2027-05-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really"
         },
         {
           "@type": "WebPage",
-          "name": "The acceptability clause in publishing contracts: what \"satisfactory\" really means\u2014and why writers fight it",
-          "url": "https://writequeryhook.com/the-acceptability-clause-in-publishing-contracts-what-satisfactory-really-means-and-why-writers-fight-it"
+          "name": "Which rights do I sign away in a book deal FAQ",
+          "url": "https://writequeryhook.com/blog/which-rights-do-i-sign-away-in-a-book-deal-faq"
         },
         {
           "@type": "WebPage",
-          "name": "When to Give Up After an Agent Signs: Agent-Author Creative Team vs Common Alternatives",
-          "url": "https://writequeryhook.com/when-to-give-up-after-an-agent-signs-agent-author-creative-team-vs-common-alternatives"
+          "name": "Resubmitting a revision to an agent: the exact structure that keeps it honest",
+          "url": "https://writequeryhook.com/blog/resubmitting-a-revision-to-an-agent-the-exact-structure-that-keeps-it-honest"
         },
         {
           "@type": "WebPage",
-          "name": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-          "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
-        },
-        {
-          "@type": "WebPage",
-          "name": "When to Give Up Submissions: Agent-Author Creative Team FAQ",
-          "url": "https://writequeryhook.com/when-to-give-up-submissions-agent-author-creative-team-faq"
+          "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_hero_myth_dread_blog_hero_landscape_e3036d306444.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_393/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co/blog/blog_hero_myth_dread_blog_hero_landscape_e3036d306444.jpeg?updatedAt=1782140883709",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 myth dread",
@@ -590,7 +578,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#howto",
       "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
       "description": "Most writers hear \"collaboration agreement\" and assume it means blank-page legal cosplay: invent a contract structure from scratch, worry you'll miss something, and then panic when an agent asks for paperwork.",
       "totalTime": "PT7M",
@@ -600,49 +588,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Find an author-focused legal forms resource (not a random PDF dump)",
           "text": "Start by getting the right source for your legal forms. You're looking for a legal-forms resource created for authors and self-publishers, where the template set is organized around the kinds of agreements writers actually run into (including co-author work).",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-1-find-an-author-focused-legal-forms-resource-not-a-random-pdf-dump"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-1-find-an-author-focused-legal-forms-resource-not-a-random-pdf-dump"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Choose a collaboration contract template that matches your situation",
           "text": "Pick the collaboration agreement template that fits the kind of co-authoring you're doing. Don't treat templates like interchangeable scenery. The point is to reduce guesswork so you can fill in specifics, not re-architect the whole deal.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-2-choose-a-collaboration-contract-template-that-matches-your-situation"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-2-choose-a-collaboration-contract-template-that-matches-your-situation"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Use the template to solve the right problem instead of writing from scratch",
           "text": "The temptation is to treat writing the agreement as the hard part. It's not.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-3-use-the-template-to-solve-the-right-problem-instead-of-writing-from"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-3-use-the-template-to-solve-the-right-problem-instead-of-writing-from"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Review related contract forms to find missing rights topics",
           "text": "Most authors treat the co-author agreement as a standalone thing. A forms resource can be more valuable than the one template because it includes other contract documents an author might need. By browsing related forms, you learn what rights and topics commonly appear in writer-to-writer agreements.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-4-review-related-contract-forms-to-find-missing-rights-topics"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-4-review-related-contract-forms-to-find-missing-rights-topics"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Turn the forms package into agent-ready paperwork (with less chaos)",
           "text": "Templates are only useful if they're easy to access and easy to deliver when asked.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-5-turn-the-forms-package-into-agent-ready-paperwork-with-less-chaos"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-5-turn-the-forms-package-into-agent-ready-paperwork-with-less-chaos"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Prepare for the co-author conversation with a rights checklist",
           "text": "Before anyone signs, use the template and related forms review to prep a real conversation. This prevents the \"we agreed on vibes, but nobody covered the rights\" problem.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-6-prepare-for-the-co-author-conversation-with-a-rights-checklist"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#step-6-prepare-for-the-co-author-conversation-with-a-rights-checklist"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co#faq",
       "mainEntity": [
         {
           "@type": "Question",

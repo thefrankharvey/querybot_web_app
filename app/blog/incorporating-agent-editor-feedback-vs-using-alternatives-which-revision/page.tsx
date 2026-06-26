@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
   "description": "Getting feedback is supposed to make the draft better. Instead, most of us do the same dumb thing: we read the note, feel personally attacked by the words \"just needs more oomph,\" then start writing brand-new scenes like we're speedrunning a personality change.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
+  "publishedDate": "2027-06-03",
+  "modifiedDate": "2027-06-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_hero_panic_inbox_dread_blog_hero_landscape_8573c429bcb6.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_hero_panic_inbox_dread_blog_hero_landscape_8573c429bcb6.jpeg",
     "alt": "blog hero \u00b7 panic inbox dread",
-    "width": 160,
-    "height": 200,
-    "creator": "TheWadeEmpire2",
-    "creatorUrl": "https://giphy.com/gifs/teacher-homework-payingattentioninclass-vtFZ8O85q8g3MmXK51",
-    "provider": "giphy",
+    "width": 3999,
+    "height": 2667,
+    "creator": "Markus Winkler",
+    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "item": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
+      "item": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     }
   ],
   "tldrBlocks": [],
@@ -172,13 +172,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_emotions_adrenaline_blog_section_landscape_a3a055c56330.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_emotions_adrenaline_blog_section_landscape_a3a055c56330.gif",
         "alt": "Feedback-first workflow (emotion split + revision plan)",
-        "width": 6000,
-        "height": 4000,
-        "creator": "David Rama",
-        "creatorUrl": "https://www.pexels.com/@phreewil",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "energylandia",
+        "creatorUrl": "https://giphy.com/gifs/rollercoaster-mayan-energylandia-gHfdhl5JCAySFfkgTy",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -245,16 +245,7 @@ const PAGE_DATA = {
           "text": "This option also supports the WQH layer logic: if you're adding something in Act One, you're obligated to pay it off through Acts Two and Three\u2014otherwise it's just decorative plot frosting."
         }
       ],
-      "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_outline_structure_blog_section_landscape_cfe01a2a6ac1.png",
-        "alt": "Outline-driven implementation (keep structure intact)",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ayden Zaki",
-        "creatorUrl": "https://www.pexels.com/@aydenzaki",
-        "provider": "pexels",
-        "role": "section"
-      }
+      "image": null
     },
     {
       "section_id": "h2_vague_notes_diagnose_and_fix",
@@ -327,7 +318,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_vague_comment_missing_something_blog_section_landscape_c98ddf9a0c56.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_vague_comment_missing_something_blog_section_landscape_c98ddf9a0c56.jpeg?updatedAt=1782190407633",
         "alt": "Vague notes diagnosis (turn \"something missing\" into solvable problems)",
         "width": 3414,
         "height": 2274,
@@ -430,13 +421,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_emotions_adrenaline_blog_section_landscape_a3a055c56330.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_emotions_adrenaline_blog_section_landscape_a3a055c56330.gif",
         "alt": "Feedback-first workflow (emotion split + revision plan)",
-        "width": 6000,
-        "height": 4000,
-        "creator": "David Rama",
-        "creatorUrl": "https://www.pexels.com/@phreewil",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "energylandia",
+        "creatorUrl": "https://giphy.com/gifs/rollercoaster-mayan-energylandia-gHfdhl5JCAySFfkgTy",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -468,7 +459,7 @@ const PAGE_DATA = {
     }
   ],
   "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_relief_fist_pump_blog_section_landscape_bb303e88a510.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_section_image_relief_fist_pump_blog_section_landscape_bb303e88a510.gif?updatedAt=1782190413607",
     "alt": "blog section image \u00b7 relief fist pump",
     "width": 310,
     "height": 200,
@@ -480,19 +471,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Inside a book edit: what really happens (FAQ)",
-      "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     },
     {
       "title": "Know when to leave your agent: a practical FAQ",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     },
     {
       "title": "Acceptability clause in publishing contracts FAQ",
-      "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     },
     {
-      "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -510,7 +501,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Inside a book edit: what really happens (FAQ)",
-      "url": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq"
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     }
   ]
 } as const;
@@ -540,7 +531,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +543,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "item": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
+          "item": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#webpage",
-      "url": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#webpage",
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
       "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +583,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#article",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#webpage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision",
       "headline": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
       "alternativeHeadline": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
       "description": "Getting feedback is supposed to make the draft better. Instead, most of us do the same dumb thing: we read the note, feel personally attacked by the words \"just needs more oomph,\" then start writing brand-new scenes like we're speedrunning a personality change.",
@@ -626,48 +617,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage"
       },
+      "datePublished": "2027-06-03",
+      "dateModified": "2027-06-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Inside a book edit: what really happens (FAQ)",
-          "url": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Inside a book edit: what really happens (FAQ)",
-          "url": "https://writequeryhook.com/inside-a-book-edit-what-really-happens-faq"
+          "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a practical FAQ",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause in publishing contracts FAQ",
-          "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
+          "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_hero_panic_inbox_dread_blog_hero_landscape_8573c429bcb6.gif",
-      "width": 160,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision/blog/blog_hero_panic_inbox_dread_blog_hero_landscape_8573c429bcb6.jpeg",
+      "width": 3999,
+      "height": 2667,
       "caption": "blog hero \u00b7 panic inbox dread",
-      "creditText": "TheWadeEmpire2",
+      "creditText": "Markus Winkler",
       "author": {
         "@type": "Person",
-        "name": "TheWadeEmpire2",
-        "url": "https://giphy.com/gifs/teacher-homework-payingattentioninclass-vtFZ8O85q8g3MmXK51"
+        "name": "Markus Winkler",
+        "url": "https://www.pexels.com/@markus-winkler-1430818"
       },
       "@context": "https://schema.org"
     }

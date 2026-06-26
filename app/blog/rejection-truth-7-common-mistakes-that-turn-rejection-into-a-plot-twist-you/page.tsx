@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Rejection Truth: 7 Common Mistakes That Turn Rejection Into a Plot Twist You Don't Need",
   "description": "You got a rejection. Or you didn't, which somehow feels worse, because silence is a liar with good manners.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-18",
+  "modifiedDate": "2027-02-18",
   "canonicalUrl": "https://writequeryhook.com/blog/rejection-truth-7-common-mistakes-that-turn-rejection-into-a-plot-twist-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -625,6 +625,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/rejection-truth-7-common-mistakes-that-turn-rejection-into-a-plot-twist-you#primaryimage"
       },
+      "datePublished": "2027-02-18",
+      "dateModified": "2027-02-18",
       "mentions": [
         {
           "@type": "WebPage",

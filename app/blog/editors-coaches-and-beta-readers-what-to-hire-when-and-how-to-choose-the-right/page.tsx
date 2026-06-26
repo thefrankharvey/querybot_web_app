@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Editors, coaches, and beta readers: what to hire when (and how to choose the right feedback)",
   "description": "Feedback has become a menu. That's great\u2014except nobody agrees on the labels. One provider sells \"editing\" and means line-level tightening on a completed draft. Another sells \"coaching\" and means your story structure, not your writing habits. A third charges the same price whether they give detailed notes or vague impressions.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-04",
+  "modifiedDate": "2026-10-04",
   "canonicalUrl": "https://writequeryhook.com/blog/editors-coaches-and-beta-readers-what-to-hire-when-and-how-to-choose-the-right",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -726,6 +726,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/editors-coaches-and-beta-readers-what-to-hire-when-and-how-to-choose-the-right#primaryimage"
       },
+      "datePublished": "2026-10-04",
+      "dateModified": "2026-10-04",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
   "description": "Some offers feel like a door opening.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
+  "publishedDate": "2027-04-28",
+  "modifiedDate": "2027-04-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_hero_offer_dread_blog_hero_landscape_b3bc3cd6cfc5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_hero_offer_dread_blog_hero_landscape_b3bc3cd6cfc5.jpeg",
     "alt": "blog hero \u00b7 offer dread",
-    "width": 264,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/guilty-innocent-xT1ksK7W5KS3e",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-      "item": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+      "item": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
     }
   ],
   "tldrBlocks": [],
@@ -337,7 +337,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_exposure_guilt_blog_section_landscape_56f4b5a94d1b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_exposure_guilt_blog_section_landscape_56f4b5a94d1b.jpeg?updatedAt=1782058507665",
         "alt": "How to stop undercharging as a writer",
         "width": 3500,
         "height": 2333,
@@ -393,13 +393,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_alternatives_trades_blog_section_landscape_f318250bb813.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_alternatives_trades_blog_section_landscape_f318250bb813.gif",
         "alt": "What to do when you get a \"no\"",
-        "width": 3000,
-        "height": 2001,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 304,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/run-share-gump-9rRacglGbs68E",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -447,7 +447,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_rejection_no_blog_section_landscape_14e81986cc36.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_rejection_no_blog_section_landscape_14e81986cc36.gif?updatedAt=1782058508858",
         "alt": "You're treating a \"no\" like the end of your power",
         "width": 200,
         "height": 200,
@@ -484,32 +484,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_section_image_deep_breath_fix_it_blog_section_landscape_7527b7bd0608.jpeg",
-    "alt": "blog section image \u00b7 deep breath fix it",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     },
     {
       "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     },
     {
       "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     },
     {
-      "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "title": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
+      "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -544,7 +535,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "url": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     }
   ]
 } as const;
@@ -574,7 +565,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -586,31 +577,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
-          "item": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
+          "item": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#webpage",
-      "url": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
+      "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#webpage",
+      "url": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
       "name": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage"
+        "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -626,11 +617,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#article",
+      "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#webpage"
+        "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway",
       "headline": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
       "alternativeHeadline": "Negotiate after the offer? 7 mistakes writers make (and how to fix them anyway)",
       "description": "Some offers feel like a door opening.",
@@ -660,55 +651,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage"
+        "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage"
       },
+      "datePublished": "2027-04-28",
+      "dateModified": "2027-04-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "url": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
-        },
-        {
-          "@type": "WebPage",
-          "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
         },
         {
           "@type": "WebPage",
           "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         },
         {
           "@type": "WebPage",
           "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+          "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
         },
         {
           "@type": "WebPage",
-          "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "name": "Ghosting, rejection, and motivation: a querying FAQ for when publishing feels unfair",
+          "url": "https://writequeryhook.com/blog/ghosting-rejection-and-motivation-a-querying-faq-for-when-publishing-feels"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_hero_offer_dread_blog_hero_landscape_b3bc3cd6cfc5.gif",
-      "width": 264,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_371/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway/blog/blog_hero_offer_dread_blog_hero_landscape_b3bc3cd6cfc5.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 offer dread",
-      "creditText": "Giphy",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/guilty-innocent-xT1ksK7W5KS3e"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#faq",
+      "@id": "https://writequeryhook.com/blog/negotiate-after-the-offer-7-mistakes-writers-make-and-how-to-fix-them-anyway#faq",
       "mainEntity": [
         {
           "@type": "Question",

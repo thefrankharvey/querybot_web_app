@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Platform hook for non-fiction: why followers don't prove you can teach",
   "description": "If you've ever stared at a non-fiction query letter and thought, Is \"I have 8,000 followers\" going to get me laughed out of the building?\u2014yeah. That's the right instinct.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-29",
+  "modifiedDate": "2026-07-29",
   "canonicalUrl": "https://writequeryhook.com/blog/platform-hook-for-non-fiction-why-followers-don-t-prove-you-can-teach",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -656,6 +656,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/platform-hook-for-non-fiction-why-followers-don-t-prove-you-can-teach#primaryimage"
       },
+      "datePublished": "2026-07-29",
+      "dateModified": "2026-07-29",
       "mentions": [
         {
           "@type": "WebPage",

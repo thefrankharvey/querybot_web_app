@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Pitch Yourself First: How to Make Agents Actually Read Past Paragraph One",
   "description": "TL;DR: how to write a query that doesn't die in paragraph one",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-01",
+  "modifiedDate": "2026-07-01",
   "canonicalUrl": "https://writequeryhook.com/blog/pitch-yourself-first-how-to-make-agents-actually-read-past-paragraph-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -499,6 +499,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/pitch-yourself-first-how-to-make-agents-actually-read-past-paragraph-one#primaryimage"
       },
+      "datePublished": "2026-07-01",
+      "dateModified": "2026-07-01",
       "mentions": [
         {
           "@type": "WebPage",

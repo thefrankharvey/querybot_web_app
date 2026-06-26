@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
   "description": "There's a specific kind of dread that shows up when you've been paying attention. Not \"ugh, rejection.\" More like: the math changed and nobody bothered to tell the writers in the room.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
+  "publishedDate": "2027-09-01",
+  "modifiedDate": "2027-09-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_hero_recognition_dread_blog_hero_landscape_465ddb6736f0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_hero_recognition_dread_blog_hero_landscape_465ddb6736f0.jpeg?updatedAt=1782319129970",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-      "item": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
+      "item": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     }
   ],
   "tldrBlocks": [],
@@ -158,13 +158,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_misdirection_red_flags_blog_section_landscape_f814d11afba5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_misdirection_red_flags_blog_section_landscape_f814d11afba5.gif",
         "alt": "Pay-to-play signals in publishing: how \"help\" turns into a paid filter",
-        "width": 5196,
-        "height": 3868,
-        "creator": "David McElwee",
-        "creatorUrl": "https://www.pexels.com/@davidmcelwee",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -330,7 +330,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_class_inequality_unfair_odds_blog_section_landscape_4947be46e832.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_class_inequality_unfair_odds_blog_section_landscape_4947be46e832.gif?updatedAt=1782319131462",
         "alt": "How class stratification affects publishing access (in ways writers feel immediately)",
         "width": 226,
         "height": 200,
@@ -416,43 +416,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_fist_pump_wallet_action_blog_section_landscape_9bc89f3e2aca.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_fist_pump_wallet_action_blog_section_landscape_9bc89f3e2aca.jpeg",
         "alt": "Protecting book democratization: community support that works when money is uneven",
-        "width": 226,
-        "height": 200,
-        "creator": "theinnernette",
-        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Mario Am\u00e9",
+        "creatorUrl": "https://www.pexels.com/@imperioame",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_section_image_deep_breath_action_blog_section_landscape_dfff767ea38e.jpeg",
-    "alt": "blog section image \u00b7 deep breath action",
-    "width": 5693,
-    "height": 3818,
-    "creator": "Emma Li",
-    "creatorUrl": "https://www.pexels.com/@emmali",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-      "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
-    },
-    {
-      "title": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-      "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+      "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
     },
     {
       "title": "Get your submission priorities wrong, and the agent will never forgive you",
-      "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     },
     {
       "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-      "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
+    },
+    {
+      "title": "How to build a rocking author media kit (a 7-step template)",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -495,7 +486,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-      "url": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     }
   ]
 } as const;
@@ -525,7 +516,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -537,31 +528,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-          "item": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
+          "item": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
+      "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#webpage",
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
       "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -577,11 +568,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#article",
+      "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#webpage"
+        "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it",
       "headline": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
       "alternativeHeadline": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
       "description": "There's a specific kind of dread that shows up when you've been paying attention. Not \"ugh, rejection.\" More like: the math changed and nobody bothered to tell the writers in the room.",
@@ -611,40 +602,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage"
       },
+      "datePublished": "2027-09-01",
+      "dateModified": "2027-09-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-          "url": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
+          "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         },
         {
           "@type": "WebPage",
           "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-          "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-          "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+          "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Get your submission priorities wrong, and the agent will never forgive you",
-          "url": "https://writequeryhook.com/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
+          "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
-          "url": "https://writequeryhook.com/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without-wasting-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to build a rocking author media kit (a 7-step template)",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_hero_recognition_dread_blog_hero_landscape_465ddb6736f0.jpeg",
+      "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it/blog/blog_hero_recognition_dread_blog_hero_landscape_465ddb6736f0.jpeg?updatedAt=1782319129970",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -659,7 +652,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#faq",
+      "@id": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

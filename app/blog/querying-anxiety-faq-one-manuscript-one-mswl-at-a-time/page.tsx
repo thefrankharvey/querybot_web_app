@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Querying Anxiety FAQ: One Manuscript, One MSWL at a Time",
   "description": "You finish the manuscript. You finish the edits. You even did the research\u2014deep dives, insider-style note-taking, the whole \"I can handle this\" vibe.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-30",
+  "modifiedDate": "2027-03-30",
   "canonicalUrl": "https://writequeryhook.com/blog/querying-anxiety-faq-one-manuscript-one-mswl-at-a-time",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -559,6 +559,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/querying-anxiety-faq-one-manuscript-one-mswl-at-a-time#primaryimage"
       },
+      "datePublished": "2027-03-30",
+      "dateModified": "2027-03-30",
       "mentions": [
         {
           "@type": "WebPage",

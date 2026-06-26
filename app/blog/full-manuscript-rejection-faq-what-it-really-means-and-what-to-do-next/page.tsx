@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Full manuscript rejection FAQ: what it really means and what to do next",
   "description": "A full request feels like a door cracking open. Then the manuscript lands back with a rejection, sometimes with a polite note, sometimes with nothing at all. It's brutal because writers don't just want a response; they want to understand what broke\u2014especially when the query and opening pages looked promising.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-11",
+  "modifiedDate": "2027-02-11",
   "canonicalUrl": "https://writequeryhook.com/blog/full-manuscript-rejection-faq-what-it-really-means-and-what-to-do-next",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -516,6 +516,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/full-manuscript-rejection-faq-what-it-really-means-and-what-to-do-next#primaryimage"
       },
+      "datePublished": "2027-02-11",
+      "dateModified": "2027-02-11",
       "mentions": [
         {
           "@type": "WebPage",

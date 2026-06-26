@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
   "description": "If you're feeling that \"I did everything right\u2014so why aren't sales coming in?\" itch, I get it. We edit, design, rewrite, polish until the manuscript stops looking like a haunted house.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
+  "publishedDate": "2027-07-26",
+  "modifiedDate": "2027-07-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_hero_buried_missed_sales_blog_hero_landscape_93d71c996948.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_hero_buried_missed_sales_blog_hero_landscape_93d71c996948.jpeg?updatedAt=1782265841794",
     "alt": "blog hero \u00b7 buried missed sales",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
+      "item": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -100,7 +100,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_opening_blog_section_landscape_1f488e09e4ae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_opening_blog_section_landscape_1f488e09e4ae.gif?updatedAt=1782265842356",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -154,13 +154,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_denial_word_of_mouth_blog_section_landscape_9b32ce9bbe5d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_denial_word_of_mouth_blog_section_landscape_9b32ce9bbe5d.jpeg",
         "alt": "1. You're treating your book like it sells itself (then acting surprised it's buried)",
-        "width": 298,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
-        "provider": "giphy",
+        "width": 6240,
+        "height": 4160,
+        "creator": "Anete Lusina",
+        "creatorUrl": "https://www.pexels.com/@anete-lusina",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -415,13 +415,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_7_you_try_to_do_everything_alone_and_burnout_kil_blog_section_landscape_14d186ba531b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_7_you_try_to_do_everything_alone_and_burnout_kil_blog_section_landscape_14d186ba531b.gif",
         "alt": "7. You try to do everything alone (and burnout kills momentum)",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -440,32 +440,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_section_image_fix_yours_pick_one_blog_section_landscape_d6e1c86318aa.jpeg",
-    "alt": "blog section image \u00b7 fix yours pick one",
-    "width": 3504,
-    "height": 2336,
-    "creator": "500photos.com",
-    "creatorUrl": "https://www.pexels.com/@500photos-com-15338",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-      "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
-    },
-    {
       "title": "How to self-publish a family memoir when the story won't behave",
-      "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
     },
     {
       "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-      "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
     },
     {
       "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-      "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+    },
+    {
+      "title": "11 writing communities to join for critique, support, beta readers, and marketing",
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -497,12 +488,7 @@ const PAGE_DATA = {
       "text": "If your book feels \"stuck,\" it's probably not a writing problem. It's a discoverability problem created by predictable mistakes\u2014pricing, storefront, email system, outreach, and team. Pick one section, fix it this week, and stop letting hope run your **self-publishing** marketing."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-      "url": "https://writequeryhook.com/query-letters/research-first-book-marketing-for-small-press-historical-fiction-without-an"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -530,7 +516,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -542,31 +528,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
+          "item": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
+      "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
       "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -582,11 +568,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#article",
+      "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do",
       "headline": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
       "alternativeHeadline": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
       "description": "If you're feeling that \"I did everything right\u2014so why aren't sales coming in?\" itch, I get it. We edit, design, rewrite, polish until the manuscript stops looking like a haunted house.",
@@ -616,40 +602,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-07-26",
+      "dateModified": "2027-07-26",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-          "url": "https://writequeryhook.com/query-letters/research-first-book-marketing-for-small-press-historical-fiction-without-an"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-          "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to self-publish a family memoir when the story won't behave",
-          "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-          "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+          "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
         },
         {
           "@type": "WebPage",
           "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-          "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+          "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+        },
+        {
+          "@type": "WebPage",
+          "name": "11 writing communities to join for critique, support, beta readers, and marketing",
+          "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_hero_buried_missed_sales_blog_hero_landscape_93d71c996948.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_483/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do/blog/blog_hero_buried_missed_sales_blog_hero_landscape_93d71c996948.jpeg?updatedAt=1782265841794",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 buried missed sales",
@@ -664,7 +647,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#faq",
+      "@id": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do#faq",
       "mainEntity": [
         {
           "@type": "Question",

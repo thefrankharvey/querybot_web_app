@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
   "description": "You're not struggling to write a nonfiction book proposal because you don't understand words. You're struggling because the proposal is trying to do business-plan cosplay.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
+  "publishedDate": "2027-07-20",
+  "modifiedDate": "2027-07-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_hero_dread_blank_page_blog_hero_landscape_6f2a263dc735.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_hero_dread_blank_page_blog_hero_landscape_6f2a263dc735.jpeg",
     "alt": "blog hero \u00b7 dread blank page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 4928,
+    "height": 3264,
+    "creator": "MESSALA CIULLA",
+    "creatorUrl": "https://www.pexels.com/@messalaciulla",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "item": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
+      "item": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     }
   ],
   "tldrBlocks": [],
@@ -187,13 +187,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_clarity_structure_blog_section_landscape_0cb3dc6149c4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_clarity_structure_blog_section_landscape_0cb3dc6149c4.gif",
         "alt": "9-step method: when structure helps your evidence land",
-        "width": 7639,
-        "height": 4296,
-        "creator": "Google DeepMind",
-        "creatorUrl": "https://www.pexels.com/@googledeepmind",
-        "provider": "pexels",
+        "width": 324,
+        "height": 200,
+        "creator": "landau",
+        "creatorUrl": "https://giphy.com/gifs/landau-0pxH89ac54IOqZsqy2",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -257,7 +257,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_chaos_to_control_research_blog_section_landscape_cb077c8d0a55.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_chaos_to_control_research_blog_section_landscape_cb077c8d0a55.gif?updatedAt=1782260338048",
         "alt": "Alternative: research-first (\"build the need receipt, then write the proposal\")",
         "width": 358,
         "height": 200,
@@ -355,13 +355,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_clarity_structure_blog_section_landscape_0cb3dc6149c4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_clarity_structure_blog_section_landscape_0cb3dc6149c4.gif",
         "alt": "9-step method: when structure helps your evidence land",
-        "width": 7639,
-        "height": 4296,
-        "creator": "Google DeepMind",
-        "creatorUrl": "https://www.pexels.com/@googledeepmind",
-        "provider": "pexels",
+        "width": 324,
+        "height": 200,
+        "creator": "landau",
+        "creatorUrl": "https://giphy.com/gifs/landau-0pxH89ac54IOqZsqy2",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -439,7 +439,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_which_to_pick_blog_section_landscape_04584f38814c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_which_to_pick_blog_section_landscape_04584f38814c.jpeg?updatedAt=1782260338664",
         "alt": "Which to pick",
         "width": 6611,
         "height": 4407,
@@ -450,32 +450,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_section_image_fist_pump_final_pick_blog_section_landscape_9aea264116b5.jpeg",
-    "alt": "blog section image \u00b7 fist pump final pick",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Platform FAQ: how to build an author platform off social media",
-      "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     },
     {
       "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     },
     {
       "title": "What literary agents do (and what they don't do) FAQ",
-      "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
     },
     {
-      "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-      "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
+      "title": "Aspiring author FAQ: how to get a book published",
+      "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -510,7 +501,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Platform FAQ: how to build an author platform off social media",
-      "url": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media"
+      "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
     }
   ]
 } as const;
@@ -540,7 +531,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +543,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "item": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
+          "item": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#webpage",
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
       "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +583,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#article",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#webpage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the",
       "headline": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
       "alternativeHeadline": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
       "description": "You're not struggling to write a nonfiction book proposal because you don't understand words. You're struggling because the proposal is trying to do business-plan cosplay.",
@@ -626,55 +617,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage"
       },
+      "datePublished": "2027-07-20",
+      "dateModified": "2027-07-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Platform FAQ: how to build an author platform off social media",
-          "url": "https://writequeryhook.com/query-letters/platform-faq-how-to-build-an-author-platform-off-social-media"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Platform FAQ: how to build an author platform off social media",
-          "url": "https://writequeryhook.com/platform-faq-how-to-build-an-author-platform-off-social-media"
+          "url": "https://writequeryhook.com/blog/platform-faq-how-to-build-an-author-platform-off-social-media"
         },
         {
           "@type": "WebPage",
           "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do (and what they don't do) FAQ",
-          "url": "https://writequeryhook.com/what-literary-agents-do-and-what-they-don-t-do-faq"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-and-what-they-don-t-do-faq"
         },
         {
           "@type": "WebPage",
-          "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
-          "url": "https://writequeryhook.com/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction-actually-work"
+          "name": "Aspiring author FAQ: how to get a book published",
+          "url": "https://writequeryhook.com/blog/aspiring-author-faq-how-to-get-a-book-published"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_hero_dread_blank_page_blog_hero_landscape_6f2a263dc735.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_475/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the/blog/blog_hero_dread_blank_page_blog_hero_landscape_6f2a263dc735.jpeg",
+      "width": 4928,
+      "height": 3264,
       "caption": "blog hero \u00b7 dread blank page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "MESSALA CIULLA",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "MESSALA CIULLA",
+        "url": "https://www.pexels.com/@messalaciulla"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#faq",
+      "@id": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

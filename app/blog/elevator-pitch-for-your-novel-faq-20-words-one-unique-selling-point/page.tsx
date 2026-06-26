@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Elevator Pitch for Your Novel FAQ: 20 Words, One Unique Selling Point",
   "description": "A strong elevator pitch is the one sentence (sometimes two) that isolates your novel's unique selling point\u2014the core idea that determines whether anyone cares, regardless of how gorgeous your prose is.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-02",
+  "modifiedDate": "2026-08-02",
   "canonicalUrl": "https://writequeryhook.com/blog/elevator-pitch-for-your-novel-faq-20-words-one-unique-selling-point",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -503,6 +503,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/elevator-pitch-for-your-novel-faq-20-words-one-unique-selling-point#primaryimage"
       },
+      "datePublished": "2026-08-02",
+      "dateModified": "2026-08-02",
       "mentions": [
         {
           "@type": "WebPage",

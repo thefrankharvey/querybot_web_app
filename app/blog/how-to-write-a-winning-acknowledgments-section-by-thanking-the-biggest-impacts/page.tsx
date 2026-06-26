@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
   "description": "Most authors think acknowledgments should be \u201ccomplete.\u201d Like, if you miss someone, the book will somehow implode.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
+  "publishedDate": "2027-08-15",
+  "modifiedDate": "2027-08-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_hero_overwhelm_blank_page_panic_blog_hero_landscape_9fc4dc1011a8.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_hero_overwhelm_blank_page_panic_blog_hero_landscape_9fc4dc1011a8.jpeg",
     "alt": "blog hero \u00b7 overwhelm blank-page panic",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 5650,
+    "height": 3741,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     }
   ],
   "tldrBlocks": [],
@@ -139,7 +139,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_brain_dump_overwhelm_relief_blog_section_landscape_4677808c2aef.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_brain_dump_overwhelm_relief_blog_section_landscape_4677808c2aef.gif?updatedAt=1782311940096",
         "alt": "Step 1: Start by listing everyone who helped during your writing (then cut it fast)",
         "width": 226,
         "height": 200,
@@ -342,7 +342,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_privacy_anxiety_tone_check_blog_section_landscape_611f24c52432.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_privacy_anxiety_tone_check_blog_section_landscape_611f24c52432.jpeg?updatedAt=1782311940610",
         "alt": "Step 5: Do a privacy-and-tone pass so you don\u2019t overshare (or sound distant)",
         "width": 5706,
         "height": 3804,
@@ -381,43 +381,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_step_6_final_formatting_check_dedication_energy_blog_section_landscape_649982e6aec5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_step_6_final_formatting_check_dedication_energy_blog_section_landscape_649982e6aec5.gif",
         "alt": "Step 6: Final formatting check\u2014dedication energy without stealing space",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_section_image_send_it_breathe_blog_section_landscape_c60dfb830746.jpeg",
-    "alt": "blog section image \u00b7 send it breathe",
-    "width": 4522,
-    "height": 3456,
-    "creator": "Firas Kharroubi",
-    "creatorUrl": "https://www.pexels.com/@firas-kharroubi-3161591",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     },
     {
       "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     },
     {
       "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     },
     {
-      "title": "Do you need to hire a cover designer and book formatter?",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+      "title": "Word count for novels and children's books FAQ",
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -431,7 +422,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "url": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
+      "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
     }
   ]
 } as const;
@@ -461,7 +452,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -473,31 +464,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
       "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -513,11 +504,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts",
       "headline": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
       "alternativeHeadline": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
       "description": "Most authors think acknowledgments should be \u201ccomplete.\u201d Like, if you miss someone, the book will somehow implode.",
@@ -547,55 +538,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage"
       },
+      "datePublished": "2027-08-15",
+      "dateModified": "2027-08-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "url": "https://writequeryhook.com/query-letters/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+          "url": "https://writequeryhook.com/blog/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and"
         },
         {
           "@type": "WebPage",
           "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "url": "https://writequeryhook.com/social-media-vs-alternatives-which-builds-author-discoverability-during-querying-without-chasing-sales"
+          "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         },
         {
           "@type": "WebPage",
           "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "url": "https://writequeryhook.com/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+          "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
         },
         {
           "@type": "WebPage",
-          "name": "Do you need to hire a cover designer and book formatter?",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
+          "name": "Word count for novels and children's books FAQ",
+          "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_hero_overwhelm_blank_page_panic_blog_hero_landscape_9fc4dc1011a8.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_505/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts/blog/blog_hero_overwhelm_blank_page_panic_blog_hero_landscape_9fc4dc1011a8.jpeg",
+      "width": 5650,
+      "height": 3741,
       "caption": "blog hero \u00b7 overwhelm blank-page panic",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#howto",
       "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
       "description": "Most authors think acknowledgments should be \u201ccomplete.\u201d Like, if you miss someone, the book will somehow implode.",
       "totalTime": "PT7M",
@@ -605,49 +593,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "TLDR",
           "text": "TLDR",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#tldr"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#tldr"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 1: Start by listing everyone who helped during your writing (then cut it fast)",
           "text": "Do this like you\u2019re taking notes for your future self, not like you\u2019re drafting your final acknowledgments page. Dump names (and quick reminders) until your brain stops screaming.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-1-start-by-listing-everyone-who-helped-during-your-writing-then-cut-it-fast"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-1-start-by-listing-everyone-who-helped-during-your-writing-then-cut-it-fast"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 2: Rank your short list by importance (decreasing order), so the first names do the heavy lifting",
           "text": "Once you have your \u201cmaybe\u201d list, you need how to order acknowledgments by importance. The simplest rule is: the most meaningful impact goes first. The reader naturally interprets the first name as the most significant\u2014so don\u2019t waste that opening slot.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-2-rank-your-short-list-by-importance-decreasing-order-so-the-first-names"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-2-rank-your-short-list-by-importance-decreasing-order-so-the-first-names"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 3: Write what to write in acknowledgments page as one sentence per person (personal, conversational, specific)",
           "text": "Each entry should be concise\u2014about one sentence\u2014because the page is doing a lot of jobs at once: gratitude, proof, and tone-setting for your voice.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-3-write-what-to-write-in-acknowledgments-page-as-one-sentence-per-person"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-3-write-what-to-write-in-acknowledgments-page-as-one-sentence-per-person"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 4: Keep it short\u2014how long should acknowledgments be? Usually under one page",
           "text": "The best-performing acknowledgments sections are restrained. The brief guideline is: it shouldn\u2019t exceed one page, and each person\u2019s entry is usually about one sentence.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-4-keep-it-short-how-long-should-acknowledgments-be-usually-under-one-page"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-4-keep-it-short-how-long-should-acknowledgments-be-usually-under-one-page"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 5: Do a privacy-and-tone pass so you don\u2019t overshare (or sound distant)",
           "text": "This is where authors get nervous\u2014understandably. You want gratitude to feel real, but you don\u2019t want to put private details on a public page.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-5-do-a-privacy-and-tone-pass-so-you-don-t-overshare-or-sound-distant"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-5-do-a-privacy-and-tone-pass-so-you-don-t-overshare-or-sound-distant"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 6: Final formatting check\u2014dedication energy without stealing space",
           "text": "Your acknowledgments page sits near other front-matter elements like dedication, title pages, and sometimes credits. You don\u2019t want formatting that looks like a draft document.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-6-final-formatting-check-dedication-energy-without-stealing-space"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts#step-6-final-formatting-check-dedication-energy-without-stealing-space"
         }
       ]
     }

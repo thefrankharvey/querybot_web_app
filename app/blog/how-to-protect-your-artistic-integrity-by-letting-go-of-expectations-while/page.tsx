@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to protect your artistic integrity by letting go of expectations while writing",
   "description": "You can't explain why it hurts so bad: one rejection letter, then another, then a \"we like your writing but the book isn't working\" note that somehow lands like a personality diagnosis.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-27",
+  "modifiedDate": "2027-02-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-protect-your-artistic-integrity-by-letting-go-of-expectations-while",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -583,6 +583,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-protect-your-artistic-integrity-by-letting-go-of-expectations-while#primaryimage"
       },
+      "datePublished": "2027-02-27",
+      "dateModified": "2027-02-27",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
   "description": "Every author hits the same \"chicken-and-egg\" wall: you want book reviews to get early sales, and you want sales to justify getting reviews. If you stall here, it's not because the universe hates you. It's because you're starting too late, targeting wrong, pitching sloppily, or not tracking your submissions.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
+  "publishedDate": "2027-10-09",
+  "modifiedDate": "2027-10-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
+      "item": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     }
   ],
   "tldrBlocks": [],
@@ -465,19 +465,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     },
     {
       "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     },
     {
       "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     },
     {
-      "title": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-      "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+      "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -516,7 +516,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "url": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     }
   ]
 } as const;
@@ -546,7 +546,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -558,31 +558,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
+          "item": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
       "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -598,11 +598,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck",
       "headline": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
       "alternativeHeadline": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
       "description": "Every author hits the same \"chicken-and-egg\" wall: you want book reviews to get early sales, and you want sales to justify getting reviews. If you stall here, it's not because the universe hates you. It's because you're starting too late, targeting wrong, pitching sloppily, or not tracking your submissions.",
@@ -632,39 +632,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage"
       },
+      "datePublished": "2027-10-09",
+      "dateModified": "2027-10-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "url": "https://writequeryhook.com/query-letters/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+          "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
         },
         {
           "@type": "WebPage",
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "url": "https://writequeryhook.com/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         },
         {
           "@type": "WebPage",
           "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+          "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
         },
         {
           "@type": "WebPage",
-          "name": "5 publishing wake-up calls for representation you didn't realize you were reinforcing",
-          "url": "https://writequeryhook.com/5-publishing-wake-up-calls-for-representation-you-didn-t-realize-you-were-reinforcing"
+          "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
+          "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_567/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck/blog/blog_hero_chicken_and_egg_silence_blog_hero_landscape_2630210c9a5b.jpeg",
       "width": 6000,
       "height": 4000,
@@ -680,7 +677,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#faq",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck#faq",
       "mainEntity": [
         {
           "@type": "Question",

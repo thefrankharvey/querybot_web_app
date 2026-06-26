@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Difference between editing and revising faq",
   "description": "Writers throw the words editing and revising around like they're synonyms, then wonder why the manuscript still feels off. The label matters way less than the stage you're in\u2014big-picture performance first, then line-level execution after.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-06",
+  "modifiedDate": "2027-01-06",
   "canonicalUrl": "https://writequeryhook.com/blog/difference-between-editing-and-revising-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -432,6 +432,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/difference-between-editing-and-revising-faq#primaryimage"
       },
+      "datePublished": "2027-01-06",
+      "dateModified": "2027-01-06",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Your opening isn't wrong\u2014you're starting before the story actually begins",
   "description": "The moment you read your own draft and think, This is too slow, you usually do the writer version of panic: you stare at the first chapter like it's going to confess.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-18",
+  "modifiedDate": "2026-09-18",
   "canonicalUrl": "https://writequeryhook.com/blog/your-opening-isn-t-wrong-you-re-starting-before-the-story-actually-begins",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -678,6 +678,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/your-opening-isn-t-wrong-you-re-starting-before-the-story-actually-begins#primaryimage"
       },
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18",
       "mentions": [
         {
           "@type": "WebPage",

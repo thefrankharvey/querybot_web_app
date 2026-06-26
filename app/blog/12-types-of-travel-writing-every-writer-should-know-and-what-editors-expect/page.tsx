@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "12 types of travel writing every writer should know (and what editors expect from each)",
   "description": "Travel writing can look like one big category: go somewhere, describe it, maybe make it pretty. And then you pitch something that sounds like that\u2014only to get silence, passes, or \"not quite what we're looking for.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
+  "publishedDate": "2027-06-19",
+  "modifiedDate": "2027-06-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_hero_confusion_mismatch_blog_hero_landscape_468985d30c15.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_hero_confusion_mismatch_blog_hero_landscape_468985d30c15.jpeg?updatedAt=1782223657168",
     "alt": "blog hero \u00b7 confusion mismatch",
     "width": 6016,
     "height": 4016,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "12 types of travel writing every writer should know (and what editors expect from each)",
-      "item": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
+      "item": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
     }
   ],
   "tldrBlocks": [],
@@ -102,7 +102,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_place_as_star_craving_blog_section_landscape_116e35b3385f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_place_as_star_craving_blog_section_landscape_116e35b3385f.gif?updatedAt=1782223658974",
         "alt": "Destination articles make the place the star",
         "width": 266,
         "height": 200,
@@ -239,7 +239,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_voice_insight_blog_section_landscape_9a8b1c37e9fb.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_voice_insight_blog_section_landscape_9a8b1c37e9fb.jpeg?updatedAt=1782223659488",
         "alt": "Personal travel essays: write insight, not a diary entry",
         "width": 3485,
         "height": 2325,
@@ -281,13 +281,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_opinion_argument_blog_section_landscape_e1e4c44e356e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_opinion_argument_blog_section_landscape_e1e4c44e356e.gif",
         "alt": "Persuasive op-eds: pick a side and make the destination relevant",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 376,
+        "height": 200,
+        "creator": "wectiee",
+        "creatorUrl": "https://giphy.com/gifs/cornball-your-opinion-argument-declined-E6B59z3EE3pn6i8COm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -482,32 +482,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_section_image_send_it_cut_it_blog_section_landscape_8d5b70c2fc26.gif",
-    "alt": "blog section image \u00b7 send it cut it",
-    "width": 200,
-    "height": 200,
-    "creator": "FreshCutPaper",
-    "creatorUrl": "https://giphy.com/gifs/fcp-sunflowers-freshcutpaper-vqNBSqESXhrP6xHkYL",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-      "url": "https://writequeryhook.com/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without-guessing"
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
     },
     {
       "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     },
     {
       "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     },
     {
-      "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+      "title": "How to make your manuscript more commercial (without rewriting your soul)",
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -542,7 +533,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-      "url": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     }
   ]
 } as const;
@@ -572,7 +563,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -584,31 +575,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "12 types of travel writing every writer should know (and what editors expect from each)",
-          "item": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
+          "item": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#webpage",
-      "url": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
+      "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#webpage",
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
       "name": "12 types of travel writing every writer should know (and what editors expect from each)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage"
+        "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -624,11 +615,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#article",
+      "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#webpage"
+        "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect",
       "headline": "12 types of travel writing every writer should know (and what editors expect from each)",
       "alternativeHeadline": "12 types of travel writing every writer should know (and what editors expect from each)",
       "description": "Travel writing can look like one big category: go somewhere, describe it, maybe make it pretty. And then you pitch something that sounds like that\u2014only to get silence, passes, or \"not quite what we're looking for.\"",
@@ -658,40 +649,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage"
+        "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage"
       },
+      "datePublished": "2027-06-19",
+      "dateModified": "2027-06-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-          "url": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
+          "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         },
         {
           "@type": "WebPage",
           "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-          "url": "https://writequeryhook.com/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without-guessing"
+          "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
         },
         {
           "@type": "WebPage",
           "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
         },
         {
           "@type": "WebPage",
           "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         },
         {
           "@type": "WebPage",
-          "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+          "name": "How to make your manuscript more commercial (without rewriting your soul)",
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_hero_confusion_mismatch_blog_hero_landscape_468985d30c15.jpeg",
+      "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect/blog/blog_hero_confusion_mismatch_blog_hero_landscape_468985d30c15.jpeg?updatedAt=1782223657168",
       "width": 6016,
       "height": 4016,
       "caption": "blog hero \u00b7 confusion mismatch",
@@ -706,7 +699,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#faq",
+      "@id": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect#faq",
       "mainEntity": [
         {
           "@type": "Question",

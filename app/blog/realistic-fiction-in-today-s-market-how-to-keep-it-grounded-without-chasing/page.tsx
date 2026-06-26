@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Realistic Fiction in Today\u2019s Market: How to Keep It Grounded Without Chasing Every Breaking News Push",
   "description": "A couple years into writing my \u201crealistic\u201d novel, I hit the same wall most of us hit: I opened the draft and stared at it like it had offended my agent.",
   "readTime": "19 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-19",
+  "modifiedDate": "2027-01-19",
   "canonicalUrl": "https://writequeryhook.com/blog/realistic-fiction-in-today-s-market-how-to-keep-it-grounded-without-chasing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -931,6 +931,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/realistic-fiction-in-today-s-market-how-to-keep-it-grounded-without-chasing#primaryimage"
       },
+      "datePublished": "2027-01-19",
+      "dateModified": "2027-01-19",
       "mentions": [
         {
           "@type": "WebPage",

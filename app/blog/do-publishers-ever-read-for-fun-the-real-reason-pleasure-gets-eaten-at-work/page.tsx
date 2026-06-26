@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
   "description": "I used to think publishing people were basically walking around with book-shaped halos. Like: they'd close their laptops, crack open whatever sounded delicious, and fall into page-turning bliss with zero friction.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
+  "publishedDate": "2027-10-28",
+  "modifiedDate": "2027-10-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "item": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "item": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     }
   ],
   "tldrBlocks": [],
@@ -429,19 +429,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-      "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
-    },
-    {
-      "title": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-      "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+      "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
     },
     {
       "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-      "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     },
     {
-      "title": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-      "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+      "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
+    },
+    {
+      "title": "5 tips self-published authors use to turn early readers into real publishing success",
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -484,7 +484,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "url": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     }
   ]
 } as const;
@@ -514,7 +514,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -526,31 +526,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "item": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+          "item": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#webpage",
-      "url": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
+      "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#webpage",
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
       "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -566,11 +566,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#article",
+      "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#webpage"
+        "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work",
       "headline": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
       "alternativeHeadline": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
       "description": "I used to think publishing people were basically walking around with book-shaped halos. Like: they'd close their laptops, crack open whatever sounded delicious, and fall into page-turning bliss with zero friction.",
@@ -600,39 +600,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage"
+        "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage"
       },
+      "datePublished": "2027-10-28",
+      "dateModified": "2027-10-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "url": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         },
         {
           "@type": "WebPage",
           "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-          "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-          "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+          "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
         },
         {
           "@type": "WebPage",
           "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-          "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+          "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         },
         {
           "@type": "WebPage",
-          "name": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-          "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+          "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
+          "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips self-published authors use to turn early readers into real publishing success",
+          "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage",
+      "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_595/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work/blog/blog_hero_recognition_anxiety_blog_hero_landscape_113b184a0d5f.gif",
       "width": 200,
       "height": 200,
@@ -648,7 +650,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#faq",
+      "@id": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work#faq",
       "mainEntity": [
         {
           "@type": "Question",

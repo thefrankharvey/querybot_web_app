@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to handle the pandemic in your stories without freezing your draft",
   "description": "You're staring at your draft and asking: Do I acknowledge the pandemic, or does that drag readers back into today's stress? Meanwhile, the cursor is blinking like it wants to fight.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-17",
+  "modifiedDate": "2026-12-17",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-handle-the-pandemic-in-your-stories-without-freezing-your-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -575,6 +575,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-handle-the-pandemic-in-your-stories-without-freezing-your-draft#primaryimage"
       },
+      "datePublished": "2026-12-17",
+      "dateModified": "2026-12-17",
       "mentions": [
         {
           "@type": "WebPage",

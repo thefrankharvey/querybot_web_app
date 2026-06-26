@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for a writer conference that actually changes your draft",
   "description": "A writer conference can feel like a cheat code. You walk in expecting inspiration, you leave with shiny badges on your tote bag\u2026 and sometimes your draft is still sitting there doing nothing but blinking at you from the corner of your desktop.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
+  "publishedDate": "2027-04-15",
+  "modifiedDate": "2027-04-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_hero_frustration_blank_page_dread_blog_hero_landscape_43d319e88843.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_hero_frustration_blank_page_dread_blog_hero_landscape_43d319e88843.jpeg?updatedAt=1781810098790",
     "alt": "blog hero \u00b7 frustration blank-page dread",
     "width": 6094,
     "height": 4063,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for a writer conference that actually changes your draft",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+      "item": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
     }
   ],
   "tldrBlocks": [],
@@ -215,13 +215,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_stage_fright_memory_blog_section_landscape_aad51b0ce86d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_stage_fright_memory_blog_section_landscape_aad51b0ce86d.gif",
         "alt": "Rehearse your pitch so nerves can't bother it",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "myemotionalsupportanimal",
+        "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-embarrassment-fade-away-socially-awkward-F8LfWiSx2ddZ7OxD5O",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -286,7 +286,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_hurt_sting_blog_section_landscape_bd6f3c41267e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_hurt_sting_blog_section_landscape_bd6f3c41267e.gif?updatedAt=1781810100122",
         "alt": "Receive critique without defensiveness",
         "width": 112,
         "height": 200,
@@ -361,7 +361,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_muddy_middle_revision_leverage_blog_section_landscape_9c0aafd3f017.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_muddy_middle_revision_leverage_blog_section_landscape_9c0aafd3f017.jpeg?updatedAt=1781810100656",
         "alt": "Workshop your novel into next drafts",
         "width": 5472,
         "height": 3648,
@@ -372,32 +372,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_section_image_fresh_draft_return_stronger_blog_section_landscape_64012d2b3d90.gif",
-    "alt": "blog section image \u00b7 fresh draft return stronger",
-    "width": 304,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/3M6LtN8dFX57ZRY2T9",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "5 tips for joining the press: it's more than luck",
-      "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
-    },
-    {
       "title": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
-      "url": "https://writequeryhook.com/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your-manuscript-in-the-mswl-fog"
+      "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
     },
     {
       "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-      "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
     },
     {
-      "title": "Writer Conference FAQ: Pitch, Workshop, Critique, and Pre-Work",
-      "url": "https://writequeryhook.com/writer-conference-faq-pitch-workshop-critique-and-pre-work"
+      "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+    },
+    {
+      "title": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+      "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -429,12 +420,7 @@ const PAGE_DATA = {
       "text": "Don't treat a **writer conference** like a one-time inspiration hit. Treat it like scheduled **preparation** that produces revision you can execute when you get home\u2014then return to the draft with sharper choices, not softer confidence."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "High praise then crickets: why the silence hits harder (and what to do next)",
-      "url": "https://writequeryhook.com/query-letters/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -462,7 +448,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -474,31 +460,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for a writer conference that actually changes your draft",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+          "item": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
       "name": "5 tips for a writer conference that actually changes your draft",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -514,11 +500,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft",
       "headline": "5 tips for a writer conference that actually changes your draft",
       "alternativeHeadline": "5 tips for a writer conference that actually changes your draft",
       "description": "A writer conference can feel like a cheat code. You walk in expecting inspiration, you leave with shiny badges on your tote bag\u2026 and sometimes your draft is still sitting there doing nothing but blinking at you from the corner of your desktop.",
@@ -548,40 +534,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage"
       },
+      "datePublished": "2027-04-15",
+      "dateModified": "2027-04-15",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "High praise then crickets: why the silence hits harder (and what to do next)",
-          "url": "https://writequeryhook.com/query-letters/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for joining the press: it's more than luck",
-          "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
-        },
-        {
-          "@type": "WebPage",
           "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
-          "url": "https://writequeryhook.com/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your-manuscript-in-the-mswl-fog"
+          "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-          "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+          "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
         },
         {
           "@type": "WebPage",
-          "name": "Writer Conference FAQ: Pitch, Workshop, Critique, and Pre-Work",
-          "url": "https://writequeryhook.com/writer-conference-faq-pitch-workshop-critique-and-pre-work"
+          "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+          "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_hero_frustration_blank_page_dread_blog_hero_landscape_43d319e88843.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_355/5-tips-for-a-writer-conference-that-actually-changes-your-draft/blog/blog_hero_frustration_blank_page_dread_blog_hero_landscape_43d319e88843.jpeg?updatedAt=1781810098790",
       "width": 6094,
       "height": 4063,
       "caption": "blog hero \u00b7 frustration blank-page dread",
@@ -596,7 +579,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-a-writer-conference-that-actually-changes-your-draft#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft#faq",
       "mainEntity": [
         {
           "@type": "Question",

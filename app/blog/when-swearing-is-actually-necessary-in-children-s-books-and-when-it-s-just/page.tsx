@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "When Swearing Is Actually Necessary in Children's Books (and When It's Just Edginess)",
   "description": "Swearing in children's books sounds like a simple question until you remember who's holding the receipt: teachers, librarians, parents, booksellers, and\u2014if you're lucky\u2014an editor who actually tells you what they mean by \"age-appropriate.\" That's why the debate never stays in the manuscript. It leaks into marketing decisions, purchasing decisions, and the quiet, anxious questions writers ask themselves at 1:00 a.m. with a coffee that's gone cold.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-04",
+  "modifiedDate": "2026-09-04",
   "canonicalUrl": "https://writequeryhook.com/blog/when-swearing-is-actually-necessary-in-children-s-books-and-when-it-s-just",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -507,6 +507,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/when-swearing-is-actually-necessary-in-children-s-books-and-when-it-s-just#primaryimage"
       },
+      "datePublished": "2026-09-04",
+      "dateModified": "2026-09-04",
       "mentions": [
         {
           "@type": "WebPage",

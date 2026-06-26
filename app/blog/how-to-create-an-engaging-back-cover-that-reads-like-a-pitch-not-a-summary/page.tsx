@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to create an engaging back cover that reads like a pitch, not a summary",
   "description": "You can tell when a back cover is doing the wrong job. The copy reads like a mini novel in disguise. It dumps plot points. It overexplains. Then the reader\u2014who has seconds, not hours\u2014scrolls past.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
+  "publishedDate": "2027-08-27",
+  "modifiedDate": "2027-08-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_hero_stuck_blank_back_cover_blog_hero_landscape_85c4aff4fe35.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_hero_stuck_blank_back_cover_blog_hero_landscape_85c4aff4fe35.jpeg",
     "alt": "blog hero \u00b7 stuck blank back cover",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Monstera Production",
+    "creatorUrl": "https://www.pexels.com/@gabby-k",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "item": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "item": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     }
   ],
   "tldrBlocks": [],
@@ -118,13 +118,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_clarity_purpose_blog_section_landscape_e596efee246d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_clarity_purpose_blog_section_landscape_e596efee246d.gif",
         "alt": "Step 1: Define the job of the back cover blurb",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "thedoveinity",
+        "creatorUrl": "https://giphy.com/gifs/thedoveinity-wisdom-direction-path-KFd6i60irhHQsuGaDl",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -188,13 +188,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_genre_expectations_stakes_blog_section_landscape_ac86144b77db.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_genre_expectations_stakes_blog_section_landscape_ac86144b77db.gif",
         "alt": "Step 2: Choose a fiction vs. non-fiction path",
-        "width": 4800,
-        "height": 3200,
-        "creator": "@coldbeer",
-        "creatorUrl": "https://www.pexels.com/@coldbeer-277046249",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "stakefish",
+        "creatorUrl": "https://giphy.com/gifs/stakefish-sui-network-R312C3MEVg4SCYAber",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -242,7 +242,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_inverted_pyramid_hook_blog_section_landscape_6de2df81d853.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_inverted_pyramid_hook_blog_section_landscape_6de2df81d853.jpeg?updatedAt=1782318962552",
         "alt": "Step 3: Build an inverted pyramid back cover copy",
         "width": 6720,
         "height": 4480,
@@ -481,32 +481,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_section_image_publish_ready_confident_click_blog_section_landscape_b4ab55b7bf2d.gif",
-    "alt": "blog section image \u00b7 publish-ready confident click",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to use your book's bonus content to grow your community (and your email list)",
-      "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     },
     {
       "title": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-      "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
-    },
-    {
-      "title": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-      "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+      "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
     },
     {
       "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-      "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+    },
+    {
+      "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -545,7 +536,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to use your book's bonus content to grow your community (and your email list)",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     }
   ]
 } as const;
@@ -575,7 +566,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -587,31 +578,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "item": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "item": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
       "name": "How to create an engaging back cover that reads like a pitch, not a summary",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -627,11 +618,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#article",
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary",
       "headline": "How to create an engaging back cover that reads like a pitch, not a summary",
       "alternativeHeadline": "How to create an engaging back cover that reads like a pitch, not a summary",
       "description": "You can tell when a back cover is doing the wrong job. The copy reads like a mini novel in disguise. It dumps plot points. It overexplains. Then the reader\u2014who has seconds, not hours\u2014scrolls past.",
@@ -661,55 +652,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage"
       },
+      "datePublished": "2027-08-27",
+      "dateModified": "2027-08-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
         },
         {
           "@type": "WebPage",
           "name": "How to Revise Nonfiction Fast (Without Over-Editing) and Build a Writing Career",
-          "url": "https://writequeryhook.com/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Reflections on 20 Years in Publishing: What Changed\u2014and What Still Hasn't",
-          "url": "https://writequeryhook.com/reflections-on-20-years-in-publishing-what-changed-and-what-still-hasn-t"
+          "url": "https://writequeryhook.com/blog/how-to-revise-nonfiction-fast-without-over-editing-and-build-a-writing-career"
         },
         {
           "@type": "WebPage",
           "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-          "url": "https://writequeryhook.com/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs-hope-and-vibes"
+          "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
+          "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_hero_stuck_blank_back_cover_blog_hero_landscape_85c4aff4fe35.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_520/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary/blog/blog_hero_stuck_blank_back_cover_blog_hero_landscape_85c4aff4fe35.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 stuck blank back cover",
-      "creditText": "wwe",
+      "creditText": "Monstera Production",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "Monstera Production",
+        "url": "https://www.pexels.com/@gabby-k"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#howto",
       "name": "How to create an engaging back cover that reads like a pitch, not a summary",
       "description": "You can tell when a back cover is doing the wrong job. The copy reads like a mini novel in disguise. It dumps plot points. It overexplains. Then the reader\u2014who has seconds, not hours\u2014scrolls past.",
       "totalTime": "PT6M",
@@ -719,56 +707,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define the job of the back cover blurb",
           "text": "Start by writing one sentence that defines what the back cover must accomplish on contact. Not \"promote the book.\" That's vague. You need a job description you can edit against.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-1-define-the-job-of-the-back-cover-blurb"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-1-define-the-job-of-the-back-cover-blurb"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Choose a fiction vs. non-fiction path",
           "text": "Next, decide what promise your genre readers expect. This is where authors usually get sloppy: they write one-blurb-fits-all copy.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-2-choose-a-fiction-vs-non-fiction-path"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-2-choose-a-fiction-vs-non-fiction-path"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build an inverted pyramid back cover copy",
           "text": "Now use the structure you'll actually follow: inverted pyramid back cover copy.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-3-build-an-inverted-pyramid-back-cover-copy"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-3-build-an-inverted-pyramid-back-cover-copy"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Tighten to the right length and format",
           "text": "How many words for a book blurb? Keep it around 200 words or less, and make it skimmable with white space.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-4-tighten-to-the-right-length-and-format"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-4-tighten-to-the-right-length-and-format"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Add selective reviews and endorsements",
           "text": "Book reviews are credibility, but they're not filler. Most authors overuse them out of fear.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-5-add-selective-reviews-and-endorsements"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-5-add-selective-reviews-and-endorsements"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Write a third-person author bio",
           "text": "What to include in a book author bio? Not \"about me.\" This is what the reader needs to trust you enough to buy.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-6-write-a-third-person-author-bio"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-6-write-a-third-person-author-bio"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Proofread for quality and get a second opinion",
           "text": "Now the quality control pass\u2014the part that prevents self-published authors from printing an avoidable mess.",
-          "url": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-7-proofread-for-quality-and-get-a-second-opinion"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#step-7-proofread-for-quality-and-get-a-second-opinion"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary#faq",
       "mainEntity": [
         {
           "@type": "Question",

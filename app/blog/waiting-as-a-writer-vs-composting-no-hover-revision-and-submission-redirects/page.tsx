@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Waiting as a Writer vs Composting, No-Hover Revision, and Submission Redirects",
   "description": "You know that urge: you hit submit and suddenly you're staring at the screen like it owes you an answer. Like, \"So\u2026how's it going? Blink twice if you liked it.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-30",
+  "modifiedDate": "2027-03-30",
   "canonicalUrl": "https://writequeryhook.com/blog/waiting-as-a-writer-vs-composting-no-hover-revision-and-submission-redirects",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/waiting-as-a-writer-vs-composting-no-hover-revision-and-submission-redirects#primaryimage"
       },
+      "datePublished": "2027-03-30",
+      "dateModified": "2027-03-30",
       "mentions": [
         {
           "@type": "WebPage",

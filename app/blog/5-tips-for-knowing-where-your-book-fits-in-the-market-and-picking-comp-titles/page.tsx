@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for knowing where your book fits in the market (and picking comp titles that match today)",
   "description": "Most authors don't have a \"confidence\" problem. They have a research problem.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-08",
+  "modifiedDate": "2026-08-08",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-knowing-where-your-book-fits-in-the-market-and-picking-comp-titles",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -482,6 +482,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-knowing-where-your-book-fits-in-the-market-and-picking-comp-titles#primaryimage"
       },
+      "datePublished": "2026-08-08",
+      "dateModified": "2026-08-08",
       "mentions": [
         {
           "@type": "WebPage",

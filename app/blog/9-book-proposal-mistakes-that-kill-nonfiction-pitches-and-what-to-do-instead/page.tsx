@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
   "description": "Here's the myth that ruins nonfiction proposals: if you fill out the right headings in the right order, the pitch will magically become professional.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
+  "publishedDate": "2027-06-22",
+  "modifiedDate": "2027-06-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_hero_dread_blank_page_blog_hero_landscape_5641c4cbc839.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_hero_dread_blank_page_blog_hero_landscape_5641c4cbc839.jpeg?updatedAt=1782228683070",
     "alt": "blog hero \u00b7 dread blank-page",
     "width": 5760,
     "height": 3840,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+      "item": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
     }
   ],
   "tldrBlocks": [],
@@ -144,7 +144,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_panic_blank_page_blog_section_landscape_68396b1b292b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_panic_blank_page_blog_section_landscape_68396b1b292b.jpeg?updatedAt=1782228684426",
         "alt": "You're writing the overview first (and it shows)",
         "width": 6960,
         "height": 4640,
@@ -422,7 +422,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_irritation_vague_promises_blog_section_landscape_08cf4abc1697.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_irritation_vague_promises_blog_section_landscape_08cf4abc1697.gif?updatedAt=1782228685552",
         "alt": "You're treating the marketing plan like a wish list",
         "width": 358,
         "height": 200,
@@ -501,7 +501,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_recap_blog_section_landscape_89f59635e793.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_recap_blog_section_landscape_89f59635e793.gif?updatedAt=1782228686350",
         "alt": "Recap",
         "width": 279,
         "height": 200,
@@ -512,32 +512,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_section_image_relief_next_draft_blog_section_landscape_b9cc734306fc.jpeg",
-    "alt": "blog section image \u00b7 relief next draft",
-    "width": 5609,
-    "height": 3739,
-    "creator": "Tima Miroshnichenko",
-    "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-      "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+      "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
     },
     {
       "title": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-      "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
     },
     {
-      "title": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-      "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+      "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     },
     {
-      "title": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-      "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
+      "title": "12 types of travel writing every writer should know (and what editors expect from each)",
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -572,7 +563,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+      "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
     }
   ]
 } as const;
@@ -602,7 +593,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -614,31 +605,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
+          "item": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#webpage",
-      "url": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
+      "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#webpage",
+      "url": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
       "name": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -654,11 +645,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#article",
+      "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#webpage"
+        "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead",
       "headline": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
       "alternativeHeadline": "9 book proposal mistakes that kill nonfiction pitches (and what to do instead)",
       "description": "Here's the myth that ruins nonfiction proposals: if you fill out the right headings in the right order, the pitch will magically become professional.",
@@ -688,40 +679,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2027-06-22",
+      "dateModified": "2027-06-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-          "url": "https://writequeryhook.com/query-letters/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
+          "url": "https://writequeryhook.com/blog/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even"
         },
         {
           "@type": "WebPage",
           "name": "5 book publishing paths mistakes to avoid when you're afraid of the expensive misstep",
-          "url": "https://writequeryhook.com/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive-misstep"
+          "url": "https://writequeryhook.com/blog/5-book-publishing-paths-mistakes-to-avoid-when-you-re-afraid-of-the-expensive"
         },
         {
           "@type": "WebPage",
           "name": "Can you self-publish after a traditional deal? Only if your rights actually revert",
-          "url": "https://writequeryhook.com/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually-revert"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-after-a-traditional-deal-only-if-your-rights-actually"
         },
         {
           "@type": "WebPage",
-          "name": "Social media isn't your book billboard\u2014it's your industry \"readme\" for readers, editors, and agents",
-          "url": "https://writequeryhook.com/social-media-isn-t-your-book-billboard-it-s-your-industry-readme-for-readers-editors-and-agents"
+          "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
+          "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         },
         {
           "@type": "WebPage",
-          "name": "What writers actually use generative AI for (and why the \"half of authors\" number lies)",
-          "url": "https://writequeryhook.com/what-writers-actually-use-generative-ai-for-and-why-the-half-of-authors-number-lies"
+          "name": "12 types of travel writing every writer should know (and what editors expect from each)",
+          "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_hero_dread_blank_page_blog_hero_landscape_5641c4cbc839.jpeg",
+      "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_442/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead/blog/blog_hero_dread_blank_page_blog_hero_landscape_5641c4cbc839.jpeg?updatedAt=1782228683070",
       "width": 5760,
       "height": 3840,
       "caption": "blog hero \u00b7 dread blank-page",
@@ -736,7 +729,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#faq",
+      "@id": "https://writequeryhook.com/blog/9-book-proposal-mistakes-that-kill-nonfiction-pitches-and-what-to-do-instead#faq",
       "mainEntity": [
         {
           "@type": "Question",

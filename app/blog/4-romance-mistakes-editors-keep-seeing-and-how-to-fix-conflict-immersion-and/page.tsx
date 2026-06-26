@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "4 romance mistakes editors keep seeing\u2014and how to fix conflict, immersion, and genre promise",
   "description": "TLDR",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-07",
+  "modifiedDate": "2026-11-07",
   "canonicalUrl": "https://writequeryhook.com/blog/4-romance-mistakes-editors-keep-seeing-and-how-to-fix-conflict-immersion-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -603,6 +603,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/4-romance-mistakes-editors-keep-seeing-and-how-to-fix-conflict-immersion-and#primaryimage"
       },
+      "datePublished": "2026-11-07",
+      "dateModified": "2026-11-07",
       "mentions": [
         {
           "@type": "WebPage",

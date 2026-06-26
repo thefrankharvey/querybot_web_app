@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Chapter Ending FAQ: Hooks, Pacing, Cliffhangers, and Reader Engagement",
   "description": "Ending a chapter is weirder than \"writing the last sentence and moving on.\" That tiny slab of white space\u2014the page break, the breath before the next chapter\u2014lets readers drift. If the ending doesn't give them a reason to continue, momentum dies right there in your typography.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-05",
+  "modifiedDate": "2026-10-05",
   "canonicalUrl": "https://writequeryhook.com/blog/chapter-ending-faq-hooks-pacing-cliffhangers-and-reader-engagement",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -527,6 +527,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/chapter-ending-faq-hooks-pacing-cliffhangers-and-reader-engagement#primaryimage"
       },
+      "datePublished": "2026-10-05",
+      "dateModified": "2026-10-05",
       "mentions": [
         {
           "@type": "WebPage",

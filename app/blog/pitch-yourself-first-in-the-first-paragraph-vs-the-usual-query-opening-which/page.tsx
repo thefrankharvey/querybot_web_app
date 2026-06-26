@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Pitch yourself first in the first paragraph vs the usual query opening: which gets agents reading",
   "description": "I hear this alot but \u2014 writers don\u2019t fail because they \u201clack talent.\u201d They fail because the first paragraph reads like everyone else\u2019s. It\u2019s a crowd in an inbox, and the only thing the agent can do fast is skim.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-25",
+  "modifiedDate": "2026-07-25",
   "canonicalUrl": "https://writequeryhook.com/blog/pitch-yourself-first-in-the-first-paragraph-vs-the-usual-query-opening-which",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -650,6 +650,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/pitch-yourself-first-in-the-first-paragraph-vs-the-usual-query-opening-which#primaryimage"
       },
+      "datePublished": "2026-07-25",
+      "dateModified": "2026-07-25",
       "mentions": [
         {
           "@type": "WebPage",

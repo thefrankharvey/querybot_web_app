@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "If You Feel Like Sht: Sit With Discomfort Instead of Self-Breaking Your Draft",
   "description": "TLDR",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-13",
+  "modifiedDate": "2027-02-13",
   "canonicalUrl": "https://writequeryhook.com/blog/if-you-feel-like-sht-sit-with-discomfort-instead-of-self-breaking-your-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -832,6 +832,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/if-you-feel-like-sht-sit-with-discomfort-instead-of-self-breaking-your-draft#primaryimage"
       },
+      "datePublished": "2027-02-13",
+      "dateModified": "2027-02-13",
       "mentions": [
         {
           "@type": "WebPage",

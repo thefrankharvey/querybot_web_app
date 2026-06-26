@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
   "description": "Authors don't dream about \"adaptation\" as a single event. You dream about your book on screen. The messy part\u2014the part that can ruin your mood\u2014is that the screen world requires decisions in parallel: rights, contract terms, and craft translation from novel to screenplay.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
+  "publishedDate": "2027-09-19",
+  "modifiedDate": "2027-09-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_hero_hopeful_anxious_blog_hero_landscape_2b8db5749659.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_hero_hopeful_anxious_blog_hero_landscape_2b8db5749659.jpeg",
     "alt": "blog hero \u00b7 hopeful anxious",
-    "width": 200,
-    "height": 200,
-    "creator": "thespanishprincess",
-    "creatorUrl": "https://giphy.com/gifs/thewhiteprincess-season-1-3oKIPb7sHFQ9Irn54Y",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "item": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "item": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     }
   ],
   "tldrBlocks": [],
@@ -101,7 +101,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_questions_confusion_blog_section_landscape_be45bec32882.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_questions_confusion_blog_section_landscape_be45bec32882.gif?updatedAt=1782332493478",
         "alt": "What should an author understand before adapting a book for screen?",
         "width": 200,
         "height": 200,
@@ -191,7 +191,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_questions_confusion_blog_section_landscape_be45bec32882.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_questions_confusion_blog_section_landscape_be45bec32882.gif?updatedAt=1782332493478",
         "alt": "What should an author understand before adapting a book for screen?",
         "width": 200,
         "height": 200,
@@ -231,13 +231,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_inner_thoughts_inner_monologue_blog_section_landscape_b1f417029be8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_inner_thoughts_inner_monologue_blog_section_landscape_b1f417029be8.gif",
         "alt": "How can inner thoughts be communicated without relying on inner monologue?",
-        "width": 3581,
-        "height": 2383,
-        "creator": "Giovanni Calia",
-        "creatorUrl": "https://www.pexels.com/@giovanni-calia-1140926",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -283,13 +283,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_inner_thoughts_inner_monologue_blog_section_landscape_b1f417029be8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_inner_thoughts_inner_monologue_blog_section_landscape_b1f417029be8.gif",
         "alt": "How can inner thoughts be communicated without relying on inner monologue?",
-        "width": 3581,
-        "height": 2383,
-        "creator": "Giovanni Calia",
-        "creatorUrl": "https://www.pexels.com/@giovanni-calia-1140926",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -332,7 +332,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_dialogue_actor_ready_blog_section_landscape_12e9cef09745.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_dialogue_actor_ready_blog_section_landscape_12e9cef09745.jpeg?updatedAt=1782332494472",
         "alt": "What changes are needed for pacing and dialogue when moving to film or TV?",
         "width": 6960,
         "height": 4640,
@@ -414,32 +414,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_section_image_next_draft_notes_blog_section_landscape_c4269980b38b.jpeg",
-    "alt": "blog section image \u00b7 next draft notes",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Barbara Olsen",
-    "creatorUrl": "https://www.pexels.com/@barbara-olsen",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Choosing a great book title FAQ",
-      "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     },
     {
       "title": "Leverage Podcasting: A Guide for Authors FAQ",
-      "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     },
     {
       "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-      "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     },
     {
-      "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+      "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -457,7 +448,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-      "url": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     }
   ]
 } as const;
@@ -487,7 +478,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -499,31 +490,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "item": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+          "item": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#webpage",
-      "url": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
+      "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#webpage",
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
       "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage"
+        "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -539,11 +530,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#article",
+      "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#webpage"
+        "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue",
       "headline": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
       "alternativeHeadline": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
       "description": "Authors don't dream about \"adaptation\" as a single event. You dream about your book on screen. The messy part\u2014the part that can ruin your mood\u2014is that the screen world requires decisions in parallel: rights, contract terms, and craft translation from novel to screenplay.",
@@ -573,48 +564,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage"
+        "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage"
       },
+      "datePublished": "2027-09-19",
+      "dateModified": "2027-09-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-          "url": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+          "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         },
         {
           "@type": "WebPage",
           "name": "Choosing a great book title FAQ",
-          "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+          "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         },
         {
           "@type": "WebPage",
           "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+          "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
         },
         {
           "@type": "WebPage",
           "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-          "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+          "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         },
         {
           "@type": "WebPage",
-          "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+          "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
+          "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_hero_hopeful_anxious_blog_hero_landscape_2b8db5749659.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue/blog/blog_hero_hopeful_anxious_blog_hero_landscape_2b8db5749659.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 hopeful anxious",
-      "creditText": "thespanishprincess",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "thespanishprincess",
-        "url": "https://giphy.com/gifs/thewhiteprincess-season-1-3oKIPb7sHFQ9Irn54Y"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     }

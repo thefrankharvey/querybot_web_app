@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How a Novel Storyboard Turns 'Cool Ideas' Into a Story Structure You Can Draft",
   "description": "Most writers don't lack ideas. They lack assembly.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-22",
+  "modifiedDate": "2026-12-22",
   "canonicalUrl": "https://writequeryhook.com/blog/how-a-novel-storyboard-turns-cool-ideas-into-a-story-structure-you-can-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -595,6 +595,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-a-novel-storyboard-turns-cool-ideas-into-a-story-structure-you-can-draft#primaryimage"
       },
+      "datePublished": "2026-12-22",
+      "dateModified": "2026-12-22",
       "mentions": [
         {
           "@type": "WebPage",

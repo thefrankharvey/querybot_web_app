@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 practical ways to market your self-published book (without living on random platforms)",
   "description": "Your book is done. Professionally edited. Cover art that doesn't look like it was made in a panic at 2 a.m. And then\u2014silence. Because surprise: nobody can buy what they can't find.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
+  "publishedDate": "2027-09-10",
+  "modifiedDate": "2027-09-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_hero_closet_someday_frustration_blog_hero_landscape_40349bf991c7.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_hero_closet_someday_frustration_blog_hero_landscape_40349bf991c7.jpeg",
     "alt": "blog hero \u00b7 closet-someday frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Alex Green",
+    "creatorUrl": "https://www.pexels.com/@alex-green",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 practical ways to market your self-published book (without living on random platforms)",
-      "item": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
+      "item": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.gif",
         "alt": "How to market a self-published book with scaled support",
-        "width": 5040,
-        "height": 3360,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 526,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -287,7 +287,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_proactive_outreach_mutual_benefit_blog_section_landscape_b6ff561e4018.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_proactive_outreach_mutual_benefit_blog_section_landscape_b6ff561e4018.gif?updatedAt=1782328896589",
         "alt": "Do influencer outreach that's proactive and mutually beneficial",
         "width": 200,
         "height": 200,
@@ -373,13 +373,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.gif",
         "alt": "How to market a self-published book with scaled support",
-        "width": 5040,
-        "height": 3360,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 526,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -424,43 +424,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_ownership_accountability_blog_section_landscape_e4253f9dd55c.gif",
         "alt": "How to market a self-published book with scaled support",
-        "width": 5040,
-        "height": 3360,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 526,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_section_image_quiet_confidence_go_to_home_base_blog_section_landscape_c77f5e5575dd.jpeg",
-    "alt": "blog section image \u00b7 quiet confidence go-to-home-base",
-    "width": 3622,
-    "height": 2415,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     },
     {
       "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     },
     {
       "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     },
     {
-      "title": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "title": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
+      "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -495,7 +486,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     }
   ]
 } as const;
@@ -525,7 +516,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -537,31 +528,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 practical ways to market your self-published book (without living on random platforms)",
-          "item": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
+          "item": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
+      "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#webpage",
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
       "name": "5 practical ways to market your self-published book (without living on random platforms)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -577,11 +568,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#article",
+      "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#webpage"
+        "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random",
       "headline": "5 practical ways to market your self-published book (without living on random platforms)",
       "alternativeHeadline": "5 practical ways to market your self-published book (without living on random platforms)",
       "description": "Your book is done. Professionally edited. Cover art that doesn't look like it was made in a panic at 2 a.m. And then\u2014silence. Because surprise: nobody can buy what they can't find.",
@@ -611,55 +602,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage"
       },
+      "datePublished": "2027-09-10",
+      "dateModified": "2027-09-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "url": "https://writequeryhook.com/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
         },
         {
           "@type": "WebPage",
           "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         },
         {
           "@type": "WebPage",
           "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
         },
         {
           "@type": "WebPage",
-          "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "name": "5 tips for do you need to hire a cover designer and book formatter (without wasting money)",
+          "url": "https://writequeryhook.com/blog/5-tips-for-do-you-need-to-hire-a-cover-designer-and-book-formatter-without"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_hero_closet_someday_frustration_blog_hero_landscape_40349bf991c7.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/5-practical-ways-to-market-your-self-published-book-without-living-on-random/blog/blog_hero_closet_someday_frustration_blog_hero_landscape_40349bf991c7.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 closet-someday frustration",
-      "creditText": "trt_network",
+      "creditText": "Alex Green",
       "author": {
         "@type": "Person",
-        "name": "trt_network",
-        "url": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc"
+        "name": "Alex Green",
+        "url": "https://www.pexels.com/@alex-green"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random#faq",
+      "@id": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random#faq",
       "mainEntity": [
         {
           "@type": "Question",

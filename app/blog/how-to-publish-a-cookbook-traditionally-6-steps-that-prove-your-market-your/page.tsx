@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
   "description": "Publishing a cookbook traditionally requires a structured approach from concept to market. The industry decides if your cookbook deserves shelf space based on a proposal\u2014before the finished book exists.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
+  "publishedDate": "2027-09-08",
+  "modifiedDate": "2027-09-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_hero_blank_page_pitch_anxiety_blog_hero_landscape_ca359a64fde2.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_hero_blank_page_pitch_anxiety_blog_hero_landscape_ca359a64fde2.jpeg?updatedAt=1782328841098",
     "alt": "blog hero \u00b7 blank-page pitch anxiety",
     "width": 5471,
     "height": 3647,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "item": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
+      "item": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +110,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_identity_clarity_blog_section_landscape_7e33fe89e630.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_identity_clarity_blog_section_landscape_7e33fe89e630.jpeg?updatedAt=1782328841724",
         "alt": "Step 1: Define your cookbook difference and target reader",
         "width": 3390,
         "height": 2261,
@@ -170,13 +170,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_paperwork_pressure_blog_section_landscape_32bc772a5c0c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_paperwork_pressure_blog_section_landscape_32bc772a5c0c.gif",
         "alt": "Step 2: Build a cookbook book proposal that immediately sells the concept",
-        "width": 5919,
-        "height": 3946,
-        "creator": "SHVETS production",
-        "creatorUrl": "https://www.pexels.com/@shvets-production",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -337,7 +337,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_testing_dread_blog_section_landscape_9318c069f120.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_testing_dread_blog_section_landscape_9318c069f120.gif?updatedAt=1782328842837",
         "alt": "Step 5: Finish recipe content by writing headnotes and testing recipes",
         "width": 526,
         "height": 200,
@@ -392,32 +392,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_section_image_steady_hands_last_mile_blog_section_landscape_d7cfacc65fca.gif",
-    "alt": "blog section image \u00b7 steady hands last mile",
-    "width": 400,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/hello-hi-wave-xT9IgG50Fb7Mi0prBC",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     },
     {
       "title": "Always-already marketing: treating your book like a product from page one",
-      "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     },
     {
       "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     },
     {
-      "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -456,7 +447,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     }
   ]
 } as const;
@@ -486,7 +477,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -498,31 +489,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "item": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
+          "item": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
       "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -538,11 +529,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#article",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your",
       "headline": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
       "alternativeHeadline": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
       "description": "Publishing a cookbook traditionally requires a structured approach from concept to market. The industry decides if your cookbook deserves shelf space based on a proposal\u2014before the finished book exists.",
@@ -572,40 +563,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage"
       },
+      "datePublished": "2027-09-08",
+      "dateModified": "2027-09-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "url": "https://writequeryhook.com/query-letters/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         },
         {
           "@type": "WebPage",
           "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         },
         {
           "@type": "WebPage",
           "name": "Always-already marketing: treating your book like a product from page one",
-          "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+          "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
         },
         {
           "@type": "WebPage",
           "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "url": "https://writequeryhook.com/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model-and-avoid-bad-deals"
+          "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         },
         {
           "@type": "WebPage",
-          "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+          "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
+          "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_hero_blank_page_pitch_anxiety_blog_hero_landscape_ca359a64fde2.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_534/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your/blog/blog_hero_blank_page_pitch_anxiety_blog_hero_landscape_ca359a64fde2.jpeg?updatedAt=1782328841098",
       "width": 5471,
       "height": 3647,
       "caption": "blog hero \u00b7 blank-page pitch anxiety",
@@ -620,7 +613,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#howto",
       "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
       "description": "Publishing a cookbook traditionally requires a structured approach from concept to market. The industry decides if your cookbook deserves shelf space based on a proposal\u2014before the finished book exists.",
       "totalTime": "PT7M",
@@ -630,49 +623,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define your cookbook difference and target reader",
           "text": "Before you write a polished proposal, nail the one-sentence positioning: what you make, for whom, and why it's not already out there.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-1-define-your-cookbook-difference-and-target-reader"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-1-define-your-cookbook-difference-and-target-reader"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build a cookbook book proposal that immediately sells the concept",
           "text": "Traditional acquisition usually starts with the proposal, not a full manuscript. That means your document has to do heavy lifting: concept, differentiation, market logic, and recipe proof.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-2-build-a-cookbook-book-proposal-that-immediately-sells-the-concept"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-2-build-a-cookbook-book-proposal-that-immediately-sells-the-concept"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Plan your traditional publishing cookbook marketing plan",
           "text": "Marketing shouldn't be passive \"hope someone finds it.\" Build a plan that a publisher can actually plug into.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-3-plan-your-traditional-publishing-cookbook-marketing-plan"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-3-plan-your-traditional-publishing-cookbook-marketing-plan"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Submit strategically and prepare for agented vs unagented outcomes",
           "text": "When you submit, treat it like a decision tree, not a lottery ticket.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-4-submit-strategically-and-prepare-for-agented-vs-unagented-outcomes"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-4-submit-strategically-and-prepare-for-agented-vs-unagented-outcomes"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Finish recipe content by writing headnotes and testing recipes",
           "text": "Once there's deal interest or after acquisition, your job shifts from pitching to production readiness.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-5-finish-recipe-content-by-writing-headnotes-and-testing-recipes"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-5-finish-recipe-content-by-writing-headnotes-and-testing-recipes"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Commission visuals and navigate design feedback with a marketing lean",
           "text": "After recipe reliability, you need visuals and design that support selling.",
-          "url": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-6-commission-visuals-and-navigate-design-feedback-with-a-marketing-lean"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#step-6-commission-visuals-and-navigate-design-feedback-with-a-marketing-lean"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

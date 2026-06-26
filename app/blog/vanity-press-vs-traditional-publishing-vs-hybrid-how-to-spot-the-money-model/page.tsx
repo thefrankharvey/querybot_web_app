@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
   "description": "Writers get hit with the same marketing vocabulary from very different kinds of publishers. \"Professional production.\" \"Major bookstore distribution.\" \"Your book, your dream.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
+  "publishedDate": "2027-09-06",
+  "modifiedDate": "2027-09-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_hero_dread_confusion_blog_hero_landscape_88041f81eda0.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_hero_dread_confusion_blog_hero_landscape_88041f81eda0.jpeg?updatedAt=1782328777015",
     "alt": "blog hero \u00b7 dread confusion",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-      "item": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
+      "item": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
     }
   ],
   "tldrBlocks": [],
@@ -297,7 +297,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_false_promise_listing_blog_section_landscape_221e208ae5e8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_false_promise_listing_blog_section_landscape_221e208ae5e8.gif?updatedAt=1782328777958",
         "alt": "Book distribution and bookstores",
         "width": 200,
         "height": 200,
@@ -373,13 +373,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_anxiety_paperwork_blog_section_landscape_8f6c6e7163ec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_anxiety_paperwork_blog_section_landscape_8f6c6e7163ec.gif",
         "alt": "Publishing rights and contract fine print",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Nataliya Vaitkevich",
-        "creatorUrl": "https://www.pexels.com/@n-voitkevich",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -482,7 +482,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_decision_relief_blog_section_landscape_ca03be227ad8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_decision_relief_blog_section_landscape_ca03be227ad8.jpeg?updatedAt=1782328778975",
         "alt": "The verdict",
         "width": 6720,
         "height": 4480,
@@ -493,32 +493,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_section_image_breath_out_checklist_energy_blog_section_landscape_ea6cc81d03d1.gif",
-    "alt": "blog section image \u00b7 breath out checklist energy",
-    "width": 200,
-    "height": 200,
-    "creator": "BLoafX",
-    "creatorUrl": "https://giphy.com/gifs/episode-3-the-studio-web-series-VDZM2MFptA9O3ErV1t",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     },
     {
       "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     },
     {
       "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     },
     {
-      "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-      "url": "https://writequeryhook.com/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers-into-regulars"
+      "title": "Common book title mistakes that quietly sabotage book marketing",
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -557,7 +548,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-      "url": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+      "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
     }
   ]
 } as const;
@@ -587,7 +578,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -599,31 +590,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
-          "item": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
+          "item": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#webpage",
-      "url": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
+      "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#webpage",
+      "url": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
       "name": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -639,11 +630,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#article",
+      "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#webpage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model",
       "headline": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
       "alternativeHeadline": "Vanity press vs traditional publishing vs hybrid: how to spot the money model and avoid bad deals",
       "description": "Writers get hit with the same marketing vocabulary from very different kinds of publishers. \"Professional production.\" \"Major bookstore distribution.\" \"Your book, your dream.\"",
@@ -673,40 +664,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage"
+        "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage"
       },
+      "datePublished": "2027-09-06",
+      "dateModified": "2027-09-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "url": "https://writequeryhook.com/query-letters/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Word count ranges: market-ready targets vs the \"debut novel can be anything\" myth",
-          "url": "https://writequeryhook.com/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
+          "url": "https://writequeryhook.com/blog/word-count-ranges-market-ready-targets-vs-the-debut-novel-can-be-anything-myth"
         },
         {
           "@type": "WebPage",
           "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+          "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "url": "https://writequeryhook.com/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
         },
         {
           "@type": "WebPage",
-          "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
-          "url": "https://writequeryhook.com/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers-into-regulars"
+          "name": "Common book title mistakes that quietly sabotage book marketing",
+          "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_hero_dread_confusion_blog_hero_landscape_88041f81eda0.jpeg",
+      "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_532/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model/blog/blog_hero_dread_confusion_blog_hero_landscape_88041f81eda0.jpeg?updatedAt=1782328777015",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
@@ -721,7 +709,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#faq",
+      "@id": "https://writequeryhook.com/blog/vanity-press-vs-traditional-publishing-vs-hybrid-how-to-spot-the-money-model#faq",
       "mainEntity": [
         {
           "@type": "Question",

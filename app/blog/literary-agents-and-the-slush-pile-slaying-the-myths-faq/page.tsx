@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Literary agents and the slush pile slaying the myths faq",
   "description": "A lot of querying panic is powered by myths that sound plausible at 1 a.m. \"Unsolicited submissions get tossed.\" \"No one reads the full manuscript.\" \"If they reject me, they'll at least tell me exactly what's wrong.\" None of that math holds up.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-29",
+  "modifiedDate": "2027-03-29",
   "canonicalUrl": "https://writequeryhook.com/blog/literary-agents-and-the-slush-pile-slaying-the-myths-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -511,6 +511,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/literary-agents-and-the-slush-pile-slaying-the-myths-faq#primaryimage"
       },
+      "datePublished": "2027-03-29",
+      "dateModified": "2027-03-29",
       "mentions": [
         {
           "@type": "WebPage",

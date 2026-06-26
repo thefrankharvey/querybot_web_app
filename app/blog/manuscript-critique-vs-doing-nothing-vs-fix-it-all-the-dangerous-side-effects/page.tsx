@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
   "description": "TLDR",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
+  "publishedDate": "2027-05-21",
+  "modifiedDate": "2027-05-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_hero_blindsided_cortisol_spike_blog_hero_landscape_e2f500451d27.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_hero_blindsided_cortisol_spike_blog_hero_landscape_e2f500451d27.jpeg?updatedAt=1782166844590",
     "alt": "blog hero \u00b7 blindsided cortisol spike",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "item": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
+      "item": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     }
   ],
   "tldrBlocks": [],
@@ -177,7 +177,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_shock_exposure_blog_section_landscape_a73b02d3252b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_shock_exposure_blog_section_landscape_a73b02d3252b.gif?updatedAt=1782166847622",
         "alt": "Manuscript critique: the good pain (and the real risks)",
         "width": 266,
         "height": 200,
@@ -254,13 +254,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_avoidance_denial_blog_section_landscape_15c770a8b256.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_avoidance_denial_blog_section_landscape_15c770a8b256.gif",
         "alt": "Do nothing after receiving an editorial letter: the \"safe\" trap",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "blakelivelyfan",
+        "creatorUrl": "https://giphy.com/gifs/blakelivelyfan-blake-lively-tell-me-i-wanna-know-P1D5eJBeCyOwdoJ8mH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -419,43 +419,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_relief_control_blog_section_landscape_939a27f0552c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_relief_control_blog_section_landscape_939a27f0552c.jpeg",
         "alt": "The verdict",
-        "width": 200,
-        "height": 200,
-        "creator": "vincidaaa",
-        "creatorUrl": "https://giphy.com/gifs/chill-chillguy-chillguymeme-vHwVjHwuTT4GPcnF9k",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 3376,
+        "creator": "Sam A",
+        "creatorUrl": "https://www.pexels.com/@sam-a-351058944",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_section_image_open_doc_first_change_blog_section_landscape_e0244de55ac1.jpeg",
-    "alt": "blog section image \u00b7 open doc first change",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Kindel Media",
-    "creatorUrl": "https://www.pexels.com/@kindelmedia",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     },
     {
       "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     },
     {
       "title": "Optimizing your blurb for Amazon and other retailers FAQ",
-      "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+      "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
     },
     {
-      "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "title": "Book blurb FAQ: how to write a book description that sells",
+      "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -490,7 +481,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-      "url": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     }
   ]
 } as const;
@@ -520,7 +511,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -532,31 +523,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "item": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
+          "item": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#webpage",
-      "url": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
+      "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#webpage",
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
       "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -572,11 +563,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#article",
+      "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#webpage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects",
       "headline": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
       "alternativeHeadline": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
       "description": "TLDR",
@@ -606,40 +597,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage"
+        "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage"
       },
+      "datePublished": "2027-05-21",
+      "dateModified": "2027-05-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "url": "https://writequeryhook.com/query-letters/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
-          "url": "https://writequeryhook.com/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
+          "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
         },
         {
           "@type": "WebPage",
           "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         },
         {
           "@type": "WebPage",
           "name": "Optimizing your blurb for Amazon and other retailers FAQ",
-          "url": "https://writequeryhook.com/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
+          "url": "https://writequeryhook.com/blog/optimizing-your-blurb-for-amazon-and-other-retailers-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+          "name": "Book blurb FAQ: how to write a book description that sells",
+          "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_hero_blindsided_cortisol_spike_blog_hero_landscape_e2f500451d27.jpeg",
+      "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_406/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects/blog/blog_hero_blindsided_cortisol_spike_blog_hero_landscape_e2f500451d27.jpeg?updatedAt=1782166844590",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 blindsided cortisol spike",
@@ -654,7 +642,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#faq",
+      "@id": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects#faq",
       "mainEntity": [
         {
           "@type": "Question",

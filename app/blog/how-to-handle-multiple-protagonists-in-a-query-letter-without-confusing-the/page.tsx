@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to handle multiple protagonists in a query letter without confusing the agent",
   "description": "A query letter has limited space, and multiple protagonists turn that space into a game of Tetris where the blocks keep changing shape. Writers freeze because the usual advice\u2014\"summarize from one character's perspective\"\u2014doesn't automatically fit a story with intersecting plot lines.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-16",
+  "modifiedDate": "2026-07-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-handle-multiple-protagonists-in-a-query-letter-without-confusing-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -605,6 +605,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-handle-multiple-protagonists-in-a-query-letter-without-confusing-the#primaryimage"
       },
+      "datePublished": "2026-07-16",
+      "dateModified": "2026-07-16",
       "mentions": [
         {
           "@type": "WebPage",

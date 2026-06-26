@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes that make you think quitting your day job will \"fix\" your writing",
   "description": "Writers don't just chase words. We chase safety. And when writing feels unsafe\u2014slow pages, weird motivation, submission season dread\u2014our brains start pitching dumb contracts.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-28",
+  "modifiedDate": "2027-03-28",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-make-you-think-quitting-your-day-job-will-fix-your-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-that-make-you-think-quitting-your-day-job-will-fix-your-writing#primaryimage"
       },
+      "datePublished": "2027-03-28",
+      "dateModified": "2027-03-28",
       "mentions": [
         {
           "@type": "WebPage",

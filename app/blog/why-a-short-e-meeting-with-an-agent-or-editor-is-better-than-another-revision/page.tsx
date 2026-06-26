@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why a short e-meeting with an agent or editor is better than another revision pass",
   "description": "The annoying part about form rejections isn't even the rejection. It's the silence that comes attached to it\u2014like you're supposed to guess which part of your query turned the reader into a human paperweight.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-30",
+  "modifiedDate": "2026-07-30",
   "canonicalUrl": "https://writequeryhook.com/blog/why-a-short-e-meeting-with-an-agent-or-editor-is-better-than-another-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -546,6 +546,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-a-short-e-meeting-with-an-agent-or-editor-is-better-than-another-revision#primaryimage"
       },
+      "datePublished": "2026-07-30",
+      "dateModified": "2026-07-30",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
   "description": "If IP work feels like getting invited to a party where the host owns the playlist, that part's accurate\u2014you still have to write the dance choreography, just inside their boundaries. The difference is: with intellectual property, someone else already owns the world, the rules, and often the schedule\u2014so your job is to deliver something that fits their boundaries without stepping on the rights. Which is a lot more \"job interview\" than \"dream gig.\"",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
+  "publishedDate": "2027-09-18",
+  "modifiedDate": "2027-09-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_hero_party_invitation_playlist_owner_blog_hero_landscape_cc7c3a71a350.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_hero_party_invitation_playlist_owner_blog_hero_landscape_cc7c3a71a350.jpeg?updatedAt=1782332510702",
     "alt": "blog hero \u00b7 party-invitation playlist-owner",
     "width": 8192,
     "height": 5464,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-      "item": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+      "item": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     }
   ],
   "tldrBlocks": [],
@@ -89,7 +89,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_tldr_blog_section_landscape_62a3df8c700a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_tldr_blog_section_landscape_62a3df8c700a.gif?updatedAt=1782332511157",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -178,7 +178,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_visibility_niche_blog_section_landscape_4a164551f20b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_visibility_niche_blog_section_landscape_4a164551f20b.jpeg?updatedAt=1782332511897",
         "alt": "IP opportunities: how editors find you",
         "width": 4096,
         "height": 3072,
@@ -345,7 +345,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_the_verdict_blog_section_landscape_e5f81a489793.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_the_verdict_blog_section_landscape_e5f81a489793.gif?updatedAt=1782332512496",
         "alt": "The verdict",
         "width": 296,
         "height": 200,
@@ -356,32 +356,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_section_image_final_decision_act_today_blog_section_landscape_57a60ca4d33a.jpeg",
-    "alt": "blog section image \u00b7 final-decision act-today",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     },
     {
       "title": "Choosing a great book title FAQ",
-      "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     },
     {
       "title": "Leverage Podcasting: A Guide for Authors FAQ",
-      "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     },
     {
-      "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
-      "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+      "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -416,7 +407,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "url": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     }
   ]
 } as const;
@@ -446,7 +437,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -458,31 +449,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-          "item": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+          "item": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#webpage",
-      "url": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
+      "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#webpage",
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
       "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage"
+        "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -498,11 +489,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#article",
+      "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#webpage"
+        "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster",
       "headline": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
       "alternativeHeadline": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
       "description": "If IP work feels like getting invited to a party where the host owns the playlist, that part's accurate\u2014you still have to write the dance choreography, just inside their boundaries. The difference is: with intellectual property, someone else already owns the world, the rules, and often the schedule\u2014so your job is to deliver something that fits their boundaries without stepping on the rights. Which is a lot more \"job interview\" than \"dream gig.\"",
@@ -532,40 +523,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage"
+        "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage"
       },
+      "datePublished": "2027-09-18",
+      "dateModified": "2027-09-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "url": "https://writequeryhook.com/query-letters/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+          "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
         },
         {
           "@type": "WebPage",
           "name": "Choosing a great book title FAQ",
-          "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+          "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         },
         {
           "@type": "WebPage",
           "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+          "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-          "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+          "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
+          "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_hero_party_invitation_playlist_owner_blog_hero_landscape_cc7c3a71a350.jpeg",
+      "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_545/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster/blog/blog_hero_party_invitation_playlist_owner_blog_hero_landscape_cc7c3a71a350.jpeg?updatedAt=1782332510702",
       "width": 8192,
       "height": 5464,
       "caption": "blog hero \u00b7 party-invitation playlist-owner",
@@ -580,7 +568,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#faq",
+      "@id": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking down the basic pitch formula for novelists (with three option templates)",
   "description": "If pitching your novel feels like trying to squeeze a whole ocean into a thimble, cool. That's normal. The annoying part is that most writers don't fail because they have a \"bad story.\" They fail because their pitch is doing the wrong job.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-01",
+  "modifiedDate": "2026-08-01",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-the-basic-pitch-formula-for-novelists-with-three-option-templates",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -740,6 +740,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-the-basic-pitch-formula-for-novelists-with-three-option-templates#primaryimage"
       },
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
   "description": "Modern indie publishing doesn't stop at \"write the book.\" It drags you into editing passes, layout/formatting, cover revisions, launch timelines, and marketing that never really turns off. That's why an author collective (sometimes called a co-op) shows up like a life raft: shared workload, business-ish discipline, and a crew that can make production and publishing feel less like solo punishment.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
+  "publishedDate": "2027-07-23",
+  "modifiedDate": "2027-07-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_hero_dread_blank_page_blog_hero_landscape_d440e1aad770.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_hero_dread_blank_page_blog_hero_landscape_d440e1aad770.jpeg",
     "alt": "blog hero \u00b7 dread blank page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 4928,
+    "height": 3264,
+    "creator": "MESSALA CIULLA",
+    "creatorUrl": "https://www.pexels.com/@messalaciulla",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-      "item": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+      "item": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
     }
   ],
   "tldrBlocks": [],
@@ -116,7 +116,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_clarity_decision_blog_section_landscape_29da4f76c0e5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_clarity_decision_blog_section_landscape_29da4f76c0e5.gif?updatedAt=1782261575815",
         "alt": "Step 1: Define what kind of collective you're starting",
         "width": 200,
         "height": 200,
@@ -264,7 +264,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_leadership_roles_blog_section_landscape_8f6a442e5fae.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_leadership_roles_blog_section_landscape_8f6a442e5fae.jpeg?updatedAt=1782261576546",
         "alt": "Step 4: Assign author collective roles and responsibilities",
         "width": 3999,
         "height": 2667,
@@ -371,13 +371,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_contingency_delays_blog_section_landscape_9c905d643324.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_contingency_delays_blog_section_landscape_9c905d643324.gif",
         "alt": "Step 6: Write contingency plans for collaborative publishing",
-        "width": 5422,
-        "height": 3615,
-        "creator": "Erik Mclean",
-        "creatorUrl": "https://www.pexels.com/@introspectivedsgn",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -430,32 +430,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_section_image_take_action_open_documents_blog_section_landscape_e93c4d7a2b3b.jpeg",
-    "alt": "blog section image \u00b7 take action open documents",
-    "width": 6100,
-    "height": 4067,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-      "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
-    },
-    {
-      "title": "How to get cozy mystery submissions to the right desk: editors, genre accuracy, and an actually functional editor relationship",
-      "url": "https://writequeryhook.com/how-to-get-cozy-mystery-submissions-to-the-right-desk-editors-genre-accuracy-and-an-actually-functional-editor-relationship"
-    },
-    {
       "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-      "url": "https://writequeryhook.com/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+    },
+    {
+      "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
     },
     {
       "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-      "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+    },
+    {
+      "title": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
+      "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -491,12 +482,7 @@ const PAGE_DATA = {
       "text": "If you want to track launches and keep your authors' timelines sane, **Query Dashboard** is the kind of boring tool that saves you from chaos."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-      "url": "https://writequeryhook.com/query-letters/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -524,7 +510,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -536,31 +522,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-          "item": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+          "item": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
       "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -576,11 +562,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#article",
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing",
       "headline": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
       "alternativeHeadline": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
       "description": "Modern indie publishing doesn't stop at \"write the book.\" It drags you into editing passes, layout/formatting, cover revisions, launch timelines, and marketing that never really turns off. That's why an author collective (sometimes called a co-op) shows up like a life raft: shared workload, business-ish discipline, and a crew that can make production and publishing feel less like solo punishment.",
@@ -610,55 +596,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage"
       },
+      "datePublished": "2027-07-23",
+      "dateModified": "2027-07-23",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-          "url": "https://writequeryhook.com/query-letters/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-          "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to get cozy mystery submissions to the right desk: editors, genre accuracy, and an actually functional editor relationship",
-          "url": "https://writequeryhook.com/how-to-get-cozy-mystery-submissions-to-the-right-desk-editors-genre-accuracy-and-an-actually-functional-editor-relationship"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-          "url": "https://writequeryhook.com/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
         },
         {
           "@type": "WebPage",
           "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-          "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+          "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
+        },
+        {
+          "@type": "WebPage",
+          "name": "A close look at types of novels: how genre, literary, and mainstream fiction actually work",
+          "url": "https://writequeryhook.com/blog/a-close-look-at-types-of-novels-how-genre-literary-and-mainstream-fiction"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_hero_dread_blank_page_blog_hero_landscape_d440e1aad770.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_479/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing/blog/blog_hero_dread_blank_page_blog_hero_landscape_d440e1aad770.jpeg",
+      "width": 4928,
+      "height": 3264,
       "caption": "blog hero \u00b7 dread blank page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "MESSALA CIULLA",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "MESSALA CIULLA",
+        "url": "https://www.pexels.com/@messalaciulla"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#howto",
       "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
       "description": "Modern indie publishing doesn't stop at \"write the book.\" It drags you into editing passes, layout/formatting, cover revisions, launch timelines, and marketing that never really turns off. That's why an author collective (sometimes called a co-op) shows up like a life raft: shared workload, business-ish discipline, and a crew that can make production and publishing feel less like solo punishment.",
       "totalTime": "PT7M",
@@ -668,56 +651,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define what kind of collective you're starting",
           "text": "Before anyone signs anything, get precise about what this author collective is for. Not \"community\" or \"support\"\u2014those are outcomes, not operating rules.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-1-define-what-kind-of-collective-you-re-starting"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-1-define-what-kind-of-collective-you-re-starting"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Choose the business-based author co-op structure and boundaries",
           "text": "Pick your business-based author co-op structure. This determines how much commitment you're actually asking for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-2-choose-the-business-based-author-co-op-structure-and-boundaries"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-2-choose-the-business-based-author-co-op-structure-and-boundaries"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build a shared editing and formatting workflow",
           "text": "You need a repeatable workflow for the \"work\" part: shared editing and formatting workflow. Ad hoc work becomes slow and messy\u2014the opposite of what people join for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-3-build-a-shared-editing-and-formatting-workflow"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-3-build-a-shared-editing-and-formatting-workflow"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Assign author collective roles and responsibilities",
           "text": "Writers hate this because it sounds like business. It's also the part that prevents resentment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-4-assign-author-collective-roles-and-responsibilities"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-4-assign-author-collective-roles-and-responsibilities"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Plan marketing like a real operation",
           "text": "Even if the collective's core is editing, you'll face marketing logistics: launch dates, content themes, promo assets, and timing. Otherwise marketing becomes a scramble at the end.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-5-plan-marketing-like-a-real-operation"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-5-plan-marketing-like-a-real-operation"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Write contingency plans for collaborative publishing",
           "text": "People join collectives thinking collaboration is smooth. Then real life hits: delays, missing contributors, schedule collapse, creative disagreement.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-6-write-contingency-plans-for-collaborative-publishing"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-6-write-contingency-plans-for-collaborative-publishing"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Run a trial project and track results",
           "text": "Build your first collective project small, not big. Pick one book per member, or one shared launch where everyone contributes to a single release.",
-          "url": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-7-run-a-trial-project-and-track-results"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#step-7-run-a-trial-project-and-track-results"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing#faq",
       "mainEntity": [
         {
           "@type": "Question",

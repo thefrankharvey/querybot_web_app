@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why social media is worth it even if it never sells your book (examples for authors)",
   "description": "Here's the misconception that keeps writers doom-scrolling and then quitting: social media has to equal sales. If it doesn't immediately convert into \"Buy now,\" it must be a waste of time.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
+  "publishedDate": "2027-07-05",
+  "modifiedDate": "2027-07-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_hero_anxious_dread_blog_hero_landscape_71c61671c00f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_hero_anxious_dread_blog_hero_landscape_71c61671c00f.jpeg?updatedAt=1782244233548",
     "alt": "blog hero \u00b7 anxious dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-      "item": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
+      "item": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
     }
   ],
   "tldrBlocks": [],
@@ -76,13 +76,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_tldr_blog_section_landscape_a9a4a0461704.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_tldr_blog_section_landscape_a9a4a0461704.jpeg",
         "alt": "TLDR",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -425,13 +425,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_dc1099986a9b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_dc1099986a9b.gif",
         "alt": "Body \u2014 Structural breakdown",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -454,43 +454,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_lessons_takeaways_blog_section_landscape_97af48601275.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_lessons_takeaways_blog_section_landscape_97af48601275.gif",
         "alt": "Lessons / Takeaways",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_section_image_fist_pump_motivation_blog_section_landscape_9fce532f7e95.gif",
-    "alt": "blog section image \u00b7 fist pump motivation",
-    "width": 200,
-    "height": 200,
-    "creator": "PersonaJourney",
-    "creatorUrl": "https://giphy.com/gifs/PersonaJourney-yesss-hell-yes-big-mood-6TR5ly6Bo07duPl4dr",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-      "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
-    },
-    {
       "title": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-      "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
     },
     {
       "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
-      "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     },
     {
-      "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+    },
+    {
+      "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -525,7 +516,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-      "url": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
+      "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
     }
   ]
 } as const;
@@ -555,7 +546,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -567,31 +558,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why social media is worth it even if it never sells your book (examples for authors)",
-          "item": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
+          "item": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
+      "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#webpage",
+      "url": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
       "name": "Why social media is worth it even if it never sells your book (examples for authors)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -607,11 +598,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#article",
+      "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#webpage"
+        "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for",
       "headline": "Why social media is worth it even if it never sells your book (examples for authors)",
       "alternativeHeadline": "Why social media is worth it even if it never sells your book (examples for authors)",
       "description": "Here's the misconception that keeps writers doom-scrolling and then quitting: social media has to equal sales. If it doesn't immediately convert into \"Buy now,\" it must be a waste of time.",
@@ -641,40 +632,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage"
       },
+      "datePublished": "2027-07-05",
+      "dateModified": "2027-07-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Faqs on How to Publish Your First Book: Tools for Querying and Choosing a Path",
-          "url": "https://writequeryhook.com/query-letters/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-          "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+          "url": "https://writequeryhook.com/blog/faqs-on-how-to-publish-your-first-book-tools-for-querying-and-choosing-a-path"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs. royalties: real examples of when traditional and self-publishing authors actually get paid",
-          "url": "https://writequeryhook.com/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing-authors-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-real-examples-of-when-traditional-and-self-publishing"
         },
         {
           "@type": "WebPage",
           "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-          "url": "https://writequeryhook.com/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples-that-actually-compound"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         },
         {
           "@type": "WebPage",
-          "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
+          "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
+          "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_hero_anxious_dread_blog_hero_landscape_71c61671c00f.jpeg",
+      "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_459/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for/blog/blog_hero_anxious_dread_blog_hero_landscape_71c61671c00f.jpeg?updatedAt=1782244233548",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 anxious dread",
@@ -689,7 +682,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#faq",
+      "@id": "https://writequeryhook.com/blog/why-social-media-is-worth-it-even-if-it-never-sells-your-book-examples-for#faq",
       "mainEntity": [
         {
           "@type": "Question",

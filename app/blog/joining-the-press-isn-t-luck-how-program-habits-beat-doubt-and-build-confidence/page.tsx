@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Joining the press isn't luck: how \"program\" habits beat doubt and build confidence",
   "description": "You know the moment. The acceptance email hits. Your brain immediately tries to do the math: Maybe they meant someone else. Maybe I got a \"yes\" by mistake. Maybe I'll be found out the second they look closer.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-28",
+  "modifiedDate": "2027-03-28",
   "canonicalUrl": "https://writequeryhook.com/blog/joining-the-press-isn-t-luck-how-program-habits-beat-doubt-and-build-confidence",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -603,6 +603,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/joining-the-press-isn-t-luck-how-program-habits-beat-doubt-and-build-confidence#primaryimage"
       },
+      "datePublished": "2027-03-28",
+      "dateModified": "2027-03-28",
       "mentions": [
         {
           "@type": "WebPage",

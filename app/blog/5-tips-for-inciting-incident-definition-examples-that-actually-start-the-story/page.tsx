@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for inciting incident definition examples that actually start the story",
   "description": "Every draft has that moment where you can feel the reader hovering\u2014like they're deciding whether to keep going or go back to whatever they were doing before. Usually, it's because the so-called \"beginning\" is doing too much setup and not enough inciting incident.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-08",
+  "modifiedDate": "2026-12-08",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-inciting-incident-definition-examples-that-actually-start-the-story",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -518,6 +518,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-inciting-incident-definition-examples-that-actually-start-the-story#primaryimage"
       },
+      "datePublished": "2026-12-08",
+      "dateModified": "2026-12-08",
       "mentions": [
         {
           "@type": "WebPage",

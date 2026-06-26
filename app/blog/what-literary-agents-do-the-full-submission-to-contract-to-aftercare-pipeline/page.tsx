@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
   "description": "Most writers imagine the agent job as one thing: \"They submit my manuscript.\" Then they hit the part where nobody can explain the timeline, the agent seems weirdly selective, and suddenly everyone's talking about contracts like they're the weather forecast.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
+  "publishedDate": "2027-06-08",
+  "modifiedDate": "2027-06-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_hero_confusion_dread_blog_hero_landscape_8c7e4c512a03.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_hero_confusion_dread_blog_hero_landscape_8c7e4c512a03.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "item": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     }
   ],
   "tldrBlocks": [],
@@ -150,7 +150,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_volume_triage_blog_section_landscape_79bcd0786669.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_volume_triage_blog_section_landscape_79bcd0786669.jpeg?updatedAt=1782208394045",
         "alt": "How agents filter submissions for editors (and why unagented work gets buried)",
         "width": 5473,
         "height": 3654,
@@ -237,7 +237,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_perfectionism_fear_blog_section_landscape_363ab73d6396.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_perfectionism_fear_blog_section_landscape_363ab73d6396.gif?updatedAt=1782208394955",
         "alt": "Pre-submission editing with a literary agent (when \"not perfect\" is the point)",
         "width": 113,
         "height": 200,
@@ -311,13 +311,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_offer_anxiety_auction_blog_section_landscape_082b9dc94f44.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_offer_anxiety_auction_blog_section_landscape_082b9dc94f44.gif",
         "alt": "How agents negotiate offers and contracts (what changes when someone wants your book)",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Jordan_Lawlar",
+        "creatorUrl": "https://giphy.com/gifs/mlb-baseball-player-jordan-lawlar-ZOWojGSxaka2H5S0eS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -394,7 +394,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_volume_triage_blog_section_landscape_79bcd0786669.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_volume_triage_blog_section_landscape_79bcd0786669.jpeg?updatedAt=1782208394045",
         "alt": "How agents filter submissions for editors (and why unagented work gets buried)",
         "width": 5473,
         "height": 3654,
@@ -405,32 +405,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_section_image_deep_breath_checklist_energy_blog_section_landscape_109dc95493f6.jpeg",
-    "alt": "blog section image \u00b7 deep breath checklist energy",
-    "width": 5040,
-    "height": 3360,
-    "creator": "Alena Darmel",
-    "creatorUrl": "https://www.pexels.com/@a-darmel",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     },
     {
       "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-      "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     },
     {
       "title": "11 book title tips to make your next title sell before the blurb even loads",
-      "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     },
     {
-      "title": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-      "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
+      "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -469,7 +460,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "url": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     }
   ]
 } as const;
@@ -499,7 +490,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +502,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "item": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "item": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#webpage",
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
       "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +542,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#article",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#webpage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline",
       "headline": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
       "alternativeHeadline": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
       "description": "Most writers imagine the agent job as one thing: \"They submit my manuscript.\" Then they hit the part where nobody can explain the timeline, the agent seems weirdly selective, and suddenly everyone's talking about contracts like they're the weather forecast.",
@@ -585,55 +576,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage"
       },
+      "datePublished": "2027-06-08",
+      "dateModified": "2027-06-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "url": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+          "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
         },
         {
           "@type": "WebPage",
           "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-          "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+          "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         },
         {
           "@type": "WebPage",
           "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+          "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
         },
         {
           "@type": "WebPage",
-          "name": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-          "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
+          "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_hero_confusion_dread_blog_hero_landscape_8c7e4c512a03.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline/blog/blog_hero_confusion_dread_blog_hero_landscape_8c7e4c512a03.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#faq",
+      "@id": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline#faq",
       "mainEntity": [
         {
           "@type": "Question",

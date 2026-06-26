@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "11 writing communities to join for critique, support, beta readers, and marketing",
   "description": "Writers join writing communities for the same reason people join gyms: craft is physical, drafting is repetitive, and doing it alone turns your brain into a lie generator.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
+  "publishedDate": "2027-07-23",
+  "modifiedDate": "2027-07-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "continuity"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing/blog/blog_hero_stuck_dread_blog_hero_landscape_7f973c83c804.jpeg",
+    "alt": "blog hero \u00b7 stuck dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "item": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "item": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     }
   ],
   "tldrBlocks": [],
@@ -104,7 +113,16 @@ const PAGE_DATA = {
           "text": "Then take feedback as data, not judgment. A good critique partner tells you what they felt and where it shifted. If three people independently call out the same moment, you've found the bruise."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing/blog/blog_section_image_critique_honesty_blog_section_landscape_90b49d995170.jpeg?updatedAt=1782262003784",
+        "alt": "Practice brutal honesty with a critique group",
+        "width": 5184,
+        "height": 3888,
+        "creator": "Brett Jordan",
+        "creatorUrl": "https://www.pexels.com/@brettjordan",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_add_beta_readers_for_continuity",
@@ -153,7 +171,16 @@ const PAGE_DATA = {
           "text": "\"Beta readers act like an early warning system for continuity and detail mistakes\u2014before the wrong readers find them.\""
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing/blog/blog_section_image_beta_readers_consistency_blog_section_landscape_cbc8656f0c73.gif?updatedAt=1782262004547",
+        "alt": "Add beta readers to catch continuity and detail inconsistencies",
+        "width": 202,
+        "height": 200,
+        "creator": "gfxvarun",
+        "creatorUrl": "https://giphy.com/gifs/goli-beta-masti-nahi-AOVB6UZOAJeFuCqc5a",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_join_supportive_groups_for_endurance",
@@ -583,26 +610,35 @@ const PAGE_DATA = {
           "text": "Then revise once with purpose. Not ten times with anxiety."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing/blog/blog_section_image_revision_traps_wrong_feedback_blog_section_landscape_5c69c6ba9335.gif",
+        "alt": "Avoid revision traps when critique turns into confusion",
+        "width": 253,
+        "height": 200,
+        "creator": "inkygirl",
+        "creatorUrl": "https://giphy.com/gifs/revising-5lESd7gYwNzXQp2nxk",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
-    },
-    {
-      "title": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-      "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     },
     {
       "title": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-      "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+      "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
     },
     {
-      "title": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-      "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
+      "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+    },
+    {
+      "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -637,7 +673,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "url": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     }
   ]
 } as const;
@@ -667,7 +703,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -679,28 +715,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "item": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+          "item": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#webpage",
-      "url": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
+      "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#webpage",
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
       "name": "11 writing communities to join for critique, support, beta readers, and marketing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -716,11 +755,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#article",
+      "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#webpage"
+        "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing",
       "headline": "11 writing communities to join for critique, support, beta readers, and marketing",
       "alternativeHeadline": "11 writing communities to join for critique, support, beta readers, and marketing",
       "description": "Writers join writing communities for the same reason people join gyms: craft is physical, drafting is repetitive, and doing it alone turns your brain into a lie generator.",
@@ -749,38 +788,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#primaryimage"
+      },
+      "datePublished": "2027-07-23",
+      "dateModified": "2027-07-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "url": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "url": "https://writequeryhook.com/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another-social-job"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-          "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+          "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
         },
         {
           "@type": "WebPage",
           "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-          "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
         },
         {
           "@type": "WebPage",
-          "name": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-          "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
+          "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing/blog/blog_hero_stuck_dread_blog_hero_landscape_7f973c83c804.jpeg",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 stuck dread",
+      "creditText": "Felicity Tai",
+      "author": {
+        "@type": "Person",
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#faq",
+      "@id": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing#faq",
       "mainEntity": [
         {
           "@type": "Question",

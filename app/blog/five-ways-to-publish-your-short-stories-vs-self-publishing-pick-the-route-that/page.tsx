@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
   "description": "You've got short stories. Now you have to pick a publishing lane: literary magazines, small presses, major publishers (maybe through an agent), self-publishing, and the credibility boosts that come from contests or online posting.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
+  "publishedDate": "2027-10-02",
+  "modifiedDate": "2027-10-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_hero_confusion_indecision_blog_hero_landscape_854fb13d6585.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_hero_confusion_indecision_blog_hero_landscape_854fb13d6585.jpeg?updatedAt=1782339515643",
     "alt": "blog hero \u00b7 confusion indecision",
     "width": 5760,
     "height": 3840,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-      "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
+      "item": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
     }
   ],
   "tldrBlocks": [],
@@ -89,7 +89,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_tldr_blog_section_landscape_07eafb5ab931.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_tldr_blog_section_landscape_07eafb5ab931.gif?updatedAt=1782339516230",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -271,13 +271,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_single_story_submission_blog_section_landscape_f4d0818ce66c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_single_story_submission_blog_section_landscape_f4d0818ce66c.gif",
         "alt": "Single stories: best ways to publish a single short story (and build momentum)",
-        "width": 5500,
-        "height": 3366,
-        "creator": "Suzy Hazelwood",
-        "creatorUrl": "https://www.pexels.com/@suzyhazelwood",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "TresorsDuMondeInc",
+        "creatorUrl": "https://giphy.com/gifs/TresorsDuMondeInc-tresorsdumondeinc-made-in-canada-qubec-RusyqYHD1GjesVa1BF",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -385,7 +385,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_verdict_decisive_blog_section_landscape_33040aebfce8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_verdict_decisive_blog_section_landscape_33040aebfce8.jpeg?updatedAt=1782339517493",
         "alt": "Which to pick for your goals (the verdict)",
         "width": 5472,
         "height": 3648,
@@ -396,32 +396,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_section_image_commitment_draft_blog_section_landscape_ac34232812ff.gif",
-    "alt": "blog section image \u00b7 commitment draft",
-    "width": 200,
-    "height": 200,
-    "creator": "BenJammins",
-    "creatorUrl": "https://giphy.com/gifs/scribe-write-that-down-commit-to-paper-3Jab79npDUWNC7nvPO",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-      "url": "https://writequeryhook.com/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
     },
     {
       "title": "Copyright a book: the definitive guide FAQ",
-      "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
     },
     {
       "title": "How much does it cost to publish a book in 2025 FAQ",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
     },
     {
-      "title": "The mission statement tells you what a publisher is actually buying",
-      "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "title": "Your guide to author branding: FAQs for building a consistent personal brand",
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -457,12 +448,7 @@ const PAGE_DATA = {
       "text": "Pick one route today, set the next deadline (submission, contest deadline, or draft packaging), and stop negotiating with yourself. That's how you turn publishing from a fear into a process."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-      "url": "https://writequeryhook.com/query-letters/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -490,7 +476,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -502,31 +488,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-          "item": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
+          "item": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#webpage",
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
       "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -542,11 +528,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#article",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#webpage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that",
       "headline": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
       "alternativeHeadline": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
       "description": "You've got short stories. Now you have to pick a publishing lane: literary magazines, small presses, major publishers (maybe through an agent), self-publishing, and the credibility boosts that come from contests or online posting.",
@@ -576,40 +562,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage"
       },
+      "datePublished": "2027-10-02",
+      "dateModified": "2027-10-02",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-          "url": "https://writequeryhook.com/query-letters/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias"
-        },
-        {
-          "@type": "WebPage",
           "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-          "url": "https://writequeryhook.com/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "Copyright a book: the definitive guide FAQ",
-          "url": "https://writequeryhook.com/copyright-a-book-the-definitive-guide-faq"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-the-definitive-guide-faq"
         },
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025 FAQ",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
         },
         {
           "@type": "WebPage",
-          "name": "The mission statement tells you what a publisher is actually buying",
-          "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "name": "Your guide to author branding: FAQs for building a consistent personal brand",
+          "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_hero_confusion_indecision_blog_hero_landscape_854fb13d6585.jpeg",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_560/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that/blog/blog_hero_confusion_indecision_blog_hero_landscape_854fb13d6585.jpeg?updatedAt=1782339515643",
       "width": 5760,
       "height": 3840,
       "caption": "blog hero \u00b7 confusion indecision",
@@ -624,7 +607,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#faq",
+      "@id": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that#faq",
       "mainEntity": [
         {
           "@type": "Question",

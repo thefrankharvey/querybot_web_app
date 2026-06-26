@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What is a foil character in writing? (With real ways to spot them)",
   "description": "Writers build backstory. They sharpen dialogue. They sweat motivation. And still the protagonist can feel like they\u2019re missing something\u2014like the reader can\u2019t quite see what makes this character distinct.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-11",
+  "modifiedDate": "2026-09-11",
   "canonicalUrl": "https://writequeryhook.com/blog/what-is-a-foil-character-in-writing-with-real-ways-to-spot-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -489,6 +489,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-is-a-foil-character-in-writing-with-real-ways-to-spot-them#primaryimage"
       },
+      "datePublished": "2026-09-11",
+      "dateModified": "2026-09-11",
       "mentions": [
         {
           "@type": "WebPage",

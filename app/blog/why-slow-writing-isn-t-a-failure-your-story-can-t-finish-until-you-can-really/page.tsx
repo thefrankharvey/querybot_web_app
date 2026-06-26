@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why \"slow\" writing isn't a failure: your story can't finish until you can really write it",
   "description": "TLDR",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-24",
+  "modifiedDate": "2027-03-24",
   "canonicalUrl": "https://writequeryhook.com/blog/why-slow-writing-isn-t-a-failure-your-story-can-t-finish-until-you-can-really",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -591,6 +591,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-slow-writing-isn-t-a-failure-your-story-can-t-finish-until-you-can-really#primaryimage"
       },
+      "datePublished": "2027-03-24",
+      "dateModified": "2027-03-24",
       "mentions": [
         {
           "@type": "WebPage",

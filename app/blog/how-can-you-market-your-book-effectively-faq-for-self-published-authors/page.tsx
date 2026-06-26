@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How can you market your book effectively? FAQ for self-published authors",
   "description": "Self-published books don't fail because the writing is bad. They fail because the market never gets a clean path to find you. Most authors assume word of mouth will magically work\u2014then they stare at quiet numbers and wonder what they missed.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
+  "publishedDate": "2027-08-12",
+  "modifiedDate": "2027-08-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_hero_frustration_overwhelm_blog_hero_landscape_18e198d2e5d7.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_hero_frustration_overwhelm_blog_hero_landscape_18e198d2e5d7.jpeg",
     "alt": "blog hero \u00b7 frustration overwhelm",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/sad-frustrated-steve-harvey-Wv1LRsa2f2afm",
-    "provider": "giphy",
+    "width": 4608,
+    "height": 3456,
+    "creator": "energepic.com",
+    "creatorUrl": "https://www.pexels.com/@energepic-com-27411",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How can you market your book effectively? FAQ for self-published authors",
-      "item": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "item": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     }
   ],
   "tldrBlocks": [],
@@ -95,7 +95,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_denial_recognition_blog_section_landscape_550066e25b6c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_denial_recognition_blog_section_landscape_550066e25b6c.gif?updatedAt=1782311804059",
         "alt": "Do self-published authors really need to market their books?",
         "width": 226,
         "height": 200,
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_setup_checklist_blog_section_landscape_0136200b4019.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_setup_checklist_blog_section_landscape_0136200b4019.gif",
         "alt": "What should an author do first once the book is ready?",
-        "width": 6542,
-        "height": 4361,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "Alienware",
+        "creatorUrl": "https://giphy.com/gifs/Alienware-gaming-alienware-dream-setup-xJO12bxTLOaV38SEPD",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -181,7 +181,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_experiments_bargain_blog_section_landscape_f44d8afefc23.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_experiments_bargain_blog_section_landscape_f44d8afefc23.jpeg?updatedAt=1782311805791",
         "alt": "How can an email newsletter help with book marketing?",
         "width": 6240,
         "height": 3512,
@@ -262,7 +262,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_experiments_bargain_blog_section_landscape_f44d8afefc23.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_experiments_bargain_blog_section_landscape_f44d8afefc23.jpeg?updatedAt=1782311805791",
         "alt": "How can an email newsletter help with book marketing?",
         "width": 6240,
         "height": 3512,
@@ -316,32 +316,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_section_image_momentum_calendar_blog_section_landscape_745c62deb954.jpeg",
-    "alt": "blog section image \u00b7 momentum calendar",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Matheus Bertelli",
-    "creatorUrl": "https://www.pexels.com/@bertellifotografia",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Do you need to hire a cover designer and book formatter?",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
-    },
-    {
-      "title": "What I didn't know about publishing bias (until I got forced to see it)",
-      "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
     },
     {
       "title": "Five ways to publish short stories (with realistic examples) for collections and singles",
-      "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
     },
     {
-      "title": "6 small press mistakes that quietly wreck your publishing odds",
-      "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+      "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+    },
+    {
+      "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -359,7 +350,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "url": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     }
   ]
 } as const;
@@ -389,7 +380,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -401,31 +392,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How can you market your book effectively? FAQ for self-published authors",
-          "item": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+          "item": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
+      "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#webpage",
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
       "name": "How can you market your book effectively? FAQ for self-published authors",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -441,11 +432,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#article",
+      "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#webpage"
+        "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors",
       "headline": "How can you market your book effectively? FAQ for self-published authors",
       "alternativeHeadline": "How can you market your book effectively? FAQ for self-published authors",
       "description": "Self-published books don't fail because the writing is bad. They fail because the market never gets a clean path to find you. Most authors assume word of mouth will magically work\u2014then they stare at quiet numbers and wonder what they missed.",
@@ -475,48 +466,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage"
       },
+      "datePublished": "2027-08-12",
+      "dateModified": "2027-08-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "url": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         },
         {
           "@type": "WebPage",
           "name": "Do you need to hire a cover designer and book formatter?",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What I didn't know about publishing bias (until I got forced to see it)",
-          "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
-          "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
         },
         {
           "@type": "WebPage",
-          "name": "6 small press mistakes that quietly wreck your publishing odds",
-          "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+          "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
+          "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_hero_frustration_overwhelm_blog_hero_landscape_18e198d2e5d7.gif",
-      "width": 218,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/how-can-you-market-your-book-effectively-faq-for-self-published-authors/blog/blog_hero_frustration_overwhelm_blog_hero_landscape_18e198d2e5d7.jpeg",
+      "width": 4608,
+      "height": 3456,
       "caption": "blog hero \u00b7 frustration overwhelm",
-      "creditText": "Giphy",
+      "creditText": "energepic.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/sad-frustrated-steve-harvey-Wv1LRsa2f2afm"
+        "name": "energepic.com",
+        "url": "https://www.pexels.com/@energepic-com-27411"
       },
       "@context": "https://schema.org"
     }

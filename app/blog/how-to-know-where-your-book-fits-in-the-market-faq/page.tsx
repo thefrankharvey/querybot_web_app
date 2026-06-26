@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to know where your book fits in the market FAQ",
   "description": "You can write a book that\u2019s genuinely good and still struggle to pitch it. Not because the manuscript is broken\u2014because the publishing game is a paperwork-and-positioning job hiding behind craft talk. Market fit research is the part where writers stop guessing and start behaving like people who understand their shelf.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-15",
+  "modifiedDate": "2026-08-15",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-know-where-your-book-fits-in-the-market-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -572,6 +572,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-know-where-your-book-fits-in-the-market-faq#primaryimage"
       },
+      "datePublished": "2026-08-15",
+      "dateModified": "2026-08-15",
       "mentions": [
         {
           "@type": "WebPage",

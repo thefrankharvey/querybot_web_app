@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to stop high-school formatting habits from making your fiction manuscript feel stiff",
   "description": "TLDR",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-27",
+  "modifiedDate": "2026-11-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-high-school-formatting-habits-from-making-your-fiction-manuscript",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -636,6 +636,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-high-school-formatting-habits-from-making-your-fiction-manuscript#primaryimage"
       },
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
       "mentions": [
         {
           "@type": "WebPage",

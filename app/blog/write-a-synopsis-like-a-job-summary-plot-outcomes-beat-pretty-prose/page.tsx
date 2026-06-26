@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
   "description": "Writers don't panic because a synopsis is hard math.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
+  "publishedDate": "2027-11-08",
+  "modifiedDate": "2027-11-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-      "item": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+      "item": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
     }
   ],
   "tldrBlocks": [],
@@ -417,19 +417,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
     },
     {
       "title": "5 tips for writing a novel synopsis that actually covers the whole story",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     },
     {
       "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     },
     {
-      "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -468,7 +468,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
     }
   ]
 } as const;
@@ -498,7 +498,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -510,31 +510,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-          "item": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+          "item": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#webpage",
-      "url": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
+      "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#webpage",
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
       "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -550,11 +550,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#article",
+      "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#webpage"
+        "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose",
       "headline": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
       "alternativeHeadline": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
       "description": "Writers don't panic because a synopsis is hard math.",
@@ -584,39 +584,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage"
+        "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage"
       },
+      "datePublished": "2027-11-08",
+      "dateModified": "2027-11-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         },
         {
           "@type": "WebPage",
           "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+          "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
         },
         {
           "@type": "WebPage",
-          "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "url": "https://writequeryhook.com/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+          "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage",
+      "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_607/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose/blog/blog_hero_pressure_literary_fear_blog_hero_landscape_0da1f784776b.jpeg",
       "width": 2890,
       "height": 2064,
@@ -632,7 +629,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#faq",
+      "@id": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose#faq",
       "mainEntity": [
         {
           "@type": "Question",

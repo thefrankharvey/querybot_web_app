@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The comp title case study: how a \u201cmarket fit\u201d search turns vague genre instincts into a pitch",
   "description": "You don\u2019t have a \u201cwriting problem\u201d if you can\u2019t explain where your book fits in the market.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-13",
+  "modifiedDate": "2026-08-13",
   "canonicalUrl": "https://writequeryhook.com/blog/the-comp-title-case-study-how-a-market-fit-search-turns-vague-genre-instincts",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -783,6 +783,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-comp-title-case-study-how-a-market-fit-search-turns-vague-genre-instincts#primaryimage"
       },
+      "datePublished": "2026-08-13",
+      "dateModified": "2026-08-13",
       "mentions": [
         {
           "@type": "WebPage",

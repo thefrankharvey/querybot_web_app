@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to copyright a book (and whether registration is worth it)",
   "description": "Copyright feels like one of those \"adulting\" tasks writers are supposed to magically know. Like, do we have to mail something? Put a symbol on a manuscript file? Hope it \"counts\" in court?",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it",
+  "publishedDate": "2027-06-17",
+  "modifiedDate": "2027-06-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_hero_overwhelmed_confused_blog_hero_landscape_e6cdce1ce31d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_hero_overwhelmed_confused_blog_hero_landscape_e6cdce1ce31d.jpeg?updatedAt=1782222391643",
     "alt": "blog hero \u00b7 overwhelmed confused",
     "width": 6150,
     "height": 4755,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to copyright a book (and whether registration is worth it)",
-      "item": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "item": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     }
   ],
   "tldrBlocks": [],
@@ -164,13 +164,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_boundary_clarity_blog_section_landscape_9e27a8e9221a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_boundary_clarity_blog_section_landscape_9e27a8e9221a.jpeg",
         "alt": "Step 2: Understand what copyright protects for authors",
-        "width": 200,
-        "height": 200,
-        "creator": "TheQuietBackBone",
-        "creatorUrl": "https://giphy.com/gifs/truth-actions-speak-words-vs-ARXFw0QZ1i2r0MODpg",
-        "provider": "giphy",
+        "width": 5568,
+        "height": 3712,
+        "creator": "Hilal",
+        "creatorUrl": "https://www.pexels.com/@hilal-53444166",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -251,13 +251,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_login_account_blog_section_landscape_300623edc178.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_login_account_blog_section_landscape_300623edc178.gif",
         "alt": "Step 4: Start the online workflow (don't freestyle the category)",
-        "width": 6016,
-        "height": 4000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -358,43 +358,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_payment_confirmation_blog_section_landscape_f3a26a1f1dc0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_payment_confirmation_blog_section_landscape_f3a26a1f1dc0.gif",
         "alt": "Step 6: Pay, then submit the best available edition (the office wants proof)",
-        "width": 5184,
-        "height": 3456,
-        "creator": "REINER  SCT",
-        "creatorUrl": "https://www.pexels.com/@reiner-sct-140938854",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "ZhotMusic",
+        "creatorUrl": "https://giphy.com/gifs/ZhotMusic-bill-receipt-invoice-rypa4r6g8d1qmzgnFr",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_section_image_final_push_open_the_document_blog_section_landscape_344924410d4a.gif",
-    "alt": "blog section image \u00b7 final push open the document",
-    "width": 200,
-    "height": 200,
-    "creator": "garyvee",
-    "creatorUrl": "https://giphy.com/gifs/garyvee-garyvaynerchuk-garyv-vayner-5SUZYKNUYfW29VJwNt",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     },
     {
       "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     },
     {
       "title": "Author promotion vs book promotion: stop treating them like the same job",
-      "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     },
     {
-      "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-      "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+      "title": "Book fairs vs book festivals: which event matches your goal?",
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -433,7 +424,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to build a compelling novel concept: turn your premise into a kicker",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     }
   ]
 } as const;
@@ -463,7 +454,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -475,31 +466,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to copyright a book (and whether registration is worth it)",
-          "item": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+          "item": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it",
       "name": "How to copyright a book (and whether registration is worth it)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -515,11 +506,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#article",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it",
       "headline": "How to copyright a book (and whether registration is worth it)",
       "alternativeHeadline": "How to copyright a book (and whether registration is worth it)",
       "description": "Copyright feels like one of those \"adulting\" tasks writers are supposed to magically know. Like, do we have to mail something? Put a symbol on a manuscript file? Hope it \"counts\" in court?",
@@ -549,40 +540,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage"
       },
+      "datePublished": "2027-06-17",
+      "dateModified": "2027-06-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to build a compelling novel concept: turn your premise into a kicker",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         },
         {
           "@type": "WebPage",
           "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "url": "https://writequeryhook.com/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy-again"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         },
         {
           "@type": "WebPage",
           "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+          "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
         },
         {
           "@type": "WebPage",
           "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+          "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         },
         {
           "@type": "WebPage",
-          "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-          "url": "https://writequeryhook.com/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+          "name": "Book fairs vs book festivals: which event matches your goal?",
+          "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_hero_overwhelmed_confused_blog_hero_landscape_e6cdce1ce31d.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_436/how-to-copyright-a-book-and-whether-registration-is-worth-it/blog/blog_hero_overwhelmed_confused_blog_hero_landscape_e6cdce1ce31d.jpeg?updatedAt=1782222391643",
       "width": 6150,
       "height": 4755,
       "caption": "blog hero \u00b7 overwhelmed confused",
@@ -597,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#howto",
       "name": "How to copyright a book (and whether registration is worth it)",
       "description": "Copyright feels like one of those \"adulting\" tasks writers are supposed to magically know. Like, do we have to mail something? Put a symbol on a manuscript file? Hope it \"counts\" in court?",
       "totalTime": "PT7M",
@@ -607,49 +600,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Claim your rights to the work (yes, it's automatic)",
           "text": "Start by telling yourself the one thing that stops the anxiety spiral: copyright exists without you \"copyrighting\" anything first.",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-1-claim-your-rights-to-the-work-yes-it-s-automatic"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-1-claim-your-rights-to-the-work-yes-it-s-automatic"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Understand what copyright protects for authors",
           "text": "Get the boundary straight, because this is where writers accidentally think they're protected in the wrong way.",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-2-understand-what-copyright-protects-for-authors"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-2-understand-what-copyright-protects-for-authors"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Decide if registration is worth it (not because you must, because you choose)",
           "text": "Here's where it bites: writers often treat registration like a moral requirement instead of a risk decision.",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-3-decide-if-registration-is-worth-it-not-because-you-must-because-you"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-3-decide-if-registration-is-worth-it-not-because-you-must-because-you"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Start the online workflow (don't freestyle the category)",
           "text": "Now do the actual process. The fastest route is the structured online path for how to copyright a book online, compared to paper submissions (which are more expensive and slower).",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-4-start-the-online-workflow-don-t-freestyle-the-category"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-4-start-the-online-workflow-don-t-freestyle-the-category"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Complete the application details (accuracy beats speed)",
           "text": "Once you start, fill in the application details carefully. This is not the moment to guess.",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-5-complete-the-application-details-accuracy-beats-speed"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-5-complete-the-application-details-accuracy-beats-speed"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Pay, then submit the best available edition (the office wants proof)",
           "text": "After payment confirmation, you'll be prompted to submit a copy. The office requests the best edition available.",
-          "url": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-6-pay-then-submit-the-best-available-edition-the-office-wants-proof"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#step-6-pay-then-submit-the-best-available-edition-the-office-wants-proof"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-copyright-a-book-and-whether-registration-is-worth-it#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

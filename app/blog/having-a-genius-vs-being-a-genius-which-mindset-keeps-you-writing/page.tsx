@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Having a genius vs being a genius: which mindset keeps you writing?",
   "description": "Writers get hit with a weird mental problem that other professions don't usually get: success and failure both start to feel like they happen to you, not to your work. One minute you're drafting; the next minute you're staring at a reply email like it's a prophecy about your entire identity.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-11",
+  "modifiedDate": "2027-02-11",
   "canonicalUrl": "https://writequeryhook.com/blog/having-a-genius-vs-being-a-genius-which-mindset-keeps-you-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -567,6 +567,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/having-a-genius-vs-being-a-genius-which-mindset-keeps-you-writing#primaryimage"
       },
+      "datePublished": "2027-02-11",
+      "dateModified": "2027-02-11",
       "mentions": [
         {
           "@type": "WebPage",

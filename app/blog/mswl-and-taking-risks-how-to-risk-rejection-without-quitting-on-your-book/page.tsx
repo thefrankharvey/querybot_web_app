@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Mswl and taking risks: how to risk rejection without quitting on your book",
   "description": "The first time rejection hits hard, it doesn't feel like \"industry noise.\" It feels like someone closed a door and then leaned in close enough for you to hear the click.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-01",
+  "modifiedDate": "2027-04-01",
   "canonicalUrl": "https://writequeryhook.com/blog/mswl-and-taking-risks-how-to-risk-rejection-without-quitting-on-your-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -659,6 +659,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/mswl-and-taking-risks-how-to-risk-rejection-without-quitting-on-your-book#primaryimage"
       },
+      "datePublished": "2027-04-01",
+      "dateModified": "2027-04-01",
       "mentions": [
         {
           "@type": "WebPage",

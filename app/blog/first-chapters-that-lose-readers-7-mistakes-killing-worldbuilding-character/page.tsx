@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "First chapters that lose readers: 7 mistakes killing worldbuilding, character introduction, and pacing",
   "description": "TLDR",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-05",
+  "modifiedDate": "2026-11-05",
   "canonicalUrl": "https://writequeryhook.com/blog/first-chapters-that-lose-readers-7-mistakes-killing-worldbuilding-character",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -602,6 +602,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/first-chapters-that-lose-readers-7-mistakes-killing-worldbuilding-character#primaryimage"
       },
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
       "mentions": [
         {
           "@type": "WebPage",

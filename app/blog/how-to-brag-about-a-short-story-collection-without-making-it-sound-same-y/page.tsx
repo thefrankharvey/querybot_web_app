@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
   "description": "There's a myth floating around launch week that \"bragging\" is just confidence plus volume. Like: if you sound louder, the work will magically look more distinct.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
+  "publishedDate": "2027-09-20",
+  "modifiedDate": "2027-09-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_hero_myth_hype_blog_hero_landscape_f37ad8d03b53.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_hero_myth_hype_blog_hero_landscape_f37ad8d03b53.jpeg?updatedAt=1782332592776",
     "alt": "blog hero \u00b7 myth hype",
     "width": 6240,
     "height": 4160,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-      "item": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+      "item": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
     }
   ],
   "tldrBlocks": [],
@@ -127,7 +127,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_clarity_friction_blog_section_landscape_73285ccf6aa7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_clarity_friction_blog_section_landscape_73285ccf6aa7.jpeg?updatedAt=1782332593204",
         "alt": "Step 1: Give your team an actual brag target (not vibes)",
         "width": 5472,
         "height": 3648,
@@ -195,7 +195,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_distinction_sentence_craft_blog_section_landscape_ddaf6638ca90.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_distinction_sentence_craft_blog_section_landscape_ddaf6638ca90.gif?updatedAt=1782332593872",
         "alt": "Step 2: Write brag lines in two levels: one-liner + 2-sentence receipts",
         "width": 200,
         "height": 200,
@@ -295,7 +295,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_sales_call_nerves_blog_section_landscape_c51f4c0b600b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_sales_call_nerves_blog_section_landscape_c51f4c0b600b.gif?updatedAt=1782332594705",
         "alt": "Step 4: Build a tipsheet and backcover copy for sales calls",
         "width": 200,
         "height": 200,
@@ -412,32 +412,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_section_image_go_time_send_it_blog_section_landscape_92546d487682.jpeg",
-    "alt": "blog section image \u00b7 go time send it",
-    "width": 3500,
-    "height": 2690,
-    "creator": "Renee B",
-    "creatorUrl": "https://www.pexels.com/@renee-b-754610178",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-      "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
-    },
-    {
       "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
-      "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
     },
     {
       "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
+    },
+    {
+      "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     },
     {
       "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -473,12 +464,7 @@ const PAGE_DATA = {
       "text": "Do the steps in order, then revise the brag lines like you'd revise a paragraph\u2014because that's what marketing language is: craft you hand to other people and ask them to trust."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-      "url": "https://writequeryhook.com/query-letters/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -506,7 +492,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -518,31 +504,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-          "item": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+          "item": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
       "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -558,11 +544,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#article",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y",
       "headline": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
       "alternativeHeadline": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
       "description": "There's a myth floating around launch week that \"bragging\" is just confidence plus volume. Like: if you sound louder, the work will magically look more distinct.",
@@ -592,40 +578,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage"
       },
+      "datePublished": "2027-09-20",
+      "dateModified": "2027-09-20",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-          "url": "https://writequeryhook.com/query-letters/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-          "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
-        },
-        {
-          "@type": "WebPage",
           "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-          "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+          "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
+          "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         },
         {
           "@type": "WebPage",
           "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+          "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_hero_myth_hype_blog_hero_landscape_f37ad8d03b53.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_547/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y/blog/blog_hero_myth_hype_blog_hero_landscape_f37ad8d03b53.jpeg?updatedAt=1782332592776",
       "width": 6240,
       "height": 4160,
       "caption": "blog hero \u00b7 myth hype",
@@ -640,7 +623,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#howto",
       "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
       "description": "There's a myth floating around launch week that \"bragging\" is just confidence plus volume. Like: if you sound louder, the work will magically look more distinct.",
       "totalTime": "PT7M",
@@ -650,49 +633,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Give your team an actual brag target (not vibes)",
           "text": "Before anyone writes pitch language, lock a \"brag target\" document that answers one question:",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-1-give-your-team-an-actual-brag-target-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-1-give-your-team-an-actual-brag-target-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write brag lines in two levels: one-liner + 2-sentence receipts",
           "text": "Bragging isn't \"be enthusiastic.\" Bragging is concise language that holds up when a blurber asks follow-up questions.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-2-write-brag-lines-in-two-levels-one-liner-2-sentence-receipts"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-2-write-brag-lines-in-two-levels-one-liner-2-sentence-receipts"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Use cover design and preview copies as proof",
           "text": "Print a preview copy as soon as you have cover design ready. A bound preview teaches you what your message feels like in hand, showing how the cover promise and back matter work together on a physical object.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-3-use-cover-design-and-preview-copies-as-proof"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-3-use-cover-design-and-preview-copies-as-proof"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build a tipsheet and backcover copy for sales calls",
           "text": "Tipsheet and backcover copy for sales calls shouldn't begin the day before. Begin when you can still change words.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-4-build-a-tipsheet-and-backcover-copy-for-sales-calls"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-4-build-a-tipsheet-and-backcover-copy-for-sales-calls"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Pitch to blurbers with contrast, not summary",
           "text": "If you only summarize each story, you'll flatten the collection into sameness. Blurbers ask whether the work earns literary attention, not for a plot recap.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-5-pitch-to-blurbers-with-contrast-not-summary"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-5-pitch-to-blurbers-with-contrast-not-summary"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Build a sales kit for distributor representatives",
           "text": "Distributor sales reps sell in a different rhythm. They need collateral that helps them talk fast and correctly.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-6-build-a-sales-kit-for-distributor-representatives"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#step-6-build-a-sales-kit-for-distributor-representatives"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y#faq",
       "mainEntity": [
         {
           "@type": "Question",

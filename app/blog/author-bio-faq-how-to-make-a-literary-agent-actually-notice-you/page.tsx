@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author Bio FAQ: How to Make a Literary Agent Actually Notice You",
   "description": "Most query packages act like the agent is doing paperwork on a timer: query letter, pages, synopsis, repeat. Then a lot of writers throw in an author bio that reads like a r\u00e9sum\u00e9 with feelings stapled on top. And yeah, it's not fair.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-26",
+  "modifiedDate": "2026-08-26",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-faq-how-to-make-a-literary-agent-actually-notice-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -485,6 +485,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-faq-how-to-make-a-literary-agent-actually-notice-you#primaryimage"
       },
+      "datePublished": "2026-08-26",
+      "dateModified": "2026-08-26",
       "mentions": [
         {
           "@type": "WebPage",

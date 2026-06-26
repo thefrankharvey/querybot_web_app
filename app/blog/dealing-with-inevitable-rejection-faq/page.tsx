@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dealing with inevitable rejection FAQ",
   "description": "Rejection is part of querying the way silence is part of the waiting room. One minute you're feeling weirdly confident; the next minute your inbox delivers a form email that makes your stomach drop.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-18",
+  "modifiedDate": "2027-03-18",
   "canonicalUrl": "https://writequeryhook.com/blog/dealing-with-inevitable-rejection-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -474,6 +474,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dealing-with-inevitable-rejection-faq#primaryimage"
       },
+      "datePublished": "2027-03-18",
+      "dateModified": "2027-03-18",
       "mentions": [
         {
           "@type": "WebPage",

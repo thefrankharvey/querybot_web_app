@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Epilogue mistakes that turn a grace note into a patch job",
   "description": "Epilogue writers love one myth: add a few last pages and everything will feel \"resolved.\" That \"safety net\" mindset is how you get an epilogue that reads like a repair crew showing up after the finale caught fire.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-18",
+  "modifiedDate": "2026-11-18",
   "canonicalUrl": "https://writequeryhook.com/blog/epilogue-mistakes-that-turn-a-grace-note-into-a-patch-job",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -587,6 +587,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/epilogue-mistakes-that-turn-a-grace-note-into-a-patch-job#primaryimage"
       },
+      "datePublished": "2026-11-18",
+      "dateModified": "2026-11-18",
       "mentions": [
         {
           "@type": "WebPage",

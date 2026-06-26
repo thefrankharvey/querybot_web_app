@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 story opening mistakes that make your pacing feel slow (even when the plot isn't)",
   "description": "I get why this happens. You write the thing that's easy to picture: the morning. The commute. The moment your character sits and thinks. The big scary event landing like a hand on the shoulder.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-14",
+  "modifiedDate": "2026-10-14",
   "canonicalUrl": "https://writequeryhook.com/blog/5-story-opening-mistakes-that-make-your-pacing-feel-slow-even-when-the-plot",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -637,6 +637,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-story-opening-mistakes-that-make-your-pacing-feel-slow-even-when-the-plot#primaryimage"
       },
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
       "mentions": [
         {
           "@type": "WebPage",

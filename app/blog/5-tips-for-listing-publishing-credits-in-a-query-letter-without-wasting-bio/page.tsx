@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for listing publishing credits in a query letter without wasting bio space",
   "description": "Most writers don't lose query letters because their bio was \"bad.\" They lose them because the agent was trying to figure out one thing: does this manuscript hold together and look irresistible on paper?",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-21",
+  "modifiedDate": "2026-08-21",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-listing-publishing-credits-in-a-query-letter-without-wasting-bio",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -504,6 +504,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-listing-publishing-credits-in-a-query-letter-without-wasting-bio#primaryimage"
       },
+      "datePublished": "2026-08-21",
+      "dateModified": "2026-08-21",
       "mentions": [
         {
           "@type": "WebPage",

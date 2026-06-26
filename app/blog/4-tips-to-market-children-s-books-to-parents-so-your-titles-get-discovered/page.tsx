@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "4 tips to market children's books to parents (so your titles get discovered)",
   "description": "Marketing children's books isn't hard because kids are mysterious. It's hard because a lot of authors market like the reader is the kid. Then they wonder why the results feel random.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
+  "publishedDate": "2027-07-12",
+  "modifiedDate": "2027-07-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_hero_frustration_confusion_blog_hero_landscape_410fc2dc3478.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_hero_frustration_confusion_blog_hero_landscape_410fc2dc3478.jpeg",
     "alt": "blog hero \u00b7 frustration confusion",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/robert-downey-jr-sigh-confused-116a8zosxwA0SI",
-    "provider": "giphy",
+    "width": 7680,
+    "height": 5120,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "4 tips to market children's books to parents (so your titles get discovered)",
-      "item": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "item": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     }
   ],
   "tldrBlocks": [],
@@ -104,13 +104,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_relief_clarity_blog_section_landscape_789dc4169fc0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_relief_clarity_blog_section_landscape_789dc4169fc0.gif",
         "alt": "Identify the real customer: target the adult decision-maker",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Landiva  Weber",
-        "creatorUrl": "https://www.pexels.com/@diva",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "thedoveinity",
+        "creatorUrl": "https://giphy.com/gifs/thedoveinity-peace-freedom-let-go-b4Q7o880VPo0hDwRSN",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -268,7 +268,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_organized_anxious_blog_section_landscape_c7e0b37290f6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_organized_anxious_blog_section_landscape_c7e0b37290f6.gif?updatedAt=1782250027486",
         "alt": "Prepare school visits with an organized package (age range + visuals + plan)",
         "width": 358,
         "height": 200,
@@ -359,7 +359,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_measuring_roi_without_losing_your_mind_blog_section_landscape_79d17767c22e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_measuring_roi_without_losing_your_mind_blog_section_landscape_79d17767c22e.jpeg?updatedAt=1782250028477",
         "alt": "Measuring \"ROI\" without losing your mind",
         "width": 6611,
         "height": 4407,
@@ -370,32 +370,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_section_image_action_next_step_blog_section_landscape_6018f85ea4a6.jpeg",
-    "alt": "blog section image \u00b7 action next step",
-    "width": 5139,
-    "height": 3554,
-    "creator": "Magda Ehlers",
-    "creatorUrl": "https://www.pexels.com/@magda-ehlers-pexels",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-      "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     },
     {
       "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     },
     {
       "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     },
     {
-      "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+      "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -430,7 +421,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 things writers should know about Wattpad (and the future of publishing)",
-      "url": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     }
   ]
 } as const;
@@ -460,7 +451,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -472,31 +463,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "item": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+          "item": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#webpage",
-      "url": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
+      "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#webpage",
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
       "name": "4 tips to market children's books to parents (so your titles get discovered)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -512,11 +503,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#article",
+      "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#webpage"
+        "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered",
       "headline": "4 tips to market children's books to parents (so your titles get discovered)",
       "alternativeHeadline": "4 tips to market children\u2019s books to parents (so your titles get discovered)",
       "description": "Marketing children's books isn't hard because kids are mysterious. It's hard because a lot of authors market like the reader is the kid. Then they wonder why the results feel random.",
@@ -546,55 +537,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage"
+        "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage"
       },
+      "datePublished": "2027-07-12",
+      "dateModified": "2027-07-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "url": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         },
         {
           "@type": "WebPage",
           "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-          "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+          "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         },
         {
           "@type": "WebPage",
           "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
         },
         {
           "@type": "WebPage",
           "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         },
         {
           "@type": "WebPage",
-          "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+          "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_hero_frustration_confusion_blog_hero_landscape_410fc2dc3478.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered/blog/blog_hero_frustration_confusion_blog_hero_landscape_410fc2dc3478.jpeg",
+      "width": 7680,
+      "height": 5120,
       "caption": "blog hero \u00b7 frustration confusion",
-      "creditText": "Giphy",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/robert-downey-jr-sigh-confused-116a8zosxwA0SI"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#faq",
+      "@id": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered#faq",
       "mainEntity": [
         {
           "@type": "Question",

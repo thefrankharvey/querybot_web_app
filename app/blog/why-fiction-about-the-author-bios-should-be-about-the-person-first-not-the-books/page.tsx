@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Why Fiction \"About the Author\" Bios Should Be About the Person First (Not the Books)",
   "description": "The first time you write an author bio, you think the problem is \"What do I put in here?\" The real problem is \"What do I keep from turning into a soliloquy?\"",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-21",
+  "modifiedDate": "2026-08-21",
   "canonicalUrl": "https://writequeryhook.com/blog/why-fiction-about-the-author-bios-should-be-about-the-person-first-not-the-books",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -599,6 +599,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/why-fiction-about-the-author-bios-should-be-about-the-person-first-not-the-books#primaryimage"
       },
+      "datePublished": "2026-08-21",
+      "dateModified": "2026-08-21",
       "mentions": [
         {
           "@type": "WebPage",

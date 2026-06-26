@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
   "description": "A lot of aspiring writers hear \"publisher revenue\" and picture a big, clean pile of money. Like: bestseller shows up, cash pours in, author gets rich, everyone cheers.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
+  "publishedDate": "2027-08-06",
+  "modifiedDate": "2027-08-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_hero_unfair_shocked_blog_hero_landscape_b7ec0c0f047e.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_hero_unfair_shocked_blog_hero_landscape_b7ec0c0f047e.jpeg?updatedAt=1782271443324",
     "alt": "blog hero \u00b7 unfair shocked",
     "width": 5760,
     "height": 3840,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "item": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
+      "item": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     }
   ],
   "tldrBlocks": [],
@@ -157,7 +157,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_revenue_vs_profit_receipts_blog_section_landscape_cabcc2c49ca8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_revenue_vs_profit_receipts_blog_section_landscape_cabcc2c49ca8.gif?updatedAt=1782271443899",
         "alt": "Publishing economics starts with receipts, not list price",
         "width": 152,
         "height": 200,
@@ -225,7 +225,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_advance_recoupment_blog_section_landscape_4f803d73100f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_advance_recoupment_blog_section_landscape_4f803d73100f.jpeg?updatedAt=1782271444365",
         "alt": "Advance recoupment and publishing risk: who eats the losses first",
         "width": 5932,
         "height": 3729,
@@ -287,13 +287,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_marketing_costs_review_copies_blog_section_landscape_6386c492d71a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_marketing_costs_review_copies_blog_section_landscape_6386c492d71a.gif",
         "alt": "How publishers make money on books: the real sequence",
-        "width": 5184,
-        "height": 3888,
-        "creator": "Kindel Media",
-        "creatorUrl": "https://www.pexels.com/@kindelmedia",
-        "provider": "pexels",
+        "width": 234,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/review-discussions-andhrafriendscom-n4A8i9oVJDIOY",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -393,32 +393,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_section_image_fist_pump_receipts_notebook_blog_section_landscape_9f932f4adcb9.gif",
-    "alt": "blog section image \u00b7 fist pump receipts notebook",
-    "width": 267,
-    "height": 200,
-    "creator": "redbrick",
-    "creatorUrl": "https://giphy.com/gifs/redbrick-receipts-rdbrck-xc3OTAUFkT0TT5DtSv",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for are you an aspiring author: here's how to get a book published",
-      "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     },
     {
       "title": "5 basics of publishing contracts you should understand before you sign",
-      "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     },
     {
       "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     },
     {
       "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -457,7 +448,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for are you an aspiring author: here's how to get a book published",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     }
   ]
 } as const;
@@ -487,7 +478,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -499,31 +490,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "item": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
+          "item": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#webpage",
-      "url": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
+      "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#webpage",
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
       "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -539,11 +530,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#article",
+      "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#webpage"
+        "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals",
       "headline": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
       "alternativeHeadline": "Publisher revenue isn\u2019t publisher profit: the economics that make book deals feel unfair",
       "description": "A lot of aspiring writers hear \"publisher revenue\" and picture a big, clean pile of money. Like: bestseller shows up, cash pours in, author gets rich, everyone cheers.",
@@ -573,40 +564,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage"
       },
+      "datePublished": "2027-08-06",
+      "dateModified": "2027-08-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
         },
         {
           "@type": "WebPage",
           "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_hero_unfair_shocked_blog_hero_landscape_b7ec0c0f047e.jpeg",
+      "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_495/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals/blog/blog_hero_unfair_shocked_blog_hero_landscape_b7ec0c0f047e.jpeg?updatedAt=1782271443324",
       "width": 5760,
       "height": 3840,
       "caption": "blog hero \u00b7 unfair shocked",
@@ -621,7 +609,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#faq",
+      "@id": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals#faq",
       "mainEntity": [
         {
           "@type": "Question",

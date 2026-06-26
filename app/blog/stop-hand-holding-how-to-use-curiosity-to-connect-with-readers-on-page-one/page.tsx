@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Hand-Holding: How to Use Curiosity to Connect With Readers on Page One",
   "description": "Most writing advice about \"connecting with readers\" is weirdly polite. It tells you to be clearer, warmer, more engaging\u2014then it hands you a dozen gentle techniques that keep you in narrator mode.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-18",
+  "modifiedDate": "2026-12-18",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-hand-holding-how-to-use-curiosity-to-connect-with-readers-on-page-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -601,6 +601,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-hand-holding-how-to-use-curiosity-to-connect-with-readers-on-page-one#primaryimage"
       },
+      "datePublished": "2026-12-18",
+      "dateModified": "2026-12-18",
       "mentions": [
         {
           "@type": "WebPage",

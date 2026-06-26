@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dual timeline dual POV structure FAQ: how often to switch for pacing and revision",
   "description": "When writers draft multiple storylines\u2014especially dual timeline, dual POV\u2014most of the pain isn't \"bad writing.\" It's pacing. It's switch frequency. It's whether the reader gets enough time to orient, learn names, track consequences, and still feel hungry for the next thread.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-24",
+  "modifiedDate": "2026-12-24",
   "canonicalUrl": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-faq-how-often-to-switch-for-pacing-and-revision",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -500,6 +500,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-faq-how-often-to-switch-for-pacing-and-revision#primaryimage"
       },
+      "datePublished": "2026-12-24",
+      "dateModified": "2026-12-24",
       "mentions": [
         {
           "@type": "WebPage",

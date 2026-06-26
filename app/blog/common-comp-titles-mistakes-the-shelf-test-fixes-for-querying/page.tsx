@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common comp titles mistakes: the shelf-test fixes for querying",
   "description": "Querying writers obsess over comps because comps feel like a tiny, high-stakes sentence. Like one wrong pick could poison the whole submission. That fear is loud.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-11",
+  "modifiedDate": "2026-08-11",
   "canonicalUrl": "https://writequeryhook.com/blog/common-comp-titles-mistakes-the-shelf-test-fixes-for-querying",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -571,6 +571,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-comp-titles-mistakes-the-shelf-test-fixes-for-querying#primaryimage"
       },
+      "datePublished": "2026-08-11",
+      "dateModified": "2026-08-11",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common book title mistakes that quietly sabotage book marketing",
   "description": "A contrarian truth: most writers don't lose readers because the manuscript is doomed.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
+  "publishedDate": "2027-09-02",
+  "modifiedDate": "2027-09-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_hero_dread_recognition_blog_hero_landscape_b08ad30f3c87.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_hero_dread_recognition_blog_hero_landscape_b08ad30f3c87.jpeg?updatedAt=1782319188824",
     "alt": "blog hero \u00b7 dread recognition",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common book title mistakes that quietly sabotage book marketing",
-      "item": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+      "item": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +117,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_afterthought_disbelief_blog_section_landscape_1935354e18ae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_afterthought_disbelief_blog_section_landscape_1935354e18ae.gif?updatedAt=1782319190130",
         "alt": "You treat the book title like an afterthought",
         "width": 264,
         "height": 200,
@@ -170,13 +170,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_generic_jammed_blog_section_landscape_8cafae5f313d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_generic_jammed_blog_section_landscape_8cafae5f313d.jpeg",
         "alt": "You try to be unique and end up generic",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 4032,
+        "height": 3024,
+        "creator": "Phi Ph\u1ea1m",
+        "creatorUrl": "https://www.pexels.com/@phi-ph-m-184415939",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -463,7 +463,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_afterthought_disbelief_blog_section_landscape_1935354e18ae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_afterthought_disbelief_blog_section_landscape_1935354e18ae.gif?updatedAt=1782319190130",
         "alt": "You treat the book title like an afterthought",
         "width": 264,
         "height": 200,
@@ -494,43 +494,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_recap_blog_section_landscape_6bdffb544faa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_recap_blog_section_landscape_6bdffb544faa.gif",
         "alt": "Recap",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_section_image_action_draft_desk_blog_section_landscape_844f4810d5c2.jpeg",
-    "alt": "blog section image \u00b7 action draft-desk",
-    "width": 6603,
-    "height": 4402,
-    "creator": "Thirdman",
-    "creatorUrl": "https://www.pexels.com/@thirdman",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-      "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
     },
     {
       "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-      "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     },
     {
       "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-      "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     },
     {
       "title": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-      "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+      "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -569,7 +560,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
+      "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
     }
   ]
 } as const;
@@ -599,7 +590,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -611,31 +602,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common book title mistakes that quietly sabotage book marketing",
-          "item": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
+          "item": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
+      "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#webpage",
+      "url": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
       "name": "Common book title mistakes that quietly sabotage book marketing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -651,11 +642,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#article",
+      "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#webpage"
+        "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing",
       "headline": "Common book title mistakes that quietly sabotage book marketing",
       "alternativeHeadline": "Common book title mistakes that quietly sabotage book marketing",
       "description": "A contrarian truth: most writers don't lose readers because the manuscript is doomed.",
@@ -685,40 +676,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage"
       },
+      "datePublished": "2027-09-02",
+      "dateModified": "2027-09-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Podcasting for authors: 7 mistakes that make your show sound like homework (and how to fix them)",
-          "url": "https://writequeryhook.com/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/podcasting-for-authors-7-mistakes-that-make-your-show-sound-like-homework-and"
         },
         {
           "@type": "WebPage",
           "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-          "url": "https://writequeryhook.com/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to-fix-them-fast"
+          "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         },
         {
           "@type": "WebPage",
           "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-          "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+          "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
         },
         {
           "@type": "WebPage",
           "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-          "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_hero_dread_recognition_blog_hero_landscape_b08ad30f3c87.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_526/common-book-title-mistakes-that-quietly-sabotage-book-marketing/blog/blog_hero_dread_recognition_blog_hero_landscape_b08ad30f3c87.jpeg?updatedAt=1782319188824",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 dread recognition",
@@ -733,7 +721,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-book-title-mistakes-that-quietly-sabotage-book-marketing#faq",
+      "@id": "https://writequeryhook.com/blog/common-book-title-mistakes-that-quietly-sabotage-book-marketing#faq",
       "mainEntity": [
         {
           "@type": "Question",

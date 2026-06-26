@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Query Letter That Treats the \"Crime\" as Emotional Rescue",
   "description": "Most query advice talks like the premise is a neutral thing you report to a stranger.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-26",
+  "modifiedDate": "2026-07-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-query-letter-that-treats-the-crime-as-emotional-rescue",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -606,6 +606,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-query-letter-that-treats-the-crime-as-emotional-rescue#primaryimage"
       },
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
       "mentions": [
         {
           "@type": "WebPage",

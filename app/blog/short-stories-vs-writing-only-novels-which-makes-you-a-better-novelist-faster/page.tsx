@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Short stories vs writing-only novels: which makes you a better novelist faster?",
   "description": "Most writers aren\u2019t short on ideas. They\u2019re short on finished things\u2014especially when \u201cfinished\u201d means a full novel and your brain tries to treat the word count like it\u2019s a cliff.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-30",
+  "modifiedDate": "2027-01-30",
   "canonicalUrl": "https://writequeryhook.com/blog/short-stories-vs-writing-only-novels-which-makes-you-a-better-novelist-faster",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -615,6 +615,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/short-stories-vs-writing-only-novels-which-makes-you-a-better-novelist-faster#primaryimage"
       },
+      "datePublished": "2027-01-30",
+      "dateModified": "2027-01-30",
       "mentions": [
         {
           "@type": "WebPage",

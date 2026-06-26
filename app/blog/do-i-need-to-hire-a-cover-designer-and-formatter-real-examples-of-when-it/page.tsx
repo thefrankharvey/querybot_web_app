@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
   "description": "Here\u2019s the annoying part: \u201cdesign\u201d and \u201cformatting\u201d sound like one bucket. Then you talk to anyone who\u2019s ever had to ship an actual book\u2014print and ebook\u2014and you realize it\u2019s two very different jobs with two very different failure modes.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
+  "publishedDate": "2027-07-17",
+  "modifiedDate": "2027-07-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "money-saved"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_472/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it/blog/blog_hero_overwhelm_confusion_blog_hero_landscape_b250fc5b9b57.jpeg?updatedAt=1782428040124",
+    "alt": "blog hero \u00b7 overwhelm confusion",
+    "width": 6150,
+    "height": 4755,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-      "item": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
+      "item": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
     }
   ],
   "tldrBlocks": [],
@@ -322,7 +331,16 @@ const PAGE_DATA = {
           "text": "If you can\u2019t evaluate those traits yet, you\u2019re going to rely on trust and samples\u2014which is why asking for portfolio work in your genre is the right structural move."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_472/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it/blog/blog_section_image_first_impression_small_text_blog_section_landscape_b20aef597151.jpeg?updatedAt=1782428042124",
+        "alt": "Cover examples \u2014 what a \u201cgreat\u201d book cover actually does (and what it avoids)",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Ann H",
+        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_typesetting_vs_formatting",
@@ -424,7 +442,16 @@ const PAGE_DATA = {
           "text": "Also, don\u2019t ignore ebook behavior. Many DIY attempts \u201clook fine\u201d in one reading app and fall apart in another. That\u2019s formatting work, not aesthetic work."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_472/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it/blog/blog_section_image_line_by_line_widows_and_orphans_blog_section_landscape_287870b1c0b9.gif?updatedAt=1782428047128",
+        "alt": "Typesetting vs book formatting explained \u2014 where pros earn their keep",
+        "width": 296,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/waiting-in-line-on-TlK63ESygrxDgkaK9ry",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_should_premade_covers",
@@ -590,7 +617,16 @@ const PAGE_DATA = {
           "text": "(And yes, this is where money saved by DIY can disappear fast.)"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_472/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it/blog/blog_section_image_cost_stress_time_tradeoff_blog_section_landscape_63957bbf0bfc.gif?updatedAt=1782428049392",
+        "alt": "How to decide: hire or DIY (a boundary you can actually use)",
+        "width": 218,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_lessons_takeaways",
@@ -621,19 +657,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-      "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
     },
     {
       "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
     },
     {
       "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-      "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+      "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
     },
     {
-      "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-      "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+      "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -669,12 +705,7 @@ const PAGE_DATA = {
       "text": "Now go look at your manuscript files and your cover mock\u2014because this isn\u2019t an abstract choice. It\u2019s a concrete release readiness test you can pass this week."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "How to market a self-published book: 3 real-world examples you can copy",
-      "url": "https://writequeryhook.com/query-letters/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -702,7 +733,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -714,28 +745,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
-          "item": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
+          "item": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#webpage",
-      "url": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
+      "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#webpage",
+      "url": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
       "name": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -751,11 +785,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#article",
+      "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#webpage"
+        "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it",
       "headline": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
       "alternativeHeadline": "Do I need to hire a cover designer and formatter? Real examples of when it saves you time (and when it doesn\u2019t)",
       "description": "Here\u2019s the annoying part: \u201cdesign\u201d and \u201cformatting\u201d sound like one bucket. Then you talk to anyone who\u2019s ever had to ship an actual book\u2014print and ebook\u2014and you realize it\u2019s two very different jobs with two very different failure modes.",
@@ -784,38 +818,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#primaryimage"
+      },
+      "datePublished": "2027-07-17",
+      "dateModified": "2027-07-17",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How to market a self-published book: 3 real-world examples you can copy",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-a-self-published-book-3-real-world-examples-you-can-copy"
-        },
-        {
-          "@type": "WebPage",
           "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-          "url": "https://writequeryhook.com/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights-checklist-with-examples"
+          "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
         },
         {
           "@type": "WebPage",
           "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
         },
         {
           "@type": "WebPage",
           "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-          "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+          "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
         },
         {
           "@type": "WebPage",
-          "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-          "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+          "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
+          "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_472/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it/blog/blog_hero_overwhelm_confusion_blog_hero_landscape_b250fc5b9b57.jpeg?updatedAt=1782428040124",
+      "width": 6150,
+      "height": 4755,
+      "caption": "blog hero \u00b7 overwhelm confusion",
+      "creditText": "Andrea Piacquadio",
+      "author": {
+        "@type": "Person",
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#faq",
+      "@id": "https://writequeryhook.com/blog/do-i-need-to-hire-a-cover-designer-and-formatter-real-examples-of-when-it#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "When unagented submission is smart: the editor-interest + niche-fit test",
   "description": "The standard advice says unagented submission is a dumb idea. Which is funny, because the publishing world is built on exceptions. The problem isn't that the advice is \"wrong.\" The problem is that it's lazy.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
+  "publishedDate": "2027-08-19",
+  "modifiedDate": "2027-08-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_hero_contrarian_dread_blog_hero_landscape_650adcd7ac01.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_hero_contrarian_dread_blog_hero_landscape_650adcd7ac01.jpeg",
     "alt": "blog hero \u00b7 contrarian dread",
-    "width": 226,
-    "height": 200,
-    "creator": "theinnernette",
-    "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "item": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "item": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     }
   ],
   "tldrBlocks": [],
@@ -94,13 +94,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_tldr_blog_section_landscape_c4437b89eadd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_tldr_blog_section_landscape_c4437b89eadd.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -277,7 +277,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_fear_lockout_blog_section_landscape_4ae2ac0f3a7a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_fear_lockout_blog_section_landscape_4ae2ac0f3a7a.jpeg?updatedAt=1782315312895",
         "alt": "Unagented submission is risk math, not moral character",
         "width": 6573,
         "height": 4382,
@@ -425,7 +425,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_transition_transparency_blog_section_landscape_2dba0ae8549c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_transition_transparency_blog_section_landscape_2dba0ae8549c.gif?updatedAt=1782315313492",
         "alt": "From unagented to agented: the transition plan that won't blow it up",
         "width": 234,
         "height": 200,
@@ -436,32 +436,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_section_image_deep_breath_cursor_blinking_blog_section_landscape_88103969b0d5.jpeg",
-    "alt": "blog section image \u00b7 deep breath cursor blinking",
-    "width": 3300,
-    "height": 2200,
-    "creator": "\u0110\u1eb7ng Th\u1ea3o",
-    "creatorUrl": "https://www.pexels.com/@d-ng-th-o-363028615",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     },
     {
       "title": "5 tips for building your author platform without growing a Twitter following",
-      "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     },
     {
       "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     },
     {
-      "title": "How to emotionally move your readers (so they recommend and talk)",
-      "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+      "title": "5 things literary agents actually do (from submissions to contracts)",
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -504,7 +495,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     }
   ]
 } as const;
@@ -534,7 +525,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -546,31 +537,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "item": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "item": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#webpage",
-      "url": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
+      "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#webpage",
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
       "name": "When unagented submission is smart: the editor-interest + niche-fit test",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -586,11 +577,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#article",
+      "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#webpage"
+        "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test",
       "headline": "When unagented submission is smart: the editor-interest + niche-fit test",
       "alternativeHeadline": "When unagented submission is smart: the editor-interest + niche-fit test",
       "description": "The standard advice says unagented submission is a dumb idea. Which is funny, because the publishing world is built on exceptions. The problem isn't that the advice is \"wrong.\" The problem is that it's lazy.",
@@ -620,55 +611,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage"
       },
+      "datePublished": "2027-08-19",
+      "dateModified": "2027-08-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for building your author platform without growing a Twitter following",
-          "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         },
         {
           "@type": "WebPage",
           "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+          "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
         },
         {
           "@type": "WebPage",
-          "name": "How to emotionally move your readers (so they recommend and talk)",
-          "url": "https://writequeryhook.com/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
+          "name": "5 things literary agents actually do (from submissions to contracts)",
+          "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_hero_contrarian_dread_blog_hero_landscape_650adcd7ac01.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_509/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test/blog/blog_hero_contrarian_dread_blog_hero_landscape_650adcd7ac01.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 contrarian dread",
-      "creditText": "theinnernette",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "theinnernette",
-        "url": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#faq",
+      "@id": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test#faq",
       "mainEntity": [
         {
           "@type": "Question",

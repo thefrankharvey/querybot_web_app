@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Difference between a beta reader and a developmental editor feedback (and what you need before you pay)",
   "description": "The moment you start shopping for \"feedback,\" you hit a stupid little trap: everyone uses familiar words\u2014beta, developmental, editor, coach\u2014while quietly meaning different scopes. It's like standing in front of a menu where \"soup\" could mean broth, stew, or a glass of hot water with a garnish.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-05",
+  "modifiedDate": "2026-09-05",
   "canonicalUrl": "https://writequeryhook.com/blog/difference-between-a-beta-reader-and-a-developmental-editor-feedback-and-what",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -558,6 +558,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/difference-between-a-beta-reader-and-a-developmental-editor-feedback-and-what#primaryimage"
       },
+      "datePublished": "2026-09-05",
+      "dateModified": "2026-09-05",
       "mentions": [
         {
           "@type": "WebPage",

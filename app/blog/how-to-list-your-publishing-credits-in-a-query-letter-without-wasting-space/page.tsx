@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to list your publishing credits in a query letter (without wasting space)",
   "description": "A lot of writers get weirdly loyal to their publishing credits. Like the agent is going to pass on a strong manuscript because you didn\u2019t paste your CV neatly enough into a query letter.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-18",
+  "modifiedDate": "2026-08-18",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-list-your-publishing-credits-in-a-query-letter-without-wasting-space",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -646,6 +646,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-list-your-publishing-credits-in-a-query-letter-without-wasting-space#primaryimage"
       },
+      "datePublished": "2026-08-18",
+      "dateModified": "2026-08-18",
       "mentions": [
         {
           "@type": "WebPage",

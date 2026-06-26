@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Imposter syndrome after acceptance: how to stop treating your wins like a temporary glitch",
   "description": "You get accepted. People congratulate you. Your calendar finally breathes.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-01",
+  "modifiedDate": "2027-03-01",
   "canonicalUrl": "https://writequeryhook.com/blog/imposter-syndrome-after-acceptance-how-to-stop-treating-your-wins-like-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -603,6 +603,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/imposter-syndrome-after-acceptance-how-to-stop-treating-your-wins-like-a#primaryimage"
       },
+      "datePublished": "2027-03-01",
+      "dateModified": "2027-03-01",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
   "description": "When your project gets acquired, you expect the \"writing part\" to end. Instead, the process quietly turns into a timeline of edits, questionnaires, handoffs, and production meetings\u2014while everyone acts like marketing will just magically happen later. It won't.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
+  "publishedDate": "2027-05-23",
+  "modifiedDate": "2027-05-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_hero_dread_uncertainty_blog_hero_landscape_3097ab762bd7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_hero_dread_uncertainty_blog_hero_landscape_3097ab762bd7.jpeg?updatedAt=1782169495958",
     "alt": "blog hero \u00b7 dread uncertainty",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "item": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
+      "item": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
     }
   ],
   "tldrBlocks": [],
@@ -272,13 +272,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_project_manager_team_blog_section_landscape_8feea033c17d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_project_manager_team_blog_section_landscape_8feea033c17d.gif",
         "alt": "Step 4: Work with your project manager on promo opportunities and reviews",
-        "width": 5760,
-        "height": 3840,
-        "creator": "Gustavo Fring",
-        "creatorUrl": "https://www.pexels.com/@gustavo-fring",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/Yavo0SXhZYhSo",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -335,7 +335,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_ideas_angles_blog_section_landscape_0381e6d81d5e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_ideas_angles_blog_section_landscape_0381e6d81d5e.jpeg?updatedAt=1782169497098",
         "alt": "Step 5: Contribute marketing ideas your editor might not think of",
         "width": 6000,
         "height": 4000,
@@ -397,7 +397,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_nervousness_practice_blog_section_landscape_a5d5667f0f7d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_nervousness_practice_blog_section_landscape_a5d5667f0f7d.gif?updatedAt=1782169498082",
         "alt": "Step 6: Build social media confidence with low-pressure practice",
         "width": 200,
         "height": 200,
@@ -453,32 +453,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_section_image_momentum_relief_blog_section_landscape_3e41f1ed5d11.gif",
-    "alt": "blog section image \u00b7 momentum relief",
-    "width": 330,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/relief-z23hGvopHu7w4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-      "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+      "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
     },
     {
       "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+      "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
     },
     {
       "title": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-      "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+      "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
     },
     {
-      "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+      "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -513,7 +504,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     }
   ]
 } as const;
@@ -543,7 +534,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -555,31 +546,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "item": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
+          "item": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
       "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -595,11 +586,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#article",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline",
       "headline": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
       "alternativeHeadline": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
       "description": "When your project gets acquired, you expect the \"writing part\" to end. Instead, the process quietly turns into a timeline of edits, questionnaires, handoffs, and production meetings\u2014while everyone acts like marketing will just magically happen later. It won't.",
@@ -629,40 +620,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage"
       },
+      "datePublished": "2027-05-23",
+      "dateModified": "2027-05-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         },
         {
           "@type": "WebPage",
           "name": "How to Manage Long Submissions as an Agent Author Creative Team (Without Quitting Too Soon)",
-          "url": "https://writequeryhook.com/how-to-manage-long-submissions-as-an-agent-author-creative-team-without-quitting-too-soon"
+          "url": "https://writequeryhook.com/blog/how-to-manage-long-submissions-as-an-agent-author-creative-team-without"
         },
         {
           "@type": "WebPage",
           "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+          "url": "https://writequeryhook.com/blog/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type"
         },
         {
           "@type": "WebPage",
           "name": "Manuscript critique vs doing nothing vs \"fix it all\": the dangerous side effects (and the sane alternative)",
-          "url": "https://writequeryhook.com/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects-and-the-sane-alternative"
+          "url": "https://writequeryhook.com/blog/manuscript-critique-vs-doing-nothing-vs-fix-it-all-the-dangerous-side-effects"
         },
         {
           "@type": "WebPage",
-          "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other-alternatives"
+          "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+          "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_hero_dread_uncertainty_blog_hero_landscape_3097ab762bd7.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_408/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline/blog/blog_hero_dread_uncertainty_blog_hero_landscape_3097ab762bd7.jpeg?updatedAt=1782169495958",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread uncertainty",
@@ -677,7 +670,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#howto",
       "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
       "description": "When your project gets acquired, you expect the \"writing part\" to end. Instead, the process quietly turns into a timeline of edits, questionnaires, handoffs, and production meetings\u2014while everyone acts like marketing will just magically happen later. It won't.",
       "totalTime": "PT7M",
@@ -687,56 +680,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Figure out the timeline and your handoff points",
           "text": "Before you chase marketing \"tips,\" chase clarity. Ask (or confirm in your welcome email) what the next phase is, who your primary contact is, and what the handoffs look like.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-1-figure-out-the-timeline-and-your-handoff-points"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-1-figure-out-the-timeline-and-your-handoff-points"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Complete the author questionnaire like it affects marketing because it does",
           "text": "Most authors treat the author questionnaire like admin paperwork. Don't.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-2-complete-the-author-questionnaire-like-it-affects-marketing-because-it"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-2-complete-the-author-questionnaire-like-it-affects-marketing-because-it"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Prepare for developmental revisions without losing the marketing thread",
           "text": "Developmental revisions can be one round or multiple rounds depending on scope. That changes timing, which changes marketing timing. Stop mentally separating \"craft\" from \"marketing.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-3-prepare-for-developmental-revisions-without-losing-the-marketing-thread"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-3-prepare-for-developmental-revisions-without-losing-the-marketing-thread"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Work with your project manager on promo opportunities and reviews",
           "text": "Once production begins, your primary point of contact shifts to the production workflow\u2014usually a project manager coordinating a team. They organize the production team, identify people who may write promotional blurbs or reviews, and coordinate marketing-related deadlines around your availability.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-4-work-with-your-project-manager-on-promo-opportunities-and-reviews"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-4-work-with-your-project-manager-on-promo-opportunities-and-reviews"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Contribute marketing ideas your editor might not think of",
           "text": "Editors and managers are focused on editorial and logistical priorities. You can add the human texture marketing needs: contacts, access, and direction.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-5-contribute-marketing-ideas-your-editor-might-not-think-of"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-5-contribute-marketing-ideas-your-editor-might-not-think-of"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Build social media confidence with low-pressure practice",
           "text": "Many authors worry they \"aren't good\" at marketing or social media. They imagine oversaturated broadcasts and public embarrassment.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-6-build-social-media-confidence-with-low-pressure-practice"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-6-build-social-media-confidence-with-low-pressure-practice"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Engage readers during book launch without broadcasting like everyone else",
           "text": "Launch is where writers often get tempted to spam the timeline: \"My book is out!\" \"New blog post!\" \"Buy now!\" That approach reads like noise.",
-          "url": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-7-engage-readers-during-book-launch-without-broadcasting-like-everyone-else"
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#step-7-engage-readers-during-book-launch-without-broadcasting-like-everyone-else"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline#faq",
       "mainEntity": [
         {
           "@type": "Question",

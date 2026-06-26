@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
   "description": "You want to publish short stories. Great. The part that keeps wrecking people isn\u2019t talent\u2014it\u2019s route choice, expectations, and the credibility ladder.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
+  "publishedDate": "2027-08-10",
+  "modifiedDate": "2027-08-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_hero_frustration_dread_blog_hero_landscape_077badd54857.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_hero_frustration_dread_blog_hero_landscape_077badd54857.jpeg",
     "alt": "blog hero \u00b7 frustration dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abc-a-million-little-things-lwrovnxphMbYJMhr0K",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Ketut Subiyanto",
+    "creatorUrl": "https://www.pexels.com/@ketut-subiyanto",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+      "item": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
     }
   ],
   "tldrBlocks": [],
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_gatekeeping_rejection_blog_section_landscape_a662c5325491.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_gatekeeping_rejection_blog_section_landscape_a662c5325491.gif",
         "alt": "You're treating a short story collection pitch like it should win on strength alone",
-        "width": 6000,
-        "height": 4000,
-        "creator": "alleksana",
-        "creatorUrl": "https://www.pexels.com/@alleksana",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "myemotionalsupportanimal",
+        "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-denied-rejected-not-on-the-list-eROyQirLbyuNxioHKh",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -207,7 +207,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_confusion_indecision_blog_section_landscape_686c537826e0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_confusion_indecision_blog_section_landscape_686c537826e0.gif?updatedAt=1782274040271",
         "alt": "You're ignoring the traditional vs self-publishing split when your goals are modest",
         "width": 200,
         "height": 200,
@@ -390,7 +390,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_messy_draft_credibility_gap_blog_section_landscape_053d11b063b5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_messy_draft_credibility_gap_blog_section_landscape_053d11b063b5.jpeg?updatedAt=1782274040925",
         "alt": "You're overstuffing your project (or submitting unready material) because you hate rejection",
         "width": 3500,
         "height": 2333,
@@ -415,32 +415,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_section_image_relief_action_blog_section_landscape_be0e7e975d02.jpeg",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 8179,
-    "height": 5455,
-    "creator": "Calvin Seng",
-    "creatorUrl": "https://www.pexels.com/@calvinseng",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "6 small press mistakes that quietly wreck your publishing odds",
-      "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     },
     {
       "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-      "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     },
     {
       "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     },
     {
-      "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+      "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -479,7 +470,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+      "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
     }
   ]
 } as const;
@@ -509,7 +500,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -521,31 +512,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
+          "item": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
+      "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#webpage",
+      "url": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
       "name": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -561,11 +552,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#article",
+      "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#webpage"
+        "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and",
       "headline": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
       "alternativeHeadline": "Five short story publishing mistakes that block first-time collections (and what to do instead)",
       "description": "You want to publish short stories. Great. The part that keeps wrecking people isn\u2019t talent\u2014it\u2019s route choice, expectations, and the credibility ladder.",
@@ -595,55 +586,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage"
       },
+      "datePublished": "2027-08-10",
+      "dateModified": "2027-08-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Breaking down small press publishing: what it is, when to submit, and what you're trading",
-          "url": "https://writequeryhook.com/query-letters/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
+          "url": "https://writequeryhook.com/blog/breaking-down-small-press-publishing-what-it-is-when-to-submit-and-what-you-re"
         },
         {
           "@type": "WebPage",
           "name": "6 small press mistakes that quietly wreck your publishing odds",
-          "url": "https://writequeryhook.com/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+          "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-          "url": "https://writequeryhook.com/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and-overcontracted"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
         },
         {
           "@type": "WebPage",
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         },
         {
           "@type": "WebPage",
-          "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+          "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_hero_frustration_dread_blog_hero_landscape_077badd54857.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_499/five-short-story-publishing-mistakes-that-block-first-time-collections-and/blog/blog_hero_frustration_dread_blog_hero_landscape_077badd54857.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 frustration dread",
-      "creditText": "abcnetwork",
+      "creditText": "Ketut Subiyanto",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abc-a-million-little-things-lwrovnxphMbYJMhr0K"
+        "name": "Ketut Subiyanto",
+        "url": "https://www.pexels.com/@ketut-subiyanto"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/five-short-story-publishing-mistakes-that-block-first-time-collections-and#faq",
+      "@id": "https://writequeryhook.com/blog/five-short-story-publishing-mistakes-that-block-first-time-collections-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

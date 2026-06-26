@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Basic pitch formula for novelists: one-sentence vs wants/why/blocks vs three-part alternatives",
   "description": "Writers come to pitching like it's a writing problem. It's not. You're staring at a novel that's finished enough to submit, but when you try to summarize it for an agent, the words either get swallowed by backstory, sprawl into a cast list, or both. Then the query letter pitch turns into a polite apology instead of an irresistible premise.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-24",
+  "modifiedDate": "2026-07-24",
   "canonicalUrl": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-one-sentence-vs-wants-why-blocks-vs-three",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -629,6 +629,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-one-sentence-vs-wants-why-blocks-vs-three#primaryimage"
       },
+      "datePublished": "2026-07-24",
+      "dateModified": "2026-07-24",
       "mentions": [
         {
           "@type": "WebPage",

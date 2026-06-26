@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
   "description": "Googling \"Amazon algorithms\" and feeling your brain melt at the idea of optimizing something you can't see? That's the starting point for most authors. The generic advice treats \"the algorithm\" like one magical switch\u2014flip it, ranking happens.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
+  "publishedDate": "2027-09-13",
+  "modifiedDate": "2027-09-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_hero_panic_blank_page_dread_blog_hero_landscape_7759a8c31843.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_hero_panic_blank_page_dread_blog_hero_landscape_7759a8c31843.jpeg",
     "alt": "blog hero \u00b7 panic blank-page dread",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-      "item": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
+      "item": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
     }
   ],
   "tldrBlocks": [],
@@ -232,7 +232,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_scrutinizing_math_anxiety_blog_section_landscape_84ba7df132d2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_scrutinizing_math_anxiety_blog_section_landscape_84ba7df132d2.jpeg?updatedAt=1782332294666",
         "alt": "You're ignoring sales conversion vs page visits Amazon ranking",
         "width": 6720,
         "height": 4480,
@@ -278,7 +278,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_facepalm_indexing_blog_section_landscape_e9de732beb54.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_facepalm_indexing_blog_section_landscape_e9de732beb54.gif?updatedAt=1782332295336",
         "alt": "You're leaving metadata to guesswork",
         "width": 226,
         "height": 200,
@@ -414,13 +414,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_heavy_sigh_domino_effect_blog_section_landscape_8737ecccd446.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_heavy_sigh_domino_effect_blog_section_landscape_8737ecccd446.gif",
         "alt": "You're making one tweak and hoping it helps everywhere",
-        "width": 5927,
-        "height": 3951,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -443,32 +443,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_section_image_hands_on_hips_stubborn_optimism_blog_section_landscape_c5c7c40ccfda.jpeg",
-    "alt": "blog section image \u00b7 hands on hips stubborn optimism",
-    "width": 6720,
-    "height": 4480,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 author branding mistakes that make readers bounce before they read",
-      "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
-    },
-    {
-      "title": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-      "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+      "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
     },
     {
       "title": "How to build a marketing plan that actually targets readers (not vibes)",
-      "url": "https://writequeryhook.com/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
     },
     {
-      "title": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-      "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
+      "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+    },
+    {
+      "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -482,7 +473,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-      "url": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
+      "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
     }
   ]
 } as const;
@@ -512,7 +503,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -524,31 +515,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
-          "item": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
+          "item": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#webpage",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#webpage",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
       "name": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -564,11 +555,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#article",
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#webpage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm",
       "headline": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
       "alternativeHeadline": "Amazon algorithms: 7 common mistakes authors make when they treat \"the algorithm\" like one thing",
       "description": "Googling \"Amazon algorithms\" and feeling your brain melt at the idea of optimizing something you can't see? That's the starting point for most authors. The generic advice treats \"the algorithm\" like one magical switch\u2014flip it, ranking happens.",
@@ -598,48 +589,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage"
+        "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage"
       },
+      "datePublished": "2027-09-13",
+      "dateModified": "2027-09-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-          "url": "https://writequeryhook.com/query-letters/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
+          "url": "https://writequeryhook.com/blog/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self"
         },
         {
           "@type": "WebPage",
           "name": "7 author branding mistakes that make readers bounce before they read",
-          "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Ooligan is paying it forward: turning publishing knowledge into submissions writers can actually use",
-          "url": "https://writequeryhook.com/ooligan-is-paying-it-forward-turning-publishing-knowledge-into-submissions-writers-can-actually-use"
+          "url": "https://writequeryhook.com/blog/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
         },
         {
           "@type": "WebPage",
           "name": "How to build a marketing plan that actually targets readers (not vibes)",
-          "url": "https://writequeryhook.com/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-marketing-plan-that-actually-targets-readers-not-vibes"
         },
         {
           "@type": "WebPage",
-          "name": "Ooligans' new rights department: turning early subsidiary rights into a real publishing pipeline",
-          "url": "https://writequeryhook.com/ooligans-new-rights-department-turning-early-subsidiary-rights-into-a-real-publishing-pipeline"
+          "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
+          "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
+          "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_hero_panic_blank_page_dread_blog_hero_landscape_7759a8c31843.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_540/amazon-algorithms-7-common-mistakes-authors-make-when-they-treat-the-algorithm/blog/blog_hero_panic_blank_page_dread_blog_hero_landscape_7759a8c31843.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 panic blank-page dread",
-      "creditText": "trt_network",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "trt_network",
-        "url": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     }

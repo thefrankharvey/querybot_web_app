@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
   "description": "Writers hear \"IP work\" and assume it's either magic\u2014some secret handshake\u2014or impossible unless you're already in the industry. Usually it's neither. IP publishing is just publishing inside someone else's established boundaries, and the job gets commissioned when an editor believes you can deliver the story (or expertise) in the right voice, on the right timeline.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
+  "publishedDate": "2027-06-05",
+  "modifiedDate": "2027-06-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_hero_confusion_blank_page_blog_hero_landscape_28988f5fc532.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_hero_confusion_blank_page_blog_hero_landscape_28988f5fc532.jpeg?updatedAt=1782198059964",
     "alt": "blog hero \u00b7 confusion blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
+      "item": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
     }
   ],
   "tldrBlocks": [],
@@ -114,13 +114,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_clarity_definitions_blog_section_landscape_397c94bdf5a7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_clarity_definitions_blog_section_landscape_397c94bdf5a7.gif",
         "alt": "Step 1: Define IP (intellectual property) in publishing terms first",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Nothing Ahead",
-        "creatorUrl": "https://www.pexels.com/@ian-panelo",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "robertkennedyjr",
+        "creatorUrl": "https://giphy.com/gifs/robertkennedyjr-be-clear-certain-HGVnD8tPOkiGaUnsvM",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -164,7 +164,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_recognition_radar_blog_section_landscape_14dc3e4fe02d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_recognition_radar_blog_section_landscape_14dc3e4fe02d.gif?updatedAt=1782198062108",
         "alt": "Step 2: Learn how IP commissions happen (IP publishing isn't one door)",
         "width": 400,
         "height": 200,
@@ -210,7 +210,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_anxiety_improvise_blog_section_landscape_5ea6ee7bd346.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_anxiety_improvise_blog_section_landscape_5ea6ee7bd346.jpeg?updatedAt=1782198062678",
         "alt": "Step 3: Get on editors' radar for major established franchises",
         "width": 5172,
         "height": 3108,
@@ -365,32 +365,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_section_image_action_send_it_blog_section_landscape_3048e8ef9523.gif",
-    "alt": "blog section image \u00b7 action send it",
-    "width": 200,
-    "height": 200,
-    "creator": "EspinafreAlfredo",
-    "creatorUrl": "https://giphy.com/gifs/umamusume-uma-musume-transcend-SLST9TWmD1MQ6PCehA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-      "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
-    },
-    {
-      "title": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-      "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     },
     {
       "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-      "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+      "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
     },
     {
       "title": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-      "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+      "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+    },
+    {
+      "title": "Inside a book edit: what really happens (FAQ)",
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -425,7 +416,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-      "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     }
   ]
 } as const;
@@ -455,7 +446,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -467,31 +458,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
+          "item": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
       "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -507,11 +498,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches",
       "headline": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
       "alternativeHeadline": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
       "description": "Writers hear \"IP work\" and assume it's either magic\u2014some secret handshake\u2014or impossible unless you're already in the industry. Usually it's neither. IP publishing is just publishing inside someone else's established boundaries, and the job gets commissioned when an editor believes you can deliver the story (or expertise) in the right voice, on the right timeline.",
@@ -541,40 +532,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage"
       },
+      "datePublished": "2027-06-05",
+      "dateModified": "2027-06-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
-          "url": "https://writequeryhook.com/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Publish Your First Book: Fiction Can't Skip the Finished Manuscript (FAQs Turn Into Steps)",
-          "url": "https://writequeryhook.com/how-to-publish-your-first-book-fiction-can-t-skip-the-finished-manuscript-faqs-turn-into-steps"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
         },
         {
           "@type": "WebPage",
           "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-          "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+          "url": "https://writequeryhook.com/blog/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the"
         },
         {
           "@type": "WebPage",
           "name": "Professional editor vs DIY alternatives: what actually gets your book ready to sell",
-          "url": "https://writequeryhook.com/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to-sell"
+          "url": "https://writequeryhook.com/blog/professional-editor-vs-diy-alternatives-what-actually-gets-your-book-ready-to"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Inside a book edit: what really happens (FAQ)",
+          "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_hero_confusion_blank_page_blog_hero_landscape_28988f5fc532.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_422/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches/blog/blog_hero_confusion_blank_page_blog_hero_landscape_28988f5fc532.jpeg?updatedAt=1782198059964",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 confusion blank page",
@@ -589,7 +577,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#howto",
       "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
       "description": "Writers hear \"IP work\" and assume it's either magic\u2014some secret handshake\u2014or impossible unless you're already in the industry. Usually it's neither. IP publishing is just publishing inside someone else's established boundaries, and the job gets commissioned when an editor believes you can deliver the story (or expertise) in the right voice, on the right timeline.",
       "totalTime": "PT7M",
@@ -599,49 +587,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define IP (intellectual property) in publishing terms first",
           "text": "Before you pitch anything, get the basics straight: intellectual property means someone else owns the idea/world, and you write inside the rules of that ownership. In practice, that can look like:",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-1-define-ip-intellectual-property-in-publishing-terms-first"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-1-define-ip-intellectual-property-in-publishing-terms-first"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Learn how IP commissions happen (IP publishing isn't one door)",
           "text": "IP doesn't get commissioned the same way every time, but the pattern is consistent:",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-2-learn-how-ip-commissions-happen-ip-publishing-isn-t-one-door"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-2-learn-how-ip-commissions-happen-ip-publishing-isn-t-one-door"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Get on editors' radar for major established franchises",
           "text": "If you're not \"already in the industry,\" you still have options\u2014but you need a visibility plan that doesn't rely on luck.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-3-get-on-editors-radar-for-major-established-franchises"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-3-get-on-editors-radar-for-major-established-franchises"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build your IP pitch packet like a meet-the-author adult",
           "text": "When someone says they might pitch you, assume you'll be asked for an \"IP meet the author\" packet. Hand them proof of execution, not story ideas meant to redirect the IP's creative vision.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-4-build-your-ip-pitch-packet-like-a-meet-the-author-adult"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-4-build-your-ip-pitch-packet-like-a-meet-the-author-adult"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Match your writing samples to what IP actually needs",
           "text": "Samples aren't just \"writing.\" They're your evidence that you understand how the story/world/brand promise feels on the page.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-5-match-your-writing-samples-to-what-ip-actually-needs"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-5-match-your-writing-samples-to-what-ip-actually-needs"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Verify what compensation and timelines look like before you commit",
           "text": "Here's the hard truth: IP work can change the rules on pay and deadlines\u2014confirm terms before you commit. It can involve flat fees or work-for-hire arrangements instead of traditional royalties. The publisher is buying a finished piece on a schedule, not bankrolling your backlist.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-6-verify-what-compensation-and-timelines-look-like-before-you-commit"
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#step-6-verify-what-compensation-and-timelines-look-like-before-you-commit"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches#faq",
       "mainEntity": [
         {
           "@type": "Question",

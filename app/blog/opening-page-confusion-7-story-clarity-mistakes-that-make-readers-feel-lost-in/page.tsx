@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Opening page confusion: 7 story clarity mistakes that make readers feel lost in chapter one",
   "description": "If your opening feels confusing, your first instinct is usually \"My writing isn't good enough.\" I get it. But the reader meeting your story on page one cares about one thing: whether they can follow what's happening. They're not judging your talent.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-30",
+  "modifiedDate": "2026-11-30",
   "canonicalUrl": "https://writequeryhook.com/blog/opening-page-confusion-7-story-clarity-mistakes-that-make-readers-feel-lost-in",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -700,6 +700,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/opening-page-confusion-7-story-clarity-mistakes-that-make-readers-feel-lost-in#primaryimage"
       },
+      "datePublished": "2026-11-30",
+      "dateModified": "2026-11-30",
       "mentions": [
         {
           "@type": "WebPage",

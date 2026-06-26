@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
   "description": "The fastest way to sabotage your book's timeline is to believe publishing is a straight line: contract \u2192 editing \u2192 done \u2192 shelves. Cute idea. Wrong.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
+  "publishedDate": "2027-07-02",
+  "modifiedDate": "2027-07-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "nerves"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to/blog/blog_hero_recognition_confusion_blog_hero_landscape_b9677829eef0.jpeg?updatedAt=1782428065410",
+    "alt": "blog hero \u00b7 recognition confusion",
+    "width": 4500,
+    "height": 2531,
+    "creator": "crazy motions",
+    "creatorUrl": "https://www.pexels.com/@crazy-motions-80195021",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "item": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
+      "item": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     }
   ],
   "tldrBlocks": [],
@@ -214,7 +223,16 @@ const PAGE_DATA = {
           "text": "Concrete example: you treat the editor's notes as suggestions and polish prose without adjusting structure because you didn't ask whether they expect line-level work or broader guidance. The result is another round, pushing everything downstream."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to/blog/blog_section_image_anxiety_uncertainty_blog_section_landscape_24c497d722d9.jpeg?updatedAt=1782428066028",
+        "alt": "You wait for the editor to explain everything",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_launch_meeting_is_just_a_formality",
@@ -284,7 +302,16 @@ const PAGE_DATA = {
           "text": "Concrete example: you approve a jacket concept late, then ask for a different tone after design is already proofed. Now **production** repeats rounds of layout and proofing, and your **on-sale** date pays the price."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to/blog/blog_section_image_fist_pump_ownership_blog_section_landscape_e10d61ca127c.gif?updatedAt=1782428066635",
+        "alt": "You treat cover approval as \"pick a picture and move on\"",
+        "width": 239,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/judd-nelson-breakfast-club-2hCmyEiGn9zkQ",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_production_proofs_are_optional",
@@ -354,7 +381,16 @@ const PAGE_DATA = {
           "text": "\"On-sale day marks when the months of planning finally show up at retail.\""
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to/blog/blog_section_image_hopeful_relief_blog_section_landscape_e4cc78731708.gif?updatedAt=1782428067763",
+        "alt": "You wait until on-sale to build reader excitement",
+        "width": 356,
+        "height": 200,
+        "creator": "AppleTV",
+        "creatorUrl": "https://giphy.com/gifs/AppleTVPlus-apple-tv-app-JlZl2fuPSrphVtRPeZ",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_recap",
@@ -375,19 +411,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     },
     {
       "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     },
     {
       "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     },
     {
-      "title": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-      "url": "https://writequeryhook.com/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
+      "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -426,7 +462,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "url": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     }
   ]
 } as const;
@@ -456,7 +492,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,28 +504,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "item": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
+          "item": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
       "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -505,11 +544,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#article",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to",
       "headline": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
       "alternativeHeadline": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
       "description": "The fastest way to sabotage your book's timeline is to believe publishing is a straight line: contract \u2192 editing \u2192 done \u2192 shelves. Cute idea. Wrong.",
@@ -538,38 +577,58 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#primaryimage"
+      },
+      "datePublished": "2027-07-02",
+      "dateModified": "2027-07-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "url": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+          "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
         },
         {
           "@type": "WebPage",
           "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "url": "https://writequeryhook.com/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that-don-t"
+          "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         },
         {
           "@type": "WebPage",
-          "name": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-          "url": "https://writequeryhook.com/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
+          "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to/blog/blog_hero_recognition_confusion_blog_hero_landscape_b9677829eef0.jpeg?updatedAt=1782428065410",
+      "width": 4500,
+      "height": 2531,
+      "caption": "blog hero \u00b7 recognition confusion",
+      "creditText": "crazy motions",
+      "author": {
+        "@type": "Person",
+        "name": "crazy motions",
+        "url": "https://www.pexels.com/@crazy-motions-80195021"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to#faq",
       "mainEntity": [
         {
           "@type": "Question",

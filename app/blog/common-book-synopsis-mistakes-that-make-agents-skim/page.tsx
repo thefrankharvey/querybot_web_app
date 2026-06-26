@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common book synopsis mistakes that make agents skim",
   "description": "The book synopsis request has a special kind of dread because it's the one part of your query package where word count is merciless and missteps feel permanent. You get one shot to prove the story holds together\u2014and then agents skim it like they're doing triage.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim",
+  "publishedDate": "2027-11-10",
+  "modifiedDate": "2027-11-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common book synopsis mistakes that make agents skim",
-      "item": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim"
+      "item": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
     }
   ],
   "tldrBlocks": [],
@@ -529,20 +529,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-      "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
-    },
-    {
       "title": "The best nonfiction synopsis format is the one that matches how agents actually read",
-      "url": "https://writequeryhook.com/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents-actually-read"
+      "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
     },
     {
       "title": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-      "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+      "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
     },
     {
       "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-      "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+    },
+    {
+      "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -553,12 +553,7 @@ const PAGE_DATA = {
       "text": "Pick one scene you're tempted to include \"because it's important,\" then run the ending-test. If it doesn't change how the ending makes sense, cut it\u2014ruthlessly\u2014and let the main plot earn the space. Your **query** readers don't need your interpretation. They need what happens."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-      "url": "https://writequeryhook.com/query-letters/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -586,7 +581,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -598,31 +593,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common book synopsis mistakes that make agents skim",
-          "item": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim"
+          "item": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim",
+      "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#webpage",
+      "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim",
       "name": "Common book synopsis mistakes that make agents skim",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -638,11 +633,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#article",
+      "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#webpage"
+        "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim",
       "headline": "Common book synopsis mistakes that make agents skim",
       "alternativeHeadline": "Common book synopsis mistakes that make agents skim",
       "description": "The book synopsis request has a special kind of dread because it's the one part of your query package where word count is merciless and missteps feel permanent. You get one shot to prove the story holds together\u2014and then agents skim it like they're doing triage.",
@@ -672,39 +667,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage"
       },
+      "datePublished": "2027-11-10",
+      "dateModified": "2027-11-10",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-          "url": "https://writequeryhook.com/query-letters/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The dark thunder of synopsis gods: make the story arc answer the elevator pitch",
-          "url": "https://writequeryhook.com/the-dark-thunder-of-synopsis-gods-make-the-story-arc-answer-the-elevator-pitch"
-        },
-        {
-          "@type": "WebPage",
           "name": "The best nonfiction synopsis format is the one that matches how agents actually read",
-          "url": "https://writequeryhook.com/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents-actually-read"
+          "url": "https://writequeryhook.com/blog/the-best-nonfiction-synopsis-format-is-the-one-that-matches-how-agents"
         },
         {
           "@type": "WebPage",
           "name": "How a synopsis fixes your book by exposing the \"and then\" skeleton",
-          "url": "https://writequeryhook.com/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
+          "url": "https://writequeryhook.com/blog/how-a-synopsis-fixes-your-book-by-exposing-the-and-then-skeleton"
         },
         {
           "@type": "WebPage",
           "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-          "url": "https://writequeryhook.com/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+          "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+        },
+        {
+          "@type": "WebPage",
+          "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
+          "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage",
+      "@id": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_609/common-book-synopsis-mistakes-that-make-agents-skim/blog/blog_hero_recognition_dread_blog_hero_landscape_31b6631bdd80.jpeg",
       "width": 6000,
       "height": 4000,

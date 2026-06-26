@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Literary agent cost faq",
   "description": "Writers obsess over craft, then hit a wall when money shows up in the conversation. Suddenly you're staring at fees, \"representation\" promises, and contract language while your stomach does that fun drop you get before a test you didn't study for.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/literary-agent-cost-faq",
+  "publishedDate": "2027-11-02",
+  "modifiedDate": "2027-11-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/literary-agent-cost-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Literary agent cost faq",
-      "item": "https://writequeryhook.com/query-letters/literary-agent-cost-faq"
+      "item": "https://writequeryhook.com/blog/literary-agent-cost-faq"
     }
   ],
   "tldrBlocks": [],
@@ -398,19 +398,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-      "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
-    },
-    {
-      "title": "A case study in how to publish a poetry collection: from finished poems to a real release",
-      "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+      "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
     },
     {
       "title": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-      "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+      "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
     },
     {
-      "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-      "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+      "title": "Novel series examples: how book one earns its landing and book two earns its shadow",
+      "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
+    },
+    {
+      "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -428,7 +428,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-      "url": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
     }
   ]
 } as const;
@@ -458,7 +458,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -470,31 +470,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Literary agent cost faq",
-          "item": "https://writequeryhook.com/query-letters/literary-agent-cost-faq"
+          "item": "https://writequeryhook.com/blog/literary-agent-cost-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-faq",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#webpage",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq",
       "name": "Literary agent cost faq",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -510,11 +510,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#article",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/literary-agent-cost-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/literary-agent-cost-faq",
       "headline": "Literary agent cost faq",
       "alternativeHeadline": "Literary agent cost faq",
       "description": "Writers obsess over craft, then hit a wall when money shows up in the conversation. Suddenly you're staring at fees, \"representation\" promises, and contract language while your stomach does that fun drop you get before a test you didn't study for.",
@@ -544,39 +544,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#primaryimage"
       },
+      "datePublished": "2027-11-02",
+      "dateModified": "2027-11-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-          "url": "https://writequeryhook.com/query-letters/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
         },
         {
           "@type": "WebPage",
           "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
-          "url": "https://writequeryhook.com/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A case study in how to publish a poetry collection: from finished poems to a real release",
-          "url": "https://writequeryhook.com/a-case-study-in-how-to-publish-a-poetry-collection-from-finished-poems-to-a-real-release"
+          "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
         },
         {
           "@type": "WebPage",
           "name": "Unagented submission examples: three real-world submission paths (and what each one costs you)",
-          "url": "https://writequeryhook.com/unagented-submission-examples-three-real-world-submission-paths-and-what-each-one-costs-you"
+          "url": "https://writequeryhook.com/blog/unagented-submission-examples-three-real-world-submission-paths-and-what-each"
         },
         {
           "@type": "WebPage",
-          "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-          "url": "https://writequeryhook.com/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale-actually-get-you-into-stores"
+          "name": "Novel series examples: how book one earns its landing and book two earns its shadow",
+          "url": "https://writequeryhook.com/blog/novel-series-examples-how-book-one-earns-its-landing-and-book-two-earns-its"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
+          "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-faq#primaryimage",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-faq#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_600/literary-agent-cost-faq/blog/blog_hero_confusion_dread_blog_hero_landscape_44f0e081e937.gif",
       "width": 200,
       "height": 200,

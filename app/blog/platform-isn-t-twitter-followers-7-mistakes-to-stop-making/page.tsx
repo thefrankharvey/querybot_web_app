@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
   "description": "Here\u2019s the contrarian truth: most writers are \u201cbuilding platform\u201d the way people decorate a sinking ship. They look at follower counts, chase engagement, and call it momentum. Then they wonder why nothing compounds when the algorithm hiccups.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
+  "publishedDate": "2027-07-03",
+  "modifiedDate": "2027-07-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "stage"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/platform-isn-t-twitter-followers-7-mistakes-to-stop-making/blog/blog_hero_annoyance_recognition_blog_hero_landscape_df40f6b0932b.png?updatedAt=1782243365188",
+    "alt": "blog hero \u00b7 annoyance recognition",
+    "width": 7168,
+    "height": 4500,
+    "creator": "Google DeepMind",
+    "creatorUrl": "https://www.pexels.com/@googledeepmind",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "item": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "item": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     }
   ],
   "tldrBlocks": [],
@@ -107,7 +116,16 @@ const PAGE_DATA = {
           "text": "Like, I get it. The standard advice is basically: grow followers and everything else will follow. That\u2019s the part that\u2019s broken."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/platform-isn-t-twitter-followers-7-mistakes-to-stop-making/blog/blog_section_image_opening_blog_section_landscape_ee857166e847.gif?updatedAt=1782243365999",
+        "alt": "Opening",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_1_platform_means_social_media",
@@ -159,7 +177,16 @@ const PAGE_DATA = {
           "text": "\u201cWhy author platform is not twitter followers\u201d is simple: followers are a current count, not an always-on pipeline."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/platform-isn-t-twitter-followers-7-mistakes-to-stop-making/blog/blog_section_image_dread_embarrassment_blog_section_landscape_f7ffccd0d2cc.jpeg",
+        "alt": "Your platform means social media follower counts (and you\u2019re calling it strategy)",
+        "width": 5760,
+        "height": 3840,
+        "creator": "Andrea Piacquadio",
+        "creatorUrl": "https://www.pexels.com/@olly",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_2_platform_building_distracts_you",
@@ -440,7 +467,16 @@ const PAGE_DATA = {
           "text": "\u201cYou don\u2019t have to own the stage to reach a bigger audience.\u201d"
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/platform-isn-t-twitter-followers-7-mistakes-to-stop-making/blog/blog_section_image_vindication_frustration_blog_section_landscape_b78c76a1ec79.gif",
+        "alt": "You think you have to \u201cown\u201d your platform stage to benefit from it",
+        "width": 356,
+        "height": 200,
+        "creator": "rickandmorty",
+        "creatorUrl": "https://giphy.com/gifs/rickandmorty-season-3-adult-swim-rick-and-morty-LSKVmdIwZFeNEBKBxZ",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_mistake_7_ignoring_speaking_and_short_form",
@@ -513,19 +549,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     },
     {
       "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     },
     {
       "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     },
     {
       "title": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -564,7 +600,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "url": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     }
   ]
 } as const;
@@ -594,7 +630,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -606,28 +642,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "item": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "item": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#webpage",
-      "url": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
+      "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#webpage",
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
       "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -643,11 +682,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#article",
+      "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#webpage"
+        "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making",
       "headline": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
       "alternativeHeadline": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
       "description": "Here\u2019s the contrarian truth: most writers are \u201cbuilding platform\u201d the way people decorate a sinking ship. They look at follower counts, chase engagement, and call it momentum. Then they wonder why nothing compounds when the algorithm hiccups.",
@@ -676,38 +715,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#primaryimage"
+      },
+      "datePublished": "2027-07-03",
+      "dateModified": "2027-07-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "url": "https://writequeryhook.com/query-letters/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+          "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
         },
         {
           "@type": "WebPage",
           "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "url": "https://writequeryhook.com/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+          "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_456/platform-isn-t-twitter-followers-7-mistakes-to-stop-making/blog/blog_hero_annoyance_recognition_blog_hero_landscape_df40f6b0932b.png?updatedAt=1782243365188",
+      "width": 7168,
+      "height": 4500,
+      "caption": "blog hero \u00b7 annoyance recognition",
+      "creditText": "Google DeepMind",
+      "author": {
+        "@type": "Person",
+        "name": "Google DeepMind",
+        "url": "https://www.pexels.com/@googledeepmind"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#faq",
+      "@id": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making#faq",
       "mainEntity": [
         {
           "@type": "Question",

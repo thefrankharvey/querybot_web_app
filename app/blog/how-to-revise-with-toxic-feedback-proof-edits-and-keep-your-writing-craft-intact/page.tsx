@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to revise with toxic-feedback-proof edits (and keep your writing craft intact)",
   "description": "Getting harsh critique feels like getting handed a microphone mid-speech\u2014everyone's looking, you can't think, and somehow your draft is the thing everyone thinks they're entitled to wreck.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-01",
+  "modifiedDate": "2026-09-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-revise-with-toxic-feedback-proof-edits-and-keep-your-writing-craft-intact",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -506,6 +506,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-revise-with-toxic-feedback-proof-edits-and-keep-your-writing-craft-intact#primaryimage"
       },
+      "datePublished": "2026-09-01",
+      "dateModified": "2026-09-01",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Stop Treating Query Rejection Like Proof of Failure (The Luck + Timing Truth)",
   "description": "You can improve your craft, tighten your strategy, run another submission cycle\u2014then get silence again. That's the cruel joke publishers don't explain: publishing outcomes don't follow the neat moral arc writers want.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-08",
+  "modifiedDate": "2027-03-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-treating-query-rejection-like-proof-of-failure-the-luck-timing-truth",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -556,6 +556,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-treating-query-rejection-like-proof-of-failure-the-luck-timing-truth#primaryimage"
       },
+      "datePublished": "2027-03-08",
+      "dateModified": "2027-03-08",
       "mentions": [
         {
           "@type": "WebPage",

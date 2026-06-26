@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Romance revision: editor-tested conflict + POV vs \"vibes-only\" alternatives",
   "description": "Romance revision has a special kind of chaos: you can almost hear the draft making excuses. The conflict arrives late like it's late for its own party. The POV floats somewhere outside the couple like an HR observer. And somehow the happy ending is supposed to feel huge even though nobody ever truly tests the relationship.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-29",
+  "modifiedDate": "2026-10-29",
   "canonicalUrl": "https://writequeryhook.com/blog/romance-revision-editor-tested-conflict-pov-vs-vibes-only-alternatives",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -594,6 +594,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/romance-revision-editor-tested-conflict-pov-vs-vibes-only-alternatives#primaryimage"
       },
+      "datePublished": "2026-10-29",
+      "dateModified": "2026-10-29",
       "mentions": [
         {
           "@type": "WebPage",

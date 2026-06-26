@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A beginner's guide to writing IP FAQ",
   "description": "If you've ever said \"I love that world\" and then wondered how people get paid to write in it, welcome. IP in publishing isn't a mystery novel you have to be born into\u2014it's a process with rules, entry routes, and paperwork.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq",
+  "publishedDate": "2027-08-23",
+  "modifiedDate": "2027-08-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_hero_confused_blank_page_panic_blog_hero_landscape_e379d9830595.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_hero_confused_blank_page_panic_blog_hero_landscape_e379d9830595.jpeg",
     "alt": "blog hero \u00b7 confused blank-page panic",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 7220,
+    "height": 4815,
+    "creator": "Engin Akyurt",
+    "creatorUrl": "https://www.pexels.com/@enginakyurt",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A beginner's guide to writing IP FAQ",
-      "item": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq"
+      "item": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
     }
   ],
   "tldrBlocks": [],
@@ -97,13 +97,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_definition_ownership_blog_section_landscape_926190d85c8a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_definition_ownership_blog_section_landscape_926190d85c8a.gif",
         "alt": "What does \"IP\" mean in publishing?",
-        "width": 10800,
-        "height": 6334,
-        "creator": "Monstera Production",
-        "creatorUrl": "https://www.pexels.com/@gabby-k",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_editor_outreach_visibility_blog_section_landscape_a0384d6c8bbc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_editor_outreach_visibility_blog_section_landscape_a0384d6c8bbc.jpeg",
         "alt": "How do writers get noticed for IP books?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6048,
+        "height": 4032,
+        "creator": "Daniil Komov",
+        "creatorUrl": "https://www.pexels.com/@dkomov",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -397,43 +397,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_deadline_panic_tight_turnaround_blog_section_landscape_67b5796972fe.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_deadline_panic_tight_turnaround_blog_section_landscape_67b5796972fe.gif",
         "alt": "What payment and timeline issues can come with IP work",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "theinnernette",
+        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_section_image_next_draft_energy_ip_readiness_scorecard_blog_section_landscape_aab3a1652ef7.jpeg",
-    "alt": "blog section image \u00b7 next draft energy IP readiness scorecard",
-    "width": 6960,
-    "height": 4640,
-    "creator": "Ramesh Kambattan",
-    "creatorUrl": "https://www.pexels.com/@rameshkambattan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     },
     {
-      "title": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-      "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+      "title": "Common mistakes that make your category-busting book harder to sell",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
     },
     {
-      "title": "How a self-published romance author built releases that look pro (and shipped anyway)",
-      "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
+      "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     },
     {
-      "title": "Author websites that actually work: what five examples get right (and why)",
-      "url": "https://writequeryhook.com/author-websites-that-actually-work-what-five-examples-get-right-and-why"
+      "title": "How to protect your writing rights without accidentally scaring the people you need",
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -451,7 +442,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "url": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
+      "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
     }
   ]
 } as const;
@@ -481,7 +472,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -493,31 +484,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A beginner's guide to writing IP FAQ",
-          "item": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq"
+          "item": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq",
+      "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#webpage",
+      "url": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq",
       "name": "A beginner's guide to writing IP FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -533,11 +524,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#article",
+      "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq",
       "headline": "A beginner's guide to writing IP FAQ",
       "alternativeHeadline": "A beginner\u2019s guide to writing IP FAQ",
       "description": "If you've ever said \"I love that world\" and then wondered how people get paid to write in it, welcome. IP in publishing isn't a mystery novel you have to be born into\u2014it's a process with rules, entry routes, and paperwork.",
@@ -567,48 +558,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#primaryimage"
       },
+      "datePublished": "2027-08-23",
+      "dateModified": "2027-08-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "url": "https://writequeryhook.com/query-letters/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
+          "url": "https://writequeryhook.com/blog/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn"
         },
         {
           "@type": "WebPage",
-          "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+          "name": "Common mistakes that make your category-busting book harder to sell",
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-category-busting-book-harder-to-sell"
         },
         {
           "@type": "WebPage",
-          "name": "What Makes \"Unconventional\" Books Sell: A Case-Study Breakdown of Category-Busting Execution",
-          "url": "https://writequeryhook.com/what-makes-unconventional-books-sell-a-case-study-breakdown-of-category-busting-execution"
+          "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         },
         {
           "@type": "WebPage",
-          "name": "How a self-published romance author built releases that look pro (and shipped anyway)",
-          "url": "https://writequeryhook.com/how-a-self-published-romance-author-built-releases-that-look-pro-and-shipped-anyway"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Author websites that actually work: what five examples get right (and why)",
-          "url": "https://writequeryhook.com/author-websites-that-actually-work-what-five-examples-get-right-and-why"
+          "name": "How to protect your writing rights without accidentally scaring the people you need",
+          "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-beginner-s-guide-to-writing-ip-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_hero_confused_blank_page_panic_blog_hero_landscape_e379d9830595.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/a-beginner-s-guide-to-writing-ip-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_515/a-beginner-s-guide-to-writing-ip-faq/blog/blog_hero_confused_blank_page_panic_blog_hero_landscape_e379d9830595.jpeg",
+      "width": 7220,
+      "height": 4815,
       "caption": "blog hero \u00b7 confused blank-page panic",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Engin Akyurt",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Engin Akyurt",
+        "url": "https://www.pexels.com/@enginakyurt"
       },
       "@context": "https://schema.org"
     }

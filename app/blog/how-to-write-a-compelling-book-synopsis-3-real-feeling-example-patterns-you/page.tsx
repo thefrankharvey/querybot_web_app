@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
   "description": "A book synopsis sounds harmless until your query gets close enough that an agent says, essentially, Send the synopsis.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
+  "publishedDate": "2027-11-12",
+  "modifiedDate": "2027-11-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
     }
   ],
   "tldrBlocks": [],
@@ -467,20 +467,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-      "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
-    },
-    {
-      "title": "Breaking down the synopsis example for \"Is This Tomorrow\" by Caroline Leavitt",
-      "url": "https://writequeryhook.com/breaking-down-the-synopsis-example-for-is-this-tomorrow-by-caroline-leavitt"
-    },
-    {
       "title": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-      "url": "https://writequeryhook.com/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns-the-request"
+      "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
     },
     {
       "title": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-      "url": "https://writequeryhook.com/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+      "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+    },
+    {
+      "title": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
+      "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
+    },
+    {
+      "title": "Common book synopsis mistakes that make agents skim",
+      "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -519,7 +519,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-      "url": "https://writequeryhook.com/query-letters/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+      "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
     }
   ]
 } as const;
@@ -549,7 +549,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -561,31 +561,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
       "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -601,11 +601,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you",
       "headline": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
       "alternativeHeadline": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
       "description": "A book synopsis sounds harmless until your query gets close enough that an agent says, essentially, Send the synopsis.",
@@ -635,39 +635,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage"
       },
+      "datePublished": "2027-11-12",
+      "dateModified": "2027-11-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-          "url": "https://writequeryhook.com/query-letters/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-          "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Breaking down the synopsis example for \"Is This Tomorrow\" by Caroline Leavitt",
-          "url": "https://writequeryhook.com/breaking-down-the-synopsis-example-for-is-this-tomorrow-by-caroline-leavitt"
+          "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
         },
         {
           "@type": "WebPage",
           "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
-          "url": "https://writequeryhook.com/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns-the-request"
+          "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
         },
         {
           "@type": "WebPage",
           "name": "Synopsis Mistakes: 2 moves that make your query package lie about your plot",
-          "url": "https://writequeryhook.com/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+          "url": "https://writequeryhook.com/blog/synopsis-mistakes-2-moves-that-make-your-query-package-lie-about-your-plot"
+        },
+        {
+          "@type": "WebPage",
+          "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
+          "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common book synopsis mistakes that make agents skim",
+          "url": "https://writequeryhook.com/blog/common-book-synopsis-mistakes-that-make-agents-skim"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_613/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you/blog/blog_hero_pressure_dread_blog_hero_landscape_08a6684e0ac6.gif",
       "width": 248,
       "height": 200,
@@ -683,7 +685,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you#faq",
       "mainEntity": [
         {
           "@type": "Question",

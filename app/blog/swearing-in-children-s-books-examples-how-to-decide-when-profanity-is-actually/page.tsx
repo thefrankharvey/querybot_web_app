@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Swearing in children's books examples: how to decide when profanity is actually necessary",
   "description": "Writers fret over \"Is this allowed?\" the same way they panic over \"Is this safe?\" The answer depends on who's reading and who's deciding whether to buy it.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-03",
+  "modifiedDate": "2026-10-03",
   "canonicalUrl": "https://writequeryhook.com/blog/swearing-in-children-s-books-examples-how-to-decide-when-profanity-is-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -560,6 +560,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/swearing-in-children-s-books-examples-how-to-decide-when-profanity-is-actually#primaryimage"
       },
+      "datePublished": "2026-10-03",
+      "dateModified": "2026-10-03",
       "mentions": [
         {
           "@type": "WebPage",

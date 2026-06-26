@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips to understand the publishing timeline after the offer",
   "description": "You write the manuscript. You survive the offer. Then reality hits: publishing is slow on purpose, and it's rarely a straight line from \"signed\" to \"book is out.\"",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer",
+  "publishedDate": "2027-05-15",
+  "modifiedDate": "2027-05-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_hero_nerves_anxious_blog_hero_landscape_962580556e55.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_hero_nerves_anxious_blog_hero_landscape_962580556e55.jpeg",
     "alt": "blog hero \u00b7 nerves anxious",
-    "width": 200,
-    "height": 200,
-    "creator": "thedrewbarrymoreshow",
-    "creatorUrl": "https://giphy.com/gifs/thedrewbarrymoreshow-scared-drew-barrymore-the-show-FLWyExmB5wZaM2ZWjv",
-    "provider": "giphy",
+    "width": 3936,
+    "height": 2624,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips to understand the publishing timeline after the offer",
-      "item": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+      "item": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     }
   ],
   "tldrBlocks": [],
@@ -166,13 +166,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_frustrated_detailed_blog_section_landscape_beeb794bff6e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_frustrated_detailed_blog_section_landscape_beeb794bff6e.gif",
         "alt": "Expect multiple editing rounds, and yes, the types matter",
-        "width": 6000,
-        "height": 4809,
-        "creator": "Alexander Krivitskiy",
-        "creatorUrl": "https://www.pexels.com/@krivitskiy",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "stebore91",
+        "creatorUrl": "https://giphy.com/gifs/mustache-mexican-man-cactus-costume-jYGQfgz2ND31TlF0Gk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -207,7 +207,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_accessibility_nerves_blog_section_landscape_1269dfd7936c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_accessibility_nerves_blog_section_landscape_1269dfd7936c.gif?updatedAt=1782144531449",
         "alt": "Plan for audio and ebooks (they aren't \"just extra formats\")",
         "width": 200,
         "height": 200,
@@ -252,7 +252,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_radio_silence_anxious_thumbs_blog_section_landscape_57fa8f1eb586.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_radio_silence_anxious_thumbs_blog_section_landscape_57fa8f1eb586.jpeg?updatedAt=1782144532316",
         "alt": "Use the \"radio silence\" frame: communication matters, silence isn't abandonment",
         "width": 6000,
         "height": 4000,
@@ -263,32 +263,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_section_image_deadline_next_draft_energy_blog_section_landscape_533ed1a076f8.jpeg",
-    "alt": "blog section image \u00b7 deadline next draft energy",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for handling a representation offer without making a panic decision",
-      "url": "https://writequeryhook.com/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     },
     {
       "title": "5 ways to write, edit, and market with an eye on risk after the offer",
-      "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
-    },
-    {
-      "title": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-      "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     },
     {
       "title": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-      "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+    },
+    {
+      "title": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
+      "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -323,7 +314,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-      "url": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     }
   ]
 } as const;
@@ -353,7 +344,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -365,31 +356,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips to understand the publishing timeline after the offer",
-          "item": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+          "item": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer",
       "name": "5 tips to understand the publishing timeline after the offer",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -405,11 +396,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer",
       "headline": "5 tips to understand the publishing timeline after the offer",
       "alternativeHeadline": "5 tips to understand the publishing timeline after the offer",
       "description": "You write the manuscript. You survive the offer. Then reality hits: publishing is slow on purpose, and it's rarely a straight line from \"signed\" to \"book is out.\"",
@@ -439,55 +430,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage"
       },
+      "datePublished": "2027-05-15",
+      "dateModified": "2027-05-15",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-          "url": "https://writequeryhook.com/query-letters/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
+          "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for handling a representation offer without making a panic decision",
-          "url": "https://writequeryhook.com/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
+          "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         },
         {
           "@type": "WebPage",
           "name": "5 ways to write, edit, and market with an eye on risk after the offer",
-          "url": "https://writequeryhook.com/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-          "url": "https://writequeryhook.com/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
+          "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-          "url": "https://writequeryhook.com/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding-dishonest"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Which rights will you sign away in a book deal? A clause-by-clause walkthrough with examples",
+          "url": "https://writequeryhook.com/blog/which-rights-will-you-sign-away-in-a-book-deal-a-clause-by-clause-walkthrough"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_hero_nerves_anxious_blog_hero_landscape_962580556e55.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_397/5-tips-to-understand-the-publishing-timeline-after-the-offer/blog/blog_hero_nerves_anxious_blog_hero_landscape_962580556e55.jpeg",
+      "width": 3936,
+      "height": 2624,
       "caption": "blog hero \u00b7 nerves anxious",
-      "creditText": "thedrewbarrymoreshow",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "thedrewbarrymoreshow",
-        "url": "https://giphy.com/gifs/thedrewbarrymoreshow-scared-drew-barrymore-the-show-FLWyExmB5wZaM2ZWjv"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-to-understand-the-publishing-timeline-after-the-offer#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer#faq",
       "mainEntity": [
         {
           "@type": "Question",

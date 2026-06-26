@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "If Discomfort Feels Like Shit: The \"Second Arrow\" Breakdowns for Writers",
   "description": "This case study isn't about some abstract mindfulness concept. It's about the specific mental move that turns \"writing feels hard\" into \"writing feels like shit,\" then makes you hate the draft you haven't even finished.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-22",
+  "modifiedDate": "2027-02-22",
   "canonicalUrl": "https://writequeryhook.com/blog/if-discomfort-feels-like-shit-the-second-arrow-breakdowns-for-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -602,6 +602,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/if-discomfort-feels-like-shit-the-second-arrow-breakdowns-for-writers#primaryimage"
       },
+      "datePublished": "2027-02-22",
+      "dateModified": "2027-02-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to build publication credits as a writer (so your pitch stops looking like a blank page)",
   "description": "You can write a great story and still watch pitches die a quiet death because your bio reads like a blank page. Editors aren't mind readers. They're looking for publication credits as a quick credibility check\u2014something that says the work has been vetted and published.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-19",
+  "modifiedDate": "2026-08-19",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-build-publication-credits-as-a-writer-so-your-pitch-stops-looking-like",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -499,6 +499,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-build-publication-credits-as-a-writer-so-your-pitch-stops-looking-like#primaryimage"
       },
+      "datePublished": "2026-08-19",
+      "dateModified": "2026-08-19",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
   "description": "If you've ever sent a \"hope you like my book!\" email and then stared at your inbox like it personally betrayed you, congrats\u2014you just learned the hard way that outreach isn't the same thing as publicity. Outreach is you doing a job application dressed up as enthusiasm. Publicity is what happens when the right people get something usable, in time, and with the effort already baked in.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
+  "publishedDate": "2027-10-07",
+  "modifiedDate": "2027-10-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_hero_recognition_dread_blog_hero_landscape_b42de97f3665.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_hero_recognition_dread_blog_hero_landscape_b42de97f3665.jpeg?updatedAt=1782339776689",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "item": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "item": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     }
   ],
   "tldrBlocks": [],
@@ -150,7 +150,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_indignation_relevance_blog_section_landscape_7e6ab7f103a8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_indignation_relevance_blog_section_landscape_7e6ab7f103a8.gif?updatedAt=1782339777274",
         "alt": "Build the media list that matches the book (not the author's ego)",
         "width": 256,
         "height": 200,
@@ -282,7 +282,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_frustrated_clarity_blog_section_landscape_d4fa25d699b0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_frustrated_clarity_blog_section_landscape_d4fa25d699b0.jpeg?updatedAt=1782339777789",
         "alt": "Write a review request package reviewers can act on",
         "width": 4608,
         "height": 3456,
@@ -358,13 +358,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_eye_roll_specificity_blog_section_landscape_10c1c5bc99a4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_eye_roll_specificity_blog_section_landscape_10c1c5bc99a4.gif",
         "alt": "Personalize without writing a thesis or fantasy about their tastes",
-        "width": 4608,
-        "height": 3072,
-        "creator": "Khanh Hoang Minh 2",
-        "creatorUrl": "https://www.pexels.com/@khanh-hoang-minh-2-77752098",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/iron-man-eye-roll-disgust-qmfpjpAT2fJRK",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -444,32 +444,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_section_image_relief_action_blog_section_landscape_9cff1430a025.gif",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 200,
-    "height": 200,
-    "creator": "IntoAction",
-    "creatorUrl": "https://giphy.com/gifs/IntoAction-diegodrawsart-stronger-together-climate-change-is-real-jaq9iy6caOdBX2B9BH",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     },
     {
       "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     },
     {
       "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     },
     {
-      "title": "5 tips for unconventional writing when your book refuses to fit",
-      "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -508,7 +499,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "url": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     }
   ]
 } as const;
@@ -538,7 +529,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -550,31 +541,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "item": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "item": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
+      "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
       "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -590,11 +581,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#article",
+      "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox",
       "headline": "How to request book reviews from outlets without wasting your time (or your inbox)",
       "alternativeHeadline": "How to request book reviews from outlets without wasting your time (or your inbox)",
       "description": "If you've ever sent a \"hope you like my book!\" email and then stared at your inbox like it personally betrayed you, congrats\u2014you just learned the hard way that outreach isn't the same thing as publicity. Outreach is you doing a job application dressed up as enthusiasm. Publicity is what happens when the right people get something usable, in time, and with the effort already baked in.",
@@ -624,40 +615,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage"
       },
+      "datePublished": "2027-10-07",
+      "dateModified": "2027-10-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "url": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "url": "https://writequeryhook.com/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing-your-compass"
+          "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
         },
         {
           "@type": "WebPage",
           "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+          "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for unconventional writing when your book refuses to fit",
-          "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_hero_recognition_dread_blog_hero_landscape_b42de97f3665.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox/blog/blog_hero_recognition_dread_blog_hero_landscape_b42de97f3665.jpeg?updatedAt=1782339776689",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -672,7 +660,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox#faq",
       "mainEntity": [
         {
           "@type": "Question",

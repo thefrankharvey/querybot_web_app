@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The writer conference mindset: how to turn rejection, critique, and limited time into rewrite fuel",
   "description": "You paid money for a writer conference and showed up with your hopes wired to one outcome: proof that you're on the right track. Then something happens\u2014someone misreads your intent, the workshop feedback sounds harsh, or a pitch session goes nowhere fast. Your brain converts \"this feedback was specific\" into \"I am broken.\"",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-01",
+  "modifiedDate": "2027-03-01",
   "canonicalUrl": "https://writequeryhook.com/blog/the-writer-conference-mindset-how-to-turn-rejection-critique-and-limited-time",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -650,6 +650,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-writer-conference-mindset-how-to-turn-rejection-critique-and-limited-time#primaryimage"
       },
+      "datePublished": "2027-03-01",
+      "dateModified": "2027-03-01",
       "mentions": [
         {
           "@type": "WebPage",

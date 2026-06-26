@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "A chapter template that makes the reader instantly oriented\u2014and keeps the protagonist actively chasing something",
   "description": "The first time I realized my \"chapter\" problem wasn't plot, it was logistics, I stared at a draft that was technically fine and still felt\u2026 foggy. Like I'd written a scene inside a moving car and forgotten to mention where the road turns.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-08",
+  "modifiedDate": "2027-01-08",
   "canonicalUrl": "https://writequeryhook.com/blog/a-chapter-template-that-makes-the-reader-instantly-oriented-and-keeps-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -1113,6 +1113,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/a-chapter-template-that-makes-the-reader-instantly-oriented-and-keeps-the#primaryimage"
       },
+      "datePublished": "2027-01-08",
+      "dateModified": "2027-01-08",
       "mentions": [
         {
           "@type": "WebPage",

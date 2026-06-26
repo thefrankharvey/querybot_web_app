@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
   "description": "Most writers treat a synopsis like a teaser\u2014then wonder why it feels wrong, vague, and weirdly slippery to read. The myth: \u201cIf I spoil everything, it\u2019ll kill the suspense.\u201d",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
+  "publishedDate": "2027-11-04",
+  "modifiedDate": "2027-11-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     }
   ],
   "tldrBlocks": [],
@@ -490,19 +490,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     },
     {
       "title": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     },
     {
       "title": "Author branding vs alternatives: which one actually sells your books",
-      "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     },
     {
-      "title": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-      "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+      "title": "Economics of publishing FAQ: how to do the cost-and-receipts math",
+      "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -541,7 +541,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "url": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     }
   ]
 } as const;
@@ -571,7 +571,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -583,31 +583,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
       "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -623,11 +623,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean",
       "headline": "How to write a novel synopsis that reveals the ending (and still reads clean)",
       "alternativeHeadline": "How to write a novel synopsis that reveals the ending (and still reads clean)",
       "description": "Most writers treat a synopsis like a teaser\u2014then wonder why it feels wrong, vague, and weirdly slippery to read. The myth: \u201cIf I spoil everything, it\u2019ll kill the suspense.\u201d",
@@ -657,39 +657,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage"
       },
+      "datePublished": "2027-11-04",
+      "dateModified": "2027-11-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "url": "https://writequeryhook.com/query-letters/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+          "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         },
         {
           "@type": "WebPage",
           "name": "Author branding vs alternatives: which one actually sells your books",
-          "url": "https://writequeryhook.com/author-branding-vs-alternatives-which-one-actually-sells-your-books"
+          "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
         },
         {
           "@type": "WebPage",
-          "name": "Why romance sells: the \"I believe in a thing called love\" industry FAQ",
-          "url": "https://writequeryhook.com/why-romance-sells-the-i-believe-in-a-thing-called-love-industry-faq"
+          "name": "Economics of publishing FAQ: how to do the cost-and-receipts math",
+          "url": "https://writequeryhook.com/blog/economics-of-publishing-faq-how-to-do-the-cost-and-receipts-math"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_603/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean/blog/blog_hero_dread_blank_page_blog_hero_landscape_cfc5162e4682.gif",
       "width": 200,
       "height": 200,
@@ -705,7 +702,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#howto",
       "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
       "description": "Most writers treat a synopsis like a teaser\u2014then wonder why it feels wrong, vague, and weirdly slippery to read. The myth: \u201cIf I spoil everything, it\u2019ll kill the suspense.\u201d",
       "totalTime": "PT9M",
@@ -715,49 +712,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Summarize what happens in order (not vibes)",
           "text": "Start by mapping the novel\u2019s plot beats in the order they occur. Not theme. Not \u201cthe story is about grief.\u201d Plot beats.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-1-summarize-what-happens-in-order-not-vibes"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-1-summarize-what-happens-in-order-not-vibes"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write it in synopsis in third person present tense (keep it clean)",
           "text": "Now turn that beat skeleton into prose.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-2-write-it-in-synopsis-in-third-person-present-tense-keep-it-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-2-write-it-in-synopsis-in-third-person-present-tense-keep-it-clean"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Include the challenging situation and the climax\u2014then resolve it",
           "text": "This is where most synopses fail. They stop at \u201ctensions rise,\u201d \u201cstakes increase,\u201d or some vague statement that the protagonist \u201cmust face their past.\u201d",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-3-include-the-challenging-situation-and-the-climax-then-resolve-it"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-3-include-the-challenging-situation-and-the-climax-then-resolve-it"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Show the character arc through actions, not speeches",
           "text": "Now build the character arc onto the plot beats. The synopsis must clearly show how the main character changes because of the story\u2019s events.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-4-show-the-character-arc-through-actions-not-speeches"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-4-show-the-character-arc-through-actions-not-speeches"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Pace supporting relationships and foils so they don\u2019t bloat",
           "text": "Your synopsis still needs major supporting characters. Include family members, friends, and foils\u2014but briefly, with their most important traits.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-5-pace-supporting-relationships-and-foils-so-they-don-t-bloat"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-5-pace-supporting-relationships-and-foils-so-they-don-t-bloat"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Edit how to edit a synopsis down\u2014brutally",
           "text": "Now you trim.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-6-edit-how-to-edit-a-synopsis-down-brutally"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#step-6-edit-how-to-edit-a-synopsis-down-brutally"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean#faq",
       "mainEntity": [
         {
           "@type": "Question",

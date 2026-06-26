@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for developing fresh secondary characters that aren't stock",
   "description": "Secondary characters are the grease in the gears. They create interaction, they push back against the protagonist, and they keep the plot moving when your lead is busy being brave (or wrong, or both). But a lot of novel writing work derails here: writers grab stock characters because they're fast, familiar, and easy to place.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-11",
+  "modifiedDate": "2027-01-11",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-developing-fresh-secondary-characters-that-aren-t-stock",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -492,6 +492,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-developing-fresh-secondary-characters-that-aren-t-stock#primaryimage"
       },
+      "datePublished": "2027-01-11",
+      "dateModified": "2027-01-11",
       "mentions": [
         {
           "@type": "WebPage",

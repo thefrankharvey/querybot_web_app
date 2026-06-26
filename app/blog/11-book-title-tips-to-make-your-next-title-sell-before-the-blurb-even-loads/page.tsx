@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "11 book title tips to make your next title sell before the blurb even loads",
   "description": "A book title doesn't sit politely in the corner of your publishing plan. It's the first marketing tool your potential reader sees, whether they're scanning a shelf or hunting on a scrolling feed.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
+  "publishedDate": "2027-06-07",
+  "modifiedDate": "2027-06-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_hero_stuck_on_title_dread_blog_hero_landscape_2831ba0d1359.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_hero_stuck_on_title_dread_blog_hero_landscape_2831ba0d1359.jpeg",
     "alt": "blog hero \u00b7 stuck-on-title dread",
-    "width": 300,
-    "height": 200,
-    "creator": "hamlet",
-    "creatorUrl": "https://giphy.com/gifs/hamlet-dread-sunday-scaries-existential-Gquide9H8KoB5tPO1a",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "11 book title tips to make your next title sell before the blurb even loads",
-      "item": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+      "item": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     }
   ],
   "tldrBlocks": [],
@@ -213,13 +213,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_thumbnail_speed_blog_section_landscape_730c622d090c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_thumbnail_speed_blog_section_landscape_730c622d090c.jpeg",
         "alt": "4. Keep it short enough to land",
-        "width": 276,
-        "height": 200,
-        "creator": "witherw",
-        "creatorUrl": "https://giphy.com/gifs/ishoweyes-ishowfinance-ishowblue-rdaU3xOkXmllpD0KjF",
-        "provider": "giphy",
+        "width": 4080,
+        "height": 2720,
+        "creator": "El Jundi",
+        "creatorUrl": "https://www.pexels.com/@talal",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -263,13 +263,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_duplicate_fear_distinctiveness_blog_section_landscape_25bfe85a1d9e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_duplicate_fear_distinctiveness_blog_section_landscape_25bfe85a1d9e.gif",
         "alt": "How to create a unique book title",
-        "width": 5564,
-        "height": 3709,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 360,
+        "height": 200,
+        "creator": "Cameron-Smith",
+        "creatorUrl": "https://giphy.com/gifs/Cameron-Smith-trailblazers-camjaysmith-nickgnai-U16SolXvAi4Cy3Kn3q",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -449,13 +449,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_reader_feedback_doubt_blog_section_landscape_110cba14260c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_reader_feedback_doubt_blog_section_landscape_110cba14260c.gif",
         "alt": "9. Test book titles with readers (and watch for confusion)",
-        "width": 5675,
-        "height": 3783,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/telepathy-mind-reader-telepathic-fl0B5TLMTYLPvNervP",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -565,13 +565,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_duplicate_fear_distinctiveness_blog_section_landscape_25bfe85a1d9e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_duplicate_fear_distinctiveness_blog_section_landscape_25bfe85a1d9e.gif",
         "alt": "How to create a unique book title",
-        "width": 5564,
-        "height": 3709,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 360,
+        "height": 200,
+        "creator": "Cameron-Smith",
+        "creatorUrl": "https://giphy.com/gifs/Cameron-Smith-trailblazers-camjaysmith-nickgnai-U16SolXvAi4Cy3Kn3q",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -598,43 +598,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_reader_feedback_doubt_blog_section_landscape_110cba14260c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_reader_feedback_doubt_blog_section_landscape_110cba14260c.gif",
         "alt": "9. Test book titles with readers (and watch for confusion)",
-        "width": 5675,
-        "height": 3783,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/telepathy-mind-reader-telepathic-fl0B5TLMTYLPvNervP",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_section_image_next_step_draft_consult_blog_section_landscape_e28afbb24326.jpeg",
-    "alt": "blog section image \u00b7 next step draft consult",
-    "width": 6016,
-    "height": 4016,
-    "creator": "Kampus Production",
-    "creatorUrl": "https://www.pexels.com/@kampus",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-      "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
-    },
-    {
-      "title": "10 author websites that work\u2014and the mechanics behind them",
-      "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
-    },
-    {
       "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
     },
     {
-      "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-      "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+      "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+    },
+    {
+      "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
+    },
+    {
+      "title": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
     }
   ],
   "alsoLikeAfterIndex": 6,
@@ -669,7 +660,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-      "url": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     }
   ]
 } as const;
@@ -699,7 +690,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -711,31 +702,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "item": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+          "item": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#webpage",
-      "url": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
+      "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#webpage",
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
       "name": "11 book title tips to make your next title sell before the blurb even loads",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage"
+        "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -751,11 +742,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#article",
+      "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#webpage"
+        "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads",
       "headline": "11 book title tips to make your next title sell before the blurb even loads",
       "alternativeHeadline": "11 book title tips to make your next title sell before the blurb even loads",
       "description": "A book title doesn't sit politely in the corner of your publishing plan. It's the first marketing tool your potential reader sees, whether they're scanning a shelf or hunting on a scrolling feed.",
@@ -785,55 +776,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage"
+        "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage"
       },
+      "datePublished": "2027-06-07",
+      "dateModified": "2027-06-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-          "url": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
-        },
-        {
-          "@type": "WebPage",
-          "name": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-          "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "10 author websites that work\u2014and the mechanics behind them",
-          "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
+          "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         },
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
         },
         {
           "@type": "WebPage",
-          "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
-          "url": "https://writequeryhook.com/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually-wins"
+          "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Get a Book Published: the Practical Steps (Without Pretending It's Magic)",
+          "url": "https://writequeryhook.com/blog/how-to-get-a-book-published-the-practical-steps-without-pretending-it-s-magic"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_hero_stuck_on_title_dread_blog_hero_landscape_2831ba0d1359.gif",
-      "width": 300,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads/blog/blog_hero_stuck_on_title_dread_blog_hero_landscape_2831ba0d1359.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 stuck-on-title dread",
-      "creditText": "hamlet",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "hamlet",
-        "url": "https://giphy.com/gifs/hamlet-dread-sunday-scaries-existential-Gquide9H8KoB5tPO1a"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#faq",
+      "@id": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Don't Suffer for Your Art vs The Alternatives: How to Stay Joyful Without Slowing Your Improvement",
   "description": "TLDR",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-01",
+  "modifiedDate": "2027-04-01",
   "canonicalUrl": "https://writequeryhook.com/blog/don-t-suffer-for-your-art-vs-the-alternatives-how-to-stay-joyful-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -574,6 +574,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/don-t-suffer-for-your-art-vs-the-alternatives-how-to-stay-joyful-without#primaryimage"
       },
+      "datePublished": "2027-04-01",
+      "dateModified": "2027-04-01",
       "mentions": [
         {
           "@type": "WebPage",

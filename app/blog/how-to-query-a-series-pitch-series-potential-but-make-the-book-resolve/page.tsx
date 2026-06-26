@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to query a series: pitch series potential, but make the book resolve",
   "description": "If you're a debut author and you slap the word series into your query, you might be accidentally volunteering for a bigger investment than you can justify yet. And then you wonder why the publishing conversation feels like it's moving slower than molasses.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-27",
+  "modifiedDate": "2026-06-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-query-a-series-pitch-series-potential-but-make-the-book-resolve",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -487,6 +487,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-query-a-series-pitch-series-potential-but-make-the-book-resolve#primaryimage"
       },
+      "datePublished": "2026-06-27",
+      "dateModified": "2026-06-27",
       "mentions": [
         {
           "@type": "WebPage",

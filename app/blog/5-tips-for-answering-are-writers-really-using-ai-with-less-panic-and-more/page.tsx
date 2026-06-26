@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
   "description": "A bunch of viral posts float around the writing world with the same vibe: nearly half of authors use generative AI, cue the apocalypse sirens or the victory lap. Meanwhile, the rest of us are just trying to write pages that don't feel like wet cardboard and not ruin a future contract because we got cute with a chatbot.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
+  "publishedDate": "2027-08-29",
+  "modifiedDate": "2027-08-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_hero_doom_scrolling_skepticism_blog_hero_landscape_5e08a76d45fc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_hero_doom_scrolling_skepticism_blog_hero_landscape_5e08a76d45fc.jpeg?updatedAt=1782318997622",
     "alt": "blog hero \u00b7 doom-scrolling skepticism",
     "width": 3750,
     "height": 2500,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
+      "item": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
     }
   ],
   "tldrBlocks": [],
@@ -106,7 +106,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_confusion_frustration_blog_section_landscape_bcd79380bdf7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_confusion_frustration_blog_section_landscape_bcd79380bdf7.jpeg?updatedAt=1782318998148",
         "alt": "Sift the headline number before you treat it like gospel",
         "width": 7680,
         "height": 5120,
@@ -206,13 +206,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_anxiety_ethics_blog_section_landscape_9367680e4f55.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_anxiety_ethics_blog_section_landscape_9367680e4f55.gif",
         "alt": "Probe ethics before you panic about \"quality\" or \"robots\"",
-        "width": 6000,
-        "height": 4000,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 218,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -264,7 +264,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_dread_transparency_blog_section_landscape_e79ca8ff086e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_dread_transparency_blog_section_landscape_e79ca8ff086e.gif?updatedAt=1782318999552",
         "alt": "Decide where disclosure enters the picture (and who you're disclosing to)",
         "width": 200,
         "height": 200,
@@ -317,32 +317,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_section_image_fist_pump_action_list_blog_section_landscape_e87e6743c924.gif",
-    "alt": "blog section image \u00b7 fist pump action list",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to build a rocking author media kit (a 7-step template)",
-      "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     },
     {
       "title": "How to create an engaging back cover that reads like a pitch, not a summary",
-      "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+      "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
     },
     {
       "title": "How to use your book's bonus content to grow your community (and your email list)",
-      "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     },
     {
-      "title": "A beginner's guide to writing IP FAQ",
-      "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+      "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -377,7 +368,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to build a rocking author media kit (a 7-step template)",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
     }
   ]
 } as const;
@@ -407,7 +398,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -419,31 +410,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
+          "item": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
       "name": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -459,11 +450,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more",
       "headline": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
       "alternativeHeadline": "5 tips for answering \"Are writers really using AI?\" with less panic and more specifics",
       "description": "A bunch of viral posts float around the writing world with the same vibe: nearly half of authors use generative AI, cue the apocalypse sirens or the victory lap. Meanwhile, the rest of us are just trying to write pages that don't feel like wet cardboard and not ruin a future contract because we got cute with a chatbot.",
@@ -493,40 +484,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage"
       },
+      "datePublished": "2027-08-29",
+      "dateModified": "2027-08-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to build a rocking author media kit (a 7-step template)",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-rocking-author-media-kit-a-7-step-template"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to build a rocking author media kit (a 7-step template)",
-          "url": "https://writequeryhook.com/how-to-build-a-rocking-author-media-kit-a-7-step-template"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-rocking-author-media-kit-a-7-step-template"
         },
         {
           "@type": "WebPage",
           "name": "How to create an engaging back cover that reads like a pitch, not a summary",
-          "url": "https://writequeryhook.com/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
+          "url": "https://writequeryhook.com/blog/how-to-create-an-engaging-back-cover-that-reads-like-a-pitch-not-a-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
         },
         {
           "@type": "WebPage",
-          "name": "A beginner's guide to writing IP FAQ",
-          "url": "https://writequeryhook.com/a-beginner-s-guide-to-writing-ip-faq"
+          "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_hero_doom_scrolling_skepticism_blog_hero_landscape_5e08a76d45fc.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_521/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more/blog/blog_hero_doom_scrolling_skepticism_blog_hero_landscape_5e08a76d45fc.jpeg?updatedAt=1782318997622",
       "width": 3750,
       "height": 2500,
       "caption": "blog hero \u00b7 doom-scrolling skepticism",
@@ -541,7 +529,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-answering-are-writers-really-using-ai-with-less-panic-and-more#faq",
       "mainEntity": [
         {
           "@type": "Question",

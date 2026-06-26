@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
   "description": "Most writers don't struggle with storytelling in their book. They struggle with the tiny act of compressing it into a book blurb that doesn't turn into either (a) a spoiler-bomb or (b) a vague fog machine.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
+  "publishedDate": "2027-05-18",
+  "modifiedDate": "2027-05-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_hero_book_listing_fear_blog_hero_landscape_ac93b26e7eff.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_hero_book_listing_fear_blog_hero_landscape_ac93b26e7eff.jpeg",
     "alt": "blog hero \u00b7 book listing fear",
-    "width": 266,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/list-B7o99rIuystY4",
-    "provider": "giphy",
+    "width": 4793,
+    "height": 2910,
+    "creator": "mesaker Quergle",
+    "creatorUrl": "https://www.pexels.com/@mesaker-quergle-683758695",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-      "item": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
+      "item": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
     }
   ],
   "tldrBlocks": [],
@@ -77,13 +77,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_tldr_blog_section_landscape_ef6e056586e6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_tldr_blog_section_landscape_ef6e056586e6.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -437,13 +437,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_e51981d0c902.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_e51981d0c902.gif",
         "alt": "Body \u2014 Structural breakdown",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -466,7 +466,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_lessons_takeaways_blog_section_landscape_b6b5f68e3cf4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_lessons_takeaways_blog_section_landscape_b6b5f68e3cf4.jpeg?updatedAt=1782147582929",
         "alt": "Lessons / Takeaways",
         "width": 3000,
         "height": 2000,
@@ -477,32 +477,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_section_image_redo_the_draft_tighten_blog_section_landscape_eef566a2dc2c.gif",
-    "alt": "blog section image \u00b7 redo-the-draft tighten",
-    "width": 356,
-    "height": 200,
-    "creator": "TreyJuhl",
-    "creatorUrl": "https://giphy.com/gifs/flare-redo-of-healer-freia-rZqzq4S6t84TKSA8Va",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-      "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
-    },
-    {
       "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
     },
     {
       "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-      "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
     },
     {
-      "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+      "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
+    },
+    {
+      "title": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -520,7 +511,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-      "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     }
   ]
 } as const;
@@ -550,7 +541,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -562,31 +553,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-          "item": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
+          "item": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
+      "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#webpage",
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
       "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -602,11 +593,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#article",
+      "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#webpage"
+        "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and",
       "headline": "A book blurb breakdown: how to write a great book description that sells (and scans)",
       "alternativeHeadline": "A book blurb breakdown: how to write a great book description that sells (and scans)",
       "description": "Most writers don't struggle with storytelling in their book. They struggle with the tiny act of compressing it into a book blurb that doesn't turn into either (a) a spoiler-bomb or (b) a vague fog machine.",
@@ -636,48 +627,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage"
       },
+      "datePublished": "2027-05-18",
+      "dateModified": "2027-05-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-          "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-          "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
         },
         {
           "@type": "WebPage",
           "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-          "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+          "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
         },
         {
           "@type": "WebPage",
-          "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+          "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
+          "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_hero_book_listing_fear_blog_hero_landscape_ac93b26e7eff.gif",
-      "width": 266,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and/blog/blog_hero_book_listing_fear_blog_hero_landscape_ac93b26e7eff.jpeg",
+      "width": 4793,
+      "height": 2910,
       "caption": "blog hero \u00b7 book listing fear",
-      "creditText": "Giphy",
+      "creditText": "mesaker Quergle",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/list-B7o99rIuystY4"
+        "name": "mesaker Quergle",
+        "url": "https://www.pexels.com/@mesaker-quergle-683758695"
       },
       "@context": "https://schema.org"
     }

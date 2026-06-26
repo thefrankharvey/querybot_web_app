@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Revelations FAQ: how revelations drive character, climax, and the emotional arc",
   "description": "A revelation is one of those rare moments when the story's emotional pressure snaps into a new shape. The character sees something true\u2014about themselves, about another person, or about the world\u2014and that new knowledge changes what they do next. Done well, it drives the emotional arc, reshapes the character, and makes the climax feel earned instead of author-approved.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-28",
+  "modifiedDate": "2027-01-28",
   "canonicalUrl": "https://writequeryhook.com/blog/revelations-faq-how-revelations-drive-character-climax-and-the-emotional-arc",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -375,6 +375,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/revelations-faq-how-revelations-drive-character-climax-and-the-emotional-arc#primaryimage"
       },
+      "datePublished": "2027-01-28",
+      "dateModified": "2027-01-28",
       "mentions": [
         {
           "@type": "WebPage",

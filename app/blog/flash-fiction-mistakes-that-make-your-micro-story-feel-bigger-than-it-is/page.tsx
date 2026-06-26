@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Flash fiction mistakes that make your micro-story feel bigger than it is",
   "description": "Most guides treat flash fiction like a tiny version of a short story. That's how you get a micro-fiction piece that's doing cardio when it needs to be a sprint.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-14",
+  "modifiedDate": "2027-01-14",
   "canonicalUrl": "https://writequeryhook.com/blog/flash-fiction-mistakes-that-make-your-micro-story-feel-bigger-than-it-is",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -546,6 +546,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/flash-fiction-mistakes-that-make-your-micro-story-feel-bigger-than-it-is#primaryimage"
       },
+      "datePublished": "2027-01-14",
+      "dateModified": "2027-01-14",
       "mentions": [
         {
           "@type": "WebPage",

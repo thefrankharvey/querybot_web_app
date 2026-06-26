@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Targeted Query Letter for a Young Adult Poetry Collection with a Grief Emotional Arc",
   "description": "If you've ever gotten interest\u2014actual interest\u2014and still watched the manuscript end up shelved, you're not being \"dramatic.\" You're reading the pattern the industry refuses to explain clearly: decisions happen fast, taste is slippery, and your pitch has to survive both.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-25",
+  "modifiedDate": "2026-07-25",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-targeted-query-letter-for-a-young-adult-poetry-collection-with",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -718,6 +718,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-targeted-query-letter-for-a-young-adult-poetry-collection-with#primaryimage"
       },
+      "datePublished": "2026-07-25",
+      "dateModified": "2026-07-25",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
   "description": "When agent or editor feedback hits after your manuscript feels \"finished,\" it doesn't land like craft notes. It lands like a verdict. Like, something is wrong with me, and the only acceptable response is to start rewriting immediately\u2014preferably without messing up everything that already works.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
+  "publishedDate": "2027-05-17",
+  "modifiedDate": "2027-05-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_hero_feedback_dread_post_submission_shock_blog_hero_landscape_3eb0a3017673.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_hero_feedback_dread_post_submission_shock_blog_hero_landscape_3eb0a3017673.jpeg",
     "alt": "blog hero \u00b7 feedback dread post-submission shock",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6883,
+    "height": 5315,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
+      "item": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
     }
   ],
   "tldrBlocks": [],
@@ -117,13 +117,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_anger_dread_blog_section_landscape_ff68840d1176.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_anger_dread_blog_section_landscape_ff68840d1176.gif",
         "alt": "How to incorporate agent editor feedback",
-        "width": 6734,
-        "height": 4450,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "abcnetwork",
+        "creatorUrl": "https://giphy.com/gifs/abcnetwork-will-trent-abc-trentabc-willtrent-AXjU7mRfrovhHbYMJm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -303,13 +303,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_clarity_mentor_texts_blog_section_landscape_6b3dd2ada822.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_clarity_mentor_texts_blog_section_landscape_6b3dd2ada822.jpeg",
         "alt": "You use mentor texts like a scrapbook instead of a tool for tone and execution",
-        "width": 288,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/food-evil-laugh-spongebon-squarepants-lY1F6BJjbRO3m",
-        "provider": "giphy",
+        "width": 3936,
+        "height": 2624,
+        "creator": "Tima Miroshnichenko",
+        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -357,13 +357,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_premature_polish_clarity_lock_blog_section_landscape_c1c3fc4d88be.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_premature_polish_clarity_lock_blog_section_landscape_c1c3fc4d88be.gif",
         "alt": "You line edit before you fix story-level problems",
-        "width": 4480,
-        "height": 2987,
-        "creator": "KoolShooters",
-        "creatorUrl": "https://www.pexels.com/@koolshooters",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Loudlacquer",
+        "creatorUrl": "https://giphy.com/gifs/waiting-loud-polish-QZyBvNVaMbIZ9yadec",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -394,43 +394,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_anger_dread_blog_section_landscape_ff68840d1176.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_anger_dread_blog_section_landscape_ff68840d1176.gif",
         "alt": "How to incorporate agent editor feedback",
-        "width": 6734,
-        "height": 4450,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "abcnetwork",
+        "creatorUrl": "https://giphy.com/gifs/abcnetwork-will-trent-abc-trentabc-willtrent-AXjU7mRfrovhHbYMJm",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_section_image_breath_restart_blog_section_landscape_4c0c685cd8aa.jpeg",
-    "alt": "blog section image \u00b7 breath restart",
-    "width": 6000,
-    "height": 4000,
-    "creator": "David Kouakou",
-    "creatorUrl": "https://www.pexels.com/@david-kouakou-536418893",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-      "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
     },
     {
       "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-      "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
     },
     {
       "title": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-      "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+      "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
     },
     {
-      "title": "5 tips to understand the publishing timeline after the offer",
-      "url": "https://writequeryhook.com/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+      "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -466,12 +457,7 @@ const PAGE_DATA = {
       "text": "Now open the **feedback** again, and write your first revision plan\u2014one decision, one payoff point, one chapter at a time."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-      "url": "https://writequeryhook.com/query-letters/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -499,7 +485,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +497,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
+          "item": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
       "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +537,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and",
       "headline": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
       "alternativeHeadline": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
       "description": "When agent or editor feedback hits after your manuscript feels \"finished,\" it doesn't land like craft notes. It lands like a verdict. Like, something is wrong with me, and the only acceptable response is to start rewriting immediately\u2014preferably without messing up everything that already works.",
@@ -585,55 +571,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage"
       },
+      "datePublished": "2027-05-17",
+      "dateModified": "2027-05-17",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-          "url": "https://writequeryhook.com/query-letters/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors"
-        },
-        {
-          "@type": "WebPage",
           "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-          "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+          "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
         },
         {
           "@type": "WebPage",
           "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-          "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+          "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-          "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+          "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips to understand the publishing timeline after the offer",
-          "url": "https://writequeryhook.com/5-tips-to-understand-the-publishing-timeline-after-the-offer"
+          "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
+          "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_hero_feedback_dread_post_submission_shock_blog_hero_landscape_3eb0a3017673.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_401/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and/blog/blog_hero_feedback_dread_post_submission_shock_blog_hero_landscape_3eb0a3017673.jpeg",
+      "width": 6883,
+      "height": 5315,
       "caption": "blog hero \u00b7 feedback dread post-submission shock",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#faq",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

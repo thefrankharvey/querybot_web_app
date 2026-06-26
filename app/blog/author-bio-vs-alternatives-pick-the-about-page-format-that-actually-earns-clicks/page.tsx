@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Author bio vs alternatives: pick the About-page format that actually earns clicks",
   "description": "Most readers don't land on your About page because they're dying to learn your education history. They land there because it's usually the first click after your cover.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-30",
+  "modifiedDate": "2026-08-30",
   "canonicalUrl": "https://writequeryhook.com/blog/author-bio-vs-alternatives-pick-the-about-page-format-that-actually-earns-clicks",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -577,6 +577,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/author-bio-vs-alternatives-pick-the-about-page-format-that-actually-earns-clicks#primaryimage"
       },
+      "datePublished": "2026-08-30",
+      "dateModified": "2026-08-30",
       "mentions": [
         {
           "@type": "WebPage",

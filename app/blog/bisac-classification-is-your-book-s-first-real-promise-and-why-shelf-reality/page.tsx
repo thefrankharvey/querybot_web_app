@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
   "description": "The first time you hear about BISAC, it's usually framed like paperwork. Alphanumeric code. Checkbox energy. Something publishers handle, right?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
+  "publishedDate": "2027-09-25",
+  "modifiedDate": "2027-09-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_hero_confusion_dread_blog_hero_landscape_82e538ff9a3e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_hero_confusion_dread_blog_hero_landscape_82e538ff9a3e.jpeg",
     "alt": "blog hero \u00b7 confusion dread",
-    "width": 200,
-    "height": 200,
-    "creator": "abcnetwork",
-    "creatorUrl": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "item": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
+      "item": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     }
   ],
   "tldrBlocks": [],
@@ -138,7 +138,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_agreement_shared_language_blog_section_landscape_6e55fb5a3694.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_agreement_shared_language_blog_section_landscape_6e55fb5a3694.gif?updatedAt=1782336026419",
         "alt": "BISAC classification is a shared language for publishing (not a random label)",
         "width": 200,
         "height": 200,
@@ -220,13 +220,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_specificity_accuracy_blog_section_landscape_c8b17b14c80d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_specificity_accuracy_blog_section_landscape_c8b17b14c80d.gif",
         "alt": "Why specific subject codes matter for expectations and search",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -384,7 +384,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_workflow_sales_input_blog_section_landscape_0ab77da5bf38.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_workflow_sales_input_blog_section_landscape_0ab77da5bf38.jpeg?updatedAt=1782336027514",
         "alt": "How publishers actually make the call (multi-person, not vibes)",
         "width": 10889,
         "height": 8167,
@@ -395,32 +395,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_section_image_deep_breath_print_button_blog_section_landscape_639393aad0be.jpeg",
-    "alt": "blog section image \u00b7 deep breath print button",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The mission statement tells you what a publisher is actually buying",
-      "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     },
     {
       "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     },
     {
       "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     },
     {
-      "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+      "title": "5 tips for choosing a small press (and when you should actually say yes)",
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -463,7 +454,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "17 mistakes indie authors keep making on the road to publishing success",
-      "url": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     }
   ]
 } as const;
@@ -493,7 +484,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -505,31 +496,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "item": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
+          "item": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#webpage",
-      "url": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
+      "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#webpage",
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
       "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage"
+        "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -545,11 +536,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#article",
+      "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#webpage"
+        "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality",
       "headline": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
       "alternativeHeadline": "BISAC classification is your book\u2019s first real promise (and why \"shelf reality\" fights it)",
       "description": "The first time you hear about BISAC, it's usually framed like paperwork. Alphanumeric code. Checkbox energy. Something publishers handle, right?",
@@ -579,55 +570,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage"
+        "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage"
       },
+      "datePublished": "2027-09-25",
+      "dateModified": "2027-09-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "url": "https://writequeryhook.com/query-letters/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         },
         {
           "@type": "WebPage",
           "name": "The mission statement tells you what a publisher is actually buying",
-          "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         },
         {
           "@type": "WebPage",
           "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+          "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
         },
         {
           "@type": "WebPage",
           "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+          "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+          "name": "5 tips for choosing a small press (and when you should actually say yes)",
+          "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_hero_confusion_dread_blog_hero_landscape_82e538ff9a3e.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_553/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality/blog/blog_hero_confusion_dread_blog_hero_landscape_82e538ff9a3e.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 confusion dread",
-      "creditText": "abcnetwork",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "abcnetwork",
-        "url": "https://giphy.com/gifs/abcnetwork-abbott-elementary-abc-abbottelementary-elementaryabc-QnahGhA2lNwLguck26"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#faq",
+      "@id": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality#faq",
       "mainEntity": [
         {
           "@type": "Question",

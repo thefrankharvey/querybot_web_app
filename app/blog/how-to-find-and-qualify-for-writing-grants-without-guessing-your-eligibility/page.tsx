@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
   "description": "If you've tried to hunt down writing grants before, you already know the problem isn't finding opportunities. It's finding the handful that fit your actual stage, your genre, and whatever weirdly specific box the program demands (unpublished in category X, micro fiction contest word limit 100 words, fellowship that requires office hours, the whole circus).",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
+  "publishedDate": "2027-08-04",
+  "modifiedDate": "2027-08-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_370e84520a76.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_370e84520a76.jpeg?updatedAt=1782271138934",
     "alt": "blog hero \u00b7 anxiety blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "item": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "item": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     }
   ],
   "tldrBlocks": [],
@@ -224,7 +224,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_deadline_windows_blog_section_landscape_1b72945e0d3f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_deadline_windows_blog_section_landscape_1b72945e0d3f.gif?updatedAt=1782271140294",
         "alt": "Step 3: Read the deadlines and requirements like a contract",
         "width": 200,
         "height": 200,
@@ -316,7 +316,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_panic_avoidance_final_check_blog_section_landscape_efc166a61bcd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_panic_avoidance_final_check_blog_section_landscape_efc166a61bcd.jpeg?updatedAt=1782271141294",
         "alt": "Step 5: Run a quick eligibility test before you submit",
         "width": 3840,
         "height": 2160,
@@ -370,7 +370,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_momentum_submit_widely_blog_section_landscape_39cd3105bb79.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_momentum_submit_widely_blog_section_landscape_39cd3105bb79.gif?updatedAt=1782271142802",
         "alt": "Step 6: Apply smart and track rejections",
         "width": 500,
         "height": 200,
@@ -381,32 +381,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_section_image_fist_pump_heavy_sigh_blog_section_landscape_4d603c73444a.jpeg",
-    "alt": "blog section image \u00b7 fist pump heavy sigh",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     },
     {
       "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     },
     {
       "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-      "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+      "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
     },
     {
       "title": "What literary agents do vs going direct: which pipeline keeps you sane?",
-      "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -441,7 +432,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     }
   ]
 } as const;
@@ -471,7 +462,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -483,31 +474,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "item": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+          "item": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
       "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -523,11 +514,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#article",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility",
       "headline": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
       "alternativeHeadline": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
       "description": "If you've tried to hunt down writing grants before, you already know the problem isn't finding opportunities. It's finding the handful that fit your actual stage, your genre, and whatever weirdly specific box the program demands (unpublished in category X, micro fiction contest word limit 100 words, fellowship that requires office hours, the whole circus).",
@@ -557,40 +548,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage"
       },
+      "datePublished": "2027-08-04",
+      "dateModified": "2027-08-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "url": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
+          "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         },
         {
           "@type": "WebPage",
           "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         },
         {
           "@type": "WebPage",
           "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
         },
         {
           "@type": "WebPage",
           "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
-          "url": "https://writequeryhook.com/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do vs going direct: which pipeline keeps you sane?",
-          "url": "https://writequeryhook.com/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-vs-going-direct-which-pipeline-keeps-you-sane"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_370e84520a76.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility/blog/blog_hero_anxiety_blank_page_blog_hero_landscape_370e84520a76.jpeg?updatedAt=1782271138934",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 anxiety blank page",
@@ -605,7 +598,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#howto",
       "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
       "description": "If you've tried to hunt down writing grants before, you already know the problem isn't finding opportunities. It's finding the handful that fit your actual stage, your genre, and whatever weirdly specific box the program demands (unpublished in category X, micro fiction contest word limit 100 words, fellowship that requires office hours, the whole circus).",
       "totalTime": "PT7M",
@@ -615,49 +608,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Make your stage and genre match explicit",
           "text": "Start by writing down three things in plain language\u2014no poetry, no marketing blurbs.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-1-make-your-stage-and-genre-match-explicit"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-1-make-your-stage-and-genre-match-explicit"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Search like a grant screener\u2014not like a dreamer",
           "text": "Now you hunt. And you're going to hunt with constraints, not hope.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-2-search-like-a-grant-screener-not-like-a-dreamer"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-2-search-like-a-grant-screener-not-like-a-dreamer"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Read the deadlines and requirements like a contract",
           "text": "Do not skim. Read this like you'd read a lease agreement you're signing while someone waits behind you.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-3-read-the-deadlines-and-requirements-like-a-contract"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-3-read-the-deadlines-and-requirements-like-a-contract"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Prepare your application materials to hit the grant's purpose",
           "text": "Your goal is to make the program's purpose obvious in your materials. Your project description and supporting statements should spell out what the program said it funds\u2014whether that's research, time to write, or producing a specific work during a fellowship period.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-4-prepare-your-application-materials-to-hit-the-grant-s-purpose"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-4-prepare-your-application-materials-to-hit-the-grant-s-purpose"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Run a quick eligibility test before you submit",
           "text": "Before you click submit, answer only these questions:",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-5-run-a-quick-eligibility-test-before-you-submit"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-5-run-a-quick-eligibility-test-before-you-submit"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Apply smart and track rejections",
           "text": "Submit broadly enough that you're not living or dying by one outcome\u2014but narrowly enough that you're not random-walking into mismatches.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-6-apply-smart-and-track-rejections"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#step-6-apply-smart-and-track-rejections"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility#faq",
       "mainEntity": [
         {
           "@type": "Question",

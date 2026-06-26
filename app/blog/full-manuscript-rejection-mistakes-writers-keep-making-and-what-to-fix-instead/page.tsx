@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Full-manuscript rejection mistakes writers keep making (and what to fix instead)",
   "description": "A full request feels like a door opening. Then the manuscript rejection drops anyway, usually with feedback that's vague, late, or nonexistent\u2014and suddenly you're staring at your revision like it's a crime scene.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-06",
+  "modifiedDate": "2027-02-06",
   "canonicalUrl": "https://writequeryhook.com/blog/full-manuscript-rejection-mistakes-writers-keep-making-and-what-to-fix-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -596,6 +596,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/full-manuscript-rejection-mistakes-writers-keep-making-and-what-to-fix-instead#primaryimage"
       },
+      "datePublished": "2027-02-06",
+      "dateModified": "2027-02-06",
       "mentions": [
         {
           "@type": "WebPage",

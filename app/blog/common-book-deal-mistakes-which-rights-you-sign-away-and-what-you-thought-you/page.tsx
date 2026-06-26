@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
   "description": "Most writers hear \"major-house deal\" and picture the fun part: the pretty jacket, the big marketing push, the glamorous sense of permission.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
+  "publishedDate": "2027-05-08",
+  "modifiedDate": "2027-05-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "receipts"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_hero_surprise_dread_blog_hero_landscape_485423fb03c3.jpeg",
+    "alt": "blog hero \u00b7 surprise dread",
+    "width": 6883,
+    "height": 5315,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-      "item": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+      "item": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
     }
   ],
   "tldrBlocks": [],
@@ -104,7 +113,16 @@ const PAGE_DATA = {
           "text": "Good news: you can still protect yourself. Bad news: you need to stop treating the contract like a victory lap and start treating it like receipts."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_section_image_wrong_assumption_cover_approval_blog_section_landscape_6b807c52f2ff.gif",
+        "alt": "You're treating cover and marketing like you get approval power",
+        "width": 330,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/reaction-okay-ok-SmoCFhZCi1kzu",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_rights_myth_cover_myth",
@@ -152,7 +170,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** An author accepts language that the publisher \"may\" use specified jacket copy and \"will determine\" design. Six months later, the cover lands in a direction the author dislikes. The contract doesn't give a veto. That disagreement becomes a begging session instead of a redline moment."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_section_image_wrong_assumption_cover_approval_blog_section_landscape_6b807c52f2ff.gif",
+        "alt": "You're treating cover and marketing like you get approval power",
+        "width": 330,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/reaction-okay-ok-SmoCFhZCi1kzu",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_advance_timing_panic",
@@ -205,7 +232,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** You accept an agreement where a large chunk is paid \"upon publication.\" Publication slips, the publisher exercises discretion, and your cash timing collapses. You still get paid eventually\u2014maybe\u2014but the schedule you didn't fight becomes the reason you're stressed during the hardest months."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_section_image_cashflow_advance_blog_section_landscape_c45937e02efa.jpeg",
+        "alt": "You're ignoring advance timing instead of understanding the advance and payment schedule",
+        "width": 3000,
+        "height": 2001,
+        "creator": "Jakub Zerdzicki",
+        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_print_ebook_format_guarantees",
@@ -312,7 +348,16 @@ const PAGE_DATA = {
           "text": "**Concrete example:** You agree to \"world rights\" thinking it's a formality. Later, foreign translations happen in markets you didn't anticipate, and your ability to control licensing is limited by the permissions you granted."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_section_image_wrong_assumption_cover_approval_blog_section_landscape_6b807c52f2ff.gif",
+        "alt": "You're treating cover and marketing like you get approval power",
+        "width": 330,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/reaction-okay-ok-SmoCFhZCi1kzu",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_you_re_treating_the_whole_contract_as_equally_negotiable",
@@ -354,7 +399,16 @@ const PAGE_DATA = {
           "text": "If it only sounds \"normal\" and never mentions outcomes, it's probably boilerplate. If it defines outcomes, treat it like negotiable real estate."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_section_image_you_re_treating_the_whole_contract_as_equally_ne_blog_section_landscape_ea3c54288c0a.gif",
+        "alt": "You're treating the whole contract as equally negotiable",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_signing_direct_without_agent",
@@ -415,20 +469,20 @@ const PAGE_DATA = {
   "closingImage": null,
   "alsoLike": [
     {
-      "title": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-      "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
-    },
-    {
-      "title": "The editorial assessment should come first: how to tell what your book actually needs",
-      "url": "https://writequeryhook.com/the-editorial-assessment-should-come-first-how-to-tell-what-your-book-actually-needs"
-    },
-    {
       "title": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
-      "url": "https://writequeryhook.com/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
     },
     {
-      "title": "Representation offer vs other agent options: what to do first, and what to ask",
-      "url": "https://writequeryhook.com/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+      "title": "How to incorporate agent/editor feedback without breaking your story",
+      "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+    },
+    {
+      "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
+      "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+    },
+    {
+      "title": "How to typeset your novel for print without wrecking readability",
+      "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -446,7 +500,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
     }
   ]
 } as const;
@@ -476,7 +530,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -488,28 +542,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-          "item": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
+          "item": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
+      "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#webpage",
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
       "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -525,11 +582,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#article",
+      "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#webpage"
+        "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you",
       "headline": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
       "alternativeHeadline": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
       "description": "Most writers hear \"major-house deal\" and picture the fun part: the pretty jacket, the big marketing push, the glamorous sense of permission.",
@@ -558,33 +615,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#primaryimage"
+      },
+      "datePublished": "2027-05-08",
+      "dateModified": "2027-05-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-          "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The editorial assessment should come first: how to tell what your book actually needs",
-          "url": "https://writequeryhook.com/the-editorial-assessment-should-come-first-how-to-tell-what-your-book-actually-needs"
+          "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
         },
         {
           "@type": "WebPage",
           "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
-          "url": "https://writequeryhook.com/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
         },
         {
           "@type": "WebPage",
-          "name": "Representation offer vs other agent options: what to do first, and what to ask",
-          "url": "https://writequeryhook.com/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+          "name": "How to incorporate agent/editor feedback without breaking your story",
+          "url": "https://writequeryhook.com/blog/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
+          "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to typeset your novel for print without wrecking readability",
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_386/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you/blog/blog_hero_surprise_dread_blog_hero_landscape_485423fb03c3.jpeg",
+      "width": 6883,
+      "height": 5315,
+      "caption": "blog hero \u00b7 surprise dread",
+      "creditText": "Andrea Piacquadio",
+      "author": {
+        "@type": "Person",
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

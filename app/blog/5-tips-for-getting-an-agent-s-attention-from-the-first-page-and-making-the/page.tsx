@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for getting an agent's attention from the first page (and making the query match)",
   "description": "Somewhere between \"I think this is ready\" and \"why did I get a polite rejection,\" a lot of writers learn the same frustrating lesson: your first page is doing more work than you think.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-15",
+  "modifiedDate": "2026-11-15",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-getting-an-agent-s-attention-from-the-first-page-and-making-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -489,6 +489,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-getting-an-agent-s-attention-from-the-first-page-and-making-the#primaryimage"
       },
+      "datePublished": "2026-11-15",
+      "dateModified": "2026-11-15",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Improve Your Query by Narrowing Your Audience into a Marketing Profile",
   "description": "Editors don\u2019t just reject bad books. They reject vague positioning. A query that describes its audience like \u201cpeople who like stories\u201d gives editors nothing to hang marketing on\u2014and nothing to believe.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-16",
+  "modifiedDate": "2026-07-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-improve-your-query-by-narrowing-your-audience-into-a-marketing-profile",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-improve-your-query-by-narrowing-your-audience-into-a-marketing-profile#primaryimage"
       },
+      "datePublished": "2026-07-16",
+      "dateModified": "2026-07-16",
       "mentions": [
         {
           "@type": "WebPage",

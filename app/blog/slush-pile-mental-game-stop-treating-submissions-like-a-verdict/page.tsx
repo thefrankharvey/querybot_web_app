@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Slush Pile Mental Game: Stop Treating Submissions Like a Verdict",
   "description": "If you've ever stared at a submission confirmation email like it's going to blink first\u2014yeah. That.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-31",
+  "modifiedDate": "2027-01-31",
   "canonicalUrl": "https://writequeryhook.com/blog/slush-pile-mental-game-stop-treating-submissions-like-a-verdict",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -702,6 +702,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/slush-pile-mental-game-stop-treating-submissions-like-a-verdict#primaryimage"
       },
+      "datePublished": "2027-01-31",
+      "dateModified": "2027-01-31",
       "mentions": [
         {
           "@type": "WebPage",

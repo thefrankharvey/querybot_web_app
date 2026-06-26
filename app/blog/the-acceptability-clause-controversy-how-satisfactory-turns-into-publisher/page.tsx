@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
   "description": "A publishing contract is supposed to feel like a handshake after the offer. Then you see the clause with the bland name and the dangerous meaning.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
+  "publishedDate": "2027-05-30",
+  "modifiedDate": "2027-05-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_hero_contract_dread_surprise_clause_blog_hero_landscape_ab4d16e534cd.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_hero_contract_dread_surprise_clause_blog_hero_landscape_ab4d16e534cd.jpeg?updatedAt=1782180052234",
     "alt": "blog hero \u00b7 contract dread surprise clause",
     "width": 5040,
     "height": 3360,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "item": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
+      "item": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     }
   ],
   "tldrBlocks": [],
@@ -77,7 +77,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_tldr_blog_section_landscape_7e0af20df028.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_tldr_blog_section_landscape_7e0af20df028.jpeg?updatedAt=1782180053226",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -192,7 +192,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_discretion_satisfaction_blog_section_landscape_9508b9bdd507.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_discretion_satisfaction_blog_section_landscape_9508b9bdd507.gif?updatedAt=1782180053892",
         "alt": "Where the clause hits authors: bargaining power and \u201chard to prove\u201d rejection",
         "width": 222,
         "height": 200,
@@ -280,7 +280,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_discretion_satisfaction_blog_section_landscape_9508b9bdd507.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_discretion_satisfaction_blog_section_landscape_9508b9bdd507.gif?updatedAt=1782180053892",
         "alt": "Where the clause hits authors: bargaining power and \u201chard to prove\u201d rejection",
         "width": 222,
         "height": 200,
@@ -421,7 +421,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_dispute_burden_of_proof_blog_section_landscape_4801dbaaf057.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_dispute_burden_of_proof_blog_section_landscape_4801dbaaf057.gif?updatedAt=1782180054809",
         "alt": "Case outcomes and burden of proof: why decisions can diverge",
         "width": 226,
         "height": 200,
@@ -462,32 +462,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_section_image_back_to_draft_read_the_clause_blog_section_landscape_5bebc3ba1999.jpeg",
-    "alt": "blog section image \u00b7 back to draft read the clause",
-    "width": 6322,
-    "height": 4215,
-    "creator": "Ron Lach",
-    "creatorUrl": "https://www.pexels.com/@ron-lach",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     },
     {
       "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     },
     {
       "title": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
     },
     {
       "title": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-      "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -526,7 +517,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "url": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     }
   ]
 } as const;
@@ -556,7 +547,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -568,31 +559,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "item": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
+          "item": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#webpage",
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
       "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -608,11 +599,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#article",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#webpage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher",
       "headline": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
       "alternativeHeadline": "The acceptability clause controversy: how \"satisfactory\" turns into publisher control",
       "description": "A publishing contract is supposed to feel like a handshake after the offer. Then you see the clause with the bland name and the dangerous meaning.",
@@ -642,40 +633,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage"
       },
+      "datePublished": "2027-05-30",
+      "dateModified": "2027-05-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "url": "https://writequeryhook.com/query-letters/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+          "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
         },
         {
           "@type": "WebPage",
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+          "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         },
         {
           "@type": "WebPage",
           "name": "Know When to Leave Your Agent: The Mistakes That Make You Wait Too Long (or Bail for the Wrong Reason)",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail-for-the-wrong-reason"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-the-mistakes-that-make-you-wait-too-long-or-bail"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause mistakes: 7 ways authors get burned after the offer",
-          "url": "https://writequeryhook.com/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-mistakes-7-ways-authors-get-burned-after-the-offer"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_hero_contract_dread_surprise_clause_blog_hero_landscape_ab4d16e534cd.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_416/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher/blog/blog_hero_contract_dread_surprise_clause_blog_hero_landscape_ab4d16e534cd.jpeg?updatedAt=1782180052234",
       "width": 5040,
       "height": 3360,
       "caption": "blog hero \u00b7 contract dread surprise clause",
@@ -690,7 +678,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#faq",
+      "@id": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher#faq",
       "mainEntity": [
         {
           "@type": "Question",

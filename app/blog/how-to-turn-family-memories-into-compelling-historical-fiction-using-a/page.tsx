@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Turn Family Memories Into Compelling Historical Fiction Using a Timeline-First Workflow",
   "description": "The first time you try to write historical fiction from family stories, you hit the same wall: the past is intimate, but it's annoyingly incomplete. Somebody remembers the feeling of a day. Nobody remembers the exact order of events. You're stuck doing \"accurate vibes\" instead of writing a novel.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-19",
+  "modifiedDate": "2027-01-19",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-turn-family-memories-into-compelling-historical-fiction-using-a",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -610,6 +610,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-turn-family-memories-into-compelling-historical-fiction-using-a#primaryimage"
       },
+      "datePublished": "2027-01-19",
+      "dateModified": "2027-01-19",
       "mentions": [
         {
           "@type": "WebPage",

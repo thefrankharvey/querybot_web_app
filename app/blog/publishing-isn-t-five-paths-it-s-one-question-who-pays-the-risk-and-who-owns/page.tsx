@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
   "description": "Writers love labels. One \"best\" answer. One clean decision tree. One moment where you pick Traditional or Self-publishing and then life is simple.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
+  "publishedDate": "2027-06-07",
+  "modifiedDate": "2027-06-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_hero_stuck_impatience_blog_hero_landscape_1b8d57ba0cf4.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_hero_stuck_impatience_blog_hero_landscape_1b8d57ba0cf4.jpeg?updatedAt=1782206499068",
     "alt": "blog hero \u00b7 stuck impatience",
     "width": 7952,
     "height": 5304,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-      "item": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
+      "item": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     }
   ],
   "tldrBlocks": [],
@@ -103,13 +103,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_tldr_blog_section_landscape_689599246658.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_tldr_blog_section_landscape_689599246658.jpeg",
         "alt": "TLDR",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -167,13 +167,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_publisher_risk_advance_blog_section_landscape_f0f809c4def4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_publisher_risk_advance_blog_section_landscape_f0f809c4def4.gif",
         "alt": "traditional: what changes when the publisher takes the risk",
-        "width": 3923,
-        "height": 2615,
-        "creator": "Douglas Schneiders",
-        "creatorUrl": "https://www.pexels.com/@douglas-schneiders-2148687071",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dotdave",
+        "creatorUrl": "https://giphy.com/gifs/take-a-risk-it-for-the-biscuit-may-fail-AjKrgCCrBuLbzCuNxI",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -323,13 +323,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_control_audience_building_blog_section_landscape_a9304798b374.jpg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_control_audience_building_blog_section_landscape_a9304798b374.gif",
         "alt": "self-publishing: the control trade you actually sign up for",
-        "width": 4752,
-        "height": 3168,
-        "creator": "John-Mark Smith",
-        "creatorUrl": "https://www.pexels.com/@jmark",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "southpark",
+        "creatorUrl": "https://giphy.com/gifs/southparkgifs-3o6ZtkH8bL3rZFvz56",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -391,43 +391,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_control_audience_building_blog_section_landscape_a9304798b374.jpg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_control_audience_building_blog_section_landscape_a9304798b374.gif",
         "alt": "self-publishing: the control trade you actually sign up for",
-        "width": 4752,
-        "height": 3168,
-        "creator": "John-Mark Smith",
-        "creatorUrl": "https://www.pexels.com/@jmark",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "southpark",
+        "creatorUrl": "https://giphy.com/gifs/southparkgifs-3o6ZtkH8bL3rZFvz56",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_99a4cd4254be.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 200,
-    "height": 200,
-    "creator": "disneystudios",
-    "creatorUrl": "https://giphy.com/gifs/disneystudios-disney-stare-mena-massoud-S6q7a7nMOL2c11R4qq",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "11 book title tips to make your next title sell before the blurb even loads",
-      "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
-    },
-    {
-      "title": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-      "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
-    },
-    {
-      "title": "10 author websites that work\u2014and the mechanics behind them",
-      "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     },
     {
       "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+    },
+    {
+      "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+    },
+    {
+      "title": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
+      "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -470,7 +461,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "11 book title tips to make your next title sell before the blurb even loads",
-      "url": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     }
   ]
 } as const;
@@ -500,7 +491,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -512,31 +503,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-          "item": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
+          "item": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
+      "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
       "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -552,11 +543,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#article",
+      "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns",
       "headline": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
       "alternativeHeadline": "Publishing isn\u2019t five paths\u2014it's one question: who pays the risk and who owns the rights?",
       "description": "Writers love labels. One \"best\" answer. One clean decision tree. One moment where you pick Traditional or Self-publishing and then life is simple.",
@@ -586,40 +577,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage"
       },
+      "datePublished": "2027-06-07",
+      "dateModified": "2027-06-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "url": "https://writequeryhook.com/query-letters/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
-        },
-        {
-          "@type": "WebPage",
-          "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
-        },
-        {
-          "@type": "WebPage",
-          "name": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-          "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "10 author websites that work\u2014and the mechanics behind them",
-          "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
+          "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
         },
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to write IP: a beginner guide to intellectual property commissions, pitches, and pay",
+          "url": "https://writequeryhook.com/blog/how-to-write-ip-a-beginner-guide-to-intellectual-property-commissions-pitches"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_hero_stuck_impatience_blog_hero_landscape_1b8d57ba0cf4.jpeg",
+      "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_425/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns/blog/blog_hero_stuck_impatience_blog_hero_landscape_1b8d57ba0cf4.jpeg?updatedAt=1782206499068",
       "width": 7952,
       "height": 5304,
       "caption": "blog hero \u00b7 stuck impatience",
@@ -634,7 +622,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns#faq",
       "mainEntity": [
         {
           "@type": "Question",

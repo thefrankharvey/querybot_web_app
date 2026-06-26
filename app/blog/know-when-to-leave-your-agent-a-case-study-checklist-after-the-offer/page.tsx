@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Know when to leave your agent: a case-study checklist after the offer",
   "description": "You don't start querying and then magically stop caring about the people who hold your career in their hands. So after the offer\u2014after the \"we sold it\" high wears off\u2014you land in a new kind of dread.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
+  "publishedDate": "2027-05-31",
+  "modifiedDate": "2027-05-31",
+  "canonicalUrl": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_hero_high_stakes_dread_blog_hero_landscape_3ff3d19c1258.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_hero_high_stakes_dread_blog_hero_landscape_3ff3d19c1258.jpeg?updatedAt=1782182745629",
     "alt": "blog hero \u00b7 high stakes dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Know when to leave your agent: a case-study checklist after the offer",
-      "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
     }
   ],
   "tldrBlocks": [],
@@ -183,7 +183,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_setback_context_blog_section_landscape_5f7901ea3ac6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_setback_context_blog_section_landscape_5f7901ea3ac6.gif?updatedAt=1782182746104",
         "alt": "Failed sale is not always a red flag",
         "width": 166,
         "height": 200,
@@ -340,7 +340,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_betrayal_ethics_blog_section_landscape_b977f29ed75c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_betrayal_ethics_blog_section_landscape_b977f29ed75c.jpeg?updatedAt=1782182746534",
         "alt": "Unprofessional or unethical behavior creates the strongest \"leave\" case",
         "width": 5472,
         "height": 3648,
@@ -479,7 +479,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_copy_the_moves_checklist_blog_section_landscape_eaf5b0530c37.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_copy_the_moves_checklist_blog_section_landscape_eaf5b0530c37.gif?updatedAt=1782182747103",
         "alt": "Lessons you can apply (the case-study checklist)",
         "width": 356,
         "height": 200,
@@ -490,32 +490,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_section_image_open_your_notes_look_at_your_situation_blog_section_landscape_6e88ee804cd7.jpeg",
-    "alt": "blog section image \u00b7 open your notes look at your situation",
-    "width": 6720,
-    "height": 4480,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-      "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+      "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
     },
     {
       "title": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-      "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+      "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
     },
     {
       "title": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-      "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+      "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
     },
     {
       "title": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-      "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -554,7 +545,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "url": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     }
   ]
 } as const;
@@ -584,7 +575,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -596,31 +587,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "item": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+          "item": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#webpage",
-      "url": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#webpage",
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
       "name": "Know when to leave your agent: a case-study checklist after the offer",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -636,11 +627,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#article",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#webpage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer",
       "headline": "Know when to leave your agent: a case-study checklist after the offer",
       "alternativeHeadline": "Know when to leave your agent: a case-study checklist after the offer",
       "description": "You don't start querying and then magically stop caring about the people who hold your career in their hands. So after the offer\u2014after the \"we sold it\" high wears off\u2014you land in a new kind of dread.",
@@ -670,40 +661,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage"
+        "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage"
       },
+      "datePublished": "2027-05-31",
+      "dateModified": "2027-05-31",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "url": "https://writequeryhook.com/query-letters/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         },
         {
           "@type": "WebPage",
           "name": "The acceptability clause controversy: how \u201csatisfactory\u201d turns into publisher control",
-          "url": "https://writequeryhook.com/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher-control"
+          "url": "https://writequeryhook.com/blog/the-acceptability-clause-controversy-how-satisfactory-turns-into-publisher"
         },
         {
           "@type": "WebPage",
           "name": "A real \"editor match\" breakdown: how to decide book editing, developmental editing, copy editing, and proofreading",
-          "url": "https://writequeryhook.com/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing-copy-editing-and-proofreading"
+          "url": "https://writequeryhook.com/blog/a-real-editor-match-breakdown-how-to-decide-book-editing-developmental-editing"
         },
         {
           "@type": "WebPage",
           "name": "Break down a retailer blurb: how to optimize your first lines for Amazon, keywords, and genre",
-          "url": "https://writequeryhook.com/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon-keywords-and-genre"
+          "url": "https://writequeryhook.com/blog/break-down-a-retailer-blurb-how-to-optimize-your-first-lines-for-amazon"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that make you hire the wrong editor (and why the \"solo book\" myth messes it up)",
-          "url": "https://writequeryhook.com/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth-messes-it-up"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-you-hire-the-wrong-editor-and-why-the-solo-book-myth"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_hero_high_stakes_dread_blog_hero_landscape_3ff3d19c1258.jpeg",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_417/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer/blog/blog_hero_high_stakes_dread_blog_hero_landscape_3ff3d19c1258.jpeg?updatedAt=1782182745629",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 high stakes dread",
@@ -718,7 +711,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#faq",
+      "@id": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer#faq",
       "mainEntity": [
         {
           "@type": "Question",

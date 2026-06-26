@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
   "description": "I\u2019ve seen the whole sequence: you\u2019re \u201cjust checking\u201d what a stronger writer did\u2026 and suddenly you\u2019re walking around with a frown, checking their paragraphs like they\u2019re a medical chart, and your own cursor is blinking like it\u2019s afraid of you.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-11",
+  "modifiedDate": "2027-04-11",
   "canonicalUrl": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -563,6 +563,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting#primaryimage"
       },
+      "datePublished": "2027-04-11",
+      "dateModified": "2027-04-11",
       "mentions": [
         {
           "@type": "WebPage",

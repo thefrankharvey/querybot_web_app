@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 writing your first novella mistakes that make it feel rushed (even when you hit the word count)",
   "description": "If you're treating a novella like a shortcut, you're going to get exactly what shortcut behavior produces: a draft that moves fast and a story that feels rushed.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-06",
+  "modifiedDate": "2026-11-06",
   "canonicalUrl": "https://writequeryhook.com/blog/7-writing-your-first-novella-mistakes-that-make-it-feel-rushed-even-when-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -596,6 +596,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-writing-your-first-novella-mistakes-that-make-it-feel-rushed-even-when-you#primaryimage"
       },
+      "datePublished": "2026-11-06",
+      "dateModified": "2026-11-06",
       "mentions": [
         {
           "@type": "WebPage",

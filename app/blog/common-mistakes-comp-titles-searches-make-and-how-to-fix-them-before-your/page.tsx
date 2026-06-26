@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes comp titles searches make\u2014and how to fix them before your query letter gets judged",
   "description": "If you've ever stared at your comps and thought, These feel too interchangeable\u2014or worse, These feel like I'm trying too hard\u2014you know the problem runs deeper than just picking famous names. Comp titles can't be \"close enough.\" They're evidence. They're vibe and market positioning. They're also the part of a query letter that gets side-eyed when the rest of the package is trying its hardest.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-12",
+  "modifiedDate": "2026-08-12",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-comp-titles-searches-make-and-how-to-fix-them-before-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -622,6 +622,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-comp-titles-searches-make-and-how-to-fix-them-before-your#primaryimage"
       },
+      "datePublished": "2026-08-12",
+      "dateModified": "2026-08-12",
       "mentions": [
         {
           "@type": "WebPage",

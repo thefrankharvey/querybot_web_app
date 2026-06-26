@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The Snowflake Method: 6 steps for outlining a plot you can actually draft",
   "description": "Most writers don't hate outlining. They hate the part where outlining turns into a fog machine.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-02",
+  "modifiedDate": "2026-11-02",
   "canonicalUrl": "https://writequeryhook.com/blog/the-snowflake-method-6-steps-for-outlining-a-plot-you-can-actually-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -597,6 +597,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-snowflake-method-6-steps-for-outlining-a-plot-you-can-actually-draft#primaryimage"
       },
+      "datePublished": "2026-11-02",
+      "dateModified": "2026-11-02",
       "mentions": [
         {
           "@type": "WebPage",

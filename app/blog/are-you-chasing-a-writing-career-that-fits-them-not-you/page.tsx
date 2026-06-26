@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Are you chasing a writing career that fits them, not you?",
   "description": "I've sat in enough conference rooms to recognize the pattern: someone stands up, tells a clean little story about how they got \"serious\" and \"successful,\" and then drops a universal system like it's a universal solvent. People applaud. People nod. People go back home and try to replicate the whole thing with the same frantic devotion they use to chase sleep after a nightmare.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-05",
+  "modifiedDate": "2027-04-05",
   "canonicalUrl": "https://writequeryhook.com/blog/are-you-chasing-a-writing-career-that-fits-them-not-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/are-you-chasing-a-writing-career-that-fits-them-not-you#primaryimage"
       },
+      "datePublished": "2027-04-05",
+      "dateModified": "2027-04-05",
       "mentions": [
         {
           "@type": "WebPage",

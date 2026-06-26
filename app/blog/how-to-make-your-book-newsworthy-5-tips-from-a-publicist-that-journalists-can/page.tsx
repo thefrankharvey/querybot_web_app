@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
   "description": "Earned coverage sounds glamorous right up until you're staring at your own inbox draft wondering if anyone will ever read it.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
+  "publishedDate": "2027-06-18",
+  "modifiedDate": "2027-06-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_hero_intimidation_blank_page_blog_hero_landscape_b0aff6bec4f3.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_hero_intimidation_blank_page_blog_hero_landscape_b0aff6bec4f3.jpeg?updatedAt=1782222524218",
     "alt": "blog hero \u00b7 intimidation blank page",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "item": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
+      "item": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     }
   ],
   "tldrBlocks": [],
@@ -143,13 +143,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_search_anxiety_blog_section_landscape_9ecfb7099dea.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_search_anxiety_blog_section_landscape_9ecfb7099dea.jpeg",
         "alt": "2) Target the right journalists before you pitch",
-        "width": 266,
-        "height": 200,
-        "creator": "kilianimes",
-        "creatorUrl": "https://giphy.com/gifs/music-anime-meme-MGQ45AGWv4M4oTDopL",
-        "provider": "giphy",
+        "width": 5821,
+        "height": 3881,
+        "creator": "Anna Shvets",
+        "creatorUrl": "https://www.pexels.com/@shvetsa",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -195,13 +195,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_relief_speed_blog_section_landscape_4116f7431554.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_relief_speed_blog_section_landscape_4116f7431554.gif",
         "alt": "3) Use industry newsletters for quote requests that land faster",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Alari Tammsalu",
-        "creatorUrl": "https://www.pexels.com/@alaritammsalu",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "slimeallyourfriends",
+        "creatorUrl": "https://giphy.com/gifs/bro-relief-realize-bVFqWC3dBcmANKMJQf",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -251,7 +251,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_credibility_authority_blog_section_landscape_83d8a77709d6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_credibility_authority_blog_section_landscape_83d8a77709d6.gif?updatedAt=1782222528395",
         "alt": "4) Position credibility even if your book isn't published yet",
         "width": 272,
         "height": 200,
@@ -330,32 +330,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_section_image_momentum_share_fast_blog_section_landscape_5bed082b94c9.jpeg",
-    "alt": "blog section image \u00b7 momentum share fast",
-    "width": 6016,
-    "height": 4016,
-    "creator": "Vladim\u00edr  Sl\u00e1dek",
-    "creatorUrl": "https://www.pexels.com/@vladimir-sladek-127740023",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     },
     {
       "title": "How to make your manuscript more commercial (without rewriting your soul)",
-      "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     },
     {
       "title": "How to build a compelling novel concept: turn your premise into a kicker",
-      "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     },
     {
-      "title": "Author promotion vs book promotion: stop treating them like the same job",
-      "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "title": "What are subsidiary rights in publishing? FAQ",
+      "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -394,7 +385,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-      "url": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
     }
   ]
 } as const;
@@ -424,7 +415,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -436,31 +427,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "item": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
+          "item": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
       "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -476,11 +467,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#article",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can",
       "headline": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
       "alternativeHeadline": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
       "description": "Earned coverage sounds glamorous right up until you're staring at your own inbox draft wondering if anyone will ever read it.",
@@ -510,40 +501,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage"
       },
+      "datePublished": "2027-06-18",
+      "dateModified": "2027-06-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-          "url": "https://writequeryhook.com/query-letters/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
+          "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
         },
         {
           "@type": "WebPage",
           "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         },
         {
           "@type": "WebPage",
           "name": "How to make your manuscript more commercial (without rewriting your soul)",
-          "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
         },
         {
           "@type": "WebPage",
           "name": "How to build a compelling novel concept: turn your premise into a kicker",
-          "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         },
         {
           "@type": "WebPage",
-          "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+          "name": "What are subsidiary rights in publishing? FAQ",
+          "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_hero_intimidation_blank_page_blog_hero_landscape_b0aff6bec4f3.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_438/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can/blog/blog_hero_intimidation_blank_page_blog_hero_landscape_b0aff6bec4f3.jpeg?updatedAt=1782222524218",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 intimidation blank page",
@@ -558,7 +551,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
   "description": "The first time you try to picture audiobook production in your head, it feels like a trap. Recording is one thing. Editing is another thing. Then someone mentions \"platform requirements\" and suddenly you're Googling microphone terms like you're about to pass a tech exam.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
+  "publishedDate": "2027-05-27",
+  "modifiedDate": "2027-05-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_hero_dread_blank_page_panic_blog_hero_landscape_8ae0e6684323.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_hero_dread_blank_page_panic_blog_hero_landscape_8ae0e6684323.jpeg?updatedAt=1782175990174",
     "alt": "blog hero \u00b7 dread blank-page panic",
     "width": 3756,
     "height": 2499,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-      "item": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
+      "item": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
     }
   ],
   "tldrBlocks": [],
@@ -174,13 +174,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_fear_uncertainty_blog_section_landscape_85d26ac6f362.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_fear_uncertainty_blog_section_landscape_85d26ac6f362.gif",
         "alt": "Prepare your script notes so narration doesn't turn into re-recording hell",
-        "width": 3999,
-        "height": 2666,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 133,
+        "height": 200,
+        "creator": "Gnogen",
+        "creatorUrl": "https://giphy.com/gifs/Gnogen-gnogen-gnogendao-aermes-Zfm8XFZ1lHt96e9NZI",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -286,13 +286,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_pressure_take_one_blog_section_landscape_2df7a6e3b6ff.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_pressure_take_one_blog_section_landscape_2df7a6e3b6ff.jpeg",
         "alt": "Record chapter files and retail samples without creating an audio patchwork",
-        "width": 318,
-        "height": 200,
-        "creator": "VerosikaMayday99",
-        "creatorUrl": "https://giphy.com/gifs/experiment-1006-chapter-5-prototype-KDIB5w92bNpD2P2wMQ",
-        "provider": "giphy",
+        "width": 7804,
+        "height": 5205,
+        "creator": "ThisIsEngineering",
+        "creatorUrl": "https://www.pexels.com/@thisisengineering",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -392,7 +392,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_frustration_clicks_and_pops_blog_section_landscape_aae5a7ec12a8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_frustration_clicks_and_pops_blog_section_landscape_aae5a7ec12a8.gif?updatedAt=1782175992332",
         "alt": "Edit for clean submission audio: remove noise, control mono/stereo, survive re-submission",
         "width": 200,
         "height": 200,
@@ -472,32 +472,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_section_image_deep_breath_hit_record_blog_section_landscape_10f0da066f4c.jpeg",
-    "alt": "blog section image \u00b7 deep breath hit record",
-    "width": 5568,
-    "height": 4176,
-    "creator": "Michele Correa",
-    "creatorUrl": "https://www.pexels.com/@michele-correa-936510463",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-      "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
-    },
-    {
       "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-      "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     },
     {
       "title": "5 ways authors can help market their book after manuscript acceptance",
-      "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
     },
     {
-      "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+      "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+    },
+    {
+      "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -533,12 +524,7 @@ const PAGE_DATA = {
       "text": "Then you wait\u2014up to 30 business days at a time\u2014because that's how quality review works. When you're ready, hit record with a marked-up script in your hands, and make the files so the work flows cleanly from one step to the next. Make the files for someone who wants a manageable day tomorrow."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-      "url": "https://writequeryhook.com/query-letters/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -566,7 +552,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -578,31 +564,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-          "item": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
+          "item": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
+      "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#webpage",
+      "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
       "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -618,11 +604,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#article",
+      "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#webpage"
+        "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and",
       "headline": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
       "alternativeHeadline": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
       "description": "The first time you try to picture audiobook production in your head, it feels like a trap. Recording is one thing. Editing is another thing. Then someone mentions \"platform requirements\" and suddenly you're Googling microphone terms like you're about to pass a tech exam.",
@@ -652,40 +638,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage"
       },
+      "datePublished": "2027-05-27",
+      "dateModified": "2027-05-27",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-          "url": "https://writequeryhook.com/query-letters/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-          "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
-        },
-        {
-          "@type": "WebPage",
           "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-          "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+          "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         },
         {
           "@type": "WebPage",
           "name": "5 ways authors can help market their book after manuscript acceptance",
-          "url": "https://writequeryhook.com/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+          "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
         },
         {
           "@type": "WebPage",
-          "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+          "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
+          "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
+          "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_hero_dread_blank_page_panic_blog_hero_landscape_8ae0e6684323.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_412/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and/blog/blog_hero_dread_blank_page_panic_blog_hero_landscape_8ae0e6684323.jpeg?updatedAt=1782175990174",
       "width": 3756,
       "height": 2499,
       "caption": "blog hero \u00b7 dread blank-page panic",
@@ -700,7 +683,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#faq",
+      "@id": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and#faq",
       "mainEntity": [
         {
           "@type": "Question",

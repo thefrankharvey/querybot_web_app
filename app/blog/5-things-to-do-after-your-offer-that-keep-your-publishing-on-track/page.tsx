@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 things to do after your offer (that keep your publishing on track)",
   "description": "The after-the-offer phase has this weird vibe: you won't stop smiling\u2026 until you open your inbox and realize publishing isn't a victory lap. It's a job with paperwork, timelines, and humans who communicate unevenly.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
+  "publishedDate": "2027-05-05",
+  "modifiedDate": "2027-05-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_hero_offer_panic_blog_hero_landscape_f042e7aad015.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_hero_offer_panic_blog_hero_landscape_f042e7aad015.jpeg",
     "alt": "blog hero \u00b7 offer panic",
-    "width": 200,
-    "height": 200,
-    "creator": "jenniferaccomando",
-    "creatorUrl": "https://giphy.com/gifs/jenniferaccomando-patience-paper-hands-market-manipulation-cVh9BanswdbpxnmOsl",
-    "provider": "giphy",
+    "width": 6960,
+    "height": 4640,
+    "creator": "Marta Branco",
+    "creatorUrl": "https://www.pexels.com/@martabranco",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 things to do after your offer (that keep your publishing on track)",
-      "item": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
+      "item": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
     }
   ],
   "tldrBlocks": [],
@@ -143,13 +143,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_transparency_anxiety_blog_section_landscape_bd5f403f2ebc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_transparency_anxiety_blog_section_landscape_bd5f403f2ebc.jpeg",
         "alt": "What to ask next (FAQ)",
-        "width": 200,
-        "height": 200,
-        "creator": "blakelivelyfan",
-        "creatorUrl": "https://giphy.com/gifs/blakelivelyfan-cZVWFrrmx5a0agqzpS",
-        "provider": "giphy",
+        "width": 5953,
+        "height": 3969,
+        "creator": "MART  PRODUCTION",
+        "creatorUrl": "https://www.pexels.com/@mart-production",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -300,13 +300,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_teamwork_communication_blog_section_landscape_8e2d6f0f8d23.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_teamwork_communication_blog_section_landscape_8e2d6f0f8d23.gif",
         "alt": "Set your rep up as a team, not a telepath",
-        "width": 5236,
-        "height": 3491,
-        "creator": "KATRIN  BOLOVTSOVA",
-        "creatorUrl": "https://www.pexels.com/@ekaterina-bolovtsova",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "pudgypenguins",
+        "creatorUrl": "https://giphy.com/gifs/pudgypenguins-teamwork-build-team-work-lNBfgxkGdWPGxllHNc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -350,43 +350,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_transparency_anxiety_blog_section_landscape_bd5f403f2ebc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_transparency_anxiety_blog_section_landscape_bd5f403f2ebc.jpeg",
         "alt": "What to ask next (FAQ)",
-        "width": 200,
-        "height": 200,
-        "creator": "blakelivelyfan",
-        "creatorUrl": "https://giphy.com/gifs/blakelivelyfan-cZVWFrrmx5a0agqzpS",
-        "provider": "giphy",
+        "width": 5953,
+        "height": 3969,
+        "creator": "MART  PRODUCTION",
+        "creatorUrl": "https://www.pexels.com/@mart-production",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_section_image_finish_line_spine_still_standing_blog_section_landscape_f82f68376090.jpeg",
-    "alt": "blog section image \u00b7 finish line spine still standing",
-    "width": 4492,
-    "height": 2995,
-    "creator": "RUN 4 FFWPU",
-    "creatorUrl": "https://www.pexels.com/@runffwpu",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "5 publisher meeting tips for authors after an offer",
-      "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
-    },
-    {
-      "title": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-      "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
-    },
-    {
       "title": "How to typeset your novel for print without wrecking readability",
-      "url": "https://writequeryhook.com/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+      "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
     },
     {
-      "title": "What Authors Do After Manuscript Acceptance: How to Help Market Your Book Without Cringing",
-      "url": "https://writequeryhook.com/what-authors-do-after-manuscript-acceptance-how-to-help-market-your-book-without-cringing"
+      "title": "How to write jacket copy that sells without spoilers or wasted space",
+      "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+    },
+    {
+      "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+    },
+    {
+      "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -397,12 +388,7 @@ const PAGE_DATA = {
       "text": "When the offer hits, the win is real\u2014but the job shifts. Keep the story moving, demand clarity where you need receipts, and treat publicity and production like craft, not luck."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 publisher meeting tips for authors after an offer",
-      "url": "https://writequeryhook.com/query-letters/5-publisher-meeting-tips-for-authors-after-an-offer"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -430,7 +416,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -442,31 +428,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 things to do after your offer (that keep your publishing on track)",
-          "item": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
+          "item": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
+      "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#webpage",
+      "url": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
       "name": "5 things to do after your offer (that keep your publishing on track)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -482,11 +468,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#article",
+      "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#webpage"
+        "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track",
       "headline": "5 things to do after your offer (that keep your publishing on track)",
       "alternativeHeadline": "5 things to do after your offer (that keep your publishing on track)",
       "description": "The after-the-offer phase has this weird vibe: you won't stop smiling\u2026 until you open your inbox and realize publishing isn't a victory lap. It's a job with paperwork, timelines, and humans who communicate unevenly.",
@@ -516,48 +502,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage"
       },
+      "datePublished": "2027-05-05",
+      "dateModified": "2027-05-05",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 publisher meeting tips for authors after an offer",
-          "url": "https://writequeryhook.com/query-letters/5-publisher-meeting-tips-for-authors-after-an-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 publisher meeting tips for authors after an offer",
-          "url": "https://writequeryhook.com/5-publisher-meeting-tips-for-authors-after-an-offer"
-        },
-        {
-          "@type": "WebPage",
-          "name": "10 authors share the biggest plot twists of the publishing process (and what to do next)",
-          "url": "https://writequeryhook.com/10-authors-share-the-biggest-plot-twists-of-the-publishing-process-and-what-to-do-next"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to typeset your novel for print without wrecking readability",
-          "url": "https://writequeryhook.com/how-to-typeset-your-novel-for-print-without-wrecking-readability"
+          "url": "https://writequeryhook.com/blog/how-to-typeset-your-novel-for-print-without-wrecking-readability"
         },
         {
           "@type": "WebPage",
-          "name": "What Authors Do After Manuscript Acceptance: How to Help Market Your Book Without Cringing",
-          "url": "https://writequeryhook.com/what-authors-do-after-manuscript-acceptance-how-to-help-market-your-book-without-cringing"
+          "name": "How to write jacket copy that sells without spoilers or wasted space",
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
+          "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+        },
+        {
+          "@type": "WebPage",
+          "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
+          "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_hero_offer_panic_blog_hero_landscape_f042e7aad015.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_382/5-things-to-do-after-your-offer-that-keep-your-publishing-on-track/blog/blog_hero_offer_panic_blog_hero_landscape_f042e7aad015.jpeg",
+      "width": 6960,
+      "height": 4640,
       "caption": "blog hero \u00b7 offer panic",
-      "creditText": "jenniferaccomando",
+      "creditText": "Marta Branco",
       "author": {
         "@type": "Person",
-        "name": "jenniferaccomando",
-        "url": "https://giphy.com/gifs/jenniferaccomando-patience-paper-hands-market-manipulation-cVh9BanswdbpxnmOsl"
+        "name": "Marta Branco",
+        "url": "https://www.pexels.com/@martabranco"
       },
       "@context": "https://schema.org"
     }

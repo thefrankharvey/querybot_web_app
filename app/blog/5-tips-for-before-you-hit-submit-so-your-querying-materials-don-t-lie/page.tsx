@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for before you hit submit (so your querying materials don't lie)",
   "description": "You finish the manuscript. You type \"the end.\" You feel a victory in your chest\u2014then, like a cruel sequel, the next thought arrives: now what? For a lot of writers, \"what now\" turns into immediate submission panic. Querying becomes the default action, not the next step in a process.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-19",
+  "modifiedDate": "2026-07-19",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-before-you-hit-submit-so-your-querying-materials-don-t-lie",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -554,6 +554,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-before-you-hit-submit-so-your-querying-materials-don-t-lie#primaryimage"
       },
+      "datePublished": "2026-07-19",
+      "dateModified": "2026-07-19",
       "mentions": [
         {
           "@type": "WebPage",

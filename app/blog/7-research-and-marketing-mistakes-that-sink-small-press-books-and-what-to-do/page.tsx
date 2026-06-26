@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
   "description": "If you've gotten market feedback that makes you worry your book won't \"break out,\" you're already carrying the real problem: your brain treats publishing like a one-lane highway and panic treats pivoting like betrayal.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
+  "publishedDate": "2027-09-28",
+  "modifiedDate": "2027-09-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_hero_market_signal_dread_blog_hero_landscape_3cc595ef296c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_hero_market_signal_dread_blog_hero_landscape_3cc595ef296c.jpeg",
     "alt": "blog hero \u00b7 market-signal dread",
-    "width": 200,
-    "height": 200,
-    "creator": "regamarketing",
-    "creatorUrl": "https://giphy.com/gifs/regamarketing-1-rega-marketing-SxjOnN59ITr8hEc2ur",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
+      "item": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -118,7 +118,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_targeted_meta_tags_blog_section_landscape_91dc5f391eaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_targeted_meta_tags_blog_section_landscape_91dc5f391eaa.jpeg?updatedAt=1782336104395",
         "alt": "You're using broad buzz instead of targeted marketing meta tags for books",
         "width": 5184,
         "height": 3456,
@@ -280,7 +280,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_tightrope_sensitivity_blog_section_landscape_8feea4197e7a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_tightrope_sensitivity_blog_section_landscape_8feea4197e7a.gif?updatedAt=1782336103334",
         "alt": "You're pulling real people into fiction without a sensitivity check",
         "width": 300,
         "height": 200,
@@ -334,13 +334,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_contract_small_press_blog_section_landscape_eebf21535ff5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_contract_small_press_blog_section_landscape_eebf21535ff5.gif",
         "alt": "You're signing a small press contract without a review habit",
-        "width": 3999,
-        "height": 2667,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -450,7 +450,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_targeted_meta_tags_blog_section_landscape_91dc5f391eaa.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_targeted_meta_tags_blog_section_landscape_91dc5f391eaa.jpeg?updatedAt=1782336104395",
         "alt": "You're using broad buzz instead of targeted marketing meta tags for books",
         "width": 5184,
         "height": 3456,
@@ -483,32 +483,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_section_image_move_fix_blog_section_landscape_aa294b96889d.jpeg",
-    "alt": "blog section image \u00b7 move fix",
-    "width": 5504,
-    "height": 4128,
-    "creator": "Bulat843 \ud83c\udf19",
-    "creatorUrl": "https://www.pexels.com/@bulat843-1243575272",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     },
     {
       "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     },
     {
       "title": "17 mistakes indie authors keep making on the road to publishing success",
-      "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     },
     {
-      "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+      "title": "The mission statement tells you what a publisher is actually buying",
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -526,7 +517,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
     }
   ]
 } as const;
@@ -556,7 +547,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -568,31 +559,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
+          "item": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
+      "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
       "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -608,11 +599,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#article",
+      "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do",
       "headline": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
       "alternativeHeadline": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
       "description": "If you've gotten market feedback that makes you worry your book won't \"break out,\" you're already carrying the real problem: your brain treats publishing like a one-lane highway and panic treats pivoting like betrayal.",
@@ -642,48 +633,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage"
       },
+      "datePublished": "2027-09-28",
+      "dateModified": "2027-09-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to build a novel concept kicker (with kicker examples that actually sustain tension)",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-novel-concept-kicker-with-kicker-examples-that-actually-sustain"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken-your-form-is"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "url": "https://writequeryhook.com/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
           "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         },
         {
           "@type": "WebPage",
-          "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+          "name": "The mission statement tells you what a publisher is actually buying",
+          "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_hero_market_signal_dread_blog_hero_landscape_3cc595ef296c.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_555/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do/blog/blog_hero_market_signal_dread_blog_hero_landscape_3cc595ef296c.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 market-signal dread",
-      "creditText": "regamarketing",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "regamarketing",
-        "url": "https://giphy.com/gifs/regamarketing-1-rega-marketing-SxjOnN59ITr8hEc2ur"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     }

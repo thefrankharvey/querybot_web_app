@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
   "description": "Getting an editorial letter can feel like someone yanked the rug out from under your \"I fixed this already\" confidence. One minute you're revising in peace; the next minute you're rereading the same paragraph like it's cursed\u2014because apparently the weakness you thought you solved is still staring back at you.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
+  "publishedDate": "2027-05-16",
+  "modifiedDate": "2027-05-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_hero_blindsided_anxiety_blog_hero_landscape_11b471ffa223.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_hero_blindsided_anxiety_blog_hero_landscape_11b471ffa223.jpeg",
     "alt": "blog hero \u00b7 blindsided anxiety",
-    "width": 200,
-    "height": 200,
-    "creator": "Nolimbitationstx",
-    "creatorUrl": "https://giphy.com/gifs/texas-no-limbitations-nolimbitationstexas-PjnSQMkbC94xbMIzNW",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-      "item": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+      "item": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
     }
   ],
   "tldrBlocks": [],
@@ -140,7 +140,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_anger_adrenaline_blog_section_landscape_c69e3105d5c9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_anger_adrenaline_blog_section_landscape_c69e3105d5c9.gif?updatedAt=1782147444866",
         "alt": "You're letting anger turn into paranoia",
         "width": 360,
         "height": 200,
@@ -265,13 +265,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_overwhelm_shiny_object_blog_section_landscape_61fa83a064f5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_overwhelm_shiny_object_blog_section_landscape_61fa83a064f5.gif",
         "alt": "You're prioritizing small edits first",
-        "width": 4272,
-        "height": 2848,
-        "creator": "Karen La\u00e5rk Boshoff",
-        "creatorUrl": "https://www.pexels.com/@laarkstudio",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "businessshine",
+        "creatorUrl": "https://giphy.com/gifs/businessshine-shiny-ooh-maddy-shine-Kmxew1PyKkfk1dvwup",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -314,7 +314,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_anger_adrenaline_blog_section_landscape_c69e3105d5c9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_anger_adrenaline_blog_section_landscape_c69e3105d5c9.gif?updatedAt=1782147444866",
         "alt": "You're letting anger turn into paranoia",
         "width": 360,
         "height": 200,
@@ -380,7 +380,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_plan_systematic_blog_section_landscape_d5983ef2a085.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_plan_systematic_blog_section_landscape_d5983ef2a085.jpeg?updatedAt=1782147446080",
         "alt": "You're winging the process",
         "width": 5828,
         "height": 3885,
@@ -416,32 +416,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_section_image_fist_pump_desk_return_blog_section_landscape_cbc560aae731.jpeg",
-    "alt": "blog section image \u00b7 fist-pump desk-return",
-    "width": 3000,
-    "height": 2001,
-    "creator": "Jakub Zerdzicki",
-    "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-      "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
     },
     {
       "title": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-      "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+      "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
     },
     {
-      "title": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-      "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+      "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     },
     {
-      "title": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-      "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+      "title": "5 tips to understand the publishing timeline after the offer",
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -476,7 +467,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-      "url": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
     }
   ]
 } as const;
@@ -506,7 +497,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -518,31 +509,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-          "item": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+          "item": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
+      "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#webpage",
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
       "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -558,11 +549,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#article",
+      "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#webpage"
+        "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self",
       "headline": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
       "alternativeHeadline": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
       "description": "Getting an editorial letter can feel like someone yanked the rug out from under your \"I fixed this already\" confidence. One minute you're revising in peace; the next minute you're rereading the same paragraph like it's cursed\u2014because apparently the weakness you thought you solved is still staring back at you.",
@@ -592,55 +583,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage"
       },
+      "datePublished": "2027-05-16",
+      "dateModified": "2027-05-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-          "url": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
-        },
-        {
-          "@type": "WebPage",
-          "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-          "url": "https://writequeryhook.com/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose-the-sale"
+          "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-          "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+          "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-          "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+          "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+          "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         },
         {
           "@type": "WebPage",
-          "name": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-          "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+          "name": "5 tips to understand the publishing timeline after the offer",
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_hero_blindsided_anxiety_blog_hero_landscape_11b471ffa223.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self/blog/blog_hero_blindsided_anxiety_blog_hero_landscape_11b471ffa223.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 blindsided anxiety",
-      "creditText": "Nolimbitationstx",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "Nolimbitationstx",
-        "url": "https://giphy.com/gifs/texas-no-limbitations-nolimbitationstexas-PjnSQMkbC94xbMIzNW"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#faq",
+      "@id": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self#faq",
       "mainEntity": [
         {
           "@type": "Question",

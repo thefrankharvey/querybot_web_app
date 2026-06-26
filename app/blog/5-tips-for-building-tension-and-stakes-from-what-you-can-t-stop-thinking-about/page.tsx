@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for building tension and stakes from what you can't stop thinking about",
   "description": "There's a special kind of writer brain-ache: the plot idea that won't quit. Not a \"cute premise\" either. Something you keep replaying in your head at stoplights, in line at the grocery store, while pretending to be normal.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-12",
+  "modifiedDate": "2027-01-12",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-building-tension-and-stakes-from-what-you-can-t-stop-thinking-about",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -493,6 +493,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-building-tension-and-stakes-from-what-you-can-t-stop-thinking-about#primaryimage"
       },
+      "datePublished": "2027-01-12",
+      "dateModified": "2027-01-12",
       "mentions": [
         {
           "@type": "WebPage",

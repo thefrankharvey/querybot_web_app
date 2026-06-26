@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips self-published authors use to turn early readers into real publishing success",
   "description": "A lot of writers treat self-publishing like it's either a permission slip or a consolation prize. If a traditional route stalls, they freeze. They scroll. They wait for a sign.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
+  "publishedDate": "2027-10-26",
+  "modifiedDate": "2027-10-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips self-published authors use to turn early readers into real publishing success",
-      "item": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
+      "item": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
     }
   ],
   "tldrBlocks": [],
@@ -324,19 +324,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
-    },
-    {
-      "title": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-      "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     },
     {
       "title": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-      "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+      "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
     },
     {
-      "title": "How to Market Your Book Effectively (Step-by-Step for Self-Publishing Authors)",
-      "url": "https://writequeryhook.com/how-to-market-your-book-effectively-step-by-step-for-self-publishing-authors"
+      "title": "How to decide if you need a cover designer and a formatter (and who to hire)",
+      "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+    },
+    {
+      "title": "How to Talk About Your Writing So People Want to Read It FAQ",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -371,7 +371,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     }
   ]
 } as const;
@@ -401,7 +401,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -413,31 +413,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips self-published authors use to turn early readers into real publishing success",
-          "item": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
+          "item": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
+      "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
       "name": "5 tips self-published authors use to turn early readers into real publishing success",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -453,11 +453,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing",
       "headline": "5 tips self-published authors use to turn early readers into real publishing success",
       "alternativeHeadline": "5 tips self-published authors use to turn early readers into real publishing success",
       "description": "A lot of writers treat self-publishing like it's either a permission slip or a consolation prize. If a traditional route stalls, they freeze. They scroll. They wait for a sign.",
@@ -487,39 +487,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage"
       },
+      "datePublished": "2027-10-26",
+      "dateModified": "2027-10-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "url": "https://writequeryhook.com/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-          "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+          "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
         },
         {
           "@type": "WebPage",
           "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-          "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
         },
         {
           "@type": "WebPage",
-          "name": "How to Market Your Book Effectively (Step-by-Step for Self-Publishing Authors)",
-          "url": "https://writequeryhook.com/how-to-market-your-book-effectively-step-by-step-for-self-publishing-authors"
+          "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Talk About Your Writing So People Want to Read It FAQ",
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-want-to-read-it-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_592/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing/blog/blog_hero_fear_rejection_blog_hero_landscape_fdf721da7ff9.gif",
       "width": 356,
       "height": 200,
@@ -535,7 +532,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Inciting incident mistakes that make your story feel slow (and how to fix them)",
   "description": "Your inciting incident isn't \"slow because the writing is slow.\" That's the common blame game. The contrarian truth: a lot of stalled stories are stalled because the plot start arrives too late\u2014or it arrives but fails to register as the moment the status quo breaks.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-17",
+  "modifiedDate": "2026-11-17",
   "canonicalUrl": "https://writequeryhook.com/blog/inciting-incident-mistakes-that-make-your-story-feel-slow-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -629,6 +629,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/inciting-incident-mistakes-that-make-your-story-feel-slow-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
       "mentions": [
         {
           "@type": "WebPage",

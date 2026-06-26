@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Whose Story Is It Anyway? Collaboration FAQ for Picture Books and the Publishing Process",
   "description": "Writers get sold a myth: you suffer in solitude, then genius appears fully formed. Real life is messier. The writing process is rarely a single-author vacuum\u2014especially for picture books, where an editor commissions the book, a team shapes what readers experience, and an illustrator turns your manuscript into something tactile and shared.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-20",
+  "modifiedDate": "2026-11-20",
   "canonicalUrl": "https://writequeryhook.com/blog/whose-story-is-it-anyway-collaboration-faq-for-picture-books-and-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -505,6 +505,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/whose-story-is-it-anyway-collaboration-faq-for-picture-books-and-the#primaryimage"
       },
+      "datePublished": "2026-11-20",
+      "dateModified": "2026-11-20",
       "mentions": [
         {
           "@type": "WebPage",

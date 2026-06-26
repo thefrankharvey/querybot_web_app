@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Live how to structure your novel before you write it vs alternatives: which plan actually prevents the muddy middle",
   "description": "Most writers don't struggle because they \"don't get story.\" They struggle because they draft long and unfocused, then realize they have no idea what the story is actually about\u2014so they end up building plot events without enough character consequence. You can feel the slide: momentum dies in the middle, learning becomes neat instead of painful, and the book turns into a series of scenes that don't talk to each other.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-25",
+  "modifiedDate": "2026-09-25",
   "canonicalUrl": "https://writequeryhook.com/blog/live-how-to-structure-your-novel-before-you-write-it-vs-alternatives-which",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -554,6 +554,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/live-how-to-structure-your-novel-before-you-write-it-vs-alternatives-which#primaryimage"
       },
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-25",
       "mentions": [
         {
           "@type": "WebPage",

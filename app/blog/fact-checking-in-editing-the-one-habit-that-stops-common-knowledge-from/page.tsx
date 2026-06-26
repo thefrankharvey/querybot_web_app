@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Fact-checking in editing: the one habit that stops \"common knowledge\" from wrecking your manuscript",
   "description": "The first time you catch an error that was \"obviously true\" yesterday, you feel it in your teeth. Like, wait\u2014really? That tiny flinch is the moment fact-checking turns from \"nice to have\" into \"how not to look stupid in public.\"",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-24",
+  "modifiedDate": "2027-01-24",
   "canonicalUrl": "https://writequeryhook.com/blog/fact-checking-in-editing-the-one-habit-that-stops-common-knowledge-from",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -646,6 +646,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/fact-checking-in-editing-the-one-habit-that-stops-common-knowledge-from#primaryimage"
       },
+      "datePublished": "2027-01-24",
+      "dateModified": "2027-01-24",
       "mentions": [
         {
           "@type": "WebPage",

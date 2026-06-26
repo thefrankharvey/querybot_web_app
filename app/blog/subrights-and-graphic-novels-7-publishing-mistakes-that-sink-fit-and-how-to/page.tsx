@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
   "description": "You can be doing \"all the right querying things\" and still feel like the ground is moving under you. One agent asks for revisions. Another goes quiet. Someone argues about genre placement like it's religion. And somewhere in that mess, subrights and co-editions feel like they belong to accountants, not authors.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
+  "publishedDate": "2027-09-01",
+  "modifiedDate": "2027-09-01",
+  "canonicalUrl": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_hero_dread_recognition_blog_hero_landscape_dadadeb86c52.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_hero_dread_recognition_blog_hero_landscape_dadadeb86c52.jpeg",
     "alt": "blog hero \u00b7 dread recognition",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-      "item": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
+      "item": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
     }
   ],
   "tldrBlocks": [],
@@ -316,13 +316,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_rejection_delay_blog_section_landscape_aab189518a3d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_rejection_delay_blog_section_landscape_aab189518a3d.gif",
         "alt": "You're assuming agents represent everyone (so rejection feels personal)",
-        "width": 6000,
-        "height": 4000,
-        "creator": "alleksana",
-        "creatorUrl": "https://www.pexels.com/@alleksana",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -415,7 +415,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_argument_stress_decision_fatigue_blog_section_landscape_891dc25275a6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_argument_stress_decision_fatigue_blog_section_landscape_891dc25275a6.jpeg?updatedAt=1782319152454",
         "alt": "You're handling conflicting agent/editor revisions like a court case",
         "width": 6240,
         "height": 4160,
@@ -473,13 +473,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_collaboration_doubt_blog_section_landscape_bfac04b3af92.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_collaboration_doubt_blog_section_landscape_bfac04b3af92.gif",
         "alt": "You're treating graphic novels like \"just add an artist\"",
-        "width": 3999,
-        "height": 2666,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 330,
+        "height": 200,
+        "creator": "AgroFro",
+        "creatorUrl": "https://giphy.com/gifs/agrofro-x-to-doubt-K3KctQOKALWbPfzBac",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -502,32 +502,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_section_image_resolve_action_list_blog_section_landscape_a1347510e58f.gif",
-    "alt": "blog section image \u00b7 resolve action-list",
-    "width": 200,
-    "height": 200,
-    "creator": "alexandwhite",
-    "creatorUrl": "https://giphy.com/gifs/subscribe-alexander-white-alexandwhite-TytHun5lKuMdzUYVxl",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-      "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     },
     {
       "title": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-      "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+      "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
     },
     {
-      "title": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-      "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+      "title": "Get your submission priorities wrong, and the agent will never forgive you",
+      "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
     },
     {
       "title": "How to use your book's bonus content to grow your community (and your email list)",
-      "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+      "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -541,7 +532,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-      "url": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
+      "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
     }
   ]
 } as const;
@@ -571,7 +562,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -583,31 +574,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
-          "item": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
+          "item": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#webpage",
-      "url": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
+      "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#webpage",
+      "url": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
       "name": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -623,11 +614,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#article",
+      "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#webpage"
+        "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to",
       "headline": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
       "alternativeHeadline": "Subrights and graphic novels: 7 publishing mistakes that sink fit (and how to fix them fast)",
       "description": "You can be doing \"all the right querying things\" and still feel like the ground is moving under you. One agent asks for revisions. Another goes quiet. Someone argues about genre placement like it's religion. And somewhere in that mess, subrights and co-editions feel like they belong to accountants, not authors.",
@@ -657,48 +648,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage"
       },
+      "datePublished": "2027-09-01",
+      "dateModified": "2027-09-01",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-          "url": "https://writequeryhook.com/query-letters/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Is the book world becoming pay to play\u2014and how to notice the shift before it costs you",
-          "url": "https://writequeryhook.com/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it-costs-you"
+          "url": "https://writequeryhook.com/blog/is-the-book-world-becoming-pay-to-play-and-how-to-notice-the-shift-before-it"
         },
         {
           "@type": "WebPage",
           "name": "How \"no-advance\" profit sharing actually shifts risk to authors\u2014and what to do next",
-          "url": "https://writequeryhook.com/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/how-no-advance-profit-sharing-actually-shifts-risk-to-authors-and-what-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "Why the 2023 reading format trends results don't scream \"e-book comeback\"",
-          "url": "https://writequeryhook.com/why-the-2023-reading-format-trends-results-don-t-scream-e-book-comeback"
+          "name": "Get your submission priorities wrong, and the agent will never forgive you",
+          "url": "https://writequeryhook.com/blog/get-your-submission-priorities-wrong-and-the-agent-will-never-forgive-you"
         },
         {
           "@type": "WebPage",
           "name": "How to use your book's bonus content to grow your community (and your email list)",
-          "url": "https://writequeryhook.com/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
+          "url": "https://writequeryhook.com/blog/how-to-use-your-book-s-bonus-content-to-grow-your-community-and-your-email-list"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_hero_dread_recognition_blog_hero_landscape_dadadeb86c52.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_525/subrights-and-graphic-novels-7-publishing-mistakes-that-sink-fit-and-how-to/blog/blog_hero_dread_recognition_blog_hero_landscape_dadadeb86c52.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 dread recognition",
-      "creditText": "wwe",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     }

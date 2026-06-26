@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 fatal flaws that told me my novel wasn\u2019t ready to pitch",
   "description": "The first time I tried to pitch something I\u2019d drafted for months, I could feel the manuscript smiling at me. Not because it was ready\u2014because I wanted it to be.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-22",
+  "modifiedDate": "2026-10-22",
   "canonicalUrl": "https://writequeryhook.com/blog/7-fatal-flaws-that-told-me-my-novel-wasn-t-ready-to-pitch",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -613,6 +613,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-fatal-flaws-that-told-me-my-novel-wasn-t-ready-to-pitch#primaryimage"
       },
+      "datePublished": "2026-10-22",
+      "dateModified": "2026-10-22",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to self-publish a family memoir when the story won't behave",
   "description": "The first lie we tell ourselves about self-publishing a family memoir is that it'll feel easier than traditional routes once you bypass gatekeepers.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
+  "publishedDate": "2027-07-25",
+  "modifiedDate": "2027-07-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_hero_recognition_family_history_blog_hero_landscape_1620c08ce04e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_hero_recognition_family_history_blog_hero_landscape_1620c08ce04e.jpeg",
     "alt": "blog hero \u00b7 recognition family history",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Tahir X\u0259lf\u0259",
+    "creatorUrl": "https://www.pexels.com/@tahir",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to self-publish a family memoir when the story won't behave",
-      "item": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+      "item": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
     }
   ],
   "tldrBlocks": [],
@@ -138,13 +138,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_editing_structural_edit_blog_section_landscape_338da27e32c9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_editing_structural_edit_blog_section_landscape_338da27e32c9.gif",
         "alt": "Editing for memoir: continuity and shape, not just copyedits",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Vito Gori\u010dan",
-        "creatorUrl": "https://www.pexels.com/@vito-gorican-10954628",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -233,13 +233,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_editing_structural_edit_blog_section_landscape_338da27e32c9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_editing_structural_edit_blog_section_landscape_338da27e32c9.gif",
         "alt": "Editing for memoir: continuity and shape, not just copyedits",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Vito Gori\u010dan",
-        "creatorUrl": "https://www.pexels.com/@vito-gorican-10954628",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -380,7 +380,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_typesetting_technical_stress_blog_section_landscape_6e222d6c2af6.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_typesetting_technical_stress_blog_section_landscape_6e222d6c2af6.gif?updatedAt=1782265263832",
         "alt": "Navigating typesetting for self-publishing when you're not a technical person",
         "width": 218,
         "height": 200,
@@ -391,32 +391,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_section_image_send_it_final_pass_blog_section_landscape_629e3bbf6d48.jpeg",
-    "alt": "blog section image \u00b7 send it final pass",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-      "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
     },
     {
       "title": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-      "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+      "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
     },
     {
       "title": "3 things to know when hiring a pro for your writing",
-      "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     },
     {
-      "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-      "url": "https://writequeryhook.com/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+      "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -459,7 +450,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
     }
   ]
 } as const;
@@ -489,7 +480,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -501,31 +492,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to self-publish a family memoir when the story won't behave",
-          "item": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+          "item": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
       "name": "How to self-publish a family memoir when the story won't behave",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -541,11 +532,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#article",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave",
       "headline": "How to self-publish a family memoir when the story won't behave",
       "alternativeHeadline": "How to self-publish a family memoir when the story won\u2019t behave",
       "description": "The first lie we tell ourselves about self-publishing a family memoir is that it'll feel easier than traditional routes once you bypass gatekeepers.",
@@ -575,55 +566,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage"
       },
+      "datePublished": "2027-07-25",
+      "dateModified": "2027-07-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-          "url": "https://writequeryhook.com/query-letters/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-          "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+          "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
         },
         {
           "@type": "WebPage",
           "name": "The contrarian way to budget publishing costs in 2025 (it's the edit order)",
-          "url": "https://writequeryhook.com/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
+          "url": "https://writequeryhook.com/blog/the-contrarian-way-to-budget-publishing-costs-in-2025-it-s-the-edit-order"
         },
         {
           "@type": "WebPage",
           "name": "3 things to know when hiring a pro for your writing",
-          "url": "https://writequeryhook.com/3-things-to-know-when-hiring-a-pro-for-your-writing"
+          "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
         },
         {
           "@type": "WebPage",
-          "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-          "url": "https://writequeryhook.com/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+          "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
+          "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_hero_recognition_family_history_blog_hero_landscape_1620c08ce04e.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_482/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave/blog/blog_hero_recognition_family_history_blog_hero_landscape_1620c08ce04e.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition family history",
-      "creditText": "Giphy",
+      "creditText": "Tahir X\u0259lf\u0259",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Tahir X\u0259lf\u0259",
+        "url": "https://www.pexels.com/@tahir"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave#faq",
       "mainEntity": [
         {
           "@type": "Question",

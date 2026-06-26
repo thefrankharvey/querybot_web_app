@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
   "description": "There's a special kind of comedy in publishing: you try to do the craft, and the industry hands you a spreadsheet\u2014except nobody admits it's a spreadsheet.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
+  "publishedDate": "2027-08-04",
+  "modifiedDate": "2027-08-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_hero_blank_page_panic_laugh_blog_hero_landscape_1ba409bdbe5d.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_hero_blank_page_panic_laugh_blog_hero_landscape_1ba409bdbe5d.jpeg?updatedAt=1782271338103",
     "alt": "blog hero \u00b7 blank-page panic-laugh",
     "width": 6240,
     "height": 4160,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "item": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
+      "item": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     }
   ],
   "tldrBlocks": [],
@@ -107,13 +107,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_start_here_confusion_blog_section_landscape_61ddda86a8b8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_start_here_confusion_blog_section_landscape_61ddda86a8b8.jpeg",
         "alt": "Stage 3: Write the query as a targeted pitch (about 300 words, not a r\u00e9sum\u00e9 novel)",
-        "width": 244,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/reaction-what-despicable-me-SqmkZ5IdwzTP2",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -159,7 +159,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_deadline_manuscript_blog_section_landscape_a71c98056a56.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_deadline_manuscript_blog_section_landscape_a71c98056a56.gif?updatedAt=1782271338904",
         "alt": "Stage 2: Finish the manuscript you need (because requirements vary)",
         "width": 298,
         "height": 200,
@@ -215,13 +215,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_start_here_confusion_blog_section_landscape_61ddda86a8b8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_start_here_confusion_blog_section_landscape_61ddda86a8b8.jpeg",
         "alt": "Stage 3: Write the query as a targeted pitch (about 300 words, not a r\u00e9sum\u00e9 novel)",
-        "width": 244,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/reaction-what-despicable-me-SqmkZ5IdwzTP2",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -320,43 +320,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_editing_urgency_typos_fear_blog_section_landscape_9bfc8a9de8e7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_editing_urgency_typos_fear_blog_section_landscape_9bfc8a9de8e7.gif",
         "alt": "Stage 5: Edit in stages, then face the money math (because royalties don't pay immediately)",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wahoomara",
+        "creatorUrl": "https://giphy.com/gifs/typo-minor-spelling-mistake-M56ODZS3lNohNIoVDd",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_section_image_breath_out_desk_time_blog_section_landscape_4c8bedbb330c.jpeg",
-    "alt": "blog section image \u00b7 breath out desk time",
-    "width": 5760,
-    "height": 3840,
-    "creator": "Markus Spiske",
-    "creatorUrl": "https://www.pexels.com/@markusspiske",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     },
     {
       "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+      "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
     },
     {
       "title": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-      "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+      "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
     },
     {
-      "title": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-      "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+      "title": "Building your author platform with Twitter followers vs off-social alternatives",
+      "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -391,7 +382,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     }
   ]
 } as const;
@@ -421,7 +412,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -433,31 +424,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "item": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
+          "item": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
+      "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#webpage",
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
       "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -473,11 +464,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#article",
+      "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#webpage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually",
       "headline": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
       "alternativeHeadline": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
       "description": "There's a special kind of comedy in publishing: you try to do the craft, and the industry hands you a spreadsheet\u2014except nobody admits it's a spreadsheet.",
@@ -507,40 +498,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage"
       },
+      "datePublished": "2027-08-04",
+      "dateModified": "2027-08-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
         },
         {
           "@type": "WebPage",
           "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+          "url": "https://writequeryhook.com/blog/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim"
         },
         {
           "@type": "WebPage",
           "name": "How to Determine Your Price Point for Self-Publishing (Goal-Driven, KPI-Proof)",
-          "url": "https://writequeryhook.com/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
+          "url": "https://writequeryhook.com/blog/how-to-determine-your-price-point-for-self-publishing-goal-driven-kpi-proof"
         },
         {
           "@type": "WebPage",
-          "name": "What book authors can learn from the WGA writers' strike: guild-style infrastructure, benefits, AI protections, and the writer's room",
-          "url": "https://writequeryhook.com/what-book-authors-can-learn-from-the-wga-writers-strike-guild-style-infrastructure-benefits-ai-protections-and-the-writer-s-room"
+          "name": "Building your author platform with Twitter followers vs off-social alternatives",
+          "url": "https://writequeryhook.com/blog/building-your-author-platform-with-twitter-followers-vs-off-social-alternatives"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_hero_blank_page_panic_laugh_blog_hero_landscape_1ba409bdbe5d.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_493/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually/blog/blog_hero_blank_page_panic_laugh_blog_hero_landscape_1ba409bdbe5d.jpeg?updatedAt=1782271338103",
       "width": 6240,
       "height": 4160,
       "caption": "blog hero \u00b7 blank-page panic-laugh",
@@ -555,7 +543,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#faq",
+      "@id": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Every body-looking query letter mistake that makes agents skim\u2014and the fixes that stop the bleeding",
   "description": "You already know how this goes. You sit down to write a query letter for your YA verse novel, and the words start acting like they're hiding from the agent. The letter is doing all the wrong jobs at the wrong moments\u2014so the reader skims, thinks \"interesting,\" and moves on.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-10",
+  "modifiedDate": "2026-07-10",
   "canonicalUrl": "https://writequeryhook.com/blog/every-body-looking-query-letter-mistake-that-makes-agents-skim-and-the-fixes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -554,6 +554,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/every-body-looking-query-letter-mistake-that-makes-agents-skim-and-the-fixes#primaryimage"
       },
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
       "mentions": [
         {
           "@type": "WebPage",

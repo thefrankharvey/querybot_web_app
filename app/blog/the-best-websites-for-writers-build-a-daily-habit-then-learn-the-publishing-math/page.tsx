@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The best websites for writers: build a daily habit, then learn the publishing math",
   "description": "If you've ever stared at a blank document and thought, I'll write once I feel motivated, you already know the schedule is your real problem, not the craft.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
+  "publishedDate": "2027-08-20",
+  "modifiedDate": "2027-08-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_hero_recognition_dread_blog_hero_landscape_c878d0b974a5.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_hero_recognition_dread_blog_hero_landscape_c878d0b974a5.jpeg?updatedAt=1782315331029",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-      "item": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+      "item": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_tldr_blog_section_landscape_b7fb65c3a1b6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_tldr_blog_section_landscape_b7fb65c3a1b6.jpeg?updatedAt=1782315331517",
         "alt": "TLDR",
         "width": 6611,
         "height": 4407,
@@ -169,7 +169,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_stuck_consistency_blog_section_landscape_8bd0a57ee904.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_stuck_consistency_blog_section_landscape_8bd0a57ee904.gif?updatedAt=1782315332473",
         "alt": "Build a tracked writing habit (not a \"someday\" routine)",
         "width": 112,
         "height": 200,
@@ -284,7 +284,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_revision_doubt_blog_section_landscape_9512c37ff452.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_revision_doubt_blog_section_landscape_9512c37ff452.gif?updatedAt=1782315333119",
         "alt": "Tools to improve drafting and editing (without replacing human critique)",
         "width": 200,
         "height": 200,
@@ -356,32 +356,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_section_image_commitment_deep_breath_blog_section_landscape_55cc50aef0a5.jpeg",
-    "alt": "blog section image \u00b7 commitment deep breath",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     },
     {
       "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     },
     {
       "title": "5 tips for building your author platform without growing a Twitter following",
-      "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     },
     {
-      "title": "5 things literary agents actually do (from submissions to contracts)",
-      "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -420,7 +411,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to protect your writing rights without accidentally scaring the people you need",
-      "url": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
     }
   ]
 } as const;
@@ -450,7 +441,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -462,31 +453,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-          "item": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+          "item": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
+      "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#webpage",
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
       "name": "The best websites for writers: build a daily habit, then learn the publishing math",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -502,11 +493,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#article",
+      "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#webpage"
+        "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math",
       "headline": "The best websites for writers: build a daily habit, then learn the publishing math",
       "alternativeHeadline": "The best websites for writers: build a daily habit, then learn the publishing math",
       "description": "If you've ever stared at a blank document and thought, I'll write once I feel motivated, you already know the schedule is your real problem, not the craft.",
@@ -536,40 +527,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage"
       },
+      "datePublished": "2027-08-20",
+      "dateModified": "2027-08-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to protect your writing rights without accidentally scaring the people you need",
-          "url": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+          "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
         },
         {
           "@type": "WebPage",
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for building your author platform without growing a Twitter following",
-          "url": "https://writequeryhook.com/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         },
         {
           "@type": "WebPage",
-          "name": "5 things literary agents actually do (from submissions to contracts)",
-          "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
+          "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_hero_recognition_dread_blog_hero_landscape_c878d0b974a5.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math/blog/blog_hero_recognition_dread_blog_hero_landscape_c878d0b974a5.jpeg?updatedAt=1782315331029",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -584,7 +577,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#faq",
+      "@id": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math#faq",
       "mainEntity": [
         {
           "@type": "Question",

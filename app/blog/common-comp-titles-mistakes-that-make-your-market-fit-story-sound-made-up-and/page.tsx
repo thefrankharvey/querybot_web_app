@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common comp titles mistakes that make your market fit story sound made up (and how to fix them)",
   "description": "If you can't explain how your book fits into the market, it's not because you're \"bad at describing your work.\" It's because you skipped publishing research long enough for your pitch to turn into vibes.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-12",
+  "modifiedDate": "2026-08-12",
   "canonicalUrl": "https://writequeryhook.com/blog/common-comp-titles-mistakes-that-make-your-market-fit-story-sound-made-up-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -576,6 +576,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-comp-titles-mistakes-that-make-your-market-fit-story-sound-made-up-and#primaryimage"
       },
+      "datePublished": "2026-08-12",
+      "dateModified": "2026-08-12",
       "mentions": [
         {
           "@type": "WebPage",

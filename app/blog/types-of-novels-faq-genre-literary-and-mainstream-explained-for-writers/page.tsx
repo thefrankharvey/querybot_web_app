@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
   "description": "Writers get hit with a wall of advice, and it's hard to tell what you're even supposed to build. So here's a baseline that actually helps: what a novel is, how categories are usually described, and how reader expectations shift when you write genre fiction, literary fiction, or mainstream fiction.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
+  "publishedDate": "2027-08-12",
+  "modifiedDate": "2027-08-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_c19f904d719f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_c19f904d719f.jpeg?updatedAt=1782311821863",
     "alt": "blog hero \u00b7 overwhelm blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "item": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "item": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     }
   ],
   "tldrBlocks": [],
@@ -95,13 +95,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_clarity_baseline_facts_blog_section_landscape_cc70ddd5412c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_clarity_baseline_facts_blog_section_landscape_cc70ddd5412c.jpeg",
         "alt": "What is a novel, and how long is it usually?",
-        "width": 226,
-        "height": 200,
-        "creator": "theinnernette",
-        "creatorUrl": "https://giphy.com/gifs/theinnernette-rest-in-peace-rip-anthony-head-giles-6APRk8PmCkmoRMe5V9",
-        "provider": "giphy",
+        "width": 4928,
+        "height": 3264,
+        "creator": "Lukas Blazek",
+        "creatorUrl": "https://www.pexels.com/@goumbik",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -206,13 +206,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_character_focus_theme_blog_section_landscape_8c841f750ef9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_character_focus_theme_blog_section_landscape_8c841f750ef9.gif",
         "alt": "How does literary fiction typically work?",
-        "width": 5472,
-        "height": 3648,
-        "creator": "Craig Adderley",
-        "creatorUrl": "https://www.pexels.com/@thatguycraig000",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -248,7 +248,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_marketing_anxiety_unclear_shelf_tag_blog_section_landscape_f6fc3a99a574.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_marketing_anxiety_unclear_shelf_tag_blog_section_landscape_f6fc3a99a574.gif?updatedAt=1782311824119",
         "alt": "What is mainstream fiction, and why can it be harder to market?",
         "width": 266,
         "height": 200,
@@ -259,32 +259,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_section_image_next_step_pick_a_lane_blog_section_landscape_29a5e6815037.jpeg",
-    "alt": "blog section image \u00b7 next step pick a lane",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Johannes Plenio",
-    "creatorUrl": "https://www.pexels.com/@jplenio",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How can you market your book effectively? FAQ for self-published authors",
-      "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     },
     {
       "title": "Do you need to hire a cover designer and book formatter?",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
-    },
-    {
-      "title": "What I didn't know about publishing bias (until I got forced to see it)",
-      "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
     },
     {
       "title": "Five ways to publish short stories (with realistic examples) for collections and singles",
-      "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
+    },
+    {
+      "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -302,7 +293,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How can you market your book effectively? FAQ for self-published authors",
-      "url": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
     }
   ]
 } as const;
@@ -332,7 +323,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -344,31 +335,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "item": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "item": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#webpage",
-      "url": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#webpage",
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
       "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -384,11 +375,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#article",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#webpage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers",
       "headline": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
       "alternativeHeadline": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
       "description": "Writers get hit with a wall of advice, and it's hard to tell what you're even supposed to build. So here's a baseline that actually helps: what a novel is, how categories are usually described, and how reader expectations shift when you write genre fiction, literary fiction, or mainstream fiction.",
@@ -418,40 +409,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage"
       },
+      "datePublished": "2027-08-12",
+      "dateModified": "2027-08-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How can you market your book effectively? FAQ for self-published authors",
-          "url": "https://writequeryhook.com/query-letters/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How can you market your book effectively? FAQ for self-published authors",
-          "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+          "url": "https://writequeryhook.com/blog/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
         },
         {
           "@type": "WebPage",
           "name": "Do you need to hire a cover designer and book formatter?",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-book-formatter"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What I didn't know about publishing bias (until I got forced to see it)",
-          "url": "https://writequeryhook.com/what-i-didn-t-know-about-publishing-bias-until-i-got-forced-to-see-it"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish short stories (with realistic examples) for collections and singles",
-          "url": "https://writequeryhook.com/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and-singles"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-short-stories-with-realistic-examples-for-collections-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_c19f904d719f.jpeg",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_502/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_c19f904d719f.jpeg?updatedAt=1782311821863",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 overwhelm blank-page dread",

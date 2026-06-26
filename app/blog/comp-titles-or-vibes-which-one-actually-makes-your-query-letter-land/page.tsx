@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comp titles or \"vibes\": which one actually makes your query letter land",
   "description": "Most writers can answer \"What's your book about?\" eventually. The problem is doing it in the time it takes someone to read a query letter and decide whether your pages are worth opening.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-16",
+  "modifiedDate": "2026-08-16",
   "canonicalUrl": "https://writequeryhook.com/blog/comp-titles-or-vibes-which-one-actually-makes-your-query-letter-land",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -639,6 +639,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comp-titles-or-vibes-which-one-actually-makes-your-query-letter-land#primaryimage"
       },
+      "datePublished": "2026-08-16",
+      "dateModified": "2026-08-16",
       "mentions": [
         {
           "@type": "WebPage",

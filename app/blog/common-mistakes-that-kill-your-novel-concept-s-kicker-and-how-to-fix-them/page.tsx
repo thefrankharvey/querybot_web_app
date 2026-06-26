@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
   "description": "Most writers don't need a \"better imagination.\" They need a better premise engine.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
+  "publishedDate": "2027-09-26",
+  "modifiedDate": "2027-09-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_hero_blank_page_inspiration_myth_blog_hero_landscape_20bdb91ff868.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_hero_blank_page_inspiration_myth_blog_hero_landscape_20bdb91ff868.jpeg?updatedAt=1782336062807",
     "alt": "blog hero \u00b7 blank-page inspiration-myth",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+      "item": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
     }
   ],
   "tldrBlocks": [],
@@ -90,13 +90,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_tldr_blog_section_landscape_e65fafe9c935.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_tldr_blog_section_landscape_e65fafe9c935.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -162,7 +162,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_hope_denial_blog_section_landscape_be89184f6cb5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_hope_denial_blog_section_landscape_be89184f6cb5.jpeg?updatedAt=1782336063773",
         "alt": "You're treating brainstorming like vibes (and hoping it appears later)",
         "width": 6240,
         "height": 4160,
@@ -340,7 +340,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_novelty_noise_blog_section_landscape_7327acd5311d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_novelty_noise_blog_section_landscape_7327acd5311d.gif?updatedAt=1782336064698",
         "alt": "You're treating outrageous conflict as enough",
         "width": 286,
         "height": 200,
@@ -421,32 +421,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_section_image_redo_checklist_blog_section_landscape_0137e20f1d30.gif",
-    "alt": "blog section image \u00b7 redo checklist",
-    "width": 356,
-    "height": 200,
-    "creator": "TreyJuhl",
-    "creatorUrl": "https://giphy.com/gifs/flare-redo-of-healer-freia-rZqzq4S6t84TKSA8Va",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "17 mistakes indie authors keep making on the road to publishing success",
-      "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     },
     {
       "title": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-      "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+      "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
     },
     {
       "title": "The mission statement tells you what a publisher is actually buying",
-      "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     },
     {
-      "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+      "title": "5 tips for facing the happy harsh truths of a writing career",
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -481,7 +472,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
     }
   ]
 } as const;
@@ -511,7 +502,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -523,31 +514,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
+          "item": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#webpage",
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
       "name": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -563,11 +554,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#article",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#webpage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them",
       "headline": "Common mistakes that kill your novel concept's kicker (and how to fix them)",
       "alternativeHeadline": "Common mistakes that kill your novel concept\u2019s kicker (and how to fix them)",
       "description": "Most writers don't need a \"better imagination.\" They need a better premise engine.",
@@ -597,40 +588,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage"
       },
+      "datePublished": "2027-09-26",
+      "dateModified": "2027-09-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Self-publishing a family memoir mistakes that prove your draft isn't broken\u2014your form is",
-          "url": "https://writequeryhook.com/query-letters/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-mistakes-that-prove-your-draft-isn-t-broken"
         },
         {
           "@type": "WebPage",
           "name": "17 mistakes indie authors keep making on the road to publishing success",
-          "url": "https://writequeryhook.com/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
+          "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         },
         {
           "@type": "WebPage",
           "name": "BISAC classification is your book's first real promise (and why \"shelf reality\" fights it)",
-          "url": "https://writequeryhook.com/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality-fights-it"
+          "url": "https://writequeryhook.com/blog/bisac-classification-is-your-book-s-first-real-promise-and-why-shelf-reality"
         },
         {
           "@type": "WebPage",
           "name": "The mission statement tells you what a publisher is actually buying",
-          "url": "https://writequeryhook.com/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         },
         {
           "@type": "WebPage",
-          "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+          "name": "5 tips for facing the happy harsh truths of a writing career",
+          "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_hero_blank_page_inspiration_myth_blog_hero_landscape_20bdb91ff868.jpeg",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_554/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them/blog/blog_hero_blank_page_inspiration_myth_blog_hero_landscape_20bdb91ff868.jpeg?updatedAt=1782336062807",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 blank-page inspiration-myth",
@@ -645,7 +638,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#faq",
+      "@id": "https://writequeryhook.com/blog/common-mistakes-that-kill-your-novel-concept-s-kicker-and-how-to-fix-them#faq",
       "mainEntity": [
         {
           "@type": "Question",

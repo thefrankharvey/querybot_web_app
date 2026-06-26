@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 quick tips for writing flash fiction with a real ending and a punchline",
   "description": "Flash fiction gets treated like a party trick: \"Write something short.\" Then writers panic and do either of two things. They over-explain, stuffing in backstory and explanation because there's \"no room\" for subtler craft. Or they chase surprise by ending on a cliffhanger because at least then the reader has to keep turning pages.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-03",
+  "modifiedDate": "2026-09-03",
   "canonicalUrl": "https://writequeryhook.com/blog/5-quick-tips-for-writing-flash-fiction-with-a-real-ending-and-a-punchline",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -540,6 +540,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-quick-tips-for-writing-flash-fiction-with-a-real-ending-and-a-punchline#primaryimage"
       },
+      "datePublished": "2026-09-03",
+      "dateModified": "2026-09-03",
       "mentions": [
         {
           "@type": "WebPage",

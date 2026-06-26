@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 things writers should know about Wattpad (and the future of publishing)",
   "description": "Writers keep getting stuck on the same question: If the reading experience is free, how does anything ever pay off? That worry shows up in the usual places\u2014why bother posting when traditional routes feel slow, why open yourself up to theft and indifference, why pretend this platform matters when the industry still feels gatekept.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
+  "publishedDate": "2027-07-12",
+  "modifiedDate": "2027-07-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_hero_skeptical_dread_blog_hero_landscape_f20ca861d1f5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_hero_skeptical_dread_blog_hero_landscape_f20ca861d1f5.jpeg",
     "alt": "blog hero \u00b7 skeptical dread",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 things writers should know about Wattpad (and the future of publishing)",
-      "item": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+      "item": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
     }
   ],
   "tldrBlocks": [],
@@ -106,13 +106,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_skeptical_doubt_blog_section_landscape_969325973f14.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_skeptical_doubt_blog_section_landscape_969325973f14.gif",
         "alt": "Turn free reading into paid opportunity by tying payment to engagement",
-        "width": 8688,
-        "height": 5792,
-        "creator": "Andrea Piacquadio",
-        "creatorUrl": "https://www.pexels.com/@olly",
-        "provider": "pexels",
+        "width": 180,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/showtime-hbo-prime-puOukoEvH4uAw",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -189,13 +189,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_frustration_pattern_recognition_blog_section_landscape_c23bd7b541f7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_frustration_pattern_recognition_blog_section_landscape_c23bd7b541f7.gif",
         "alt": "Remember why social readers binge and share: it's not just \"you should market harder\"",
-        "width": 7680,
-        "height": 4320,
-        "creator": "Google DeepMind",
-        "creatorUrl": "https://www.pexels.com/@googledeepmind",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "BenJammins",
+        "creatorUrl": "https://giphy.com/gifs/pattern-benjammins-recognition-E9uKmeeTLlndhAqPXv",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -235,13 +235,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_patience_waiting_room_blog_section_landscape_0b70c4a09d12.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_patience_waiting_room_blog_section_landscape_0b70c4a09d12.jpeg",
         "alt": "Monitor Wattpad monetization rollout\u2014features may appear gradually",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6438,
+        "height": 4292,
+        "creator": "RDNE Stock project",
+        "creatorUrl": "https://www.pexels.com/@rdne",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -287,32 +287,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_section_image_decision_practical_next_step_blog_section_landscape_cc7bb16adb99.jpeg",
-    "alt": "blog section image \u00b7 decision practical next step",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "4 tips to market children's books to parents (so your titles get discovered)",
-      "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     },
     {
       "title": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-      "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+      "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
     },
     {
       "title": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-      "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+      "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
     },
     {
-      "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+      "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -347,7 +338,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "4 tips to market children's books to parents (so your titles get discovered)",
-      "url": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     }
   ]
 } as const;
@@ -377,7 +368,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -389,31 +380,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 things writers should know about Wattpad (and the future of publishing)",
-          "item": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
+          "item": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
+      "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#webpage",
+      "url": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
       "name": "5 things writers should know about Wattpad (and the future of publishing)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -429,11 +420,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#article",
+      "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#webpage"
+        "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing",
       "headline": "5 things writers should know about Wattpad (and the future of publishing)",
       "alternativeHeadline": "5 things writers should know about Wattpad (and the future of publishing)",
       "description": "Writers keep getting stuck on the same question: If the reading experience is free, how does anything ever pay off? That worry shows up in the usual places\u2014why bother posting when traditional routes feel slow, why open yourself up to theft and indifference, why pretend this platform matters when the industry still feels gatekept.",
@@ -463,55 +454,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage"
       },
+      "datePublished": "2027-07-12",
+      "dateModified": "2027-07-12",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "url": "https://writequeryhook.com/query-letters/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
-        },
-        {
-          "@type": "WebPage",
-          "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+          "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
         },
         {
           "@type": "WebPage",
           "name": "12 tips for starting self-publishing with confidence (so you're not scrambling after it's live)",
-          "url": "https://writequeryhook.com/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling-after-it-s-live"
+          "url": "https://writequeryhook.com/blog/12-tips-for-starting-self-publishing-with-confidence-so-you-re-not-scrambling"
         },
         {
           "@type": "WebPage",
           "name": "How to Submit a Short Story to a Publication (Without Getting Rejected for Small Stuff)",
-          "url": "https://writequeryhook.com/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for-small-stuff"
+          "url": "https://writequeryhook.com/blog/how-to-submit-a-short-story-to-a-publication-without-getting-rejected-for"
         },
         {
           "@type": "WebPage",
-          "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "url": "https://writequeryhook.com/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people-can-reuse"
+          "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_hero_skeptical_dread_blog_hero_landscape_f20ca861d1f5.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_466/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing/blog/blog_hero_skeptical_dread_blog_hero_landscape_f20ca861d1f5.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 skeptical dread",
-      "creditText": "Giphy",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#faq",
+      "@id": "https://writequeryhook.com/blog/5-things-writers-should-know-about-wattpad-and-the-future-of-publishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

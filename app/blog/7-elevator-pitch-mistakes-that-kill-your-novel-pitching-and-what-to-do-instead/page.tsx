@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 elevator pitch mistakes that kill your novel pitching (and what to do instead)",
   "description": "Your elevator pitch can fail even when your novel is good. Sometimes it fails because you keep treating the problem like a craft problem\u2014chapter 27, character depth, \"one more revision\"\u2014instead of treating it like a pitchability problem.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-01",
+  "modifiedDate": "2026-08-01",
   "canonicalUrl": "https://writequeryhook.com/blog/7-elevator-pitch-mistakes-that-kill-your-novel-pitching-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -542,6 +542,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-elevator-pitch-mistakes-that-kill-your-novel-pitching-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
       "mentions": [
         {
           "@type": "WebPage",

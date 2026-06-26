@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Quick guide: Chicago Style formatting for in-text titles (italics, quotation marks, or neither)",
   "description": "If you've ever stared at a title and thought, italics or quotes? or\u2014great\u2014both wrong? you're in familiar territory. Title formatting gets worse when you switch mediums: a formal manuscript section doesn't behave the same way as a social caption or a press blurb. Writer brain and editor brain both melt under the same tiny decision: in-text titles.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-09",
+  "modifiedDate": "2027-01-09",
   "canonicalUrl": "https://writequeryhook.com/blog/quick-guide-chicago-style-formatting-for-in-text-titles-italics-quotation",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/quick-guide-chicago-style-formatting-for-in-text-titles-italics-quotation#primaryimage"
       },
+      "datePublished": "2027-01-09",
+      "dateModified": "2027-01-09",
       "mentions": [
         {
           "@type": "WebPage",

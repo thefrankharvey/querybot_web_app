@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Prologue in a book: make the story feel inevitable, not delayed",
   "description": "Most writers understand what a prologue is. They can define it without breaking a sweat: a short opening scene separate from the main narrative, usually fictional, usually inside the story's world. Great. That's step one.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-27",
+  "modifiedDate": "2026-11-27",
   "canonicalUrl": "https://writequeryhook.com/blog/prologue-in-a-book-make-the-story-feel-inevitable-not-delayed",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -697,6 +697,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/prologue-in-a-book-make-the-story-feel-inevitable-not-delayed#primaryimage"
       },
+      "datePublished": "2026-11-27",
+      "dateModified": "2026-11-27",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for making a query letter read like a story (not a plot summary)",
   "description": "If your query letter feels like a worksheet for plot facts\u2014congrats, you've written a synopsis in letter form. The agent gets the events. Then your pages sit in the slush pile, rotating like a sad little dreidel.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-18",
+  "modifiedDate": "2026-07-18",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-making-a-query-letter-read-like-a-story-not-a-plot-summary",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -588,6 +588,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-making-a-query-letter-read-like-a-story-not-a-plot-summary#primaryimage"
       },
+      "datePublished": "2026-07-18",
+      "dateModified": "2026-07-18",
       "mentions": [
         {
           "@type": "WebPage",

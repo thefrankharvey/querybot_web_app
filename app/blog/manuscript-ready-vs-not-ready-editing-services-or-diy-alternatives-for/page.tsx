@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Manuscript ready vs not ready: editing services or DIY alternatives for querying literary agents",
   "description": "You finish the manuscript and your brain does that hopeful little click: It's done. Then the querying anxiety kicks in and you start asking when is a manuscript ready to query like it's a secret calendar date only editors know.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-10",
+  "modifiedDate": "2026-11-10",
   "canonicalUrl": "https://writequeryhook.com/blog/manuscript-ready-vs-not-ready-editing-services-or-diy-alternatives-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -573,6 +573,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/manuscript-ready-vs-not-ready-editing-services-or-diy-alternatives-for#primaryimage"
       },
+      "datePublished": "2026-11-10",
+      "dateModified": "2026-11-10",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Avoid Leading Questions in Dialogue (Without Making Exposition Feel Staged) FAQ",
   "description": "A dialogue scene is supposed to feel like a joust, not orderly chatting. The second you notice leading questions lining up like stepping stones for the author's exposition, the conversation stops sounding like people and starts sounding like delivery.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-16",
+  "modifiedDate": "2027-01-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-avoid-leading-questions-in-dialogue-without-making-exposition-feel",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -476,6 +476,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-avoid-leading-questions-in-dialogue-without-making-exposition-feel#primaryimage"
       },
+      "datePublished": "2027-01-16",
+      "dateModified": "2027-01-16",
       "mentions": [
         {
           "@type": "WebPage",

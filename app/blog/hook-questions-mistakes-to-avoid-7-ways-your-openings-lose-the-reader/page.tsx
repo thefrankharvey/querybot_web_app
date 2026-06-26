@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Hook Questions Mistakes to Avoid: 7 Ways Your Openings Lose the Reader",
   "description": "If your opening feels \"fine\" but readers don't keep turning pages, it's usually not that your writing is bad. It's that your hook questions aren't doing their job\u2014or you're using them in the one way that makes them stop working.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-10",
+  "modifiedDate": "2026-12-10",
   "canonicalUrl": "https://writequeryhook.com/blog/hook-questions-mistakes-to-avoid-7-ways-your-openings-lose-the-reader",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -669,6 +669,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/hook-questions-mistakes-to-avoid-7-ways-your-openings-lose-the-reader#primaryimage"
       },
+      "datePublished": "2026-12-10",
+      "dateModified": "2026-12-10",
       "mentions": [
         {
           "@type": "WebPage",

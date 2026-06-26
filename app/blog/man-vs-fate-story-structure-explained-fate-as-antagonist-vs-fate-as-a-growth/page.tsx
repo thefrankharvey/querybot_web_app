@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Man vs fate story structure explained: Fate-as-antagonist vs fate-as-a-growth path",
   "description": "\"Man vs fate a timeless conflict in literature\" is one of those premises that keeps getting reused because it's catnip for readers: a character learns something predetermined and spends the rest of the book trying to outrun it. That's the core loop\u2014destiny enters early, conflict spikes immediately, then the story becomes a live experiment in free will.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-12",
+  "modifiedDate": "2026-09-12",
   "canonicalUrl": "https://writequeryhook.com/blog/man-vs-fate-story-structure-explained-fate-as-antagonist-vs-fate-as-a-growth",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -601,6 +601,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/man-vs-fate-story-structure-explained-fate-as-antagonist-vs-fate-as-a-growth#primaryimage"
       },
+      "datePublished": "2026-09-12",
+      "dateModified": "2026-09-12",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
   "description": "If your brain hears \"social media\" and immediately screams \"books for sale,\" you're not alone. Most authors start there because that's what marketing language trains into us: post \u2192 sell \u2192 repeat.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
+  "publishedDate": "2027-07-16",
+  "modifiedDate": "2027-07-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_hero_doomscroll_blank_page_energy_blog_hero_landscape_9eab828195ce.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_hero_doomscroll_blank_page_energy_blog_hero_landscape_9eab828195ce.jpeg",
     "alt": "blog hero \u00b7 doomscroll blank-page energy",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 4928,
+    "height": 3264,
+    "creator": "MESSALA CIULLA",
+    "creatorUrl": "https://www.pexels.com/@messalaciulla",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-      "item": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
+      "item": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
     }
   ],
   "tldrBlocks": [],
@@ -169,13 +169,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_sales_pitch_pushy_blog_section_landscape_406b4e2c1c6a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_sales_pitch_pushy_blog_section_landscape_406b4e2c1c6a.gif",
         "alt": "You're treating social media like a sales channel",
-        "width": 5760,
-        "height": 3840,
-        "creator": "Gustavo Fring",
-        "creatorUrl": "https://www.pexels.com/@gustavo-fring",
-        "provider": "pexels",
+        "width": 390,
+        "height": 200,
+        "creator": "CarterChevrolet",
+        "creatorUrl": "https://giphy.com/gifs/CarterChevrolet-carter-chevrolet-need-a-car-pushy-salesman-Hhh4iqhwDjRPDGQbco",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -232,7 +232,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_crickets_empty_feed_blog_section_landscape_5a9379030424.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_crickets_empty_feed_blog_section_landscape_5a9379030424.jpeg?updatedAt=1782252402745",
         "alt": "You're only posting when you have an announcement",
         "width": 2560,
         "height": 1708,
@@ -447,13 +447,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_querying_mswl_blog_section_landscape_ed616263c27b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_querying_mswl_blog_section_landscape_ed616263c27b.gif",
         "alt": "You're ignoring querying opportunities on social media",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -533,32 +533,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_section_image_fix_yours_deep_breath_blog_section_landscape_fd9728baa7da.gif",
-    "alt": "blog section image \u00b7 fix yours deep breath",
-    "width": 400,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/1SfxXOJ0Q2Xni",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-      "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+      "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
     },
     {
       "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+      "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
     },
     {
-      "title": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-      "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
+      "title": "Unconventional writing that still fits: category-busting without becoming a gimmick",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
     },
     {
       "title": "4 tips to market children's books to parents (so your titles get discovered)",
-      "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+      "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -576,7 +567,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-      "url": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after"
+      "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
     }
   ]
 } as const;
@@ -606,7 +597,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -618,31 +609,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-          "item": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
+          "item": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#webpage",
-      "url": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
+      "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#webpage",
+      "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
       "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage"
+        "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -658,11 +649,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#article",
+      "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#webpage"
+        "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales",
       "headline": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
       "alternativeHeadline": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
       "description": "If your brain hears \"social media\" and immediately screams \"books for sale,\" you're not alone. Most authors start there because that's what marketing language trains into us: post \u2192 sell \u2192 repeat.",
@@ -692,48 +683,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage"
+        "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage"
       },
+      "datePublished": "2027-07-16",
+      "dateModified": "2027-07-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-          "url": "https://writequeryhook.com/query-letters/common-contract-mistakes-that-kill-your-self-publishing-options-after"
+          "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
         },
         {
           "@type": "WebPage",
           "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
-          "url": "https://writequeryhook.com/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
+          "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
         },
         {
           "@type": "WebPage",
           "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+          "url": "https://writequeryhook.com/blog/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the"
         },
         {
           "@type": "WebPage",
-          "name": "What publishing really means by subrights\u2014especially for sci-fi graphic novels",
-          "url": "https://writequeryhook.com/what-publishing-really-means-by-subrights-especially-for-sci-fi-graphic-novels"
+          "name": "Unconventional writing that still fits: category-busting without becoming a gimmick",
+          "url": "https://writequeryhook.com/blog/unconventional-writing-that-still-fits-category-busting-without-becoming-a"
         },
         {
           "@type": "WebPage",
           "name": "4 tips to market children's books to parents (so your titles get discovered)",
-          "url": "https://writequeryhook.com/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
+          "url": "https://writequeryhook.com/blog/4-tips-to-market-children-s-books-to-parents-so-your-titles-get-discovered"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_hero_doomscroll_blank_page_energy_blog_hero_landscape_9eab828195ce.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_470/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales/blog/blog_hero_doomscroll_blank_page_energy_blog_hero_landscape_9eab828195ce.jpeg",
+      "width": 4928,
+      "height": 3264,
       "caption": "blog hero \u00b7 doomscroll blank-page energy",
-      "creditText": "Giphy",
+      "creditText": "MESSALA CIULLA",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "MESSALA CIULLA",
+        "url": "https://www.pexels.com/@messalaciulla"
       },
       "@context": "https://schema.org"
     }

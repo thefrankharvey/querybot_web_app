@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Candles in the dark: how to write fiction about justice without turning it into a power-play",
   "description": "I get the blank-page dread. Not the cute kind, where you worry about craft. The other kind\u2014the one where the news makes your chest feel too small, and every sentence you type feels like either a sermon or a shrug.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-23",
+  "modifiedDate": "2027-01-23",
   "canonicalUrl": "https://writequeryhook.com/blog/candles-in-the-dark-how-to-write-fiction-about-justice-without-turning-it-into",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -634,6 +634,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/candles-in-the-dark-how-to-write-fiction-about-justice-without-turning-it-into#primaryimage"
       },
+      "datePublished": "2027-01-23",
+      "dateModified": "2027-01-23",
       "mentions": [
         {
           "@type": "WebPage",

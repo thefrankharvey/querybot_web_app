@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to storyboard your novel step by step (and actually use it while you draft)",
   "description": "Most writers don't need more ideas. They need assembly help.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-14",
+  "modifiedDate": "2026-09-14",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-storyboard-your-novel-step-by-step-and-actually-use-it-while-you-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -676,6 +676,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-storyboard-your-novel-step-by-step-and-actually-use-it-while-you-draft#primaryimage"
       },
+      "datePublished": "2026-09-14",
+      "dateModified": "2026-09-14",
       "mentions": [
         {
           "@type": "WebPage",

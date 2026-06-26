@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Keep Writing When Disappointment Hits vs. Wait Until You Feel Ready (and Lose Momentum)",
   "description": "TLDR:",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-06",
+  "modifiedDate": "2027-03-06",
   "canonicalUrl": "https://writequeryhook.com/blog/keep-writing-when-disappointment-hits-vs-wait-until-you-feel-ready-and-lose",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -558,6 +558,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/keep-writing-when-disappointment-hits-vs-wait-until-you-feel-ready-and-lose#primaryimage"
       },
+      "datePublished": "2027-03-06",
+      "dateModified": "2027-03-06",
       "mentions": [
         {
           "@type": "WebPage",

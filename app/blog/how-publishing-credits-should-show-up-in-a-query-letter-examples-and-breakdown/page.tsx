@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How publishing credits should show up in a query letter (examples and breakdown)",
   "description": "Agents don\u2019t read your query bio like a r\u00e9sum\u00e9 with a stopwatch. They read it like a quick signal: Is this writer the kind of person I want to work with on this manuscript? And then they go back to the manuscript part, because that\u2019s where the yes/no is born.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-27",
+  "modifiedDate": "2026-08-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-publishing-credits-should-show-up-in-a-query-letter-examples-and-breakdown",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -637,6 +637,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-publishing-credits-should-show-up-in-a-query-letter-examples-and-breakdown#primaryimage"
       },
+      "datePublished": "2026-08-27",
+      "dateModified": "2026-08-27",
       "mentions": [
         {
           "@type": "WebPage",

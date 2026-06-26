@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 basics of publishing contracts you should understand before you sign",
   "description": "A publishing contract is where your book stops being a manuscript and starts being a product\u2014with rules about where it can be sold, who gets to sell it, and how money moves when readers show up (or don't).",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
+  "publishedDate": "2027-08-05",
+  "modifiedDate": "2027-08-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_hero_confusion_blank_paper_feeling_blog_hero_landscape_e4e470a2c08f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_hero_confusion_blank_paper_feeling_blog_hero_landscape_e4e470a2c08f.jpeg?updatedAt=1782271393058",
     "alt": "blog hero \u00b7 confusion blank-paper feeling",
     "width": 6016,
     "height": 4016,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 basics of publishing contracts you should understand before you sign",
-      "item": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "item": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_territory_geography_blog_section_landscape_b2371385cfa0.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_territory_geography_blog_section_landscape_b2371385cfa0.gif?updatedAt=1782271393704",
         "alt": "1. Define territory before you care about anything else",
         "width": 152,
         "height": 200,
@@ -184,13 +184,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_grant_of_rights_print_blog_section_landscape_f2470851ef8e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_grant_of_rights_print_blog_section_landscape_f2470851ef8e.gif",
         "alt": "3. Read the grant of rights breakdown like it's the whole deal (because it is)",
-        "width": 6720,
-        "height": 4480,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 400,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/1SfxXOJ0Q2Xni",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -320,7 +320,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_subrights_split_blog_section_landscape_65fb5c4e7de6.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_subrights_split_blog_section_landscape_65fb5c4e7de6.jpeg?updatedAt=1782271394915",
         "alt": "5. Check subrights split between publishers\u2014and don't ignore warranty and indemnity",
         "width": 6000,
         "height": 4000,
@@ -331,32 +331,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_section_image_signature_next_draft_of_understanding_blog_section_landscape_8a132ff30b28.gif",
-    "alt": "blog section image \u00b7 signature next draft of understanding",
-    "width": 356,
-    "height": 200,
-    "creator": "FoodClubFOX",
-    "creatorUrl": "https://giphy.com/gifs/FoodClubFOX-crazy-next-level-chef-drafted-Mko90WBgEzDMVenvGN",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     },
     {
       "title": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-      "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+      "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
     },
     {
       "title": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-      "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
     },
     {
-      "title": "How to have a career in publishing: build experience, keep applying, then aim higher",
-      "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+      "title": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
+      "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -395,7 +386,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for picking the right publishing path (and not getting baited by the label)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
     }
   ]
 } as const;
@@ -425,7 +416,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -437,31 +428,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "item": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "item": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
+      "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#webpage",
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
       "name": "5 basics of publishing contracts you should understand before you sign",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -477,11 +468,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#article",
+      "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#webpage"
+        "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign",
       "headline": "5 basics of publishing contracts you should understand before you sign",
       "alternativeHeadline": "5 basics of publishing contracts you should understand before you sign",
       "description": "A publishing contract is where your book stops being a manuscript and starts being a product\u2014with rules about where it can be sold, who gets to sell it, and how money moves when readers show up (or don't).",
@@ -511,40 +502,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage"
       },
+      "datePublished": "2027-08-05",
+      "dateModified": "2027-08-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for picking the right publishing path (and not getting baited by the label)",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-right-publishing-path-and-not-getting-baited-by-the-label"
         },
         {
           "@type": "WebPage",
           "name": "5 publishing FAQs your first book needs (money, timing, and what agents actually ask for)",
-          "url": "https://writequeryhook.com/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually-ask-for"
+          "url": "https://writequeryhook.com/blog/5-publishing-faqs-your-first-book-needs-money-timing-and-what-agents-actually"
         },
         {
           "@type": "WebPage",
           "name": "How to Find and Qualify for Writing Grants (Without Guessing Your Eligibility)",
-          "url": "https://writequeryhook.com/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-qualify-for-writing-grants-without-guessing-your-eligibility"
         },
         {
           "@type": "WebPage",
-          "name": "How to have a career in publishing: build experience, keep applying, then aim higher",
-          "url": "https://writequeryhook.com/how-to-have-a-career-in-publishing-build-experience-keep-applying-then-aim-higher"
+          "name": "How to price an ebook when the \u201clower price = more sales\u201d myth keeps failing",
+          "url": "https://writequeryhook.com/blog/how-to-price-an-ebook-when-the-lower-price-more-sales-myth-keeps-failing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_hero_confusion_blank_paper_feeling_blog_hero_landscape_e4e470a2c08f.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_494/5-basics-of-publishing-contracts-you-should-understand-before-you-sign/blog/blog_hero_confusion_blank_paper_feeling_blog_hero_landscape_e4e470a2c08f.jpeg?updatedAt=1782271393058",
       "width": 6016,
       "height": 4016,
       "caption": "blog hero \u00b7 confusion blank-paper feeling",
@@ -559,7 +547,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#faq",
+      "@id": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign#faq",
       "mainEntity": [
         {
           "@type": "Question",

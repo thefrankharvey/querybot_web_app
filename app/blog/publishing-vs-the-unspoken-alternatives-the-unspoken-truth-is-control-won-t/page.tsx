@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Publishing vs the unspoken alternatives: the unspoken truth is control won't save you",
   "description": "The part nobody says out loud: you can do the craft work and the submission work and still get nothing but silence.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-12",
+  "modifiedDate": "2027-02-12",
   "canonicalUrl": "https://writequeryhook.com/blog/publishing-vs-the-unspoken-alternatives-the-unspoken-truth-is-control-won-t",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -666,6 +666,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/publishing-vs-the-unspoken-alternatives-the-unspoken-truth-is-control-won-t#primaryimage"
       },
+      "datePublished": "2027-02-12",
+      "dateModified": "2027-02-12",
       "mentions": [
         {
           "@type": "WebPage",

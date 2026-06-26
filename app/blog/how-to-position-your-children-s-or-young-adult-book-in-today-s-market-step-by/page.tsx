@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to position your children's or young adult book in today's market (step-by-step)",
   "description": "If you've been staring at \"book positioning\" in the same way you stare at a badly formatted cover letter\u2014confused, annoyed, and sure you're about to do it wrong\u2014welcome. Submissions are high, so agents get selective fast. Your job is to show where your book fits and whether the match is likely to be fruitful, not just whether you wrote a story you love.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-07",
+  "modifiedDate": "2026-08-07",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-position-your-children-s-or-young-adult-book-in-today-s-market-step-by",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -527,6 +527,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-position-your-children-s-or-young-adult-book-in-today-s-market-step-by#primaryimage"
       },
+      "datePublished": "2026-08-07",
+      "dateModified": "2026-08-07",
       "mentions": [
         {
           "@type": "WebPage",

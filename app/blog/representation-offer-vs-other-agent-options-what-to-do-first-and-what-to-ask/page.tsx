@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Representation offer vs other agent options: what to do first, and what to ask",
   "description": "A representation offer from a literary agent feels like the finish line lighting up your entire house. Your brain starts doing math you didn\u2019t ask for: If I don\u2019t say yes right now, I\u2019ll lose it. If I say yes right now, will I regret it?",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
+  "publishedDate": "2027-05-04",
+  "modifiedDate": "2027-05-04",
+  "canonicalUrl": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_hero_adrenaline_rush_notification_blog_hero_landscape_a0243392a4e7.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_hero_adrenaline_rush_notification_blog_hero_landscape_a0243392a4e7.jpeg",
     "alt": "blog hero \u00b7 adrenaline rush notification",
-    "width": 258,
-    "height": 200,
-    "creator": "sebmuzz",
-    "creatorUrl": "https://giphy.com/gifs/subscribe-bell-notification-eRM47Z22ZXSNoVeM1c",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Szab\u00f3 Viktor",
+    "creatorUrl": "https://www.pexels.com/@szaboviktor",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Representation offer vs other agent options: what to do first, and what to ask",
-      "item": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+      "item": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
     }
   ],
   "tldrBlocks": [],
@@ -138,7 +138,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_phone_call_email_blog_section_landscape_f38c026c7d3e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_phone_call_email_blog_section_landscape_f38c026c7d3e.gif?updatedAt=1782087923322",
         "alt": "Agent offer call vs written response",
         "width": 358,
         "height": 200,
@@ -337,7 +337,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_question_list_contract_blog_section_landscape_6a765c0d2536.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_question_list_contract_blog_section_landscape_6a765c0d2536.jpeg?updatedAt=1782087924495",
         "alt": "Questions to prepare between fit and contract",
         "width": 6016,
         "height": 4016,
@@ -433,43 +433,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_the_verdict_blog_section_landscape_bb8a07c9c818.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_the_verdict_blog_section_landscape_bb8a07c9c818.gif",
         "alt": "The verdict",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_section_image_make_the_call_send_the_email_blog_section_landscape_cc414919650f.jpeg",
-    "alt": "blog section image \u00b7 make the call send the email",
-    "width": 5760,
-    "height": 3840,
-    "creator": "Torsten Dettlaff",
-    "creatorUrl": "https://www.pexels.com/@tdcat",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-      "url": "https://writequeryhook.com/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing-choices"
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
     },
     {
       "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-      "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     },
     {
       "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
-      "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     },
     {
-      "title": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-      "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+      "title": "What Is an Editorial Letter? Developmental Editing FAQs",
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -504,7 +495,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-      "url": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+      "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
     }
   ]
 } as const;
@@ -534,7 +525,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -546,31 +537,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Representation offer vs other agent options: what to do first, and what to ask",
-          "item": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
+          "item": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#webpage",
-      "url": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
+      "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#webpage",
+      "url": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
       "name": "Representation offer vs other agent options: what to do first, and what to ask",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -586,11 +577,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#article",
+      "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#webpage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask",
       "headline": "Representation offer vs other agent options: what to do first, and what to ask",
       "alternativeHeadline": "Representation offer vs other agent options: what to do first, and what to ask",
       "description": "A representation offer from a literary agent feels like the finish line lighting up your entire house. Your brain starts doing math you didn\u2019t ask for: If I don\u2019t say yes right now, I\u2019ll lose it. If I say yes right now, will I regret it?",
@@ -620,55 +611,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage"
+        "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage"
       },
+      "datePublished": "2027-05-04",
+      "dateModified": "2027-05-04",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Publishing after an offer: the basic introduction vs the \"just wing it\" alternatives",
-          "url": "https://writequeryhook.com/query-letters/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
+          "url": "https://writequeryhook.com/blog/publishing-after-an-offer-the-basic-introduction-vs-the-just-wing-it"
         },
         {
           "@type": "WebPage",
           "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-          "url": "https://writequeryhook.com/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing-choices"
+          "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
         },
         {
           "@type": "WebPage",
           "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-          "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+          "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
         },
         {
           "@type": "WebPage",
           "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-          "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+          "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         },
         {
           "@type": "WebPage",
-          "name": "When to Give Up on Submissions: Treat the Delay Like Timing Data, Not a Verdict",
-          "url": "https://writequeryhook.com/when-to-give-up-on-submissions-treat-the-delay-like-timing-data-not-a-verdict"
+          "name": "What Is an Editorial Letter? Developmental Editing FAQs",
+          "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_hero_adrenaline_rush_notification_blog_hero_landscape_a0243392a4e7.gif",
-      "width": 258,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_378/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask/blog/blog_hero_adrenaline_rush_notification_blog_hero_landscape_a0243392a4e7.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 adrenaline rush notification",
-      "creditText": "sebmuzz",
+      "creditText": "Szab\u00f3 Viktor",
       "author": {
         "@type": "Person",
-        "name": "sebmuzz",
-        "url": "https://giphy.com/gifs/subscribe-bell-notification-eRM47Z22ZXSNoVeM1c"
+        "name": "Szab\u00f3 Viktor",
+        "url": "https://www.pexels.com/@szaboviktor"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#faq",
+      "@id": "https://writequeryhook.com/blog/representation-offer-vs-other-agent-options-what-to-do-first-and-what-to-ask#faq",
       "mainEntity": [
         {
           "@type": "Question",

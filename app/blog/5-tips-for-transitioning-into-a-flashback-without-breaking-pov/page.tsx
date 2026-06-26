@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for transitioning into a flashback without breaking POV",
   "description": "Flashbacks are supposed to feel like the story is still happening\u2014just in the character's memory, at a lived-in speed. When they don't, readers don't go \"interesting technique.\" They go, \"Oh. We're being told something.\" That's the clunk. That's the jolt.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-17",
+  "modifiedDate": "2026-12-17",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-transitioning-into-a-flashback-without-breaking-pov",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -501,6 +501,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-transitioning-into-a-flashback-without-breaking-pov#primaryimage"
       },
+      "datePublished": "2026-12-17",
+      "dateModified": "2026-12-17",
       "mentions": [
         {
           "@type": "WebPage",

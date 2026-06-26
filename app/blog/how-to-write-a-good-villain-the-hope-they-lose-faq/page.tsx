@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a good villain: the \u201chope they lose\u201d FAQ",
   "description": "Writers don\u2019t struggle because they can\u2019t invent villains. They struggle because they build a blocker instead of a story engine. A compelling villain doesn\u2019t just make the hero miserable\u2014it sharpens the hero\u2019s decision until the stakes feel personal, not academic.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-28",
+  "modifiedDate": "2027-01-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-good-villain-the-hope-they-lose-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -519,6 +519,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-good-villain-the-hope-they-lose-faq#primaryimage"
       },
+      "datePublished": "2027-01-28",
+      "dateModified": "2027-01-28",
       "mentions": [
         {
           "@type": "WebPage",

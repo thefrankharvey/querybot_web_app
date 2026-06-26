@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Exposition that turns on the engine: conflict, choice, and the inciting incident promise",
   "description": "The first time you write exposition, it feels like you're bribing the reader.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-15",
+  "modifiedDate": "2026-11-15",
   "canonicalUrl": "https://writequeryhook.com/blog/exposition-that-turns-on-the-engine-conflict-choice-and-the-inciting-incident",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -675,6 +675,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/exposition-that-turns-on-the-engine-conflict-choice-and-the-inciting-incident#primaryimage"
       },
+      "datePublished": "2026-11-15",
+      "dateModified": "2026-11-15",
       "mentions": [
         {
           "@type": "WebPage",

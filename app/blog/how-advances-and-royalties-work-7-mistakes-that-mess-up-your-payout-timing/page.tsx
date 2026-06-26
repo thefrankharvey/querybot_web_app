@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
   "description": "If you're asking \"When will I actually see money?\" you're asking the right question. Traditional publishing can pay you an advance in stages, but royalties often don't start until the book earns out\u2014so \"after publication\" doesn't always mean \"starting right away.\" Self-publishing removes the advance and swaps in platform-set payout rules (including possible minimums).",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
+  "publishedDate": "2027-07-03",
+  "modifiedDate": "2027-07-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_hero_deadline_dread_blog_hero_landscape_f724952c59bc.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_hero_deadline_dread_blog_hero_landscape_f724952c59bc.jpeg?updatedAt=1782243992198",
     "alt": "blog hero \u00b7 deadline dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-      "item": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+      "item": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
     }
   ],
   "tldrBlocks": [],
@@ -117,13 +117,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_opening_blog_section_landscape_aa576a624fa0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_opening_blog_section_landscape_aa576a624fa0.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -170,7 +170,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_hope_overpromising_blog_section_landscape_6a9ad53ed8d7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_hope_overpromising_blog_section_landscape_6a9ad53ed8d7.gif?updatedAt=1782243993333",
         "alt": "1) You think an advance equals payment you \"keep\" no matter what",
         "width": 152,
         "height": 200,
@@ -403,13 +403,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_format_paperback_vs_ebook_vs_audio_blog_section_landscape_c1a982745f02.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_format_paperback_vs_ebook_vs_audio_blog_section_landscape_c1a982745f02.jpeg",
         "alt": "6) You forget format can change the royalty rate math",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3000,
+        "height": 2000,
+        "creator": "Perfecto Capucine",
+        "creatorUrl": "https://www.pexels.com/@perfecto-capucine-515848",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -478,32 +478,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_section_image_action_next_steps_blog_section_landscape_5c96f24d809c.jpeg",
-    "alt": "blog section image \u00b7 action next steps",
-    "width": 5139,
-    "height": 3554,
-    "creator": "Magda Ehlers",
-    "creatorUrl": "https://www.pexels.com/@magda-ehlers-pexels",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-      "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+      "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
     },
     {
       "title": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-      "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+      "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
     },
     {
       "title": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
     },
     {
       "title": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-      "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+      "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -538,7 +529,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
-      "url": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     }
   ]
 } as const;
@@ -568,7 +559,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -580,31 +571,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
-          "item": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
+          "item": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
+      "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#webpage",
+      "url": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
       "name": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -620,11 +611,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#article",
+      "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#webpage"
+        "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing",
       "headline": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
       "alternativeHeadline": "How advances and royalties work\u20147 mistakes that mess up your payout timing",
       "description": "If you're asking \"When will I actually see money?\" you're asking the right question. Traditional publishing can pay you an advance in stages, but royalties often don't start until the book earns out\u2014so \"after publication\" doesn't always mean \"starting right away.\" Self-publishing removes the advance and swaps in platform-set payout rules (including possible minimums).",
@@ -654,40 +645,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage"
       },
+      "datePublished": "2027-07-03",
+      "dateModified": "2027-07-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
-          "url": "https://writequeryhook.com/query-letters/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         },
         {
           "@type": "WebPage",
           "name": "Platform isn\u2019t Twitter followers: 7 mistakes to stop making",
-          "url": "https://writequeryhook.com/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
+          "url": "https://writequeryhook.com/blog/platform-isn-t-twitter-followers-7-mistakes-to-stop-making"
         },
         {
           "@type": "WebPage",
           "name": "Publishing Timeline Myths: 7 Mistakes That Delay a Book From Contract to Bookstore Shelves",
-          "url": "https://writequeryhook.com/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to-bookstore-shelves"
+          "url": "https://writequeryhook.com/blog/publishing-timeline-myths-7-mistakes-that-delay-a-book-from-contract-to"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when they assume agents only \"filter\" submissions",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-they-assume-agents-only-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "Writing career income isn't a lottery ticket\u2014so plan around contracts, royalties, and odds",
-          "url": "https://writequeryhook.com/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts-royalties-and-odds"
+          "url": "https://writequeryhook.com/blog/writing-career-income-isn-t-a-lottery-ticket-so-plan-around-contracts"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_hero_deadline_dread_blog_hero_landscape_f724952c59bc.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_457/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing/blog/blog_hero_deadline_dread_blog_hero_landscape_f724952c59bc.jpeg?updatedAt=1782243992198",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 deadline dread",
@@ -702,7 +695,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#faq",
+      "@id": "https://writequeryhook.com/blog/how-advances-and-royalties-work-7-mistakes-that-mess-up-your-payout-timing#faq",
       "mainEntity": [
         {
           "@type": "Question",

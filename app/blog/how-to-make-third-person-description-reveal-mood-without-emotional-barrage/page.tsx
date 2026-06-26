@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to make third-person description reveal mood (without emotional barrage)",
   "description": "You write third person, you do the whole \"show, don't tell\" thing, and the scene still lands flat. The reader gets the broad temperature\u2014tense, upset, shaken\u2014but not the lived experience. They finish the paragraph like it's weather reporting.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-08",
+  "modifiedDate": "2026-12-08",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-make-third-person-description-reveal-mood-without-emotional-barrage",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -585,6 +585,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-make-third-person-description-reveal-mood-without-emotional-barrage#primaryimage"
       },
+      "datePublished": "2026-12-08",
+      "dateModified": "2026-12-08",
       "mentions": [
         {
           "@type": "WebPage",

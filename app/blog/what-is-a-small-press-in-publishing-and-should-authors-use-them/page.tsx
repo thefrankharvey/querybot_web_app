@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
   "description": "If you've been circling the phrase \"small press\" in PubTips threads, query spreadsheets, or MSWL conversations, you're not alone. Writers want the definition first\u2014what it actually means in publishing\u2014not a vibe. And then they want the real question answered: is this path financially and professionally workable, especially when marketing firepower is thinner?",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them",
+  "publishedDate": "2027-06-13",
+  "modifiedDate": "2027-06-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_hero_confusion_curiosity_blog_hero_landscape_632d7f05e2c4.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_hero_confusion_curiosity_blog_hero_landscape_632d7f05e2c4.jpeg?updatedAt=1782220079716",
     "alt": "blog hero \u00b7 confusion curiosity",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-      "item": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+      "item": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
     }
   ],
   "tldrBlocks": [],
@@ -132,7 +132,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_ownership_autonomy_blog_section_landscape_e8ddc38b977c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_ownership_autonomy_blog_section_landscape_e8ddc38b977c.gif?updatedAt=1782220080489",
         "alt": "How is a small press different from a big-company imprint?",
         "width": 226,
         "height": 200,
@@ -172,13 +172,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_doubt_hope_blog_section_landscape_cba3a398560e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_doubt_hope_blog_section_landscape_cba3a398560e.jpeg",
         "alt": "Do small presses accept unsolicited submissions from unagented authors?",
-        "width": 200,
-        "height": 200,
-        "creator": "schittscreek",
-        "creatorUrl": "https://giphy.com/gifs/schittscreek-schitts-creek-pop-tv-poptv-lNFVstN7Rn80uzBPAo",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "PREM GS",
+        "creatorUrl": "https://www.pexels.com/@prem-gs-3404648",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -293,13 +293,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_decision_confidence_blog_section_landscape_0d3ba4cd29a2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_decision_confidence_blog_section_landscape_0d3ba4cd29a2.gif",
         "alt": "Should authors submit to small presses?",
-        "width": 4928,
-        "height": 3264,
-        "creator": "Lukas Blazek",
-        "creatorUrl": "https://www.pexels.com/@goumbik",
-        "provider": "pexels",
+        "width": 400,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/hello-hi-wave-xT9IgG50Fb7Mi0prBC",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -390,32 +390,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_section_image_next_step_checklist_blog_section_landscape_355dbb8af6ef.jpeg",
-    "alt": "blog section image \u00b7 next step checklist",
-    "width": 3840,
-    "height": 2160,
-    "creator": "Jakub Zerdzicki",
-    "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-      "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
-    },
-    {
-      "title": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-      "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+      "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
     },
     {
       "title": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-      "url": "https://writequeryhook.com/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the-rights"
+      "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
     },
     {
-      "title": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-      "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+      "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+    },
+    {
+      "title": "Common author website mistakes that trap you for years (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -433,7 +424,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-      "url": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
     }
   ]
 } as const;
@@ -463,7 +454,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -475,31 +466,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
-          "item": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them"
+          "item": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them",
+      "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#webpage",
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them",
       "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -515,11 +506,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#article",
+      "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#webpage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them",
       "headline": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
       "alternativeHeadline": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
       "description": "If you've been circling the phrase \"small press\" in PubTips threads, query spreadsheets, or MSWL conversations, you're not alone. Writers want the definition first\u2014what it actually means in publishing\u2014not a vibe. And then they want the real question answered: is this path financially and professionally workable, especially when marketing firepower is thinner?",
@@ -549,40 +540,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage"
       },
+      "datePublished": "2027-06-13",
+      "dateModified": "2027-06-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-          "url": "https://writequeryhook.com/query-letters/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+          "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
         },
         {
           "@type": "WebPage",
           "name": "Vanity Press FAQ: How Fees, Rights, and \"Distribution\" Actually Work",
-          "url": "https://writequeryhook.com/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
-        },
-        {
-          "@type": "WebPage",
-          "name": "9 steps to write a nonfiction book proposal (with example-shaped structure)",
-          "url": "https://writequeryhook.com/9-steps-to-write-a-nonfiction-book-proposal-with-example-shaped-structure"
+          "url": "https://writequeryhook.com/blog/vanity-press-faq-how-fees-rights-and-distribution-actually-work"
         },
         {
           "@type": "WebPage",
           "name": "Five book publishing paths\u2014broken down by who holds the money risk and the rights",
-          "url": "https://writequeryhook.com/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the-rights"
+          "url": "https://writequeryhook.com/blog/five-book-publishing-paths-broken-down-by-who-holds-the-money-risk-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Common publishing FAQ mistakes that stall your first book (and how to fix them fast)",
-          "url": "https://writequeryhook.com/common-publishing-faq-mistakes-that-stall-your-first-book-and-how-to-fix-them-fast"
+          "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+          "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common author website mistakes that trap you for years (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/common-author-website-mistakes-that-trap-you-for-years-and-how-to-fix-them"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_hero_confusion_curiosity_blog_hero_landscape_632d7f05e2c4.jpeg",
+      "@id": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_432/what-is-a-small-press-in-publishing-and-should-authors-use-them/blog/blog_hero_confusion_curiosity_blog_hero_landscape_632d7f05e2c4.jpeg?updatedAt=1782220079716",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 confusion curiosity",

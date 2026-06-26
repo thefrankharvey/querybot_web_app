@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
   "description": "You can blame \"the industry\" all day, sure. But if your submission progress is stuck, the real villain is usually less dramatic: the draft isn't ready in the specific way publishing professionals need.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
+  "publishedDate": "2027-09-11",
+  "modifiedDate": "2027-09-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_hero_stalled_submissions_wrong_help_blog_hero_landscape_eaca738eae14.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_hero_stalled_submissions_wrong_help_blog_hero_landscape_eaca738eae14.jpeg?updatedAt=1782328970102",
     "alt": "blog hero \u00b7 stalled submissions wrong help",
     "width": 5966,
     "height": 3977,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-      "item": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+      "item": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
     }
   ],
   "tldrBlocks": [],
@@ -161,7 +161,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_decision_checklist_brain_blog_section_landscape_947422c5d6f7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_decision_checklist_brain_blog_section_landscape_947422c5d6f7.gif?updatedAt=1782328970807",
         "alt": "Readiness checkpoint model: stop guessing what to fix next",
         "width": 226,
         "height": 200,
@@ -240,13 +240,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_wrong_role_expensive_detour_blog_section_landscape_1b9f7c5e4b18.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_wrong_role_expensive_detour_blog_section_landscape_1b9f7c5e4b18.gif",
         "alt": "Book coaching vs hiring an editor: the roles overlap, but expectations don't",
-        "width": 5196,
-        "height": 3868,
-        "creator": "David McElwee",
-        "creatorUrl": "https://www.pexels.com/@davidmcelwee",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -323,13 +323,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_agents_mswl_blog_section_landscape_15f15ef0dccc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_agents_mswl_blog_section_landscape_15f15ef0dccc.jpeg",
         "alt": "How book coaches help with submissions: they make your manuscript \"seen\"",
-        "width": 526,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-        "provider": "giphy",
+        "width": 6309,
+        "height": 4206,
+        "creator": "cottonbro studio",
+        "creatorUrl": "https://www.pexels.com/@cottonbro",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -383,32 +383,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_section_image_hands_on_hips_exhale_blog_section_landscape_4fcd4da6d9f2.jpeg",
-    "alt": "blog section image \u00b7 hands on hips exhale",
-    "width": 5040,
-    "height": 3360,
-    "creator": "Miriam Alonso",
-    "creatorUrl": "https://www.pexels.com/@miriam-alonso",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-      "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
     },
     {
       "title": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-      "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+      "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
     },
     {
       "title": "5 tips for picking the type of novel you're actually trying to write",
-      "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+      "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
     },
     {
-      "title": "Always-already marketing: treating your book like a product from page one",
-      "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+      "title": "How to turn your book into an audiobook: a step-by-step production workflow",
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -447,7 +438,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
+      "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
     }
   ]
 } as const;
@@ -477,7 +468,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -489,31 +480,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
-          "item": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
+          "item": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#webpage",
-      "url": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
+      "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#webpage",
+      "url": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
       "name": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -529,11 +520,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#article",
+      "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#webpage"
+        "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions",
       "headline": "A book coach isn't a \"nice-to-have\"\u2014it's a readiness checkpoint for submissions",
       "alternativeHeadline": "A book coach isn\u2019t a \"nice-to-have\"\u2014it\u2019s a readiness checkpoint for submissions",
       "description": "You can blame \"the industry\" all day, sure. But if your submission progress is stuck, the real villain is usually less dramatic: the draft isn't ready in the specific way publishing professionals need.",
@@ -563,40 +554,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage"
+        "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage"
       },
+      "datePublished": "2027-09-11",
+      "dateModified": "2027-09-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips to tell if vanity press promises are legit (and what to check before you sign)",
-          "url": "https://writequeryhook.com/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-tips-to-tell-if-vanity-press-promises-are-legit-and-what-to-check-before-you"
         },
         {
           "@type": "WebPage",
           "name": "5 word count rules writers actually need for novels, YA, middle grade, picture books, and memoir",
-          "url": "https://writequeryhook.com/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture-books-and-memoir"
+          "url": "https://writequeryhook.com/blog/5-word-count-rules-writers-actually-need-for-novels-ya-middle-grade-picture"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for picking the type of novel you're actually trying to write",
-          "url": "https://writequeryhook.com/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
+          "url": "https://writequeryhook.com/blog/5-tips-for-picking-the-type-of-novel-you-re-actually-trying-to-write"
         },
         {
           "@type": "WebPage",
-          "name": "Always-already marketing: treating your book like a product from page one",
-          "url": "https://writequeryhook.com/always-already-marketing-treating-your-book-like-a-product-from-page-one"
+          "name": "How to turn your book into an audiobook: a step-by-step production workflow",
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_hero_stalled_submissions_wrong_help_blog_hero_landscape_eaca738eae14.jpeg",
+      "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_537/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions/blog/blog_hero_stalled_submissions_wrong_help_blog_hero_landscape_eaca738eae14.jpeg?updatedAt=1782328970102",
       "width": 5966,
       "height": 3977,
       "caption": "blog hero \u00b7 stalled submissions wrong help",
@@ -611,7 +599,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#faq",
+      "@id": "https://writequeryhook.com/blog/a-book-coach-isn-t-a-nice-to-have-it-s-a-readiness-checkpoint-for-submissions#faq",
       "mainEntity": [
         {
           "@type": "Question",

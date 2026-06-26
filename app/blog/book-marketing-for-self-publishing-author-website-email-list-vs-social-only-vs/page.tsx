@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
   "description": "If you're self-publishing, you've probably heard the myth that your book will \"sell itself.\" It won't. Most people don't magically find good books sitting quietly in the dark. You have to make the book findable.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
+  "publishedDate": "2027-08-26",
+  "modifiedDate": "2027-08-26",
+  "canonicalUrl": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_hero_frustration_buried_book_blog_hero_landscape_6c0f73ae81c9.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_hero_frustration_buried_book_blog_hero_landscape_6c0f73ae81c9.jpeg?updatedAt=1782315653200",
     "alt": "blog hero \u00b7 frustration buried book",
     "width": 6543,
     "height": 4362,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-      "item": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+      "item": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
     }
   ],
   "tldrBlocks": [],
@@ -103,7 +103,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_opening_blog_section_landscape_f26fa57cbcab.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_opening_blog_section_landscape_f26fa57cbcab.gif?updatedAt=1782315653830",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -224,7 +224,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_storefront_relationship_blog_section_landscape_0030aa7e0d1b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_storefront_relationship_blog_section_landscape_0030aa7e0d1b.jpeg?updatedAt=1782315654384",
         "alt": "Author website + email newsletter (home base) vs social-only vs \"hope and vibes\"",
         "width": 5652,
         "height": 3768,
@@ -355,43 +355,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_the_verdict_blog_section_landscape_abbf97f7814a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_the_verdict_blog_section_landscape_abbf97f7814a.gif",
         "alt": "The verdict",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_section_image_decision_action_plan_blog_section_landscape_160c24eca5d7.gif",
-    "alt": "blog section image \u00b7 decision action plan",
-    "width": 200,
-    "height": 200,
-    "creator": "Centronome",
-    "creatorUrl": "https://giphy.com/gifs/Centronome-direction-decision-choose-Yg0ImqM4KBdn80WP6a",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-      "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
     },
     {
       "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-      "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
     },
     {
       "title": "Five ways to publish your short stories FAQ",
-      "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     },
     {
       "title": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -426,7 +417,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-      "url": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
+      "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
     }
   ]
 } as const;
@@ -456,7 +447,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,31 +459,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
-          "item": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
+          "item": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#webpage",
-      "url": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
+      "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#webpage",
+      "url": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
       "name": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -508,11 +499,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#article",
+      "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#webpage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs",
       "headline": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes\"",
       "alternativeHeadline": "Book marketing for self-publishing: author website + email list vs social-only vs \"hope and vibes",
       "description": "If you're self-publishing, you've probably heard the myth that your book will \"sell itself.\" It won't. Most people don't magically find good books sitting quietly in the dark. You have to make the book findable.",
@@ -542,40 +533,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage"
+        "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage"
       },
+      "datePublished": "2027-08-26",
+      "dateModified": "2027-08-26",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-          "url": "https://writequeryhook.com/query-letters/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Hire a cover designer and book formatter vs DIY: what self-publishers should actually choose",
-          "url": "https://writequeryhook.com/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should-actually-choose"
+          "url": "https://writequeryhook.com/blog/hire-a-cover-designer-and-book-formatter-vs-diy-what-self-publishers-should"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-          "url": "https://writequeryhook.com/self-publishing-a-former-traditionally-published-book-rights-reversion-route-vs-contract-negotiation-alternatives"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish your short stories FAQ",
-          "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_hero_frustration_buried_book_blog_hero_landscape_6c0f73ae81c9.jpeg",
+      "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_518/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs/blog/blog_hero_frustration_buried_book_blog_hero_landscape_6c0f73ae81c9.jpeg?updatedAt=1782315653200",
       "width": 6543,
       "height": 4362,
       "caption": "blog hero \u00b7 frustration buried book",
@@ -590,7 +578,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#faq",
+      "@id": "https://writequeryhook.com/blog/book-marketing-for-self-publishing-author-website-email-list-vs-social-only-vs#faq",
       "mainEntity": [
         {
           "@type": "Question",

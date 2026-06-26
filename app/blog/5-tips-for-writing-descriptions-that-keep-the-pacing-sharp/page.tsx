@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for writing descriptions that keep the pacing sharp",
   "description": "Some drafts feel like they're moving\u2014until you re-read the scene and realize you've been watching the author's finger point at scenery for twenty paragraphs. The action's happening, sure. But the momentum is getting dragged behind the pretty parts.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-23",
+  "modifiedDate": "2027-01-23",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-descriptions-that-keep-the-pacing-sharp",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -576,6 +576,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-writing-descriptions-that-keep-the-pacing-sharp#primaryimage"
       },
+      "datePublished": "2027-01-23",
+      "dateModified": "2027-01-23",
       "mentions": [
         {
           "@type": "WebPage",

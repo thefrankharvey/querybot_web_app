@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
   "description": "If your book description feels like \"the plot, but shorter,\" here's the myth you've been forced to memorize: a blurb should explain everything. It shouldn't. Your book blurb is marketing, not a reading assignment.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
+  "publishedDate": "2027-05-16",
+  "modifiedDate": "2027-05-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_hero_blank_page_dread_blog_hero_landscape_0ea9e1ff3714.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_hero_blank_page_dread_blog_hero_landscape_0ea9e1ff3714.jpeg",
     "alt": "blog hero \u00b7 blank-page dread",
-    "width": 370,
-    "height": 200,
-    "creator": "regalmovies",
-    "creatorUrl": "https://giphy.com/gifs/regalmovies-encanto-movie-disneys-GL5R1wBNqjKvHHTGdR",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-      "item": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
+      "item": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
     }
   ],
   "tldrBlocks": [],
@@ -166,7 +166,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_copywriting_desire_blog_section_landscape_c6d0f0fc3ab1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_copywriting_desire_blog_section_landscape_c6d0f0fc3ab1.gif?updatedAt=1782147415445",
         "alt": "5) Making the blurb hard to scan",
         "width": 200,
         "height": 200,
@@ -218,13 +218,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_250_words_word_count_blog_section_landscape_56cc7d2a380a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_250_words_word_count_blog_section_landscape_56cc7d2a380a.gif",
         "alt": "3) Writing past the word budget",
-        "width": 6000,
-        "height": 4000,
-        "creator": "alleksana",
-        "creatorUrl": "https://www.pexels.com/@alleksana",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -274,7 +274,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_hook_first_sentence_blog_section_landscape_f7cf6a484c84.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_hook_first_sentence_blog_section_landscape_f7cf6a484c84.jpeg?updatedAt=1782147414006",
         "alt": "4) Having a weak first sentence",
         "width": 4896,
         "height": 3264,
@@ -335,7 +335,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_copywriting_desire_blog_section_landscape_c6d0f0fc3ab1.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_copywriting_desire_blog_section_landscape_c6d0f0fc3ab1.gif?updatedAt=1782147415445",
         "alt": "5) Making the blurb hard to scan",
         "width": 200,
         "height": 200,
@@ -453,32 +453,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_section_image_rewrite_today_delete_keylines_blog_section_landscape_d05e1ec3e27f.jpeg",
-    "alt": "blog section image \u00b7 rewrite-today delete-keylines",
-    "width": 3008,
-    "height": 2000,
-    "creator": "Miguel \u00c1. Padri\u00f1\u00e1n",
-    "creatorUrl": "https://www.pexels.com/@padrinan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-      "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+      "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
     },
     {
-      "title": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-      "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+      "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+      "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
     },
     {
-      "title": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-      "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+      "title": "5 tips to understand the publishing timeline after the offer",
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
     },
     {
       "title": "How to spot which rights you sign away in a book deal",
-      "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -492,7 +483,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-      "url": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
     }
   ]
 } as const;
@@ -522,7 +513,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -534,31 +525,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
-          "item": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
+          "item": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
+      "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#webpage",
+      "url": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
       "name": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -574,11 +565,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#article",
+      "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#webpage"
+        "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose",
       "headline": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
       "alternativeHeadline": "7 book description mistakes that make your blurb look like a summary (and lose the sale)",
       "description": "If your book description feels like \"the plot, but shorter,\" here's the myth you've been forced to memorize: a blurb should explain everything. It shouldn't. Your book blurb is marketing, not a reading assignment.",
@@ -608,48 +599,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage"
       },
+      "datePublished": "2027-05-16",
+      "dateModified": "2027-05-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-          "url": "https://writequeryhook.com/query-letters/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+          "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
-          "url": "https://writequeryhook.com/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them-to-market-your-book"
+          "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
         },
         {
           "@type": "WebPage",
-          "name": "How a team can pick a book cover fast\u2014without turning it into a vote circus",
-          "url": "https://writequeryhook.com/how-a-team-can-pick-a-book-cover-fast-without-turning-it-into-a-vote-circus"
+          "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
+          "url": "https://writequeryhook.com/blog/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why"
         },
         {
           "@type": "WebPage",
-          "name": "Project management at ooligan press: how the project manager keeps your book moving (and your marketing aligned)",
-          "url": "https://writequeryhook.com/project-management-at-ooligan-press-how-the-project-manager-keeps-your-book-moving-and-your-marketing-aligned"
+          "name": "5 tips to understand the publishing timeline after the offer",
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-the-publishing-timeline-after-the-offer"
         },
         {
           "@type": "WebPage",
           "name": "How to spot which rights you sign away in a book deal",
-          "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_hero_blank_page_dread_blog_hero_landscape_0ea9e1ff3714.gif",
-      "width": 370,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_400/7-book-description-mistakes-that-make-your-blurb-look-like-a-summary-and-lose/blog/blog_hero_blank_page_dread_blog_hero_landscape_0ea9e1ff3714.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 blank-page dread",
-      "creditText": "regalmovies",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "regalmovies",
-        "url": "https://giphy.com/gifs/regalmovies-encanto-movie-disneys-GL5R1wBNqjKvHHTGdR"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     }

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write Inclusive Language in Fiction (It's Not Just Pronouns)",
   "description": "Most \"inclusive language\" advice online is a pronoun swap with a smile. That's not the job. Inclusive language is the work of making readers feel welcome in the story world\u2014by choosing wording that doesn't hide bias in the seams.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-07",
+  "modifiedDate": "2027-01-07",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-inclusive-language-in-fiction-it-s-not-just-pronouns",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -530,6 +530,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-inclusive-language-in-fiction-it-s-not-just-pronouns#primaryimage"
       },
+      "datePublished": "2027-01-07",
+      "dateModified": "2027-01-07",
       "mentions": [
         {
           "@type": "WebPage",

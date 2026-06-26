@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
   "description": "Let's study a real pattern instead of pretending there's one \"perfect pitch.\" The subject here is an author who knows their manuscript cold but keeps losing the room when they open their mouth: \"So, it's about\u2026\" Then it turns into plot recap soup, the listener checks out, and the author starts apologizing with extra words.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
+  "publishedDate": "2027-10-11",
+  "modifiedDate": "2027-10-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-      "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
+      "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     }
   ],
   "tldrBlocks": [],
@@ -423,20 +423,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-      "url": "https://writequeryhook.com/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision-breakdown"
-    },
-    {
       "title": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-      "url": "https://writequeryhook.com/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about-benefits-rights-and-ai"
+      "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
     },
     {
       "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-      "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+    },
+    {
+      "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     },
     {
       "title": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-      "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+      "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -454,7 +454,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-      "url": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     }
   ]
 } as const;
@@ -484,7 +484,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -496,31 +496,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-          "item": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
+          "item": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
       "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -536,11 +536,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#article",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown",
       "headline": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
       "alternativeHeadline": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
       "description": "Let's study a real pattern instead of pretending there's one \"perfect pitch.\" The subject here is an author who knows their manuscript cold but keeps losing the room when they open their mouth: \"So, it's about\u2026\" Then it turns into plot recap soup, the listener checks out, and the author starts apologizing with extra words.",
@@ -570,39 +570,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage"
       },
+      "datePublished": "2027-10-11",
+      "dateModified": "2027-10-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-          "url": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-          "url": "https://writequeryhook.com/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision-breakdown"
+          "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-          "url": "https://writequeryhook.com/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about-benefits-rights-and-ai"
+          "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
-          "url": "https://writequeryhook.com/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people-lean-in"
+          "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
+          "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes in getting book reviews (and how to fix the review bottleneck fast)",
-          "url": "https://writequeryhook.com/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck-fast"
+          "url": "https://writequeryhook.com/blog/common-mistakes-in-getting-book-reviews-and-how-to-fix-the-review-bottleneck"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_570/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown/blog/blog_hero_dread_blank_page_blog_hero_landscape_e6b24db1a8d5.gif",
       "width": 200,
       "height": 200,

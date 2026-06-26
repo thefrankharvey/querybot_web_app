@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
   "description": "Romance gets mocked in writing circles the way gym memberships get mocked in January: people act like the thing is embarrassing, and then they quietly keep showing up anyway.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
+  "publishedDate": "2027-08-07",
+  "modifiedDate": "2027-08-07",
+  "canonicalUrl": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_hero_recognition_embarrassment_blog_hero_landscape_e703d518685b.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_hero_recognition_embarrassment_blog_hero_landscape_e703d518685b.jpeg",
     "alt": "blog hero \u00b7 recognition embarrassment",
-    "width": 356,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/mrw-mods-bethesda-vX9WcCiWwUF7G",
-    "provider": "giphy",
+    "width": 6960,
+    "height": 4350,
+    "creator": "Sanket  Mishra",
+    "creatorUrl": "https://www.pexels.com/@sanketgraphy",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-      "item": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+      "item": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     }
   ],
   "tldrBlocks": [],
@@ -152,13 +152,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_desire_safety_blog_section_landscape_08506e2fb23c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_desire_safety_blog_section_landscape_08506e2fb23c.gif",
         "alt": "Wish fulfillment is the commodity (not the apology)",
-        "width": 5760,
-        "height": 3840,
-        "creator": "Fatih Yurtman",
-        "creatorUrl": "https://www.pexels.com/@fatihyurtman",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -228,13 +228,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_busy_life_distraction_blog_section_landscape_3b62e51b6a9d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_busy_life_distraction_blog_section_landscape_3b62e51b6a9d.gif",
         "alt": "Escapism is structural, not fluffy",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "myemotionalsupportanimal",
+        "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-interruption-boss-calling-workplace-anxiety-ZiCh2jYouKNw4Vz1VL",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -364,13 +364,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_payoff_contract_blog_section_landscape_3827e8bb3123.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_payoff_contract_blog_section_landscape_3827e8bb3123.jpeg",
         "alt": "\"Happily ever after\" makes the contract real",
-        "width": 298,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
-        "provider": "giphy",
+        "width": 6241,
+        "height": 4161,
+        "creator": "RDNE Stock project",
+        "creatorUrl": "https://www.pexels.com/@rdne",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -397,32 +397,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_section_image_fist_pump_turning_point_blog_section_landscape_96424efda6b0.jpeg",
-    "alt": "blog section image \u00b7 fist pump turning point",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Literary agent cost: what you should pay (and what you should never pay)",
-      "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     },
     {
       "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     },
     {
       "title": "5 tips for are you an aspiring author: here's how to get a book published",
-      "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     },
     {
       "title": "5 basics of publishing contracts you should understand before you sign",
-      "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+      "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -469,7 +460,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Literary agent cost: what you should pay (and what you should never pay)",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     }
   ]
 } as const;
@@ -499,7 +490,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -511,31 +502,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-          "item": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+          "item": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#webpage",
-      "url": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#webpage",
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
       "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -551,11 +542,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#article",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#webpage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order",
       "headline": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
       "alternativeHeadline": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
       "description": "Romance gets mocked in writing circles the way gym memberships get mocked in January: people act like the thing is embarrassing, and then they quietly keep showing up anyway.",
@@ -585,55 +576,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage"
+        "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage"
       },
+      "datePublished": "2027-08-07",
+      "dateModified": "2027-08-07",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "url": "https://writequeryhook.com/query-letters/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
         },
         {
           "@type": "WebPage",
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+          "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
         },
         {
           "@type": "WebPage",
           "name": "5 basics of publishing contracts you should understand before you sign",
-          "url": "https://writequeryhook.com/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
+          "url": "https://writequeryhook.com/blog/5-basics-of-publishing-contracts-you-should-understand-before-you-sign"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_hero_recognition_embarrassment_blog_hero_landscape_e703d518685b.gif",
-      "width": 356,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_496/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order/blog/blog_hero_recognition_embarrassment_blog_hero_landscape_e703d518685b.jpeg",
+      "width": 6960,
+      "height": 4350,
       "caption": "blog hero \u00b7 recognition embarrassment",
-      "creditText": "Giphy",
+      "creditText": "Sanket  Mishra",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/mrw-mods-bethesda-vX9WcCiWwUF7G"
+        "name": "Sanket  Mishra",
+        "url": "https://www.pexels.com/@sanketgraphy"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#faq",
+      "@id": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order#faq",
       "mainEntity": [
         {
           "@type": "Question",

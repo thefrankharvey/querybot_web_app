@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "When Your Manuscript Feels Finished: 7 Editing Mistakes That Make Agents Pass",
   "description": "You wrote the last page. Great. Then you stare at your own work like it's a finished painting and think, when is a manuscript ready to query?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-28",
+  "modifiedDate": "2026-11-28",
   "canonicalUrl": "https://writequeryhook.com/blog/when-your-manuscript-feels-finished-7-editing-mistakes-that-make-agents-pass",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -539,6 +539,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/when-your-manuscript-feels-finished-7-editing-mistakes-that-make-agents-pass#primaryimage"
       },
+      "datePublished": "2026-11-28",
+      "dateModified": "2026-11-28",
       "mentions": [
         {
           "@type": "WebPage",

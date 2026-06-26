@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
   "description": "Writing a synopsis feels like being asked to summarize your entire life in a job application form. You're staring at a blank doc, knowing the story works in your head, and panicking that\u2014once you put it on paper\u2014your plot will turn into mush, your structure will collapse, and the climax will evaporate like steam in a microwave.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
+  "publishedDate": "2027-11-08",
+  "modifiedDate": "2027-11-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
+      "item": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
     }
   ],
   "tldrBlocks": [],
@@ -376,19 +376,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips for writing a novel synopsis that actually covers the whole story",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
     },
     {
       "title": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-      "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+      "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
     },
     {
       "title": "5 tips for writing a compelling book synopsis that ends with the right proof",
-      "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
     },
     {
-      "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "title": "Author branding vs alternatives: which one actually sells your books",
+      "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -427,7 +427,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-      "url": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+      "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
     }
   ]
 } as const;
@@ -457,7 +457,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -469,31 +469,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
+          "item": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
       "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -509,11 +509,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on",
       "headline": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
       "alternativeHeadline": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
       "description": "Writing a synopsis feels like being asked to summarize your entire life in a job application form. You're staring at a blank doc, knowing the story works in your head, and panicking that\u2014once you put it on paper\u2014your plot will turn into mush, your structure will collapse, and the climax will evaporate like steam in a microwave.",
@@ -543,39 +543,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage"
       },
+      "datePublished": "2027-11-08",
+      "dateModified": "2027-11-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Write a synopsis like a job summary: plot outcomes beat pretty prose",
-          "url": "https://writequeryhook.com/query-letters/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
+          "url": "https://writequeryhook.com/blog/write-a-synopsis-like-a-job-summary-plot-outcomes-beat-pretty-prose"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a novel synopsis that actually covers the whole story",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-novel-synopsis-that-actually-covers-the-whole-story"
         },
         {
           "@type": "WebPage",
           "name": "4 steps to tame your synopsis: from one-sentence pitch to long-form retelling",
-          "url": "https://writequeryhook.com/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
+          "url": "https://writequeryhook.com/blog/4-steps-to-tame-your-synopsis-from-one-sentence-pitch-to-long-form-retelling"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing a compelling book synopsis that ends with the right proof",
-          "url": "https://writequeryhook.com/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-a-compelling-book-synopsis-that-ends-with-the-right-proof"
         },
         {
           "@type": "WebPage",
-          "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "url": "https://writequeryhook.com/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "name": "Author branding vs alternatives: which one actually sells your books",
+          "url": "https://writequeryhook.com/blog/author-branding-vs-alternatives-which-one-actually-sells-your-books"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_607/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on/blog/blog_hero_recognition_frustration_blog_hero_landscape_0ba49b7c3daa.jpeg",
       "width": 6541,
       "height": 4361,
@@ -591,7 +593,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on#faq",
       "mainEntity": [
         {
           "@type": "Question",

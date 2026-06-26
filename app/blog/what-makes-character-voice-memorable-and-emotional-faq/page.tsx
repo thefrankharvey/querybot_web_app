@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What Makes Character Voice Memorable and Emotional? FAQ",
   "description": "Character voice isn't \"vibes.\" It's what shows up when emotion gets forced through a character's language, rhythm, and coping habits. The same scene can read flat if the character feels the same way as everyone else. It reads memorable when the character communicates that feeling like only they would\u2014through dialogue choices, sensory filters, and the quiet decisions they make with their body and thoughts.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-10",
+  "modifiedDate": "2026-09-10",
   "canonicalUrl": "https://writequeryhook.com/blog/what-makes-character-voice-memorable-and-emotional-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -486,6 +486,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-makes-character-voice-memorable-and-emotional-faq#primaryimage"
       },
+      "datePublished": "2026-09-10",
+      "dateModified": "2026-09-10",
       "mentions": [
         {
           "@type": "WebPage",

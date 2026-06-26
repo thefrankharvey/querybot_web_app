@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
   "description": "If IP pitching feels like a fog machine\u2014cool at a distance, impossible to see through when you're holding the can\u2014that's not you being dramatic. Beginners usually hit the same wall: \"What do I send\u2014exactly?\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
+  "publishedDate": "2027-08-08",
+  "modifiedDate": "2027-08-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_hero_recognition_dread_blog_hero_landscape_1d3a8707ee72.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_hero_recognition_dread_blog_hero_landscape_1d3a8707ee72.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "item": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "item": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     }
   ],
   "tldrBlocks": [],
@@ -209,13 +209,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_anxiety_confidence_blog_section_landscape_8147ad3333a9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_anxiety_confidence_blog_section_landscape_8147ad3333a9.jpeg",
         "alt": "You think IP is just knowledge, not voice and writing samples",
-        "width": 276,
-        "height": 200,
-        "creator": "abitan",
-        "creatorUrl": "https://giphy.com/gifs/shy-confidence-introvert-4RNuzN29BxEV9HX7VC",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -256,13 +256,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_frustration_invisibility_blog_section_landscape_2c08f8b02cf9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_frustration_invisibility_blog_section_landscape_2c08f8b02cf9.gif",
         "alt": "You wait to be discovered instead of building visible niche presence",
-        "width": 5618,
-        "height": 3745,
-        "creator": "Pedro Figueras",
-        "creatorUrl": "https://www.pexels.com/@pedro-figueras-202443",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -409,13 +409,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_stress_tight_deadline_blog_section_landscape_9b0bfa1fe5ec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_stress_tight_deadline_blog_section_landscape_9b0bfa1fe5ec.gif",
         "alt": "You commit without confirming compensation and timeline terms",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Tara Winstead",
-        "creatorUrl": "https://www.pexels.com/@tara-winstead",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -486,32 +486,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_section_image_relief_actionable_blog_section_landscape_19c6d1cb2a5c.jpeg",
-    "alt": "blog section image \u00b7 relief actionable",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Anderson Alves",
-    "creatorUrl": "https://www.pexels.com/@anderson-alves-2158767102",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     },
     {
       "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-      "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     },
     {
       "title": "Literary agent cost: what you should pay (and what you should never pay)",
-      "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
     },
     {
       "title": "5 tips for are you an aspiring author: here's how to get a book published",
-      "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+      "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -546,7 +537,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     }
   ]
 } as const;
@@ -576,7 +567,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -588,31 +579,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "item": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "item": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#webpage",
-      "url": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
+      "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#webpage",
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
       "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -628,11 +619,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#article",
+      "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#webpage"
+        "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances",
       "headline": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
       "alternativeHeadline": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
       "description": "If IP pitching feels like a fog machine\u2014cool at a distance, impossible to see through when you're holding the can\u2014that's not you being dramatic. Beginners usually hit the same wall: \"What do I send\u2014exactly?\"",
@@ -662,55 +653,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage"
       },
+      "datePublished": "2027-08-08",
+      "dateModified": "2027-08-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/query-letters/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
         },
         {
           "@type": "WebPage",
           "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-          "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         },
         {
           "@type": "WebPage",
           "name": "Literary agent cost: what you should pay (and what you should never pay)",
-          "url": "https://writequeryhook.com/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-what-you-should-pay-and-what-you-should-never-pay"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for are you an aspiring author: here's how to get a book published",
-          "url": "https://writequeryhook.com/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
+          "url": "https://writequeryhook.com/blog/5-tips-for-are-you-an-aspiring-author-here-s-how-to-get-a-book-published"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_hero_recognition_dread_blog_hero_landscape_1d3a8707ee72.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_497/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances/blog/blog_hero_recognition_dread_blog_hero_landscape_1d3a8707ee72.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#faq",
+      "@id": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances#faq",
       "mainEntity": [
         {
           "@type": "Question",

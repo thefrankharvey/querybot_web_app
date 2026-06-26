@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Flexing the World: Make Your Query Letter's Specificity Do the Lifting",
   "description": "Writers keep saying it: \"I'll just describe the setting better.\"",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-08",
+  "modifiedDate": "2026-07-08",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-flexing-the-world-make-your-query-letter-s-specificity-do-the-lifting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -555,6 +555,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-flexing-the-world-make-your-query-letter-s-specificity-do-the-lifting#primaryimage"
       },
+      "datePublished": "2026-07-08",
+      "dateModified": "2026-07-08",
       "mentions": [
         {
           "@type": "WebPage",

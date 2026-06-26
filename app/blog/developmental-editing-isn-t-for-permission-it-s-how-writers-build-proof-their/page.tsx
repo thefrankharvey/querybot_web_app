@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
   "description": "There\u2019s a specific kind of dread that shows up when you start researching publishing. Not \u201cI\u2019m scared because I\u2019m new.\u201d More like: \u201cThis whole thing feels walled off, and I\u2019m not holding the secret knock.\u201d The lists are confusing. The terminology gets tossed around like it\u2019s insider currency. And the inbox silence\u2014whether it\u2019s an agent form rejection or a polite ghost\u2014can make the whole path feel rigged.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
+  "publishedDate": "2027-10-17",
+  "modifiedDate": "2027-10-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-      "item": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
+      "item": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
     }
   ],
   "tldrBlocks": [],
@@ -458,19 +458,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-      "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
     },
     {
       "title": "5 author branding tips for selling books without turning into a corporate robot",
-      "url": "https://writequeryhook.com/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+      "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
     },
     {
       "title": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-      "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
     },
     {
-      "title": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-      "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
+      "title": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -513,7 +513,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+      "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
     }
   ]
 } as const;
@@ -543,7 +543,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -555,31 +555,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
-          "item": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
+          "item": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#webpage",
-      "url": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
+      "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#webpage",
+      "url": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
       "name": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage"
+        "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -595,11 +595,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#article",
+      "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#webpage"
+        "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their",
       "headline": "Developmental editing isn\u2019t for \u201cpermission\u201d\u2014it\u2019s how writers build proof their book can work",
       "alternativeHeadline": "Developmental editing isn\u2019t for \"permission\"\u2014it\u2019s how writers build proof their book can work",
       "description": "There\u2019s a specific kind of dread that shows up when you start researching publishing. Not \u201cI\u2019m scared because I\u2019m new.\u201d More like: \u201cThis whole thing feels walled off, and I\u2019m not holding the secret knock.\u201d The lists are confusing. The terminology gets tossed around like it\u2019s insider currency. And the inbox silence\u2014whether it\u2019s an agent form rejection or a polite ghost\u2014can make the whole path feel rigged.",
@@ -629,39 +629,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage"
+        "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage"
       },
+      "datePublished": "2027-10-17",
+      "dateModified": "2027-10-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips to understand Amazon algorithms (and stop guessing what to tweak)",
-          "url": "https://writequeryhook.com/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
+          "url": "https://writequeryhook.com/blog/5-tips-to-understand-amazon-algorithms-and-stop-guessing-what-to-tweak"
         },
         {
           "@type": "WebPage",
           "name": "5 author branding tips for selling books without turning into a corporate robot",
-          "url": "https://writequeryhook.com/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
+          "url": "https://writequeryhook.com/blog/5-author-branding-tips-for-selling-books-without-turning-into-a-corporate-robot"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing for adaptation: rights, pacing, and actor-ready dialogue",
-          "url": "https://writequeryhook.com/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-for-adaptation-rights-pacing-and-actor-ready-dialogue"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-          "url": "https://writequeryhook.com/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
+          "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage",
+      "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_579/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their/blog/blog_hero_traditionally_publishing_dread_opacity_blog_hero_landscape_496dc12f8a9d.jpeg",
       "width": 5184,
       "height": 3456,
@@ -677,7 +674,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#faq",
+      "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-for-permission-it-s-how-writers-build-proof-their#faq",
       "mainEntity": [
         {
           "@type": "Question",

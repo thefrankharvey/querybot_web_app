@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Editing is the job: common revision-and-query mistakes that make writers panic",
   "description": "Writers don't panic because they're \"bad at writing.\" They panic because they keep using the wrong mental model.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-13",
+  "modifiedDate": "2027-01-13",
   "canonicalUrl": "https://writequeryhook.com/blog/editing-is-the-job-common-revision-and-query-mistakes-that-make-writers-panic",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -651,6 +651,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/editing-is-the-job-common-revision-and-query-mistakes-that-make-writers-panic#primaryimage"
       },
+      "datePublished": "2027-01-13",
+      "dateModified": "2027-01-13",
       "mentions": [
         {
           "@type": "WebPage",

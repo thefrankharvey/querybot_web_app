@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "9 best practices for writing a blurb request that gets read (and answered)",
   "description": "If your blurb request reads like a long, unfocused email, you're not \"trying to build relationships.\" You're giving the busy recipient an excuse to stop reading. And blurbs aren't optional freebies\u2014they're promotional quote labor, edited and curated, that has to be worth the attention.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
+  "publishedDate": "2027-04-25",
+  "modifiedDate": "2027-04-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "outreach"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered/blog/blog_hero_indignation_recognition_blog_hero_landscape_fa312e00f18c.jpeg?updatedAt=1782427968941",
+    "alt": "blog hero \u00b7 indignation recognition",
+    "width": 6415,
+    "height": 4277,
+    "creator": "RDNE Stock project",
+    "creatorUrl": "https://www.pexels.com/@rdne",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "9 best practices for writing a blurb request that gets read (and answered)",
-      "item": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+      "item": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     }
   ],
   "tldrBlocks": [],
@@ -166,7 +175,16 @@ const PAGE_DATA = {
           "text": "If your manuscript is fast, funny, and plot-driven but your recipient's past recommendations are slow-burn and lyrical, you'll get weak appeal\u2014or a polite no."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered/blog/blog_section_image_target_reader_tone_match_blog_section_landscape_4bf7d8df0717.gif?updatedAt=1782427969719",
+        "alt": "Write book marketing that matches the blurb writer's audience",
+        "width": 356,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-argentina-messi-lionel-VeVAIudquGiwnnbbHy",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_how_to_choose_who_to_request",
@@ -396,7 +414,16 @@ const PAGE_DATA = {
           "text": "And if you truly love their work, that'll come through. You don't have to fake it."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered/blog/blog_section_image_respect_reciprocity_blog_section_landscape_318548ec6632.gif?updatedAt=1782427970759",
+        "alt": "Emphasize mutual value without sounding transactional",
+        "width": 192,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/woody-fnwS4A9h4UYH6",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_to_send_when_you_need_an_immediate_copy",
@@ -442,26 +469,35 @@ const PAGE_DATA = {
           "text": "Also: be specific with logistics. \"I can send you a copy\" is fine once, but \"here's the access method and by when\" is cleaner."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered/blog/blog_section_image_logistics_access_blog_section_landscape_32135c73f337.jpeg?updatedAt=1782427971510",
+        "alt": "Make getting a copy simple (links, formats, and logistics)",
+        "width": 6720,
+        "height": 4480,
+        "creator": "HONG SON",
+        "creatorUrl": "https://www.pexels.com/@hson",
+        "provider": "pexels",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     },
     {
       "title": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-      "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+      "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
     },
     {
       "title": "How to revise after bad reviews without losing your writer voice",
-      "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+      "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
     },
     {
-      "title": "How to write a great book description that sells (not summarizes)",
-      "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "title": "How to know when to leave your agent without burning the whole relationship",
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -496,7 +532,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "8 easy steps to write a pitch letter that markets your newly accepted book",
-      "url": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+      "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
     }
   ]
 } as const;
@@ -526,7 +562,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -538,28 +574,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "9 best practices for writing a blurb request that gets read (and answered)",
-          "item": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
+          "item": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#webpage",
-      "url": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
+      "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#webpage",
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
       "name": "9 best practices for writing a blurb request that gets read (and answered)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -575,11 +614,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#article",
+      "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#webpage"
+        "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered",
       "headline": "9 best practices for writing a blurb request that gets read (and answered)",
       "alternativeHeadline": "9 best practices for writing a blurb request that gets read (and answered)",
       "description": "If your blurb request reads like a long, unfocused email, you're not \"trying to build relationships.\" You're giving the busy recipient an excuse to stop reading. And blurbs aren't optional freebies\u2014they're promotional quote labor, edited and curated, that has to be worth the attention.",
@@ -608,38 +647,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#primaryimage"
+      },
+      "datePublished": "2027-04-25",
+      "dateModified": "2027-04-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "url": "https://writequeryhook.com/query-letters/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
-        },
-        {
-          "@type": "WebPage",
-          "name": "8 easy steps to write a pitch letter that markets your newly accepted book",
-          "url": "https://writequeryhook.com/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
+          "url": "https://writequeryhook.com/blog/8-easy-steps-to-write-a-pitch-letter-that-markets-your-newly-accepted-book"
         },
         {
           "@type": "WebPage",
           "name": "5 questions to ask yourself after hearing \"we can't sell enough to justify\"",
-          "url": "https://writequeryhook.com/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
+          "url": "https://writequeryhook.com/blog/5-questions-to-ask-yourself-after-hearing-we-can-t-sell-enough-to-justify"
         },
         {
           "@type": "WebPage",
           "name": "How to revise after bad reviews without losing your writer voice",
-          "url": "https://writequeryhook.com/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
+          "url": "https://writequeryhook.com/blog/how-to-revise-after-bad-reviews-without-losing-your-writer-voice"
         },
         {
           "@type": "WebPage",
-          "name": "How to write a great book description that sells (not summarizes)",
-          "url": "https://writequeryhook.com/how-to-write-a-great-book-description-that-sells-not-summarizes"
+          "name": "How to know when to leave your agent without burning the whole relationship",
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_368/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered/blog/blog_hero_indignation_recognition_blog_hero_landscape_fa312e00f18c.jpeg?updatedAt=1782427968941",
+      "width": 6415,
+      "height": 4277,
+      "caption": "blog hero \u00b7 indignation recognition",
+      "creditText": "RDNE Stock project",
+      "author": {
+        "@type": "Person",
+        "name": "RDNE Stock project",
+        "url": "https://www.pexels.com/@rdne"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#faq",
+      "@id": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered#faq",
       "mainEntity": [
         {
           "@type": "Question",

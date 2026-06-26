@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Tension in a Novel FAQ: How to Build Anticipation Without Losing Momentum",
   "description": "Writers keep saying \u201ctension\u201d like it\u2019s a weather system: dark skies, something bad happens, cue the drama. That\u2019s not wrong, but it\u2019s not precise enough to build on draft two.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-29",
+  "modifiedDate": "2027-01-29",
   "canonicalUrl": "https://writequeryhook.com/blog/tension-in-a-novel-faq-how-to-build-anticipation-without-losing-momentum",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -427,6 +427,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/tension-in-a-novel-faq-how-to-build-anticipation-without-losing-momentum#primaryimage"
       },
+      "datePublished": "2027-01-29",
+      "dateModified": "2027-01-29",
       "mentions": [
         {
           "@type": "WebPage",

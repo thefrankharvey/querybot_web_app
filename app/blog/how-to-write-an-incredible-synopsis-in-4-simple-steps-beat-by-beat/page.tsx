@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
   "description": "A synopsis feels like cheating to the people who hate spoilers. The rest of us know it's not a teaser\u2014it's evidence. When agents and publishers open your query materials, they're checking whether the manuscript holds together from opening to ending: structural soundness, coherent cause-and-effect, and whether the story is market-ready.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
+  "publishedDate": "2027-11-05",
+  "modifiedDate": "2027-11-05",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+      "item": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
     }
   ],
   "tldrBlocks": [],
@@ -330,19 +330,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-      "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
     },
     {
       "title": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-      "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+      "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
     },
     {
       "title": "Amazon algorithms vs alternatives: what actually drives visibility",
-      "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
     },
     {
-      "title": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-      "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+      "title": "Literary agent cost faq",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -377,7 +377,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
     }
   ]
 } as const;
@@ -407,7 +407,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -419,31 +419,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
+          "item": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
       "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -459,11 +459,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat",
       "headline": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
       "alternativeHeadline": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
       "description": "A synopsis feels like cheating to the people who hate spoilers. The rest of us know it's not a teaser\u2014it's evidence. When agents and publishers open your query materials, they're checking whether the manuscript holds together from opening to ending: structural soundness, coherent cause-and-effect, and whether the story is market-ready.",
@@ -493,39 +493,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage"
       },
+      "datePublished": "2027-11-05",
+      "dateModified": "2027-11-05",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Write a Synopsis for Agents That Actually Summarizes the Ending",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-synopsis-for-agents-that-actually-summarizes-the-ending"
         },
         {
           "@type": "WebPage",
           "name": "How to write a novel synopsis that reveals the ending (and still reads clean)",
-          "url": "https://writequeryhook.com/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-novel-synopsis-that-reveals-the-ending-and-still-reads-clean"
         },
         {
           "@type": "WebPage",
           "name": "What Format Do Publishers Expect for a Synopsis\u2014and How to Write One That Reveals the Ending",
-          "url": "https://writequeryhook.com/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that-reveals-the-ending"
+          "url": "https://writequeryhook.com/blog/what-format-do-publishers-expect-for-a-synopsis-and-how-to-write-one-that"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms vs alternatives: what actually drives visibility",
-          "url": "https://writequeryhook.com/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-vs-alternatives-what-actually-drives-visibility"
         },
         {
           "@type": "WebPage",
-          "name": "Adaptation-first planning vs screenplay-first rewriting: which path protects your rights and your pacing?",
-          "url": "https://writequeryhook.com/adaptation-first-planning-vs-screenplay-first-rewriting-which-path-protects-your-rights-and-your-pacing"
+          "name": "Literary agent cost faq",
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_604/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_56313c362744.jpeg",
       "width": 5184,
       "height": 3456,
@@ -541,7 +543,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#howto",
       "name": "How to write an incredible synopsis in 4 simple steps (beat by beat)",
       "description": "A synopsis feels like cheating to the people who hate spoilers. The rest of us know it's not a teaser\u2014it's evidence. When agents and publishers open your query materials, they're checking whether the manuscript holds together from opening to ending: structural soundness, coherent cause-and-effect, and whether the story is market-ready.",
       "totalTime": "PT7M",
@@ -551,35 +553,35 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define the arc and hook (before you write anything pretty)",
           "text": "Start by writing the synopsis in three plain parts\u2014ugly on purpose.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-1-define-the-arc-and-hook-before-you-write-anything-pretty"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-1-define-the-arc-and-hook-before-you-write-anything-pretty"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write the middle that raises stakes (complications, then escalation)",
           "text": "Now build the middle the way the story actually behaves: cause-and-effect, pressure increasing, the protagonist unable to go back to how things were.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-2-write-the-middle-that-raises-stakes-complications-then-escalation"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-2-write-the-middle-that-raises-stakes-complications-then-escalation"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Build the point of no return to the climax (the question gets answered)",
           "text": "If your middle is \"things get worse,\" your late-game is \"the story can't go back to normal,\" and the protagonist has to pay for it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-3-build-the-point-of-no-return-to-the-climax-the-question-gets-answered"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-3-build-the-point-of-no-return-to-the-climax-the-question-gets-answered"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Cut to the narrative spine and set length (because format is part of the craft)",
           "text": "Now you make it fit. Length is part of readability, and readability is part of how agents evaluate clarity.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-4-cut-to-the-narrative-spine-and-set-length-because-format-is-part-of-the"
+          "url": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#step-4-cut-to-the-narrative-spine-and-set-length-because-format-is-part-of-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-an-incredible-synopsis-in-4-simple-steps-beat-by-beat#faq",
       "mainEntity": [
         {
           "@type": "Question",

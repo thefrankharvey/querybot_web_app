@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to learn the market for middle grade (MG) fiction without writing something bland",
   "description": "Middle grade is a \"loose label,\" which is writer-code for: you can't rely on a single age number and call it done. Some kids slide in earlier. Some read outside the \"typical\" band and still devour the book. So yeah\u2014confusing. And also, annoying in the exact way that makes your drafting brain ask for a shortcut.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-06",
+  "modifiedDate": "2026-08-06",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-learn-the-market-for-middle-grade-mg-fiction-without-writing-something",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -600,6 +600,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-learn-the-market-for-middle-grade-mg-fiction-without-writing-something#primaryimage"
       },
+      "datePublished": "2026-08-06",
+      "dateModified": "2026-08-06",
       "mentions": [
         {
           "@type": "WebPage",

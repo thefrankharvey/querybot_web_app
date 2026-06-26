@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
   "description": "Unagented submission is the part of the process where writers get scared for three different reasons: when it\u2019s \u201callowed,\u201d whether the deal will be fair, and how to pick the right publishing lane. And here\u2019s the annoying truth\u2014most advice online treats those fears like the same problem.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
+  "publishedDate": "2027-10-30",
+  "modifiedDate": "2027-10-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-      "item": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
+      "item": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
     }
   ],
   "tldrBlocks": [],
@@ -454,19 +454,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-      "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     },
     {
       "title": "Publishing myths that ignore printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     },
     {
       "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     },
     {
-      "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-      "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+      "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
+      "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -505,7 +505,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-      "url": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
     }
   ]
 } as const;
@@ -535,7 +535,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -547,31 +547,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
-          "item": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
+          "item": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#webpage",
-      "url": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#webpage",
+      "url": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
       "name": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -587,11 +587,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#article",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#webpage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s",
       "headline": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
       "alternativeHeadline": "Unagented submission mistakes that blow up your leverage (and when it\u2019s actually acceptable)",
       "description": "Unagented submission is the part of the process where writers get scared for three different reasons: when it\u2019s \u201callowed,\u201d whether the deal will be fair, and how to pick the right publishing lane. And here\u2019s the annoying truth\u2014most advice online treats those fears like the same problem.",
@@ -621,39 +621,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage"
       },
+      "datePublished": "2027-10-30",
+      "dateModified": "2027-10-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What the publishing \u201cglamour\u201d hides: how printing, distribution, and wholesale actually get you into stores",
-          "url": "https://writequeryhook.com/query-letters/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/what-the-publishing-glamour-hides-how-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
           "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-          "url": "https://writequeryhook.com/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still-promise-book-two"
+          "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         },
         {
           "@type": "WebPage",
           "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
         },
         {
           "@type": "WebPage",
           "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         },
         {
           "@type": "WebPage",
-          "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
-          "url": "https://writequeryhook.com/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot-twist"
+          "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
+          "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_597/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s/blog/blog_hero_panic_distrust_blog_hero_landscape_3834136b9dca.gif",
       "width": 218,
       "height": 200,
@@ -669,7 +671,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#faq",
+      "@id": "https://writequeryhook.com/blog/unagented-submission-mistakes-that-blow-up-your-leverage-and-when-it-s#faq",
       "mainEntity": [
         {
           "@type": "Question",

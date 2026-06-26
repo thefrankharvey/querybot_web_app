@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to protect your writing rights without accidentally scaring the people you need",
   "description": "Writers worry about theft the same way they worry about rejection: it feels personal, and it makes you stall.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
+  "publishedDate": "2027-08-20",
+  "modifiedDate": "2027-08-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_hero_anxiety_dread_blog_hero_landscape_9bdf3c558523.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_hero_anxiety_dread_blog_hero_landscape_9bdf3c558523.jpeg?updatedAt=1782315349298",
     "alt": "blog hero \u00b7 anxiety dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to protect your writing rights without accidentally scaring the people you need",
-      "item": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+      "item": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
     }
   ],
   "tldrBlocks": [],
@@ -140,13 +140,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_submissions_anxiety_blog_section_landscape_36a9257416a9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_submissions_anxiety_blog_section_landscape_36a9257416a9.jpeg",
         "alt": "Submission stage rights: protect identity and presentation, not paranoia",
-        "width": 200,
-        "height": 200,
-        "creator": "wwe",
-        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "MART  PRODUCTION",
+        "creatorUrl": "https://www.pexels.com/@mart-production",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -238,13 +238,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_contracts_reading_blog_section_landscape_8f3012a9dfc7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_contracts_reading_blog_section_landscape_8f3012a9dfc7.gif",
         "alt": "Contracts rights scope and duration: the part where writers accidentally sell the farm",
-        "width": 6720,
-        "height": 4480,
-        "creator": "www.kaboompics.com",
-        "creatorUrl": "https://www.pexels.com/@karola-g",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "hyperrpg",
+        "creatorUrl": "https://giphy.com/gifs/hyperrpg-twitch-hyper-rpg-kollok-kveWhh37f06h3dHOM9",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -331,43 +331,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_piracy_frustration_blog_section_landscape_5af748b8974a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_piracy_frustration_blog_section_landscape_5af748b8974a.gif",
         "alt": "Piracy enforcement plan: monitoring beats wishful thinking, takedown beats rage",
-        "width": 6720,
-        "height": 4480,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 385,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/cat-whatever-want-eyHrKJt5f0OOc",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_section_image_back_to_desk_deep_breath_blog_section_landscape_028c3c27d213.gif",
-    "alt": "blog section image \u00b7 back-to-desk deep breath",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The best websites for writers: build a daily habit, then learn the publishing math",
-      "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
     },
     {
       "title": "When unagented submission is smart: the editor-interest + niche-fit test",
-      "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+      "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
     },
     {
       "title": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-      "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+      "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
     },
     {
-      "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -406,7 +397,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "The best websites for writers: build a daily habit, then learn the publishing math",
-      "url": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
     }
   ]
 } as const;
@@ -436,7 +427,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -448,31 +439,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to protect your writing rights without accidentally scaring the people you need",
-          "item": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+          "item": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
+      "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
       "name": "How to protect your writing rights without accidentally scaring the people you need",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -488,11 +479,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#article",
+      "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you",
       "headline": "How to protect your writing rights without accidentally scaring the people you need",
       "alternativeHeadline": "How to protect your writing rights without accidentally scaring the people you need",
       "description": "Writers worry about theft the same way they worry about rejection: it feels personal, and it makes you stall.",
@@ -522,40 +513,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage"
       },
+      "datePublished": "2027-08-20",
+      "dateModified": "2027-08-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-          "url": "https://writequeryhook.com/query-letters/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The best websites for writers: build a daily habit, then learn the publishing math",
-          "url": "https://writequeryhook.com/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
+          "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
         },
         {
           "@type": "WebPage",
           "name": "When unagented submission is smart: the editor-interest + niche-fit test",
-          "url": "https://writequeryhook.com/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
+          "url": "https://writequeryhook.com/blog/when-unagented-submission-is-smart-the-editor-interest-niche-fit-test"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for making sense of advances and royalties (and when you actually get paid)",
-          "url": "https://writequeryhook.com/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
+          "url": "https://writequeryhook.com/blog/5-tips-for-making-sense-of-advances-and-royalties-and-when-you-actually-get-paid"
         },
         {
           "@type": "WebPage",
-          "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+          "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_hero_anxiety_dread_blog_hero_landscape_9bdf3c558523.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_510/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you/blog/blog_hero_anxiety_dread_blog_hero_landscape_9bdf3c558523.jpeg?updatedAt=1782315349298",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 anxiety dread",
@@ -570,7 +558,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Short stories for novel writing: FAQs on craft, editing, and publishing",
   "description": "Writers love to talk about \"becoming a better novelist,\" but they skip the part where you actually get better. Short stories are the easiest training wheels that don't feel like training wheels: smaller scope, tighter incidents, faster drafts, and revisions you can actually finish without taking out a second mortgage.",
   "readTime": "4 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-26",
+  "modifiedDate": "2026-12-26",
   "canonicalUrl": "https://writequeryhook.com/blog/short-stories-for-novel-writing-faqs-on-craft-editing-and-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -432,6 +432,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/short-stories-for-novel-writing-faqs-on-craft-editing-and-publishing#primaryimage"
       },
+      "datePublished": "2026-12-26",
+      "dateModified": "2026-12-26",
       "mentions": [
         {
           "@type": "WebPage",

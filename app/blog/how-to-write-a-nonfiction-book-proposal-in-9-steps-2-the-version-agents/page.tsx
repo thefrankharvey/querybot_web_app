@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
   "description": "Most writers don\u2019t fail at nonfiction proposals because they can\u2019t write. They fail because the document looks like it\u2019s trying to be craft instead of evidence. A proposal is a business case: audience need plus proof that no existing book fully serves it. That\u2019s the job. Everything else is support.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
+  "publishedDate": "2027-09-22",
+  "modifiedDate": "2027-09-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_hero_blank_page_panic_proposal_dread_blog_hero_landscape_ed9f77b32978.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_hero_blank_page_panic_proposal_dread_blog_hero_landscape_ed9f77b32978.jpeg?updatedAt=1782335867126",
     "alt": "blog hero \u00b7 blank-page panic proposal dread",
     "width": 3500,
     "height": 2333,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     }
   ],
   "tldrBlocks": [],
@@ -120,13 +120,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_hook_clarity_blog_section_landscape_7f25581b8224.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_hook_clarity_blog_section_landscape_7f25581b8224.jpeg",
         "alt": "Step 1: Define the nonfiction promise (what the book *does*)",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 4896,
+        "height": 3264,
+        "creator": "Manel Cusido",
+        "creatorUrl": "https://www.pexels.com/@manel-cusido-433321678",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -416,7 +416,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_outline_chapter_list_blog_section_landscape_4e743ee888c4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_outline_chapter_list_blog_section_landscape_4e743ee888c4.gif?updatedAt=1782335868338",
         "alt": "Step 7: Map the book: chapter outline + one or two best sample chapters",
         "width": 186,
         "height": 200,
@@ -508,43 +508,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_clean_cover_page_table_of_contents_blog_section_landscape_ec8e7cfba7c7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_clean_cover_page_table_of_contents_blog_section_landscape_ec8e7cfba7c7.gif",
         "alt": "Step 9: Format it like a submission (cover page + accurate table of contents)",
-        "width": 6240,
-        "height": 3510,
-        "creator": "Berke  Can",
-        "creatorUrl": "https://www.pexels.com/@berkecanavci",
-        "provider": "pexels",
+        "width": 298,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/little-rascals-our-gang-spanky-tXL4FHPSnVJ0A",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_section_image_send_it_stop_polishing_blog_section_landscape_7c2677fd8a84.jpeg",
-    "alt": "blog section image \u00b7 send it stop polishing",
-    "width": 4608,
-    "height": 3072,
-    "creator": "Bonaventure  Fernandez",
-    "creatorUrl": "https://www.pexels.com/@bonaventure-fernandez-744363",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-      "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
-    },
-    {
       "title": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-      "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+      "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
     },
     {
       "title": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-      "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+      "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
     },
     {
-      "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+      "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+    },
+    {
+      "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -583,7 +574,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for writing IP when you don't own the world (or the rules)",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     }
   ]
 } as const;
@@ -613,7 +604,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -625,31 +616,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
       "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -665,11 +656,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents",
       "headline": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
       "alternativeHeadline": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
       "description": "Most writers don\u2019t fail at nonfiction proposals because they can\u2019t write. They fail because the document looks like it\u2019s trying to be craft instead of evidence. A proposal is a business case: audience need plus proof that no existing book fully serves it. That\u2019s the job. Everything else is support.",
@@ -699,40 +690,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage"
       },
+      "datePublished": "2027-09-22",
+      "dateModified": "2027-09-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-          "url": "https://writequeryhook.com/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         },
         {
           "@type": "WebPage",
           "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-          "url": "https://writequeryhook.com/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
         },
         {
           "@type": "WebPage",
           "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-          "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
         },
         {
           "@type": "WebPage",
-          "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually-keeps-you-writing"
+          "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
+          "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+        },
+        {
+          "@type": "WebPage",
+          "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
+          "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_hero_blank_page_panic_proposal_dread_blog_hero_landscape_ed9f77b32978.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_549/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents/blog/blog_hero_blank_page_panic_proposal_dread_blog_hero_landscape_ed9f77b32978.jpeg?updatedAt=1782335867126",
       "width": 3500,
       "height": 2333,
       "caption": "blog hero \u00b7 blank-page panic proposal dread",
@@ -747,7 +740,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#howto",
       "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
       "description": "Most writers don\u2019t fail at nonfiction proposals because they can\u2019t write. They fail because the document looks like it\u2019s trying to be craft instead of evidence. A proposal is a business case: audience need plus proof that no existing book fully serves it. That\u2019s the job. Everything else is support.",
       "totalTime": "PT9M",
@@ -757,70 +750,70 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Define the nonfiction promise (what the book does)",
           "text": "Before you write sections, write a rough \u201cbook hook\u201d that answers three things in plain language: what the book is about, what problem it solves, and why now. Not themes. Not vibes. The specific promise.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-1-define-the-nonfiction-promise-what-the-book-does"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-1-define-the-nonfiction-promise-what-the-book-does"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Write an evidence of need section (market gap and evidence of need)",
           "text": "This is where your proposal turns from \u201cpitchy\u201d into \u201cprofessional.\u201d You\u2019re showing the book proposal market gap and evidence of need. The market doesn\u2019t need another book because you want to write it. It needs the book because: 1) there\u2019s a sizable audience willing to buy, and 2) existing books don\u2019t fully solve what that audience is actually struggling with.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-2-write-an-evidence-of-need-section-market-gap-and-evidence-of-need"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-2-write-an-evidence-of-need-section-market-gap-and-evidence-of-need"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Pick comparative titles and discuss them like an adult (how to choose comparative titles for a proposal)",
           "text": "Comparatives (comps) are how you prove you understand the shelf you\u2019re asking for a spot on.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-3-pick-comparative-titles-and-discuss-them-like-an-adult-how-to-choose"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-3-pick-comparative-titles-and-discuss-them-like-an-adult-how-to-choose"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Define your target market (specific enough to believe)",
           "text": "The target market section can\u2019t be \u201cfor everyone who likes the topic.\u201d It has to be specific: who the readers are, where they can be found, and what makes them buy.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-4-define-your-target-market-specific-enough-to-believe"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-4-define-your-target-market-specific-enough-to-believe"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Build your author platform into the argument (how to write an author bio for a book proposal)",
           "text": "Agents don\u2019t need you to be famous. They need proof you can reach the buyers. That\u2019s why your author platform section isn\u2019t a vanity appendix\u2014it\u2019s part of the book\u2019s market case.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-5-build-your-author-platform-into-the-argument-how-to-write-an-author-bio"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-5-build-your-author-platform-into-the-argument-how-to-write-an-author-bio"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Include a marketing plan (only when requested, and only as far as you can stand behind)",
           "text": "Some submissions ask for it explicitly. When they do, your marketing plan can\u2019t be a scavenger hunt of \u201cwe\u2019ll do social media someday.\u201d It should leverage what you can do now\u2014using existing assets rather than vague future promises.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-6-include-a-marketing-plan-only-when-requested-and-only-as-far-as-you-can"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-6-include-a-marketing-plan-only-when-requested-and-only-as-far-as-you-can"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Map the book: chapter outline + one or two best sample chapters",
           "text": "A viable writing path matters. Publishers need to know the manuscript will exist and that the structure makes sense.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-7-map-the-book-chapter-outline-one-or-two-best-sample-chapters"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-7-map-the-book-chapter-outline-one-or-two-best-sample-chapters"
         },
         {
           "@type": "HowToStep",
           "position": 8,
           "name": "Step 8: Add logistics (timeline, approximate length, special materials)",
           "text": "Logistics matter because they reduce the publisher\u2019s risk. Your proposal should cover:",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-8-add-logistics-timeline-approximate-length-special-materials"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-8-add-logistics-timeline-approximate-length-special-materials"
         },
         {
           "@type": "HowToStep",
           "position": 9,
           "name": "Step 9: Format it like a submission (cover page + accurate table of contents)",
           "text": "Finish with clean formatting:",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-9-format-it-like-a-submission-cover-page-accurate-table-of-contents"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#step-9-format-it-like-a-submission-cover-page-accurate-table-of-contents"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents#faq",
       "mainEntity": [
         {
           "@type": "Question",

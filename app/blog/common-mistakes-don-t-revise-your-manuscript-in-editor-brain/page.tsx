@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes: don't revise your manuscript in editor brain",
   "description": "You finish your first draft and your brain immediately does the same dumb thing mine does: it grabs the manuscript and starts \"fixing\" right away, like revision is a fire you can smother with red ink.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-02",
+  "modifiedDate": "2026-10-02",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-don-t-revise-your-manuscript-in-editor-brain",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -573,6 +573,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-don-t-revise-your-manuscript-in-editor-brain#primaryimage"
       },
+      "datePublished": "2026-10-02",
+      "dateModified": "2026-10-02",
       "mentions": [
         {
           "@type": "WebPage",

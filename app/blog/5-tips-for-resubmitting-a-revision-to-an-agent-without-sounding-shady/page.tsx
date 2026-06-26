@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for resubmitting a revision to an agent without sounding shady",
   "description": "You got the rejection. Now you've got a revision you actually respect. The problem is the resubmission part\u2014your brain keeps trying to turn it into a moral failing.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
+  "publishedDate": "2027-05-25",
+  "modifiedDate": "2027-05-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_hero_dread_rejection_blog_hero_landscape_de0984238e67.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_hero_dread_rejection_blog_hero_landscape_de0984238e67.jpeg?updatedAt=1782173937262",
     "alt": "blog hero \u00b7 dread rejection",
     "width": 10800,
     "height": 6334,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "item": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
     }
   ],
   "tldrBlocks": [],
@@ -114,13 +114,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_clarity_disclosure_blog_section_landscape_ee7b2434b70d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_clarity_disclosure_blog_section_landscape_ee7b2434b70d.gif",
         "alt": "Resubmission is a specific signal, not a vibe",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Nothing Ahead",
-        "creatorUrl": "https://www.pexels.com/@ian-panelo",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bernardson-askb-ginad-Zg4wPfurpee0EETHmn",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -264,13 +264,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_literary_agent_personalization_blog_section_landscape_23933b351936.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_literary_agent_personalization_blog_section_landscape_23933b351936.jpeg",
         "alt": "Answer who you're sending it to (and why them)",
-        "width": 236,
-        "height": 200,
-        "creator": "inkygirl",
-        "creatorUrl": "https://giphy.com/gifs/new-agent-zDS1GSXVugXqpSl07Y",
-        "provider": "giphy",
+        "width": 6304,
+        "height": 4190,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -324,43 +324,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_format_attachments_blog_section_landscape_71c12e73340b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_format_attachments_blog_section_landscape_71c12e73340b.gif",
         "alt": "Keep the email short and the dossier complete",
-        "width": 5035,
-        "height": 3357,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 112,
+        "height": 200,
+        "creator": "giftutors",
+        "creatorUrl": "https://giphy.com/gifs/giftutors-app-notes-ios-9-xTiTnkp29vo3YgGeVa",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_section_image_try_anyway_another_no_blog_section_landscape_487eaafa45c5.gif",
-    "alt": "blog section image \u00b7 try anyway another no",
-    "width": 270,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/oh-no-anyway-7k2LoEykY5i1hfeWQB",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-      "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+      "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
     },
     {
       "title": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-      "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
     },
     {
-      "title": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-      "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+      "title": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
+      "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
     },
     {
-      "title": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-      "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+      "title": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
+      "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -399,7 +390,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
     }
   ]
 } as const;
@@ -429,7 +420,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -441,31 +432,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+          "item": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
       "name": "5 tips for resubmitting a revision to an agent without sounding shady",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -481,11 +472,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady",
       "headline": "5 tips for resubmitting a revision to an agent without sounding shady",
       "alternativeHeadline": "5 tips for resubmitting a revision to an agent without sounding shady",
       "description": "You got the rejection. Now you've got a revision you actually respect. The problem is the resubmission part\u2014your brain keeps trying to turn it into a moral failing.",
@@ -515,40 +506,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage"
       },
+      "datePublished": "2027-05-25",
+      "dateModified": "2027-05-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
+          "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for negotiating which rights you sign away in a book deal (yes, the fine print)",
-          "url": "https://writequeryhook.com/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine-print"
+          "url": "https://writequeryhook.com/blog/5-tips-for-negotiating-which-rights-you-sign-away-in-a-book-deal-yes-the-fine"
         },
         {
           "@type": "WebPage",
           "name": "How to Respond to a Manuscript Critique (Without Letting the Dangerous Side Effects Drive the Revision)",
-          "url": "https://writequeryhook.com/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side-effects-drive-the-revision"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-a-manuscript-critique-without-letting-the-dangerous-side"
         },
         {
           "@type": "WebPage",
-          "name": "How to help market your book after manuscript acceptance (a production-timeline checklist)",
-          "url": "https://writequeryhook.com/how-to-help-market-your-book-after-manuscript-acceptance-a-production-timeline-checklist"
+          "name": "How to help market your book vs doing \"nothing until launch\" (and other alternatives)",
+          "url": "https://writequeryhook.com/blog/how-to-help-market-your-book-vs-doing-nothing-until-launch-and-other"
         },
         {
           "@type": "WebPage",
-          "name": "The book cover elements that actually sell: a deeper dive into genre, type hierarchy, and the blurb",
-          "url": "https://writequeryhook.com/the-book-cover-elements-that-actually-sell-a-deeper-dive-into-genre-type-hierarchy-and-the-blurb"
+          "name": "Book description vs synopsis vs back-cover blurb: pick the one that sells",
+          "url": "https://writequeryhook.com/blog/book-description-vs-synopsis-vs-back-cover-blurb-pick-the-one-that-sells"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_hero_dread_rejection_blog_hero_landscape_de0984238e67.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_410/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady/blog/blog_hero_dread_rejection_blog_hero_landscape_de0984238e67.jpeg?updatedAt=1782173937262",
       "width": 10800,
       "height": 6334,
       "caption": "blog hero \u00b7 dread rejection",
@@ -563,7 +556,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady#faq",
       "mainEntity": [
         {
           "@type": "Question",

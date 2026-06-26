@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Basic pitch formula for novelists: 7 mistakes that kill your hook",
   "description": "Most \"my pitch isn't working\" rants aren't about the pitch being too small. It's about the pitch starting in the wrong place\u2014usually by explaining instead of enticing.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-22",
+  "modifiedDate": "2026-07-22",
   "canonicalUrl": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-7-mistakes-that-kill-your-hook",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -655,6 +655,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/basic-pitch-formula-for-novelists-7-mistakes-that-kill-your-hook#primaryimage"
       },
+      "datePublished": "2026-07-22",
+      "dateModified": "2026-07-22",
       "mentions": [
         {
           "@type": "WebPage",

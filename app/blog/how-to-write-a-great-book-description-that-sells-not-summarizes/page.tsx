@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a great book description that sells (not summarizes)",
   "description": "A book description is where readers decide whether to keep scrolling. And yes, it\u2019s also where writers accidentally self-sabotage\u2014by turning a book blurb into a point-by-point recap that reads like homework.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes",
+  "publishedDate": "2027-04-23",
+  "modifiedDate": "2027-04-23",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_ca20709be6e4.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_ca20709be6e4.jpeg?updatedAt=1781851894622",
     "alt": "blog hero \u00b7 sales pressure blank-page dread",
     "width": 4928,
     "height": 3264,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a great book description that sells (not summarizes)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
     }
   ],
   "tldrBlocks": [],
@@ -177,7 +177,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_250_words_axe_the_subplot_blog_section_landscape_8f467f8e105f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_250_words_axe_the_subplot_blog_section_landscape_8f467f8e105f.gif?updatedAt=1781851895765",
         "alt": "Step 2: Lock the word budget and cut until it hurts (a little)",
         "width": 200,
         "height": 200,
@@ -350,7 +350,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_search_discoverability_best_keywords_blog_section_landscape_f3c327025ee4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_search_discoverability_best_keywords_blog_section_landscape_f3c327025ee4.jpeg?updatedAt=1781851896236",
         "alt": "Step 5: Add keywords without crowding (best keywords in book description)",
         "width": 4160,
         "height": 3120,
@@ -418,7 +418,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_ending_momentum_curiosity_blog_section_landscape_0a18d0de3881.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_ending_momentum_curiosity_blog_section_landscape_0a18d0de3881.gif?updatedAt=1781851896799",
         "alt": "Step 6: Build to a last-line cliffhanger that creates momentum",
         "width": 200,
         "height": 200,
@@ -429,32 +429,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_section_image_publish_day_confidence_blog_section_landscape_44735b4b6127.jpeg",
-    "alt": "blog section image \u00b7 publish day confidence",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to respond to an offer of representation without getting rushed",
-      "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     },
     {
       "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     },
     {
       "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-      "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+      "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
     },
     {
-      "title": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-      "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+      "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -493,7 +484,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to know when to leave your agent without burning the whole relationship",
-      "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+      "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
     }
   ]
 } as const;
@@ -523,7 +514,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -535,31 +526,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a great book description that sells (not summarizes)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes",
       "name": "How to write a great book description that sells (not summarizes)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -575,11 +566,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes",
       "headline": "How to write a great book description that sells (not summarizes)",
       "alternativeHeadline": "How to write a great book description that sells (not summarizes)",
       "description": "A book description is where readers decide whether to keep scrolling. And yes, it\u2019s also where writers accidentally self-sabotage\u2014by turning a book blurb into a point-by-point recap that reads like homework.",
@@ -609,40 +600,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage"
       },
+      "datePublished": "2027-04-23",
+      "dateModified": "2027-04-23",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to know when to leave your agent without burning the whole relationship",
-          "url": "https://writequeryhook.com/query-letters/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
+          "url": "https://writequeryhook.com/blog/how-to-know-when-to-leave-your-agent-without-burning-the-whole-relationship"
         },
         {
           "@type": "WebPage",
           "name": "How to respond to an offer of representation without getting rushed",
-          "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         },
         {
           "@type": "WebPage",
           "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "url": "https://writequeryhook.com/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the-contract-like-a-human"
+          "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
         },
         {
           "@type": "WebPage",
           "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-          "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
+          "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
         },
         {
           "@type": "WebPage",
-          "name": "Un-productivity tips for 2025 FAQ: Is it okay not to write?",
-          "url": "https://writequeryhook.com/un-productivity-tips-for-2025-faq-is-it-okay-not-to-write"
+          "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
+          "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_ca20709be6e4.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_366/how-to-write-a-great-book-description-that-sells-not-summarizes/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_ca20709be6e4.jpeg?updatedAt=1781851894622",
       "width": 4928,
       "height": 3264,
       "caption": "blog hero \u00b7 sales pressure blank-page dread",
@@ -657,7 +650,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#howto",
       "name": "How to write a great book description that sells (not summarizes)",
       "description": "A book description is where readers decide whether to keep scrolling. And yes, it\u2019s also where writers accidentally self-sabotage\u2014by turning a book blurb into a point-by-point recap that reads like homework.",
       "totalTime": "PT7M",
@@ -667,49 +660,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Hook fast with stakes and character in the first sentence",
           "text": "The first sentence has one job: grab attention immediately by packing in protagonist + conflict. Not \u201cthere\u2019s a fascinating world.\u201d Not \u201cthis is about a journey.\u201d Real stakes. Real pressure. Both external and internal.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-1-hook-fast-with-stakes-and-character-in-the-first-sentence"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-1-hook-fast-with-stakes-and-character-in-the-first-sentence"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Lock the word budget and cut until it hurts (a little)",
           "text": "Set your target first. The guidepost is blunt: treat book blurb word count guidance like a ceiling, not a goal. Aim for about 250 words or less. Most readers decide early, and longer descriptions usually turn into dumping.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-2-lock-the-word-budget-and-cut-until-it-hurts-a-little"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-2-lock-the-word-budget-and-cut-until-it-hurts-a-little"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write like ad copy, not a summary (even if it\u2019s \u201cjust a blurb\u201d)",
           "text": "This is the exact shift from storytelling to copywriting. Your book description is not a point-by-point summary. It\u2019s a trailer.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-3-write-like-ad-copy-not-a-summary-even-if-it-s-just-a-blurb"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-3-write-like-ad-copy-not-a-summary-even-if-it-s-just-a-blurb"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Make it scannable with short paragraphs, bullets, and bold",
           "text": "Writers love to write one long paragraph. Readers do not love to read it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-4-make-it-scannable-with-short-paragraphs-bullets-and-bold"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-4-make-it-scannable-with-short-paragraphs-bullets-and-bold"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Add keywords without crowding (best keywords in book description)",
           "text": "Now you get to help readers and search systems understand what the book is without sounding like you\u2019re stuffing tags.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-5-add-keywords-without-crowding-best-keywords-in-book-description"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-5-add-keywords-without-crowding-best-keywords-in-book-description"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Build to a last-line cliffhanger that creates momentum",
           "text": "The final sentence should create curiosity, not closure. You\u2019re aiming for momentum: what happens next is the promise.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#step-6-build-to-a-last-line-cliffhanger-that-creates-momentum"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#step-6-build-to-a-last-line-cliffhanger-that-creates-momentum"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-great-book-description-that-sells-not-summarizes#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-great-book-description-that-sells-not-summarizes#faq",
       "mainEntity": [
         {
           "@type": "Question",

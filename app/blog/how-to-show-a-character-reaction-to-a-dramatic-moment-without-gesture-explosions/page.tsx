@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to show a character reaction to a dramatic moment (without gesture explosions)",
   "description": "A dramatic scene dies fast when the writer \"reports\" feelings instead of showing the character's response. It reads like emotion labels stapled to a moment the reader can't actually feel through the body.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-28",
+  "modifiedDate": "2026-12-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-show-a-character-reaction-to-a-dramatic-moment-without-gesture-explosions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -581,6 +581,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-show-a-character-reaction-to-a-dramatic-moment-without-gesture-explosions#primaryimage"
       },
+      "datePublished": "2026-12-28",
+      "dateModified": "2026-12-28",
       "mentions": [
         {
           "@type": "WebPage",

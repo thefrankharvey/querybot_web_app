@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
   "description": "Most authors hear \u201crights\u201d and assume it\u2019s one big, one-time event: you sign a publishing agreement, you print the book, and the rest is waiting. Then someone says subsidiary rights, and suddenly the paperwork sprout grows teeth.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
+  "publishedDate": "2027-10-21",
+  "modifiedDate": "2027-10-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-      "item": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
+      "item": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
     }
   ],
   "tldrBlocks": [],
@@ -632,20 +632,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-      "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
-    },
-    {
       "title": "7 literary agent cost mistakes that make writers sign the wrong deal",
-      "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+      "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
     },
     {
       "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-      "url": "https://writequeryhook.com/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
     },
     {
-      "title": "5 economics of publishing mistakes that make author income look like a scam",
-      "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+      "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
+    },
+    {
+      "title": "Premise in YA: why \"emotional stakes\" matter more than the trend",
+      "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -680,7 +680,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     }
   ]
 } as const;
@@ -710,7 +710,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -722,31 +722,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-          "item": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
+          "item": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#webpage",
-      "url": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#webpage",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
       "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -762,11 +762,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#article",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#webpage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio",
       "headline": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
       "alternativeHeadline": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
       "description": "Most authors hear \u201crights\u201d and assume it\u2019s one big, one-time event: you sign a publishing agreement, you print the book, and the rest is waiting. Then someone says subsidiary rights, and suddenly the paperwork sprout grows teeth.",
@@ -796,39 +796,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage"
       },
+      "datePublished": "2027-10-21",
+      "dateModified": "2027-10-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-          "url": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-          "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         },
         {
           "@type": "WebPage",
           "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
-          "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+          "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
         },
         {
           "@type": "WebPage",
           "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-          "url": "https://writequeryhook.com/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
         },
         {
           "@type": "WebPage",
-          "name": "5 economics of publishing mistakes that make author income look like a scam",
-          "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+          "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
+          "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
+          "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_584/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio/blog/blog_hero_confusion_dread_blog_hero_landscape_d01b703e9587.jpeg",
       "width": 6000,
       "height": 4000,
@@ -844,7 +846,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#faq",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio#faq",
       "mainEntity": [
         {
           "@type": "Question",

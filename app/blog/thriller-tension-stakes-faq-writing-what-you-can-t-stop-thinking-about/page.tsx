@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Thriller Tension & Stakes FAQ: Writing What You Can't Stop Thinking About",
   "description": "If you want tension and stakes that don't feel like costume jewelry, this FAQ is for you. We're talking thriller writing through the lens of rivalry, obsession, and the part most writers dodge: how all of it connects to querying and getting a book into readers' hands before the release date.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-02",
+  "modifiedDate": "2026-12-02",
   "canonicalUrl": "https://writequeryhook.com/blog/thriller-tension-stakes-faq-writing-what-you-can-t-stop-thinking-about",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -421,6 +421,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/thriller-tension-stakes-faq-writing-what-you-can-t-stop-thinking-about#primaryimage"
       },
+      "datePublished": "2026-12-02",
+      "dateModified": "2026-12-02",
       "mentions": [
         {
           "@type": "WebPage",

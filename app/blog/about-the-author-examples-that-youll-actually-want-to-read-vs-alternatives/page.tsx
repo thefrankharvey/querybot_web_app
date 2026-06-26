@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "About the Author examples that youll actually want to read vs alternatives",
   "description": "Writers get weirdly panicky about the \"About the Author\" section because it's short, it's visible, and it feels like the one place you're \"supposed\" to prove you deserve to exist on the same page as the work.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-29",
+  "modifiedDate": "2026-08-29",
   "canonicalUrl": "https://writequeryhook.com/blog/about-the-author-examples-that-youll-actually-want-to-read-vs-alternatives",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -594,6 +594,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/about-the-author-examples-that-youll-actually-want-to-read-vs-alternatives#primaryimage"
       },
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
       "mentions": [
         {
           "@type": "WebPage",

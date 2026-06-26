@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Manuscript rejection feedback: 5 notes that wreck revision (and 5 that actually help)",
   "description": "Rejection feedback has a special talent for messing with your brain. It's not just \"I didn't get picked.\" It's here are five different strangers' takes\u2014and you can't tell which ones are fixable, which ones are personal taste, and which ones are just noise wearing a rejection hat.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-07",
+  "modifiedDate": "2027-04-07",
   "canonicalUrl": "https://writequeryhook.com/blog/manuscript-rejection-feedback-5-notes-that-wreck-revision-and-5-that-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -610,6 +610,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/manuscript-rejection-feedback-5-notes-that-wreck-revision-and-5-that-actually#primaryimage"
       },
+      "datePublished": "2027-04-07",
+      "dateModified": "2027-04-07",
       "mentions": [
         {
           "@type": "WebPage",

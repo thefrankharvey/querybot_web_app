@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Leading questions aren't a \"craft trick\"\u2014they're an exposition hack that kills scene humanity",
   "description": "Most writers don't wake up wanting to write dialogue that feels fake. They wake up needing to deliver information, and then they reach for the nearest tool: someone asks a leading question, another character conveniently answers, and the reader gets the facts.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-06",
+  "modifiedDate": "2026-09-06",
   "canonicalUrl": "https://writequeryhook.com/blog/leading-questions-aren-t-a-craft-trick-they-re-an-exposition-hack-that-kills",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -527,6 +527,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/leading-questions-aren-t-a-craft-trick-they-re-an-exposition-hack-that-kills#primaryimage"
       },
+      "datePublished": "2026-09-06",
+      "dateModified": "2026-09-06",
       "mentions": [
         {
           "@type": "WebPage",

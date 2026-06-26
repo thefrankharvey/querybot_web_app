@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Inside a book edit: what really happens (FAQ)",
   "description": "Getting an offer can feel like the hard part is over. Then the manuscript goes back into edit mode, and suddenly you're staring at tracked changes, margin notes, and terms like primary edit and copyedit like they're a new language.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq",
+  "publishedDate": "2027-06-02",
+  "modifiedDate": "2027-06-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "read it end-to-end"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_hero_dread_after_the_offer_blog_hero_landscape_b89b71f6bedd.jpeg?updatedAt=1782189224933",
+    "alt": "blog hero \u00b7 dread after-the-offer",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Inside a book edit: what really happens (FAQ)",
-      "item": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq"
+      "item": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
     }
   ],
   "tldrBlocks": [],
@@ -88,7 +97,16 @@ const PAGE_DATA = {
           "text": "Then the manuscript goes to **copyedit**. This stage concentrates on grammar, punctuation, and consistency with the publisher's house style. The difference between primary edit and copyedit comes down to scope: primary editors handle story-level decisions; copyedit handles mechanical polish before typesetting."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_primary_editor_creative_edit_blog_section_landscape_7ae2beebd5c6.gif",
+        "alt": "What are the two main stages of editing after a book is accepted?",
+        "width": 356,
+        "height": 200,
+        "creator": "dmaze",
+        "creatorUrl": "https://giphy.com/gifs/K3htdZ1XuVWVD5DZDZ",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_does_every_editor_use_the_same_editing_approach",
@@ -146,7 +164,16 @@ const PAGE_DATA = {
           "text": "That said: errors can still break trust. That's why the mechanical pass matters after the story is working. The ideal order is: fix what moves the book, then polish the surface."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_big_picture_vs_mechanics_reader_trust_blog_section_landscape_17ca0ce6de30.jpeg",
+        "alt": "Which is more important: big-picture edits or copyedits?",
+        "width": 5873,
+        "height": 3915,
+        "creator": "Sergei Starostin",
+        "creatorUrl": "https://www.pexels.com/@sejio402",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_exactly_is_a_manuscript_critique_and_what_does_it_focus_on",
@@ -175,7 +202,16 @@ const PAGE_DATA = {
           "text": "The difference between manuscript critique vs sentence markup is this: a critique identifies structural problems; sentence markup polishes what's already working. Do triage first."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_critique_overview_manuscript_critique_blog_section_landscape_bc59a3b009eb.gif",
+        "alt": "What should you do before submitting your next revision?",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bowc-nkosi-humans-with-ideas-0lPV2b1KpdYKWVFDPj",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_exactly_is_a_manuscript_critique_and_what_does_it_focus_on",
@@ -200,7 +236,16 @@ const PAGE_DATA = {
           "text": "A **manuscript critique** focuses on how editors revise plot character pacing and story structure. A **copyedit** focuses on grammar, punctuation, and consistency. Think of critique as diagnosing what needs to change in the book's engine; copyedit as tuning the machine once it's running."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_critique_overview_manuscript_critique_blog_section_landscape_bc59a3b009eb.gif",
+        "alt": "What should you do before submitting your next revision?",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bowc-nkosi-humans-with-ideas-0lPV2b1KpdYKWVFDPj",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_why_might_an_editors_feedback_be_better_than_friends_or_family_feedback",
@@ -262,7 +307,16 @@ const PAGE_DATA = {
           "text": "In later stages, copyedit notes are usually about consistency: spelling choices, punctuation, house style, and repeated wording issues."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_critique_overview_manuscript_critique_blog_section_landscape_bc59a3b009eb.gif",
+        "alt": "What should you do before submitting your next revision?",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bowc-nkosi-humans-with-ideas-0lPV2b1KpdYKWVFDPj",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_when_do_you_usually_see_changes_in_tracked_changes",
@@ -347,26 +401,35 @@ const PAGE_DATA = {
           "text": "If your editor gave specific targets, map your revision to those targets. Editors don't want a perfect draft; they want proof you understood the problem they pointed at."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_section_image_critique_overview_manuscript_critique_blog_section_landscape_bc59a3b009eb.gif",
+        "alt": "What should you do before submitting your next revision?",
+        "width": 356,
+        "height": 200,
+        "creator": "bdhcollective",
+        "creatorUrl": "https://giphy.com/gifs/bdhcollective-bowc-nkosi-humans-with-ideas-0lPV2b1KpdYKWVFDPj",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "Know when to leave your agent: a practical FAQ",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+      "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
     },
     {
       "title": "Acceptability clause in publishing contracts FAQ",
-      "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+      "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
     },
     {
       "title": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-      "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+      "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
     },
     {
-      "title": "Know when to leave your agent: a case-study checklist after the offer",
-      "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+      "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -380,7 +443,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-      "url": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
     }
   ]
 } as const;
@@ -410,7 +473,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -422,28 +485,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Inside a book edit: what really happens (FAQ)",
-          "item": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq"
+          "item": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq",
+      "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#webpage",
+      "url": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq",
       "name": "Inside a book edit: what really happens (FAQ)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -459,11 +525,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq#article",
+      "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/inside-a-book-edit-what-really-happens-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq",
       "headline": "Inside a book edit: what really happens (FAQ)",
       "alternativeHeadline": "Inside a book edit: what really happens (FAQ)",
       "description": "Getting an offer can feel like the hard part is over. Then the manuscript goes back into edit mode, and suddenly you're staring at tracked changes, margin notes, and terms like primary edit and copyedit like they're a new language.",
@@ -492,33 +558,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#primaryimage"
+      },
+      "datePublished": "2027-06-02",
+      "dateModified": "2027-06-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Incorporating agent/editor feedback vs using alternatives: which revision workflow actually works?",
-          "url": "https://writequeryhook.com/query-letters/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-editor-feedback-vs-using-alternatives-which-revision"
         },
         {
           "@type": "WebPage",
           "name": "Know when to leave your agent: a practical FAQ",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-practical-faq"
+          "url": "https://writequeryhook.com/blog/know-when-to-leave-your-agent-a-practical-faq"
         },
         {
           "@type": "WebPage",
           "name": "Acceptability clause in publishing contracts FAQ",
-          "url": "https://writequeryhook.com/acceptability-clause-in-publishing-contracts-faq"
+          "url": "https://writequeryhook.com/blog/acceptability-clause-in-publishing-contracts-faq"
         },
         {
           "@type": "WebPage",
           "name": "Professional editor: is your book ready for editing? (types + hiring checklist)",
-          "url": "https://writequeryhook.com/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
+          "url": "https://writequeryhook.com/blog/professional-editor-is-your-book-ready-for-editing-types-hiring-checklist"
         },
         {
           "@type": "WebPage",
-          "name": "Know when to leave your agent: a case-study checklist after the offer",
-          "url": "https://writequeryhook.com/know-when-to-leave-your-agent-a-case-study-checklist-after-the-offer"
+          "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
+          "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/inside-a-book-edit-what-really-happens-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_419/inside-a-book-edit-what-really-happens-faq/blog/blog_hero_dread_after_the_offer_blog_hero_landscape_b89b71f6bedd.jpeg?updatedAt=1782189224933",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 dread after-the-offer",
+      "creditText": "Felicity Tai",
+      "author": {
+        "@type": "Person",
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
+      },
+      "@context": "https://schema.org"
     }
   ]
 } as const;

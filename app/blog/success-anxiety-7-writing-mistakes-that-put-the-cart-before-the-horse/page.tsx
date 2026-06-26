@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Success anxiety: 7 writing mistakes that put the cart before the horse",
   "description": "You know what success anxiety looks like?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-27",
+  "modifiedDate": "2027-03-27",
   "canonicalUrl": "https://writequeryhook.com/blog/success-anxiety-7-writing-mistakes-that-put-the-cart-before-the-horse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -601,6 +601,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/success-anxiety-7-writing-mistakes-that-put-the-cart-before-the-horse#primaryimage"
       },
+      "datePublished": "2027-03-27",
+      "dateModified": "2027-03-27",
       "mentions": [
         {
           "@type": "WebPage",

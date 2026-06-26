@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write with your funny bone (without forcing the laugh)",
   "description": "Most humor fails for boring reasons. The writer writes a \"joke,\" then waits for the reader to do the rest. That's how you end up with corny lines, confusing timing, or that weird moment where nobody laughs because they aren't sure what they're supposed to notice.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-01",
+  "modifiedDate": "2026-11-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-with-your-funny-bone-without-forcing-the-laugh",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -560,6 +560,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-with-your-funny-bone-without-forcing-the-laugh#primaryimage"
       },
+      "datePublished": "2026-11-01",
+      "dateModified": "2026-11-01",
       "mentions": [
         {
           "@type": "WebPage",

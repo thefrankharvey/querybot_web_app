@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Handle rejection: a writer's two-phase FAQ (feel it, then do the work)",
   "description": "Rejection hits differently when you can taste \"almost.\" One minute you're imagining the next email; the next minute it's a form response or a polite no from editors, and your chest feels like it's trying to escape your ribs. If we're being real, the standard advice\u2014\"be professional\"\u2014often forces people to swallow the sting instead of processing it.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-21",
+  "modifiedDate": "2027-02-21",
   "canonicalUrl": "https://writequeryhook.com/blog/handle-rejection-a-writer-s-two-phase-faq-feel-it-then-do-the-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -492,6 +492,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/handle-rejection-a-writer-s-two-phase-faq-feel-it-then-do-the-work#primaryimage"
       },
+      "datePublished": "2027-02-21",
+      "dateModified": "2027-02-21",
       "mentions": [
         {
           "@type": "WebPage",

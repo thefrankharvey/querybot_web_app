@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "10 questions to ask before committing to any ebook publishing service",
   "description": "The first ebook publishing service pitch always sounds the same: \"We'll publish your book. Easy.\" Then you scroll past the happy language and hit the part that actually decides whether this is a helpful partner or a slow-motion lock-in.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
+  "publishedDate": "2027-06-29",
+  "modifiedDate": "2027-06-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_hero_pressure_contract_fine_print_blog_hero_landscape_09e3f996b30f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_hero_pressure_contract_fine_print_blog_hero_landscape_09e3f996b30f.jpeg?updatedAt=1782237463117",
     "alt": "blog hero \u00b7 pressure contract fine print",
     "width": 6720,
     "height": 4480,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "10 questions to ask before committing to any ebook publishing service",
-      "item": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+      "item": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
     }
   ],
   "tldrBlocks": [],
@@ -173,13 +173,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_control_price_police_blog_section_landscape_0cbd453381ac.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_control_price_police_blog_section_landscape_0cbd453381ac.gif",
         "alt": "Ask the right questions to ask ebook publishing services",
-        "width": 5184,
-        "height": 3888,
-        "creator": "SHOX ART",
-        "creatorUrl": "https://www.pexels.com/@shox",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/money-make-it-rain-JpG2A9P3dPHXaTYrwu",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -394,7 +394,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_lock_in_portability_loss_blog_section_landscape_7243f306a2bf.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_lock_in_portability_loss_blog_section_landscape_7243f306a2bf.gif?updatedAt=1782237465962",
         "alt": "Ask whether DRM or proprietary formats are involved",
         "width": 226,
         "height": 200,
@@ -500,43 +500,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_control_price_police_blog_section_landscape_0cbd453381ac.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_control_price_police_blog_section_landscape_0cbd453381ac.gif",
         "alt": "Ask the right questions to ask ebook publishing services",
-        "width": 5184,
-        "height": 3888,
-        "creator": "SHOX ART",
-        "creatorUrl": "https://www.pexels.com/@shox",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/money-make-it-rain-JpG2A9P3dPHXaTYrwu",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_section_image_cold_sign_off_practical_next_step_blog_section_landscape_733dae3e49cd.gif",
-    "alt": "blog section image \u00b7 cold sign-off practical next step",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-FlCKuZLBTxMT1yzKAp",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-      "url": "https://writequeryhook.com/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
-    },
-    {
       "title": "How to get a self-published book into libraries without wasting months",
-      "url": "https://writequeryhook.com/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
+      "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
     },
     {
       "title": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-      "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+      "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+    },
+    {
+      "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
     },
     {
       "title": "How to talk about your writing so people actually lean in (premise + story question spine)",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -568,12 +559,7 @@ const PAGE_DATA = {
       "text": "Don't sign an ebook publishing contract until you can answer these questions in writing\u2014especially exclusivity, pricing control, how royalties and fees are calculated for ebooks, DRM, file formats, and update rights. If any answer is vague, treat the contract like a system you're about to get locked inside."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-      "url": "https://writequeryhook.com/query-letters/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -601,7 +587,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -613,31 +599,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "10 questions to ask before committing to any ebook publishing service",
-          "item": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
+          "item": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#webpage",
-      "url": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
+      "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#webpage",
+      "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
       "name": "10 questions to ask before committing to any ebook publishing service",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage"
+        "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -653,11 +639,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#article",
+      "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#webpage"
+        "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service",
       "headline": "10 questions to ask before committing to any ebook publishing service",
       "alternativeHeadline": "10 questions to ask before committing to any ebook publishing service",
       "description": "The first ebook publishing service pitch always sounds the same: \"We'll publish your book. Easy.\" Then you scroll past the happy language and hit the part that actually decides whether this is a helpful partner or a slow-motion lock-in.",
@@ -687,40 +673,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage"
+        "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage"
       },
+      "datePublished": "2027-06-29",
+      "dateModified": "2027-06-29",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-          "url": "https://writequeryhook.com/query-letters/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "40 years of poetry publishing: the unglamorous systems that keep books alive",
-          "url": "https://writequeryhook.com/40-years-of-poetry-publishing-the-unglamorous-systems-that-keep-books-alive"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to get a self-published book into libraries without wasting months",
-          "url": "https://writequeryhook.com/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
         },
         {
           "@type": "WebPage",
           "name": "Why you should write more than one picture book idea (and how to turn it into a real plan)",
-          "url": "https://writequeryhook.com/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a-real-plan"
+          "url": "https://writequeryhook.com/blog/why-you-should-write-more-than-one-picture-book-idea-and-how-to-turn-it-into-a"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced"
         },
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so people actually lean in (premise + story question spine)",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story-question-spine"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-people-actually-lean-in-premise-story"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_hero_pressure_contract_fine_print_blog_hero_landscape_09e3f996b30f.jpeg",
+      "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_452/10-questions-to-ask-before-committing-to-any-ebook-publishing-service/blog/blog_hero_pressure_contract_fine_print_blog_hero_landscape_09e3f996b30f.jpeg?updatedAt=1782237463117",
       "width": 6720,
       "height": 4480,
       "caption": "blog hero \u00b7 pressure contract fine print",
@@ -735,7 +718,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#faq",
+      "@id": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service#faq",
       "mainEntity": [
         {
           "@type": "Question",

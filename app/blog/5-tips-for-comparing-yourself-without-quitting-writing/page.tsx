@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for comparing yourself without quitting writing",
   "description": "You know the moment: you look at someone else's published work, then you look at your own draft, and your face does the whole \"why am I like this?\" routine. Comparison can show up in your mood like a permanent frown. Sometimes it even shows up physically\u2014tight shoulders, a flat expression, your brain turning into a watching device instead of a writing device.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-04",
+  "modifiedDate": "2027-04-04",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-comparing-yourself-without-quitting-writing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -480,6 +480,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-comparing-yourself-without-quitting-writing#primaryimage"
       },
+      "datePublished": "2027-04-04",
+      "dateModified": "2027-04-04",
       "mentions": [
         {
           "@type": "WebPage",

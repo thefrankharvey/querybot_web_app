@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
   "description": "Most writing advice screams plot first. That feels safe. It also quietly wrecks your chances of building something coherent\u2014because you're trying to write the right reader experience with the wrong rulebook.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
+  "publishedDate": "2027-07-27",
+  "modifiedDate": "2027-07-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_a22542b52f05.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_a22542b52f05.jpeg",
     "alt": "blog hero \u00b7 overwhelm blank-page dread",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-      "item": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
+      "item": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
     }
   ],
   "tldrBlocks": [],
@@ -120,7 +120,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_opening_blog_section_landscape_442cbb66a66e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_opening_blog_section_landscape_442cbb66a66e.gif?updatedAt=1782265866452",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -379,7 +379,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_deadline_pacing_blog_section_landscape_d2705504ab3c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_deadline_pacing_blog_section_landscape_d2705504ab3c.jpeg?updatedAt=1782265867098",
         "alt": "You're forgetting endings and pacing \"contracts\"",
         "width": 6016,
         "height": 4016,
@@ -402,43 +402,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_recap_blog_section_landscape_028ebc924992.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_recap_blog_section_landscape_028ebc924992.gif",
         "alt": "Recap",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_section_image_moment_of_action_fix_the_draft_blog_section_landscape_2b25a8c29b38.jpeg",
-    "alt": "blog section image \u00b7 moment of action fix the draft",
-    "width": 5184,
-    "height": 3456,
-    "creator": "Czapp \u00c1rp\u00e1d",
-    "creatorUrl": "https://www.pexels.com/@czapp-arpad-3647289",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-      "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
-    },
-    {
-      "title": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-      "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+      "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
     },
     {
       "title": "How to self-publish a family memoir when the story won't behave",
-      "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
     },
     {
       "title": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-      "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+      "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
+    },
+    {
+      "title": "3 things to know when hiring a pro for your writing",
+      "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -477,7 +468,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-      "url": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
     }
   ]
 } as const;
@@ -507,7 +498,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -519,31 +510,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
-          "item": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
+          "item": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#webpage",
+      "url": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
       "name": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -559,11 +550,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#article",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#webpage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your",
       "headline": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
       "alternativeHeadline": "Types of novels mistakes to avoid: stop picking a \"vibe\" and start choosing your novel category",
       "description": "Most writing advice screams plot first. That feels safe. It also quietly wrecks your chances of building something coherent\u2014because you're trying to write the right reader experience with the wrong rulebook.",
@@ -593,55 +584,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage"
       },
+      "datePublished": "2027-07-27",
+      "dateModified": "2027-07-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 Word Count Mistakes That Make Your Novel Look Unedited (and how to fix each)",
-          "url": "https://writequeryhook.com/query-letters/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/7-word-count-mistakes-that-make-your-novel-look-unedited-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "Book marketing mistakes that keep self-published books buried (and what to do instead)",
-          "url": "https://writequeryhook.com/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do-instead"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Research-First Book Marketing for Small Press Historical Fiction (Without an Agent)",
-          "url": "https://writequeryhook.com/research-first-book-marketing-for-small-press-historical-fiction-without-an-agent"
+          "url": "https://writequeryhook.com/blog/book-marketing-mistakes-that-keep-self-published-books-buried-and-what-to-do"
         },
         {
           "@type": "WebPage",
           "name": "How to self-publish a family memoir when the story won't behave",
-          "url": "https://writequeryhook.com/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-family-memoir-when-the-story-won-t-behave"
         },
         {
           "@type": "WebPage",
           "name": "Self-publishing success isn't magic: 17 author patterns you can copy (without becoming a celebrity)",
-          "url": "https://writequeryhook.com/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without-becoming-a-celebrity"
+          "url": "https://writequeryhook.com/blog/self-publishing-success-isn-t-magic-17-author-patterns-you-can-copy-without"
+        },
+        {
+          "@type": "WebPage",
+          "name": "3 things to know when hiring a pro for your writing",
+          "url": "https://writequeryhook.com/blog/3-things-to-know-when-hiring-a-pro-for-your-writing"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_a22542b52f05.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_484/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_a22542b52f05.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 overwhelm blank-page dread",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#faq",
+      "@id": "https://writequeryhook.com/blog/types-of-novels-mistakes-to-avoid-stop-picking-a-vibe-and-start-choosing-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

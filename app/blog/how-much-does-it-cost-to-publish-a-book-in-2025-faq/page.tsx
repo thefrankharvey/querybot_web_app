@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How much does it cost to publish a book in 2025 FAQ",
   "description": "Publishing cost questions usually come in two flavors: \"What's the number?\" and \"Why is the number suddenly not the number?\"",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
+  "publishedDate": "2027-09-30",
+  "modifiedDate": "2027-09-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_hero_confusion_blank_budget_blog_hero_landscape_e7ce16deed95.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_hero_confusion_blank_budget_blog_hero_landscape_e7ce16deed95.jpeg",
     "alt": "blog hero \u00b7 confusion blank budget",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 3268,
+    "height": 2555,
+    "creator": "Mikhail Nilov",
+    "creatorUrl": "https://www.pexels.com/@mikhail-nilov",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How much does it cost to publish a book in 2025 FAQ",
-      "item": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+      "item": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
     }
   ],
   "tldrBlocks": [],
@@ -106,13 +106,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_contrast_route_blog_section_landscape_c31d22b4fb26.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_contrast_route_blog_section_landscape_c31d22b4fb26.jpeg",
         "alt": "How much does it cost to self publish?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3150,
+        "height": 2100,
+        "creator": "YAHIR ARROYO",
+        "creatorUrl": "https://www.pexels.com/@yahir-arroyo-330691804",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -157,13 +157,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_assessment_developmental_blog_section_landscape_a50981585ec0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_assessment_developmental_blog_section_landscape_a50981585ec0.gif",
         "alt": "What editing services are included in professional editing, and how do they differ?",
-        "width": 4312,
-        "height": 2878,
-        "creator": "Pavel Danilyuk",
-        "creatorUrl": "https://www.pexels.com/@pavel-danilyuk",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "OppVillageLV",
+        "creatorUrl": "https://giphy.com/gifs/OppVillageLV-ov-opportunity-village-opportunityvillage-gOwVP6MCkeY3P95XLW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -241,13 +241,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.gif",
         "alt": "What design costs should authors expect for covers and interior formatting?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 354,
+        "height": 200,
+        "creator": "Influxmarketing",
+        "creatorUrl": "https://giphy.com/gifs/Influxmarketing-influx-countdown-launch-3dU5mcH2mJysK1sNdS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -313,13 +313,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.gif",
         "alt": "What design costs should authors expect for covers and interior formatting?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 354,
+        "height": 200,
+        "creator": "Influxmarketing",
+        "creatorUrl": "https://giphy.com/gifs/Influxmarketing-influx-countdown-launch-3dU5mcH2mJysK1sNdS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -381,13 +381,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_marketing_website_blog_section_landscape_f1af484651f4.gif",
         "alt": "What design costs should authors expect for covers and interior formatting?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 354,
+        "height": 200,
+        "creator": "Influxmarketing",
+        "creatorUrl": "https://giphy.com/gifs/Influxmarketing-influx-countdown-launch-3dU5mcH2mJysK1sNdS",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -431,43 +431,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_contrast_route_blog_section_landscape_c31d22b4fb26.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_contrast_route_blog_section_landscape_c31d22b4fb26.jpeg",
         "alt": "How much does it cost to self publish?",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 3150,
+        "height": 2100,
+        "creator": "YAHIR ARROYO",
+        "creatorUrl": "https://www.pexels.com/@yahir-arroyo-330691804",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_section_image_next_step_numbers_on_paper_blog_section_landscape_5872c9dbb94e.jpeg",
-    "alt": "blog section image \u00b7 next step numbers on paper",
-    "width": 6720,
-    "height": 4480,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Amazon Algorithms for Authors: Demystified FAQ",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     },
     {
       "title": "Your guide to author branding: FAQs for building a consistent personal brand",
-      "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+      "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
     },
     {
       "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-      "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     },
     {
-      "title": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-      "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+      "title": "17 mistakes indie authors keep making on the road to publishing success",
+      "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -485,7 +476,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon Algorithms for Authors: Demystified FAQ",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
     }
   ]
 } as const;
@@ -515,7 +506,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -527,31 +518,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How much does it cost to publish a book in 2025 FAQ",
-          "item": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
+          "item": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
+      "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#webpage",
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
       "name": "How much does it cost to publish a book in 2025 FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -567,11 +558,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#article",
+      "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq",
       "headline": "How much does it cost to publish a book in 2025 FAQ",
       "alternativeHeadline": "How much does it cost to publish a book in 2025 FAQ",
       "description": "Publishing cost questions usually come in two flavors: \"What's the number?\" and \"Why is the number suddenly not the number?\"",
@@ -601,48 +592,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage"
       },
+      "datePublished": "2027-09-30",
+      "dateModified": "2027-09-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Amazon Algorithms for Authors: Demystified FAQ",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-faq"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-faq"
         },
         {
           "@type": "WebPage",
           "name": "Your guide to author branding: FAQs for building a consistent personal brand",
-          "url": "https://writequeryhook.com/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
+          "url": "https://writequeryhook.com/blog/your-guide-to-author-branding-faqs-for-building-a-consistent-personal-brand"
         },
         {
           "@type": "WebPage",
           "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
-          "url": "https://writequeryhook.com/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
         },
         {
           "@type": "WebPage",
-          "name": "7 research-and-marketing mistakes that sink small press books (and what to do instead)",
-          "url": "https://writequeryhook.com/7-research-and-marketing-mistakes-that-sink-small-press-books-and-what-to-do-instead"
+          "name": "17 mistakes indie authors keep making on the road to publishing success",
+          "url": "https://writequeryhook.com/blog/17-mistakes-indie-authors-keep-making-on-the-road-to-publishing-success"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_hero_confusion_blank_budget_blog_hero_landscape_e7ce16deed95.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_558/how-much-does-it-cost-to-publish-a-book-in-2025-faq/blog/blog_hero_confusion_blank_budget_blog_hero_landscape_e7ce16deed95.jpeg",
+      "width": 3268,
+      "height": 2555,
       "caption": "blog hero \u00b7 confusion blank budget",
-      "creditText": "dazn",
+      "creditText": "Mikhail Nilov",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Mikhail Nilov",
+        "url": "https://www.pexels.com/@mikhail-nilov"
       },
       "@context": "https://schema.org"
     }

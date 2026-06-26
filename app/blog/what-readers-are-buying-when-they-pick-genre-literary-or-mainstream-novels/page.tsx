@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What readers are buying when they pick genre, literary, or mainstream novels",
   "description": "A lot of \"what kind of book should I write?\" advice sounds like someone taped a thousand shelf labels to your forehead and called it help. Genre talk gets treated like trivia\u2014something you answer once, then never touch again.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
+  "publishedDate": "2027-06-30",
+  "modifiedDate": "2027-06-30",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_fe3c555f822e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_fe3c555f822e.jpeg",
     "alt": "blog hero \u00b7 overwhelm blank-page dread",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-      "item": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+      "item": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
     }
   ],
   "tldrBlocks": [],
@@ -137,13 +137,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_anticipation_fear_blog_section_landscape_b2d98fbde44a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_anticipation_fear_blog_section_landscape_b2d98fbde44a.gif",
         "alt": "Genre fiction: subgenres are contracts, not vibes",
-        "width": 5892,
-        "height": 3928,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "PersonaJourney",
+        "creatorUrl": "https://giphy.com/gifs/PersonaJourney-sunday-scaries-sundayscaries-anxiety-HndxBtgzCdcHIFQXCm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -254,7 +254,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_relief_clarity_blog_section_landscape_f80abde4b9e3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_relief_clarity_blog_section_landscape_f80abde4b9e3.jpeg?updatedAt=1782240612321",
         "alt": "Mainstream fiction: plot and story with linear structure and satisfaction",
         "width": 5472,
         "height": 3648,
@@ -359,43 +359,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_deciding_relief_blog_section_landscape_49c716ec3e7b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_deciding_relief_blog_section_landscape_49c716ec3e7b.gif",
         "alt": "How to choose what type of novel to write",
-        "width": 6765,
-        "height": 4510,
-        "creator": "Gu Bra",
-        "creatorUrl": "https://www.pexels.com/@gu-bra-11680150",
-        "provider": "pexels",
+        "width": 330,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/relief-z23hGvopHu7w4",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_section_image_momentum_next_step_blog_section_landscape_b17a8f02364f.gif",
-    "alt": "blog section image \u00b7 momentum next step",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-      "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
+      "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
     },
     {
-      "title": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-      "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+      "title": "10 questions to ask before committing to any ebook publishing service",
+      "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
     },
     {
-      "title": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-      "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
+      "title": "How to get a self-published book into libraries without wasting months",
+      "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
     },
     {
-      "title": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-      "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+      "title": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -430,7 +421,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-      "url": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
+      "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
     }
   ]
 } as const;
@@ -460,7 +451,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -472,31 +463,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What readers are buying when they pick genre, literary, or mainstream novels",
-          "item": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
+          "item": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
+      "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#webpage",
+      "url": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
       "name": "What readers are buying when they pick genre, literary, or mainstream novels",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -512,11 +503,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#article",
+      "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#webpage"
+        "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels",
       "headline": "What readers are buying when they pick genre, literary, or mainstream novels",
       "alternativeHeadline": "What readers are buying when they pick genre, literary, or mainstream novels",
       "description": "A lot of \"what kind of book should I write?\" advice sounds like someone taped a thousand shelf labels to your forehead and called it help. Genre talk gets treated like trivia\u2014something you answer once, then never touch again.",
@@ -546,55 +537,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage"
       },
+      "datePublished": "2027-06-30",
+      "dateModified": "2027-06-30",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Word count isn't a vibe: the ranges that get manuscripts read (and the ones that don't)",
-          "url": "https://writequeryhook.com/query-letters/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
+          "url": "https://writequeryhook.com/blog/word-count-isn-t-a-vibe-the-ranges-that-get-manuscripts-read-and-the-ones-that"
         },
         {
           "@type": "WebPage",
           "name": "You Don't Need to Be Everywhere: Build One Marketing Path for Your Self-Published Book",
-          "url": "https://writequeryhook.com/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self-published-book"
+          "url": "https://writequeryhook.com/blog/you-don-t-need-to-be-everywhere-build-one-marketing-path-for-your-self"
         },
         {
           "@type": "WebPage",
-          "name": "5 takeaways from James C. Moore on switching from journalism to fiction (and what bestseller hype hides)",
-          "url": "https://writequeryhook.com/5-takeaways-from-james-c-moore-on-switching-from-journalism-to-fiction-and-what-bestseller-hype-hides"
+          "name": "10 questions to ask before committing to any ebook publishing service",
+          "url": "https://writequeryhook.com/blog/10-questions-to-ask-before-committing-to-any-ebook-publishing-service"
         },
         {
           "@type": "WebPage",
-          "name": "5 takeaways from Barry Eisler on editing, research, and negotiating publishing rights",
-          "url": "https://writequeryhook.com/5-takeaways-from-barry-eisler-on-editing-research-and-negotiating-publishing-rights"
+          "name": "How to get a self-published book into libraries without wasting months",
+          "url": "https://writequeryhook.com/blog/how-to-get-a-self-published-book-into-libraries-without-wasting-months"
         },
         {
           "@type": "WebPage",
-          "name": "How to publish a poetry collection: from submissions to a book-ready, sequenced manuscript",
-          "url": "https://writequeryhook.com/how-to-publish-a-poetry-collection-from-submissions-to-a-book-ready-sequenced-manuscript"
+          "name": "Do You Need to Hire a Cover Designer and Book Formatter? Here's What Traditional Publishing Handles vs What Self-Publishing Leaves You Holding",
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter-here-s-what"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_fe3c555f822e.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_33/day_454/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_fe3c555f822e.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 overwhelm blank-page dread",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#faq",
+      "@id": "https://writequeryhook.com/blog/what-readers-are-buying-when-they-pick-genre-literary-or-mainstream-novels#faq",
       "mainEntity": [
         {
           "@type": "Question",

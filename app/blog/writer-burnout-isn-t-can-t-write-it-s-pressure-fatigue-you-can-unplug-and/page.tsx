@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writer burnout isn't \"can't write\"\u2014it's pressure fatigue you can unplug and recover from",
   "description": "You've probably heard \"writer's block\" used like a catch-all: mind is empty, pen is dead, end of story. But when writer burnout hits, the words stopping is only half the problem. The whole project starts to feel like a live wire strapped to your ribs.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-05",
+  "modifiedDate": "2027-02-05",
   "canonicalUrl": "https://writequeryhook.com/blog/writer-burnout-isn-t-can-t-write-it-s-pressure-fatigue-you-can-unplug-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writer-burnout-isn-t-can-t-write-it-s-pressure-fatigue-you-can-unplug-and#primaryimage"
       },
+      "datePublished": "2027-02-05",
+      "dateModified": "2027-02-05",
       "mentions": [
         {
           "@type": "WebPage",

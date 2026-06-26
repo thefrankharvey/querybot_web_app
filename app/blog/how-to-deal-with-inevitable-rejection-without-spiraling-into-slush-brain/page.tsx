@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to deal with inevitable rejection without spiraling into Slush-brain",
   "description": "Rejection hits like a bodily event. One minute you're a person with a manuscript; the next minute you're a gremlin hovering over an inbox, trying to decide whether the email is a verdict or a glitch.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-02",
+  "modifiedDate": "2027-04-02",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-deal-with-inevitable-rejection-without-spiraling-into-slush-brain",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -570,6 +570,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-deal-with-inevitable-rejection-without-spiraling-into-slush-brain#primaryimage"
       },
+      "datePublished": "2027-04-02",
+      "dateModified": "2027-04-02",
       "mentions": [
         {
           "@type": "WebPage",

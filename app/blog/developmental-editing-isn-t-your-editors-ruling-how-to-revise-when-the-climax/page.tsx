@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Developmental editing isn't your editors' ruling\u2014how to revise when the climax and control don't align",
   "description": "You get the notes. It's a developmental editor, so it's not just copyedits and spelling corrections\u2014it's the whole-book stuff: what's working, what's muddy, what isn't paying off.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-09",
+  "modifiedDate": "2026-12-09",
   "canonicalUrl": "https://writequeryhook.com/blog/developmental-editing-isn-t-your-editors-ruling-how-to-revise-when-the-climax",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -629,6 +629,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/developmental-editing-isn-t-your-editors-ruling-how-to-revise-when-the-climax#primaryimage"
       },
+      "datePublished": "2026-12-09",
+      "dateModified": "2026-12-09",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Ending rules: how to write a satisfying story ending that answers the questions you started",
   "description": "TLDR",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-15",
+  "modifiedDate": "2026-12-15",
   "canonicalUrl": "https://writequeryhook.com/blog/ending-rules-how-to-write-a-satisfying-story-ending-that-answers-the-questions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -918,6 +918,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/ending-rules-how-to-write-a-satisfying-story-ending-that-answers-the-questions#primaryimage"
       },
+      "datePublished": "2026-12-15",
+      "dateModified": "2026-12-15",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
   "description": "The contest drafting phase feels clean. You pick a premise, you write toward the deadline, and you tell yourself you're doing it \"for craft.\" Then the submission email happens, and the brain does what brains do: it plays accountant and decides the value of your months of effort by whatever verdict lands next.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
+  "publishedDate": "2027-04-16",
+  "modifiedDate": "2027-04-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_hero_dread_whiplash_blog_hero_landscape_a7b0c5671bac.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_hero_dread_whiplash_blog_hero_landscape_a7b0c5671bac.jpeg?updatedAt=1781831501821",
     "alt": "blog hero \u00b7 dread whiplash",
     "width": 3991,
     "height": 2661,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-      "item": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
+      "item": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
     }
   ],
   "tldrBlocks": [],
@@ -77,13 +77,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_tldr_blog_section_landscape_6b813a01f117.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_tldr_blog_section_landscape_6b813a01f117.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -187,7 +187,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_control_uncertainty_blog_section_landscape_a4b9d96568f2.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_control_uncertainty_blog_section_landscape_a4b9d96568f2.gif?updatedAt=1781831503367",
         "alt": "H2: Contest mindset you control and can't control",
         "width": 200,
         "height": 200,
@@ -401,7 +401,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_submission_pit_stop_blog_section_landscape_b042fc30da7d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_submission_pit_stop_blog_section_landscape_b042fc30da7d.jpeg?updatedAt=1781831504532",
         "alt": "H2: Post-submit pit stop momentum",
         "width": 6000,
         "height": 4000,
@@ -412,32 +412,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_section_image_hands_on_keyboard_deep_breath_blog_section_landscape_f1dd53de3a9b.gif",
-    "alt": "blog section image \u00b7 hands-on keyboard deep breath",
-    "width": 218,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/panic-stressed-1FMaabePDEfgk",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
-    },
-    {
-      "title": "High praise then crickets: why the silence hits harder (and what to do next)",
-      "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     },
     {
       "title": "5 tips for a writer conference that actually changes your draft",
-      "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+      "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
     },
     {
-      "title": "5 tips for joining the press: it's more than luck",
-      "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
+      "title": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+      "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
+    },
+    {
+      "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -480,7 +471,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "url": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     }
   ]
 } as const;
@@ -510,7 +501,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -522,31 +513,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-          "item": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
+          "item": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#webpage",
-      "url": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
+      "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#webpage",
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
       "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -562,11 +553,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#article",
+      "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#webpage"
+        "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result",
       "headline": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
       "alternativeHeadline": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
       "description": "The contest drafting phase feels clean. You pick a premise, you write toward the deadline, and you tell yourself you're doing it \"for craft.\" Then the submission email happens, and the brain does what brains do: it plays accountant and decides the value of your months of effort by whatever verdict lands next.",
@@ -596,40 +587,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage"
       },
+      "datePublished": "2027-04-16",
+      "dateModified": "2027-04-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "url": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "url": "https://writequeryhook.com/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
-        },
-        {
-          "@type": "WebPage",
-          "name": "High praise then crickets: why the silence hits harder (and what to do next)",
-          "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for a writer conference that actually changes your draft",
-          "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+          "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for joining the press: it's more than luck",
-          "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
+          "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+          "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_hero_dread_whiplash_blog_hero_landscape_a7b0c5671bac.jpeg",
+      "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result/blog/blog_hero_dread_whiplash_blog_hero_landscape_a7b0c5671bac.jpeg?updatedAt=1781831501821",
       "width": 3991,
       "height": 2661,
       "caption": "blog hero \u00b7 dread whiplash",
@@ -644,7 +632,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#faq",
+      "@id": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result#faq",
       "mainEntity": [
         {
           "@type": "Question",

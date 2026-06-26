@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips to stop the slush pile myths from wrecking your querying",
   "description": "The slush pile mental game is poison because it makes you treat silence like proof.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-05",
+  "modifiedDate": "2027-04-05",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-to-stop-the-slush-pile-myths-from-wrecking-your-querying",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -513,6 +513,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-to-stop-the-slush-pile-myths-from-wrecking-your-querying#primaryimage"
       },
+      "datePublished": "2027-04-05",
+      "dateModified": "2027-04-05",
       "mentions": [
         {
           "@type": "WebPage",

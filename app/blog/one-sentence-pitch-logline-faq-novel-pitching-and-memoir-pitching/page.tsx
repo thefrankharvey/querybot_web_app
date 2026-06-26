@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "One sentence pitch logline FAQ: novel pitching and memoir pitching",
   "description": "Writers ask for a logline the way people ask for the emergency exit sign\u2014because it's supposed to make the chaos understandable. If you're staring at a blank document wondering how to compress the whole book into a logline that doesn't sound like every other pitch, good. That dread is common. Also fixable.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-23",
+  "modifiedDate": "2026-07-23",
   "canonicalUrl": "https://writequeryhook.com/blog/one-sentence-pitch-logline-faq-novel-pitching-and-memoir-pitching",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -511,6 +511,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/one-sentence-pitch-logline-faq-novel-pitching-and-memoir-pitching#primaryimage"
       },
+      "datePublished": "2026-07-23",
+      "dateModified": "2026-07-23",
       "mentions": [
         {
           "@type": "WebPage",

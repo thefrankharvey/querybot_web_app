@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
   "description": "TLDR",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
+  "publishedDate": "2027-04-16",
+  "modifiedDate": "2027-04-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_hero_stuck_dread_blog_hero_landscape_f13b4bd59f52.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_hero_stuck_dread_blog_hero_landscape_f13b4bd59f52.jpeg?updatedAt=1781830969222",
     "alt": "blog hero \u00b7 stuck dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-      "item": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+      "item": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
     }
   ],
   "tldrBlocks": [],
@@ -115,13 +115,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_what_to_do_writing_blog_section_landscape_927372e0203e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_what_to_do_writing_blog_section_landscape_927372e0203e.gif",
         "alt": "H2: what to do while waiting for responses when your creative life feels paused anyway",
-        "width": 8192,
-        "height": 5464,
-        "creator": "Alana Sousa",
-        "creatorUrl": "https://www.pexels.com/@alana-sousa-1723789",
-        "provider": "pexels",
+        "width": 267,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/frustrated-writing-writers-block-dvtl5jBWB35pC",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -187,7 +187,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_limbo_paralysis_blog_section_landscape_d037bab535c3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_limbo_paralysis_blog_section_landscape_d037bab535c3.jpeg?updatedAt=1781830970268",
         "alt": "H2: writing career limbo while you wait is not the same as doing nothing",
         "width": 6048,
         "height": 4024,
@@ -346,13 +346,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_what_to_do_writing_blog_section_landscape_927372e0203e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_what_to_do_writing_blog_section_landscape_927372e0203e.gif",
         "alt": "H2: what to do while waiting for responses when your creative life feels paused anyway",
-        "width": 8192,
-        "height": 5464,
-        "creator": "Alana Sousa",
-        "creatorUrl": "https://www.pexels.com/@alana-sousa-1723789",
-        "provider": "pexels",
+        "width": 267,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/frustrated-writing-writers-block-dvtl5jBWB35pC",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -429,32 +429,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_section_image_coda_relief_blog_section_landscape_18129f2aadd1.gif",
-    "alt": "blog section image \u00b7 coda relief",
-    "width": 330,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/relief-z23hGvopHu7w4",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "High praise then crickets: why the silence hits harder (and what to do next)",
-      "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
-    },
-    {
       "title": "5 tips for a writer conference that actually changes your draft",
-      "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+      "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
     },
     {
-      "title": "5 tips for joining the press: it's more than luck",
-      "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
+      "title": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+      "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
     },
     {
-      "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+      "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+    },
+    {
+      "title": "Be a good critique partner FAQ",
+      "url": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -497,7 +488,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-      "url": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
+      "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
     }
   ]
 } as const;
@@ -527,7 +518,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -539,31 +530,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
-          "item": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
+          "item": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#webpage",
-      "url": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
+      "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#webpage",
+      "url": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
       "name": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -579,11 +570,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#article",
+      "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#webpage"
+        "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome",
       "headline": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
       "alternativeHeadline": "Writing career limbo while you wait: how to stop handing your mind to the outcome",
       "description": "TLDR",
@@ -613,40 +604,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage"
+        "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage"
       },
+      "datePublished": "2027-04-16",
+      "dateModified": "2027-04-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Writing contests: build a growth mindset that survives draft hope and result whiplash",
-          "url": "https://writequeryhook.com/query-letters/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
-        },
-        {
-          "@type": "WebPage",
-          "name": "High praise then crickets: why the silence hits harder (and what to do next)",
-          "url": "https://writequeryhook.com/high-praise-then-crickets-why-the-silence-hits-harder-and-what-to-do-next"
+          "url": "https://writequeryhook.com/blog/writing-contests-build-a-growth-mindset-that-survives-draft-hope-and-result"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for a writer conference that actually changes your draft",
-          "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+          "url": "https://writequeryhook.com/blog/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for joining the press: it's more than luck",
-          "url": "https://writequeryhook.com/5-tips-for-joining-the-press-it-s-more-than-luck"
+          "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
+          "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
         },
         {
           "@type": "WebPage",
-          "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+          "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
+          "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Be a good critique partner FAQ",
+          "url": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_hero_stuck_dread_blog_hero_landscape_f13b4bd59f52.jpeg",
+      "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_356/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome/blog/blog_hero_stuck_dread_blog_hero_landscape_f13b4bd59f52.jpeg?updatedAt=1781830969222",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 stuck dread",
@@ -661,7 +654,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#faq",
+      "@id": "https://writequeryhook.com/blog/writing-career-limbo-while-you-wait-how-to-stop-handing-your-mind-to-the-outcome#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query letter mistakes that happen after \"the end\" (and how to fix them before you submit)",
   "description": "You finish the manuscript. You type \"the end.\" You feel that clean, victorious little click in your brain\u2014like the work is finally done.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-11",
+  "modifiedDate": "2026-07-11",
   "canonicalUrl": "https://writequeryhook.com/blog/query-letter-mistakes-that-happen-after-the-end-and-how-to-fix-them-before-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -504,6 +504,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-letter-mistakes-that-happen-after-the-end-and-how-to-fix-them-before-you#primaryimage"
       },
+      "datePublished": "2026-07-11",
+      "dateModified": "2026-07-11",
       "mentions": [
         {
           "@type": "WebPage",

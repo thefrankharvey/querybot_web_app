@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
   "description": "Unconventional writing is where publishing gets weird\u2014fast. Not because editors can't spot talent, but because the traditional system runs on categories, metadata, and predictable reader expectations. When your manuscript doesn't fit neatly, it's harder for a team to explain it to retailers and buyers.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
+  "publishedDate": "2027-09-06",
+  "modifiedDate": "2027-09-06",
+  "canonicalUrl": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_hero_jagged_edges_reader_expectations_blog_hero_landscape_f9f4b4ec7ea1.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_hero_jagged_edges_reader_expectations_blog_hero_landscape_f9f4b4ec7ea1.jpeg",
     "alt": "blog hero \u00b7 jagged edges reader expectations",
-    "width": 200,
-    "height": 200,
-    "creator": "trt_network",
-    "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-    "provider": "giphy",
+    "width": 5760,
+    "height": 3840,
+    "creator": "K",
+    "creatorUrl": "https://www.pexels.com/@kelly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-      "item": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+      "item": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
     }
   ],
   "tldrBlocks": [],
@@ -108,13 +108,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_shelving_discovery_blog_section_landscape_d2c38c089e03.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_shelving_discovery_blog_section_landscape_d2c38c089e03.gif",
         "alt": "Why does publishing care so much about categories and \"buckets\"?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Tima Miroshnichenko",
-        "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-        "provider": "pexels",
+        "width": 262,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/thesimpsons-the-simpsons-3x14-xT5LMzIK1AdZJ4cYW4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -219,13 +219,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_committee_reality_sales_blog_section_landscape_f67958a70f7f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_committee_reality_sales_blog_section_landscape_f67958a70f7f.jpeg",
         "alt": "If an editor loves the idea, why might it still not get published?",
-        "width": 350,
-        "height": 200,
-        "creator": "jerryspringer",
-        "creatorUrl": "https://giphy.com/gifs/jerryspringer-television-reality-tv-jerry-springer-NCTdA0Q4TIuhn2qjNt",
-        "provider": "giphy",
+        "width": 5261,
+        "height": 3512,
+        "creator": "Kampus Production",
+        "creatorUrl": "https://www.pexels.com/@kampus",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -313,43 +313,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_pitch_anxiety_comp_titles_blog_section_landscape_98d7f018b533.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_pitch_anxiety_comp_titles_blog_section_landscape_98d7f018b533.gif",
         "alt": "Extra questions debuts ask about unconventional books",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 408,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-titles-BAqHO7r3rZTPy",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_section_image_next_step_draft_revision_blog_section_landscape_c1d1dc38fb99.jpeg",
-    "alt": "blog section image \u00b7 next step draft revision",
-    "width": 3500,
-    "height": 2333,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
-    },
-    {
       "title": "Author websites and why they work FAQ",
-      "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+      "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
     },
     {
-      "title": "What i didnt know about my own industry FAQ (and what to do next)",
-      "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
+      "title": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+      "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
     },
     {
       "title": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-      "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+      "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
+    },
+    {
+      "title": "How to choose a book title that sells: five title moves explained",
+      "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -367,7 +358,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "url": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
+      "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
     }
   ]
 } as const;
@@ -397,7 +388,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -409,31 +400,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
-          "item": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
+          "item": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#webpage",
-      "url": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#webpage",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
       "name": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -449,11 +440,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#article",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#webpage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book",
       "headline": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
       "alternativeHeadline": "Unconventional Writing FAQ: Categories, Genres, and Selling the Hard-to-Place Book",
       "description": "Unconventional writing is where publishing gets weird\u2014fast. Not because editors can't spot talent, but because the traditional system runs on categories, metadata, and predictable reader expectations. When your manuscript doesn't fit neatly, it's harder for a team to explain it to retailers and buyers.",
@@ -483,48 +474,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage"
       },
+      "datePublished": "2027-09-06",
+      "dateModified": "2027-09-06",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "url": "https://writequeryhook.com/query-letters/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author FAQ: self-publishing, covers, marketing, outlining",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-faq-self-publishing-covers-marketing-outlining"
+          "url": "https://writequeryhook.com/blog/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type"
         },
         {
           "@type": "WebPage",
           "name": "Author websites and why they work FAQ",
-          "url": "https://writequeryhook.com/author-websites-and-why-they-work-faq"
+          "url": "https://writequeryhook.com/blog/author-websites-and-why-they-work-faq"
         },
         {
           "@type": "WebPage",
-          "name": "What i didnt know about my own industry FAQ (and what to do next)",
-          "url": "https://writequeryhook.com/what-i-didnt-know-about-my-own-industry-faq-and-what-to-do-next"
+          "name": "Branding Yourself as an Author: the author-style examples that turn readers into regulars",
+          "url": "https://writequeryhook.com/blog/branding-yourself-as-an-author-the-author-style-examples-that-turn-readers"
         },
         {
           "@type": "WebPage",
           "name": "How to break down the adaptation problem: rights, pacing, and dialogue that survive the screenplay",
-          "url": "https://writequeryhook.com/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that-survive-the-screenplay"
+          "url": "https://writequeryhook.com/blog/how-to-break-down-the-adaptation-problem-rights-pacing-and-dialogue-that"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to choose a book title that sells: five title moves explained",
+          "url": "https://writequeryhook.com/blog/how-to-choose-a-book-title-that-sells-five-title-moves-explained"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_hero_jagged_edges_reader_expectations_blog_hero_landscape_f9f4b4ec7ea1.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_38/day_531/unconventional-writing-faq-categories-genres-and-selling-the-hard-to-place-book/blog/blog_hero_jagged_edges_reader_expectations_blog_hero_landscape_f9f4b4ec7ea1.jpeg",
+      "width": 5760,
+      "height": 3840,
       "caption": "blog hero \u00b7 jagged edges reader expectations",
-      "creditText": "trt_network",
+      "creditText": "K",
       "author": {
         "@type": "Person",
-        "name": "trt_network",
-        "url": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc"
+        "name": "K",
+        "url": "https://www.pexels.com/@kelly"
       },
       "@context": "https://schema.org"
     }

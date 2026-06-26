@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writer Conference FAQ: Pitch, Workshop, Critique, and Pre-Work",
   "description": "A writer conference can't \"fix\" your book by vibes alone. The good ones run like training: pre-work on your side, craft practice on theirs, then feedback you convert into revisions instead of carrying home like a bruise.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-09",
+  "modifiedDate": "2027-04-09",
   "canonicalUrl": "https://writequeryhook.com/blog/writer-conference-faq-pitch-workshop-critique-and-pre-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -401,6 +401,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writer-conference-faq-pitch-workshop-critique-and-pre-work#primaryimage"
       },
+      "datePublished": "2027-04-09",
+      "dateModified": "2027-04-09",
       "mentions": [
         {
           "@type": "WebPage",

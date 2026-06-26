@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common novel recap mistakes: what to dramatize instead (and what to leave off the page)",
   "description": "You know the lie. It\u2019s usually said with a helpful tone:",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-10",
+  "modifiedDate": "2026-12-10",
   "canonicalUrl": "https://writequeryhook.com/blog/common-novel-recap-mistakes-what-to-dramatize-instead-and-what-to-leave-off",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -545,6 +545,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-novel-recap-mistakes-what-to-dramatize-instead-and-what-to-leave-off#primaryimage"
       },
+      "datePublished": "2026-12-10",
+      "dateModified": "2026-12-10",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
   "description": "The first time you try to publish short stories, you learn something annoying fast: the industry buys proof of readership, not just craft.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
+  "publishedDate": "2027-07-09",
+  "modifiedDate": "2027-07-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_hero_recognition_dread_blog_hero_landscape_2e683f8d248a.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_hero_recognition_dread_blog_hero_landscape_2e683f8d248a.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "item": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
+      "item": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     }
   ],
   "tldrBlocks": [],
@@ -79,7 +79,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_tldr_blog_section_landscape_edfc78102a2e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_tldr_blog_section_landscape_edfc78102a2e.gif?updatedAt=1782245054013",
         "alt": "TLDR",
         "width": 279,
         "height": 200,
@@ -122,7 +122,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_opening_blog_section_landscape_eb4fdfd36f27.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_opening_blog_section_landscape_eb4fdfd36f27.jpeg?updatedAt=1782245054664",
         "alt": "Opening",
         "width": 4752,
         "height": 3168,
@@ -427,43 +427,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_body_blog_section_landscape_e3e3ebccd3e0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_body_blog_section_landscape_e3e3ebccd3e0.gif",
         "alt": "Body",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_section_image_cold_sign_off_checklist_energy_blog_section_landscape_8c559810202d.jpeg",
-    "alt": "blog section image \u00b7 cold sign-off checklist energy",
-    "width": 8076,
-    "height": 5384,
-    "creator": "DS stories",
-    "creatorUrl": "https://www.pexels.com/@ds-stories",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     },
     {
       "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     },
     {
       "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-      "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     },
     {
-      "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-      "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+      "title": "How to build a real author platform off social media: five off-feed examples that actually compound",
+      "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -518,7 +509,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     }
   ]
 } as const;
@@ -548,7 +539,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -560,31 +551,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "item": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
+          "item": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#webpage",
-      "url": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
+      "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#webpage",
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
       "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -600,11 +591,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#article",
+      "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#webpage"
+        "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for",
       "headline": "Five realistic ways to publish your short stories (and build credibility for collections)",
       "alternativeHeadline": "Five realistic ways to publish your short stories (and build credibility for collections)",
       "description": "The first time you try to publish short stories, you learn something annoying fast: the industry buys proof of readership, not just craft.",
@@ -634,55 +625,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage"
+        "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage"
       },
+      "datePublished": "2027-07-09",
+      "dateModified": "2027-07-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         },
         {
           "@type": "WebPage",
           "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+          "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+          "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
         },
         {
           "@type": "WebPage",
           "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
-          "url": "https://writequeryhook.com/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and-why-your-querying-stalls"
+          "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         },
         {
           "@type": "WebPage",
-          "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
-          "url": "https://writequeryhook.com/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and-subrights"
+          "name": "How to build a real author platform off social media: five off-feed examples that actually compound",
+          "url": "https://writequeryhook.com/blog/how-to-build-a-real-author-platform-off-social-media-five-off-feed-examples"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_hero_recognition_dread_blog_hero_landscape_2e683f8d248a.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for/blog/blog_hero_recognition_dread_blog_hero_landscape_2e683f8d248a.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#faq",
+      "@id": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for#faq",
       "mainEntity": [
         {
           "@type": "Question",

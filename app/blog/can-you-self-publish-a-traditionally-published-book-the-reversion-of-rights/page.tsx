@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
   "description": "I love the optimism of writers, but I also respect their fear. If you\u2019ve published traditionally before, the contract sits in your head like a locked door: Can you self-publish a previously published book without breaching? And if the answer is \u201cmaybe,\u201d the worry turns into a loop\u2014what if I lose money, what if I trigger a lawsuit, what if I pay to fix things that should\u2019ve been optional?",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
+  "publishedDate": "2027-07-16",
+  "modifiedDate": "2027-07-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_d57f63ba23ca.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_d57f63ba23ca.jpeg?updatedAt=1782252950531",
     "alt": "blog hero \u00b7 uncertainty contract anxiety",
     "width": 3999,
     "height": 2666,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-      "item": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
+      "item": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
     }
   ],
   "tldrBlocks": [],
@@ -77,13 +77,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_tldr_blog_section_landscape_afdc79d6f29d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_tldr_blog_section_landscape_afdc79d6f29d.jpeg",
         "alt": "TLDR",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -112,7 +112,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_opening_subject_context_blog_section_landscape_c3387accc792.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_opening_subject_context_blog_section_landscape_c3387accc792.gif?updatedAt=1782252953363",
         "alt": "Opening \u2014 subject context",
         "width": 296,
         "height": 200,
@@ -379,13 +379,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_5744df55d8c9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_5744df55d8c9.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 3000,
-        "height": 2000,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "xdelacra",
+        "creatorUrl": "https://giphy.com/gifs/writing-sailing-shakespeare-5xV10CuDYqYks7WVmN",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -410,32 +410,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_section_image_breath_blank_page_blog_section_landscape_afe8e46ea333.jpeg",
-    "alt": "blog section image \u00b7 breath blank page",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Tara Winstead",
-    "creatorUrl": "https://www.pexels.com/@tara-winstead",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-      "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
     },
     {
       "title": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-      "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+      "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
     },
     {
       "title": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-      "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+      "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
     },
     {
-      "title": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-      "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+      "title": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
+      "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -470,7 +461,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-      "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
     }
   ]
 } as const;
@@ -500,7 +491,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -512,31 +503,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
-          "item": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
+          "item": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#webpage",
-      "url": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#webpage",
+      "url": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
       "name": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -552,11 +543,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#article",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#webpage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights",
       "headline": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
       "alternativeHeadline": "Can you self-publish a traditionally published book? The reversion-of-rights checklist (with examples)",
       "description": "I love the optimism of writers, but I also respect their fear. If you\u2019ve published traditionally before, the contract sits in your head like a locked door: Can you self-publish a previously published book without breaching? And if the answer is \u201cmaybe,\u201d the worry turns into a loop\u2014what if I lose money, what if I trigger a lawsuit, what if I pay to fix things that should\u2019ve been optional?",
@@ -586,40 +577,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage"
+        "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage"
       },
+      "datePublished": "2027-07-16",
+      "dateModified": "2027-07-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-          "url": "https://writequeryhook.com/query-letters/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Do You Need to Hire a Cover Designer (and a Formatter)? 7 Mistakes Self-Publishers Make",
-          "url": "https://writequeryhook.com/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self-publishers-make"
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-a-formatter-7-mistakes-self"
         },
         {
           "@type": "WebPage",
           "name": "Common contract mistakes that kill your self-publishing options after traditional publishing",
-          "url": "https://writequeryhook.com/common-contract-mistakes-that-kill-your-self-publishing-options-after-traditional-publishing"
+          "url": "https://writequeryhook.com/blog/common-contract-mistakes-that-kill-your-self-publishing-options-after"
         },
         {
           "@type": "WebPage",
           "name": "Social media myths: 7 mistakes authors make when they treat it like a sales channel",
-          "url": "https://writequeryhook.com/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales-channel"
+          "url": "https://writequeryhook.com/blog/social-media-myths-7-mistakes-authors-make-when-they-treat-it-like-a-sales"
         },
         {
           "@type": "WebPage",
-          "name": "How to write for adaptation: rights, inner thoughts, and pacing that survive the screen",
-          "url": "https://writequeryhook.com/how-to-write-for-adaptation-rights-inner-thoughts-and-pacing-that-survive-the-screen"
+          "name": "Writers Use AI\u2014But These 7 Mistakes Make It a Publishing Risk",
+          "url": "https://writequeryhook.com/blog/writers-use-ai-but-these-7-mistakes-make-it-a-publishing-risk"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_d57f63ba23ca.jpeg",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_471/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights/blog/blog_hero_uncertainty_contract_anxiety_blog_hero_landscape_d57f63ba23ca.jpeg?updatedAt=1782252950531",
       "width": 3999,
       "height": 2666,
       "caption": "blog hero \u00b7 uncertainty contract anxiety",
@@ -634,7 +622,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#faq",
+      "@id": "https://writequeryhook.com/blog/can-you-self-publish-a-traditionally-published-book-the-reversion-of-rights#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Synopsis FAQ: what a synopsis is supposed to do",
   "description": "Writers keep trying to turn the synopsis into some gorgeous literary artifact. Then they wonder why the thing feels impossible to write, or why it doesn't match the manuscript once they've moved past draft two. This page is here to cut through that nonsense with straight answers for the practical job a synopsis has to do.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do",
+  "publishedDate": "2027-11-14",
+  "modifiedDate": "2027-11-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Synopsis FAQ: what a synopsis is supposed to do",
-      "item": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+      "item": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
     }
   ],
   "tldrBlocks": [],
@@ -288,19 +288,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Write an incredible synopsis in 4 simple steps faq",
-      "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
     },
     {
       "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
-      "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     },
     {
       "title": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-      "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+      "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
     },
     {
-      "title": "Breaking down the synopsis example for \"Is This Tomorrow\" by Caroline Leavitt",
-      "url": "https://writequeryhook.com/breaking-down-the-synopsis-example-for-is-this-tomorrow-by-caroline-leavitt"
+      "title": "5 synopsis myths that keep your query package from reading like a blueprint",
+      "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -318,7 +318,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book synopsis vs logline vs query letter: what actually sells the story?",
-      "url": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+      "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
     }
   ]
 } as const;
@@ -348,7 +348,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -360,31 +360,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Synopsis FAQ: what a synopsis is supposed to do",
-          "item": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do"
+          "item": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#webpage",
-      "url": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do",
+      "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#webpage",
+      "url": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do",
       "name": "Synopsis FAQ: what a synopsis is supposed to do",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -400,11 +400,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#article",
+      "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#webpage"
+        "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do",
       "headline": "Synopsis FAQ: what a synopsis is supposed to do",
       "alternativeHeadline": "Synopsis FAQ: what a synopsis is supposed to do",
       "description": "Writers keep trying to turn the synopsis into some gorgeous literary artifact. Then they wonder why the thing feels impossible to write, or why it doesn't match the manuscript once they've moved past draft two. This page is here to cut through that nonsense with straight answers for the practical job a synopsis has to do.",
@@ -434,39 +434,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage"
+        "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage"
       },
+      "datePublished": "2027-11-14",
+      "dateModified": "2027-11-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book synopsis vs logline vs query letter: what actually sells the story?",
-          "url": "https://writequeryhook.com/query-letters/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
+          "url": "https://writequeryhook.com/blog/book-synopsis-vs-logline-vs-query-letter-what-actually-sells-the-story"
         },
         {
           "@type": "WebPage",
           "name": "Write an incredible synopsis in 4 simple steps faq",
-          "url": "https://writequeryhook.com/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-          "url": "https://writequeryhook.com/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+          "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
         },
         {
           "@type": "WebPage",
           "name": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-          "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+          "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
         },
         {
           "@type": "WebPage",
-          "name": "Breaking down the synopsis example for \"Is This Tomorrow\" by Caroline Leavitt",
-          "url": "https://writequeryhook.com/breaking-down-the-synopsis-example-for-is-this-tomorrow-by-caroline-leavitt"
+          "name": "5 synopsis myths that keep your query package from reading like a blueprint",
+          "url": "https://writequeryhook.com/blog/5-synopsis-myths-that-keep-your-query-package-from-reading-like-a-blueprint"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage",
+      "@id": "https://writequeryhook.com/blog/synopsis-faq-what-a-synopsis-is-supposed-to-do#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_615/synopsis-faq-what-a-synopsis-is-supposed-to-do/blog/blog_hero_pressure_literary_sounding_panic_blog_hero_landscape_4de8d0f307f9.jpeg",
       "width": 5727,
       "height": 3818,

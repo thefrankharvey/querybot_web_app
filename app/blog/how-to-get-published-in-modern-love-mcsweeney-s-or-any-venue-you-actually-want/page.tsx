@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
   "description": "You don't get rejected because your work is \"bad.\" You get rejected because editors can't see the match fast enough\u2014and a specific venue is picky on purpose.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
+  "publishedDate": "2027-09-21",
+  "modifiedDate": "2027-09-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_hero_rejection_blank_page_blog_hero_landscape_963b61c26c66.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_hero_rejection_blank_page_blog_hero_landscape_963b61c26c66.jpeg",
     "alt": "blog hero \u00b7 rejection blank page",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "alleksana",
+    "creatorUrl": "https://www.pexels.com/@alleksana",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-      "item": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+      "item": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
     }
   ],
   "tldrBlocks": [],
@@ -117,13 +117,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_research_voice_match_blog_section_landscape_4b54ba744b41.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_research_voice_match_blog_section_landscape_4b54ba744b41.gif",
         "alt": "Step 1: Find what the venue is actually selecting (not what you *wish* they wanted)",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "trt_network",
+        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -238,13 +238,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_scene_context_loop_blog_section_landscape_08fcfe0b44cc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_scene_context_loop_blog_section_landscape_08fcfe0b44cc.jpeg",
         "alt": "Step 3: Tailor your essay to the venue's structure (scene \u2192 context \u2192 forward)",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 4500,
+        "height": 3000,
+        "creator": "Steve A Johnson",
+        "creatorUrl": "https://www.pexels.com/@steve",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -336,43 +336,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_submit_follow_guidelines_blog_section_landscape_4e1006f0efde.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_submit_follow_guidelines_blog_section_landscape_4e1006f0efde.gif",
         "alt": "Step 5: Send submissions like a signal (not a copy-paste), and stop repeating the wrong attempt",
-        "width": 6347,
-        "height": 4232,
-        "creator": "Tim Mossholder",
-        "creatorUrl": "https://www.pexels.com/@timmossholder",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_section_image_next_draft_pencil_marks_blog_section_landscape_660bacb09979.jpeg",
-    "alt": "blog section image \u00b7 next draft pencil marks",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Greta Hoffman",
-    "creatorUrl": "https://www.pexels.com/@greta-hoffman",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-      "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
-    },
-    {
-      "title": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-      "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
+      "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
     },
     {
       "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
-      "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+    },
+    {
+      "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
     },
     {
       "title": "Choosing a great book title FAQ",
-      "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -399,12 +390,7 @@ const PAGE_DATA = {
     }
   ],
   "closingBlocks": [],
-  "relatedLinks": [
-    {
-      "title": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-      "url": "https://writequeryhook.com/query-letters/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -432,7 +418,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -444,31 +430,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
-          "item": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
+          "item": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
       "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -484,11 +470,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#article",
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want",
       "headline": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
       "alternativeHeadline": "How to get published in Modern Love, McSweeney\u2019s, or any venue you actually want",
       "description": "You don't get rejected because your work is \"bad.\" You get rejected because editors can't see the match fast enough\u2014and a specific venue is picky on purpose.",
@@ -518,55 +504,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage"
       },
+      "datePublished": "2027-09-21",
+      "dateModified": "2027-09-21",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "How to Choose a Book Publishing Path Using Five Publishing Paths (2025\u20132026)",
-          "url": "https://writequeryhook.com/query-letters/how-to-choose-a-book-publishing-path-using-five-publishing-paths-2025-2026"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
-          "url": "https://writequeryhook.com/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why Erotica Sells as Ebooks: Stigma, Self-Publishing, and Cover Design That Actually Work",
-          "url": "https://writequeryhook.com/why-erotica-sells-as-ebooks-stigma-self-publishing-and-cover-design-that-actually-work"
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
         },
         {
           "@type": "WebPage",
           "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-          "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+          "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
         },
         {
           "@type": "WebPage",
           "name": "Choosing a great book title FAQ",
-          "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+          "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_hero_rejection_blank_page_blog_hero_landscape_963b61c26c66.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_548/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want/blog/blog_hero_rejection_blank_page_blog_hero_landscape_963b61c26c66.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 rejection blank page",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "alleksana",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "alleksana",
+        "url": "https://www.pexels.com/@alleksana"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#howto",
       "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
       "description": "You don't get rejected because your work is \"bad.\" You get rejected because editors can't see the match fast enough\u2014and a specific venue is picky on purpose.",
       "totalTime": "PT7M",
@@ -576,42 +559,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Find what the venue is actually selecting (not what you wish they wanted)",
           "text": "Before you pitch anything, do the boring part on purpose: observe what they already publish. Not in a vague \"this feels similar\" way\u2014look for repeatable choices.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-1-find-what-the-venue-is-actually-selecting-not-what-you-wish-they-wanted"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-1-find-what-the-venue-is-actually-selecting-not-what-you-wish-they-wanted"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Build a \"Why Now, Why Here, Why Me\" pitch (short email, clear job)",
           "text": "Here's the part most writers mess up: they write pitches that read like book reports. Editors don't need plot summary\u2014they need a reason to say yes today.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-2-build-a-why-now-why-here-why-me-pitch-short-email-clear-job"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-2-build-a-why-now-why-here-why-me-pitch-short-email-clear-job"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Tailor your essay to the venue's structure (scene \u2192 context \u2192 forward)",
           "text": "How to tailor an essay to a venue means matching the structural patterns the editor can predict and repeat across issues.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-3-tailor-your-essay-to-the-venue-s-structure-scene-context-forward"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-3-tailor-your-essay-to-the-venue-s-structure-scene-context-forward"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Revise for humor outlet fit: cut wasted words, sharpen point of view",
           "text": "If you're aiming at a humor-focused outlet, edit like the editor is impatient\u2014which, statistically, they are.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-4-revise-for-humor-outlet-fit-cut-wasted-words-sharpen-point-of-view"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-4-revise-for-humor-outlet-fit-cut-wasted-words-sharpen-point-of-view"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Send submissions like a signal (not a copy-paste), and stop repeating the wrong attempt",
           "text": "Once your essay and pitch are tailored, submit with the same care you used to revise.",
-          "url": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-5-send-submissions-like-a-signal-not-a-copy-paste-and-stop-repeating-the"
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#step-5-send-submissions-like-a-signal-not-a-copy-paste-and-stop-repeating-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want#faq",
       "mainEntity": [
         {
           "@type": "Question",

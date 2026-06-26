@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Finding comp titles FAQ: how to research and format comps for a query letter",
   "description": "Writers don't need comp titles because they enjoy hunting. They need comp titles because professionals have to \"get it\" fast\u2014your tone, your genre, the emotional weather of the book, and where it fits without an hour-long conversation.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-14",
+  "modifiedDate": "2026-08-14",
   "canonicalUrl": "https://writequeryhook.com/blog/finding-comp-titles-faq-how-to-research-and-format-comps-for-a-query-letter",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -452,6 +452,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/finding-comp-titles-faq-how-to-research-and-format-comps-for-a-query-letter#primaryimage"
       },
+      "datePublished": "2026-08-14",
+      "dateModified": "2026-08-14",
       "mentions": [
         {
           "@type": "WebPage",

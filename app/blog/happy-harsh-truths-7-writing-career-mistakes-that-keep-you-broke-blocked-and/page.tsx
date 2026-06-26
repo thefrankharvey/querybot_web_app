@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
   "description": "Most \"writing career\" advice is built like a birthday card: nice paper, no shelter from reality.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
+  "publishedDate": "2027-08-09",
+  "modifiedDate": "2027-08-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_hero_blindsided_laugh_then_sigh_blog_hero_landscape_f97af19dacfa.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_hero_blindsided_laugh_then_sigh_blog_hero_landscape_f97af19dacfa.jpeg?updatedAt=1782273916841",
     "alt": "blog hero \u00b7 blindsided laugh-then-sigh",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-      "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
+      "item": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
     }
   ],
   "tldrBlocks": [],
@@ -125,7 +125,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_opening_blog_section_landscape_034121048afc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_opening_blog_section_landscape_034121048afc.gif?updatedAt=1782273917566",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -388,13 +388,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_control_creative_ownership_blog_section_landscape_8934ed4d114f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_control_creative_ownership_blog_section_landscape_8934ed4d114f.gif",
         "alt": "Mistake 6: writing for market approval instead of your vision",
-        "width": 5395,
-        "height": 3029,
-        "creator": "Bastian Riccardi",
-        "creatorUrl": "https://www.pexels.com/@shutter-speed",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "thedoveinity",
+        "creatorUrl": "https://giphy.com/gifs/thedoveinity-control-take-charge-whats-yours-sNg40r2Z2W0u0ZirbH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -442,13 +442,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_livelihood_side_path_blog_section_landscape_f46878ea0320.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_livelihood_side_path_blog_section_landscape_f46878ea0320.jpeg",
         "alt": "Mistake 7: treating writing-adjacent income as failure",
-        "width": 226,
-        "height": 200,
-        "creator": "dani",
-        "creatorUrl": "https://giphy.com/gifs/side-eye-dog-meme-Wwn5NKv4At2CIc8XQa",
-        "provider": "giphy",
+        "width": 5952,
+        "height": 4480,
+        "creator": "\"Beyond Faces  by Shubham Thakur\"",
+        "creatorUrl": "https://www.pexels.com/@shubhamthakur",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -471,32 +471,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_section_image_breath_out_delete_the_myth_blog_section_landscape_91c4d977c496.jpeg",
-    "alt": "blog section image \u00b7 breath out delete the myth",
-    "width": 6912,
-    "height": 3888,
-    "creator": "Sava Savov",
-    "creatorUrl": "https://www.pexels.com/@sava-savov-445034768",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-      "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+      "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
     },
     {
       "title": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-      "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+      "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
     },
     {
       "title": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-      "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+      "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
     },
     {
       "title": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-      "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+      "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -510,7 +501,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "6 small press mistakes that quietly wreck your publishing odds",
-      "url": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+      "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
     }
   ]
 } as const;
@@ -540,7 +531,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +543,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
-          "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
+          "item": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#webpage",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
       "name": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +583,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#article",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#webpage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and",
       "headline": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
       "alternativeHeadline": "Happy harsh truths: 7 writing career mistakes that keep you broke, blocked, and overcontracted",
       "description": "Most \"writing career\" advice is built like a birthday card: nice paper, no shelter from reality.",
@@ -626,40 +617,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage"
       },
+      "datePublished": "2027-08-09",
+      "dateModified": "2027-08-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "6 small press mistakes that quietly wreck your publishing odds",
-          "url": "https://writequeryhook.com/query-letters/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
+          "url": "https://writequeryhook.com/blog/6-small-press-mistakes-that-quietly-wreck-your-publishing-odds"
         },
         {
           "@type": "WebPage",
           "name": "IP fiction and non-fiction: 7 beginner mistakes that wreck your chances",
-          "url": "https://writequeryhook.com/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
+          "url": "https://writequeryhook.com/blog/ip-fiction-and-non-fiction-7-beginner-mistakes-that-wreck-your-chances"
         },
         {
           "@type": "WebPage",
           "name": "Why 'publishing' is really three businesses in a trench coat: printing, distribution, and wholesale",
-          "url": "https://writequeryhook.com/why-publishing-is-really-three-businesses-in-a-trench-coat-printing-distribution-and-wholesale"
+          "url": "https://writequeryhook.com/blog/why-publishing-is-really-three-businesses-in-a-trench-coat-printing"
         },
         {
           "@type": "WebPage",
           "name": "Why romance sells: wish fulfillment, escapism, and the payoff readers pre-order",
-          "url": "https://writequeryhook.com/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
+          "url": "https://writequeryhook.com/blog/why-romance-sells-wish-fulfillment-escapism-and-the-payoff-readers-pre-order"
         },
         {
           "@type": "WebPage",
           "name": "Publisher revenue isn't publisher profit: the economics that make book deals feel unfair",
-          "url": "https://writequeryhook.com/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals-feel-unfair"
+          "url": "https://writequeryhook.com/blog/publisher-revenue-isn-t-publisher-profit-the-economics-that-make-book-deals"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_hero_blindsided_laugh_then_sigh_blog_hero_landscape_f97af19dacfa.jpeg",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_498/happy-harsh-truths-7-writing-career-mistakes-that-keep-you-broke-blocked-and/blog/blog_hero_blindsided_laugh_then_sigh_blog_hero_landscape_f97af19dacfa.jpeg?updatedAt=1782273916841",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 blindsided laugh-then-sigh",

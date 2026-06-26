@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
   "description": "Most writers hear \"advance\" and assume it's basically a head start on getting paid. Money up front. Then royalties come later. Cute, right?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
+  "publishedDate": "2027-06-20",
+  "modifiedDate": "2027-06-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_hero_dread_confusion_blog_hero_landscape_d0c6020c9a6a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_hero_dread_confusion_blog_hero_landscape_d0c6020c9a6a.jpeg?updatedAt=1782223678289",
     "alt": "blog hero \u00b7 dread confusion",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-      "item": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
+      "item": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
     }
   ],
   "tldrBlocks": [],
@@ -137,7 +137,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_advance_signing_blog_section_landscape_eac1f0e09663.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_advance_signing_blog_section_landscape_eac1f0e09663.jpeg?updatedAt=1782223678887",
         "alt": "What advances really are when the advance is paid",
         "width": 4608,
         "height": 3456,
@@ -314,13 +314,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_traditional_publishing_self_publishing_blog_section_landscape_6d82526625a5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_traditional_publishing_self_publishing_blog_section_landscape_6d82526625a5.gif",
         "alt": "Traditional publishing vs self-publishing: timing and rate",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Nataly Q.",
-        "creatorUrl": "https://www.pexels.com/@natalyqphotography",
-        "provider": "pexels",
+        "width": 240,
+        "height": 200,
+        "creator": "NeighborlyNotaryNYC",
+        "creatorUrl": "https://giphy.com/gifs/NeighborlyNotaryNYC-roberta-arnone-copyright-neighborly-notary-DYqRYrNIDeOJwxKlIC",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -403,7 +403,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_returns_deductions_blog_section_landscape_f658c59564b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_returns_deductions_blog_section_landscape_f658c59564b5.gif?updatedAt=1782223680030",
         "alt": "Returns and deductions: the sneaky income killer",
         "width": 373,
         "height": 200,
@@ -414,32 +414,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_section_image_slumped_shoulders_reset_button_blog_section_landscape_ffe6940f8cda.gif",
-    "alt": "blog section image \u00b7 slumped shoulders reset button",
-    "width": 691,
-    "height": 200,
-    "creator": "Lunamies",
-    "creatorUrl": "https://giphy.com/gifs/Lunamies-tiger-luna-lunamies-FLG5B13WM3flwuhlpX",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "12 types of travel writing every writer should know (and what editors expect from each)",
-      "url": "https://writequeryhook.com/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect-from-each"
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
     },
     {
       "title": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-      "url": "https://writequeryhook.com/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without-guessing"
+      "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
     },
     {
       "title": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-      "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
     },
     {
-      "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -478,7 +469,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "12 types of travel writing every writer should know (and what editors expect from each)",
-      "url": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
+      "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
     }
   ]
 } as const;
@@ -508,7 +499,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -520,31 +511,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
-          "item": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
+          "item": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#webpage",
-      "url": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
+      "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#webpage",
+      "url": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
       "name": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -560,11 +551,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#article",
+      "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#webpage"
+        "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing",
       "headline": "Advances don't mean you'll earn royalties sooner\u2014here's how earn-out timing actually works",
       "alternativeHeadline": "Advances don\u2019t mean you\u2019ll earn royalties sooner\u2014here\u2019s how earn-out timing actually works",
       "description": "Most writers hear \"advance\" and assume it's basically a head start on getting paid. Money up front. Then royalties come later. Cute, right?",
@@ -594,40 +585,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage"
       },
+      "datePublished": "2027-06-20",
+      "dateModified": "2027-06-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "12 types of travel writing every writer should know (and what editors expect from each)",
-          "url": "https://writequeryhook.com/query-letters/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
-        },
-        {
-          "@type": "WebPage",
-          "name": "12 types of travel writing every writer should know (and what editors expect from each)",
-          "url": "https://writequeryhook.com/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect-from-each"
+          "url": "https://writequeryhook.com/blog/12-types-of-travel-writing-every-writer-should-know-and-what-editors-expect"
         },
         {
           "@type": "WebPage",
           "name": "7 tips for selling ebooks on Amazon (and making money as an author without guessing)",
-          "url": "https://writequeryhook.com/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without-guessing"
+          "url": "https://writequeryhook.com/blog/7-tips-for-selling-ebooks-on-amazon-and-making-money-as-an-author-without"
         },
         {
           "@type": "WebPage",
           "name": "How to make your book newsworthy: 5 tips from a publicist that journalists can use",
-          "url": "https://writequeryhook.com/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can-use"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-book-newsworthy-5-tips-from-a-publicist-that-journalists-can"
         },
         {
           "@type": "WebPage",
-          "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "url": "https://writequeryhook.com/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_hero_dread_confusion_blog_hero_landscape_d0c6020c9a6a.jpeg",
+      "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_439/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing/blog/blog_hero_dread_confusion_blog_hero_landscape_d0c6020c9a6a.jpeg?updatedAt=1782223678289",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread confusion",
@@ -642,7 +630,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#faq",
+      "@id": "https://writequeryhook.com/blog/advances-don-t-mean-you-ll-earn-royalties-sooner-here-s-how-earn-out-timing#faq",
       "mainEntity": [
         {
           "@type": "Question",

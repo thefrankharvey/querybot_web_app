@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Epilogue vs afterword: what counts as the story's last grace note?",
   "description": "Writers don't usually fear the idea of an epilogue. They fear the execution. The end of a book is already doing heavy lifting, and \"just one more thing\" can turn into an awkward epilogue-shaped sequel pitch, or worse\u2014an ending that pretends it was never done.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-09",
+  "modifiedDate": "2026-09-09",
   "canonicalUrl": "https://writequeryhook.com/blog/epilogue-vs-afterword-what-counts-as-the-story-s-last-grace-note",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -456,6 +456,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/epilogue-vs-afterword-what-counts-as-the-story-s-last-grace-note#primaryimage"
       },
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-09-09",
       "mentions": [
         {
           "@type": "WebPage",

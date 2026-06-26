@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "No excuse for vague positioning: \"market fit + comp titles\" vs the common alternatives",
   "description": "Most writers can talk about the book all day. Plot, themes, characters, vibe\u2014whatever your genre calls it. Then someone asks a mercilessly normal question: Where does this fit in the market?",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-16",
+  "modifiedDate": "2026-08-16",
   "canonicalUrl": "https://writequeryhook.com/blog/no-excuse-for-vague-positioning-market-fit-comp-titles-vs-the-common",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -551,6 +551,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/no-excuse-for-vague-positioning-market-fit-comp-titles-vs-the-common#primaryimage"
       },
+      "datePublished": "2026-08-16",
+      "dateModified": "2026-08-16",
       "mentions": [
         {
           "@type": "WebPage",

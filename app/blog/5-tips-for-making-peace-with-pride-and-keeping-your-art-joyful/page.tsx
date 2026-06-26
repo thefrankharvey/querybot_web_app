@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for making peace with pride (and keeping your art joyful)",
   "description": "Most creatives don\u2019t have a \u201ctalent problem.\u201d They have a self-respect problem.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-04",
+  "modifiedDate": "2027-04-04",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-making-peace-with-pride-and-keeping-your-art-joyful",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -511,6 +511,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-making-peace-with-pride-and-keeping-your-art-joyful#primaryimage"
       },
+      "datePublished": "2027-04-04",
+      "dateModified": "2027-04-04",
       "mentions": [
         {
           "@type": "WebPage",

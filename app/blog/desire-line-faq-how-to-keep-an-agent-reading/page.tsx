@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Desire Line FAQ: How to keep an agent reading",
   "description": "Getting an agent interested is the craft part. Keeping them reading is the craft pressure test. Most manuscripts don't fail because the premise is dumb; they fail because the protagonist's stated goals look busy while their emotional engine stays vague. Then the plot moves, but the reader's brain stops treating the next page like it will answer something painful or personal.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-12",
+  "modifiedDate": "2026-12-12",
   "canonicalUrl": "https://writequeryhook.com/blog/desire-line-faq-how-to-keep-an-agent-reading",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -398,6 +398,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/desire-line-faq-how-to-keep-an-agent-reading#primaryimage"
       },
+      "datePublished": "2026-12-12",
+      "dateModified": "2026-12-12",
       "mentions": [
         {
           "@type": "WebPage",

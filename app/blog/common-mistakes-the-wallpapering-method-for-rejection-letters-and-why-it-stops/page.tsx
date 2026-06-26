@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes: the wallpapering method for rejection letters (and why it stops working when you treat it like feelings)",
   "description": "Writers say rejection feels personal because\u2014yeah\u2014it hits the exact part of your brain that wants to believe you did everything right.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-19",
+  "modifiedDate": "2027-02-19",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-the-wallpapering-method-for-rejection-letters-and-why-it-stops",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -592,6 +592,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-the-wallpapering-method-for-rejection-letters-and-why-it-stops#primaryimage"
       },
+      "datePublished": "2027-02-19",
+      "dateModified": "2027-02-19",
       "mentions": [
         {
           "@type": "WebPage",

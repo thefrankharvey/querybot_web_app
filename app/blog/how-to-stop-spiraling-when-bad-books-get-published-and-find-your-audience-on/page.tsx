@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to stop spiraling when \"bad\" books get published (and find your audience on purpose)",
   "description": "You're reading the blurb for a book you didn't like\u2014maybe you bounced at page 40, maybe it felt like furniture in narrative form\u2014and then you see it land. Reviews. Sales. People praising it like you're the only one who got the memo.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-26",
+  "modifiedDate": "2027-02-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-spiraling-when-bad-books-get-published-and-find-your-audience-on",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -554,6 +554,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stop-spiraling-when-bad-books-get-published-and-find-your-audience-on#primaryimage"
       },
+      "datePublished": "2027-02-26",
+      "dateModified": "2027-02-26",
       "mentions": [
         {
           "@type": "WebPage",

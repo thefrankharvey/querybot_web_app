@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Romance Sample Pages: What Top Editors Tell Writers to Fix Before They Submit",
   "description": "The first time I read a romance that almost worked, my brain did this annoying thing where it kept grabbing at the wrong rope. The couple had \"moments.\" There were feelings on the page, yes. But the emotional math didn't add up\u2014like I was watching two people approach each other politely, then apologize for existing, then\u2026 reconcile because the plot demanded it.",
   "readTime": "15 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-13",
+  "modifiedDate": "2026-09-13",
   "canonicalUrl": "https://writequeryhook.com/blog/romance-sample-pages-what-top-editors-tell-writers-to-fix-before-they-submit",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -709,6 +709,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/romance-sample-pages-what-top-editors-tell-writers-to-fix-before-they-submit#primaryimage"
       },
+      "datePublished": "2026-09-13",
+      "dateModified": "2026-09-13",
       "mentions": [
         {
           "@type": "WebPage",

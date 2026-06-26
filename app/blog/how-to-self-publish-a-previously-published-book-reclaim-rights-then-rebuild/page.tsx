@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
   "description": "You can usually self-publish a book you previously published traditionally. But it's not a \"creative decision\" first\u2014it's a rights decision first.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
+  "publishedDate": "2027-10-15",
+  "modifiedDate": "2027-10-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-      "item": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
+      "item": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
     }
   ],
   "tldrBlocks": [],
@@ -447,19 +447,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-      "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
-    },
-    {
-      "title": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-      "url": "https://writequeryhook.com/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the-viral-half-of-authors-number"
+      "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
     },
     {
       "title": "How advances work against royalties: when you'll actually see money",
-      "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+    },
+    {
+      "title": "How to Publish a Book Without Waiting for Sales That Never Show Up",
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
     },
     {
       "title": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-      "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
+      "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -495,12 +495,7 @@ const PAGE_DATA = {
       "text": "If you want the practical receipts side of this process\u2014rights-status updates, industry changes, and author-facing intel\u2014keep an eye on what Dispatch surfaces, because timing and updates matter when you're dealing with *self-publishing* and *backlist* releases."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -528,7 +523,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -540,31 +535,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
-          "item": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
+          "item": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
       "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -580,11 +575,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#article",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild",
       "headline": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
       "alternativeHeadline": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
       "description": "You can usually self-publish a book you previously published traditionally. But it's not a \"creative decision\" first\u2014it's a rights decision first.",
@@ -614,39 +609,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage"
       },
+      "datePublished": "2027-10-15",
+      "dateModified": "2027-10-15",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 tips for leverage podcasting that won't sound like you recorded in a closet",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-leverage-podcasting-that-won-t-sound-like-you-recorded-in-a-closet"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-          "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to figure out how authors are using generative AI (without trusting the viral \"half of authors\" number)",
-          "url": "https://writequeryhook.com/how-to-figure-out-how-authors-are-using-generative-ai-without-trusting-the-viral-half-of-authors-number"
+          "url": "https://writequeryhook.com/blog/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
         },
         {
           "@type": "WebPage",
           "name": "How advances work against royalties: when you'll actually see money",
-          "url": "https://writequeryhook.com/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to Publish a Book Without Waiting for Sales That Never Show Up",
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-book-without-waiting-for-sales-that-never-show-up"
         },
         {
           "@type": "WebPage",
           "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-          "url": "https://writequeryhook.com/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning-your-debut-into-a-gimmick"
+          "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_577/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild/blog/blog_hero_uncertainty_dread_blog_hero_landscape_fd3fe31e329c.gif",
       "width": 200,
       "height": 200,
@@ -662,7 +654,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#howto",
       "name": "How to self-publish a previously published book: reclaim rights, then rebuild the backlist",
       "description": "You can usually self-publish a book you previously published traditionally. But it's not a \"creative decision\" first\u2014it's a rights decision first.",
       "totalTime": "PT8M",
@@ -672,56 +664,56 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Verify your rights status first (before you do anything else)",
           "text": "Pull every contract document you can find for the book: the original publishing agreement, any addenda, amendments, publishing schedules, and\u2014if you have them\u2014royalty statements and rights request emails.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-1-verify-your-rights-status-first-before-you-do-anything-else"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-1-verify-your-rights-status-first-before-you-do-anything-else"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Learn how reversion of rights works in publishing (so you can read your contract like a human)",
           "text": "The core legal concept you're looking for is reversion\u2014when rights return to you based on time and/or conditions spelled out in the agreement.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-2-learn-how-reversion-of-rights-works-in-publishing-so-you-can-read-your"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-2-learn-how-reversion-of-rights-works-in-publishing-so-you-can-read-your"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Check for reversion triggers and requirements you can actually meet",
           "text": "Now go hunting for specific \"release valves.\" Common ones include:",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-3-check-for-reversion-triggers-and-requirements-you-can-actually-meet"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-3-check-for-reversion-triggers-and-requirements-you-can-actually-meet"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: If there's no clear reversion, map the termination or release path",
           "text": "If your agreement doesn't include a clean reversion route, you're not stuck forever\u2014but you may be walking into negotiation.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-4-if-there-s-no-clear-reversion-map-the-termination-or-release-path"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-4-if-there-s-no-clear-reversion-map-the-termination-or-release-path"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Repackage the recovered backlist like a real product",
           "text": "Once rights are back (or you have explicit permission), treat the book like a relaunch. Backlist titles often lose active promotion\u2014the story doesn't magically stop existing just because the publisher stopped pushing it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-5-repackage-the-recovered-backlist-like-a-real-product"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-5-repackage-the-recovered-backlist-like-a-real-product"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Market the recovered backlist with real tactics",
           "text": "This is where people get weird. They think the backlist will \"just do its thing\" because it used to sell. That assumption usually dies fast.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-6-market-the-recovered-backlist-with-real-tactics"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-6-market-the-recovered-backlist-with-real-tactics"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: If you're planning a new release, check for a right of first refusal clause",
           "text": "Now for the \"oh no, why would they do that\" step.",
-          "url": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-7-if-you-re-planning-a-new-release-check-for-a-right-of-first-refusal"
+          "url": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#step-7-if-you-re-planning-a-new-release-check-for-a-right-of-first-refusal"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-self-publish-a-previously-published-book-reclaim-rights-then-rebuild#faq",
       "mainEntity": [
         {
           "@type": "Question",

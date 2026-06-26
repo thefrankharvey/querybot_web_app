@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The Rejection Pile: 7 mistakes that get you tossed fast (and how to stop feeding it)",
   "description": "Rejection is inevitable. I hate that sentence because it stops you from thinking strategically\u2014it's just comfort-language that lets everyone off the hook.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-03",
+  "modifiedDate": "2027-03-03",
   "canonicalUrl": "https://writequeryhook.com/blog/the-rejection-pile-7-mistakes-that-get-you-tossed-fast-and-how-to-stop-feeding",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -676,6 +676,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-rejection-pile-7-mistakes-that-get-you-tossed-fast-and-how-to-stop-feeding#primaryimage"
       },
+      "datePublished": "2027-03-03",
+      "dateModified": "2027-03-03",
       "mentions": [
         {
           "@type": "WebPage",

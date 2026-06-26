@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Clue is in the name: editing your picture book manuscript so every word earns its page",
   "description": "Let's study a problem disguised as a process: \"I need to cut words\" becomes this vague, arbitrary thing you do to a manuscript, like you're shaving your character down to fit into a strict package.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-19",
+  "modifiedDate": "2026-11-19",
   "canonicalUrl": "https://writequeryhook.com/blog/clue-is-in-the-name-editing-your-picture-book-manuscript-so-every-word-earns",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -728,6 +728,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/clue-is-in-the-name-editing-your-picture-book-manuscript-so-every-word-earns#primaryimage"
       },
+      "datePublished": "2026-11-19",
+      "dateModified": "2026-11-19",
       "mentions": [
         {
           "@type": "WebPage",

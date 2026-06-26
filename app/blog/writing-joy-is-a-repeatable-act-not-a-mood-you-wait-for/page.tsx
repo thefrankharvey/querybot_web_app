@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Writing joy is a repeatable act, not a mood you wait for",
   "description": "I swear the blank page doesn't just ask for work. It starts a courtroom drama in your skull.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-06",
+  "modifiedDate": "2027-04-06",
   "canonicalUrl": "https://writequeryhook.com/blog/writing-joy-is-a-repeatable-act-not-a-mood-you-wait-for",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -648,6 +648,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/writing-joy-is-a-repeatable-act-not-a-mood-you-wait-for#primaryimage"
       },
+      "datePublished": "2027-04-06",
+      "dateModified": "2027-04-06",
       "mentions": [
         {
           "@type": "WebPage",

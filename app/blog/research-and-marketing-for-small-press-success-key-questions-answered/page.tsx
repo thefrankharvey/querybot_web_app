@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Research and marketing for small press success: key questions answered",
   "description": "Writers in the querying trenches get hit with the same messy reality: sometimes the market signal suggests the path to \"breakout\" won't be the one we trained for. Meanwhile, historical fiction has its own trapdoor\u2014research can make the book better, but real-life inspiration and real people bring sensitivity and accuracy risks.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered",
+  "publishedDate": "2027-10-13",
+  "modifiedDate": "2027-10-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Research and marketing for small press success: key questions answered",
-      "item": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered"
+      "item": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
     }
   ],
   "tldrBlocks": [],
@@ -384,19 +384,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-      "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
     },
     {
-      "title": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-      "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+      "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     },
     {
-      "title": "Successful self-published authors: 17 inspiring stories FAQ",
-      "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+      "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     },
     {
-      "title": "Economics of publishing examples: the napkin math that explains author income vs publisher profit",
-      "url": "https://writequeryhook.com/economics-of-publishing-examples-the-napkin-math-that-explains-author-income-vs-publisher-profit"
+      "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -414,7 +414,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Author websites vs alternatives: pick the funnel-y option that converts",
-      "url": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+      "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
     }
   ]
 } as const;
@@ -444,7 +444,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -456,31 +456,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Research and marketing for small press success: key questions answered",
-          "item": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered"
+          "item": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#webpage",
-      "url": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered",
+      "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#webpage",
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered",
       "name": "Research and marketing for small press success: key questions answered",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage"
+        "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -496,11 +496,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#article",
+      "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#webpage"
+        "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered",
       "headline": "Research and marketing for small press success: key questions answered",
       "alternativeHeadline": "Research and marketing for small press success: key questions answered",
       "description": "Writers in the querying trenches get hit with the same messy reality: sometimes the market signal suggests the path to \"breakout\" won't be the one we trained for. Meanwhile, historical fiction has its own trapdoor\u2014research can make the book better, but real-life inspiration and real people bring sensitivity and accuracy risks.",
@@ -530,39 +530,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage"
+        "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage"
       },
+      "datePublished": "2027-10-13",
+      "dateModified": "2027-10-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-          "url": "https://writequeryhook.com/query-letters/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+          "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
         },
         {
           "@type": "WebPage",
           "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
-          "url": "https://writequeryhook.com/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
         },
         {
           "@type": "WebPage",
-          "name": "Novel Concept Kicker FAQ: How to Build High Concept That Survives Drafting",
-          "url": "https://writequeryhook.com/novel-concept-kicker-faq-how-to-build-high-concept-that-survives-drafting"
+          "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
+          "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Successful self-published authors: 17 inspiring stories FAQ",
-          "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+          "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
         },
         {
           "@type": "WebPage",
-          "name": "Economics of publishing examples: the napkin math that explains author income vs publisher profit",
-          "url": "https://writequeryhook.com/economics-of-publishing-examples-the-napkin-math-that-explains-author-income-vs-publisher-profit"
+          "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage",
+      "@id": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_573/research-and-marketing-for-small-press-success-key-questions-answered/blog/blog_hero_market_signal_rejection_fatigue_blog_hero_landscape_98c5ce387e85.gif",
       "width": 200,
       "height": 200,

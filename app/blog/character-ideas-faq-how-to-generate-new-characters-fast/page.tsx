@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Character Ideas FAQ: How to Generate New Characters Fast",
   "description": "Coming up with character ideas shouldn't feel like a punishment. Yet a lot of writers end up with the same handful of \"cool\" traits that never turn into anything story-ready\u2014just a mood board of maybes. And even when you've got a decent starting point, it can be weirdly hard to add depth: secrets, inner conflict, real motivation, the stuff that makes readers lean in instead of skimming.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-02",
+  "modifiedDate": "2026-12-02",
   "canonicalUrl": "https://writequeryhook.com/blog/character-ideas-faq-how-to-generate-new-characters-fast",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -451,6 +451,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/character-ideas-faq-how-to-generate-new-characters-fast#primaryimage"
       },
+      "datePublished": "2026-12-02",
+      "dateModified": "2026-12-02",
       "mentions": [
         {
           "@type": "WebPage",

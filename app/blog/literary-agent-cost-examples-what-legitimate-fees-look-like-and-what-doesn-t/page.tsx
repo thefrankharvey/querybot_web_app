@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
   "description": "You\u2019re staring at your manuscript and the calendar. Querytracker tabs are open. Your brain is doing math it shouldn\u2019t have to do: How much time did I spend on revisions? How many rejections did I survive? How much money am I about to light on fire?",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
+  "publishedDate": "2027-10-21",
+  "modifiedDate": "2027-10-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-      "item": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+      "item": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     }
   ],
   "tldrBlocks": [],
@@ -397,19 +397,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-      "url": "https://writequeryhook.com/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio-and-screen"
-    },
-    {
-      "title": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-      "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
     },
     {
       "title": "7 literary agent cost mistakes that make writers sign the wrong deal",
-      "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+      "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
     },
     {
-      "title": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-      "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+      "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+    },
+    {
+      "title": "5 economics of publishing mistakes that make author income look like a scam",
+      "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -444,7 +444,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-      "url": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
     }
   ]
 } as const;
@@ -474,7 +474,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -486,31 +486,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
-          "item": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
+          "item": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#webpage",
-      "url": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#webpage",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
       "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -526,11 +526,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#article",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#webpage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t",
       "headline": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
       "alternativeHeadline": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
       "description": "You\u2019re staring at your manuscript and the calendar. Querytracker tabs are open. Your brain is doing math it shouldn\u2019t have to do: How much time did I spend on revisions? How many rejections did I survive? How much money am I about to light on fire?",
@@ -560,39 +560,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage"
+        "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage"
       },
+      "datePublished": "2027-10-21",
+      "dateModified": "2027-10-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-          "url": "https://writequeryhook.com/query-letters/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Subsidiary rights examples: the real deal structure behind translation, audio, and screen",
-          "url": "https://writequeryhook.com/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio-and-screen"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What publishers mean by \"author platform\" (and the author examples that prove it)",
-          "url": "https://writequeryhook.com/what-publishers-mean-by-author-platform-and-the-author-examples-that-prove-it"
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-examples-the-real-deal-structure-behind-translation-audio"
         },
         {
           "@type": "WebPage",
           "name": "7 literary agent cost mistakes that make writers sign the wrong deal",
-          "url": "https://writequeryhook.com/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
+          "url": "https://writequeryhook.com/blog/7-literary-agent-cost-mistakes-that-make-writers-sign-the-wrong-deal"
         },
         {
           "@type": "WebPage",
-          "name": "How to Use Social Media for Discoverability Without Turning Into a Sales Page",
-          "url": "https://writequeryhook.com/how-to-use-social-media-for-discoverability-without-turning-into-a-sales-page"
+          "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 economics of publishing mistakes that make author income look like a scam",
+          "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_584/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t/blog/blog_hero_rejection_panic_blog_hero_landscape_cd14f265a523.gif",
       "width": 358,
       "height": 200,
@@ -608,7 +605,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#faq",
+      "@id": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t#faq",
       "mainEntity": [
         {
           "@type": "Question",

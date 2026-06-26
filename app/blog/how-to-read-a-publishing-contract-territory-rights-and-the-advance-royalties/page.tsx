@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
   "description": "Most writers think the advance is the finish line. It isn\u2019t. It\u2019s money paid up front, yes\u2014but royalties usually don\u2019t start until that advance earns out through earned sales.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
+  "publishedDate": "2027-10-03",
+  "modifiedDate": "2027-10-03",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_hero_myth_dread_blog_hero_landscape_ebab4021855d.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_hero_myth_dread_blog_hero_landscape_ebab4021855d.jpeg",
     "alt": "blog hero \u00b7 myth dread",
-    "width": 200,
-    "height": 200,
-    "creator": "dazn",
-    "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-      "item": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
+      "item": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
     }
   ],
   "tldrBlocks": [],
@@ -127,13 +127,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_maps_border_lines_blog_section_landscape_08937652b840.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_maps_border_lines_blog_section_landscape_08937652b840.gif",
         "alt": "Step 1: Spot the territory and exclusive vs nonexclusive language",
-        "width": 6000,
-        "height": 4000,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "thirteenwnet",
+        "creatorUrl": "https://giphy.com/gifs/thirteenwnet-nyc-new-york-city-l0Iy3wRogbvaJQCtO",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -256,7 +256,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_advance_myth_earn_out_blog_section_landscape_40ccac6beca4.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_advance_myth_earn_out_blog_section_landscape_40ccac6beca4.gif?updatedAt=1782339582268",
         "alt": "Step 3: Understand the advance and when royalties start (myth-busting)",
         "width": 582,
         "height": 200,
@@ -309,7 +309,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_subrights_carve_outs_blog_section_landscape_05adb3cb6e2b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_subrights_carve_outs_blog_section_landscape_05adb3cb6e2b.jpeg?updatedAt=1782339582979",
         "alt": "Step 4: Map subrights and the split between publishers",
         "width": 6240,
         "height": 4160,
@@ -379,32 +379,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_section_image_next_step_highlight_clauses_blog_section_landscape_0c308642001b.jpeg",
-    "alt": "blog section image \u00b7 next step highlight clauses",
-    "width": 5040,
-    "height": 3360,
-    "creator": "RDNE Stock project",
-    "creatorUrl": "https://www.pexels.com/@rdne",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-      "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
-    },
-    {
-      "title": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-      "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+      "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
     },
     {
       "title": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-      "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that-matches-your-goal"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
     },
     {
       "title": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-      "url": "https://writequeryhook.com/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do-instead"
+      "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+    },
+    {
+      "title": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
+      "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -439,7 +430,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-      "url": "https://writequeryhook.com/query-letters/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
+      "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
     }
   ]
 } as const;
@@ -469,7 +460,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -481,31 +472,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
-          "item": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
+          "item": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
       "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -521,11 +512,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#article",
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties",
       "headline": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
       "alternativeHeadline": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
       "description": "Most writers think the advance is the finish line. It isn\u2019t. It\u2019s money paid up front, yes\u2014but royalties usually don\u2019t start until that advance earns out through earned sales.",
@@ -555,55 +546,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage"
       },
+      "datePublished": "2027-10-03",
+      "dateModified": "2027-10-03",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-          "url": "https://writequeryhook.com/query-letters/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
-        },
-        {
-          "@type": "WebPage",
-          "name": "KDP: self-publishing's free print-on-demand engine\u2014plus the controversy it can't paper over",
-          "url": "https://writequeryhook.com/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can-t-paper-over"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Publishing inclusion vs alternatives: what I missed about representation, bias, and why \"hidden categories\" win",
-          "url": "https://writequeryhook.com/publishing-inclusion-vs-alternatives-what-i-missed-about-representation-bias-and-why-hidden-categories-win"
+          "url": "https://writequeryhook.com/blog/kdp-self-publishing-s-free-print-on-demand-engine-plus-the-controversy-it-can"
         },
         {
           "@type": "WebPage",
           "name": "Five ways to publish your short stories vs self-publishing: pick the route that matches your goal",
-          "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that-matches-your-goal"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-vs-self-publishing-pick-the-route-that"
         },
         {
           "@type": "WebPage",
           "name": "Shady book publishers vs real options: the 5 scam types to avoid (and what to do instead)",
-          "url": "https://writequeryhook.com/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do-instead"
+          "url": "https://writequeryhook.com/blog/shady-book-publishers-vs-real-options-the-5-scam-types-to-avoid-and-what-to-do"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Get Book Reviews in 5 Steps: 2025 Update With Real Pitch Mechanics",
+          "url": "https://writequeryhook.com/blog/get-book-reviews-in-5-steps-2025-update-with-real-pitch-mechanics"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_hero_myth_dread_blog_hero_landscape_ebab4021855d.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_561/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties/blog/blog_hero_myth_dread_blog_hero_landscape_ebab4021855d.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 myth dread",
-      "creditText": "dazn",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "dazn",
-        "url": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#howto",
       "name": "How to Read a Publishing Contract: Territory, Rights, and the Advance-Royalties Myth",
       "description": "Most writers think the advance is the finish line. It isn\u2019t. It\u2019s money paid up front, yes\u2014but royalties usually don\u2019t start until that advance earns out through earned sales.",
       "totalTime": "PT7M",
@@ -613,42 +601,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Spot the territory and exclusive vs nonexclusive language",
           "text": "Start with territory. Find the section that lists the countries/regions covered. Then underline the exclusivity label.",
-          "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-1-spot-the-territory-and-exclusive-vs-nonexclusive-language"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-1-spot-the-territory-and-exclusive-vs-nonexclusive-language"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Break down the grant of rights",
           "text": "Next, read the grant of rights section like you\u2019re checking a shopping list. This clause specifies what rights are covered: often print, audio, film, electronic\u2014sometimes more narrowly than you\u2019d expect.",
-          "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-2-break-down-the-grant-of-rights"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-2-break-down-the-grant-of-rights"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Understand the advance and when royalties start (myth-busting)",
           "text": "Now hit the money section: the advance and the royalties language.",
-          "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-3-understand-the-advance-and-when-royalties-start-myth-busting"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-3-understand-the-advance-and-when-royalties-start-myth-busting"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Map subrights and the split between publishers",
           "text": "Subrights are where contracts start acting like a permissions labyrinth.",
-          "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-4-map-subrights-and-the-split-between-publishers"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-4-map-subrights-and-the-split-between-publishers"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Read warranty and indemnity like it matters",
           "text": "Finally, read the warranty and indemnity section for what you\u2019re promising\u2014and what happens if you\u2019re wrong.",
-          "url": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-5-read-warranty-and-indemnity-like-it-matters"
+          "url": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#step-5-read-warranty-and-indemnity-like-it-matters"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-read-a-publishing-contract-territory-rights-and-the-advance-royalties#faq",
       "mainEntity": [
         {
           "@type": "Question",

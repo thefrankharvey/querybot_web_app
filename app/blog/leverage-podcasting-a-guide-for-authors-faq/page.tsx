@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Leverage Podcasting: A Guide for Authors FAQ",
   "description": "Authors want visibility. They also want it to feel like real connection instead of another poster on the fridge that nobody looks at. Podcasting hits that sweet spot because listeners actually hear you\u2014on commutes, during workouts, while folding laundry\u2014at the exact moment they're in \"pay attention\" mode.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq",
+  "publishedDate": "2027-09-18",
+  "modifiedDate": "2027-09-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_hero_curious_intimidated_blog_hero_landscape_7e0f9da8310c.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_hero_curious_intimidated_blog_hero_landscape_7e0f9da8310c.jpeg?updatedAt=1782332451355",
     "alt": "blog hero \u00b7 curious intimidated",
     "width": 8688,
     "height": 5792,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Leverage Podcasting: A Guide for Authors FAQ",
-      "item": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq"
+      "item": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,13 +98,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_connection_intimacy_blog_section_landscape_0e7a8ea73ec8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_connection_intimacy_blog_section_landscape_0e7a8ea73ec8.gif",
         "alt": "Why should an author consider podcasting instead of relying only on traditional marketing?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Yan Krukau",
-        "creatorUrl": "https://www.pexels.com/@yankrukov",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "erinwengrovius",
+        "creatorUrl": "https://giphy.com/gifs/C9jci1BDGkOcFCdp0V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -215,13 +215,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_awkwardness_salesy_fear_blog_section_landscape_bd89d23e321f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_awkwardness_salesy_fear_blog_section_landscape_bd89d23e321f.jpeg",
         "alt": "How to promote books through podcasting",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 3368,
+        "creator": "Nothing Ahead",
+        "creatorUrl": "https://www.pexels.com/@ian-panelo",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -299,13 +299,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_nervous_helpful_blog_section_landscape_1354d69f4486.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_nervous_helpful_blog_section_landscape_1354d69f4486.gif",
         "alt": "How to be a great podcast guest?",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -339,32 +339,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_section_image_next_episode_deep_breath_blog_section_landscape_76c01027a4b5.gif",
-    "alt": "blog section image \u00b7 next-episode deep-breath",
-    "width": 526,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-      "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     },
     {
       "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     },
     {
       "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
-      "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
     },
     {
-      "title": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-      "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+      "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -373,7 +364,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Choosing a great book title FAQ",
-      "url": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq"
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     }
   ]
 } as const;
@@ -403,7 +394,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -415,31 +406,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "item": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq"
+          "item": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq",
+      "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#webpage",
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq",
       "name": "Leverage Podcasting: A Guide for Authors FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -455,11 +446,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#article",
+      "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq",
       "headline": "Leverage Podcasting: A Guide for Authors FAQ",
       "alternativeHeadline": "Leverage Podcasting: A Guide for Authors FAQ",
       "description": "Authors want visibility. They also want it to feel like real connection instead of another poster on the fridge that nobody looks at. Podcasting hits that sweet spot because listeners actually hear you\u2014on commutes, during workouts, while folding laundry\u2014at the exact moment they're in \"pay attention\" mode.",
@@ -489,40 +480,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#primaryimage"
       },
+      "datePublished": "2027-09-18",
+      "dateModified": "2027-09-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Choosing a great book title FAQ",
-          "url": "https://writequeryhook.com/query-letters/choosing-a-great-book-title-faq"
+          "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         },
         {
           "@type": "WebPage",
           "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-          "url": "https://writequeryhook.com/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+          "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         },
         {
           "@type": "WebPage",
           "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+          "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-          "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
         },
         {
           "@type": "WebPage",
-          "name": "The cheapest publishing plan is a lie: 7 cost mistakes that blow up self-publish budgets in 2025",
-          "url": "https://writequeryhook.com/the-cheapest-publishing-plan-is-a-lie-7-cost-mistakes-that-blow-up-self-publish-budgets-in-2025"
+          "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/leverage-podcasting-a-guide-for-authors-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_hero_curious_intimidated_blog_hero_landscape_7e0f9da8310c.jpeg",
+      "@id": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_544/leverage-podcasting-a-guide-for-authors-faq/blog/blog_hero_curious_intimidated_blog_hero_landscape_7e0f9da8310c.jpeg?updatedAt=1782332451355",
       "width": 8688,
       "height": 5792,
       "caption": "blog hero \u00b7 curious intimidated",

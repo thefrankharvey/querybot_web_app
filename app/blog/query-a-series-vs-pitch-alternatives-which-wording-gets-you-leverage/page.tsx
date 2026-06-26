@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query a series vs pitch alternatives: which wording gets you leverage",
   "description": "Query letters have a way of turning writing into a negotiating tactic. You're sitting there with a manuscript that reads cleanly as a standalone, and somewhere along the line you hear the advice that you must promise the whole series upfront, like agents only consider books with a pre-signed sequel.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-14",
+  "modifiedDate": "2026-07-14",
   "canonicalUrl": "https://writequeryhook.com/blog/query-a-series-vs-pitch-alternatives-which-wording-gets-you-leverage",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -563,6 +563,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-a-series-vs-pitch-alternatives-which-wording-gets-you-leverage#primaryimage"
       },
+      "datePublished": "2026-07-14",
+      "dateModified": "2026-07-14",
       "mentions": [
         {
           "@type": "WebPage",

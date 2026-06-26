@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
   "description": "If you feel like shit while writing\u2014like your brain is chewing glass and your draft is personally insulting you\u2014your first move matters more than your second sentence.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
+  "publishedDate": "2027-04-18",
+  "modifiedDate": "2027-04-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
-      "item": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
+      "item": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
     }
   ],
   "tldrBlocks": [],
@@ -484,19 +484,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-      "url": "https://writequeryhook.com/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
-    },
-    {
-      "title": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-      "url": "https://writequeryhook.com/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying-mistakes-to-avoid"
+      "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
     },
     {
       "title": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-      "url": "https://writequeryhook.com/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel-reasonable"
+      "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
     },
     {
-      "title": "5 tips for a writer conference that actually changes your draft",
-      "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+      "title": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
+      "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
+    },
+    {
+      "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -507,12 +507,7 @@ const PAGE_DATA = {
       "text": "Next time discomfort hits, don't treat it like proof you're broken. Treat it like a signal. Allow the feeling, accept what can't be changed in revision, pick one process step, and move anyway\u2014because your draft doesn't need your cruelty. It needs your next sentence."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Breaking down the \"ghosts effect\": how writers keep querying passion when publishing turns unfair",
-      "url": "https://writequeryhook.com/query-letters/breaking-down-the-ghosts-effect-how-writers-keep-querying-passion-when"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -540,7 +535,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -552,31 +547,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
-          "item": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
+          "item": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#webpage",
-      "url": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
+      "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#webpage",
+      "url": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
       "name": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -592,11 +587,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#article",
+      "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#webpage"
+        "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown",
       "headline": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
       "alternativeHeadline": "Discomfort in writing is information\u2014these mistakes turn it into a meltdown",
       "description": "If you feel like shit while writing\u2014like your brain is chewing glass and your draft is personally insulting you\u2014your first move matters more than your second sentence.",
@@ -626,39 +621,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage"
+        "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage"
       },
+      "datePublished": "2027-04-18",
+      "dateModified": "2027-04-18",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Breaking down the \"ghosts effect\": how writers keep querying passion when publishing turns unfair",
-          "url": "https://writequeryhook.com/query-letters/breaking-down-the-ghosts-effect-how-writers-keep-querying-passion-when"
-        },
-        {
-          "@type": "WebPage",
           "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
-          "url": "https://writequeryhook.com/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Dunning-Kruger effect or author despair syndrome? 7 confidence-destroying mistakes to avoid",
-          "url": "https://writequeryhook.com/dunning-kruger-effect-or-author-despair-syndrome-7-confidence-destroying-mistakes-to-avoid"
+          "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
         },
         {
           "@type": "WebPage",
           "name": "Keep writing when you\u2019re discouraged: 7 mistakes that make quitting feel \u201creasonable\u201d",
-          "url": "https://writequeryhook.com/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel-reasonable"
+          "url": "https://writequeryhook.com/blog/keep-writing-when-you-re-discouraged-7-mistakes-that-make-quitting-feel"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for a writer conference that actually changes your draft",
-          "url": "https://writequeryhook.com/5-tips-for-a-writer-conference-that-actually-changes-your-draft"
+          "name": "Book ideas aren't sacred\u2014so why are you treating your submissions like they're radioactive?",
+          "url": "https://writequeryhook.com/blog/book-ideas-aren-t-sacred-so-why-are-you-treating-your-submissions-like-they-re"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
+          "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage",
+      "@id": "https://writequeryhook.com/blog/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_359/discomfort-in-writing-is-information-these-mistakes-turn-it-into-a-meltdown/blog/blog_hero_discomfort_deadline_blog_hero_landscape_eed36bb23ca1.gif",
       "width": 200,
       "height": 200,

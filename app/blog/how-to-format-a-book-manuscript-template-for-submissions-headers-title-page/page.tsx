@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Format a Book Manuscript Template for Submissions (Headers, Title Page, and Chapter Breaks)",
   "description": "Formatting is the boring part\u2014until it isn't. Then you're staring at a submission portal like, Did I count the title page as page one? Are my headers going to look weird on someone else's screen? That's how \"small\" presentation choices turn into early-warning-sign territory.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-16",
+  "modifiedDate": "2026-12-16",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-format-a-book-manuscript-template-for-submissions-headers-title-page",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -533,6 +533,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-format-a-book-manuscript-template-for-submissions-headers-title-page#primaryimage"
       },
+      "datePublished": "2026-12-16",
+      "dateModified": "2026-12-16",
       "mentions": [
         {
           "@type": "WebPage",

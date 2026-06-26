@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for in medias res definition, usage, and examples that won't confuse readers",
   "description": "You want the story to hit, but the page keeps asking for context like it's a homework assignment. So writers do the obvious thing\u2014explaining the situation, introducing the cast, laying down the weather report.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-21",
+  "modifiedDate": "2027-01-21",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-in-medias-res-definition-usage-and-examples-that-won-t-confuse",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -619,6 +619,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-in-medias-res-definition-usage-and-examples-that-won-t-confuse#primaryimage"
       },
+      "datePublished": "2027-01-21",
+      "dateModified": "2027-01-21",
       "mentions": [
         {
           "@type": "WebPage",

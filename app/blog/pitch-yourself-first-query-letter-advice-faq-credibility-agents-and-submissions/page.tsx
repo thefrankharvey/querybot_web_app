@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Pitch yourself first: query letter advice FAQ (credibility, agents, and submissions)",
   "description": "Querying is repetitive on purpose: agents see tons of submissions, and most writers follow the same \"tell me the plot in paragraph one\" instincts. That's how we end up with a bunch of lookalike queries that feel interchangeable. Then the agent's brain starts doing triage\u2014quickly.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-13",
+  "modifiedDate": "2026-07-13",
   "canonicalUrl": "https://writequeryhook.com/blog/pitch-yourself-first-query-letter-advice-faq-credibility-agents-and-submissions",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -385,6 +385,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/pitch-yourself-first-query-letter-advice-faq-credibility-agents-and-submissions#primaryimage"
       },
+      "datePublished": "2026-07-13",
+      "dateModified": "2026-07-13",
       "mentions": [
         {
           "@type": "WebPage",

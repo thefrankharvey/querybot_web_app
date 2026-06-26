@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Support isn't selling out: how to support yourself as an artist without losing your compass",
   "description": "Most creators have felt it\u2014the weird little panic when \"support\" shows up as a question mark instead of a resource.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
+  "publishedDate": "2027-10-08",
+  "modifiedDate": "2027-10-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_hero_recognition_dread_blog_hero_landscape_5436a6ee494a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_hero_recognition_dread_blog_hero_landscape_5436a6ee494a.jpeg?updatedAt=1782339750087",
     "alt": "blog hero \u00b7 recognition dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-      "item": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
+      "item": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
     }
   ],
   "tldrBlocks": [],
@@ -156,13 +156,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_friction_confusion_blog_section_landscape_03a0758f7ecd.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_friction_confusion_blog_section_landscape_03a0758f7ecd.jpeg",
         "alt": "Self-promotion vs professional support: where the compass gets lost",
-        "width": 244,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/reaction-what-despicable-me-SqmkZ5IdwzTP2",
-        "provider": "giphy",
+        "width": 5472,
+        "height": 3648,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -241,13 +241,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_fear_exploitation_blog_section_landscape_23b5fa8eef45.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_fear_exploitation_blog_section_landscape_23b5fa8eef45.gif",
         "alt": "Do i need an agent for my writing: what support actually risks (and how to reduce it)",
-        "width": 8064,
-        "height": 6048,
-        "creator": "Volker Braun",
-        "creatorUrl": "https://www.pexels.com/@volker-braun-2149703592",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -335,7 +335,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_relief_checklist_blog_section_landscape_a9b6ffa362e7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_relief_checklist_blog_section_landscape_a9b6ffa362e7.gif?updatedAt=1782339752917",
         "alt": "How to find a team for creative work: build a mission-aligned production + publicity machine",
         "width": 200,
         "height": 200,
@@ -421,32 +421,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_section_image_action_next_step_blog_section_landscape_67ffe9b50009.jpeg",
-    "alt": "blog section image \u00b7 action next step",
-    "width": 5139,
-    "height": 3554,
-    "creator": "Magda Ehlers",
-    "creatorUrl": "https://www.pexels.com/@magda-ehlers-pexels",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-      "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+      "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
     },
     {
       "title": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-      "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+      "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
     },
     {
       "title": "5 tips for unconventional writing when your book refuses to fit",
-      "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+      "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
     },
     {
-      "title": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-      "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+      "title": "How to build an author platform off social media (without chasing follower counts)",
+      "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -489,7 +480,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to request book reviews from outlets without wasting your time (or your inbox)",
-      "url": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+      "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
     }
   ]
 } as const;
@@ -519,7 +510,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -531,31 +522,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
-          "item": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
+          "item": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#webpage",
-      "url": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
+      "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#webpage",
+      "url": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
       "name": "Support isn't selling out: how to support yourself as an artist without losing your compass",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -571,11 +562,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#article",
+      "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#webpage"
+        "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing",
       "headline": "Support isn't selling out: how to support yourself as an artist without losing your compass",
       "alternativeHeadline": "Support isn\u2019t selling out: how to support yourself as an artist without losing your compass",
       "description": "Most creators have felt it\u2014the weird little panic when \"support\" shows up as a question mark instead of a resource.",
@@ -605,40 +596,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage"
       },
+      "datePublished": "2027-10-08",
+      "dateModified": "2027-10-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to request book reviews from outlets without wasting your time (or your inbox)",
-          "url": "https://writequeryhook.com/query-letters/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
+          "url": "https://writequeryhook.com/blog/how-to-request-book-reviews-from-outlets-without-wasting-your-time-or-your-inbox"
         },
         {
           "@type": "WebPage",
           "name": "Line editing is the murky middle for a reason\u2014don't let \"efficiency\" eat your sentence-level attention",
-          "url": "https://writequeryhook.com/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your-sentence-level-attention"
+          "url": "https://writequeryhook.com/blog/line-editing-is-the-murky-middle-for-a-reason-don-t-let-efficiency-eat-your"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for subrights sci-fi graphic novels (and how co-editions help publishing make money)",
-          "url": "https://writequeryhook.com/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing-make-money"
+          "url": "https://writequeryhook.com/blog/5-tips-for-subrights-sci-fi-graphic-novels-and-how-co-editions-help-publishing"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for unconventional writing when your book refuses to fit",
-          "url": "https://writequeryhook.com/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
+          "url": "https://writequeryhook.com/blog/5-tips-for-unconventional-writing-when-your-book-refuses-to-fit"
         },
         {
           "@type": "WebPage",
-          "name": "How a Book Goes From Acquisitions to Bookstore Shelves: The Publishing Timeline Step by Step",
-          "url": "https://writequeryhook.com/how-a-book-goes-from-acquisitions-to-bookstore-shelves-the-publishing-timeline-step-by-step"
+          "name": "How to build an author platform off social media (without chasing follower counts)",
+          "url": "https://writequeryhook.com/blog/how-to-build-an-author-platform-off-social-media-without-chasing-follower-counts"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_hero_recognition_dread_blog_hero_landscape_5436a6ee494a.jpeg",
+      "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_566/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing/blog/blog_hero_recognition_dread_blog_hero_landscape_5436a6ee494a.jpeg?updatedAt=1782339750087",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
@@ -653,7 +646,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#faq",
+      "@id": "https://writequeryhook.com/blog/support-isn-t-selling-out-how-to-support-yourself-as-an-artist-without-losing#faq",
       "mainEntity": [
         {
           "@type": "Question",

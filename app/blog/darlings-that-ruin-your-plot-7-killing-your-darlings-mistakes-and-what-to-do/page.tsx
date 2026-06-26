@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Darlings that ruin your plot: 7 killing-your-darlings mistakes (and what to do instead)",
   "description": "Writers keep \u201ckilling darlings\u201d stuck in the same emotional lane: I love this character, so if I remove them, I\u2019m being cruel. Fine. That fear is real.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-19",
+  "modifiedDate": "2026-09-19",
   "canonicalUrl": "https://writequeryhook.com/blog/darlings-that-ruin-your-plot-7-killing-your-darlings-mistakes-and-what-to-do",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -671,6 +671,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/darlings-that-ruin-your-plot-7-killing-your-darlings-mistakes-and-what-to-do#primaryimage"
       },
+      "datePublished": "2026-09-19",
+      "dateModified": "2026-09-19",
       "mentions": [
         {
           "@type": "WebPage",

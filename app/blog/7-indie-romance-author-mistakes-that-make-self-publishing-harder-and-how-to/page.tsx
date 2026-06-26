@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
   "description": "If you think self-publishing romance is \u201cjust write the book and hit publish,\u201d you\u2019re setting yourself up for the exact kind of chaos that makes indie feel like a second job.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
+  "publishedDate": "2027-08-21",
+  "modifiedDate": "2027-08-21",
+  "canonicalUrl": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_hero_contrarian_control_blog_hero_landscape_9c97b0071100.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_hero_contrarian_control_blog_hero_landscape_9c97b0071100.jpeg?updatedAt=1782315423646",
     "alt": "blog hero \u00b7 contrarian control",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-      "item": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
+      "item": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +117,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_opening_blog_section_landscape_d3af6f297217.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_opening_blog_section_landscape_d3af6f297217.jpeg?updatedAt=1782315424219",
         "alt": "Opening",
         "width": 6611,
         "height": 4407,
@@ -189,7 +189,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif?updatedAt=1782315425683",
         "alt": "You're treating self-publishing marketing for new authors like random posts",
         "width": 226,
         "height": 200,
@@ -261,7 +261,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif?updatedAt=1782315425683",
         "alt": "You're treating self-publishing marketing for new authors like random posts",
         "width": 226,
         "height": 200,
@@ -336,13 +336,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_outlining_snowflake_method_blog_section_landscape_04dc7b2d1f2e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_outlining_snowflake_method_blog_section_landscape_04dc7b2d1f2e.gif",
         "alt": "You're skipping revision until the draft feels \u201cgood enough\u201d",
-        "width": 2400,
-        "height": 1801,
-        "creator": "Gene Samit",
-        "creatorUrl": "https://www.pexels.com/@gene-samit-546626702",
-        "provider": "pexels",
+        "width": 230,
+        "height": 200,
+        "creator": "thegoldensnowflake",
+        "creatorUrl": "https://giphy.com/gifs/muhehe-cat-evil-laugh-YLPOIP1jPu1N87yemm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -403,13 +403,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_outlining_snowflake_method_blog_section_landscape_04dc7b2d1f2e.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_outlining_snowflake_method_blog_section_landscape_04dc7b2d1f2e.gif",
         "alt": "You're skipping revision until the draft feels \u201cgood enough\u201d",
-        "width": 2400,
-        "height": 1801,
-        "creator": "Gene Samit",
-        "creatorUrl": "https://www.pexels.com/@gene-samit-546626702",
-        "provider": "pexels",
+        "width": 230,
+        "height": 200,
+        "creator": "thegoldensnowflake",
+        "creatorUrl": "https://giphy.com/gifs/muhehe-cat-evil-laugh-YLPOIP1jPu1N87yemm",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -537,7 +537,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_cover_design_genre_promise_blog_section_landscape_3faf5b0e68b5.gif?updatedAt=1782315425683",
         "alt": "You're treating self-publishing marketing for new authors like random posts",
         "width": 226,
         "height": 200,
@@ -627,32 +627,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_section_image_finish_line_second_chance_blog_section_landscape_5da9df2cc7ca.gif",
-    "alt": "blog section image \u00b7 finish line second chance",
-    "width": 356,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/win-woman-finishes-J1ioeXJv5muxa",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-      "url": "https://writequeryhook.com/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and-how-to-fix-them"
-    },
-    {
-      "title": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-      "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     },
     {
       "title": "What independent publishers and bookstores protect when publishing gets consolidated",
-      "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+      "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
     },
     {
       "title": "How to protect your writing rights without accidentally scaring the people you need",
-      "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+      "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+    },
+    {
+      "title": "The best websites for writers: build a daily habit, then learn the publishing math",
+      "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -666,7 +657,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-      "url": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
+      "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
     }
   ]
 } as const;
@@ -696,7 +687,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -708,31 +699,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
-          "item": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
+          "item": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#webpage",
-      "url": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
+      "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#webpage",
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
       "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -748,11 +739,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#article",
+      "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#webpage"
+        "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to",
       "headline": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
       "alternativeHeadline": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
       "description": "If you think self-publishing romance is \u201cjust write the book and hit publish,\u201d you\u2019re setting yourself up for the exact kind of chaos that makes indie feel like a second job.",
@@ -782,40 +773,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage"
+        "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage"
       },
+      "datePublished": "2027-08-21",
+      "dateModified": "2027-08-21",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-          "url": "https://writequeryhook.com/query-letters/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "7 author website mistakes that make your site feel like a place to exist (and how to fix them)",
-          "url": "https://writequeryhook.com/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and-how-to-fix-them"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Common publishing blind spots: what I didn't know my own industry mistakes were until it hurt",
-          "url": "https://writequeryhook.com/common-publishing-blind-spots-what-i-didn-t-know-my-own-industry-mistakes-were-until-it-hurt"
+          "url": "https://writequeryhook.com/blog/7-author-website-mistakes-that-make-your-site-feel-like-a-place-to-exist-and"
         },
         {
           "@type": "WebPage",
           "name": "What independent publishers and bookstores protect when publishing gets consolidated",
-          "url": "https://writequeryhook.com/what-independent-publishers-and-bookstores-protect-when-publishing-gets-consolidated"
+          "url": "https://writequeryhook.com/blog/what-independent-publishers-and-bookstores-protect-when-publishing-gets"
         },
         {
           "@type": "WebPage",
           "name": "How to protect your writing rights without accidentally scaring the people you need",
-          "url": "https://writequeryhook.com/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you-need"
+          "url": "https://writequeryhook.com/blog/how-to-protect-your-writing-rights-without-accidentally-scaring-the-people-you"
+        },
+        {
+          "@type": "WebPage",
+          "name": "The best websites for writers: build a daily habit, then learn the publishing math",
+          "url": "https://writequeryhook.com/blog/the-best-websites-for-writers-build-a-daily-habit-then-learn-the-publishing-math"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_hero_contrarian_control_blog_hero_landscape_9c97b0071100.jpeg",
+      "@id": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_512/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to/blog/blog_hero_contrarian_control_blog_hero_landscape_9c97b0071100.jpeg?updatedAt=1782315423646",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 contrarian control",

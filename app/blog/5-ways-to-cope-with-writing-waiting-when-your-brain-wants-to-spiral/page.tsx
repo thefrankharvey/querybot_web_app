@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 ways to cope with writing waiting when your brain wants to spiral",
   "description": "Waiting is baked into writing. You wait for sentences to show up. You wait for the next scene to click. You wait for feedback, then you wait again while that feedback exists somewhere in the reviewer universe, turning your manuscript over like a fortune cookie.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-25",
+  "modifiedDate": "2027-03-25",
   "canonicalUrl": "https://writequeryhook.com/blog/5-ways-to-cope-with-writing-waiting-when-your-brain-wants-to-spiral",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -446,6 +446,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-ways-to-cope-with-writing-waiting-when-your-brain-wants-to-spiral#primaryimage"
       },
+      "datePublished": "2027-03-25",
+      "dateModified": "2027-03-25",
       "mentions": [
         {
           "@type": "WebPage",

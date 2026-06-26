@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dealing with inevitable rejection vs taking the alternatives: which mental move actually keeps you querying?",
   "description": "The inbox doesn't care that you revised at 1 a.m. It doesn't care that you reread your query letter until it felt like a tattoo. Rejection shows up like gravity: consistent, annoying, and always on time.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-31",
+  "modifiedDate": "2027-03-31",
   "canonicalUrl": "https://writequeryhook.com/blog/dealing-with-inevitable-rejection-vs-taking-the-alternatives-which-mental-move",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -690,6 +690,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dealing-with-inevitable-rejection-vs-taking-the-alternatives-which-mental-move#primaryimage"
       },
+      "datePublished": "2027-03-31",
+      "dateModified": "2027-03-31",
       "mentions": [
         {
           "@type": "WebPage",

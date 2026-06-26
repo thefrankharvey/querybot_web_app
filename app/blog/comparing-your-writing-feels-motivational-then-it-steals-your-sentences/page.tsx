@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comparing your writing feels motivational\u2014then it steals your sentences",
   "description": "TLDR",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-16",
+  "modifiedDate": "2027-02-16",
   "canonicalUrl": "https://writequeryhook.com/blog/comparing-your-writing-feels-motivational-then-it-steals-your-sentences",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -605,6 +605,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comparing-your-writing-feels-motivational-then-it-steals-your-sentences#primaryimage"
       },
+      "datePublished": "2027-02-16",
+      "dateModified": "2027-02-16",
       "mentions": [
         {
           "@type": "WebPage",

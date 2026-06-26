@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 romance editing moves to make conflict, tension, and love feel inevitable",
   "description": "Romance readers can smell \"random fight\" from orbit. You know the one: two people have chemistry all chapter, then\u2014boom\u2014an argument appears like a reality-show stunt, with zero buildup and no emotional consequences. Everyone turns their head. Nobody believes it.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-06",
+  "modifiedDate": "2026-12-06",
   "canonicalUrl": "https://writequeryhook.com/blog/5-romance-editing-moves-to-make-conflict-tension-and-love-feel-inevitable",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -504,6 +504,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-romance-editing-moves-to-make-conflict-tension-and-love-feel-inevitable#primaryimage"
       },
+      "datePublished": "2026-12-06",
+      "dateModified": "2026-12-06",
       "mentions": [
         {
           "@type": "WebPage",

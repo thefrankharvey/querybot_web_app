@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for what happens on and off the page in your novel",
   "description": "Most writers don't struggle with \"what happens in the novel.\" They struggle with what happens on the page.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-30",
+  "modifiedDate": "2026-12-30",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-what-happens-on-and-off-the-page-in-your-novel",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -516,6 +516,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-what-happens-on-and-off-the-page-in-your-novel#primaryimage"
       },
+      "datePublished": "2026-12-30",
+      "dateModified": "2026-12-30",
       "mentions": [
         {
           "@type": "WebPage",

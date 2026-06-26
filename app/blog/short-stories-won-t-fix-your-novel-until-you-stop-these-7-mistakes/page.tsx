@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Short stories won't fix your novel\u2014until you stop these 7 mistakes",
   "description": "If the thought of writing 100,000+ words makes you freeze, you're looking at a scope problem that needs breaking into smaller pieces.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-24",
+  "modifiedDate": "2027-01-24",
   "canonicalUrl": "https://writequeryhook.com/blog/short-stories-won-t-fix-your-novel-until-you-stop-these-7-mistakes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -579,6 +579,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/short-stories-won-t-fix-your-novel-until-you-stop-these-7-mistakes#primaryimage"
       },
+      "datePublished": "2027-01-24",
+      "dateModified": "2027-01-24",
       "mentions": [
         {
           "@type": "WebPage",

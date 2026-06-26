@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
   "description": "A manuscript critique can feel like someone opened your chest and pointed at the wiring. Even when the feedback is kind, the exposure is real: you sent work out, and now you have words coming back that touch every nerve. That's why this page exists.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
+  "publishedDate": "2027-05-19",
+  "modifiedDate": "2027-05-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_hero_blindsided_shaking_hands_blog_hero_landscape_656a861c4ece.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_hero_blindsided_shaking_hands_blog_hero_landscape_656a861c4ece.jpeg",
     "alt": "blog hero \u00b7 blindsided shaking hands",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
+    "width": 5568,
+    "height": 3712,
+    "creator": "Savvas Stavrinos",
+    "creatorUrl": "https://www.pexels.com/@savvas-stavrinos-270619",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "item": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "item": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     }
   ],
   "tldrBlocks": [],
@@ -98,7 +98,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_overwhelm_reread_once_blog_section_landscape_69b7cc0036ec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_overwhelm_reread_once_blog_section_landscape_69b7cc0036ec.jpeg?updatedAt=1782148252483",
         "alt": "How to respond to manuscript critique",
         "width": 2890,
         "height": 2064,
@@ -177,13 +177,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_anger_shame_blog_section_landscape_87ba5134b0dd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_anger_shame_blog_section_landscape_87ba5134b0dd.gif",
         "alt": "Is it normal to feel angry or paranoid after critique?",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 214,
+        "height": 200,
+        "creator": "mls",
+        "creatorUrl": "https://giphy.com/gifs/mls-atlanta-united-atl-utd-giorgos-giakoumakis-fb15KsYVS3TSq0VQl4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -216,7 +216,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_open_mind_selective_yes_blog_section_landscape_8a9e630ecf1e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_open_mind_selective_yes_blog_section_landscape_8a9e630ecf1e.gif?updatedAt=1782148253072",
         "alt": "Should you accept every writing suggestion?",
         "width": 212,
         "height": 200,
@@ -391,13 +391,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_anger_shame_blog_section_landscape_87ba5134b0dd.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_anger_shame_blog_section_landscape_87ba5134b0dd.gif",
         "alt": "Is it normal to feel angry or paranoid after critique?",
-        "width": 3500,
-        "height": 2333,
-        "creator": "Anna Tarazevich",
-        "creatorUrl": "https://www.pexels.com/@anntarazevich",
-        "provider": "pexels",
+        "width": 214,
+        "height": 200,
+        "creator": "mls",
+        "creatorUrl": "https://giphy.com/gifs/mls-atlanta-united-atl-utd-giorgos-giakoumakis-fb15KsYVS3TSq0VQl4",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -422,7 +422,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_open_mind_selective_yes_blog_section_landscape_8a9e630ecf1e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_open_mind_selective_yes_blog_section_landscape_8a9e630ecf1e.gif?updatedAt=1782148253072",
         "alt": "Should you accept every writing suggestion?",
         "width": 212,
         "height": 200,
@@ -478,7 +478,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_overwhelm_reread_once_blog_section_landscape_69b7cc0036ec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_overwhelm_reread_once_blog_section_landscape_69b7cc0036ec.jpeg?updatedAt=1782148252483",
         "alt": "How to respond to manuscript critique",
         "width": 2890,
         "height": 2064,
@@ -489,32 +489,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_section_image_get_back_to_work_single_next_action_blog_section_landscape_5cbec996a527.jpeg",
-    "alt": "blog section image \u00b7 get back to work single next action",
-    "width": 5481,
-    "height": 3654,
-    "creator": "AI25.Studio  Studio",
-    "creatorUrl": "https://www.pexels.com/@ai25studioai",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Book blurb FAQ: how to write a book description that sells",
-      "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
-    },
-    {
-      "title": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-      "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+      "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
     },
     {
       "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     },
     {
-      "title": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-      "url": "https://writequeryhook.com/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why-copyedits-come-later"
+      "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
+    },
+    {
+      "title": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -528,7 +519,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Incorporating agent or editor feedback FAQ",
-      "url": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq"
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     }
   ]
 } as const;
@@ -558,7 +549,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -570,31 +561,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "item": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+          "item": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#webpage",
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
       "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -610,11 +601,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#article",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq",
       "headline": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
       "alternativeHeadline": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
       "description": "A manuscript critique can feel like someone opened your chest and pointed at the wiring. Even when the feedback is kind, the exposure is real: you sent work out, and now you have words coming back that touch every nerve. That's why this page exists.",
@@ -644,48 +635,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage"
       },
+      "datePublished": "2027-05-19",
+      "dateModified": "2027-05-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Incorporating agent or editor feedback FAQ",
-          "url": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq"
+          "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book blurb FAQ: how to write a book description that sells",
-          "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-          "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+          "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
         },
         {
           "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from-going-feral"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         },
         {
           "@type": "WebPage",
-          "name": "Manuscript critiques start with the plot, not your sentences (and that\u2019s why copyedits come later)",
-          "url": "https://writequeryhook.com/manuscript-critiques-start-with-the-plot-not-your-sentences-and-that-s-why-copyedits-come-later"
+          "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
+          "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common mistakes authors make after manuscript acceptance (and how to fix them to market your book)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-authors-make-after-manuscript-acceptance-and-how-to-fix-them"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_hero_blindsided_shaking_hands_blog_hero_landscape_656a861c4ece.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq/blog/blog_hero_blindsided_shaking_hands_blog_hero_landscape_656a861c4ece.jpeg",
+      "width": 5568,
+      "height": 3712,
       "caption": "blog hero \u00b7 blindsided shaking hands",
-      "creditText": "Thestrongtoothbrush",
+      "creditText": "Savvas Stavrinos",
       "author": {
         "@type": "Person",
-        "name": "Thestrongtoothbrush",
-        "url": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22"
+        "name": "Savvas Stavrinos",
+        "url": "https://www.pexels.com/@savvas-stavrinos-270619"
       },
       "@context": "https://schema.org"
     }

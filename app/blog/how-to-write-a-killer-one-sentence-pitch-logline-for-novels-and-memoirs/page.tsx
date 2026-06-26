@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a killer one sentence pitch logline for novels and memoirs",
   "description": "A logline is the fastest way to prove you can summarize your own work without turning it into beige fog. Writers get nervous about the one sentence pitch\u2014like if it's wrong, the book is doomed before anyone reads past the subject line.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-28",
+  "modifiedDate": "2026-06-28",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-killer-one-sentence-pitch-logline-for-novels-and-memoirs",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -557,6 +557,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-killer-one-sentence-pitch-logline-for-novels-and-memoirs#primaryimage"
       },
+      "datePublished": "2026-06-28",
+      "dateModified": "2026-06-28",
       "mentions": [
         {
           "@type": "WebPage",

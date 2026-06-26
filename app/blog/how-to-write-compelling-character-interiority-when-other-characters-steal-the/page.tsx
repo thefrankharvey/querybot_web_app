@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write compelling character interiority when other characters steal the scene (POV rules included)",
   "description": "You've seen it a hundred times: a scene with solid POV access\u2014clean thoughts, clear motives, coherent internal narration\u2014that still reads like wallpaper. Not because your protagonist lacks inner life, but because the page isn't showing the interactive pressure of people touching each other's emotions.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-26",
+  "modifiedDate": "2027-01-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-compelling-character-interiority-when-other-characters-steal-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -658,6 +658,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-compelling-character-interiority-when-other-characters-steal-the#primaryimage"
       },
+      "datePublished": "2027-01-26",
+      "dateModified": "2027-01-26",
       "mentions": [
         {
           "@type": "WebPage",

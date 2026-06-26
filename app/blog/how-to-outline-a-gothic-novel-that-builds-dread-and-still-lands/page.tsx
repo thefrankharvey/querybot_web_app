@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to outline a gothic novel that builds dread (and still lands)",
   "description": "Gothic fiction is easy to recognize and hard to plan. Most outlines accidentally turn it into \"spooky horror with nicer wallpaper,\" then the dread evaporates because the plot stops doing Gothic work. Chase answers too early, and you lose the suspense engine: gothic fiction slow-building dread ambiguity.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-31",
+  "modifiedDate": "2026-10-31",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-outline-a-gothic-novel-that-builds-dread-and-still-lands",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -520,6 +520,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-outline-a-gothic-novel-that-builds-dread-and-still-lands#primaryimage"
       },
+      "datePublished": "2026-10-31",
+      "dateModified": "2026-10-31",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write a Good Villain: Make the Antagonist Sharpen the Hero's Dilemma",
   "description": "If your villain feels like a speed bump, your plot will feel like a drive-thru line: passable, forgettable, and painfully predictable. And yeah\u2014most writers accidentally do this by treating the villain like a list of crimes instead of a problem that crawls into the hero's life and makes a decision hurt.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-26",
+  "modifiedDate": "2026-09-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-good-villain-make-the-antagonist-sharpen-the-hero-s-dilemma",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -526,6 +526,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-good-villain-make-the-antagonist-sharpen-the-hero-s-dilemma#primaryimage"
       },
+      "datePublished": "2026-09-26",
+      "dateModified": "2026-09-26",
       "mentions": [
         {
           "@type": "WebPage",

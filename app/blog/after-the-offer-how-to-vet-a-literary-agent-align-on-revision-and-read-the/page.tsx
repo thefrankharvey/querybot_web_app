@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
   "description": "When an offer of representation lands, your body does that stupid thing where it tries to sprint before your brain catches up. You feel light. You feel chosen. You start picturing emails that begin with \"So glad we connected\u2026\" and you imagine the hard part being over.",
   "readTime": "14 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
+  "publishedDate": "2027-04-22",
+  "modifiedDate": "2027-04-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_hero_recognition_excitement_blog_hero_landscape_9495c5c8117a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_hero_recognition_excitement_blog_hero_landscape_9495c5c8117a.jpeg?updatedAt=1781851837370",
     "alt": "blog hero \u00b7 recognition excitement",
     "width": 5871,
     "height": 3914,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-      "item": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
+      "item": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
     }
   ],
   "tldrBlocks": [],
@@ -134,7 +134,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_overwhelm_milestone_blog_section_landscape_d01ab0d4acae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_overwhelm_milestone_blog_section_landscape_d01ab0d4acae.gif?updatedAt=1781851838847",
         "alt": "How to treat representation offers (without letting excitement drive)",
         "width": 200,
         "height": 200,
@@ -263,7 +263,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_anxious_curiosity_blog_section_landscape_fa18b8c333d2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_anxious_curiosity_blog_section_landscape_fa18b8c333d2.jpeg?updatedAt=1781851840864",
         "alt": "What you do next (after the call, before you sign)",
         "width": 6000,
         "height": 4000,
@@ -431,7 +431,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_control_career_anxiety_blog_section_landscape_a48b9a62a0f7.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_control_career_anxiety_blog_section_landscape_a48b9a62a0f7.gif?updatedAt=1781851840131",
         "alt": "Submissions strategy and values fit (where \"what happens next\" gets real)",
         "width": 267,
         "height": 200,
@@ -565,7 +565,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_overwhelm_milestone_blog_section_landscape_d01ab0d4acae.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_overwhelm_milestone_blog_section_landscape_d01ab0d4acae.gif?updatedAt=1781851838847",
         "alt": "How to treat representation offers (without letting excitement drive)",
         "width": 200,
         "height": 200,
@@ -685,7 +685,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_anxious_curiosity_blog_section_landscape_fa18b8c333d2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_anxious_curiosity_blog_section_landscape_fa18b8c333d2.jpeg?updatedAt=1781851840864",
         "alt": "What you do next (after the call, before you sign)",
         "width": 6000,
         "height": 4000,
@@ -696,32 +696,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_section_image_done_for_now_take_notes_blog_section_landscape_8779a2ec017f.jpeg",
-    "alt": "blog section image \u00b7 done-for-now take notes",
-    "width": 3000,
-    "height": 2001,
-    "creator": "Jakub Zerdzicki",
-    "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-      "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
-    },
-    {
-      "title": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-      "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+      "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
     },
     {
       "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-      "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+      "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
     },
     {
-      "title": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-      "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+      "title": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
+      "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+    },
+    {
+      "title": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+      "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -764,7 +755,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to respond to an offer of representation without getting rushed",
-      "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
     }
   ]
 } as const;
@@ -794,7 +785,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -806,31 +797,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
-          "item": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
+          "item": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
+      "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#webpage",
+      "url": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
       "name": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -846,11 +837,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#article",
+      "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#webpage"
+        "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the",
       "headline": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
       "alternativeHeadline": "After the Offer: How to Vet a Literary Agent, Align on Revision, and Read the Contract Like a Human",
       "description": "When an offer of representation lands, your body does that stupid thing where it tries to sprint before your brain catches up. You feel light. You feel chosen. You start picturing emails that begin with \"So glad we connected\u2026\" and you imagine the hard part being over.",
@@ -880,40 +871,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage"
       },
+      "datePublished": "2027-04-22",
+      "dateModified": "2027-04-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to respond to an offer of representation without getting rushed",
-          "url": "https://writequeryhook.com/query-letters/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "url": "https://writequeryhook.com/blog/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
         },
         {
           "@type": "WebPage",
           "name": "Writer conference vs alternatives: which one actually pays off for your pitch and workshop critique",
-          "url": "https://writequeryhook.com/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch-and-workshop-critique"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Joining the press: it\u2019s more than luck vs the alternatives that make imposter syndrome worse",
-          "url": "https://writequeryhook.com/joining-the-press-it-s-more-than-luck-vs-the-alternatives-that-make-imposter-syndrome-worse"
+          "url": "https://writequeryhook.com/blog/writer-conference-vs-alternatives-which-one-actually-pays-off-for-your-pitch"
         },
         {
           "@type": "WebPage",
           "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-          "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+          "url": "https://writequeryhook.com/blog/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your"
         },
         {
           "@type": "WebPage",
-          "name": "Are you paying attention to your progress examples? A case study in the slow wins nobody applauds",
-          "url": "https://writequeryhook.com/are-you-paying-attention-to-your-progress-examples-a-case-study-in-the-slow-wins-nobody-applauds"
+          "name": "Progress FAQ: How to Measure Incremental Writing Growth (Without Losing Your Mind)",
+          "url": "https://writequeryhook.com/blog/progress-faq-how-to-measure-incremental-writing-growth-without-losing-your-mind"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Writer burnout mistakes to avoid when \"pushing through\" makes everything worse",
+          "url": "https://writequeryhook.com/blog/writer-burnout-mistakes-to-avoid-when-pushing-through-makes-everything-worse"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_hero_recognition_excitement_blog_hero_landscape_9495c5c8117a.jpeg",
+      "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_365/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the/blog/blog_hero_recognition_excitement_blog_hero_landscape_9495c5c8117a.jpeg?updatedAt=1781851837370",
       "width": 5871,
       "height": 3914,
       "caption": "blog hero \u00b7 recognition excitement",
@@ -928,7 +921,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#faq",
+      "@id": "https://writequeryhook.com/blog/after-the-offer-how-to-vet-a-literary-agent-align-on-revision-and-read-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Query a series FAQ: how to pitch a sequel option without demanding a commitment",
   "description": "If you're a debut author and you're considering \"series potential,\" the biggest trap is thinking the query has to demand a guaranteed multi-book deal right now. That instinct is understandable. It also makes you weaker than you need to be.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-13",
+  "modifiedDate": "2026-07-13",
   "canonicalUrl": "https://writequeryhook.com/blog/query-a-series-faq-how-to-pitch-a-sequel-option-without-demanding-a-commitment",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -435,6 +435,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/query-a-series-faq-how-to-pitch-a-sequel-option-without-demanding-a-commitment#primaryimage"
       },
+      "datePublished": "2026-07-13",
+      "dateModified": "2026-07-13",
       "mentions": [
         {
           "@type": "WebPage",

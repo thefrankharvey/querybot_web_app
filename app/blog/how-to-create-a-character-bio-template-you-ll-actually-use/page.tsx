@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to create a character bio template you\u2019ll actually use",
   "description": "A character bio shouldn\u2019t feel like punishment. If it\u2019s making you delay scenes, it\u2019s doing the wrong job.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-21",
+  "modifiedDate": "2026-10-21",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-create-a-character-bio-template-you-ll-actually-use",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -666,6 +666,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-create-a-character-bio-template-you-ll-actually-use#primaryimage"
       },
+      "datePublished": "2026-10-21",
+      "dateModified": "2026-10-21",
       "mentions": [
         {
           "@type": "WebPage",

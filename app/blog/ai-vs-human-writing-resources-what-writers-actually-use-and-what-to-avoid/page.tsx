@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
   "description": "TL;DR",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
+  "publishedDate": "2027-08-14",
+  "modifiedDate": "2027-08-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_hero_viral_stats_overwhelmed_blog_hero_landscape_1e905d0e74ad.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_hero_viral_stats_overwhelmed_blog_hero_landscape_1e905d0e74ad.jpeg?updatedAt=1782311877643",
     "alt": "blog hero \u00b7 viral stats overwhelmed",
     "width": 5760,
     "height": 3240,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-      "item": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+      "item": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
     }
   ],
   "tldrBlocks": [],
@@ -94,7 +94,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_opening_blog_section_landscape_7abae3377117.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_opening_blog_section_landscape_7abae3377117.gif?updatedAt=1782311878230",
         "alt": "Opening",
         "width": 279,
         "height": 200,
@@ -173,13 +173,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_curiosity_pattern_spotting_blog_section_landscape_f7a9d6c4660f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_curiosity_pattern_spotting_blog_section_landscape_f7a9d6c4660f.jpeg",
         "alt": "How authors are using generative AI",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 5184,
+        "height": 3456,
+        "creator": "Karen F",
+        "creatorUrl": "https://www.pexels.com/@karen-f-1376469",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -475,43 +475,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_the_decision_blog_section_landscape_db2d1f630231.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_the_decision_blog_section_landscape_db2d1f630231.gif",
         "alt": "The decision",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_section_image_calm_resolve_decision_made_blog_section_landscape_dc809cf687ea.jpeg",
-    "alt": "blog section image \u00b7 calm resolve decision made",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-      "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+      "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
     },
     {
       "title": "Word count for novels and children's books FAQ",
-      "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+      "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
     },
     {
       "title": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-      "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+      "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
     },
     {
-      "title": "How can you market your book effectively? FAQ for self-published authors",
-      "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+      "title": "Do you need to hire a cover designer and book formatter?",
+      "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -550,7 +541,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-      "url": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during"
+      "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
     }
   ]
 } as const;
@@ -580,7 +571,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -592,31 +583,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
-          "item": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
+          "item": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#webpage",
-      "url": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
+      "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#webpage",
+      "url": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
       "name": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -632,11 +623,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#article",
+      "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#webpage"
+        "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid",
       "headline": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
       "alternativeHeadline": "AI vs human writing resources: what writers actually use\u2014and what to avoid",
       "description": "TL;DR",
@@ -666,40 +657,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage"
+        "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage"
       },
+      "datePublished": "2027-08-14",
+      "dateModified": "2027-08-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Social Media vs Alternatives: Which Builds Author Discoverability During Querying (Without Chasing Sales)?",
-          "url": "https://writequeryhook.com/query-letters/social-media-vs-alternatives-which-builds-author-discoverability-during"
+          "url": "https://writequeryhook.com/blog/social-media-vs-alternatives-which-builds-author-discoverability-during"
         },
         {
           "@type": "WebPage",
           "name": "Advances vs royalties: traditional publishing's earn-out headache vs self-publishing's platform math",
-          "url": "https://writequeryhook.com/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self-publishing-s-platform-math"
+          "url": "https://writequeryhook.com/blog/advances-vs-royalties-traditional-publishing-s-earn-out-headache-vs-self"
         },
         {
           "@type": "WebPage",
           "name": "Word count for novels and children's books FAQ",
-          "url": "https://writequeryhook.com/word-count-for-novels-and-children-s-books-faq"
+          "url": "https://writequeryhook.com/blog/word-count-for-novels-and-children-s-books-faq"
         },
         {
           "@type": "WebPage",
           "name": "Types of novels FAQ: genre, literary, and mainstream (explained for writers)",
-          "url": "https://writequeryhook.com/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
+          "url": "https://writequeryhook.com/blog/types-of-novels-faq-genre-literary-and-mainstream-explained-for-writers"
         },
         {
           "@type": "WebPage",
-          "name": "How can you market your book effectively? FAQ for self-published authors",
-          "url": "https://writequeryhook.com/how-can-you-market-your-book-effectively-faq-for-self-published-authors"
+          "name": "Do you need to hire a cover designer and book formatter?",
+          "url": "https://writequeryhook.com/blog/do-you-need-to-hire-a-cover-designer-and-book-formatter"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_hero_viral_stats_overwhelmed_blog_hero_landscape_1e905d0e74ad.jpeg",
+      "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_36/day_504/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid/blog/blog_hero_viral_stats_overwhelmed_blog_hero_landscape_1e905d0e74ad.jpeg?updatedAt=1782311877643",
       "width": 5760,
       "height": 3240,
       "caption": "blog hero \u00b7 viral stats overwhelmed",
@@ -714,7 +707,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#faq",
+      "@id": "https://writequeryhook.com/blog/ai-vs-human-writing-resources-what-writers-actually-use-and-what-to-avoid#faq",
       "mainEntity": [
         {
           "@type": "Question",

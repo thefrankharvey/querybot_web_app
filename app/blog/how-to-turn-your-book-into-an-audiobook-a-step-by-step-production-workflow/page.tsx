@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to turn your book into an audiobook: a step-by-step production workflow",
   "description": "Audiobook \"just sounds like reading out loud,\" right? I hear that all the time in the part where authors start counting how many hours they'd need and immediately get wrecked by reality\u2014because the core work isn't publishing. It's narration plus recording, editing, and mastering.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
+  "publishedDate": "2027-09-09",
+  "modifiedDate": "2027-09-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_ef1ff0e14011.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_ef1ff0e14011.jpeg?updatedAt=1782328877375",
     "alt": "blog hero \u00b7 overwhelm blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-      "item": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+      "item": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
     }
   ],
   "tldrBlocks": [],
@@ -115,7 +115,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_audience_translation_blog_section_landscape_e6dcfb7d6b9b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_audience_translation_blog_section_landscape_e6dcfb7d6b9b.gif?updatedAt=1782328878019",
         "alt": "Step 8: Know which audiobook genres that work best",
         "width": 226,
         "height": 200,
@@ -368,7 +368,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_tradeoff_time_vs_money_blog_section_landscape_ac8254427cc9.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_tradeoff_time_vs_money_blog_section_landscape_ac8254427cc9.gif?updatedAt=1782328878832",
         "alt": "Step 7: Hire professionals vs do it yourself audiobook",
         "width": 350,
         "height": 200,
@@ -402,7 +402,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_audience_translation_blog_section_landscape_e6dcfb7d6b9b.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_audience_translation_blog_section_landscape_e6dcfb7d6b9b.gif?updatedAt=1782328878019",
         "alt": "Step 8: Know which audiobook genres that work best",
         "width": 226,
         "height": 200,
@@ -413,32 +413,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_section_image_send_it_next_session_blog_section_landscape_1c18c8a25f7c.jpeg",
-    "alt": "blog section image \u00b7 send it next session",
-    "width": 3999,
-    "height": 2666,
-    "creator": "Markus Winkler",
-    "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to Use Video to Sell More Books (Before Launch, After Release)",
-      "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+      "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
     },
     {
       "title": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-      "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+      "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
     },
     {
       "title": "How to turn an essay into a book deal using proof of concept (not hope)",
-      "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+      "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
     },
     {
-      "title": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-      "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+      "title": "Always-already marketing: treating your book like a product from page one",
+      "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -473,7 +464,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 practical ways to market your self-published book (without living on random platforms)",
-      "url": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
+      "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
     }
   ]
 } as const;
@@ -503,7 +494,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -515,31 +506,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to turn your book into an audiobook: a step-by-step production workflow",
-          "item": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
+          "item": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
       "name": "How to turn your book into an audiobook: a step-by-step production workflow",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -555,11 +546,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#article",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow",
       "headline": "How to turn your book into an audiobook: a step-by-step production workflow",
       "alternativeHeadline": "How to turn your book into an audiobook: a step-by-step production workflow",
       "description": "Audiobook \"just sounds like reading out loud,\" right? I hear that all the time in the part where authors start counting how many hours they'd need and immediately get wrecked by reality\u2014because the core work isn't publishing. It's narration plus recording, editing, and mastering.",
@@ -589,40 +580,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage"
       },
+      "datePublished": "2027-09-09",
+      "dateModified": "2027-09-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 practical ways to market your self-published book (without living on random platforms)",
-          "url": "https://writequeryhook.com/query-letters/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
+          "url": "https://writequeryhook.com/blog/5-practical-ways-to-market-your-self-published-book-without-living-on-random"
         },
         {
           "@type": "WebPage",
           "name": "How to Use Video to Sell More Books (Before Launch, After Release)",
-          "url": "https://writequeryhook.com/how-to-use-video-to-sell-more-books-before-launch-after-release"
+          "url": "https://writequeryhook.com/blog/how-to-use-video-to-sell-more-books-before-launch-after-release"
         },
         {
           "@type": "WebPage",
           "name": "How to publish a cookbook traditionally: 6 steps that prove your market, your recipes, and your plan",
-          "url": "https://writequeryhook.com/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your-recipes-and-your-plan"
+          "url": "https://writequeryhook.com/blog/how-to-publish-a-cookbook-traditionally-6-steps-that-prove-your-market-your"
         },
         {
           "@type": "WebPage",
           "name": "How to turn an essay into a book deal using proof of concept (not hope)",
-          "url": "https://writequeryhook.com/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
+          "url": "https://writequeryhook.com/blog/how-to-turn-an-essay-into-a-book-deal-using-proof-of-concept-not-hope"
         },
         {
           "@type": "WebPage",
-          "name": "Genre fiction vs literary fiction vs mainstream fiction: pick the novel type that matches what readers expect",
-          "url": "https://writequeryhook.com/genre-fiction-vs-literary-fiction-vs-mainstream-fiction-pick-the-novel-type-that-matches-what-readers-expect"
+          "name": "Always-already marketing: treating your book like a product from page one",
+          "url": "https://writequeryhook.com/blog/always-already-marketing-treating-your-book-like-a-product-from-page-one"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_ef1ff0e14011.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_535/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow/blog/blog_hero_overwhelm_blank_page_dread_blog_hero_landscape_ef1ff0e14011.jpeg?updatedAt=1782328877375",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 overwhelm blank-page dread",
@@ -637,7 +630,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#howto",
       "name": "How to turn your book into an audiobook: a step-by-step production workflow",
       "description": "Audiobook \"just sounds like reading out loud,\" right? I hear that all the time in the part where authors start counting how many hours they'd need and immediately get wrecked by reality\u2014because the core work isn't publishing. It's narration plus recording, editing, and mastering.",
       "totalTime": "PT7M",
@@ -647,63 +640,63 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Choose if your book is audiobook-friendly",
           "text": "Before you buy mics or schedule a recording weekend, decide whether the book even wants to be audio.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-1-choose-if-your-book-is-audiobook-friendly"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-1-choose-if-your-book-is-audiobook-friendly"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Finish your manuscript and plan narration",
           "text": "Audiobook production gets easier when your book is actually ready to narrate. Don't start recording until the manuscript is finished in the way you'd want it for publishing.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-2-finish-your-manuscript-and-plan-narration"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-2-finish-your-manuscript-and-plan-narration"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Set up your recording space for clean audio",
           "text": "DIY recording is doable, but your room is your enemy unless you control it. You're aiming for low background noise (fans, HVAC hum, outside traffic), reduced echo (bare rooms make your voice bounce), and clean mic handling (no chair squeaks, no desk taps, no clothing rustle).",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-3-set-up-your-recording-space-for-clean-audio"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-3-set-up-your-recording-space-for-clean-audio"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Record narration without crashing your voice",
           "text": "Here's where overwhelm usually hits: audiobook recording editing mastering time is not just \"how long it takes to read.\" Casual speaking feels fast; audiobook narration is performance plus precision plus stamina. Realistic expectation: recording alone often lands around 20\u201330 hours for many authors, depending on experience and how much cleanup you'll need afterward.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-4-record-narration-without-crashing-your-voice"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-4-record-narration-without-crashing-your-voice"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Edit and master for a consistent listening experience",
           "text": "Once narration is recorded, you don't just \"clean up audio.\" You shape the audiobook into something that doesn't fatigue listeners.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-5-edit-and-master-for-a-consistent-listening-experience"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-5-edit-and-master-for-a-consistent-listening-experience"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Pack files and follow distributor spec",
           "text": "Before release, assemble audio files, confirm chapter structure and naming, prepare metadata and any required formatting, and upload and verify that the distributor requirements are met. Do a QA pass before upload\u2014listen to the first minute of multiple chapters for volume jumps, missing audio, chapter header weirdness, and silence gaps.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-6-pack-files-and-follow-distributor-spec"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-6-pack-files-and-follow-distributor-spec"
         },
         {
           "@type": "HowToStep",
           "position": 7,
           "name": "Step 7: Hire professionals vs do it yourself audiobook",
           "text": "You've got two core paths.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-7-hire-professionals-vs-do-it-yourself-audiobook"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-7-hire-professionals-vs-do-it-yourself-audiobook"
         },
         {
           "@type": "HowToStep",
           "position": 8,
           "name": "Step 8: Know which audiobook genres that work best",
           "text": "Audiobook genres that work best tend to share common traits: they rely on clear narration, don't depend on complex visuals, and fit into listening routines. Mystery, sci-fi, romance, and literary fiction perform well because listeners follow dialogue and pacing naturally. Memoir and narrative non-fiction work well too. Self-help and business books can work when they're structured for linear listening. Avoid image-heavy formats unless you're prepared to adapt the text.",
-          "url": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-8-know-which-audiobook-genres-that-work-best"
+          "url": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#step-8-know-which-audiobook-genres-that-work-best"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-turn-your-book-into-an-audiobook-a-step-by-step-production-workflow#faq",
       "mainEntity": [
         {
           "@type": "Question",

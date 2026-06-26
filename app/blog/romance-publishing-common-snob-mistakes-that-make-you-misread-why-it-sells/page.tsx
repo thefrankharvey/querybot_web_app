@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
   "description": "Romance is one of those words that makes certain publishing professionals flinch. Not because they've studied it\u2014because they've decided it's beneath them. Then they try to evaluate the romance genre using taste-based shame instead of market literacy. And yeah, that's how you end up writing notes that sound smart but land useless.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
+  "publishedDate": "2027-10-28",
+  "modifiedDate": "2027-10-28",
+  "canonicalUrl": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "item": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "item": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     }
   ],
   "tldrBlocks": [],
@@ -448,19 +448,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     },
     {
       "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-      "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+      "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
     },
     {
-      "title": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-      "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+      "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
+      "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
     },
     {
-      "title": "5 tips self-published authors use to turn early readers into real publishing success",
-      "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+      "title": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
+      "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -495,7 +495,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "url": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     }
   ]
 } as const;
@@ -525,7 +525,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -537,31 +537,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "item": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "item": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#webpage",
-      "url": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
+      "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#webpage",
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
       "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -577,11 +577,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#article",
+      "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#webpage"
+        "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells",
       "headline": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
       "alternativeHeadline": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
       "description": "Romance is one of those words that makes certain publishing professionals flinch. Not because they've studied it\u2014because they've decided it's beneath them. Then they try to evaluate the romance genre using taste-based shame instead of market literacy. And yeah, that's how you end up writing notes that sound smart but land useless.",
@@ -611,39 +611,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage"
+        "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage"
       },
+      "datePublished": "2027-10-28",
+      "dateModified": "2027-10-28",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "url": "https://writequeryhook.com/query-letters/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+          "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
         },
         {
           "@type": "WebPage",
           "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-          "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+          "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
         },
         {
           "@type": "WebPage",
-          "name": "Why a writers\u2019 strike matters for every query letter: pay pressure, book bans, and the AI budget fight",
-          "url": "https://writequeryhook.com/why-a-writers-strike-matters-for-every-query-letter-pay-pressure-book-bans-and-the-ai-budget-fight"
+          "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
+          "url": "https://writequeryhook.com/blog/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips self-published authors use to turn early readers into real publishing success",
-          "url": "https://writequeryhook.com/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing-success"
+          "name": "5 ways to build a compelling novel concept with a real kicker (not just a plot twist)",
+          "url": "https://writequeryhook.com/blog/5-ways-to-build-a-compelling-novel-concept-with-a-real-kicker-not-just-a-plot"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage",
+      "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_595/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells/blog/blog_hero_embarrassment_bias_blog_hero_landscape_bf05b6e39d35.jpeg",
       "width": 6720,
       "height": 4480,
@@ -659,7 +656,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#faq",
+      "@id": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells#faq",
       "mainEntity": [
         {
           "@type": "Question",

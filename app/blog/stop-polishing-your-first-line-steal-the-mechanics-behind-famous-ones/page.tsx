@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop polishing your first line\u2014steal the mechanics behind famous ones",
   "description": "You can polish a first line for weeks and still end up with something that feels like a perfectly assembled trinket nobody buys. I've done this. I've stared at a sentence until it stopped sounding like a person and started sounding like effort.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-29",
+  "modifiedDate": "2026-09-29",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-polishing-your-first-line-steal-the-mechanics-behind-famous-ones",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -660,6 +660,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-polishing-your-first-line-steal-the-mechanics-behind-famous-ones#primaryimage"
       },
+      "datePublished": "2026-09-29",
+      "dateModified": "2026-09-29",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Comp Titles Are Scary Because They're Vague\u2014So Here's How to Make Them Specific",
   "description": "TLDR",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-09",
+  "modifiedDate": "2026-08-09",
   "canonicalUrl": "https://writequeryhook.com/blog/comp-titles-are-scary-because-they-re-vague-so-here-s-how-to-make-them-specific",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -611,6 +611,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/comp-titles-are-scary-because-they-re-vague-so-here-s-how-to-make-them-specific#primaryimage"
       },
+      "datePublished": "2026-08-09",
+      "dateModified": "2026-08-09",
       "mentions": [
         {
           "@type": "WebPage",

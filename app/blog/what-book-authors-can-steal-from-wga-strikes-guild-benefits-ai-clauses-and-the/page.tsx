@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
   "description": "When people talk about strikes, they usually mean the loud stuff: picket lines, negotiations, headlines. But the quieter lesson from the WGA model is organizational. Screenwriters didn't just complain louder; they built a structure that makes the work sustainable\u2014benefits, education, and a shared language for negotiations and policy.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
+  "publishedDate": "2027-10-11",
+  "modifiedDate": "2027-10-11",
+  "canonicalUrl": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-      "item": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
+      "item": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
     }
   ],
   "tldrBlocks": [],
@@ -494,19 +494,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-      "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
-    },
-    {
-      "title": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-      "url": "https://writequeryhook.com/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision-breakdown"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     },
     {
       "title": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-      "url": "https://writequeryhook.com/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about-benefits-rights-and-ai"
+      "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
+    },
+    {
+      "title": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
+      "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
     },
     {
       "title": "Love marketing: how to treat every release like relationship work, not a hustle",
-      "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+      "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -545,7 +545,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-      "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
+      "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
     }
   ]
 } as const;
@@ -575,7 +575,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -587,31 +587,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
-          "item": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
+          "item": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
+      "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#webpage",
+      "url": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
       "name": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -627,11 +627,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#article",
+      "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#webpage"
+        "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the",
       "headline": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer's room",
       "alternativeHeadline": "What book authors can steal from WGA strikes: guild benefits, AI clauses, and the writer\u2019s room",
       "description": "When people talk about strikes, they usually mean the loud stuff: picket lines, negotiations, headlines. But the quieter lesson from the WGA model is organizational. Screenwriters didn't just complain louder; they built a structure that makes the work sustainable\u2014benefits, education, and a shared language for negotiations and policy.",
@@ -661,39 +661,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage"
       },
+      "datePublished": "2027-10-11",
+      "dateModified": "2027-10-11",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-          "url": "https://writequeryhook.com/query-letters/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to talk about your writing so it hooks: a premise-to-conversation breakdown",
-          "url": "https://writequeryhook.com/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How Alyssa J. StoneSong turned literary weight into commercial pull (revision breakdown)",
-          "url": "https://writequeryhook.com/how-alyssa-j-stonesong-turned-literary-weight-into-commercial-pull-revision-breakdown"
+          "url": "https://writequeryhook.com/blog/how-to-talk-about-your-writing-so-it-hooks-a-premise-to-conversation-breakdown"
         },
         {
           "@type": "WebPage",
           "name": "Common writers' guild mistakes book authors make when they're worried about benefits, rights, and AI",
-          "url": "https://writequeryhook.com/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about-benefits-rights-and-ai"
+          "url": "https://writequeryhook.com/blog/common-writers-guild-mistakes-book-authors-make-when-they-re-worried-about"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Common mistakes when you talk about your writing (and how to fix them so people lean in)",
+          "url": "https://writequeryhook.com/blog/common-mistakes-when-you-talk-about-your-writing-and-how-to-fix-them-so-people"
         },
         {
           "@type": "WebPage",
           "name": "Love marketing: how to treat every release like relationship work, not a hustle",
-          "url": "https://writequeryhook.com/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
+          "url": "https://writequeryhook.com/blog/love-marketing-how-to-treat-every-release-like-relationship-work-not-a-hustle"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage",
+      "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_570/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the/blog/blog_hero_confusion_unsupported_blog_hero_landscape_c9f36d03402f.jpeg",
       "width": 5472,
       "height": 3648,
@@ -709,7 +706,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#faq",
+      "@id": "https://writequeryhook.com/blog/what-book-authors-can-steal-from-wga-strikes-guild-benefits-ai-clauses-and-the#faq",
       "mainEntity": [
         {
           "@type": "Question",

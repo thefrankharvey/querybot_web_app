@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to stop comparing your writing (and get back to drafting)",
   "description": "Comparing your writing feels productive for about ten seconds. Then your mood drops, your expression tightens\u2014hello, frown\u2014and your brain starts treating someone else's finished career like a receipt you didn't earn.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
+  "publishedDate": "2027-04-12",
+  "modifiedDate": "2027-04-12",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_hero_frown_dread_blog_hero_landscape_b71c797ec3c5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_hero_frown_dread_blog_hero_landscape_b71c797ec3c5.jpeg",
     "alt": "blog hero \u00b7 frown dread",
-    "width": 200,
-    "height": 200,
-    "creator": "joelkirschenbaum",
-    "creatorUrl": "https://giphy.com/gifs/no-sad-time-5hvX75idlgYJRLwfZ4",
-    "provider": "giphy",
+    "width": 3840,
+    "height": 2160,
+    "creator": "Vitaly Gariev",
+    "creatorUrl": "https://www.pexels.com/@silverkblack",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to stop comparing your writing (and get back to drafting)",
-      "item": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+      "item": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
     }
   ],
   "tldrBlocks": [],
@@ -111,7 +111,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_panic_notification_blog_section_landscape_9e0cd9948d73.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_panic_notification_blog_section_landscape_9e0cd9948d73.jpeg?updatedAt=1781809435732",
         "alt": "Step 1: Create a comparison interrupt the moment it hits",
         "width": 6315,
         "height": 4210,
@@ -177,7 +177,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_blank_page_cursor_blink_blog_section_landscape_68828c92cd54.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_blank_page_cursor_blink_blog_section_landscape_68828c92cd54.gif?updatedAt=1781809437131",
         "alt": "Step 2: Return to your own page in 10 minutes (before you \"feel ready\")",
         "width": 200,
         "height": 200,
@@ -354,43 +354,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_kind_comment_encouragement_blog_section_landscape_2c25f1f205e2.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_kind_comment_encouragement_blog_section_landscape_2c25f1f205e2.gif",
         "alt": "Step 5: Support other writers without spiraling into \"watching\"",
-        "width": 6457,
-        "height": 4305,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/michael-jackson-comments-popcorn-pUeXcg80cO8I8",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_section_image_protect_the_piece_of_soul_keep_writing_blog_section_landscape_b6ff054f3d7e.jpeg",
-    "alt": "blog section image \u00b7 protect the piece of soul keep writing",
-    "width": 3500,
-    "height": 2333,
-    "creator": "Anna Tarazevich",
-    "creatorUrl": "https://www.pexels.com/@anntarazevich",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-      "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
-    },
-    {
-      "title": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-      "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
-    },
-    {
       "title": "Literary agents vs the slush pile: slay the myths, keep the process",
-      "url": "https://writequeryhook.com/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
+      "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
     },
     {
-      "title": "Hope and Action for Authors: Two Case Examples of Keeping the Fire Lit",
-      "url": "https://writequeryhook.com/hope-and-action-for-authors-two-case-examples-of-keeping-the-fire-lit"
+      "title": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+      "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
+    },
+    {
+      "title": "Be a good critique partner FAQ",
+      "url": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq"
+    },
+    {
+      "title": "Are you chasing a writing career that fits them, not you?",
+      "url": "https://writequeryhook.com/blog/are-you-chasing-a-writing-career-that-fits-them-not-you"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -426,12 +417,7 @@ const PAGE_DATA = {
       "text": "And if you want your anti-comparison routine to hold across weeks of revision and submission stress, **Query Dashboard** is the kind of tool that keeps the work visible instead of letting \"watching\" eat your time."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-      "url": "https://writequeryhook.com/query-letters/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -459,7 +445,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -471,31 +457,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to stop comparing your writing (and get back to drafting)",
-          "item": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
+          "item": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
       "name": "How to stop comparing your writing (and get back to drafting)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -511,11 +497,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#article",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting",
       "headline": "How to stop comparing your writing (and get back to drafting)",
       "alternativeHeadline": "How to stop comparing your writing (and get back to drafting)",
       "description": "Comparing your writing feels productive for about ten seconds. Then your mood drops, your expression tightens\u2014hello, frown\u2014and your brain starts treating someone else's finished career like a receipt you didn't earn.",
@@ -545,55 +531,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage"
       },
+      "datePublished": "2027-04-12",
+      "dateModified": "2027-04-12",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-          "url": "https://writequeryhook.com/query-letters/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "The Free Articles Slush Mental Game: How to Survive Unpredictable Publishing Without Losing Yourself",
-          "url": "https://writequeryhook.com/the-free-articles-slush-mental-game-how-to-survive-unpredictable-publishing-without-losing-yourself"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Obstacles, overwhelm, and the oracle of Alex vs. \"fix it later\": which mindset saves your writing career?",
-          "url": "https://writequeryhook.com/obstacles-overwhelm-and-the-oracle-of-alex-vs-fix-it-later-which-mindset-saves-your-writing-career"
-        },
-        {
-          "@type": "WebPage",
           "name": "Literary agents vs the slush pile: slay the myths, keep the process",
-          "url": "https://writequeryhook.com/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
+          "url": "https://writequeryhook.com/blog/literary-agents-vs-the-slush-pile-slay-the-myths-keep-the-process"
         },
         {
           "@type": "WebPage",
-          "name": "Hope and Action for Authors: Two Case Examples of Keeping the Fire Lit",
-          "url": "https://writequeryhook.com/hope-and-action-for-authors-two-case-examples-of-keeping-the-fire-lit"
+          "name": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
+          "url": "https://writequeryhook.com/blog/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Be a good critique partner FAQ",
+          "url": "https://writequeryhook.com/blog/be-a-good-critique-partner-faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Are you chasing a writing career that fits them, not you?",
+          "url": "https://writequeryhook.com/blog/are-you-chasing-a-writing-career-that-fits-them-not-you"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_hero_frown_dread_blog_hero_landscape_b71c797ec3c5.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_351/how-to-stop-comparing-your-writing-and-get-back-to-drafting/blog/blog_hero_frown_dread_blog_hero_landscape_b71c797ec3c5.jpeg",
+      "width": 3840,
+      "height": 2160,
       "caption": "blog hero \u00b7 frown dread",
-      "creditText": "joelkirschenbaum",
+      "creditText": "Vitaly Gariev",
       "author": {
         "@type": "Person",
-        "name": "joelkirschenbaum",
-        "url": "https://giphy.com/gifs/no-sad-time-5hvX75idlgYJRLwfZ4"
+        "name": "Vitaly Gariev",
+        "url": "https://www.pexels.com/@silverkblack"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#howto",
       "name": "How to stop comparing your writing (and get back to drafting)",
       "description": "Comparing your writing feels productive for about ten seconds. Then your mood drops, your expression tightens\u2014hello, frown\u2014and your brain starts treating someone else's finished career like a receipt you didn't earn.",
       "totalTime": "PT6M",
@@ -603,42 +586,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Create a comparison interrupt the moment it hits",
           "text": "Catch yourself comparing and interrupt it right when the feeling shows up. Don't wait. Make it physical.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-1-create-a-comparison-interrupt-the-moment-it-hits"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-1-create-a-comparison-interrupt-the-moment-it-hits"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Return to your own page in 10 minutes (before you \"feel ready\")",
           "text": "Motion beats waiting for courage.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-2-return-to-your-own-page-in-10-minutes-before-you-feel-ready"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-2-return-to-your-own-page-in-10-minutes-before-you-feel-ready"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write for 15 minutes without permission (yes, even discouraged)",
           "text": "What you do right now matters more than how you feel about it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-3-write-for-15-minutes-without-permission-yes-even-discouraged"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-3-write-for-15-minutes-without-permission-yes-even-discouraged"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Convert jealousy into craft notes (so admiration earns you something)",
           "text": "If you feel jealousy, don't pretend it's not there. Use it.",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-4-convert-jealousy-into-craft-notes-so-admiration-earns-you-something"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-4-convert-jealousy-into-craft-notes-so-admiration-earns-you-something"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Support other writers without spiraling into \"watching\"",
           "text": "Now the part that separates \"I'm trying\" from \"I'm staying in the room.\"",
-          "url": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-5-support-other-writers-without-spiraling-into-watching"
+          "url": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#step-5-support-other-writers-without-spiraling-into-watching"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-stop-comparing-your-writing-and-get-back-to-drafting#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-stop-comparing-your-writing-and-get-back-to-drafting#faq",
       "mainEntity": [
         {
           "@type": "Question",

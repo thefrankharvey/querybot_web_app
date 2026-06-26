@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common query mistakes aren\u2019t \u201cjust tone\u201d \u2014 they signal what you\u2019ll submit next",
   "description": "You hear it all the time: \u201cIt\u2019s just a query letter. It\u2019s just wording.\u201d Great myth. Because common mistakes aren\u2019t random. They\u2019re signals\u2014to an editor, to an agent, to whoever is actually doing the first read.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-02",
+  "modifiedDate": "2026-07-02",
   "canonicalUrl": "https://writequeryhook.com/blog/common-query-mistakes-aren-t-just-tone-they-signal-what-you-ll-submit-next",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -635,6 +635,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-query-mistakes-aren-t-just-tone-they-signal-what-you-ll-submit-next#primaryimage"
       },
+      "datePublished": "2026-07-02",
+      "dateModified": "2026-07-02",
       "mentions": [
         {
           "@type": "WebPage",

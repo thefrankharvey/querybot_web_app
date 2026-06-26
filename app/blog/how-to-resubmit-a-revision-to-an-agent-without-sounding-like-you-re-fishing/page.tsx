@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
   "description": "The first time an agent rejects your manuscript, it feels personal in a way that\u2019s completely unfair.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
+  "publishedDate": "2027-04-27",
+  "modifiedDate": "2027-04-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_43827733638e.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_43827733638e.jpeg",
     "alt": "blog hero \u00b7 dread cursor-blinking",
-    "width": 200,
-    "height": 200,
-    "creator": "myemotionalsupportanimal",
-    "creatorUrl": "https://giphy.com/gifs/myemotionalsupportanimal-late-night-regret-post-party-anxiety-OUfsG8aZB9D2MFl43Q",
-    "provider": "giphy",
+    "width": 5184,
+    "height": 3456,
+    "creator": "Pixabay",
+    "creatorUrl": "https://www.pexels.com/@pixabay",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-      "item": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+      "item": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
     }
   ],
   "tldrBlocks": [],
@@ -134,13 +134,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_revise_resubmit_blog_section_landscape_310516040971.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_revise_resubmit_blog_section_landscape_310516040971.gif",
         "alt": "When the agent asked for a revise and resubmit, follow the instruction like it\u2019s part of the deal",
-        "width": 6720,
-        "height": 4480,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 253,
+        "height": 200,
+        "creator": "inkygirl",
+        "creatorUrl": "https://giphy.com/gifs/revising-5lESd7gYwNzXQp2nxk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -196,7 +196,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_worry_annoying_blog_section_landscape_a5aba77bc6c3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_worry_annoying_blog_section_landscape_a5aba77bc6c3.jpeg?updatedAt=1782058144358",
         "alt": "Should i resubmit after rejection? Sometimes you try again, and sometimes it\u2019s just \u201cno\u201d again",
         "width": 6000,
         "height": 4000,
@@ -368,43 +368,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_gatekeeping_yes_but_blog_section_landscape_83e9869a93c1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_gatekeeping_yes_but_blog_section_landscape_83e9869a93c1.gif",
         "alt": "Will agents consider revised manuscripts? Some will, some won\u2019t\u2014so aim for \u201ceasy to evaluate,\u201d not \u201ceasy to forgive\u201d",
-        "width": 6000,
-        "height": 4000,
-        "creator": "cottonbro studio",
-        "creatorUrl": "https://www.pexels.com/@cottonbro",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "PixelBandits",
+        "creatorUrl": "https://giphy.com/gifs/PixelBandits-pixel-ghostbusters-bandits-FpYYlsk7yvj7AAGr7i",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_9b52b81e4ee3.gif",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 220,
-    "height": 200,
-    "creator": "DigitalDiscovery",
-    "creatorUrl": "https://giphy.com/gifs/DigitalDiscovery-send-love-heart-like-gTfuupbgULVnptKd95",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     },
     {
       "title": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-      "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+      "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
     },
     {
       "title": "8 steps to a book launch that actually sells",
-      "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+      "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
     },
     {
-      "title": "How to respond to an offer of representation without getting rushed",
-      "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+      "title": "9 best practices for writing a blurb request that gets read (and answered)",
+      "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -447,7 +438,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-      "url": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+      "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
     }
   ]
 } as const;
@@ -477,7 +468,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -489,31 +480,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
-          "item": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
+          "item": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
       "name": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -529,11 +520,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#article",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing",
       "headline": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
       "alternativeHeadline": "How to resubmit a revision to an agent without sounding like you\u2019re fishing",
       "description": "The first time an agent rejects your manuscript, it feels personal in a way that\u2019s completely unfair.",
@@ -563,55 +554,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage"
       },
+      "datePublished": "2027-04-27",
+      "dateModified": "2027-04-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "url": "https://writequeryhook.com/query-letters/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What rights do I sign away in a book deal (and which ones authors usually retain)",
-          "url": "https://writequeryhook.com/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
+          "url": "https://writequeryhook.com/blog/what-rights-do-i-sign-away-in-a-book-deal-and-which-ones-authors-usually-retain"
         },
         {
           "@type": "WebPage",
           "name": "Why publishing takes forever (and why \"radio silence\" often means work is happening)",
-          "url": "https://writequeryhook.com/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
+          "url": "https://writequeryhook.com/blog/why-publishing-takes-forever-and-why-radio-silence-often-means-work-is-happening"
         },
         {
           "@type": "WebPage",
           "name": "8 steps to a book launch that actually sells",
-          "url": "https://writequeryhook.com/8-steps-to-a-book-launch-that-actually-sells"
+          "url": "https://writequeryhook.com/blog/8-steps-to-a-book-launch-that-actually-sells"
         },
         {
           "@type": "WebPage",
-          "name": "How to respond to an offer of representation without getting rushed",
-          "url": "https://writequeryhook.com/how-to-respond-to-an-offer-of-representation-without-getting-rushed"
+          "name": "9 best practices for writing a blurb request that gets read (and answered)",
+          "url": "https://writequeryhook.com/blog/9-best-practices-for-writing-a-blurb-request-that-gets-read-and-answered"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_43827733638e.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_370/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing/blog/blog_hero_dread_cursor_blinking_blog_hero_landscape_43827733638e.jpeg",
+      "width": 5184,
+      "height": 3456,
       "caption": "blog hero \u00b7 dread cursor-blinking",
-      "creditText": "myemotionalsupportanimal",
+      "creditText": "Pixabay",
       "author": {
         "@type": "Person",
-        "name": "myemotionalsupportanimal",
-        "url": "https://giphy.com/gifs/myemotionalsupportanimal-late-night-regret-post-party-anxiety-OUfsG8aZB9D2MFl43Q"
+        "name": "Pixabay",
+        "url": "https://www.pexels.com/@pixabay"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-without-sounding-like-you-re-fishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

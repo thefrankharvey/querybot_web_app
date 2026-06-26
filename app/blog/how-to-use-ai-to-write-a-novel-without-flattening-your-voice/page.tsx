@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to use AI to write a novel without flattening your voice",
   "description": "If you're stuck staring at a blinking cursor, AI can feel like either a lifeboat or a threat. Both reactions are loud. Neither helps you write.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-01",
+  "modifiedDate": "2026-11-01",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-use-ai-to-write-a-novel-without-flattening-your-voice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -543,6 +543,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-use-ai-to-write-a-novel-without-flattening-your-voice#primaryimage"
       },
+      "datePublished": "2026-11-01",
+      "dateModified": "2026-11-01",
       "mentions": [
         {
           "@type": "WebPage",

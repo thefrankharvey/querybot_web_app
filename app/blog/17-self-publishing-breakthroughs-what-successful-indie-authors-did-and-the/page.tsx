@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
   "description": "Most writers don't start self-publishing because they're fearless. They start because traditional routes stall, rejection stacks up, and life keeps happening anyway (day job, family, rent, the whole brutal spreadsheet of reality).",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
+  "publishedDate": "2027-09-17",
+  "modifiedDate": "2027-09-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_hero_dread_rejection_blog_hero_landscape_a75a9c9d2704.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_hero_dread_rejection_blog_hero_landscape_a75a9c9d2704.jpeg",
     "alt": "blog hero \u00b7 dread rejection",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 10800,
+    "height": 6334,
+    "creator": "Monstera Production",
+    "creatorUrl": "https://www.pexels.com/@gabby-k",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "item": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
+      "item": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     }
   ],
   "tldrBlocks": [],
@@ -77,13 +77,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_tldr_blog_section_landscape_3a1e0809d60b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_tldr_blog_section_landscape_3a1e0809d60b.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -130,13 +130,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_proof_option_blog_section_landscape_c54f439b1f20.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_proof_option_blog_section_landscape_c54f439b1f20.jpeg",
         "alt": "Opening \u2014 the context behind \"successful indie authors\"",
-        "width": 200,
-        "height": 200,
-        "creator": "trt_network",
-        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-        "provider": "giphy",
+        "width": 3999,
+        "height": 2666,
+        "creator": "Markus Winkler",
+        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -364,43 +364,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_858fa7707bec.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_858fa7707bec.gif",
         "alt": "Body \u2014 structural breakdown",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_section_image_refresh_eyes_on_draft_blog_section_landscape_f202a537cd76.jpeg",
-    "alt": "blog section image \u00b7 refresh eyes on draft",
-    "width": 3648,
-    "height": 2736,
-    "creator": "Boris Hamer",
-    "creatorUrl": "https://www.pexels.com/@borishamer",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
-      "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
     },
     {
       "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
     },
     {
       "title": "Amazon algorithms for authors: a demystified example of how books get shown",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
     },
     {
-      "title": "7 author branding mistakes that make readers bounce before they read",
-      "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+      "title": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
+      "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -418,7 +409,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-      "url": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     }
   ]
 } as const;
@@ -448,7 +439,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -460,31 +451,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "item": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
+          "item": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#webpage",
-      "url": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
+      "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#webpage",
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
       "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -500,11 +491,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#article",
+      "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#webpage"
+        "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the",
       "headline": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
       "alternativeHeadline": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
       "description": "Most writers don't start self-publishing because they're fearless. They start because traditional routes stall, rejection stacks up, and life keeps happening anyway (day job, family, rent, the whole brutal spreadsheet of reality).",
@@ -534,48 +525,50 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage"
+        "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage"
       },
+      "datePublished": "2027-09-17",
+      "dateModified": "2027-09-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-          "url": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+          "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         },
         {
           "@type": "WebPage",
           "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-          "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
         },
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
         },
         {
           "@type": "WebPage",
-          "name": "7 author branding mistakes that make readers bounce before they read",
-          "url": "https://writequeryhook.com/7-author-branding-mistakes-that-make-readers-bounce-before-they-read"
+          "name": "Copyright a book: 7 registration mistakes that waste money (and leave you weaker than you think)",
+          "url": "https://writequeryhook.com/blog/copyright-a-book-7-registration-mistakes-that-waste-money-and-leave-you-weaker"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_hero_dread_rejection_blog_hero_landscape_a75a9c9d2704.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the/blog/blog_hero_dread_rejection_blog_hero_landscape_a75a9c9d2704.jpeg",
+      "width": 10800,
+      "height": 6334,
       "caption": "blog hero \u00b7 dread rejection",
-      "creditText": "pennydreadful",
+      "creditText": "Monstera Production",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Monstera Production",
+        "url": "https://www.pexels.com/@gabby-k"
       },
       "@context": "https://schema.org"
     }

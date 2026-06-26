@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "One sentence pitch loglines vs longer query alternatives: novels and memoirs",
   "description": "Every querying writer eventually hits the same wall: you\u2019ve got a story that actually happened in your head, and then your logline shows up on the page looking like \u201cthree things that are vaguely related.\u201d Like, yes, there are words. No, it doesn\u2019t have teeth.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-05",
+  "modifiedDate": "2026-08-05",
   "canonicalUrl": "https://writequeryhook.com/blog/one-sentence-pitch-loglines-vs-longer-query-alternatives-novels-and-memoirs",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -587,6 +587,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/one-sentence-pitch-loglines-vs-longer-query-alternatives-novels-and-memoirs#primaryimage"
       },
+      "datePublished": "2026-08-05",
+      "dateModified": "2026-08-05",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "8 tips for writing a non-fiction query letter that sells why your book matters",
   "description": "If your non-fiction query letter reads like a brochure (\u201cHere\u2019s what the book is about\u201d), it disappears into the slush pile like wet paper. Agents don\u2019t need your plot summary. They need a reason to keep reading and a reason you\u2019re the right person to deliver the book.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-29",
+  "modifiedDate": "2026-06-29",
   "canonicalUrl": "https://writequeryhook.com/blog/8-tips-for-writing-a-non-fiction-query-letter-that-sells-why-your-book-matters",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -625,6 +625,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/8-tips-for-writing-a-non-fiction-query-letter-that-sells-why-your-book-matters#primaryimage"
       },
+      "datePublished": "2026-06-29",
+      "dateModified": "2026-06-29",
       "mentions": [
         {
           "@type": "WebPage",

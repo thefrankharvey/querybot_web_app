@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to craft an author bio that connects (and doesn't read like a r\u00e9sum\u00e9)",
   "description": "Your About page is often the first or second page visitors click. That means your author bio isn't \"extra.\" It's the handshake. And too many bios fail the handshake test because they read like a r\u00e9sum\u00e9 someone forgot to personalize.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-18",
+  "modifiedDate": "2026-08-18",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-craft-an-author-bio-that-connects-and-doesn-t-read-like-a-resume",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -544,6 +544,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-craft-an-author-bio-that-connects-and-doesn-t-read-like-a-resume#primaryimage"
       },
+      "datePublished": "2026-08-18",
+      "dateModified": "2026-08-18",
       "mentions": [
         {
           "@type": "WebPage",

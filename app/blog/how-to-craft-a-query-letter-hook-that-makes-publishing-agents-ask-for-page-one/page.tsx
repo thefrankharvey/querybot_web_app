@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to craft a query letter hook that makes publishing agents ask for page one",
   "description": "Most writers treat the query letter like a polite fact-sheet. Then they wonder why publishing agents don't read the manuscript they supposedly loved in their own head.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-26",
+  "modifiedDate": "2026-06-26",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-craft-a-query-letter-hook-that-makes-publishing-agents-ask-for-page-one",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -540,6 +540,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-craft-a-query-letter-hook-that-makes-publishing-agents-ask-for-page-one#primaryimage"
       },
+      "datePublished": "2026-06-26",
+      "dateModified": "2026-06-26",
       "mentions": [
         {
           "@type": "WebPage",

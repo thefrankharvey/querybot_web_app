@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Descriptions vs alternatives: cut the choreography and save the pace",
   "description": "Writers don't usually mean to ruin pacing. They just get seduced by the part where a sentence feels gorgeous. Then the scene starts dragging\u2014because they wrote a movement lecture instead of a story.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-17",
+  "modifiedDate": "2027-01-17",
   "canonicalUrl": "https://writequeryhook.com/blog/descriptions-vs-alternatives-cut-the-choreography-and-save-the-pace",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -578,6 +578,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/descriptions-vs-alternatives-cut-the-choreography-and-save-the-pace#primaryimage"
       },
+      "datePublished": "2027-01-17",
+      "dateModified": "2027-01-17",
       "mentions": [
         {
           "@type": "WebPage",

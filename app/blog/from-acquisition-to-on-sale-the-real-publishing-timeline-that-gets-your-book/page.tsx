@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
   "description": "A lot of authors think the contract is the \"start date.\" Like, once the ink dries, their book should be in stores before they've finished celebrating. I get the impulse. It's also how writers end up confused, stressed, and weirdly unprepared for what happens next.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
+  "publishedDate": "2027-06-24",
+  "modifiedDate": "2027-06-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_hero_skeptical_blindsided_blog_hero_landscape_5c73804f2937.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_hero_skeptical_blindsided_blog_hero_landscape_5c73804f2937.jpeg",
     "alt": "blog hero \u00b7 skeptical blindsided",
-    "width": 266,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/confused-futurama-suspicious-ANbD1CCdA3iI8",
-    "provider": "giphy",
+    "width": 8688,
+    "height": 5792,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-      "item": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+      "item": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
     }
   ],
   "tldrBlocks": [],
@@ -103,13 +103,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_opening_subject_context_blog_section_landscape_eacb08a16bf3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_opening_subject_context_blog_section_landscape_eacb08a16bf3.gif",
         "alt": "Opening \u2014 subject context",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -121,13 +121,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_9020ed9d3bcc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_9020ed9d3bcc.jpeg",
         "alt": "Body \u2014 structural breakdown",
-        "width": 296,
-        "height": 200,
-        "creator": "TreehouseDirect",
-        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
-        "provider": "giphy",
+        "width": 4752,
+        "height": 3168,
+        "creator": "Pixabay",
+        "creatorUrl": "https://www.pexels.com/@pixabay",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -184,13 +184,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_contract_dread_blog_section_landscape_3787e9632373.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_contract_dread_blog_section_landscape_3787e9632373.gif",
         "alt": "Contract is not the finish line",
-        "width": 6241,
-        "height": 4161,
-        "creator": "RDNE Stock project",
-        "creatorUrl": "https://www.pexels.com/@rdne",
-        "provider": "pexels",
+        "width": 266,
+        "height": 200,
+        "creator": "heyarnold",
+        "creatorUrl": "https://giphy.com/gifs/heyarnold-hey-arnold-nick-splat-xT1Ra0jTvNdbobCImY",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -362,32 +362,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_section_image_final_draft_breathe_blog_section_landscape_27890b05b22b.jpeg",
-    "alt": "blog section image \u00b7 final draft breathe",
-    "width": 6720,
-    "height": 4480,
-    "creator": "Cup of  Couple",
-    "creatorUrl": "https://www.pexels.com/@cup-of-couple",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-      "url": "https://writequeryhook.com/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions-negotiate-and-keep-the-deal-moving"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
     },
     {
       "title": "How an aspiring author actually gets a book published: the real steps (with examples)",
-      "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
+      "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
     },
     {
-      "title": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-      "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
+      "title": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
+      "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
     },
     {
-      "title": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-      "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+      "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -423,12 +414,7 @@ const PAGE_DATA = {
       "text": "Now look at your own draft calendar: what are you doing this month that will make the revision loop boring in the best way\u2014fast, clear, and responsive?"
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-      "url": "https://writequeryhook.com/query-letters/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -456,7 +442,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -468,31 +454,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
-          "item": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
+          "item": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#webpage",
-      "url": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
+      "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#webpage",
+      "url": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
       "name": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -508,11 +494,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#article",
+      "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#webpage"
+        "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book",
       "headline": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
       "alternativeHeadline": "From acquisition to on-sale: the real publishing timeline that gets your book to shelves",
       "description": "A lot of authors think the contract is the \"start date.\" Like, once the ink dries, their book should be in stores before they've finished celebrating. I get the impulse. It's also how writers end up confused, stressed, and weirdly unprepared for what happens next.",
@@ -542,55 +528,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage"
+        "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage"
       },
+      "datePublished": "2027-06-24",
+      "dateModified": "2027-06-24",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What is Kindle Vella (and should you join if you care about payouts and rules)?",
-          "url": "https://writequeryhook.com/query-letters/what-is-kindle-vella-and-should-you-join-if-you-care-about-payouts-and-rules"
-        },
-        {
-          "@type": "WebPage",
           "name": "What literary agents actually do (step by step) when they filter submissions, negotiate, and keep the deal moving",
-          "url": "https://writequeryhook.com/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions-negotiate-and-keep-the-deal-moving"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-actually-do-step-by-step-when-they-filter-submissions"
         },
         {
           "@type": "WebPage",
           "name": "How an aspiring author actually gets a book published: the real steps (with examples)",
-          "url": "https://writequeryhook.com/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with-examples"
+          "url": "https://writequeryhook.com/blog/how-an-aspiring-author-actually-gets-a-book-published-the-real-steps-with"
         },
         {
           "@type": "WebPage",
-          "name": "A publishing contract is a permissions map\u2014here\u2019s how the territory, rights, and money parts work",
-          "url": "https://writequeryhook.com/a-publishing-contract-is-a-permissions-map-here-s-how-the-territory-rights-and-money-parts-work"
+          "name": "7 book-publishing mistakes that keep aspiring authors stuck (and what to do instead)",
+          "url": "https://writequeryhook.com/blog/7-book-publishing-mistakes-that-keep-aspiring-authors-stuck-and-what-to-do"
         },
         {
           "@type": "WebPage",
-          "name": "5 publishing contract mistakes that wreck territory, money, and control (yes, even in \"exclusive\" deals)",
-          "url": "https://writequeryhook.com/5-publishing-contract-mistakes-that-wreck-territory-money-and-control-yes-even-in-exclusive-deals"
+          "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
+          "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_hero_skeptical_blindsided_blog_hero_landscape_5c73804f2937.gif",
-      "width": 266,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_445/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book/blog/blog_hero_skeptical_blindsided_blog_hero_landscape_5c73804f2937.jpeg",
+      "width": 8688,
+      "height": 5792,
       "caption": "blog hero \u00b7 skeptical blindsided",
-      "creditText": "Giphy",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/confused-futurama-suspicious-ANbD1CCdA3iI8"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#faq",
+      "@id": "https://writequeryhook.com/blog/from-acquisition-to-on-sale-the-real-publishing-timeline-that-gets-your-book#faq",
       "mainEntity": [
         {
           "@type": "Question",

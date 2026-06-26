@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for copyrighting a book: what to protect, and whether to register",
   "description": "You write the book. Then you run into the same wall every time: copyright language that sounds simple in one sentence and turns into a maze the moment you click \"start application.\"",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
+  "publishedDate": "2027-10-25",
+  "modifiedDate": "2027-10-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+      "item": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
     }
   ],
   "tldrBlocks": [],
@@ -299,20 +299,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-      "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
-    },
-    {
       "title": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-      "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+      "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
     },
     {
-      "title": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-      "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
+      "title": "How to decide if you need a cover designer and a formatter (and who to hire)",
+      "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
     },
     {
       "title": "Great book title vs safer alternatives: pick the one that sells",
-      "url": "https://writequeryhook.com/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+      "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+    },
+    {
+      "title": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
+      "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -347,7 +347,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips self-published authors use to turn early readers into real publishing success",
-      "url": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
+      "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
     }
   ]
 } as const;
@@ -377,7 +377,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -389,31 +389,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for copyrighting a book: what to protect, and whether to register",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
+          "item": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
       "name": "5 tips for copyrighting a book: what to protect, and whether to register",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -429,11 +429,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register",
       "headline": "5 tips for copyrighting a book: what to protect, and whether to register",
       "alternativeHeadline": "5 tips for copyrighting a book: what to protect, and whether to register",
       "description": "You write the book. Then you run into the same wall every time: copyright language that sounds simple in one sentence and turns into a maze the moment you click \"start application.\"",
@@ -463,39 +463,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage"
       },
+      "datePublished": "2027-10-25",
+      "dateModified": "2027-10-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips self-published authors use to turn early readers into real publishing success",
-          "url": "https://writequeryhook.com/query-letters/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 cost traps that make self-publishing budgets explode in 2025 (and how to plan around them)",
-          "url": "https://writequeryhook.com/5-cost-traps-that-make-self-publishing-budgets-explode-in-2025-and-how-to-plan-around-them"
+          "url": "https://writequeryhook.com/blog/5-tips-self-published-authors-use-to-turn-early-readers-into-real-publishing"
         },
         {
           "@type": "WebPage",
           "name": "How to word count for novels and children's books (the definitive \"how long should it be?\" method)",
-          "url": "https://writequeryhook.com/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long-should-it-be-method"
+          "url": "https://writequeryhook.com/blog/how-to-word-count-for-novels-and-children-s-books-the-definitive-how-long"
         },
         {
           "@type": "WebPage",
-          "name": "How to Choose What Type of Novel to Write (Genre, Literary, or Mainstream)",
-          "url": "https://writequeryhook.com/how-to-choose-what-type-of-novel-to-write-genre-literary-or-mainstream"
+          "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
         },
         {
           "@type": "WebPage",
           "name": "Great book title vs safer alternatives: pick the one that sells",
-          "url": "https://writequeryhook.com/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+          "url": "https://writequeryhook.com/blog/great-book-title-vs-safer-alternatives-pick-the-one-that-sells"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Literary agent cost examples: what legitimate fees look like (and what doesn\u2019t)",
+          "url": "https://writequeryhook.com/blog/literary-agent-cost-examples-what-legitimate-fees-look-like-and-what-doesn-t"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_592/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register/blog/blog_hero_dread_overwhelmed_blog_hero_landscape_72acbe5a4b7d.gif",
       "width": 200,
       "height": 200,
@@ -511,7 +513,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-copyrighting-a-book-what-to-protect-and-whether-to-register#faq",
       "mainEntity": [
         {
           "@type": "Question",

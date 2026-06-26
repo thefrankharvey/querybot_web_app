@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to brand yourself as an author (so people actually recognize you and buy again)",
   "description": "Most authors think \u201cbranding\u201d is for big businesses with sleek offices and a marketing team that costs more than their first draft.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
+  "publishedDate": "2027-06-16",
+  "modifiedDate": "2027-06-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_hero_uncomfortable_myth_blog_hero_landscape_bf102e49fe81.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_hero_uncomfortable_myth_blog_hero_landscape_bf102e49fe81.jpeg?updatedAt=1782222361494",
     "alt": "blog hero \u00b7 uncomfortable myth",
     "width": 6240,
     "height": 4160,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-      "item": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
+      "item": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
     }
   ],
   "tldrBlocks": [],
@@ -200,7 +200,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_uneven_visuals_mismatched_fonts_blog_section_landscape_1ea9d9d2b00a.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_uneven_visuals_mismatched_fonts_blog_section_landscape_1ea9d9d2b00a.gif?updatedAt=1782222362208",
         "alt": "Step 2: Turn your message into visual consistency (create an author style guide for visuals)",
         "width": 373,
         "height": 200,
@@ -277,7 +277,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_tagline_brevity_blog_section_landscape_ce4c603a98d5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_tagline_brevity_blog_section_landscape_ce4c603a98d5.gif?updatedAt=1782222370913",
         "alt": "Step 3: Write an author tagline that says what readers should expect next",
         "width": 200,
         "height": 200,
@@ -406,7 +406,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_audit_catch_inconsistencies_blog_section_landscape_e1db5b49aa46.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_audit_catch_inconsistencies_blog_section_landscape_e1db5b49aa46.jpeg?updatedAt=1782222372169",
         "alt": "Step 5: Run a brand audit before you post or publish anything new",
         "width": 10800,
         "height": 6334,
@@ -417,32 +417,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_section_image_do_it_now_publication_prep_blog_section_landscape_bc92ccc247b7.jpeg",
-    "alt": "blog section image \u00b7 do it now publication prep",
-    "width": 5746,
-    "height": 3831,
-    "creator": "Ann H",
-    "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     },
     {
       "title": "Author promotion vs book promotion: stop treating them like the same job",
-      "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     },
     {
       "title": "Book fairs vs book festivals: which event matches your goal?",
-      "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     },
     {
-      "title": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-      "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+      "title": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
+      "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -472,7 +463,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-      "url": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+      "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
     }
   ]
 } as const;
@@ -502,7 +493,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -514,31 +505,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
-          "item": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
+          "item": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
       "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -554,11 +545,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#article",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy",
       "headline": "How to brand yourself as an author (so people actually recognize you and buy again)",
       "alternativeHeadline": "How to brand yourself as an author (so people actually recognize you and buy again)",
       "description": "Most authors think \u201cbranding\u201d is for big businesses with sleek offices and a marketing team that costs more than their first draft.",
@@ -588,40 +579,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage"
       },
+      "datePublished": "2027-06-16",
+      "dateModified": "2027-06-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "url": "https://writequeryhook.com/query-letters/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Why author platform is not twitter followers\u2014and the off-social ways to build it",
-          "url": "https://writequeryhook.com/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
+          "url": "https://writequeryhook.com/blog/why-author-platform-is-not-twitter-followers-and-the-off-social-ways-to-build-it"
         },
         {
           "@type": "WebPage",
           "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "url": "https://writequeryhook.com/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+          "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         },
         {
           "@type": "WebPage",
           "name": "Book fairs vs book festivals: which event matches your goal?",
-          "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+          "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
         },
         {
           "@type": "WebPage",
-          "name": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-          "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+          "name": "What Is a Small Press in Publishing\u2014and Should Authors Use Them?",
+          "url": "https://writequeryhook.com/blog/what-is-a-small-press-in-publishing-and-should-authors-use-them"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_hero_uncomfortable_myth_blog_hero_landscape_bf102e49fe81.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_435/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy/blog/blog_hero_uncomfortable_myth_blog_hero_landscape_bf102e49fe81.jpeg?updatedAt=1782222361494",
       "width": 6240,
       "height": 4160,
       "caption": "blog hero \u00b7 uncomfortable myth",
@@ -636,7 +624,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#howto",
       "name": "How to brand yourself as an author (so people actually recognize you and buy again)",
       "description": "Most authors think \u201cbranding\u201d is for big businesses with sleek offices and a marketing team that costs more than their first draft.",
       "totalTime": "PT7M",
@@ -646,49 +634,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "TLDR",
           "text": "TLDR",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#tldr"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#tldr"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 1: Define your core message (genre + reader + difference)",
           "text": "Start here because everything else is downstream.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-1-define-your-core-message-genre-reader-difference"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-1-define-your-core-message-genre-reader-difference"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 2: Turn your message into visual consistency (create an author style guide for visuals)",
           "text": "Now stop trusting your instincts to guess what looks consistent.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-2-turn-your-message-into-visual-consistency-create-an-author-style-guide"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-2-turn-your-message-into-visual-consistency-create-an-author-style-guide"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 3: Write an author tagline that says what readers should expect next",
           "text": "Your tagline does one job: it turns your message into a sentence someone can understand immediately.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-3-write-an-author-tagline-that-says-what-readers-should-expect-next"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-3-write-an-author-tagline-that-says-what-readers-should-expect-next"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 4: Build the assets people expect (logo, headshot, website, media kit)",
           "text": "Branding is not an idea. Branding is assets.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-4-build-the-assets-people-expect-logo-headshot-website-media-kit"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-4-build-the-assets-people-expect-logo-headshot-website-media-kit"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 5: Run a brand audit before you post or publish anything new",
           "text": "This is the step most people skip because they assume the internet is forgiving. It isn\u2019t. Consistency failures are loud.",
-          "url": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-5-run-a-brand-audit-before-you-post-or-publish-anything-new"
+          "url": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#step-5-run-a-brand-audit-before-you-post-or-publish-anything-new"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-brand-yourself-as-an-author-so-people-actually-recognize-you-and-buy#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Author promotion vs book promotion: stop treating them like the same job",
   "description": "A lot of writers treat author promotion and book promotion like interchangeable verbs. They\u2019re not. One is a calendar-based sprint. The other is a slow compounding engine that makes the sprint matter.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
+  "publishedDate": "2027-06-14",
+  "modifiedDate": "2027-06-14",
+  "canonicalUrl": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_hero_confusion_shouting_blog_hero_landscape_e81a6f6ca46f.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_hero_confusion_shouting_blog_hero_landscape_e81a6f6ca46f.jpeg",
     "alt": "blog hero \u00b7 confusion shouting",
-    "width": 226,
-    "height": 200,
-    "creator": "Thestrongtoothbrush",
-    "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-    "provider": "giphy",
+    "width": 4272,
+    "height": 2848,
+    "creator": "Atul Choudhary",
+    "creatorUrl": "https://www.pexels.com/@atulchoudharya9",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Author promotion vs book promotion: stop treating them like the same job",
-      "item": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+      "item": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     }
   ],
   "tldrBlocks": [],
@@ -102,13 +102,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_opening_blog_section_landscape_78751b555d48.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_opening_blog_section_landscape_78751b555d48.jpeg",
         "alt": "Opening",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -120,13 +120,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_body_blog_section_landscape_c59cff3b7067.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_body_blog_section_landscape_c59cff3b7067.gif",
         "alt": "Body",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -229,13 +229,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_long_game_consistency_blog_section_landscape_543e86225775.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_long_game_consistency_blog_section_landscape_543e86225775.gif",
         "alt": "how to build an author platform without lighting money on fire",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 373,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/jumanji-uN9YQre5kQQWA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -327,13 +327,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_long_game_consistency_blog_section_landscape_543e86225775.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_long_game_consistency_blog_section_landscape_543e86225775.gif",
         "alt": "how to build an author platform without lighting money on fire",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 373,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/jumanji-uN9YQre5kQQWA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -421,32 +421,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_section_image_decision_pick_a_lane_then_blend_blog_section_landscape_f961e8fa119c.jpeg",
-    "alt": "blog section image \u00b7 decision pick a lane (then blend)",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Jef K",
-    "creatorUrl": "https://www.pexels.com/@jef-k-1518692548",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Book fairs vs book festivals: which event matches your goal?",
-      "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
-    },
-    {
-      "title": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-      "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     },
     {
       "title": "What are subsidiary rights in publishing? FAQ",
-      "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+      "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
     },
     {
       "title": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-      "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+      "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+    },
+    {
+      "title": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+      "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -481,7 +472,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Book fairs vs book festivals: which event matches your goal?",
-      "url": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal"
+      "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
     }
   ]
 } as const;
@@ -511,7 +502,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -523,31 +514,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Author promotion vs book promotion: stop treating them like the same job",
-          "item": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
+          "item": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#webpage",
-      "url": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
+      "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#webpage",
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
       "name": "Author promotion vs book promotion: stop treating them like the same job",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -563,11 +554,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#article",
+      "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#webpage"
+        "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job",
       "headline": "Author promotion vs book promotion: stop treating them like the same job",
       "alternativeHeadline": "Author promotion vs book promotion: stop treating them like the same job",
       "description": "A lot of writers treat author promotion and book promotion like interchangeable verbs. They\u2019re not. One is a calendar-based sprint. The other is a slow compounding engine that makes the sprint matter.",
@@ -597,55 +588,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage"
+        "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage"
       },
+      "datePublished": "2027-06-14",
+      "dateModified": "2027-06-14",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Book fairs vs book festivals: which event matches your goal?",
-          "url": "https://writequeryhook.com/query-letters/book-fairs-vs-book-festivals-which-event-matches-your-goal"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Book fairs vs book festivals: which event matches your goal?",
-          "url": "https://writequeryhook.com/book-fairs-vs-book-festivals-which-event-matches-your-goal"
-        },
-        {
-          "@type": "WebPage",
-          "name": "MFA vs New York publishing: which one actually makes you able to sell the book?",
-          "url": "https://writequeryhook.com/mfa-vs-new-york-publishing-which-one-actually-makes-you-able-to-sell-the-book"
+          "url": "https://writequeryhook.com/blog/book-fairs-vs-book-festivals-which-event-matches-your-goal"
         },
         {
           "@type": "WebPage",
           "name": "What are subsidiary rights in publishing? FAQ",
-          "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+          "url": "https://writequeryhook.com/blog/what-are-subsidiary-rights-in-publishing-faq"
         },
         {
           "@type": "WebPage",
           "name": "Author Platform FAQ: What It Means and What Publishers Actually Want",
-          "url": "https://writequeryhook.com/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+          "url": "https://writequeryhook.com/blog/author-platform-faq-what-it-means-and-what-publishers-actually-want"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How to make a cinematic book trailer: a breakdown of the hook, script, and edits that sell",
+          "url": "https://writequeryhook.com/blog/how-to-make-a-cinematic-book-trailer-a-breakdown-of-the-hook-script-and-edits"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_hero_confusion_shouting_blog_hero_landscape_e81a6f6ca46f.gif",
-      "width": 226,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_434/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job/blog/blog_hero_confusion_shouting_blog_hero_landscape_e81a6f6ca46f.jpeg",
+      "width": 4272,
+      "height": 2848,
       "caption": "blog hero \u00b7 confusion shouting",
-      "creditText": "Thestrongtoothbrush",
+      "creditText": "Atul Choudhary",
       "author": {
         "@type": "Person",
-        "name": "Thestrongtoothbrush",
-        "url": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22"
+        "name": "Atul Choudhary",
+        "url": "https://www.pexels.com/@atulchoudharya9"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#faq",
+      "@id": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job#faq",
       "mainEntity": [
         {
           "@type": "Question",

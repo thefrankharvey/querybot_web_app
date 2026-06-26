@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Dual timeline, dual POV structure examples: how the cadence prevents whiplash",
   "description": "Dual timeline, dual POV stories are where drafts go from \"cool idea\" to \"why am I confused?\" fast. One paragraph, you're in a character's head. The next, you're in a different character's past, wondering who owns this scene's emotions and why the timeline feels like it's shrugging and moving on.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-11",
+  "modifiedDate": "2026-12-11",
   "canonicalUrl": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-examples-how-the-cadence-prevents-whiplash",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -746,6 +746,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/dual-timeline-dual-pov-structure-examples-how-the-cadence-prevents-whiplash#primaryimage"
       },
+      "datePublished": "2026-12-11",
+      "dateModified": "2026-12-11",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
   "description": "Most writers treat publishing like it has one money button: \"the main deal.\" Then they wonder why revenue keeps showing up as a foggy rumor in contracts, emails, and post-publication updates. This FAQ is the boring-but-useful translation layer for subrights, co-editions, ebooks, and genre\u2014especially when you're in graphic novels and you're trying to pitch with realism, not wishful thinking.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
+  "publishedDate": "2027-09-16",
+  "modifiedDate": "2027-09-16",
+  "canonicalUrl": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_hero_confused_spreadsheet_dread_blog_hero_landscape_1b597a4a1a6f.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_hero_confused_spreadsheet_dread_blog_hero_landscape_1b597a4a1a6f.jpeg?updatedAt=1782332432422",
     "alt": "blog hero \u00b7 confused spreadsheet dread",
     "width": 7008,
     "height": 4672,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-      "item": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+      "item": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
     }
   ],
   "tldrBlocks": [],
@@ -106,7 +106,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_revenue_rights_blog_section_landscape_4e3352c3d732.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_revenue_rights_blog_section_landscape_4e3352c3d732.gif?updatedAt=1782332433243",
         "alt": "What does it mean to focus on subrights and co-editions?",
         "width": 200,
         "height": 200,
@@ -218,7 +218,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_rejection_waiting_blog_section_landscape_a1b93a072a61.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_rejection_waiting_blog_section_landscape_a1b93a072a61.jpeg?updatedAt=1782332433813",
         "alt": "Do agents represent everyone, and what does that mean for submissions?",
         "width": 6000,
         "height": 4000,
@@ -271,13 +271,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_conflict_notes_churn_blog_section_landscape_cb3d105fd7db.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_conflict_notes_churn_blog_section_landscape_cb3d105fd7db.gif",
         "alt": "What happens when an agent and editor disagree on revisions?",
-        "width": 6240,
-        "height": 4160,
-        "creator": "Anete Lusina",
-        "creatorUrl": "https://www.pexels.com/@anete-lusina",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "wwe",
+        "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -300,32 +300,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_section_image_practical_next_step_pitch_prep_blog_section_landscape_a5a7db95e248.gif",
-    "alt": "blog section image \u00b7 practical next step pitch prep",
-    "width": 526,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/lions-12mX8YzVVmomuA",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     },
     {
       "title": "Copyright a book: what the process actually looks like (and why registration still matters)",
-      "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+      "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
     },
     {
       "title": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-      "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+      "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
     },
     {
       "title": "Amazon algorithms for authors: a demystified example of how books get shown",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -343,7 +334,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-      "url": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
+      "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
     }
   ]
 } as const;
@@ -373,7 +364,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -385,31 +376,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
-          "item": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
+          "item": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
+      "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#webpage",
+      "url": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
       "name": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -425,11 +416,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#article",
+      "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq",
       "headline": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
       "alternativeHeadline": "Subrights, co-editions, and genre fit for sci-fi graphic novels: agent FAQ",
       "description": "Most writers treat publishing like it has one money button: \"the main deal.\" Then they wonder why revenue keeps showing up as a foggy rumor in contracts, emails, and post-publication updates. This FAQ is the boring-but-useful translation layer for subrights, co-editions, ebooks, and genre\u2014especially when you're in graphic novels and you're trying to pitch with realism, not wishful thinking.",
@@ -459,40 +450,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage"
       },
+      "datePublished": "2027-09-16",
+      "dateModified": "2027-09-16",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "url": "https://writequeryhook.com/query-letters/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
-        },
-        {
-          "@type": "WebPage",
-          "name": "17 self-publishing breakthroughs: what successful indie authors did (and the mechanics you can copy)",
-          "url": "https://writequeryhook.com/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the-mechanics-you-can-copy"
+          "url": "https://writequeryhook.com/blog/17-self-publishing-breakthroughs-what-successful-indie-authors-did-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Copyright a book: what the process actually looks like (and why registration still matters)",
-          "url": "https://writequeryhook.com/copyright-a-book-what-the-process-actually-looks-like-and-why-registration-still-matters"
+          "url": "https://writequeryhook.com/blog/copyright-a-book-what-the-process-actually-looks-like-and-why-registration"
         },
         {
           "@type": "WebPage",
           "name": "How much does it cost to publish a book in 2025? A self-publishing budget breakdown",
-          "url": "https://writequeryhook.com/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget-breakdown"
+          "url": "https://writequeryhook.com/blog/how-much-does-it-cost-to-publish-a-book-in-2025-a-self-publishing-budget"
         },
         {
           "@type": "WebPage",
           "name": "Amazon algorithms for authors: a demystified example of how books get shown",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-a-demystified-example-of-how-books-get-shown"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_hero_confused_spreadsheet_dread_blog_hero_landscape_1b597a4a1a6f.jpeg",
+      "@id": "https://writequeryhook.com/blog/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_543/subrights-co-editions-and-genre-fit-for-sci-fi-graphic-novels-agent-faq/blog/blog_hero_confused_spreadsheet_dread_blog_hero_landscape_1b597a4a1a6f.jpeg?updatedAt=1782332432422",
       "width": 7008,
       "height": 4672,
       "caption": "blog hero \u00b7 confused spreadsheet dread",

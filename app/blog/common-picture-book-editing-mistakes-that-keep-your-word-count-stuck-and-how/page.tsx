@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common picture book editing mistakes that keep your word count stuck (and how to fix them)",
   "description": "Picture book manuscripts are weirdly merciless: the words have to be tight, but they're not the whole story. Illustrations carry narrative load that text alone can't replace.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-21",
+  "modifiedDate": "2026-12-21",
   "canonicalUrl": "https://writequeryhook.com/blog/common-picture-book-editing-mistakes-that-keep-your-word-count-stuck-and-how",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -607,6 +607,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-picture-book-editing-mistakes-that-keep-your-word-count-stuck-and-how#primaryimage"
       },
+      "datePublished": "2026-12-21",
+      "dateModified": "2026-12-21",
       "mentions": [
         {
           "@type": "WebPage",

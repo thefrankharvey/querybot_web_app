@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Publishing myths that ignore printing, distribution, and wholesale",
   "description": "You can write a book that punches through walls\u2014and still watch it vanish between \"finished manuscript\" and \"shelves.\"",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale",
+  "publishedDate": "2027-10-29",
+  "modifiedDate": "2027-10-29",
+  "canonicalUrl": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Publishing myths that ignore printing, distribution, and wholesale",
-      "item": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+      "item": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
     }
   ],
   "tldrBlocks": [],
@@ -410,19 +410,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-      "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+      "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
     },
     {
       "title": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-      "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+      "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
     },
     {
       "title": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-      "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+      "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
     },
     {
-      "title": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-      "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+      "title": "How to decide if you need a cover designer and a formatter (and who to hire)",
+      "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -461,7 +461,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-      "url": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
+      "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
     }
   ]
 } as const;
@@ -491,7 +491,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -503,31 +503,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Publishing myths that ignore printing, distribution, and wholesale",
-          "item": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale"
+          "item": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#webpage",
-      "url": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#webpage",
+      "url": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale",
       "name": "Publishing myths that ignore printing, distribution, and wholesale",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -543,11 +543,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#article",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#webpage"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale",
       "headline": "Publishing myths that ignore printing, distribution, and wholesale",
       "alternativeHeadline": "Publishing myths that ignore printing, distribution, and wholesale",
       "description": "You can write a book that punches through walls\u2014and still watch it vanish between \"finished manuscript\" and \"shelves.\"",
@@ -577,39 +577,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage"
+        "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage"
       },
+      "datePublished": "2027-10-29",
+      "dateModified": "2027-10-29",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Novel series mistakes to avoid: the contrarian way to land book one (and still promise book two)",
-          "url": "https://writequeryhook.com/query-letters/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
+          "url": "https://writequeryhook.com/blog/novel-series-mistakes-to-avoid-the-contrarian-way-to-land-book-one-and-still"
         },
         {
           "@type": "WebPage",
           "name": "Romance publishing: common \"snob\" mistakes that make you misread why it sells",
-          "url": "https://writequeryhook.com/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
+          "url": "https://writequeryhook.com/blog/romance-publishing-common-snob-mistakes-that-make-you-misread-why-it-sells"
         },
         {
           "@type": "WebPage",
           "name": "Do publishers ever read for fun? The real reason pleasure gets eaten at work",
-          "url": "https://writequeryhook.com/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
+          "url": "https://writequeryhook.com/blog/do-publishers-ever-read-for-fun-the-real-reason-pleasure-gets-eaten-at-work"
         },
         {
           "@type": "WebPage",
           "name": "Copyright requires human authorship\u2014so read the fine print on what \"AI-assisted\" actually means",
-          "url": "https://writequeryhook.com/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted-actually-means"
+          "url": "https://writequeryhook.com/blog/copyright-requires-human-authorship-so-read-the-fine-print-on-what-ai-assisted"
         },
         {
           "@type": "WebPage",
-          "name": "Your TBR Isn't for Browsing\u2014It's for Finishing (So Your Writing Learns Something)",
-          "url": "https://writequeryhook.com/your-tbr-isn-t-for-browsing-it-s-for-finishing-so-your-writing-learns-something"
+          "name": "How to decide if you need a cover designer and a formatter (and who to hire)",
+          "url": "https://writequeryhook.com/blog/how-to-decide-if-you-need-a-cover-designer-and-a-formatter-and-who-to-hire"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_43/day_596/publishing-myths-that-ignore-printing-distribution-and-wholesale/blog/blog_hero_myth_glamour_blog_hero_landscape_fe8f32042819.jpeg",
       "width": 6000,
       "height": 4000,
@@ -625,7 +627,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/publishing-myths-that-ignore-printing-distribution-and-wholesale#faq",
+      "@id": "https://writequeryhook.com/blog/publishing-myths-that-ignore-printing-distribution-and-wholesale#faq",
       "mainEntity": [
         {
           "@type": "Question",

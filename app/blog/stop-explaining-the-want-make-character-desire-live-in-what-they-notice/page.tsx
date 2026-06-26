@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Explaining the Want: Make Character Desire Live in What They Notice",
   "description": "Writers keep trying to rescue the scene by doing a little \"feelings speech\" in the margins. The character stares at something, then the narration suddenly becomes a therapist with perfect handwriting: This is what they want.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-31",
+  "modifiedDate": "2026-12-31",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-explaining-the-want-make-character-desire-live-in-what-they-notice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -667,6 +667,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-explaining-the-want-make-character-desire-live-in-what-they-notice#primaryimage"
       },
+      "datePublished": "2026-12-31",
+      "dateModified": "2026-12-31",
       "mentions": [
         {
           "@type": "WebPage",

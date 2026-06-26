@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "In medias res vs alternatives: which opening technique actually keeps readers turning pages",
   "description": "Writers keep trying to choose an opening like it's a menu item: do we start at the beginning, or do we start with the big moment, or do we \"just\" do a prologue?",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-06",
+  "modifiedDate": "2027-01-06",
   "canonicalUrl": "https://writequeryhook.com/blog/in-medias-res-vs-alternatives-which-opening-technique-actually-keeps-readers",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -702,6 +702,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/in-medias-res-vs-alternatives-which-opening-technique-actually-keeps-readers#primaryimage"
       },
+      "datePublished": "2027-01-06",
+      "dateModified": "2027-01-06",
       "mentions": [
         {
           "@type": "WebPage",

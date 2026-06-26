@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a picture book query letter that proves fit (and follows the rules)",
   "description": "You can have a manuscript that's genuinely charming and still get buried, because picture book querying is paperwork plus taste\u2014same day, no mercy. Most of the \"why didn't they respond?\" dread comes from one of two things: either the letter didn't prove fit, or it ignored the recipient's guidelines like they're optional.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-27",
+  "modifiedDate": "2026-07-27",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-picture-book-query-letter-that-proves-fit-and-follows-the-rules",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -517,6 +517,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-picture-book-query-letter-that-proves-fit-and-follows-the-rules#primaryimage"
       },
+      "datePublished": "2026-07-27",
+      "dateModified": "2026-07-27",
       "mentions": [
         {
           "@type": "WebPage",

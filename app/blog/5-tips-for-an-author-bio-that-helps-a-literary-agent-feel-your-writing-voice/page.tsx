@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for an author bio that helps a literary agent feel your writing voice",
   "description": "Writing a good author bio for a query feels like trying to cram your personality into a shoebox labeled \"professional.\" You can do it, sure\u2014but why does it always come out looking like a r\u00e9sum\u00e9 that got haunted?",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-19",
+  "modifiedDate": "2026-08-19",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-an-author-bio-that-helps-a-literary-agent-feel-your-writing-voice",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -451,6 +451,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-an-author-bio-that-helps-a-literary-agent-feel-your-writing-voice#primaryimage"
       },
+      "datePublished": "2026-08-19",
+      "dateModified": "2026-08-19",
       "mentions": [
         {
           "@type": "WebPage",

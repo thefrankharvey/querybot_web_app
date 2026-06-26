@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
   "description": "Writers want the same thing most jobs promise on the brochure: steady progress, a clear line from effort to reward, and enough money to stop thinking about money.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
+  "publishedDate": "2027-09-20",
+  "modifiedDate": "2027-09-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_hero_blindsided_rejection_blog_hero_landscape_b585a4ed6ad4.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_hero_blindsided_rejection_blog_hero_landscape_b585a4ed6ad4.jpeg",
     "alt": "blog hero \u00b7 blindsided rejection",
-    "width": 268,
-    "height": 200,
-    "creator": "hamlet",
-    "creatorUrl": "https://giphy.com/gifs/hamlet-blindsided-YeNsw7KBdXQbY6VIxf",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "alleksana",
+    "creatorUrl": "https://www.pexels.com/@alleksana",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-      "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
+      "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
     }
   ],
   "tldrBlocks": [],
@@ -164,13 +164,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_relief_panic_blog_section_landscape_3b37bab1221d.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_relief_panic_blog_section_landscape_3b37bab1221d.jpeg",
         "alt": "Publishing vs day job: which one buys you breathing room?",
-        "width": 200,
-        "height": 200,
-        "creator": "trt_network",
-        "creatorUrl": "https://giphy.com/gifs/trt-network-goal-score-a-gol-atmak-krwr6qA68rWqXSuhcc",
-        "provider": "giphy",
+        "width": 5680,
+        "height": 3779,
+        "creator": "SHVETS production",
+        "creatorUrl": "https://www.pexels.com/@shvets-production",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -332,13 +332,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_stress_cashflow_blog_section_landscape_03dc314073ac.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_stress_cashflow_blog_section_landscape_03dc314073ac.gif",
         "alt": "Author income and living off writing: what pays, what delays, what disappears?",
-        "width": 3000,
-        "height": 2001,
-        "creator": "Jakub Zerdzicki",
-        "creatorUrl": "https://www.pexels.com/@jakubzerdzicki",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -392,43 +392,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_which_path_actually_wins_the_verdict_blog_section_landscape_41a84fb3735f.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_which_path_actually_wins_the_verdict_blog_section_landscape_41a84fb3735f.gif",
         "alt": "Which path actually wins? (The verdict)",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_section_image_permission_action_blog_section_landscape_0438dffb1877.jpeg",
-    "alt": "blog section image \u00b7 permission action",
-    "width": 4041,
-    "height": 3133,
-    "creator": "Robert So",
-    "creatorUrl": "https://www.pexels.com/@robertkso",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-      "url": "https://writequeryhook.com/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+      "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
     },
     {
       "title": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-      "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+      "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
     },
     {
       "title": "Choosing a great book title FAQ",
-      "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+      "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
     },
     {
       "title": "Leverage Podcasting: A Guide for Authors FAQ",
-      "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+      "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -463,7 +454,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
-      "url": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+      "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
     }
   ]
 } as const;
@@ -493,7 +484,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -505,31 +496,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
-          "item": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
+          "item": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#webpage",
-      "url": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#webpage",
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
       "name": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -545,11 +536,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#article",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#webpage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually",
       "headline": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
       "alternativeHeadline": "Happy harsh truths of a writing career vs the alternatives: which path actually keeps you writing?",
       "description": "Writers want the same thing most jobs promise on the brochure: steady progress, a clear line from effort to reward, and enough money to stop thinking about money.",
@@ -579,55 +570,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage"
+        "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage"
       },
+      "datePublished": "2027-09-20",
+      "dateModified": "2027-09-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-          "url": "https://writequeryhook.com/query-letters/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+          "url": "https://writequeryhook.com/blog/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
         },
         {
           "@type": "WebPage",
           "name": "Intellectual Property vs Alternatives: Which Route Gets You Commissioned Faster?",
-          "url": "https://writequeryhook.com/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
+          "url": "https://writequeryhook.com/blog/intellectual-property-vs-alternatives-which-route-gets-you-commissioned-faster"
         },
         {
           "@type": "WebPage",
           "name": "Adaptation FAQ for authors: rights, screenplay, pacing, and dialogue",
-          "url": "https://writequeryhook.com/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
+          "url": "https://writequeryhook.com/blog/adaptation-faq-for-authors-rights-screenplay-pacing-and-dialogue"
         },
         {
           "@type": "WebPage",
           "name": "Choosing a great book title FAQ",
-          "url": "https://writequeryhook.com/choosing-a-great-book-title-faq"
+          "url": "https://writequeryhook.com/blog/choosing-a-great-book-title-faq"
         },
         {
           "@type": "WebPage",
           "name": "Leverage Podcasting: A Guide for Authors FAQ",
-          "url": "https://writequeryhook.com/leverage-podcasting-a-guide-for-authors-faq"
+          "url": "https://writequeryhook.com/blog/leverage-podcasting-a-guide-for-authors-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_hero_blindsided_rejection_blog_hero_landscape_b585a4ed6ad4.gif",
-      "width": 268,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_39/day_546/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually/blog/blog_hero_blindsided_rejection_blog_hero_landscape_b585a4ed6ad4.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 blindsided rejection",
-      "creditText": "hamlet",
+      "creditText": "alleksana",
       "author": {
         "@type": "Person",
-        "name": "hamlet",
-        "url": "https://giphy.com/gifs/hamlet-blindsided-YeNsw7KBdXQbY6VIxf"
+        "name": "alleksana",
+        "url": "https://www.pexels.com/@alleksana"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#faq",
+      "@id": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-vs-the-alternatives-which-path-actually#faq",
       "mainEntity": [
         {
           "@type": "Question",

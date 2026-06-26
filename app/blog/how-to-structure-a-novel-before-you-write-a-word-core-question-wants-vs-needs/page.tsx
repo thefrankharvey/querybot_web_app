@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to structure a novel before you write a word (core question \u2192 wants vs needs \u2192 rising reversals)",
   "description": "Most writers don't actually have a structure problem. They have a question problem.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-31",
+  "modifiedDate": "2026-08-31",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-structure-a-novel-before-you-write-a-word-core-question-wants-vs-needs",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -633,6 +633,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-structure-a-novel-before-you-write-a-word-core-question-wants-vs-needs#primaryimage"
       },
+      "datePublished": "2026-08-31",
+      "dateModified": "2026-08-31",
       "mentions": [
         {
           "@type": "WebPage",

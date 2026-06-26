@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to Write Sex Scenes in Fiction: A Complete, Step-by-Step Craft Guide",
   "description": "A sex scene doesn't get a magic \"special effects\" pass. It's still a scene\u2014same expectations for pacing, same needs for clear emotion, same job of moving the story through cause-and-effect. The difference is writers get terrified they'll be judged harder than they would for a fight scene, a confession, or a breakup.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-12-05",
+  "modifiedDate": "2026-12-05",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-sex-scenes-in-fiction-a-complete-step-by-step-craft-guide",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -593,6 +593,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-sex-scenes-in-fiction-a-complete-step-by-step-craft-guide#primaryimage"
       },
+      "datePublished": "2026-12-05",
+      "dateModified": "2026-12-05",
       "mentions": [
         {
           "@type": "WebPage",

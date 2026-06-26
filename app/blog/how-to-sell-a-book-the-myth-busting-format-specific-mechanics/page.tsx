@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
   "description": "You can feel it even before the manuscript is finished: the selling part of publishing sounds like a TV commercial you have to learn by osmosis. Meanwhile, every writerly brain wants to stay in craft mode\u2014plot, prose, revision, the whole beautiful mess.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
+  "publishedDate": "2027-07-22",
+  "modifiedDate": "2027-07-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_hero_dread_blank_page_terror_blog_hero_landscape_f11d92165425.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_hero_dread_blank_page_terror_blog_hero_landscape_f11d92165425.jpeg",
     "alt": "blog hero \u00b7 dread blank-page terror",
-    "width": 200,
-    "height": 200,
-    "creator": "Barbara_Pozzi",
-    "creatorUrl": "https://giphy.com/gifs/fnKhjBSJtgcxy",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "\u1f10\u03bc\u03bc\u03b1\u03bd\u03c5\u03b5\u03bb  \uf8ff",
+    "creatorUrl": "https://www.pexels.com/@227888035",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-      "item": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+      "item": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
     }
   ],
   "tldrBlocks": [],
@@ -247,13 +247,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_relief_flexibility_blog_section_landscape_b33259309b8b.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_relief_flexibility_blog_section_landscape_b33259309b8b.gif",
         "alt": "Step 3: Treat digital-first as a different lever (ebooks are adjustable)",
-        "width": 4895,
-        "height": 3268,
-        "creator": "Pavel Danilyuk",
-        "creatorUrl": "https://www.pexels.com/@pavel-danilyuk",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "YourHouseFitness",
+        "creatorUrl": "https://giphy.com/gifs/YourHouseFitness-figure-4-stretch-exercise-how-to-do-g39C3qhoNvlLW8ecW0",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -316,7 +316,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_anger_constraint_blog_section_landscape_954ec8413921.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_anger_constraint_blog_section_landscape_954ec8413921.gif?updatedAt=1782260947790",
         "alt": "Step 4: Accept that print books are bought through retailers, not clicked by consumers",
         "width": 360,
         "height": 200,
@@ -375,7 +375,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_strategy_clarity_blog_section_landscape_4cc1af51fcf7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_strategy_clarity_blog_section_landscape_4cc1af51fcf7.jpeg?updatedAt=1782260948185",
         "alt": "Step 5: Build two tracks if you want both formats to perform",
         "width": 5184,
         "height": 3888,
@@ -436,32 +436,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_section_image_fist_pump_next_draft_energy_blog_section_landscape_ab6449466bcf.jpeg",
-    "alt": "blog section image \u00b7 fist pump next draft energy",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-      "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank-and-sales"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
     },
     {
       "title": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-      "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+      "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
     },
     {
       "title": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-      "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+      "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
     },
     {
       "title": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -496,7 +487,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-      "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
     }
   ]
 } as const;
@@ -526,7 +517,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -538,31 +529,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
-          "item": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
+          "item": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
       "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -578,11 +569,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#article",
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics",
       "headline": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
       "alternativeHeadline": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
       "description": "You can feel it even before the manuscript is finished: the selling part of publishing sounds like a TV commercial you have to learn by osmosis. Meanwhile, every writerly brain wants to stay in craft mode\u2014plot, prose, revision, the whole beautiful mess.",
@@ -612,55 +603,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage"
       },
+      "datePublished": "2027-07-22",
+      "dateModified": "2027-07-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-          "url": "https://writequeryhook.com/query-letters/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
-          "url": "https://writequeryhook.com/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank-and-sales"
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
         },
         {
           "@type": "WebPage",
           "name": "Getting a book published vs the alternatives: pick the path that matches your deadline, budget, and risk tolerance",
-          "url": "https://writequeryhook.com/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your-deadline-budget-and-risk-tolerance"
+          "url": "https://writequeryhook.com/blog/getting-a-book-published-vs-the-alternatives-pick-the-path-that-matches-your"
         },
         {
           "@type": "WebPage",
           "name": "Publishing contract basics vs alternatives: which option actually protects your rights and money",
-          "url": "https://writequeryhook.com/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your-rights-and-money"
+          "url": "https://writequeryhook.com/blog/publishing-contract-basics-vs-alternatives-which-option-actually-protects-your"
         },
         {
           "@type": "WebPage",
           "name": "Write a nonfiction book proposal in 9 steps vs the alternatives: pick the method that proves market need",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the-method-that-proves-market-need"
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-vs-the-alternatives-pick-the"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_hero_dread_blank_page_terror_blog_hero_landscape_f11d92165425.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_477/how-to-sell-a-book-the-myth-busting-format-specific-mechanics/blog/blog_hero_dread_blank_page_terror_blog_hero_landscape_f11d92165425.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 dread blank-page terror",
-      "creditText": "Barbara_Pozzi",
+      "creditText": "\u1f10\u03bc\u03bc\u03b1\u03bd\u03c5\u03b5\u03bb  \uf8ff",
       "author": {
         "@type": "Person",
-        "name": "Barbara_Pozzi",
-        "url": "https://giphy.com/gifs/fnKhjBSJtgcxy"
+        "name": "\u1f10\u03bc\u03bc\u03b1\u03bd\u03c5\u03b5\u03bb  \uf8ff",
+        "url": "https://www.pexels.com/@227888035"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#howto",
       "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
       "description": "You can feel it even before the manuscript is finished: the selling part of publishing sounds like a TV commercial you have to learn by osmosis. Meanwhile, every writerly brain wants to stay in craft mode\u2014plot, prose, revision, the whole beautiful mess.",
       "totalTime": "PT7M",
@@ -670,49 +658,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Identify what you are actually selling (it's not just \"your book\")",
           "text": "Do this first because it forces specificity. Write a single sentence: what product are you selling and to whom? Then list the \"product surfaces\" that buyers see.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-1-identify-what-you-are-actually-selling-it-s-not-just-your-book"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-1-identify-what-you-are-actually-selling-it-s-not-just-your-book"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Learn the publishing industry incentives before you learn tactics",
           "text": "Pause. This is where most aspiring authors go theoretical and then panic later.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-2-learn-the-publishing-industry-incentives-before-you-learn-tactics"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-2-learn-the-publishing-industry-incentives-before-you-learn-tactics"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Treat digital-first as a different lever (ebooks are adjustable)",
           "text": "Here's the myth-buster: writers keep trying to apply print thinking to ebooks. Don't. Ebooks are flexible in a way that makes \"set it and pray it\" look quaint.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-3-treat-digital-first-as-a-different-lever-ebooks-are-adjustable"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-3-treat-digital-first-as-a-different-lever-ebooks-are-adjustable"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Accept that print books are bought through retailers, not clicked by consumers",
           "text": "Print is where the friction lives. And authors feel that friction as dread because it makes selling feel unresponsive.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-4-accept-that-print-books-are-bought-through-retailers-not-clicked-by"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-4-accept-that-print-books-are-bought-through-retailers-not-clicked-by"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Build two tracks if you want both formats to perform",
           "text": "If you care about both ebooks and print books, you need a workflow that respects how each channel behaves\u2014not a single generic plan.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-5-build-two-tracks-if-you-want-both-formats-to-perform"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-5-build-two-tracks-if-you-want-both-formats-to-perform"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Choose traditional or self-publishing without illusions about who owns sales",
           "text": "Myth: \"My publisher handles marketing and sales.\" Sometimes they do some of it. Sometimes they don't do the parts you think they do. Either way, the author's responsibility is still real\u2014especially at the packaging and positioning level.",
-          "url": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-6-choose-traditional-or-self-publishing-without-illusions-about-who-owns"
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#step-6-choose-traditional-or-self-publishing-without-illusions-about-who-owns"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics#faq",
       "mainEntity": [
         {
           "@type": "Question",

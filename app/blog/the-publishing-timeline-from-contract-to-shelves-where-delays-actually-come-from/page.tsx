@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The publishing timeline from contract to shelves: where delays actually come from",
   "description": "A lot of writers assume that once a contract is signed, the book should show up in stores \"soon.\" Like, maybe you'll get the first hardback delivery before the ink on the contract dries.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
+  "publishedDate": "2027-06-09",
+  "modifiedDate": "2027-06-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_hero_dread_surprise_blog_hero_landscape_761a4657b2fe.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_hero_dread_surprise_blog_hero_landscape_761a4657b2fe.jpeg",
     "alt": "blog hero \u00b7 dread surprise",
-    "width": 200,
-    "height": 200,
-    "creator": "claynosaurz",
-    "creatorUrl": "https://giphy.com/gifs/claynosaurz-3d-dinosaur-clayno-A6PIU7QGmUoZnvkQqP",
-    "provider": "giphy",
+    "width": 6883,
+    "height": 5315,
+    "creator": "Andrea Piacquadio",
+    "creatorUrl": "https://www.pexels.com/@olly",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The publishing timeline from contract to shelves: where delays actually come from",
-      "item": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+      "item": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
     }
   ],
   "tldrBlocks": [],
@@ -152,7 +152,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_waiting_schedule_blog_section_landscape_3bb7dfae38b4.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_waiting_schedule_blog_section_landscape_3bb7dfae38b4.jpeg?updatedAt=1782209470647",
         "alt": "The long wait is a coordination problem",
         "width": 6000,
         "height": 4000,
@@ -218,13 +218,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_editing_iteration_blog_section_landscape_772971685205.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_editing_iteration_blog_section_landscape_772971685205.gif",
         "alt": "Editing is a revision loop, not a monolith",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Stanislav Kondratiev",
-        "creatorUrl": "https://www.pexels.com/@technobulka",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "sanerai",
+        "creatorUrl": "https://giphy.com/gifs/sanerai-tag-ai-automatically-qDPyUsSrew6FXsj6Ng",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -337,7 +337,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_launch_meeting_marketing_blog_section_landscape_63bcca71e66e.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_launch_meeting_marketing_blog_section_landscape_63bcca71e66e.gif?updatedAt=1782209472836",
         "alt": "Launch meeting roles and the final push",
         "width": 200,
         "height": 200,
@@ -348,32 +348,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_section_image_action_calendar_reality_blog_section_landscape_070c79015977.jpeg",
-    "alt": "blog section image \u00b7 action calendar reality",
-    "width": 6016,
-    "height": 4016,
-    "creator": "Leeloo The First",
-    "creatorUrl": "https://www.pexels.com/@leeloothefirst",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     },
     {
       "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     },
     {
       "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-      "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     },
     {
-      "title": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-      "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+      "title": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
+      "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -412,7 +403,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-      "url": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+      "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
     }
   ]
 } as const;
@@ -442,7 +433,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -454,31 +445,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The publishing timeline from contract to shelves: where delays actually come from",
-          "item": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
+          "item": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
+      "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#webpage",
+      "url": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
       "name": "The publishing timeline from contract to shelves: where delays actually come from",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -494,11 +485,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#article",
+      "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#webpage"
+        "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from",
       "headline": "The publishing timeline from contract to shelves: where delays actually come from",
       "alternativeHeadline": "The publishing timeline from contract to shelves: where delays actually come from",
       "description": "A lot of writers assume that once a contract is signed, the book should show up in stores \"soon.\" Like, maybe you'll get the first hardback delivery before the ink on the contract dries.",
@@ -528,55 +519,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage"
       },
+      "datePublished": "2027-06-09",
+      "dateModified": "2027-06-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 publishing company mistakes that get authors scammed (and what to check instead)",
-          "url": "https://writequeryhook.com/query-letters/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
+          "url": "https://writequeryhook.com/blog/5-publishing-company-mistakes-that-get-authors-scammed-and-what-to-check-instead"
         },
         {
           "@type": "WebPage",
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "url": "https://writequeryhook.com/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         },
         {
           "@type": "WebPage",
           "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "url": "https://writequeryhook.com/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually-changes-for-sales"
+          "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
         },
         {
           "@type": "WebPage",
           "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-          "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+          "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         },
         {
           "@type": "WebPage",
-          "name": "Industry literacy: what a literary agent actually does (and how to spot the right fit)",
-          "url": "https://writequeryhook.com/industry-literacy-what-a-literary-agent-actually-does-and-how-to-spot-the-right-fit"
+          "name": "Amazon and other retailers vs platforms: where your blurb first line actually wins",
+          "url": "https://writequeryhook.com/blog/amazon-and-other-retailers-vs-platforms-where-your-blurb-first-line-actually"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_hero_dread_surprise_blog_hero_landscape_761a4657b2fe.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_427/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from/blog/blog_hero_dread_surprise_blog_hero_landscape_761a4657b2fe.jpeg",
+      "width": 6883,
+      "height": 5315,
       "caption": "blog hero \u00b7 dread surprise",
-      "creditText": "claynosaurz",
+      "creditText": "Andrea Piacquadio",
       "author": {
         "@type": "Person",
-        "name": "claynosaurz",
-        "url": "https://giphy.com/gifs/claynosaurz-3d-dinosaur-clayno-A6PIU7QGmUoZnvkQqP"
+        "name": "Andrea Piacquadio",
+        "url": "https://www.pexels.com/@olly"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#faq",
+      "@id": "https://writequeryhook.com/blog/the-publishing-timeline-from-contract-to-shelves-where-delays-actually-come-from#faq",
       "mainEntity": [
         {
           "@type": "Question",

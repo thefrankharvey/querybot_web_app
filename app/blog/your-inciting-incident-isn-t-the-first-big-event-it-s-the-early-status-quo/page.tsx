@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Your inciting incident isn't \"the first big event\"\u2014it's the early status-quo break that forces action",
   "description": "Most writers think the inciting incident is the first \"big thing\" that happens. Then their story feels slow for the first chapter (or three), readers bounce, and everyone argues about pacing like it's a writing-style problem.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-17",
+  "modifiedDate": "2026-09-17",
   "canonicalUrl": "https://writequeryhook.com/blog/your-inciting-incident-isn-t-the-first-big-event-it-s-the-early-status-quo",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -680,6 +680,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/your-inciting-incident-isn-t-the-first-big-event-it-s-the-early-status-quo#primaryimage"
       },
+      "datePublished": "2026-09-17",
+      "dateModified": "2026-09-17",
       "mentions": [
         {
           "@type": "WebPage",

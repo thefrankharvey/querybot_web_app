@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Novel synopsis faq: length, tense, plot beats, and character arc",
   "description": "Writers don't get stuck on the idea of a synopsis. They get stuck on the logistics: once the manuscript exists, how do we compress tens of thousands of words into a few pages without turning the result into mushy jacket-copy intrigue?",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
+  "publishedDate": "2027-11-13",
+  "modifiedDate": "2027-11-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-      "item": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+      "item": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
     }
   ],
   "tldrBlocks": [],
@@ -386,19 +386,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-      "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+      "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
     },
     {
       "title": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-      "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
     },
     {
-      "title": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-      "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
+      "title": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
+      "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
     },
     {
-      "title": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+      "title": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
+      "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -416,7 +416,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Write an incredible synopsis in 4 simple steps faq",
-      "url": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq"
+      "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
     }
   ]
 } as const;
@@ -446,7 +446,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -458,31 +458,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
-          "item": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
+          "item": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#webpage",
-      "url": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#webpage",
+      "url": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
       "name": "Novel synopsis faq: length, tense, plot beats, and character arc",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -498,11 +498,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#article",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#webpage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc",
       "headline": "Novel synopsis faq: length, tense, plot beats, and character arc",
       "alternativeHeadline": "Novel synopsis faq: length, tense, plot beats, and character arc",
       "description": "Writers don't get stuck on the idea of a synopsis. They get stuck on the logistics: once the manuscript exists, how do we compress tens of thousands of words into a few pages without turning the result into mushy jacket-copy intrigue?",
@@ -532,39 +532,41 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage"
+        "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage"
       },
+      "datePublished": "2027-11-13",
+      "dateModified": "2027-11-13",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Write an incredible synopsis in 4 simple steps faq",
-          "url": "https://writequeryhook.com/query-letters/write-an-incredible-synopsis-in-4-simple-steps-faq"
+          "url": "https://writequeryhook.com/blog/write-an-incredible-synopsis-in-4-simple-steps-faq"
         },
         {
           "@type": "WebPage",
           "name": "Writing a compelling book synopsis: essential FAQ for query-ready plot summary",
-          "url": "https://writequeryhook.com/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
+          "url": "https://writequeryhook.com/blog/writing-a-compelling-book-synopsis-essential-faq-for-query-ready-plot-summary"
         },
         {
           "@type": "WebPage",
           "name": "How to Write a Compelling Book Synopsis: 3 Real-Feeling Example Patterns You Can Steal",
-          "url": "https://writequeryhook.com/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you-can-steal"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-compelling-book-synopsis-3-real-feeling-example-patterns-you"
         },
         {
           "@type": "WebPage",
-          "name": "Break down a fiction synopsis example: how The Way Way Back uses structure, not cast lists",
-          "url": "https://writequeryhook.com/break-down-a-fiction-synopsis-example-how-the-way-way-back-uses-structure-not-cast-lists"
+          "name": "Breaking down a synopsis example: paragraph-by-paragraph structure that earns the request",
+          "url": "https://writequeryhook.com/blog/breaking-down-a-synopsis-example-paragraph-by-paragraph-structure-that-earns"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for writing an incredible synopsis (4 simple steps that actually stay on the spine)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-an-incredible-synopsis-4-simple-steps-that-actually-stay-on-the-spine"
+          "name": "4 synopsis mistakes that wreck your query package (and how to fix them without worshipping three acts)",
+          "url": "https://writequeryhook.com/blog/4-synopsis-mistakes-that-wreck-your-query-package-and-how-to-fix-them-without"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage",
+      "@id": "https://writequeryhook.com/blog/novel-synopsis-faq-length-tense-plot-beats-and-character-arc#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_44/day_614/novel-synopsis-faq-length-tense-plot-beats-and-character-arc/blog/blog_hero_blank_page_dread_confusion_blog_hero_landscape_4069623de4c2.jpeg",
       "width": 6000,
       "height": 4000,

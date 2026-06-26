@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Has Your Ambition Changed? When Success Metrics Stop Working and Authenticity Takes Over",
   "description": "The first time I noticed my ambition shifting, it didn't arrive like a life-changing epiphany. It showed up as a petty, dumb thought: \"Do I even want this the way I used to want it?\"",
   "readTime": "17 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-20",
+  "modifiedDate": "2027-03-20",
   "canonicalUrl": "https://writequeryhook.com/blog/has-your-ambition-changed-when-success-metrics-stop-working-and-authenticity",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -984,6 +984,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/has-your-ambition-changed-when-success-metrics-stop-working-and-authenticity#primaryimage"
       },
+      "datePublished": "2027-03-20",
+      "dateModified": "2027-03-20",
       "mentions": [
         {
           "@type": "WebPage",

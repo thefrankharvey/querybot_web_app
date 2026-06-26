@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
   "description": "Most writers think the \"real\" work happens after submission. That's the myth. Agents and editors don't magically see the untapped potential and polish your manuscript into a sale. If the draft has weak bones, you don't get a second chance from the slush pile.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
+  "publishedDate": "2027-07-09",
+  "modifiedDate": "2027-07-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_hero_frustration_denial_blog_hero_landscape_3c309e641e50.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_hero_frustration_denial_blog_hero_landscape_3c309e641e50.jpeg?updatedAt=1782245078299",
     "alt": "blog hero \u00b7 frustration denial",
     "width": 6720,
     "height": 4480,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "item": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "item": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     }
   ],
   "tldrBlocks": [],
@@ -110,13 +110,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_confused_clarity_blog_section_landscape_f53dde98d7b7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_confused_clarity_blog_section_landscape_f53dde98d7b7.gif",
         "alt": "Step 5: How to work with a freelance editor",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Tara Winstead",
-        "creatorUrl": "https://www.pexels.com/@tara-winstead",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "hyperrpg",
+        "creatorUrl": "https://giphy.com/gifs/hyperrpg-twitch-kollok-kollok1991-ekpUh3KoT3t1QWgbws",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -168,13 +168,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_myth_anger_blog_section_landscape_3468b5f542b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_myth_anger_blog_section_landscape_3468b5f542b5.jpeg",
         "alt": "Step 2: Understanding types of book editors explained",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Nicola Barts",
+        "creatorUrl": "https://www.pexels.com/@nicola-barts",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -218,13 +218,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_myth_anger_blog_section_landscape_3468b5f542b5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_myth_anger_blog_section_landscape_3468b5f542b5.jpeg",
         "alt": "Step 2: Understanding types of book editors explained",
-        "width": 226,
-        "height": 200,
-        "creator": "Thestrongtoothbrush",
-        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Nicola Barts",
+        "creatorUrl": "https://www.pexels.com/@nicola-barts",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -264,7 +264,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_messy_draft_formatting_blog_section_landscape_1d1e167d83cc.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_messy_draft_formatting_blog_section_landscape_1d1e167d83cc.gif?updatedAt=1782245080161",
         "alt": "Step 4: Prepare your manuscript like a professional",
         "width": 266,
         "height": 200,
@@ -318,13 +318,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_confused_clarity_blog_section_landscape_f53dde98d7b7.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_confused_clarity_blog_section_landscape_f53dde98d7b7.gif",
         "alt": "Step 5: How to work with a freelance editor",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Tara Winstead",
-        "creatorUrl": "https://www.pexels.com/@tara-winstead",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "hyperrpg",
+        "creatorUrl": "https://giphy.com/gifs/hyperrpg-twitch-kollok-kollok1991-ekpUh3KoT3t1QWgbws",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -375,32 +375,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_section_image_fist_pump_next_revision_blog_section_landscape_2578f93858b1.jpeg",
-    "alt": "blog section image \u00b7 fist pump next revision",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     },
     {
       "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     },
     {
       "title": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-      "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+      "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
     },
     {
-      "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-      "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+      "title": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
+      "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -435,7 +426,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "url": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     }
   ]
 } as const;
@@ -465,7 +456,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -477,31 +468,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "item": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "item": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
       "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -517,11 +508,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#article",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft",
       "headline": "How to find a book editor (and stop waiting until submission to fix the draft)",
       "alternativeHeadline": "How to find a book editor (and stop waiting until submission to fix the draft)",
       "description": "Most writers think the \"real\" work happens after submission. That's the myth. Agents and editors don't magically see the untapped potential and polish your manuscript into a sale. If the draft has weak bones, you don't get a second chance from the slush pile.",
@@ -551,40 +542,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage"
       },
+      "datePublished": "2027-07-09",
+      "dateModified": "2027-07-09",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "url": "https://writequeryhook.com/query-letters/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+          "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
         },
         {
           "@type": "WebPage",
           "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+          "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         },
         {
           "@type": "WebPage",
           "name": "Your first-book publishing FAQs: series vs alternatives\u2014pick the tool that matches your stage",
-          "url": "https://writequeryhook.com/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that-matches-your-stage"
+          "url": "https://writequeryhook.com/blog/your-first-book-publishing-faqs-series-vs-alternatives-pick-the-tool-that"
         },
         {
           "@type": "WebPage",
-          "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
-          "url": "https://writequeryhook.com/write-a-nonfiction-book-proposal-in-9-steps-faq"
+          "name": "Basics of publishing contracts FAQ: territory, rights, advances, royalties, and subrights",
+          "url": "https://writequeryhook.com/blog/basics-of-publishing-contracts-faq-territory-rights-advances-royalties-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_hero_frustration_denial_blog_hero_landscape_3c309e641e50.jpeg",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_463/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft/blog/blog_hero_frustration_denial_blog_hero_landscape_3c309e641e50.jpeg?updatedAt=1782245078299",
       "width": 6720,
       "height": 4480,
       "caption": "blog hero \u00b7 frustration denial",
@@ -599,7 +587,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#howto",
       "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
       "description": "Most writers think the \"real\" work happens after submission. That's the myth. Agents and editors don't magically see the untapped potential and polish your manuscript into a sale. If the draft has weak bones, you don't get a second chance from the slush pile.",
       "totalTime": "PT8M",
@@ -609,49 +597,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Pick the right editor type for your stage",
           "text": "Before you search, decide what you're buying. Everyone calls themselves a \"book editor,\" which is adorable and wrong. Different roles exist:",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-1-pick-the-right-editor-type-for-your-stage"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-1-pick-the-right-editor-type-for-your-stage"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Understanding types of book editors explained",
           "text": "When you start shopping, you'll encounter different types of book editors explained this way:",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-2-understanding-types-of-book-editors-explained"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-2-understanding-types-of-book-editors-explained"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Seek feedback early, not after submission",
           "text": "This is the part writers hate, because it's where the control lives.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-3-seek-feedback-early-not-after-submission"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-3-seek-feedback-early-not-after-submission"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Prepare your manuscript like a professional",
           "text": "If you hire a freelance editor and show up with a draft that's not formatted, not self-edited, and not readable, you're basically turning your budget into someone else's cleanup time.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-4-prepare-your-manuscript-like-a-professional"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-4-prepare-your-manuscript-like-a-professional"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: How to work with a freelance editor",
           "text": "Once you've hired someone, set yourself up for a real partnership. Before the edit starts:",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-5-how-to-work-with-a-freelance-editor"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-5-how-to-work-with-a-freelance-editor"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Vet credentials and budget without getting cheaped out",
           "text": "You're going to be tempted by the lowest price, because writers are anxious and money is real. But \"cheap\" is how you end up with shallow reading\u2014or worse, feedback you can't use.",
-          "url": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-6-vet-credentials-and-budget-without-getting-cheaped-out"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#step-6-vet-credentials-and-budget-without-getting-cheaped-out"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft#faq",
       "mainEntity": [
         {
           "@type": "Question",

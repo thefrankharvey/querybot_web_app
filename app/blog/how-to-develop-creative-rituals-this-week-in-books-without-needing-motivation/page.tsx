@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to develop creative rituals this week in books (without needing motivation)",
   "description": "Most writers think they need motivation to write. Cute idea. Real life is where motivation ghosts us the minute a deadline hits, a family situation lands, or the internet starts doing what it does.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-11",
+  "modifiedDate": "2026-11-11",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-develop-creative-rituals-this-week-in-books-without-needing-motivation",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -571,6 +571,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-develop-creative-rituals-this-week-in-books-without-needing-motivation#primaryimage"
       },
+      "datePublished": "2026-11-11",
+      "dateModified": "2026-11-11",
       "mentions": [
         {
           "@type": "WebPage",

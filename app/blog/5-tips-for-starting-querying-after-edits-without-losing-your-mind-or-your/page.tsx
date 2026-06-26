@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
   "description": "I've watched \"I finished edits\" turn into \"why is my chest doing that thing?\"",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
+  "publishedDate": "2027-04-15",
+  "modifiedDate": "2027-04-15",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_f016fed529cd.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_f016fed529cd.jpeg?updatedAt=1781809908776",
     "alt": "blog hero \u00b7 dread blank-page energy",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
+      "item": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
     }
   ],
   "tldrBlocks": [],
@@ -114,7 +114,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_anxiety_workflow_blog_section_landscape_3a586d34b85c.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_anxiety_workflow_blog_section_landscape_3a586d34b85c.gif?updatedAt=1781809910146",
         "alt": "Reduce anxiety by treating querying as a system, not a verdict",
         "width": 218,
         "height": 200,
@@ -275,7 +275,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_notes_color_coding_blog_section_landscape_c1d417b73e8d.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_notes_color_coding_blog_section_landscape_c1d417b73e8d.jpeg?updatedAt=1781809910774",
         "alt": "Organize your query research notes so you can move fast",
         "width": 6853,
         "height": 4569,
@@ -346,7 +346,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_inbox_expectations_blog_section_landscape_dc75cb6b004f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_inbox_expectations_blog_section_landscape_dc75cb6b004f.gif?updatedAt=1781809912331",
         "alt": "Prepare your query inbox expectations to avoid the panic loop",
         "width": 306,
         "height": 200,
@@ -357,32 +357,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_section_image_commitment_one_more_email_blog_section_landscape_d94e2dfa34d9.jpeg",
-    "alt": "blog section image \u00b7 commitment one more email",
-    "width": 5184,
-    "height": 3888,
-    "creator": "Brett Jordan",
-    "creatorUrl": "https://www.pexels.com/@brettjordan",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-      "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+      "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
     },
     {
       "title": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-      "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+      "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
     },
     {
       "title": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-      "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+      "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
     },
     {
-      "title": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
-      "url": "https://writequeryhook.com/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
+      "title": "How to clear the slush pile early-threshold so literary agents keep reading",
+      "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -414,12 +405,7 @@ const PAGE_DATA = {
       "text": "Querying gets less scary when you stop treating it as a mystery and start executing a clear sequence: pick your slice, organize your notes, send with intention, then let the inbox do what it does\u2014while you keep your grip on the next action."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 tips for joining the press: it's more than luck",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-joining-the-press-it-s-more-than-luck"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -447,7 +433,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,31 +445,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
+          "item": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
       "name": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -499,11 +485,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your",
       "headline": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
       "alternativeHeadline": "5 tips for starting querying after edits\u2014without losing your mind (or your manuscript) in the MSWL fog",
       "description": "I've watched \"I finished edits\" turn into \"why is my chest doing that thing?\"",
@@ -533,40 +519,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage"
       },
+      "datePublished": "2027-04-15",
+      "dateModified": "2027-04-15",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 tips for joining the press: it's more than luck",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-joining-the-press-it-s-more-than-luck"
-        },
-        {
-          "@type": "WebPage",
           "name": "5 tips for overwhelm: let your writing career be messy and still find joy now",
-          "url": "https://writequeryhook.com/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
+          "url": "https://writequeryhook.com/blog/5-tips-for-overwhelm-let-your-writing-career-be-messy-and-still-find-joy-now"
         },
         {
           "@type": "WebPage",
           "name": "How to Start Querying After Edits (One MSWL at a Time, Without Losing Your Mind)",
-          "url": "https://writequeryhook.com/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
+          "url": "https://writequeryhook.com/blog/how-to-start-querying-after-edits-one-mswl-at-a-time-without-losing-your-mind"
         },
         {
           "@type": "WebPage",
           "name": "How to Stop Overwhelm When Your Writing Career Keeps Moving the Goalposts",
-          "url": "https://writequeryhook.com/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
+          "url": "https://writequeryhook.com/blog/how-to-stop-overwhelm-when-your-writing-career-keeps-moving-the-goalposts"
         },
         {
           "@type": "WebPage",
-          "name": "Comparing Your Writing vs Alternatives: Stop Staring, Start Drafting",
-          "url": "https://writequeryhook.com/comparing-your-writing-vs-alternatives-stop-staring-start-drafting"
+          "name": "How to clear the slush pile early-threshold so literary agents keep reading",
+          "url": "https://writequeryhook.com/blog/how-to-clear-the-slush-pile-early-threshold-so-literary-agents-keep-reading"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_f016fed529cd.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_26/day_354/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_f016fed529cd.jpeg?updatedAt=1781809908776",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread blank-page energy",
@@ -581,7 +564,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-starting-querying-after-edits-without-losing-your-mind-or-your#faq",
       "mainEntity": [
         {
           "@type": "Question",

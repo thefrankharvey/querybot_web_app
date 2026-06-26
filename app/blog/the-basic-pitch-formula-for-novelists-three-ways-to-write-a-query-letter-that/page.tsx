@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The basic pitch formula for novelists: three ways to write a query letter that sells the engine",
   "description": "The first time you try to write a query letter pitch for your novel, it feels like you're doing surgery with a dull spoon. You know the story is good. You can taste it in your brain. But when you open the document, your sentences turn into mush.",
   "readTime": "16 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-05",
+  "modifiedDate": "2026-07-05",
   "canonicalUrl": "https://writequeryhook.com/blog/the-basic-pitch-formula-for-novelists-three-ways-to-write-a-query-letter-that",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -741,6 +741,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-basic-pitch-formula-for-novelists-three-ways-to-write-a-query-letter-that#primaryimage"
       },
+      "datePublished": "2026-07-05",
+      "dateModified": "2026-07-05",
       "mentions": [
         {
           "@type": "WebPage",

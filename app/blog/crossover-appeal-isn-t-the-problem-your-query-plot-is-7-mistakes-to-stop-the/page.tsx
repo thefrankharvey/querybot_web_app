@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Crossover appeal isn't the problem\u2014your query plot is. 7 mistakes to stop the jumbled read",
   "description": "Agents don't reject good books because they're mean. They reject queries that make their brain do emergency triage.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-01",
+  "modifiedDate": "2026-07-01",
   "canonicalUrl": "https://writequeryhook.com/blog/crossover-appeal-isn-t-the-problem-your-query-plot-is-7-mistakes-to-stop-the",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -661,6 +661,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/crossover-appeal-isn-t-the-problem-your-query-plot-is-7-mistakes-to-stop-the#primaryimage"
       },
+      "datePublished": "2026-07-01",
+      "dateModified": "2026-07-01",
       "mentions": [
         {
           "@type": "WebPage",

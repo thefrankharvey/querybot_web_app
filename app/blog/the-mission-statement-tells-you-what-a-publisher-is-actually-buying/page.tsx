@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The mission statement tells you what a publisher is actually buying",
   "description": "If you've ever stared at a publisher page thinking, \"Cool. But\u2026 do they actually want my book?\"\u2014yeah. That feeling. The one that makes you toggle between your manuscript and every \"About\" page like it's an escape room.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
+  "publishedDate": "2027-09-25",
+  "modifiedDate": "2027-09-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_hero_overwhelmed_blank_page_dread_blog_hero_landscape_f2df257c321a.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_hero_overwhelmed_blank_page_dread_blog_hero_landscape_f2df257c321a.jpeg?updatedAt=1782336004516",
     "alt": "blog hero \u00b7 overwhelmed blank-page dread",
     "width": 6000,
     "height": 4000,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The mission statement tells you what a publisher is actually buying",
-      "item": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+      "item": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
     }
   ],
   "tldrBlocks": [],
@@ -158,13 +158,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_indignation_compass_blog_section_landscape_ecb65edce5c5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_indignation_compass_blog_section_landscape_ecb65edce5c5.gif",
         "alt": "Compass for acquisitions: the \"how\" and \"why\" behind the mission statement",
-        "width": 7855,
-        "height": 5223,
-        "creator": "ArtHouse Studio",
-        "creatorUrl": "https://www.pexels.com/@arthousestudio",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "dazn",
+        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -240,7 +240,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_frustration_mediocrity_blog_section_landscape_98c7e01f8377.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_frustration_mediocrity_blog_section_landscape_98c7e01f8377.gif?updatedAt=1782336006044",
         "alt": "Why focus turns into expertise (and why that protects authors)",
         "width": 226,
         "height": 200,
@@ -326,7 +326,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_accountability_anxiety_blog_section_landscape_9d95d82dc196.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_accountability_anxiety_blog_section_landscape_9d95d82dc196.jpeg?updatedAt=1782336007231",
         "alt": "Values must be upheld (or the mission statement is just an expensive paragraph)",
         "width": 6240,
         "height": 4160,
@@ -337,32 +337,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_section_image_deep_breath_handoff_blog_section_landscape_a5dc11e1b1f7.gif",
-    "alt": "blog section image \u00b7 deep breath handoff",
-    "width": 186,
-    "height": 200,
-    "creator": "nog",
-    "creatorUrl": "https://giphy.com/gifs/money-burn-nog-xT9DPofgEkyu9t4wPm",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     },
     {
       "title": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-      "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+      "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
     },
     {
       "title": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-      "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+      "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
     },
     {
-      "title": "5 tips for choosing a small press (and when you should actually say yes)",
-      "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "title": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
+      "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
     }
   ],
   "alsoLikeAfterIndex": 1,
@@ -405,7 +396,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-      "url": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
+      "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
     }
   ]
 } as const;
@@ -435,7 +426,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -447,31 +438,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The mission statement tells you what a publisher is actually buying",
-          "item": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
+          "item": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
+      "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#webpage",
+      "url": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
       "name": "The mission statement tells you what a publisher is actually buying",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -487,11 +478,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#article",
+      "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#webpage"
+        "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying",
       "headline": "The mission statement tells you what a publisher is actually buying",
       "alternativeHeadline": "The mission statement tells you what a publisher is actually buying",
       "description": "If you've ever stared at a publisher page thinking, \"Cool. But\u2026 do they actually want my book?\"\u2014yeah. That feeling. The one that makes you toggle between your manuscript and every \"About\" page like it's an escape room.",
@@ -521,40 +512,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage"
       },
+      "datePublished": "2027-09-25",
+      "dateModified": "2027-09-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "url": "https://writequeryhook.com/query-letters/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Literary scouting explained: why this \"behind-the-scenes\" job decides what gets bought",
-          "url": "https://writequeryhook.com/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets-bought"
+          "url": "https://writequeryhook.com/blog/literary-scouting-explained-why-this-behind-the-scenes-job-decides-what-gets"
         },
         {
           "@type": "WebPage",
           "name": "The real disruption of artificial intelligence in publishing: it won't replace editors\u2014it replaces the first pass",
-          "url": "https://writequeryhook.com/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace-editors-it-replaces-the-first-pass"
+          "url": "https://writequeryhook.com/blog/the-real-disruption-of-artificial-intelligence-in-publishing-it-won-t-replace"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for book publishers to avoid publishing scams that use your wallet against you",
-          "url": "https://writequeryhook.com/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet-against-you"
+          "url": "https://writequeryhook.com/blog/5-tips-for-book-publishers-to-avoid-publishing-scams-that-use-your-wallet"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "url": "https://writequeryhook.com/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "name": "How to get published in Modern Love, McSweeney's, or any venue you actually want",
+          "url": "https://writequeryhook.com/blog/how-to-get-published-in-modern-love-mcsweeney-s-or-any-venue-you-actually-want"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_hero_overwhelmed_blank_page_dread_blog_hero_landscape_f2df257c321a.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_552/the-mission-statement-tells-you-what-a-publisher-is-actually-buying/blog/blog_hero_overwhelmed_blank_page_dread_blog_hero_landscape_f2df257c321a.jpeg?updatedAt=1782336004516",
       "width": 6000,
       "height": 4000,
       "caption": "blog hero \u00b7 overwhelmed blank-page dread",
@@ -569,7 +557,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#faq",
+      "@id": "https://writequeryhook.com/blog/the-mission-statement-tells-you-what-a-publisher-is-actually-buying#faq",
       "mainEntity": [
         {
           "@type": "Question",

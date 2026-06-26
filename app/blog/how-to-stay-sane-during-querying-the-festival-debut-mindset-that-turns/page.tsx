@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to stay sane during querying: the festival-debut mindset that turns rejection into momentum",
   "description": "Most writers expect querying to feel like a craft milestone. You finish the draft. You polish. You feel that rare, hard-won \"I can't ignore this sentence anymore\" pride.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-06",
+  "modifiedDate": "2027-04-06",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-stay-sane-during-querying-the-festival-debut-mindset-that-turns",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -569,6 +569,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-stay-sane-during-querying-the-festival-debut-mindset-that-turns#primaryimage"
       },
+      "datePublished": "2027-04-06",
+      "dateModified": "2027-04-06",
       "mentions": [
         {
           "@type": "WebPage",

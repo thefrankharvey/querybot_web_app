@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
   "description": "Publishing professionals can have a portfolio, a real work history, and still feel invisible\u2014because the market isn\u2019t mainly driven by reader-facing fame. Authors, employers, and collaborators do research you, though. They want confidence: your values, your focus, and whether you\u2019ll be a good fit for their project.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
+  "publishedDate": "2027-07-10",
+  "modifiedDate": "2027-07-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_hero_visibility_confusion_blog_hero_landscape_3847403c43ec.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_hero_visibility_confusion_blog_hero_landscape_3847403c43ec.jpeg",
     "alt": "blog hero \u00b7 visibility confusion",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "item": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
+      "item": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     }
   ],
   "tldrBlocks": [],
@@ -112,7 +112,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_reflection_blank_page_fear_blog_section_landscape_61f0cd53c532.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_reflection_blank_page_fear_blog_section_landscape_61f0cd53c532.jpeg?updatedAt=1782245157909",
         "alt": "Step 1: Brainstorm and widen the spots you actually believe in",
         "width": 4240,
         "height": 2832,
@@ -171,13 +171,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_relief_narrowing_blog_section_landscape_ccf2148da182.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_relief_narrowing_blog_section_landscape_ccf2148da182.gif",
         "alt": "Step 2: Narrow to three or four core brand attributes",
-        "width": 6720,
-        "height": 4480,
-        "creator": "Masih Shahbazi",
-        "creatorUrl": "https://www.pexels.com/@massih",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "Australianbodycare",
+        "creatorUrl": "https://giphy.com/gifs/facewash-teatreeoil-australianbodycare-SSElhKaKfd1AhltF5V",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -225,13 +225,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_tightening_specificity_blog_section_landscape_36e4be401d26.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_tightening_specificity_blog_section_landscape_36e4be401d26.gif",
         "alt": "Step 3: Write a personal brand values and focus statement",
-        "width": 4680,
-        "height": 3120,
-        "creator": "Nic Wood",
-        "creatorUrl": "https://www.pexels.com/@nic-scrollstoppingphotos",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -408,32 +408,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_section_image_take_action_draft_it_today_blog_section_landscape_6428211dcf86.gif",
-    "alt": "blog section image \u00b7 take action draft it today",
-    "width": 200,
-    "height": 200,
-    "creator": "justin",
-    "creatorUrl": "https://giphy.com/gifs/justin-lol-spit-take-kC8N6DPOkbqWTxkNTe",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     },
     {
       "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     },
     {
       "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     },
     {
-      "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+      "title": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
+      "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -468,7 +459,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     }
   ]
 } as const;
@@ -498,7 +489,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -510,31 +501,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "item": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
+          "item": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
       "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -550,11 +541,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#article",
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people",
       "headline": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
       "alternativeHeadline": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
       "description": "Publishing professionals can have a portfolio, a real work history, and still feel invisible\u2014because the market isn\u2019t mainly driven by reader-facing fame. Authors, employers, and collaborators do research you, though. They want confidence: your values, your focus, and whether you\u2019ll be a good fit for their project.",
@@ -584,55 +575,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage"
       },
+      "datePublished": "2027-07-10",
+      "dateModified": "2027-07-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "url": "https://writequeryhook.com/how-to-write-a-book-description-that-sells-150-250-words-third-person-and-searchable"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
         },
         {
           "@type": "WebPage",
           "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         },
         {
           "@type": "WebPage",
           "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+          "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
         },
         {
           "@type": "WebPage",
-          "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+          "name": "Write a Nonfiction Book Proposal in 9 Steps FAQ",
+          "url": "https://writequeryhook.com/blog/write-a-nonfiction-book-proposal-in-9-steps-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_hero_visibility_confusion_blog_hero_landscape_3847403c43ec.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people/blog/blog_hero_visibility_confusion_blog_hero_landscape_3847403c43ec.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 visibility confusion",
-      "creditText": "Giphy",
+      "creditText": "MART  PRODUCTION",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#howto",
       "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
       "description": "Publishing professionals can have a portfolio, a real work history, and still feel invisible\u2014because the market isn\u2019t mainly driven by reader-facing fame. Authors, employers, and collaborators do research you, though. They want confidence: your values, your focus, and whether you\u2019ll be a good fit for their project.",
       "totalTime": "PT6M",
@@ -642,49 +630,49 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Brainstorm and widen the spots you actually believe in",
           "text": "Start with raw material. Don\u2019t design yet\u2014collect. Open a doc and write responses to these prompts for your publishing work:",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-1-brainstorm-and-widen-the-spots-you-actually-believe-in"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-1-brainstorm-and-widen-the-spots-you-actually-believe-in"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Narrow to three or four core brand attributes",
           "text": "Now cut. Your goal is not to describe everything you do. Your goal is personal branding that\u2019s memorable.",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-2-narrow-to-three-or-four-core-brand-attributes"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-2-narrow-to-three-or-four-core-brand-attributes"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write a personal brand values and focus statement",
           "text": "Turn those attributes into a single statement you can paste into multiple places. This is your personal brand values and focus statement\u2014a condensed explanation of what you consistently stand for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-3-write-a-personal-brand-values-and-focus-statement"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-3-write-a-personal-brand-values-and-focus-statement"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Turn your mission statement into an elevator pitch",
           "text": "Your mission statement and your elevator pitch aren\u2019t the same thing, but they should match. The mission statement is the aligned message. The elevator pitch is the fast version of that message\u2014clear, concise, and repeatable.",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-4-turn-your-mission-statement-into-an-elevator-pitch"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-4-turn-your-mission-statement-into-an-elevator-pitch"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Share the message where authors, employers, and collaborators actually look",
           "text": "OK, you have clarity now. Don\u2019t keep it in your notes like it\u2019s a private museum exhibit.",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-5-share-the-message-where-authors-employers-and-collaborators-actually-look"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-5-share-the-message-where-authors-employers-and-collaborators-actually-look"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Network in person and online without burnout",
           "text": "Fear of spreading yourself too thin is real. Burnout is what happens when someone copies \u201cgrowth advice\u201d for writers instead of choosing a sustainable publishing rhythm.",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-6-network-in-person-and-online-without-burnout"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#step-6-network-in-person-and-online-without-burnout"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people#faq",
       "mainEntity": [
         {
           "@type": "Question",

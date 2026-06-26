@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Incorporating agent or editor feedback FAQ",
   "description": "Getting feedback after a draft is done can feel like the universe handed you a test you weren't studying for. Most writers fear what revision will cost: time, continuity, character consistency, and the story they thought they finished.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq",
+  "publishedDate": "2027-05-19",
+  "modifiedDate": "2027-05-19",
+  "canonicalUrl": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_hero_feedback_dread_late_stage_panic_blog_hero_landscape_4855845be9fe.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_hero_feedback_dread_late_stage_panic_blog_hero_landscape_4855845be9fe.jpeg?updatedAt=1782165412739",
     "alt": "blog hero \u00b7 feedback dread late-stage panic",
     "width": 5749,
     "height": 3825,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Incorporating agent or editor feedback FAQ",
-      "item": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq"
+      "item": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
     }
   ],
   "tldrBlocks": [],
@@ -135,13 +135,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_outline_continuity_blog_section_landscape_d03ddff1f438.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_outline_continuity_blog_section_landscape_d03ddff1f438.gif",
         "alt": "What's the role of an outline after feedback comes in?",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Nothing Ahead",
-        "creatorUrl": "https://www.pexels.com/@ian-panelo",
-        "provider": "pexels",
+        "width": 156,
+        "height": 200,
+        "creator": "JasLOVEStomakegifs",
+        "creatorUrl": "https://giphy.com/gifs/thousand-yard-stare-1000-shell-shock-oaXRLIMnkGBnuQOBzE",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -193,7 +193,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_layers_act_one_blog_section_landscape_b289a0b53962.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_layers_act_one_blog_section_landscape_b289a0b53962.gif?updatedAt=1782165414255",
         "alt": "How do you incorporate new story layers without forcing them?",
         "width": 253,
         "height": 200,
@@ -243,13 +243,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_vague_notes_something_missing_blog_section_landscape_95381474dbc5.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_vague_notes_something_missing_blog_section_landscape_95381474dbc5.jpeg",
         "alt": "What should you do when feedback says the story is \"missing something\"?",
-        "width": 160,
-        "height": 200,
-        "creator": "TheWadeEmpire2",
-        "creatorUrl": "https://giphy.com/gifs/teacher-homework-payingattentioninclass-vtFZ8O85q8g3MmXK51",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "cottonbro studio",
+        "creatorUrl": "https://www.pexels.com/@cottonbro",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -291,32 +291,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_section_image_send_it_revision_pass_blog_section_landscape_4e542237ed79.jpeg",
-    "alt": "blog section image \u00b7 send it revision pass",
-    "width": 6720,
-    "height": 4480,
-    "creator": "cottonbro studio",
-    "creatorUrl": "https://www.pexels.com/@cottonbro",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     },
     {
       "title": "Book blurb FAQ: how to write a book description that sells",
-      "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+      "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
     },
     {
-      "title": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-      "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+      "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     },
     {
-      "title": "In-person publishing meetings: the moment your book stops being an email thread",
-      "url": "https://writequeryhook.com/in-person-publishing-meetings-the-moment-your-book-stops-being-an-email-thread"
+      "title": "5 ways to write, edit, and market with an eye on risk after the offer",
+      "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -330,7 +321,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-      "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
     }
   ]
 } as const;
@@ -360,7 +351,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -372,31 +363,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Incorporating agent or editor feedback FAQ",
-          "item": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq"
+          "item": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#webpage",
-      "url": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#webpage",
+      "url": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq",
       "name": "Incorporating agent or editor feedback FAQ",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -412,11 +403,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#article",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#webpage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq",
       "headline": "Incorporating agent or editor feedback FAQ",
       "alternativeHeadline": "Incorporating agent or editor feedback FAQ",
       "description": "Getting feedback after a draft is done can feel like the universe handed you a test you weren't studying for. Most writers fear what revision will cost: time, continuity, character consistency, and the story they thought they finished.",
@@ -446,40 +437,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#primaryimage"
+        "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#primaryimage"
       },
+      "datePublished": "2027-05-19",
+      "dateModified": "2027-05-19",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Dangerous side effects of a manuscript critique (and what to do next) FAQ",
-          "url": "https://writequeryhook.com/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-what-to-do-next-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book blurb FAQ: how to write a book description that sells",
-          "url": "https://writequeryhook.com/book-blurb-faq-how-to-write-a-book-description-that-sells"
+          "url": "https://writequeryhook.com/blog/book-blurb-faq-how-to-write-a-book-description-that-sells"
         },
         {
           "@type": "WebPage",
-          "name": "Breaking down how to incorporate agent/editor feedback examples without wrecking your manuscript",
-          "url": "https://writequeryhook.com/breaking-down-how-to-incorporate-agent-editor-feedback-examples-without-wrecking-your-manuscript"
+          "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
+          "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         },
         {
           "@type": "WebPage",
-          "name": "In-person publishing meetings: the moment your book stops being an email thread",
-          "url": "https://writequeryhook.com/in-person-publishing-meetings-the-moment-your-book-stops-being-an-email-thread"
+          "name": "5 ways to write, edit, and market with an eye on risk after the offer",
+          "url": "https://writequeryhook.com/blog/5-ways-to-write-edit-and-market-with-an-eye-on-risk-after-the-offer"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/incorporating-agent-or-editor-feedback-faq#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_hero_feedback_dread_late_stage_panic_blog_hero_landscape_4855845be9fe.jpeg",
+      "@id": "https://writequeryhook.com/blog/incorporating-agent-or-editor-feedback-faq#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_404/incorporating-agent-or-editor-feedback-faq/blog/blog_hero_feedback_dread_late_stage_panic_blog_hero_landscape_4855845be9fe.jpeg?updatedAt=1782165412739",
       "width": 5749,
       "height": 3825,
       "caption": "blog hero \u00b7 feedback dread late-stage panic",

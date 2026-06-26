@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The Difference Between Editing and Revising: How to Fix the Manuscript Without Wasting Draft Energy",
   "description": "The first time you \"finish\" a manuscript, your brain throws a party.",
   "readTime": "17 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-19",
+  "modifiedDate": "2026-10-19",
   "canonicalUrl": "https://writequeryhook.com/blog/the-difference-between-editing-and-revising-how-to-fix-the-manuscript-without",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -1097,6 +1097,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-difference-between-editing-and-revising-how-to-fix-the-manuscript-without#primaryimage"
       },
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-19",
       "mentions": [
         {
           "@type": "WebPage",

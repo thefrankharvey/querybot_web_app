@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for pitching a Christian manuscript to publishers (and surviving rejection)",
   "description": "Christian publishing can feel like a black box. You write a good manuscript, you spend your best hours on the words, and then\u2026 you hit \"submit\" and wait to see if the whole thing vanishes into the slush or comes back with something better than silence.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-06-30",
+  "modifiedDate": "2026-06-30",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-pitching-a-christian-manuscript-to-publishers-and-surviving-rejection",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -444,6 +444,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-pitching-a-christian-manuscript-to-publishers-and-surviving-rejection#primaryimage"
       },
+      "datePublished": "2026-06-30",
+      "dateModified": "2026-06-30",
       "mentions": [
         {
           "@type": "WebPage",

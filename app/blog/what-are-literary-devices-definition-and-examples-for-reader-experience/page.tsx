@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "What are literary devices? Definition and examples for reader experience",
   "description": "Most writers can rattle off a few names\u2014metaphor, foreshadowing, irony\u2014but they stall when asked how devices actually work on the reader. The better lens is simpler: literary devices control reader knowledge. They decide what the reader knows, when the reader learns it, and what the reader feels while they\u2019re learning it.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-22",
+  "modifiedDate": "2026-09-22",
   "canonicalUrl": "https://writequeryhook.com/blog/what-are-literary-devices-definition-and-examples-for-reader-experience",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -581,6 +581,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/what-are-literary-devices-definition-and-examples-for-reader-experience#primaryimage"
       },
+      "datePublished": "2026-09-22",
+      "dateModified": "2026-09-22",
       "mentions": [
         {
           "@type": "WebPage",

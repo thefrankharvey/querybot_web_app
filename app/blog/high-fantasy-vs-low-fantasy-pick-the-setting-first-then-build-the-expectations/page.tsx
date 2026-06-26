@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "High fantasy vs low fantasy: pick the setting first (then build the expectations)",
   "description": "High fantasy is what you write when you want a fully fictional world with monsters, magic, and hero names that look like they came with a warning label. Low fantasy is what you write when you want a supernatural thing to crash into everyday life like an uninvited guest who definitely knows your landlord.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-15",
+  "modifiedDate": "2026-08-15",
   "canonicalUrl": "https://writequeryhook.com/blog/high-fantasy-vs-low-fantasy-pick-the-setting-first-then-build-the-expectations",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -718,6 +718,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/high-fantasy-vs-low-fantasy-pick-the-setting-first-then-build-the-expectations#primaryimage"
       },
+      "datePublished": "2026-08-15",
+      "dateModified": "2026-08-15",
       "mentions": [
         {
           "@type": "WebPage",

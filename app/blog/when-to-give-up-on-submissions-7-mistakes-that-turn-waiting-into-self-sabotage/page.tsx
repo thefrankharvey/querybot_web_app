@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
   "description": "The email thread goes quiet and your brain starts auditioning worst-case scenarios.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
+  "publishedDate": "2027-05-09",
+  "modifiedDate": "2027-05-09",
+  "canonicalUrl": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_hero_panic_silence_blog_hero_landscape_e427e37da2f6.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_hero_panic_silence_blog_hero_landscape_e427e37da2f6.jpeg",
     "alt": "blog hero \u00b7 panic silence",
-    "width": 200,
-    "height": 200,
-    "creator": "cbc",
-    "creatorUrl": "https://giphy.com/gifs/cbc-schittscreek-schitts-creek-YWc02FImk9tZ1tW0uz",
-    "provider": "giphy",
+    "width": 3756,
+    "height": 2499,
+    "creator": "SHVETS production",
+    "creatorUrl": "https://www.pexels.com/@shvets-production",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-      "item": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+      "item": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
     }
   ],
   "tldrBlocks": [],
@@ -253,13 +253,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_restless_churn_blog_section_landscape_28b61b9d8645.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_restless_churn_blog_section_landscape_28b61b9d8645.gif",
         "alt": "3) Editing in the dark without a timeline plan",
-        "width": 5145,
-        "height": 3430,
-        "creator": "Najm Shihabi",
-        "creatorUrl": "https://www.pexels.com/@najm-shihabi-2824940",
-        "provider": "pexels",
+        "width": 246,
+        "height": 200,
+        "creator": "RevisionDojo",
+        "creatorUrl": "https://giphy.com/gifs/he-made-a-statement-revisiondojo-revision-dojo-WFHGb9QDr59lX9jN9Q",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -411,13 +411,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_7_confusing_perseverance_with_panic_driven_chaos_blog_section_landscape_b314a5004d05.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_7_confusing_perseverance_with_panic_driven_chaos_blog_section_landscape_b314a5004d05.jpeg",
         "alt": "7) Confusing perseverance with panic-driven chaos",
-        "width": 279,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
-        "provider": "giphy",
+        "width": 6611,
+        "height": 4407,
+        "creator": "Ron Lach",
+        "creatorUrl": "https://www.pexels.com/@ron-lach",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -434,43 +434,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_recap_blog_section_landscape_27e312d585b9.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_recap_blog_section_landscape_27e312d585b9.gif",
         "alt": "Recap",
-        "width": 4752,
-        "height": 3168,
-        "creator": "Pixabay",
-        "creatorUrl": "https://www.pexels.com/@pixabay",
-        "provider": "pexels",
+        "width": 296,
+        "height": 200,
+        "creator": "TreehouseDirect",
+        "creatorUrl": "https://giphy.com/gifs/TreehouseDirect-cartoons-turtle-franklin-zOBM2EO8rEyj1Hfe3V",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_section_image_relief_action_blog_section_landscape_c80345c31cc4.jpeg",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 8179,
-    "height": 5455,
-    "creator": "Calvin Seng",
-    "creatorUrl": "https://www.pexels.com/@calvinseng",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-      "url": "https://writequeryhook.com/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and-how-to-fix-them"
+      "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
     },
     {
       "title": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-      "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+      "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
     },
     {
-      "title": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-      "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+      "title": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
     },
     {
-      "title": "How to incorporate agent/editor feedback without breaking your story",
-      "url": "https://writequeryhook.com/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+      "title": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
+      "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
     }
   ],
   "alsoLikeAfterIndex": 5,
@@ -481,12 +472,7 @@ const PAGE_DATA = {
       "text": "Long **submissions** can make you doubt yourself, but you don't have to turn that doubt into bad decisions. Pick one fix you can do this week\u2014ask for the right signal, tighten your revision plan, or repair the communication loop\u2014then keep moving with purpose instead of fear."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-      "url": "https://writequeryhook.com/query-letters/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -514,7 +500,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -526,31 +512,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
-          "item": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
+          "item": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#webpage",
-      "url": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#webpage",
+      "url": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
       "name": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -566,11 +552,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#article",
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#webpage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage",
       "headline": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
       "alternativeHeadline": "When to Give Up on Submissions: 7 Mistakes That Turn Waiting Into Self-Sabotage",
       "description": "The email thread goes quiet and your brain starts auditioning worst-case scenarios.",
@@ -600,48 +586,45 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage"
+        "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage"
       },
+      "datePublished": "2027-05-09",
+      "dateModified": "2027-05-09",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "What happens after the offer? A new writer's publishing timeline, contract, and editing reality (with examples)",
-          "url": "https://writequeryhook.com/query-letters/what-happens-after-the-offer-a-new-writer-s-publishing-timeline-contract-and"
-        },
-        {
-          "@type": "WebPage",
           "name": "Resubmission mistakes that make your revised manuscript look suspicious (and how to fix them)",
-          "url": "https://writequeryhook.com/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and-how-to-fix-them"
+          "url": "https://writequeryhook.com/blog/resubmission-mistakes-that-make-your-revised-manuscript-look-suspicious-and"
         },
         {
           "@type": "WebPage",
           "name": "Common book deal mistakes: which rights you sign away (and what you thought you could control)",
-          "url": "https://writequeryhook.com/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you-could-control"
+          "url": "https://writequeryhook.com/blog/common-book-deal-mistakes-which-rights-you-sign-away-and-what-you-thought-you"
         },
         {
           "@type": "WebPage",
-          "name": "Common mistakes new writers make after the offer\u2014and how to survive the long publishing timeline",
-          "url": "https://writequeryhook.com/common-mistakes-new-writers-make-after-the-offer-and-how-to-survive-the-long-publishing-timeline"
+          "name": "How to write a blurb first line that makes people hit \"read more\" on Amazon",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-blurb-first-line-that-makes-people-hit-read-more-on-amazon"
         },
         {
           "@type": "WebPage",
-          "name": "How to incorporate agent/editor feedback without breaking your story",
-          "url": "https://writequeryhook.com/how-to-incorporate-agent-editor-feedback-without-breaking-your-story"
+          "name": "Your manuscript critique can make you worse\u2014until you quarantine it and triage the root",
+          "url": "https://writequeryhook.com/blog/your-manuscript-critique-can-make-you-worse-until-you-quarantine-it-and-triage"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_hero_panic_silence_blog_hero_landscape_e427e37da2f6.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_28/day_387/when-to-give-up-on-submissions-7-mistakes-that-turn-waiting-into-self-sabotage/blog/blog_hero_panic_silence_blog_hero_landscape_e427e37da2f6.jpeg",
+      "width": 3756,
+      "height": 2499,
       "caption": "blog hero \u00b7 panic silence",
-      "creditText": "cbc",
+      "creditText": "SHVETS production",
       "author": {
         "@type": "Person",
-        "name": "cbc",
-        "url": "https://giphy.com/gifs/cbc-schittscreek-schitts-creek-YWc02FImk9tZ1tW0uz"
+        "name": "SHVETS production",
+        "url": "https://www.pexels.com/@shvets-production"
       },
       "@context": "https://schema.org"
     }

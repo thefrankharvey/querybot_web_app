@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for building your author platform without growing a Twitter following",
   "description": "Writers hear \"platform\" and immediately picture follower counts, engagement percentages, and the kind of posting schedule that eats your actual life. Then you look at your numbers (or lack of them) and assume the market has already decided you're invisible.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
+  "publishedDate": "2027-08-18",
+  "modifiedDate": "2027-08-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_hero_frustration_confusion_blog_hero_landscape_e058f8486970.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_hero_frustration_confusion_blog_hero_landscape_e058f8486970.jpeg?updatedAt=1782312043590",
     "alt": "blog hero \u00b7 frustration confusion",
     "width": 7680,
     "height": 5120,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for building your author platform without growing a Twitter following",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "item": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +117,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif?updatedAt=1782312044251",
         "alt": "Blog for others to grow your writing platform with existing audiences",
         "width": 356,
         "height": 200,
@@ -171,13 +171,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_ownership_comfort_blog_section_landscape_f7ff258ddffe.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_ownership_comfort_blog_section_landscape_f7ff258ddffe.gif",
         "alt": "Build a home base with a website and blogging",
-        "width": 3840,
-        "height": 2160,
-        "creator": "Vitaly Gariev",
-        "creatorUrl": "https://www.pexels.com/@silverkblack",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "SkyTV",
+        "creatorUrl": "https://giphy.com/gifs/SkyTV-comfort-big-hero-6-baymax-2UIcmK4pn7rYNLRboG",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -221,7 +221,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif?updatedAt=1782312044251",
         "alt": "Blog for others to grow your writing platform with existing audiences",
         "width": 356,
         "height": 200,
@@ -346,7 +346,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_clarity_eye_opening_blog_section_landscape_14a490115fd8.gif?updatedAt=1782312044251",
         "alt": "Blog for others to grow your writing platform with existing audiences",
         "width": 356,
         "height": 200,
@@ -357,32 +357,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_section_image_relief_action_blog_section_landscape_495c27d81d70.jpeg",
-    "alt": "blog section image \u00b7 relief action",
-    "width": 8179,
-    "height": 5455,
-    "creator": "Calvin Seng",
-    "creatorUrl": "https://www.pexels.com/@calvinseng",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     },
     {
       "title": "5 things literary agents actually do (from submissions to contracts)",
-      "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     },
     {
       "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     },
     {
       "title": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-      "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -417,7 +408,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "url": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     }
   ]
 } as const;
@@ -447,7 +438,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,31 +450,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for building your author platform without growing a Twitter following",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "item": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
       "name": "5 tips for building your author platform without growing a Twitter following",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -499,11 +490,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following",
       "headline": "5 tips for building your author platform without growing a Twitter following",
       "alternativeHeadline": "5 tips for building your author platform without growing a Twitter following",
       "description": "Writers hear \"platform\" and immediately picture follower counts, engagement percentages, and the kind of posting schedule that eats your actual life. Then you look at your numbers (or lack of them) and assume the market has already decided you're invisible.",
@@ -533,40 +524,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage"
       },
+      "datePublished": "2027-08-18",
+      "dateModified": "2027-08-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "url": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "url": "https://writequeryhook.com/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+          "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
         },
         {
           "@type": "WebPage",
           "name": "5 things literary agents actually do (from submissions to contracts)",
-          "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         },
         {
           "@type": "WebPage",
           "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+          "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
         },
         {
           "@type": "WebPage",
           "name": "How to write a winning acknowledgments section by thanking the biggest impacts (not everyone)",
-          "url": "https://writequeryhook.com/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts-not-everyone"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-winning-acknowledgments-section-by-thanking-the-biggest-impacts"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_hero_frustration_confusion_blog_hero_landscape_e058f8486970.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-tips-for-building-your-author-platform-without-growing-a-twitter-following/blog/blog_hero_frustration_confusion_blog_hero_landscape_e058f8486970.jpeg?updatedAt=1782312043590",
       "width": 7680,
       "height": 5120,
       "caption": "blog hero \u00b7 frustration confusion",
@@ -581,7 +569,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following#faq",
       "mainEntity": [
         {
           "@type": "Question",

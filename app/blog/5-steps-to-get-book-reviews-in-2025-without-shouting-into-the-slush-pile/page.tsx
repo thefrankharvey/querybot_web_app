@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 steps to get book reviews in 2025 without shouting into the slush pile",
   "description": "Getting book reviews shouldn't feel like standing on a street corner yelling, \"FREE BOOKS! ANYONE?\" And yet, that's how a lot of book marketing feels when it's done as vibes.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
+  "publishedDate": "2027-06-17",
+  "modifiedDate": "2027-06-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_hero_recognition_indignation_blog_hero_landscape_83f36fd5c933.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_hero_recognition_indignation_blog_hero_landscape_83f36fd5c933.jpeg?updatedAt=1782222475329",
     "alt": "blog hero \u00b7 recognition indignation",
     "width": 5142,
     "height": 3428,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-      "item": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+      "item": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
     }
   ],
   "tldrBlocks": [],
@@ -151,7 +151,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_clarity_awkward_questionnaire_blog_section_landscape_38c10e173bc0.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_clarity_awkward_questionnaire_blog_section_landscape_38c10e173bc0.jpeg?updatedAt=1782222475822",
         "alt": "Define your audience (then build a proto-persona)",
         "width": 6000,
         "height": 4000,
@@ -200,13 +200,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_anxiety_gatekeeping_blog_section_landscape_f41a46f28ea8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_anxiety_gatekeeping_blog_section_landscape_f41a46f28ea8.gif",
         "alt": "Pitch with best way to pitch book review requests: policy-read, personalized, concise",
-        "width": 6000,
-        "height": 4000,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 350,
+        "height": 200,
+        "creator": "raenaai",
+        "creatorUrl": "https://giphy.com/gifs/raenaai-gatekeeper-gatekeep-gatekeeping-2jNLWaeFTudGT7a9OA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -261,13 +261,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_anxiety_gatekeeping_blog_section_landscape_f41a46f28ea8.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_anxiety_gatekeeping_blog_section_landscape_f41a46f28ea8.gif",
         "alt": "Pitch with best way to pitch book review requests: policy-read, personalized, concise",
-        "width": 6000,
-        "height": 4000,
-        "creator": "MART  PRODUCTION",
-        "creatorUrl": "https://www.pexels.com/@mart-production",
-        "provider": "pexels",
+        "width": 350,
+        "height": 200,
+        "creator": "raenaai",
+        "creatorUrl": "https://giphy.com/gifs/raenaai-gatekeeper-gatekeep-gatekeeping-2jNLWaeFTudGT7a9OA",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -322,32 +322,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_section_image_earned_hope_calm_blog_section_landscape_926622641333.gif",
-    "alt": "blog section image \u00b7 earned-hope calm",
-    "width": 200,
-    "height": 200,
-    "creator": "PersonaJourney",
-    "creatorUrl": "https://giphy.com/gifs/PersonaJourney-main-character-energy-power-move-respect-earned-0IAddTXSSZ25hDV9DU",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to make your manuscript more commercial (without rewriting your soul)",
-      "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     },
     {
       "title": "How to build a compelling novel concept: turn your premise into a kicker",
-      "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+      "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
     },
     {
       "title": "How to copyright a book (and whether registration is worth it)",
-      "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+      "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
     },
     {
-      "title": "What are subsidiary rights in publishing? FAQ",
-      "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+      "title": "Author promotion vs book promotion: stop treating them like the same job",
+      "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -386,7 +377,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to make your manuscript more commercial (without rewriting your soul)",
-      "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+      "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
     }
   ]
 } as const;
@@ -416,7 +407,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -428,31 +419,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
-          "item": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
+          "item": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
+      "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#webpage",
+      "url": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
       "name": "5 steps to get book reviews in 2025 without shouting into the slush pile",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -468,11 +459,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#article",
+      "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#webpage"
+        "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile",
       "headline": "5 steps to get book reviews in 2025 without shouting into the slush pile",
       "alternativeHeadline": "5 steps to get book reviews in 2025 without shouting into the slush pile",
       "description": "Getting book reviews shouldn't feel like standing on a street corner yelling, \"FREE BOOKS! ANYONE?\" And yet, that's how a lot of book marketing feels when it's done as vibes.",
@@ -502,40 +493,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage"
       },
+      "datePublished": "2027-06-17",
+      "dateModified": "2027-06-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to make your manuscript more commercial (without rewriting your soul)",
-          "url": "https://writequeryhook.com/query-letters/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
-        },
-        {
-          "@type": "WebPage",
-          "name": "How to make your manuscript more commercial (without rewriting your soul)",
-          "url": "https://writequeryhook.com/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
+          "url": "https://writequeryhook.com/blog/how-to-make-your-manuscript-more-commercial-without-rewriting-your-soul"
         },
         {
           "@type": "WebPage",
           "name": "How to build a compelling novel concept: turn your premise into a kicker",
-          "url": "https://writequeryhook.com/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
+          "url": "https://writequeryhook.com/blog/how-to-build-a-compelling-novel-concept-turn-your-premise-into-a-kicker"
         },
         {
           "@type": "WebPage",
           "name": "How to copyright a book (and whether registration is worth it)",
-          "url": "https://writequeryhook.com/how-to-copyright-a-book-and-whether-registration-is-worth-it"
+          "url": "https://writequeryhook.com/blog/how-to-copyright-a-book-and-whether-registration-is-worth-it"
         },
         {
           "@type": "WebPage",
-          "name": "What are subsidiary rights in publishing? FAQ",
-          "url": "https://writequeryhook.com/what-are-subsidiary-rights-in-publishing-faq"
+          "name": "Author promotion vs book promotion: stop treating them like the same job",
+          "url": "https://writequeryhook.com/blog/author-promotion-vs-book-promotion-stop-treating-them-like-the-same-job"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_hero_recognition_indignation_blog_hero_landscape_83f36fd5c933.jpeg",
+      "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_32/day_437/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile/blog/blog_hero_recognition_indignation_blog_hero_landscape_83f36fd5c933.jpeg?updatedAt=1782222475329",
       "width": 5142,
       "height": 3428,
       "caption": "blog hero \u00b7 recognition indignation",
@@ -550,7 +538,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#faq",
+      "@id": "https://writequeryhook.com/blog/5-steps-to-get-book-reviews-in-2025-without-shouting-into-the-slush-pile#faq",
       "mainEntity": [
         {
           "@type": "Question",

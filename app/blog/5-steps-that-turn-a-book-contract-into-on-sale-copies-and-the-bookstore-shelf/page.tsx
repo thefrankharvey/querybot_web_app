@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
   "description": "If you just signed a contract and pictured your book popping up in a bookstore next week, welcome to publishing literacy. That fantasy is adorable\u2014and wildly wrong.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
+  "publishedDate": "2027-08-18",
+  "modifiedDate": "2027-08-18",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_hero_recognition_dread_blog_hero_landscape_883084c936d5.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_hero_recognition_dread_blog_hero_landscape_883084c936d5.jpeg",
     "alt": "blog hero \u00b7 recognition dread",
-    "width": 200,
-    "height": 200,
-    "creator": "pennydreadful",
-    "creatorUrl": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Felicity Tai",
+    "creatorUrl": "https://www.pexels.com/@felicity-tai",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-      "item": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+      "item": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
     }
   ],
   "tldrBlocks": [],
@@ -110,13 +110,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_frustrated_scheduling_blog_section_landscape_28c11ebfc667.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_frustrated_scheduling_blog_section_landscape_28c11ebfc667.gif",
         "alt": "Step 1: Slot the release by the publishing calendar's seasonal spans",
-        "width": 5184,
-        "height": 3456,
-        "creator": "Acan Tami",
-        "creatorUrl": "https://www.pexels.com/@acan-tami-3697622",
-        "provider": "pexels",
+        "width": 112,
+        "height": 200,
+        "creator": "robertkennedyjr",
+        "creatorUrl": "https://giphy.com/gifs/robertkennedyjr-waiting-flight-airport-CO2HLl3RYy2vEYZ6nJ",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -164,13 +164,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_impatient_anxious_blog_section_landscape_0146281d1214.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_impatient_anxious_blog_section_landscape_0146281d1214.jpeg",
         "alt": "Step 2: Treat editing like a revision loop, not one heroic pass",
-        "width": 200,
-        "height": 200,
-        "creator": "Mochimons",
-        "creatorUrl": "https://giphy.com/gifs/Mochimons-kawaii-mochi-mochimons-vDloAgnMPxkUXHgNUc",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "MART  PRODUCTION",
+        "creatorUrl": "https://www.pexels.com/@mart-production",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -296,43 +296,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_hopeful_countdown_blog_section_landscape_f19a48564c94.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_hopeful_countdown_blog_section_landscape_f19a48564c94.gif",
         "alt": "Step 5: Sustain reader excitement through retailer promotions and cost-aware launch strategy",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Lisa from Pexels",
-        "creatorUrl": "https://www.pexels.com/@fotios-photos",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "HallmarkChannel",
+        "creatorUrl": "https://giphy.com/gifs/HallmarkChannel-hallmark-gingerbread-a-romance-2shci2VcWhqR4hVxny",
+        "provider": "giphy",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_section_image_relief_fist_pump_blog_section_landscape_e0b145999db0.jpeg",
-    "alt": "blog section image \u00b7 relief fist pump",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 things literary agents actually do (from submissions to contracts)",
-      "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+      "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
     },
     {
       "title": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-      "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+      "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
     },
     {
       "title": "How to find and reach influencers to help promote your book (without sounding transactional)",
-      "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+      "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
     },
     {
-      "title": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-      "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+      "title": "How to emotionally move your readers (so they recommend and talk)",
+      "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -367,7 +358,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for building your author platform without growing a Twitter following",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+      "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
     }
   ]
 } as const;
@@ -397,7 +388,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -409,31 +400,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
-          "item": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
+          "item": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
+      "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#webpage",
+      "url": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
       "name": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -449,11 +440,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#article",
+      "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#webpage"
+        "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf",
       "headline": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
       "alternativeHeadline": "5 steps that turn a book contract into on-sale copies (and the bookstore shelf)",
       "description": "If you just signed a contract and pictured your book popping up in a bookstore next week, welcome to publishing literacy. That fantasy is adorable\u2014and wildly wrong.",
@@ -483,55 +474,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage"
       },
+      "datePublished": "2027-08-18",
+      "dateModified": "2027-08-18",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for building your author platform without growing a Twitter following",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
+          "url": "https://writequeryhook.com/blog/5-tips-for-building-your-author-platform-without-growing-a-twitter-following"
         },
         {
           "@type": "WebPage",
           "name": "5 things literary agents actually do (from submissions to contracts)",
-          "url": "https://writequeryhook.com/5-things-literary-agents-actually-do-from-submissions-to-contracts"
+          "url": "https://writequeryhook.com/blog/5-things-literary-agents-actually-do-from-submissions-to-contracts"
         },
         {
           "@type": "WebPage",
           "name": "How to use bad reviews to sharpen your reader targeting and write scenes your ideal reader will love",
-          "url": "https://writequeryhook.com/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your-ideal-reader-will-love"
+          "url": "https://writequeryhook.com/blog/how-to-use-bad-reviews-to-sharpen-your-reader-targeting-and-write-scenes-your"
         },
         {
           "@type": "WebPage",
           "name": "How to find and reach influencers to help promote your book (without sounding transactional)",
-          "url": "https://writequeryhook.com/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding-transactional"
+          "url": "https://writequeryhook.com/blog/how-to-find-and-reach-influencers-to-help-promote-your-book-without-sounding"
         },
         {
           "@type": "WebPage",
-          "name": "Novel series that don't disappoint: how to land book one, escalate sequels, and keep tone consistent",
-          "url": "https://writequeryhook.com/novel-series-that-don-t-disappoint-how-to-land-book-one-escalate-sequels-and-keep-tone-consistent"
+          "name": "How to emotionally move your readers (so they recommend and talk)",
+          "url": "https://writequeryhook.com/blog/how-to-emotionally-move-your-readers-so-they-recommend-and-talk"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_hero_recognition_dread_blog_hero_landscape_883084c936d5.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_508/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf/blog/blog_hero_recognition_dread_blog_hero_landscape_883084c936d5.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 recognition dread",
-      "creditText": "pennydreadful",
+      "creditText": "Felicity Tai",
       "author": {
         "@type": "Person",
-        "name": "pennydreadful",
-        "url": "https://giphy.com/gifs/pennydreadful-city-of-angels-penny-dreadful-mB9WpwAR6YUc7W7Uqa"
+        "name": "Felicity Tai",
+        "url": "https://www.pexels.com/@felicity-tai"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#faq",
+      "@id": "https://writequeryhook.com/blog/5-steps-that-turn-a-book-contract-into-on-sale-copies-and-the-bookstore-shelf#faq",
       "mainEntity": [
         {
           "@type": "Question",

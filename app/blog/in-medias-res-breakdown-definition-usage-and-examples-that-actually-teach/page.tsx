@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "In medias res breakdown: definition, usage, and examples that actually teach",
   "description": "In medias res is one of those techniques writers say they understand\u2014until they try it and their opening turns into either (a) a confusing little stunt or (b) action that never earns the reader's attention.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-08",
+  "modifiedDate": "2026-09-08",
   "canonicalUrl": "https://writequeryhook.com/blog/in-medias-res-breakdown-definition-usage-and-examples-that-actually-teach",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -785,6 +785,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/in-medias-res-breakdown-definition-usage-and-examples-that-actually-teach#primaryimage"
       },
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-09-08",
       "mentions": [
         {
           "@type": "WebPage",

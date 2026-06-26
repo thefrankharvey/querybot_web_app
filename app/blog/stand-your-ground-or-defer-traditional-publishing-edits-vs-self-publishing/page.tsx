@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
   "description": "You're staring at the revision email and your brain is doing that funhouse-mirror thing: Are they mad at me? Did I already blow the deal? Is the red pen hunting me for sport?",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
+  "publishedDate": "2027-05-02",
+  "modifiedDate": "2027-05-02",
+  "canonicalUrl": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_hero_red_pen_dread_after_the_offer_nerves_blog_hero_landscape_134e15d352d6.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_hero_red_pen_dread_after_the_offer_nerves_blog_hero_landscape_134e15d352d6.jpeg?updatedAt=1782086907877",
     "alt": "blog hero \u00b7 red pen dread after-the-offer nerves",
     "width": 7360,
     "height": 4912,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-      "item": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+      "item": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
     }
   ],
   "tldrBlocks": [],
@@ -97,13 +97,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_tldr_blog_section_landscape_9909cbea0084.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_tldr_blog_section_landscape_9909cbea0084.gif",
         "alt": "TLDR",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -326,13 +326,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_quiet_confidence_partnership_blog_section_landscape_1a2017160847.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_quiet_confidence_partnership_blog_section_landscape_1a2017160847.jpeg",
         "alt": "When to disagree with an editor (and how)",
-        "width": 174,
-        "height": 200,
-        "creator": "abbycamms",
-        "creatorUrl": "https://giphy.com/gifs/tokyo-lisa-and-jennie-gMIBkMFCiAa5OYhX7n",
-        "provider": "giphy",
+        "width": 6720,
+        "height": 4480,
+        "creator": "www.kaboompics.com",
+        "creatorUrl": "https://www.pexels.com/@karola-g",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -447,13 +447,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_quiet_confidence_partnership_blog_section_landscape_1a2017160847.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_quiet_confidence_partnership_blog_section_landscape_1a2017160847.jpeg",
         "alt": "When to disagree with an editor (and how)",
-        "width": 174,
-        "height": 200,
-        "creator": "abbycamms",
-        "creatorUrl": "https://giphy.com/gifs/tokyo-lisa-and-jennie-gMIBkMFCiAa5OYhX7n",
-        "provider": "giphy",
+        "width": 6720,
+        "height": 4480,
+        "creator": "www.kaboompics.com",
+        "creatorUrl": "https://www.pexels.com/@karola-g",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -480,32 +480,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_section_image_deep_breath_choose_today_blog_section_landscape_fa769e6ed6e7.jpeg",
-    "alt": "blog section image \u00b7 deep breath choose today",
-    "width": 4192,
-    "height": 2795,
-    "creator": "Jan Brndiar",
-    "creatorUrl": "https://www.pexels.com/@jan-brndiar-809427026",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-      "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     },
     {
       "title": "Representation offer FAQ: how to respond, decide, and protect your rights",
-      "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+      "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
     },
     {
       "title": "What Is an Editorial Letter? Developmental Editing FAQs",
-      "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+      "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
     },
     {
-      "title": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-      "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+      "title": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+      "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -540,7 +531,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-      "url": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+      "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
     }
   ]
 } as const;
@@ -570,7 +561,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -582,31 +573,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
-          "item": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
+          "item": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#webpage",
-      "url": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
+      "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#webpage",
+      "url": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
       "name": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -622,11 +613,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#article",
+      "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#webpage"
+        "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing",
       "headline": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
       "alternativeHeadline": "Stand Your Ground or Defer: Traditional Publishing Edits vs Self-Publishing Choices",
       "description": "You're staring at the revision email and your brain is doing that funhouse-mirror thing: Are they mad at me? Did I already blow the deal? Is the red pen hunting me for sport?",
@@ -656,40 +647,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage"
+        "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage"
       },
+      "datePublished": "2027-05-02",
+      "dateModified": "2027-05-02",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-          "url": "https://writequeryhook.com/query-letters/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
-        },
-        {
-          "@type": "WebPage",
-          "name": "After a Publisher Requests Your Manuscript: publishing FAQ for new writers",
-          "url": "https://writequeryhook.com/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
+          "url": "https://writequeryhook.com/blog/after-a-publisher-requests-your-manuscript-publishing-faq-for-new-writers"
         },
         {
           "@type": "WebPage",
           "name": "Representation offer FAQ: how to respond, decide, and protect your rights",
-          "url": "https://writequeryhook.com/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
+          "url": "https://writequeryhook.com/blog/representation-offer-faq-how-to-respond-decide-and-protect-your-rights"
         },
         {
           "@type": "WebPage",
           "name": "What Is an Editorial Letter? Developmental Editing FAQs",
-          "url": "https://writequeryhook.com/what-is-an-editorial-letter-developmental-editing-faqs"
+          "url": "https://writequeryhook.com/blog/what-is-an-editorial-letter-developmental-editing-faqs"
         },
         {
           "@type": "WebPage",
-          "name": "Querying one MSWL at a time vs the \"research-binge\" alternatives (and why your anxiety still shows up)",
-          "url": "https://writequeryhook.com/querying-one-mswl-at-a-time-vs-the-research-binge-alternatives-and-why-your-anxiety-still-shows-up"
+          "name": "5 Common Mistakes That Turn \"Praise\" Rejection Into a Dead End",
+          "url": "https://writequeryhook.com/blog/5-common-mistakes-that-turn-praise-rejection-into-a-dead-end"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_hero_red_pen_dread_after_the_offer_nerves_blog_hero_landscape_134e15d352d6.jpeg",
+      "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_27/day_377/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing/blog/blog_hero_red_pen_dread_after_the_offer_nerves_blog_hero_landscape_134e15d352d6.jpeg?updatedAt=1782086907877",
       "width": 7360,
       "height": 4912,
       "caption": "blog hero \u00b7 red pen dread after-the-offer nerves",
@@ -704,7 +692,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#faq",
+      "@id": "https://writequeryhook.com/blog/stand-your-ground-or-defer-traditional-publishing-edits-vs-self-publishing#faq",
       "mainEntity": [
         {
           "@type": "Question",

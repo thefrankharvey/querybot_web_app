@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Pay attention to your progress: the boring measurement that keeps writers from quitting",
   "description": "There's a particular kind of frustration that shows up when you're \"doing the work,\" but nothing feels different.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-13",
+  "modifiedDate": "2027-03-13",
   "canonicalUrl": "https://writequeryhook.com/blog/pay-attention-to-your-progress-the-boring-measurement-that-keeps-writers-from",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -598,6 +598,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/pay-attention-to-your-progress-the-boring-measurement-that-keeps-writers-from#primaryimage"
       },
+      "datePublished": "2027-03-13",
+      "dateModified": "2027-03-13",
       "mentions": [
         {
           "@type": "WebPage",

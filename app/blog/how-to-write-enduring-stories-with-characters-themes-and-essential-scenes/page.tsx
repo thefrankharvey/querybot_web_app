@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write enduring stories with characters, themes, and essential scenes",
   "description": "You can do everything \"right\" in the moment: clean prose, solid pacing, a satisfying ending. Then the book lands with a thud. Or it gets love-bombed for a week and disappears.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-20",
+  "modifiedDate": "2026-10-20",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-enduring-stories-with-characters-themes-and-essential-scenes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -597,6 +597,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-enduring-stories-with-characters-themes-and-essential-scenes#primaryimage"
       },
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
       "mentions": [
         {
           "@type": "WebPage",

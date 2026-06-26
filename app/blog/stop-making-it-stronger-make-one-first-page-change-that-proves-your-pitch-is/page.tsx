@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop \"making it stronger.\" Make one first-page change that proves your pitch is real",
   "description": "You've probably gotten the advice that sounds good in theory: strengthen your first page, tighten the opening, make it more compelling. Cool. Unfortunately, \"stronger\" is a vibes word. Agents don't reject vibes. They reject packets that don't earn their next read.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-03",
+  "modifiedDate": "2026-09-03",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-making-it-stronger-make-one-first-page-change-that-proves-your-pitch-is",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -624,6 +624,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-making-it-stronger-make-one-first-page-change-that-proves-your-pitch-is#primaryimage"
       },
+      "datePublished": "2026-09-03",
+      "dateModified": "2026-09-03",
       "mentions": [
         {
           "@type": "WebPage",

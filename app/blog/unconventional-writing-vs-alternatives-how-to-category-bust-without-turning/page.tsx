@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
   "description": "Publishing has a weird little ritual: books don\u2019t just get admired. They get sorted. Shelved. Discovered through categories that help buyers decide what a title will feel like. That\u2019s not snobbery\u2014it\u2019s logistics.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
+  "publishedDate": "2027-10-13",
+  "modifiedDate": "2027-10-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-      "item": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
+      "item": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
     }
   ],
   "tldrBlocks": [],
@@ -451,20 +451,20 @@ const PAGE_DATA = {
   },
   "alsoLike": [
     {
-      "title": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-      "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
-    },
-    {
       "title": "Author websites vs alternatives: pick the funnel-y option that converts",
-      "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+      "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
     },
     {
       "title": "Research and marketing for small press success: key questions answered",
-      "url": "https://writequeryhook.com/research-and-marketing-for-small-press-success-key-questions-answered"
+      "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
     },
     {
-      "title": "Successful self-published authors: 17 inspiring stories FAQ",
-      "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+      "title": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+    },
+    {
+      "title": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
+      "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -500,12 +500,7 @@ const PAGE_DATA = {
       "text": "Decide today by running one question on repeat: can your boundary-breaking choice survive removability\u2014and still keep your genre promises on the page?"
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-      "url": "https://writequeryhook.com/query-letters/allison-speka-self-published-romance-author-vs-traditional-publishing-which"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -533,7 +528,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -545,31 +540,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
-          "item": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
+          "item": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#webpage",
-      "url": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#webpage",
+      "url": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
       "name": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -585,11 +580,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#article",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#webpage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning",
       "headline": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
       "alternativeHeadline": "Unconventional writing vs alternatives: how to category-bust without turning your debut into a gimmick",
       "description": "Publishing has a weird little ritual: books don\u2019t just get admired. They get sorted. Shelved. Discovered through categories that help buyers decide what a title will feel like. That\u2019s not snobbery\u2014it\u2019s logistics.",
@@ -619,39 +614,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage"
+        "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage"
       },
+      "datePublished": "2027-10-13",
+      "dateModified": "2027-10-13",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-          "url": "https://writequeryhook.com/query-letters/allison-speka-self-published-romance-author-vs-traditional-publishing-which"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Allison Speka self-published romance author vs traditional publishing: which path wins for indie-control?",
-          "url": "https://writequeryhook.com/allison-speka-self-published-romance-author-vs-traditional-publishing-which-path-wins-for-indie-control"
-        },
-        {
-          "@type": "WebPage",
           "name": "Author websites vs alternatives: pick the funnel-y option that converts",
-          "url": "https://writequeryhook.com/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
+          "url": "https://writequeryhook.com/blog/author-websites-vs-alternatives-pick-the-funnel-y-option-that-converts"
         },
         {
           "@type": "WebPage",
           "name": "Research and marketing for small press success: key questions answered",
-          "url": "https://writequeryhook.com/research-and-marketing-for-small-press-success-key-questions-answered"
+          "url": "https://writequeryhook.com/blog/research-and-marketing-for-small-press-success-key-questions-answered"
         },
         {
           "@type": "WebPage",
-          "name": "Successful self-published authors: 17 inspiring stories FAQ",
-          "url": "https://writequeryhook.com/successful-self-published-authors-17-inspiring-stories-faq"
+          "name": "Self publishing a family memoir FAQ: editing, cover design, and typesetting",
+          "url": "https://writequeryhook.com/blog/self-publishing-a-family-memoir-faq-editing-cover-design-and-typesetting"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Commercial\u201d isn\u2019t about selling out: 7 revision mistakes killing your stakes, characters, and payoff",
+          "url": "https://writequeryhook.com/blog/commercial-isn-t-about-selling-out-7-revision-mistakes-killing-your-stakes"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_41/day_574/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning/blog/blog_hero_confusion_dread_blog_hero_landscape_8e44a9468f3f.gif",
       "width": 200,
       "height": 200,
@@ -667,7 +659,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#faq",
+      "@id": "https://writequeryhook.com/blog/unconventional-writing-vs-alternatives-how-to-category-bust-without-turning#faq",
       "mainEntity": [
         {
           "@type": "Question",

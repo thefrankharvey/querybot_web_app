@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Edit your own book with template examples: a staged method that actually catches the mistakes",
   "description": "Most drafts don't need a \"better writer.\" They need a better edit plan.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-27",
+  "modifiedDate": "2027-01-27",
   "canonicalUrl": "https://writequeryhook.com/blog/edit-your-own-book-with-template-examples-a-staged-method-that-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -756,6 +756,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/edit-your-own-book-with-template-examples-a-staged-method-that-actually#primaryimage"
       },
+      "datePublished": "2027-01-27",
+      "dateModified": "2027-01-27",
       "mentions": [
         {
           "@type": "WebPage",

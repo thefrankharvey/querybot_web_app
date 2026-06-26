@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "7 Literary Rejection Letter Mistakes That Keep You From Submitting Again",
   "description": "Rejection letters are supposed to hurt. They land in the inbox like a slap of cold water, and suddenly the work feels personal.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-19",
+  "modifiedDate": "2027-02-19",
   "canonicalUrl": "https://writequeryhook.com/blog/7-literary-rejection-letter-mistakes-that-keep-you-from-submitting-again",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -657,6 +657,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/7-literary-rejection-letter-mistakes-that-keep-you-from-submitting-again#primaryimage"
       },
+      "datePublished": "2027-02-19",
+      "dateModified": "2027-02-19",
       "mentions": [
         {
           "@type": "WebPage",

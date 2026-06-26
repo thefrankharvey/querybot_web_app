@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The only three sentences writers need to hear after they share their work",
   "description": "Writers don't usually share work the way people hand out business cards. It costs something. Sometimes it's a grin that's trying to outrun panic. Sometimes it's that tight, \"please don't miss it\" feeling hovering over the send button.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-26",
+  "modifiedDate": "2027-03-26",
   "canonicalUrl": "https://writequeryhook.com/blog/the-only-three-sentences-writers-need-to-hear-after-they-share-their-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -605,6 +605,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-only-three-sentences-writers-need-to-hear-after-they-share-their-work#primaryimage"
       },
+      "datePublished": "2027-03-26",
+      "dateModified": "2027-03-26",
       "mentions": [
         {
           "@type": "WebPage",

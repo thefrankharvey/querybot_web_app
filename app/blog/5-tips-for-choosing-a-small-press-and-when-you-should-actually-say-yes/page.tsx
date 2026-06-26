@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 tips for choosing a small press (and when you should actually say yes)",
   "description": "Most writers hear \"small press\" and immediately reach for a mental filing cabinet labeled maybe. Maybe it's legit. Maybe it's a vanity operation. Maybe they take submissions. Maybe they don't. Maybe the contract will be fine. Maybe it'll be a tax on your time.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
+  "publishedDate": "2027-09-22",
+  "modifiedDate": "2027-09-22",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_hero_recognition_frustration_blog_hero_landscape_98a894c736a1.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_hero_recognition_frustration_blog_hero_landscape_98a894c736a1.jpeg",
     "alt": "blog hero \u00b7 recognition frustration",
-    "width": 200,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs",
-    "provider": "giphy",
+    "width": 6541,
+    "height": 4361,
+    "creator": "www.kaboompics.com",
+    "creatorUrl": "https://www.pexels.com/@karola-g",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 tips for choosing a small press (and when you should actually say yes)",
-      "item": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+      "item": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
     }
   ],
   "tldrBlocks": [],
@@ -122,13 +122,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_definition_clarity_blog_section_landscape_09cbb0d6cf9f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_definition_clarity_blog_section_landscape_09cbb0d6cf9f.jpeg",
         "alt": "Know what a small press means",
-        "width": 200,
-        "height": 200,
-        "creator": "dazn",
-        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Nothing Ahead",
+        "creatorUrl": "https://www.pexels.com/@ian-panelo",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -279,13 +279,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_fist_pump_eye_roll_blog_section_landscape_55f6015d3240.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_fist_pump_eye_roll_blog_section_landscape_55f6015d3240.gif",
         "alt": "Take charge of marketing when firepower is limited",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Mario Am\u00e9",
-        "creatorUrl": "https://www.pexels.com/@imperioame",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "tvonetv",
+        "creatorUrl": "https://giphy.com/gifs/tvonetv-love-dance-3oriO6jog0SOKFBSBa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -342,13 +342,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_skepticism_investigation_blog_section_landscape_bad50ec7a0c3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_skepticism_investigation_blog_section_landscape_bad50ec7a0c3.gif",
         "alt": "Vet quality through process and consistency",
-        "width": 3999,
-        "height": 2666,
-        "creator": "Markus Winkler",
-        "creatorUrl": "https://www.pexels.com/@markus-winkler-1430818",
-        "provider": "pexels",
+        "width": 356,
+        "height": 200,
+        "creator": "cartoonhangover",
+        "creatorUrl": "https://giphy.com/gifs/cartoonhangover-cartoon-hangover-bravest-warriors-5T0k3zahH7iPYU2Mu6",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -400,43 +400,34 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_definition_clarity_blog_section_landscape_09cbb0d6cf9f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_definition_clarity_blog_section_landscape_09cbb0d6cf9f.jpeg",
         "alt": "Know what a small press means",
-        "width": 200,
-        "height": 200,
-        "creator": "dazn",
-        "creatorUrl": "https://giphy.com/gifs/dazn-football-chelsea-thomas-tuchel-TzxFpZa9ZxlusFPCoH",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "Nothing Ahead",
+        "creatorUrl": "https://www.pexels.com/@ian-panelo",
+        "provider": "pexels",
         "role": "section"
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_section_image_composure_next_step_blog_section_landscape_e3a5f8932262.jpeg",
-    "alt": "blog section image \u00b7 composure next step",
-    "width": 4800,
-    "height": 3200,
-    "creator": "Jan van der Wolf",
-    "creatorUrl": "https://www.pexels.com/@jan-van-der-wolf-11680885",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "5 tips for facing the happy harsh truths of a writing career",
-      "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     },
     {
       "title": "5 tips for writing IP when you don't own the world (or the rules)",
-      "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+      "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
     },
     {
       "title": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-      "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
     },
     {
-      "title": "Small press vs imprint vs micro-press: should authors choose a small press?",
-      "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+      "title": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
+      "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -471,7 +462,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "5 tips for facing the happy harsh truths of a writing career",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+      "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
     }
   ]
 } as const;
@@ -501,7 +492,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -513,31 +504,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 tips for choosing a small press (and when you should actually say yes)",
-          "item": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
+          "item": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#webpage",
+      "url": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
       "name": "5 tips for choosing a small press (and when you should actually say yes)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -553,11 +544,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#article",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#webpage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes",
       "headline": "5 tips for choosing a small press (and when you should actually say yes)",
       "alternativeHeadline": "5 tips for choosing a small press (and when you should actually say yes)",
       "description": "Most writers hear \"small press\" and immediately reach for a mental filing cabinet labeled maybe. Maybe it's legit. Maybe it's a vanity operation. Maybe they take submissions. Maybe they don't. Maybe the contract will be fine. Maybe it'll be a tax on your time.",
@@ -587,55 +578,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage"
       },
+      "datePublished": "2027-09-22",
+      "dateModified": "2027-09-22",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "5 tips for facing the happy harsh truths of a writing career",
-          "url": "https://writequeryhook.com/query-letters/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 tips for facing the happy harsh truths of a writing career",
-          "url": "https://writequeryhook.com/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
+          "url": "https://writequeryhook.com/blog/5-tips-for-facing-the-happy-harsh-truths-of-a-writing-career"
         },
         {
           "@type": "WebPage",
           "name": "5 tips for writing IP when you don't own the world (or the rules)",
-          "url": "https://writequeryhook.com/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
+          "url": "https://writequeryhook.com/blog/5-tips-for-writing-ip-when-you-don-t-own-the-world-or-the-rules"
         },
         {
           "@type": "WebPage",
           "name": "How to write a nonfiction book proposal in 9 steps 2 (the version agents actually want)",
-          "url": "https://writequeryhook.com/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents-actually-want"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-2-the-version-agents"
         },
         {
           "@type": "WebPage",
-          "name": "Small press vs imprint vs micro-press: should authors choose a small press?",
-          "url": "https://writequeryhook.com/small-press-vs-imprint-vs-micro-press-should-authors-choose-a-small-press"
+          "name": "How to Brag About a Short Story Collection Without Making It Sound Same-y",
+          "url": "https://writequeryhook.com/blog/how-to-brag-about-a-short-story-collection-without-making-it-sound-same-y"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_hero_recognition_frustration_blog_hero_landscape_98a894c736a1.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_40/day_550/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes/blog/blog_hero_recognition_frustration_blog_hero_landscape_98a894c736a1.jpeg",
+      "width": 6541,
+      "height": 4361,
       "caption": "blog hero \u00b7 recognition frustration",
-      "creditText": "Giphy",
+      "creditText": "www.kaboompics.com",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/new-girl-YVvTCqTBglkOs"
+        "name": "www.kaboompics.com",
+        "url": "https://www.pexels.com/@karola-g"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#faq",
+      "@id": "https://writequeryhook.com/blog/5-tips-for-choosing-a-small-press-and-when-you-should-actually-say-yes#faq",
       "mainEntity": [
         {
           "@type": "Question",

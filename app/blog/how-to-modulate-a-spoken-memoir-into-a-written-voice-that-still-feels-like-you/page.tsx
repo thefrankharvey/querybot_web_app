@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to modulate a spoken memoir into a written voice that still feels like you",
   "description": "Most memoir drafts don't fail because the writer didn't experience something real. They fail because the writer shows up on the page like they're still at the mic.",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-11-04",
+  "modifiedDate": "2026-11-04",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-modulate-a-spoken-memoir-into-a-written-voice-that-still-feels-like-you",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -763,6 +763,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-modulate-a-spoken-memoir-into-a-written-voice-that-still-feels-like-you#primaryimage"
       },
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-04",
       "mentions": [
         {
           "@type": "WebPage",

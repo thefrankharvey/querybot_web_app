@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Submission edits before you hear back: 7 myths that turn into inbox overload",
   "description": "You found a typo right after you hit send. So you want to \"fix it fast.\" Myths like that feel like care. They also make you look like a flood risk.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-04-07",
+  "modifiedDate": "2027-04-07",
   "canonicalUrl": "https://writequeryhook.com/blog/submission-edits-before-you-hear-back-7-myths-that-turn-into-inbox-overload",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -597,6 +597,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/submission-edits-before-you-hear-back-7-myths-that-turn-into-inbox-overload#primaryimage"
       },
+      "datePublished": "2027-04-07",
+      "dateModified": "2027-04-07",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "5 tips for recovering from the chaos\u2014adapt, improvise, and carry on like a pro",
   "description": "The power goes out. The hallway turns into a pitch-black mystery novel. Someone waves a glow-stick like it's a sacred artifact and calls it a \"presentation solution.\" And somehow\u2014somehow\u2014the conference still runs.",
   "readTime": "6 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-22",
+  "modifiedDate": "2027-03-22",
   "canonicalUrl": "https://writequeryhook.com/blog/5-tips-for-recovering-from-the-chaos-adapt-improvise-and-carry-on-like-a-pro",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -499,6 +499,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/5-tips-for-recovering-from-the-chaos-adapt-improvise-and-carry-on-like-a-pro#primaryimage"
       },
+      "datePublished": "2027-03-22",
+      "dateModified": "2027-03-22",
       "mentions": [
         {
           "@type": "WebPage",

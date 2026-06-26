@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
   "description": "Subsidiary rights are the part of publishing everyone treats like bonus clutter. Like, \"Sure, extra money, but not urgent.\" That's the contrarian lie.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
+  "publishedDate": "2027-10-20",
+  "modifiedDate": "2027-10-20",
+  "canonicalUrl": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-      "item": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+      "item": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
     }
   ],
   "tldrBlocks": [],
@@ -468,19 +468,19 @@ const PAGE_DATA = {
   "alsoLike": [
     {
       "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-      "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
     },
     {
       "title": "5 economics of publishing mistakes that make author income look like a scam",
-      "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+      "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
     },
     {
       "title": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-      "url": "https://writequeryhook.com/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+      "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
     },
     {
-      "title": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-      "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+      "title": "How advances work against royalties: when you'll actually see money",
+      "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
     }
   ],
   "alsoLikeAfterIndex": 3,
@@ -519,7 +519,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-      "url": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
+      "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
     }
   ]
 } as const;
@@ -549,7 +549,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -561,31 +561,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
-          "item": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
+          "item": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#webpage",
-      "url": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#webpage",
+      "url": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
       "name": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -601,11 +601,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#article",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#webpage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead",
       "headline": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
       "alternativeHeadline": "Subsidiary rights mistakes that quietly cost you money (and what to do instead)",
       "description": "Subsidiary rights are the part of publishing everyone treats like bonus clutter. Like, \"Sure, extra money, but not urgent.\" That's the contrarian lie.",
@@ -635,39 +635,36 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage"
+        "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage"
       },
+      "datePublished": "2027-10-20",
+      "dateModified": "2027-10-20",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-          "url": "https://writequeryhook.com/query-letters/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "An author platform doesn't mean \"famous\": 7 mistakes that sabotage authority and eyeballs",
-          "url": "https://writequeryhook.com/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and-eyeballs"
+          "url": "https://writequeryhook.com/blog/an-author-platform-doesn-t-mean-famous-7-mistakes-that-sabotage-authority-and"
         },
         {
           "@type": "WebPage",
           "name": "5 economics of publishing mistakes that make author income look like a scam",
-          "url": "https://writequeryhook.com/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
+          "url": "https://writequeryhook.com/blog/5-economics-of-publishing-mistakes-that-make-author-income-look-like-a-scam"
         },
         {
           "@type": "WebPage",
           "name": "Premise in YA: why \"emotional stakes\" matter more than the trend",
-          "url": "https://writequeryhook.com/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
+          "url": "https://writequeryhook.com/blog/premise-in-ya-why-emotional-stakes-matter-more-than-the-trend"
         },
         {
           "@type": "WebPage",
-          "name": "Crowdfunding for authors: when Kickstarter actually makes sense for a novel",
-          "url": "https://writequeryhook.com/crowdfunding-for-authors-when-kickstarter-actually-makes-sense-for-a-novel"
+          "name": "How advances work against royalties: when you'll actually see money",
+          "url": "https://writequeryhook.com/blog/how-advances-work-against-royalties-when-you-ll-actually-see-money"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#primaryimage",
       "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_42/day_582/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead/blog/blog_hero_skepticism_contrarian_blog_hero_landscape_358fd0bd11b1.jpeg",
       "width": 3999,
       "height": 2666,
@@ -683,7 +680,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#faq",
+      "@id": "https://writequeryhook.com/blog/subsidiary-rights-mistakes-that-quietly-cost-you-money-and-what-to-do-instead#faq",
       "mainEntity": [
         {
           "@type": "Question",

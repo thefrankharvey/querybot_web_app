@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
   "description": "# TLDR",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
+  "publishedDate": "2027-06-08",
+  "modifiedDate": "2027-06-08",
+  "canonicalUrl": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "clarity"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_af21d1203e1e.jpeg?updatedAt=1782428155560",
+    "alt": "blog hero \u00b7 confusion dread",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-      "item": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
+      "item": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
     }
   ],
   "tldrBlocks": [],
@@ -92,7 +101,16 @@ const PAGE_DATA = {
           "text": "And if you're thinking \"I can handle this later,\" cool. Later is when you're negotiating under stress, with the ink already behaving like it's permanent."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually/blog/blog_section_image_opening_blog_section_landscape_d663f2dfda0c.gif?updatedAt=1782428157039",
+        "alt": "Opening",
+        "width": 162,
+        "height": 200,
+        "creator": "Nicholasllee_",
+        "creatorUrl": "https://giphy.com/gifs/meme-red-cute-cat-nEVeLB6qkgUM32Y4Qz",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_what_territory_is_and_why_agents_care",
@@ -162,7 +180,16 @@ const PAGE_DATA = {
           "text": "It can feel like the contract is contradicting itself. It isn't. It's just doing what contracts do: splitting rights into chunks so deals can match business realities."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually/blog/blog_section_image_clarity_permissions_map_blog_section_landscape_0c010ee66d13.jpeg?updatedAt=1782428157638",
+        "alt": "What territory is and why agents care",
+        "width": 5040,
+        "height": 3360,
+        "creator": "Lara Jameson",
+        "creatorUrl": "https://www.pexels.com/@lara-jameson",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_exclusive_territory_vs_nonexclusive_open_market",
@@ -436,26 +463,35 @@ const PAGE_DATA = {
           "text": "The beginner move is to treat the marketing sentence as the entire clause. Don't. Treat the clause text as the truth source."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually/blog/blog_section_image_red_flags_reread_blog_section_landscape_9172572401b5.gif?updatedAt=1782428158168",
+        "alt": "Common territory language traps to catch",
+        "width": 144,
+        "height": 200,
+        "creator": "GawdUsopp",
+        "creatorUrl": "https://giphy.com/gifs/foul-redcard-black-referee-hC23fYScpFs9XKjD06",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-      "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+      "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
     },
     {
       "title": "11 book title tips to make your next title sell before the blurb even loads",
-      "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+      "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
     },
     {
-      "title": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-      "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
+      "title": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
     },
     {
-      "title": "10 author websites that work\u2014and the mechanics behind them",
-      "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
+      "title": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+      "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -498,7 +534,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-      "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+      "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
     }
   ]
 } as const;
@@ -528,7 +564,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -540,28 +576,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
-          "item": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
+          "item": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#webpage",
-      "url": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
+      "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#webpage",
+      "url": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
       "name": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -577,11 +616,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#article",
+      "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#webpage"
+        "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually",
       "headline": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
       "alternativeHeadline": "Territory in a publishing contract: what exclusive vs nonexclusive actually changes for sales",
       "description": "# TLDR",
@@ -610,38 +649,58 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#primaryimage"
+      },
+      "datePublished": "2027-06-08",
+      "dateModified": "2027-06-08",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "What literary agents do: the full submission-to-contract-to-aftercare pipeline",
-          "url": "https://writequeryhook.com/query-letters/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
+          "url": "https://writequeryhook.com/blog/what-literary-agents-do-the-full-submission-to-contract-to-aftercare-pipeline"
         },
         {
           "@type": "WebPage",
           "name": "Publishing isn't five paths\u2014it's one question: who pays the risk and who owns the rights?",
-          "url": "https://writequeryhook.com/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns-the-rights"
+          "url": "https://writequeryhook.com/blog/publishing-isn-t-five-paths-it-s-one-question-who-pays-the-risk-and-who-owns"
         },
         {
           "@type": "WebPage",
           "name": "11 book title tips to make your next title sell before the blurb even loads",
-          "url": "https://writequeryhook.com/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
+          "url": "https://writequeryhook.com/blog/11-book-title-tips-to-make-your-next-title-sell-before-the-blurb-even-loads"
         },
         {
           "@type": "WebPage",
-          "name": "39 lessons from a self-published romance author: cover design, marketing, outlining, and actually finishing the book",
-          "url": "https://writequeryhook.com/39-lessons-from-a-self-published-romance-author-cover-design-marketing-outlining-and-actually-finishing-the-book"
+          "name": "How to write a nonfiction book proposal in 9 steps (and stop guessing)",
+          "url": "https://writequeryhook.com/blog/how-to-write-a-nonfiction-book-proposal-in-9-steps-and-stop-guessing"
         },
         {
           "@type": "WebPage",
-          "name": "10 author websites that work\u2014and the mechanics behind them",
-          "url": "https://writequeryhook.com/10-author-websites-that-work-and-the-mechanics-behind-them"
+          "name": "How to Leverage Podcasting as an Author (Without the Tech Panic)",
+          "url": "https://writequeryhook.com/blog/how-to-leverage-podcasting-as-an-author-without-the-tech-panic"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_31/day_426/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually/blog/blog_hero_confusion_dread_blog_hero_landscape_af21d1203e1e.jpeg?updatedAt=1782428155560",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 confusion dread",
+      "creditText": "Zhine Pics",
+      "author": {
+        "@type": "Person",
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#faq",
+      "@id": "https://writequeryhook.com/blog/territory-in-a-publishing-contract-what-exclusive-vs-nonexclusive-actually#faq",
       "mainEntity": [
         {
           "@type": "Question",

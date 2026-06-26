@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "3 ways writers block their success while thinking they're hard at work",
   "description": "Writers don't always get blocked by a lack of talent. Sometimes it's worse: they're \"working\" so hard that the work becomes a disguise.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-02-15",
+  "modifiedDate": "2027-02-15",
   "canonicalUrl": "https://writequeryhook.com/blog/3-ways-writers-block-their-success-while-thinking-they-re-hard-at-work",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -469,6 +469,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/3-ways-writers-block-their-success-while-thinking-they-re-hard-at-work#primaryimage"
       },
+      "datePublished": "2027-02-15",
+      "dateModified": "2027-02-15",
       "mentions": [
         {
           "@type": "WebPage",

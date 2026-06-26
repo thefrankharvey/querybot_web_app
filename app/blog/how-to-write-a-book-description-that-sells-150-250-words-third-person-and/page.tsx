@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
   "description": "A book description is where readers decide if they're clicking \"continue\" or bouncing back to the search results. That's not poetic. That's the reality of book marketing.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
+  "publishedDate": "2027-07-10",
+  "modifiedDate": "2027-07-10",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_d7a767981c4c.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_d7a767981c4c.jpeg",
     "alt": "blog hero \u00b7 sales-pressure blank-page dread",
-    "width": 152,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Zhine Pics",
+    "creatorUrl": "https://www.pexels.com/@zhine-pics-475050645",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-      "item": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
+      "item": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
     }
   ],
   "tldrBlocks": [],
@@ -167,13 +167,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_panic_deadline_blog_section_landscape_8b72505601af.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_panic_deadline_blog_section_landscape_8b72505601af.gif",
         "alt": "Step 2: Lock the word count and paragraphs before you revise anything",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Ann H",
-        "creatorUrl": "https://www.pexels.com/@ann-h-45017",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "britishbakeoff",
+        "creatorUrl": "https://giphy.com/gifs/britishbakeoff-zMWTXLXa0KNek5yDPv",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -381,13 +381,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_anxiety_search_intent_blog_section_landscape_a2a1b783db8c.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_anxiety_search_intent_blog_section_landscape_a2a1b783db8c.gif",
         "alt": "Step 5: Plant keywords that match reader intent (genre for fiction, problem/expertise for nonfiction)",
-        "width": 5821,
-        "height": 3881,
-        "creator": "Anna Shvets",
-        "creatorUrl": "https://www.pexels.com/@shvetsa",
-        "provider": "pexels",
+        "width": 200,
+        "height": 200,
+        "creator": "s9icysir3n",
+        "creatorUrl": "https://giphy.com/gifs/searching-searchingfor-lmao-sFOfDaoQG79HT2cRQa",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -443,7 +443,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_revision_resistance_blog_section_landscape_0416c7b88ab5.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_revision_resistance_blog_section_landscape_0416c7b88ab5.jpeg?updatedAt=1782245105006",
         "alt": "Step 6: Revise multiple versions until the description earns clicks",
         "width": 3024,
         "height": 2566,
@@ -454,32 +454,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_section_image_fist_pump_deadline_push_blog_section_landscape_cddde5b0d9d4.gif",
-    "alt": "blog section image \u00b7 fist pump deadline push",
-    "width": 200,
-    "height": 200,
-    "creator": "PersonaJourney",
-    "creatorUrl": "https://giphy.com/gifs/PersonaJourney-so-close-almost-there-tofualmostthere-Teiy9qxAbhRXLDo6Zg",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "How to find a book editor (and stop waiting until submission to fix the draft)",
-      "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+      "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
     },
     {
       "title": "Five realistic ways to publish your short stories (and build credibility for collections)",
-      "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+      "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
     },
     {
       "title": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-      "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+      "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
     },
     {
-      "title": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-      "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+      "title": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
+      "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -497,7 +488,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-      "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
+      "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
     }
   ]
 } as const;
@@ -527,7 +518,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -539,31 +530,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
-          "item": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
+          "item": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
       "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -579,11 +570,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#article",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and",
       "headline": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
       "alternativeHeadline": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
       "description": "A book description is where readers decide if they're clicking \"continue\" or bouncing back to the search results. That's not poetic. That's the reality of book marketing.",
@@ -613,55 +604,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage"
+        "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage"
       },
+      "datePublished": "2027-07-10",
+      "dateModified": "2027-07-10",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "How to Market Yourself in Publishing with a Personal Branding Message People Can Reuse",
-          "url": "https://writequeryhook.com/query-letters/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
+          "url": "https://writequeryhook.com/blog/how-to-market-yourself-in-publishing-with-a-personal-branding-message-people"
         },
         {
           "@type": "WebPage",
           "name": "How to find a book editor (and stop waiting until submission to fix the draft)",
-          "url": "https://writequeryhook.com/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
+          "url": "https://writequeryhook.com/blog/how-to-find-a-book-editor-and-stop-waiting-until-submission-to-fix-the-draft"
         },
         {
           "@type": "WebPage",
           "name": "Five realistic ways to publish your short stories (and build credibility for collections)",
-          "url": "https://writequeryhook.com/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for-collections"
+          "url": "https://writequeryhook.com/blog/five-realistic-ways-to-publish-your-short-stories-and-build-credibility-for"
         },
         {
           "@type": "WebPage",
           "name": "Publishing paths vs alternatives: traditional, hybrid, self-publishing, and the real rights question",
-          "url": "https://writequeryhook.com/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the-real-rights-question"
+          "url": "https://writequeryhook.com/blog/publishing-paths-vs-alternatives-traditional-hybrid-self-publishing-and-the"
         },
         {
           "@type": "WebPage",
-          "name": "Are writers really using generative AI in 2026? A case-study breakdown of what the survey actually shows",
-          "url": "https://writequeryhook.com/are-writers-really-using-generative-ai-in-2026-a-case-study-breakdown-of-what-the-survey-actually-shows"
+          "name": "Good enough vs editorial fit: what actually gets middle grade books chosen (and why your querying stalls)",
+          "url": "https://writequeryhook.com/blog/good-enough-vs-editorial-fit-what-actually-gets-middle-grade-books-chosen-and"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_d7a767981c4c.gif",
-      "width": 152,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_34/day_464/how-to-write-a-book-description-that-sells-150-250-words-third-person-and/blog/blog_hero_sales_pressure_blank_page_dread_blog_hero_landscape_d7a767981c4c.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 sales-pressure blank-page dread",
-      "creditText": "Giphy",
+      "creditText": "Zhine Pics",
       "author": {
         "@type": "Person",
-        "name": "Giphy",
-        "url": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk"
+        "name": "Zhine Pics",
+        "url": "https://www.pexels.com/@zhine-pics-475050645"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#howto",
       "name": "How to write a book description that sells (150\u2013250 words, third-person, and searchable)",
       "description": "A book description is where readers decide if they're clicking \"continue\" or bouncing back to the search results. That's not poetic. That's the reality of book marketing.",
       "totalTime": "PT8M",
@@ -671,42 +664,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Adopt the ad mindset (not the book-report mindset)",
           "text": "Before you write a single sentence, decide what a book description is for: getting a potential reader to keep going, not cataloging your plot like a syllabus.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-1-adopt-the-ad-mindset-not-the-book-report-mindset"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-1-adopt-the-ad-mindset-not-the-book-report-mindset"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Lock the word count and paragraphs before you revise anything",
           "text": "Set the constraint first: 150\u2013250 words and no more than three paragraphs. Not \"around there.\" Not \"it depends on how much I have to say.\" If it creeps, it gets mushy, and mushy kills clicks.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-2-lock-the-word-count-and-paragraphs-before-you-revise-anything"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-2-lock-the-word-count-and-paragraphs-before-you-revise-anything"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Write in third person and keep the language plain",
           "text": "Even if your manuscript uses first person, your book description should be in third person. Because this isn't the book \"speaking.\" It's the advertisement speaking.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-3-write-in-third-person-and-keep-the-language-plain"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-3-write-in-third-person-and-keep-the-language-plain"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Build a strong hook with irony (and don't spoil the ending)",
           "text": "Your hook creates curiosity. For this, the educational steering angle matters: use irony by showing why the protagonist is the least-likely hero for the situation.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-4-build-a-strong-hook-with-irony-and-don-t-spoil-the-ending"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-4-build-a-strong-hook-with-irony-and-don-t-spoil-the-ending"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Plant keywords that match reader intent (genre for fiction, problem/expertise for nonfiction)",
           "text": "Keywords matter because they connect the book to the emotional experience readers want\u2014and for nonfiction, to the problems readers are searching for.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-5-plant-keywords-that-match-reader-intent-genre-for-fiction-problem"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-5-plant-keywords-that-match-reader-intent-genre-for-fiction-problem"
         },
         {
           "@type": "HowToStep",
           "position": 6,
           "name": "Step 6: Revise multiple versions until the description earns clicks",
           "text": "Read other book marketing copy in your exact lane. Write multiple versions for the same book. Get feedback. Revise until the description pulls readers in.",
-          "url": "https://writequeryhook.com/query-letters/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-6-revise-multiple-versions-until-the-description-earns-clicks"
+          "url": "https://writequeryhook.com/blog/how-to-write-a-book-description-that-sells-150-250-words-third-person-and#step-6-revise-multiple-versions-until-the-description-earns-clicks"
         }
       ]
     }

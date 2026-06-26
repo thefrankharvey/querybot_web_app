@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Meeting the mentor: what to do in that step (and how to justify their absence later)",
   "description": "If you've ever stared at a blank page and thought, Cool. I guess my hero meets a mentor now. Now what?\u2014yep. That feeling is accurate. The \"meeting the mentor\" step sounds like a lore beat until you try to write it, and then it turns into a generic tutorial scene that doesn't earn its screen time.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-12",
+  "modifiedDate": "2027-01-12",
   "canonicalUrl": "https://writequeryhook.com/blog/meeting-the-mentor-what-to-do-in-that-step-and-how-to-justify-their-absence",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -587,6 +587,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/meeting-the-mentor-what-to-do-in-that-step-and-how-to-justify-their-absence#primaryimage"
       },
+      "datePublished": "2027-01-12",
+      "dateModified": "2027-01-12",
       "mentions": [
         {
           "@type": "WebPage",

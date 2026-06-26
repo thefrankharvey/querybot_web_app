@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Get an Agent's Attention From the First Page: FAQ",
   "description": "Most submission advice treats the first page like a random vibe check and the query like separate paperwork. It's not. When an agent only has minutes to decide whether to keep reading, your first page and your query have to agree about what the story is and what it's promising.",
   "readTime": "5 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-04",
+  "modifiedDate": "2026-10-04",
   "canonicalUrl": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-faq",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -464,6 +464,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/get-an-agent-s-attention-from-the-first-page-faq#primaryimage"
       },
+      "datePublished": "2026-10-04",
+      "dateModified": "2026-10-04",
       "mentions": [
         {
           "@type": "WebPage",

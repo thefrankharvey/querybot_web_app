@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write an elevator pitch for your novel that earns \"tell me more\" in under 20 words",
   "description": "Most people think the hard part is writing the book. Cute. The myth: strong prose will save a weak or unclear concept.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-04",
+  "modifiedDate": "2026-07-04",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-an-elevator-pitch-for-your-novel-that-earns-tell-me-more-in-under",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -502,6 +502,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-an-elevator-pitch-for-your-novel-that-earns-tell-me-more-in-under#primaryimage"
       },
+      "datePublished": "2026-07-04",
+      "dateModified": "2026-07-04",
       "mentions": [
         {
           "@type": "WebPage",

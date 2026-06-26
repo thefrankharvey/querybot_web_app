@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "5 ideas for using Pinterest as an author (without turning it into another social job)",
   "description": "Authors get hit with the \"be everywhere\" advice like it's oxygen. Meanwhile, most of the time we're juggling drafts, revisions, maybe a query letter, and the part of life nobody romanticizes: admin.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
+  "publishedDate": "2027-07-24",
+  "modifiedDate": "2027-07-24",
+  "canonicalUrl": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_hero_pressure_newest_platform_blog_hero_landscape_5df194ef495a.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_hero_pressure_newest_platform_blog_hero_landscape_5df194ef495a.jpeg",
     "alt": "blog hero \u00b7 pressure newest-platform",
-    "width": 366,
-    "height": 200,
-    "creator": "obama",
-    "creatorUrl": "https://giphy.com/gifs/obama-michelle-obama-3oriNQXV7oVKGFFpzq",
-    "provider": "giphy",
+    "width": 6000,
+    "height": 4000,
+    "creator": "Amir  Ghoorchiani",
+    "creatorUrl": "https://www.pexels.com/@amir",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-      "item": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
+      "item": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
     }
   ],
   "tldrBlocks": [],
@@ -167,7 +167,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_identity_discovery_blog_section_landscape_d3fe46714c09.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_identity_discovery_blog_section_landscape_d3fe46714c09.jpeg?updatedAt=1782261982093",
         "alt": "Build a Pinterest comparison board for book discovery readers can act on",
         "width": 3999,
         "height": 2667,
@@ -259,13 +259,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_consistency_traction_blog_section_landscape_b2716ca322d3.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_consistency_traction_blog_section_landscape_b2716ca322d3.gif",
         "alt": "How authors can use Pinterest for marketing by pinning blog photos correctly",
-        "width": 6000,
-        "height": 4000,
-        "creator": "Connor Scott McManus",
-        "creatorUrl": "https://www.pexels.com/@connorscottmcmanus",
-        "provider": "pexels",
+        "width": 152,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/movie-angry-applause-eRP24XjBvKwqk",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -313,7 +313,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_gifting_timing_blog_section_landscape_1a361b826d98.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_gifting_timing_blog_section_landscape_1a361b826d98.gif?updatedAt=1782261983470",
         "alt": "Encourage wish lists for book sales by planning for the moment people gift",
         "width": 356,
         "height": 200,
@@ -324,32 +324,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_section_image_last_step_do_the_work_blog_section_landscape_20bfd81551a3.jpeg",
-    "alt": "blog section image \u00b7 last step do the work",
-    "width": 5991,
-    "height": 3994,
-    "creator": "Tima Miroshnichenko",
-    "creatorUrl": "https://www.pexels.com/@tima-miroshnichenko",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
-      "title": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-      "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
-    },
-    {
       "title": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-      "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+      "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
     },
     {
-      "title": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-      "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
+      "title": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+      "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
     },
     {
-      "title": "How to get cozy mystery submissions to the right desk: editors, genre accuracy, and an actually functional editor relationship",
-      "url": "https://writequeryhook.com/how-to-get-cozy-mystery-submissions-to-the-right-desk-editors-genre-accuracy-and-an-actually-functional-editor-relationship"
+      "title": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+      "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
+    },
+    {
+      "title": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
+      "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -384,7 +375,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "11 writing communities to join for critique, support, beta readers, and marketing",
-      "url": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
+      "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
     }
   ]
 } as const;
@@ -414,7 +405,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -426,31 +417,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
-          "item": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
+          "item": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#webpage",
-      "url": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
+      "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#webpage",
+      "url": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
       "name": "5 ideas for using Pinterest as an author (without turning it into another social job)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -466,11 +457,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#article",
+      "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#webpage"
+        "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another",
       "headline": "5 ideas for using Pinterest as an author (without turning it into another social job)",
       "alternativeHeadline": "5 ideas for using Pinterest as an author (without turning it into another social job)",
       "description": "Authors get hit with the \"be everywhere\" advice like it's oxygen. Meanwhile, most of the time we're juggling drafts, revisions, maybe a query letter, and the part of life nobody romanticizes: admin.",
@@ -500,55 +491,57 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage"
+        "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage"
       },
+      "datePublished": "2027-07-24",
+      "dateModified": "2027-07-24",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "11 writing communities to join for critique, support, beta readers, and marketing",
-          "url": "https://writequeryhook.com/query-letters/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
-        },
-        {
-          "@type": "WebPage",
-          "name": "5 \"on\" lessons from Rosalie Morales Kearns (and why your sentences need to get weird)",
-          "url": "https://writequeryhook.com/5-on-lessons-from-rosalie-morales-kearns-and-why-your-sentences-need-to-get-weird"
+          "url": "https://writequeryhook.com/blog/11-writing-communities-to-join-for-critique-support-beta-readers-and-marketing"
         },
         {
           "@type": "WebPage",
           "name": "How to Start an Author Collective (Co-op) for Shared Editing and Marketing",
-          "url": "https://writequeryhook.com/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
+          "url": "https://writequeryhook.com/blog/how-to-start-an-author-collective-co-op-for-shared-editing-and-marketing"
         },
         {
           "@type": "WebPage",
-          "name": "A quick guide to planning a writing conference (speaker invites, follow-ups, and honorarium etiquette)",
-          "url": "https://writequeryhook.com/a-quick-guide-to-planning-a-writing-conference-speaker-invites-follow-ups-and-honorarium-etiquette"
+          "name": "How to Sell a Book: The Myth-Busting, Format-Specific Mechanics",
+          "url": "https://writequeryhook.com/blog/how-to-sell-a-book-the-myth-busting-format-specific-mechanics"
         },
         {
           "@type": "WebPage",
-          "name": "How to get cozy mystery submissions to the right desk: editors, genre accuracy, and an actually functional editor relationship",
-          "url": "https://writequeryhook.com/how-to-get-cozy-mystery-submissions-to-the-right-desk-editors-genre-accuracy-and-an-actually-functional-editor-relationship"
+          "name": "Amazon algorithms for authors, demystified: the levers behind visibility, rank, and sales",
+          "url": "https://writequeryhook.com/blog/amazon-algorithms-for-authors-demystified-the-levers-behind-visibility-rank"
+        },
+        {
+          "@type": "WebPage",
+          "name": "How a Book Goes From Acquisition to Bookstore Shelves FAQ",
+          "url": "https://writequeryhook.com/blog/how-a-book-goes-from-acquisition-to-bookstore-shelves-faq"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_hero_pressure_newest_platform_blog_hero_landscape_5df194ef495a.gif",
-      "width": 366,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_35/day_480/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another/blog/blog_hero_pressure_newest_platform_blog_hero_landscape_5df194ef495a.jpeg",
+      "width": 6000,
+      "height": 4000,
       "caption": "blog hero \u00b7 pressure newest-platform",
-      "creditText": "obama",
+      "creditText": "Amir  Ghoorchiani",
       "author": {
         "@type": "Person",
-        "name": "obama",
-        "url": "https://giphy.com/gifs/obama-michelle-obama-3oriNQXV7oVKGFFpzq"
+        "name": "Amir  Ghoorchiani",
+        "url": "https://www.pexels.com/@amir"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#faq",
+      "@id": "https://writequeryhook.com/blog/5-ideas-for-using-pinterest-as-an-author-without-turning-it-into-another#faq",
       "mainEntity": [
         {
           "@type": "Question",

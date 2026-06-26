@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "The color-coded submission pipeline: how to track querying like business so rejection stops hurting",
   "description": "The first time a rejection lands while you're still half-learning how querying actually works, it feels personal in a way that is stupid and unfair. Not because you're weak. Because your brain doesn't know the difference between \"this agent said no\" and \"my career is over.\" It just sees a red notification and latches on.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-03-13",
+  "modifiedDate": "2027-03-13",
   "canonicalUrl": "https://writequeryhook.com/blog/the-color-coded-submission-pipeline-how-to-track-querying-like-business-so",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -648,6 +648,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/the-color-coded-submission-pipeline-how-to-track-querying-like-business-so#primaryimage"
       },
+      "datePublished": "2027-03-13",
+      "dateModified": "2027-03-13",
       "mentions": [
         {
           "@type": "WebPage",

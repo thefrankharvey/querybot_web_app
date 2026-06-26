@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Affect vs effect: the action-vs-result test that stops grammar confusion",
   "description": "Writers get dramatic. Characters slam doors. Someone swears vengeance. And then\u2026 the sentence quietly panics and grabs the wrong word: effect where affect belongs. Or the other way around.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-23",
+  "modifiedDate": "2026-09-23",
   "canonicalUrl": "https://writequeryhook.com/blog/affect-vs-effect-the-action-vs-result-test-that-stops-grammar-confusion",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -693,6 +693,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/affect-vs-effect-the-action-vs-result-test-that-stops-grammar-confusion#primaryimage"
       },
+      "datePublished": "2026-09-23",
+      "dateModified": "2026-09-23",
       "mentions": [
         {
           "@type": "WebPage",

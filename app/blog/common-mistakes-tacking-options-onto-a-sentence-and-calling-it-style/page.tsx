@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Common mistakes: tacking options onto a sentence (and calling it style)",
   "description": "Writers get addicted to \"voice\" the way some people get addicted to over-spicing: it tastes impressive for half a second, then you can't tell what you're actually eating.",
   "readTime": "10 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-09-20",
+  "modifiedDate": "2026-09-20",
   "canonicalUrl": "https://writequeryhook.com/blog/common-mistakes-tacking-options-onto-a-sentence-and-calling-it-style",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -794,6 +794,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/common-mistakes-tacking-options-onto-a-sentence-and-calling-it-style#primaryimage"
       },
+      "datePublished": "2026-09-20",
+      "dateModified": "2026-09-20",
       "mentions": [
         {
           "@type": "WebPage",

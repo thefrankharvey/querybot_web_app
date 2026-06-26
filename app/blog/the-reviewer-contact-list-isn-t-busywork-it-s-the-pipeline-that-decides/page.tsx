@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
   "description": "TLDR",
   "readTime": "13 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
+  "publishedDate": "2027-05-27",
+  "modifiedDate": "2027-05-27",
+  "canonicalUrl": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_d5ec823232a5.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_d5ec823232a5.jpeg?updatedAt=1782176903007",
     "alt": "blog hero \u00b7 dread blank-page energy",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-      "item": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
+      "item": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
     }
   ],
   "tldrBlocks": [],
@@ -117,7 +117,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif?updatedAt=1782176905323",
         "alt": "H2: How to build a reviewer contact list that actually works",
         "width": 268,
         "height": 200,
@@ -265,7 +265,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_themes_audience_blog_section_landscape_11133ea43946.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_themes_audience_blog_section_landscape_11133ea43946.gif?updatedAt=1782176903947",
         "alt": "H2: Finding new reviewers without guessing the match",
         "width": 200,
         "height": 200,
@@ -369,7 +369,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_format_rules_galley_blog_section_landscape_1f0b921834d1.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_format_rules_galley_blog_section_landscape_1f0b921834d1.jpeg?updatedAt=1782176904424",
         "alt": "H2: Recording request requirements for galleys and digital copies",
         "width": 6000,
         "height": 4000,
@@ -451,7 +451,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif?updatedAt=1782176905323",
         "alt": "H2: How to build a reviewer contact list that actually works",
         "width": 268,
         "height": 200,
@@ -501,7 +501,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_pitch_template_targeted_lines_blog_section_landscape_069f24349b61.gif?updatedAt=1782176905323",
         "alt": "H2: How to build a reviewer contact list that actually works",
         "width": 268,
         "height": 200,
@@ -512,32 +512,23 @@ const PAGE_DATA = {
       }
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_section_image_fist_pump_deep_breath_blog_section_landscape_89f4db1de81a.jpeg",
-    "alt": "blog section image \u00b7 fist pump deep breath",
-    "width": 6000,
-    "height": 4000,
-    "creator": "Mario Am\u00e9",
-    "creatorUrl": "https://www.pexels.com/@imperioame",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-      "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
-    },
-    {
-      "title": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-      "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+      "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
     },
     {
       "title": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-      "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+      "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
     },
     {
-      "title": "5 tips for resubmitting a revision to an agent without sounding shady",
-      "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+      "title": "5 ways authors can help market their book after manuscript acceptance",
+      "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+    },
+    {
+      "title": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
+      "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -576,7 +567,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-      "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+      "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
     }
   ]
 } as const;
@@ -606,7 +597,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -618,31 +609,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
-          "item": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
+          "item": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#webpage",
-      "url": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
+      "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#webpage",
+      "url": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
       "name": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -658,11 +649,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#article",
+      "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#webpage"
+        "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides",
       "headline": "The reviewer contact list isn't busywork: it's the pipeline that decides whether reviews happen",
       "alternativeHeadline": "The reviewer contact list isn\u2019t busywork: it\u2019s the pipeline that decides whether reviews happen",
       "description": "TLDR",
@@ -692,40 +683,42 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage"
+        "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage"
       },
+      "datePublished": "2027-05-27",
+      "dateModified": "2027-05-27",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Common mistakes that make your blurb fail on Amazon (and how to fix each)",
-          "url": "https://writequeryhook.com/query-letters/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
+          "url": "https://writequeryhook.com/blog/common-mistakes-that-make-your-blurb-fail-on-amazon-and-how-to-fix-each"
         },
         {
           "@type": "WebPage",
           "name": "The complete audiobook toolchain for writers: script, recording, editing, and submission",
-          "url": "https://writequeryhook.com/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and-submission"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after a Kindle Scout campaign: the fast, unglamorous sprint to publication",
-          "url": "https://writequeryhook.com/what-happens-after-a-kindle-scout-campaign-the-fast-unglamorous-sprint-to-publication"
+          "url": "https://writequeryhook.com/blog/the-complete-audiobook-toolchain-for-writers-script-recording-editing-and"
         },
         {
           "@type": "WebPage",
           "name": "A publisher won't \"fix\" your manuscript for craft\u2014most changes are about control, packaging, and timelines",
-          "url": "https://writequeryhook.com/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control-packaging-and-timelines"
+          "url": "https://writequeryhook.com/blog/a-publisher-won-t-fix-your-manuscript-for-craft-most-changes-are-about-control"
         },
         {
           "@type": "WebPage",
-          "name": "5 tips for resubmitting a revision to an agent without sounding shady",
-          "url": "https://writequeryhook.com/5-tips-for-resubmitting-a-revision-to-an-agent-without-sounding-shady"
+          "name": "5 ways authors can help market their book after manuscript acceptance",
+          "url": "https://writequeryhook.com/blog/5-ways-authors-can-help-market-their-book-after-manuscript-acceptance"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for agent author creative team dynamics: when not to give up after long submissions",
+          "url": "https://writequeryhook.com/blog/5-tips-for-agent-author-creative-team-dynamics-when-not-to-give-up-after-long"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_d5ec823232a5.jpeg",
+      "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_30/day_413/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides/blog/blog_hero_dread_blank_page_energy_blog_hero_landscape_d5ec823232a5.jpeg?updatedAt=1782176903007",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 dread blank-page energy",
@@ -740,7 +733,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#faq",
+      "@id": "https://writequeryhook.com/blog/the-reviewer-contact-list-isn-t-busywork-it-s-the-pipeline-that-decides#faq",
       "mainEntity": [
         {
           "@type": "Question",

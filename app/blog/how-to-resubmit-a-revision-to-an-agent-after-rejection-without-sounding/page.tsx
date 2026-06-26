@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
   "description": "Getting a rejection can make your brain do that fun thing where it turns every future action into a moral failure. So when you start thinking about a resubmission, the fear isn't just \"will they like it?\" It's also: Will they think I'm being annoying or dishonest? And then you stall with the cursor blinking like it's judging you.",
   "readTime": "8 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
+  "publishedDate": "2027-05-13",
+  "modifiedDate": "2027-05-13",
+  "canonicalUrl": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -30,7 +30,16 @@ const PAGE_DATA = {
     "clarity"
   ],
   "author": null,
-  "hero": null,
+  "hero": {
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_395/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding/blog/blog_hero_dread_anxiety_blog_hero_landscape_0df0e6e41d79.jpeg?updatedAt=1782142810860",
+    "alt": "blog hero \u00b7 dread anxiety",
+    "width": 6000,
+    "height": 4000,
+    "creator": "MART  PRODUCTION",
+    "creatorUrl": "https://www.pexels.com/@mart-production",
+    "provider": "pexels",
+    "role": "hero"
+  },
   "breadcrumbs": [
     {
       "name": "Home",
@@ -38,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-      "item": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+      "item": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
     }
   ],
   "tldrBlocks": [],
@@ -110,7 +119,16 @@ const PAGE_DATA = {
           "text": "Also, be aware of the double trap: both \"not ready\" panic and \"I must submit immediately\" panic are lies. Pick significance first, then timing."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_395/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding/blog/blog_section_image_clarity_courage_blog_section_landscape_8b5963dcbad7.gif",
+        "alt": "Step 1: Do the math on \"significant enough\" before you hit send",
+        "width": 200,
+        "height": 200,
+        "creator": "stakefish",
+        "creatorUrl": "https://giphy.com/gifs/stakefish-sui-network-R312C3MEVg4SCYAber",
+        "provider": "giphy",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_2_confirm_the_submission_rules",
@@ -201,7 +219,16 @@ const PAGE_DATA = {
           "text": "Writer brain hates this step because it feels administrative. But in the query trenches, administration is how you prove you're serious."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_395/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding/blog/blog_section_image_organization_tidy_docs_blog_section_landscape_481700c83671.jpeg",
+        "alt": "Step 3: Prepare a clean resubmission packet (so they can actually read the changes)",
+        "width": 5095,
+        "height": 2870,
+        "creator": "Kindel Media",
+        "creatorUrl": "https://www.pexels.com/@kindelmedia",
+        "provider": "pexels",
+        "role": "section"
+      }
     },
     {
       "section_id": "h2_step_4_write_the_resubmission_email_that_names_the_previous_submission",
@@ -315,26 +342,35 @@ const PAGE_DATA = {
           "text": "If it is, send it. Then breathe."
         }
       ],
-      "image": null
+      "image": {
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_395/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding/blog/blog_section_image_release_waiting_blog_section_landscape_a31edf42593a.gif",
+        "alt": "Step 5: Submit with intent, then stop feeding the doom machine",
+        "width": 200,
+        "height": 200,
+        "creator": "GoVote",
+        "creatorUrl": "https://giphy.com/gifs/GoVote-social-media-election-voting-rights-BiyIsSAix72i04L1Ii",
+        "provider": "giphy",
+        "role": "section"
+      }
     }
   ],
   "closingImage": null,
   "alsoLike": [
     {
       "title": "How to spot which rights you sign away in a book deal",
-      "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+      "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
     },
     {
       "title": "How to understand the publishing timeline after a publisher requests your manuscript",
-      "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+      "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
     },
     {
       "title": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-      "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+      "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
     },
     {
-      "title": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-      "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
+      "title": "How to write jacket copy that sells without spoilers or wasted space",
+      "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
     }
   ],
   "alsoLikeAfterIndex": 2,
@@ -370,12 +406,7 @@ const PAGE_DATA = {
       "text": "Finish the packet, write the email with clear context and specific changes, and submit the revised **manuscript** like you mean it. Then let it be out of your hands\u2014like, properly out\u2014because the only thing you can control is whether your **revision** is actually better than the one that got the rejection."
     }
   ],
-  "relatedLinks": [
-    {
-      "title": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-      "url": "https://writequeryhook.com/query-letters/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
-    }
-  ]
+  "relatedLinks": []
 } as const;
 const SCHEMA_GRAPH = {
   "@graph": [
@@ -403,7 +434,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -415,28 +446,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
-          "item": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
+          "item": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#webpage",
-      "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#webpage",
+      "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
       "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#primaryimage"
+      },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -452,11 +486,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#article",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#webpage"
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding",
       "headline": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
       "alternativeHeadline": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
       "description": "Getting a rejection can make your brain do that fun thing where it turns every future action into a moral failure. So when you start thinking about a resubmission, the fear isn't just \"will they like it?\" It's also: Will they think I'm being annoying or dishonest? And then you stall with the cursor blinking like it's judging you.",
@@ -485,38 +519,53 @@ const SCHEMA_GRAPH = {
         "@id": "https://writequeryhook.com/#organization"
       },
       "isAccessibleForFree": true,
+      "image": {
+        "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#primaryimage"
+      },
+      "datePublished": "2027-05-13",
+      "dateModified": "2027-05-13",
       "mentions": [
         {
           "@type": "WebPage",
-          "name": "5 ways to handle second novel pressure (when your brain starts bracket-living)",
-          "url": "https://writequeryhook.com/query-letters/5-ways-to-handle-second-novel-pressure-when-your-brain-starts-bracket-living"
-        },
-        {
-          "@type": "WebPage",
           "name": "How to spot which rights you sign away in a book deal",
-          "url": "https://writequeryhook.com/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
+          "url": "https://writequeryhook.com/blog/how-to-spot-which-rights-you-sign-away-in-a-book-deal"
         },
         {
           "@type": "WebPage",
           "name": "How to understand the publishing timeline after a publisher requests your manuscript",
-          "url": "https://writequeryhook.com/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your-manuscript"
+          "url": "https://writequeryhook.com/blog/how-to-understand-the-publishing-timeline-after-a-publisher-requests-your"
         },
         {
           "@type": "WebPage",
           "name": "How to find collaboration agreement contract templates (without inventing a co-author deal from scratch)",
-          "url": "https://writequeryhook.com/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co-author-deal-from-scratch"
+          "url": "https://writequeryhook.com/blog/how-to-find-collaboration-agreement-contract-templates-without-inventing-a-co"
         },
         {
           "@type": "WebPage",
-          "name": "Resubmitting to the Same Literary Agent vs Moving On: Which Choice Actually Helps?",
-          "url": "https://writequeryhook.com/resubmitting-to-the-same-literary-agent-vs-moving-on-which-choice-actually-helps"
+          "name": "How to write jacket copy that sells without spoilers or wasted space",
+          "url": "https://writequeryhook.com/blog/how-to-write-jacket-copy-that-sells-without-spoilers-or-wasted-space"
         }
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_395/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding/blog/blog_hero_dread_anxiety_blog_hero_landscape_0df0e6e41d79.jpeg?updatedAt=1782142810860",
+      "width": 6000,
+      "height": 4000,
+      "caption": "blog hero \u00b7 dread anxiety",
+      "creditText": "MART  PRODUCTION",
+      "author": {
+        "@type": "Person",
+        "name": "MART  PRODUCTION",
+        "url": "https://www.pexels.com/@mart-production"
+      },
+      "@context": "https://schema.org"
+    },
+    {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#howto",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#howto",
       "name": "How to Resubmit a Revision to an Agent After Rejection (Without Sounding Dishonest)",
       "description": "Getting a rejection can make your brain do that fun thing where it turns every future action into a moral failure. So when you start thinking about a resubmission, the fear isn't just \"will they like it?\" It's also: Will they think I'm being annoying or dishonest? And then you stall with the cursor blinking like it's judging you.",
       "totalTime": "PT8M",
@@ -526,42 +575,42 @@ const SCHEMA_GRAPH = {
           "position": 1,
           "name": "Step 1: Do the math on \"significant enough\" before you hit send",
           "text": "Before you touch email, decide what \"enough\" means for your own manuscript.",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-1-do-the-math-on-significant-enough-before-you-hit-send"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-1-do-the-math-on-significant-enough-before-you-hit-send"
         },
         {
           "@type": "HowToStep",
           "position": 2,
           "name": "Step 2: Confirm the submission rules (especially if this was a revise and resubmit request)",
           "text": "Now check what they actually asked for. This is where writers get messy and then blame themselves.",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-2-confirm-the-submission-rules-especially-if-this-was-a-revise-and"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-2-confirm-the-submission-rules-especially-if-this-was-a-revise-and"
         },
         {
           "@type": "HowToStep",
           "position": 3,
           "name": "Step 3: Prepare a clean resubmission packet (so they can actually read the changes)",
           "text": "Your resubmission packet should make it easy for a tired decision-maker to figure out what changed in minutes, not hours.",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-3-prepare-a-clean-resubmission-packet-so-they-can-actually-read-the-changes"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-3-prepare-a-clean-resubmission-packet-so-they-can-actually-read-the-changes"
         },
         {
           "@type": "HowToStep",
           "position": 4,
           "name": "Step 4: Write the resubmission email that names the previous submission and the specific revision",
           "text": "This is the part most people overthink\u2014or they underdo it and accidentally beg.",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-4-write-the-resubmission-email-that-names-the-previous-submission-and-the"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-4-write-the-resubmission-email-that-names-the-previous-submission-and-the"
         },
         {
           "@type": "HowToStep",
           "position": 5,
           "name": "Step 5: Submit with intent, then stop feeding the doom machine",
           "text": "Once you submit, you can't control the outcome. What you can control is what you do while waiting.",
-          "url": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-5-submit-with-intent-then-stop-feeding-the-doom-machine"
+          "url": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#step-5-submit-with-intent-then-stop-feeding-the-doom-machine"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#faq",
+      "@id": "https://writequeryhook.com/blog/how-to-resubmit-a-revision-to-an-agent-after-rejection-without-sounding#faq",
       "mainEntity": [
         {
           "@type": "Question",

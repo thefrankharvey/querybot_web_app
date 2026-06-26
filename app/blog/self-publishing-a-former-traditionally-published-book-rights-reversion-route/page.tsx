@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
   "description": "Your backlist book is sitting somewhere between \"I loved writing this\" and \"who is even promoting it.\" If you've ever stared at a publishing contract and thought, surely this can't be this annoying, hi. Same.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
+  "publishedDate": "2027-08-25",
+  "modifiedDate": "2027-08-25",
+  "canonicalUrl": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,13 +31,13 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_hero_warehouse_maybe_someday_blog_hero_landscape_4aa342208181.gif",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_hero_warehouse_maybe_someday_blog_hero_landscape_4aa342208181.jpeg",
     "alt": "blog hero \u00b7 warehouse maybe someday",
-    "width": 200,
-    "height": 200,
-    "creator": "wwe",
-    "creatorUrl": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz",
-    "provider": "giphy",
+    "width": 6240,
+    "height": 4160,
+    "creator": "Mathias Reding",
+    "creatorUrl": "https://www.pexels.com/@matreding",
+    "provider": "pexels",
     "role": "hero"
   },
   "breadcrumbs": [
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-      "item": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+      "item": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
     }
   ],
   "tldrBlocks": [],
@@ -119,13 +119,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_opening_blog_section_landscape_4d004e94ea6a.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_opening_blog_section_landscape_4d004e94ea6a.gif",
         "alt": "Opening",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -371,13 +371,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_backlist_revival_reviews_blog_section_landscape_3f5ea47f8485.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_backlist_revival_reviews_blog_section_landscape_3f5ea47f8485.gif",
         "alt": "Marketing your self-published backlist book",
-        "width": 6322,
-        "height": 4215,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 226,
+        "height": 200,
+        "creator": "Thestrongtoothbrush",
+        "creatorUrl": "https://giphy.com/gifs/goofball-6767-676767-XMMUWcz4XtDTNgZj22",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -424,13 +424,13 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_money_math_expected_value_blog_section_landscape_40903b15d2aa.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_money_math_expected_value_blog_section_landscape_40903b15d2aa.jpeg",
         "alt": "Rights-to-revenue worksheet (so you stop guessing)",
-        "width": 350,
-        "height": 200,
-        "creator": "Giphy",
-        "creatorUrl": "https://giphy.com/gifs/x5c8d75Tvt7sQ",
-        "provider": "giphy",
+        "width": 6000,
+        "height": 4000,
+        "creator": "\u0421\u0430\u0448\u0430 \u0410\u043b\u0430\u043b\u044b\u043a\u0438\u043d",
+        "creatorUrl": "https://www.pexels.com/@sash2s",
+        "provider": "pexels",
         "role": "section"
       }
     },
@@ -457,32 +457,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_section_image_pick_a_lane_stop_guessing_blog_section_landscape_d595ffcfd9c9.jpeg",
-    "alt": "blog section image \u00b7 pick a lane stop guessing",
-    "width": 3064,
-    "height": 1836,
-    "creator": "Suzy Hazelwood",
-    "creatorUrl": "https://www.pexels.com/@suzyhazelwood",
-    "provider": "pexels",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "Five ways to publish your short stories FAQ",
-      "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     },
     {
       "title": "Book publishers to avoid: 5 types of shady companies FAQ",
-      "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+      "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
     },
     {
       "title": "Happy harsh truths of a writing career faq",
-      "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+      "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
     },
     {
-      "title": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-      "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+      "title": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+      "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -521,7 +512,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "Five ways to publish your short stories FAQ",
-      "url": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq"
+      "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
     }
   ]
 } as const;
@@ -551,7 +542,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -563,31 +554,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
-          "item": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
+          "item": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#webpage",
-      "url": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#webpage",
+      "url": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
       "name": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -603,11 +594,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#article",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#webpage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route",
       "headline": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
       "alternativeHeadline": "Self-publishing a former traditionally published book: rights-reversion route vs contract-negotiation alternatives",
       "description": "Your backlist book is sitting somewhere between \"I loved writing this\" and \"who is even promoting it.\" If you've ever stared at a publishing contract and thought, surely this can't be this annoying, hi. Same.",
@@ -637,55 +628,52 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage"
+        "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage"
       },
+      "datePublished": "2027-08-25",
+      "dateModified": "2027-08-25",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "Five ways to publish your short stories FAQ",
-          "url": "https://writequeryhook.com/query-letters/five-ways-to-publish-your-short-stories-faq"
-        },
-        {
-          "@type": "WebPage",
-          "name": "Five ways to publish your short stories FAQ",
-          "url": "https://writequeryhook.com/five-ways-to-publish-your-short-stories-faq"
+          "url": "https://writequeryhook.com/blog/five-ways-to-publish-your-short-stories-faq"
         },
         {
           "@type": "WebPage",
           "name": "Book publishers to avoid: 5 types of shady companies FAQ",
-          "url": "https://writequeryhook.com/book-publishers-to-avoid-5-types-of-shady-companies-faq"
+          "url": "https://writequeryhook.com/blog/book-publishers-to-avoid-5-types-of-shady-companies-faq"
         },
         {
           "@type": "WebPage",
           "name": "Happy harsh truths of a writing career faq",
-          "url": "https://writequeryhook.com/happy-harsh-truths-of-a-writing-career-faq"
+          "url": "https://writequeryhook.com/blog/happy-harsh-truths-of-a-writing-career-faq"
         },
         {
           "@type": "WebPage",
-          "name": "Subrights in sci-fi graphic novels: how co-editions and agented deals turn formats into money",
-          "url": "https://writequeryhook.com/subrights-in-sci-fi-graphic-novels-how-co-editions-and-agented-deals-turn-formats-into-money"
+          "name": "7 indie romance author mistakes that make self-publishing harder (and how to fix them)",
+          "url": "https://writequeryhook.com/blog/7-indie-romance-author-mistakes-that-make-self-publishing-harder-and-how-to"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_hero_warehouse_maybe_someday_blog_hero_landscape_4aa342208181.gif",
-      "width": 200,
-      "height": 200,
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_37/day_517/self-publishing-a-former-traditionally-published-book-rights-reversion-route/blog/blog_hero_warehouse_maybe_someday_blog_hero_landscape_4aa342208181.jpeg",
+      "width": 6240,
+      "height": 4160,
       "caption": "blog hero \u00b7 warehouse maybe someday",
-      "creditText": "wwe",
+      "creditText": "Mathias Reding",
       "author": {
         "@type": "Person",
-        "name": "wwe",
-        "url": "https://giphy.com/gifs/wwe-raw-smackdown-YZudY4b16uH0EIZCmz"
+        "name": "Mathias Reding",
+        "url": "https://www.pexels.com/@matreding"
       },
       "@context": "https://schema.org"
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/self-publishing-a-former-traditionally-published-book-rights-reversion-route#faq",
+      "@id": "https://writequeryhook.com/blog/self-publishing-a-former-traditionally-published-book-rights-reversion-route#faq",
       "mainEntity": [
         {
           "@type": "Question",

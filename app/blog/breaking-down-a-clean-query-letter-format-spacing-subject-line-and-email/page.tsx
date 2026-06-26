@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Breaking Down a Clean Query Letter Format: Spacing, Subject Line, and Email Etiquette That Won't Get You Skipped",
   "description": "A lot of writers treat the query email like it's \"just an email.\" Then the agent opens it, sees weird spacing, a nonstandard font color, a file attachment they didn't ask for, and\u2014surprise\u2014it doesn't feel like a professional packet. It feels like someone winged it.",
   "readTime": "9 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-07-31",
+  "modifiedDate": "2026-07-31",
   "canonicalUrl": "https://writequeryhook.com/blog/breaking-down-a-clean-query-letter-format-spacing-subject-line-and-email",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -646,6 +646,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/breaking-down-a-clean-query-letter-format-spacing-subject-line-and-email#primaryimage"
       },
+      "datePublished": "2026-07-31",
+      "dateModified": "2026-07-31",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,9 +8,9 @@ const PAGE_DATA = {
   "title": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
   "description": "Manuscript critique feels like it should be pure craft: someone reads your pages and tells you what's working and what isn't. In practice, critique is messier. It's your work, your decisions, your invisible labor\u2014sitting there like a raw nerve in an inbox.",
   "readTime": "12 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
-  "canonicalUrl": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
+  "publishedDate": "2027-05-17",
+  "modifiedDate": "2027-05-17",
+  "canonicalUrl": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
   "locale": "en-US",
@@ -31,7 +31,7 @@ const PAGE_DATA = {
   ],
   "author": null,
   "hero": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_hero_critique_inbox_dread_blog_hero_landscape_2c08144668a7.jpeg",
+    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_hero_critique_inbox_dread_blog_hero_landscape_2c08144668a7.jpeg?updatedAt=1782147610625",
     "alt": "blog hero \u00b7 critique inbox dread",
     "width": 3875,
     "height": 2848,
@@ -47,11 +47,11 @@ const PAGE_DATA = {
     },
     {
       "name": "Blog",
-      "item": "/query-letters"
+      "item": "/blog"
     },
     {
       "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-      "item": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
+      "item": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
     }
   ],
   "tldrBlocks": [],
@@ -133,13 +133,13 @@ const PAGE_DATA = {
       "keywords": [],
       "blocks": [],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_20411a6fc745.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_body_structural_breakdown_blog_section_landscape_20411a6fc745.gif",
         "alt": "Body \u2014 Structural breakdown",
-        "width": 6611,
-        "height": 4407,
-        "creator": "Ron Lach",
-        "creatorUrl": "https://www.pexels.com/@ron-lach",
-        "provider": "pexels",
+        "width": 279,
+        "height": 200,
+        "creator": "Giphy",
+        "creatorUrl": "https://giphy.com/gifs/fight-club-edward-norton-writing-Y5ytdl4PXziZW",
+        "provider": "giphy",
         "role": "section"
       }
     },
@@ -267,7 +267,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_don_t_accept_every_writing_suggestion_find_what_blog_section_landscape_450a07a25eaf.jpeg",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_don_t_accept_every_writing_suggestion_find_what_blog_section_landscape_450a07a25eaf.jpeg?updatedAt=1782147622471",
         "alt": "Don't accept every writing suggestion\u2014find what the critique actually saw instead",
         "width": 4752,
         "height": 3168,
@@ -346,7 +346,7 @@ const PAGE_DATA = {
         }
       ],
       "image": {
-        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_triage_major_changes_blog_section_landscape_ce9eb41e734f.gif",
+        "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_triage_major_changes_blog_section_landscape_ce9eb41e734f.gif?updatedAt=1782147624421",
         "alt": "How to prioritize revision changes from feedback: structure first, then scenes, then lines",
         "width": 370,
         "height": 200,
@@ -533,32 +533,23 @@ const PAGE_DATA = {
       "image": null
     }
   ],
-  "closingImage": {
-    "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_section_image_return_to_draft_momentum_blog_section_landscape_17300de531de.gif",
-    "alt": "blog section image \u00b7 return to draft momentum",
-    "width": 304,
-    "height": 200,
-    "creator": "Giphy",
-    "creatorUrl": "https://giphy.com/gifs/3M6LtN8dFX57ZRY2T9",
-    "provider": "giphy",
-    "role": "section"
-  },
+  "closingImage": null,
   "alsoLike": [
     {
       "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-      "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
-    },
-    {
-      "title": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-      "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
     },
     {
       "title": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-      "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+      "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
     },
     {
       "title": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-      "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+      "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+    },
+    {
+      "title": "5 tips for handling a representation offer without making a panic decision",
+      "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
     }
   ],
   "alsoLikeAfterIndex": 4,
@@ -593,7 +584,7 @@ const PAGE_DATA = {
   "relatedLinks": [
     {
       "title": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-      "url": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
+      "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
     }
   ]
 } as const;
@@ -623,7 +614,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#breadcrumb",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -635,31 +626,31 @@ const SCHEMA_GRAPH = {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://writequeryhook.com/query-letters"
+          "item": "https://writequeryhook.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
-          "item": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
+          "item": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#webpage",
-      "url": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#webpage",
+      "url": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
       "name": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
       "isPartOf": {
         "@id": "https://writequeryhook.com/#website"
       },
       "inLanguage": "en-US",
       "primaryImageOfPage": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage"
       },
       "breadcrumb": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#breadcrumb"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#breadcrumb"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -675,11 +666,11 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#article",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#article",
       "isPartOf": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#webpage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#webpage"
       },
-      "mainEntityOfPage": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
+      "mainEntityOfPage": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from",
       "headline": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
       "alternativeHeadline": "Dangerous side effects of a manuscript critique (and how to keep revision from going feral)",
       "description": "Manuscript critique feels like it should be pure craft: someone reads your pages and tells you what's working and what isn't. In practice, critique is messier. It's your work, your decisions, your invisible labor\u2014sitting there like a raw nerve in an inbox.",
@@ -709,40 +700,37 @@ const SCHEMA_GRAPH = {
       },
       "isAccessibleForFree": true,
       "image": {
-        "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage"
+        "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage"
       },
+      "datePublished": "2027-05-17",
+      "dateModified": "2027-05-17",
       "mentions": [
         {
           "@type": "WebPage",
           "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-          "url": "https://writequeryhook.com/query-letters/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
-        },
-        {
-          "@type": "WebPage",
-          "name": "A book blurb breakdown: how to write a great book description that sells (and scans)",
-          "url": "https://writequeryhook.com/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and-scans"
-        },
-        {
-          "@type": "WebPage",
-          "name": "What happens after manuscript acceptance? A real-world example of how authors help market their book",
-          "url": "https://writequeryhook.com/what-happens-after-manuscript-acceptance-a-real-world-example-of-how-authors-help-market-their-book"
+          "url": "https://writequeryhook.com/blog/a-book-blurb-breakdown-how-to-write-a-great-book-description-that-sells-and"
         },
         {
           "@type": "WebPage",
           "name": "Common mistakes writers make when incorporating agent and editor feedback (and how to fix each one)",
-          "url": "https://writequeryhook.com/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and-how-to-fix-each-one"
+          "url": "https://writequeryhook.com/blog/common-mistakes-writers-make-when-incorporating-agent-and-editor-feedback-and"
         },
         {
           "@type": "WebPage",
           "name": "Common manuscript critique mistakes that turn helpful notes into self-destruction",
-          "url": "https://writequeryhook.com/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self-destruction"
+          "url": "https://writequeryhook.com/blog/common-manuscript-critique-mistakes-that-turn-helpful-notes-into-self"
+        },
+        {
+          "@type": "WebPage",
+          "name": "5 tips for handling a representation offer without making a panic decision",
+          "url": "https://writequeryhook.com/blog/5-tips-for-handling-a-representation-offer-without-making-a-panic-decision"
         }
       ]
     },
     {
       "@type": "ImageObject",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage",
-      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_hero_critique_inbox_dread_blog_hero_landscape_2c08144668a7.jpeg",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#primaryimage",
+      "url": "https://ik.imagekit.io/8cxvcsdnz/wqh/sprint_29/day_402/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from/blog/blog_hero_critique_inbox_dread_blog_hero_landscape_2c08144668a7.jpeg?updatedAt=1782147610625",
       "width": 3875,
       "height": 2848,
       "caption": "blog hero \u00b7 critique inbox dread",
@@ -757,7 +745,7 @@ const SCHEMA_GRAPH = {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://writequeryhook.com/query-letters/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#faq",
+      "@id": "https://writequeryhook.com/blog/dangerous-side-effects-of-a-manuscript-critique-and-how-to-keep-revision-from#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Keeping an Agent Reading Isn't About Better Hooks\u2014It's About Pairing Desire Line With Deeper Wish",
   "description": "Most \"keep reading\" advice starts with hooks: open stronger, raise stakes faster, cut the warm-up, do a cooler inciting event. Fine. But here's the contrarian part that matters when you're trying to keep an agent reading: your opening can be gorgeous and still feel like a vending machine. The reader pushes buttons, gets movement, but never gets what their brain wants\u2014an emotional reason the next page exists.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-10-11",
+  "modifiedDate": "2026-10-11",
   "canonicalUrl": "https://writequeryhook.com/blog/keeping-an-agent-reading-isn-t-about-better-hooks-it-s-about-pairing-desire",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -575,6 +575,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/keeping-an-agent-reading-isn-t-about-better-hooks-it-s-about-pairing-desire#primaryimage"
       },
+      "datePublished": "2026-10-11",
+      "dateModified": "2026-10-11",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "How to write a self-help book that doesn't sound generic",
   "description": "Most self-help books fail for the same dumb reason: the author picked a topic that's big enough to feel \"important\"\u2026 and vague enough that it could fit ten different readers. Then the book ends up sounding like a motivational poster you can't apply to your actual life. That generic hum is the problem.",
   "readTime": "7 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2027-01-09",
+  "modifiedDate": "2027-01-09",
   "canonicalUrl": "https://writequeryhook.com/blog/how-to-write-a-self-help-book-that-doesn-t-sound-generic",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -579,6 +579,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/how-to-write-a-self-help-book-that-doesn-t-sound-generic#primaryimage"
       },
+      "datePublished": "2027-01-09",
+      "dateModified": "2027-01-09",
       "mentions": [
         {
           "@type": "WebPage",

@@ -8,8 +8,8 @@ const PAGE_DATA = {
   "title": "Stop Naming the Biggest Books: Find Comp Titles Like a Detective",
   "description": "You can feel it when a comp title goes wrong.",
   "readTime": "11 min read",
-  "publishedDate": null,
-  "modifiedDate": null,
+  "publishedDate": "2026-08-09",
+  "modifiedDate": "2026-08-09",
   "canonicalUrl": "https://writequeryhook.com/blog/stop-naming-the-biggest-books-find-comp-titles-like-a-detective",
   "siteUrl": "https://writequeryhook.com",
   "siteName": "Write Query Hook",
@@ -659,6 +659,8 @@ const SCHEMA_GRAPH = {
       "image": {
         "@id": "https://writequeryhook.com/blog/stop-naming-the-biggest-books-find-comp-titles-like-a-detective#primaryimage"
       },
+      "datePublished": "2026-08-09",
+      "dateModified": "2026-08-09",
       "mentions": [
         {
           "@type": "WebPage",
