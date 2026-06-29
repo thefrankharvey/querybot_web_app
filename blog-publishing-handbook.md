@@ -160,14 +160,18 @@ Inline links are written as raw HTML inside paragraph/list/qa text. Use the toke
 
 ```html
 <a href="/blog/other-slug"
-   class="text-[var(--yvb-text-primary)] hover:text-[var(--yvb-link-cta-l1)] hover:underline transition-colors">
+   class="font-medium text-accent underline underline-offset-2 hover:opacity-80">
   link text
 </a>
 ```
 
 External links: add `target="_blank" rel="noopener noreferrer"`.
 
-Legacy posts use `class="text-[#2BCCC0] hover:underline"` — `migrateInlineLinks()` in `BlogPostContent.tsx` rewrites these at render time. Use the token form for new posts.
+Legacy posts may still contain older inline classes that are normalized at render time. Use the token form for new posts.
+
+### Visual tokens
+
+Blog pages should match the rest of the app and use semantic Tailwind/theme tokens, not raw hex colors. Use `bg-background` through the inherited body background, `ambient-page` plus `ambient-orb-top` for page shells, `glass-panel-strong` for article surfaces, `text-accent` with opacity modifiers for copy and metadata, `bg-accent/5` for inset callouts, and `border-accent/15` for subtle dividers.
 
 > **Security boundary.** Because every paragraph and list item ships through `dangerouslySetInnerHTML`, the trust model is "the author wrote the file." A malicious PR can inject script tags. PR review is the only gate — there is no sanitizer.
 

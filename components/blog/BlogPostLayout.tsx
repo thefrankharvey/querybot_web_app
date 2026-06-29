@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { BlogBackLink } from "@/components/blog/BlogBackLink";
 import {
   JsonLdScript,
   absoluteUrl,
@@ -51,7 +52,7 @@ function SectionBody({ section }: { section: BlogSection }) {
           return (
             <ul
               key={index}
-              className="mb-5 list-disc space-y-2 pl-6 text-accent/90"
+              className="mb-5 flex list-disc flex-col gap-2 pl-6 text-accent/90"
             >
               {item.items.map((li, liIndex) => (
                 <li
@@ -65,7 +66,7 @@ function SectionBody({ section }: { section: BlogSection }) {
         }
         // qa
         return (
-          <div key={index} className="mb-6 space-y-5">
+          <div key={index} className="mb-6 flex flex-col gap-5">
             {item.items.map((qa, qaIndex) => (
               <div key={qaIndex}>
                 <h3 className="mb-2 text-lg font-semibold text-accent">
@@ -131,13 +132,9 @@ export function BlogPostLayout({
         <JsonLdScript key={index} id={`blog-extra-jsonld-${index}`} data={data} />
       ))}
 
-      <article className="mx-auto max-w-3xl">
-        <nav className="mb-6 text-sm text-accent/60">
-          <Link href="/blog" className="hover:underline">
-            ← Blog
-          </Link>
-        </nav>
+      <BlogBackLink />
 
+      <article className="glass-panel-strong mx-auto max-w-3xl p-6 md:p-8">
         <header className="mb-8">
           <h1 className="mb-4 font-serif text-3xl font-semibold tracking-tight text-accent md:text-4xl">
             {config.title}
@@ -176,7 +173,7 @@ export function BlogPostLayout({
             <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-accent/70">
               The short version
             </h2>
-            <ul className="list-disc space-y-2 pl-5 text-accent/90">
+            <ul className="flex list-disc flex-col gap-2 pl-5 text-accent/90">
               {tldr.map((point, index) => (
                 <li key={index} className="break-words">
                   {point}
@@ -207,7 +204,7 @@ export function BlogPostLayout({
             <h2 className="mb-4 text-xl font-semibold text-accent">
               Continue reading
             </h2>
-            <ul className="list-disc space-y-2 pl-6 text-accent/90">
+            <ul className="flex list-disc flex-col gap-2 pl-6 text-accent/90">
               {relatedPosts.map((post) => (
                 <li key={post.slug}>
                   <Link

@@ -1,16 +1,11 @@
-import ClientNav from "../components/client-nav";
-import Footer from "../components/footer";
+import type { ReactNode } from "react";
+
+import { BlogAuthShell } from "./blog-auth-shell";
 
 export default function BlogLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
-  return (
-    <div className="flex min-h-screen w-full flex-col">
-      <ClientNav />
-      <div className="min-h-screen w-full">{children}</div>
-      <Footer />
-    </div>
-  );
+  return <BlogAuthShell>{children}</BlogAuthShell>;
 }

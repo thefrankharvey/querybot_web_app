@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { BlogBackLink } from '@/components/blog/BlogBackLink';
 
 const PAGE_DATA = {
   "slug": "quick-guide-chicago-style-formatting-for-in-text-titles-italics-quotation",
@@ -799,14 +800,14 @@ function renderInline(text: string, keyPrefix: string): any[] {
       const href = match[2];
       if (href.startsWith('/')) {
         nodes.push(
-          <Link key={key} href={href} className="font-medium text-[#1B4A56] underline underline-offset-2 hover:opacity-80">
+          <Link key={key} href={href} className="font-medium text-accent underline underline-offset-2 hover:opacity-80">
             {label}
           </Link>,
         );
       } else {
         nodes.push(
           <a key={key} href={href} target="_blank" rel="noopener noreferrer"
-             className="font-medium text-[#1B4A56] underline underline-offset-2 hover:opacity-80">
+             className="font-medium text-accent underline underline-offset-2 hover:opacity-80">
             {label}
           </a>,
         );
@@ -826,11 +827,11 @@ function renderInline(text: string, keyPrefix: string): any[] {
 
 function renderBlock(block: any, key: string) {
   if (block.type === 'paragraph') {
-    return <p key={key} className="mb-4 leading-7 text-[#1B4A56]">{renderInline(block.text, key)}</p>;
+    return <p key={key} className="mb-4 leading-7 text-accent/90">{renderInline(block.text, key)}</p>;
   }
   if (block.type === 'list') {
     return (
-      <ul key={key} className="mb-4 list-disc pl-6 text-[#1B4A56]">
+      <ul key={key} className="mb-4 list-disc pl-6 text-accent/90">
         {block.items.map((item: string, index: number) => (
           <li key={`${key}-${index}`} className="mb-2">{renderInline(item, `${key}-${index}`)}</li>
         ))}
@@ -839,13 +840,13 @@ function renderBlock(block: any, key: string) {
   }
   if (block.type === 'blockquote') {
     return (
-      <blockquote key={key} className="mb-4 border-l-4 border-[#1B4A56] pl-4 italic text-[#1B4A56]">
+      <blockquote key={key} className="mb-4 border-l-4 border-accent pl-4 italic text-accent/90">
         {renderInline(block.text, key)}
       </blockquote>
     );
   }
   if (block.type === 'subheading') {
-    return <h3 key={key} className="mb-3 mt-6 text-xl font-semibold text-[#1B4A56]">{renderInline(block.text, key)}</h3>;
+    return <h3 key={key} className="mb-3 mt-6 text-xl font-semibold text-accent">{renderInline(block.text, key)}</h3>;
   }
   return null;
 }
@@ -871,7 +872,7 @@ function Figure({ image }: { image: any }) {
         />
       )}
       {image.creator ? (
-        <figcaption className="mt-2 text-xs text-[#1B4A56]/70">
+        <figcaption className="mt-2 text-xs text-accent/70">
           Photo:{' '}
           {image.creatorUrl ? (
             <a href={image.creatorUrl} target="_blank" rel="noopener noreferrer" className="underline">{image.creator}</a>
@@ -887,10 +888,12 @@ function Figure({ image }: { image: any }) {
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-[#FAF0E6] px-6 py-12">
+    <main className="ambient-page px-4 pb-16 pt-8 md:px-6">
+      <div className="ambient-orb-top" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SCHEMA_GRAPH) }} />
-      <article className="mx-auto max-w-3xl rounded-2xl bg-[#F0F0EA] p-8 shadow-sm">
-        <nav aria-label="Breadcrumb" className="mb-6 text-xs text-[#1B4A56]/70">
+      <BlogBackLink />
+      <article className="glass-panel-strong mx-auto max-w-3xl p-6 md:p-8">
+        <nav aria-label="Breadcrumb" className="mb-6 text-xs text-accent/60">
           <ol className="flex flex-wrap gap-1">
             {PAGE_DATA.breadcrumbs.map((crumb: any, index: number) => (
               <li key={`crumb-${index}`} className="flex gap-1">
@@ -906,8 +909,8 @@ export default function Page() {
         </nav>
 
         <header className="mb-8">
-          <h1 className="mb-4 text-4xl font-semibold text-[#1B4A56]">{PAGE_DATA.title}</h1>
-          <div className="flex flex-wrap gap-3 text-sm text-[#1B4A56]">
+          <h1 className="mb-4 text-4xl font-semibold text-accent">{PAGE_DATA.title}</h1>
+          <div className="flex flex-wrap gap-3 text-sm text-accent/60">
             {PAGE_DATA.publishedDate ? (
               <time dateTime={PAGE_DATA.publishedDate}>
                 {new Date(PAGE_DATA.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -921,16 +924,16 @@ export default function Page() {
         </header>
 
         {PAGE_DATA.tldrBlocks.length > 0 ? (
-          <section className="tldr-section mb-10 rounded-xl border border-[#1B4A56]/20 bg-[#FAF0E6] p-5">
-            <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-[#1B4A56]">TL;DR</h2>
+          <section className="tldr-section mb-10 rounded-xl border border-accent/15 bg-accent/5 p-5">
+            <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-accent">TL;DR</h2>
             {PAGE_DATA.tldrBlocks.map((block: any, index: number) => renderBlock(block, `tldr-${index}`))}
           </section>
         ) : null}
 
         {PAGE_DATA.sections.length > 1 ? (
-          <nav aria-label="Table of contents" className="mb-10 rounded-xl bg-[#FAF0E6] p-5">
-            <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-[#1B4A56]">On this page</h2>
-            <ul className="list-disc pl-5 text-[#1B4A56]">
+          <nav aria-label="Table of contents" className="mb-10 rounded-xl bg-accent/5 p-5">
+            <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.15em] text-accent">On this page</h2>
+            <ul className="list-disc pl-5 text-accent">
               {PAGE_DATA.sections.map((section: any) => (
                 <li key={`toc-${section.heading_slug}`} className="mb-1">
                   <a href={`#${section.heading_slug}`} className="underline underline-offset-2 hover:opacity-80">{section.heading}</a>
@@ -948,14 +951,14 @@ export default function Page() {
         {PAGE_DATA.sections.map((section: any, sIdx: number) => (
           <Fragment key={section.section_id}>
             <section className="mb-10">
-              <h2 id={section.heading_slug} className="mb-4 scroll-mt-24 text-2xl font-semibold text-[#1B4A56]">{section.heading}</h2>
+              <h2 id={section.heading_slug} className="mb-4 scroll-mt-24 text-2xl font-semibold text-accent">{section.heading}</h2>
               <Figure image={section.image} />
               {section.blocks.map((block: any, index: number) => renderBlock(block, `${section.section_id}-${index}`))}
             </section>
             {PAGE_DATA.alsoLike.length > 0 && sIdx === PAGE_DATA.alsoLikeAfterIndex ? (
-              <aside className="mb-10 rounded-xl border border-[#1B4A56]/20 bg-[#FAF0E6] p-5">
-                <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.15em] text-[#1B4A56]">You may also like</h2>
-                <ul className="list-disc pl-6 text-[#1B4A56]">
+              <aside className="mb-10 rounded-xl border border-accent/15 bg-accent/5 p-5">
+                <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.15em] text-accent">You may also like</h2>
+                <ul className="list-disc pl-6 text-accent">
                   {PAGE_DATA.alsoLike.map((link: any, index: number) => (
                     <li key={`alsolike-${index}`} className="mb-2">
                       <Link href={link.url.replace(PAGE_DATA.siteUrl, '')} className="underline underline-offset-2 hover:opacity-80">
@@ -971,26 +974,26 @@ export default function Page() {
 
         {PAGE_DATA.faq.length > 0 ? (
           <section className="mb-10">
-            <h2 className="mb-4 text-2xl font-semibold text-[#1B4A56]">Frequently asked questions</h2>
+            <h2 className="mb-4 text-2xl font-semibold text-accent">Frequently asked questions</h2>
             {PAGE_DATA.faq.map((item: any, index: number) => (
               <div key={`faq-${index}`} className="mb-5">
-                <h3 className="mb-2 text-lg font-semibold text-[#1B4A56]">{item.question}</h3>
-                <p className="leading-7 text-[#1B4A56]">{renderInline(item.answer, `faq-a-${index}`)}</p>
+                <h3 className="mb-2 text-lg font-semibold text-accent">{item.question}</h3>
+                <p className="leading-7 text-accent/90">{renderInline(item.answer, `faq-a-${index}`)}</p>
               </div>
             ))}
           </section>
         ) : null}
 
         <section className="mb-10">
-          <h2 className="mb-4 text-2xl font-semibold text-[#1B4A56]">The bottom line</h2>
+          <h2 className="mb-4 text-2xl font-semibold text-accent">The bottom line</h2>
           <Figure image={PAGE_DATA.closingImage} />
           {PAGE_DATA.closingBlocks.map((block: any, index: number) => renderBlock(block, `closing-${index}`))}
         </section>
 
         {PAGE_DATA.relatedLinks.length > 0 ? (
-          <section className="border-t border-[#1B4A56]/20 pt-6">
-            <h2 className="mb-4 text-2xl font-semibold text-[#1B4A56]">Continue reading</h2>
-            <ul className="list-disc pl-6 text-[#1B4A56]">
+          <section className="border-t border-accent/15 pt-6">
+            <h2 className="mb-4 text-2xl font-semibold text-accent">Continue reading</h2>
+            <ul className="list-disc pl-6 text-accent">
               {PAGE_DATA.relatedLinks.map((link: any, index: number) => (
                 <li key={`related-${index}`} className="mb-2">
                   <Link href={link.url.replace(PAGE_DATA.siteUrl, '')} className="underline underline-offset-2 hover:opacity-80">
