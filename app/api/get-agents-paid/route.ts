@@ -5,6 +5,8 @@ import { auth } from "@clerk/nextjs/server";
 // Define the structure of the payload
 export interface GetAgentsPaidPayload {
   email: string;
+  writer_project_id?: string | null;
+  project_name?: string | null;
   genre?: string;
   subgenres?: string[];
   target_audience?: string;
@@ -38,6 +40,8 @@ export async function POST(req: NextRequest) {
 
     const payload: GetAgentsPaidPayload = {
       email: jsonData.email || "",
+      writer_project_id: jsonData.writer_project_id ?? null,
+      project_name: jsonData.project_name ?? null,
       genre: jsonData.genre,
       subgenres: Array.isArray(jsonData.subgenres)
         ? jsonData.subgenres

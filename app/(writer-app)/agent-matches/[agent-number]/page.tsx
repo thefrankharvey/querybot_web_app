@@ -28,6 +28,7 @@ import {
   FitRatingBadge,
   getFitRatingFromScore,
 } from "@/app/components/fit-rating-badge";
+import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -91,7 +92,9 @@ const AgentProfile = () => {
       query_tracker: agent.querytracker || null,
       pub_marketplace: agent.pubmarketplace || null,
       match_score: agent.normalized_score || null,
+      genres_themes: getGenresThemesSummary(agent) || null,
       project_name: matchesContext.projectName || null,
+      writer_project_id: matchesContext.writerProjectId,
     };
     await saveAgent(payload);
   };

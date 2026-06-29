@@ -55,11 +55,17 @@ export interface KanbanCardData {
   pub_marketplace?: string | null;
   match_score?: number | null;
   agency_url?: string | null;
+  genres_themes?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   // Kanban-specific (local state)
   columnId: string;
   prepQueryLetterDone: boolean;
   fitRating: FitRating;
   projectName: string;
+  writerProjectId?: string | null;
   notes: string;
 }
 

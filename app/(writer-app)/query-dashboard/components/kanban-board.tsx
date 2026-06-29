@@ -41,7 +41,6 @@ export function KanbanBoard() {
     cards,
     isLoading,
     isEmpty,
-    isRenamingProject,
     moveCard,
     reorderInColumn,
     togglePrepQueryLetter,
@@ -130,7 +129,7 @@ export function KanbanBoard() {
     })
   );
 
-  if (isLoading || isRenamingProject) {
+  if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
         <Spinner className="size-16" />

@@ -3,7 +3,6 @@
 import {
   useCallback,
   useEffect,
-  useMemo,
   useState,
   type FormEvent,
 } from "react";
@@ -13,7 +12,6 @@ import {
   Mail,
   MapPin,
   Pencil,
-  Plus,
   Save,
   Sparkles,
   UserRound,
@@ -23,6 +21,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { Button } from "@/app/ui-primitives/button";
+import { TraitMultiSelectField } from "@/app/components/traits/trait-fields";
 import { targetAudienceOptions } from "@/app/constants";
 import {
   useManuscriptTraits,
@@ -52,7 +51,6 @@ import { Textarea } from "@/app/ui-primitives/textarea";
 import { urlFormatter } from "@/app/utils";
 import {
   formatTraitLabel,
-  mergeTraitOptions,
   resolveTraitValues,
   type TraitOption,
   type TraitType,
@@ -783,150 +781,6 @@ function ProfileSubmissionStatusSelect({
   );
 }
 
-function ProfileTagSelector({
-  createOrSelectTrait,
-  field,
-  isCreatingTrait,
-  onDraftChange,
-  options,
-  selectedValues,
-  traitType,
-}: {
-  createOrSelectTrait: CreateOrSelectTrait;
-  field: EditableListField;
-  isCreatingTrait: boolean;
-  onDraftChange: (field: EditableListField, value: string[]) => void;
-  options: TraitOption[];
-  selectedValues: string[];
-  traitType: TraitType;
-}) {
-  const [customValue, setCustomValue] = useState("");
-  const [error, setError] = useState("");
-  const id = `agent-profile-${field}`;
-  const singularLabel = LIST_FIELD_LABELS[field].slice(0, -1);
-  const selectedKeys = useMemo(
-    () => new Set(selectedValues.map(normalizeOptionKey)),
-    [selectedValues]
-  );
-  const optionLabelsByValue = useMemo(
-    () => new Map(options.map((option) => [option.value, option.label])),
-    [options]
-  );
-
-  const setUniqueValues = (values: string[]) => {
-    onDraftChange(field, uniqueList(values));
-  };
-
-  const handleSelect = (values: string[]) => {
-    setError("");
-    setUniqueValues(values);
-  };
-
-  const handleAddCustom = async () => {
-    const trimmedValue = customValue.trim();
-
-    if (!trimmedValue) {
-      setError(`Enter a ${singularLabel.toLocaleLowerCase()}`);
-      return;
-    }
-
-    try {
-      const result = await createOrSelectTrait(traitType, trimmedValue);
-
-      if (selectedKeys.has(normalizeOptionKey(result.value))) {
-        setError(`${singularLabel} already exists`);
-        return;
-      }
-
-      setUniqueValues([...selectedValues, result.value]);
-      setCustomValue("");
-      setError("");
-    } catch (addError) {
-      setError(
-        addError instanceof Error
-          ? addError.message
-          : `Failed to add ${singularLabel.toLocaleLowerCase()}`
-      );
-    }
-  };
-
-  return (
-    <ProfileFormField id={id} label={LIST_FIELD_LABELS[field]}>
-      <div className="flex flex-col gap-3">
-        <InfiniteMultiSelect
-          contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
-          handleChange={handleSelect}
-          id={id}
-          optionTitle={LIST_FIELD_LABELS[field].toLocaleLowerCase()}
-          options={options}
-          selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
-          triggerClassName="w-full flex-none md:w-full"
-          value={selectedValues}
-        />
-
-        {selectedValues.length > 0 ? (
-          <div className="flex flex-wrap gap-2">
-            {selectedValues.map((value) => (
-              <button
-                className="flex w-fit items-center gap-1 rounded-full bg-[#E2E8F1] p-2 text-xs font-medium text-accent transition hover:bg-accent/12"
-                key={value}
-                onClick={() =>
-                  setUniqueValues(
-                    selectedValues.filter(
-                      (selectedValue) => selectedValue !== value
-                    )
-                  )
-                }
-                type="button"
-              >
-                <span>
-                  {optionLabelsByValue.get(value) ?? formatTraitLabel(value)}
-                </span>
-                <X className="size-4" />
-              </button>
-            ))}
-          </div>
-        ) : null}
-
-        <div className="flex w-full flex-col gap-2 md:w-1/2 md:flex-row">
-          <Input
-            onChange={(event) => {
-              setCustomValue(event.target.value);
-              setError("");
-            }}
-            onKeyDown={(event) => {
-              if (event.key === "Enter") {
-                event.preventDefault();
-                void handleAddCustom();
-              }
-            }}
-            placeholder={`Add custom ${LIST_FIELD_LABELS[
-              field
-            ].toLocaleLowerCase().slice(0, -1)}`}
-            value={customValue}
-          />
-          <Button
-            disabled={isCreatingTrait}
-            className="md:w-fit"
-            onClick={() => void handleAddCustom()}
-            type="button"
-            variant="outline"
-          >
-            {isCreatingTrait ? (
-              <Spinner data-icon="inline-start" />
-            ) : (
-              <Plus data-icon="inline-start" />
-            )}
-            {isCreatingTrait ? "Adding" : "Add"}
-          </Button>
-        </div>
-
-        {error ? <p className="text-sm text-destructive">{error}</p> : null}
-      </div>
-    </ProfileFormField>
-  );
-}
-
 function ProfileAudienceSelector({
   onDraftChange,
   selectedValues,
@@ -991,22 +845,7 @@ function AgentProfileCard({
   const location = formatLocation(profile);
   const links = getProfileLinks(profile);
   const acceptanceFlags = getAcceptanceFlags(profile);
-  const selectedGenres = draft?.genres ?? EMPTY_SELECTED_VALUES;
-  const selectedSubgenres = draft?.subgenres ?? EMPTY_SELECTED_VALUES;
-  const selectedFormats = draft?.formats ?? EMPTY_SELECTED_VALUES;
   const selectedAudiences = draft?.audiences ?? EMPTY_SELECTED_VALUES;
-  const genreSelectOptions = useMemo(
-    () => mergeTraitOptions(traitOptions.genre, selectedGenres),
-    [selectedGenres, traitOptions.genre]
-  );
-  const subgenreSelectOptions = useMemo(
-    () => mergeTraitOptions(traitOptions.subgenre, selectedSubgenres),
-    [selectedSubgenres, traitOptions.subgenre]
-  );
-  const formatSelectOptions = useMemo(
-    () => mergeTraitOptions(traitOptions.format, selectedFormats),
-    [selectedFormats, traitOptions.format]
-  );
 
   if (isEditing && draft) {
     return (
@@ -1123,32 +962,44 @@ function AgentProfileCard({
                 {traitsError}
               </p>
             ) : null}
-            <ProfileTagSelector
+            <TraitMultiSelectField
               createOrSelectTrait={createOrSelectTrait}
-              field="genres"
+              id="agent-profile-genres"
               isCreatingTrait={isCreatingTrait}
-              onDraftChange={onDraftListChange}
-              options={genreSelectOptions}
-              selectedValues={draft.genres}
+              label={LIST_FIELD_LABELS.genres}
+              onValueChange={(value) => onDraftListChange("genres", value)}
+              options={traitOptions.genre}
+              selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
+              triggerClassName="w-full flex-none md:w-full"
               traitType="genre"
+              value={draft.genres}
+              contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
             />
-            <ProfileTagSelector
+            <TraitMultiSelectField
               createOrSelectTrait={createOrSelectTrait}
-              field="subgenres"
+              id="agent-profile-subgenres"
               isCreatingTrait={isCreatingTrait}
-              onDraftChange={onDraftListChange}
-              options={subgenreSelectOptions}
-              selectedValues={draft.subgenres}
+              label={LIST_FIELD_LABELS.subgenres}
+              onValueChange={(value) => onDraftListChange("subgenres", value)}
+              options={traitOptions.subgenre}
+              selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
+              triggerClassName="w-full flex-none md:w-full"
               traitType="subgenre"
+              value={draft.subgenres}
+              contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
             />
-            <ProfileTagSelector
+            <TraitMultiSelectField
               createOrSelectTrait={createOrSelectTrait}
-              field="formats"
+              id="agent-profile-formats"
               isCreatingTrait={isCreatingTrait}
-              onDraftChange={onDraftListChange}
-              options={formatSelectOptions}
-              selectedValues={draft.formats}
+              label={LIST_FIELD_LABELS.formats}
+              onValueChange={(value) => onDraftListChange("formats", value)}
+              options={traitOptions.format}
+              selectedBadgeClassName="rounded-full border-accent/10 bg-[#E2E8F1] px-3 text-accent"
+              triggerClassName="w-full flex-none md:w-full"
               traitType="format"
+              value={draft.formats}
+              contentClassName="w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]"
             />
             <ProfileTextArea
               draft={draft}

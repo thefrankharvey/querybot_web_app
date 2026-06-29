@@ -41,6 +41,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const agentsList = data?.agent_matches;
 
   const hasRunBackfillRef = useRef(false);
+  const hasRunWriterProjectIdBackfillRef = useRef(false);
   useEffect(() => {
     if (hasRunBackfillRef.current || !agentsList?.length) return;
     const needsBackfill = agentsList.some(
@@ -56,6 +57,34 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         if (res.ok) await refetch();
       } catch {
         hasRunBackfillRef.current = false; // allow retry on next load
+      }
+    })();
+  }, [agentsList, refetch]);
+
+  useEffect(() => {
+    if (hasRunWriterProjectIdBackfillRef.current || !agentsList?.length) return;
+    const needsWriterProjectIdBackfill = agentsList.some(
+      (agent) => !agent.writer_project_id
+    );
+    if (!needsWriterProjectIdBackfill) return;
+
+    hasRunWriterProjectIdBackfillRef.current = true;
+    (async () => {
+      try {
+        const res = await fetch("/api/agent-matches/backfill-writer-project-id", {
+          method: "POST",
+        });
+        if (!res.ok) {
+          hasRunWriterProjectIdBackfillRef.current = false;
+          return;
+        }
+
+        const data = (await res.json()) as { updated?: number };
+        if ((data.updated ?? 0) > 0) {
+          await refetch();
+        }
+      } catch {
+        hasRunWriterProjectIdBackfillRef.current = false;
       }
     })();
   }, [agentsList, refetch]);

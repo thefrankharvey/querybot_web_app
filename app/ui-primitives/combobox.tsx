@@ -15,11 +15,14 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 
 type ComboboxProps = {
+  contentClassName?: string;
   forceOpen?: boolean;
+  id?: string;
   options: { value: string; label: string; keywords?: string[] }[];
   optionTitle: string;
   handleChange: (value: string) => void;
   tourTarget?: string;
+  triggerClassName?: string;
   value?: string;
 };
 
@@ -29,7 +32,17 @@ export interface ComboboxRef {
 
 const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
   (
-    { forceOpen, options, optionTitle, handleChange, tourTarget, value },
+    {
+      contentClassName,
+      forceOpen,
+      id,
+      options,
+      optionTitle,
+      handleChange,
+      tourTarget,
+      triggerClassName,
+      value,
+    },
     ref,
   ) => {
     const [open, setOpen] = React.useState(false);
@@ -69,10 +82,14 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
         <PopoverTrigger asChild>
           <Button
             data-tour-target={tourTarget}
+            id={id}
             variant="outline"
             role="combobox"
             aria-expanded={isOpen}
-            className="flex-1 md:w-[555px] justify-between bg-white"
+            className={cn(
+              "flex-1 justify-between bg-white md:w-[555px]",
+              triggerClassName,
+            )}
           >
             {selectedValue
               ? selectedOption?.label ?? selectedValue
@@ -80,7 +97,9 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
             <ChevronDownIcon className="size-4 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[280px] md:w-[555px] p-0">
+        <PopoverContent
+          className={cn("w-[280px] p-0 md:w-[555px]", contentClassName)}
+        >
           <Command>
             <CommandInput
               placeholder={`Search ${optionTitle}...`}

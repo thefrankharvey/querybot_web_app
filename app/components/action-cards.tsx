@@ -1,11 +1,21 @@
+"use client";
+
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { getFromLocalStorage } from "@/app/utils";
 import { ExternalLinkIcon, ScanSearch, UsersIcon } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export const ActionCards = () => {
   const { isLoading } = useClerkUser();
-  const hasAgentMatches = getFromLocalStorage("agent_matches");
+  const [hasAgentMatches, setHasAgentMatches] = useState(false);
+
+  useEffect(() => {
+    const storedAgentMatches = getFromLocalStorage("agent_matches");
+    setHasAgentMatches(
+      Array.isArray(storedAgentMatches) && storedAgentMatches.length > 0,
+    );
+  }, []);
 
   const actionCardData = [
     {

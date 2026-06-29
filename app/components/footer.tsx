@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="w-full border-t border-white/60 bg-[linear-gradient(180deg,rgba(26,60,63,0.96),rgba(18,38,41,1))] py-10"
+      className="mt-[300px] w-full border-t border-white/60 bg-[linear-gradient(180deg,rgba(26,60,63,0.96),rgba(18,38,41,1))] py-10"
     >
       <div className="flex max-w-screen-xl mx-auto justify-between items-baseline flex-col-reverse gap-8 px-4 md:flex-row">
         <div className="flex flex-col justify-left gap-6 py-4 md:flex-row md:gap-20 md:py-10">

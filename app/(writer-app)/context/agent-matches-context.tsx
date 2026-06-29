@@ -71,6 +71,8 @@ export interface AgentMatch {
 
 export interface FormData {
   email: string;
+  writer_project_id?: string | null;
+  project_name: string;
   genre: string;
   subgenres: string[];
   format: string;
@@ -91,6 +93,7 @@ const QUERY_KEYS = {
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
   projectName: ["projectName"] as const,
+  writerProjectId: ["writerProjectId"] as const,
 };
 
 const STORAGE_KEYS = {
@@ -103,6 +106,7 @@ const STORAGE_KEYS = {
   statusFilter: "status_filter",
   countryFilter: "country_filter",
   projectName: "project_name",
+  writerProjectId: "writer_project_id",
 };
 
 function canUseStorage() {
@@ -199,6 +203,13 @@ const useAgentData = () => {
     queryFn: async (): Promise<string> =>
       readJSON<string>(STORAGE_KEYS.projectName) ?? "",
     initialData: () => readJSON<string>(STORAGE_KEYS.projectName) ?? "",
+  });
+
+  const { data: writerProjectId = null } = useQuery({
+    queryKey: QUERY_KEYS.writerProjectId,
+    queryFn: async (): Promise<string | null> =>
+      readJSON<string>(STORAGE_KEYS.writerProjectId),
+    initialData: () => readJSON<string>(STORAGE_KEYS.writerProjectId),
   });
 
   // ✅ Key fix: if we're pending and the URL arrives (from any source), mark ready
@@ -309,6 +320,22 @@ const useAgentData = () => {
     [queryClient]
   );
 
+  const saveWriterProjectId = useCallback(
+    (id: string | null) => {
+      const normalizedId = id?.trim() || null;
+      if (normalizedId) {
+        writeJSON(STORAGE_KEYS.writerProjectId, normalizedId);
+      } else {
+        removeKey(STORAGE_KEYS.writerProjectId);
+      }
+      queryClient.setQueryData<string | null>(
+        QUERY_KEYS.writerProjectId,
+        normalizedId
+      );
+    },
+    [queryClient]
+  );
+
   const renameSavedProjectName = useCallback(
     (oldName: string, newName: string) => {
       const storedProjectName =
@@ -379,6 +406,7 @@ const useAgentData = () => {
     removeKey(STORAGE_KEYS.totalAgents);
     removeKey(STORAGE_KEYS.spreadsheetUrl);
     removeKey(STORAGE_KEYS.projectName);
+    removeKey(STORAGE_KEYS.writerProjectId);
     // keep or clear formData depending on your UX:
     // removeKey(STORAGE_KEYS.formData);
 
@@ -392,6 +420,7 @@ const useAgentData = () => {
     queryClient.setQueryData<number | null>(QUERY_KEYS.totalAgents, null);
     queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, null);
     queryClient.setQueryData<string>(QUERY_KEYS.projectName, "");
+    queryClient.setQueryData<string | null>(QUERY_KEYS.writerProjectId, null);
 
     // If you clear statusFilter in storage, also reset it here:
     // queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, "all");
@@ -414,6 +443,7 @@ const useAgentData = () => {
     statusFilter,
     countryFilter,
     projectName,
+    writerProjectId,
     sheetTaskId,
     isLoading,
 
@@ -429,6 +459,7 @@ const useAgentData = () => {
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
     saveProjectName,
+    saveWriterProjectId,
     renameSavedProjectName,
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
 
@@ -447,6 +478,7 @@ interface MatchesContextType {
   statusFilter: string;
   countryFilter: string;
   projectName: string;
+  writerProjectId: string | null;
   sheetTaskId: string | null;
   isLoading: boolean;
 
@@ -462,6 +494,7 @@ interface MatchesContextType {
   saveStatusFilter: (status: string) => void;
   saveCountryFilter: (country: string) => void;
   saveProjectName: (name: string) => void;
+  saveWriterProjectId: (id: string | null) => void;
   renameSavedProjectName: (oldName: string, newName: string) => boolean;
   saveSheetTaskId: (taskId: string | null) => void;
 
@@ -510,6 +543,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       statusFilter: data.statusFilter,
       countryFilter: data.countryFilter,
       projectName: data.projectName,
+      writerProjectId: data.writerProjectId,
       sheetTaskId: data.sheetTaskId,
       isLoading: data.isLoading,
 
@@ -525,6 +559,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveStatusFilter: data.saveStatusFilter,
       saveCountryFilter: data.saveCountryFilter,
       saveProjectName: data.saveProjectName,
+      saveWriterProjectId: data.saveWriterProjectId,
       renameSavedProjectName: data.renameSavedProjectName,
       saveSheetTaskId: data.saveSheetTaskId,
 
@@ -543,6 +578,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.statusFilter,
       data.countryFilter,
       data.projectName,
+      data.writerProjectId,
       data.sheetTaskId,
       data.isLoading,
       data.sheetStatus,
@@ -556,6 +592,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveStatusFilter,
       data.saveCountryFilter,
       data.saveProjectName,
+      data.saveWriterProjectId,
       data.renameSavedProjectName,
       data.saveSheetTaskId,
       data.startSpreadsheetPolling,

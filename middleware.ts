@@ -6,6 +6,7 @@ const protectedRoutePrefixes = [
   "/agent-matches",
   "/dispatch",
   "/home",
+  "/projects",
   "/query-dashboard",
   "/saved-agents",
   "/smart-match",
@@ -85,6 +86,7 @@ export default clerkMiddleware(async (auth, req) => {
       !pathname.startsWith("/sign-") &&
       !pathname.startsWith("/saved-agents") &&
       !pathname.startsWith("/home") &&
+      !pathname.startsWith("/projects") &&
       !pathname.startsWith("/query-dashboard") &&
       !pathname.startsWith("/creator-resources") &&
       !pathname.startsWith("/subscribe") &&

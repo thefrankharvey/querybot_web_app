@@ -4,12 +4,10 @@ import { useMemo } from "react";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, FolderOpen, Users } from "lucide-react";
 import type { AgentMatch } from "@/app/types";
-import {
-  QUERY_DASH_COLUMNS,
-  type QueryDashColumnId,
-} from "@/app/(writer-app)/query-dashboard/components/kanban-config";
+import { QUERY_DASH_COLUMNS } from "@/app/(writer-app)/query-dashboard/components/kanban-config";
 import {
   buildProjectDashboardSummaries,
+  PROJECT_STATUS_CHIP_LABELS,
   type ProjectDashboardSummary,
 } from "@/app/utils/project-dashboard-summary";
 import AnimatedCount from "./animated-count";
@@ -17,14 +15,6 @@ import AnimatedCount from "./animated-count";
 export interface ProjectDashboardOverviewProps {
   agentsList: AgentMatch[] | undefined;
 }
-
-const STATUS_CHIP_LABELS: Record<QueryDashColumnId, string> = {
-  "agents-to-research": "Research",
-  "submitted-query": "Submitted",
-  "pages-requested": "Pages",
-  rejected: "Rejected",
-  "offer-made": "Offers",
-};
 
 const ACTIVITY_DATE_FORMATTER = new Intl.DateTimeFormat("en", {
   month: "short",
@@ -45,7 +35,7 @@ export default function ProjectDashboardOverview({
   return (
     <section
       className="mt-8 flex w-full flex-col gap-4"
-      aria-label="Project dashboards"
+      aria-label="Projects"
     >
       <div className="flex w-full items-center justify-between gap-3">
         <div className="min-w-0">
@@ -58,7 +48,10 @@ export default function ProjectDashboardOverview({
 
       <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
         {projectSummaries.map((summary) => (
-          <ProjectDashboardCard key={summary.projectName} summary={summary} />
+          <ProjectDashboardCard
+            key={summary.writerProjectId ?? summary.projectName}
+            summary={summary}
+          />
         ))}
       </div>
     </section>
@@ -72,7 +65,7 @@ function ProjectDashboardCard({
 }) {
   const visibleStatuses = QUERY_DASH_COLUMNS.map((column) => ({
     id: column.id,
-    label: STATUS_CHIP_LABELS[column.id],
+    label: PROJECT_STATUS_CHIP_LABELS[column.id],
     count: summary.countsByColumn[column.id],
   })).filter((status) => status.count > 0);
   const activityDate = formatActivityDate(summary.lastActivityAt);
@@ -104,9 +97,9 @@ function ProjectDashboardCard({
       <div className="mt-5 flex flex-col gap-3">
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-2 text-accent/64">
-            <Users className="size-4 shrink-0" />
+              <Users className="size-4 shrink-0" />
             <span className="text-xs font-semibold uppercase text-accent/54">
-              Saved Agents
+              Matched Agents
             </span>
           </div>
           <span className="text-3xl font-bold leading-none text-accent">

@@ -19,7 +19,10 @@ import {
 } from "@/app/ui-primitives/accordion";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { cn } from "@/app/utils";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import {
+  getProjectNavigationItemsFromAgentMatches,
+} from "@/app/utils/project-dashboard-summary";
+import { getProjectRouteId } from "@/app/utils/project-profile";
 
 import { useProfileContext } from "../context/profile-context";
 
@@ -29,13 +32,15 @@ export const AppHamburger = () => {
   const { agentsList } = useProfileContext();
   const { isSubscribed } = useClerkUser();
 
-  const projectNames = useMemo(() => {
-    return getProjectNamesFromAgentMatches(agentsList);
+  const projectItems = useMemo(() => {
+    return getProjectNavigationItemsFromAgentMatches(agentsList);
   }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
     ? searchParams.get("project")
-    : null;
+    : pathname.includes("/projects/")
+      ? decodeURIComponent(pathname.split("/projects/")[1]?.split("/")[0] ?? "")
+      : null;
 
   const entries: WorkspaceNavEntry[] = [
     {
@@ -61,7 +66,7 @@ export const AppHamburger = () => {
             <AccordionTrigger
               className={cn(
                 "justify-center gap-2 rounded-[22px] py-3 text-base font-medium hover:no-underline",
-                pathname.includes("query-dashboard")
+                pathname.includes("query-dashboard") || pathname.includes("/projects")
                   ? "border border-accent/10 bg-white/82 text-accent"
                   : "text-accent/74"
               )}
@@ -72,21 +77,23 @@ export const AppHamburger = () => {
               </span>
             </AccordionTrigger>
             <AccordionContent className="pb-0">
-              {projectNames.length > 0 ? (
+              {projectItems.length > 0 ? (
                 <div className="flex flex-col items-center gap-1">
-                  {projectNames.map((name) => (
+                  {projectItems.map((project) => (
                     <Link
-                      key={name}
+                      key={project.writerProjectId ?? project.projectName}
                       onClick={closeMenu}
-                      href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                      href={project.href}
                       className={cn(
                         "flex w-full items-center justify-center gap-2 truncate rounded-[22px] py-2.5 text-base font-medium",
-                        activeProject === name
+                        activeProject === project.projectName ||
+                          activeProject === project.writerProjectId ||
+                          activeProject === getProjectRouteId(project.projectName)
                           ? "border border-accent/10 bg-white/82 text-accent"
                           : "text-accent/74"
                       )}
                     >
-                      {name}
+                      {project.projectName}
                     </Link>
                   ))}
                 </div>

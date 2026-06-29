@@ -19,7 +19,10 @@ import {
 } from "@/app/ui-primitives/accordion";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { cn } from "@/app/utils";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import {
+  getProjectNavigationItemsFromAgentMatches,
+} from "@/app/utils/project-dashboard-summary";
+import { getProjectRouteId } from "@/app/utils/project-profile";
 
 import { useProfileContext } from "../context/profile-context";
 
@@ -29,13 +32,15 @@ export const SideBarNav = () => {
   const { agentsList } = useProfileContext();
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
 
-  const projectNames = useMemo(() => {
-    return getProjectNamesFromAgentMatches(agentsList);
+  const projectItems = useMemo(() => {
+    return getProjectNavigationItemsFromAgentMatches(agentsList);
   }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
     ? searchParams.get("project")
-    : null;
+    : pathname.includes("/projects/")
+      ? decodeURIComponent(pathname.split("/projects/")[1]?.split("/")[0] ?? "")
+      : null;
 
   const entries: WorkspaceNavEntry[] = [
     {
@@ -63,7 +68,7 @@ export const SideBarNav = () => {
               data-tour-target="home-walkthrough-query-dashboard-nav"
               className={cn(
                 "my-1 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent hover:no-underline",
-                pathname.includes("query-dashboard")
+                pathname.includes("query-dashboard") || pathname.includes("/projects")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
                   : "text-accent/74"
               )}
@@ -74,20 +79,22 @@ export const SideBarNav = () => {
               </span>
             </AccordionTrigger>
             <AccordionContent className="pb-0">
-              {projectNames.length > 0 ? (
+              {projectItems.length > 0 ? (
                 <div className="flex flex-col pl-4">
-                  {projectNames.map((name) => (
+                  {projectItems.map((project) => (
                     <Link
-                      key={name}
-                      href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                      key={project.writerProjectId ?? project.projectName}
+                      href={project.href}
                       className={cn(
                         "my-0.5 truncate rounded-[20px] px-4 py-2.5 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent",
-                        activeProject === name
+                        activeProject === project.projectName ||
+                          activeProject === project.writerProjectId ||
+                          activeProject === getProjectRouteId(project.projectName)
                           ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
                           : "text-accent/74"
                       )}
                     >
-                      {name}
+                      {project.projectName}
                     </Link>
                   ))}
                 </div>
@@ -122,7 +129,7 @@ export const SideBarNav = () => {
       brandHref="/home"
       entries={entries}
       containerClassName={cn(
-        pathname.includes("query-dashboard")
+        pathname.includes("query-dashboard") || pathname.includes("/projects")
           ? "mb-0"
           : "mb-88 md:w-[230px]"
       )}

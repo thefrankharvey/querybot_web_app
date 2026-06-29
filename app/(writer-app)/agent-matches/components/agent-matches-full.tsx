@@ -19,6 +19,8 @@ import {
   getProjectDashboardHref,
   normalizeProjectName,
 } from "@/app/utils/project-dashboard-summary";
+import { getProjectDashboardHrefById } from "@/app/utils/project-profile";
+import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
 
 // Helper function to map AgentMatch to SaveAgentPayload
 const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
@@ -30,6 +32,22 @@ const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
   query_tracker: agent.querytracker || null,
   pub_marketplace: agent.pubmarketplace || null,
   match_score: agent.normalized_score || null,
+  genres_themes: getGenresThemesSummary(agent) || null,
+});
+
+const getWriterProjectIdFromResponse = (data: unknown) => {
+  if (!data || typeof data !== "object") return null;
+  const value = (data as { writer_project_id?: unknown }).writer_project_id;
+  return typeof value === "string" && value.trim() ? value.trim() : null;
+};
+
+const getFormDataWithWriterProjectId = (
+  formData: FormData,
+  writerProjectId: string | null,
+): FormData => ({
+  ...formData,
+  writer_project_id:
+    writerProjectId ?? formData.writer_project_id?.trim() ?? null,
 });
 
 export const AgentMatchesFull = ({
@@ -42,6 +60,7 @@ export const AgentMatchesFull = ({
     totalAgents,
     formData,
     saveMatches,
+    saveFormData,
     nextCursorCount,
     saveNextCursor,
     currentCursor,
@@ -57,6 +76,8 @@ export const AgentMatchesFull = ({
     saveSpreadsheetUrl,
     saveTotalAgents,
     projectName,
+    writerProjectId,
+    saveWriterProjectId,
   } = useAgentMatches();
 
   const {
@@ -69,12 +90,15 @@ export const AgentMatchesFull = ({
 
   const nextCursor = nextCursorCount || QUERY_LIMIT;
   const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const activeWriterProjectId = writerProjectId?.trim() || null;
   const hasSavedAgentsForActiveProject =
     activeProjectName.length > 0 &&
     Boolean(
       agentsList?.some(
         (agent) =>
-          normalizeProjectName(agent.project_name) === activeProjectName
+          agent.writer_project_id === activeWriterProjectId ||
+          (!agent.writer_project_id &&
+            normalizeProjectName(agent.project_name) === activeProjectName)
       )
     );
 
@@ -100,7 +124,9 @@ export const AgentMatchesFull = ({
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(params.formData),
+          body: JSON.stringify(
+            getFormDataWithWriterProjectId(params.formData, writerProjectId)
+          ),
         }
       );
 
@@ -111,7 +137,7 @@ export const AgentMatchesFull = ({
       return data;
     },
 
-    onSuccess: (data) => {
+    onSuccess: (data, params) => {
       const nextTotal =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -119,6 +145,15 @@ export const AgentMatchesFull = ({
             ? data.total_available
             : null;
       saveTotalAgents(nextTotal);
+      const returnedWriterProjectId = getWriterProjectIdFromResponse(data);
+
+      if (returnedWriterProjectId) {
+        saveWriterProjectId(returnedWriterProjectId);
+        saveFormData({
+          ...params.formData,
+          writer_project_id: returnedWriterProjectId,
+        });
+      }
 
       if (data.matches.length > 0) {
         saveMatches(data.matches);
@@ -204,13 +239,18 @@ export const AgentMatchesFull = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent({ ...payload, project_name: projectName || null });
+    saveAgent({
+      ...payload,
+      project_name: projectName || null,
+      writer_project_id: activeWriterProjectId,
+    });
   };
 
   const handleSaveAllAgents = () => {
     const payloads = matches.map((agent) => ({
       ...mapAgentToPayload(agent),
       project_name: projectName || null,
+      writer_project_id: activeWriterProjectId,
     }));
     saveAllAgents(payloads);
   };
@@ -237,7 +277,9 @@ export const AgentMatchesFull = ({
         projectName={activeProjectName}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
-            ? getProjectDashboardHref(activeProjectName)
+            ? activeWriterProjectId
+              ? getProjectDashboardHrefById(activeWriterProjectId)
+              : getProjectDashboardHref(activeProjectName)
             : undefined
         }
         onWalkthroughActiveChange={onWalkthroughActiveChange}

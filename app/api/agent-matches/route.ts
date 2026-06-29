@@ -13,11 +13,17 @@ const CREATE_FIELDS = [
   "pub_marketplace",
   "match_score",
   "fit_rating",
+  "genres_themes",
   "column_name",
   "updated_date",
+  "query_sent_date",
+  "pages_requested_date",
+  "rejected_date",
+  "offer_date",
   "notes",
   "query_letter_ready",
   "project_name",
+  "writer_project_id",
 ] as const;
 
 type CreateField = (typeof CREATE_FIELDS)[number];

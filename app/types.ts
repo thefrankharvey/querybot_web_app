@@ -165,11 +165,17 @@ export type AgentMatch = {
   pub_marketplace?: string | null;
   match_score?: number | null;
   fit_rating?: string | null;
+  genres_themes?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
   created_at: string; // ISO timestamp
 };
 
@@ -184,11 +190,17 @@ export interface SaveAgentPayload {
   pub_marketplace?: string | null;
   match_score?: number | null;
   fit_rating?: string | null;
+  genres_themes?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
 }
 
 // Type for the API response
@@ -205,22 +217,39 @@ export interface SaveAgentResponse {
     pub_marketplace?: string | null;
     match_score?: number | null;
     fit_rating?: string | null;
+    genres_themes?: string | null;
     column_name?: string | null;
     updated_date?: string | null;
+    query_sent_date?: string | null;
+    pages_requested_date?: string | null;
+    rejected_date?: string | null;
+    offer_date?: string | null;
     notes?: string | null;
     query_letter_ready?: boolean | null;
     project_name?: string | null;
+    writer_project_id?: string | null;
     created_at: string; // ISO timestamp
   }>;
 }
 
 export interface UpdateAgentPayload {
   fit_rating?: string | null;
+  name?: string | null;
+  email?: string | null;
+  agency_url?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
+  genres_themes?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
 }
 
 export type FetchAgentResponse = {

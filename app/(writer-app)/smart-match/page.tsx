@@ -27,7 +27,10 @@ import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import {
+  getProjectNamesFromAgentMatches,
+  getWriterProjectIdForProjectName,
+} from "@/app/utils/project-dashboard-summary";
 import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
 
 const SmartMatchWalkthrough = dynamic(
@@ -55,8 +58,8 @@ const SmartMatch = () => {
   const { createOrSelectTrait, traitOptions, traitsError } =
     useSmartMatchTraits();
   const { agentsList } = useProfileContext();
-  const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
+  const [hasStoredAgentMatches, setHasStoredAgentMatches] = useState(false);
+  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName, saveWriterProjectId } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const [activeWalkthroughStep, setActiveWalkthroughStep] =
@@ -92,6 +95,12 @@ const SmartMatch = () => {
     );
   };
 
+  const getWriterProjectIdFromResponse = (data: unknown) => {
+    if (!data || typeof data !== "object") return null;
+    const value = (data as { writer_project_id?: unknown }).writer_project_id;
+    return typeof value === "string" && value.trim() ? value.trim() : null;
+  };
+
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
       saveSpreadsheetUrl(null);
@@ -116,9 +125,18 @@ const SmartMatch = () => {
       return getAgentsData;
     },
 
-    onSuccess: (data) => {
+    onSuccess: (data, submittedFormData) => {
       const totalAgents = typeof data.total_agents === "number" ? data.total_agents : typeof data.total_available === "number" ? data.total_available : null;
       saveTotalAgents(totalAgents);
+      const returnedWriterProjectId = getWriterProjectIdFromResponse(data);
+
+      if (returnedWriterProjectId) {
+        saveWriterProjectId(returnedWriterProjectId);
+        saveFormData({
+          ...submittedFormData,
+          writer_project_id: returnedWriterProjectId,
+        });
+      }
 
       if (data.matches.length > 0) {
         saveMatches(data.matches);
@@ -154,6 +172,10 @@ const SmartMatch = () => {
     await resetForNewSearch();
 
     const submittedProjectName = resolveSubmittedProjectName(form.project_name);
+    const submittedWriterProjectId = getWriterProjectIdForProjectName(
+      agentsList,
+      submittedProjectName,
+    );
 
     if (!submittedProjectName) {
       setApiMessage("Project name required");
@@ -164,6 +186,8 @@ const SmartMatch = () => {
 
     const payload = {
       email: user?.primaryEmailAddress?.emailAddress || "",
+      writer_project_id: submittedWriterProjectId,
+      project_name: submittedProjectName,
       genre: form.genre,
       subgenres: form.subgenres,
       format: form.format,
@@ -182,6 +206,7 @@ const SmartMatch = () => {
     }
 
     saveProjectName(submittedProjectName);
+    saveWriterProjectId(submittedWriterProjectId);
     saveFormData(payload);
     saveStatusFilter("all");
     saveCountryFilter("all");
@@ -190,6 +215,13 @@ const SmartMatch = () => {
       top: 0,
     });
   };
+
+  useEffect(() => {
+    const storedAgentMatches = getFromLocalStorage("agent_matches");
+    setHasStoredAgentMatches(
+      Array.isArray(storedAgentMatches) && storedAgentMatches.length > 0,
+    );
+  }, []);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -247,14 +279,13 @@ const SmartMatch = () => {
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
-                {hasAgentMatches &&
-                  hasAgentMatches.length > 0 && (
-                    <Link href="/agent-matches" className="w-full md:w-fit">
-                      <Button className="w-full md:w-fit" variant="default">
-                        Previous Agent Matches
-                      </Button>
-                    </Link>
-                  )}
+                {hasStoredAgentMatches ? (
+                  <Link href="/agent-matches" className="w-full md:w-fit">
+                    <Button className="w-full md:w-fit" variant="default">
+                      Previous Agent Matches
+                    </Button>
+                  </Link>
+                ) : null}
               </div>
             </div>
           </div>

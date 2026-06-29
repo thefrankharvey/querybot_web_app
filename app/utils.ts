@@ -13,6 +13,8 @@ export function cn(...inputs: ClassValue[]) {
 
 export type QueryPayload = {
   email: string;
+  writer_project_id?: string | null;
+  project_name?: string | null;
   genre: string;
   subgenres: string[];
   format: string;

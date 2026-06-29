@@ -5,10 +5,25 @@ import {
   type QueryDashColumnId,
 } from "@/app/(writer-app)/query-dashboard/components/kanban-config";
 import type { AgentMatch } from "@/app/types";
+import {
+  getProjectDashboardHrefFromName,
+  getProjectDashboardHrefById,
+  getProjectProfileHref,
+  getProjectProfileHrefById,
+} from "@/app/utils/project-profile";
 
 const FALLBACK_COLUMN_ID = QUERY_DASH_COLUMNS[0].id;
 
+export const PROJECT_STATUS_CHIP_LABELS: Record<QueryDashColumnId, string> = {
+  "agents-to-research": "Research",
+  "submitted-query": "Submitted",
+  "pages-requested": "Pages",
+  rejected: "Rejected",
+  "offer-made": "Offers",
+};
+
 export type ProjectDashboardSummary = {
+  writerProjectId: string | null;
   projectName: string;
   href: string;
   savedAgentCount: number;
@@ -26,8 +41,33 @@ export function normalizeProjectName(projectName?: string | null) {
   return trimmed || DEFAULT_PROJECT_NAME;
 }
 
-export function getProjectDashboardHref(projectName: string) {
-  return `/query-dashboard?project=${encodeURIComponent(normalizeProjectName(projectName))}`;
+function getProjectNameKey(projectName?: string | null) {
+  return normalizeProjectName(projectName).toLocaleLowerCase();
+}
+
+function getWriterProjectId(writerProjectId?: string | null) {
+  const trimmed = writerProjectId?.trim();
+  return trimmed || null;
+}
+
+export function getProjectDashboardHref(
+  projectName: string,
+  writerProjectId?: string | null,
+) {
+  const normalizedWriterProjectId = getWriterProjectId(writerProjectId);
+  return normalizedWriterProjectId
+    ? getProjectDashboardHrefById(normalizedWriterProjectId)
+    : getProjectDashboardHrefFromName(normalizeProjectName(projectName));
+}
+
+export function getProjectHomeHref(
+  projectName: string,
+  writerProjectId?: string | null,
+) {
+  const normalizedWriterProjectId = getWriterProjectId(writerProjectId);
+  return normalizedWriterProjectId
+    ? getProjectProfileHrefById(normalizedWriterProjectId)
+    : getProjectProfileHref(normalizeProjectName(projectName));
 }
 
 export function getNormalizedQueryDashColumnId(
@@ -51,26 +91,85 @@ export function createEmptyCountsByColumn(): Record<QueryDashColumnId, number> {
 export function getProjectNamesFromAgentMatches(
   agentsList: AgentMatch[] | undefined,
 ) {
-  const names = new Set<string>();
+  const namesByKey = new Map<string, string>();
 
   for (const agent of agentsList ?? []) {
-    names.add(normalizeProjectName(agent.project_name));
+    const projectName = normalizeProjectName(agent.project_name);
+    const projectKey = getProjectNameKey(projectName);
+
+    if (!namesByKey.has(projectKey)) {
+      namesByKey.set(projectKey, projectName);
+    }
   }
 
-  return Array.from(names).sort((a, b) => a.localeCompare(b));
+  return Array.from(namesByKey.values()).sort((a, b) => a.localeCompare(b));
+}
+
+export function getProjectNavigationItemsFromAgentMatches(
+  agentsList: AgentMatch[] | undefined,
+) {
+  return buildProjectDashboardSummaries(agentsList).map((summary) => ({
+    href: summary.href,
+    projectName: summary.projectName,
+    writerProjectId: summary.writerProjectId,
+  }));
+}
+
+function getUniqueWriterProjectIdsByProjectName(
+  agentsList: AgentMatch[] | undefined,
+) {
+  const idsByNameKey = new Map<string, Set<string>>();
+
+  for (const agent of agentsList ?? []) {
+    const writerProjectId = getWriterProjectId(agent.writer_project_id);
+    if (!writerProjectId) continue;
+
+    const projectKey = getProjectNameKey(agent.project_name);
+    const ids = idsByNameKey.get(projectKey) ?? new Set<string>();
+    ids.add(writerProjectId);
+    idsByNameKey.set(projectKey, ids);
+  }
+
+  const uniqueIdsByNameKey = new Map<string, string>();
+
+  for (const [projectKey, ids] of idsByNameKey.entries()) {
+    if (ids.size === 1) {
+      uniqueIdsByNameKey.set(projectKey, Array.from(ids)[0]);
+    }
+  }
+
+  return uniqueIdsByNameKey;
+}
+
+export function getWriterProjectIdForProjectName(
+  agentsList: AgentMatch[] | undefined,
+  projectName: string,
+) {
+  const projectKey = getProjectNameKey(projectName);
+  return getUniqueWriterProjectIdsByProjectName(agentsList).get(projectKey) ?? null;
 }
 
 export function buildProjectDashboardSummaries(
   agentsList: AgentMatch[] | undefined,
 ): ProjectDashboardSummary[] {
   const summariesByProject = new Map<string, ProjectDashboardSummaryWithSort>();
+  const writerProjectIdsByProjectName =
+    getUniqueWriterProjectIdsByProjectName(agentsList);
 
   for (const agent of agentsList ?? []) {
-    const projectName = normalizeProjectName(agent.project_name);
+    const agentProjectName = normalizeProjectName(agent.project_name);
+    const projectKey = getProjectNameKey(agentProjectName);
+    const writerProjectId =
+      getWriterProjectId(agent.writer_project_id) ??
+      writerProjectIdsByProjectName.get(projectKey) ??
+      null;
+    const summaryKey = writerProjectId
+      ? `writer-project:${writerProjectId}`
+      : `project-name:${projectKey}`;
     const columnId = getNormalizedQueryDashColumnId(agent.column_name);
     const currentSummary =
-      summariesByProject.get(projectName) ??
-      createProjectSummaryAccumulator(projectName);
+      summariesByProject.get(summaryKey) ??
+      createProjectSummaryAccumulator(agentProjectName, writerProjectId);
 
     currentSummary.savedAgentCount += 1;
     currentSummary.countsByColumn[columnId] += 1;
@@ -86,7 +185,7 @@ export function buildProjectDashboardSummaries(
       currentSummary.lastActivityLabel = activity.label;
     }
 
-    summariesByProject.set(projectName, currentSummary);
+    summariesByProject.set(summaryKey, currentSummary);
   }
 
   return Array.from(summariesByProject.values())
@@ -100,6 +199,7 @@ export function buildProjectDashboardSummaries(
       return a.projectName.localeCompare(b.projectName);
     })
     .map((summary) => ({
+      writerProjectId: summary.writerProjectId,
       projectName: summary.projectName,
       href: summary.href,
       savedAgentCount: summary.savedAgentCount,
@@ -111,10 +211,12 @@ export function buildProjectDashboardSummaries(
 
 function createProjectSummaryAccumulator(
   projectName: string,
+  writerProjectId: string | null,
 ): ProjectDashboardSummaryWithSort {
   return {
+    writerProjectId,
     projectName,
-    href: getProjectDashboardHref(projectName),
+    href: getProjectHomeHref(projectName, writerProjectId),
     savedAgentCount: 0,
     lastActivityAt: null,
     lastActivityLabel: "Saved",

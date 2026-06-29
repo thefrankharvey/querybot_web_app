@@ -1,10 +1,20 @@
+"use client";
+
 import { Button } from "@/app/ui-primitives/button";
 import { getFromLocalStorage } from "@/app/utils";
 import { ExternalLinkIcon, ScanSearch, UsersIcon } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function ButtonBar() {
-  const hasAgentMatches = getFromLocalStorage("agent_matches");
+  const [hasAgentMatches, setHasAgentMatches] = useState(false);
+
+  useEffect(() => {
+    const storedAgentMatches = getFromLocalStorage("agent_matches");
+    setHasAgentMatches(
+      Array.isArray(storedAgentMatches) && storedAgentMatches.length > 0,
+    );
+  }, []);
 
   return (
     <div className="flex w-full flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
@@ -24,18 +34,17 @@ export default function ButtonBar() {
             Find Agents
           </Button>
         </Link>
-        {hasAgentMatches &&
-          hasAgentMatches.length > 0 && (
-            <Link href="/agent-matches" className="w-full md:w-fit">
-              <Button
-                variant="secondary"
-                className="h-11 w-full rounded-full border-white/90 bg-white/88 px-5 text-sm font-semibold shadow-[0_14px_32px_rgba(24,44,69,0.08)] backdrop-blur-sm sm:w-auto"
-              >
-                <UsersIcon data-icon="inline-start" />
-                Previous Agent Matches
-              </Button>
-            </Link>
-          )}
+        {hasAgentMatches ? (
+          <Link href="/agent-matches" className="w-full md:w-fit">
+            <Button
+              variant="secondary"
+              className="h-11 w-full rounded-full border-white/90 bg-white/88 px-5 text-sm font-semibold shadow-[0_14px_32px_rgba(24,44,69,0.08)] backdrop-blur-sm sm:w-auto"
+            >
+              <UsersIcon data-icon="inline-start" />
+              Previous Agent Matches
+            </Button>
+          </Link>
+        ) : null}
         <a
           href="https://docs.google.com/spreadsheets/u/4/d/17yQjT-helZqZF1kdF7UzUQYFdNRwrAvGc8Dm2Inbahw/edit?gid=419639381#gid=419639381"
           target="_blank"
