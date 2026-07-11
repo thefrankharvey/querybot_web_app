@@ -29,11 +29,6 @@ export async function GET(req: NextRequest) {
   const timeoutId = setTimeout(() => controller.abort(), 30000);
 
   try {
-    const { userId } = await auth();
-    if (!userId) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
     const { searchParams } = new URL(req.url);
     const traitsApiBaseUrl = getWqhTraitsApiUrl().replace(/\/$/, "");
     const externalUrl = new URL(`${traitsApiBaseUrl}/get-traits`);

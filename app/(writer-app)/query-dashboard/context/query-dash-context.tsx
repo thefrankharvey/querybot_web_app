@@ -24,12 +24,21 @@ import {
 } from "@/app/components/fit-rating-badge";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import type { KanbanCardData } from "../components/kanban-card";
-import { FIRST_COLUMN_ID, sortFirstColumnByNewest } from "../components/kanban-ordering";
+import {
+  FIRST_COLUMN_ID,
+  sortFirstColumnByNewest,
+} from "../components/kanban-ordering";
 import {
   isQueryDashColumnId,
   QueryDashColumnId,
 } from "../components/kanban-config";
 import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
+import { useWriterMessageThreads } from "@/app/hooks/use-message-query-lifecycle";
+import {
+  getWriterThreadsByAgentIdentifier,
+  type WriterMessageThread,
+} from "@/app/utils/message-types";
+import { applyLiveQueryThreadToCard } from "../live-query-dashboard";
 
 interface MoveCardOptions {
   persist?: boolean;
@@ -37,10 +46,7 @@ interface MoveCardOptions {
 }
 
 type QueryDashboardDateField =
-  | "query_sent_date"
-  | "pages_requested_date"
-  | "rejected_date"
-  | "offer_date";
+  "query_sent_date" | "pages_requested_date" | "rejected_date" | "offer_date";
 
 type EditableCardUpdate = Partial<
   Pick<
@@ -75,17 +81,17 @@ export interface QueryDashActions {
   moveCard: (
     cardId: string,
     columnId: QueryDashColumnId,
-    options?: MoveCardOptions
+    options?: MoveCardOptions,
   ) => void;
   reorderInColumn: (columnId: string, activeId: string, overId: string) => void;
   togglePrepQueryLetter: (cardId: string) => void;
   setFitRating: (cardId: string, rating: FitRating) => void;
   updateCardFields: (cardId: string, updates: EditableCardUpdate) => void;
   createManualRow: (
-    initialUpdates?: EditableCardUpdate
+    initialUpdates?: EditableCardUpdate,
   ) => Promise<KanbanCardData | null>;
   removeRowsByIndexIds: (
-    indexIds: string[]
+    indexIds: string[],
   ) => Promise<{ deletedIndexIds: string[]; failedCount: number }>;
   deleteActiveProject: () => Promise<boolean>;
   setNotes: (cardId: string, notes: string) => void;
@@ -98,6 +104,7 @@ export interface QueryDashActions {
 type QueryDashContextType = QueryDashState & QueryDashActions;
 
 const QueryDashContext = createContext<QueryDashContextType | null>(null);
+const EMPTY_MESSAGE_THREADS: readonly WriterMessageThread[] = [];
 
 function mergeCardsPreservingOrder({
   previousCards,
@@ -110,15 +117,22 @@ function mergeCardsPreservingOrder({
   const existingCardsInCurrentOrder = previousCards
     .map((card) => mergedById.get(card.id))
     .filter((card): card is KanbanCardData => Boolean(card));
-  const existingIds = new Set(existingCardsInCurrentOrder.map((card) => card.id));
-  const newlyAddedCards = mergedFromAgents.filter((card) => !existingIds.has(card.id));
+  const existingIds = new Set(
+    existingCardsInCurrentOrder.map((card) => card.id),
+  );
+  const newlyAddedCards = mergedFromAgents.filter(
+    (card) => !existingIds.has(card.id),
+  );
 
   // Keep user-driven ordering stable on refresh/update; only sort when new cards appear.
   if (newlyAddedCards.length === 0) {
     return existingCardsInCurrentOrder;
   }
 
-  return sortFirstColumnByNewest([...newlyAddedCards, ...existingCardsInCurrentOrder]);
+  return sortFirstColumnByNewest([
+    ...newlyAddedCards,
+    ...existingCardsInCurrentOrder,
+  ]);
 }
 
 function getTodayLocalDateString() {
@@ -177,7 +191,9 @@ function getPayloadValue(value: string | null | undefined) {
   return value?.trim() || null;
 }
 
-function getColumnIdFromDateUpdates(updates: EditableCardUpdate): QueryDashColumnId {
+function getColumnIdFromDateUpdates(
+  updates: EditableCardUpdate,
+): QueryDashColumnId {
   if (updates.offer_date) return "offer-made";
   if (updates.rejected_date) return "rejected";
   if (updates.pages_requested_date) return "pages-requested";
@@ -205,13 +221,16 @@ function applyEditableUpdatesToPayload(
   if ("genres_themes" in updates) {
     payload.genres_themes = getPayloadValue(updates.genres_themes);
   }
-  if ("fitRating" in updates) payload.fit_rating = updates.fitRating ?? "neutral";
+  if ("fitRating" in updates)
+    payload.fit_rating = updates.fitRating ?? "neutral";
   if ("notes" in updates) payload.notes = updates.notes ?? null;
   if ("query_sent_date" in updates) {
     payload.query_sent_date = getPayloadValue(updates.query_sent_date);
   }
   if ("pages_requested_date" in updates) {
-    payload.pages_requested_date = getPayloadValue(updates.pages_requested_date);
+    payload.pages_requested_date = getPayloadValue(
+      updates.pages_requested_date,
+    );
   }
   if ("rejected_date" in updates) {
     payload.rejected_date = getPayloadValue(updates.rejected_date);
@@ -227,7 +246,12 @@ function applyEditableUpdatesToPayload(
 }
 
 function isFitRating(value: string): value is FitRating {
-  return value === "perfect" || value === "great" || value === "good" || value === "neutral";
+  return (
+    value === "perfect" ||
+    value === "great" ||
+    value === "good" ||
+    value === "neutral"
+  );
 }
 
 function mapAgentToCard(agent: AgentMatch): KanbanCardData {
@@ -280,7 +304,8 @@ export function QueryDashProvider({
     useProfileContext();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const rawActiveProjectName = projectNameOverride ?? searchParams.get("project");
+  const rawActiveProjectName =
+    projectNameOverride ?? searchParams.get("project");
   const activeProjectName = rawActiveProjectName
     ? normalizeProjectName(rawActiveProjectName)
     : null;
@@ -291,21 +316,49 @@ export function QueryDashProvider({
   const [isHydratingFromServer, setIsHydratingFromServer] = useState(true);
   const [offerMadeCelebrationNonce, setOfferMadeCelebrationNonce] = useState(0);
   const [isDeletingProject, setIsDeletingProject] = useState(false);
+  const messageProjectId = activeWriterProjectId ?? activeProjectName ?? "";
+  const messageThreadsQuery = useWriterMessageThreads({
+    projectId: messageProjectId,
+    enabled: Boolean(messageProjectId),
+  });
+  const messageThreads =
+    messageThreadsQuery.data?.threads ?? EMPTY_MESSAGE_THREADS;
+  const messageThreadsByAgentIdentifier = useMemo(
+    () => getWriterThreadsByAgentIdentifier(messageThreads),
+    [messageThreads],
+  );
+  const cardsWithLiveTracking = useMemo(
+    () =>
+      cards.map((card) => {
+        const agentIdentifier = card.index_id?.trim() ?? "";
+        const liveThread = agentIdentifier
+          ? (messageThreadsByAgentIdentifier.get(agentIdentifier)?.[0] ?? null)
+          : null;
+
+        return {
+          ...applyLiveQueryThreadToCard(card, liveThread),
+          lifecycleSyncUnavailable: messageThreadsQuery.isError,
+        };
+      }),
+    [cards, messageThreadsByAgentIdentifier, messageThreadsQuery.isError],
+  );
 
   const visibleCards = useMemo(
     () =>
       activeWriterProjectId
-        ? cards.filter(
+        ? cardsWithLiveTracking.filter(
             (card) =>
               card.writerProjectId === activeWriterProjectId ||
               (!card.writerProjectId &&
                 activeProjectName &&
-                card.projectName === activeProjectName)
+                card.projectName === activeProjectName),
           )
         : activeProjectName
-          ? cards.filter((card) => card.projectName === activeProjectName)
-          : cards,
-    [cards, activeProjectName, activeWriterProjectId]
+          ? cardsWithLiveTracking.filter(
+              (card) => card.projectName === activeProjectName,
+            )
+          : cardsWithLiveTracking,
+    [cardsWithLiveTracking, activeProjectName, activeWriterProjectId],
   );
 
   useEffect(() => {
@@ -339,7 +392,9 @@ export function QueryDashProvider({
                 }
 
                 const genresThemes = genresThemesByIndexId[card.index_id];
-                return genresThemes ? { ...card, genres_themes: genresThemes } : card;
+                return genresThemes
+                  ? { ...card, genres_themes: genresThemes }
+                  : card;
               });
             }
           } catch {
@@ -351,7 +406,7 @@ export function QueryDashProvider({
           mergeCardsPreservingOrder({
             previousCards: prevCards,
             mergedFromAgents,
-          })
+          }),
         );
       } catch (error) {
         if (!isMounted) return;
@@ -377,7 +432,11 @@ export function QueryDashProvider({
   }, [activeWriterProjectId, refetch]);
 
   const persistCardUpdate = useCallback(
-    async (cardId: string, payload: UpdateAgentPayload, fallbackErrorMessage: string) => {
+    async (
+      cardId: string,
+      payload: UpdateAgentPayload,
+      fallbackErrorMessage: string,
+    ) => {
       const card = cards.find((currentCard) => currentCard.id === cardId);
       if (!card?.index_id) {
         console.warn("Skipping card update persistence: missing index_id", {
@@ -417,18 +476,35 @@ export function QueryDashProvider({
         });
       }
     },
-    [cards]
+    [cards],
   );
 
   const moveCard = useCallback(
     (
       cardId: string,
       columnId: QueryDashColumnId,
-      options: MoveCardOptions = {}
+      options: MoveCardOptions = {},
     ) => {
       const { persist = true, forcePersist = false } = options;
-      const currentCard = cards.find((card) => card.id === cardId);
+      const currentCard = cardsWithLiveTracking.find(
+        (card) => card.id === cardId,
+      );
       if (!currentCard) return;
+
+      if (currentCard.lifecycleSyncUnavailable) {
+        toast.error("Message status sync is temporarily unavailable", {
+          description:
+            "Lifecycle moves are paused to protect live query history. The dashboard retries automatically.",
+        });
+        return;
+      }
+
+      if (currentCard.trackingMode === "live") {
+        toast.info("This query is synced from Messages", {
+          description: "Open the live query to change its lifecycle status.",
+        });
+        return;
+      }
 
       const columnChanged = currentCard.columnId !== columnId;
       const shouldPersist = persist && (columnChanged || forcePersist);
@@ -447,8 +523,8 @@ export function QueryDashProvider({
                 ...milestoneDateUpdate,
                 ...(shouldPersist ? { updated_date: nextUpdatedDate } : {}),
               }
-            : card
-        )
+            : card,
+        ),
       );
 
       if (shouldPersist) {
@@ -459,7 +535,7 @@ export function QueryDashProvider({
             updated_date: nextUpdatedDate,
             ...milestoneDateUpdate,
           },
-          "Failed to persist column move"
+          "Failed to persist column move",
         );
       }
 
@@ -467,7 +543,7 @@ export function QueryDashProvider({
         setOfferMadeCelebrationNonce((currentNonce) => currentNonce + 1);
       }
     },
-    [cards, persistCardUpdate]
+    [cardsWithLiveTracking, persistCardUpdate],
   );
 
   const reorderInColumn = useCallback(
@@ -475,19 +551,29 @@ export function QueryDashProvider({
       if (activeId === overId) return;
 
       setCards((prevCards) => {
-        const columnCards = prevCards.filter((card) => card.columnId === columnId);
-        const otherCards = prevCards.filter((card) => card.columnId !== columnId);
+        const columnCards = prevCards.filter(
+          (card) => card.columnId === columnId,
+        );
+        const otherCards = prevCards.filter(
+          (card) => card.columnId !== columnId,
+        );
 
-        const activeIndex = columnCards.findIndex((card) => card.id === activeId);
+        const activeIndex = columnCards.findIndex(
+          (card) => card.id === activeId,
+        );
         const overIndex = columnCards.findIndex((card) => card.id === overId);
 
         if (activeIndex === -1 || overIndex === -1) return prevCards;
 
-        const reorderedColumnCards = arrayMove(columnCards, activeIndex, overIndex);
+        const reorderedColumnCards = arrayMove(
+          columnCards,
+          activeIndex,
+          overIndex,
+        );
         return [...otherCards, ...reorderedColumnCards];
       });
     },
-    []
+    [],
   );
 
   const togglePrepQueryLetter = useCallback(
@@ -500,9 +586,13 @@ export function QueryDashProvider({
       setCards((prevCards) =>
         prevCards.map((card) =>
           card.id === cardId
-            ? { ...card, prepQueryLetterDone: nextValue, updated_date: nextUpdatedDate }
-            : card
-        )
+            ? {
+                ...card,
+                prepQueryLetterDone: nextValue,
+                updated_date: nextUpdatedDate,
+              }
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -511,10 +601,10 @@ export function QueryDashProvider({
           query_letter_ready: nextValue,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update query letter status"
+        "Failed to update query letter status",
       );
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const setFitRating = useCallback(
@@ -527,8 +617,8 @@ export function QueryDashProvider({
         prevCards.map((card) =>
           card.id === cardId
             ? { ...card, fitRating: rating, updated_date: nextUpdatedDate }
-            : card
-        )
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -537,18 +627,33 @@ export function QueryDashProvider({
           fit_rating: rating,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update fit rating"
+        "Failed to update fit rating",
       );
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const updateCardFields = useCallback(
     (cardId: string, updates: EditableCardUpdate) => {
-      const currentCard = cards.find((card) => card.id === cardId);
+      const currentCard = cardsWithLiveTracking.find(
+        (card) => card.id === cardId,
+      );
       if (!currentCard) return;
 
       const hasDateUpdate = includesMilestoneDateUpdate(updates);
+      if (currentCard.lifecycleSyncUnavailable && hasDateUpdate) {
+        toast.error("Message status sync is temporarily unavailable", {
+          description:
+            "Lifecycle dates are paused until the dashboard can verify live queries.",
+        });
+        return;
+      }
+      if (currentCard.trackingMode === "live" && hasDateUpdate) {
+        toast.info("Lifecycle dates are managed in Messages", {
+          description: "Open the live query to update its status.",
+        });
+        return;
+      }
       const nextUpdatedDate = getActivityDateForUpdate(updates);
       const nextCard = {
         ...currentCard,
@@ -563,7 +668,8 @@ export function QueryDashProvider({
 
       if ("name" in updates) payload.name = updates.name ?? null;
       if ("email" in updates) payload.email = updates.email ?? null;
-      if ("agency_url" in updates) payload.agency_url = updates.agency_url ?? null;
+      if ("agency_url" in updates)
+        payload.agency_url = updates.agency_url ?? null;
       if ("query_tracker" in updates) {
         payload.query_tracker = updates.query_tracker ?? null;
       }
@@ -573,7 +679,8 @@ export function QueryDashProvider({
       if ("genres_themes" in updates) {
         payload.genres_themes = updates.genres_themes ?? null;
       }
-      if ("fitRating" in updates) payload.fit_rating = updates.fitRating ?? null;
+      if ("fitRating" in updates)
+        payload.fit_rating = updates.fitRating ?? null;
       if ("notes" in updates) payload.notes = updates.notes ?? null;
       if ("query_sent_date" in updates) {
         payload.query_sent_date = updates.query_sent_date ?? null;
@@ -584,7 +691,8 @@ export function QueryDashProvider({
       if ("rejected_date" in updates) {
         payload.rejected_date = updates.rejected_date ?? null;
       }
-      if ("offer_date" in updates) payload.offer_date = updates.offer_date ?? null;
+      if ("offer_date" in updates)
+        payload.offer_date = updates.offer_date ?? null;
       if (hasDateUpdate && nextColumnId !== currentCard.columnId) {
         payload.column_name = nextColumnId;
       }
@@ -598,8 +706,8 @@ export function QueryDashProvider({
                 columnId: nextColumnId,
                 updated_date: nextUpdatedDate,
               }
-            : card
-        )
+            : card,
+        ),
       );
 
       void persistCardUpdate(cardId, payload, "Failed to update table cell");
@@ -608,7 +716,7 @@ export function QueryDashProvider({
         setOfferMadeCelebrationNonce((currentNonce) => currentNonce + 1);
       }
     },
-    [cards, persistCardUpdate]
+    [cardsWithLiveTracking, persistCardUpdate],
   );
 
   const createManualRow = useCallback(
@@ -677,13 +785,13 @@ export function QueryDashProvider({
         return null;
       }
     },
-    [activeProjectName, activeWriterProjectId, addAgent, refetch]
+    [activeProjectName, activeWriterProjectId, addAgent, refetch],
   );
 
   const removeRowsByIndexIds = useCallback(
     async (indexIds: string[]) => {
       const uniqueIndexIds = Array.from(
-        new Set(indexIds.map((indexId) => indexId.trim()).filter(Boolean))
+        new Set(indexIds.map((indexId) => indexId.trim()).filter(Boolean)),
       );
 
       if (uniqueIndexIds.length === 0) {
@@ -696,7 +804,7 @@ export function QueryDashProvider({
             `/api/agent-matches/${encodeURIComponent(indexId)}`,
             {
               method: "DELETE",
-            }
+            },
           );
 
           if (!response.ok) {
@@ -704,12 +812,12 @@ export function QueryDashProvider({
           }
 
           return indexId;
-        })
+        }),
       );
       const deletedIndexIds = results
         .filter(
           (result): result is PromiseFulfilledResult<string> =>
-            result.status === "fulfilled"
+            result.status === "fulfilled",
         )
         .map((result) => result.value);
       const failedCount = results.length - deletedIndexIds.length;
@@ -717,7 +825,9 @@ export function QueryDashProvider({
       if (deletedIndexIds.length > 0) {
         const deletedSet = new Set(deletedIndexIds);
         setCards((prevCards) =>
-          prevCards.filter((card) => !card.index_id || !deletedSet.has(card.index_id))
+          prevCards.filter(
+            (card) => !card.index_id || !deletedSet.has(card.index_id),
+          ),
         );
         for (const indexId of deletedIndexIds) {
           removeAgent(indexId);
@@ -742,7 +852,7 @@ export function QueryDashProvider({
 
       return { deletedIndexIds, failedCount };
     },
-    [refetch, removeAgent]
+    [refetch, removeAgent],
   );
 
   const deleteActiveProject = useCallback(async () => {
@@ -776,7 +886,7 @@ export function QueryDashProvider({
       }
 
       setCards((prevCards) =>
-        prevCards.filter((card) => card.projectName !== projectName)
+        prevCards.filter((card) => card.projectName !== projectName),
       );
       removeProject(projectName);
 
@@ -815,8 +925,8 @@ export function QueryDashProvider({
         prevCards.map((card) =>
           card.id === cardId
             ? { ...card, notes, updated_date: nextUpdatedDate }
-            : card
-        )
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -825,41 +935,52 @@ export function QueryDashProvider({
           notes,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update notes"
+        "Failed to update notes",
       );
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const getCardsForColumn = useCallback(
-    (columnId: string) => visibleCards.filter((card) => card.columnId === columnId),
-    [visibleCards]
+    (columnId: string) =>
+      visibleCards.filter((card) => card.columnId === columnId),
+    [visibleCards],
   );
 
   const findCardById = useCallback(
-    (cardId: string) => cards.find((card) => card.id === cardId),
-    [cards]
+    (cardId: string) =>
+      cardsWithLiveTracking.find((card) => card.id === cardId),
+    [cardsWithLiveTracking],
   );
 
   const findColumnByCardId = useCallback(
     (cardId: string) => {
-      const card = cards.find((currentCard) => currentCard.id === cardId);
+      const card = cardsWithLiveTracking.find(
+        (currentCard) => currentCard.id === cardId,
+      );
       if (!card) return undefined;
       return isQueryDashColumnId(card.columnId) ? card.columnId : undefined;
     },
-    [cards]
+    [cardsWithLiveTracking],
   );
 
   const removeCardByIndexId = useCallback((indexId: string) => {
-    setCards((prevCards) => prevCards.filter((card) => card.index_id !== indexId));
+    setCards((prevCards) =>
+      prevCards.filter((card) => card.index_id !== indexId),
+    );
   }, []);
 
   const value = useMemo<QueryDashContextType>(
     () => ({
-      cards,
+      cards: cardsWithLiveTracking,
       visibleCards,
-      isLoading: isLoading || isHydratingFromServer,
-      isEmpty: !isLoading && !isHydratingFromServer && visibleCards.length === 0,
+      isLoading:
+        isLoading || isHydratingFromServer || messageThreadsQuery.isLoading,
+      isEmpty:
+        !isLoading &&
+        !isHydratingFromServer &&
+        !messageThreadsQuery.isLoading &&
+        visibleCards.length === 0,
       offerMadeCelebrationNonce,
       activeProjectName,
       activeWriterProjectId,
@@ -879,10 +1000,11 @@ export function QueryDashProvider({
       removeCardByIndexId,
     }),
     [
-      cards,
+      cardsWithLiveTracking,
       visibleCards,
       isLoading,
       isHydratingFromServer,
+      messageThreadsQuery.isLoading,
       offerMadeCelebrationNonce,
       activeProjectName,
       activeWriterProjectId,
@@ -900,11 +1022,13 @@ export function QueryDashProvider({
       findCardById,
       findColumnByCardId,
       removeCardByIndexId,
-    ]
+    ],
   );
 
   return (
-    <QueryDashContext.Provider value={value}>{children}</QueryDashContext.Provider>
+    <QueryDashContext.Provider value={value}>
+      {children}
+    </QueryDashContext.Provider>
   );
 }
 
@@ -912,7 +1036,9 @@ export function useQueryDashContext(): QueryDashContextType {
   const context = useContext(QueryDashContext);
 
   if (!context) {
-    throw new Error("useQueryDashContext must be used within QueryDashProvider");
+    throw new Error(
+      "useQueryDashContext must be used within QueryDashProvider",
+    );
   }
 
   return context;

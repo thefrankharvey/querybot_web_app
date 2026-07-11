@@ -3,8 +3,9 @@ import type { ColumnData } from "./kanban-column";
 export const QUERY_DASH_COLUMNS = [
   { id: "agents-to-research", title: "Agents to Research" },
   { id: "submitted-query", title: "Submitted Query" },
-  { id: "pages-requested", title: "Pages Requested" },
+  { id: "pages-requested", title: "Manuscript / Review" },
   { id: "rejected", title: "Rejected" },
+  { id: "closed-no-response", title: "Closed — No Response" },
   { id: "offer-made", title: "Offer Made" },
 ] as const satisfies readonly ColumnData[];
 

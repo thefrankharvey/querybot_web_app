@@ -1,4 +1,6 @@
-export const HARDCODED_AGENT_LOOKUP_NAME = "adamgauntlett";
+// Sophie Lambert is the current agent used to seed the signup profile flow.
+export const SIGNUP_AGENT_LEGACY_ID =
+  "ce32ead6-f9fd-4629-8fa4-c0e5c6173641";
 
 export type LegacyAgent = {
   agent_id: string;

@@ -16,6 +16,17 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+The Next server and Flask API can share a server-only messaging credential:
+
+```bash
+WQH_MESSAGING_API_SECRET=replace-with-a-long-random-secret
+```
+
+Use the same value on both deployments. When configured on Flask, requests
+without the matching header are rejected. During a staged rollout, leaving the
+variable unset on both services preserves the existing messaging API behavior.
+Never expose it through a `NEXT_PUBLIC_` variable or browser code.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import {
   DataGrid,
   SelectColumn,
@@ -9,7 +10,16 @@ import {
   type DataGridHandle,
   type RenderEditCellProps,
 } from "react-data-grid";
-import { Download, ExternalLink, Plus, Trash2 } from "lucide-react";
+import {
+  Activity,
+  AlertTriangle,
+  Download,
+  ExternalLink,
+  MessageSquare,
+  Plus,
+  Trash2,
+} from "lucide-react";
+import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import {
@@ -37,6 +47,13 @@ import {
   getProjectDashboardExportFilename,
   type ProjectDashboardExportRow,
 } from "@/app/utils/project-dashboard-export";
+import { useAgentMatches } from "@/app/(writer-app)/context/agent-matches-context";
+import { getSavedAgentComposeMessageHref } from "@/app/(writer-app)/agent-matches/project-scoped-agent-messaging";
+import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
+import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
+import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
+import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
+import type { QueryProgress } from "@/app/utils/message-types";
 
 import type { KanbanCardData } from "./kanban-card";
 import { useQueryDashContext } from "../context/query-dash-context";
@@ -47,13 +64,33 @@ type DashboardTableRow = ProjectDashboardExportRow & {
   index_id: string | null;
   isPlaceholder: boolean;
   fitRating: FitRating;
+  projectName: string;
+  writerProjectId: string | null;
+  isMessagingAvailable: boolean;
+  trackingMode: "live" | "manual";
+  messageThreadId: string | null;
+  queryProgress: QueryProgress | null;
+  lifecycleSyncUnavailable: boolean;
 };
 
 type EditableTableKey = Exclude<
   keyof DashboardTableRow,
-  "id" | "cardId" | "index_id"
+  | "id"
+  | "cardId"
+  | "index_id"
+  | "isPlaceholder"
+  | "projectName"
+  | "writerProjectId"
+  | "isMessagingAvailable"
+  | "trackingMode"
+  | "messageThreadId"
+  | "queryProgress"
+  | "lifecycleSyncUnavailable"
+  | "wqh_profile_link"
 >;
 
+const WQH_PROFILE_LINK_BASE_URL = "https://writequeryhook.com";
+const MESSAGE_ACTION_COLUMN_KEY = "message_action";
 const FIT_RATING_OPTIONS = Object.keys(FIT_RATING_CONFIG) as FitRating[];
 const HEADER_ROW_HEIGHT = 42;
 const ROW_HEIGHT = 44;
@@ -101,29 +138,72 @@ function getFallbackDate(card: KanbanCardData, columnId: string) {
   return card.columnId === columnId ? parseDateOnly(card.updated_date) : "";
 }
 
-function mapCardToRow(card: KanbanCardData): DashboardTableRow {
+function getAgentResultPath(index: number) {
+  return `/agent-matches/${index}`;
+}
+
+function getWqhProfileExportUrl(index: number) {
+  return `${WQH_PROFILE_LINK_BASE_URL}${getAgentResultPath(index)}`;
+}
+
+function getWqhProfileHref(value: string) {
+  const trimmedValue = value.trim();
+  if (!trimmedValue) return "";
+
+  if (trimmedValue.startsWith(WQH_PROFILE_LINK_BASE_URL)) {
+    return trimmedValue.slice(WQH_PROFILE_LINK_BASE_URL.length) || "/";
+  }
+
+  return trimmedValue.startsWith("/") ? trimmedValue : "";
+}
+
+function mapCardToRow(
+  card: KanbanCardData,
+  wqhProfileLinkByIndexId: ReadonlyMap<string, string>,
+  availableAgentIds: ReadonlySet<string>,
+): DashboardTableRow {
+  const indexId = card.index_id ?? null;
+  const canUseManualDateFallback = card.trackingMode !== "live";
+
   return {
     id: card.id,
     cardId: card.id,
-    index_id: card.index_id ?? null,
+    index_id: indexId,
     isPlaceholder: false,
+    projectName: card.projectName,
+    writerProjectId: card.writerProjectId ?? null,
+    isMessagingAvailable: availableAgentIds.has(
+      normalizeAgentMessagingId(indexId),
+    ),
+    trackingMode: card.trackingMode ?? "manual",
+    messageThreadId: card.messageThreadId ?? null,
+    queryProgress: card.queryProgress ?? null,
+    lifecycleSyncUnavailable: card.lifecycleSyncUnavailable ?? false,
     name: card.name ?? "",
     fitRating: card.fitRating,
     agency_url: card.agency_url ?? "",
-    genres_themes: card.genres_themes ?? "",
+    wqh_profile_link: indexId
+      ? (wqhProfileLinkByIndexId.get(indexId) ?? "")
+      : "",
     query_tracker: card.query_tracker ?? "",
     pub_marketplace: card.pub_marketplace ?? "",
     email: card.email ?? "",
     query_sent_date:
       parseDateOnly(card.query_sent_date) ||
-      getFallbackDate(card, "submitted-query"),
+      (canUseManualDateFallback
+        ? getFallbackDate(card, "submitted-query")
+        : ""),
     pages_requested_date:
       parseDateOnly(card.pages_requested_date) ||
-      getFallbackDate(card, "pages-requested"),
+      (canUseManualDateFallback
+        ? getFallbackDate(card, "pages-requested")
+        : ""),
     rejected_date:
-      parseDateOnly(card.rejected_date) || getFallbackDate(card, "rejected"),
+      parseDateOnly(card.rejected_date) ||
+      (canUseManualDateFallback ? getFallbackDate(card, "rejected") : ""),
     offer_date:
-      parseDateOnly(card.offer_date) || getFallbackDate(card, "offer-made"),
+      parseDateOnly(card.offer_date) ||
+      (canUseManualDateFallback ? getFallbackDate(card, "offer-made") : ""),
     notes: card.notes ?? "",
   };
 }
@@ -134,10 +214,17 @@ function createPlaceholderRow(index: number): DashboardTableRow {
     cardId: "",
     index_id: null,
     isPlaceholder: true,
+    projectName: "",
+    writerProjectId: null,
+    isMessagingAvailable: false,
+    trackingMode: "manual",
+    messageThreadId: null,
+    queryProgress: null,
+    lifecycleSyncUnavailable: false,
     name: "",
     fitRating: "neutral",
     agency_url: "",
-    genres_themes: "",
+    wqh_profile_link: "",
     query_tracker: "",
     pub_marketplace: "",
     email: "",
@@ -177,6 +264,14 @@ function buildCardUpdate(
   previousRow: DashboardTableRow,
   nextRow: DashboardTableRow,
 ) {
+  if (
+    (previousRow.trackingMode === "live" ||
+      previousRow.lifecycleSyncUnavailable) &&
+    DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)
+  ) {
+    return null;
+  }
+
   if (columnKey === "fitRating") {
     const fitRating = normalizeFitRating(nextRow.fitRating);
     return fitRating === previousRow.fitRating ? null : { fitRating };
@@ -207,11 +302,6 @@ function buildCardUpdate(
   if (columnKey === "name") {
     const name = normalizeTextValue(nextRow.name);
     return !name || name === previousRow.name ? null : { name };
-  }
-
-  if (columnKey === "genres_themes") {
-    const genres_themes = normalizeTextValue(nextRow.genres_themes);
-    return genres_themes === previousRow.genres_themes ? null : { genres_themes };
   }
 
   if (columnKey === "notes") {
@@ -246,33 +336,95 @@ function LinkCell({ value }: { value: string }) {
   );
 }
 
-function GenresThemesCell({ value }: { value: string }) {
-  const items = value
-    .split(",")
-    .map((item) => item.trim())
-    .filter(Boolean)
-    .slice(0, 4);
+function WqhProfileLinkCell({ value }: { value: string }) {
+  const href = getWqhProfileHref(value);
 
-  if (items.length === 0) {
+  return href ? (
+    <Link
+      className="inline-flex min-w-0 items-center gap-1 text-accent underline-offset-4 hover:underline"
+      href={href}
+      title={value}
+    >
+      <span className="truncate">WQH Profile</span>
+      <ExternalLink className="size-3.5 shrink-0" />
+    </Link>
+  ) : null;
+}
+
+function MessageActionCell({
+  onMessage,
+  row,
+}: {
+  onMessage: (row: DashboardTableRow) => void;
+  row: DashboardTableRow;
+}) {
+  const href = row.messageThreadId
+    ? getProjectMessageThreadHref(
+        row.writerProjectId ?? row.projectName,
+        row.messageThreadId,
+      )
+    : getSavedAgentComposeMessageHref({
+        indexId: row.index_id,
+        projectName: row.projectName,
+        writerProjectId: row.writerProjectId,
+      });
+
+  if (
+    (!row.isMessagingAvailable && !row.messageThreadId) ||
+    !href ||
+    row.isPlaceholder
+  ) {
     return null;
   }
 
+  const isLive = Boolean(row.messageThreadId);
+
   return (
-    <div className="flex min-w-0 flex-wrap items-center gap-1 overflow-hidden">
-      {items.map((item) => (
-        <span
-          className="max-w-[130px] truncate rounded-full border border-accent/10 bg-white/80 px-2 py-0.5 text-xs font-medium text-accent"
-          key={item}
-          title={item}
-        >
-          {item}
-        </span>
-      ))}
-      {value.split(",").filter(Boolean).length > items.length && (
-        <span className="text-xs text-accent/58">+</span>
+    <Button
+      aria-label={`${isLive ? "View live query for" : "Message"} ${row.name}`}
+      className="h-8 px-2 text-xs"
+      onClick={(event) => {
+        event.stopPropagation();
+        onMessage(row);
+      }}
+      size="sm"
+      type="button"
+      variant="secondary"
+    >
+      {isLive ? (
+        <Activity data-icon="inline-start" />
+      ) : (
+        <MessageSquare data-icon="inline-start" />
       )}
-    </div>
+      {isLive ? "View query" : "Message"}
+    </Button>
   );
+}
+
+function TrackingCell({ row }: { row: DashboardTableRow }) {
+  if (row.isPlaceholder) return null;
+
+  if (row.lifecycleSyncUnavailable) {
+    return (
+      <div className="flex items-center gap-2 text-xs font-semibold text-destructive">
+        <AlertTriangle aria-hidden className="size-3.5 shrink-0" />
+        <span>Status sync paused</span>
+      </div>
+    );
+  }
+
+  if (row.trackingMode === "live" && row.queryProgress) {
+    return (
+      <div className="flex items-center gap-2">
+        <QueryStatusBadge compact status={row.queryProgress.currentCode} />
+        <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-accent/48">
+          Live
+        </span>
+      </div>
+    );
+  }
+
+  return <span className="text-xs font-medium text-accent/56">Manual</span>;
 }
 
 function DateEditor({
@@ -335,6 +487,8 @@ function FitRatingEditor({
 }
 
 export function QueryDashboardTable() {
+  const router = useRouter();
+  const { matches } = useAgentMatches();
   const {
     activeProjectName,
     createManualRow,
@@ -347,45 +501,94 @@ export function QueryDashboardTable() {
   const gridFrameRef = useRef<HTMLDivElement>(null);
   const [gridHeight, setGridHeight] = useState(0);
   const [selectedRows, setSelectedRows] = useState<ReadonlySet<string>>(
-    () => new Set()
+    () => new Set(),
   );
   const [isCreatingRow, setIsCreatingRow] = useState(false);
   const [isExportingRows, setIsExportingRows] = useState(false);
   const [isRemovingRows, setIsRemovingRows] = useState(false);
-  const [pendingFocusRowId, setPendingFocusRowId] = useState<string | null>(null);
-  const persistedRows = useMemo(
-    () => visibleCards.map(mapCardToRow),
+  const [pendingFocusRowId, setPendingFocusRowId] = useState<string | null>(
+    null,
+  );
+  const agentMessagingIds = useMemo(
+    () => visibleCards.map((card) => card.index_id),
     [visibleCards],
+  );
+  const { availableAgentIds } =
+    useAgentMessagingAvailability(agentMessagingIds);
+  const wqhProfileLinkByIndexId = useMemo(() => {
+    const linkByIndexId = new Map<string, string>();
+
+    matches.forEach((agent, index) => {
+      const indexId = agent.agent_id?.trim();
+      if (indexId && !linkByIndexId.has(indexId)) {
+        linkByIndexId.set(indexId, getWqhProfileExportUrl(index));
+      }
+    });
+
+    return linkByIndexId;
+  }, [matches]);
+  const persistedRows = useMemo(
+    () =>
+      visibleCards.map((card) =>
+        mapCardToRow(card, wqhProfileLinkByIndexId, availableAgentIds),
+      ),
+    [availableAgentIds, visibleCards, wqhProfileLinkByIndexId],
   );
   const placeholderCount = useMemo(() => {
     const visibleRowCapacity = Math.max(
       MIN_PLACEHOLDER_ROWS,
-      Math.ceil(Math.max(0, gridHeight - HEADER_ROW_HEIGHT) / ROW_HEIGHT)
+      Math.ceil(Math.max(0, gridHeight - HEADER_ROW_HEIGHT) / ROW_HEIGHT),
     );
     return Math.max(
       MIN_PLACEHOLDER_ROWS,
-      visibleRowCapacity - persistedRows.length + MIN_PLACEHOLDER_ROWS
+      visibleRowCapacity - persistedRows.length + MIN_PLACEHOLDER_ROWS,
     );
   }, [gridHeight, persistedRows.length]);
   const placeholderRows = useMemo(
     () =>
       Array.from({ length: placeholderCount }, (_, index) =>
-        createPlaceholderRow(index)
+        createPlaceholderRow(index),
       ),
-    [placeholderCount]
+    [placeholderCount],
   );
   const rows = useMemo(
     () => [...persistedRows, ...placeholderRows],
-    [persistedRows, placeholderRows]
+    [persistedRows, placeholderRows],
   );
   const persistedRowIds = useMemo(
     () => new Set(persistedRows.map((row) => row.id)),
-    [persistedRows]
+    [persistedRows],
   );
   const selectedPersistedRows = useMemo(
     () =>
       persistedRows.filter((row) => row.index_id && selectedRows.has(row.id)),
-    [persistedRows, selectedRows]
+    [persistedRows, selectedRows],
+  );
+  const handleMessageRow = useCallback(
+    (row: DashboardTableRow) => {
+      if (row.messageThreadId) {
+        router.push(
+          getProjectMessageThreadHref(
+            row.writerProjectId ?? row.projectName,
+            row.messageThreadId,
+          ),
+        );
+        return;
+      }
+
+      if (!row.isMessagingAvailable) return;
+
+      const href = getSavedAgentComposeMessageHref({
+        indexId: row.index_id,
+        projectName: row.projectName,
+        writerProjectId: row.writerProjectId,
+      });
+
+      if (href) {
+        router.push(href);
+      }
+    },
+    [router],
   );
 
   useEffect(() => {
@@ -439,6 +642,24 @@ export function QueryDashboardTable() {
         frozen: true,
       },
       {
+        key: MESSAGE_ACTION_COLUMN_KEY,
+        name: "Query",
+        frozen: true,
+        resizable: false,
+        width: 120,
+        renderCell: ({ row }) => (
+          <MessageActionCell onMessage={handleMessageRow} row={row} />
+        ),
+      },
+      {
+        key: "trackingMode",
+        name: "Tracking",
+        frozen: true,
+        resizable: true,
+        width: 210,
+        renderCell: ({ row }) => <TrackingCell row={row} />,
+      },
+      {
         key: "name",
         name: getProjectDashboardExportColumnHeader("name"),
         frozen: true,
@@ -469,14 +690,13 @@ export function QueryDashboardTable() {
         renderEditCell: textEditor,
       },
       {
-        key: "genres_themes",
-        name: getProjectDashboardExportColumnHeader("genres_themes"),
+        key: "wqh_profile_link",
+        name: getProjectDashboardExportColumnHeader("wqh_profile_link"),
         resizable: true,
-        width: 280,
+        width: 180,
         renderCell: ({ row }) => (
-          <GenresThemesCell value={row.genres_themes} />
+          <WqhProfileLinkCell value={row.wqh_profile_link} />
         ),
-        renderEditCell: textEditor,
       },
       {
         key: "query_tracker",
@@ -505,6 +725,8 @@ export function QueryDashboardTable() {
       {
         key: "query_sent_date",
         name: getProjectDashboardExportColumnHeader("query_sent_date"),
+        editable: (row) =>
+          row.trackingMode !== "live" && !row.lifecycleSyncUnavailable,
         resizable: true,
         width: 140,
         renderCell: ({ row }) => <TextCell value={row.query_sent_date} />,
@@ -513,6 +735,8 @@ export function QueryDashboardTable() {
       {
         key: "pages_requested_date",
         name: getProjectDashboardExportColumnHeader("pages_requested_date"),
+        editable: (row) =>
+          row.trackingMode !== "live" && !row.lifecycleSyncUnavailable,
         resizable: true,
         width: 165,
         renderCell: ({ row }) => <TextCell value={row.pages_requested_date} />,
@@ -521,6 +745,8 @@ export function QueryDashboardTable() {
       {
         key: "rejected_date",
         name: getProjectDashboardExportColumnHeader("rejected_date"),
+        editable: (row) =>
+          row.trackingMode !== "live" && !row.lifecycleSyncUnavailable,
         resizable: true,
         width: 135,
         renderCell: ({ row }) => <TextCell value={row.rejected_date} />,
@@ -529,6 +755,8 @@ export function QueryDashboardTable() {
       {
         key: "offer_date",
         name: getProjectDashboardExportColumnHeader("offer_date"),
+        editable: (row) =>
+          row.trackingMode !== "live" && !row.lifecycleSyncUnavailable,
         resizable: true,
         width: 130,
         renderCell: ({ row }) => <TextCell value={row.offer_date} />,
@@ -543,10 +771,13 @@ export function QueryDashboardTable() {
         renderEditCell: textEditor,
       },
     ],
-    [],
+    [handleMessageRow],
   );
   const handleRowsChange = useCallback(
-    (nextRows: DashboardTableRow[], data: { indexes: number[]; column: { key: string } }) => {
+    (
+      nextRows: DashboardTableRow[],
+      data: { indexes: number[]; column: { key: string } },
+    ) => {
       for (const index of data.indexes) {
         const nextRow = nextRows[index];
         const previousRow = rows.find((row) => row.id === nextRow?.id);
@@ -695,9 +926,7 @@ export function QueryDashboardTable() {
           <AlertDialog>
             <AlertDialogTrigger asChild>
               <Button
-                disabled={
-                  selectedPersistedRows.length === 0 || isRemovingRows
-                }
+                disabled={selectedPersistedRows.length === 0 || isRemovingRows}
                 size="sm"
                 type="button"
                 variant="outline"
@@ -748,17 +977,46 @@ export function QueryDashboardTable() {
           rows={rows}
           selectedRows={selectedRows}
           onFill={({ columnKey, sourceRow, targetRow }) =>
-            targetRow.isPlaceholder
+            targetRow.isPlaceholder ||
+            columnKey === "trackingMode" ||
+            (targetRow.trackingMode === "live" &&
+              DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)) ||
+            (targetRow.lifecycleSyncUnavailable &&
+              DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)) ||
+            columnKey === "wqh_profile_link" ||
+            columnKey === MESSAGE_ACTION_COLUMN_KEY
               ? targetRow
               : {
                   ...targetRow,
                   [columnKey]: sourceRow[columnKey as EditableTableKey],
                 }
           }
-          onPaste={({ sourceColumnKey, sourceRow, targetColumnKey, targetRow }) => ({
-            ...targetRow,
-            [targetColumnKey]: sourceRow[sourceColumnKey as EditableTableKey],
-          })}
+          onPaste={({
+            sourceColumnKey,
+            sourceRow,
+            targetColumnKey,
+            targetRow,
+          }) =>
+            targetColumnKey === "wqh_profile_link" ||
+            targetColumnKey === "trackingMode" ||
+            sourceColumnKey === "trackingMode" ||
+            (targetRow.trackingMode === "live" &&
+              DATE_COLUMN_KEYS.has(
+                targetColumnKey as keyof DashboardTableRow,
+              )) ||
+            (targetRow.lifecycleSyncUnavailable &&
+              DATE_COLUMN_KEYS.has(
+                targetColumnKey as keyof DashboardTableRow,
+              )) ||
+            targetColumnKey === MESSAGE_ACTION_COLUMN_KEY ||
+            sourceColumnKey === MESSAGE_ACTION_COLUMN_KEY
+              ? targetRow
+              : {
+                  ...targetRow,
+                  [targetColumnKey]:
+                    sourceRow[sourceColumnKey as EditableTableKey],
+                }
+          }
           onRowsChange={handleRowsChange}
           onSelectedRowsChange={setSelectedRows}
         />

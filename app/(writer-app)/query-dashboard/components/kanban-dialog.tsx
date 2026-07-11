@@ -28,6 +28,7 @@ import { KanbanDialogTools } from "./kanban-dialog-tools";
 import { KanbanLinkButtons } from "./kanban-link-buttons";
 import { Circle, CircleCheckBigIcon, X } from "lucide-react";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
+import { QueryProgressSummary } from "@/app/components/messages/query-lifecycle";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -54,9 +55,19 @@ function parseDateOnly(value: string): Date | null {
 
 function getCalendarDayDiffFromToday(date: Date): number {
   const today = new Date();
-  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-  const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
+  const todayStart = new Date(
+    today.getFullYear(),
+    today.getMonth(),
+    today.getDate(),
+  );
+  const targetStart = new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+  );
+  const diffDays = Math.floor(
+    (todayStart.getTime() - targetStart.getTime()) / DAY_MS,
+  );
   return Math.max(0, diffDays);
 }
 
@@ -101,9 +112,14 @@ export function KanbanDialog({
 
   const emails = formatEmail(card.email);
   const isTimingColumn =
-    card.columnId === "submitted-query" || card.columnId === "pages-requested";
+    card.trackingMode !== "live" &&
+    !card.lifecycleSyncUnavailable &&
+    (card.columnId === "submitted-query" ||
+      card.columnId === "pages-requested");
   const parsedUpdatedDate =
-    isTimingColumn && card.updated_date ? parseDateOnly(card.updated_date) : null;
+    isTimingColumn && card.updated_date
+      ? parseDateOnly(card.updated_date)
+      : null;
   const timingPrefix =
     card.columnId === "submitted-query"
       ? "Submitted Query"
@@ -113,13 +129,15 @@ export function KanbanDialog({
   const timingLabel =
     parsedUpdatedDate && timingPrefix
       ? (() => {
-        const daysAgo = getCalendarDayDiffFromToday(parsedUpdatedDate);
-        return daysAgo === 0
-          ? `${timingPrefix} Today`
-          : `${timingPrefix} ${daysAgo} ${daysAgo === 1 ? "Day" : "Days"} ago`;
-      })()
+          const daysAgo = getCalendarDayDiffFromToday(parsedUpdatedDate);
+          return daysAgo === 0
+            ? `${timingPrefix} Today`
+            : `${timingPrefix} ${daysAgo} ${daysAgo === 1 ? "Day" : "Days"} ago`;
+        })()
       : null;
-  const timingDate = parsedUpdatedDate ? formatAsMMDDYYYY(parsedUpdatedDate) : null;
+  const timingDate = parsedUpdatedDate
+    ? formatAsMMDDYYYY(parsedUpdatedDate)
+    : null;
 
   const handleSaveNotes = () => {
     onNotesSave(card.id, notes);
@@ -160,7 +178,9 @@ export function KanbanDialog({
         <div className="mt-[-16px]">
           <div className="flex md:flex-row flex-col gap-6 justify-between mt-0">
             <div className="flex flex-col gap-1">
-              <DialogTitle className="text-xl capitalize">{card.name}</DialogTitle>
+              <DialogTitle className="text-xl capitalize">
+                {card.name}
+              </DialogTitle>
               <DialogDescription className="text-sm">
                 {card.agency}
               </DialogDescription>
@@ -220,6 +240,24 @@ export function KanbanDialog({
 
         <KanbanLinkButtons card={card} />
 
+        {card.trackingMode === "live" ? (
+          <section
+            aria-labelledby={`live-query-${card.id}`}
+            className="rounded-[1rem] border border-accent/10 bg-accent/5 p-4"
+          >
+            <h3
+              className="mb-3 text-sm font-semibold text-accent"
+              id={`live-query-${card.id}`}
+            >
+              Live query progress
+            </h3>
+            <QueryProgressSummary
+              progress={card.queryProgress}
+              viewerRole="writer"
+            />
+          </section>
+        ) : null}
+
         <div className="flex flex-col gap-6">
           <div className="flex md:flex-row flex-col gap-4">
             <div
@@ -239,17 +277,21 @@ export function KanbanDialog({
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
-                  {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map((key) => (
-                    <SelectItem key={key} value={key}>
-                      <span className="flex items-center gap-2">
-                        <span
-                          className="w-3 h-3 rounded-full"
-                          style={{ backgroundColor: FIT_RATING_CONFIG[key].color }}
-                        />
-                        {FIT_RATING_CONFIG[key].label}
-                      </span>
-                    </SelectItem>
-                  ))}
+                  {(Object.keys(FIT_RATING_CONFIG) as FitRating[]).map(
+                    (key) => (
+                      <SelectItem key={key} value={key}>
+                        <span className="flex items-center gap-2">
+                          <span
+                            className="w-3 h-3 rounded-full"
+                            style={{
+                              backgroundColor: FIT_RATING_CONFIG[key].color,
+                            }}
+                          />
+                          {FIT_RATING_CONFIG[key].label}
+                        </span>
+                      </SelectItem>
+                    ),
+                  )}
                 </SelectContent>
               </Select>
             </div>
@@ -272,12 +314,14 @@ export function KanbanDialog({
             data-tour-target="query-dashboard-modal-query-letter-toggle"
           >
             <div className="flex gap-2">
-              <label
-                className="text-sm font-medium cursor-pointer"
-              >
+              <label className="text-sm font-medium cursor-pointer">
                 Query Letter Ready
               </label>
-              {card.prepQueryLetterDone ? <CircleCheckBigIcon className="w-5 h-5 text-accent" /> : <Circle className="w-5 h-5 text-accent" />}
+              {card.prepQueryLetterDone ? (
+                <CircleCheckBigIcon className="w-5 h-5 text-accent" />
+              ) : (
+                <Circle className="w-5 h-5 text-accent" />
+              )}
             </div>
             <Switch
               checked={card.prepQueryLetterDone}

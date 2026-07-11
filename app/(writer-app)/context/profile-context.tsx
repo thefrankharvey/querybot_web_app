@@ -32,6 +32,36 @@ interface ProfileContextType {
 
 const ProfileContext = createContext<ProfileContextType | null>(null);
 
+function getTrimmedValue(value?: string | null) {
+  const trimmed = value?.trim();
+  return trimmed || null;
+}
+
+function savedAgentMatchesSavePayload(
+  savedAgent: AgentMatch,
+  payload: SaveAgentPayload,
+) {
+  if (getTrimmedValue(savedAgent.index_id) !== getTrimmedValue(payload.index_id)) {
+    return false;
+  }
+
+  const savedWriterProjectId = getTrimmedValue(savedAgent.writer_project_id);
+  const payloadWriterProjectId = getTrimmedValue(payload.writer_project_id);
+
+  if (payloadWriterProjectId) {
+    return savedWriterProjectId
+      ? savedWriterProjectId === payloadWriterProjectId
+      : normalizeProjectName(savedAgent.project_name).toLocaleLowerCase() ===
+          normalizeProjectName(payload.project_name).toLocaleLowerCase();
+  }
+
+  return (
+    !savedWriterProjectId &&
+    normalizeProjectName(savedAgent.project_name).toLocaleLowerCase() ===
+      normalizeProjectName(payload.project_name).toLocaleLowerCase()
+  );
+}
+
 export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const { data, isLoading, isFetching, isError, error, refetch } = useFetchAgentsList();
   const queryClient = useQueryClient();
@@ -184,13 +214,15 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   const saveAllAgents = async (
     payloads: SaveAgentPayload[]
   ): Promise<SaveAgentResponse | null> => {
-    // Filter out agents that are already saved
-    const existingIds = new Set(agentsList?.map((a) => a.index_id) || []);
-    const newAgents = payloads.filter((p) => !existingIds.has(p.index_id));
+    const newAgents = payloads.filter(
+      (payload) =>
+        !agentsList?.some((agent) => savedAgentMatchesSavePayload(agent, payload))
+    );
 
     if (newAgents.length === 0) {
       toast.info("All agents already saved", {
-        description: "All agents on this page are already in your saved list.",
+        description:
+          "All agents on this page are already saved for this project.",
         duration: 3000,
       });
       return null;
@@ -220,7 +252,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
 
       toast.success(`${savedCount} agent${savedCount !== 1 ? "s" : ""} saved!`, {
         description: skippedCount > 0
-          ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved.`
+          ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved for this project.`
           : "View your saved agents in your query dashboard!",
         duration: 3000,
       });

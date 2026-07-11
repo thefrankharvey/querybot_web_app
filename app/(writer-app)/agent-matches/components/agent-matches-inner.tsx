@@ -6,11 +6,13 @@ import { Button } from "@/app/ui-primitives/button";
 import StatusFilter from "./status-filter";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import CountryFilter from "./country-filter";
-import { SaveAgentPayload } from "@/app/types";
+import type { SaveAgentPayload } from "@/app/types";
 import ProgressBar from "../../smart-match/components/progress-bar";
 import TooltipComponent from "@/app/components/tooltip";
 import AgentResultsWalkthrough from "./agent-results-walkthrough";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
+import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
 
 export const AgentMatchesInner = ({
   matches,
@@ -29,7 +31,10 @@ export const AgentMatchesInner = ({
   isSavingAll,
   onSaveAgent,
   savingAgentId,
+  onMessageAgent,
+  messagingAgentId,
   projectName,
+  writerProjectId,
   projectDashboardHref,
   onWalkthroughActiveChange,
 }: {
@@ -48,13 +53,22 @@ export const AgentMatchesInner = ({
   sheetStatus?: SheetStatus;
   onSaveAllAgents?: () => void;
   isSavingAll?: boolean;
-  onSaveAgent?: (payload: SaveAgentPayload) => void;
+  onSaveAgent?: (payload: SaveAgentPayload) => Promise<unknown> | unknown;
   savingAgentId?: string | null;
+  onMessageAgent?: (agent: AgentMatch) => Promise<void> | void;
+  messagingAgentId?: string | null;
   projectName?: string;
+  writerProjectId?: string | null;
   projectDashboardHref?: string;
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
+  const agentMessagingIds = useMemo(
+    () => matches.map((match) => match.agent_id),
+    [matches],
+  );
+  const { availableAgentIds } =
+    useAgentMessagingAvailability(agentMessagingIds);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -237,10 +251,16 @@ export const AgentMatchesInner = ({
                 index={index}
                 onSaveAgent={onSaveAgent}
                 savingAgentId={savingAgentId}
+                onMessageAgent={onMessageAgent}
+                messagingAgentId={messagingAgentId}
+                isMessagingAvailable={availableAgentIds.has(
+                  normalizeAgentMessagingId(match.agent_id),
+                )}
                 isSubscribed={isSubscribed}
                 isLoading={isLoading}
                 id={`agent-${index}`}
                 projectName={projectName}
+                writerProjectId={writerProjectId}
                 tourTarget={
                   index === 0 ? "agent-results-first-card" : undefined
                 }

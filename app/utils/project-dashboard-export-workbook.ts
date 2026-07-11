@@ -20,7 +20,6 @@ const CELL_BORDER = {
   bottom: { style: "thin", color: BORDER_COLOR },
 } as const;
 const WRAPPED_KEYS = new Set<ProjectDashboardExportColumnKey>([
-  "genres_themes",
   "notes",
 ]);
 

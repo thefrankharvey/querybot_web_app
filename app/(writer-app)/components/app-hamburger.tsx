@@ -1,7 +1,14 @@
 "use client";
 
 import { useMemo } from "react";
-import { FolderOpen, Home, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import {
+  FolderOpen,
+  Home,
+  MessageSquare,
+  Newspaper,
+  NotebookPen,
+  ScanSearch,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 
@@ -41,6 +48,9 @@ export const AppHamburger = () => {
     : pathname.includes("/projects/")
       ? decodeURIComponent(pathname.split("/projects/")[1]?.split("/")[0] ?? "")
       : null;
+  const activeMessagesProject = pathname.includes("/messages/")
+    ? decodeURIComponent(pathname.split("/messages/")[1]?.split("/")[0] ?? "")
+    : null;
 
   const entries: WorkspaceNavEntry[] = [
     {
@@ -96,6 +106,61 @@ export const AppHamburger = () => {
                       {project.projectName}
                     </Link>
                   ))}
+                </div>
+              ) : (
+                <p className="py-2.5 text-center text-base text-accent/60">
+                  No projects yet
+                </p>
+              )}
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      ),
+    },
+    {
+      type: "custom",
+      key: "messages",
+      content: (closeMenu) => (
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="messages" className="border-b-0">
+            <AccordionTrigger
+              className={cn(
+                "justify-center gap-2 rounded-[22px] py-3 text-base font-medium hover:no-underline",
+                pathname.includes("/messages")
+                  ? "border border-accent/10 bg-white/82 text-accent"
+                  : "text-accent/74"
+              )}
+            >
+              <span className="flex items-center gap-2">
+                <MessageSquare className="size-4" />
+                Messages
+              </span>
+            </AccordionTrigger>
+            <AccordionContent className="pb-0">
+              {projectItems.length > 0 ? (
+                <div className="flex flex-col items-center gap-1">
+                  {projectItems.map((project) => {
+                    const messagesProjectId =
+                      project.writerProjectId ?? getProjectRouteId(project.projectName);
+
+                    return (
+                      <Link
+                        key={project.writerProjectId ?? project.projectName}
+                        onClick={closeMenu}
+                        href={`/messages/${encodeURIComponent(messagesProjectId)}`}
+                        className={cn(
+                          "flex w-full items-center justify-center gap-2 truncate rounded-[22px] py-2.5 text-base font-medium",
+                          activeMessagesProject === project.projectName ||
+                            activeMessagesProject === project.writerProjectId ||
+                            activeMessagesProject === getProjectRouteId(project.projectName)
+                            ? "border border-accent/10 bg-white/82 text-accent"
+                            : "text-accent/74"
+                        )}
+                      >
+                        {project.projectName}
+                      </Link>
+                    );
+                  })}
                 </div>
               ) : (
                 <p className="py-2.5 text-center text-base text-accent/60">

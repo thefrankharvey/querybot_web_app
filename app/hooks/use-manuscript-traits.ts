@@ -3,12 +3,6 @@
 import { useCallback, useMemo } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
-  formatOptions,
-  genreOptions,
-  subgenreOptions,
-  themeOptions,
-} from "@/app/constants";
-import {
   addTraitToGroups,
   findExistingTraitValue,
   isValidSanitizedTraitValue,
@@ -16,19 +10,11 @@ import {
   normalizeTraitGroups,
   sanitizeTraitValue,
   toTraitOptions,
+  TRAITS_QUERY_KEY,
   TraitGroups,
   TraitOption,
   TraitType,
 } from "@/lib/traits";
-
-const TRAITS_QUERY_KEY = ["manuscript-traits"] as const;
-
-const FALLBACK_TRAITS: TraitGroups = {
-  genre: genreOptions.map((option) => option.value),
-  subgenre: subgenreOptions.map((option) => option.value),
-  theme: themeOptions.map((option) => option.value),
-  format: formatOptions.map((option) => option.value),
-};
 
 const EMPTY_TRAITS: TraitGroups = {
   genre: [],
@@ -36,6 +22,9 @@ const EMPTY_TRAITS: TraitGroups = {
   theme: [],
   format: [],
 };
+
+const TRAITS_STALE_TIME_MS = 5 * 60 * 1000;
+const TRAITS_GC_TIME_MS = 24 * 60 * 60 * 1000;
 
 type GetTraitsResponse =
   | {
@@ -79,16 +68,25 @@ export type CreateOrSelectTrait = (
   rawValue: string,
 ) => Promise<AddTraitResult>;
 
-export function useManuscriptTraits() {
+type UseManuscriptTraitsOptions = {
+  enabled?: boolean;
+};
+
+export function useManuscriptTraits({
+  enabled = true,
+}: UseManuscriptTraitsOptions = {}) {
   const queryClient = useQueryClient();
   const traitsQuery = useQuery({
     queryKey: TRAITS_QUERY_KEY,
     queryFn: fetchAllTraits,
-    staleTime: 5 * 60 * 1000,
+    enabled,
+    staleTime: TRAITS_STALE_TIME_MS,
+    gcTime: TRAITS_GC_TIME_MS,
+    retry: 2,
+    retryDelay: (attemptIndex) => Math.min(1000 * 2 ** attemptIndex, 5000),
   });
 
-  const traitValues =
-    traitsQuery.data ?? (traitsQuery.isError ? FALLBACK_TRAITS : EMPTY_TRAITS);
+  const traitValues = traitsQuery.data ?? EMPTY_TRAITS;
   const traitOptions = useMemo<Record<TraitType, TraitOption[]>>(
     () => ({
       genre: toTraitOptions(traitValues.genre),
@@ -101,6 +99,67 @@ export function useManuscriptTraits() {
 
   const createTraitMutation = useMutation({
     mutationFn: createTrait,
+    onMutate: async ({ type, value }) => {
+      await queryClient.cancelQueries({ queryKey: TRAITS_QUERY_KEY });
+
+      const previousTraits =
+        queryClient.getQueryData<TraitGroups>(TRAITS_QUERY_KEY);
+      const baseTraits = previousTraits ?? traitValues;
+
+      queryClient.setQueryData<TraitGroups>(
+        TRAITS_QUERY_KEY,
+        addTraitToGroups(baseTraits, type, value),
+      );
+
+      return {
+        previousTraits,
+        type,
+        value,
+      };
+    },
+    onSuccess: (result, variables) => {
+      const confirmedValue = result.created
+        ? result.trait.trait_value
+        : variables.value;
+
+      queryClient.setQueryData<TraitGroups>(TRAITS_QUERY_KEY, (current) => {
+        const currentGroups = current ?? traitValues;
+        const reconciledGroups =
+          result.created && confirmedValue !== variables.value
+            ? removeTraitFromGroups(
+                currentGroups,
+                variables.type,
+                variables.value,
+              )
+            : currentGroups;
+
+        return addTraitToGroups(
+          reconciledGroups,
+          variables.type,
+          confirmedValue,
+        );
+      });
+    },
+    onError: (_error, _variables, context) => {
+      if (context?.previousTraits) {
+        queryClient.setQueryData<TraitGroups>(
+          TRAITS_QUERY_KEY,
+          context.previousTraits,
+        );
+        return;
+      }
+
+      queryClient.setQueryData<TraitGroups>(TRAITS_QUERY_KEY, (current) =>
+        removeTraitFromGroups(
+          current ?? EMPTY_TRAITS,
+          context?.type ?? _variables.type,
+          context?.value ?? _variables.value,
+        ),
+      );
+    },
+    onSettled: () => {
+      void queryClient.invalidateQueries({ queryKey: TRAITS_QUERY_KEY });
+    },
   });
 
   const createOrSelectTrait = useCallback<CreateOrSelectTrait>(
@@ -132,15 +191,8 @@ export function useManuscriptTraits() {
       });
 
       if (!result.created) {
-        const refreshedTraits = await refreshTraitGroups(queryClient);
-        const refreshedExistingValue = findExistingTraitValue(
-          type,
-          sanitizedValue,
-          refreshedTraits?.[type] ?? traitValues[type],
-        );
-
         return {
-          value: refreshedExistingValue ?? sanitizedValue,
+          value: sanitizedValue,
           created: false,
           matchedExisting: true,
           sanitizedValue,
@@ -162,18 +214,19 @@ export function useManuscriptTraits() {
     [createTraitMutation, queryClient, traitValues],
   );
 
+  const hasTraitData = traitsQuery.data !== undefined;
   const traitsError =
-    traitsQuery.error instanceof Error
-      ? traitsQuery.error.message
-      : traitsQuery.isError
+    !hasTraitData && traitsQuery.error instanceof Error
+      ? normalizeTraitsErrorMessage(traitsQuery.error.message)
+      : !hasTraitData && traitsQuery.isError
         ? "Failed to load traits"
         : "";
 
   return {
     createOrSelectTrait,
     isCreatingTrait: createTraitMutation.isPending,
-    isUsingFallbackTraits: traitsQuery.isError,
-    isLoadingTraits: traitsQuery.isLoading,
+    isUsingFallbackTraits: false,
+    isLoadingTraits: traitsQuery.isLoading && !hasTraitData,
     traitOptions,
     traitValues,
     traitsError,
@@ -227,19 +280,6 @@ async function createTrait(payload: {
   throw new Error(readApiMessage(body, "Failed to create trait"));
 }
 
-async function refreshTraitGroups(
-  queryClient: ReturnType<typeof useQueryClient>,
-) {
-  try {
-    const traits = await fetchAllTraits();
-    queryClient.setQueryData(TRAITS_QUERY_KEY, traits);
-    return traits;
-  } catch {
-    await queryClient.invalidateQueries({ queryKey: TRAITS_QUERY_KEY });
-    return null;
-  }
-}
-
 function readApiMessage(
   body: GetTraitsResponse | CreateTraitResponse | UnknownApiErrorResponse,
   fallback: string,
@@ -257,6 +297,27 @@ function readApiMessage(
   }
 
   return fallback;
+}
+
+function normalizeTraitsErrorMessage(message: string) {
+  if (/aborted|aborterror|operation was aborted/i.test(message)) {
+    return "Failed to load traits";
+  }
+
+  return message;
+}
+
+function removeTraitFromGroups(
+  groups: TraitGroups,
+  type: TraitType,
+  value: string,
+): TraitGroups {
+  const normalizedGroups = normalizeTraitGroups(groups);
+
+  return {
+    ...normalizedGroups,
+    [type]: normalizedGroups[type].filter((traitValue) => traitValue !== value),
+  };
 }
 
 async function readJsonResponse<T>(response: Response): Promise<T> {

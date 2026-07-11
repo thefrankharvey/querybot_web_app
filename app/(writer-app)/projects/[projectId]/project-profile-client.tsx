@@ -77,6 +77,18 @@ type SummaryItemProps = {
   value: string;
 };
 
+type StoredAgentMatchProject = {
+  project_name?: string | null;
+  writer_project_id?: string | null;
+};
+
+type StoredProjectIdentity = StoredAgentMatchProject;
+
+const AGENT_MATCHES_HREF = "/agent-matches";
+const AGENT_MATCHES_STORAGE_KEY = "agent_matches";
+const PROJECT_NAME_STORAGE_KEY = "project_name";
+const QUERY_FORM_DATA_STORAGE_KEY = "query_form_data";
+const WRITER_PROJECT_ID_STORAGE_KEY = "writer_project_id";
 const TRAIT_SELECT_CONTENT_CLASS =
   "w-[min(42rem,calc(100vw-2rem))] md:w-[min(42rem,calc(100vw-2rem))]";
 const TRAIT_SELECT_TRIGGER_CLASS = "w-full flex-none md:w-full";
@@ -148,6 +160,80 @@ function formatLabel(value: string) {
 
 function getProjectNameKey(projectName: string) {
   return projectName.trim().toLocaleLowerCase();
+}
+
+function getStoredString(value: unknown) {
+  return typeof value === "string" ? value.trim() : "";
+}
+
+function getFirstStoredString(...values: unknown[]) {
+  for (const value of values) {
+    const storedString = getStoredString(value);
+
+    if (storedString) {
+      return storedString;
+    }
+  }
+
+  return "";
+}
+
+function readLocalStorageJSON<T>(key: string) {
+  if (typeof window === "undefined") return null;
+
+  try {
+    const item = window.localStorage.getItem(key);
+
+    return item ? (JSON.parse(item) as T) : null;
+  } catch {
+    return null;
+  }
+}
+
+function hasStoredAgentMatchesForProject(profile: ProjectProfile) {
+  const storedAgentMatches = readLocalStorageJSON<StoredAgentMatchProject[]>(
+    AGENT_MATCHES_STORAGE_KEY,
+  );
+
+  if (!Array.isArray(storedAgentMatches) || storedAgentMatches.length === 0) {
+    return false;
+  }
+
+  const storedFormData = readLocalStorageJSON<StoredProjectIdentity>(
+    QUERY_FORM_DATA_STORAGE_KEY,
+  );
+  const activeWriterProjectId =
+    profile.writerProjectId?.trim() ||
+    profile.savedAgentWriterProjectId?.trim() ||
+    "";
+  const activeProjectKey = getProjectNameKey(profile.projectName);
+  const storedWriterProjectId = getFirstStoredString(
+    readLocalStorageJSON<string>(WRITER_PROJECT_ID_STORAGE_KEY),
+    storedFormData?.writer_project_id,
+  );
+  const storedMatchWriterProjectIds = storedAgentMatches
+    .map((match) => getStoredString(match.writer_project_id))
+    .filter(Boolean);
+  const hasStoredWriterProjectIds =
+    Boolean(storedWriterProjectId) || storedMatchWriterProjectIds.length > 0;
+
+  if (activeWriterProjectId && hasStoredWriterProjectIds) {
+    return (
+      storedWriterProjectId === activeWriterProjectId ||
+      storedMatchWriterProjectIds.includes(activeWriterProjectId)
+    );
+  }
+
+  const storedProjectKey = getProjectNameKey(
+    getFirstStoredString(
+      readLocalStorageJSON<string>(PROJECT_NAME_STORAGE_KEY),
+      storedFormData?.project_name,
+      storedAgentMatches.find((match) => getStoredString(match.project_name))
+        ?.project_name,
+    ),
+  );
+
+  return Boolean(activeProjectKey) && storedProjectKey === activeProjectKey;
 }
 
 function TraitChips({
@@ -246,6 +332,9 @@ export function ProjectProfileClient({
   );
   const [isEditing, setIsEditing] = useState(!hasProfileMetadata);
   const [isSavingProfile, setIsSavingProfile] = useState(false);
+  const [previousAgentMatchesHref, setPreviousAgentMatchesHref] = useState<
+    string | null
+  >(null);
   const { agentsList, refetch } = useProfileContext();
   const activeWriterProjectId =
     profile.writerProjectId ?? profile.savedAgentWriterProjectId ?? null;
@@ -271,6 +360,12 @@ export function ProjectProfileClient({
         count: projectSummary.countsByColumn[column.id],
       })).filter((status) => status.count > 0)
     : [];
+
+  useEffect(() => {
+    setPreviousAgentMatchesHref(
+      hasStoredAgentMatchesForProject(profile) ? AGENT_MATCHES_HREF : null,
+    );
+  }, [profile]);
 
   useEffect(() => {
     if (!isEditing) return;
@@ -471,12 +566,14 @@ export function ProjectProfileClient({
               )}
             </div>
             <div className="flex flex-wrap gap-2 lg:justify-end">
-              <Button asChild variant="outline">
-                <Link href={dashboardHref}>
-                  <FolderKanban data-icon="inline-start" />
-                  Previous Agent Matches
-                </Link>
-              </Button>
+              {previousAgentMatchesHref ? (
+                <Button asChild variant="outline">
+                  <Link href={previousAgentMatchesHref}>
+                    <Users data-icon="inline-start" />
+                    Previous Agent Matches
+                  </Link>
+                </Button>
+              ) : null}
               <Button asChild>
                 <Link href="/smart-match">
                   <ScanSearch data-icon="inline-start" />

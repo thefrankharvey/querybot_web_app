@@ -20,7 +20,7 @@ function validateEnvVars(): void {
   const missing = REQUIRED_ENV_VARS.filter((key) => !process.env[key]);
   if (missing.length > 0) {
     throw new Error(
-      `Missing required environment variables: ${missing.join(", ")}`
+      `Missing required environment variables: ${missing.join(", ")}`,
     );
   }
 
@@ -44,6 +44,11 @@ export function getWqhApiUrl(): string {
     : process.env.WQH_DEV_API_URL!;
 }
 
+export function getWqhMessagingApiSecret(): string | undefined {
+  const secret = process.env.WQH_MESSAGING_API_SECRET?.trim();
+  return secret || undefined;
+}
+
 export function getWqhTraitsApiUrl(): string {
   return process.env.WQH_TRAITS_API_URL?.trim() || getWqhApiUrl();
 }
@@ -61,7 +66,9 @@ export function getStripePriceId(plan: "monthly" | "yearly"): string {
 }
 
 /** Stripe Promotion Code id (`promo_...`), not the customer-facing code string. Optional: if unset, Checkout uses manual promo entry only. Must exist in the same Stripe account/mode as `STRIPE_SECRET_KEY_*` and price IDs for the current `APP_ENV`. */
-export function getStripePromotionCodeId(discountCode: string): string | undefined {
+export function getStripePromotionCodeId(
+  discountCode: string,
+): string | undefined {
   if (discountCode !== "WELCOME30") {
     throw new Error(`Unsupported Stripe discount code: ${discountCode}`);
   }
@@ -74,7 +81,7 @@ export function getStripePromotionCodeId(discountCode: string): string | undefin
 
   if (!promotionCodeId) {
     console.warn(
-      `Missing optional environment variable: ${envKey}. Checkout will allow manual promotion code entry.`
+      `Missing optional environment variable: ${envKey}. Checkout will allow manual promotion code entry.`,
     );
     return undefined;
   }

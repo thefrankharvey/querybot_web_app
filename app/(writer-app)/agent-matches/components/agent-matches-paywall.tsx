@@ -1,17 +1,26 @@
+"use client";
+
 import { QUERY_LIMIT } from "@/app/constants";
 import { useMutation } from "@tanstack/react-query";
 import { useAgentMatches, FormData, AgentMatch } from "../../context/agent-matches-context";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
-import { SaveAgentPayload } from "@/app/types";
+import type { SaveAgentPayload } from "@/app/types";
 import { useProfileContext } from "../../context/profile-context";
 import {
   getProjectDashboardHref,
   normalizeProjectName,
 } from "@/app/utils/project-dashboard-summary";
 import { getProjectDashboardHrefById } from "@/app/utils/project-profile";
-import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
+import { useRouter } from "next/navigation";
+import {
+  ensureAgentSavedForProject,
+  getProjectAgentComposeMessageHref,
+  getWriterAgentLegacyId,
+  mapWriterAgentMatchToSaveAgentPayload,
+  savedAgentMatchesProject,
+} from "../project-scoped-agent-messaging";
 
 declare global {
   interface Window {
@@ -19,18 +28,6 @@ declare global {
     lastTouchY?: number;
   }
 }
-
-const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
-  name: agent.name,
-  email: agent.email || null,
-  agency: agent.agency || null,
-  agency_url: agent.website || null,
-  index_id: agent.agent_id || null,
-  query_tracker: agent.querytracker || null,
-  pub_marketplace: agent.pubmarketplace || null,
-  match_score: agent.normalized_score || null,
-  genres_themes: getGenresThemesSummary(agent) || null,
-});
 
 const getWriterProjectIdFromResponse = (data: unknown) => {
   if (!data || typeof data !== "object") return null;
@@ -52,6 +49,8 @@ export const AgentMatchesPaywall = ({
 }: {
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
+  const router = useRouter();
+  const [messagingAgentId, setMessagingAgentId] = useState<string | null>(null);
   const {
     matches,
     totalAgents,
@@ -89,9 +88,10 @@ export const AgentMatchesPaywall = ({
     Boolean(
       agentsList?.some(
         (agent) =>
-          agent.writer_project_id === activeWriterProjectId ||
-          (!agent.writer_project_id &&
-            normalizeProjectName(agent.project_name) === activeProjectName)
+          savedAgentMatchesProject(agent, {
+            projectName: activeProjectName,
+            writerProjectId: activeWriterProjectId,
+          })
       )
     );
 
@@ -182,19 +182,52 @@ export const AgentMatchesPaywall = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent({
+    return saveAgent({
       ...payload,
       project_name: projectName || null,
       writer_project_id: activeWriterProjectId,
     });
   };
 
+  const handleMessageAgent = async (agent: AgentMatch) => {
+    const legacyAgentId = getWriterAgentLegacyId(agent);
+    if (!legacyAgentId || messagingAgentId === legacyAgentId) return;
+
+    setMessagingAgentId(legacyAgentId);
+    try {
+      const result = await ensureAgentSavedForProject({
+        agent,
+        savedAgents: agentsList,
+        saveAgent,
+        projectName: activeProjectName,
+        writerProjectId: activeWriterProjectId,
+        payload: mapWriterAgentMatchToSaveAgentPayload(agent, {
+          projectName: projectName || null,
+          writerProjectId: activeWriterProjectId,
+        }),
+      });
+
+      if (!result.ok) return;
+
+      router.push(
+        getProjectAgentComposeMessageHref({
+          legacyAgentId,
+          projectName: activeProjectName,
+          writerProjectId: activeWriterProjectId,
+        })
+      );
+    } finally {
+      setMessagingAgentId(null);
+    }
+  };
+
   const handleSaveAllAgents = () => {
-    const payloads = matches.map((agent) => ({
-      ...mapAgentToPayload(agent),
-      project_name: projectName || null,
-      writer_project_id: activeWriterProjectId,
-    }));
+    const payloads = matches.map((agent) =>
+      mapWriterAgentMatchToSaveAgentPayload(agent, {
+        projectName: projectName || null,
+        writerProjectId: activeWriterProjectId,
+      })
+    );
     saveAllAgents(payloads);
   };
 
@@ -218,7 +251,10 @@ export const AgentMatchesPaywall = ({
         onSaveAgent={handleSaveAgent}
         isSavingAll={isSavingAll}
         savingAgentId={savingAgentId}
+        onMessageAgent={handleMessageAgent}
+        messagingAgentId={messagingAgentId}
         projectName={activeProjectName}
+        writerProjectId={activeWriterProjectId}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
             ? activeWriterProjectId

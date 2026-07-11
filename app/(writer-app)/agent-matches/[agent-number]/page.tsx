@@ -1,7 +1,7 @@
 "use client";
 
-import { useParams } from "next/navigation";
-import { ArrowLeft, Heart } from "lucide-react";
+import { useParams, useRouter } from "next/navigation";
+import { ArrowLeft, Heart, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import {
   formatGenres,
@@ -28,10 +28,20 @@ import {
   FitRatingBadge,
   getFitRatingFromScore,
 } from "@/app/components/fit-rating-badge";
-import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
+import {
+  ensureAgentSavedForProject,
+  getProjectAgentComposeMessageHref,
+  getSavedAgentForProject,
+  getWriterAgentLegacyId,
+  mapWriterAgentMatchToSaveAgentPayload,
+} from "../project-scoped-agent-messaging";
+import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
+import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
+import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
 
 const AgentProfile = () => {
   const params = useParams();
+  const router = useRouter();
   const { isSubscribed, isLoading } = useClerkUser();
   const matchesContext = useAgentMatches();
   const matches = useMemo(
@@ -40,9 +50,19 @@ const AgentProfile = () => {
   );
   const [agent, setAgent] = useState<AgentMatch | null>(null);
   const [agentIndex, setAgentIndex] = useState<number>(0);
+  const [messagingAgentId, setMessagingAgentId] = useState<string | null>(null);
 
   const { agentsList, saveAgent, savingAgentId } = useProfileContext();
-  const isSaving = savingAgentId !== null;
+  const legacyAgentId = agent ? getWriterAgentLegacyId(agent) : null;
+  const agentMessagingIds = useMemo(
+    () => (legacyAgentId ? [legacyAgentId] : []),
+    [legacyAgentId],
+  );
+  const { availableAgentIds } =
+    useAgentMessagingAvailability(agentMessagingIds);
+  const isMessagingAvailable = availableAgentIds.has(
+    normalizeAgentMessagingId(legacyAgentId),
+  );
 
   useEffect(() => {
     if (matches.length > 0) {
@@ -50,10 +70,6 @@ const AgentProfile = () => {
       const foundAgent = matches.find(
         (_, index) => index === agentNumber
       );
-      console.log("[AgentProfile] raw selected agent payload", {
-        agentNumber,
-        agent: foundAgent,
-      });
       setAgent(foundAgent as AgentMatch | null);
       setAgentIndex(agentNumber);
     }
@@ -74,29 +90,68 @@ const AgentProfile = () => {
     ...(agent.match_hits?.cluster.themes || []),
   ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
-  const savedAgent = agentsList?.find(
-    (savedMatch) => savedMatch.index_id === agent.agent_id
-  );
+  const activeProjectName = normalizeProjectName(matchesContext.projectName);
+  const activeWriterProjectId = matchesContext.writerProjectId?.trim() || null;
+  const savedAgent = getSavedAgentForProject(agentsList, {
+      legacyAgentId,
+      projectName: activeProjectName,
+      writerProjectId: activeWriterProjectId,
+  });
   const isAlreadySaved = Boolean(savedAgent);
   const savedProjectName =
     savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
   const fitRating = getFitRatingFromScore(agent.normalized_score);
+  const isSaving = Boolean(legacyAgentId && savingAgentId === legacyAgentId);
+  const isMessagePending = Boolean(
+    legacyAgentId && messagingAgentId === legacyAgentId
+  );
+  const isMessageDisabled =
+    isMessagePending || isSaving || !legacyAgentId || !isMessagingAvailable;
 
   const handleSaveAgent = async () => {
-    const payload = {
-      name: agent.name,
-      email: agent.email || null,
-      agency: agent.agency || null,
-      agency_url: agent.website || null,
-      index_id: agent.agent_id || null,
-      query_tracker: agent.querytracker || null,
-      pub_marketplace: agent.pubmarketplace || null,
-      match_score: agent.normalized_score || null,
-      genres_themes: getGenresThemesSummary(agent) || null,
-      project_name: matchesContext.projectName || null,
-      writer_project_id: matchesContext.writerProjectId,
-    };
-    await saveAgent(payload);
+    await saveAgent(
+      mapWriterAgentMatchToSaveAgentPayload(agent, {
+        projectName: matchesContext.projectName || null,
+        writerProjectId: activeWriterProjectId,
+      })
+    );
+  };
+
+  const handleMessageAgent = async () => {
+    if (
+      !legacyAgentId ||
+      !isMessagingAvailable ||
+      messagingAgentId === legacyAgentId
+    ) {
+      return;
+    }
+
+    setMessagingAgentId(legacyAgentId);
+    try {
+      const result = await ensureAgentSavedForProject({
+        agent,
+        savedAgents: agentsList,
+        saveAgent,
+        projectName: activeProjectName,
+        writerProjectId: activeWriterProjectId,
+        payload: mapWriterAgentMatchToSaveAgentPayload(agent, {
+          projectName: matchesContext.projectName || null,
+          writerProjectId: activeWriterProjectId,
+        }),
+      });
+
+      if (!result.ok) return;
+
+      router.push(
+        getProjectAgentComposeMessageHref({
+          legacyAgentId,
+          projectName: activeProjectName,
+          writerProjectId: activeWriterProjectId,
+        })
+      );
+    } finally {
+      setMessagingAgentId(null);
+    }
   };
 
   return (
@@ -109,25 +164,46 @@ const AgentProfile = () => {
           <ArrowLeft className="w-6 h-6" />
           <h2 className="text-md font-medium">Back</h2>
         </Link>
-        {isAlreadySaved ? (
-          <RemoveAgent
-            indexId={savedAgent?.index_id}
-            label="Remove Agent"
-            description="This will remove the agent from your saved results."
-            buttonClassName="w-auto"
-          />
-        ) : (
-          <Button
-            className="text-sm"
-            onClick={handleSaveAgent}
-            disabled={isSaving}
-          >
-            <div className="flex items-center gap-2">
-              {isSaving ? <Spinner className="text-white" /> : <Heart />}
-              <span>Save Agent</span>
-            </div>
-          </Button>
-        )}
+        <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center">
+          {isMessagingAvailable ? (
+            <Button
+              className="text-sm"
+              variant="secondary"
+              onClick={handleMessageAgent}
+              disabled={isMessageDisabled}
+            >
+              {isMessagePending ? (
+                <Spinner className="text-accent" data-icon="inline-start" />
+              ) : (
+                <MessageSquare data-icon="inline-start" />
+              )}
+              <span>{isMessagePending ? "Opening..." : "Message"}</span>
+            </Button>
+          ) : null}
+          {isAlreadySaved ? (
+            <RemoveAgent
+              indexId={savedAgent?.index_id}
+              label="Remove Agent"
+              description="This will remove the agent from your saved results."
+              buttonClassName="w-auto"
+            />
+          ) : (
+            <Button
+              className="text-sm"
+              onClick={handleSaveAgent}
+              disabled={isSaving}
+            >
+              <div className="flex items-center gap-2">
+                {isSaving ? (
+                  <Spinner className="text-white" />
+                ) : (
+                  <Heart />
+                )}
+                <span>Save Agent</span>
+              </div>
+            </Button>
+          )}
+        </div>
       </div>
       <div className="glass-panel-strong p-4 py-8 md:p-16">
         <div className="flex flex-col gap-8">

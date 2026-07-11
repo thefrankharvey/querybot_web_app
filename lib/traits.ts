@@ -1,4 +1,5 @@
 export const TRAIT_TYPES = ["genre", "subgenre", "theme", "format"] as const;
+export const TRAITS_QUERY_KEY = ["manuscript-traits"] as const;
 
 export type TraitType = (typeof TRAIT_TYPES)[number];
 

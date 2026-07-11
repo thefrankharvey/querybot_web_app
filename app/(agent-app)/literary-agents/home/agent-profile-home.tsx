@@ -64,9 +64,9 @@ import {
   buildFullCreateProfilePayload,
   buildMinimalCreateProfilePayload,
   formatLocation,
-  HARDCODED_AGENT_LOOKUP_NAME,
   LegacyAgent,
   LegacyAgentResponse,
+  SIGNUP_AGENT_LEGACY_ID,
   splitAgentList,
   UpdateAgentProfileRequest,
   UpdateAgentProfileResponse,
@@ -225,8 +225,8 @@ async function readJson<T>(response: Response): Promise<T> {
 
 async function fetchLegacyAgent() {
   const params = new URLSearchParams({
-    lookup_by: "name",
-    value: HARDCODED_AGENT_LOOKUP_NAME,
+    lookup_by: "id",
+    value: SIGNUP_AGENT_LEGACY_ID,
   });
   const response = await fetch(`/api/get-agent?${params.toString()}`, {
     method: "GET",
@@ -1221,8 +1221,8 @@ export function AgentProfileHome({ initialAgentId }: AgentProfileHomeProps) {
         if (!loadedProfile) {
           try {
             loadedProfile = await fetchAgentProfile(
-              "name",
-              HARDCODED_AGENT_LOOKUP_NAME
+              "id",
+              SIGNUP_AGENT_LEGACY_ID
             );
           } catch (error) {
             if ((error as ApiError).status !== 404) {

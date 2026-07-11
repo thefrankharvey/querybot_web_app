@@ -4,12 +4,20 @@ import type { CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { cn } from "@/app/utils";
-import { SquarePen, Grip, Circle, CircleCheckBigIcon } from "lucide-react";
+import {
+  AlertTriangle,
+  SquarePen,
+  Grip,
+  Circle,
+  CircleCheckBigIcon,
+} from "lucide-react";
 import {
   FitRatingBadge,
   type FitRating,
 } from "@/app/components/fit-rating-badge";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
+import type { QueryProgress } from "@/app/utils/message-types";
+import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -36,9 +44,19 @@ function parseDateOnly(value: string): Date | null {
 
 function getCalendarDayDiffFromToday(date: Date): number {
   const today = new Date();
-  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-  const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
+  const todayStart = new Date(
+    today.getFullYear(),
+    today.getMonth(),
+    today.getDate(),
+  );
+  const targetStart = new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+  );
+  const diffDays = Math.floor(
+    (todayStart.getTime() - targetStart.getTime()) / DAY_MS,
+  );
   return Math.max(0, diffDays);
 }
 
@@ -67,6 +85,10 @@ export interface KanbanCardData {
   projectName: string;
   writerProjectId?: string | null;
   notes: string;
+  trackingMode?: "manual" | "live";
+  messageThreadId?: string | null;
+  queryProgress?: QueryProgress | null;
+  lifecycleSyncUnavailable?: boolean;
 }
 
 interface KanbanCardProps {
@@ -88,6 +110,8 @@ export function KanbanCard({
   useDragHandle = false,
   tourTarget,
 }: KanbanCardProps) {
+  const isLifecycleLocked =
+    card.trackingMode === "live" || card.lifecycleSyncUnavailable === true;
   const {
     attributes,
     listeners,
@@ -97,6 +121,7 @@ export function KanbanCard({
     isDragging,
   } = useSortable({
     id: card.id,
+    disabled: isLifecycleLocked,
     data: {
       type: "card",
       card,
@@ -121,11 +146,16 @@ export function KanbanCard({
   };
 
   const isTimingColumn =
-    card.columnId === "submitted-query" || card.columnId === "pages-requested";
+    !isLifecycleLocked &&
+    (card.columnId === "submitted-query" ||
+      card.columnId === "pages-requested");
   const parsedUpdatedDate =
-    isTimingColumn && card.updated_date ? parseDateOnly(card.updated_date) : null;
-  const daysAgo =
-    parsedUpdatedDate ? getCalendarDayDiffFromToday(parsedUpdatedDate) : null;
+    isTimingColumn && card.updated_date
+      ? parseDateOnly(card.updated_date)
+      : null;
+  const daysAgo = parsedUpdatedDate
+    ? getCalendarDayDiffFromToday(parsedUpdatedDate)
+    : null;
   const timingText =
     daysAgo != null
       ? card.columnId === "submitted-query"
@@ -148,31 +178,43 @@ export function KanbanCard({
         <p
           className={cn(
             "truncate text-sm font-semibold capitalize text-accent",
-            isRejected && "line-through"
+            isRejected && "line-through",
           )}
         >
           {card.name}
         </p>
-        {useDragHandle ? (
-          <div
-            {...attributes}
-            {...listeners}
-            className="touch-none select-none cursor-grab active:cursor-grabbing p-1 -m-1"
-            style={{ touchAction: "none", ...dragSurfaceProtectionStyle }}
-            onClick={(e) => e.stopPropagation()}
-            onContextMenu={(e) => e.preventDefault()}
+        <div className="flex items-center gap-1">
+          {useDragHandle && !isLifecycleLocked ? (
+            <div
+              {...attributes}
+              {...listeners}
+              aria-label={`Drag ${card.name}`}
+              className="-m-1 cursor-grab touch-none select-none p-1 active:cursor-grabbing"
+              onClick={(event) => event.stopPropagation()}
+              onContextMenu={(event) => event.preventDefault()}
+              style={{ touchAction: "none", ...dragSurfaceProtectionStyle }}
+            >
+              <Grip className="size-6 opacity-70" />
+            </div>
+          ) : null}
+          <button
+            aria-label={`Open ${card.name}`}
+            className="rounded p-1 text-accent/68 outline-none transition hover:bg-accent/8 hover:text-accent focus-visible:ring-[3px] focus-visible:ring-ring/30"
+            onClick={(event) => {
+              event.stopPropagation();
+              handleCardClick();
+            }}
+            type="button"
           >
-            <Grip className="w-6 h-6 opacity-70" />
-          </div>
-        ) : (
-          <SquarePen className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-accent" />
-        )}
+            <SquarePen aria-hidden className="size-4" />
+          </button>
+        </div>
       </div>
       {card.agency && (
         <p
-            className={cn(
+          className={cn(
             "mt-0.5 truncate text-xs text-accent/58",
-            isRejected && "line-through"
+            isRejected && "line-through",
           )}
         >
           {card.agency}
@@ -185,14 +227,37 @@ export function KanbanCard({
           </p>
         </div>
       )}
-      <div className={cn("flex items-center gap-1 mb-4", timingText ? "mt-3" : "mt-4")}>
+      {card.trackingMode === "live" && card.queryProgress ? (
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <QueryStatusBadge compact status={card.queryProgress.currentCode} />
+          <span className="text-xs font-semibold uppercase tracking-[0.12em] text-accent/48">
+            Live
+          </span>
+        </div>
+      ) : null}
+      {card.lifecycleSyncUnavailable ? (
+        <div className="mt-3 flex items-center gap-1.5 text-xs font-semibold text-destructive">
+          <AlertTriangle aria-hidden className="size-3.5" />
+          Status sync paused
+        </div>
+      ) : null}
+      <div
+        className={cn(
+          "flex items-center gap-1 mb-4",
+          timingText ? "mt-3" : "mt-4",
+        )}
+      >
         <label
           htmlFor={`prep-query-${card.id}`}
           className="text-xs font-semibold text-accent cursor-pointer"
         >
           Query Letter Ready
         </label>
-        {card.prepQueryLetterDone ? <CircleCheckBigIcon className="w-4 h-4 text-accent" /> : <Circle className="w-4 h-4 text-accent" />}
+        {card.prepQueryLetterDone ? (
+          <CircleCheckBigIcon className="w-4 h-4 text-accent" />
+        ) : (
+          <Circle className="w-4 h-4 text-accent" />
+        )}
       </div>
 
       {/* Match Score */}
@@ -235,8 +300,10 @@ export function KanbanCard({
       onClick={handleCardClick}
       className={cn(
         "glass-panel group rounded-[20px] border border-white/70 p-3 transition-all duration-300 md:max-w-[256px] hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_22px_52px_rgba(24,44,69,0.12)]",
-        !useDragHandle && "cursor-grab active:cursor-grabbing",
-        isDragging && "opacity-50 shadow-[0_24px_60px_rgba(24,44,69,0.14)]"
+        !useDragHandle &&
+          !isLifecycleLocked &&
+          "cursor-grab active:cursor-grabbing",
+        isDragging && "opacity-50 shadow-[0_24px_60px_rgba(24,44,69,0.14)]",
       )}
     >
       {cardContent}

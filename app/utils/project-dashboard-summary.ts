@@ -19,6 +19,7 @@ export const PROJECT_STATUS_CHIP_LABELS: Record<QueryDashColumnId, string> = {
   "submitted-query": "Submitted",
   "pages-requested": "Pages",
   rejected: "Rejected",
+  "closed-no-response": "No response",
   "offer-made": "Offers",
 };
 
@@ -146,7 +147,9 @@ export function getWriterProjectIdForProjectName(
   projectName: string,
 ) {
   const projectKey = getProjectNameKey(projectName);
-  return getUniqueWriterProjectIdsByProjectName(agentsList).get(projectKey) ?? null;
+  return (
+    getUniqueWriterProjectIdsByProjectName(agentsList).get(projectKey) ?? null
+  );
 }
 
 export function buildProjectDashboardSummaries(

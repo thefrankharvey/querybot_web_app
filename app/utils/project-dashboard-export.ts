@@ -2,7 +2,7 @@ export const PROJECT_DASHBOARD_EXPORT_COLUMNS = [
   { key: "name", header: "Name", width: 28 },
   { key: "fitRating", header: "Fit Rating", width: 18 },
   { key: "agency_url", header: "Agency website link", width: 30 },
-  { key: "genres_themes", header: "Genres/Themes", width: 34 },
+  { key: "wqh_profile_link", header: "WQH Profile link", width: 30 },
   { key: "query_tracker", header: "Query Tracker link", width: 30 },
   { key: "pub_marketplace", header: "PubMarketplace link", width: 30 },
   { key: "email", header: "Email", width: 30 },
@@ -47,7 +47,7 @@ export const PROJECT_DASHBOARD_EXPORT_DATE_KEYS = new Set<
 
 export const PROJECT_DASHBOARD_EXPORT_LINK_KEYS = new Set<
   ProjectDashboardExportColumnKey
->(["agency_url", "query_tracker", "pub_marketplace"]);
+>(["agency_url", "wqh_profile_link", "query_tracker", "pub_marketplace"]);
 
 export function getProjectDashboardExportColumnHeader(
   key: ProjectDashboardExportColumnKey,
@@ -139,7 +139,7 @@ export function sanitizeProjectDashboardExportRows(
         name: normalizeExportText(source.name),
         fitRating: normalizeProjectDashboardExportFitRating(source.fitRating),
         agency_url: normalizeExportText(source.agency_url),
-        genres_themes: normalizeExportText(source.genres_themes),
+        wqh_profile_link: normalizeExportText(source.wqh_profile_link),
         query_tracker: normalizeExportText(source.query_tracker),
         pub_marketplace: normalizeExportText(source.pub_marketplace),
         email: normalizeExportText(source.email),

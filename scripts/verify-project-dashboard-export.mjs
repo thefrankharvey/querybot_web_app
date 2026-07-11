@@ -21,7 +21,7 @@ const rows = [
     name: "Agent One",
     fitRating: "perfect",
     agency_url: "agency.example.com",
-    genres_themes: "Fantasy, Found family",
+    wqh_profile_link: "https://writequeryhook.com/agent-matches/0",
     query_tracker: "https://querytracker.example.com/agent-one",
     pub_marketplace: "publishersmarketplace.com/agent-one",
     email: "agent@example.com",
@@ -39,7 +39,7 @@ const rows = [
     name: "Should not export",
     fitRating: "neutral",
     agency_url: "",
-    genres_themes: "",
+    wqh_profile_link: "",
     query_tracker: "",
     pub_marketplace: "",
     email: "",
@@ -86,7 +86,7 @@ assert.deepEqual(worksheet.getRow(1).values.slice(1), [
   "Name",
   "Fit Rating",
   "Agency website link",
-  "Genres/Themes",
+  "WQH Profile link",
   "Query Tracker link",
   "PubMarketplace link",
   "Email",
@@ -104,6 +104,10 @@ assert.equal(dataRow.getCell(2).value, "Perfect Fit");
 assert.deepEqual(dataRow.getCell(3).value, {
   text: "agency.example.com",
   hyperlink: "http://agency.example.com",
+});
+assert.deepEqual(dataRow.getCell(4).value, {
+  text: "https://writequeryhook.com/agent-matches/0",
+  hyperlink: "https://writequeryhook.com/agent-matches/0",
 });
 assert.equal(dataRow.getCell(8).numFmt, "yyyy-mm-dd");
 assert.ok(dataRow.getCell(8).value instanceof Date);

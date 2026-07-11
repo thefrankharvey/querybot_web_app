@@ -14,26 +14,21 @@ import { startSheetPolling } from "../../workers/sheet-worker-manager";
 import AgentMatchesInner from "./agent-matches-inner";
 // import TypeForm from "@/app/components/type-form";
 import { useProfileContext } from "../../context/profile-context";
-import { SaveAgentPayload } from "@/app/types";
+import type { SaveAgentPayload } from "@/app/types";
 import {
   getProjectDashboardHref,
   normalizeProjectName,
 } from "@/app/utils/project-dashboard-summary";
 import { getProjectDashboardHrefById } from "@/app/utils/project-profile";
-import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
-
-// Helper function to map AgentMatch to SaveAgentPayload
-const mapAgentToPayload = (agent: AgentMatch): SaveAgentPayload => ({
-  name: agent.name,
-  email: agent.email || null,
-  agency: agent.agency || null,
-  agency_url: agent.website || null,
-  index_id: agent.agent_id || null,
-  query_tracker: agent.querytracker || null,
-  pub_marketplace: agent.pubmarketplace || null,
-  match_score: agent.normalized_score || null,
-  genres_themes: getGenresThemesSummary(agent) || null,
-});
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import {
+  ensureAgentSavedForProject,
+  getProjectAgentComposeMessageHref,
+  getWriterAgentLegacyId,
+  mapWriterAgentMatchToSaveAgentPayload,
+  savedAgentMatchesProject,
+} from "../project-scoped-agent-messaging";
 
 const getWriterProjectIdFromResponse = (data: unknown) => {
   if (!data || typeof data !== "object") return null;
@@ -55,6 +50,8 @@ export const AgentMatchesFull = ({
 }: {
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
+  const router = useRouter();
+  const [messagingAgentId, setMessagingAgentId] = useState<string | null>(null);
   const {
     matches,
     totalAgents,
@@ -96,9 +93,10 @@ export const AgentMatchesFull = ({
     Boolean(
       agentsList?.some(
         (agent) =>
-          agent.writer_project_id === activeWriterProjectId ||
-          (!agent.writer_project_id &&
-            normalizeProjectName(agent.project_name) === activeProjectName)
+          savedAgentMatchesProject(agent, {
+            projectName: activeProjectName,
+            writerProjectId: activeWriterProjectId,
+          })
       )
     );
 
@@ -239,19 +237,52 @@ export const AgentMatchesFull = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent({
+    return saveAgent({
       ...payload,
       project_name: projectName || null,
       writer_project_id: activeWriterProjectId,
     });
   };
 
+  const handleMessageAgent = async (agent: AgentMatch) => {
+    const legacyAgentId = getWriterAgentLegacyId(agent);
+    if (!legacyAgentId || messagingAgentId === legacyAgentId) return;
+
+    setMessagingAgentId(legacyAgentId);
+    try {
+      const result = await ensureAgentSavedForProject({
+        agent,
+        savedAgents: agentsList,
+        saveAgent,
+        projectName: activeProjectName,
+        writerProjectId: activeWriterProjectId,
+        payload: mapWriterAgentMatchToSaveAgentPayload(agent, {
+          projectName: projectName || null,
+          writerProjectId: activeWriterProjectId,
+        }),
+      });
+
+      if (!result.ok) return;
+
+      router.push(
+        getProjectAgentComposeMessageHref({
+          legacyAgentId,
+          projectName: activeProjectName,
+          writerProjectId: activeWriterProjectId,
+        })
+      );
+    } finally {
+      setMessagingAgentId(null);
+    }
+  };
+
   const handleSaveAllAgents = () => {
-    const payloads = matches.map((agent) => ({
-      ...mapAgentToPayload(agent),
-      project_name: projectName || null,
-      writer_project_id: activeWriterProjectId,
-    }));
+    const payloads = matches.map((agent) =>
+      mapWriterAgentMatchToSaveAgentPayload(agent, {
+        projectName: projectName || null,
+        writerProjectId: activeWriterProjectId,
+      })
+    );
     saveAllAgents(payloads);
   };
 
@@ -274,7 +305,10 @@ export const AgentMatchesFull = ({
         isSavingAll={isSavingAll}
         onSaveAgent={handleSaveAgent}
         savingAgentId={savingAgentId}
+        onMessageAgent={handleMessageAgent}
+        messagingAgentId={messagingAgentId}
         projectName={activeProjectName}
+        writerProjectId={activeWriterProjectId}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
             ? activeWriterProjectId

@@ -1,7 +1,14 @@
 "use client";
 
 import { useMemo } from "react";
-import { FolderOpen, Home, Newspaper, NotebookPen, ScanSearch } from "lucide-react";
+import {
+  FolderOpen,
+  Home,
+  MessageSquare,
+  Newspaper,
+  NotebookPen,
+  ScanSearch,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 
@@ -41,6 +48,9 @@ export const SideBarNav = () => {
     : pathname.includes("/projects/")
       ? decodeURIComponent(pathname.split("/projects/")[1]?.split("/")[0] ?? "")
       : null;
+  const activeMessagesProject = pathname.includes("/messages/")
+    ? decodeURIComponent(pathname.split("/messages/")[1]?.split("/")[0] ?? "")
+    : null;
 
   const entries: WorkspaceNavEntry[] = [
     {
@@ -109,6 +119,60 @@ export const SideBarNav = () => {
       ),
     },
     {
+      type: "custom",
+      key: "messages",
+      content: (
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="messages" className="border-b-0">
+            <AccordionTrigger
+              className={cn(
+                "my-1 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent hover:no-underline",
+                pathname.includes("/messages")
+                  ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                  : "text-accent/74"
+              )}
+            >
+              <span className="flex items-center gap-3">
+                <MessageSquare className="size-4" />
+                Messages
+              </span>
+            </AccordionTrigger>
+            <AccordionContent className="pb-0">
+              {projectItems.length > 0 ? (
+                <div className="flex flex-col pl-4">
+                  {projectItems.map((project) => {
+                    const messagesProjectId =
+                      project.writerProjectId ?? getProjectRouteId(project.projectName);
+
+                    return (
+                      <Link
+                        key={project.writerProjectId ?? project.projectName}
+                        href={`/messages/${encodeURIComponent(messagesProjectId)}`}
+                        className={cn(
+                          "my-0.5 truncate rounded-[20px] px-4 py-2.5 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent",
+                          activeMessagesProject === project.projectName ||
+                            activeMessagesProject === project.writerProjectId ||
+                            activeMessagesProject === getProjectRouteId(project.projectName)
+                            ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
+                            : "text-accent/74"
+                        )}
+                      >
+                        {project.projectName}
+                      </Link>
+                    );
+                  })}
+                </div>
+              ) : (
+                <p className="px-4 py-2.5 pl-8 text-sm text-accent/60">
+                  No projects yet
+                </p>
+              )}
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+      ),
+    },
+    {
       label: "Dispatch",
       href: "/dispatch",
       icon: Newspaper,
@@ -129,7 +193,9 @@ export const SideBarNav = () => {
       brandHref="/home"
       entries={entries}
       containerClassName={cn(
-        pathname.includes("query-dashboard") || pathname.includes("/projects")
+        pathname.includes("query-dashboard") ||
+          pathname.includes("/projects") ||
+          pathname.includes("/messages")
           ? "mb-0"
           : "mb-88 md:w-[230px]"
       )}
