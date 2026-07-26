@@ -154,8 +154,9 @@ const TermsOfService = () => {
             </section>
 
             <section>
+              {/* Proposed manuscript-attachment language. Product/legal approval is required before enabling MANUSCRIPT_ATTACHMENTS_ENABLED. */}
               <h2 className="text-2xl font-bold mb-4">
-                4. Ownership & Non-Retention of Submitted Content
+                4. Ownership & Handling of Submitted Content
               </h2>
               <p className="mb-4">
                 By using our services, you retain full ownership of any
@@ -164,18 +165,32 @@ const TermsOfService = () => {
               <ul className="space-y-2 ml-4 mb-4">
                 <li>✔ We do not claim any rights over your work.</li>
                 <li>
-                  ✔ Our software analyzes submissions in real time and
-                  immediately discards them.
+                  ✔ Content submitted to an automated analysis tool is processed
+                  for that analysis and is not retained after the analysis is
+                  complete.
                 </li>
                 <li>
-                  ✔ We do not store, reuse, or distribute submitted content, nor
-                  do we use it for AI training or any other purpose.
+                  ✔ If you explicitly attach a manuscript to a conversation, we
+                  store it so that you and the named literary agent can access
+                  it through the messaging service. We do not use that file for
+                  AI training unless you separately opt in.
                 </li>
               </ul>
+              <p className="mb-4">
+                You grant Write Query Hook a limited, non-exclusive license to
+                host, secure, copy as technically necessary, transmit, and
+                delete an attachment solely to provide this service. This
+                license does not transfer ownership and ends when the file is
+                deleted, subject to limited security, legal, and compliance
+                records.
+              </p>
               <p>
-                By submitting content, you acknowledge that Write Query Hook
-                processes your work only for immediate analysis and that you
-                remain the sole owner of your intellectual property.
+                You may delete an attachment at any time. Otherwise, the stored
+                file is deleted no later than 90 days after the related query
+                reaches a final status. Deletion prevents future access through
+                Write Query Hook but cannot recall a copy that an agent already
+                downloaded. Account-erasure requests remove remaining stored
+                attachment files.
               </p>
             </section>
 

@@ -119,14 +119,6 @@ export function getWriterReadStateApiHref(threadId: string) {
   return getThreadApiPath("/api/message-threads", threadId, "/read-state");
 }
 
-export function getWriterQueryTransitionApiHref(threadId: string) {
-  return getThreadApiPath(
-    "/api/message-threads",
-    threadId,
-    "/query-status-transitions",
-  );
-}
-
 export function getAgentMessageThreadsApiHref(
   filters: MessageThreadFilters = {},
 ) {

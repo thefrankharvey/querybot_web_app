@@ -9,12 +9,15 @@ import type { WriterMessageApiErrorResponse } from "@/app/utils/message-types";
 
 function getErrorResponse(error: unknown, fallbackMessage: string) {
   const status = error instanceof WriterMessageApiError ? error.status : 500;
+  const code =
+    error instanceof WriterMessageApiError ? error.code : undefined;
   const message = error instanceof Error ? error.message : fallbackMessage;
 
   return NextResponse.json<WriterMessageApiErrorResponse>(
     {
       status: "error",
       message,
+      ...(code ? { code } : {}),
     },
     { status },
   );
@@ -98,11 +101,45 @@ export async function POST(
       );
     }
 
-    const payload = body as { projectId?: unknown; body?: unknown };
+    const payload = body as {
+      projectId?: unknown;
+      body?: unknown;
+      attachmentIds?: unknown;
+    };
     const projectId =
       typeof payload.projectId === "string" ? payload.projectId.trim() : "";
     const replyBody =
       typeof payload.body === "string" ? payload.body.trim() : "";
+    const rawAttachmentIds = payload.attachmentIds ?? [];
+
+    if (!Array.isArray(rawAttachmentIds)) {
+      return NextResponse.json<WriterMessageApiErrorResponse>(
+        {
+          status: "error",
+          code: "ATTACHMENT_INVALID_REQUEST",
+          message: "attachmentIds must be an array",
+        },
+        { status: 400 },
+      );
+    }
+
+    const attachmentIds = rawAttachmentIds.map((attachmentId) =>
+      typeof attachmentId === "string" ? attachmentId.trim() : "",
+    );
+
+    if (
+      attachmentIds.length > 1 ||
+      attachmentIds.some((attachmentId) => !attachmentId)
+    ) {
+      return NextResponse.json<WriterMessageApiErrorResponse>(
+        {
+          status: "error",
+          code: "ATTACHMENT_INVALID_REQUEST",
+          message: "attachmentIds may contain one nonblank attachment ID",
+        },
+        { status: 400 },
+      );
+    }
 
     if (!projectId) {
       return NextResponse.json<WriterMessageApiErrorResponse>(
@@ -124,17 +161,18 @@ export async function POST(
       );
     }
 
-    if (!replyBody) {
+    if (!replyBody && attachmentIds.length === 0) {
       return NextResponse.json<WriterMessageApiErrorResponse>(
         {
           status: "error",
-          message: "Reply body is required",
+          message: "Add a reply or a ready manuscript attachment.",
         },
         { status: 400 },
       );
     }
 
     const data = await sendWriterThreadReply({
+      attachmentIds,
       body: replyBody,
       routeProjectId: projectId,
       threadId,

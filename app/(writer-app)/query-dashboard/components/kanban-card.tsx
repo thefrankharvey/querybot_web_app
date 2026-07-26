@@ -3,6 +3,7 @@
 import type { CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import Link from "next/link";
 import { cn } from "@/app/utils";
 import {
   AlertTriangle,
@@ -10,6 +11,7 @@ import {
   Grip,
   Circle,
   CircleCheckBigIcon,
+  FileUp,
 } from "lucide-react";
 import {
   FitRatingBadge,
@@ -18,6 +20,9 @@ import {
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import type { QueryProgress } from "@/app/utils/message-types";
 import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
+import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
+import { isManuscriptUploadVisible } from "@/app/utils/manuscript-attachments";
+import { Button } from "@/app/ui-primitives/button";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -169,6 +174,14 @@ export function KanbanCard({
           : null
       : null;
   const isRejected = card.columnId === "rejected";
+  const shareManuscriptHref =
+    card.messageThreadId &&
+    isManuscriptUploadVisible(card.queryProgress?.currentCode)
+      ? `${getProjectMessageThreadHref(
+          card.writerProjectId ?? card.projectName,
+          card.messageThreadId,
+        )}?shareManuscript=1`
+      : null;
 
   // Card content shared between regular and overlay views
   const cardContent = (
@@ -234,6 +247,21 @@ export function KanbanCard({
             Live
           </span>
         </div>
+      ) : null}
+      {shareManuscriptHref && !isDragOverlay ? (
+        <Button
+          asChild
+          className="mt-3 w-full"
+          size="sm"
+        >
+          <Link
+            href={shareManuscriptHref}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <FileUp data-icon="inline-start" />
+            Share manuscript
+          </Link>
+        </Button>
       ) : null}
       {card.lifecycleSyncUnavailable ? (
         <div className="mt-3 flex items-center gap-1.5 text-xs font-semibold text-destructive">

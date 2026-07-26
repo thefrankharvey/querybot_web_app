@@ -15,6 +15,8 @@ export type QueryStatusTransitionCode = Exclude<
   "query_sent" | "query_viewed"
 >;
 export type MessageSenderRole = "writer" | "agent";
+export type MessageAttachmentStatus =
+  import("@/app/utils/message-api-contract").WireMessageAttachmentStatus;
 export type QueryActorRole = MessageSenderRole | "system" | "unknown";
 export type QueryNextActionOwner = MessageSenderRole | "unknown";
 export type AgentActivityWindow = "30" | "90" | "180" | "all";
@@ -174,6 +176,40 @@ export type WriterMessage = {
   senderRole: MessageSenderRole;
   body: string;
   createdAt: string;
+  attachments: MessageAttachment[];
+};
+
+export type MessageAttachment = {
+  attachmentId: string;
+  threadId: string;
+  messageId: string | null;
+  filename: string;
+  contentType: string;
+  sizeBytes: number;
+  status: MessageAttachmentStatus;
+  createdAt: string;
+  deletedAt: string | null;
+};
+
+export type AttachmentUploadIntent = {
+  attachment: MessageAttachment;
+  upload: {
+    bucket: string;
+    objectPath: string;
+    resumableEndpoint: string;
+    token: string;
+    expiresAt: string;
+    chunkSizeBytes: number;
+  };
+};
+
+export type AttachmentUploadIntentResponse = AttachmentUploadIntent & {
+  status: "success";
+};
+
+export type AttachmentMutationResponse = {
+  status: "success";
+  attachment: MessageAttachment;
 };
 
 export type WriterMessageProject = {
@@ -394,4 +430,5 @@ export type AgentActivityResponse = {
 export type WriterMessageApiErrorResponse = {
   status: "error";
   message: string;
+  code?: string;
 };

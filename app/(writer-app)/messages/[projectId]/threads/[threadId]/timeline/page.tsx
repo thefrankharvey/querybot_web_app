@@ -1,4 +1,4 @@
-import { ArrowLeft, History, MessageSquare } from "lucide-react";
+import { ArrowLeft, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { Suspense } from "react";
@@ -8,13 +8,10 @@ import {
   AgentActivityPanel,
 } from "@/app/components/messages/agent-activity";
 import {
-  QueryProgressSummary,
   QueryStatusBadge,
-  QueryTimelineList,
   ThreadViewNavigation,
 } from "@/app/components/messages/query-lifecycle";
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
-import { QueryStatusActions } from "@/app/components/messages/query-status-actions";
 import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
 import {
@@ -22,7 +19,6 @@ import {
   getCanonicalMessageThreadHref,
   getWriterAgentActivityData,
   getWriterMessageThreadDetailData,
-  getWriterQueryTimelineData,
   isCanonicalMessagesRoute,
 } from "@/app/utils/message-thread-data";
 import {
@@ -38,7 +34,7 @@ function getActivityWindow(value?: string | string[]): AgentActivityWindow {
     candidate === "180" ||
     candidate === "all"
     ? candidate
-    : "90";
+    : "all";
 }
 
 async function WriterAgentActivitySection({
@@ -58,7 +54,7 @@ async function WriterAgentActivitySection({
     window: activeWindow,
   }).catch(() => null);
   const getWindowHref = (window: AgentActivityWindow) =>
-    window === "90"
+    window === "all"
       ? timelineHref
       : `${timelineHref}?window=${encodeURIComponent(window)}`;
 
@@ -85,19 +81,12 @@ export default async function WriterQueryTimelinePage({
   ]);
   const activeWindow = getActivityWindow(resolvedSearchParams.window);
   let detailData;
-  let timelineData;
 
   try {
-    [detailData, timelineData] = await Promise.all([
-      getWriterMessageThreadDetailData({
-        routeProjectId: projectId,
-        threadId,
-      }),
-      getWriterQueryTimelineData({
-        routeProjectId: projectId,
-        threadId,
-      }),
-    ]);
+    detailData = await getWriterMessageThreadDetailData({
+      routeProjectId: projectId,
+      threadId,
+    });
   } catch (error) {
     if (error instanceof WriterMessageApiError && error.status === 401) {
       redirect("/sign-in");
@@ -106,7 +95,7 @@ export default async function WriterQueryTimelinePage({
     throw error;
   }
 
-  if (!detailData || !timelineData) notFound();
+  if (!detailData) notFound();
 
   if (
     !isCanonicalMessagesRoute({
@@ -162,11 +151,11 @@ export default async function WriterQueryTimelinePage({
             </div>
             <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
               <QueryStatusBadge
-                status={timelineData.queryProgress.currentCode}
+                status={detailData.queryProgress.currentCode}
               />
               <p className="text-xs text-accent/72">
                 Updated{" "}
-                <LocalDateTime value={timelineData.queryProgress.changedAt} />
+                <LocalDateTime value={detailData.queryProgress.changedAt} />
               </p>
             </div>
           </div>
@@ -177,50 +166,6 @@ export default async function WriterQueryTimelinePage({
             timelineHref={timelineHref}
           />
         </header>
-
-        <section
-          aria-labelledby="personal-timeline-heading"
-          className="glass-panel-strong p-4 md:p-6"
-        >
-          <div className="flex flex-col gap-1">
-            <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.14em] text-accent/72">
-              <History aria-hidden className="size-3.5" />
-              Exact, audited record
-            </p>
-            <h2
-              className="text-xl font-semibold text-accent"
-              id="personal-timeline-heading"
-            >
-              Your query progress
-            </h2>
-            <p className="text-sm leading-6 text-accent/76">
-              Occurred and recorded timestamps are shown separately so later
-              updates remain transparent.
-            </p>
-          </div>
-          <Separator className="my-5" />
-          <div className="grid items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)]">
-            <div className="flex flex-col gap-5 rounded-[1.1rem] border border-accent/10 bg-white/52 p-4">
-              <QueryProgressSummary
-                progress={timelineData.queryProgress}
-                viewerRole="writer"
-              />
-              <Separator />
-              <QueryStatusActions
-                progress={timelineData.queryProgress}
-                projectId={detailData.project.projectId}
-                threadId={threadId}
-                viewerRole="writer"
-              />
-            </div>
-            <QueryTimelineList
-              events={timelineData.events}
-              getMessageHref={(sourceMessageId) =>
-                `${conversationHref}#message-${encodeURIComponent(sourceMessageId)}`
-              }
-            />
-          </div>
-        </section>
 
         <Suspense fallback={<AgentActivityLoading />}>
           <WriterAgentActivitySection

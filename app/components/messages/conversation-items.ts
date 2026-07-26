@@ -7,6 +7,20 @@ export type ConversationItem =
   | { id: string; kind: "event"; event: QueryTimelineEvent }
   | { id: string; kind: "message"; message: WriterMessage };
 
+export function mergeMessagePages(
+  olderMessages: WriterMessage[],
+  currentMessages: WriterMessage[],
+) {
+  const currentIds = new Set(
+    currentMessages.map((message) => message.messageId),
+  );
+
+  return [
+    ...olderMessages.filter((message) => !currentIds.has(message.messageId)),
+    ...currentMessages,
+  ];
+}
+
 function getTimestamp(value: string) {
   const timestamp = new Date(value).getTime();
   return Number.isNaN(timestamp) ? 0 : timestamp;

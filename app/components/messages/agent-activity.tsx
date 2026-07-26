@@ -36,7 +36,6 @@ const ACTIVITY_WINDOWS: Array<{
   { label: "180 days", value: "180" },
   { label: "All", value: "all" },
 ];
-const MAX_DISPLAY_LANES = 50;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 type DisplayLaneEvent = {
@@ -118,12 +117,19 @@ function getDisplayLanes(
     lastStatusOn: toDay(viewerProgress.changedAt),
     sentOn: toDay(viewerProgress.sentAt),
   };
-  const anonymousLanes = activityData.lanes.slice(-(MAX_DISPLAY_LANES - 1));
+  const anonymousLanes = activityData.lanes
+    .toSorted((left, right) => {
+      const sentDateOrder = right.sentOn.localeCompare(left.sentOn);
+      return sentDateOrder || left.laneId.localeCompare(right.laneId);
+    })
+    .map((lane, index) => toDisplayLane(lane, index));
 
-  return [
-    viewerLane,
-    ...anonymousLanes.map((lane, index) => toDisplayLane(lane, index)),
-  ];
+  return [viewerLane, ...anonymousLanes].toSorted((left, right) => {
+    const sentDateOrder = right.sentOn.localeCompare(left.sentOn);
+    if (sentDateOrder) return sentDateOrder;
+    if (left.isViewer !== right.isViewer) return left.isViewer ? -1 : 1;
+    return left.laneId.localeCompare(right.laneId);
+  });
 }
 
 function getRange(activityData: AgentActivityResponse, lanes: DisplayLane[]) {
@@ -338,6 +344,31 @@ function AgentActivitySummaryCards({
   );
 }
 
+function ActivityLegend({ lanes }: { lanes: DisplayLane[] }) {
+  const visibleStatuses = QUERY_STATUS_CODES.filter((status) =>
+    lanes.some(
+      (lane) =>
+        lane.currentStatus === status ||
+        lane.events.some((event) => event.status === status),
+    ),
+  );
+
+  if (visibleStatuses.length === 0) return null;
+
+  return (
+    <div className="flex flex-col gap-2">
+      <p className="text-xs font-medium uppercase tracking-[0.12em] text-accent/72">
+        Status key
+      </p>
+      <div className="flex flex-wrap gap-2">
+        {visibleStatuses.map((status) => (
+          <QueryStatusBadge compact key={status} status={status} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function ActivityLaneChart({
   activityData,
   lanes,
@@ -352,7 +383,7 @@ function ActivityLaneChart({
     <div
       className="hidden md:block"
       role="img"
-      aria-label="Query activity calendar"
+      aria-label="Anonymous query progress over time"
     >
       <div className="grid grid-cols-[9.5rem_minmax(0,1fr)_8rem] gap-3 px-3 pb-2 text-xs font-medium text-accent/72">
         <span>Query</span>
@@ -457,7 +488,8 @@ function ActivityLaneChart({
       </div>
       <p className="mt-3 text-xs leading-5 text-accent/72">
         Dashed lines continue through the latest activity date for queries that
-        remain active. Rows do not represent a reading order.
+        remain active. Rows are sorted by sent date, newest first, and do not
+        represent a reading queue.
       </p>
     </div>
   );
@@ -518,28 +550,40 @@ function ActivityLaneList({ lanes }: { lanes: DisplayLane[] }) {
 
 function PrivacyFallback({
   activityData,
+  lanes,
   viewerRole,
 }: {
   activityData: AgentActivityResponse;
+  lanes: DisplayLane[];
   viewerRole: "agent" | "writer";
 }) {
+  const viewerLane = lanes.find((lane) => lane.isViewer);
+
   return (
-    <div className="flex min-h-64 flex-col items-center justify-center gap-3 rounded-[1.25rem] border border-accent/10 bg-white/54 px-5 py-10 text-center">
-      <span className="flex size-11 items-center justify-center rounded-full border border-accent/10 bg-accent/6 text-accent/68">
-        <ShieldCheck aria-hidden className="size-5" />
-      </span>
-      <div className="max-w-lg">
-        <h3 className="text-base font-semibold text-accent">
-          More activity is needed for a private comparison
-        </h3>
-        <p className="mt-2 text-sm leading-6 text-accent/76">
-          Fewer than {activityData.privacy.minimumSampleSize} distinct writers
-          have qualifying queries in this range. More are required before
-          anonymous agent-wide details appear.{" "}
-          {viewerRole === "writer" ? "Your" : "This query’s"} exact timeline
-          remains visible.
-        </p>
+    <div className="flex min-h-64 flex-col gap-5 rounded-[1.25rem] border border-accent/10 bg-white/54 px-5 py-8">
+      <div className="flex flex-col items-center gap-3 text-center">
+        <span className="flex size-11 items-center justify-center rounded-full border border-accent/10 bg-accent/6 text-accent/68">
+          <ShieldCheck aria-hidden className="size-5" />
+        </span>
+        <div className="max-w-lg">
+          <h3 className="text-base font-semibold text-accent">
+            More activity is needed for a private comparison
+          </h3>
+          <p className="mt-2 text-sm leading-6 text-accent/76">
+            Fewer than {activityData.privacy.minimumSampleSize} distinct writers
+            have qualifying queries in this range. More are required before
+            anonymous agent-wide details appear.
+          </p>
+        </div>
       </div>
+      {viewerRole === "writer" && viewerLane ? (
+        <div className="mx-auto flex w-full max-w-3xl flex-col gap-2">
+          <p className="text-sm font-semibold text-accent">
+            Your query remains visible
+          </p>
+          <ActivityLaneList lanes={[viewerLane]} />
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -596,9 +640,9 @@ export function AgentActivityPanel({
         <div className="mt-4 flex min-h-48 flex-col items-center justify-center gap-3 rounded-[1.1rem] border border-accent/10 bg-white/54 px-5 py-8 text-center">
           <BarChart3 aria-hidden className="size-7 text-accent/48" />
           <p className="max-w-md text-sm leading-6 text-accent/76">
-            Agent-wide activity is temporarily unavailable.{" "}
-            {viewerRole === "writer" ? "Your" : "This query’s"} exact timeline
-            above is still complete.
+            {viewerRole === "writer"
+              ? "Agent activity is temporarily unavailable. Your conversation is still available."
+              : "Agent-wide activity is temporarily unavailable. This query’s exact timeline above is still complete."}
           </p>
         </div>
       </section>
@@ -606,10 +650,7 @@ export function AgentActivityPanel({
   }
 
   const lanes = getDisplayLanes(activityData, viewerRole);
-  const hiddenLaneCount = Math.max(
-    0,
-    activityData.lanes.length - (lanes.length - 1),
-  );
+  const viewerPosition = lanes.findIndex((lane) => lane.isViewer) + 1;
 
   return (
     <section
@@ -629,9 +670,9 @@ export function AgentActivityPanel({
             Agent activity
           </h2>
           <p className="mt-2 text-sm leading-6 text-accent/76">
-            Compare recorded lifecycle patterns without exposing another
-            writer’s identity, project, or messages. Agent activity may not
-            follow send order and does not predict an outcome.
+            Each row is one Write Query Hook query. Other writers remain
+            anonymous while recorded milestones show how far each query has
+            moved through the agent’s process.
           </p>
         </div>
         <ActivityWindowControls
@@ -642,38 +683,37 @@ export function AgentActivityPanel({
 
       <Separator />
 
-      {activityData.privacy.detailsAvailable && activityData.summary ? (
+      {activityData.privacy.detailsAvailable ? (
         <>
-          <AgentActivitySummaryCards
-            activityData={activityData}
-            viewerRole={viewerRole}
-          />
-          <Separator />
+          {viewerRole === "agent" && activityData.summary ? (
+            <>
+              <AgentActivitySummaryCards
+                activityData={activityData}
+                viewerRole={viewerRole}
+              />
+              <Separator />
+            </>
+          ) : null}
           <div>
             <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
               <div>
                 <h3 className="text-base font-semibold text-accent">
-                  Query timelines
+                  {viewerRole === "writer"
+                    ? "Anonymous query activity"
+                    : "Query timelines"}
                 </h3>
                 <p className="text-sm text-accent/76">
-                  {viewerRole === "writer" ? "Your query" : "This query"} is
-                  pinned first; other rows are anonymous. The range is based on
-                  when each query was sent.
+                  {viewerRole === "writer"
+                    ? `Your query is highlighted at row ${viewerPosition} of ${lanes.length} by sent date; every other row is anonymous.`
+                    : "This query is highlighted in its sent-date position; other rows are anonymous."}
                 </p>
-                {hiddenLaneCount > 0 ? (
-                  <p className="mt-1 text-xs font-medium text-accent/76">
-                    Showing the {lanes.length - 1} most recent anonymous
-                    timelines; {hiddenLaneCount} older{" "}
-                    {hiddenLaneCount === 1 ? "row is" : "rows are"} summarized
-                    above.
-                  </p>
-                ) : null}
               </div>
               <p className="text-xs text-accent/72">
                 Updated <LocalDateTime value={activityData.asOf} />
               </p>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 flex flex-col gap-4">
+              <ActivityLegend lanes={lanes} />
               <ActivityLaneChart activityData={activityData} lanes={lanes} />
               <div className="md:hidden">
                 <ActivityLaneList lanes={lanes} />
@@ -690,7 +730,11 @@ export function AgentActivityPanel({
           </div>
         </>
       ) : (
-        <PrivacyFallback activityData={activityData} viewerRole={viewerRole} />
+        <PrivacyFallback
+          activityData={activityData}
+          lanes={lanes}
+          viewerRole={viewerRole}
+        />
       )}
     </section>
   );

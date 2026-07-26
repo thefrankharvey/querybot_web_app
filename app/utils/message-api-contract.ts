@@ -8,6 +8,26 @@
 export type MessageApiStatus = "success" | "error";
 export type WireMessageSenderRole = "writer" | "agent";
 
+export type WireMessageAttachmentStatus =
+  | "pending_upload"
+  | "ready"
+  | "attached"
+  | "expired"
+  | "failed"
+  | "deleted";
+
+export type WireMessageAttachment = {
+  attachment_id: string;
+  thread_id: string;
+  message_id: string | null;
+  filename: string;
+  content_type: string;
+  size_bytes: number;
+  status: WireMessageAttachmentStatus;
+  created_at: string;
+  deleted_at: string | null;
+};
+
 export type WireMessageThreadIdentity = {
   user_id: string;
   role: WireMessageSenderRole;
@@ -24,6 +44,50 @@ export type WireCreateMessageThreadRequest = {
 
 export type WireCreateMessageRequest = WireMessageThreadIdentity & {
   body: string;
+  attachment_ids?: string[];
+};
+
+export type WireAttachmentUploadIntentRequest = WireMessageThreadIdentity & {
+  writer_project_id: string;
+  filename: string;
+  content_type: string;
+  size_bytes: number;
+  consent_version: string;
+};
+
+export type WireWriterAttachmentRequest = WireMessageThreadIdentity & {
+  writer_project_id: string;
+};
+
+export type WireAttachmentDeleteRequest = WireWriterAttachmentRequest & {
+  reason: string;
+};
+
+export type WireAttachmentUploadIntentResponse = {
+  status: "success";
+  attachment: WireMessageAttachment;
+  upload: {
+    bucket: string;
+    object_path: string;
+    resumable_endpoint: string;
+    token: string;
+    expires_at: string;
+    chunk_size_bytes: number;
+  };
+};
+
+export type WireAttachmentMutationResponse = {
+  status: "success";
+  attachment: WireMessageAttachment;
+};
+
+export type WireAttachmentDownloadResponse = {
+  status: "success";
+  download: {
+    url: string;
+    expires_at: string;
+    filename: string;
+  };
 };
 
 export type WireReadStateRequest = WireMessageThreadIdentity & {
@@ -109,6 +173,7 @@ export type WireMessage = {
   sender_role: string;
   body: string;
   created_at: string;
+  attachments?: WireMessageAttachment[];
 };
 
 export type WireMessageThreadsResponse =
@@ -278,5 +343,6 @@ export type WireAgentActivityResponse =
 export type WireMessageErrorResponse = {
   status: "error";
   message: string;
+  code?: string;
   thread_id?: string;
 };

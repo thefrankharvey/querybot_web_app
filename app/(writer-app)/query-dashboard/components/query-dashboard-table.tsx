@@ -15,6 +15,7 @@ import {
   AlertTriangle,
   Download,
   ExternalLink,
+  FileUp,
   MessageSquare,
   Plus,
   Trash2,
@@ -54,6 +55,7 @@ import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availabil
 import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
 import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
 import type { QueryProgress } from "@/app/utils/message-types";
+import { isManuscriptUploadVisible } from "@/app/utils/manuscript-attachments";
 
 import type { KanbanCardData } from "./kanban-card";
 import { useQueryDashContext } from "../context/query-dash-context";
@@ -355,7 +357,7 @@ function MessageActionCell({
   onMessage,
   row,
 }: {
-  onMessage: (row: DashboardTableRow) => void;
+  onMessage: (row: DashboardTableRow, shareManuscript: boolean) => void;
   row: DashboardTableRow;
 }) {
   const href = row.messageThreadId
@@ -378,25 +380,39 @@ function MessageActionCell({
   }
 
   const isLive = Boolean(row.messageThreadId);
+  const canShareManuscript =
+    isLive && isManuscriptUploadVisible(row.queryProgress?.currentCode);
 
   return (
     <Button
-      aria-label={`${isLive ? "View live query for" : "Message"} ${row.name}`}
+      aria-label={`${
+        canShareManuscript
+          ? "Share manuscript with"
+          : isLive
+            ? "View live query for"
+            : "Message"
+      } ${row.name}`}
       className="h-8 px-2 text-xs"
       onClick={(event) => {
         event.stopPropagation();
-        onMessage(row);
+        onMessage(row, canShareManuscript);
       }}
       size="sm"
       type="button"
       variant="secondary"
     >
-      {isLive ? (
+      {canShareManuscript ? (
+        <FileUp data-icon="inline-start" />
+      ) : isLive ? (
         <Activity data-icon="inline-start" />
       ) : (
         <MessageSquare data-icon="inline-start" />
       )}
-      {isLive ? "View query" : "Message"}
+      {canShareManuscript
+        ? "Share manuscript"
+        : isLive
+          ? "View query"
+          : "Message"}
     </Button>
   );
 }
@@ -565,13 +581,14 @@ export function QueryDashboardTable() {
     [persistedRows, selectedRows],
   );
   const handleMessageRow = useCallback(
-    (row: DashboardTableRow) => {
+    (row: DashboardTableRow, shareManuscript: boolean) => {
       if (row.messageThreadId) {
+        const threadHref = getProjectMessageThreadHref(
+          row.writerProjectId ?? row.projectName,
+          row.messageThreadId,
+        );
         router.push(
-          getProjectMessageThreadHref(
-            row.writerProjectId ?? row.projectName,
-            row.messageThreadId,
-          ),
+          shareManuscript ? `${threadHref}?shareManuscript=1` : threadHref,
         );
         return;
       }
@@ -646,7 +663,7 @@ export function QueryDashboardTable() {
         name: "Query",
         frozen: true,
         resizable: false,
-        width: 120,
+        width: 150,
         renderCell: ({ row }) => (
           <MessageActionCell onMessage={handleMessageRow} row={row} />
         ),

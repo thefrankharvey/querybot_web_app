@@ -143,37 +143,40 @@ const PrivacyPolicy = () => {
             </section>
 
             <section>
+              {/* Proposed manuscript-attachment language. Product/legal approval is required before enabling MANUSCRIPT_ATTACHMENTS_ENABLED. */}
               <h2 className="text-2xl font-bold mb-4">
                 4. Your Data & Intellectual Property Protection
               </h2>
               <p className="mb-4">
                 At Write Query Hook, we champion authors. We prioritize and
-                support the safety of the author&apos;s original work. We follow
-                a strict non-retention policy to protect your intellectual
-                property. While our software uses a Large Language Model (LLM)
-                to analyze user submitted manuscripts, query letters, synopses,
-                and other materials, we never store, use, or distribute your
-                materials in any way.
+                support the safety of the author&apos;s original work. Content you
+                submit to an automated analysis tool is processed for that
+                analysis and is not retained after the analysis is complete.
+                Manuscript attachments are different: when a literary agent
+                requests material, you may explicitly choose to store one file
+                and share it with that named agent in your private conversation.
               </p>
               <ul className="space-y-2 ml-4 mb-4">
                 <li>✔ Your work remains 100% yours.</li>
                 <li>
-                  ✔ We do not retain or reuse your content for any purpose,
-                  including AI training.
+                  ✔ Manuscript attachments are used only to provide the secure
+                  storage, messaging, and download service you request.
                 </li>
                 <li>
-                  ✔ All data is processed in real time and permanently discarded
-                  after analysis.
+                  ✔ We do not use manuscript attachments for AI training unless
+                  you separately opt in.
                 </li>
                 <li>
-                  ✔ Your materials will NOT be reviewed by or distributed to any
-                  person.
+                  ✔ Only you and the literary agent participating in that
+                  conversation may access the attachment through Write Query
+                  Hook.
                 </li>
               </ul>
               <p>
-                We are committed to ensuring that your submissions are analyzed
-                securely and privately in compliance with our non-retention
-                policies and applicable data protection laws, including GDPR.
+                You can delete an attachment from Write Query Hook at any time,
+                and account-erasure requests remove remaining stored files.
+                Deleting a file prevents future access through our service but
+                cannot recall a copy that an agent already downloaded.
               </p>
             </section>
 
@@ -235,6 +238,13 @@ const PrivacyPolicy = () => {
                   7 years).
                 </li>
                 <li>✔ Marketing Data: Retained until you unsubscribe.</li>
+                <li>
+                  ✔ Manuscript Attachments: Stored while the query is active and
+                  deleted no later than 90 days after the query reaches a final
+                  status, unless you delete the file or request account erasure
+                  sooner. Minimal audit metadata may be retained where required
+                  for security, legal, or compliance purposes.
+                </li>
                 <li>
                   ✔ Cookies & Analytics Data: Based on browser settings and
                   expiration policies.

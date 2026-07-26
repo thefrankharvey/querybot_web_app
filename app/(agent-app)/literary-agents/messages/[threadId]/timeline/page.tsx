@@ -173,7 +173,6 @@ export default async function AgentQueryTimelinePage({
               <QueryStatusActions
                 progress={timelineData.queryProgress}
                 threadId={threadId}
-                viewerRole="agent"
               />
             </div>
             <QueryTimelineList

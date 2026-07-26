@@ -27,6 +27,25 @@ without the matching header are rejected. During a staged rollout, leaving the
 variable unset on both services preserves the existing messaging API behavior.
 Never expose it through a `NEXT_PUBLIC_` variable or browser code.
 
+Manuscript attachments are enabled for the requested/review query stages unless
+explicitly disabled. Configure the canonical storage host on this Next.js
+service before end-to-end testing:
+
+```bash
+SUPABASE_URL=https://CANONICAL_PROJECT_REF.supabase.co
+# Optional when the backend uses a direct-storage hostname override:
+SUPABASE_DIRECT_STORAGE_URL=https://CANONICAL_PROJECT_REF.storage.supabase.co
+# Optional kill switch:
+MANUSCRIPT_ATTACHMENTS_ENABLED=false
+```
+
+`SUPABASE_URL` must identify the same canonical Supabase project used by the
+Flask messaging API. The existing `NEXT_PUBLIC_SUPABASE_URL` may identify a
+different frontend project and is intentionally not trusted for manuscript
+upload or download redirects. Set `MANUSCRIPT_ATTACHMENTS_ENABLED=false` until
+the backend migrations and matching storage configuration are deployed when a
+deployment needs to remain dark.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

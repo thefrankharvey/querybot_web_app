@@ -13,6 +13,8 @@ import {
   getProjectMessagesHref,
 } from "@/app/utils/message-routes";
 import type {
+  AttachmentMutationResponse,
+  AttachmentUploadIntentResponse,
   AgentActivityBenchmark,
   AgentActivityResponse,
   AgentActivityViewerEvent,
@@ -47,7 +49,18 @@ import {
   normalizeQueryStatusCode,
   queryStatusUnlocksWriterReply,
 } from "@/app/utils/message-types";
+import {
+  ALLOWED_MANUSCRIPT_TYPES,
+  MANUSCRIPT_TUS_CHUNK_SIZE_BYTES,
+  MAX_MANUSCRIPT_BYTES,
+  normalizeMessageAttachment,
+} from "@/app/utils/manuscript-attachments";
 import type {
+  WireAttachmentDeleteRequest,
+  WireAttachmentDownloadResponse,
+  WireAttachmentMutationResponse,
+  WireAttachmentUploadIntentRequest,
+  WireAttachmentUploadIntentResponse,
   WireAgentActivityBenchmark,
   WireAgentActivityResponse,
   WireAgentActivityViewerEvent,
@@ -55,10 +68,13 @@ import type {
   WireCreateMessageThreadRequest,
   WireCreateThreadResponse,
   WireMessage,
+  WireMessageAttachment,
+  WireMessageAttachmentStatus,
   WireMessageMutationResponse,
   WireMessageReadState,
   WireMessageThread,
   WireMessageThreadIdentity,
+  WireMessageErrorResponse,
   WireMessageThreadsResponse,
   WireQueryProgress,
   WireQueryStatusEvent,
@@ -155,21 +171,25 @@ type ResolvedAvailableAgentMessageProfile = ResolvedAgentMessageProfile & {
 
 export class WriterMessageApiError extends Error {
   status: number;
+  code?: string;
 
-  constructor(message: string, status: number) {
+  constructor(message: string, status: number, code?: string) {
     super(message);
     this.name = "WriterMessageApiError";
     this.status = status;
+    this.code = code;
   }
 }
 
 export class AgentMessageApiError extends Error {
   status: number;
+  code?: string;
 
-  constructor(message: string, status: number) {
+  constructor(message: string, status: number, code?: string) {
     super(message);
     this.name = "AgentMessageApiError";
     this.status = status;
+    this.code = code;
   }
 }
 
@@ -248,6 +268,15 @@ function getApiErrorMessage(body: unknown, fallback: string) {
   return candidate.status === "error" && typeof candidate.message === "string"
     ? candidate.message
     : fallback;
+}
+
+function getApiErrorCode(body: unknown) {
+  if (!body || typeof body !== "object" || Array.isArray(body)) return undefined;
+
+  const candidate = body as { status?: unknown; code?: unknown };
+  return candidate.status === "error" && typeof candidate.code === "string"
+    ? candidate.code.trim() || undefined
+    : undefined;
 }
 
 function getNumber(value: unknown, fallback = 0) {
@@ -897,7 +926,7 @@ async function enrichAgentThreadWriterNames(
   }
 }
 
-function normalizeMessage(message: MessageApiRow): WriterMessage {
+export function normalizeMessage(message: MessageApiRow): WriterMessage {
   const messageId = getString(message.message_id) || getString(message.id);
 
   return {
@@ -907,6 +936,9 @@ function normalizeMessage(message: MessageApiRow): WriterMessage {
     senderRole: normalizeSenderRole(message.sender_role),
     body: getString(message.body),
     createdAt: getString(message.created_at),
+    attachments: Array.isArray(message.attachments)
+      ? message.attachments.map(normalizeMessageAttachment)
+      : [],
   };
 }
 
@@ -1879,33 +1911,6 @@ export async function updateAgentThreadReadState({
   return normalizeReadStateResponse(body, AgentMessageApiError);
 }
 
-export async function transitionWriterQueryStatus({
-  routeProjectId,
-  threadId,
-  transition,
-}: {
-  routeProjectId: string;
-  threadId: string;
-  transition: QueryStatusTransitionInput;
-}): Promise<QueryStatusTransitionResponse> {
-  const resolvedProject = await resolveWriterMessageProject(routeProjectId);
-
-  if (!resolvedProject) {
-    throw new WriterMessageApiError("Project not found", 404);
-  }
-
-  const availableProject = assertAvailableProject(resolvedProject);
-  await assertWriterThreadInProject(threadId, availableProject);
-  const body = await postQueryStatusTransition(
-    threadId,
-    transition,
-    writerIdentity(availableProject),
-    WriterMessageApiError,
-  );
-
-  return normalizeTransitionResponse(body, WriterMessageApiError);
-}
-
 export async function transitionAgentQueryStatus({
   threadId,
   transition,
@@ -1969,6 +1974,399 @@ export async function getAgentActivityData({
   );
 
   return normalizeAgentActivityResponse(body, AgentMessageApiError);
+}
+
+type AttachmentApiResponse<TSuccess> = TSuccess | WireMessageErrorResponse;
+
+function throwAttachmentApiError(
+  response: Response,
+  body: unknown,
+  fallback: string,
+  ErrorType: typeof WriterMessageApiError | typeof AgentMessageApiError,
+): never {
+  throw new ErrorType(
+    getApiErrorMessage(body, fallback),
+    response.ok ? 502 : response.status || 502,
+    getApiErrorCode(body),
+  );
+}
+
+function assertWriterAttachmentResponse({
+  attachment,
+  attachmentId,
+  expectedStatuses,
+  fallback,
+  threadId,
+}: {
+  attachment: WireMessageAttachment | null | undefined;
+  attachmentId?: string;
+  expectedStatuses: WireMessageAttachmentStatus[];
+  fallback: string;
+  threadId: string;
+}) {
+  const rawStatus = getString(attachment?.status);
+  const rawSizeBytes = attachment?.size_bytes;
+  const rawMessageId = attachment?.message_id;
+  const normalized = normalizeMessageAttachment(attachment);
+  const hasValidMessageId =
+    rawMessageId === null ||
+    (typeof rawMessageId === "string" && Boolean(rawMessageId.trim()));
+  const hasCanonicalContentType =
+    normalized.contentType === ALLOWED_MANUSCRIPT_TYPES.pdf ||
+    normalized.contentType === ALLOWED_MANUSCRIPT_TYPES.docx;
+
+  if (
+    !normalized.attachmentId ||
+    normalized.threadId !== threadId ||
+    (attachmentId && normalized.attachmentId !== attachmentId) ||
+    !expectedStatuses.includes(rawStatus as WireMessageAttachmentStatus) ||
+    !getString(attachment?.filename) ||
+    !hasCanonicalContentType ||
+    typeof rawSizeBytes !== "number" ||
+    !Number.isFinite(rawSizeBytes) ||
+    rawSizeBytes <= 0 ||
+    rawSizeBytes > MAX_MANUSCRIPT_BYTES ||
+    !getString(attachment?.created_at) ||
+    !hasValidMessageId ||
+    (expectedStatuses.some(
+      (status) => status === "pending_upload" || status === "ready",
+    ) &&
+      normalized.messageId !== null)
+  ) {
+    throw new WriterMessageApiError(
+      fallback,
+      502,
+      "ATTACHMENT_STORAGE_UNAVAILABLE",
+    );
+  }
+
+  return normalized;
+}
+
+function normalizeAttachmentMutation(
+  body: WireAttachmentMutationResponse,
+  {
+    attachmentId,
+    expectedStatuses,
+    fallback,
+    threadId,
+  }: {
+    attachmentId: string;
+    expectedStatuses: WireMessageAttachmentStatus[];
+    fallback: string;
+    threadId: string;
+  },
+): AttachmentMutationResponse {
+  return {
+    status: "success",
+    attachment: assertWriterAttachmentResponse({
+      attachment: body.attachment,
+      attachmentId,
+      expectedStatuses,
+      fallback,
+      threadId,
+    }),
+  };
+}
+
+export async function createWriterAttachmentUploadIntent({
+  contentType,
+  consentVersion,
+  filename,
+  routeProjectId,
+  sizeBytes,
+  threadId,
+}: {
+  contentType: string;
+  consentVersion: string;
+  filename: string;
+  routeProjectId: string;
+  sizeBytes: number;
+  threadId: string;
+}): Promise<AttachmentUploadIntentResponse> {
+  const resolvedProject = await resolveWriterMessageProject(routeProjectId);
+
+  if (!resolvedProject) {
+    throw new WriterMessageApiError("Project not found", 404);
+  }
+
+  const availableProject = assertAvailableProject(resolvedProject);
+  await assertWriterThreadInProject(threadId, availableProject);
+  const requestBody: WireAttachmentUploadIntentRequest = {
+    ...getIdentityBody(writerIdentity(availableProject)),
+    writer_project_id: availableProject.project.writerProjectId,
+    filename,
+    content_type: contentType,
+    size_bytes: sizeBytes,
+    consent_version: consentVersion,
+  };
+  const response = await fetchWqhMessageApi(
+    buildWqhMessageUrl(
+      `/message-threads/${encodeURIComponent(threadId)}/attachments/upload-intents`,
+    ),
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody),
+      cache: "no-store",
+    },
+  );
+  const responseBody = await parseApiJson<
+    AttachmentApiResponse<WireAttachmentUploadIntentResponse>
+  >(response);
+
+  if (!response.ok || responseBody?.status !== "success") {
+    throwAttachmentApiError(
+      response,
+      responseBody,
+      "Failed to create manuscript upload",
+      WriterMessageApiError,
+    );
+  }
+
+  const upload = getRecord(responseBody.upload);
+  const attachment = assertWriterAttachmentResponse({
+    attachment: responseBody.attachment,
+    expectedStatuses: ["pending_upload"],
+    fallback: "The manuscript upload service returned an invalid handoff.",
+    threadId,
+  });
+  const bucket = getString(upload.bucket);
+  const objectPath = getString(upload.object_path);
+  const resumableEndpoint = getString(upload.resumable_endpoint);
+  const token = getString(upload.token);
+  const expiresAt = getString(upload.expires_at);
+  const chunkSizeBytes = getNumber(upload.chunk_size_bytes);
+
+  if (
+    attachment.messageId !== null ||
+    attachment.contentType !== contentType ||
+    attachment.sizeBytes !== sizeBytes ||
+    bucket !== "manuscripts" ||
+    !objectPath ||
+    !resumableEndpoint ||
+    !token ||
+    !expiresAt ||
+    chunkSizeBytes !== MANUSCRIPT_TUS_CHUNK_SIZE_BYTES
+  ) {
+    throw new WriterMessageApiError(
+      "The manuscript upload service returned an invalid handoff.",
+      502,
+      "ATTACHMENT_STORAGE_UNAVAILABLE",
+    );
+  }
+
+  return {
+    status: "success",
+    attachment,
+    upload: {
+      bucket,
+      objectPath,
+      resumableEndpoint,
+      token,
+      expiresAt,
+      chunkSizeBytes,
+    },
+  };
+}
+
+export async function finalizeWriterAttachment({
+  attachmentId,
+  routeProjectId,
+  threadId,
+}: {
+  attachmentId: string;
+  routeProjectId: string;
+  threadId: string;
+}): Promise<AttachmentMutationResponse> {
+  const resolvedProject = await resolveWriterMessageProject(routeProjectId);
+
+  if (!resolvedProject) {
+    throw new WriterMessageApiError("Project not found", 404);
+  }
+
+  const availableProject = assertAvailableProject(resolvedProject);
+  await assertWriterThreadInProject(threadId, availableProject);
+  const requestBody = {
+    ...getIdentityBody(writerIdentity(availableProject)),
+    writer_project_id: availableProject.project.writerProjectId,
+  };
+  const response = await fetchWqhMessageApi(
+    buildWqhMessageUrl(
+      `/message-threads/${encodeURIComponent(threadId)}/attachments/${encodeURIComponent(attachmentId)}/finalize`,
+    ),
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody),
+      cache: "no-store",
+    },
+  );
+  const responseBody = await parseApiJson<
+    AttachmentApiResponse<WireAttachmentMutationResponse>
+  >(response);
+
+  if (!response.ok || responseBody?.status !== "success") {
+    throwAttachmentApiError(
+      response,
+      responseBody,
+      "Failed to finalize manuscript upload",
+      WriterMessageApiError,
+    );
+  }
+
+  return normalizeAttachmentMutation(responseBody, {
+    attachmentId,
+    expectedStatuses: ["ready"],
+    fallback: "The manuscript finalize service returned an invalid response.",
+    threadId,
+  });
+}
+
+export async function deleteWriterAttachment({
+  attachmentId,
+  routeProjectId,
+  threadId,
+}: {
+  attachmentId: string;
+  routeProjectId: string;
+  threadId: string;
+}): Promise<AttachmentMutationResponse> {
+  const resolvedProject = await resolveWriterMessageProject(routeProjectId);
+
+  if (!resolvedProject) {
+    throw new WriterMessageApiError("Project not found", 404);
+  }
+
+  const availableProject = assertAvailableProject(resolvedProject);
+  await assertWriterThreadInProject(threadId, availableProject);
+  const requestBody: WireAttachmentDeleteRequest = {
+    ...getIdentityBody(writerIdentity(availableProject)),
+    writer_project_id: availableProject.project.writerProjectId,
+    reason: "writer_deleted",
+  };
+  const response = await fetchWqhMessageApi(
+    buildWqhMessageUrl(
+      `/message-threads/${encodeURIComponent(threadId)}/attachments/${encodeURIComponent(attachmentId)}`,
+    ),
+    {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody),
+      cache: "no-store",
+    },
+  );
+  const responseBody = await parseApiJson<
+    AttachmentApiResponse<WireAttachmentMutationResponse>
+  >(response);
+
+  if (!response.ok || responseBody?.status !== "success") {
+    throwAttachmentApiError(
+      response,
+      responseBody,
+      "Failed to delete manuscript",
+      WriterMessageApiError,
+    );
+  }
+
+  return normalizeAttachmentMutation(responseBody, {
+    attachmentId,
+    expectedStatuses: ["deleted"],
+    fallback: "The manuscript deletion service returned an invalid response.",
+    threadId,
+  });
+}
+
+async function fetchAttachmentDownload(
+  threadId: string,
+  attachmentId: string,
+  identity: BackendMessageIdentity,
+  ErrorType: typeof WriterMessageApiError | typeof AgentMessageApiError,
+) {
+  const response = await fetchWqhMessageApi(
+    buildWqhMessageUrl(
+      `/message-threads/${encodeURIComponent(threadId)}/attachments/${encodeURIComponent(attachmentId)}/download-url`,
+    ),
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(getIdentityBody(identity)),
+      cache: "no-store",
+    },
+  );
+  const responseBody = await parseApiJson<
+    AttachmentApiResponse<WireAttachmentDownloadResponse>
+  >(response);
+
+  if (!response.ok || responseBody?.status !== "success") {
+    throwAttachmentApiError(
+      response,
+      responseBody,
+      "The manuscript is not available for download.",
+      ErrorType,
+    );
+  }
+
+  const download = getRecord(responseBody.download);
+  const url = getString(download.url);
+  const expiresAt = getString(download.expires_at);
+  const filename = getString(download.filename);
+  if (!url || !expiresAt || !filename) {
+    throw new ErrorType(
+      "The manuscript download service returned an invalid response.",
+      502,
+      "ATTACHMENT_STORAGE_UNAVAILABLE",
+    );
+  }
+
+  return {
+    url,
+    expiresAt,
+    filename,
+  };
+}
+
+export async function getWriterAttachmentDownload({
+  attachmentId,
+  routeProjectId,
+  threadId,
+}: {
+  attachmentId: string;
+  routeProjectId: string;
+  threadId: string;
+}) {
+  const resolvedProject = await resolveWriterMessageProject(routeProjectId);
+
+  if (!resolvedProject) {
+    throw new WriterMessageApiError("Project not found", 404);
+  }
+
+  const availableProject = assertAvailableProject(resolvedProject);
+  await assertWriterThreadInProject(threadId, availableProject);
+  return fetchAttachmentDownload(
+    threadId,
+    attachmentId,
+    writerIdentity(availableProject),
+    WriterMessageApiError,
+  );
+}
+
+export async function getAgentAttachmentDownload({
+  attachmentId,
+  threadId,
+}: {
+  attachmentId: string;
+  threadId: string;
+}) {
+  const availableAgent = assertAvailableAgent(
+    await resolveAgentMessageProfile(),
+  );
+  return fetchAttachmentDownload(
+    threadId,
+    attachmentId,
+    agentIdentity(availableAgent),
+    AgentMessageApiError,
+  );
 }
 
 function isSelectedWriterMessageRecipient({
@@ -2143,7 +2541,8 @@ export async function sendAgentThreadReply({
   if (!response.ok || responseBody?.status !== "success") {
     throw new AgentMessageApiError(
       getApiErrorMessage(responseBody, "Failed to send reply"),
-      response.status || 502,
+      response.ok ? 502 : response.status || 502,
+      getApiErrorCode(responseBody),
     );
   }
 
@@ -2159,14 +2558,33 @@ export async function sendAgentThreadReply({
 }
 
 export async function sendWriterThreadReply({
+  attachmentIds = [],
   body,
   routeProjectId,
   threadId,
 }: {
+  attachmentIds?: string[];
   body: string;
   routeProjectId: string;
   threadId: string;
 }): Promise<WriterReplyResponse> {
+  const normalizedAttachmentIds = attachmentIds
+    .map((attachmentId) => attachmentId.trim())
+    .filter(Boolean);
+  const normalizedBody = body.trim();
+
+  if (normalizedAttachmentIds.length > 1) {
+    throw new WriterMessageApiError(
+      "Only one manuscript can be attached to a message.",
+      400,
+      "ATTACHMENT_INVALID_REQUEST",
+    );
+  }
+
+  if (!normalizedBody && normalizedAttachmentIds.length === 0) {
+    throw new WriterMessageApiError("Reply body is required", 400);
+  }
+
   const resolvedProject = await resolveWriterMessageProject(routeProjectId);
 
   if (!resolvedProject) {
@@ -2195,7 +2613,10 @@ export async function sendWriterThreadReply({
   const requestBody: WireCreateMessageRequest = {
     user_id: availableProject.writerUserId,
     role: "writer",
-    body: body.trim(),
+    body: normalizedBody,
+    ...(normalizedAttachmentIds.length > 0
+      ? { attachment_ids: normalizedAttachmentIds }
+      : {}),
   };
   const response = await fetchWqhMessageApi(
     buildWqhMessageUrl(
@@ -2215,7 +2636,8 @@ export async function sendWriterThreadReply({
   if (!response.ok || responseBody?.status !== "success") {
     throw new WriterMessageApiError(
       getApiErrorMessage(responseBody, "Failed to send reply"),
-      response.status || 502,
+      response.ok ? 502 : response.status || 502,
+      getApiErrorCode(responseBody),
     );
   }
 

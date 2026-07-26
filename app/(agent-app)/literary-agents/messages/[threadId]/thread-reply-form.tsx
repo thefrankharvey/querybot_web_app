@@ -4,7 +4,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Send, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-import { buildConversationItems } from "@/app/components/messages/conversation-items";
+import {
+  buildConversationItems,
+  mergeMessagePages,
+} from "@/app/components/messages/conversation-items";
+import { MessageAttachmentCard } from "@/app/components/messages/message-attachment-card";
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
 import { ConversationLifecycleDivider } from "@/app/components/messages/query-lifecycle";
 import { useAgentReadStateMutation } from "@/app/hooks/use-message-query-lifecycle";
@@ -21,19 +25,6 @@ import type {
 import { cn } from "@/app/utils";
 
 const MAX_LINKED_MESSAGE_PAGES = 10;
-
-function mergeMessagePages(
-  olderMessages: WriterMessage[],
-  currentMessages: WriterMessage[],
-) {
-  const currentIds = new Set(
-    currentMessages.map((message) => message.messageId),
-  );
-  return [
-    ...olderMessages.filter((message) => !currentIds.has(message.messageId)),
-    ...currentMessages,
-  ];
-}
 
 function getLinkedMessageId() {
   const prefix = "#message-";
@@ -81,9 +72,19 @@ function MessageBubble({
             />
           ) : null}
         </div>
-        <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
-          {message.body}
-        </p>
+        {message.body.trim() ? (
+          <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
+            {message.body}
+          </p>
+        ) : null}
+        {message.attachments.map((attachment) => (
+          <MessageAttachmentCard
+            attachment={attachment}
+            key={attachment.attachmentId}
+            threadId={message.threadId}
+            viewerRole="agent"
+          />
+        ))}
       </article>
     </div>
   );

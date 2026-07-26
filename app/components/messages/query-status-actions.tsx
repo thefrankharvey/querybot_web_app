@@ -23,7 +23,6 @@ import { Textarea } from "@/app/ui-primitives/textarea";
 import {
   MessageClientApiError,
   useAgentQueryStatusTransition,
-  useWriterQueryStatusTransition,
 } from "@/app/hooks/use-message-query-lifecycle";
 import type {
   QueryStatusCode,
@@ -144,33 +143,21 @@ function QueryStatusActionButtons({
 
 export function QueryStatusActions({
   progress,
-  projectId,
   threadId,
-  viewerRole,
 }: {
   progress: QueryProgressLike;
-  projectId?: string;
   threadId: string;
-  viewerRole: "agent" | "writer";
 }) {
   const router = useRouter();
-  const agentMutation = useAgentQueryStatusTransition({ threadId });
-  const writerMutation = useWriterQueryStatusTransition({
-    projectId: projectId ?? "",
-    threadId,
-  });
-  const mutation = viewerRole === "agent" ? agentMutation : writerMutation;
+  const mutation = useAgentQueryStatusTransition({ threadId });
   const [selectedStatus, setSelectedStatus] =
     useState<QueryStatusTransitionCode | null>(null);
   const [dueDate, setDueDate] = useState("");
   const [note, setNote] = useState("");
   const [error, setError] = useState<string | null>(null);
   const lastTriggerRef = useRef<HTMLButtonElement | null>(null);
-  const allowedTransitions = progress.allowedTransitions
-    .filter(isManualTransition)
-    .filter((status) =>
-      viewerRole === "writer" ? status === "closed_no_response" : true,
-    );
+  const allowedTransitions =
+    progress.allowedTransitions.filter(isManualTransition);
   const restoreTriggerFocus = () => {
     requestAnimationFrame(() => lastTriggerRef.current?.focus());
   };

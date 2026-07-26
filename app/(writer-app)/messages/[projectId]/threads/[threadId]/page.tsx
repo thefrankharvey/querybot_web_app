@@ -3,15 +3,13 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 
 import {
-  MobileQueryProgress,
-  QueryProgressRail,
   QueryStatusBadge,
   ThreadViewNavigation,
 } from "@/app/components/messages/query-lifecycle";
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
-import { QueryStatusActions } from "@/app/components/messages/query-status-actions";
 import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
+import { isManuscriptAttachmentsEnabled } from "@/app/utils/manuscript-attachment-urls.server";
 import {
   getCanonicalMessageThreadHref,
   getWriterQueryTimelineData,
@@ -28,10 +26,15 @@ import { ThreadReplyForm } from "./thread-reply-form";
 
 export default async function WriterMessageThreadPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ projectId: string; threadId: string }>;
+  searchParams: Promise<{ shareManuscript?: string | string[] }>;
 }) {
-  const { projectId, threadId } = await params;
+  const [{ projectId, threadId }, resolvedSearchParams] = await Promise.all([
+    params,
+    searchParams,
+  ]);
   let data;
   let timelineData = null;
 
@@ -95,14 +98,6 @@ export default async function WriterMessageThreadPage({
     data.queryProgress ??
     data.thread?.queryProgress;
   const timelineEvents = timelineData?.events ?? [];
-  const statusActions = queryProgress ? (
-    <QueryStatusActions
-      progress={queryProgress}
-      projectId={data.project.projectId}
-      threadId={threadId}
-      viewerRole="writer"
-    />
-  ) : null;
 
   return (
     <div className="ambient-page flex min-h-full flex-col px-4 py-6">
@@ -152,54 +147,41 @@ export default async function WriterMessageThreadPage({
             />
           </header>
 
-          <MobileQueryProgress
-            actions={statusActions}
-            events={timelineEvents}
-            progress={queryProgress}
-            timelineHref={timelineHref}
-            viewerRole="writer"
-          />
-
-          <div className="grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_21rem]">
-            <section
-              aria-label="Conversation"
-              className="glass-panel-strong flex min-w-0 flex-col gap-4 p-4 md:p-5"
-            >
-              {!data.project.isMessagingAvailable ? (
-                <div className="flex min-h-52 flex-col items-center justify-center gap-3 rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-10 text-center">
-                  <Inbox className="size-8 text-accent/55" />
-                  <div className="max-w-md">
-                    <h3 className="text-base font-semibold text-accent">
-                      Messages are not available for this project yet
-                    </h3>
-                    <p className="mt-1 text-sm leading-6 text-accent/76">
-                      This project needs a synced writer project before message
-                      threads can load.
-                    </p>
-                  </div>
+          <section
+            aria-label="Conversation"
+            className="glass-panel-strong flex min-w-0 flex-col gap-4 p-4 md:p-5"
+          >
+            {!data.project.isMessagingAvailable ? (
+              <div className="flex min-h-52 flex-col items-center justify-center gap-3 rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-10 text-center">
+                <Inbox className="size-8 text-accent/55" />
+                <div className="max-w-md">
+                  <h3 className="text-base font-semibold text-accent">
+                    Messages are not available for this project yet
+                  </h3>
+                  <p className="mt-1 text-sm leading-6 text-accent/76">
+                    This project needs a synced writer project before message
+                    threads can load.
+                  </p>
                 </div>
-              ) : (
-                <ThreadReplyForm
-                  initialCanWriterReply={data.canWriterReply}
-                  initialMessages={data.messages}
-                  initialNextBefore={data.nextBefore}
-                  initialQueryVersion={queryProgress?.version ?? null}
-                  initialTimelineEvents={timelineEvents}
-                  projectId={data.project.projectId}
-                  threadId={data.threadId}
-                />
-              )}
-            </section>
-            <aside className="sticky top-6 hidden self-start xl:block">
-              <QueryProgressRail
-                actions={statusActions}
-                events={timelineEvents}
-                progress={queryProgress}
-                timelineHref={timelineHref}
-                viewerRole="writer"
+              </div>
+            ) : (
+              <ThreadReplyForm
+                agentName={data.thread?.agentName || "the literary agent"}
+                attachmentsEnabled={isManuscriptAttachmentsEnabled()}
+                initialCanWriterReply={data.canWriterReply}
+                initialMessages={data.messages}
+                initialNextBefore={data.nextBefore}
+                initialQueryStatus={queryProgress?.currentCode ?? null}
+                initialQueryVersion={queryProgress?.version ?? null}
+                initialShareManuscriptOpen={
+                  resolvedSearchParams.shareManuscript === "1"
+                }
+                initialTimelineEvents={timelineEvents}
+                projectId={data.project.projectId}
+                threadId={data.threadId}
               />
-            </aside>
-          </div>
+            )}
+          </section>
         </div>
       </div>
     </div>

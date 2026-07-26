@@ -70,7 +70,6 @@ export default async function LiteraryAgentMessageThreadPage({
     <QueryStatusActions
       progress={queryProgress}
       threadId={threadId}
-      viewerRole="agent"
     />
   ) : null;
 

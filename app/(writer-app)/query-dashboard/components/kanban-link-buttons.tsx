@@ -1,7 +1,7 @@
 import { Button } from "@/app/ui-primitives/button";
 import { urlFormatter } from "@/app/utils";
 import type { KanbanCardData } from "./kanban-card";
-import { Activity, ExternalLink, MessageSquare } from "lucide-react";
+import { Activity, ExternalLink, FileUp, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { getSavedAgentComposeMessageHref } from "@/app/(writer-app)/agent-matches/project-scoped-agent-messaging";
@@ -9,6 +9,7 @@ import { useMemo } from "react";
 import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
 import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
 import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
+import { isManuscriptUploadVisible } from "@/app/utils/manuscript-attachments";
 
 interface KanbanLinkButtonsProps {
   card: KanbanCardData;
@@ -35,6 +36,12 @@ export const KanbanLinkButtons = ({ card }: KanbanLinkButtonsProps) => {
         projectName: card.projectName,
         writerProjectId: card.writerProjectId,
       });
+  const canShareManuscript =
+    Boolean(card.messageThreadId && messageHref) &&
+    isManuscriptUploadVisible(card.queryProgress?.currentCode);
+  const shareManuscriptHref = canShareManuscript
+    ? `${messageHref}?shareManuscript=1`
+    : null;
 
   return (
     <div className="flex gap-3 flex-wrap">
@@ -76,6 +83,18 @@ export const KanbanLinkButtons = ({ card }: KanbanLinkButtonsProps) => {
             <MessageSquare data-icon="inline-start" />
           )}
           {card.messageThreadId ? "View Query" : "Message"}
+        </Button>
+      ) : null}
+      {shareManuscriptHref ? (
+        <Button
+          className="w-fit text-xs shadow-lg hover:shadow-xl"
+          onClick={() => {
+            router.push(shareManuscriptHref);
+          }}
+          size="sm"
+        >
+          <FileUp data-icon="inline-start" />
+          Share manuscript
         </Button>
       ) : null}
       {card.index_id && (

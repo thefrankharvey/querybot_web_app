@@ -88,9 +88,9 @@ export const QUERY_STATUS_METADATA: Record<
     tone: "negative",
   },
   closed_no_response: {
-    description: "The writer closed the query after receiving no response.",
+    description: "This query closed without a recorded response.",
     icon: TimerOff,
-    label: "Closed — no response",
+    label: "No response recorded",
     shortLabel: "No response",
     tone: "muted",
   },
@@ -151,7 +151,7 @@ export function formatDayCount(days: number | null) {
 function getStatusToneClass(tone: QueryStatusMetadata["tone"]) {
   switch (tone) {
     case "negative":
-      return "border-destructive/20 bg-destructive/8 text-destructive";
+      return "border-accent/14 bg-accent/6 text-accent/76";
     case "positive":
       return "border-accent bg-accent text-white";
     case "active":
@@ -540,7 +540,7 @@ export function QueryProgressRail({
         </div>
       </div>
       <Button asChild size="sm" variant="outline">
-        <Link href={timelineHref}>View timeline &amp; agent activity</Link>
+        <Link href={timelineHref}>View agent activity</Link>
       </Button>
     </section>
   );
@@ -591,7 +591,7 @@ export function MobileQueryProgress({
           </div>
         </div>
         <Button asChild size="sm" variant="outline">
-          <Link href={timelineHref}>View timeline &amp; agent activity</Link>
+          <Link href={timelineHref}>View agent activity</Link>
         </Button>
       </div>
     </details>
@@ -633,7 +633,7 @@ export function ThreadViewNavigation({
           aria-current={activeView === "timeline" ? "page" : undefined}
           href={timelineHref}
         >
-          Timeline &amp; agent activity
+          Agent activity
         </Link>
       </Button>
     </nav>

@@ -15,7 +15,6 @@ import {
   getWriterMessageThreadApiHref,
   getWriterMessageThreadsApiHref,
   getWriterQueryTimelineApiHref,
-  getWriterQueryTransitionApiHref,
   getWriterReadStateApiHref,
   getWriterThreadMessagesApiHref,
 } from "@/app/utils/message-routes";
@@ -360,7 +359,7 @@ export function useAgentQueryTimeline({
 export function useWriterAgentActivity({
   projectId,
   threadId,
-  window = "90",
+  window = "all",
   enabled = true,
   initialData,
 }: QueryHookOptions<AgentActivityResponse> & {
@@ -476,38 +475,6 @@ function withClientIdempotencyKey(
     ...transition,
     idempotencyKey: globalThis.crypto.randomUUID(),
   };
-}
-
-export function useWriterQueryStatusTransition({
-  projectId,
-  threadId,
-}: {
-  projectId: string;
-  threadId: string;
-}) {
-  const queryClient = useQueryClient();
-
-  return useMutation({
-    retry: false,
-    mutationFn: (transition: QueryStatusTransitionInput) =>
-      fetchMessageJson<QueryStatusTransitionResponse>(
-        getWriterQueryTransitionApiHref(threadId),
-        jsonRequest("POST", {
-          projectId,
-          ...withClientIdempotencyKey(transition),
-        }),
-      ),
-    onError: async (error) => {
-      if (error instanceof MessageClientApiError && error.status === 409) {
-        await queryClient.refetchQueries({
-          queryKey: messageQueryKeys.writer.thread(projectId, threadId),
-          type: "active",
-        });
-      }
-    },
-    onSettled: () =>
-      invalidateWriterThreadQueries(queryClient, projectId, threadId),
-  });
 }
 
 export function useAgentQueryStatusTransition({

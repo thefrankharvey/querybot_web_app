@@ -1,16 +1,24 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Send, X } from "lucide-react";
+import { Clock3, Send, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-import { buildConversationItems } from "@/app/components/messages/conversation-items";
+import {
+  buildConversationItems,
+  mergeMessagePages,
+} from "@/app/components/messages/conversation-items";
+import { ManuscriptAttachmentPicker } from "@/app/components/messages/manuscript-attachment-picker";
+import { MessageAttachmentCard } from "@/app/components/messages/message-attachment-card";
 import { ConversationLifecycleDivider } from "@/app/components/messages/query-lifecycle";
+import { useManuscriptAttachmentUpload } from "@/app/hooks/use-manuscript-attachment-upload";
 import { useWriterReadStateMutation } from "@/app/hooks/use-message-query-lifecycle";
 import { Button } from "@/app/ui-primitives/button";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { Textarea } from "@/app/ui-primitives/textarea";
 import type {
+  AttachmentMutationResponse,
+  QueryStatusCode,
   WriterMessage,
   WriterMessageApiErrorResponse,
   QueryTimelineEvent,
@@ -18,6 +26,11 @@ import type {
   WriterThreadMessagesResponse,
 } from "@/app/utils/message-types";
 import { cn } from "@/app/utils";
+import {
+  canSendMessage,
+  getAttachmentErrorAction,
+  isManuscriptUploadVisible,
+} from "@/app/utils/manuscript-attachments";
 
 const MESSAGE_TIME_FORMATTER = new Intl.DateTimeFormat("en", {
   month: "short",
@@ -37,19 +50,6 @@ function formatMessageTime(value: string) {
   return MESSAGE_TIME_FORMATTER.format(date);
 }
 
-function mergeMessagePages(
-  olderMessages: WriterMessage[],
-  currentMessages: WriterMessage[],
-) {
-  const currentIds = new Set(
-    currentMessages.map((message) => message.messageId),
-  );
-  return [
-    ...olderMessages.filter((message) => !currentIds.has(message.messageId)),
-    ...currentMessages,
-  ];
-}
-
 function getLinkedMessageId() {
   const prefix = "#message-";
   if (!window.location.hash.startsWith(prefix)) return null;
@@ -61,7 +61,15 @@ function getLinkedMessageId() {
   }
 }
 
-function MessageBubble({ message }: { message: WriterMessage }) {
+function MessageBubble({
+  message,
+  onDeleteAttachment,
+  projectId,
+}: {
+  message: WriterMessage;
+  onDeleteAttachment: (attachmentId: string) => Promise<void>;
+  projectId: string;
+}) {
   const isWriter = message.senderRole === "writer";
 
   return (
@@ -92,41 +100,80 @@ function MessageBubble({ message }: { message: WriterMessage }) {
             </time>
           ) : null}
         </div>
-        <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
-          {message.body}
-        </p>
+        {message.body.trim() ? (
+          <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
+            {message.body}
+          </p>
+        ) : null}
+        {message.attachments.map((attachment) => (
+          <MessageAttachmentCard
+            attachment={attachment}
+            key={attachment.attachmentId}
+            onDelete={
+              isWriter && attachment.status === "attached"
+                ? () => onDeleteAttachment(attachment.attachmentId)
+                : undefined
+            }
+            projectId={projectId}
+            threadId={message.threadId}
+            viewerRole="writer"
+          />
+        ))}
       </article>
     </div>
   );
 }
 
-async function getReplyErrorMessage(response: Response) {
+async function getReplyError(response: Response) {
   try {
     const body = (await response.json()) as WriterMessageApiErrorResponse;
-    return body.message || "Failed to send reply";
+    return {
+      code: body.code,
+      message: body.message || "Failed to send reply",
+    };
   } catch {
-    return "Failed to send reply";
+    return { message: "Failed to send reply" };
   }
 }
 
+async function getReplyErrorMessage(response: Response) {
+  return (await getReplyError(response)).message;
+}
+
 export function ThreadReplyForm({
+  agentName,
+  attachmentsEnabled,
   initialCanWriterReply,
   initialMessages,
   initialNextBefore,
+  initialQueryStatus,
   initialQueryVersion,
+  initialShareManuscriptOpen,
   initialTimelineEvents,
   projectId,
   threadId,
 }: {
+  agentName: string;
+  attachmentsEnabled: boolean;
   initialCanWriterReply: boolean;
   initialMessages: WriterMessage[];
   initialNextBefore: string | null;
+  initialQueryStatus: QueryStatusCode | null;
   initialQueryVersion: number | null;
+  initialShareManuscriptOpen: boolean;
   initialTimelineEvents: QueryTimelineEvent[];
   projectId: string;
   threadId: string;
 }) {
   const router = useRouter();
+  const uploadController = useManuscriptAttachmentUpload({
+    projectId,
+    threadId,
+  });
+  const uploadAttachment = uploadController.attachment;
+  const uploadErrorCode = uploadController.error?.code;
+  const uploadPhase = uploadController.phase;
+  const removeUpload = uploadController.remove;
   const conversationRef = useRef<HTMLDivElement>(null);
   const lastReadMessageIdRef = useRef<string | null>(null);
   const queryVersionRef = useRef(initialQueryVersion);
@@ -142,12 +189,22 @@ export function ThreadReplyForm({
     null,
   );
   const [canWriterReply, setCanWriterReply] = useState(initialCanWriterReply);
+  const [queryStatus, setQueryStatus] = useState(initialQueryStatus);
   const [draft, setDraft] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [isSending, setIsSending] = useState(false);
   const trimmedDraft = draft.trim();
   const isWaitingForAgent = !canWriterReply;
-  const canSend = canWriterReply && trimmedDraft.length > 0 && !isSending;
+  const showManuscriptUpload = isManuscriptUploadVisible(
+    queryStatus,
+    attachmentsEnabled,
+  );
+  const canSend = canSendMessage({
+    attachmentReady: Boolean(uploadController.readyAttachment),
+    body: trimmedDraft,
+    canReply: canWriterReply,
+    isBusy: isSending || uploadController.isBusy,
+  });
   const conversationItems = useMemo(
     () => buildConversationItems(messages, timelineEvents),
     [messages, timelineEvents],
@@ -158,13 +215,36 @@ export function ThreadReplyForm({
       mergeMessagePages(currentMessages, initialMessages),
     );
     setCanWriterReply(initialCanWriterReply);
+    setQueryStatus(initialQueryStatus);
     setTimelineEvents(initialTimelineEvents);
     queryVersionRef.current = initialQueryVersion;
   }, [
     initialCanWriterReply,
     initialMessages,
+    initialQueryStatus,
     initialQueryVersion,
     initialTimelineEvents,
+  ]);
+
+  useEffect(() => {
+    if (uploadErrorCode === "ATTACHMENT_INVALID_QUERY_STATUS") {
+      router.refresh();
+    }
+  }, [router, uploadErrorCode]);
+
+  useEffect(() => {
+    if (
+      !showManuscriptUpload &&
+      uploadAttachment &&
+      uploadPhase !== "cancelling"
+    ) {
+      void removeUpload();
+    }
+  }, [
+    removeUpload,
+    showManuscriptUpload,
+    uploadAttachment,
+    uploadPhase,
   ]);
 
   const fetchOlderMessages = useCallback(
@@ -362,6 +442,7 @@ export function ThreadReplyForm({
 
         setMessages(result.messages);
         setCanWriterReply(result.canWriterReply);
+        setQueryStatus(result.queryProgress?.currentCode ?? null);
         if (
           result.queryProgress &&
           result.queryProgress.version !== queryVersionRef.current
@@ -413,11 +494,45 @@ export function ThreadReplyForm({
     };
   }, [router]);
 
+  const deleteSentAttachment = useCallback(
+    async (messageId: string, attachmentId: string) => {
+      const response = await fetch(
+        `/api/message-threads/${encodeURIComponent(threadId)}/attachments/${encodeURIComponent(attachmentId)}`,
+        {
+          method: "DELETE",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ projectId, reason: "writer_deleted" }),
+          cache: "no-store",
+        },
+      );
+
+      if (!response.ok) throw new Error(await getReplyErrorMessage(response));
+
+      const result = (await response.json()) as AttachmentMutationResponse;
+      setMessages((currentMessages) =>
+        currentMessages.map((message) =>
+          message.messageId === messageId
+            ? {
+                ...message,
+                attachments: message.attachments.map((messageAttachment) =>
+                  messageAttachment.attachmentId === attachmentId
+                    ? result.attachment
+                    : messageAttachment,
+                ),
+              }
+            : message,
+        ),
+      );
+    },
+    [projectId, threadId],
+  );
+
   const handleSend = async () => {
     if (!canSend) return;
 
     setIsSending(true);
     setError(null);
+    uploadController.markSending();
 
     try {
       const response = await fetch(
@@ -430,12 +545,30 @@ export function ThreadReplyForm({
           body: JSON.stringify({
             projectId,
             body: trimmedDraft,
+            attachmentIds: uploadController.readyAttachment
+              ? [uploadController.readyAttachment.attachmentId]
+              : [],
           }),
         },
       );
 
       if (!response.ok) {
-        throw new Error(await getReplyErrorMessage(response));
+        const replyError = await getReplyError(response);
+        const action = getAttachmentErrorAction(replyError.code);
+        if (uploadController.readyAttachment) {
+          if (replyError.code === "ATTACHMENT_INVALID_QUERY_STATUS") {
+            await uploadController.remove();
+            router.refresh();
+          } else if (
+            action === "restart" ||
+            action === "refresh" ||
+            action === "unavailable"
+          ) {
+            uploadController.markSent();
+            router.refresh();
+          }
+        }
+        throw new Error(replyError.message);
       }
 
       const result = (await response.json()) as WriterReplyResponse;
@@ -448,6 +581,8 @@ export function ThreadReplyForm({
         ]);
       }
       setDraft("");
+      setQueryStatus(result.queryProgress.currentCode);
+      uploadController.markSent();
       router.refresh();
     } catch (sendError) {
       setError(
@@ -492,7 +627,14 @@ export function ThreadReplyForm({
             item.kind === "event" ? (
               <ConversationLifecycleDivider event={item.event} key={item.id} />
             ) : (
-              <MessageBubble key={item.id} message={item.message} />
+              <MessageBubble
+                key={item.id}
+                message={item.message}
+                onDeleteAttachment={(attachmentId) =>
+                  deleteSentAttachment(item.message.messageId, attachmentId)
+                }
+                projectId={projectId}
+              />
             ),
           )
         ) : (
@@ -504,55 +646,73 @@ export function ThreadReplyForm({
 
       <div className="rounded-[1.25rem] border border-accent/10 bg-white/76 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
         {isWaitingForAgent ? (
-          <div className="mb-4 flex flex-col gap-1" role="status">
-            <p className="text-sm font-semibold text-accent">
-              Your query is on its way
-            </p>
-            <p className="text-sm leading-6 text-accent/76">
-              Hang tight—you’ll be able to send another message as soon as the
-              agent responds or updates your query status.
-            </p>
+          <div className="flex items-start gap-3" role="status">
+            <span className="flex size-9 shrink-0 items-center justify-center rounded-full border border-accent/10 bg-accent/6 text-accent/68">
+              <Clock3 aria-hidden className="size-4" />
+            </span>
+            <div className="flex flex-col gap-1">
+              <p className="text-sm font-semibold text-accent">
+                Waiting for the agent
+              </p>
+              <p className="text-sm leading-6 text-accent/76">
+                Your query is with the agent. You’ll be able to respond after
+                they reply or request material.
+              </p>
+            </div>
           </div>
-        ) : null}
-        <Textarea
-          aria-label="Reply"
-          disabled={isSending || isWaitingForAgent}
-          minLength={1}
-          onChange={(event) => setDraft(event.target.value)}
-          placeholder={
-            isWaitingForAgent
-              ? "Waiting for agent activity..."
-              : "Type your reply..."
-          }
-          value={draft}
-        />
-        {error ? (
-          <p className="mt-3 text-sm text-destructive" role="alert">
-            {error}
-          </p>
-        ) : null}
-        <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
-          <Button
-            type="button"
-            variant="outline"
-            onClick={() => {
-              setDraft("");
-              setError(null);
-            }}
-            disabled={isSending || draft.length === 0}
-          >
-            <X data-icon="inline-start" />
-            Cancel
-          </Button>
-          <Button type="button" onClick={handleSend} disabled={!canSend}>
-            {isSending ? (
-              <Spinner className="text-white" data-icon="inline-start" />
-            ) : (
-              <Send data-icon="inline-start" />
-            )}
-            Send
-          </Button>
-        </div>
+        ) : (
+          <>
+            <Textarea
+              aria-label="Reply"
+              disabled={isSending || uploadController.isBusy}
+              onChange={(event) => setDraft(event.target.value)}
+              placeholder="Type your reply..."
+              value={draft}
+            />
+            {showManuscriptUpload ? (
+              <ManuscriptAttachmentPicker
+                agentName={agentName}
+                controller={uploadController}
+                disabled={isSending}
+                initialOpen={initialShareManuscriptOpen}
+              />
+            ) : null}
+            {error ? (
+              <p className="mt-3 text-sm text-destructive" role="alert">
+                {error}
+              </p>
+            ) : null}
+            <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => {
+                  setDraft("");
+                  setError(null);
+                  if (uploadController.readyAttachment) {
+                    void uploadController.remove();
+                  }
+                }}
+                disabled={
+                  isSending ||
+                  uploadController.isBusy ||
+                  (draft.length === 0 && !uploadController.readyAttachment)
+                }
+              >
+                <X data-icon="inline-start" />
+                Cancel
+              </Button>
+              <Button type="button" onClick={handleSend} disabled={!canSend}>
+                {isSending ? (
+                  <Spinner className="text-white" data-icon="inline-start" />
+                ) : (
+                  <Send data-icon="inline-start" />
+                )}
+                Send
+              </Button>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
