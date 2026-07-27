@@ -4,9 +4,18 @@ import { createServerSupabase } from "../../supabase/server";
 import { AGENT_MATCHES_TABLE } from "@/app/constants";
 
 const PATCH_FIELDS = [
+  "name",
+  "email",
+  "agency_url",
+  "query_tracker",
+  "pub_marketplace",
   "fit_rating",
   "column_name",
   "updated_date",
+  "query_sent_date",
+  "pages_requested_date",
+  "rejected_date",
+  "offer_date",
   "notes",
   "query_letter_ready",
   "project_name",

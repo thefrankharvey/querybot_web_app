@@ -55,6 +55,10 @@ export interface KanbanCardData {
   pub_marketplace?: string | null;
   match_score?: number | null;
   agency_url?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   // Kanban-specific (local state)
   columnId: string;
   prepQueryLetterDone: boolean;
@@ -116,8 +120,16 @@ export function KanbanCard({
 
   const isTimingColumn =
     card.columnId === "submitted-query" || card.columnId === "pages-requested";
+  const milestoneDate =
+    card.columnId === "submitted-query"
+      ? card.query_sent_date
+      : card.columnId === "pages-requested"
+        ? card.pages_requested_date
+        : null;
   const parsedUpdatedDate =
-    isTimingColumn && card.updated_date ? parseDateOnly(card.updated_date) : null;
+    isTimingColumn && (milestoneDate || card.updated_date)
+      ? parseDateOnly(milestoneDate || card.updated_date || "")
+      : null;
   const daysAgo =
     parsedUpdatedDate ? getCalendarDayDiffFromToday(parsedUpdatedDate) : null;
   const timingText =

@@ -10,7 +10,6 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/app/ui-primitives/pagination";
-import { startSheetPolling } from "../../workers/sheet-worker-manager";
 import AgentMatchesInner from "./agent-matches-inner";
 // import TypeForm from "@/app/components/type-form";
 import { useProfileContext } from "../../context/profile-context";
@@ -53,8 +52,9 @@ export const AgentMatchesFull = ({
     sheetTaskId,
     spreadsheetUrl,
     sheetStatus,
-    startSpreadsheetPolling,
-    saveSpreadsheetUrl,
+    beginSpreadsheetExport,
+    failSpreadsheetExport,
+    handleAgentExportResponse,
     saveTotalAgents,
     projectName,
   } = useAgentMatches();
@@ -84,6 +84,7 @@ export const AgentMatchesFull = ({
       nextCursor: number;
       status: string;
       country_code: string;
+      refreshExport: boolean;
     }) => {
       // Map status values for API: "all" -> "", "open" -> "open", "closed" -> "closed"
       const statusParam = params.status === "all" ? "" : params.status;
@@ -111,7 +112,13 @@ export const AgentMatchesFull = ({
       return data;
     },
 
-    onSuccess: (data) => {
+    onMutate: (params) => {
+      if (params.refreshExport) {
+        beginSpreadsheetExport();
+      }
+    },
+
+    onSuccess: (data, params) => {
       const nextTotal =
         typeof data.total_agents === "number"
           ? data.total_agents
@@ -120,27 +127,25 @@ export const AgentMatchesFull = ({
             : null;
       saveTotalAgents(nextTotal);
 
-      if (data.matches.length > 0) {
+      if (Array.isArray(data.matches)) {
         saveMatches(data.matches);
-        if (data.next_cursor !== null) {
-          saveNextCursor(data.next_cursor);
-        }
-        if (data.task_id) {
-          startSpreadsheetPolling(data.task_id);
+      }
 
-          startSheetPolling(
-            data.task_id,
-            (url) => {
-              saveSpreadsheetUrl(url);
-            },
-            () => {
-            }
-          );
-        }
+      if (data.next_cursor !== null) {
+        saveNextCursor(data.next_cursor);
+      }
+
+      if (params.refreshExport) {
+        handleAgentExportResponse(data);
       }
     },
-    onError: (error) => {
+    onError: (error, params) => {
       console.error(error);
+      if (params.refreshExport) {
+        failSpreadsheetExport(
+          "The filtered results could not be prepared for Excel.",
+        );
+      }
     },
   });
 
@@ -152,6 +157,7 @@ export const AgentMatchesFull = ({
         nextCursor: nextCursor,
         status: statusFilter,
         country_code: countryFilter,
+        refreshExport: false,
       });
     }
     window.scrollTo({ top: 0 });
@@ -166,6 +172,7 @@ export const AgentMatchesFull = ({
         nextCursor: updatedCursor,
         status: statusFilter,
         country_code: countryFilter,
+        refreshExport: false,
       });
     }
     window.scrollTo({ top: 0 });
@@ -182,6 +189,7 @@ export const AgentMatchesFull = ({
         nextCursor: 0,
         status: newStatus,
         country_code: countryFilter,
+        refreshExport: true,
       });
     }
     window.scrollTo({ top: 0 });
@@ -198,6 +206,7 @@ export const AgentMatchesFull = ({
         nextCursor: 0,
         status: statusFilter,
         country_code: newCountry,
+        refreshExport: true,
       });
     }
     window.scrollTo({ top: 0 });

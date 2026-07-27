@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, FolderOpen, Heart } from "lucide-react";
+import { ArrowLeft, Download, FolderOpen, Heart } from "lucide-react";
 import { AgentMatch, SheetStatus } from "../../context/agent-matches-context";
 import AgentMatchCard from "./agent-match-card";
 import Link from "next/link";
@@ -55,6 +55,8 @@ export const AgentMatchesInner = ({
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
+  const isExportReady = Boolean(spreadsheetUrl);
+  const isExportPreparing = sheetStatus === "creating";
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -169,7 +171,7 @@ export const AgentMatchesInner = ({
             </div>
             <div
               className="w-full md:w-auto"
-              data-tour-target="agent-results-query-spreadsheet"
+              data-tour-target="agent-results-download-excel"
             >
               {!isSubscribed ? (
                 <TooltipComponent
@@ -184,41 +186,39 @@ export const AgentMatchesInner = ({
                       disabled={true}
                     >
                       <div className="flex items-center gap-2">
-                        <ExternalLink className="w-4 h-4 text-white" />
-                        <span>Query Spreadsheet</span>
+                        <Download data-icon="inline-start" />
+                        <span>query spreadsheet</span>
                       </div>
                     </Button>
                   </span>
                 </TooltipComponent>
+              ) : isExportReady ? (
+                <Button asChild className="w-full md:w-auto">
+                  <a href={spreadsheetUrl ?? undefined}>
+                    <Download data-icon="inline-start" />
+                    <span>query spreadsheet</span>
+                  </a>
+                </Button>
               ) : (
-                <a
-                  href={spreadsheetUrl || undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Button
+                  disabled
                   className="w-full md:w-auto"
-                  onClick={(e) => {
-                    if (sheetStatus === "pending" || !spreadsheetUrl || isLoading)
-                      e.preventDefault();
-                  }}
+                  aria-live="polite"
                 >
-                  <Button
-                    disabled={
-                      sheetStatus === "pending" || !spreadsheetUrl || isLoading
-                    }
-                    className="w-full md:w-auto"
-                  >
-                    <div className="flex items-center gap-2">
-                      {sheetStatus === "pending" ||
-                        !spreadsheetUrl ||
-                        isLoading ? (
-                        <Spinner className="w-4 h-4 text-white" />
-                      ) : (
-                        <ExternalLink className="w-4 h-4 text-white" />
-                      )}
-                      <span>Query Spreadsheet</span>
-                    </div>
-                  </Button>
-                </a>
+                  {isExportPreparing ? (
+                    <Spinner
+                      data-icon="inline-start"
+                      className="text-current"
+                    />
+                  ) : (
+                    <Download data-icon="inline-start" />
+                  )}
+                  <span>
+                    {isExportPreparing
+                      ? "Preparing Excel…"
+                      : "Excel unavailable"}
+                  </span>
+                </Button>
               )}
             </div>
             {/* <ExplanationBlock /> */}

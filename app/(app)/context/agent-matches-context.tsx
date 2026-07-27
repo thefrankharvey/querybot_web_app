@@ -6,7 +6,6 @@ import React, {
   useContext,
   useMemo,
   useState,
-  useEffect,
 } from "react";
 import {
   QueryClient,
@@ -15,8 +14,14 @@ import {
   useQuery,
   useQueryClient,
 } from "@tanstack/react-query";
+import { toast } from "sonner";
 
 import { startSheetPolling, stopSheetPolling } from "../workers/sheet-worker-manager";
+import {
+  type AgentExportApiResponse,
+  getAgentExportDownloadUrl,
+  getAgentExportErrorMessage,
+} from "../workers/agent-export-contract";
 
 export interface MatchHits {
   cluster: {
@@ -130,7 +135,12 @@ function removeKey(key: string) {
   window.localStorage.removeItem(key);
 }
 
-export type SheetStatus = "idle" | "pending" | "ready" | "timeout" | "error";
+export type SheetStatus =
+  | "creating"
+  | "failed"
+  | "idle"
+  | "ready"
+  | "timeout";
 
 const useAgentData = () => {
   const queryClient = useQueryClient();
@@ -201,13 +211,6 @@ const useAgentData = () => {
     initialData: () => readJSON<string>(STORAGE_KEYS.projectName) ?? "",
   });
 
-  // ✅ Key fix: if we're pending and the URL arrives (from any source), mark ready
-  useEffect(() => {
-    if (sheetStatus === "pending" && spreadsheetUrl) {
-      setSheetStatus("ready");
-    }
-  }, [sheetStatus, spreadsheetUrl]);
-
   const saveMatchesMutation = useMutation({
     mutationFn: async (newMatches: AgentMatch[]) => {
       writeJSON(STORAGE_KEYS.agentMatches, newMatches);
@@ -275,7 +278,10 @@ const useAgentData = () => {
       queryClient.setQueryData<string | null>(QUERY_KEYS.spreadsheetUrl, url);
     },
     onError: () => {
-      setSheetStatus("error");
+      setSheetStatus("failed");
+      toast.error("Excel export failed", {
+        description: "The Excel download could not be saved.",
+      });
     },
   });
 
@@ -325,24 +331,80 @@ const useAgentData = () => {
     [projectName, saveProjectName]
   );
 
-  // ✅ Worker-tied API: status changes are guaranteed here
+  const beginSpreadsheetExport = () => {
+    stopSheetPolling();
+    setSheetTaskId(null);
+    setSheetStatus("creating");
+    saveSpreadsheetUrlMutation.mutate(null);
+  };
+
+  const failSpreadsheetExport = (
+    message: string,
+    status: Extract<SheetStatus, "failed" | "timeout"> = "failed",
+  ) => {
+    stopSheetPolling();
+    setSheetTaskId(null);
+    setSheetStatus(status);
+    saveSpreadsheetUrlMutation.mutate(null);
+    toast.error(
+      status === "timeout"
+        ? "Excel export is taking longer than expected"
+        : "Excel export failed",
+      { description: message },
+    );
+  };
+
   const startSpreadsheetPolling = (taskId: string) => {
     setSheetTaskId(taskId);
-    setSheetStatus("pending");
-
-    // optional: clear previous url
+    setSheetStatus("creating");
     saveSpreadsheetUrlMutation.mutate(null);
 
     startSheetPolling(
       taskId,
       (url) => {
-        // if this callback is the one delivering the url, this flips immediately
+        setSheetTaskId(null);
         setSheetStatus("ready");
         saveSpreadsheetUrlMutation.mutate(url);
       },
+      (message) => {
+        failSpreadsheetExport(message);
+      },
       () => {
-        setSheetStatus("timeout");
-      }
+        failSpreadsheetExport(
+          "Please run the search again to prepare a new Excel download.",
+          "timeout",
+        );
+      },
+    );
+  };
+
+  const handleAgentExportResponse = (response: AgentExportApiResponse) => {
+    const downloadUrl = getAgentExportDownloadUrl(response);
+
+    if (downloadUrl) {
+      stopSheetPolling();
+      setSheetTaskId(null);
+      setSheetStatus("ready");
+      saveSpreadsheetUrlMutation.mutate(downloadUrl);
+      return;
+    }
+
+    if (response.status === "failed" || response.sheet_status === "failed") {
+      failSpreadsheetExport(
+        getAgentExportErrorMessage(response) ??
+          "The Excel export could not be created.",
+      );
+      return;
+    }
+
+    if (response.task_id) {
+      startSpreadsheetPolling(response.task_id);
+      return;
+    }
+
+    failSpreadsheetExport(
+      getAgentExportErrorMessage(response) ??
+        "The search completed without an Excel download.",
     );
   };
 
@@ -359,14 +421,7 @@ const useAgentData = () => {
     saveSpreadsheetUrlMutation.mutate(null);
   };
 
-  // ✅ If some other code calls saveSpreadsheetUrl directly, still flip ready
-  const saveSpreadsheetUrl = (url: string | null) => {
-    if (url) setSheetStatus("ready");
-    saveSpreadsheetUrlMutation.mutate(url);
-  };
-
   const resetForNewSearch = async () => {
-    // stop sheet-related stuff (optional, but usually correct)
     stopSheetPolling();
 
     // 1) cancel anything in flight
@@ -396,10 +451,7 @@ const useAgentData = () => {
     // If you clear statusFilter in storage, also reset it here:
     // queryClient.setQueryData<string>(QUERY_KEYS.statusFilter, "all");
 
-    // 4) reset any in-memory state
     setSheetTaskId(null);
-
-    // If you added sheetStatus earlier, reset it too:
     setSheetStatus("idle");
   };
 
@@ -418,20 +470,22 @@ const useAgentData = () => {
     isLoading,
 
     sheetStatus,
-    isSpreadsheetPending: sheetStatus === "pending",
+    isSpreadsheetPending: sheetStatus === "creating",
 
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursorMutation.mutate(count),
     saveCurrentCursor: (cursor: number) => saveCurrentCursorMutation.mutate(cursor),
     saveTotalAgents: (count: number | null) => saveTotalAgentsMutation.mutate(count),
-    saveSpreadsheetUrl,
     saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
     saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
     saveProjectName,
     renameSavedProjectName,
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
 
+    beginSpreadsheetExport,
+    failSpreadsheetExport,
+    handleAgentExportResponse,
     startSpreadsheetPolling,
     stopSpreadsheetPolling,
     resetSpreadsheet,
@@ -458,13 +512,15 @@ interface MatchesContextType {
   saveNextCursor: (count: number) => void;
   saveCurrentCursor: (cursor: number) => void;
   saveTotalAgents: (count: number | null) => void;
-  saveSpreadsheetUrl: (url: string | null) => void;
   saveStatusFilter: (status: string) => void;
   saveCountryFilter: (country: string) => void;
   saveProjectName: (name: string) => void;
   renameSavedProjectName: (oldName: string, newName: string) => boolean;
   saveSheetTaskId: (taskId: string | null) => void;
 
+  beginSpreadsheetExport: () => void;
+  failSpreadsheetExport: (message: string) => void;
+  handleAgentExportResponse: (response: AgentExportApiResponse) => void;
   startSpreadsheetPolling: (taskId: string) => void;
   stopSpreadsheetPolling: () => void;
   resetSpreadsheet: () => void;
@@ -521,13 +577,15 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       saveNextCursor: data.saveNextCursor,
       saveCurrentCursor: data.saveCurrentCursor,
       saveTotalAgents: data.saveTotalAgents,
-      saveSpreadsheetUrl: data.saveSpreadsheetUrl,
       saveStatusFilter: data.saveStatusFilter,
       saveCountryFilter: data.saveCountryFilter,
       saveProjectName: data.saveProjectName,
       renameSavedProjectName: data.renameSavedProjectName,
       saveSheetTaskId: data.saveSheetTaskId,
 
+      beginSpreadsheetExport: data.beginSpreadsheetExport,
+      failSpreadsheetExport: data.failSpreadsheetExport,
+      handleAgentExportResponse: data.handleAgentExportResponse,
       startSpreadsheetPolling: data.startSpreadsheetPolling,
       stopSpreadsheetPolling: data.stopSpreadsheetPolling,
       resetSpreadsheet: data.resetSpreadsheet,
@@ -552,12 +610,14 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.saveNextCursor,
       data.saveCurrentCursor,
       data.saveTotalAgents,
-      data.saveSpreadsheetUrl,
       data.saveStatusFilter,
       data.saveCountryFilter,
       data.saveProjectName,
       data.renameSavedProjectName,
       data.saveSheetTaskId,
+      data.beginSpreadsheetExport,
+      data.failSpreadsheetExport,
+      data.handleAgentExportResponse,
       data.startSpreadsheetPolling,
       data.stopSpreadsheetPolling,
       data.resetSpreadsheet,

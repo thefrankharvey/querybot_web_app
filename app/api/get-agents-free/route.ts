@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { getWqhApiUrl } from "@/lib/config";
+import { getWqhApiEndpoint } from "@/lib/config";
 
 // Define the structure of the payload
 export interface GetAgentsFreePayload {
@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
     const countryQuery = country_code ? `&country_code=${country_code}` : "";
 
     const externalRes = await fetch(
-      `${getWqhApiUrl()}/get-agents-free?last_index=${last_index}${statusQuery}${countryQuery}`,
+      `${getWqhApiEndpoint("get-agents-free")}?last_index=${last_index}${statusQuery}${countryQuery}`,
       {
         method: "POST",
         headers: {

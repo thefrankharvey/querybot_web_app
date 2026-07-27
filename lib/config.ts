@@ -44,6 +44,12 @@ export function getWqhApiUrl(): string {
     : process.env.WQH_DEV_API_URL!;
 }
 
+export function getWqhApiEndpoint(path: string): string {
+  const baseUrl = getWqhApiUrl().replace(/\/+$/, "");
+  const normalizedPath = path.replace(/^\/+/, "");
+  return `${baseUrl}/${normalizedPath}`;
+}
+
 export function getStripePriceId(plan: "monthly" | "yearly"): string {
   const isProd = getAppEnv() === "prod";
   if (plan === "monthly") {
