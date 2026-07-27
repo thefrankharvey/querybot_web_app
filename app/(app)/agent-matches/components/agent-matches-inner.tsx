@@ -187,7 +187,7 @@ export const AgentMatchesInner = ({
                     >
                       <div className="flex items-center gap-2">
                         <Download data-icon="inline-start" />
-                        <span>query spreadsheet</span>
+                        <span>Query Spreadsheet</span>
                       </div>
                     </Button>
                   </span>
@@ -196,7 +196,7 @@ export const AgentMatchesInner = ({
                 <Button asChild className="w-full md:w-auto">
                   <a href={spreadsheetUrl ?? undefined}>
                     <Download data-icon="inline-start" />
-                    <span>query spreadsheet</span>
+                    <span>Query Spreadsheet</span>
                   </a>
                 </Button>
               ) : (
