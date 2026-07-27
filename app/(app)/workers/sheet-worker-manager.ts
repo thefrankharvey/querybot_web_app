@@ -1,7 +1,14 @@
 // Global worker instance - lives outside React component lifecycle
 let workerInstance: Worker | null = null;
 let currentCallback: ((url: string) => void) | null = null;
+let failureCallback: ((message: string) => void) | null = null;
 let timeoutCallback: (() => void) | null = null;
+
+function clearCallbacks() {
+  currentCallback = null;
+  failureCallback = null;
+  timeoutCallback = null;
+}
 
 // Initialize worker on module load (browser only)
 if (typeof window !== "undefined") {
@@ -12,17 +19,30 @@ if (typeof window !== "undefined") {
 
   // Set up message handler
   workerInstance.onmessage = (event) => {
-    const { type, spreadsheetUrl } = event.data;
-    
-    if (type === "SPREADSHEET_READY" && spreadsheetUrl) {
-      currentCallback?.(spreadsheetUrl);
+    const { downloadUrl, errorMessage, type } = event.data;
+
+    if (type === "SPREADSHEET_READY" && downloadUrl) {
+      const callback = currentCallback;
+      clearCallbacks();
+      callback?.(downloadUrl);
+    } else if (type === "SPREADSHEET_FAILED") {
+      const callback = failureCallback;
+      clearCallbacks();
+      callback?.(
+        errorMessage || "The Excel export could not be created.",
+      );
     } else if (type === "POLLING_TIMEOUT") {
-      timeoutCallback?.();
+      const callback = timeoutCallback;
+      clearCallbacks();
+      callback?.();
     }
   };
 
   workerInstance.onerror = (error) => {
     console.error("[Worker Manager] Worker error:", error);
+    const callback = failureCallback;
+    clearCallbacks();
+    callback?.("The Excel export status could not be checked.");
   };
 
   // Clean up on page unload
@@ -37,14 +57,17 @@ if (typeof window !== "undefined") {
 export function startSheetPolling(
   taskId: string,
   onReady: (url: string) => void,
-  onTimeout?: () => void
+  onFailure?: (message: string) => void,
+  onTimeout?: () => void,
 ) {
   if (!workerInstance) {
     console.error("[Worker Manager] Worker not initialized");
+    onFailure?.("The Excel export status could not be checked.");
     return;
   }
 
   currentCallback = onReady;
+  failureCallback = onFailure || null;
   timeoutCallback = onTimeout || null;
 
   workerInstance.postMessage({
@@ -54,9 +77,6 @@ export function startSheetPolling(
 }
 
 export function stopSheetPolling() {
-  if (!workerInstance) return;
-  
-  workerInstance.postMessage({ type: "STOP_POLLING" });
-  currentCallback = null;
-  timeoutCallback = null;
+  workerInstance?.postMessage({ type: "STOP_POLLING" });
+  clearCallbacks();
 }

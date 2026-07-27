@@ -155,6 +155,10 @@ export type AgentMatch = {
   fit_rating?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
@@ -174,6 +178,10 @@ export interface SaveAgentPayload {
   fit_rating?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
@@ -195,6 +203,10 @@ export interface SaveAgentResponse {
     fit_rating?: string | null;
     column_name?: string | null;
     updated_date?: string | null;
+    query_sent_date?: string | null;
+    pages_requested_date?: string | null;
+    rejected_date?: string | null;
+    offer_date?: string | null;
     notes?: string | null;
     query_letter_ready?: boolean | null;
     project_name?: string | null;
@@ -204,8 +216,17 @@ export interface SaveAgentResponse {
 
 export interface UpdateAgentPayload {
   fit_rating?: string | null;
+  name?: string | null;
+  email?: string | null;
+  agency_url?: string | null;
+  query_tracker?: string | null;
+  pub_marketplace?: string | null;
   column_name?: string | null;
   updated_date?: string | null;
+  query_sent_date?: string | null;
+  pages_requested_date?: string | null;
+  rejected_date?: string | null;
+  offer_date?: string | null;
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;

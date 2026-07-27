@@ -83,11 +83,11 @@ const WALKTHROUGH_STEPS: WalkthroughStep[] = [
     title: "Save All Agents",
   },
   {
-    body: "Query Spreadsheet button creates a spreadsheet with the entire list of agent results for this search pre-filled for you.",
-    id: "query-spreadsheet",
+    body: "Download Excel creates an Excel file containing every agent in the current filtered results, not just the agents on this page.",
+    id: "download-excel",
     preferredPlacement: "bottom",
-    targetSelector: '[data-tour-target="agent-results-query-spreadsheet"]',
-    title: "Query Spreadsheet",
+    targetSelector: '[data-tour-target="agent-results-download-excel"]',
+    title: "Download Excel",
   },
 ];
 

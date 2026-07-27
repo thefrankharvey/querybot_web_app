@@ -12,12 +12,18 @@ import { arrayMove } from "@dnd-kit/sortable";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
-import type { AgentMatch, UpdateAgentPayload } from "@/app/types";
+import type {
+  AgentMatch,
+  SaveAgentPayload,
+  SaveAgentResponse,
+  UpdateAgentPayload,
+} from "@/app/types";
 import { toast } from "sonner";
 import {
   getFitRatingFromScore,
   type FitRating,
 } from "@/app/components/fit-rating-badge";
+import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import type { KanbanCardData } from "../components/kanban-card";
 import { FIRST_COLUMN_ID, sortFirstColumnByNewest } from "../components/kanban-ordering";
 import {
@@ -31,8 +37,32 @@ interface MoveCardOptions {
   forcePersist?: boolean;
 }
 
+type QueryDashboardDateField =
+  | "query_sent_date"
+  | "pages_requested_date"
+  | "rejected_date"
+  | "offer_date";
+
+type EditableCardUpdate = Partial<
+  Pick<
+    KanbanCardData,
+    | "name"
+    | "email"
+    | "agency_url"
+    | "query_tracker"
+    | "pub_marketplace"
+    | "fitRating"
+    | "query_sent_date"
+    | "pages_requested_date"
+    | "rejected_date"
+    | "offer_date"
+    | "notes"
+  >
+>;
+
 export interface QueryDashState {
   cards: KanbanCardData[];
+  visibleCards: KanbanCardData[];
   isLoading: boolean;
   isEmpty: boolean;
   offerMadeCelebrationNonce: number;
@@ -51,6 +81,13 @@ export interface QueryDashActions {
   togglePrepQueryLetter: (cardId: string) => void;
   setFitRating: (cardId: string, rating: FitRating) => void;
   setProjectName: (cardId: string, projectName: string) => void;
+  updateCardFields: (cardId: string, updates: EditableCardUpdate) => void;
+  createManualRow: (
+    initialUpdates?: EditableCardUpdate,
+  ) => Promise<KanbanCardData | null>;
+  removeRowsByIds: (
+    rowIds: string[],
+  ) => Promise<{ deletedRowIds: string[]; failedCount: number }>;
   renameActiveProject: (newName: string) => Promise<void>;
   deleteActiveProject: () => Promise<boolean>;
   setNotes: (cardId: string, notes: string) => void;
@@ -94,6 +131,108 @@ function getTodayLocalDateString() {
   return `${year}-${month}-${day}`;
 }
 
+const MILESTONE_DATE_FIELD_BY_COLUMN: Partial<
+  Record<QueryDashColumnId, QueryDashboardDateField>
+> = {
+  "submitted-query": "query_sent_date",
+  "pages-requested": "pages_requested_date",
+  rejected: "rejected_date",
+  "offer-made": "offer_date",
+};
+
+function getFurthestMilestoneColumnId(
+  card: KanbanCardData,
+): QueryDashColumnId {
+  if (card.offer_date) return "offer-made";
+  if (card.rejected_date) return "rejected";
+  if (card.pages_requested_date) return "pages-requested";
+  if (card.query_sent_date) return "submitted-query";
+  return FIRST_COLUMN_ID;
+}
+
+function includesMilestoneDateUpdate(updates: EditableCardUpdate) {
+  return (
+    "query_sent_date" in updates ||
+    "pages_requested_date" in updates ||
+    "rejected_date" in updates ||
+    "offer_date" in updates
+  );
+}
+
+function getPayloadValue(value: string | null | undefined) {
+  return value?.trim() || null;
+}
+
+function getActivityDateForUpdate(updates: EditableCardUpdate) {
+  return (
+    getPayloadValue(updates.offer_date) ??
+    getPayloadValue(updates.rejected_date) ??
+    getPayloadValue(updates.pages_requested_date) ??
+    getPayloadValue(updates.query_sent_date) ??
+    getTodayLocalDateString()
+  );
+}
+
+function createManualIndexId() {
+  if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
+    return `manual:${crypto.randomUUID()}`;
+  }
+
+  return `manual:${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
+
+function getColumnIdFromDateUpdates(
+  updates: EditableCardUpdate,
+): QueryDashColumnId {
+  if (updates.offer_date) return "offer-made";
+  if (updates.rejected_date) return "rejected";
+  if (updates.pages_requested_date) return "pages-requested";
+  if (updates.query_sent_date) return "submitted-query";
+  return FIRST_COLUMN_ID;
+}
+
+function applyEditableUpdatesToPayload(
+  payload: SaveAgentPayload,
+  updates: EditableCardUpdate,
+) {
+  if ("name" in updates) {
+    payload.name = getPayloadValue(updates.name) ?? "Untitled Agent";
+  }
+  if ("email" in updates) payload.email = getPayloadValue(updates.email);
+  if ("agency_url" in updates) {
+    payload.agency_url = getPayloadValue(updates.agency_url);
+  }
+  if ("query_tracker" in updates) {
+    payload.query_tracker = getPayloadValue(updates.query_tracker);
+  }
+  if ("pub_marketplace" in updates) {
+    payload.pub_marketplace = getPayloadValue(updates.pub_marketplace);
+  }
+  if ("fitRating" in updates) {
+    payload.fit_rating = updates.fitRating ?? "neutral";
+  }
+  if ("notes" in updates) payload.notes = updates.notes ?? null;
+  if ("query_sent_date" in updates) {
+    payload.query_sent_date = getPayloadValue(updates.query_sent_date);
+  }
+  if ("pages_requested_date" in updates) {
+    payload.pages_requested_date = getPayloadValue(
+      updates.pages_requested_date,
+    );
+  }
+  if ("rejected_date" in updates) {
+    payload.rejected_date = getPayloadValue(updates.rejected_date);
+  }
+  if ("offer_date" in updates) {
+    payload.offer_date = getPayloadValue(updates.offer_date);
+  }
+
+  if (includesMilestoneDateUpdate(updates)) {
+    payload.column_name = getColumnIdFromDateUpdates(updates);
+    payload.updated_date = getActivityDateForUpdate(updates);
+  }
+}
+
 function isFitRating(value: string): value is FitRating {
   return value === "perfect" || value === "great" || value === "good" || value === "neutral";
 }
@@ -121,6 +260,10 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     pub_marketplace: agent.pub_marketplace,
     match_score: agent.match_score,
     agency_url: agent.agency_url,
+    query_sent_date: agent.query_sent_date,
+    pages_requested_date: agent.pages_requested_date,
+    rejected_date: agent.rejected_date,
+    offer_date: agent.offer_date,
     columnId,
     prepQueryLetterDone: agent.query_letter_ready ?? false,
     fitRating,
@@ -130,7 +273,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
 }
 
 export function QueryDashProvider({ children }: { children: React.ReactNode }) {
-  const { isLoading, refetch, removeProject } = useProfileContext();
+  const { addAgent, isLoading, refetch, removeProject } = useProfileContext();
   const { renameSavedProjectName } = useAgentMatches();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -252,6 +395,10 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       const columnChanged = currentCard.columnId !== columnId;
       const shouldPersist = persist && (columnChanged || forcePersist);
       const nextUpdatedDate = getTodayLocalDateString();
+      const milestoneDateField = MILESTONE_DATE_FIELD_BY_COLUMN[columnId];
+      const milestoneDateUpdate = milestoneDateField
+        ? { [milestoneDateField]: nextUpdatedDate }
+        : {};
 
       setCards((prevCards) =>
         prevCards.map((card) =>
@@ -259,6 +406,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
             ? {
                 ...card,
                 columnId,
+                ...milestoneDateUpdate,
                 ...(shouldPersist ? { updated_date: nextUpdatedDate } : {}),
               }
             : card
@@ -271,6 +419,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           {
             column_name: columnId,
             updated_date: nextUpdatedDate,
+            ...milestoneDateUpdate,
           },
           "Failed to persist column move"
         );
@@ -381,6 +530,237 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       );
     },
     [cards, persistCardUpdate]
+  );
+
+  const updateCardFields = useCallback(
+    (cardId: string, updates: EditableCardUpdate) => {
+      const currentCard = cards.find((card) => card.id === cardId);
+      if (!currentCard) return;
+
+      const hasDateUpdate = includesMilestoneDateUpdate(updates);
+      const nextUpdatedDate = getActivityDateForUpdate(updates);
+      const nextCard = {
+        ...currentCard,
+        ...updates,
+      };
+      const nextColumnId = hasDateUpdate
+        ? getFurthestMilestoneColumnId(nextCard)
+        : currentCard.columnId;
+      const payload: UpdateAgentPayload = {
+        updated_date: nextUpdatedDate,
+      };
+
+      if ("name" in updates) payload.name = updates.name ?? null;
+      if ("email" in updates) payload.email = updates.email ?? null;
+      if ("agency_url" in updates) {
+        payload.agency_url = updates.agency_url ?? null;
+      }
+      if ("query_tracker" in updates) {
+        payload.query_tracker = updates.query_tracker ?? null;
+      }
+      if ("pub_marketplace" in updates) {
+        payload.pub_marketplace = updates.pub_marketplace ?? null;
+      }
+      if ("fitRating" in updates) {
+        payload.fit_rating = updates.fitRating ?? null;
+      }
+      if ("notes" in updates) payload.notes = updates.notes ?? null;
+      if ("query_sent_date" in updates) {
+        payload.query_sent_date = updates.query_sent_date ?? null;
+      }
+      if ("pages_requested_date" in updates) {
+        payload.pages_requested_date = updates.pages_requested_date ?? null;
+      }
+      if ("rejected_date" in updates) {
+        payload.rejected_date = updates.rejected_date ?? null;
+      }
+      if ("offer_date" in updates) {
+        payload.offer_date = updates.offer_date ?? null;
+      }
+      if (hasDateUpdate && nextColumnId !== currentCard.columnId) {
+        payload.column_name = nextColumnId;
+      }
+
+      setCards((prevCards) =>
+        prevCards.map((card) =>
+          card.id === cardId
+            ? {
+                ...card,
+                ...updates,
+                columnId: nextColumnId,
+                updated_date: nextUpdatedDate,
+              }
+            : card,
+        ),
+      );
+
+      void persistCardUpdate(
+        cardId,
+        payload,
+        "Failed to update table cell",
+      );
+
+      if (
+        hasDateUpdate &&
+        currentCard.columnId !== "offer-made" &&
+        nextColumnId === "offer-made"
+      ) {
+        setOfferMadeCelebrationNonce((currentNonce) => currentNonce + 1);
+      }
+    },
+    [cards, persistCardUpdate],
+  );
+
+  const createManualRow = useCallback(
+    async (initialUpdates: EditableCardUpdate = {}) => {
+      const manualPayload: SaveAgentPayload = {
+        name: getPayloadValue(initialUpdates.name) ?? "Untitled Agent",
+        index_id: createManualIndexId(),
+        fit_rating: initialUpdates.fitRating ?? "neutral",
+        column_name: includesMilestoneDateUpdate(initialUpdates)
+          ? getColumnIdFromDateUpdates(initialUpdates)
+          : FIRST_COLUMN_ID,
+        updated_date: getActivityDateForUpdate(initialUpdates),
+        query_letter_ready: false,
+        project_name: activeProjectName ?? DEFAULT_PROJECT_NAME,
+      };
+
+      applyEditableUpdatesToPayload(manualPayload, initialUpdates);
+
+      try {
+        const response = await fetch("/api/agent-matches", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(manualPayload),
+        });
+
+        if (!response.ok) {
+          let errorMessage = "Failed to create row";
+          try {
+            const errorData = (await response.json()) as { error?: string };
+            if (errorData.error) {
+              errorMessage = errorData.error;
+            }
+          } catch {
+            // Use the fallback error message.
+          }
+          throw new Error(errorMessage);
+        }
+
+        const result = (await response.json()) as SaveAgentResponse;
+        const createdAgent = result.created[0] as AgentMatch | undefined;
+        if (!createdAgent) {
+          throw new Error("Created row was not returned by the server.");
+        }
+
+        const createdCard = mapAgentToCard(createdAgent);
+        setCards((prevCards) => [...prevCards, createdCard]);
+        addAgent(createdAgent);
+
+        try {
+          await refetch();
+        } catch {
+          // Local state already contains the row; a later refresh can reconcile.
+        }
+
+        return createdCard;
+      } catch (error) {
+        toast.error("Failed to add row", {
+          description:
+            error instanceof Error
+              ? error.message
+              : "Please try again in a moment.",
+        });
+        return null;
+      }
+    },
+    [activeProjectName, addAgent, refetch],
+  );
+
+  const removeRowsByIds = useCallback(
+    async (rowIds: string[]) => {
+      const uniqueRowIds = Array.from(
+        new Set(rowIds.map((rowId) => rowId.trim()).filter(Boolean)),
+      );
+
+      if (uniqueRowIds.length === 0) {
+        return { deletedRowIds: [], failedCount: 0 };
+      }
+
+      try {
+        const response = await fetch("/api/project-dashboard/rows", {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            projectName: activeProjectName,
+            rowIds: uniqueRowIds,
+          }),
+        });
+
+        if (!response.ok) {
+          let errorMessage = "Failed to remove rows";
+          try {
+            const errorData = (await response.json()) as { error?: string };
+            if (errorData.error) {
+              errorMessage = errorData.error;
+            }
+          } catch {
+            // Use the fallback error message.
+          }
+          throw new Error(errorMessage);
+        }
+
+        const result = (await response.json()) as {
+          deletedRows?: Array<{ id: string }>;
+        };
+        const deletedRowIds =
+          result.deletedRows?.map((row) => row.id).filter(Boolean) ?? [];
+        const deletedRowIdSet = new Set(deletedRowIds);
+        const failedCount = uniqueRowIds.length - deletedRowIds.length;
+
+        setCards((prevCards) =>
+          prevCards.filter((card) => !deletedRowIdSet.has(card.id)),
+        );
+
+        try {
+          await refetch();
+        } catch {
+          // Local state already reflects confirmed deletes.
+        }
+
+        if (failedCount > 0) {
+          toast.error("Some rows could not be removed", {
+            description: `${failedCount} row${
+              failedCount === 1 ? "" : "s"
+            } stayed in the table.`,
+          });
+        } else {
+          toast.success("Rows removed", {
+            description: `${deletedRowIds.length} row${
+              deletedRowIds.length === 1 ? "" : "s"
+            } removed.`,
+          });
+        }
+
+        return { deletedRowIds, failedCount };
+      } catch (error) {
+        toast.error("Rows could not be removed", {
+          description:
+            error instanceof Error
+              ? error.message
+              : "Please try again in a moment.",
+        });
+        return {
+          deletedRowIds: [],
+          failedCount: uniqueRowIds.length,
+        };
+      }
+    },
+    [activeProjectName, refetch],
   );
 
   const renameActiveProject = useCallback(
@@ -556,6 +936,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo<QueryDashContextType>(
     () => ({
       cards,
+      visibleCards,
       isLoading: isLoading || isHydratingFromServer,
       isEmpty: !isLoading && !isHydratingFromServer && visibleCards.length === 0,
       offerMadeCelebrationNonce,
@@ -567,6 +948,9 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       togglePrepQueryLetter,
       setFitRating,
       setProjectName,
+      updateCardFields,
+      createManualRow,
+      removeRowsByIds,
       renameActiveProject,
       deleteActiveProject,
       setNotes,
@@ -589,6 +973,9 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       togglePrepQueryLetter,
       setFitRating,
       setProjectName,
+      updateCardFields,
+      createManualRow,
+      removeRowsByIds,
       renameActiveProject,
       deleteActiveProject,
       setNotes,

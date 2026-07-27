@@ -24,7 +24,6 @@ import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-import { startSheetPolling } from "../workers/sheet-worker-manager";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
 import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
@@ -53,7 +52,7 @@ const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const { agentsList } = useProfileContext();
   const hasAgentMatches = getFromLocalStorage("agent_matches");
-  const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName } =
+  const { saveMatches, saveFormData, saveNextCursor, saveStatusFilter, saveCountryFilter, handleAgentExportResponse, resetForNewSearch, saveTotalAgents, saveProjectName } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
   const [activeWalkthroughStep, setActiveWalkthroughStep] =
@@ -91,7 +90,6 @@ const SmartMatch = () => {
 
   const queryMutation = useMutation({
     mutationFn: async (formData: FormData) => {
-      saveSpreadsheetUrl(null);
       const getAgentsEndpoint = isSubscribed
         ? "/api/get-agents-paid"
         : "/api/get-agents-free";
@@ -117,22 +115,13 @@ const SmartMatch = () => {
       const totalAgents = typeof data.total_agents === "number" ? data.total_agents : typeof data.total_available === "number" ? data.total_available : null;
       saveTotalAgents(totalAgents);
 
+      if (isSubscribed) {
+        handleAgentExportResponse(data);
+      }
+
       if (data.matches.length > 0) {
         saveMatches(data.matches);
         saveNextCursor(data.next_cursor);
-
-        if (data.task_id) {
-          startSpreadsheetPolling(data.task_id);
-
-          startSheetPolling(
-            data.task_id,
-            (url) => {
-              saveSpreadsheetUrl(url);
-            },
-            () => {
-            }
-          );
-        }
       } else {
         setApiMessage("No matches found");
       }

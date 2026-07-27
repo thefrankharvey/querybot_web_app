@@ -1,99 +1,128 @@
-// Web Worker for polling sheet status
-// This runs outside the React render cycle for more reliable polling
+import {
+  type AgentExportApiResponse,
+  getAgentExportDownloadUrl,
+  getAgentExportErrorMessage,
+} from "./agent-export-contract";
 
 interface WorkerMessage {
   type: "START_POLLING" | "STOP_POLLING";
   taskId?: string;
 }
 
-interface StatusResponse {
-  status: "creating" | "ready";
-  spreadsheet_url?: string;
-}
-
 let isPolling = false;
 let currentTaskId: string | null = null;
 let pollCount = 0;
+let pollingGeneration = 0;
 const MAX_POLLS = 20; // Poll up to 20 times
 const POLL_INTERVAL = 4000; // 4 seconds between polls
 
-async function checkSheetStatus(taskId: string): Promise<StatusResponse | null> {
+async function checkSheetStatus(
+  taskId: string,
+): Promise<AgentExportApiResponse | null> {
   try {
     const response = await fetch(`/api/sheet-status/${taskId}`);
-    
+
     if (!response.ok) {
       console.error("Sheet status check failed:", response.status);
       return null;
     }
 
-
-    
-    const data = await response.json();
-
-    return data;
+    return (await response.json()) as AgentExportApiResponse;
   } catch (error) {
     console.error("Error checking sheet status:", error);
     return null;
   }
 }
 
-async function pollSheetStatus() {
-  if (!isPolling || !currentTaskId) {
+function resetPollingState() {
+  isPolling = false;
+  currentTaskId = null;
+  pollCount = 0;
+}
+
+async function pollSheetStatus(taskId: string, generation: number) {
+  if (
+    !isPolling ||
+    currentTaskId !== taskId ||
+    pollingGeneration !== generation
+  ) {
     return;
   }
 
   pollCount++;
 
-  const result = await checkSheetStatus(currentTaskId);
+  const result = await checkSheetStatus(taskId);
 
-  if (result && result.spreadsheet_url) {
-      // Success! Send the URL back to main thread
+  if (
+    !isPolling ||
+    currentTaskId !== taskId ||
+    pollingGeneration !== generation
+  ) {
+    return;
+  }
+
+  if (result?.status === "failed") {
+    self.postMessage({
+      type: "SPREADSHEET_FAILED",
+      errorMessage:
+        getAgentExportErrorMessage(result) ??
+        "The Excel export could not be created.",
+      taskId,
+    });
+    resetPollingState();
+    return;
+  }
+
+  if (result?.status === "ready") {
+    const downloadUrl = getAgentExportDownloadUrl(result);
+
+    if (downloadUrl) {
       self.postMessage({
         type: "SPREADSHEET_READY",
-        spreadsheetUrl: result.spreadsheet_url,
-        taskId: currentTaskId,
+        downloadUrl,
+        taskId,
       });
-      
-      // Stop polling
-      isPolling = false;
-      pollCount = 0;
-      currentTaskId = null;
-      return;
+    } else {
+      self.postMessage({
+        type: "SPREADSHEET_FAILED",
+        errorMessage: "The Excel export finished without a download URL.",
+        taskId,
+      });
+    }
+
+    resetPollingState();
+    return;
   }
 
-  // Continue polling if we haven't exceeded max attempts
-  if (pollCount < MAX_POLLS && isPolling) {
-    setTimeout(() => pollSheetStatus(), POLL_INTERVAL);
-  } else if (pollCount >= MAX_POLLS) {
-    // Max attempts reached
+  if (pollCount >= MAX_POLLS) {
     self.postMessage({
       type: "POLLING_TIMEOUT",
-      taskId: currentTaskId,
+      taskId,
     });
-    
-    isPolling = false;
-    pollCount = 0;
-    currentTaskId = null;
+    resetPollingState();
+    return;
   }
+
+  setTimeout(
+    () => void pollSheetStatus(taskId, generation),
+    POLL_INTERVAL,
+  );
 }
 
-// Listen for messages from main thread
 self.addEventListener("message", (event: MessageEvent<WorkerMessage>) => {
   const { type, taskId } = event.data;
 
   if (type === "START_POLLING" && taskId) {
+    pollingGeneration++;
     isPolling = true;
     currentTaskId = taskId;
     pollCount = 0;
-    
-    // Start polling after 2 seconds
-    setTimeout(() => pollSheetStatus(), 2000);
+
+    void pollSheetStatus(taskId, pollingGeneration);
   } else if (type === "STOP_POLLING") {
-    isPolling = false;
-    currentTaskId = null;
-    pollCount = 0;
+    pollingGeneration++;
+    resetPollingState();
   }
 });
 
-// Export empty object to make TypeScript happy with worker modules
 export {};

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "react-data-grid/lib/styles.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -368,7 +369,84 @@
   height: 100dvh;
 }
 
+.query-dashboard-table-shell {
+  display: flex;
+  height: min(720px, calc(100vh - 190px));
+  min-height: 0;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 22px 60px rgba(24, 44, 69, 0.08);
+}
+
+.query-dashboard-table-toolbar {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-bottom: 1px solid rgba(24, 44, 69, 0.1);
+  background: rgba(245, 249, 250, 0.9);
+  padding: 0.625rem 0.75rem;
+}
+
+.query-dashboard-table-grid-frame {
+  min-height: 0;
+  flex: 1 1 auto;
+}
+
+.query-dashboard-table-grid {
+  height: 100%;
+  min-height: 0;
+  color: var(--accent);
+  --rdg-background-color: rgba(255, 255, 255, 0.92);
+  --rdg-header-background-color: rgba(245, 249, 250, 0.98);
+  --rdg-row-hover-background-color: rgba(227, 240, 241, 0.42);
+  --rdg-selection-color: var(--accent);
+  --rdg-border-color: rgba(24, 44, 69, 0.12);
+  --rdg-font-size: 13px;
+}
+
+.query-dashboard-table-grid .rdg-header-row {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.query-dashboard-table-grid .rdg-cell {
+  display: flex;
+  align-items: center;
+}
+
+.query-dashboard-table-grid .rdg-cell[aria-selected="true"] {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.query-dashboard-table-grid .rdg-cell-frozen {
+  box-shadow: 2px 0 12px rgba(24, 44, 69, 0.06);
+}
+
+.query-dashboard-placeholder-row {
+  color: color-mix(in oklab, var(--accent) 45%, white 40%);
+}
+
 @media (max-width: 767px) {
+  .query-dashboard-table-shell {
+    height: calc(100vh - 185px);
+  }
+
+  .query-dashboard-table-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .query-dashboard-table-grid {
+    min-height: 0;
+  }
+
   .query-dashboard-mobile-dragging,
   .query-dashboard-mobile-dragging * {
     user-select: none;

@@ -43,10 +43,10 @@ const ExplanationBlock = () => {
 
               <li className="flex items-start">
                 <div>
-                  <span className="font-semibold">Query Spreadsheet</span>
-                  <br />You can download the results from each page in a
-                  formatted spreadsheet that you can use during your query
-                  process.
+                  <span className="font-semibold">Download Excel</span>
+                  <br />Download every agent in the current filtered results as
+                  a formatted Excel file, regardless of which results page
+                  you&apos;re viewing.
                 </div>
               </li>
 
