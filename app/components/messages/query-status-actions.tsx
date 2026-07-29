@@ -45,6 +45,10 @@ function isManualTransition(
   );
 }
 
+export function hasQueryStatusActions(progress: QueryProgressLike) {
+  return progress.allowedTransitions.some(isManualTransition);
+}
+
 function getActionVariant(
   status: QueryStatusTransitionCode,
 ): "default" | "destructive" | "outline" {
@@ -56,19 +60,19 @@ function getActionVariant(
 }
 
 function getConfirmationCopy(status: QueryStatusTransitionCode) {
-  const metadata = getQueryStatusMetadata(status);
+  const metadata = getQueryStatusMetadata(status, "agent");
 
   if (status === "manuscript_requested") {
-    return `This records “${metadata.label}” with the request details and optional due date in the shared timeline.`;
+    return `This records “${metadata.label}” and shares your request message with the writer. The optional due date will appear with it.`;
   }
   if (status === "closed_no_response") {
-    return "This closes the query as no response received. A later agent action can reopen it through an audited update.";
+    return "This closes the query as no response received. A later update can reopen it.";
   }
   if (status === "rejected" || status === "offer_of_representation") {
-    return `This records “${metadata.label}” as the query outcome. The conversation will remain readable and can still receive messages.`;
+    return `This records “${metadata.label}” as the query outcome. Any message you add will appear in the conversation.`;
   }
 
-  return `This records “${metadata.label}” in the shared query timeline.`;
+  return `This records “${metadata.label}”. Any message you add will appear in the conversation.`;
 }
 
 function getLocalEndOfDayIso(value: string) {
@@ -98,20 +102,14 @@ function QueryStatusActionButtons({
   if (allowedTransitions.length === 0) {
     return (
       <p className="text-sm leading-6 text-accent/76">
-        No lifecycle actions are available from this status.
+        No status updates are available.
       </p>
     );
   }
 
   return (
     <div className="flex flex-col gap-3">
-      <div>
-        <p className="text-sm font-semibold text-accent">Update status</p>
-        <p className="mt-1 text-xs leading-5 text-accent/76">
-          Only valid next steps are shown. Every update is recorded in the
-          timeline.
-        </p>
-      </div>
+      <p className="text-sm font-semibold text-accent">Update query</p>
       <div className="flex flex-wrap gap-2">
         {allowedTransitions.map((status) => {
           const metadata = getQueryStatusMetadata(status);
@@ -270,8 +268,8 @@ export function QueryStatusActions({
                 htmlFor="query-status-note"
               >
                 {requestDetailsRequired
-                  ? "Request details"
-                  : "Timeline note (optional)"}
+                  ? "Request message"
+                  : "Message to writer (optional)"}
               </label>
               <Textarea
                 aria-describedby="query-status-note-help"
@@ -281,7 +279,7 @@ export function QueryStatusActions({
                 placeholder={
                   requestDetailsRequired
                     ? "Describe what material you need and how the writer should send it."
-                    : "Add context for this recorded update."
+                    : "Add a message for the writer."
                 }
                 required={requestDetailsRequired}
                 value={note}
@@ -290,7 +288,8 @@ export function QueryStatusActions({
                 className="text-xs leading-5 text-accent/72"
                 id="query-status-note-help"
               >
-                Shared with both participants in the audited timeline.
+                Appears in the conversation and is also recorded in query
+                history.
               </p>
             </div>
           </div>
@@ -315,7 +314,9 @@ export function QueryStatusActions({
               {mutation.isPending ? (
                 <Spinner data-icon="inline-start" />
               ) : null}
-              Confirm update
+              {selectedStatus === "manuscript_requested"
+                ? "Share request"
+                : "Confirm update"}
             </Button>
           </AlertDialogFooter>
         </AlertDialogContent>

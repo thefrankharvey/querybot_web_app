@@ -49,6 +49,7 @@ import {
   normalizeQueryStatusCode,
   queryStatusUnlocksWriterReply,
 } from "@/app/utils/message-types";
+import { withWriterAgentActivityTestData } from "@/app/utils/writer-agent-activity-test-data";
 import {
   ALLOWED_MANUSCRIPT_TYPES,
   MANUSCRIPT_TUS_CHUNK_SIZE_BYTES,
@@ -1953,7 +1954,9 @@ export async function getWriterAgentActivityData({
     WriterMessageApiError,
   );
 
-  return normalizeAgentActivityResponse(body, WriterMessageApiError);
+  return withWriterAgentActivityTestData(
+    normalizeAgentActivityResponse(body, WriterMessageApiError),
+  );
 }
 
 export async function getAgentActivityData({

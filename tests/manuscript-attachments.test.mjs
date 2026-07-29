@@ -262,7 +262,7 @@ test("builds the exact signed TUS handoff without enabling upsert", () => {
       bucket: "manuscripts",
       objectPath: "threads/thread-1/attachment-1.pdf",
       resumableEndpoint:
-        "https://project-ref.storage.supabase.co/storage/v1/upload/resumable",
+        "https://project-ref.storage.supabase.co/storage/v1/upload/resumable/sign",
       token: "signed-token",
       expiresAt: "2026-07-21T16:30:00+00:00",
       chunkSizeBytes: attachmentUtils.MANUSCRIPT_TUS_CHUNK_SIZE_BYTES,
@@ -271,7 +271,7 @@ test("builds the exact signed TUS handoff without enabling upsert", () => {
 
   assert.equal(
     options.endpoint,
-    "https://project-ref.storage.supabase.co/storage/v1/upload/resumable",
+    "https://project-ref.storage.supabase.co/storage/v1/upload/resumable/sign",
   );
   assert.equal(options.chunkSize, 6 * 1024 * 1024);
   assert.deepEqual({ ...options.headers }, { "x-signature": "signed-token" });
@@ -452,7 +452,7 @@ test("writer attachment helper forwards canonical identity and project IDs", asy
           bucket: "manuscripts",
           object_path: "threads/thread-1/attachment-1.pdf",
           resumable_endpoint:
-            "https://project-ref.storage.supabase.co/storage/v1/upload/resumable",
+            "https://project-ref.storage.supabase.co/storage/v1/upload/resumable/sign",
           token: "signed-token",
           expires_at: "2026-07-21T16:30:00+00:00",
           chunk_size_bytes: 6_291_456,
@@ -632,9 +632,16 @@ test("download and upload URLs require HTTPS and the configured Supabase host", 
   );
   assert.ok(
     urlUtils.getValidatedSupabaseStorageUrl(
-      "https://project-ref.storage.supabase.co/storage/v1/upload/resumable",
-      "/storage/v1/upload/resumable",
+      "https://project-ref.storage.supabase.co/storage/v1/upload/resumable/sign",
+      "/storage/v1/upload/resumable/sign",
     ),
+  );
+  assert.equal(
+    urlUtils.getValidatedSupabaseStorageUrl(
+      "https://project-ref.storage.supabase.co/storage/v1/upload/resumable",
+      "/storage/v1/upload/resumable/sign",
+    ),
+    null,
   );
   assert.equal(
     urlUtils.getValidatedSupabaseStorageUrl(
@@ -857,4 +864,8 @@ test("upload intent route emits no-store and forwards the canonical browser cont
   assert.equal(capturedInput.contentType, "application/pdf");
   assert.equal(capturedInput.consentVersion, "manuscript-share-v1");
   assert.equal("file" in capturedInput, false);
+  assert.equal(
+    (await response.json()).upload.resumableEndpoint,
+    "https://project-ref.storage.supabase.co/storage/v1/upload/resumable/sign",
+  );
 });

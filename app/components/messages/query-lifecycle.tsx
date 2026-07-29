@@ -1,8 +1,7 @@
-import type { ComponentType, ReactNode } from "react";
+import type { ComponentType } from "react";
 import {
   BookOpenCheck,
   CalendarClock,
-  ChevronDown,
   CircleDotDashed,
   CircleX,
   Clock3,
@@ -17,8 +16,11 @@ import {
 import Link from "next/link";
 
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
+import {
+  ConversationItemRow,
+  MessageBubbleFrame,
+} from "@/app/components/messages/message-bubble";
 import { Button } from "@/app/ui-primitives/button";
-import { Separator } from "@/app/ui-primitives/separator";
 import { cn } from "@/app/utils";
 import {
   KNOWN_QUERY_STATUS_CODES,
@@ -111,6 +113,44 @@ const UNKNOWN_STATUS_METADATA: QueryStatusMetadata = {
   tone: "muted",
 };
 
+const AGENT_QUERY_STATUS_COPY: Partial<
+  Record<
+    QueryLifecycleStatus,
+    Pick<QueryStatusMetadata, "description" | "label" | "shortLabel">
+  >
+> = {
+  query_sent: {
+    description: "This query has been delivered to you.",
+    label: "Query received",
+    shortLabel: "Received",
+  },
+  query_viewed: {
+    description: "You have opened this query.",
+    label: "Query opened",
+    shortLabel: "Opened",
+  },
+  manuscript_requested: {
+    description: "You requested manuscript material.",
+    label: "Manuscript requested",
+    shortLabel: "Requested",
+  },
+  manuscript_under_review: {
+    description: "You are reviewing the requested manuscript.",
+    label: "Manuscript under review",
+    shortLabel: "Under review",
+  },
+  rejected: {
+    description: "You passed on this query.",
+    label: "Query passed",
+    shortLabel: "Passed",
+  },
+  offer_of_representation: {
+    description: "You recorded an offer of representation.",
+    label: "Offer recorded",
+    shortLabel: "Offer",
+  },
+};
+
 export function isQueryLifecycleStatus(
   value: string,
 ): value is QueryLifecycleStatus {
@@ -119,10 +159,18 @@ export function isQueryLifecycleStatus(
 
 export function getQueryStatusMetadata(
   status: string | null | undefined,
+  viewerRole?: "agent" | "writer",
 ): QueryStatusMetadata {
-  return status && isQueryLifecycleStatus(status)
+  const metadata = status && isQueryLifecycleStatus(status)
     ? QUERY_STATUS_METADATA[status]
     : UNKNOWN_STATUS_METADATA;
+
+  if (viewerRole !== "agent" || !status || !isQueryLifecycleStatus(status)) {
+    return metadata;
+  }
+
+  const agentCopy = AGENT_QUERY_STATUS_COPY[status];
+  return agentCopy ? { ...metadata, ...agentCopy } : metadata;
 }
 
 export function getElapsedDays(
@@ -164,11 +212,13 @@ function getStatusToneClass(tone: QueryStatusMetadata["tone"]) {
 export function QueryStatusBadge({
   compact = false,
   status,
+  viewerRole,
 }: {
   compact?: boolean;
   status: string | null | undefined;
+  viewerRole?: "agent" | "writer";
 }) {
-  const metadata = getQueryStatusMetadata(status);
+  const metadata = getQueryStatusMetadata(status, viewerRole);
   const Icon = metadata.icon;
 
   return (
@@ -266,7 +316,11 @@ export function QueryInboxMeta({
   return (
     <div className="flex flex-col gap-2">
       <div className="flex flex-wrap items-center gap-2">
-        <QueryStatusBadge compact status={progress?.currentCode} />
+        <QueryStatusBadge
+          compact
+          status={progress?.currentCode}
+          viewerRole={viewerRole}
+        />
         {unreadCount && unreadCount > 0 ? (
           <span className="inline-flex rounded-full border border-accent bg-accent px-2.5 py-1 text-xs font-semibold text-white">
             {unreadCount} unread
@@ -340,7 +394,10 @@ export function QueryProgressSummary({
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col items-start gap-2">
-        <QueryStatusBadge status={progress.currentCode} />
+        <QueryStatusBadge
+          status={progress.currentCode}
+          viewerRole={viewerRole}
+        />
         <p className="text-sm leading-6 text-accent/76">
           {formatDayCount(daysInStatus)} in this stage
           {daysSinceSent !== null
@@ -369,7 +426,11 @@ export function QueryProgressSummary({
   );
 }
 
-function getActorLabel(actorRole?: string | null) {
+function getActorLabel(
+  actorRole?: string | null,
+  viewerRole?: "agent" | "writer",
+) {
+  if (actorRole === viewerRole) return "You";
   if (actorRole === "agent") return "Agent";
   if (actorRole === "writer") return "Writer";
   return "System";
@@ -379,12 +440,14 @@ function TimelineEventItem({
   event,
   isLast,
   messageHref,
+  viewerRole,
 }: {
   event: QueryTimelineEventLike;
   isLast: boolean;
   messageHref?: string;
+  viewerRole?: "agent" | "writer";
 }) {
-  const metadata = getQueryStatusMetadata(event.toStatus);
+  const metadata = getQueryStatusMetadata(event.toStatus, viewerRole);
   const Icon = metadata.icon;
   const recordedDelay = getElapsedDays(event.occurredAt, event.recordedAt);
 
@@ -428,7 +491,7 @@ function TimelineEventItem({
           </div>
           <div className="flex flex-wrap gap-x-2">
             <dt className="font-medium text-accent/72">By</dt>
-            <dd>{getActorLabel(event.actorRole)}</dd>
+            <dd>{getActorLabel(event.actorRole, viewerRole)}</dd>
           </div>
         </dl>
         {event.note ? (
@@ -461,11 +524,13 @@ export function QueryTimelineList({
   events,
   getMessageHref,
   limit,
+  viewerRole,
 }: {
   emptyMessage?: string;
   events: readonly QueryTimelineEventLike[];
   getMessageHref?: (sourceMessageId: string) => string;
   limit?: number;
+  viewerRole?: "agent" | "writer";
 }) {
   const visibleEvents =
     typeof limit === "number" ? events.slice(-limit) : events;
@@ -490,111 +555,10 @@ export function QueryTimelineList({
               ? getMessageHref(event.sourceMessageId)
               : undefined
           }
+          viewerRole={viewerRole}
         />
       ))}
     </ol>
-  );
-}
-
-export function QueryProgressRail({
-  actions,
-  events,
-  progress,
-  timelineHref,
-  viewerRole,
-}: {
-  actions?: ReactNode;
-  events: readonly QueryTimelineEventLike[];
-  progress: QueryProgressLike | null | undefined;
-  timelineHref: string;
-  viewerRole: "agent" | "writer";
-}) {
-  return (
-    <section
-      aria-labelledby="query-progress-heading"
-      className="glass-panel-strong flex flex-col gap-4 p-4"
-    >
-      <div>
-        <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent/72">
-          Live query record
-        </p>
-        <h2
-          className="mt-1 text-base font-semibold text-accent"
-          id="query-progress-heading"
-        >
-          Query progress
-        </h2>
-      </div>
-      <QueryProgressSummary progress={progress} viewerRole={viewerRole} />
-      {actions ? (
-        <>
-          <Separator />
-          {actions}
-        </>
-      ) : null}
-      <Separator />
-      <div>
-        <h3 className="text-sm font-semibold text-accent">Recent activity</h3>
-        <div className="mt-3">
-          <QueryTimelineList events={events} limit={3} />
-        </div>
-      </div>
-      <Button asChild size="sm" variant="outline">
-        <Link href={timelineHref}>View agent activity</Link>
-      </Button>
-    </section>
-  );
-}
-
-export function MobileQueryProgress({
-  actions,
-  events,
-  progress,
-  timelineHref,
-  viewerRole,
-}: {
-  actions?: ReactNode;
-  events: readonly QueryTimelineEventLike[];
-  progress: QueryProgressLike | null | undefined;
-  timelineHref: string;
-  viewerRole: "agent" | "writer";
-}) {
-  return (
-    <details className="glass-panel-strong group p-4 xl:hidden">
-      <summary className="flex cursor-pointer list-none items-center justify-between gap-3 rounded-[0.75rem] outline-none focus-visible:ring-[4px] focus-visible:ring-ring/30 [&::-webkit-details-marker]:hidden">
-        <div className="min-w-0">
-          <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent/72">
-            Query progress
-          </p>
-          <div className="mt-1">
-            <QueryStatusBadge compact status={progress?.currentCode} />
-          </div>
-        </div>
-        <ChevronDown
-          aria-hidden
-          className="size-5 shrink-0 text-accent/56 transition group-open:rotate-180"
-        />
-      </summary>
-      <div className="mt-4 flex flex-col gap-4 border-t border-accent/10 pt-4">
-        <QueryProgressSummary progress={progress} viewerRole={viewerRole} />
-        {actions ? (
-          <>
-            <Separator />
-            {actions}
-          </>
-        ) : null}
-        <Separator />
-        <div>
-          <h3 className="text-sm font-semibold text-accent">Recent activity</h3>
-          <div className="mt-3">
-            <QueryTimelineList events={events} limit={3} />
-          </div>
-        </div>
-        <Button asChild size="sm" variant="outline">
-          <Link href={timelineHref}>View agent activity</Link>
-        </Button>
-      </div>
-    </details>
   );
 }
 
@@ -602,10 +566,12 @@ export function ThreadViewNavigation({
   activeView,
   conversationHref,
   timelineHref,
+  viewerRole = "writer",
 }: {
   activeView: "conversation" | "timeline";
   conversationHref: string;
   timelineHref: string;
+  viewerRole?: "agent" | "writer";
 }) {
   return (
     <nav
@@ -633,7 +599,7 @@ export function ThreadViewNavigation({
           aria-current={activeView === "timeline" ? "page" : undefined}
           href={timelineHref}
         >
-          Agent activity
+          {viewerRole === "agent" ? "Query history" : "Agent activity"}
         </Link>
       </Button>
     </nav>
@@ -642,43 +608,61 @@ export function ThreadViewNavigation({
 
 export function ConversationLifecycleDivider({
   event,
+  viewerRole,
 }: {
   event: QueryTimelineEventLike;
+  viewerRole?: "agent" | "writer";
 }) {
-  const metadata = getQueryStatusMetadata(event.toStatus);
+  const metadata = getQueryStatusMetadata(event.toStatus, viewerRole);
   const Icon = metadata.icon;
+  const isOwnMessage = event.actorRole === viewerRole;
+  const hasMessage = Boolean(event.note || event.dueAt);
 
   return (
-    <div
-      className="flex flex-col gap-2 py-1"
+    <ConversationItemRow
+      activity={
+        <div className="flex items-start gap-2.5" role="note">
+          <span className="flex size-8 shrink-0 items-center justify-center rounded-full border border-accent/10 bg-white/76 text-accent/68 shadow-[0_4px_14px_rgba(24,44,69,0.04)]">
+            <Icon aria-hidden className="size-3.5" />
+          </span>
+          <div className="min-w-0 pt-0.5">
+            <p className="text-xs font-semibold leading-5 text-accent">
+              {metadata.label}
+            </p>
+            <LocalDateTime
+              className="block text-xs leading-5 text-accent/56"
+              value={event.occurredAt}
+              variant="shortDate"
+            />
+          </div>
+        </div>
+      }
       id={`query-event-${event.eventId}`}
-      role="note"
     >
-      <div className="flex items-center gap-3">
-        <span aria-hidden className="h-px flex-1 bg-accent/10" />
-        <span className="inline-flex max-w-[80%] items-center gap-1.5 rounded-full border border-accent/10 bg-white/68 px-3 py-1.5 text-center text-xs font-medium text-accent/76">
-          <Icon aria-hidden className="size-3.5 shrink-0" />
-          {metadata.label} ·{" "}
-          <LocalDateTime value={event.occurredAt} variant="shortDate" />
-        </span>
-        <span aria-hidden className="h-px flex-1 bg-accent/10" />
-      </div>
-      {event.note || event.dueAt ? (
-        <div className="mx-auto max-w-2xl rounded-[0.9rem] border border-accent/10 bg-white/64 px-4 py-3 text-sm leading-6 text-accent/76 [overflow-wrap:anywhere]">
-          {event.note ? <p>{event.note}</p> : null}
+      {hasMessage ? (
+        <MessageBubbleFrame
+          createdAt={event.occurredAt}
+          isOwnMessage={isOwnMessage}
+          senderLabel={getActorLabel(event.actorRole, viewerRole)}
+        >
+          {event.note ? (
+            <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
+              {event.note}
+            </p>
+          ) : null}
           {event.dueAt ? (
             <p
-              className={
-                event.note
-                  ? "mt-1 text-xs font-semibold"
-                  : "text-xs font-semibold"
-              }
+              className={cn(
+                "text-xs font-semibold",
+                event.note ? "mt-2" : "",
+                isOwnMessage ? "text-white/78" : "text-accent/64",
+              )}
             >
               Due <LocalDateTime value={event.dueAt} />
             </p>
           ) : null}
-        </div>
+        </MessageBubbleFrame>
       ) : null}
-    </div>
+    </ConversationItemRow>
   );
 }

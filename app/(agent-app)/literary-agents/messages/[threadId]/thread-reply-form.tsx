@@ -9,20 +9,29 @@ import {
   mergeMessagePages,
 } from "@/app/components/messages/conversation-items";
 import { MessageAttachmentCard } from "@/app/components/messages/message-attachment-card";
-import { LocalDateTime } from "@/app/components/messages/local-date-time";
+import {
+  ConversationColumnsHeader,
+  ConversationItemRow,
+  MessageBubbleFrame,
+} from "@/app/components/messages/message-bubble";
 import { ConversationLifecycleDivider } from "@/app/components/messages/query-lifecycle";
+import {
+  hasQueryStatusActions,
+  QueryStatusActions,
+} from "@/app/components/messages/query-status-actions";
 import { useAgentReadStateMutation } from "@/app/hooks/use-message-query-lifecycle";
 import { Button } from "@/app/ui-primitives/button";
+import { Separator } from "@/app/ui-primitives/separator";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { Textarea } from "@/app/ui-primitives/textarea";
 import type {
   AgentReplyResponse,
   AgentThreadMessagesResponse,
+  QueryProgress,
   QueryTimelineEvent,
   WriterMessage,
   WriterMessageApiErrorResponse,
 } from "@/app/utils/message-types";
-import { cn } from "@/app/utils";
 
 const MAX_LINKED_MESSAGE_PAGES = 10;
 
@@ -47,31 +56,13 @@ function MessageBubble({
   const isAgent = message.senderRole === "agent";
 
   return (
-    <div
-      className={cn(
-        "flex",
-        isAgent ? "justify-end pl-8 md:pl-24" : "justify-start pr-8 md:pr-24",
-      )}
-    >
-      <article
-        data-message-id={message.messageId}
-        id={`message-${message.messageId}`}
-        className={cn(
-          "max-w-3xl scroll-mt-24 rounded-[1.25rem] px-4 py-3 shadow-[0_14px_34px_rgba(24,44,69,0.06)]",
-          isAgent
-            ? "border border-accent bg-accent text-white"
-            : "border border-accent/10 bg-white/76 text-accent",
-        )}
+    <ConversationItemRow>
+      <MessageBubbleFrame
+        createdAt={message.createdAt}
+        id={message.messageId}
+        isOwnMessage={isAgent}
+        senderLabel={isAgent ? "You" : writerName}
       >
-        <div className="mb-2 flex items-center justify-between gap-4 text-xs font-medium">
-          <span>{isAgent ? "You" : writerName}</span>
-          {message.createdAt ? (
-            <LocalDateTime
-              value={message.createdAt}
-              className={isAgent ? "text-white/85" : "text-accent/72"}
-            />
-          ) : null}
-        </div>
         {message.body.trim() ? (
           <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
             {message.body}
@@ -85,8 +76,8 @@ function MessageBubble({
             viewerRole="agent"
           />
         ))}
-      </article>
-    </div>
+      </MessageBubbleFrame>
+    </ConversationItemRow>
   );
 }
 
@@ -102,12 +93,14 @@ async function getReplyErrorMessage(response: Response) {
 export function AgentThreadReplyForm({
   initialMessages,
   initialNextBefore,
+  initialQueryProgress,
   initialTimelineEvents,
   threadId,
   writerName,
 }: {
   initialMessages: WriterMessage[];
   initialNextBefore: string | null;
+  initialQueryProgress: QueryProgress | null;
   initialTimelineEvents: QueryTimelineEvent[];
   threadId: string;
   writerName: string;
@@ -379,89 +372,113 @@ export function AgentThreadReplyForm({
 
   return (
     <div className="flex flex-col gap-5">
-      {nextBefore || olderMessagesError ? (
-        <div className="flex flex-col items-center gap-2">
-          {nextBefore ? (
-            <Button
-              disabled={isLoadingOlder}
-              onClick={handleLoadOlder}
-              size="sm"
-              type="button"
-              variant="outline"
-            >
-              {isLoadingOlder ? <Spinner data-icon="inline-start" /> : null}
-              {isLoadingOlder ? "Loading…" : "Load older messages"}
-            </Button>
-          ) : null}
-          {olderMessagesError ? (
-            <p className="text-sm text-destructive" role="alert">
-              {olderMessagesError}
-            </p>
-          ) : null}
-        </div>
-      ) : null}
-      <div
-        aria-live="polite"
-        className="flex flex-col gap-3"
-        ref={conversationRef}
-        role="log"
-      >
-        {conversationItems.length > 0 ? (
-          conversationItems.map((item) =>
-            item.kind === "event" ? (
-              <ConversationLifecycleDivider event={item.event} key={item.id} />
-            ) : (
-              <MessageBubble
-                key={item.id}
-                message={item.message}
-                writerName={writerName}
+      <div className="flex flex-col">
+        <ConversationColumnsHeader />
+        {initialQueryProgress && hasQueryStatusActions(initialQueryProgress) ? (
+          <ConversationItemRow>
+            <div className="flex flex-col gap-4">
+              <QueryStatusActions
+                progress={initialQueryProgress}
+                threadId={threadId}
               />
-            ),
-          )
-        ) : (
-          <div className="rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-8 text-center text-sm text-accent/76">
-            No messages were returned for this thread.
-          </div>
-        )}
+              <Separator />
+            </div>
+          </ConversationItemRow>
+        ) : null}
+        {nextBefore || olderMessagesError ? (
+          <ConversationItemRow>
+            <div className="flex flex-col items-center gap-2">
+              {nextBefore ? (
+                <Button
+                  disabled={isLoadingOlder}
+                  onClick={handleLoadOlder}
+                  size="sm"
+                  type="button"
+                  variant="outline"
+                >
+                  {isLoadingOlder ? <Spinner data-icon="inline-start" /> : null}
+                  {isLoadingOlder ? "Loading…" : "Load older messages"}
+                </Button>
+              ) : null}
+              {olderMessagesError ? (
+                <p className="text-sm text-destructive" role="alert">
+                  {olderMessagesError}
+                </p>
+              ) : null}
+            </div>
+          </ConversationItemRow>
+        ) : null}
+        <div
+          aria-live="polite"
+          className="flex flex-col"
+          ref={conversationRef}
+          role="log"
+        >
+          {conversationItems.length > 0 ? (
+            conversationItems.map((item) =>
+              item.kind === "event" ? (
+                <ConversationLifecycleDivider
+                  event={item.event}
+                  key={item.id}
+                  viewerRole="agent"
+                />
+              ) : (
+                <MessageBubble
+                  key={item.id}
+                  message={item.message}
+                  writerName={writerName}
+                />
+              ),
+            )
+          ) : (
+            <ConversationItemRow>
+              <div className="rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-8 text-center text-sm text-accent/76">
+                No messages were returned for this thread.
+              </div>
+            </ConversationItemRow>
+          )}
+        </div>
       </div>
 
-      <div className="rounded-[1.25rem] border border-accent/10 bg-white/76 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
-        <Textarea
-          aria-label="Reply"
-          disabled={isSending}
-          minLength={1}
-          onChange={(event) => setDraft(event.target.value)}
-          placeholder="Type your reply..."
-          value={draft}
-        />
-        {error ? (
-          <p className="mt-3 text-sm text-destructive" role="alert">
-            {error}
-          </p>
-        ) : null}
-        <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
-          <Button
-            type="button"
-            variant="outline"
-            onClick={() => {
-              setDraft("");
-              setError(null);
-            }}
-            disabled={isSending || draft.length === 0}
-          >
-            <X data-icon="inline-start" />
-            Cancel
-          </Button>
-          <Button type="button" onClick={handleSend} disabled={!canSend}>
-            {isSending ? (
-              <Spinner className="text-white" data-icon="inline-start" />
-            ) : (
-              <Send data-icon="inline-start" />
-            )}
-            Send
-          </Button>
+      <ConversationItemRow>
+        <div className="rounded-[1.25rem] border border-accent/10 bg-white/76 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
+          <Textarea
+            aria-label="Reply"
+            disabled={isSending}
+            minLength={1}
+            onChange={(event) => setDraft(event.target.value)}
+            placeholder="Type your reply..."
+            value={draft}
+          />
+          {error ? (
+            <p className="mt-3 text-sm text-destructive" role="alert">
+              {error}
+            </p>
+          ) : null}
+          <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => {
+                setDraft("");
+                setError(null);
+              }}
+              disabled={isSending || draft.length === 0}
+            >
+              <X data-icon="inline-start" />
+              Cancel
+            </Button>
+            <Button type="button" onClick={handleSend} disabled={!canSend}>
+              {isSending ? (
+                <Spinner className="text-white" data-icon="inline-start" />
+              ) : (
+                <Send data-icon="inline-start" />
+              )}
+              Send
+            </Button>
+          </div>
         </div>
-      </div>
+      </ConversationItemRow>
     </div>
   );
 }

@@ -1,12 +1,7 @@
 import { ArrowLeft, History, MessageSquare } from "lucide-react";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { Suspense } from "react";
 
-import {
-  AgentActivityLoading,
-  AgentActivityPanel,
-} from "@/app/components/messages/agent-activity";
 import {
   QueryProgressSummary,
   QueryStatusBadge,
@@ -19,7 +14,6 @@ import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
 import {
   AgentMessageApiError,
-  getAgentActivityData,
   getAgentMessageThreadDetailData,
   getAgentQueryTimelineData,
 } from "@/app/utils/message-thread-data";
@@ -27,58 +21,13 @@ import {
   getAgentMessageThreadHref,
   getAgentMessagesHref,
 } from "@/app/utils/message-routes";
-import type { AgentActivityWindow } from "@/app/utils/message-types";
-
-function getActivityWindow(value?: string | string[]): AgentActivityWindow {
-  const candidate = Array.isArray(value) ? value[0] : value;
-  return candidate === "30" ||
-    candidate === "90" ||
-    candidate === "180" ||
-    candidate === "all"
-    ? candidate
-    : "90";
-}
-
-async function AgentActivitySection({
-  activeWindow,
-  threadId,
-  timelineHref,
-}: {
-  activeWindow: AgentActivityWindow;
-  threadId: string;
-  timelineHref: string;
-}) {
-  const activityData = await getAgentActivityData({
-    threadId,
-    window: activeWindow,
-  }).catch(() => null);
-  const getWindowHref = (window: AgentActivityWindow) =>
-    window === "90"
-      ? timelineHref
-      : `${timelineHref}?window=${encodeURIComponent(window)}`;
-
-  return (
-    <AgentActivityPanel
-      activeWindow={activeWindow}
-      activityData={activityData}
-      getWindowHref={getWindowHref}
-      viewerRole="agent"
-    />
-  );
-}
 
 export default async function AgentQueryTimelinePage({
   params,
-  searchParams,
 }: {
   params: Promise<{ threadId: string }>;
-  searchParams: Promise<{ window?: string | string[] }>;
 }) {
-  const [{ threadId }, resolvedSearchParams] = await Promise.all([
-    params,
-    searchParams,
-  ]);
-  const activeWindow = getActivityWindow(resolvedSearchParams.window);
+  const { threadId } = await params;
   let detailData;
   let timelineData;
 
@@ -127,6 +76,7 @@ export default async function AgentQueryTimelinePage({
             <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
               <QueryStatusBadge
                 status={timelineData.queryProgress.currentCode}
+                viewerRole="agent"
               />
               <p className="text-xs text-accent/72">
                 Updated{" "}
@@ -139,6 +89,7 @@ export default async function AgentQueryTimelinePage({
             activeView="timeline"
             conversationHref={conversationHref}
             timelineHref={timelineHref}
+            viewerRole="agent"
           />
         </header>
 
@@ -180,17 +131,10 @@ export default async function AgentQueryTimelinePage({
               getMessageHref={(sourceMessageId) =>
                 `${conversationHref}#message-${encodeURIComponent(sourceMessageId)}`
               }
+              viewerRole="agent"
             />
           </div>
         </section>
-
-        <Suspense fallback={<AgentActivityLoading />}>
-          <AgentActivitySection
-            activeWindow={activeWindow}
-            threadId={threadId}
-            timelineHref={timelineHref}
-          />
-        </Suspense>
       </div>
     </div>
   );

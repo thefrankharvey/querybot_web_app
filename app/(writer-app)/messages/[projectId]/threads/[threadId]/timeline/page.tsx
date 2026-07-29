@@ -152,6 +152,7 @@ export default async function WriterQueryTimelinePage({
             <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
               <QueryStatusBadge
                 status={detailData.queryProgress.currentCode}
+                viewerRole="writer"
               />
               <p className="text-xs text-accent/72">
                 Updated{" "}
@@ -164,6 +165,7 @@ export default async function WriterQueryTimelinePage({
             activeView="timeline"
             conversationHref={conversationHref}
             timelineHref={timelineHref}
+            viewerRole="writer"
           />
         </header>
 

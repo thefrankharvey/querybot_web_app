@@ -8,7 +8,7 @@ import {
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 
-import { QueryInboxMeta } from "@/app/components/messages/query-lifecycle";
+import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
 import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
 import {
@@ -95,36 +95,49 @@ function MessageThreadRow({
   return (
     <Link
       href={getProjectMessageThreadHref(routeProjectId, thread.threadId)}
-      className="group grid gap-4 rounded-[1.25rem] border border-accent/10 bg-white/72 px-4 py-4 text-accent shadow-[0_14px_34px_rgba(24,44,69,0.06)] transition hover:-translate-y-0.5 hover:border-accent/18 hover:bg-white lg:grid-cols-[minmax(0,1.35fr)_minmax(0,0.8fr)_minmax(13rem,1fr)_auto] lg:items-center"
+      className="group grid gap-4 rounded-2xl border border-accent/10 bg-white/72 px-5 py-4 text-accent shadow-sm transition-colors hover:border-accent/18 hover:bg-white md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.6fr)_auto] md:items-center"
     >
-      <div className="min-w-0">
-        <p className="truncate text-base font-semibold">{thread.subject}</p>
-        {thread.lastMessagePreview ? (
-          <p className="mt-1 truncate text-sm text-accent/76">
-            {thread.lastMessagePreview}
-          </p>
+      <div className="min-w-0 text-sm text-accent/72">
+        <p className="truncate font-semibold text-accent">{thread.agentName}</p>
+        {thread.agency ? (
+          <p className="mt-0.5 truncate">{thread.agency}</p>
         ) : null}
       </div>
-      <div className="min-w-0 text-sm text-accent/72">
-        <p className="truncate font-medium text-accent">{thread.agentName}</p>
-        <p className="truncate">{thread.agency || "Agency unavailable"}</p>
-      </div>
-      <QueryInboxMeta
-        lastMessageSenderRole={thread.lastMessageSenderRole}
-        nextAction={thread.queryProgress?.nextAction}
-        progress={thread.queryProgress}
-        unreadCount={thread.unreadCount}
-        viewerRole="writer"
-      />
-      <div className="flex items-center justify-between gap-3 text-sm text-accent/76 lg:justify-end">
-        <div className="flex flex-col lg:items-end">
-          <span className="text-xs text-accent/72">Last message</span>
-          <time
-            dateTime={thread.lastMessageAt ?? thread.updatedAt ?? undefined}
+
+      <div className="flex min-w-0 items-start gap-3">
+        {thread.unreadCount > 0 ? (
+          <span
+            className="mt-2 size-2 shrink-0 rounded-full bg-accent"
+            title={`${thread.unreadCount} unread`}
           >
-            {formatMessageDate(thread.lastMessageAt ?? thread.updatedAt)}
-          </time>
+            <span className="sr-only">
+              {thread.unreadCount} unread{" "}
+              {thread.unreadCount === 1 ? "message" : "messages"}
+            </span>
+          </span>
+        ) : null}
+        <div className="min-w-0">
+          <p className="truncate text-base font-semibold">{thread.subject}</p>
+          {thread.lastMessagePreview ? (
+            <p className="mt-1 truncate text-sm text-accent/72">
+              {thread.lastMessagePreview}
+            </p>
+          ) : null}
         </div>
+      </div>
+
+      <div className="flex items-center justify-between gap-4 text-sm text-accent/72 md:justify-end">
+        <QueryStatusBadge
+          compact
+          status={thread.queryProgress?.currentCode}
+          viewerRole="writer"
+        />
+        <time
+          className="whitespace-nowrap"
+          dateTime={thread.lastMessageAt ?? thread.updatedAt ?? undefined}
+        >
+          {formatMessageDate(thread.lastMessageAt ?? thread.updatedAt)}
+        </time>
         <ArrowRight className="size-4 shrink-0 transition group-hover:translate-x-0.5" />
       </div>
     </Link>

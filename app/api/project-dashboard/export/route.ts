@@ -4,13 +4,42 @@ import { NextResponse } from "next/server";
 import {
   getProjectDashboardExportFilename,
   sanitizeProjectDashboardExportRows,
+  type ProjectDashboardExportRow,
 } from "@/app/utils/project-dashboard-export";
 import { createProjectDashboardExportBuffer } from "@/app/utils/project-dashboard-export-workbook";
+
+const FREE_QUERY_SPREADSHEET_FILENAME = "free-query-spreadsheet.xlsx";
 
 type ExportRequestPayload = {
   projectName?: unknown;
   rows?: unknown;
 };
+
+async function createSpreadsheetResponse(
+  rows: readonly ProjectDashboardExportRow[],
+  filename: string,
+) {
+  const buffer = await createProjectDashboardExportBuffer(rows);
+
+  return new Response(new Uint8Array(buffer), {
+    headers: {
+      "Cache-Control": "no-store",
+      "Content-Disposition": `attachment; filename="${filename}"`,
+      "Content-Type":
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    },
+  });
+}
+
+export async function GET() {
+  const { userId } = await auth();
+
+  if (!userId) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  return createSpreadsheetResponse([], FREE_QUERY_SPREADSHEET_FILENAME);
+}
 
 export async function POST(req: Request) {
   const { userId } = await auth();
@@ -36,14 +65,5 @@ export async function POST(req: Request) {
   }
 
   const filename = getProjectDashboardExportFilename(payload.projectName);
-  const buffer = await createProjectDashboardExportBuffer(rows);
-
-  return new Response(new Uint8Array(buffer), {
-    headers: {
-      "Cache-Control": "no-store",
-      "Content-Disposition": `attachment; filename="${filename}"`,
-      "Content-Type":
-        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-    },
-  });
+  return createSpreadsheetResponse(rows, filename);
 }

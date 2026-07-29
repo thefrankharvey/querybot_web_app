@@ -2,7 +2,7 @@
 
 import { Button } from "@/app/ui-primitives/button";
 import { getFromLocalStorage } from "@/app/utils";
-import { ExternalLinkIcon, ScanSearch, UsersIcon } from "lucide-react";
+import { DownloadIcon, ScanSearch, UsersIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -45,20 +45,16 @@ export default function ButtonBar() {
             </Button>
           </Link>
         ) : null}
-        <a
-          href="https://docs.google.com/spreadsheets/u/4/d/17yQjT-helZqZF1kdF7UzUQYFdNRwrAvGc8Dm2Inbahw/edit?gid=419639381#gid=419639381"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full md:w-fit"
+        <Button
+          asChild
+          variant="outline"
+          className="h-11 w-full rounded-full border-accent/12 bg-white/70 px-5 text-sm font-semibold shadow-[0_14px_32px_rgba(24,44,69,0.06)] backdrop-blur-sm sm:w-auto"
         >
-          <Button
-            variant="outline"
-            className="h-11 w-full rounded-full border-accent/12 bg-white/70 px-5 text-sm font-semibold shadow-[0_14px_32px_rgba(24,44,69,0.06)] backdrop-blur-sm sm:w-auto"
-          >
-            <ExternalLinkIcon data-icon="inline-start" />
+          <a href="/api/project-dashboard/export" download>
+            <DownloadIcon data-icon="inline-start" />
             Free Query Spreadsheet
-          </Button>
-        </a>
+          </a>
+        </Button>
       </div>
     </div>
   );

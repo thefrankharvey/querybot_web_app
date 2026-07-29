@@ -3,13 +3,10 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import {
-  MobileQueryProgress,
-  QueryProgressRail,
   QueryStatusBadge,
   ThreadViewNavigation,
 } from "@/app/components/messages/query-lifecycle";
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
-import { QueryStatusActions } from "@/app/components/messages/query-status-actions";
 import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
 import {
@@ -66,12 +63,6 @@ export default async function LiteraryAgentMessageThreadPage({
     data.queryProgress ??
     data.thread?.queryProgress;
   const timelineEvents = timelineData?.events ?? [];
-  const statusActions = queryProgress ? (
-    <QueryStatusActions
-      progress={queryProgress}
-      threadId={threadId}
-    />
-  ) : null;
 
   return (
     <div className="ambient-page flex min-h-full flex-col px-4 py-6">
@@ -104,7 +95,10 @@ export default async function LiteraryAgentMessageThreadPage({
               </div>
               {data.thread ? (
                 <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
-                  <QueryStatusBadge status={queryProgress?.currentCode} />
+                  <QueryStatusBadge
+                    status={queryProgress?.currentCode}
+                    viewerRole="agent"
+                  />
                   <p className="text-xs text-accent/72">
                     Last message <LocalDateTime value={lastMessageAt} />
                   </p>
@@ -116,55 +110,38 @@ export default async function LiteraryAgentMessageThreadPage({
               activeView="conversation"
               conversationHref={conversationHref}
               timelineHref={timelineHref}
+              viewerRole="agent"
             />
           </header>
 
-          <MobileQueryProgress
-            actions={statusActions}
-            events={timelineEvents}
-            progress={queryProgress}
-            timelineHref={timelineHref}
-            viewerRole="agent"
-          />
-
-          <div className="grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_21rem]">
-            <section
-              aria-label="Conversation"
-              className="glass-panel-strong flex min-w-0 flex-col gap-4 p-4 md:p-5"
-            >
-              {!data.agent.isMessagingAvailable ? (
-                <div className="flex min-h-52 flex-col items-center justify-center gap-3 rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-10 text-center">
-                  <Inbox className="size-8 text-accent/55" />
-                  <div className="max-w-md">
-                    <h3 className="text-base font-semibold text-accent">
-                      No messages yet
-                    </h3>
-                    <p className="mt-1 text-sm leading-6 text-accent/76">
-                      Conversations with writers will appear here when they
-                      reach out about a project.
-                    </p>
-                  </div>
+          <section
+            aria-label="Conversation"
+            className="glass-panel-strong flex min-w-0 flex-col gap-4 p-4 md:p-5"
+          >
+            {!data.agent.isMessagingAvailable ? (
+              <div className="flex min-h-52 flex-col items-center justify-center gap-3 rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-10 text-center">
+                <Inbox className="size-8 text-accent/55" />
+                <div className="max-w-md">
+                  <h3 className="text-base font-semibold text-accent">
+                    No messages yet
+                  </h3>
+                  <p className="mt-1 text-sm leading-6 text-accent/76">
+                    Conversations with writers will appear here when they reach
+                    out about a project.
+                  </p>
                 </div>
-              ) : (
-                <AgentThreadReplyForm
-                  initialMessages={data.messages}
-                  initialNextBefore={data.nextBefore}
-                  initialTimelineEvents={timelineEvents}
-                  threadId={data.threadId}
-                  writerName={writerName}
-                />
-              )}
-            </section>
-            <aside className="sticky top-6 hidden self-start xl:block">
-              <QueryProgressRail
-                actions={statusActions}
-                events={timelineEvents}
-                progress={queryProgress}
-                timelineHref={timelineHref}
-                viewerRole="agent"
+              </div>
+            ) : (
+              <AgentThreadReplyForm
+                initialMessages={data.messages}
+                initialNextBefore={data.nextBefore}
+                initialQueryProgress={queryProgress ?? null}
+                initialTimelineEvents={timelineEvents}
+                threadId={data.threadId}
+                writerName={writerName}
               />
-            </aside>
-          </div>
+            )}
+          </section>
         </div>
       </div>
     </div>

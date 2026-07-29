@@ -21,6 +21,9 @@ import {
   WriterMessageApiError,
 } from "@/app/utils/message-thread-data";
 
+const RESUMABLE_UPLOAD_PATH = "/storage/v1/upload/resumable";
+const SIGNED_RESUMABLE_UPLOAD_PATH = `${RESUMABLE_UPLOAD_PATH}/sign`;
+
 export async function POST(
   request: Request,
   { params }: { params: Promise<{ threadId: string }> },
@@ -72,16 +75,26 @@ export async function POST(
     });
     const uploadEndpoint = getValidatedSupabaseStorageUrl(
       result.upload.resumableEndpoint,
-      "/storage/v1/upload/resumable",
+      RESUMABLE_UPLOAD_PATH,
     );
 
-    if (!uploadEndpoint) {
+    if (
+      !uploadEndpoint ||
+      uploadEndpoint.search ||
+      uploadEndpoint.hash ||
+      (uploadEndpoint.pathname !== RESUMABLE_UPLOAD_PATH &&
+        uploadEndpoint.pathname !== SIGNED_RESUMABLE_UPLOAD_PATH)
+    ) {
       throw new WriterMessageApiError(
         "The manuscript upload service returned an unsafe endpoint.",
         502,
         "ATTACHMENT_STORAGE_UNAVAILABLE",
       );
     }
+
+    // Signed upload tokens must use Supabase's signed TUS route. Normalize the
+    // legacy backend handoff during a staged deployment.
+    uploadEndpoint.pathname = SIGNED_RESUMABLE_UPLOAD_PATH;
 
     return NextResponse.json(
       {

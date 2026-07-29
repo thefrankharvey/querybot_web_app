@@ -131,7 +131,10 @@ export default async function WriterMessageThreadPage({
               </div>
               {data.thread ? (
                 <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
-                  <QueryStatusBadge status={queryProgress?.currentCode} />
+                  <QueryStatusBadge
+                    status={queryProgress?.currentCode}
+                    viewerRole="writer"
+                  />
                   <p className="text-xs text-accent/72">
                     Last message{" "}
                     <LocalDateTime value={data.thread.lastMessageAt} />
@@ -144,6 +147,7 @@ export default async function WriterMessageThreadPage({
               activeView="conversation"
               conversationHref={conversationHref}
               timelineHref={timelineHref}
+              viewerRole="writer"
             />
           </header>
 

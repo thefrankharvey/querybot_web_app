@@ -5,6 +5,7 @@ import {
   CircleDot,
   Clock3,
   ShieldCheck,
+  UserRoundPen,
   UsersRound,
 } from "lucide-react";
 import Link from "next/link";
@@ -18,6 +19,11 @@ import {
 import { LocalDateTime } from "@/app/components/messages/local-date-time";
 import { Button } from "@/app/ui-primitives/button";
 import { Separator } from "@/app/ui-primitives/separator";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/app/ui-primitives/tooltip";
 import { cn } from "@/app/utils";
 import type {
   AgentActivityBenchmark,
@@ -49,7 +55,6 @@ type DisplayLane = {
   events: DisplayLaneEvent[];
   isTerminal: boolean;
   isViewer: boolean;
-  label: string;
   laneId: string;
   lastStatusOn: string;
   sentOn: string;
@@ -65,23 +70,19 @@ function parseDay(value?: string | null) {
   return Number.isNaN(date.getTime()) ? null : date;
 }
 
-function toDisplayLane(lane: AgentActivityLane, index: number): DisplayLane {
+function toDisplayLane(lane: AgentActivityLane): DisplayLane {
   return {
     currentStatus: lane.currentStatus,
     events: lane.events,
     isTerminal: lane.isTerminal,
     isViewer: false,
-    label: `Anonymous query ${index + 1}`,
     laneId: lane.laneId,
     lastStatusOn: lane.lastStatusOn,
     sentOn: lane.sentOn,
   };
 }
 
-function getDisplayLanes(
-  activityData: AgentActivityResponse,
-  viewerRole: "agent" | "writer",
-) {
+function getDisplayLanes(activityData: AgentActivityResponse) {
   const viewerProgress = activityData.viewerQuery.queryProgress;
   const viewerEvents = activityData.viewerQuery.events.map(
     (event, index, events) => {
@@ -112,7 +113,6 @@ function getDisplayLanes(
     events: viewerEvents,
     isTerminal: viewerProgress.isTerminal,
     isViewer: true,
-    label: viewerRole === "writer" ? "Your query" : "This query",
     laneId: "viewer-query",
     lastStatusOn: toDay(viewerProgress.changedAt),
     sentOn: toDay(viewerProgress.sentAt),
@@ -122,7 +122,7 @@ function getDisplayLanes(
       const sentDateOrder = right.sentOn.localeCompare(left.sentOn);
       return sentDateOrder || left.laneId.localeCompare(right.laneId);
     })
-    .map((lane, index) => toDisplayLane(lane, index));
+    .map(toDisplayLane);
 
   return [viewerLane, ...anonymousLanes].toSorted((left, right) => {
     const sentDateOrder = right.sentOn.localeCompare(left.sentOn);
@@ -132,51 +132,44 @@ function getDisplayLanes(
   });
 }
 
-function getRange(activityData: AgentActivityResponse, lanes: DisplayLane[]) {
-  const end = parseDay(activityData.scope.to) ?? new Date();
-  const scopedStart = parseDay(activityData.scope.from);
-  if (scopedStart) return { end, start: scopedStart };
+function getElapsedDays(startValue: string, endValue: string) {
+  const start = parseDay(startValue);
+  const end = parseDay(endValue);
+  if (!start || !end) return 0;
 
-  let earliest = end;
-  for (const lane of lanes) {
-    const laneDate = parseDay(lane.sentOn);
-    if (laneDate && laneDate < earliest) earliest = laneDate;
-  }
-
-  return {
-    end,
-    start:
-      earliest.getTime() < end.getTime()
-        ? earliest
-        : new Date(end.getTime() - DAY_MS),
-  };
+  return Math.max(
+    0,
+    Math.round((end.getTime() - start.getTime()) / DAY_MS),
+  );
 }
 
-function getPosition(value: string, start: Date, end: Date) {
-  const date = parseDay(value);
-  if (!date) return 0;
-
-  const range = Math.max(1, end.getTime() - start.getTime());
-  const offset = date.getTime() - start.getTime();
-  return Math.min(100, Math.max(0, (offset / range) * 100));
+function getElapsedPosition(elapsedDays: number, maxElapsedDays: number) {
+  return Math.min(100, Math.max(0, (elapsedDays / maxElapsedDays) * 100));
 }
 
-function getTicks(start: Date, end: Date) {
-  const count = 5;
-  const range = end.getTime() - start.getTime();
-  if (range <= 0) return [{ date: end, position: 100 }];
+function WriterLaneIdentity({ isViewer }: { isViewer: boolean }) {
+  const label = isViewer ? "Your query" : "Writer query";
 
-  return Array.from({ length: count }, (_, index) => {
-    const ratio = index / (count - 1);
-    return {
-      date: new Date(start.getTime() + range * ratio),
-      position: ratio * 100,
-    };
-  });
-}
-
-function formatTick(date: Date) {
-  return <LocalDateTime value={date.toISOString()} variant="shortDate" />;
+  return (
+    <div className="flex items-center gap-2">
+      <span
+        aria-label={label}
+        className={cn(
+          "flex size-8 shrink-0 items-center justify-center rounded-full border",
+          isViewer
+            ? "border-accent bg-accent text-white"
+            : "border-accent/12 bg-white/72 text-accent/68",
+        )}
+        role="img"
+        title={label}
+      >
+        <UserRoundPen aria-hidden className="size-4" />
+      </span>
+      {isViewer ? (
+        <span className="text-sm font-semibold text-accent">Your query</span>
+      ) : null}
+    </div>
+  );
 }
 
 function ActivityWindowControls({
@@ -331,7 +324,11 @@ function AgentActivitySummaryCards({
                 className="inline-flex items-center gap-2 rounded-full border border-accent/10 bg-white/72 py-1 pl-1 pr-2.5"
                 key={status}
               >
-                <QueryStatusBadge compact status={status} />
+                <QueryStatusBadge
+                  compact
+                  status={status}
+                  viewerRole={viewerRole}
+                />
                 <span className="text-xs font-semibold text-accent/76">
                   {count}
                 </span>
@@ -344,7 +341,13 @@ function AgentActivitySummaryCards({
   );
 }
 
-function ActivityLegend({ lanes }: { lanes: DisplayLane[] }) {
+function ActivityLegend({
+  lanes,
+  viewerRole,
+}: {
+  lanes: DisplayLane[];
+  viewerRole: "agent" | "writer";
+}) {
   const visibleStatuses = QUERY_STATUS_CODES.filter((status) =>
     lanes.some(
       (lane) =>
@@ -362,7 +365,12 @@ function ActivityLegend({ lanes }: { lanes: DisplayLane[] }) {
       </p>
       <div className="flex flex-wrap gap-2">
         {visibleStatuses.map((status) => (
-          <QueryStatusBadge compact key={status} status={status} />
+          <QueryStatusBadge
+            compact
+            key={status}
+            status={status}
+            viewerRole={viewerRole}
+          />
         ))}
       </div>
     </div>
@@ -372,54 +380,44 @@ function ActivityLegend({ lanes }: { lanes: DisplayLane[] }) {
 function ActivityLaneChart({
   activityData,
   lanes,
+  viewerRole,
 }: {
   activityData: AgentActivityResponse;
   lanes: DisplayLane[];
+  viewerRole: "agent" | "writer";
 }) {
-  const { end, start } = getRange(activityData, lanes);
-  const ticks = getTicks(start, end);
+  const maxElapsedDays = Math.max(
+    1,
+    ...lanes.map((lane) =>
+      getElapsedDays(
+        lane.sentOn,
+        lane.isTerminal ? lane.lastStatusOn : activityData.scope.to,
+      ),
+    ),
+  );
 
   return (
-    <div
-      className="hidden md:block"
-      role="img"
-      aria-label="Anonymous query progress over time"
-    >
-      <div className="grid grid-cols-[9.5rem_minmax(0,1fr)_8rem] gap-3 px-3 pb-2 text-xs font-medium text-accent/72">
-        <span>Query</span>
-        <div className="relative h-5">
-          {ticks.map((tick, index) => (
-            <span
-              className={cn(
-                "absolute whitespace-nowrap",
-                index === 0
-                  ? "translate-x-0"
-                  : index === ticks.length - 1
-                    ? "-translate-x-full"
-                    : "-translate-x-1/2",
-              )}
-              key={tick.date.toISOString()}
-              style={{ left: `${tick.position}%` }}
-            >
-              {index === ticks.length - 1 ? "Today" : formatTick(tick.date)}
-            </span>
-          ))}
-        </div>
+    <div className="hidden md:block">
+      <div className="grid grid-cols-[8rem_minmax(0,1fr)_8rem] gap-3 px-3 pb-2 text-xs font-medium text-accent/72">
+        <span>Writer</span>
+        <span className="px-3">Sent</span>
         <span className="text-right">Current status</span>
       </div>
       <div className="flex flex-col gap-2">
         {lanes.map((lane) => {
-          const startPosition = getPosition(lane.sentOn, start, end);
           const lineEndDate = lane.isTerminal
             ? lane.lastStatusOn
             : activityData.scope.to;
-          const endPosition = getPosition(lineEndDate, start, end);
-          const lineWidth = Math.max(1.5, endPosition - startPosition);
+          const elapsedToEnd = getElapsedDays(lane.sentOn, lineEndDate);
+          const lineWidth = Math.max(
+            1.5,
+            getElapsedPosition(elapsedToEnd, maxElapsedDays),
+          );
 
           return (
             <div
               className={cn(
-                "grid min-h-14 grid-cols-[9.5rem_minmax(0,1fr)_8rem] items-center gap-3 rounded-[0.9rem] px-3 py-2",
+                "grid min-h-14 grid-cols-[8rem_minmax(0,1fr)_8rem] items-center gap-3 rounded-[0.9rem] px-3 py-2",
                 lane.isViewer
                   ? "border border-accent/16 bg-accent/6"
                   : "border border-transparent bg-white/42",
@@ -431,71 +429,88 @@ function ActivityLaneChart({
                   : { containIntrinsicSize: "56px", contentVisibility: "auto" }
               }
             >
-              <div className="min-w-0">
-                <p className="truncate text-sm font-semibold text-accent">
-                  {lane.label}
-                </p>
+              <div className="flex min-w-0 flex-col gap-1">
+                <WriterLaneIdentity isViewer={lane.isViewer} />
                 <p className="mt-0.5 text-xs text-accent/72">
                   Sent <LocalDateTime value={lane.sentOn} variant="shortDate" />
                 </p>
               </div>
-              <div aria-hidden className="relative h-8">
-                {ticks.map((tick) => (
-                  <span
-                    className="absolute inset-y-0 w-px bg-accent/7"
-                    key={tick.date.toISOString()}
-                    style={{ left: `${tick.position}%` }}
-                  />
-                ))}
+              <div
+                aria-label="Query status milestones"
+                className="relative mx-3 h-8"
+              >
                 <span
+                  aria-hidden
                   className={cn(
                     "absolute top-1/2 border-t-2 border-accent/34",
                     lane.isTerminal ? "border-solid" : "border-dashed",
                   )}
                   style={{
-                    left: `${startPosition}%`,
+                    left: 0,
                     width: `${lineWidth}%`,
                   }}
                 />
                 {lane.events.map((event, index) => {
-                  const metadata = getQueryStatusMetadata(event.status);
+                  const metadata = getQueryStatusMetadata(
+                    event.status,
+                    viewerRole,
+                  );
                   const Icon = metadata.icon;
+                  const elapsedDays = getElapsedDays(
+                    lane.sentOn,
+                    event.occurredOn,
+                  );
                   return (
-                    <span
-                      className={cn(
-                        "absolute top-1/2 flex size-6 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-sm",
-                        lane.isViewer
-                          ? "border-accent text-accent"
-                          : "border-accent/18 text-accent/68",
-                      )}
+                    <Tooltip
                       key={`${event.occurredOn}-${event.status}-${index}`}
-                      style={{
-                        left: `${getPosition(event.occurredOn, start, end)}%`,
-                      }}
-                      title={metadata.label}
                     >
-                      <Icon className="size-3" />
-                    </span>
+                      <TooltipTrigger
+                        aria-label={metadata.label}
+                        className={cn(
+                          "absolute top-1/2 flex size-6 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border bg-white shadow-sm outline-none focus-visible:ring-[4px] focus-visible:ring-ring/30",
+                          lane.isViewer
+                            ? "border-accent text-accent"
+                            : "border-accent/18 text-accent/68",
+                        )}
+                        style={{
+                          left: `${getElapsedPosition(
+                            elapsedDays,
+                            maxElapsedDays,
+                          )}%`,
+                        }}
+                        type="button"
+                      >
+                        <Icon aria-hidden className="size-3" />
+                      </TooltipTrigger>
+                      <TooltipContent side="top" sideOffset={6}>
+                        <p>{metadata.label}</p>
+                      </TooltipContent>
+                    </Tooltip>
                   );
                 })}
               </div>
               <div className="flex justify-end">
-                <QueryStatusBadge compact status={lane.currentStatus} />
+                <QueryStatusBadge
+                  compact
+                  status={lane.currentStatus}
+                  viewerRole={viewerRole}
+                />
               </div>
             </div>
           );
         })}
       </div>
-      <p className="mt-3 text-xs leading-5 text-accent/72">
-        Dashed lines continue through the latest activity date for queries that
-        remain active. Rows are sorted by sent date, newest first, and do not
-        represent a reading queue.
-      </p>
     </div>
   );
 }
 
-function ActivityLaneList({ lanes }: { lanes: DisplayLane[] }) {
+function ActivityLaneList({
+  lanes,
+  viewerRole,
+}: {
+  lanes: DisplayLane[];
+  viewerRole: "agent" | "writer";
+}) {
   return (
     <ol className="flex flex-col gap-3">
       {lanes.map((lane) => (
@@ -515,17 +530,24 @@ function ActivityLaneList({ lanes }: { lanes: DisplayLane[] }) {
         >
           <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
             <div>
-              <p className="text-sm font-semibold text-accent">{lane.label}</p>
+              <WriterLaneIdentity isViewer={lane.isViewer} />
               <p className="mt-1 text-xs text-accent/72">
                 Sent <LocalDateTime value={lane.sentOn} variant="date" />
                 {lane.isTerminal ? " · Completed" : " · Still active"}
               </p>
             </div>
-            <QueryStatusBadge compact status={lane.currentStatus} />
+            <QueryStatusBadge
+              compact
+              status={lane.currentStatus}
+              viewerRole={viewerRole}
+            />
           </div>
           <ol className="mt-3 flex flex-col gap-2 border-l border-accent/12 pl-3">
             {lane.events.map((event, index) => {
-              const metadata = getQueryStatusMetadata(event.status);
+              const metadata = getQueryStatusMetadata(
+                event.status,
+                viewerRole,
+              );
               return (
                 <li
                   className="text-xs leading-5 text-accent/76"
@@ -581,7 +603,7 @@ function PrivacyFallback({
           <p className="text-sm font-semibold text-accent">
             Your query remains visible
           </p>
-          <ActivityLaneList lanes={[viewerLane]} />
+          <ActivityLaneList lanes={[viewerLane]} viewerRole={viewerRole} />
         </div>
       ) : null}
     </div>
@@ -649,8 +671,7 @@ export function AgentActivityPanel({
     );
   }
 
-  const lanes = getDisplayLanes(activityData, viewerRole);
-  const viewerPosition = lanes.findIndex((lane) => lane.isViewer) + 1;
+  const lanes = getDisplayLanes(activityData);
 
   return (
     <section
@@ -695,37 +716,21 @@ export function AgentActivityPanel({
             </>
           ) : null}
           <div>
-            <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
-              <div>
-                <h3 className="text-base font-semibold text-accent">
-                  {viewerRole === "writer"
-                    ? "Anonymous query activity"
-                    : "Query timelines"}
-                </h3>
-                <p className="text-sm text-accent/76">
-                  {viewerRole === "writer"
-                    ? `Your query is highlighted at row ${viewerPosition} of ${lanes.length} by sent date; every other row is anonymous.`
-                    : "This query is highlighted in its sent-date position; other rows are anonymous."}
-                </p>
-              </div>
+            <div className="flex justify-end">
               <p className="text-xs text-accent/72">
                 Updated <LocalDateTime value={activityData.asOf} />
               </p>
             </div>
             <div className="mt-4 flex flex-col gap-4">
-              <ActivityLegend lanes={lanes} />
-              <ActivityLaneChart activityData={activityData} lanes={lanes} />
+              <ActivityLegend lanes={lanes} viewerRole={viewerRole} />
+              <ActivityLaneChart
+                activityData={activityData}
+                lanes={lanes}
+                viewerRole={viewerRole}
+              />
               <div className="md:hidden">
-                <ActivityLaneList lanes={lanes} />
+                <ActivityLaneList lanes={lanes} viewerRole={viewerRole} />
               </div>
-              <details className="mt-4 hidden rounded-[1rem] border border-accent/10 bg-white/48 p-4 md:block">
-                <summary className="cursor-pointer text-sm font-semibold text-accent outline-none focus-visible:ring-[4px] focus-visible:ring-ring/30">
-                  View as accessible list
-                </summary>
-                <div className="mt-4">
-                  <ActivityLaneList lanes={lanes} />
-                </div>
-              </details>
             </div>
           </div>
         </>

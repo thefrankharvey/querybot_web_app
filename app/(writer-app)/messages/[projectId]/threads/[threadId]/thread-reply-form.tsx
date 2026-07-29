@@ -10,6 +10,11 @@ import {
 } from "@/app/components/messages/conversation-items";
 import { ManuscriptAttachmentPicker } from "@/app/components/messages/manuscript-attachment-picker";
 import { MessageAttachmentCard } from "@/app/components/messages/message-attachment-card";
+import {
+  ConversationColumnsHeader,
+  ConversationItemRow,
+  MessageBubbleFrame,
+} from "@/app/components/messages/message-bubble";
 import { ConversationLifecycleDivider } from "@/app/components/messages/query-lifecycle";
 import { useManuscriptAttachmentUpload } from "@/app/hooks/use-manuscript-attachment-upload";
 import { useWriterReadStateMutation } from "@/app/hooks/use-message-query-lifecycle";
@@ -25,30 +30,13 @@ import type {
   WriterReplyResponse,
   WriterThreadMessagesResponse,
 } from "@/app/utils/message-types";
-import { cn } from "@/app/utils";
 import {
   canSendMessage,
   getAttachmentErrorAction,
   isManuscriptUploadVisible,
 } from "@/app/utils/manuscript-attachments";
 
-const MESSAGE_TIME_FORMATTER = new Intl.DateTimeFormat("en", {
-  month: "short",
-  day: "numeric",
-  year: "numeric",
-  hour: "numeric",
-  minute: "2-digit",
-  timeZone: "UTC",
-  timeZoneName: "short",
-});
 const MAX_LINKED_MESSAGE_PAGES = 10;
-
-function formatMessageTime(value: string) {
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "";
-
-  return MESSAGE_TIME_FORMATTER.format(date);
-}
 
 function getLinkedMessageId() {
   const prefix = "#message-";
@@ -73,33 +61,13 @@ function MessageBubble({
   const isWriter = message.senderRole === "writer";
 
   return (
-    <div
-      className={cn(
-        "flex",
-        isWriter ? "justify-end pl-8 md:pl-24" : "justify-start pr-8 md:pr-24",
-      )}
-    >
-      <article
-        data-message-id={message.messageId}
-        id={`message-${message.messageId}`}
-        className={cn(
-          "max-w-3xl scroll-mt-24 rounded-[1.25rem] px-4 py-3 shadow-[0_14px_34px_rgba(24,44,69,0.06)]",
-          isWriter
-            ? "border border-accent bg-accent text-white"
-            : "border border-accent/10 bg-white/76 text-accent",
-        )}
+    <ConversationItemRow>
+      <MessageBubbleFrame
+        createdAt={message.createdAt}
+        id={message.messageId}
+        isOwnMessage={isWriter}
+        senderLabel={isWriter ? "You" : "Agent"}
       >
-        <div className="mb-2 flex items-center justify-between gap-4 text-xs font-medium">
-          <span>{isWriter ? "You" : "Agent"}</span>
-          {message.createdAt ? (
-            <time
-              dateTime={message.createdAt}
-              className={isWriter ? "text-white/85" : "text-accent/72"}
-            >
-              {formatMessageTime(message.createdAt)}
-            </time>
-          ) : null}
-        </div>
         {message.body.trim() ? (
           <p className="whitespace-pre-wrap text-sm leading-6 [overflow-wrap:anywhere]">
             {message.body}
@@ -119,8 +87,8 @@ function MessageBubble({
             viewerRole="writer"
           />
         ))}
-      </article>
-    </div>
+      </MessageBubbleFrame>
+    </ConversationItemRow>
   );
 }
 
@@ -595,125 +563,138 @@ export function ThreadReplyForm({
 
   return (
     <div className="flex flex-col gap-5">
-      {nextBefore || olderMessagesError ? (
-        <div className="flex flex-col items-center gap-2">
-          {nextBefore ? (
-            <Button
-              disabled={isLoadingOlder}
-              onClick={handleLoadOlder}
-              size="sm"
-              type="button"
-              variant="outline"
-            >
-              {isLoadingOlder ? <Spinner data-icon="inline-start" /> : null}
-              {isLoadingOlder ? "Loading…" : "Load older messages"}
-            </Button>
-          ) : null}
-          {olderMessagesError ? (
-            <p className="text-sm text-destructive" role="alert">
-              {olderMessagesError}
-            </p>
-          ) : null}
+      <div className="flex flex-col">
+        <ConversationColumnsHeader />
+        {nextBefore || olderMessagesError ? (
+          <ConversationItemRow>
+            <div className="flex flex-col items-center gap-2">
+              {nextBefore ? (
+                <Button
+                  disabled={isLoadingOlder}
+                  onClick={handleLoadOlder}
+                  size="sm"
+                  type="button"
+                  variant="outline"
+                >
+                  {isLoadingOlder ? <Spinner data-icon="inline-start" /> : null}
+                  {isLoadingOlder ? "Loading…" : "Load older messages"}
+                </Button>
+              ) : null}
+              {olderMessagesError ? (
+                <p className="text-sm text-destructive" role="alert">
+                  {olderMessagesError}
+                </p>
+              ) : null}
+            </div>
+          </ConversationItemRow>
+        ) : null}
+        <div
+          aria-live="polite"
+          className="flex flex-col"
+          ref={conversationRef}
+          role="log"
+        >
+          {conversationItems.length > 0 ? (
+            conversationItems.map((item) =>
+              item.kind === "event" ? (
+                <ConversationLifecycleDivider
+                  event={item.event}
+                  key={item.id}
+                  viewerRole="writer"
+                />
+              ) : (
+                <MessageBubble
+                  key={item.id}
+                  message={item.message}
+                  onDeleteAttachment={(attachmentId) =>
+                    deleteSentAttachment(item.message.messageId, attachmentId)
+                  }
+                  projectId={projectId}
+                />
+              ),
+            )
+          ) : (
+            <ConversationItemRow>
+              <div className="rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-8 text-center text-sm text-accent/76">
+                No messages were returned for this thread.
+              </div>
+            </ConversationItemRow>
+          )}
         </div>
-      ) : null}
-      <div
-        aria-live="polite"
-        className="flex flex-col gap-3"
-        ref={conversationRef}
-        role="log"
-      >
-        {conversationItems.length > 0 ? (
-          conversationItems.map((item) =>
-            item.kind === "event" ? (
-              <ConversationLifecycleDivider event={item.event} key={item.id} />
-            ) : (
-              <MessageBubble
-                key={item.id}
-                message={item.message}
-                onDeleteAttachment={(attachmentId) =>
-                  deleteSentAttachment(item.message.messageId, attachmentId)
-                }
-                projectId={projectId}
-              />
-            ),
-          )
-        ) : (
-          <div className="rounded-[1.25rem] border border-accent/10 bg-white/60 px-5 py-8 text-center text-sm text-accent/76">
-            No messages were returned for this thread.
-          </div>
-        )}
       </div>
 
-      <div className="rounded-[1.25rem] border border-accent/10 bg-white/76 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
-        {isWaitingForAgent ? (
-          <div className="flex items-start gap-3" role="status">
-            <span className="flex size-9 shrink-0 items-center justify-center rounded-full border border-accent/10 bg-accent/6 text-accent/68">
-              <Clock3 aria-hidden className="size-4" />
-            </span>
-            <div className="flex flex-col gap-1">
-              <p className="text-sm font-semibold text-accent">
-                Waiting for the agent
-              </p>
-              <p className="text-sm leading-6 text-accent/76">
-                Your query is with the agent. You’ll be able to respond after
-                they reply or request material.
-              </p>
+      <ConversationItemRow>
+        <div className="rounded-[1.25rem] border border-accent/10 bg-white/76 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
+          {isWaitingForAgent ? (
+            <div className="flex items-start gap-3" role="status">
+              <span className="flex size-9 shrink-0 items-center justify-center rounded-full border border-accent/10 bg-accent/6 text-accent/68">
+                <Clock3 aria-hidden className="size-4" />
+              </span>
+              <div className="flex flex-col gap-1">
+                <p className="text-sm font-semibold text-accent">
+                  Waiting for the agent
+                </p>
+                <p className="text-sm leading-6 text-accent/76">
+                  Your query is with the agent. You’ll be able to respond after
+                  they reply or request material.
+                </p>
+              </div>
             </div>
-          </div>
-        ) : (
-          <>
-            <Textarea
-              aria-label="Reply"
-              disabled={isSending || uploadController.isBusy}
-              onChange={(event) => setDraft(event.target.value)}
-              placeholder="Type your reply..."
-              value={draft}
-            />
-            {showManuscriptUpload ? (
-              <ManuscriptAttachmentPicker
-                agentName={agentName}
-                controller={uploadController}
-                disabled={isSending}
-                initialOpen={initialShareManuscriptOpen}
+          ) : (
+            <>
+              <Textarea
+                aria-label="Reply"
+                disabled={isSending || uploadController.isBusy}
+                onChange={(event) => setDraft(event.target.value)}
+                placeholder="Type your reply..."
+                value={draft}
               />
-            ) : null}
-            {error ? (
-              <p className="mt-3 text-sm text-destructive" role="alert">
-                {error}
-              </p>
-            ) : null}
-            <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
-              <Button
-                type="button"
-                variant="outline"
-                onClick={() => {
-                  setDraft("");
-                  setError(null);
-                  if (uploadController.readyAttachment) {
-                    void uploadController.remove();
+              {showManuscriptUpload ? (
+                <ManuscriptAttachmentPicker
+                  agentName={agentName}
+                  controller={uploadController}
+                  disabled={isSending}
+                  initialOpen={initialShareManuscriptOpen}
+                />
+              ) : null}
+              {error ? (
+                <p className="mt-3 text-sm text-destructive" role="alert">
+                  {error}
+                </p>
+              ) : null}
+              <div className="mt-4 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+                <Button
+                  type="button"
+                  variant="outline"
+                  onClick={() => {
+                    setDraft("");
+                    setError(null);
+                    if (uploadController.readyAttachment) {
+                      void uploadController.remove();
+                    }
+                  }}
+                  disabled={
+                    isSending ||
+                    uploadController.isBusy ||
+                    (draft.length === 0 && !uploadController.readyAttachment)
                   }
-                }}
-                disabled={
-                  isSending ||
-                  uploadController.isBusy ||
-                  (draft.length === 0 && !uploadController.readyAttachment)
-                }
-              >
-                <X data-icon="inline-start" />
-                Cancel
-              </Button>
-              <Button type="button" onClick={handleSend} disabled={!canSend}>
-                {isSending ? (
-                  <Spinner className="text-white" data-icon="inline-start" />
-                ) : (
-                  <Send data-icon="inline-start" />
-                )}
-                Send
-              </Button>
-            </div>
-          </>
-        )}
-      </div>
+                >
+                  <X data-icon="inline-start" />
+                  Cancel
+                </Button>
+                <Button type="button" onClick={handleSend} disabled={!canSend}>
+                  {isSending ? (
+                    <Spinner className="text-white" data-icon="inline-start" />
+                  ) : (
+                    <Send data-icon="inline-start" />
+                  )}
+                  Send
+                </Button>
+              </div>
+            </>
+          )}
+        </div>
+      </ConversationItemRow>
     </div>
   );
 }
