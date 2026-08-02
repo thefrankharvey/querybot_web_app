@@ -16,7 +16,9 @@ function ScrollToTop() {
   const pathname = usePathname();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (pathname === "/" || pathname === "/home") {
+      window.scrollTo(0, 0);
+    }
   }, [pathname]);
 
   return null;

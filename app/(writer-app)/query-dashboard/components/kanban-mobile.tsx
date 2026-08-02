@@ -25,6 +25,7 @@ import { QUERY_DASH_COLUMNS, QueryDashColumnId } from "./kanban-config";
 import { useQueryDashContext } from "../context/query-dash-context";
 import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
+import type { QueryRoundSelection } from "@/app/utils/query-rounds";
 
 const SWIPE_THRESHOLD = 50;
 const DRAG_EDGE_THRESHOLD = 60;
@@ -40,6 +41,7 @@ export function KanbanMobile() {
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
+    setQueryRound,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -130,6 +132,13 @@ export function KanbanMobile() {
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) => (prev ? { ...prev, fitRating: rating } : null));
     }
+  };
+
+  const handleQueryRoundChange = (
+    cardId: string,
+    selection: QueryRoundSelection,
+  ) => {
+    setQueryRound(cardId, selection, "board_dialog");
   };
 
   const handleMoveCard = (cardId: string, columnId: QueryDashColumnId) => {
@@ -362,6 +371,7 @@ export function KanbanMobile() {
         onOpenChange={(open) => !open && setSelectedCard(null)}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
+        onQueryRoundChange={handleQueryRoundChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
       />

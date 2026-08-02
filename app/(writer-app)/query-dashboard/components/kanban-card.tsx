@@ -1,6 +1,6 @@
 "use client";
 
-import type { CSSProperties } from "react";
+import { useMemo, type CSSProperties } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import Link from "next/link";
@@ -23,6 +23,17 @@ import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
 import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
 import { isManuscriptUploadVisible } from "@/app/utils/manuscript-attachments";
 import { Button } from "@/app/ui-primitives/button";
+import { QueryRoundBadge } from "./query-round-control";
+import { AgencyGuardBadge } from "@/app/components/query-safety/agency-guard";
+import { useQueryDashContext } from "../context/query-dash-context";
+import { getDashboardAgencyGuard } from "@/app/utils/query-safety/dashboard-agency-guard";
+import { NextReminderBadge } from "@/app/components/query-safety/reminder-badge";
+import {
+  getNextScheduledReminder,
+  getReminderUrgency,
+} from "@/app/components/query-safety/reminder-view-model";
+import { useQueryReminders } from "@/app/hooks/use-query-reminders";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -73,6 +84,7 @@ export interface KanbanCardData {
   name: string;
   email?: string | null;
   agency?: string | null;
+  agency_id?: string | null;
   index_id?: string | null;
   query_tracker?: string | null;
   pub_marketplace?: string | null;
@@ -87,6 +99,8 @@ export interface KanbanCardData {
   columnId: string;
   prepQueryLetterDone: boolean;
   fitRating: FitRating;
+  queryRound: number | null;
+  queryOnHold: boolean;
   projectName: string;
   writerProjectId?: string | null;
   notes: string;
@@ -115,6 +129,32 @@ export function KanbanCard({
   useDragHandle = false,
   tourTarget,
 }: KanbanCardProps) {
+  const { cards } = useQueryDashContext();
+  const safetyConfig = useQuerySafetyConfig();
+  const agencyHistoryEnabled =
+    safetyConfig.data?.features.agencyHistory === true;
+  const manualRemindersEnabled =
+    safetyConfig.data?.features.manualReminders === true;
+  const remindersQuery = useQueryReminders({
+    status: "scheduled",
+    enabled: manualRemindersEnabled,
+  });
+  const agencyGuard = useMemo(
+    () => getDashboardAgencyGuard(card, cards),
+    [card, cards],
+  );
+  const nextReminder = useMemo(
+    () =>
+      getNextScheduledReminder(
+        (remindersQuery.data ?? []).filter(
+          (reminder) => reminder.agentMatchId === card.id,
+        ),
+      ),
+    [card.id, remindersQuery.data],
+  );
+  const nextReminderUrgency = nextReminder
+    ? getReminderUrgency(nextReminder)
+    : null;
   const isLifecycleLocked =
     card.trackingMode === "live" || card.lifecycleSyncUnavailable === true;
   const {
@@ -233,6 +273,20 @@ export function KanbanCard({
           {card.agency}
         </p>
       )}
+      {agencyHistoryEnabled &&
+      (agencyGuard.status !== "clear" ||
+        agencyGuard.liveDataStatus !== "available") ? (
+        <div className="mt-2">
+          <AgencyGuardBadge compact guard={agencyGuard} />
+        </div>
+      ) : null}
+      {manualRemindersEnabled &&
+      nextReminder &&
+      nextReminderUrgency !== "upcoming" ? (
+        <div className="mt-2">
+          <NextReminderBadge reminder={nextReminder} />
+        </div>
+      ) : null}
       {timingText && (
         <div className="mt-4">
           <p className="text-xs font-semibold text-accent cursor-pointer">
@@ -298,6 +352,10 @@ export function KanbanCard({
       {/* Fit Rating Pill */}
       <div className="mt-2 flex flex-wrap gap-2">
         <FitRatingBadge rating={card.fitRating} />
+        <QueryRoundBadge
+          queryOnHold={card.queryOnHold}
+          queryRound={card.queryRound}
+        />
         <span className="inline-block rounded-full border border-accent/12 bg-white/85 px-2 py-0.5 text-xs font-medium text-accent">
           {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
         </span>

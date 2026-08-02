@@ -17,6 +17,13 @@ import { useProfileContext } from "@/app/(writer-app)/context/profile-context";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { useAgencyGuard, AgencyGuardClientError } from "@/app/hooks/use-agency-guard";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import {
+  AgencyGuardBadge,
+  AgencyGuardDetailsDialog,
+} from "@/app/components/query-safety/agency-guard";
+import { Alert, AlertDescription, AlertTitle } from "@/app/ui-primitives/alert";
 
 interface QueryDashAgentProfileProps {
   params: Promise<{
@@ -26,39 +33,59 @@ interface QueryDashAgentProfileProps {
 
 const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
   const unwrappedParams = React.use(params);
-  const agentId = unwrappedParams["agent-id"];
-  const { data, isLoading, error } = useFetchAgent(agentId);
-  const { agentsList, removeAgent } = useProfileContext();
+  const routeAgentId = unwrappedParams["agent-id"];
+  const {
+    agentsList,
+    isLoading: isSavedAgentsLoading,
+    removeAgent,
+  } = useProfileContext();
+  const exactRecord = agentsList?.find((match) => match.id === routeAgentId);
+  const legacyMatches = agentsList?.filter(
+    (match) => match.index_id === routeAgentId,
+  );
+  const agentMatch =
+    exactRecord ?? (legacyMatches?.length === 1 ? legacyMatches[0] : undefined);
+  const upstreamAgentId = agentMatch?.index_id?.trim() || null;
+  const { data, isLoading, error } = useFetchAgent(upstreamAgentId);
+  const safetyConfig = useQuerySafetyConfig();
+  const agencyHistoryEnabled =
+    safetyConfig.data?.features.agencyHistory === true;
+  const agencyGuardQuery = useAgencyGuard(
+    { candidateRecordId: agentMatch?.id, includeAllProjects: true },
+    { enabled: agencyHistoryEnabled && Boolean(agentMatch?.id) },
+  );
   const router = useRouter();
 
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
-      onSuccess: (deletedAgentId) => {
+      onSuccess: (deletedRecordId) => {
         // Remove agent from context immediately
-        removeAgent(deletedAgentId);
+        removeAgent(deletedRecordId);
 
         // Get remaining agents after deletion
         const remainingAgents = agentsList?.filter(
-          (agent) => agent.index_id !== deletedAgentId
+          (agent) => agent.id !== deletedRecordId,
         );
 
         // Route based on remaining agents
         if (remainingAgents && remainingAgents.length > 0) {
-          router.replace(`/saved-agents/${remainingAgents[0].index_id}`);
+          router.replace(
+            `/query-dashboard/${encodeURIComponent(remainingAgents[0].id)}`,
+          );
         } else {
-          router.replace("/saved-agents");
+          router.replace("/query-dashboard");
         }
       },
     });
 
   const agent = data?.agent;
-  const agentMatch = agentsList?.find((match) => match.index_id === agentId);
-
   const handleDeleteAgentMatch = () => {
-    deleteAgentMatch(agentId);
+    if (agentMatch) {
+      deleteAgentMatch(agentMatch.id);
+    }
   };
 
-  if (isLoading) {
+  if (isLoading || isSavedAgentsLoading) {
     return (
       <div className="flex items-center justify-center min-h-[400px]">
         <Spinner className="size-16" />
@@ -66,7 +93,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
     );
   }
 
-  if (error || !agent) {
+  if (error || !agent || !agentMatch) {
     return (
       <div>
         <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
@@ -103,7 +130,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
         <Button
           className="text-sm"
           onClick={handleDeleteAgentMatch}
-          disabled={isDeleting}
+          disabled={isDeleting || !agentMatch}
         >
           <div className="flex items-center gap-2">
             {isDeleting && <Spinner className="text-white" />}
@@ -135,6 +162,37 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
               </TooltipComponent>
             </div>
           </div>
+          {agencyHistoryEnabled && agencyGuardQuery.data ? (
+            agencyGuardQuery.data.status === "clear" &&
+            agencyGuardQuery.data.liveDataStatus === "available" ? (
+              <p className="text-sm text-accent/72" role="status">
+                No same-agency sent query history found for this project.
+              </p>
+            ) : (
+              <AgencyGuardDetailsDialog
+                guard={agencyGuardQuery.data}
+                originSurface="agent_profile"
+              >
+                <Button className="w-fit" size="sm" type="button" variant="ghost">
+                  <AgencyGuardBadge guard={agencyGuardQuery.data} />
+                </Button>
+              </AgencyGuardDetailsDialog>
+            )
+          ) : agencyHistoryEnabled && agencyGuardQuery.isLoading ? (
+            <p className="text-sm text-accent/72" role="status">
+              Checking agency query history…
+            </p>
+          ) : agencyHistoryEnabled &&
+            agencyGuardQuery.error instanceof AgencyGuardClientError &&
+            agencyGuardQuery.error.code === "FEATURE_DISABLED" ? null : agencyHistoryEnabled ? (
+            <Alert role="status" variant="muted">
+              <AlertTitle>Agency history unavailable</AlertTitle>
+              <AlertDescription>
+                Saved agent details are still available. Try the agency history
+                check again later.
+              </AlertDescription>
+            </Alert>
+          ) : null}
           <AgentContactDetails agent={agent} isSubscribed={true} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Genres:</label>

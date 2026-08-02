@@ -272,6 +272,7 @@ export default async function WriterMessagesPage({
                 projectId={pageData.project.projectId}
                 projectName={pageData.project.projectName}
                 savedAgents={savedAgents}
+                writerProjectId={pageData.project.writerProjectId}
               />
               <Separator />
             </>

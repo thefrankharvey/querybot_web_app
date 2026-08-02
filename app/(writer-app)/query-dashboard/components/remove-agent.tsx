@@ -18,15 +18,15 @@ import { useDeleteAgentMatch } from "@/app/hooks/use-delete-agent";
 import { useProfileContext } from "@/app/(writer-app)/context/profile-context";
 
 interface RemoveAgentProps {
-  indexId?: string | null;
-  onRemoved?: (deletedAgentId: string) => void;
+  recordId?: string | null;
+  onRemoved?: (deletedRecordId: string) => void;
   label?: string;
   description?: string;
   buttonClassName?: string;
 }
 
 export function RemoveAgent({
-  indexId,
+  recordId,
   onRemoved,
   label = "Remove Agent",
   description = "This will remove the agent from your query dashboard.",
@@ -35,15 +35,15 @@ export function RemoveAgent({
   const { removeAgent } = useProfileContext();
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
-      onSuccess: (deletedAgentId) => {
-        removeAgent(deletedAgentId);
-        onRemoved?.(deletedAgentId);
+      onSuccess: (deletedRecordId) => {
+        removeAgent(deletedRecordId);
+        onRemoved?.(deletedRecordId);
       },
     });
 
   const handleRemoveAgent = () => {
-    if (!indexId) return;
-    deleteAgentMatch(indexId);
+    if (!recordId) return;
+    deleteAgentMatch(recordId);
   };
 
   return (
@@ -53,7 +53,7 @@ export function RemoveAgent({
           size="sm"
           variant="secondary"
           className={`text-sm border-1 border-accent shadow-sm ${buttonClassName ?? "w-full"}`}
-          disabled={isDeleting || !indexId}
+          disabled={isDeleting || !recordId}
         >
           <div className="flex items-center gap-2 text-accent">
             {isDeleting ? <Spinner className="text-accent" /> : null}
@@ -76,7 +76,7 @@ export function RemoveAgent({
           <AlertDialogAction
             onClick={handleRemoveAgent}
             className="text-red-500 border-red-500 border-1 bg-white hover:bg-red-500 hover:text-white"
-            disabled={isDeleting || !indexId}
+            disabled={isDeleting || !recordId}
           >
             {isDeleting ? "Removing..." : label}
           </AlertDialogAction>

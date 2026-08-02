@@ -38,6 +38,13 @@ import {
 import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
 import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
 import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
+import { useAgencyGuard, AgencyGuardClientError } from "@/app/hooks/use-agency-guard";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import {
+  AgencyGuardBadge,
+  AgencyGuardDetailsDialog,
+} from "@/app/components/query-safety/agency-guard";
+import { Alert, AlertDescription, AlertTitle } from "@/app/ui-primitives/alert";
 
 const AgentProfile = () => {
   const params = useParams();
@@ -62,6 +69,31 @@ const AgentProfile = () => {
     useAgentMessagingAvailability(agentMessagingIds);
   const isMessagingAvailable = availableAgentIds.has(
     normalizeAgentMessagingId(legacyAgentId),
+  );
+  const activeProjectName = normalizeProjectName(matchesContext.projectName);
+  const activeWriterProjectId = matchesContext.writerProjectId?.trim() || null;
+  const savedAgent = getSavedAgentForProject(agentsList, {
+    legacyAgentId,
+    projectName: activeProjectName,
+    writerProjectId: activeWriterProjectId,
+  });
+  const safetyConfig = useQuerySafetyConfig();
+  const agencyHistoryEnabled =
+    safetyConfig.data?.features.agencyHistory === true;
+  const agencyGuardQuery = useAgencyGuard(
+    {
+      candidateRecordId: savedAgent?.id,
+      candidateIndexId: legacyAgentId,
+      candidateAgencyId: agent?.agency_identity?.agency_id,
+      candidateAgencyName:
+        agent?.agency_identity?.agency_name ?? agent?.agency ?? null,
+      candidateAgencyUrl:
+        agent?.agency_identity?.agency_url ?? agent?.website ?? null,
+      includeAllProjects: true,
+      projectName: activeProjectName,
+      writerProjectId: activeWriterProjectId,
+    },
+    { enabled: agencyHistoryEnabled && Boolean(agent) },
   );
 
   useEffect(() => {
@@ -90,13 +122,6 @@ const AgentProfile = () => {
     ...(agent.match_hits?.cluster.themes || []),
   ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
-  const activeProjectName = normalizeProjectName(matchesContext.projectName);
-  const activeWriterProjectId = matchesContext.writerProjectId?.trim() || null;
-  const savedAgent = getSavedAgentForProject(agentsList, {
-      legacyAgentId,
-      projectName: activeProjectName,
-      writerProjectId: activeWriterProjectId,
-  });
   const isAlreadySaved = Boolean(savedAgent);
   const savedProjectName =
     savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
@@ -182,7 +207,7 @@ const AgentProfile = () => {
           ) : null}
           {isAlreadySaved ? (
             <RemoveAgent
-              indexId={savedAgent?.index_id}
+              recordId={savedAgent?.id}
               label="Remove Agent"
               description="This will remove the agent from your saved results."
               buttonClassName="w-auto"
@@ -240,6 +265,37 @@ const AgentProfile = () => {
               )}
             </div>
           </div>
+          {agencyHistoryEnabled && agencyGuardQuery.data ? (
+            agencyGuardQuery.data.status === "clear" &&
+            agencyGuardQuery.data.liveDataStatus === "available" ? (
+              <p className="text-sm text-accent/72" role="status">
+                No same-agency sent query history found for this project.
+              </p>
+            ) : (
+              <AgencyGuardDetailsDialog
+                guard={agencyGuardQuery.data}
+                originSurface="agent_profile"
+              >
+                <Button className="w-fit" size="sm" type="button" variant="ghost">
+                  <AgencyGuardBadge guard={agencyGuardQuery.data} />
+                </Button>
+              </AgencyGuardDetailsDialog>
+            )
+          ) : agencyHistoryEnabled && agencyGuardQuery.isLoading ? (
+            <p className="text-sm text-accent/72" role="status">
+              Checking agency query history…
+            </p>
+          ) : agencyHistoryEnabled &&
+            agencyGuardQuery.error instanceof AgencyGuardClientError &&
+            agencyGuardQuery.error.code === "FEATURE_DISABLED" ? null : agencyHistoryEnabled ? (
+            <Alert role="status" variant="muted">
+              <AlertTitle>Agency history unavailable</AlertTitle>
+              <AlertDescription>
+                Agent details are still available. Try the agency history check
+                again later.
+              </AlertDescription>
+            </Alert>
+          ) : null}
           <AgentContactDetails agent={agent} isSubscribed={agentIndex < 6 || isSubscribed} />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Matching Genres:</label>

@@ -7,6 +7,7 @@ import type {
 import { getGenresThemesSummary } from "@/app/utils/agent-match-genres";
 import { getProjectMessagesHref } from "@/app/utils/message-routes";
 import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
+import { savedRecordMatchesProjectScope } from "@/app/utils/project-scope";
 
 type ProjectScope = {
   projectName?: string | null;
@@ -15,7 +16,12 @@ type ProjectScope = {
 
 type SavedAgentProjectFields = Pick<
   SavedAgentMatch,
-  "index_id" | "project_name" | "writer_project_id"
+  | "id"
+  | "index_id"
+  | "project_name"
+  | "query_on_hold"
+  | "query_round"
+  | "writer_project_id"
 >;
 
 export type SaveAgentForProject = (
@@ -51,10 +57,6 @@ function getTrimmedValue(value?: string | null) {
   return trimmed || null;
 }
 
-function getProjectNameKey(projectName?: string | null) {
-  return normalizeProjectName(projectName).toLocaleLowerCase();
-}
-
 export function getWriterAgentLegacyId(agent: WriterAgentMatch) {
   return getTrimmedValue(agent.agent_id);
 }
@@ -65,6 +67,7 @@ export function mapWriterAgentMatchToSaveAgentPayload(
 ): SaveAgentPayload {
   return {
     name: agent.name,
+    agencyId: getTrimmedValue(agent.agency_identity?.agency_id),
     email: getTrimmedValue(agent.email),
     agency: getTrimmedValue(agent.agency),
     agency_url: getTrimmedValue(agent.website),
@@ -84,20 +87,12 @@ export function savedAgentMatchesProject(
   savedAgent: SavedAgentProjectFields,
   scope: ProjectScope,
 ) {
-  const activeWriterProjectId = getTrimmedValue(scope.writerProjectId);
-  const savedWriterProjectId = getTrimmedValue(savedAgent.writer_project_id);
-
-  if (
-    activeWriterProjectId &&
-    savedWriterProjectId === activeWriterProjectId
-  ) {
-    return true;
-  }
-
-  return (
-    !savedWriterProjectId &&
-    getProjectNameKey(savedAgent.project_name) ===
-      getProjectNameKey(scope.projectName)
+  return savedRecordMatchesProjectScope(
+    {
+      projectName: savedAgent.project_name,
+      writerProjectId: savedAgent.writer_project_id,
+    },
+    scope,
   );
 }
 

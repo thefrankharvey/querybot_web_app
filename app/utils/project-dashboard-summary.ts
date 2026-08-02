@@ -1,4 +1,3 @@
-import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import {
   QUERY_DASH_COLUMNS,
   isQueryDashColumnId,
@@ -11,6 +10,7 @@ import {
   getProjectProfileHref,
   getProjectProfileHrefById,
 } from "@/app/utils/project-profile";
+import { getProjectScope } from "@/app/utils/project-scope";
 
 const FALLBACK_COLUMN_ID = QUERY_DASH_COLUMNS[0].id;
 
@@ -38,17 +38,15 @@ type ProjectDashboardSummaryWithSort = ProjectDashboardSummary & {
 };
 
 export function normalizeProjectName(projectName?: string | null) {
-  const trimmed = projectName?.trim();
-  return trimmed || DEFAULT_PROJECT_NAME;
+  return getProjectScope({ projectName }).projectName;
 }
 
 function getProjectNameKey(projectName?: string | null) {
-  return normalizeProjectName(projectName).toLocaleLowerCase();
+  return getProjectScope({ projectName }).key;
 }
 
 function getWriterProjectId(writerProjectId?: string | null) {
-  const trimmed = writerProjectId?.trim();
-  return trimmed || null;
+  return getProjectScope({ writerProjectId }).writerProjectId;
 }
 
 export function getProjectDashboardHref(

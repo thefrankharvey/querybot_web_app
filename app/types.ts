@@ -159,6 +159,7 @@ export type AgentMatch = {
   name: string;
   email?: string | null;
   agency?: string | null;
+  agency_id?: string | null;
   agency_url?: string | null;
   index_id?: string | null;
   query_tracker?: string | null;
@@ -176,12 +177,17 @@ export type AgentMatch = {
   query_letter_ready?: boolean | null;
   project_name?: string | null;
   writer_project_id?: string | null;
+  query_round?: number | null;
+  query_on_hold: boolean;
+  safety_updated_at?: string | null;
   created_at: string; // ISO timestamp
 };
 
 // Type for the POST payload matching the API expectations
 export interface SaveAgentPayload {
   name: string;
+  /** Browser hint only; the save API re-resolves the canonical value. */
+  agencyId?: string | null;
   email?: string | null;
   agency?: string | null;
   agency_url?: string | null;
@@ -205,31 +211,7 @@ export interface SaveAgentPayload {
 
 // Type for the API response
 export interface SaveAgentResponse {
-  created: Array<{
-    id: string;
-    user_id: string;
-    name: string;
-    email?: string | null;
-    agency?: string | null;
-    agency_url?: string | null;
-    index_id?: string | null;
-    query_tracker?: string | null;
-    pub_marketplace?: string | null;
-    match_score?: number | null;
-    fit_rating?: string | null;
-    genres_themes?: string | null;
-    column_name?: string | null;
-    updated_date?: string | null;
-    query_sent_date?: string | null;
-    pages_requested_date?: string | null;
-    rejected_date?: string | null;
-    offer_date?: string | null;
-    notes?: string | null;
-    query_letter_ready?: boolean | null;
-    project_name?: string | null;
-    writer_project_id?: string | null;
-    created_at: string; // ISO timestamp
-  }>;
+  created: AgentMatch[];
 }
 
 export interface UpdateAgentPayload {
@@ -251,6 +233,54 @@ export interface UpdateAgentPayload {
   project_name?: string | null;
   writer_project_id?: string | null;
 }
+
+export type AgentMatchRecord = {
+  recordId: string;
+  name: string;
+  email: string | null;
+  agency: string | null;
+  agencyId: string | null;
+  agencyUrl: string | null;
+  legacyAgentId: string | null;
+  queryTracker: string | null;
+  pubMarketplace: string | null;
+  matchScore: number | null;
+  fitRating: string | null;
+  genresThemes: string | null;
+  columnName: string | null;
+  updatedDate: string | null;
+  querySentDate: string | null;
+  pagesRequestedDate: string | null;
+  rejectedDate: string | null;
+  offerDate: string | null;
+  notes: string | null;
+  queryLetterReady: boolean | null;
+  projectScope: import("@/app/utils/project-scope").ProjectScope;
+  queryRound: number | null;
+  queryOnHold: boolean;
+  safetyUpdatedAt: string | null;
+  createdAt: string;
+};
+
+export type AgentMatchRecordPatch = {
+  name?: string | null;
+  email?: string | null;
+  agencyUrl?: string | null;
+  queryTracker?: string | null;
+  pubMarketplace?: string | null;
+  fitRating?: string | null;
+  genresThemes?: string | null;
+  columnName?: string | null;
+  updatedDate?: string | null;
+  querySentDate?: string | null;
+  pagesRequestedDate?: string | null;
+  rejectedDate?: string | null;
+  offerDate?: string | null;
+  notes?: string | null;
+  queryLetterReady?: boolean | null;
+  queryRound?: number | null;
+  queryOnHold?: boolean;
+};
 
 export type FetchAgentResponse = {
   agent: {

@@ -29,6 +29,7 @@ import {
   mapWriterAgentMatchToSaveAgentPayload,
   savedAgentMatchesProject,
 } from "../project-scoped-agent-messaging";
+import { useWriterMessageThreads } from "@/app/hooks/use-message-query-lifecycle";
 
 const getWriterProjectIdFromResponse = (data: unknown) => {
   if (!data || typeof data !== "object") return null;
@@ -88,6 +89,12 @@ export const AgentMatchesFull = ({
   const nextCursor = nextCursorCount || QUERY_LIMIT;
   const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
   const activeWriterProjectId = writerProjectId?.trim() || null;
+  const activeMessageProjectId =
+    activeWriterProjectId ?? activeProjectName;
+  const liveHistoryQuery = useWriterMessageThreads({
+    projectId: activeMessageProjectId,
+    enabled: Boolean(activeMessageProjectId),
+  });
   const hasSavedAgentsForActiveProject =
     activeProjectName.length > 0 &&
     Boolean(
@@ -309,6 +316,14 @@ export const AgentMatchesFull = ({
         messagingAgentId={messagingAgentId}
         projectName={activeProjectName}
         writerProjectId={activeWriterProjectId}
+        writerThreads={liveHistoryQuery.data?.threads ?? []}
+        liveHistoryStatus={
+          liveHistoryQuery.isLoading
+            ? "loading"
+            : liveHistoryQuery.isError
+              ? "unavailable"
+              : "available"
+        }
         projectDashboardHref={
           hasSavedAgentsForActiveProject
             ? activeWriterProjectId

@@ -23,6 +23,22 @@ const PATCH_FIELDS = [
   "writer_project_id",
 ] as const;
 
+// Compatibility-only route. New code must mutate the saved row through
+// /api/agent-match-records/[recordId], because index_id is not project-unique.
+const LEGACY_ROUTE_HEADERS = {
+  "Cache-Control": "private, no-store",
+  Deprecation: "true",
+  Warning:
+    '299 - "Deprecated agent index route; use /api/agent-match-records/{recordId}"',
+} as const;
+
+function legacyJson(body: unknown, status = 200) {
+  return NextResponse.json(body, {
+    status,
+    headers: LEGACY_ROUTE_HEADERS,
+  });
+}
+
 type PatchField = (typeof PATCH_FIELDS)[number];
 type PatchPayload = Partial<Record<PatchField, unknown>>;
 
@@ -50,7 +66,7 @@ export async function DELETE(
   const { userId } = await auth();
 
   if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return legacyJson({ error: "Unauthorized" }, 401);
   }
 
   const { id } = await params;
@@ -62,8 +78,8 @@ export async function DELETE(
     .eq("user_id", userId);
 
   if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  return NextResponse.json({ ok: true });
+    return legacyJson({ error: error.message }, 400);
+  return legacyJson({ ok: true });
 }
 
 export async function GET(
@@ -73,7 +89,7 @@ export async function GET(
   const { userId } = await auth();
 
   if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return legacyJson({ error: "Unauthorized" }, 401);
   }
 
   const { id } = await params;
@@ -85,8 +101,8 @@ export async function GET(
     .eq("user_id", userId);
 
   if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  return NextResponse.json({ agent_match: data?.[0] });
+    return legacyJson({ error: error.message }, 400);
+  return legacyJson({ agent_match: data?.[0] });
 }
 
 export async function PATCH(
@@ -96,7 +112,7 @@ export async function PATCH(
   const { userId } = await auth();
 
   if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return legacyJson({ error: "Unauthorized" }, 401);
   }
 
   const { id } = await params;
@@ -104,17 +120,11 @@ export async function PATCH(
   const updatePayload = sanitizePatchPayload(body);
 
   if (!updatePayload) {
-    return NextResponse.json(
-      { error: "Invalid payload: expected an object" },
-      { status: 400 },
-    );
+    return legacyJson({ error: "Invalid payload: expected an object" }, 400);
   }
 
   if (Object.keys(updatePayload).length === 0) {
-    return NextResponse.json(
-      { error: "At least one updatable field is required" },
-      { status: 400 },
-    );
+    return legacyJson({ error: "At least one updatable field is required" }, 400);
   }
 
   const supabase = createServerSupabase();
@@ -127,8 +137,8 @@ export async function PATCH(
     .single();
 
   if (error) {
-    return NextResponse.json({ error: error.message }, { status: 400 });
+    return legacyJson({ error: error.message }, 400);
   }
 
-  return NextResponse.json({ updated: data });
+  return legacyJson({ updated: data });
 }

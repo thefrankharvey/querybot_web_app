@@ -18,6 +18,8 @@ import {
   FIT_RATING_CONFIG,
   type FitRating,
 } from "@/app/components/fit-rating-badge";
+import { QueryRoundFilterSelect } from "./query-round-control";
+import type { QueryRoundFilter } from "@/app/utils/query-rounds";
 
 export type PrepQueryLetterFilter = "all" | "done" | "not_done";
 
@@ -26,6 +28,8 @@ interface KanbanColumnFiltersProps {
   onFitRatingChange: (value: "all" | FitRating) => void;
   prepQueryLetterFilter: PrepQueryLetterFilter;
   onPrepQueryLetterChange: (value: PrepQueryLetterFilter) => void;
+  queryRoundFilter: QueryRoundFilter;
+  onQueryRoundChange: (value: QueryRoundFilter) => void;
   tourForceOpen?: boolean;
   tourTargetsEnabled?: boolean;
 }
@@ -35,11 +39,16 @@ export function KanbanColumnFilters({
   onFitRatingChange,
   prepQueryLetterFilter,
   onPrepQueryLetterChange,
+  queryRoundFilter,
+  onQueryRoundChange,
   tourForceOpen,
   tourTargetsEnabled = false,
 }: KanbanColumnFiltersProps) {
   const [userOpen, setUserOpen] = useState(false);
-  const showDot = fitRatingFilter !== "all" || prepQueryLetterFilter !== "all";
+  const showDot =
+    fitRatingFilter !== "all" ||
+    prepQueryLetterFilter !== "all" ||
+    queryRoundFilter !== "all";
   const isTourControlled = tourForceOpen !== undefined;
   const open = isTourControlled ? tourForceOpen : userOpen;
 
@@ -126,6 +135,14 @@ export function KanbanColumnFilters({
                 <SelectItem value="not_done">Not Ready</SelectItem>
               </SelectContent>
             </Select>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <label className="text-sm font-medium">Filter by Query Round</label>
+            <QueryRoundFilterSelect
+              onValueChange={onQueryRoundChange}
+              value={queryRoundFilter}
+            />
           </div>
         </div>
       </PopoverContent>

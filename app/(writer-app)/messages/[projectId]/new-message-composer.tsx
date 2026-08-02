@@ -24,6 +24,9 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import { Textarea } from "@/app/ui-primitives/textarea";
 import { cn } from "@/app/utils";
 import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
+import { AgencyGuardConfirmationDialog } from "@/app/components/query-safety/agency-guard";
+import type { AgencyGuardServiceResult } from "@/app/utils/query-safety/agency-guard";
+import { captureQuerySafetyEvent } from "@/app/utils/query-safety/product-analytics.client";
 
 export type SavedAgentForMessaging = {
   id: string;
@@ -217,11 +220,13 @@ export function NewMessageComposer({
   projectId,
   projectName,
   savedAgents,
+  writerProjectId,
 }: {
   initialAgentId?: string | null;
   projectId: string;
   projectName: string;
   savedAgents: SavedAgentForMessaging[];
+  writerProjectId?: string | null;
 }) {
   const router = useRouter();
   const initialSelectedAgent = useMemo(
@@ -244,6 +249,12 @@ export function NewMessageComposer({
   const [body, setBody] = useState(initialScaffold);
   const [sendError, setSendError] = useState<string | null>(null);
   const [isSending, setIsSending] = useState(false);
+  const [agencyGuard, setAgencyGuard] =
+    useState<AgencyGuardServiceResult | null>(null);
+  const [agencyGuardUnavailable, setAgencyGuardUnavailable] = useState<
+    string | null
+  >(null);
+  const [isAgencyGuardOpen, setIsAgencyGuardOpen] = useState(false);
 
   const hasAvailableAgents = savedAgents.length > 0;
   const trimmedSubject = subject.trim();
@@ -278,6 +289,87 @@ export function NewMessageComposer({
     });
   }, [projectName, selectedAgent]);
 
+  const createMessageThread = async ({
+    resultVersion,
+    unavailableAccepted = false,
+  }: {
+    resultVersion?: string | null;
+    unavailableAccepted?: boolean;
+  } = {}) => {
+    if (!selectedAgent) return;
+
+    const response = await fetch("/api/message-threads", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        projectId,
+        agentId: selectedAgent.id,
+        subject: trimmedSubject,
+        body: trimmedBody,
+        safetyAcknowledgement: resultVersion
+          ? { resultVersion }
+          : unavailableAccepted
+            ? { unavailableAccepted: true }
+            : undefined,
+      }),
+    });
+    const result = await readJsonResponse<CreateThreadResponse>(response);
+    const threadId = getThreadId(result);
+
+    if (threadId && result?.status === "success") {
+      router.push(getProjectMessageThreadHref(projectId, threadId));
+      return;
+    }
+
+    if (threadId && result?.status === "duplicate") {
+      setSendError(
+        "Your message was not sent because a conversation with this agent already exists. Open the existing conversation from your inbox.",
+      );
+      return;
+    }
+
+    if (!response.ok) {
+      throw new Error(getResponseError(result, "Failed to send message."));
+    }
+
+    throw new Error("Message thread was not returned.");
+  };
+
+  const checkAgencyGuard = async () => {
+    if (!selectedAgent) return null;
+
+    const response = await fetch("/api/query-safety/agency-guard", {
+      method: "POST",
+      cache: "no-store",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        candidateRecordId: selectedAgent.id,
+        candidateIndexId: selectedAgent.legacyAgentId,
+        candidateAgentProfileId: selectedAgent.agentProfileId,
+        projectName,
+        writerProjectId,
+      }),
+    });
+    const result = await readJsonResponse<
+      AgencyGuardServiceResult & { code?: string; error?: string }
+    >(response);
+
+    if (response.status === 404 && result?.code === "FEATURE_DISABLED") {
+      return null;
+    }
+
+    if (!response.ok || !result) {
+      throw new Error(
+        result?.error ||
+          "WQH could not check live agency history. Review your saved records before deciding whether to continue.",
+      );
+    }
+
+    return result;
+  };
+
   const handleSend = async () => {
     if (!selectedAgent) {
       setSendError("Select an agent.");
@@ -291,41 +383,89 @@ export function NewMessageComposer({
 
     setIsSending(true);
     setSendError(null);
+    setAgencyGuardUnavailable(null);
+
+    let guard: AgencyGuardServiceResult | null;
+    try {
+      guard = await checkAgencyGuard();
+    } catch (error) {
+      const message =
+        error instanceof Error
+          ? error.message
+          : "WQH could not check agency history.";
+      setAgencyGuard(null);
+      setAgencyGuardUnavailable(message);
+      setIsAgencyGuardOpen(true);
+      setIsSending(false);
+      return;
+    }
+
+    setAgencyGuard(guard);
+      if (
+      guard &&
+      (guard.status === "warning" ||
+        guard.status === "possible_match" ||
+        guard.liveDataStatus !== "available")
+      ) {
+        captureQuerySafetyEvent("agency_guard_rendered", {
+          warningStatus: guard.status,
+          matchMethod: guard.agency.matchMethod,
+          scope: "same_project",
+          originSurface: "composer",
+        });
+        setIsAgencyGuardOpen(true);
+      setIsSending(false);
+      return;
+    }
 
     try {
-      const response = await fetch("/api/message-threads", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          projectId,
-          agentId: selectedAgent.id,
-          subject: trimmedSubject,
-          body: trimmedBody,
-        }),
-      });
-      const result = await readJsonResponse<CreateThreadResponse>(response);
-      const threadId = getThreadId(result);
-
-      if (threadId && result?.status === "success") {
-        router.push(getProjectMessageThreadHref(projectId, threadId));
-        return;
-      }
-
-      if (threadId && result?.status === "duplicate") {
-        setSendError(
-          "Your message was not sent because a conversation with this agent already exists. Open the existing conversation from your inbox.",
-        );
-        return;
-      }
-
-      if (!response.ok) {
-        throw new Error(getResponseError(result, "Failed to send message."));
-      }
-
-      throw new Error("Message thread was not returned.");
+      await createMessageThread({ resultVersion: guard?.resultVersion });
     } catch (error) {
+      setSendError(
+        error instanceof Error ? error.message : "Failed to send message.",
+      );
+    } finally {
+      setIsSending(false);
+    }
+  };
+
+  const handleContinueAfterGuard = async () => {
+    captureQuerySafetyEvent("agency_guard_continue_selected", {
+      warningStatus: agencyGuard?.status ?? "unavailable",
+      matchMethod: agencyGuard?.agency.matchMethod ?? "none",
+      scope: "same_project",
+      originSurface: "composer",
+    });
+    setIsSending(true);
+    setSendError(null);
+
+    try {
+      if (agencyGuardUnavailable) {
+        await createMessageThread({ unavailableAccepted: true });
+      } else {
+        let latestGuard: AgencyGuardServiceResult | null;
+        try {
+          latestGuard = await checkAgencyGuard();
+        } catch (error) {
+          setAgencyGuard(null);
+          setAgencyGuardUnavailable(
+            error instanceof Error
+              ? error.message
+              : "Agency history is unavailable.",
+          );
+          return;
+        }
+        setAgencyGuard(latestGuard);
+
+        if (!latestGuard) {
+          throw new Error("Agency history is unavailable.");
+        }
+
+        await createMessageThread({ resultVersion: latestGuard.resultVersion });
+      }
+      setIsAgencyGuardOpen(false);
+    } catch (error) {
+      setIsAgencyGuardOpen(false);
       setSendError(
         error instanceof Error ? error.message : "Failed to send message.",
       );
@@ -336,6 +476,23 @@ export function NewMessageComposer({
 
   return (
     <section className="rounded-[1.25rem] border border-accent/10 bg-white/72 p-4 shadow-[0_14px_34px_rgba(24,44,69,0.06)]">
+      <AgencyGuardConfirmationDialog
+        guard={agencyGuard}
+        isContinuing={isSending}
+        onCancel={() => {
+          captureQuerySafetyEvent("agency_guard_cancel_selected", {
+            warningStatus: agencyGuard?.status ?? "unavailable",
+            matchMethod: agencyGuard?.agency.matchMethod ?? "none",
+            scope: "same_project",
+            originSurface: "composer",
+          });
+          setIsAgencyGuardOpen(false);
+          setAgencyGuardUnavailable(null);
+        }}
+        onContinue={() => void handleContinueAfterGuard()}
+        open={isAgencyGuardOpen}
+        unavailableMessage={agencyGuardUnavailable}
+      />
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <h3 className="text-base font-semibold text-accent">New message</h3>
         <Button

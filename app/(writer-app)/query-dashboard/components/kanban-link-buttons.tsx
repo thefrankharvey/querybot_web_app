@@ -98,7 +98,7 @@ export const KanbanLinkButtons = ({ card }: KanbanLinkButtonsProps) => {
         </Button>
       ) : null}
       {card.index_id && (
-        <Link href={`/query-dashboard/${card.index_id}`}>
+        <Link href={`/query-dashboard/${encodeURIComponent(card.id)}`}>
           <Button size="sm" className="text-xs shadow-lg hover:shadow-xl w-fit">
             Agent Profile
             <ExternalLink className="w-3 h-3" />

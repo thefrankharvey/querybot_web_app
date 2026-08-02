@@ -11,7 +11,10 @@ import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
 import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
 import { toast } from "sonner";
-import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
+import {
+  getProjectScope,
+  savedRecordMatchesProjectScope,
+} from "@/app/utils/project-scope";
 
 // Context type definition
 interface ProfileContextType {
@@ -21,8 +24,8 @@ interface ProfileContextType {
   isError: boolean;
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
-  removeAgent: (agentId: string) => void;
-  removeProject: (projectName: string) => void;
+  removeAgent: (recordId: string) => void;
+  removeProject: (projectName: string, writerProjectId?: string | null) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
   saveAllAgents: (payloads: SaveAgentPayload[]) => Promise<SaveAgentResponse | null>;
@@ -48,17 +51,15 @@ function savedAgentMatchesSavePayload(
   const savedWriterProjectId = getTrimmedValue(savedAgent.writer_project_id);
   const payloadWriterProjectId = getTrimmedValue(payload.writer_project_id);
 
-  if (payloadWriterProjectId) {
-    return savedWriterProjectId
-      ? savedWriterProjectId === payloadWriterProjectId
-      : normalizeProjectName(savedAgent.project_name).toLocaleLowerCase() ===
-          normalizeProjectName(payload.project_name).toLocaleLowerCase();
-  }
-
-  return (
-    !savedWriterProjectId &&
-    normalizeProjectName(savedAgent.project_name).toLocaleLowerCase() ===
-      normalizeProjectName(payload.project_name).toLocaleLowerCase()
+  return savedRecordMatchesProjectScope(
+    {
+      projectName: savedAgent.project_name,
+      writerProjectId: savedWriterProjectId,
+    },
+    {
+      projectName: payload.project_name,
+      writerProjectId: payloadWriterProjectId,
+    },
   );
 }
 
@@ -119,7 +120,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     })();
   }, [agentsList, refetch]);
 
-  const removeAgent = (agentId: string) => {
+  const removeAgent = (recordId: string) => {
     queryClient.setQueryData(
       ["agent-matches"],
       (oldData: { agent_matches: AgentMatch[] } | undefined) => {
@@ -127,15 +128,18 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         return {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
-            (agent) => agent.index_id !== agentId
+            (agent) => agent.id !== recordId
           ),
         };
       }
     );
   };
 
-  const removeProject = (projectName: string) => {
-    const normalizedProjectName = normalizeProjectName(projectName);
+  const removeProject = (
+    projectName: string,
+    writerProjectId?: string | null,
+  ) => {
+    const targetScope = getProjectScope({ projectName, writerProjectId });
 
     queryClient.setQueryData(
       ["agent-matches"],
@@ -145,7 +149,10 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
             (agent) =>
-              normalizeProjectName(agent.project_name) !== normalizedProjectName
+              getProjectScope({
+                projectName: agent.project_name,
+                writerProjectId: agent.writer_project_id,
+              }).key !== targetScope.key
           ),
         };
       }

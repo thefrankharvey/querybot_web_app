@@ -27,6 +27,7 @@ import { useQueryDashContext } from "../context/query-dash-context";
 import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
 import type { QueryDashboardWalkthroughStepId } from "./query-dashboard-walkthrough-config";
+import type { QueryRoundSelection } from "@/app/utils/query-rounds";
 
 const QueryDashboardWalkthrough = dynamic(
   () =>
@@ -45,6 +46,7 @@ export function KanbanBoard() {
     reorderInColumn,
     togglePrepQueryLetter,
     setFitRating,
+    setQueryRound,
     setNotes,
     getCardsForColumn,
     findCardById,
@@ -179,6 +181,13 @@ export function KanbanBoard() {
     }
   };
 
+  const handleQueryRoundChange = (
+    cardId: string,
+    selection: QueryRoundSelection,
+  ) => {
+    setQueryRound(cardId, selection, "board_dialog");
+  };
+
   const handleMoveCard = (cardId: string, columnId: QueryDashColumnId) => {
     moveCard(cardId, columnId);
 
@@ -296,6 +305,7 @@ export function KanbanBoard() {
         onOpenChange={handleDialogOpenChange}
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
+        onQueryRoundChange={handleQueryRoundChange}
         onNotesSave={handleNotesSave}
         onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
         tourModalActive={isModalTourStep}

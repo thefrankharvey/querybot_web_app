@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 import {
   createWriterMessageThread,
@@ -13,6 +14,11 @@ import {
   parseMessageThreadFilters,
   readMessageJsonBody,
 } from "@/app/api/message-threads/_route-utils";
+import {
+  AgencyGuardServiceError,
+  getAgencyGuardForUser,
+} from "@/app/utils/query-safety/agency-guard.server";
+import { getQuerySafetyFeatureFlags } from "@/app/utils/query-safety/feature-flags.server";
 
 export async function GET(req: NextRequest) {
   try {
@@ -52,6 +58,14 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
+    const { userId } = await auth();
+    if (!userId) {
+      return NextResponse.json<WriterMessageApiErrorResponse>(
+        { status: "error", message: "Unauthorized" },
+        { status: 401, headers: { "Cache-Control": "private, no-store" } },
+      );
+    }
+
     const body = await readMessageJsonBody(req);
 
     if (!body) {
@@ -68,6 +82,7 @@ export async function POST(req: NextRequest) {
       agentId?: unknown;
       body?: unknown;
       projectId?: unknown;
+      safetyAcknowledgement?: unknown;
       subject?: unknown;
     };
     const projectId =
@@ -117,6 +132,76 @@ export async function POST(req: NextRequest) {
         },
         { status: 400 },
       );
+    }
+
+    const acknowledgement =
+      payload.safetyAcknowledgement &&
+      typeof payload.safetyAcknowledgement === "object" &&
+      !Array.isArray(payload.safetyAcknowledgement)
+        ? (payload.safetyAcknowledgement as Record<string, unknown>)
+        : null;
+    const acknowledgedResultVersion =
+      typeof acknowledgement?.resultVersion === "string"
+        ? acknowledgement.resultVersion.trim()
+        : "";
+    const unavailableAccepted = acknowledgement?.unavailableAccepted === true;
+
+    if (getQuerySafetyFeatureFlags().composerGuard) {
+      try {
+        const guard = await getAgencyGuardForUser({
+          input: { candidateRecordId: agentId },
+          userId,
+        });
+        const needsAcknowledgement =
+          guard.status === "warning" ||
+          guard.status === "possible_match" ||
+          guard.liveDataStatus !== "available";
+        const hasCurrentAcknowledgement =
+          acknowledgedResultVersion === guard.resultVersion ||
+          (guard.liveDataStatus === "unavailable" && unavailableAccepted);
+
+        if (needsAcknowledgement && !hasCurrentAcknowledgement) {
+          return NextResponse.json(
+            {
+              status: "error",
+              code: "AGENCY_GUARD_CONFIRMATION_REQUIRED",
+              message: "Review agency query history before continuing.",
+              agencyGuard: guard,
+            },
+            {
+              status: 409,
+              headers: { "Cache-Control": "private, no-store" },
+            },
+          );
+        }
+      } catch (error) {
+        if (
+          error instanceof AgencyGuardServiceError &&
+          error.code === "AGENCY_GUARD_UNAVAILABLE" &&
+          unavailableAccepted
+        ) {
+          // The writer deliberately chose to continue after an unavailable check.
+        } else if (
+          error instanceof AgencyGuardServiceError &&
+          error.code === "INVALID_AGENCY_CANDIDATE"
+        ) {
+          // No agency identity means there is no same-agency assertion to make.
+        } else if (error instanceof AgencyGuardServiceError) {
+          return NextResponse.json(
+            {
+              status: "error",
+              code: error.code,
+              message: error.message,
+            },
+            {
+              status: error.status,
+              headers: { "Cache-Control": "private, no-store" },
+            },
+          );
+        } else {
+          throw error;
+        }
+      }
     }
 
     const data = await createWriterMessageThread({

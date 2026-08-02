@@ -13,6 +13,7 @@ import AgentResultsWalkthrough from "./agent-results-walkthrough";
 import { useEffect, useMemo, useState } from "react";
 import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
 import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
+import type { WriterMessageThread } from "@/app/utils/message-types";
 
 export const AgentMatchesInner = ({
   matches,
@@ -35,6 +36,8 @@ export const AgentMatchesInner = ({
   messagingAgentId,
   projectName,
   writerProjectId,
+  writerThreads,
+  liveHistoryStatus,
   projectDashboardHref,
   onWalkthroughActiveChange,
 }: {
@@ -59,6 +62,8 @@ export const AgentMatchesInner = ({
   messagingAgentId?: string | null;
   projectName?: string;
   writerProjectId?: string | null;
+  writerThreads?: readonly WriterMessageThread[];
+  liveHistoryStatus?: "loading" | "available" | "unavailable";
   projectDashboardHref?: string;
   onWalkthroughActiveChange?: (isActive: boolean) => void;
 }) => {
@@ -261,6 +266,8 @@ export const AgentMatchesInner = ({
                 id={`agent-${index}`}
                 projectName={projectName}
                 writerProjectId={writerProjectId}
+                writerThreads={writerThreads}
+                liveHistoryStatus={liveHistoryStatus}
                 tourTarget={
                   index === 0 ? "agent-results-first-card" : undefined
                 }

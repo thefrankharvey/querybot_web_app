@@ -13,6 +13,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useProfileContext } from "@/app/(writer-app)/context/profile-context";
 import type {
   AgentMatch,
+  AgentMatchRecordPatch,
   SaveAgentPayload,
   SaveAgentResponse,
   UpdateAgentPayload,
@@ -39,6 +40,18 @@ import {
   type WriterMessageThread,
 } from "@/app/utils/message-types";
 import { applyLiveQueryThreadToCard } from "../live-query-dashboard";
+import {
+  getProjectScope,
+  savedRecordMatchesProjectScope,
+} from "@/app/utils/project-scope";
+import { captureQuerySafetyEvent } from "@/app/utils/query-safety/product-analytics.client";
+import {
+  applyQueryRoundState,
+  getQueryRoundState,
+  isSameQueryRoundState,
+  rollbackQueryRoundState,
+  type QueryRoundSelection,
+} from "@/app/utils/query-rounds";
 
 interface MoveCardOptions {
   persist?: boolean;
@@ -86,19 +99,24 @@ export interface QueryDashActions {
   reorderInColumn: (columnId: string, activeId: string, overId: string) => void;
   togglePrepQueryLetter: (cardId: string) => void;
   setFitRating: (cardId: string, rating: FitRating) => void;
+  setQueryRound: (
+    cardId: string,
+    selection: QueryRoundSelection,
+    originSurface: "board_dialog" | "table",
+  ) => void;
   updateCardFields: (cardId: string, updates: EditableCardUpdate) => void;
   createManualRow: (
     initialUpdates?: EditableCardUpdate,
   ) => Promise<KanbanCardData | null>;
-  removeRowsByIndexIds: (
-    indexIds: string[],
-  ) => Promise<{ deletedIndexIds: string[]; failedCount: number }>;
+  removeRowsByRecordIds: (
+    recordIds: string[],
+  ) => Promise<{ deletedRecordIds: string[]; failedCount: number }>;
   deleteActiveProject: () => Promise<boolean>;
   setNotes: (cardId: string, notes: string) => void;
   getCardsForColumn: (columnId: string) => KanbanCardData[];
   findCardById: (cardId: string) => KanbanCardData | undefined;
   findColumnByCardId: (cardId: string) => QueryDashColumnId | undefined;
-  removeCardByIndexId: (indexId: string) => void;
+  removeCardByRecordId: (recordId: string) => void;
 }
 
 type QueryDashContextType = QueryDashState & QueryDashActions;
@@ -245,6 +263,38 @@ function applyEditableUpdatesToPayload(
   }
 }
 
+function mapUpdatePayloadToRecordPatch(
+  payload: UpdateAgentPayload,
+): AgentMatchRecordPatch {
+  const patch: AgentMatchRecordPatch = {};
+
+  if ("name" in payload) patch.name = payload.name;
+  if ("email" in payload) patch.email = payload.email;
+  if ("agency_url" in payload) patch.agencyUrl = payload.agency_url;
+  if ("query_tracker" in payload) patch.queryTracker = payload.query_tracker;
+  if ("pub_marketplace" in payload) {
+    patch.pubMarketplace = payload.pub_marketplace;
+  }
+  if ("fit_rating" in payload) patch.fitRating = payload.fit_rating;
+  if ("genres_themes" in payload) patch.genresThemes = payload.genres_themes;
+  if ("column_name" in payload) patch.columnName = payload.column_name;
+  if ("updated_date" in payload) patch.updatedDate = payload.updated_date;
+  if ("query_sent_date" in payload) {
+    patch.querySentDate = payload.query_sent_date;
+  }
+  if ("pages_requested_date" in payload) {
+    patch.pagesRequestedDate = payload.pages_requested_date;
+  }
+  if ("rejected_date" in payload) patch.rejectedDate = payload.rejected_date;
+  if ("offer_date" in payload) patch.offerDate = payload.offer_date;
+  if ("notes" in payload) patch.notes = payload.notes;
+  if ("query_letter_ready" in payload) {
+    patch.queryLetterReady = payload.query_letter_ready;
+  }
+
+  return patch;
+}
+
 function isFitRating(value: string): value is FitRating {
   return (
     value === "perfect" ||
@@ -272,6 +322,7 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     name: agent.name,
     email: agent.email,
     agency: agent.agency,
+    agency_id: agent.agency_id,
     index_id: agent.index_id,
     query_tracker: agent.query_tracker,
     pub_marketplace: agent.pub_marketplace,
@@ -285,6 +336,8 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     columnId,
     prepQueryLetterDone: agent.query_letter_ready ?? false,
     fitRating,
+    queryRound: agent.query_round ?? null,
+    queryOnHold: agent.query_on_hold === true,
     projectName: normalizeProjectName(agent.project_name),
     writerProjectId: agent.writer_project_id?.trim() || null,
     notes: agent.notes ?? "",
@@ -330,10 +383,13 @@ export function QueryDashProvider({
   const cardsWithLiveTracking = useMemo(
     () =>
       cards.map((card) => {
+        const savedRecordIdentifier = card.id.trim();
         const agentIdentifier = card.index_id?.trim() ?? "";
-        const liveThread = agentIdentifier
-          ? (messageThreadsByAgentIdentifier.get(agentIdentifier)?.[0] ?? null)
-          : null;
+        const liveThread =
+          messageThreadsByAgentIdentifier.get(savedRecordIdentifier)?.[0] ??
+          (agentIdentifier
+            ? (messageThreadsByAgentIdentifier.get(agentIdentifier)?.[0] ?? null)
+            : null);
 
         return {
           ...applyLiveQueryThreadToCard(card, liveThread),
@@ -345,19 +401,20 @@ export function QueryDashProvider({
 
   const visibleCards = useMemo(
     () =>
-      activeWriterProjectId
-        ? cardsWithLiveTracking.filter(
-            (card) =>
-              card.writerProjectId === activeWriterProjectId ||
-              (!card.writerProjectId &&
-                activeProjectName &&
-                card.projectName === activeProjectName),
+      activeWriterProjectId || activeProjectName
+        ? cardsWithLiveTracking.filter((card) =>
+            savedRecordMatchesProjectScope(
+              {
+                projectName: card.projectName,
+                writerProjectId: card.writerProjectId,
+              },
+              {
+                projectName: activeProjectName,
+                writerProjectId: activeWriterProjectId,
+              },
+            ),
           )
-        : activeProjectName
-          ? cardsWithLiveTracking.filter(
-              (card) => card.projectName === activeProjectName,
-            )
-          : cardsWithLiveTracking,
+        : cardsWithLiveTracking,
     [cardsWithLiveTracking, activeProjectName, activeWriterProjectId],
   );
 
@@ -438,8 +495,8 @@ export function QueryDashProvider({
       fallbackErrorMessage: string,
     ) => {
       const card = cards.find((currentCard) => currentCard.id === cardId);
-      if (!card?.index_id) {
-        console.warn("Skipping card update persistence: missing index_id", {
+      if (!card) {
+        console.warn("Skipping card update persistence: missing saved record", {
           cardId,
           payload,
         });
@@ -447,13 +504,16 @@ export function QueryDashProvider({
       }
 
       try {
-        const response = await fetch(`/api/agent-matches/${card.index_id}`, {
-          method: "PATCH",
-          headers: {
-            "Content-Type": "application/json",
+        const response = await fetch(
+          `/api/agent-match-records/${encodeURIComponent(card.id)}`,
+          {
+            method: "PATCH",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(mapUpdatePayloadToRecordPatch(payload)),
           },
-          body: JSON.stringify(payload),
-        });
+        );
 
         if (!response.ok) {
           let errorMessage = fallbackErrorMessage;
@@ -633,6 +693,77 @@ export function QueryDashProvider({
     [cards, persistCardUpdate],
   );
 
+  const setQueryRound = useCallback(
+    (
+      cardId: string,
+      selection: QueryRoundSelection,
+      originSurface: "board_dialog" | "table",
+    ) => {
+      const currentCard = cards.find((card) => card.id === cardId);
+      if (!currentCard) return;
+
+      const previousState = {
+        queryRound: currentCard.queryRound,
+        queryOnHold: currentCard.queryOnHold,
+      };
+      const optimisticState = getQueryRoundState(selection);
+      if (isSameQueryRoundState(previousState, optimisticState)) return;
+
+      setCards((previousCards) =>
+        applyQueryRoundState(previousCards, cardId, optimisticState),
+      );
+
+      void (async () => {
+        try {
+          const response = await fetch(
+            `/api/agent-match-records/${encodeURIComponent(cardId)}`,
+            {
+              method: "PATCH",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                queryRound: optimisticState.queryRound,
+                queryOnHold: optimisticState.queryOnHold,
+              } satisfies AgentMatchRecordPatch),
+            },
+          );
+
+          if (!response.ok) {
+            let errorMessage = "The query round could not be saved.";
+            try {
+              const errorData = (await response.json()) as { error?: string };
+              if (errorData.error) errorMessage = errorData.error;
+            } catch {
+              // Keep the stable fallback message.
+            }
+            throw new Error(errorMessage);
+          }
+
+          captureQuerySafetyEvent("query_round_changed", {
+            originSurface,
+            roundNumber: optimisticState.queryRound ?? 0,
+            scope: selection,
+          });
+        } catch (error) {
+          setCards((previousCards) =>
+            rollbackQueryRoundState(
+              previousCards,
+              cardId,
+              optimisticState,
+              previousState,
+            ),
+          );
+          toast.error("Query round restored", {
+            description:
+              error instanceof Error
+                ? error.message
+                : "The update did not sync. Please try again.",
+          });
+        }
+      })();
+    },
+    [cards],
+  );
+
   const updateCardFields = useCallback(
     (cardId: string, updates: EditableCardUpdate) => {
       const currentCard = cardsWithLiveTracking.find(
@@ -788,49 +919,47 @@ export function QueryDashProvider({
     [activeProjectName, activeWriterProjectId, addAgent, refetch],
   );
 
-  const removeRowsByIndexIds = useCallback(
-    async (indexIds: string[]) => {
-      const uniqueIndexIds = Array.from(
-        new Set(indexIds.map((indexId) => indexId.trim()).filter(Boolean)),
+  const removeRowsByRecordIds = useCallback(
+    async (recordIds: string[]) => {
+      const uniqueRecordIds = Array.from(
+        new Set(recordIds.map((recordId) => recordId.trim()).filter(Boolean)),
       );
 
-      if (uniqueIndexIds.length === 0) {
-        return { deletedIndexIds: [], failedCount: 0 };
+      if (uniqueRecordIds.length === 0) {
+        return { deletedRecordIds: [], failedCount: 0 };
       }
 
       const results = await Promise.allSettled(
-        uniqueIndexIds.map(async (indexId) => {
+        uniqueRecordIds.map(async (recordId) => {
           const response = await fetch(
-            `/api/agent-matches/${encodeURIComponent(indexId)}`,
+            `/api/agent-match-records/${encodeURIComponent(recordId)}`,
             {
               method: "DELETE",
             },
           );
 
           if (!response.ok) {
-            throw new Error(`Failed to delete ${indexId}`);
+            throw new Error(`Failed to delete saved record ${recordId}`);
           }
 
-          return indexId;
+          return recordId;
         }),
       );
-      const deletedIndexIds = results
+      const deletedRecordIds = results
         .filter(
           (result): result is PromiseFulfilledResult<string> =>
             result.status === "fulfilled",
         )
         .map((result) => result.value);
-      const failedCount = results.length - deletedIndexIds.length;
+      const failedCount = results.length - deletedRecordIds.length;
 
-      if (deletedIndexIds.length > 0) {
-        const deletedSet = new Set(deletedIndexIds);
+      if (deletedRecordIds.length > 0) {
+        const deletedSet = new Set(deletedRecordIds);
         setCards((prevCards) =>
-          prevCards.filter(
-            (card) => !card.index_id || !deletedSet.has(card.index_id),
-          ),
+          prevCards.filter((card) => !deletedSet.has(card.id)),
         );
-        for (const indexId of deletedIndexIds) {
-          removeAgent(indexId);
+        for (const recordId of deletedRecordIds) {
+          removeAgent(recordId);
         }
       }
 
@@ -840,7 +969,7 @@ export function QueryDashProvider({
         });
       } else {
         toast.success("Rows removed", {
-          description: `${deletedIndexIds.length} row${deletedIndexIds.length === 1 ? "" : "s"} removed.`,
+          description: `${deletedRecordIds.length} row${deletedRecordIds.length === 1 ? "" : "s"} removed.`,
         });
       }
 
@@ -850,7 +979,7 @@ export function QueryDashProvider({
         // Local state was updated for successful deletes.
       }
 
-      return { deletedIndexIds, failedCount };
+      return { deletedRecordIds, failedCount };
     },
     [refetch, removeAgent],
   );
@@ -869,7 +998,10 @@ export function QueryDashProvider({
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ projectName }),
+        body: JSON.stringify({
+          projectName,
+          writerProjectId: activeWriterProjectId,
+        }),
       });
 
       if (!response.ok) {
@@ -885,10 +1017,20 @@ export function QueryDashProvider({
         throw new Error(errorMessage);
       }
 
+      const deletedScopeKey = getProjectScope({
+        projectName,
+        writerProjectId: activeWriterProjectId,
+      }).key;
       setCards((prevCards) =>
-        prevCards.filter((card) => card.projectName !== projectName),
+        prevCards.filter(
+          (card) =>
+            getProjectScope({
+              projectName: card.projectName,
+              writerProjectId: card.writerProjectId,
+            }).key !== deletedScopeKey,
+        ),
       );
-      removeProject(projectName);
+      removeProject(projectName, activeWriterProjectId);
 
       toast.success("Project deleted", {
         description: "Saved agents for this project were removed.",
@@ -913,7 +1055,13 @@ export function QueryDashProvider({
     } finally {
       setIsDeletingProject(false);
     }
-  }, [activeProjectName, refetch, removeProject, router]);
+  }, [
+    activeProjectName,
+    activeWriterProjectId,
+    refetch,
+    removeProject,
+    router,
+  ]);
 
   const setNotes = useCallback(
     (cardId: string, notes: string) => {
@@ -964,9 +1112,9 @@ export function QueryDashProvider({
     [cardsWithLiveTracking],
   );
 
-  const removeCardByIndexId = useCallback((indexId: string) => {
+  const removeCardByRecordId = useCallback((recordId: string) => {
     setCards((prevCards) =>
-      prevCards.filter((card) => card.index_id !== indexId),
+      prevCards.filter((card) => card.id !== recordId),
     );
   }, []);
 
@@ -989,15 +1137,16 @@ export function QueryDashProvider({
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
+      setQueryRound,
       updateCardFields,
       createManualRow,
-      removeRowsByIndexIds,
+      removeRowsByRecordIds,
       deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
-      removeCardByIndexId,
+      removeCardByRecordId,
     }),
     [
       cardsWithLiveTracking,
@@ -1013,15 +1162,16 @@ export function QueryDashProvider({
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
+      setQueryRound,
       updateCardFields,
       createManualRow,
-      removeRowsByIndexIds,
+      removeRowsByRecordIds,
       deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
-      removeCardByIndexId,
+      removeCardByRecordId,
     ],
   );
 

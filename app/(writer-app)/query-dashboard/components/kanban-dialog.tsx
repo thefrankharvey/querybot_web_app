@@ -29,6 +29,25 @@ import { KanbanLinkButtons } from "./kanban-link-buttons";
 import { Circle, CircleCheckBigIcon, X } from "lucide-react";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import { QueryProgressSummary } from "@/app/components/messages/query-lifecycle";
+import { QueryRoundSelect } from "./query-round-control";
+import type { QueryRoundSelection } from "@/app/utils/query-rounds";
+import { QueryReminderPanel } from "@/app/components/query-safety/query-reminder-panel";
+import { LiveNextAction } from "@/app/components/query-safety/live-next-action";
+import { getBrowserTimeZone } from "@/app/components/query-safety/reminder-view-model";
+import {
+  getLocalDateForInstant,
+  isValidLocalDate,
+} from "@/app/utils/query-reminders/calendar";
+import type { ReminderSuggestionLifecycle } from "@/app/utils/query-reminders/suggestions";
+import { AgencyGuardDetails } from "@/app/components/query-safety/agency-guard";
+import {
+  AgencyGuardClientError,
+  useAgencyGuard,
+} from "@/app/hooks/use-agency-guard";
+import { Alert, AlertDescription, AlertTitle } from "@/app/ui-primitives/alert";
+import { Spinner } from "@/app/ui-primitives/spinner";
+import { captureQuerySafetyEvent } from "@/app/utils/query-safety/product-analytics.client";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -78,6 +97,40 @@ function formatAsMMDDYYYY(date: Date): string {
   return `${month}/${day}/${year}`;
 }
 
+function getReminderLifecycle(card: KanbanCardData): ReminderSuggestionLifecycle {
+  if (
+    card.queryProgress?.isTerminal ||
+    card.columnId === "rejected" ||
+    card.columnId === "closed-no-response" ||
+    card.columnId === "offer-made"
+  ) {
+    return "terminal";
+  }
+
+  if (card.columnId === "pages-requested") return "active_material";
+  if (card.columnId === "submitted-query" || card.queryProgress) {
+    return "active_query";
+  }
+  return "research";
+}
+
+function getReminderCalendarDate(
+  value: string | null | undefined,
+  timezone: string,
+): string | null {
+  if (!value) return null;
+  if (isValidLocalDate(value)) return value;
+
+  const instant = new Date(value);
+  if (Number.isNaN(instant.getTime())) return null;
+
+  try {
+    return getLocalDateForInstant(timezone, instant);
+  } catch {
+    return null;
+  }
+}
+
 interface KanbanDialogProps {
   card: KanbanCardData | null;
   columns: readonly ColumnData[];
@@ -85,6 +138,10 @@ interface KanbanDialogProps {
   onOpenChange: (open: boolean) => void;
   onTogglePrepQuery: (cardId: string) => void;
   onFitRatingChange: (cardId: string, rating: FitRating) => void;
+  onQueryRoundChange: (
+    cardId: string,
+    selection: QueryRoundSelection,
+  ) => void;
   onNotesSave: (cardId: string, notes: string) => void;
   onMoveCard: (cardId: string, columnId: string) => void;
   tourModalActive?: boolean;
@@ -97,16 +154,40 @@ export function KanbanDialog({
   onOpenChange,
   onTogglePrepQuery,
   onFitRatingChange,
+  onQueryRoundChange,
   onNotesSave,
   onMoveCard,
   tourModalActive = false,
 }: KanbanDialogProps) {
   const [notes, setNotes] = useState("");
+  const safetyConfig = useQuerySafetyConfig();
+  const agencyHistoryEnabled =
+    safetyConfig.data?.features.agencyHistory === true;
+  const queryRoundsEnabled =
+    safetyConfig.data?.features.queryRounds === true;
+  const agencyGuardQuery = useAgencyGuard(
+    { candidateRecordId: card?.id, includeAllProjects: true },
+    { enabled: agencyHistoryEnabled && open && Boolean(card?.id) },
+  );
 
   useEffect(() => {
     if (!open || !card) return;
     setNotes(card.notes ?? "");
   }, [card, open]);
+
+  useEffect(() => {
+    const guard = agencyGuardQuery.data;
+    if (!open || !guard) return;
+    const count = guard.records.length;
+
+    captureQuerySafetyEvent("agency_guard_rendered", {
+      countBucket: count === 0 ? "0" : count === 1 ? "1" : count < 5 ? "2_4" : "5_plus",
+      matchMethod: guard.agency.matchMethod,
+      originSurface: "kanban_dialog",
+      scope: "all_projects",
+      warningStatus: guard.status,
+    });
+  }, [agencyGuardQuery.data, open]);
 
   if (!card) return null;
 
@@ -138,6 +219,23 @@ export function KanbanDialog({
   const timingDate = parsedUpdatedDate
     ? formatAsMMDDYYYY(parsedUpdatedDate)
     : null;
+  const reminderTimezone = getBrowserTimeZone();
+  const reminderLifecycle = getReminderLifecycle(card);
+  const querySentOn = getReminderCalendarDate(
+    card.queryProgress?.sentAt ?? card.query_sent_date ?? card.updated_date,
+    reminderTimezone,
+  );
+  const materialRequestedOn = getReminderCalendarDate(
+    card.pages_requested_date ??
+      (card.columnId === "pages-requested"
+        ? card.queryProgress?.changedAt ?? card.updated_date
+        : null),
+    reminderTimezone,
+  );
+  const liveNextActionDueOn = getReminderCalendarDate(
+    card.queryProgress?.nextAction?.dueAt,
+    reminderTimezone,
+  );
 
   const handleSaveNotes = () => {
     onNotesSave(card.id, notes);
@@ -240,6 +338,41 @@ export function KanbanDialog({
 
         <KanbanLinkButtons card={card} />
 
+        {agencyHistoryEnabled ? (
+          <section
+            aria-labelledby={`agency-history-${card.id}`}
+            className="flex flex-col gap-3"
+          >
+          <div>
+            <h3
+              className="text-sm font-semibold text-accent"
+              id={`agency-history-${card.id}`}
+            >
+              Agency query history
+            </h3>
+            <p className="text-sm text-accent/68">
+              Review same-agency query activity before deciding what to do next.
+            </p>
+          </div>
+          {agencyGuardQuery.isLoading ? (
+            <div className="flex items-center gap-2 text-sm text-accent/68" role="status">
+              <Spinner className="size-4" />
+              Checking agency history…
+            </div>
+          ) : agencyGuardQuery.data ? (
+            <AgencyGuardDetails guard={agencyGuardQuery.data} showClear />
+          ) : agencyGuardQuery.error instanceof AgencyGuardClientError &&
+            agencyGuardQuery.error.code === "FEATURE_DISABLED" ? null : (
+            <Alert role="status" variant="muted">
+              <AlertTitle>Agency history unavailable</AlertTitle>
+              <AlertDescription>
+                WQH could not refresh agency history. Your saved query details remain unchanged.
+              </AlertDescription>
+            </Alert>
+          )}
+          </section>
+        ) : null}
+
         {card.trackingMode === "live" ? (
           <section
             aria-labelledby={`live-query-${card.id}`}
@@ -255,8 +388,21 @@ export function KanbanDialog({
               progress={card.queryProgress}
               viewerRole="writer"
             />
+            <div className="mt-3">
+              <LiveNextAction nextAction={card.queryProgress?.nextAction} />
+            </div>
           </section>
         ) : null}
+
+        <QueryReminderPanel
+          agentMatchId={card.id}
+          lifecycle={reminderLifecycle}
+          querySentOn={querySentOn}
+          materialRequestedOn={materialRequestedOn}
+          liveNextActionDueOn={liveNextActionDueOn}
+          initialTimezone={reminderTimezone}
+          originSurface="kanban_dialog"
+        />
 
         <div className="flex flex-col gap-6">
           <div className="flex md:flex-row flex-col gap-4">
@@ -306,6 +452,28 @@ export function KanbanDialog({
                 {card.projectName?.trim() || DEFAULT_PROJECT_NAME}
               </span>
             </div>
+            {queryRoundsEnabled ? (
+              <div className="flex min-w-0 flex-col gap-1">
+              <label
+                className="text-sm font-semibold text-gray-700"
+                htmlFor={`query-round-${card.id}`}
+              >
+                Query Round
+              </label>
+              <QueryRoundSelect
+                className="md:w-[180px]"
+                id={`query-round-${card.id}`}
+                onValueChange={(selection) =>
+                  onQueryRoundChange(card.id, selection)
+                }
+                queryOnHold={card.queryOnHold}
+                queryRound={card.queryRound}
+              />
+              <p className="text-xs text-gray-500">
+                Separate from the agent&apos;s fit rating.
+              </p>
+              </div>
+            ) : null}
           </div>
 
           {/* Query Letter Ready Checkbox */}

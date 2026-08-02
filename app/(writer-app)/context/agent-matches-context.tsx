@@ -46,6 +46,11 @@ export interface AgentMatch {
   extra_interest?: string;
   extra_links?: string;
   agent_id?: string;
+  agency_identity?: {
+    agency_id: string;
+    agency_name: string;
+    agency_url: string | null;
+  } | null;
   favorites: string;
   negatives?: string;
   genres: string;

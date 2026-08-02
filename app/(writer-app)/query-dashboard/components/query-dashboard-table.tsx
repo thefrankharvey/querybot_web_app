@@ -9,6 +9,7 @@ import {
   type Column,
   type DataGridHandle,
   type RenderEditCellProps,
+  type SortColumn,
 } from "react-data-grid";
 import {
   Activity,
@@ -56,9 +57,32 @@ import { QueryStatusBadge } from "@/app/components/messages/query-lifecycle";
 import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
 import type { QueryProgress } from "@/app/utils/message-types";
 import { isManuscriptUploadVisible } from "@/app/utils/manuscript-attachments";
+import { AgencyGuardBadge } from "@/app/components/query-safety/agency-guard";
+import type { AgencyGuardServiceResult } from "@/app/utils/query-safety/agency-guard";
+import { getDashboardAgencyGuard } from "@/app/utils/query-safety/dashboard-agency-guard";
+import { NextReminderBadge } from "@/app/components/query-safety/reminder-badge";
+import {
+  getNextScheduledReminder,
+  getReminderUrgency,
+} from "@/app/components/query-safety/reminder-view-model";
+import { useQueryReminders } from "@/app/hooks/use-query-reminders";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import type { QueryReminder } from "@/app/utils/query-reminders/contracts";
 
 import type { KanbanCardData } from "./kanban-card";
 import { useQueryDashContext } from "../context/query-dash-context";
+import { QueryRoundBadge } from "./query-round-control";
+import {
+  getQueryRoundSelection,
+  getQueryRoundState,
+  isQueryRoundSelection,
+  isSameQueryRoundState,
+  matchesQueryRoundFilter,
+  QUERY_ROUND_LABELS,
+  QUERY_ROUND_SELECTIONS,
+  sortByQueryRound,
+  type QueryRoundFilter,
+} from "@/app/utils/query-rounds";
 
 type DashboardTableRow = ProjectDashboardExportRow & {
   id: string;
@@ -66,6 +90,8 @@ type DashboardTableRow = ProjectDashboardExportRow & {
   index_id: string | null;
   isPlaceholder: boolean;
   fitRating: FitRating;
+  queryRound: number | null;
+  queryOnHold: boolean;
   projectName: string;
   writerProjectId: string | null;
   isMessagingAvailable: boolean;
@@ -73,6 +99,8 @@ type DashboardTableRow = ProjectDashboardExportRow & {
   messageThreadId: string | null;
   queryProgress: QueryProgress | null;
   lifecycleSyncUnavailable: boolean;
+  agencyGuard: AgencyGuardServiceResult | null;
+  nextReminder: QueryReminder | null;
 };
 
 type EditableTableKey = Exclude<
@@ -88,11 +116,16 @@ type EditableTableKey = Exclude<
   | "messageThreadId"
   | "queryProgress"
   | "lifecycleSyncUnavailable"
+  | "agencyGuard"
+  | "nextReminder"
+  | "queryOnHold"
   | "wqh_profile_link"
 >;
 
 const WQH_PROFILE_LINK_BASE_URL = "https://writequeryhook.com";
 const MESSAGE_ACTION_COLUMN_KEY = "message_action";
+const REMINDER_COLUMN_KEY = "nextReminder";
+type ReminderFilter = "all" | "due" | "overdue";
 const FIT_RATING_OPTIONS = Object.keys(FIT_RATING_CONFIG) as FitRating[];
 const HEADER_ROW_HEIGHT = 42;
 const ROW_HEIGHT = 44;
@@ -163,6 +196,8 @@ function mapCardToRow(
   card: KanbanCardData,
   wqhProfileLinkByIndexId: ReadonlyMap<string, string>,
   availableAgentIds: ReadonlySet<string>,
+  agencyGuard: AgencyGuardServiceResult,
+  nextReminder: QueryReminder | null,
 ): DashboardTableRow {
   const indexId = card.index_id ?? null;
   const canUseManualDateFallback = card.trackingMode !== "live";
@@ -181,8 +216,12 @@ function mapCardToRow(
     messageThreadId: card.messageThreadId ?? null,
     queryProgress: card.queryProgress ?? null,
     lifecycleSyncUnavailable: card.lifecycleSyncUnavailable ?? false,
+    agencyGuard,
+    nextReminder,
     name: card.name ?? "",
     fitRating: card.fitRating,
+    queryRound: card.queryRound,
+    queryOnHold: card.queryOnHold,
     agency_url: card.agency_url ?? "",
     wqh_profile_link: indexId
       ? (wqhProfileLinkByIndexId.get(indexId) ?? "")
@@ -223,8 +262,12 @@ function createPlaceholderRow(index: number): DashboardTableRow {
     messageThreadId: null,
     queryProgress: null,
     lifecycleSyncUnavailable: false,
+    agencyGuard: null,
+    nextReminder: null,
     name: "",
     fitRating: "neutral",
+    queryRound: null,
+    queryOnHold: false,
     agency_url: "",
     wqh_profile_link: "",
     query_tracker: "",
@@ -443,6 +486,11 @@ function TrackingCell({ row }: { row: DashboardTableRow }) {
   return <span className="text-xs font-medium text-accent/56">Manual</span>;
 }
 
+function ReminderCell({ row }: { row: DashboardTableRow }) {
+  if (row.isPlaceholder || !row.nextReminder) return null;
+  return <NextReminderBadge reminder={row.nextReminder} />;
+}
+
 function DateEditor({
   row,
   column,
@@ -502,14 +550,57 @@ function FitRatingEditor({
   );
 }
 
+function QueryRoundEditor({
+  row,
+  onRowChange,
+  onClose,
+}: RenderEditCellProps<DashboardTableRow>) {
+  const value = getQueryRoundSelection(row);
+
+  return (
+    <select
+      autoFocus
+      aria-label={`Query Round for ${row.name}`}
+      className="h-full w-full border-0 bg-white px-2 text-sm font-medium text-accent outline-none"
+      value={value}
+      onBlur={() => onClose(true)}
+      onChange={(event) => {
+        const selection = event.target.value;
+        if (!isQueryRoundSelection(selection)) return;
+
+        onRowChange({ ...row, ...getQueryRoundState(selection) }, true);
+      }}
+      onKeyDown={(event) => {
+        if (event.key === "Escape") onClose(false);
+        if (event.key === "Enter") onClose(true);
+      }}
+    >
+      {QUERY_ROUND_SELECTIONS.map((selection) => (
+        <option key={selection} value={selection}>
+          {QUERY_ROUND_LABELS[selection]}
+        </option>
+      ))}
+    </select>
+  );
+}
+
 export function QueryDashboardTable() {
   const router = useRouter();
   const { matches } = useAgentMatches();
+  const safetyConfig = useQuerySafetyConfig();
+  const agencyHistoryEnabled =
+    safetyConfig.data?.features.agencyHistory === true;
+  const manualRemindersEnabled =
+    safetyConfig.data?.features.manualReminders === true;
+  const queryRoundsEnabled =
+    safetyConfig.data?.features.queryRounds === true;
   const {
     activeProjectName,
+    cards,
     createManualRow,
     isLoading,
-    removeRowsByIndexIds,
+    removeRowsByRecordIds,
+    setQueryRound,
     updateCardFields,
     visibleCards,
   } = useQueryDashContext();
@@ -522,9 +613,18 @@ export function QueryDashboardTable() {
   const [isCreatingRow, setIsCreatingRow] = useState(false);
   const [isExportingRows, setIsExportingRows] = useState(false);
   const [isRemovingRows, setIsRemovingRows] = useState(false);
+  const [queryRoundFilter, setQueryRoundFilter] =
+    useState<QueryRoundFilter>("all");
+  const [reminderFilter, setReminderFilter] =
+    useState<ReminderFilter>("all");
+  const [sortColumns, setSortColumns] = useState<readonly SortColumn[]>([]);
   const [pendingFocusRowId, setPendingFocusRowId] = useState<string | null>(
     null,
   );
+  const remindersQuery = useQueryReminders({
+    status: "scheduled",
+    enabled: manualRemindersEnabled,
+  });
   const agentMessagingIds = useMemo(
     () => visibleCards.map((card) => card.index_id),
     [visibleCards],
@@ -543,13 +643,90 @@ export function QueryDashboardTable() {
 
     return linkByIndexId;
   }, [matches]);
+  const agencyGuardByCardId = useMemo(
+    () =>
+      new Map(
+        visibleCards.map((card) => [
+          card.id,
+          getDashboardAgencyGuard(card, cards),
+        ]),
+      ),
+    [cards, visibleCards],
+  );
+  const nextReminderByAgentMatchId = useMemo(() => {
+    const remindersByAgentMatchId = new Map<string, QueryReminder[]>();
+
+    for (const reminder of remindersQuery.data ?? []) {
+      const reminders = remindersByAgentMatchId.get(reminder.agentMatchId) ?? [];
+      reminders.push(reminder);
+      remindersByAgentMatchId.set(reminder.agentMatchId, reminders);
+    }
+
+    return new Map(
+      Array.from(remindersByAgentMatchId, ([agentMatchId, reminders]) => [
+        agentMatchId,
+        getNextScheduledReminder(reminders),
+      ]),
+    );
+  }, [remindersQuery.data]);
   const persistedRows = useMemo(
     () =>
       visibleCards.map((card) =>
-        mapCardToRow(card, wqhProfileLinkByIndexId, availableAgentIds),
+        mapCardToRow(
+          card,
+          wqhProfileLinkByIndexId,
+          availableAgentIds,
+          agencyGuardByCardId.get(card.id) ??
+            getDashboardAgencyGuard(card, cards),
+          nextReminderByAgentMatchId.get(card.id) ?? null,
+        ),
       ),
-    [availableAgentIds, visibleCards, wqhProfileLinkByIndexId],
+    [
+      agencyGuardByCardId,
+      availableAgentIds,
+      cards,
+      nextReminderByAgentMatchId,
+      visibleCards,
+      wqhProfileLinkByIndexId,
+    ],
   );
+  const displayedPersistedRows = useMemo(() => {
+    const filteredRows = persistedRows.filter((row) => {
+      if (
+        queryRoundsEnabled &&
+        !matchesQueryRoundFilter(row, queryRoundFilter)
+      ) {
+        return false;
+      }
+      if (!manualRemindersEnabled || reminderFilter === "all") return true;
+      if (!row.nextReminder) return false;
+      return getReminderUrgency(row.nextReminder) === reminderFilter;
+    });
+    const roundSort = sortColumns.find((column) => column.columnKey === "queryRound");
+    const reminderSort = sortColumns.find(
+      (column) => column.columnKey === REMINDER_COLUMN_KEY,
+    );
+
+    if (roundSort) return sortByQueryRound(filteredRows, roundSort.direction);
+    if (!reminderSort) return filteredRows;
+
+    return filteredRows.toSorted((left, right) => {
+      if (!left.nextReminder && !right.nextReminder) return 0;
+      if (!left.nextReminder) return 1;
+      if (!right.nextReminder) return -1;
+      const dateOrder = left.nextReminder.dueOn.localeCompare(
+        right.nextReminder.dueOn,
+      );
+      return reminderSort.direction === "ASC" ? dateOrder : -dateOrder;
+    });
+  }, [
+    manualRemindersEnabled,
+    persistedRows,
+    queryRoundFilter,
+    queryRoundsEnabled,
+    reminderFilter,
+    sortColumns,
+  ]);
   const placeholderCount = useMemo(() => {
     const visibleRowCapacity = Math.max(
       MIN_PLACEHOLDER_ROWS,
@@ -557,9 +734,9 @@ export function QueryDashboardTable() {
     );
     return Math.max(
       MIN_PLACEHOLDER_ROWS,
-      visibleRowCapacity - persistedRows.length + MIN_PLACEHOLDER_ROWS,
+      visibleRowCapacity - displayedPersistedRows.length + MIN_PLACEHOLDER_ROWS,
     );
-  }, [gridHeight, persistedRows.length]);
+  }, [displayedPersistedRows.length, gridHeight]);
   const placeholderRows = useMemo(
     () =>
       Array.from({ length: placeholderCount }, (_, index) =>
@@ -568,17 +745,17 @@ export function QueryDashboardTable() {
     [placeholderCount],
   );
   const rows = useMemo(
-    () => [...persistedRows, ...placeholderRows],
-    [persistedRows, placeholderRows],
+    () => [...displayedPersistedRows, ...placeholderRows],
+    [displayedPersistedRows, placeholderRows],
   );
   const persistedRowIds = useMemo(
-    () => new Set(persistedRows.map((row) => row.id)),
-    [persistedRows],
+    () => new Set(displayedPersistedRows.map((row) => row.id)),
+    [displayedPersistedRows],
   );
   const selectedPersistedRows = useMemo(
     () =>
-      persistedRows.filter((row) => row.index_id && selectedRows.has(row.id)),
-    [persistedRows, selectedRows],
+      displayedPersistedRows.filter((row) => selectedRows.has(row.id)),
+    [displayedPersistedRows, selectedRows],
   );
   const handleMessageRow = useCallback(
     (row: DashboardTableRow, shareManuscript: boolean) => {
@@ -653,7 +830,8 @@ export function QueryDashboardTable() {
   }, [pendingFocusRowId, rows]);
 
   const columns = useMemo<readonly Column<DashboardTableRow>[]>(
-    () => [
+    () => {
+      const availableColumns: Column<DashboardTableRow>[] = [
       {
         ...SelectColumn,
         frozen: true,
@@ -677,14 +855,27 @@ export function QueryDashboardTable() {
         renderCell: ({ row }) => <TrackingCell row={row} />,
       },
       {
+        key: REMINDER_COLUMN_KEY,
+        name: "Reminder",
+        resizable: true,
+        sortable: true,
+        width: 210,
+        renderCell: ({ row }) => <ReminderCell row={row} />,
+      },
+      {
         key: "name",
         name: getProjectDashboardExportColumnHeader("name"),
         frozen: true,
         resizable: true,
         width: 220,
         renderCell: ({ row }) => (
-          <span className="block truncate font-semibold capitalize">
-            {row.name}
+          <span className="flex min-w-0 items-center gap-2">
+            <span className="block min-w-0 truncate font-semibold capitalize">
+              {row.name}
+            </span>
+            {agencyHistoryEnabled && row.agencyGuard ? (
+              <AgencyGuardBadge compact guard={row.agencyGuard} />
+            ) : null}
           </span>
         ),
         renderEditCell: textEditor,
@@ -697,6 +888,22 @@ export function QueryDashboardTable() {
         renderCell: ({ row }) =>
           row.isPlaceholder ? null : <FitRatingBadge rating={row.fitRating} />,
         renderEditCell: FitRatingEditor,
+      },
+      {
+        key: "queryRound",
+        name: "Round",
+        editable: (row) => !row.isPlaceholder,
+        resizable: true,
+        sortable: true,
+        width: 145,
+        renderCell: ({ row }) =>
+          row.isPlaceholder ? null : (
+            <QueryRoundBadge
+              queryOnHold={row.queryOnHold}
+              queryRound={row.queryRound}
+            />
+          ),
+        renderEditCell: QueryRoundEditor,
       },
       {
         key: "agency_url",
@@ -787,8 +994,20 @@ export function QueryDashboardTable() {
         renderCell: ({ row }) => <TextCell value={row.notes} />,
         renderEditCell: textEditor,
       },
+      ];
+
+      return availableColumns.filter((column) => {
+        if (column.key === "queryRound") return queryRoundsEnabled;
+        if (column.key === REMINDER_COLUMN_KEY) return manualRemindersEnabled;
+        return true;
+      });
+    },
+    [
+      agencyHistoryEnabled,
+      handleMessageRow,
+      manualRemindersEnabled,
+      queryRoundsEnabled,
     ],
-    [handleMessageRow],
   );
   const handleRowsChange = useCallback(
     (
@@ -800,6 +1019,20 @@ export function QueryDashboardTable() {
         const previousRow = rows.find((row) => row.id === nextRow?.id);
         if (!nextRow || !previousRow) continue;
 
+        if (data.column.key === "queryRound") {
+          if (
+            !previousRow.isPlaceholder &&
+            !isSameQueryRoundState(previousRow, nextRow)
+          ) {
+            setQueryRound(
+              nextRow.cardId,
+              getQueryRoundSelection(nextRow),
+              "table",
+            );
+          }
+          continue;
+        }
+
         const update = buildCardUpdate(data.column.key, previousRow, nextRow);
         if (!update) continue;
 
@@ -810,7 +1043,7 @@ export function QueryDashboardTable() {
         }
       }
     },
-    [createManualRow, rows, updateCardFields],
+    [createManualRow, rows, setQueryRound, updateCardFields],
   );
   const handleAddRow = useCallback(async () => {
     setIsCreatingRow(true);
@@ -873,21 +1106,19 @@ export function QueryDashboardTable() {
     }
   }, [activeProjectName, persistedRows]);
   const handleRemoveSelectedRows = useCallback(async () => {
-    const indexIds = selectedPersistedRows
-      .map((row) => row.index_id)
-      .filter((indexId): indexId is string => Boolean(indexId));
+    const recordIds = selectedPersistedRows.map((row) => row.id);
 
-    if (indexIds.length === 0) return;
+    if (recordIds.length === 0) return;
 
     setIsRemovingRows(true);
     try {
-      const { deletedIndexIds } = await removeRowsByIndexIds(indexIds);
-      const deletedIndexIdSet = new Set(deletedIndexIds);
+      const { deletedRecordIds } = await removeRowsByRecordIds(recordIds);
+      const deletedRecordIdSet = new Set(deletedRecordIds);
 
       setSelectedRows((currentSelectedRows) => {
         const nextSelectedRows = new Set(currentSelectedRows);
         for (const row of selectedPersistedRows) {
-          if (row.index_id && deletedIndexIdSet.has(row.index_id)) {
+          if (deletedRecordIdSet.has(row.id)) {
             nextSelectedRows.delete(row.id);
           }
         }
@@ -896,7 +1127,7 @@ export function QueryDashboardTable() {
     } finally {
       setIsRemovingRows(false);
     }
-  }, [removeRowsByIndexIds, selectedPersistedRows]);
+  }, [removeRowsByRecordIds, selectedPersistedRows]);
 
   if (isLoading) {
     return (
@@ -910,7 +1141,9 @@ export function QueryDashboardTable() {
     <div className="query-dashboard-table-shell">
       <div className="query-dashboard-table-toolbar">
         <div className="min-w-0 text-xs font-medium text-accent/60">
-          {persistedRows.length} row{persistedRows.length === 1 ? "" : "s"}
+          {displayedPersistedRows.length}
+          {queryRoundFilter === "all" ? "" : ` of ${persistedRows.length}`} row
+          {displayedPersistedRows.length === 1 ? "" : "s"}
           {selectedPersistedRows.length > 0
             ? `, ${selectedPersistedRows.length} selected`
             : ""}
@@ -977,6 +1210,70 @@ export function QueryDashboardTable() {
           </AlertDialog>
         </div>
       </div>
+      {queryRoundsEnabled ? (
+        <div
+          aria-label="Filter table by Query Round"
+          className="flex max-w-full items-center gap-1.5 overflow-x-auto px-1 pb-2 scrollbar-transparent"
+          role="group"
+        >
+        {(["all", ...QUERY_ROUND_SELECTIONS] as const).map((filter) => {
+          const selected = queryRoundFilter === filter;
+          const label =
+            filter === "all" ? "All" : QUERY_ROUND_LABELS[filter];
+
+          return (
+            <button
+              key={filter}
+              aria-pressed={selected}
+              className={cn(
+                "shrink-0 rounded-full border px-2.5 py-1 text-xs font-semibold transition focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/30",
+                selected
+                  ? "border-accent bg-accent text-white"
+                  : "border-accent/12 bg-white/80 text-accent hover:bg-accent/8",
+              )}
+              onClick={() => setQueryRoundFilter(filter)}
+              type="button"
+            >
+              {label}
+            </button>
+          );
+        })}
+        </div>
+      ) : null}
+      {manualRemindersEnabled ? (
+        <div
+          aria-label="Filter table by reminder status"
+          className="flex max-w-full items-center gap-1.5 overflow-x-auto px-1 pb-2 scrollbar-transparent"
+          role="group"
+        >
+        {(["all", "due", "overdue"] as const).map((filter) => {
+          const selected = reminderFilter === filter;
+          const label =
+            filter === "all"
+              ? "All reminders"
+              : filter === "due"
+                ? "Due today"
+                : "Overdue";
+
+          return (
+            <button
+              key={filter}
+              aria-pressed={selected}
+              className={cn(
+                "shrink-0 rounded-full border px-2.5 py-1 text-xs font-semibold transition focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/30",
+                selected
+                  ? "border-accent bg-accent text-white"
+                  : "border-accent/12 bg-white/80 text-accent hover:bg-accent/8",
+              )}
+              onClick={() => setReminderFilter(filter)}
+              type="button"
+            >
+              {label}
+            </button>
+          );
+        })}
+        </div>
+      ) : null}
       <div className="query-dashboard-table-grid-frame" ref={gridFrameRef}>
         <DataGrid
           ref={gridRef}
@@ -993,6 +1290,7 @@ export function QueryDashboardTable() {
           rowKeyGetter={rowKeyGetter}
           rows={rows}
           selectedRows={selectedRows}
+          sortColumns={sortColumns}
           onFill={({ columnKey, sourceRow, targetRow }) =>
             targetRow.isPlaceholder ||
             columnKey === "trackingMode" ||
@@ -1001,6 +1299,8 @@ export function QueryDashboardTable() {
             (targetRow.lifecycleSyncUnavailable &&
               DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)) ||
             columnKey === "wqh_profile_link" ||
+            columnKey === "queryRound" ||
+            columnKey === REMINDER_COLUMN_KEY ||
             columnKey === MESSAGE_ACTION_COLUMN_KEY
               ? targetRow
               : {
@@ -1016,7 +1316,11 @@ export function QueryDashboardTable() {
           }) =>
             targetColumnKey === "wqh_profile_link" ||
             targetColumnKey === "trackingMode" ||
+            targetColumnKey === "queryRound" ||
+            targetColumnKey === REMINDER_COLUMN_KEY ||
+            sourceColumnKey === "queryRound" ||
             sourceColumnKey === "trackingMode" ||
+            sourceColumnKey === REMINDER_COLUMN_KEY ||
             (targetRow.trackingMode === "live" &&
               DATE_COLUMN_KEYS.has(
                 targetColumnKey as keyof DashboardTableRow,
@@ -1036,6 +1340,7 @@ export function QueryDashboardTable() {
           }
           onRowsChange={handleRowsChange}
           onSelectedRowsChange={setSelectedRows}
+          onSortColumnsChange={setSortColumns}
         />
       </div>
     </div>

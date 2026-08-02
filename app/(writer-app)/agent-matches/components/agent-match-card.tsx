@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
     cn,
@@ -27,6 +27,24 @@ import {
     getWriterAgentLegacyId,
     mapWriterAgentMatchToSaveAgentPayload,
 } from "../project-scoped-agent-messaging";
+import type { WriterMessageThread } from "@/app/utils/message-types";
+import { getProjectScope } from "@/app/utils/project-scope";
+import { createAgencyGuardResult } from "@/app/utils/query-safety/agency-guard";
+import {
+    AgencyGuardBadge,
+    AgencyGuardDetailsDialog,
+} from "@/app/components/query-safety/agency-guard";
+import { getProjectDashboardHref } from "@/app/utils/project-dashboard-summary";
+import { getProjectMessageThreadHref } from "@/app/utils/message-routes";
+import { captureQuerySafetyEvent } from "@/app/utils/query-safety/product-analytics.client";
+import { QueryRoundSelect } from "@/app/(writer-app)/query-dashboard/components/query-round-control";
+import {
+    getQueryRoundSelection,
+    getQueryRoundState,
+    type QueryRoundSelection,
+} from "@/app/utils/query-rounds";
+import { toast } from "sonner";
+import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
 
 export const AgentMatchCard = ({
     agent,
@@ -42,6 +60,8 @@ export const AgentMatchCard = ({
     tourTarget,
     projectName,
     writerProjectId,
+    writerThreads = [],
+    liveHistoryStatus = "available",
 }: {
     agent: AgentMatch;
     isSubscribed?: boolean;
@@ -56,8 +76,24 @@ export const AgentMatchCard = ({
     tourTarget?: string;
     projectName?: string;
     writerProjectId?: string | null;
+    writerThreads?: readonly WriterMessageThread[];
+    liveHistoryStatus?: "loading" | "available" | "unavailable";
 }) => {
     const { agentsList } = useProfileContext();
+    const safetyConfig = useQuerySafetyConfig();
+    const agencyHistoryEnabled =
+        safetyConfig.data?.features.agencyHistory === true;
+    const queryRoundsEnabled =
+        safetyConfig.data?.features.queryRounds === true;
+    const legacyAgentId = getWriterAgentLegacyId(agent);
+    const savedAgent = getSavedAgentForProject(agentsList, {
+        legacyAgentId,
+        projectName,
+        writerProjectId,
+    });
+    const [queryRoundSelection, setQueryRoundSelection] =
+        useState<QueryRoundSelection>("unassigned");
+    const [isQueryRoundSaving, setIsQueryRoundSaving] = useState(false);
     const isDisabled = index >= 6 && !isSubscribed;
     const fitRating = getFitRatingFromScore(agent.normalized_score);
     const agentMatchSkeletonClass =
@@ -72,13 +108,132 @@ export const AgentMatchCard = ({
         ...(agent.match_hits?.cluster.themes || []),
     ];
     const dedupedThemeMatches = normalizeAndDedup(themeMatches);
+    const threadsBySavedAgent = useMemo(() => {
+        const index = new Map<string, WriterMessageThread>();
+        for (const thread of writerThreads) {
+            for (const identifier of [
+                thread.savedAgentId,
+                thread.legacyAgentId,
+                thread.indexId,
+            ]) {
+                if (identifier && !index.has(identifier)) {
+                    index.set(identifier, thread);
+                }
+            }
+        }
+        return index;
+    }, [writerThreads]);
+    const agencyGuard = useMemo(() => {
+        const scope = getProjectScope({ projectName, writerProjectId });
+        const guard = createAgencyGuardResult({
+            candidate: {
+                agencyId: agent.agency_identity?.agency_id ?? null,
+                agencyName:
+                    agent.agency_identity?.agency_name ?? agent.agency ?? null,
+                agencyUrl:
+                    agent.agency_identity?.agency_url ?? agent.website ?? null,
+            },
+            candidateRecordId: savedAgent?.id,
+            history: (agentsList ?? []).map((savedAgent) => {
+                const savedScope = getProjectScope({
+                    projectName: savedAgent.project_name,
+                    writerProjectId: savedAgent.writer_project_id,
+                });
+                const thread =
+                    threadsBySavedAgent.get(savedAgent.id) ??
+                    (savedAgent.index_id
+                        ? threadsBySavedAgent.get(savedAgent.index_id) ?? null
+                        : null);
+                return {
+                    recordId: savedAgent.id,
+                    indexId: savedAgent.index_id,
+                    agentName: savedAgent.name,
+                    agencyId: savedAgent.agency_id,
+                    agencyName: savedAgent.agency,
+                    agencyUrl: savedAgent.agency_url,
+                    projectName: savedScope.projectName,
+                    projectScopeKey: savedScope.key,
+                    columnName: savedAgent.column_name,
+                    querySentDate: savedAgent.query_sent_date,
+                    pagesRequestedDate: savedAgent.pages_requested_date,
+                    rejectedDate: savedAgent.rejected_date,
+                    offerDate: savedAgent.offer_date,
+                    liveStatus: thread?.queryProgress?.currentCode ?? null,
+                    liveChangedAt: thread?.queryProgress?.changedAt ?? null,
+                    liveSentAt: thread?.queryProgress?.sentAt ?? null,
+                    href: thread
+                        ? getProjectMessageThreadHref(
+                            savedScope.writerProjectId ?? savedScope.projectName,
+                            thread.threadId,
+                        )
+                        : getProjectDashboardHref(
+                            savedScope.projectName,
+                            savedScope.writerProjectId,
+                        ),
+                };
+            }),
+            scopeKey: scope.key,
+        });
 
-    const legacyAgentId = getWriterAgentLegacyId(agent);
-    const savedAgent = getSavedAgentForProject(agentsList, {
-        legacyAgentId,
+        return {
+            ...guard,
+            scope,
+            liveDataStatus:
+                liveHistoryStatus === "loading"
+                    ? ("partial" as const)
+                    : liveHistoryStatus === "unavailable"
+                        ? ("unavailable" as const)
+                        : ("available" as const),
+        };
+    }, [
+        agent.agency,
+        agent.agency_identity,
+        agent.website,
+        agentsList,
+        liveHistoryStatus,
         projectName,
+        savedAgent?.id,
+        threadsBySavedAgent,
         writerProjectId,
-    });
+    ]);
+    useEffect(() => {
+        if (!agencyHistoryEnabled || agencyGuard.status === "clear") return;
+        const count = agencyGuard.records.length;
+        captureQuerySafetyEvent("agency_guard_rendered", {
+            warningStatus: agencyGuard.status,
+            matchMethod: agencyGuard.agency.matchMethod,
+            countBucket:
+                count === 0
+                    ? "0"
+                    : count === 1
+                        ? "1"
+                        : count <= 5
+                            ? "2_5"
+                            : "6_plus",
+            scope: "same_project",
+            originSurface: "agent_card",
+        });
+    }, [
+        agencyGuard.agency.matchMethod,
+        agencyGuard.records.length,
+        agencyGuard.status,
+        agencyHistoryEnabled,
+    ]);
+
+    useEffect(() => {
+        if (!savedAgent) {
+            setQueryRoundSelection("unassigned");
+            return;
+        }
+
+        setQueryRoundSelection(
+            getQueryRoundSelection({
+                queryOnHold: savedAgent.query_on_hold === true,
+                queryRound: savedAgent.query_round ?? null,
+            }),
+        );
+    }, [savedAgent]);
+
     const isAlreadySaved = Boolean(savedAgent);
     const savedProjectName =
         savedAgent?.project_name?.trim() || DEFAULT_PROJECT_NAME;
@@ -111,6 +266,49 @@ export const AgentMatchCard = ({
         if (!onMessageAgent || isMessageDisabled) return;
 
         onMessageAgent(agent);
+    };
+
+    const handleQueryRoundChange = async (selection: QueryRoundSelection) => {
+        if (!savedAgent || isQueryRoundSaving) return;
+
+        const previousSelection = queryRoundSelection;
+        const nextState = getQueryRoundState(selection);
+        setQueryRoundSelection(selection);
+        setIsQueryRoundSaving(true);
+
+        try {
+            const response = await fetch(
+                `/api/agent-match-records/${encodeURIComponent(savedAgent.id)}`,
+                {
+                    method: "PATCH",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(nextState),
+                },
+            );
+
+            if (!response.ok) {
+                const payload = (await response.json().catch(() => null)) as
+                    | { error?: string }
+                    | null;
+                throw new Error(payload?.error || "The Query Round could not be saved.");
+            }
+
+            captureQuerySafetyEvent("query_round_changed", {
+                originSurface: "agent_card",
+                roundNumber: nextState.queryRound ?? 0,
+                scope: selection,
+            });
+        } catch (error) {
+            setQueryRoundSelection(previousSelection);
+            toast.error("Query Round restored", {
+                description:
+                    error instanceof Error
+                        ? error.message
+                        : "The update did not sync. Please try again.",
+            });
+        } finally {
+            setIsQueryRoundSaving(false);
+        }
     };
 
     const renderMessageButton = () => (
@@ -381,6 +579,47 @@ export const AgentMatchCard = ({
                     </Skeleton>
                     <div className="shrink-0">{saveControl}</div>
                 </div>
+                {agencyHistoryEnabled &&
+                (agencyGuard.status !== "clear" ||
+                    agencyGuard.liveDataStatus !== "available") ? (
+                    <AgencyGuardDetailsDialog
+                        guard={agencyGuard}
+                        originSurface="agent_card"
+                    >
+                        <Button
+                            className="w-fit"
+                            size="sm"
+                            type="button"
+                            variant="ghost"
+                        >
+                            <AgencyGuardBadge guard={agencyGuard} />
+                        </Button>
+                    </AgencyGuardDetailsDialog>
+                ) : null}
+                {queryRoundsEnabled && savedAgent && !isDisabled ? (
+                    <div
+                        className="flex flex-col gap-1"
+                        onClick={(event) => event.stopPropagation()}
+                    >
+                        <label
+                            className="text-sm font-semibold text-accent"
+                            htmlFor={`discovery-query-round-${savedAgent.id}`}
+                        >
+                            Query Round
+                        </label>
+                        <QueryRoundSelect
+                            disabled={isQueryRoundSaving}
+                            id={`discovery-query-round-${savedAgent.id}`}
+                            onValueChange={(selection) => {
+                                void handleQueryRoundChange(selection);
+                            }}
+                            {...getQueryRoundState(queryRoundSelection)}
+                        />
+                        <p className="text-xs text-accent/58">
+                            Plans query order without changing fit or query status.
+                        </p>
+                    </div>
+                ) : null}
                 {detailsHref ? (
                     <Link
                         href={detailsHref}

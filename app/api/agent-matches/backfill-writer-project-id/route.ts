@@ -1,9 +1,10 @@
 import { NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs/server";
 
-import { AGENT_MATCHES_TABLE, DEFAULT_PROJECT_NAME } from "@/app/constants";
+import { AGENT_MATCHES_TABLE } from "@/app/constants";
 import { createServerSupabase } from "../../supabase/server";
 import { getWqhApiUrl } from "@/lib/config";
+import { getProjectScope } from "@/app/utils/project-scope";
 
 type WriterProject = {
   id?: unknown;
@@ -29,13 +30,8 @@ function getString(value: unknown) {
   return typeof value === "string" ? value.trim() : "";
 }
 
-function normalizeProjectName(projectName?: string | null) {
-  const trimmed = projectName?.trim();
-  return trimmed || DEFAULT_PROJECT_NAME;
-}
-
 function getProjectNameKey(projectName?: string | null) {
-  return normalizeProjectName(projectName).toLocaleLowerCase();
+  return getProjectScope({ projectName }).key;
 }
 
 function buildWqhUrl(path: "/get-writer-projects", params: Record<string, string>) {

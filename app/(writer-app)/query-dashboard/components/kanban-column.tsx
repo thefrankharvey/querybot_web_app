@@ -10,6 +10,10 @@ import { KanbanCard, type KanbanCardData } from "./kanban-card";
 import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanColumnFilters, PrepQueryLetterFilter } from "./kanban-column-filters";
 import { cn } from "@/app/utils";
+import {
+  matchesQueryRoundFilter,
+  type QueryRoundFilter,
+} from "@/app/utils/query-rounds";
 
 export interface ColumnData {
   id: string;
@@ -64,6 +68,8 @@ export function KanbanColumn({
 }: KanbanColumnProps) {
   const [fitRatingFilter, setFitRatingFilter] = useState<"all" | FitRating>("all");
   const [prepQueryLetterFilter, setPrepQueryLetterFilter] = useState<PrepQueryLetterFilter>("all");
+  const [queryRoundFilter, setQueryRoundFilter] =
+    useState<QueryRoundFilter>("all");
 
   const { setNodeRef } = useDroppable({
     id: column.id,
@@ -90,7 +96,8 @@ export function KanbanColumn({
       prepQueryLetterFilter === "all" ||
       (prepQueryLetterFilter === "done" && card.prepQueryLetterDone) ||
       (prepQueryLetterFilter === "not_done" && !card.prepQueryLetterDone);
-    return matchesFitRating && matchesPrepQuery;
+    const matchesRound = matchesQueryRoundFilter(card, queryRoundFilter);
+    return matchesFitRating && matchesPrepQuery && matchesRound;
   });
 
   const hasScrollbar = useHasScrollbar(scrollRef, filteredCards);
@@ -106,6 +113,8 @@ export function KanbanColumn({
           onFitRatingChange={setFitRatingFilter}
           prepQueryLetterFilter={prepQueryLetterFilter}
           onPrepQueryLetterChange={setPrepQueryLetterFilter}
+          queryRoundFilter={queryRoundFilter}
+          onQueryRoundChange={setQueryRoundFilter}
           tourForceOpen={tourFilterForceOpen}
           tourTargetsEnabled={tourTargetsEnabled}
         />
