@@ -10,8 +10,7 @@ import {
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-import Link from "next/link";
-import { validateQuery, formatComps, getFromLocalStorage } from "@/app/utils";
+import { validateQuery, formatComps } from "@/app/utils";
 import Comps from "./components/comps";
 import Themes from "./components/themes";
 import TargetAudience from "./components/target-audience";
@@ -22,11 +21,12 @@ import ProjectName from "./components/project-name";
 import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
-import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
 import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import { AgentSearchProgress } from "../components/agent-search-progress";
+import { PreviousAgentMatchesButton } from "../components/previous-agent-matches-button";
 
 const SmartMatchWalkthrough = dynamic(
   () =>
@@ -51,7 +51,6 @@ export type FormState = {
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const { agentsList } = useProfileContext();
-  const hasAgentMatches = getFromLocalStorage("agent_matches");
   const { saveMatches, saveFormData, saveNextCursor, saveStatusFilter, saveCountryFilter, handleAgentExportResponse, resetForNewSearch, saveTotalAgents, saveProjectName } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
@@ -206,12 +205,10 @@ const SmartMatch = () => {
     <div className="ambient-page pb-48 pt-6 px-4 md:px-6 md:pb-48 md:pt-4">
 
       {(queryMutation.isPending || queryMutation.isSuccess) && (
-        <div className="mt-40 flex h-[700px] flex-col items-center md:mx-auto md:w-[700px]">
-          <ProgressBar
-            isSuccess={queryMutation.isSuccess}
-            onComplete={handleProgressComplete}
-          />
-        </div>
+        <AgentSearchProgress
+          isSuccess={queryMutation.isSuccess}
+          onComplete={handleProgressComplete}
+        />
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
@@ -233,14 +230,7 @@ const SmartMatch = () => {
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
-                {hasAgentMatches &&
-                  hasAgentMatches.length > 0 && (
-                    <Link href="/agent-matches" className="w-full md:w-fit">
-                      <Button className="w-full md:w-fit" variant="default">
-                        Previous Agent Matches
-                      </Button>
-                    </Link>
-                  )}
+                <PreviousAgentMatchesButton className="w-full md:w-fit" />
               </div>
             </div>
           </div>

@@ -39,13 +39,23 @@ const ListItem = ({
   return (
     <div
       style={style}
-      className="group flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-accent hover:text-white"
-      onClick={() => onItemSelect(option.value)}
+      className="px-1 py-0.5"
     >
-      <Check
-        className={cn("mr-2 h-4 w-4", isSelected ? "opacity-100" : "opacity-0")}
-      />
-      <span className="truncate">{option.label}</span>
+      <button
+        type="button"
+        role="option"
+        aria-selected={isSelected}
+        className="flex size-full items-center rounded-xl px-2 text-left text-sm transition-colors hover:bg-accent/8 focus-visible:bg-accent/8 focus-visible:outline-none"
+        onClick={() => onItemSelect(option.value)}
+      >
+        <Check
+          className={cn(
+            "mr-2 size-4",
+            isSelected ? "opacity-100" : "opacity-0"
+          )}
+        />
+        <span className="truncate">{option.label}</span>
+      </button>
     </div>
   );
 };

@@ -1,11 +1,12 @@
+"use client";
+
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
-import { getFromLocalStorage } from "@/app/utils";
-import { ExternalLinkIcon, ScanSearch, UsersIcon } from "lucide-react";
+import { ExternalLinkIcon, ScanSearch } from "lucide-react";
 import Link from "next/link";
+import { PreviousAgentMatchesButton } from "../(app)/components/previous-agent-matches-button";
 
 export const ActionCards = () => {
   const { isLoading } = useClerkUser();
-  const hasAgentMatches = getFromLocalStorage("agent_matches");
 
   const actionCardData = [
     {
@@ -19,14 +20,6 @@ export const ActionCards = () => {
       icon: <ExternalLinkIcon className="w-4 h-4" />,
     },
   ];
-
-  if (hasAgentMatches && !isLoading) {
-    actionCardData.push({
-      title: "Previous Matches",
-      link: "/agent-matches",
-      icon: <UsersIcon className="w-4 h-4" />,
-    });
-  }
 
   return (
     <div
@@ -56,6 +49,13 @@ export const ActionCards = () => {
           }
         </div>
       ))}
+      {!isLoading ? (
+        <PreviousAgentMatchesButton
+          showIcon
+          variant="secondary"
+          className="h-auto w-full rounded-lg p-4 py-8 text-lg font-medium shadow-sm transition-all duration-300 hover:shadow-xl"
+        />
+      ) : null}
     </div>
   );
 };
