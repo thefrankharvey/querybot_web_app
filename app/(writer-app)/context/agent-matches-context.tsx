@@ -15,6 +15,7 @@ import {
   useQuery,
   useQueryClient,
 } from "@tanstack/react-query";
+import { toast } from "sonner";
 
 import { startSheetPolling, stopSheetPolling } from "../workers/sheet-worker-manager";
 
@@ -136,11 +137,24 @@ function removeKey(key: string) {
 
 export type SheetStatus = "idle" | "pending" | "ready" | "timeout" | "error";
 
+export type PreviousSearchStatus = "idle" | "pending" | "success";
+
+interface AgentSearchApiResponse {
+  matches?: AgentMatch[];
+  next_cursor?: number | null;
+  spreadsheet_url?: string | null;
+  task_id?: string | null;
+  total_agents?: number;
+  total_available?: number;
+}
+
 const useAgentData = () => {
   const queryClient = useQueryClient();
 
   const [sheetTaskId, setSheetTaskId] = useState<string | null>(null);
   const [sheetStatus, setSheetStatus] = useState<SheetStatus>("idle");
+  const [previousSearchStatus, setPreviousSearchStatus] =
+    useState<PreviousSearchStatus>("idle");
 
   const { data: matches = [], isLoading } = useQuery({
     queryKey: QUERY_KEYS.agentMatches,
@@ -432,6 +446,92 @@ const useAgentData = () => {
     setSheetStatus("idle");
   };
 
+  const completePreviousSearchRefresh = useCallback(() => {
+    setPreviousSearchStatus("idle");
+  }, []);
+
+  const refreshPreviousAgentMatches = async (isSubscribed: boolean) => {
+    if (previousSearchStatus !== "idle") return false;
+
+    if (!formData) {
+      toast.error("Previous search details are unavailable", {
+        description: "Run a new Smart Match search to create fresh results.",
+      });
+      return false;
+    }
+
+    setPreviousSearchStatus("pending");
+
+    try {
+      const endpoint = isSubscribed
+        ? "/api/get-agents-paid"
+        : "/api/get-agents-free";
+      const response = await fetch(`${endpoint}?last_index=0`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Query request failed: ${response.status}`);
+      }
+
+      const data = (await response.json()) as AgentSearchApiResponse;
+      if (!Array.isArray(data.matches)) {
+        throw new Error("Query response did not include agent matches");
+      }
+
+      const savedProjectName = projectName;
+      const savedWriterProjectId = writerProjectId;
+      const totalAgents =
+        typeof data.total_agents === "number"
+          ? data.total_agents
+          : typeof data.total_available === "number"
+            ? data.total_available
+            : null;
+
+      await resetForNewSearch();
+
+      saveFormDataMutation.mutate(formData);
+      saveMatchesMutation.mutate(data.matches);
+      saveTotalAgentsMutation.mutate(totalAgents);
+      saveStatusFilterMutation.mutate("all");
+      saveCountryFilterMutation.mutate("all");
+
+      if (typeof data.next_cursor === "number") {
+        saveNextCursorMutation.mutate(data.next_cursor);
+      }
+
+      if (savedProjectName) {
+        saveProjectName(savedProjectName);
+      }
+
+      if (savedWriterProjectId) {
+        saveWriterProjectId(savedWriterProjectId);
+      }
+
+      if (isSubscribed) {
+        if (data.spreadsheet_url) {
+          saveSpreadsheetUrl(data.spreadsheet_url);
+        } else if (data.task_id) {
+          startSpreadsheetPolling(data.task_id);
+        }
+      }
+
+      setPreviousSearchStatus("success");
+      return true;
+    } catch (error) {
+      console.error(error);
+      setPreviousSearchStatus("idle");
+      toast.error("Could not refresh agent matches", {
+        description: "Your previous results are still available. Please try again.",
+      });
+      return false;
+    }
+  };
+
 
   return {
     matches,
@@ -449,6 +549,7 @@ const useAgentData = () => {
 
     sheetStatus,
     isSpreadsheetPending: sheetStatus === "pending",
+    previousSearchStatus,
 
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
@@ -467,6 +568,8 @@ const useAgentData = () => {
     stopSpreadsheetPolling,
     resetSpreadsheet,
     resetForNewSearch,
+    refreshPreviousAgentMatches,
+    completePreviousSearchRefresh,
   };
 };
 
@@ -484,6 +587,7 @@ interface MatchesContextType {
 
   sheetStatus: SheetStatus;
   isSpreadsheetPending: boolean;
+  previousSearchStatus: PreviousSearchStatus;
 
   saveMatches: (data: AgentMatch[]) => void;
   saveFormData: (data: FormData) => void;
@@ -502,6 +606,8 @@ interface MatchesContextType {
   stopSpreadsheetPolling: () => void;
   resetSpreadsheet: () => void;
   resetForNewSearch: () => Promise<void> | void;
+  refreshPreviousAgentMatches: (isSubscribed: boolean) => Promise<boolean>;
+  completePreviousSearchRefresh: () => void;
 
   nextCursorCount: number | null;
   currentCursor: number;
@@ -549,6 +655,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
 
       sheetStatus: data.sheetStatus,
       isSpreadsheetPending: data.isSpreadsheetPending,
+      previousSearchStatus: data.previousSearchStatus,
 
       saveMatches: data.saveMatches,
       saveFormData: data.saveFormData,
@@ -567,6 +674,8 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       stopSpreadsheetPolling: data.stopSpreadsheetPolling,
       resetSpreadsheet: data.resetSpreadsheet,
       resetForNewSearch: data.resetForNewSearch,
+      refreshPreviousAgentMatches: data.refreshPreviousAgentMatches,
+      completePreviousSearchRefresh: data.completePreviousSearchRefresh,
     }),
     [
       data.matches,
@@ -583,6 +692,7 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.isLoading,
       data.sheetStatus,
       data.isSpreadsheetPending,
+      data.previousSearchStatus,
       data.saveMatches,
       data.saveFormData,
       data.saveNextCursor,
@@ -599,6 +709,8 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.stopSpreadsheetPolling,
       data.resetSpreadsheet,
       data.resetForNewSearch,
+      data.refreshPreviousAgentMatches,
+      data.completePreviousSearchRefresh,
     ]
   );
 

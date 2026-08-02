@@ -11,8 +11,7 @@ import {
 } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-import Link from "next/link";
-import { validateQuery, formatComps, getFromLocalStorage } from "@/app/utils";
+import { validateQuery, formatComps } from "@/app/utils";
 import Comps from "./components/comps";
 import Themes from "./components/themes";
 import TargetAudience from "./components/target-audience";
@@ -23,7 +22,6 @@ import ProjectName from "./components/project-name";
 import FictionButtonToggle from "./components/fiction-button-toggle";
 import ExplanationBlock from "./components/explanation-block";
 import { Spinner } from "@/app/ui-primitives/spinner";
-import ProgressBar from "./components/progress-bar";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { startSheetPolling } from "../workers/sheet-worker-manager";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
@@ -35,6 +33,8 @@ import {
 } from "@/app/utils/project-dashboard-summary";
 import type { RestoredSmartMatchForm } from "@/app/utils/smart-match-restore";
 import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
+import { AgentSearchProgress } from "../components/agent-search-progress";
+import { PreviousAgentMatchesButton } from "../components/previous-agent-matches-button";
 
 const SmartMatchWalkthrough = dynamic(
   () =>
@@ -72,7 +72,6 @@ const SmartMatch = () => {
   const { createOrSelectTrait, traitOptions, traitsError } =
     useSmartMatchTraits();
   const { agentsList } = useProfileContext();
-  const [hasStoredAgentMatches, setHasStoredAgentMatches] = useState(false);
   const { saveMatches, saveFormData, saveNextCursor, saveSpreadsheetUrl, saveStatusFilter, saveCountryFilter, startSpreadsheetPolling, resetForNewSearch, saveTotalAgents, saveProjectName, saveWriterProjectId } =
     useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
@@ -296,13 +295,6 @@ const SmartMatch = () => {
   };
 
   useEffect(() => {
-    const storedAgentMatches = getFromLocalStorage("agent_matches");
-    setHasStoredAgentMatches(
-      Array.isArray(storedAgentMatches) && storedAgentMatches.length > 0,
-    );
-  }, []);
-
-  useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
     const updateDesktopViewport = () => {
       setIsDesktopViewport(mediaQuery.matches);
@@ -331,12 +323,10 @@ const SmartMatch = () => {
     <div className="ambient-page pb-48 pt-6 px-4 md:px-6 md:pb-48 md:pt-4">
 
       {(queryMutation.isPending || queryMutation.isSuccess) && (
-        <div className="mt-40 flex h-[700px] flex-col items-center md:mx-auto md:w-[700px]">
-          <ProgressBar
-            isSuccess={queryMutation.isSuccess}
-            onComplete={handleProgressComplete}
-          />
-        </div>
+        <AgentSearchProgress
+          isSuccess={queryMutation.isSuccess}
+          onComplete={handleProgressComplete}
+        />
       )}
       {!queryMutation.isSuccess && !queryMutation.isPending && (
         <>
@@ -393,13 +383,7 @@ const SmartMatch = () => {
                       : "Restore previous search"}
                   </Button>
                 )}
-                {hasStoredAgentMatches ? (
-                  <Link href="/agent-matches" className="w-full md:w-fit">
-                    <Button className="w-full md:w-fit" variant="default">
-                      Previous Agent Matches
-                    </Button>
-                  </Link>
-                ) : null}
+                <PreviousAgentMatchesButton className="w-full md:w-fit" />
               </div>
             </div>
           </div>
