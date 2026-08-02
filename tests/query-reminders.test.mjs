@@ -524,6 +524,19 @@ test("running the due processor twice inserts one ledger record", async () => {
           },
         };
       }
+      if (table === "user_notification_preferences") {
+        return {
+          select() {
+            return this;
+          },
+          in() {
+            return this;
+          },
+          async eq() {
+            return { data: [], error: null };
+          },
+        };
+      }
       throw new Error(`Unexpected table: ${table}`);
     },
   };
@@ -549,6 +562,30 @@ test("running the due processor twice inserts one ledger record", async () => {
   assert.equal(second.inserted, 0);
   assert.equal(second.duplicate, 1);
   assert.equal(ledgerKeys.size, 1);
+});
+
+test("due processor omits users who disabled reminder notifications", () => {
+  const processor = compileTypeScriptModule(
+    "app/utils/query-reminders/process-due.server.ts",
+    {
+      modules: {
+        "@/app/api/supabase/server": { createServerSupabase: () => null },
+        "@/app/utils/query-reminders/contracts": contracts,
+        "@/app/utils/query-reminders/calendar": calendar,
+        "@/app/utils/query-reminders/notifications": notifications,
+      },
+    },
+  );
+  const inserts = [
+    { user_id: "user_enabled", source_event_id: "one" },
+    { user_id: "user_disabled", source_event_id: "two" },
+  ];
+  const filtered = processor.omitDisabledReminderNotifications(
+    inserts,
+    new Set(["user_disabled"]),
+  );
+
+  assert.deepEqual(JSON.parse(JSON.stringify(filtered)), [inserts[0]]);
 });
 
 test("user features default on, the processor defaults off, and packaging stays separate", () => {

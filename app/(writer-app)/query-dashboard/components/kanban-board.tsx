@@ -28,6 +28,7 @@ import { Button } from "@/app/ui-primitives/button";
 import Link from "next/link";
 import type { QueryDashboardWalkthroughStepId } from "./query-dashboard-walkthrough-config";
 import type { QueryRoundSelection } from "@/app/utils/query-rounds";
+import { AgentWatchLookupProvider } from "@/app/hooks/use-agent-watches";
 
 const QueryDashboardWalkthrough = dynamic(
   () =>
@@ -263,6 +264,12 @@ export function KanbanBoard() {
   };
 
   return (
+    <AgentWatchLookupProvider
+      identities={cards.map((card) => ({
+        agentProfileId: null,
+        indexId: card.index_id ?? null,
+      }))}
+    >
     <div className="min-h-[calc(100vh-80px)] overflow-x-auto scrollbar-transparent md:min-h-[calc(100vh-120px)]">
       <DndContext
         sensors={sensors}
@@ -316,6 +323,7 @@ export function KanbanBoard() {
         onActiveStepChange={handleTourStepChange}
       />
     </div>
+    </AgentWatchLookupProvider>
   );
 }
 

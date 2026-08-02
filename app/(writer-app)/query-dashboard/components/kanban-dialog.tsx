@@ -48,6 +48,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/app/ui-primitives/alert";
 import { Spinner } from "@/app/ui-primitives/spinner";
 import { captureQuerySafetyEvent } from "@/app/utils/query-safety/product-analytics.client";
 import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import { AgentWatchButton } from "@/app/components/personalized-radar/agent-watch-button";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -283,6 +284,12 @@ export function KanbanDialog({
                 {card.agency}
               </DialogDescription>
             </div>
+            <AgentWatchButton
+              agentName={card.name}
+              identity={{ agentProfileId: null, indexId: card.index_id ?? null }}
+              originAgentMatchId={card.id}
+              originSurface="kanban_dialog"
+            />
             {/* Match Score Section */}
             {/* {card.match_score != null && (
               <div className="flex flex-col md:items-end items-start gap-1">

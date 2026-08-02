@@ -14,6 +14,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useAgentMessagingAvailability } from "@/app/hooks/use-agent-messaging-availability";
 import { normalizeAgentMessagingId } from "@/app/utils/agent-messaging-availability";
 import type { WriterMessageThread } from "@/app/utils/message-types";
+import { AgentWatchLookupProvider } from "@/app/hooks/use-agent-watches";
 
 export const AgentMatchesInner = ({
   matches,
@@ -74,6 +75,14 @@ export const AgentMatchesInner = ({
   );
   const { availableAgentIds } =
     useAgentMessagingAvailability(agentMessagingIds);
+  const watchIdentities = useMemo(
+    () =>
+      matches.map((match) => ({
+        agentProfileId: null,
+        indexId: match.agent_id ?? null,
+      })),
+    [matches],
+  );
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -244,36 +253,38 @@ export const AgentMatchesInner = ({
           </div>
         </div>
         {matches && matches.length > 0 ? (
-          <div
-            data-tour-target="agent-results-grid"
-            className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
-            ref={gridRef}
-          >
-            {matches.map((match, index: number) => (
-              <AgentMatchCard
-                key={index}
-                agent={match}
-                index={index}
-                onSaveAgent={onSaveAgent}
-                savingAgentId={savingAgentId}
-                onMessageAgent={onMessageAgent}
-                messagingAgentId={messagingAgentId}
-                isMessagingAvailable={availableAgentIds.has(
-                  normalizeAgentMessagingId(match.agent_id),
-                )}
-                isSubscribed={isSubscribed}
-                isLoading={isLoading}
-                id={`agent-${index}`}
-                projectName={projectName}
-                writerProjectId={writerProjectId}
-                writerThreads={writerThreads}
-                liveHistoryStatus={liveHistoryStatus}
-                tourTarget={
-                  index === 0 ? "agent-results-first-card" : undefined
-                }
-              />
-            ))}
-          </div>
+          <AgentWatchLookupProvider identities={watchIdentities}>
+            <div
+              data-tour-target="agent-results-grid"
+              className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+              ref={gridRef}
+            >
+              {matches.map((match, index: number) => (
+                <AgentMatchCard
+                  key={index}
+                  agent={match}
+                  index={index}
+                  onSaveAgent={onSaveAgent}
+                  savingAgentId={savingAgentId}
+                  onMessageAgent={onMessageAgent}
+                  messagingAgentId={messagingAgentId}
+                  isMessagingAvailable={availableAgentIds.has(
+                    normalizeAgentMessagingId(match.agent_id),
+                  )}
+                  isSubscribed={isSubscribed}
+                  isLoading={isLoading}
+                  id={`agent-${index}`}
+                  projectName={projectName}
+                  writerProjectId={writerProjectId}
+                  writerThreads={writerThreads}
+                  liveHistoryStatus={liveHistoryStatus}
+                  tourTarget={
+                    index === 0 ? "agent-results-first-card" : undefined
+                  }
+                />
+              ))}
+            </div>
+          </AgentWatchLookupProvider>
         ) : (
           <div className="mx-auto mt-60 flex h-full w-full flex-col items-center justify-center">
             {isLoading ? (

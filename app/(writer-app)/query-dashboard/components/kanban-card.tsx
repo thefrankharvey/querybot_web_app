@@ -34,6 +34,7 @@ import {
 } from "@/app/components/query-safety/reminder-view-model";
 import { useQueryReminders } from "@/app/hooks/use-query-reminders";
 import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import { AgentWatchButton } from "@/app/components/personalized-radar/agent-watch-button";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -237,6 +238,15 @@ export function KanbanCard({
           {card.name}
         </p>
         <div className="flex items-center gap-1">
+          {!isDragOverlay ? (
+            <AgentWatchButton
+              agentName={card.name}
+              compact
+              identity={{ agentProfileId: null, indexId: card.index_id ?? null }}
+              originAgentMatchId={card.id}
+              originSurface="query_dashboard"
+            />
+          ) : null}
           {useDragHandle && !isLifecycleLocked ? (
             <div
               {...attributes}

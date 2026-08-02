@@ -67,6 +67,15 @@ export function prepareDueReminderNotifications(
   return { notifications, invalid };
 }
 
+export function omitDisabledReminderNotifications(
+  notifications: readonly DueReminderNotificationInsert[],
+  disabledUserIds: ReadonlySet<string>,
+): DueReminderNotificationInsert[] {
+  return notifications.filter(
+    (notification) => !disabledUserIds.has(notification.user_id),
+  );
+}
+
 export async function runDueReminderProcessor(
   now: Date = new Date(),
 ): Promise<DueReminderProcessorSummary> {
@@ -84,14 +93,39 @@ export async function runDueReminderProcessor(
   if (error) throw new DueReminderProcessorError("Failed to read due reminders");
 
   const rows = (data ?? []) as DueProcessorReminderRow[];
-  const { notifications, invalid } = prepareDueReminderNotifications(rows, now);
+  const prepared = prepareDueReminderNotifications(rows, now);
+  if (prepared.notifications.length === 0) {
+    return {
+      scanned: rows.length,
+      eligible: 0,
+      inserted: 0,
+      duplicate: 0,
+      invalid: prepared.invalid,
+    };
+  }
+
+  const userIds = Array.from(
+    new Set(prepared.notifications.map((notification) => notification.user_id)),
+  );
+  const { data: disabledRows, error: preferenceError } = await supabase
+    .from("user_notification_preferences")
+    .select("user_id")
+    .in("user_id", userIds)
+    .eq("reminder_in_app_enabled", false);
+  if (preferenceError) {
+    throw new DueReminderProcessorError("Failed to read reminder preferences");
+  }
+  const notifications = omitDisabledReminderNotifications(
+    prepared.notifications,
+    new Set((disabledRows ?? []).map((row) => row.user_id as string)),
+  );
   if (notifications.length === 0) {
     return {
       scanned: rows.length,
       eligible: 0,
       inserted: 0,
       duplicate: 0,
-      invalid,
+      invalid: prepared.invalid,
     };
   }
 
@@ -113,6 +147,6 @@ export async function runDueReminderProcessor(
     eligible: notifications.length,
     inserted,
     duplicate: Math.max(0, notifications.length - inserted),
-    invalid,
+    invalid: prepared.invalid,
   };
 }

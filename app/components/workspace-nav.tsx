@@ -17,6 +17,7 @@ export type WorkspaceNavItem = {
   prefetch?: boolean;
   dataTourTarget?: string;
   isActive?: (pathname: string) => boolean;
+  badge?: ReactNode;
 };
 
 type WorkspaceNavSlot = ReactNode | ((closeMenu: () => void) => ReactNode);
@@ -97,6 +98,7 @@ export function WorkspaceNavLink({
     >
       {Icon ? <Icon className="size-4" /> : null}
       {item.label}
+      {item.badge ? <span className="ml-auto">{item.badge}</span> : null}
     </Link>
   );
 }

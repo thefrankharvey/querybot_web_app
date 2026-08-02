@@ -1,3 +1,5 @@
+import type { AgentChangeEvent } from "@/app/utils/personalized-radar/contracts";
+
 export type BlueskyPost = {
   author_did: string;
   created_at: string;
@@ -66,7 +68,8 @@ export type FeedItem =
   | { type: "bluesky"; data: BlueskyPost }
   | { type: "reddit"; data: RedditPost }
   | { type: "new_opening"; data: Blips }
-  | { type: "agent_activity"; data: Blips };
+  | { type: "agent_activity"; data: Blips }
+  | { type: "agent_event"; data: AgentChangeEvent };
 
 export type FlattenedSlushFeed = FeedItem[];
 

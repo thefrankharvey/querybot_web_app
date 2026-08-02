@@ -8,41 +8,58 @@ import {
 import { flattenAndSortFeed, formatFeedItem } from "@/app/utils/dispatch-utils";
 import { getWqhApiUrl } from "@/lib/config";
 import { auth } from "@clerk/nextjs/server";
+import type { DispatchScope } from "@/app/hooks/use-dispatch-feed";
 
 export const dynamic = "force-dynamic";
 
-const Dispatch = async () => {
+type DispatchPageProps = {
+  searchParams: Promise<{ scope?: string }>;
+};
+
+const Dispatch = async ({ searchParams }: DispatchPageProps) => {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), 60000); // 1 minute timeout
+  const requestedScope = (await searchParams).scope;
+  const initialScope: DispatchScope = [
+    "all",
+    "all_agents",
+    "community",
+    "watched",
+  ].includes(requestedScope ?? "")
+    ? (requestedScope as DispatchScope)
+    : "watched";
 
   try {
     const { userId } = await auth();
     if (!userId) {
-      return renderContent([]);
+      return renderContent([], initialScope);
+    }
+    if (initialScope !== "all") {
+      return renderContent([], initialScope);
     }
 
-    const res = await fetch(`${getWqhApiUrl()}recent-activity?limit=10&offset=0`, {
+    const res = await fetch(`${getWqhApiUrl().replace(/\/$/, "")}/recent-activity?limit=10&offset=0`, {
       cache: "no-store",
     });
 
     if (!res.ok) {
-      return renderContent([]);
+      return renderContent([], initialScope);
     }
 
     const data: SlushFeed = await res.json();
     const flattenedFeed = flattenAndSortFeed(data);
     const formattedFeed: FlattenedSlushFeed = flattenedFeed.map(formatFeedItem);
 
-    return renderContent(formattedFeed);
+    return renderContent(formattedFeed, initialScope);
   } catch (error) {
     console.error("Error fetching dispatch feed:", error);
-    return renderContent([]);
+    return renderContent([], initialScope);
   } finally {
     clearTimeout(timeoutId);
   }
 };
 
-const renderContent = (data: FlattenedSlushFeed) => {
+const renderContent = (data: FlattenedSlushFeed, initialScope: DispatchScope) => {
   return (
     <div className="ambient-page px-4 pb-10 pt-8 md:px-6 md:pt-10">
       <div className="ambient-orb-top" />
@@ -52,7 +69,7 @@ const renderContent = (data: FlattenedSlushFeed) => {
           <Newspaper className="w-10 h-10" />
           Dispatch
         </h1>
-        <Feed initialData={data} />
+        <Feed initialData={data} initialScope={initialScope} />
       </div>
     </div>
   );

@@ -68,6 +68,8 @@ import {
 import { useQueryReminders } from "@/app/hooks/use-query-reminders";
 import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
 import type { QueryReminder } from "@/app/utils/query-reminders/contracts";
+import { AgentWatchButton } from "@/app/components/personalized-radar/agent-watch-button";
+import { AgentWatchLookupProvider } from "@/app/hooks/use-agent-watches";
 
 import type { KanbanCardData } from "./kanban-card";
 import { useQueryDashContext } from "../context/query-dash-context";
@@ -124,6 +126,7 @@ type EditableTableKey = Exclude<
 
 const WQH_PROFILE_LINK_BASE_URL = "https://writequeryhook.com";
 const MESSAGE_ACTION_COLUMN_KEY = "message_action";
+const RADAR_COLUMN_KEY = "radar_watch";
 const REMINDER_COLUMN_KEY = "nextReminder";
 type ReminderFilter = "all" | "due" | "overdue";
 const FIT_RATING_OPTIONS = Object.keys(FIT_RATING_CONFIG) as FitRating[];
@@ -491,6 +494,19 @@ function ReminderCell({ row }: { row: DashboardTableRow }) {
   return <NextReminderBadge reminder={row.nextReminder} />;
 }
 
+function RadarWatchCell({ row }: { row: DashboardTableRow }) {
+  if (row.isPlaceholder) return null;
+  return (
+    <AgentWatchButton
+      agentName={row.name}
+      compact
+      identity={{ agentProfileId: null, indexId: row.index_id }}
+      originAgentMatchId={row.cardId}
+      originSurface="query_dashboard"
+    />
+  );
+}
+
 function DateEditor({
   row,
   column,
@@ -748,6 +764,14 @@ export function QueryDashboardTable() {
     () => [...displayedPersistedRows, ...placeholderRows],
     [displayedPersistedRows, placeholderRows],
   );
+  const watchIdentities = useMemo(
+    () =>
+      persistedRows.map((row) => ({
+        agentProfileId: null,
+        indexId: row.index_id,
+      })),
+    [persistedRows],
+  );
   const persistedRowIds = useMemo(
     () => new Set(displayedPersistedRows.map((row) => row.id)),
     [displayedPersistedRows],
@@ -845,6 +869,14 @@ export function QueryDashboardTable() {
         renderCell: ({ row }) => (
           <MessageActionCell onMessage={handleMessageRow} row={row} />
         ),
+      },
+      {
+        key: RADAR_COLUMN_KEY,
+        name: "Radar",
+        frozen: true,
+        resizable: false,
+        width: 86,
+        renderCell: ({ row }) => <RadarWatchCell row={row} />,
       },
       {
         key: "trackingMode",
@@ -1275,7 +1307,8 @@ export function QueryDashboardTable() {
         </div>
       ) : null}
       <div className="query-dashboard-table-grid-frame" ref={gridFrameRef}>
-        <DataGrid
+        <AgentWatchLookupProvider identities={watchIdentities}>
+          <DataGrid
           ref={gridRef}
           aria-label="Project query tracking table"
           className={cn("rdg-light query-dashboard-table-grid")}
@@ -1301,6 +1334,7 @@ export function QueryDashboardTable() {
             columnKey === "wqh_profile_link" ||
             columnKey === "queryRound" ||
             columnKey === REMINDER_COLUMN_KEY ||
+            columnKey === RADAR_COLUMN_KEY ||
             columnKey === MESSAGE_ACTION_COLUMN_KEY
               ? targetRow
               : {
@@ -1318,9 +1352,11 @@ export function QueryDashboardTable() {
             targetColumnKey === "trackingMode" ||
             targetColumnKey === "queryRound" ||
             targetColumnKey === REMINDER_COLUMN_KEY ||
+            targetColumnKey === RADAR_COLUMN_KEY ||
             sourceColumnKey === "queryRound" ||
             sourceColumnKey === "trackingMode" ||
             sourceColumnKey === REMINDER_COLUMN_KEY ||
+            sourceColumnKey === RADAR_COLUMN_KEY ||
             (targetRow.trackingMode === "live" &&
               DATE_COLUMN_KEYS.has(
                 targetColumnKey as keyof DashboardTableRow,
@@ -1341,7 +1377,8 @@ export function QueryDashboardTable() {
           onRowsChange={handleRowsChange}
           onSelectedRowsChange={setSelectedRows}
           onSortColumnsChange={setSortColumns}
-        />
+          />
+        </AgentWatchLookupProvider>
       </div>
     </div>
   );

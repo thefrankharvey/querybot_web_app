@@ -45,6 +45,7 @@ import {
 } from "@/app/utils/query-rounds";
 import { toast } from "sonner";
 import { useQuerySafetyConfig } from "@/app/hooks/use-query-safety-config";
+import { AgentWatchButton } from "@/app/components/personalized-radar/agent-watch-button";
 
 export const AgentMatchCard = ({
     agent,
@@ -577,7 +578,24 @@ export const AgentMatchCard = ({
                             </h2>
                         )}
                     </Skeleton>
-                    <div className="shrink-0">{saveControl}</div>
+                    <div className="flex shrink-0 items-center gap-1">
+                        <AgentWatchButton
+                            agentName={agent.name}
+                            compact
+                            disabledReason={
+                                savedAgent
+                                    ? undefined
+                                    : "Save this agent before adding them to Radar."
+                            }
+                            identity={{
+                                agentProfileId: null,
+                                indexId: legacyAgentId,
+                            }}
+                            originAgentMatchId={savedAgent?.id ?? null}
+                            originSurface="agent_card"
+                        />
+                        {saveControl}
+                    </div>
                 </div>
                 {agencyHistoryEnabled &&
                 (agencyGuard.status !== "clear" ||

@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import {
   FolderOpen,
+  Bell,
   Home,
   MessageSquare,
   Newspaper,
@@ -30,6 +31,7 @@ import {
   getProjectNavigationItemsFromAgentMatches,
 } from "@/app/utils/project-dashboard-summary";
 import { getProjectRouteId } from "@/app/utils/project-profile";
+import { NotificationUnreadBadge } from "@/app/components/personalized-radar/notification-unread-badge";
 
 import { useProfileContext } from "../context/profile-context";
 
@@ -171,6 +173,13 @@ export const SideBarNav = () => {
           </AccordionItem>
         </Accordion>
       ),
+    },
+    {
+      label: "Notifications",
+      href: "/notifications",
+      icon: Bell,
+      badge: <NotificationUnreadBadge />,
+      isActive: (currentPathname) => currentPathname.includes("notifications"),
     },
     {
       label: "Dispatch",

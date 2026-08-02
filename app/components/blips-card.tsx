@@ -9,6 +9,8 @@ import {
 } from "@/app/utils";
 import { Users } from "lucide-react";
 import Link from "next/link";
+import { AgentWatchButton } from "@/app/components/personalized-radar/agent-watch-button";
+import { useProfileContext } from "@/app/(writer-app)/context/profile-context";
 
 const BlipsCard = ({
   blips,
@@ -18,6 +20,8 @@ const BlipsCard = ({
   isOpenToSubs?: boolean;
 }) => {
   const [openAccordion, setOpenAccordion] = useState<boolean>(false);
+  const { agentsList } = useProfileContext();
+  const savedAgent = agentsList?.find((agent) => agent.index_id === blips.id);
 
   const formattedInterests = blips.extra_interest
     ? capitalizeFirstCharacter(formatDisplayString(blips.extra_interest))
@@ -33,12 +37,22 @@ const BlipsCard = ({
     <div className="glass-panel flex w-full flex-col gap-4 p-4 py-8 md:p-8">
       {blips.website ? (
         <>
-          <Link href={blips.website} target="_blank">
-            <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-3">
+            <Link href={blips.website} target="_blank">
               <div className="flex items-center gap-2 font-semibold text-accent">
                 <Users />
                 <h3 className="text-sm">{blips.name}</h3>
               </div>
+            </Link>
+            <div className="flex items-center gap-2">
+              <AgentWatchButton
+                agentName={blips.name}
+                compact
+                disabledReason={savedAgent ? undefined : "Save this agent before adding them to Radar."}
+                identity={{ agentProfileId: null, indexId: blips.id ?? null }}
+                originAgentMatchId={savedAgent?.id ?? null}
+                originSurface="dispatch"
+              />
               {isOpenToSubs ? (
                 <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
                   Open to Submissions
@@ -49,7 +63,7 @@ const BlipsCard = ({
                 </span>
               )}
             </div>
-          </Link>
+          </div>
           {blips.agency && (
             <Link href={blips.website} target="_blank">
               <div className="flex gap-2 text-sm text-accent/78">
@@ -61,16 +75,26 @@ const BlipsCard = ({
         </>
       ) : (
         <>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2 font-semibold text-accent">
               <Users />
               <h3 className="text-sm">{blips.name}</h3>
             </div>
-            {isOpenToSubs && (
-              <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
-                Open to Submissions
-              </span>
-            )}
+            <div className="flex items-center gap-2">
+              <AgentWatchButton
+                agentName={blips.name}
+                compact
+                disabledReason={savedAgent ? undefined : "Save this agent before adding them to Radar."}
+                identity={{ agentProfileId: null, indexId: blips.id ?? null }}
+                originAgentMatchId={savedAgent?.id ?? null}
+                originSurface="dispatch"
+              />
+              {isOpenToSubs && (
+                <span className="rounded-full border border-accent bg-accent px-3 py-1 text-sm font-semibold text-white">
+                  Open to Submissions
+                </span>
+              )}
+            </div>
           </div>
 
           {blips.agency && (
