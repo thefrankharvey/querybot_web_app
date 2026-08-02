@@ -6,10 +6,25 @@ import { useClerkUser } from "../../hooks/use-clerk-user";
 import AgentMatchesPaywall from "./components/agent-matches-paywall";
 import AgentMatchesFull from "./components/agent-matches-full";
 import { useState } from "react";
+import { AgentSearchProgress } from "../components/agent-search-progress";
+import { useAgentMatches } from "../context/agent-matches-context";
 
 export default function AgentMatchesPage() {
   const { isSubscribed, isLoading } = useClerkUser();
   const [isWalkthroughActive, setIsWalkthroughActive] = useState(false);
+  const { previousSearchStatus, completePreviousSearchRefresh } =
+    useAgentMatches();
+
+  if (previousSearchStatus !== "idle") {
+    return (
+      <div className="ambient-page px-4 pb-48 pt-6 md:px-6 md:pb-48 md:pt-4">
+        <AgentSearchProgress
+          isSuccess={previousSearchStatus === "success"}
+          onComplete={completePreviousSearchRefresh}
+        />
+      </div>
+    );
+  }
 
   if (isLoading) {
     return null;
