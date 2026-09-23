@@ -12,12 +12,13 @@ const CustomInput = ({
 }: {
   label: string;
   closeInput?: boolean;
-  handleAdd: (value: string) => void;
+  handleAdd: (value: string) => void | Promise<void>;
   setError?: (error: string) => void;
   showInput: boolean;
   setShowInput: (showInput: boolean) => void;
 }) => {
   const [value, setValue] = useState<string>("");
+  const [isAdding, setIsAdding] = useState(false);
 
   useEffect(() => {
     if (closeInput) {
@@ -41,12 +42,19 @@ const CustomInput = ({
             <Button
               type="button"
               className="text-sm shadow-lg hover:shadow-xl w-full md:w-fit"
-              onClick={() => {
-                handleAdd(value);
-                setValue("");
+              disabled={isAdding}
+              onClick={async () => {
+                setIsAdding(true);
+
+                try {
+                  await handleAdd(value);
+                  setValue("");
+                } finally {
+                  setIsAdding(false);
+                }
               }}
             >
-              Add {label}
+              {isAdding ? "Adding..." : `Add ${label}`}
             </Button>
             <Button
               type="button"

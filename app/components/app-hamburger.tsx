@@ -6,10 +6,16 @@ import Link from "next/link";
 import { SignOutButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { useClerkUser } from "../hooks/use-clerk-user";
 import { usePathname, useSearchParams } from "next/navigation";
-import { Home, Newspaper, NotebookPen, ScanSearch, FolderOpen } from "lucide-react";
+import {
+  Home,
+  Newspaper,
+  NotebookPen,
+  ScanSearch,
+  FolderOpen,
+} from "lucide-react";
 import { useProfileContext } from "../(app)/context/profile-context";
 import { Separator } from "@/app/ui-primitives/separator";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import { getProjectNavigationItemsFromAgentMatches } from "@/app/utils/project-dashboard-summary";
 import {
   Accordion,
   AccordionContent,
@@ -24,8 +30,8 @@ export const AppHamburger = () => {
   const [open, setOpen] = useState(false);
   const { isSubscribed } = useClerkUser();
 
-  const projectNames = useMemo(() => {
-    return getProjectNamesFromAgentMatches(agentsList);
+  const projects = useMemo(() => {
+    return getProjectNavigationItemsFromAgentMatches(agentsList);
   }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
@@ -48,16 +54,19 @@ export const AppHamburger = () => {
         className="flex size-11 flex-col items-center justify-center rounded-full p-0 md:hidden"
       >
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "translate-y-[10px] rotate-45" : ""
-            }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
+            open ? "translate-y-[10px] rotate-45" : ""
+          }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current my-2 transition-all duration-200 ${open ? "opacity-0 scale-x-0" : "opacity-100 scale-x-100"
-            }`}
+          className={`block w-10 h-0.5 bg-current my-2 transition-all duration-200 ${
+            open ? "opacity-0 scale-x-0" : "opacity-100 scale-x-100"
+          }`}
         />
         <span
-          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${open ? "-translate-y-[10px] -rotate-45" : ""
-            }`}
+          className={`block w-10 h-0.5 bg-current transition-transform duration-200 ${
+            open ? "-translate-y-[10px] -rotate-45" : ""
+          }`}
         />
       </button>
       <div
@@ -65,7 +74,7 @@ export const AppHamburger = () => {
           "absolute inset-0 z-99 mt-[80px] h-dvh-safe w-screen overflow-hidden overscroll-none bg-background/90 p-6 pt-0 md:pt-4 transition-opacity duration-300 backdrop-blur-xl",
           open
             ? "opacity-100 visible"
-            : "opacity-0 invisible pointer-events-none"
+            : "opacity-0 invisible pointer-events-none",
         )}
       >
         <div className="glass-panel-strong mx-auto flex h-full w-full max-w-xl flex-col gap-2 overflow-y-auto p-4">
@@ -90,7 +99,7 @@ export const AppHamburger = () => {
                 "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("home")
                   ? "border border-accent/10 bg-white/82 text-accent"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <Home className="w-4 h-4" />
@@ -104,7 +113,7 @@ export const AppHamburger = () => {
                 "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("smart-match")
                   ? "border border-accent/10 bg-white/82 text-accent"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <ScanSearch className="w-4 h-4" />
@@ -117,7 +126,7 @@ export const AppHamburger = () => {
                     "justify-center gap-2 rounded-[22px] py-3 text-base font-medium hover:no-underline",
                     pathname.includes("query-dashboard")
                       ? "border border-accent/10 bg-white/82 text-accent"
-                      : "text-accent/74"
+                      : "text-accent/74",
                   )}
                 >
                   <span className="flex items-center gap-2">
@@ -126,21 +135,23 @@ export const AppHamburger = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="pb-0">
-                  {projectNames.length > 0 ? (
+                  {projects.length > 0 ? (
                     <div className="flex flex-col items-center gap-1">
-                      {projectNames.map((name) => (
+                      {projects.map((project) => (
                         <Link
-                          key={name}
+                          key={project.href}
                           onClick={() => setOpen(false)}
-                          href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                          href={project.href}
                           className={cn(
                             "flex w-full items-center justify-center gap-2 truncate rounded-[22px] py-2.5 text-base font-medium",
-                            activeProject === name
+                            pathname === project.href ||
+                              (!project.writerProjectId &&
+                                activeProject === project.projectName)
                               ? "border border-accent/10 bg-white/82 text-accent"
-                              : "text-accent/74"
+                              : "text-accent/74",
                           )}
                         >
-                          {name}
+                          {project.projectName}
                         </Link>
                       ))}
                     </div>
@@ -160,7 +171,7 @@ export const AppHamburger = () => {
                 "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("dispatch")
                   ? "border border-accent/10 bg-white/82 text-accent"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <Newspaper className="w-4 h-4" />
@@ -174,7 +185,7 @@ export const AppHamburger = () => {
                 "flex w-full items-center justify-center gap-2 rounded-[22px] py-3 text-base font-medium",
                 pathname.includes("blog")
                   ? "border border-accent/10 bg-white/82 text-accent"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <NotebookPen className="w-4 h-4" />

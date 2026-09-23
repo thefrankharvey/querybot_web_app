@@ -9,9 +9,8 @@ import {
   useState,
 } from "react";
 import { arrayMove } from "@dnd-kit/sortable";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import type {
   AgentMatch,
   SaveAgentPayload,
@@ -25,11 +24,15 @@ import {
 } from "@/app/components/fit-rating-badge";
 import { DEFAULT_PROJECT_NAME } from "@/app/constants";
 import type { KanbanCardData } from "../components/kanban-card";
-import { FIRST_COLUMN_ID, sortFirstColumnByNewest } from "../components/kanban-ordering";
+import {
+  FIRST_COLUMN_ID,
+  sortFirstColumnByNewest,
+} from "../components/kanban-ordering";
 import {
   isQueryDashColumnId,
   QueryDashColumnId,
 } from "../components/kanban-config";
+import { isSameProjectScope } from "@/app/utils/project-scope";
 import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
 
 interface MoveCardOptions {
@@ -38,10 +41,7 @@ interface MoveCardOptions {
 }
 
 type QueryDashboardDateField =
-  | "query_sent_date"
-  | "pages_requested_date"
-  | "rejected_date"
-  | "offer_date";
+  "query_sent_date" | "pages_requested_date" | "rejected_date" | "offer_date";
 
 type EditableCardUpdate = Partial<
   Pick<
@@ -67,7 +67,7 @@ export interface QueryDashState {
   isEmpty: boolean;
   offerMadeCelebrationNonce: number;
   activeProjectName: string | null;
-  isRenamingProject: boolean;
+  activeWriterProjectId: string | null;
   isDeletingProject: boolean;
 }
 
@@ -75,12 +75,11 @@ export interface QueryDashActions {
   moveCard: (
     cardId: string,
     columnId: QueryDashColumnId,
-    options?: MoveCardOptions
+    options?: MoveCardOptions,
   ) => void;
   reorderInColumn: (columnId: string, activeId: string, overId: string) => void;
   togglePrepQueryLetter: (cardId: string) => void;
   setFitRating: (cardId: string, rating: FitRating) => void;
-  setProjectName: (cardId: string, projectName: string) => void;
   updateCardFields: (cardId: string, updates: EditableCardUpdate) => void;
   createManualRow: (
     initialUpdates?: EditableCardUpdate,
@@ -88,13 +87,12 @@ export interface QueryDashActions {
   removeRowsByIds: (
     rowIds: string[],
   ) => Promise<{ deletedRowIds: string[]; failedCount: number }>;
-  renameActiveProject: (newName: string) => Promise<void>;
   deleteActiveProject: () => Promise<boolean>;
   setNotes: (cardId: string, notes: string) => void;
   getCardsForColumn: (columnId: string) => KanbanCardData[];
   findCardById: (cardId: string) => KanbanCardData | undefined;
   findColumnByCardId: (cardId: string) => QueryDashColumnId | undefined;
-  removeCardByIndexId: (indexId: string) => void;
+  removeCardById: (indexId: string) => void;
 }
 
 type QueryDashContextType = QueryDashState & QueryDashActions;
@@ -112,15 +110,22 @@ function mergeCardsPreservingOrder({
   const existingCardsInCurrentOrder = previousCards
     .map((card) => mergedById.get(card.id))
     .filter((card): card is KanbanCardData => Boolean(card));
-  const existingIds = new Set(existingCardsInCurrentOrder.map((card) => card.id));
-  const newlyAddedCards = mergedFromAgents.filter((card) => !existingIds.has(card.id));
+  const existingIds = new Set(
+    existingCardsInCurrentOrder.map((card) => card.id),
+  );
+  const newlyAddedCards = mergedFromAgents.filter(
+    (card) => !existingIds.has(card.id),
+  );
 
   // Keep user-driven ordering stable on refresh/update; only sort when new cards appear.
   if (newlyAddedCards.length === 0) {
     return existingCardsInCurrentOrder;
   }
 
-  return sortFirstColumnByNewest([...newlyAddedCards, ...existingCardsInCurrentOrder]);
+  return sortFirstColumnByNewest([
+    ...newlyAddedCards,
+    ...existingCardsInCurrentOrder,
+  ]);
 }
 
 function getTodayLocalDateString() {
@@ -140,9 +145,7 @@ const MILESTONE_DATE_FIELD_BY_COLUMN: Partial<
   "offer-made": "offer_date",
 };
 
-function getFurthestMilestoneColumnId(
-  card: KanbanCardData,
-): QueryDashColumnId {
+function getFurthestMilestoneColumnId(card: KanbanCardData): QueryDashColumnId {
   if (card.offer_date) return "offer-made";
   if (card.rejected_date) return "rejected";
   if (card.pages_requested_date) return "pages-requested";
@@ -234,7 +237,12 @@ function applyEditableUpdatesToPayload(
 }
 
 function isFitRating(value: string): value is FitRating {
-  return value === "perfect" || value === "great" || value === "good" || value === "neutral";
+  return (
+    value === "perfect" ||
+    value === "great" ||
+    value === "good" ||
+    value === "neutral"
+  );
 }
 
 function mapAgentToCard(agent: AgentMatch): KanbanCardData {
@@ -268,32 +276,50 @@ function mapAgentToCard(agent: AgentMatch): KanbanCardData {
     prepQueryLetterDone: agent.query_letter_ready ?? false,
     fitRating,
     projectName: normalizeProjectName(agent.project_name),
+    writerProjectId: agent.writer_project_id ?? null,
     notes: agent.notes ?? "",
   };
 }
 
-export function QueryDashProvider({ children }: { children: React.ReactNode }) {
+export function QueryDashProvider({
+  children,
+  projectName,
+  writerProjectId,
+}: {
+  children: React.ReactNode;
+  projectName?: string | null;
+  writerProjectId?: string | null;
+}) {
   const { addAgent, isLoading, refetch, removeProject } = useProfileContext();
-  const { renameSavedProjectName } = useAgentMatches();
   const searchParams = useSearchParams();
   const router = useRouter();
-  const pathname = usePathname();
-  const rawActiveProjectName = searchParams.get("project");
+  const rawActiveProjectName = projectName ?? searchParams.get("project");
+  const activeWriterProjectId = writerProjectId?.trim() || null;
   const activeProjectName = rawActiveProjectName
     ? normalizeProjectName(rawActiveProjectName)
     : null;
   const [cards, setCards] = useState<KanbanCardData[]>([]);
   const [isHydratingFromServer, setIsHydratingFromServer] = useState(true);
   const [offerMadeCelebrationNonce, setOfferMadeCelebrationNonce] = useState(0);
-  const [isRenamingProject, setIsRenamingProject] = useState(false);
   const [isDeletingProject, setIsDeletingProject] = useState(false);
 
   const visibleCards = useMemo(
     () =>
       activeProjectName
-        ? cards.filter((card) => card.projectName === activeProjectName)
+        ? cards.filter((card) =>
+            isSameProjectScope(
+              {
+                projectName: card.projectName,
+                writerProjectId: card.writerProjectId,
+              },
+              {
+                projectName: activeProjectName,
+                writerProjectId: activeWriterProjectId,
+              },
+            ),
+          )
         : cards,
-    [cards, activeProjectName]
+    [cards, activeProjectName, activeWriterProjectId],
   );
 
   useEffect(() => {
@@ -313,7 +339,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           mergeCardsPreservingOrder({
             previousCards: prevCards,
             mergedFromAgents,
-          })
+          }),
         );
       } catch (error) {
         if (!isMounted) return;
@@ -339,9 +365,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
   }, [refetch]);
 
   const persistCardUpdate = useCallback(
-    async (cardId: string, payload: UpdateAgentPayload, fallbackErrorMessage: string) => {
+    async (
+      cardId: string,
+      payload: UpdateAgentPayload,
+      fallbackErrorMessage: string,
+    ) => {
       const card = cards.find((currentCard) => currentCard.id === cardId);
-      if (!card?.index_id) {
+      if (!card?.id) {
         console.warn("Skipping card update persistence: missing index_id", {
           cardId,
           payload,
@@ -350,13 +380,16 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       }
 
       try {
-        const response = await fetch(`/api/agent-matches/${card.index_id}`, {
-          method: "PATCH",
-          headers: {
-            "Content-Type": "application/json",
+        const response = await fetch(
+          `/api/agent-match-records/${encodeURIComponent(card.id)}`,
+          {
+            method: "PATCH",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(payload),
           },
-          body: JSON.stringify(payload),
-        });
+        );
 
         if (!response.ok) {
           let errorMessage = fallbackErrorMessage;
@@ -379,14 +412,14 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         });
       }
     },
-    [cards]
+    [cards],
   );
 
   const moveCard = useCallback(
     (
       cardId: string,
       columnId: QueryDashColumnId,
-      options: MoveCardOptions = {}
+      options: MoveCardOptions = {},
     ) => {
       const { persist = true, forcePersist = false } = options;
       const currentCard = cards.find((card) => card.id === cardId);
@@ -409,8 +442,8 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
                 ...milestoneDateUpdate,
                 ...(shouldPersist ? { updated_date: nextUpdatedDate } : {}),
               }
-            : card
-        )
+            : card,
+        ),
       );
 
       if (shouldPersist) {
@@ -421,7 +454,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
             updated_date: nextUpdatedDate,
             ...milestoneDateUpdate,
           },
-          "Failed to persist column move"
+          "Failed to persist column move",
         );
       }
 
@@ -429,7 +462,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         setOfferMadeCelebrationNonce((currentNonce) => currentNonce + 1);
       }
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const reorderInColumn = useCallback(
@@ -437,19 +470,29 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       if (activeId === overId) return;
 
       setCards((prevCards) => {
-        const columnCards = prevCards.filter((card) => card.columnId === columnId);
-        const otherCards = prevCards.filter((card) => card.columnId !== columnId);
+        const columnCards = prevCards.filter(
+          (card) => card.columnId === columnId,
+        );
+        const otherCards = prevCards.filter(
+          (card) => card.columnId !== columnId,
+        );
 
-        const activeIndex = columnCards.findIndex((card) => card.id === activeId);
+        const activeIndex = columnCards.findIndex(
+          (card) => card.id === activeId,
+        );
         const overIndex = columnCards.findIndex((card) => card.id === overId);
 
         if (activeIndex === -1 || overIndex === -1) return prevCards;
 
-        const reorderedColumnCards = arrayMove(columnCards, activeIndex, overIndex);
+        const reorderedColumnCards = arrayMove(
+          columnCards,
+          activeIndex,
+          overIndex,
+        );
         return [...otherCards, ...reorderedColumnCards];
       });
     },
-    []
+    [],
   );
 
   const togglePrepQueryLetter = useCallback(
@@ -462,9 +505,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       setCards((prevCards) =>
         prevCards.map((card) =>
           card.id === cardId
-            ? { ...card, prepQueryLetterDone: nextValue, updated_date: nextUpdatedDate }
-            : card
-        )
+            ? {
+                ...card,
+                prepQueryLetterDone: nextValue,
+                updated_date: nextUpdatedDate,
+              }
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -473,10 +520,10 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           query_letter_ready: nextValue,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update query letter status"
+        "Failed to update query letter status",
       );
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const setFitRating = useCallback(
@@ -489,8 +536,8 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         prevCards.map((card) =>
           card.id === cardId
             ? { ...card, fitRating: rating, updated_date: nextUpdatedDate }
-            : card
-        )
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -499,37 +546,10 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           fit_rating: rating,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update fit rating"
+        "Failed to update fit rating",
       );
     },
-    [cards, persistCardUpdate]
-  );
-
-  const setProjectName = useCallback(
-    (cardId: string, projectName: string) => {
-      const normalizedProjectName = normalizeProjectName(projectName);
-      const currentCard = cards.find((card) => card.id === cardId);
-      if (!currentCard || currentCard.projectName === normalizedProjectName) return;
-      const nextUpdatedDate = getTodayLocalDateString();
-
-      setCards((prevCards) =>
-        prevCards.map((card) =>
-          card.id === cardId
-            ? { ...card, projectName: normalizedProjectName, updated_date: nextUpdatedDate }
-            : card
-        )
-      );
-
-      void persistCardUpdate(
-        cardId,
-        {
-          project_name: normalizedProjectName,
-          updated_date: nextUpdatedDate,
-        },
-        "Failed to update project name"
-      );
-    },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const updateCardFields = useCallback(
@@ -594,11 +614,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         ),
       );
 
-      void persistCardUpdate(
-        cardId,
-        payload,
-        "Failed to update table cell",
-      );
+      void persistCardUpdate(cardId, payload, "Failed to update table cell");
 
       if (
         hasDateUpdate &&
@@ -623,6 +639,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         updated_date: getActivityDateForUpdate(initialUpdates),
         query_letter_ready: false,
         project_name: activeProjectName ?? DEFAULT_PROJECT_NAME,
+        writer_project_id: activeWriterProjectId,
       };
 
       applyEditableUpdatesToPayload(manualPayload, initialUpdates);
@@ -676,7 +693,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         return null;
       }
     },
-    [activeProjectName, addAgent, refetch],
+    [activeProjectName, activeWriterProjectId, addAgent, refetch],
   );
 
   const removeRowsByIds = useCallback(
@@ -697,6 +714,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           },
           body: JSON.stringify({
             projectName: activeProjectName,
+            writerProjectId: activeWriterProjectId,
             rowIds: uniqueRowIds,
           }),
         });
@@ -760,68 +778,7 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         };
       }
     },
-    [activeProjectName, refetch],
-  );
-
-  const renameActiveProject = useCallback(
-    async (newName: string) => {
-      const oldName = activeProjectName;
-      const trimmedNewName = newName.trim();
-
-      if (!oldName || !trimmedNewName || trimmedNewName === oldName) {
-        return;
-      }
-
-      setIsRenamingProject(true);
-      try {
-        setCards((prevCards) =>
-          prevCards.map((card) =>
-            card.projectName === oldName
-              ? { ...card, projectName: trimmedNewName }
-              : card
-          )
-        );
-
-        try {
-          const response = await fetch("/api/agent-matches/rename-project", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ oldName, newName: trimmedNewName }),
-          });
-
-          if (!response.ok) {
-            let errorMessage = "Failed to rename project";
-            try {
-              const errorData = (await response.json()) as { error?: string };
-              if (errorData?.error) {
-                errorMessage = errorData.error;
-              }
-            } catch {
-              // Ignore parse errors and use fallback message.
-            }
-            throw new Error(errorMessage);
-          }
-
-          renameSavedProjectName(oldName, trimmedNewName);
-
-          router.replace(`${pathname}?project=${encodeURIComponent(trimmedNewName)}`);
-          await refetch();
-        } catch (error) {
-          toast.error("Failed to rename project", {
-            description:
-              error instanceof Error
-                ? error.message
-                : "Project name was updated locally, but server sync failed.",
-          });
-          await refetch();
-        }
-      } finally {
-        setIsRenamingProject(false);
-      }
-    },
-    [activeProjectName, pathname, refetch, renameSavedProjectName, router]
+    [activeProjectName, activeWriterProjectId, refetch],
   );
 
   const deleteActiveProject = useCallback(async () => {
@@ -838,7 +795,10 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ projectName }),
+        body: JSON.stringify({
+          projectName,
+          writerProjectId: activeWriterProjectId,
+        }),
       });
 
       if (!response.ok) {
@@ -855,9 +815,18 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       }
 
       setCards((prevCards) =>
-        prevCards.filter((card) => card.projectName !== projectName)
+        prevCards.filter(
+          (card) =>
+            !isSameProjectScope(
+              {
+                projectName: card.projectName,
+                writerProjectId: card.writerProjectId,
+              },
+              { projectName, writerProjectId: activeWriterProjectId },
+            ),
+        ),
       );
-      removeProject(projectName);
+      removeProject(projectName, activeWriterProjectId);
 
       toast.success("Project deleted", {
         description: "Saved agents for this project were removed.",
@@ -882,7 +851,13 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
     } finally {
       setIsDeletingProject(false);
     }
-  }, [activeProjectName, refetch, removeProject, router]);
+  }, [
+    activeProjectName,
+    activeWriterProjectId,
+    refetch,
+    removeProject,
+    router,
+  ]);
 
   const setNotes = useCallback(
     (cardId: string, notes: string) => {
@@ -894,8 +869,8 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
         prevCards.map((card) =>
           card.id === cardId
             ? { ...card, notes, updated_date: nextUpdatedDate }
-            : card
-        )
+            : card,
+        ),
       );
 
       void persistCardUpdate(
@@ -904,20 +879,21 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
           notes,
           updated_date: nextUpdatedDate,
         },
-        "Failed to update notes"
+        "Failed to update notes",
       );
     },
-    [cards, persistCardUpdate]
+    [cards, persistCardUpdate],
   );
 
   const getCardsForColumn = useCallback(
-    (columnId: string) => visibleCards.filter((card) => card.columnId === columnId),
-    [visibleCards]
+    (columnId: string) =>
+      visibleCards.filter((card) => card.columnId === columnId),
+    [visibleCards],
   );
 
   const findCardById = useCallback(
     (cardId: string) => cards.find((card) => card.id === cardId),
-    [cards]
+    [cards],
   );
 
   const findColumnByCardId = useCallback(
@@ -926,11 +902,11 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       if (!card) return undefined;
       return isQueryDashColumnId(card.columnId) ? card.columnId : undefined;
     },
-    [cards]
+    [cards],
   );
 
-  const removeCardByIndexId = useCallback((indexId: string) => {
-    setCards((prevCards) => prevCards.filter((card) => card.index_id !== indexId));
+  const removeCardById = useCallback((indexId: string) => {
+    setCards((prevCards) => prevCards.filter((card) => card.id !== indexId));
   }, []);
 
   const value = useMemo<QueryDashContextType>(
@@ -938,26 +914,25 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       cards,
       visibleCards,
       isLoading: isLoading || isHydratingFromServer,
-      isEmpty: !isLoading && !isHydratingFromServer && visibleCards.length === 0,
+      isEmpty:
+        !isLoading && !isHydratingFromServer && visibleCards.length === 0,
       offerMadeCelebrationNonce,
       activeProjectName,
-      isRenamingProject,
+      activeWriterProjectId,
       isDeletingProject,
       moveCard,
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
-      setProjectName,
       updateCardFields,
       createManualRow,
       removeRowsByIds,
-      renameActiveProject,
       deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
-      removeCardByIndexId,
+      removeCardById,
     }),
     [
       cards,
@@ -966,28 +941,28 @@ export function QueryDashProvider({ children }: { children: React.ReactNode }) {
       isHydratingFromServer,
       offerMadeCelebrationNonce,
       activeProjectName,
-      isRenamingProject,
+      activeWriterProjectId,
       isDeletingProject,
       moveCard,
       reorderInColumn,
       togglePrepQueryLetter,
       setFitRating,
-      setProjectName,
       updateCardFields,
       createManualRow,
       removeRowsByIds,
-      renameActiveProject,
       deleteActiveProject,
       setNotes,
       getCardsForColumn,
       findCardById,
       findColumnByCardId,
-      removeCardByIndexId,
-    ]
+      removeCardById,
+    ],
   );
 
   return (
-    <QueryDashContext.Provider value={value}>{children}</QueryDashContext.Provider>
+    <QueryDashContext.Provider value={value}>
+      {children}
+    </QueryDashContext.Provider>
   );
 }
 
@@ -995,7 +970,9 @@ export function useQueryDashContext(): QueryDashContextType {
   const context = useContext(QueryDashContext);
 
   if (!context) {
-    throw new Error("useQueryDashContext must be used within QueryDashProvider");
+    throw new Error(
+      "useQueryDashContext must be used within QueryDashProvider",
+    );
   }
 
   return context;

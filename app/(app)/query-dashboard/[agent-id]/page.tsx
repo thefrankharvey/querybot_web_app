@@ -27,8 +27,19 @@ interface QueryDashAgentProfileProps {
 const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
   const unwrappedParams = React.use(params);
   const agentId = unwrappedParams["agent-id"];
-  const { data, isLoading, error } = useFetchAgent(agentId);
-  const { agentsList, removeAgent } = useProfileContext();
+  const {
+    agentsList,
+    isLoading: isSavedAgentsLoading,
+    removeAgent,
+  } = useProfileContext();
+  const exactRecord = agentsList?.find((match) => match.id === agentId);
+  const legacyRecords =
+    agentsList?.filter((match) => match.index_id === agentId) ?? [];
+  const agentMatch =
+    exactRecord ?? (legacyRecords.length === 1 ? legacyRecords[0] : undefined);
+  const { data, isLoading, error } = useFetchAgent(
+    agentMatch?.index_id ?? null,
+  );
   const router = useRouter();
 
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
@@ -39,26 +50,27 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
 
         // Get remaining agents after deletion
         const remainingAgents = agentsList?.filter(
-          (agent) => agent.index_id !== deletedAgentId
+          (agent) => agent.id !== deletedAgentId,
         );
 
         // Route based on remaining agents
         if (remainingAgents && remainingAgents.length > 0) {
-          router.replace(`/saved-agents/${remainingAgents[0].index_id}`);
+          router.replace(
+            `/query-dashboard/${encodeURIComponent(remainingAgents[0].id)}`,
+          );
         } else {
-          router.replace("/saved-agents");
+          router.replace("/query-dashboard");
         }
       },
     });
 
   const agent = data?.agent;
-  const agentMatch = agentsList?.find((match) => match.index_id === agentId);
 
   const handleDeleteAgentMatch = () => {
-    deleteAgentMatch(agentId);
+    if (agentMatch) deleteAgentMatch(agentMatch.id);
   };
 
-  if (isLoading) {
+  if (isLoading || isSavedAgentsLoading) {
     return (
       <div className="flex items-center justify-center min-h-[400px]">
         <Spinner className="size-16" />
@@ -66,7 +78,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
     );
   }
 
-  if (error || !agent) {
+  if (error || !agent || !agentMatch) {
     return (
       <div>
         <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
@@ -103,7 +115,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
         <Button
           className="text-sm"
           onClick={handleDeleteAgentMatch}
-          disabled={isDeleting}
+          disabled={isDeleting || !agentMatch}
         >
           <div className="flex items-center gap-2">
             {isDeleting && <Spinner className="text-white" />}
@@ -140,10 +152,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
             <label className="text-lg font-semibold">Genres:</label>
             <div className="flex flex-wrap gap-1">
               {formatGenres(agent.genres || "").map((genre: string) => (
-                <div
-                  key={genre}
-                  className="surface-tag px-2 py-1 text-sm"
-                >
+                <div key={genre} className="surface-tag px-2 py-1 text-sm">
                   {genre}
                 </div>
               ))}
@@ -162,8 +171,8 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
             <p className="text-base leading-relaxed text-accent/78">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
-                  formatDisplayString(agent.extra_interest)
-                )
+                    formatDisplayString(agent.extra_interest),
+                  )
                 : "Info Unavailable"}
             </p>
           </div>
@@ -200,8 +209,8 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
             </p>
           </div>
         </div>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 };
 

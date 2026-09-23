@@ -1,132 +1,57 @@
-import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { createServerSupabase } from "../../supabase/server";
+import { NextResponse } from "next/server";
+import { createServerSupabase } from "@/app/api/supabase/server";
 import { AGENT_MATCHES_TABLE } from "@/app/constants";
+import * as records from "@/app/api/agent-match-records/[id]/route";
 
-const PATCH_FIELDS = [
-  "name",
-  "email",
-  "agency_url",
-  "query_tracker",
-  "pub_marketplace",
-  "fit_rating",
-  "column_name",
-  "updated_date",
-  "query_sent_date",
-  "pages_requested_date",
-  "rejected_date",
-  "offer_date",
-  "notes",
-  "query_letter_ready",
-  "project_name",
-] as const;
-
-type PatchField = (typeof PATCH_FIELDS)[number];
-type PatchPayload = Partial<Record<PatchField, unknown>>;
-
-function sanitizePatchPayload(payload: unknown): PatchPayload | null {
-  if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
-    return null;
-  }
-
-  const source = payload as Record<string, unknown>;
-  const sanitized: PatchPayload = {};
-
-  for (const field of PATCH_FIELDS) {
-    if (field in source) {
-      sanitized[field] = source[field];
-    }
-  }
-
-  return sanitized;
-}
-
-export async function DELETE(
-  _req: Request,
-  { params }: { params: Promise<{ id: string }> },
-) {
-  const { userId } = await auth();
-
-  if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const { id } = await params;
-  const supabase = createServerSupabase();
-  const { error } = await supabase
-    .from(AGENT_MATCHES_TABLE)
-    .delete()
-    .eq("index_id", id)
-    .eq("user_id", userId);
-
-  if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  return NextResponse.json({ ok: true });
-}
-
-export async function GET(
-  _req: Request,
-  { params }: { params: Promise<{ id: string }> },
-) {
-  const { userId } = await auth();
-
-  if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const { id } = await params;
-  const supabase = createServerSupabase();
-  const { data, error } = await supabase
-    .from(AGENT_MATCHES_TABLE)
-    .select("*")
-    .eq("index_id", id)
-    .eq("user_id", userId);
-
-  if (error)
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  return NextResponse.json({ agent_match: data?.[0] });
-}
-
-export async function PATCH(
+type Context = { params: Promise<{ id: string }> };
+// Legacy agent-ID requests remain valid only when they identify one saved row.
+async function forward(
   req: Request,
-  { params }: { params: Promise<{ id: string }> },
+  context: Context,
+  method: "GET" | "PATCH" | "DELETE",
 ) {
   const { userId } = await auth();
-
-  if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const { id } = await params;
-  const body = await req.json();
-  const updatePayload = sanitizePatchPayload(body);
-
-  if (!updatePayload) {
+  const headers = { "Cache-Control": "private, no-store", Deprecation: "true" };
+  if (!userId)
     return NextResponse.json(
-      { error: "Invalid payload: expected an object" },
-      { status: 400 },
+      { error: "Unauthorized" },
+      { status: 401, headers },
     );
-  }
-
-  if (Object.keys(updatePayload).length === 0) {
-    return NextResponse.json(
-      { error: "At least one updatable field is required" },
-      { status: 400 },
-    );
-  }
-
-  const supabase = createServerSupabase();
-  const { data, error } = await supabase
+  const { id } = await context.params;
+  const { data, error } = await createServerSupabase()
     .from(AGENT_MATCHES_TABLE)
-    .update(updatePayload)
+    .select("id")
     .eq("index_id", id)
     .eq("user_id", userId)
-    .select("*")
-    .single();
-
-  if (error) {
-    return NextResponse.json({ error: error.message }, { status: 400 });
-  }
-
-  return NextResponse.json({ updated: data });
+    .limit(2);
+  if (error)
+    return NextResponse.json(
+      { error: "Unable to load saved agent" },
+      { status: 500, headers },
+    );
+  if (!data?.length)
+    return NextResponse.json(
+      { error: "Saved agent not found" },
+      { status: 404, headers },
+    );
+  if (data.length !== 1)
+    return NextResponse.json(
+      { error: "Use a saved record ID to select a project" },
+      { status: 409, headers },
+    );
+  const response = await records[method](req, {
+    params: Promise.resolve({ id: String(data[0].id) }),
+  });
+  response.headers.set("Deprecation", "true");
+  return response;
+}
+export async function GET(req: Request, context: Context) {
+  return forward(req, context, "GET");
+}
+export async function PATCH(req: Request, context: Context) {
+  return forward(req, context, "PATCH");
+}
+export async function DELETE(req: Request, context: Context) {
+  return forward(req, context, "DELETE");
 }

@@ -58,7 +58,7 @@ export default function ProjectDashboardOverview({
 
       <div className="grid w-full grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
         {projectSummaries.map((summary) => (
-          <ProjectDashboardCard key={summary.projectName} summary={summary} />
+          <ProjectDashboardCard key={summary.href} summary={summary} />
         ))}
       </div>
     </section>
@@ -114,7 +114,10 @@ function ProjectDashboardCard({
           </span>
         </div>
 
-        <div className="flex flex-wrap gap-1.5" aria-label="Project status counts">
+        <div
+          className="flex flex-wrap gap-1.5"
+          aria-label="Project status counts"
+        >
           {visibleStatuses.map((status) => (
             <span
               key={status.id}
@@ -132,7 +135,9 @@ function ProjectDashboardCard({
 
 function formatActivityDate(value: string | null) {
   const parsedDate = parseDisplayDate(value);
-  return parsedDate ? ACTIVITY_DATE_FORMATTER.format(parsedDate) : "Date unavailable";
+  return parsedDate
+    ? ACTIVITY_DATE_FORMATTER.format(parsedDate)
+    : "Date unavailable";
 }
 
 function parseDisplayDate(value: string | null) {

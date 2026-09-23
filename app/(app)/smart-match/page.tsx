@@ -3,11 +3,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { ScanSearch } from "lucide-react";
+import { toast } from "sonner";
 import { Button } from "@/app/ui-primitives/button";
-import {
-  useAgentMatches,
-  FormData,
-} from "../context/agent-matches-context";
+import { useAgentMatches, FormData } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
 import { validateQuery, formatComps } from "@/app/utils";
@@ -24,7 +22,13 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import TooltipComponent from "@/app/components/tooltip";
+import {
+  getProjectNamesFromAgentMatches,
+  getWriterProjectIdForProjectName,
+} from "@/app/utils/project-dashboard-summary";
+import type { RestoredSmartMatchForm } from "@/app/utils/smart-match-restore";
+import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
 import { AgentSearchProgress } from "../components/agent-search-progress";
 import { PreviousAgentMatchesButton } from "../components/previous-agent-matches-button";
 
@@ -48,12 +52,39 @@ export type FormState = {
   non_fiction: boolean;
 };
 
+type PreviousSearchResponse = {
+  error?: string;
+  form?: RestoredSmartMatchForm;
+  writer_project_id?: string | null;
+};
+
+type RestoredProjectReference = {
+  projectName: string;
+  writerProjectId: string;
+};
+
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
+  const { createOrSelectTrait, traitOptions, traitsError } =
+    useSmartMatchTraits();
   const { agentsList } = useProfileContext();
-  const { saveMatches, saveFormData, saveNextCursor, saveStatusFilter, saveCountryFilter, handleAgentExportResponse, resetForNewSearch, saveTotalAgents, saveProjectName } =
-    useAgentMatches();
+  const {
+    saveMatches,
+    saveFormData,
+    saveNextCursor,
+    handleAgentExportResponse,
+    saveStatusFilter,
+    saveCountryFilter,
+    resetForNewSearch,
+    saveTotalAgents,
+    saveProjectName,
+    saveWriterProjectId,
+  } = useAgentMatches();
   const [apiMessage, setApiMessage] = useState("");
+  const [isRestoringPreviousSearch, setIsRestoringPreviousSearch] =
+    useState(false);
+  const [restoredProjectReference, setRestoredProjectReference] =
+    useState<RestoredProjectReference | null>(null);
   const [activeWalkthroughStep, setActiveWalkthroughStep] =
     useState<SmartMatchWalkthroughStepId | null>(null);
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
@@ -71,7 +102,7 @@ const SmartMatch = () => {
   });
   const projectNames = useMemo(
     () => getProjectNamesFromAgentMatches(agentsList),
-    [agentsList]
+    [agentsList],
   );
 
   const resolveSubmittedProjectName = (projectName: string) => {
@@ -81,10 +112,15 @@ const SmartMatch = () => {
     return (
       projectNames.find(
         (name) =>
-          name.toLocaleLowerCase() ===
-          trimmedProjectName.toLocaleLowerCase()
+          name.toLocaleLowerCase() === trimmedProjectName.toLocaleLowerCase(),
       ) ?? trimmedProjectName
     );
+  };
+
+  const getWriterProjectIdFromResponse = (data: unknown) => {
+    if (!data || typeof data !== "object") return null;
+    const value = (data as { writer_project_id?: unknown }).writer_project_id;
+    return typeof value === "string" && value.trim() ? value.trim() : null;
   };
 
   const queryMutation = useMutation({
@@ -110,13 +146,25 @@ const SmartMatch = () => {
       return getAgentsData;
     },
 
-    onSuccess: (data) => {
-      const totalAgents = typeof data.total_agents === "number" ? data.total_agents : typeof data.total_available === "number" ? data.total_available : null;
+    onSuccess: (data, submittedFormData) => {
+      const totalAgents =
+        typeof data.total_agents === "number"
+          ? data.total_agents
+          : typeof data.total_available === "number"
+            ? data.total_available
+            : null;
       saveTotalAgents(totalAgents);
+      const returnedWriterProjectId = getWriterProjectIdFromResponse(data);
 
-      if (isSubscribed) {
-        handleAgentExportResponse(data);
+      if (returnedWriterProjectId) {
+        saveWriterProjectId(returnedWriterProjectId);
+        saveFormData({
+          ...submittedFormData,
+          writer_project_id: returnedWriterProjectId,
+        });
       }
+
+      if (isSubscribed) handleAgentExportResponse(data);
 
       if (data.matches.length > 0) {
         saveMatches(data.matches);
@@ -134,11 +182,75 @@ const SmartMatch = () => {
     router.push("/agent-matches");
   };
 
+  const handleRestorePreviousSearch = async () => {
+    if (!isSubscribed || isRestoringPreviousSearch) return;
+
+    setIsRestoringPreviousSearch(true);
+    setApiMessage("");
+
+    try {
+      const response = await fetch("/api/smart-match/previous-search", {
+        cache: "no-store",
+      });
+      const data = (await response
+        .json()
+        .catch(() => null)) as PreviousSearchResponse | null;
+
+      if (response.status === 404) {
+        toast.info("No previous Smart Match search found.");
+        return;
+      }
+
+      if (response.status === 403) {
+        toast.error("Subscribe for access");
+        return;
+      }
+
+      if (!response.ok || !data?.form) {
+        throw new Error(
+          data?.error || "Unable to restore the previous Smart Match search",
+        );
+      }
+
+      setForm(data.form);
+      const restoredWriterProjectId = data.writer_project_id?.trim();
+      setRestoredProjectReference(
+        restoredWriterProjectId
+          ? {
+              projectName: data.form.project_name,
+              writerProjectId: restoredWriterProjectId,
+            }
+          : null,
+      );
+      toast.success("Previous Smart Match search restored.");
+
+      window.requestAnimationFrame(() => {
+        document.getElementById("smart-match-form")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+    } catch (error) {
+      console.error("[smart-match-restore] Client restore failed", error);
+      toast.error("Unable to restore the previous Smart Match search.");
+    } finally {
+      setIsRestoringPreviousSearch(false);
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await resetForNewSearch();
 
     const submittedProjectName = resolveSubmittedProjectName(form.project_name);
+    const restoredWriterProjectId =
+      restoredProjectReference &&
+      restoredProjectReference.projectName.trim().toLocaleLowerCase() ===
+        submittedProjectName.trim().toLocaleLowerCase()
+        ? restoredProjectReference.writerProjectId
+        : null;
+    const submittedWriterProjectId =
+      restoredWriterProjectId ??
+      getWriterProjectIdForProjectName(agentsList, submittedProjectName);
 
     if (!submittedProjectName) {
       setApiMessage("Project name required");
@@ -149,6 +261,8 @@ const SmartMatch = () => {
 
     const payload = {
       email: user?.primaryEmailAddress?.emailAddress || "",
+      writer_project_id: submittedWriterProjectId,
+      project_name: submittedProjectName,
       genre: form.genre,
       subgenres: form.subgenres,
       format: form.format,
@@ -166,7 +280,9 @@ const SmartMatch = () => {
       return;
     }
 
+    await resetForNewSearch();
     saveProjectName(submittedProjectName);
+    saveWriterProjectId(submittedWriterProjectId);
     saveFormData(payload);
     saveStatusFilter("all");
     saveCountryFilter("all");
@@ -203,7 +319,6 @@ const SmartMatch = () => {
 
   return (
     <div className="ambient-page pb-48 pt-6 px-4 md:px-6 md:pb-48 md:pt-4">
-
       {(queryMutation.isPending || queryMutation.isSuccess) && (
         <AgentSearchProgress
           isSuccess={queryMutation.isSuccess}
@@ -218,10 +333,10 @@ const SmartMatch = () => {
                 <ScanSearch className="w-10 h-10" />
                 Smart Match
               </h1>
-              <h2 className="mb-2 text-base font-semibold text-accent">
+              <h2 className="mb-2 text-sm font-semibold text-accent">
                 How to get the best results:
               </h2>
-              <p className="page-subtitle max-w-none">
+              <p className="page-subtitle max-w-none text-sm">
                 Fill this out this form as completely as possible. The more
                 specific and complete your entries are the better your agent
                 matches will be.
@@ -230,11 +345,46 @@ const SmartMatch = () => {
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
+                {!isSubscribed ? (
+                  <TooltipComponent
+                    asChild
+                    className="inline-block w-full md:w-fit"
+                    content="Subscribe for access"
+                    contentClass="text-center"
+                  >
+                    <span tabIndex={0}>
+                      <Button
+                        className="w-full md:w-fit"
+                        disabled
+                        type="button"
+                      >
+                        Restore previous search
+                      </Button>
+                    </span>
+                  </TooltipComponent>
+                ) : (
+                  <Button
+                    className="w-full md:w-fit"
+                    disabled={isRestoringPreviousSearch}
+                    onClick={handleRestorePreviousSearch}
+                    type="button"
+                  >
+                    {isRestoringPreviousSearch ? (
+                      <Spinner
+                        className="text-current"
+                        data-icon="inline-start"
+                      />
+                    ) : null}
+                    {isRestoringPreviousSearch
+                      ? "Restoring..."
+                      : "Restore previous search"}
+                  </Button>
+                )}
                 <PreviousAgentMatchesButton className="w-full md:w-fit" />
               </div>
             </div>
           </div>
-          <form onSubmit={handleSubmit}>
+          <form id="smart-match-form" onSubmit={handleSubmit}>
             <div className="glass-panel-strong mx-auto flex w-full max-w-[700px] flex-col items-center gap-8 p-4 py-12 md:p-12">
               <FictionButtonToggle form={form} setForm={setForm} />
               <ProjectName
@@ -243,16 +393,39 @@ const SmartMatch = () => {
                 projectNames={projectNames}
               />
               <Genre
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
                 isWalkthroughGenreDropdownOpen={
                   activeWalkthroughStep === "genre-dropdown"
                 }
+                options={traitOptions.genre}
                 setForm={setForm}
               />
-              <Subgenres setForm={setForm} />
-              <Format setForm={setForm} />
+              <Subgenres
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.subgenre}
+                setForm={setForm}
+              />
+              <Format
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.format}
+                setForm={setForm}
+              />
               <TargetAudience form={form} setForm={setForm} />
-              <Themes setForm={setForm} />
+              <Themes
+                createOrSelectTrait={createOrSelectTrait}
+                form={form}
+                options={traitOptions.theme}
+                setForm={setForm}
+              />
               <Comps form={form} setForm={setForm} />
+              {traitsError && (
+                <div className="w-full text-sm font-medium text-red-500">
+                  {traitsError}
+                </div>
+              )}
               {apiMessage && (
                 <div className="w-full text-base font-semibold text-red-500">
                   {apiMessage}

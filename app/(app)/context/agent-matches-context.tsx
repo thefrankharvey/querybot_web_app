@@ -16,7 +16,10 @@ import {
 } from "@tanstack/react-query";
 import { toast } from "sonner";
 
-import { startSheetPolling, stopSheetPolling } from "../workers/sheet-worker-manager";
+import {
+  startSheetPolling,
+  stopSheetPolling,
+} from "../workers/sheet-worker-manager";
 import {
   type AgentExportApiResponse,
   getAgentExportDownloadUrl,
@@ -71,10 +74,12 @@ export interface AgentMatch {
   location?: {
     country_code: string;
     state_province: string;
-  }
+  };
 }
 
 export interface FormData {
+  writer_project_id?: string | null;
+  project_name?: string;
   email: string;
   genre: string;
   subgenres: string[];
@@ -96,6 +101,7 @@ const QUERY_KEYS = {
   statusFilter: ["statusFilter"] as const,
   countryFilter: ["countryFilter"] as const,
   projectName: ["projectName"] as const,
+  writerProjectId: ["writerProjectId"] as const,
 };
 
 const STORAGE_KEYS = {
@@ -108,10 +114,13 @@ const STORAGE_KEYS = {
   statusFilter: "status_filter",
   countryFilter: "country_filter",
   projectName: "project_name",
+  writerProjectId: "writer_project_id",
 };
 
 function canUseStorage() {
-  return typeof window !== "undefined" && typeof window.localStorage !== "undefined";
+  return (
+    typeof window !== "undefined" && typeof window.localStorage !== "undefined"
+  );
 }
 
 function readJSON<T>(key: string): T | null {
@@ -135,16 +144,12 @@ function removeKey(key: string) {
   window.localStorage.removeItem(key);
 }
 
-export type SheetStatus =
-  | "creating"
-  | "failed"
-  | "idle"
-  | "ready"
-  | "timeout";
+export type SheetStatus = "creating" | "failed" | "idle" | "ready" | "timeout";
 
 export type PreviousSearchStatus = "idle" | "pending" | "success";
 
 interface AgentSearchApiResponse extends AgentExportApiResponse {
+  writer_project_id?: string | null;
   matches?: AgentMatch[];
   next_cursor?: number | null;
   total_agents?: number;
@@ -222,6 +227,22 @@ const useAgentData = () => {
     initialData: () => readJSON<string>(STORAGE_KEYS.projectName) ?? "",
   });
 
+  const { data: writerProjectId = null } = useQuery({
+    queryKey: QUERY_KEYS.writerProjectId,
+    queryFn: async (): Promise<string | null> =>
+      readJSON<string>(STORAGE_KEYS.writerProjectId),
+    initialData: () => readJSON<string>(STORAGE_KEYS.writerProjectId),
+  });
+  const saveWriterProjectId = useCallback(
+    (id: string | null) => {
+      const value = id?.trim() || null;
+      if (value) writeJSON(STORAGE_KEYS.writerProjectId, value);
+      else removeKey(STORAGE_KEYS.writerProjectId);
+      queryClient.setQueryData(QUERY_KEYS.writerProjectId, value);
+    },
+    [queryClient],
+  );
+
   const saveMatchesMutation = useMutation({
     mutationFn: async (newMatches: AgentMatch[]) => {
       writeJSON(STORAGE_KEYS.agentMatches, newMatches);
@@ -229,7 +250,10 @@ const useAgentData = () => {
     },
     onMutate: async (newMatches) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.agentMatches });
-      queryClient.setQueryData<AgentMatch[]>(QUERY_KEYS.agentMatches, newMatches);
+      queryClient.setQueryData<AgentMatch[]>(
+        QUERY_KEYS.agentMatches,
+        newMatches,
+      );
     },
   });
 
@@ -251,7 +275,10 @@ const useAgentData = () => {
     },
     onMutate: async (count) => {
       await queryClient.cancelQueries({ queryKey: QUERY_KEYS.nextCursorCount });
-      queryClient.setQueryData<number | null>(QUERY_KEYS.nextCursorCount, count);
+      queryClient.setQueryData<number | null>(
+        QUERY_KEYS.nextCursorCount,
+        count,
+      );
     },
   });
 
@@ -323,7 +350,7 @@ const useAgentData = () => {
       writeJSON(STORAGE_KEYS.projectName, name);
       queryClient.setQueryData<string>(QUERY_KEYS.projectName, name);
     },
-    [queryClient]
+    [queryClient],
   );
 
   const renameSavedProjectName = useCallback(
@@ -332,14 +359,17 @@ const useAgentData = () => {
         readJSON<string>(STORAGE_KEYS.projectName) ?? projectName;
       const normalizedStoredProjectName = storedProjectName.trim();
 
-      if (!normalizedStoredProjectName || normalizedStoredProjectName !== oldName) {
+      if (
+        !normalizedStoredProjectName ||
+        normalizedStoredProjectName !== oldName
+      ) {
         return false;
       }
 
       saveProjectName(newName);
       return true;
     },
-    [projectName, saveProjectName]
+    [projectName, saveProjectName],
   );
 
   const beginSpreadsheetExport = () => {
@@ -445,6 +475,7 @@ const useAgentData = () => {
     removeKey(STORAGE_KEYS.totalAgents);
     removeKey(STORAGE_KEYS.spreadsheetUrl);
     removeKey(STORAGE_KEYS.projectName);
+    saveWriterProjectId(null);
     // keep or clear formData depending on your UX:
     // removeKey(STORAGE_KEYS.formData);
 
@@ -513,7 +544,15 @@ const useAgentData = () => {
 
       await resetForNewSearch();
 
-      saveFormDataMutation.mutate(formData);
+      const refreshedProjectId =
+        data.writer_project_id?.trim() ||
+        formData.writer_project_id ||
+        writerProjectId;
+      saveWriterProjectId(refreshedProjectId);
+      saveFormDataMutation.mutate({
+        ...formData,
+        writer_project_id: refreshedProjectId,
+      });
       saveMatchesMutation.mutate(data.matches);
       saveTotalAgentsMutation.mutate(totalAgents);
       saveStatusFilterMutation.mutate("all");
@@ -537,12 +576,12 @@ const useAgentData = () => {
       console.error(error);
       setPreviousSearchStatus("idle");
       toast.error("Could not refresh agent matches", {
-        description: "Your previous results are still available. Please try again.",
+        description:
+          "Your previous results are still available. Please try again.",
       });
       return false;
     }
   };
-
 
   return {
     matches,
@@ -554,6 +593,8 @@ const useAgentData = () => {
     statusFilter,
     countryFilter,
     projectName,
+    writerProjectId,
+    saveWriterProjectId,
     sheetTaskId,
     isLoading,
 
@@ -564,10 +605,14 @@ const useAgentData = () => {
     saveMatches: (data: AgentMatch[]) => saveMatchesMutation.mutate(data),
     saveFormData: (data: FormData) => saveFormDataMutation.mutate(data),
     saveNextCursor: (count: number) => saveNextCursorMutation.mutate(count),
-    saveCurrentCursor: (cursor: number) => saveCurrentCursorMutation.mutate(cursor),
-    saveTotalAgents: (count: number | null) => saveTotalAgentsMutation.mutate(count),
-    saveStatusFilter: (status: string) => saveStatusFilterMutation.mutate(status),
-    saveCountryFilter: (country: string) => saveCountryFilterMutation.mutate(country),
+    saveCurrentCursor: (cursor: number) =>
+      saveCurrentCursorMutation.mutate(cursor),
+    saveTotalAgents: (count: number | null) =>
+      saveTotalAgentsMutation.mutate(count),
+    saveStatusFilter: (status: string) =>
+      saveStatusFilterMutation.mutate(status),
+    saveCountryFilter: (country: string) =>
+      saveCountryFilterMutation.mutate(country),
     saveProjectName,
     renameSavedProjectName,
     saveSheetTaskId: (taskId: string | null) => setSheetTaskId(taskId),
@@ -592,6 +637,8 @@ interface MatchesContextType {
   statusFilter: string;
   countryFilter: string;
   projectName: string;
+  writerProjectId: string | null;
+  saveWriterProjectId: (id: string | null) => void;
   sheetTaskId: string | null;
   isLoading: boolean;
 
@@ -626,7 +673,11 @@ interface MatchesContextType {
 
 export const MatchesContext = createContext<MatchesContextType | null>(null);
 
-export function AgentMatchesProvider({ children }: { children: React.ReactNode }) {
+export function AgentMatchesProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const [client] = React.useState(
     () =>
       new QueryClient({
@@ -636,7 +687,7 @@ export function AgentMatchesProvider({ children }: { children: React.ReactNode }
             gcTime: 1000 * 60 * 30, // 30 minutes
           },
         },
-      })
+      }),
   );
 
   return (
@@ -646,7 +697,11 @@ export function AgentMatchesProvider({ children }: { children: React.ReactNode }
   );
 }
 
-function AgentMatchesContextProvider({ children }: { children: React.ReactNode }) {
+function AgentMatchesContextProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const data = useAgentData();
 
   const value = useMemo<MatchesContextType>(
@@ -660,6 +715,8 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       statusFilter: data.statusFilter,
       countryFilter: data.countryFilter,
       projectName: data.projectName,
+      writerProjectId: data.writerProjectId,
+      saveWriterProjectId: data.saveWriterProjectId,
       sheetTaskId: data.sheetTaskId,
       isLoading: data.isLoading,
 
@@ -698,6 +755,8 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.statusFilter,
       data.countryFilter,
       data.projectName,
+      data.writerProjectId,
+      data.saveWriterProjectId,
       data.sheetTaskId,
       data.isLoading,
       data.sheetStatus,
@@ -722,14 +781,19 @@ function AgentMatchesContextProvider({ children }: { children: React.ReactNode }
       data.resetForNewSearch,
       data.refreshPreviousAgentMatches,
       data.completePreviousSearchRefresh,
-    ]
+    ],
   );
 
-  return <MatchesContext.Provider value={value}>{children}</MatchesContext.Provider>;
+  return (
+    <MatchesContext.Provider value={value}>{children}</MatchesContext.Provider>
+  );
 }
 
 export function useAgentMatches(): MatchesContextType {
   const context = useContext(MatchesContext);
-  if (!context) throw new Error("useAgentMatches must be used within an AgentMatchesProvider");
+  if (!context)
+    throw new Error(
+      "useAgentMatches must be used within an AgentMatchesProvider",
+    );
   return context;
 }

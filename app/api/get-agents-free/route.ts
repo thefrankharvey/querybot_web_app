@@ -5,6 +5,8 @@ import { getWqhApiEndpoint } from "@/lib/config";
 // Define the structure of the payload
 export interface GetAgentsFreePayload {
   email: string;
+  project_name?: string;
+  writer_project_id?: string | null;
   genre?: string;
   subgenres?: string[];
   target_audience?: string;
@@ -38,6 +40,14 @@ export async function POST(req: NextRequest) {
 
     const payload: GetAgentsFreePayload = {
       email: jsonData.email || "",
+      project_name:
+        typeof jsonData.project_name === "string"
+          ? jsonData.project_name
+          : undefined,
+      writer_project_id:
+        typeof jsonData.writer_project_id === "string"
+          ? jsonData.writer_project_id
+          : undefined,
       genre: jsonData.genre,
       subgenres: Array.isArray(jsonData.subgenres)
         ? jsonData.subgenres

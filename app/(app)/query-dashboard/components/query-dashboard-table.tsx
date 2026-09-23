@@ -13,7 +13,6 @@ import {
 import { Download, ExternalLink, Plus, Trash2 } from "lucide-react";
 import { toast } from "sonner";
 
-import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import {
   FIT_RATING_CONFIG,
   FitRatingBadge,
@@ -113,14 +112,6 @@ function getFallbackDate(card: KanbanCardData, columnId: string) {
   return card.columnId === columnId ? parseDateOnly(card.updated_date) : "";
 }
 
-function getAgentResultPath(index: number) {
-  return `/agent-matches/${index}`;
-}
-
-function getWqhProfileExportUrl(index: number) {
-  return `${WQH_PROFILE_LINK_BASE_URL}${getAgentResultPath(index)}`;
-}
-
 function getWqhProfileHref(value: string) {
   const trimmedValue = value.trim();
   if (!trimmedValue) return "";
@@ -132,10 +123,7 @@ function getWqhProfileHref(value: string) {
   return trimmedValue.startsWith("/") ? trimmedValue : "";
 }
 
-function mapCardToRow(
-  card: KanbanCardData,
-  wqhProfileLinkByIndexId: ReadonlyMap<string, string>,
-): DashboardTableRow {
+function mapCardToRow(card: KanbanCardData): DashboardTableRow {
   const indexId = card.index_id ?? null;
 
   return {
@@ -146,9 +134,10 @@ function mapCardToRow(
     name: card.name ?? "",
     fitRating: card.fitRating,
     agency_url: card.agency_url ?? "",
-    wqh_profile_link: indexId
-      ? (wqhProfileLinkByIndexId.get(indexId) ?? "")
-      : "",
+    wqh_profile_link:
+      indexId && !indexId.startsWith("manual:")
+        ? `${WQH_PROFILE_LINK_BASE_URL}/query-dashboard/${encodeURIComponent(card.id)}`
+        : "",
     query_tracker: card.query_tracker ?? "",
     pub_marketplace: card.pub_marketplace ?? "",
     email: card.email ?? "",
@@ -224,9 +213,7 @@ function buildCardUpdate(
     return fitRating === previousRow.fitRating ? null : { fitRating };
   }
 
-  if (
-    PICKER_ONLY_DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)
-  ) {
+  if (PICKER_ONLY_DATE_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow)) {
     const key = columnKey as
       | "query_sent_date"
       | "pages_requested_date"
@@ -379,7 +366,6 @@ function FitRatingEditor({
 }
 
 export function QueryDashboardTable() {
-  const { matches } = useAgentMatches();
   const {
     activeProjectName,
     createManualRow,
@@ -400,24 +386,9 @@ export function QueryDashboardTable() {
   const [pendingFocusRowId, setPendingFocusRowId] = useState<string | null>(
     null,
   );
-  const wqhProfileLinkByIndexId = useMemo(() => {
-    const linkByIndexId = new Map<string, string>();
-
-    matches.forEach((agent, index) => {
-      const indexId = agent.agent_id?.trim();
-      if (indexId && !linkByIndexId.has(indexId)) {
-        linkByIndexId.set(indexId, getWqhProfileExportUrl(index));
-      }
-    });
-
-    return linkByIndexId;
-  }, [matches]);
   const persistedRows = useMemo(
-    () =>
-      visibleCards.map((card) =>
-        mapCardToRow(card, wqhProfileLinkByIndexId),
-      ),
-    [visibleCards, wqhProfileLinkByIndexId],
+    () => visibleCards.map((card) => mapCardToRow(card)),
+    [visibleCards],
   );
   const placeholderCount = useMemo(() => {
     const visibleRowCapacity = Math.max(
@@ -839,9 +810,7 @@ export function QueryDashboardTable() {
           }}
           onFill={({ columnKey, sourceRow, targetRow }) =>
             targetRow.isPlaceholder ||
-            READ_ONLY_COLUMN_KEYS.has(
-              columnKey as keyof DashboardTableRow,
-            ) ||
+            READ_ONLY_COLUMN_KEYS.has(columnKey as keyof DashboardTableRow) ||
             PICKER_ONLY_DATE_COLUMN_KEYS.has(
               columnKey as keyof DashboardTableRow,
             )

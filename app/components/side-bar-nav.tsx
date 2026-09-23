@@ -5,12 +5,18 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { cn } from "@/app/utils";
 import { useProfileContext } from "@/app/(app)/context/profile-context";
-import { ScanSearch, Newspaper, NotebookPen, Home, FolderOpen } from "lucide-react";
+import {
+  ScanSearch,
+  Newspaper,
+  NotebookPen,
+  Home,
+  FolderOpen,
+} from "lucide-react";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import { SignOutButton } from "@clerk/nextjs";
 import { BrandLockup } from "./brand-lockup";
 import { Separator } from "@/app/ui-primitives/separator";
-import { getProjectNamesFromAgentMatches } from "@/app/utils/project-dashboard-summary";
+import { getProjectNavigationItemsFromAgentMatches } from "@/app/utils/project-dashboard-summary";
 import {
   Accordion,
   AccordionContent,
@@ -24,8 +30,8 @@ export const SideBarNav = () => {
   const { agentsList } = useProfileContext();
   const { isSubscribed, isLoading: isSubscribedLoading } = useClerkUser();
 
-  const projectNames = useMemo(() => {
-    return getProjectNamesFromAgentMatches(agentsList);
+  const projects = useMemo(() => {
+    return getProjectNavigationItemsFromAgentMatches(agentsList);
   }, [agentsList]);
 
   const activeProject = pathname.includes("query-dashboard")
@@ -33,7 +39,14 @@ export const SideBarNav = () => {
     : null;
 
   return (
-    <div className={cn("hidden h-fit shrink-0 self-start pt-4 md:sticky md:top-0 md:ml-2 md:block", pathname.includes("query-dashboard") ? "mb:[0px]" : "md:w-[230px] mb-88")}>
+    <div
+      className={cn(
+        "hidden h-fit shrink-0 self-start pt-4 md:sticky md:top-0 md:ml-2 md:block",
+        pathname.includes("query-dashboard")
+          ? "mb:[0px]"
+          : "md:w-[230px] mb-88",
+      )}
+    >
       <BrandLockup
         stacked={true}
         className="rounded-[28px] border border-white/75 bg-white/55 px-5 py-5 shadow-[0_20px_50px_rgba(24,44,69,0.08)] backdrop-blur-sm"
@@ -55,7 +68,7 @@ export const SideBarNav = () => {
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("home")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <Home className="w-4 h-4" />
@@ -69,7 +82,7 @@ export const SideBarNav = () => {
                 pathname.includes("smart-match") ||
                   pathname.includes("agent-matches")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <ScanSearch className="w-4 h-4" />
@@ -83,7 +96,7 @@ export const SideBarNav = () => {
                     "rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent hover:no-underline my-1",
                     pathname.includes("query-dashboard")
                       ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                      : "text-accent/74"
+                      : "text-accent/74",
                   )}
                 >
                   <span className="flex items-center gap-3">
@@ -92,20 +105,22 @@ export const SideBarNav = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="pb-0">
-                  {projectNames.length > 0 ? (
+                  {projects.length > 0 ? (
                     <div className="flex flex-col pl-4">
-                      {projectNames.map((name) => (
+                      {projects.map((project) => (
                         <Link
-                          key={name}
-                          href={`/query-dashboard?project=${encodeURIComponent(name)}`}
+                          key={project.href}
+                          href={project.href}
                           className={cn(
                             "truncate rounded-[20px] px-4 py-2.5 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-0.5",
-                            activeProject === name
+                            pathname === project.href ||
+                              (!project.writerProjectId &&
+                                activeProject === project.projectName)
                               ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                              : "text-accent/74"
+                              : "text-accent/74",
                           )}
                         >
-                          {name}
+                          {project.projectName}
                         </Link>
                       ))}
                     </div>
@@ -125,7 +140,7 @@ export const SideBarNav = () => {
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("dispatch")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <Newspaper className="w-4 h-4" />
@@ -137,7 +152,7 @@ export const SideBarNav = () => {
                 "flex items-center gap-3 rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1",
                 pathname.includes("blog")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               <NotebookPen className="w-4 h-4" />
@@ -150,7 +165,7 @@ export const SideBarNav = () => {
                 "rounded-[20px] px-4 py-3 text-sm font-medium transition-all duration-200 hover:bg-white/70 hover:text-accent my-1 flex w-full",
                 pathname.includes("account")
                   ? "border border-accent/10 bg-white/82 text-accent shadow-[0_12px_28px_rgba(24,44,69,0.06)]"
-                  : "text-accent/74"
+                  : "text-accent/74",
               )}
             >
               Account

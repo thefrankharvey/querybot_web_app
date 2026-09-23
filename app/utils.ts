@@ -11,6 +11,8 @@ export function cn(...inputs: ClassValue[]) {
 // QUERY FORM UTILS ========================================================
 
 export type QueryPayload = {
+  writer_project_id?: string | null;
+  project_name?: string | null;
   email: string;
   genre: string;
   subgenres: string[];
@@ -49,14 +51,20 @@ export const validateQuery = (payload: QueryPayload) => {
   ] as const;
 
   for (const { field, label } of requiredFields) {
-
-   if(field === "themes" && typeof payload[field] === "object" && payload[field].length < 3) {
-    return { error: `Must have at least 3 themes`, isValid: false };
-   }
+    if (
+      field === "themes" &&
+      typeof payload[field] === "object" &&
+      payload[field].length < 3
+    ) {
+      return { error: `Must have at least 3 themes`, isValid: false };
+    }
 
     if (typeof payload[field] === "object" && payload[field].length === 0) {
-      if(field === "comps") {
-        return { error: `At least one comparable title is required`, isValid: false };
+      if (field === "comps") {
+        return {
+          error: `At least one comparable title is required`,
+          isValid: false,
+        };
       } else {
         return { error: `${label} required`, isValid: false };
       }
@@ -101,7 +109,7 @@ export const formatMatchesForCSV = (matches: AgentMatch[]) => {
       const filteredEntries = Object.entries(agent).filter(
         ([key]) =>
           !key.includes("form_") &&
-          !["aala_member", "id", "location", "agent_id"].includes(key)
+          !["aala_member", "id", "location", "agent_id"].includes(key),
       );
       return Object.fromEntries(filteredEntries) as Partial<AgentMatch>;
     })
@@ -137,9 +145,7 @@ export const formatDisplayString = (data: string | undefined | null) => {
   return data.replace(/[|\/\\"']/g, "");
 };
 
-export const capitalizeFirstCharacter = (
-  data: string | undefined | null
-) => {
+export const capitalizeFirstCharacter = (data: string | undefined | null) => {
   if (!data) return data;
   return data.replace(/(\S)/, (match) => match.toUpperCase());
 };
@@ -216,4 +222,3 @@ export const formatGenres = (genres: string) => {
 
   return uniqueResult;
 };
-

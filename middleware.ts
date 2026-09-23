@@ -14,6 +14,7 @@ const protectedRoutePrefixes = [
   "/dispatch",
   "/home",
   "/query-dashboard",
+  "/projects",
   "/saved-agents",
   "/smart-match",
   "/subscribe",
@@ -21,7 +22,7 @@ const protectedRoutePrefixes = [
 
 function isProtectedRoute(pathname: string) {
   return protectedRoutePrefixes.some(
-    (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`)
+    (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
   );
 }
 

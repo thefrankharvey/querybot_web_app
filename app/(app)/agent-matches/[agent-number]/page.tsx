@@ -13,6 +13,7 @@ import {
   AgentMatchesProvider,
   AgentMatch,
 } from "@/app/(app)/context/agent-matches-context";
+import { isSameProjectScope } from "@/app/utils/project-scope";
 import { useAgentMatches } from "@/app/(app)/context/agent-matches-context";
 import TooltipComponent from "@/app/components/tooltip";
 import { Spinner } from "@/app/ui-primitives/spinner";
@@ -35,7 +36,7 @@ const AgentProfile = () => {
   const matchesContext = useAgentMatches();
   const matches = useMemo(
     () => matchesContext?.matches || [],
-    [matchesContext?.matches]
+    [matchesContext?.matches],
   );
   const [agent, setAgent] = useState<AgentMatch | null>(null);
   const [agentIndex, setAgentIndex] = useState<number>(0);
@@ -46,7 +47,7 @@ const AgentProfile = () => {
   useEffect(() => {
     if (matches.length > 0) {
       const foundAgent = matches.find(
-        (data, index) => index === Number(params["agent-number"])
+        (data, index) => index === Number(params["agent-number"]),
       );
       setAgent(foundAgent as AgentMatch | null);
       setAgentIndex(Number(params["agent-number"]));
@@ -61,7 +62,10 @@ const AgentProfile = () => {
     );
   }
 
-  const genreMatches = [...(agent.match_hits?.direct.genres || []), ...(agent.match_hits?.cluster.genres || [])];
+  const genreMatches = [
+    ...(agent.match_hits?.direct.genres || []),
+    ...(agent.match_hits?.cluster.genres || []),
+  ];
   const dedupedGenreMatches = normalizeAndDedup(genreMatches);
   const themeMatches = [
     ...(agent.match_hits?.direct.themes || []),
@@ -69,7 +73,18 @@ const AgentProfile = () => {
   ];
   const dedupedThemeMatches = normalizeAndDedup(themeMatches);
   const savedAgent = agentsList?.find(
-    (savedMatch) => savedMatch.index_id === agent.agent_id
+    (savedMatch) =>
+      savedMatch.index_id === agent.agent_id &&
+      isSameProjectScope(
+        {
+          projectName: savedMatch.project_name,
+          writerProjectId: savedMatch.writer_project_id,
+        },
+        {
+          projectName: matchesContext.projectName,
+          writerProjectId: matchesContext.writerProjectId,
+        },
+      ),
   );
   const isAlreadySaved = Boolean(savedAgent);
   const savedProjectName =
@@ -87,6 +102,7 @@ const AgentProfile = () => {
       pub_marketplace: agent.pubmarketplace || null,
       match_score: agent.normalized_score || null,
       project_name: matchesContext.projectName || null,
+      writer_project_id: matchesContext.writerProjectId,
     };
     await saveAgent(payload);
   };
@@ -103,7 +119,7 @@ const AgentProfile = () => {
         </Link>
         {isAlreadySaved ? (
           <RemoveAgent
-            indexId={savedAgent?.index_id}
+            recordId={savedAgent?.id}
             label="Remove Agent"
             description="This will remove the agent from your saved results."
             buttonClassName="w-auto"
@@ -147,8 +163,7 @@ const AgentProfile = () => {
               </TooltipComponent>
               {isAlreadySaved && (
                 <p className="text-lg font-medium text-accent/72 md:text-right mt-4">
-                  Agent saved to:{" "}
-                  <br />
+                  Agent saved to: <br />
                   <span className="font-semibold text-accent">
                     {savedProjectName}
                   </span>
@@ -156,12 +171,16 @@ const AgentProfile = () => {
               )}
             </div>
           </div>
-          <AgentContactDetails agent={agent} isSubscribed={agentIndex < 6 || isSubscribed} />
+          <AgentContactDetails
+            agent={agent}
+            isSubscribed={agentIndex < 6 || isSubscribed}
+          />
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Matching Genres:</label>
             <div className="flex flex-wrap gap-1">
-              {dedupedGenreMatches && dedupedGenreMatches.length > 0 &&
-                dedupedGenreMatches.map((genre: string) => (
+              {dedupedGenreMatches &&
+                dedupedGenreMatches.length > 0 &&
+                dedupedGenreMatches.map((genre: string) =>
                   formatGenres(genre).map((genre: string) => (
                     <div
                       key={genre}
@@ -169,15 +188,15 @@ const AgentProfile = () => {
                     >
                       {genre}
                     </div>
-                  ))
-                ))
-              }
+                  )),
+                )}
             </div>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">Matching Themes:</label>
             <div className="flex flex-wrap gap-1">
-              {dedupedThemeMatches && dedupedThemeMatches.length > 0 &&
+              {dedupedThemeMatches &&
+                dedupedThemeMatches.length > 0 &&
                 dedupedThemeMatches.map((theme: string) => (
                   <div
                     key={theme}
@@ -185,18 +204,14 @@ const AgentProfile = () => {
                   >
                     {theme}
                   </div>
-                ))
-              }
+                ))}
             </div>
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-lg font-semibold">All Genres:</label>
             <div className="flex flex-wrap gap-1">
               {formatGenres(agent.genres).map((genre: string) => (
-                <div
-                  key={genre}
-                  className="surface-tag px-2 py-1 text-sm"
-                >
+                <div key={genre} className="surface-tag px-2 py-1 text-sm">
                   {genre}
                 </div>
               ))}
@@ -215,8 +230,8 @@ const AgentProfile = () => {
             <p className="text-base leading-relaxed text-accent/78">
               {agent.extra_interest
                 ? capitalizeFirstCharacter(
-                  formatDisplayString(agent.extra_interest)
-                )
+                    formatDisplayString(agent.extra_interest),
+                  )
                 : "Info Unavailable"}
             </p>
           </div>

@@ -11,7 +11,7 @@ import { useFetchAgentsList } from "@/app/hooks/use-fetch-agents-list";
 import { useQueryClient } from "@tanstack/react-query";
 import { AgentMatch, SaveAgentPayload, SaveAgentResponse } from "@/app/types";
 import { toast } from "sonner";
-import { normalizeProjectName } from "@/app/utils/project-dashboard-summary";
+import { getProjectScope, isSameProjectScope } from "@/app/utils/project-scope";
 
 // Context type definition
 interface ProfileContextType {
@@ -22,10 +22,12 @@ interface ProfileContextType {
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
   removeAgent: (agentId: string) => void;
-  removeProject: (projectName: string) => void;
+  removeProject: (projectName: string, writerProjectId?: string | null) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
-  saveAllAgents: (payloads: SaveAgentPayload[]) => Promise<SaveAgentResponse | null>;
+  saveAllAgents: (
+    payloads: SaveAgentPayload[],
+  ) => Promise<SaveAgentResponse | null>;
   savingAgentId: string | null;
   isSavingAll: boolean;
 }
@@ -33,7 +35,8 @@ interface ProfileContextType {
 const ProfileContext = createContext<ProfileContextType | null>(null);
 
 export function ProfileProvider({ children }: { children: React.ReactNode }) {
-  const { data, isLoading, isFetching, isError, error, refetch } = useFetchAgentsList();
+  const { data, isLoading, isFetching, isError, error, refetch } =
+    useFetchAgentsList();
   const queryClient = useQueryClient();
   const [savingAgentId, setSavingAgentId] = useState<string | null>(null);
   const [isSavingAll, setIsSavingAll] = useState(false);
@@ -44,7 +47,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (hasRunBackfillRef.current || !agentsList?.length) return;
     const needsBackfill = agentsList.some(
-      (a) => !a.project_name || a.project_name.trim() === ""
+      (a) => !a.project_name || a.project_name.trim() === "",
     );
     if (!needsBackfill) return;
     hasRunBackfillRef.current = true;
@@ -68,16 +71,17 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
         return {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
-            (agent) => agent.index_id !== agentId
+            (agent) => agent.id !== agentId,
           ),
         };
-      }
+      },
     );
   };
 
-  const removeProject = (projectName: string) => {
-    const normalizedProjectName = normalizeProjectName(projectName);
-
+  const removeProject = (
+    projectName: string,
+    writerProjectId?: string | null,
+  ) => {
     queryClient.setQueryData(
       ["agent-matches"],
       (oldData: { agent_matches: AgentMatch[] } | undefined) => {
@@ -86,10 +90,16 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
           ...oldData,
           agent_matches: oldData.agent_matches.filter(
             (agent) =>
-              normalizeProjectName(agent.project_name) !== normalizedProjectName
+              !isSameProjectScope(
+                {
+                  projectName: agent.project_name,
+                  writerProjectId: agent.writer_project_id,
+                },
+                { projectName, writerProjectId },
+              ),
           ),
         };
-      }
+      },
     );
   };
 
@@ -102,12 +112,12 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
           ...oldData,
           agent_matches: [agent, ...oldData.agent_matches],
         };
-      }
+      },
     );
   };
 
   const saveAgent = async (
-    payload: SaveAgentPayload
+    payload: SaveAgentPayload,
   ): Promise<SaveAgentResponse | null> => {
     setSavingAgentId(payload.index_id ?? null);
     try {
@@ -137,7 +147,7 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     } catch (error) {
       const errorMessage =
         error instanceof Error &&
-          error.message.includes("duplicate key value violates")
+        error.message.includes("duplicate key value violates")
           ? "Agent already exists in your saved agents"
           : "An error occurred while attempting to save the agent";
 
@@ -153,11 +163,24 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
   };
 
   const saveAllAgents = async (
-    payloads: SaveAgentPayload[]
+    payloads: SaveAgentPayload[],
   ): Promise<SaveAgentResponse | null> => {
     // Filter out agents that are already saved
-    const existingIds = new Set(agentsList?.map((a) => a.index_id) || []);
-    const newAgents = payloads.filter((p) => !existingIds.has(p.index_id));
+    const key = (a: SaveAgentPayload) =>
+      JSON.stringify([
+        a.index_id,
+        getProjectScope({
+          projectName: a.project_name,
+          writerProjectId: a.writer_project_id,
+        }).key,
+      ]);
+    const existingIds = new Set(agentsList?.map(key) || []);
+    const newAgents = payloads.filter((p) => {
+      const identity = key(p);
+      if (existingIds.has(identity)) return false;
+      existingIds.add(identity);
+      return true;
+    });
 
     if (newAgents.length === 0) {
       toast.info("All agents already saved", {
@@ -189,18 +212,22 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
       const skippedCount = payloads.length - newAgents.length;
       const savedCount = newAgents.length;
 
-      toast.success(`${savedCount} agent${savedCount !== 1 ? "s" : ""} saved!`, {
-        description: skippedCount > 0
-          ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved.`
-          : "View your saved agents in your query dashboard!",
-        duration: 3000,
-      });
+      toast.success(
+        `${savedCount} agent${savedCount !== 1 ? "s" : ""} saved!`,
+        {
+          description:
+            skippedCount > 0
+              ? `${skippedCount} agent${skippedCount !== 1 ? "s were" : " was"} already saved.`
+              : "View your saved agents in your query dashboard!",
+          duration: 3000,
+        },
+      );
 
       return result;
     } catch (error) {
       const errorMessage =
         error instanceof Error &&
-          error.message.includes("duplicate key value violates")
+        error.message.includes("duplicate key value violates")
           ? "Some agents already exist in your saved agents"
           : "An error occurred while attempting to save the agents";
 

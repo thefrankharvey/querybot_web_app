@@ -8,9 +8,12 @@ interface UseDeleteAgentMatchOptions {
 export const useDeleteAgentMatch = (options?: UseDeleteAgentMatchOptions) => {
   return useMutation({
     mutationFn: async (agentId: string) => {
-      const response = await fetch(`/api/agent-matches/${agentId}`, {
-        method: "DELETE",
-      });
+      const response = await fetch(
+        `/api/agent-match-records/${encodeURIComponent(agentId)}`,
+        {
+          method: "DELETE",
+        },
+      );
 
       if (!response.ok) {
         throw new Error("Failed to delete agent match");

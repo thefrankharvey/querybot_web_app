@@ -15,11 +15,15 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 
 type ComboboxProps = {
+  contentClassName?: string;
   forceOpen?: boolean;
-  options: { value: string; label: string }[];
+  id?: string;
+  options: { value: string; label: string; keywords?: string[] }[];
   optionTitle: string;
   handleChange: (value: string) => void;
   tourTarget?: string;
+  triggerClassName?: string;
+  value?: string;
 };
 
 export interface ComboboxRef {
@@ -27,15 +31,42 @@ export interface ComboboxRef {
 }
 
 const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
-  ({ forceOpen, options, optionTitle, handleChange, tourTarget }, ref) => {
+  (
+    {
+      contentClassName,
+      forceOpen,
+      id,
+      options,
+      optionTitle,
+      handleChange,
+      tourTarget,
+      triggerClassName,
+      value,
+    },
+    ref,
+  ) => {
     const [open, setOpen] = React.useState(false);
-    const [value, setValue] = React.useState("");
+    const [internalValue, setInternalValue] = React.useState("");
     const isOpen = forceOpen ? true : open;
+    const selectedValue = value ?? internalValue;
+    const selectedOption = options.find(
+      (option) => option.value === selectedValue,
+    );
+
+    const updateValue = React.useCallback(
+      (nextValue: string) => {
+        if (value === undefined) {
+          setInternalValue(nextValue);
+        }
+
+        handleChange(nextValue);
+      },
+      [handleChange, value],
+    );
 
     React.useImperativeHandle(ref, () => ({
       clear: () => {
-        setValue("");
-        handleChange("");
+        updateValue("");
       },
     }));
 
@@ -51,18 +82,24 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
         <PopoverTrigger asChild>
           <Button
             data-tour-target={tourTarget}
+            id={id}
             variant="outline"
             role="combobox"
             aria-expanded={isOpen}
-            className="flex-1 md:w-[555px] justify-between bg-white"
+            className={cn(
+              "flex-1 justify-between bg-white md:w-[555px]",
+              triggerClassName,
+            )}
           >
-            {value
-              ? options.find((option) => option.value === value)?.label
+            {selectedValue
+              ? (selectedOption?.label ?? selectedValue)
               : `Select ${optionTitle}...`}
             <ChevronDownIcon className="size-4 opacity-50" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-[280px] md:w-[555px] p-0">
+        <PopoverContent
+          className={cn("w-[280px] p-0 md:w-[555px]", contentClassName)}
+        >
           <Command>
             <CommandInput
               placeholder={`Search ${optionTitle}...`}
@@ -74,10 +111,12 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
                 {options.map((option) => (
                   <CommandItem
                     key={option.value}
+                    keywords={option.keywords}
                     value={option.value}
                     onSelect={(currentValue) => {
-                      setValue(currentValue === value ? "" : currentValue);
-                      handleChange(currentValue);
+                      updateValue(
+                        currentValue === selectedValue ? "" : currentValue,
+                      );
                       if (!forceOpen) {
                         setOpen(false);
                       }
@@ -87,7 +126,9 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
                     <Check
                       className={cn(
                         "ml-auto",
-                        value === option.value ? "opacity-100" : "opacity-0"
+                        selectedValue === option.value
+                          ? "opacity-100"
+                          : "opacity-0",
                       )}
                     />
                   </CommandItem>
@@ -98,7 +139,7 @@ const Combobox = React.forwardRef<ComboboxRef | null, ComboboxProps>(
         </PopoverContent>
       </Popover>
     );
-  }
+  },
 );
 
 Combobox.displayName = "Combobox";

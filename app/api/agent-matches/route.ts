@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { createServerSupabase } from "../supabase/server";
+import { getProjectScope } from "@/app/utils/project-scope";
 import { AGENT_MATCHES_TABLE } from "@/app/constants";
 
 const CREATE_FIELDS = [
@@ -22,6 +23,7 @@ const CREATE_FIELDS = [
   "notes",
   "query_letter_ready",
   "project_name",
+  "writer_project_id",
 ] as const;
 
 type CreateField = (typeof CREATE_FIELDS)[number];
@@ -83,6 +85,16 @@ export async function POST(req: Request) {
 
     return {
       ...sanitized,
+      project_name: getProjectScope({
+        projectName:
+          typeof sanitized.project_name === "string"
+            ? sanitized.project_name
+            : null,
+      }).projectName,
+      writer_project_id:
+        typeof sanitized.writer_project_id === "string"
+          ? sanitized.writer_project_id.trim() || null
+          : null,
       user_id: userId,
     };
   });

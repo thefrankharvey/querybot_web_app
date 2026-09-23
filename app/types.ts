@@ -162,6 +162,7 @@ export type AgentMatch = {
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
   created_at: string; // ISO timestamp
 };
 
@@ -185,6 +186,7 @@ export interface SaveAgentPayload {
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
 }
 
 // Type for the API response
@@ -210,6 +212,7 @@ export interface SaveAgentResponse {
     notes?: string | null;
     query_letter_ready?: boolean | null;
     project_name?: string | null;
+    writer_project_id?: string | null;
     created_at: string; // ISO timestamp
   }>;
 }
@@ -230,6 +233,7 @@ export interface UpdateAgentPayload {
   notes?: string | null;
   query_letter_ready?: boolean | null;
   project_name?: string | null;
+  writer_project_id?: string | null;
 }
 
 export type FetchAgentResponse = {

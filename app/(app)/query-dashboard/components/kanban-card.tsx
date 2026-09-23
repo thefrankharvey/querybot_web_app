@@ -36,9 +36,19 @@ function parseDateOnly(value: string): Date | null {
 
 function getCalendarDayDiffFromToday(date: Date): number {
   const today = new Date();
-  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-  const targetStart = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-  const diffDays = Math.floor((todayStart.getTime() - targetStart.getTime()) / DAY_MS);
+  const todayStart = new Date(
+    today.getFullYear(),
+    today.getMonth(),
+    today.getDate(),
+  );
+  const targetStart = new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+  );
+  const diffDays = Math.floor(
+    (todayStart.getTime() - targetStart.getTime()) / DAY_MS,
+  );
   return Math.max(0, diffDays);
 }
 
@@ -64,6 +74,7 @@ export interface KanbanCardData {
   prepQueryLetterDone: boolean;
   fitRating: FitRating;
   projectName: string;
+  writerProjectId?: string | null;
   notes: string;
 }
 
@@ -130,8 +141,9 @@ export function KanbanCard({
     isTimingColumn && (milestoneDate || card.updated_date)
       ? parseDateOnly(milestoneDate || card.updated_date || "")
       : null;
-  const daysAgo =
-    parsedUpdatedDate ? getCalendarDayDiffFromToday(parsedUpdatedDate) : null;
+  const daysAgo = parsedUpdatedDate
+    ? getCalendarDayDiffFromToday(parsedUpdatedDate)
+    : null;
   const timingText =
     daysAgo != null
       ? card.columnId === "submitted-query"
@@ -154,7 +166,7 @@ export function KanbanCard({
         <p
           className={cn(
             "truncate text-sm font-semibold capitalize text-accent",
-            isRejected && "line-through"
+            isRejected && "line-through",
           )}
         >
           {card.name}
@@ -176,9 +188,9 @@ export function KanbanCard({
       </div>
       {card.agency && (
         <p
-            className={cn(
+          className={cn(
             "mt-0.5 truncate text-xs text-accent/58",
-            isRejected && "line-through"
+            isRejected && "line-through",
           )}
         >
           {card.agency}
@@ -191,14 +203,23 @@ export function KanbanCard({
           </p>
         </div>
       )}
-      <div className={cn("flex items-center gap-1 mb-4", timingText ? "mt-3" : "mt-4")}>
+      <div
+        className={cn(
+          "flex items-center gap-1 mb-4",
+          timingText ? "mt-3" : "mt-4",
+        )}
+      >
         <label
           htmlFor={`prep-query-${card.id}`}
           className="text-xs font-semibold text-accent cursor-pointer"
         >
           Query Letter Ready
         </label>
-        {card.prepQueryLetterDone ? <CircleCheckBigIcon className="w-4 h-4 text-accent" /> : <Circle className="w-4 h-4 text-accent" />}
+        {card.prepQueryLetterDone ? (
+          <CircleCheckBigIcon className="w-4 h-4 text-accent" />
+        ) : (
+          <Circle className="w-4 h-4 text-accent" />
+        )}
       </div>
 
       {/* Match Score */}
@@ -242,7 +263,7 @@ export function KanbanCard({
       className={cn(
         "glass-panel group rounded-[20px] border border-white/70 p-3 transition-all duration-300 md:max-w-[256px] hover:-translate-y-1 hover:border-accent/20 hover:shadow-[0_22px_52px_rgba(24,44,69,0.12)]",
         !useDragHandle && "cursor-grab active:cursor-grabbing",
-        isDragging && "opacity-50 shadow-[0_24px_60px_rgba(24,44,69,0.14)]"
+        isDragging && "opacity-50 shadow-[0_24px_60px_rgba(24,44,69,0.14)]",
       )}
     >
       {cardContent}

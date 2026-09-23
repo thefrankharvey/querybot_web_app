@@ -18,10 +18,7 @@ import { KanbanCard, type KanbanCardData } from "./kanban-card";
 import type { FitRating } from "@/app/components/fit-rating-badge";
 import { KanbanDialog } from "./kanban-dialog";
 import { Spinner } from "@/app/ui-primitives/spinner";
-import {
-  QUERY_DASH_COLUMNS,
-  type QueryDashColumnId,
-} from "./kanban-config";
+import { QUERY_DASH_COLUMNS, type QueryDashColumnId } from "./kanban-config";
 import { FIRST_COLUMN_ID } from "./kanban-ordering";
 import { useQueryDashContext } from "../context/query-dash-context";
 import { Button } from "@/app/ui-primitives/button";
@@ -41,7 +38,6 @@ export function KanbanBoard() {
     cards,
     isLoading,
     isEmpty,
-    isRenamingProject,
     moveCard,
     reorderInColumn,
     togglePrepQueryLetter,
@@ -90,13 +86,17 @@ export function KanbanBoard() {
   useEffect(() => {
     if (!selectedCard?.id) return;
 
-    const latestSelectedCard = cards.find((card) => card.id === selectedCard.id);
+    const latestSelectedCard = cards.find(
+      (card) => card.id === selectedCard.id,
+    );
     if (!latestSelectedCard) {
       setSelectedCard(null);
       return;
     }
 
-    setSelectedCard((prev) => (prev === latestSelectedCard ? prev : latestSelectedCard));
+    setSelectedCard((prev) =>
+      prev === latestSelectedCard ? prev : latestSelectedCard,
+    );
   }, [cards, selectedCard?.id]);
 
   useEffect(() => {
@@ -127,10 +127,10 @@ export function KanbanBoard() {
       activationConstraint: {
         distance: 5,
       },
-    })
+    }),
   );
 
-  if (isLoading || isRenamingProject) {
+  if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
         <Spinner className="size-16" />
@@ -146,11 +146,14 @@ export function KanbanBoard() {
             No Agents Saved Yet
           </h1>
           <p className="w-full text-center text-sm text-accent/72 md:w-3/4 md:text-base">
-            Save agents from your Smart Match search results to start tracking your query progress here!
+            Save agents from your Smart Match search results to start tracking
+            your query progress here!
           </p>
           <div className="pt-2 text-center">
             <Link href="/smart-match">
-              <Button className="w-full sm:w-auto" size="lg">Go to Smart Match</Button>
+              <Button className="w-full sm:w-auto" size="lg">
+                Go to Smart Match
+              </Button>
             </Link>
           </div>
         </div>
@@ -167,7 +170,9 @@ export function KanbanBoard() {
 
     if (selectedCard?.id === cardId) {
       setSelectedCard((prev) =>
-        prev ? { ...prev, prepQueryLetterDone: !prev.prepQueryLetterDone } : null
+        prev
+          ? { ...prev, prepQueryLetterDone: !prev.prepQueryLetterDone }
+          : null,
       );
     }
   };
@@ -212,12 +217,15 @@ export function KanbanBoard() {
     const overId = over.id as string;
     const activeColumnId = findColumnByCardId(activeId);
 
-    const isOverColumn = QUERY_DASH_COLUMNS.some((column) => column.id === overId);
+    const isOverColumn = QUERY_DASH_COLUMNS.some(
+      (column) => column.id === overId,
+    );
     const overColumnId = isOverColumn
       ? (overId as QueryDashColumnId)
       : findColumnByCardId(overId);
 
-    if (!activeColumnId || !overColumnId || activeColumnId === overColumnId) return;
+    if (!activeColumnId || !overColumnId || activeColumnId === overColumnId)
+      return;
 
     moveCard(activeId, overColumnId, { persist: false });
   };
@@ -242,7 +250,9 @@ export function KanbanBoard() {
     const overId = over.id as string;
     if (activeId === overId) return;
 
-    const isOverColumn = QUERY_DASH_COLUMNS.some((column) => column.id === overId);
+    const isOverColumn = QUERY_DASH_COLUMNS.some(
+      (column) => column.id === overId,
+    );
     const overColumnId = isOverColumn
       ? (overId as QueryDashColumnId)
       : findColumnByCardId(overId);
@@ -285,7 +295,11 @@ export function KanbanBoard() {
 
         <DragOverlay>
           {activeCard ? (
-            <KanbanCard card={activeCard} isDragOverlay dragOverlayWidth="256px" />
+            <KanbanCard
+              card={activeCard}
+              isDragOverlay
+              dragOverlayWidth="256px"
+            />
           ) : null}
         </DragOverlay>
       </DndContext>
@@ -298,7 +312,9 @@ export function KanbanBoard() {
         onTogglePrepQuery={handleTogglePrepQuery}
         onFitRatingChange={handleFitRatingChange}
         onNotesSave={handleNotesSave}
-        onMoveCard={(cardId, columnId) => handleMoveCard(cardId, columnId as QueryDashColumnId)}
+        onMoveCard={(cardId, columnId) =>
+          handleMoveCard(cardId, columnId as QueryDashColumnId)
+        }
         tourModalActive={isModalTourStep}
       />
 

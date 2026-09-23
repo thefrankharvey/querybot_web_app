@@ -35,6 +35,7 @@ export async function POST(req: Request) {
     .update({ project_name: newName })
     .eq("user_id", userId)
     .eq("project_name", oldName)
+    .is("writer_project_id", null)
     .select("id");
 
   if (error)

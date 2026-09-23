@@ -1,6 +1,11 @@
+import { isSameProjectScope } from "@/app/utils/project-scope";
 import { QUERY_LIMIT } from "@/app/constants";
 import { useMutation } from "@tanstack/react-query";
-import { useAgentMatches, FormData, AgentMatch } from "../../context/agent-matches-context";
+import {
+  useAgentMatches,
+  FormData,
+  AgentMatch,
+} from "../../context/agent-matches-context";
 import { useRef } from "react";
 import AgentMatchesInner from "./agent-matches-inner";
 import PayWall from "@/app/components/pay-wall";
@@ -51,24 +56,29 @@ export const AgentMatchesPaywall = ({
     sheetStatus,
     saveTotalAgents,
     projectName,
+    writerProjectId,
+    saveWriterProjectId,
+    saveFormData,
   } = useAgentMatches();
-  const {
-    agentsList,
-    saveAgent,
-    saveAllAgents,
-    savingAgentId,
-    isSavingAll,
-  } = useProfileContext();
+  const { agentsList, saveAgent, saveAllAgents, savingAgentId, isSavingAll } =
+    useProfileContext();
   const gridRef = useRef<HTMLDivElement>(null);
   const nextCursor = QUERY_LIMIT;
-  const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const activeProjectName = projectName
+    ? normalizeProjectName(projectName)
+    : "";
   const hasSavedAgentsForActiveProject =
     activeProjectName.length > 0 &&
     Boolean(
-      agentsList?.some(
-        (agent) =>
-          normalizeProjectName(agent.project_name) === activeProjectName
-      )
+      agentsList?.some((agent) =>
+        isSameProjectScope(
+          {
+            projectName: agent.project_name,
+            writerProjectId: agent.writer_project_id,
+          },
+          { projectName: activeProjectName, writerProjectId },
+        ),
+      ),
     );
 
   const queryMutation = useMutation({
@@ -92,7 +102,7 @@ export const AgentMatchesPaywall = ({
             "Content-Type": "application/json",
           },
           body: JSON.stringify(params.formData),
-        }
+        },
       );
 
       if (!res.ok) {
@@ -109,6 +119,17 @@ export const AgentMatchesPaywall = ({
             ? data.total_available
             : null;
       saveTotalAgents(nextTotal);
+      if (
+        typeof data.writer_project_id === "string" &&
+        data.writer_project_id.trim()
+      ) {
+        saveWriterProjectId(data.writer_project_id);
+        if (formData)
+          saveFormData({
+            ...formData,
+            writer_project_id: data.writer_project_id,
+          });
+      }
 
       if (Array.isArray(data.matches)) {
         saveMatches(data.matches);
@@ -147,13 +168,18 @@ export const AgentMatchesPaywall = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent({ ...payload, project_name: projectName || null });
+    saveAgent({
+      ...payload,
+      project_name: projectName || null,
+      writer_project_id: writerProjectId,
+    });
   };
 
   const handleSaveAllAgents = () => {
     const payloads = matches.map((agent) => ({
       ...mapAgentToPayload(agent),
       project_name: projectName || null,
+      writer_project_id: writerProjectId,
     }));
     saveAllAgents(payloads);
   };
@@ -181,7 +207,7 @@ export const AgentMatchesPaywall = ({
         projectName={activeProjectName}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
-            ? getProjectDashboardHref(activeProjectName)
+            ? getProjectDashboardHref(activeProjectName, writerProjectId)
             : undefined
         }
         onWalkthroughActiveChange={onWalkthroughActiveChange}

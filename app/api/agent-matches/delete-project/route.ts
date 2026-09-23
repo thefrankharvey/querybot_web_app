@@ -1,94 +1,103 @@
-import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
-import { createServerSupabase } from "../../supabase/server";
-import { AGENT_MATCHES_TABLE, DEFAULT_PROJECT_NAME } from "@/app/constants";
+import { NextResponse } from "next/server";
 
-type DeletedAgentMatch = {
+import { createServerSupabase } from "../../supabase/server";
+import { AGENT_MATCHES_TABLE } from "@/app/constants";
+import { getProjectScope } from "@/app/utils/project-scope";
+
+type SavedAgentProjectRow = {
   id: string;
   index_id: string | null;
+  project_name: string | null;
+  writer_project_id: string | null;
 };
-
-function normalizeProjectName(projectName?: string | null) {
-  const trimmed = projectName?.trim();
-  return trimmed || DEFAULT_PROJECT_NAME;
-}
 
 async function parseDeleteProjectBody(req: Request) {
   try {
-    return (await req.json()) as { projectName?: unknown };
+    return (await req.json()) as {
+      projectName?: unknown;
+      writerProjectId?: unknown;
+    };
   } catch {
     return null;
   }
+}
+
+function jsonResponse(body: unknown, status = 200) {
+  return NextResponse.json(body, {
+    status,
+    headers: { "Cache-Control": "private, no-store" },
+  });
 }
 
 export async function DELETE(req: Request) {
   const { userId } = await auth();
 
   if (!userId) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return jsonResponse({ error: "Unauthorized" }, 401);
   }
 
   const body = await parseDeleteProjectBody(req);
 
   if (!body || typeof body.projectName !== "string") {
-    return NextResponse.json(
+    return jsonResponse(
       { error: "Invalid payload: projectName must be a string" },
-      { status: 400 },
+      400,
     );
   }
 
-  const projectName = normalizeProjectName(body.projectName);
+  if (
+    body.writerProjectId !== undefined &&
+    body.writerProjectId !== null &&
+    typeof body.writerProjectId !== "string"
+  ) {
+    return jsonResponse(
+      { error: "Invalid payload: writerProjectId must be a string or null" },
+      400,
+    );
+  }
+
+  const targetScope = getProjectScope({
+    projectName: body.projectName,
+    writerProjectId:
+      typeof body.writerProjectId === "string" ? body.writerProjectId : null,
+  });
   const supabase = createServerSupabase();
-  const deletedAgentMatches: DeletedAgentMatch[] = [];
+  const { data: candidateRows, error: candidateError } = await supabase
+    .from(AGENT_MATCHES_TABLE)
+    .select("id,index_id,project_name,writer_project_id")
+    .eq("user_id", userId);
 
-  const deleteProjectNameRows = async (projectNames: string[]) => {
-    const { data, error } = await supabase
-      .from(AGENT_MATCHES_TABLE)
-      .delete()
-      .eq("user_id", userId)
-      .in("project_name", projectNames)
-      .select("id,index_id");
-
-    if (error) {
-      throw error;
-    }
-
-    deletedAgentMatches.push(...(data ?? []));
-  };
-
-  try {
-    if (projectName === DEFAULT_PROJECT_NAME) {
-      await deleteProjectNameRows([DEFAULT_PROJECT_NAME, ""]);
-
-      const { data, error } = await supabase
-        .from(AGENT_MATCHES_TABLE)
-        .delete()
-        .eq("user_id", userId)
-        .is("project_name", null)
-        .select("id,index_id");
-
-      if (error) {
-        throw error;
-      }
-
-      deletedAgentMatches.push(...(data ?? []));
-    } else {
-      await deleteProjectNameRows([projectName]);
-    }
-  } catch (error) {
-    return NextResponse.json(
-      {
-        error:
-          error instanceof Error
-            ? error.message
-            : "Failed to delete project",
-      },
-      { status: 400 },
-    );
+  if (candidateError) {
+    return jsonResponse({ error: candidateError.message }, 400);
   }
 
-  return NextResponse.json({
-    deleted: deletedAgentMatches.length,
-    deletedAgents: deletedAgentMatches,
+  const matchingRows = ((candidateRows ?? []) as SavedAgentProjectRow[]).filter(
+    (row) =>
+      getProjectScope({
+        projectName: row.project_name,
+        writerProjectId: row.writer_project_id,
+      }).key === targetScope.key,
+  );
+  const rowIds = matchingRows.map((row) => row.id);
+
+  if (rowIds.length === 0) {
+    return jsonResponse({ deleted: 0, deletedAgents: [] });
+  }
+
+  const { data: deletedRows, error: deleteError } = await supabase
+    .from(AGENT_MATCHES_TABLE)
+    .delete()
+    .eq("user_id", userId)
+    .in("id", rowIds)
+    .select("id,index_id");
+
+  if (deleteError) {
+    return jsonResponse({ error: deleteError.message }, 400);
+  }
+
+  return jsonResponse({
+    deleted: deletedRows?.length ?? 0,
+    deletedAgents: deletedRows ?? [],
   });
 }

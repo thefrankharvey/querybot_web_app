@@ -35,7 +35,7 @@ export function KanbanDialogTools({
   card,
 }: KanbanDialogToolsProps) {
   const [toolsOpen, setToolsOpen] = useState(false);
-  const { removeCardByIndexId } = useQueryDashContext();
+  const { removeCardById } = useQueryDashContext();
 
   const handleMoveCardSelect = (nextColumnId: string) => {
     if (nextColumnId === currentColumnId) return;
@@ -77,15 +77,15 @@ export function KanbanDialogTools({
             </Select>
           </div>
           <RemoveAgent
-            indexId={card.index_id}
+            recordId={card.id}
             onRemoved={(deletedAgentId) => {
-              removeCardByIndexId(deletedAgentId);
+              removeCardById(deletedAgentId);
               onOpenChange(false);
             }}
           />
         </div>
       </PopoverContent>
-    </Popover >
+    </Popover>
   );
 }
 

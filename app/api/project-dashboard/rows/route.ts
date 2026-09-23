@@ -8,6 +8,7 @@ const MAX_DELETE_ROWS = 200;
 
 type DeleteRowsPayload = {
   projectName?: unknown;
+  writerProjectId?: unknown;
   rowIds?: unknown;
 };
 
@@ -47,9 +48,7 @@ export async function DELETE(req: Request) {
   }
 
   const projectName =
-    typeof payload.projectName === "string"
-      ? payload.projectName.trim()
-      : "";
+    typeof payload.projectName === "string" ? payload.projectName.trim() : "";
   const supabase = createServerSupabase();
   let deleteQuery = supabase
     .from(AGENT_MATCHES_TABLE)
@@ -57,9 +56,16 @@ export async function DELETE(req: Request) {
     .eq("user_id", userId)
     .in("id", rowIds);
 
-  if (projectName) {
-    deleteQuery = deleteQuery.eq("project_name", projectName);
-  }
+  const writerProjectId =
+    typeof payload.writerProjectId === "string"
+      ? payload.writerProjectId.trim()
+      : "";
+  if (writerProjectId)
+    deleteQuery = deleteQuery.eq("writer_project_id", writerProjectId);
+  else if (projectName)
+    deleteQuery = deleteQuery
+      .eq("project_name", projectName)
+      .is("writer_project_id", null);
 
   const { data, error } = await deleteQuery.select("id");
 

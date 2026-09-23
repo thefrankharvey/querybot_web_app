@@ -1,6 +1,11 @@
 "use client";
+import { isSameProjectScope } from "@/app/utils/project-scope";
 
-import { useAgentMatches, FormData, AgentMatch } from "../../context/agent-matches-context";
+import {
+  useAgentMatches,
+  FormData,
+  AgentMatch,
+} from "../../context/agent-matches-context";
 import { useMutation } from "@tanstack/react-query";
 import { QUERY_LIMIT } from "@/app/constants";
 import {
@@ -57,25 +62,30 @@ export const AgentMatchesFull = ({
     handleAgentExportResponse,
     saveTotalAgents,
     projectName,
+    writerProjectId,
+    saveWriterProjectId,
+    saveFormData,
   } = useAgentMatches();
 
-  const {
-    agentsList,
-    saveAgent,
-    saveAllAgents,
-    savingAgentId,
-    isSavingAll,
-  } = useProfileContext();
+  const { agentsList, saveAgent, saveAllAgents, savingAgentId, isSavingAll } =
+    useProfileContext();
 
   const nextCursor = nextCursorCount || QUERY_LIMIT;
-  const activeProjectName = projectName ? normalizeProjectName(projectName) : "";
+  const activeProjectName = projectName
+    ? normalizeProjectName(projectName)
+    : "";
   const hasSavedAgentsForActiveProject =
     activeProjectName.length > 0 &&
     Boolean(
-      agentsList?.some(
-        (agent) =>
-          normalizeProjectName(agent.project_name) === activeProjectName
-      )
+      agentsList?.some((agent) =>
+        isSameProjectScope(
+          {
+            projectName: agent.project_name,
+            writerProjectId: agent.writer_project_id,
+          },
+          { projectName: activeProjectName, writerProjectId },
+        ),
+      ),
     );
 
   const queryMutation = useMutation({
@@ -91,7 +101,8 @@ export const AgentMatchesFull = ({
       const statusQuery = statusParam ? `&status=${statusParam}` : "";
 
       // Map country_code values for API: "all" -> "", otherwise use the country code
-      const countryParam = params.country_code === "all" ? "" : params.country_code;
+      const countryParam =
+        params.country_code === "all" ? "" : params.country_code;
       const countryQuery = countryParam ? `&country_code=${countryParam}` : "";
 
       const res = await fetch(
@@ -102,7 +113,7 @@ export const AgentMatchesFull = ({
             "Content-Type": "application/json",
           },
           body: JSON.stringify(params.formData),
-        }
+        },
       );
 
       if (!res.ok) {
@@ -126,6 +137,17 @@ export const AgentMatchesFull = ({
             ? data.total_available
             : null;
       saveTotalAgents(nextTotal);
+      if (
+        typeof data.writer_project_id === "string" &&
+        data.writer_project_id.trim()
+      ) {
+        saveWriterProjectId(data.writer_project_id);
+        if (formData)
+          saveFormData({
+            ...formData,
+            writer_project_id: data.writer_project_id,
+          });
+      }
 
       if (Array.isArray(data.matches)) {
         saveMatches(data.matches);
@@ -213,13 +235,18 @@ export const AgentMatchesFull = ({
   };
 
   const handleSaveAgent = (payload: SaveAgentPayload) => {
-    saveAgent({ ...payload, project_name: projectName || null });
+    saveAgent({
+      ...payload,
+      project_name: projectName || null,
+      writer_project_id: writerProjectId,
+    });
   };
 
   const handleSaveAllAgents = () => {
     const payloads = matches.map((agent) => ({
       ...mapAgentToPayload(agent),
       project_name: projectName || null,
+      writer_project_id: writerProjectId,
     }));
     saveAllAgents(payloads);
   };
@@ -246,7 +273,7 @@ export const AgentMatchesFull = ({
         projectName={activeProjectName}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
-            ? getProjectDashboardHref(activeProjectName)
+            ? getProjectDashboardHref(activeProjectName, writerProjectId)
             : undefined
         }
         onWalkthroughActiveChange={onWalkthroughActiveChange}
