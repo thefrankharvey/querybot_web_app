@@ -112,16 +112,6 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  if (user.publicMetadata?.isSubscribed !== true) {
-    return NextResponse.json(
-      {
-        code: "SUBSCRIPTION_REQUIRED",
-        error: "Subscribe for access",
-      },
-      { status: 403 },
-    );
-  }
-
   const email = getPrimaryEmailAddress(user);
 
   if (!email) {

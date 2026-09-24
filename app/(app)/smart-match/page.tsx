@@ -22,7 +22,6 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
-import TooltipComponent from "@/app/components/tooltip";
 import {
   getProjectNamesFromAgentMatches,
   getWriterProjectIdForProjectName,
@@ -183,7 +182,7 @@ const SmartMatch = () => {
   };
 
   const handleRestorePreviousSearch = async () => {
-    if (!isSubscribed || isRestoringPreviousSearch) return;
+    if (isRestoringPreviousSearch) return;
 
     setIsRestoringPreviousSearch(true);
     setApiMessage("");
@@ -198,11 +197,6 @@ const SmartMatch = () => {
 
       if (response.status === 404) {
         toast.info("No previous Smart Match search found.");
-        return;
-      }
-
-      if (response.status === 403) {
-        toast.error("Subscribe for access");
         return;
       }
 
@@ -345,41 +339,22 @@ const SmartMatch = () => {
             <div className="flex gap-4 flex-col md:flex-row justify-between mb-4 md:items-center">
               <div className="flex gap-4 flex-col md:flex-row">
                 <ExplanationBlock />
-                {!isSubscribed ? (
-                  <TooltipComponent
-                    asChild
-                    className="inline-block w-full md:w-fit"
-                    content="Subscribe for access"
-                    contentClass="text-center"
-                  >
-                    <span tabIndex={0}>
-                      <Button
-                        className="w-full md:w-fit"
-                        disabled
-                        type="button"
-                      >
-                        Restore previous search
-                      </Button>
-                    </span>
-                  </TooltipComponent>
-                ) : (
-                  <Button
-                    className="w-full md:w-fit"
-                    disabled={isRestoringPreviousSearch}
-                    onClick={handleRestorePreviousSearch}
-                    type="button"
-                  >
-                    {isRestoringPreviousSearch ? (
-                      <Spinner
-                        className="text-current"
-                        data-icon="inline-start"
-                      />
-                    ) : null}
-                    {isRestoringPreviousSearch
-                      ? "Restoring..."
-                      : "Restore previous search"}
-                  </Button>
-                )}
+                <Button
+                  className="w-full md:w-fit"
+                  disabled={isRestoringPreviousSearch}
+                  onClick={handleRestorePreviousSearch}
+                  type="button"
+                >
+                  {isRestoringPreviousSearch ? (
+                    <Spinner
+                      className="text-current"
+                      data-icon="inline-start"
+                    />
+                  ) : null}
+                  {isRestoringPreviousSearch
+                    ? "Restoring..."
+                    : "Restore previous search"}
+                </Button>
                 <PreviousAgentMatchesButton className="w-full md:w-fit" />
               </div>
             </div>

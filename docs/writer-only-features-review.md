@@ -31,8 +31,8 @@ The configured writer API must support:
 - `POST /create-trait`
 
 Traits use `WQH_TRAITS_API_URL` when configured, otherwise the existing writer API
-URL. No messaging API is needed. Sign in with a review account; use a subscribed
-account for previous-form restoration. Use disposable review projects.
+URL. No messaging API is needed. Sign in with a review account. Previous-form restoration is available to both
+free and subscribed accounts. Use disposable review projects.
 
 ## 1. Independent saved agents per project
 
@@ -69,7 +69,8 @@ The new UI uses row-ID APIs. Private reads and writes remain user-scoped.
    and the project identity, then run the search and save one result.
 3. Use “Previous Agent Matches” to refresh results. Confirm saves still belong
    to the same project and the existing Excel download continues to work.
-4. Check empty history, a free account, and an unavailable writer API.
+4. Confirm restoration works for both free and subscribed accounts. Check empty
+   history and an unavailable writer API; signed-out requests must return 401.
 5. Restore an unnamed historical search. It must not borrow another project's
    name or ID. Enter a name before submitting.
 
@@ -89,7 +90,8 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 19 focused tests passed after deferring editable profiles.
+- All 23 focused tests passed, including free-account restoration and account
+  access checks.
 - Lint passed for all changed TypeScript files.
 - The production build passed.
 - Type checking reports the same 3,088 inherited blog errors as `main` with
@@ -106,3 +108,8 @@ Everything remains local. No push, merge, or deployment was performed.
 3. Open an old `/projects/:id` link. It should redirect to the same project's
    dashboard, including legacy name-based links.
 4. Confirm the built app has no `/api/projects/[projectId]` save route.
+
+Previous-search restoration has no subscription gate in the UI or the Next.js
+server route. The upstream Flask `/get-writer-projects` handler was inspected and
+already has no subscription check, so it requires no code change. Paid agent
+result limits and spreadsheet access are unchanged.

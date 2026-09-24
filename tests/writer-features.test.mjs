@@ -356,28 +356,75 @@ test("restore never borrows the identity or title of a different project", async
   assert.equal(body.form.project_name, "");
   assert.equal(result.headers.get("cache-control"), "private, no-store");
 });
-test("restore enforces subscription and handles empty history and upstream failure", async () => {
-  const db = store([]);
+for (const metadata of [{ isSubscribed: false }, {}, { isSubscribed: true }]) {
+  test(`restore allows signed-in users with metadata ${JSON.stringify(metadata)}`, async () => {
+    const mocks = baseMocks(store([]));
+    mocks["@clerk/nextjs/server"].currentUser = async () => ({
+      id: "writer-a",
+      publicMetadata: metadata,
+      primaryEmailAddress: { emailAddress: "writer@example.test" },
+    });
+    const route = load(
+      "app/api/smart-match/previous-search/route.ts",
+      {
+        ...mocks,
+        "@/app/utils/smart-match-restore": restore,
+      },
+      {
+        fetch: async (url) => {
+          assert.equal(
+            new URL(url).searchParams.get("email"),
+            "writer@example.test",
+          );
+          return Response.json({
+            status: "success",
+            writer_projects: [
+              {
+                id: "project-a",
+                project_name: "Novel",
+                genre: "fantasy",
+                updated_at: "2026-03-01",
+              },
+            ],
+          });
+        },
+      },
+    );
+    const result = await route.GET();
+    assert.equal(result.status, 200);
+    assert.equal((await result.json()).form.project_name, "Novel");
+    assert.equal(result.headers.get("cache-control"), "private, no-store");
+  });
+}
+
+test("restore rejects signed-out and mismatched accounts before fetching history", async () => {
+  for (const [userId, user] of [
+    [null, null],
+    ["writer-a", null],
+    ["writer-a", { id: "writer-b" }],
+  ]) {
+    const mocks = baseMocks(store([]));
+    const route = load(
+      "app/api/smart-match/previous-search/route.ts",
+      {
+        ...mocks,
+        "@/app/utils/smart-match-restore": restore,
+        "@clerk/nextjs/server": {
+          auth: async () => ({ userId }),
+          currentUser: async () => user,
+        },
+      },
+      { fetch: () => assert.fail("must not request history") },
+    );
+    assert.equal((await route.GET()).status, 401);
+  }
+});
+
+test("restore handles empty history and upstream failure", async () => {
   const mocks = {
-    ...baseMocks(db),
+    ...baseMocks(store([])),
     "@/app/utils/smart-match-restore": restore,
   };
-  const deniedMocks = {
-    ...mocks,
-    "@clerk/nextjs/server": {
-      auth: async () => ({ userId: "writer-a" }),
-      currentUser: async () => ({ id: "writer-a", publicMetadata: {} }),
-    },
-  };
-  assert.equal(
-    (
-      await load(
-        "app/api/smart-match/previous-search/route.ts",
-        deniedMocks,
-      ).GET()
-    ).status,
-    403,
-  );
   assert.equal(
     (
       await load("app/api/smart-match/previous-search/route.ts", mocks, {
