@@ -7,8 +7,6 @@ import type { AgentMatch } from "@/app/types";
 import {
   getProjectDashboardHrefFromName,
   getProjectDashboardHrefById,
-  getProjectProfileHref,
-  getProjectProfileHrefById,
 } from "@/app/utils/project-profile";
 import { getProjectScope } from "@/app/utils/project-scope";
 
@@ -56,16 +54,6 @@ export function getProjectDashboardHref(
   return normalizedWriterProjectId
     ? getProjectDashboardHrefById(normalizedWriterProjectId)
     : getProjectDashboardHrefFromName(normalizeProjectName(projectName));
-}
-
-export function getProjectHomeHref(
-  projectName: string,
-  writerProjectId?: string | null,
-) {
-  const normalizedWriterProjectId = getWriterProjectId(writerProjectId);
-  return normalizedWriterProjectId
-    ? getProjectProfileHrefById(normalizedWriterProjectId)
-    : getProjectProfileHref(normalizeProjectName(projectName));
 }
 
 export function getNormalizedQueryDashColumnId(
@@ -211,7 +199,7 @@ function createProjectSummaryAccumulator(
   return {
     writerProjectId,
     projectName,
-    href: getProjectHomeHref(projectName, writerProjectId),
+    href: getProjectDashboardHref(projectName, writerProjectId),
     savedAgentCount: 0,
     lastActivityAt: null,
     lastActivityLabel: "Saved",

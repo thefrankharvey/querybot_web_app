@@ -1,34 +1,13 @@
-import { notFound, redirect } from "next/navigation";
+import { redirect } from "next/navigation";
 
-import { getProjectProfileRouteData } from "@/app/utils/project-profile-data";
-import { getProjectProfileHrefById } from "@/app/utils/project-profile";
-import { ProjectProfileClient } from "./project-profile-client";
+import { getProjectDashboardHrefById } from "@/app/utils/project-profile";
 
-export default async function ProjectProfilePage({
+// Preserve existing project links while profile editing is deferred.
+export default async function ProjectPage({
   params,
 }: {
   params: Promise<{ projectId: string }>;
 }) {
   const { projectId } = await params;
-  const routeData = await getProjectProfileRouteData(projectId);
-
-  if (!routeData) {
-    notFound();
-  }
-
-  if (
-    routeData.source === "writer-project-api" &&
-    !routeData.isCanonicalRoute
-  ) {
-    redirect(getProjectProfileHrefById(routeData.profile.projectId));
-  }
-
-  return (
-    <ProjectProfileClient
-      key={routeData.profile.projectId}
-      hasProfileMetadata={routeData.hasProfileMetadata}
-      initialProfile={routeData.profile}
-      source={routeData.source}
-    />
-  );
+  redirect(getProjectDashboardHrefById(projectId));
 }

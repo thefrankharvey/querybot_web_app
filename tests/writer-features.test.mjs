@@ -274,7 +274,7 @@ function projectData(db, projects) {
       Response.json({ status: "success", writer_projects: projects }),
   });
 }
-test("profile reads isolate canonical, legacy, and duplicate-name project scopes", async () => {
+test("dashboard reads isolate canonical, legacy, and duplicate-name project scopes", async () => {
   const db = store(fixtureRows());
   const projects = ["a", "b"].map((id) => ({
     id: `project-${id}`,
@@ -297,97 +297,6 @@ test("profile reads isolate canonical, legacy, and duplicate-name project scopes
   assert.deepEqual(
     plain(rows).map((r) => r.id),
     ["row-a"],
-  );
-});
-test("project rename uses route ownership and never moves same-named projects", async () => {
-  const db = store(fixtureRows());
-  const projects = [
-    { id: "project-a", user_id: "writer-a", project_name: "Same title" },
-  ];
-  const data = projectData(db, projects);
-  const calls = [];
-  const route = load(
-    "app/api/projects/[projectId]/route.ts",
-    { ...baseMocks(db), "@/app/utils/project-profile-data": data },
-    {
-      fetch: async (url, init) => {
-        calls.push([url, JSON.parse(init.body)]);
-        return Response.json({
-          status: "success",
-          writer_project_id: "project-a",
-          writer_project: { ...projects[0], project_name: "Renamed" },
-        });
-      },
-    },
-  );
-  const result = await route.PUT(
-    request(
-      {
-        projectName: "Renamed",
-        writerProjectId: "project-b",
-        previousProjectName: "Same title",
-        description: "Updated description",
-      },
-      "PUT",
-    ),
-    { params: Promise.resolve({ projectId: "project-a" }) },
-  );
-  assert.equal(result.status, 200);
-  assert.ok(calls[0][0].endsWith("/writer-projects/project-a"));
-  assert.equal(calls[0][1].email, "writer@example.test");
-  assert.deepEqual(
-    db.state.rows.map((r) => r.project_name),
-    ["Renamed", "Same title", "Same title", "Same title"],
-  );
-});
-test("legacy profile upgrade moves only its own legacy rows", async () => {
-  const db = store(fixtureRows());
-  const data = projectData(db, []);
-  const route = load(
-    "app/api/projects/[projectId]/route.ts",
-    { ...baseMocks(db), "@/app/utils/project-profile-data": data },
-    {
-      fetch: async (_url, init) => {
-        assert.equal(init.method, "POST");
-        return Response.json({
-          status: "success",
-          writer_project_id: "new-project",
-          writer_project: {
-            id: "new-project",
-            user_id: "writer-a",
-            project_name: "Upgraded",
-          },
-        });
-      },
-    },
-  );
-  const result = await route.PUT(
-    request({ projectName: "Upgraded", genre: "fantasy" }, "PUT"),
-    { params: Promise.resolve({ projectId: "name:Same title" }) },
-  );
-  assert.equal(result.status, 200);
-  assert.deepEqual(
-    db.state.rows.map((r) => r.writer_project_id),
-    ["project-a", "project-b", "new-project", "project-a"],
-  );
-});
-test("unknown project route cannot create or modify an upstream project", async () => {
-  const db = store([]);
-  const route = load(
-    "app/api/projects/[projectId]/route.ts",
-    {
-      ...baseMocks(db),
-      "@/app/utils/project-profile-data": projectData(db, []),
-    },
-    { fetch: () => assert.fail("must not write") },
-  );
-  assert.equal(
-    (
-      await route.PUT(request({ projectName: "New" }, "PUT"), {
-        params: Promise.resolve({ projectId: "other-user-project" }),
-      })
-    ).status,
-    404,
   );
 });
 test("legacy route encoding round-trips literal percent signs and slash-containing names", () => {
@@ -545,4 +454,40 @@ test("traits route requires auth for creation and forwards a sanitized, allowlis
     (await denied.POST(request({ type: "format", value: "x" }, "POST"))).status,
     401,
   );
+});
+
+test("project navigation opens separate dashboards directly", () => {
+  const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
+  const summaries = load("app/utils/project-dashboard-summary.ts", {
+    "@/app/(app)/query-dashboard/components/kanban-config": columns,
+    "@/app/utils/project-profile": profile,
+    "@/app/utils/project-scope": scope,
+  });
+  const items = plain(
+    summaries.getProjectNavigationItemsFromAgentMatches(
+      fixtureRows().filter((row) => row.user_id === "writer-a"),
+    ),
+  );
+  assert.deepEqual(items.map((item) => item.href).sort(), [
+    "/projects/name%3ASame%20title/dashboard",
+    "/projects/project-a/dashboard",
+    "/projects/project-b/dashboard",
+  ]);
+});
+
+test("old project links redirect to the dashboard instead of an editor", async () => {
+  const page = load("app/(app)/projects/[projectId]/page.tsx", {
+    "@/app/utils/project-profile": profile,
+    "next/navigation": {
+      redirect: (url) => {
+        throw new Error(url);
+      },
+    },
+  });
+  for (const id of ["project-a", "name:100% / progress"]) {
+    await assert.rejects(
+      page.default({ params: Promise.resolve({ projectId: id }) }),
+      { message: profile.getProjectDashboardHrefById(id) },
+    );
+  }
 });

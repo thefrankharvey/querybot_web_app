@@ -2,10 +2,19 @@
 
 Branch: `codex/writer-only-features`. Base: `origin/main` at `e72760d`.
 
-This branch extracts four features from `feat/roadmap-01` while keeping main's
-writer app layout, table/board dashboard, spreadsheet exports, and blog changes.
-It does not add the literary-agent workspace, reverse search, messaging,
-attachments, Agency Query Guard, reminders, or Radar.
+This branch includes three features from `feat/roadmap-01`: separate saved-agent
+tracking per project, API-backed Smart Match traits, and previous-search form
+restoration. It keeps main's writer app layout, table/board dashboard, spreadsheet
+exports, and blog changes.
+
+Editable project profiles are deferred. They are kept on `codex/writer-project-profiles`
+in a separate restoration commit for later review. This branch removes the
+profile editor and its save API. Project links open dashboards, and
+old profile links redirect there. Shared read-only project lookup remains because
+the dashboard needs project identity and ownership checks.
+
+Neither branch adds the literary-agent workspace, reverse search, messaging,
+attachments, Agency Query Guard, reminders, or Radar. No push or merge is authorized.
 
 ## Setup before a live review
 
@@ -17,7 +26,6 @@ has not been applied to a remote database as part of this change.
 The configured writer API must support:
 
 - `GET /get-writer-projects?email=...`
-- `POST /writer-projects` and `PUT /writer-projects/:id`
 - `project_name` and `writer_project_id` on existing agent-search requests
 - `GET /get-traits` with grouped genre/subgenre/theme/format values
 - `POST /create-trait`
@@ -26,29 +34,15 @@ Traits use `WQH_TRAITS_API_URL` when configured, otherwise the existing writer A
 URL. No messaging API is needed. Sign in with a review account; use a subscribed
 account for previous-form restoration. Use disposable review projects.
 
-## 1. Editable project profiles
-
-1. Open a project from Home, then open its profile from the dashboard title.
-2. Edit the name, description, genre, subgenres, format, audience, themes, comps,
-   and nonfiction setting. Save, reload, and confirm the values persist.
-3. Rename a project containing saved agents. Verify its dashboard and navigation
-   use the new name and its saved agents remain attached.
-4. Open a legacy name-based project and save its profile. Confirm only that
-   project's rows gain the returned writer-project ID.
-5. Simulate a failed save. Confirm the form reports failure and retains the draft.
-
-Legacy links explicitly use a `name:` route prefix. Project IDs take precedence
-for canonical projects. Same-named canonical and legacy projects remain separate.
-
-## 2. Independent saved agents per project
+## 1. Independent saved agents per project
 
 1. Run a search for project A and save an agent. Run a search for project B and
    save the same agent. Both should succeed.
 2. In A, change notes, fit rating, query readiness, dates, and board column.
    Reload A and B. Only A should change.
 3. Remove the agent from A, then test bulk-row deletion. B must remain intact.
-4. Create two projects with the same display name. Rename/delete one project's
-   saved dashboard rows and confirm the other remains unchanged.
+4. Use two projects with the same display name. Delete one project's saved
+   dashboard rows and confirm the other remains unchanged.
 5. Test Save All twice in each project. It should skip already-saved agents only
    within that project.
 6. Open a saved-agent profile after running another search. The link must still
@@ -57,7 +51,7 @@ for canonical projects. Same-named canonical and legacy projects remain separate
 Existing agent-ID API URLs reject ambiguous multi-project mutations with 409.
 The new UI uses row-ID APIs. Private reads and writes remain user-scoped.
 
-## 3. API-backed Smart Match traits
+## 2. API-backed Smart Match traits
 
 1. Open Smart Match and verify all four lists load from the traits API.
 2. Add a custom genre, subgenre, theme, and format. Confirm each is selected and
@@ -68,7 +62,7 @@ The new UI uses row-ID APIs. Private reads and writes remain user-scoped.
    the page must disclose the load failure. Failed creation must report an error.
 5. Check selection, deselection, keyboard navigation, and mobile layout.
 
-## 4. Restore previous Smart Match form
+## 3. Restore previous Smart Match form
 
 1. Save/run a search with a named project, all trait categories, and comps.
 2. In a fresh session, use “Restore previous search.” Confirm every restored field
@@ -82,7 +76,7 @@ The new UI uses row-ID APIs. Private reads and writes remain user-scoped.
 ## Automated verification
 
 `node --test tests/*.test.mjs` covers row isolation, access checks, ambiguous
-legacy requests, project lookup/rename/upgrade, restoration, and trait contracts.
+legacy requests, dashboard lookup/navigation, restoration, and trait contracts.
 
 Run lint on changed TypeScript files and `npm run build`. The repository's existing
 Next.js configuration skips type/lint enforcement during builds, so they are
@@ -95,7 +89,7 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 20 focused tests passed.
+- All 19 focused tests passed after deferring editable profiles.
 - Lint passed for all changed TypeScript files.
 - The production build passed.
 - Type checking reports the same 3,088 inherited blog errors as `main` with
@@ -104,3 +98,11 @@ Verification performed on this branch:
   end-to-end checks remain pending; no shared database was changed.
 
 Everything remains local. No push, merge, or deployment was performed.
+
+## Verify profile editing is deferred
+
+1. Open a project from Home or the navigation menu. It should open its dashboard.
+2. Confirm the dashboard has no Project profile button or profile editor.
+3. Open an old `/projects/:id` link. It should redirect to the same project's
+   dashboard, including legacy name-based links.
+4. Confirm the built app has no `/api/projects/[projectId]` save route.

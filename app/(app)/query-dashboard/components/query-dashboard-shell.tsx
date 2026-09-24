@@ -30,13 +30,8 @@ const CONFETTI_DURATION_MS = 10000;
 type DashboardView = "table" | "board";
 
 function QueryDashboardContent() {
-  const {
-    offerMadeCelebrationNonce,
-    isEmpty,
-    isLoading,
-    activeProjectName,
-    activeWriterProjectId,
-  } = useQueryDashContext();
+  const { offerMadeCelebrationNonce, isEmpty, isLoading, activeProjectName } =
+    useQueryDashContext();
   const [showConfetti, setShowConfetti] = useState(false);
   const [dashboardView, setDashboardView] = useState<DashboardView>("table");
   const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -106,10 +101,7 @@ function QueryDashboardContent() {
         >
           <h1 className="flex min-w-0 items-center gap-2 font-serif text-xl font-semibold leading-tight text-accent md:text-[32px]">
             <LayoutDashboard className="hidden size-10 shrink-0 md:block" />
-            <ProjectDashboardTitle
-              projectName={activeProjectName ?? ""}
-              writerProjectId={activeWriterProjectId}
-            />
+            <ProjectDashboardTitle projectName={activeProjectName ?? ""} />
           </h1>
           <ButtonGroup className="shrink-0">
             <Button
