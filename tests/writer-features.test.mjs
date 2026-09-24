@@ -16,6 +16,7 @@ function load(path, mocks = {}, globals = {}) {
       module: ts.ModuleKind.CommonJS,
       target: ts.ScriptTarget.ES2022,
       esModuleInterop: true,
+      jsx: ts.JsxEmit.ReactJSX,
     },
   }).outputText;
   vm.runInNewContext(output, {
@@ -48,6 +49,62 @@ const profile = load("app/utils/project-profile.ts", {
   "@/app/constants": constants,
 });
 const restore = load("app/utils/smart-match-restore.ts");
+function renderHome({ isSubscribed = false, agentsList = fixtureRows(), isLoading = false } = {}) {
+  const React = require("react");
+  const { renderToStaticMarkup } = require("react-dom/server");
+  const columns = load("app/(app)/query-dashboard/components/kanban-config.ts");
+  const summaries = load("app/utils/project-dashboard-summary.ts", {
+    "@/app/(app)/query-dashboard/components/kanban-config": columns,
+    "@/app/utils/project-profile": profile,
+    "@/app/utils/project-scope": scope,
+  });
+  const overview = load("app/(app)/home/components/project-dashboard-overview.tsx", {
+    "next/link": ({ children, ...props }) => React.createElement("a", props, children),
+    "@/app/(app)/query-dashboard/components/kanban-config": columns,
+    "@/app/utils/project-dashboard-summary": summaries,
+    "./animated-count": ({ value }) => value,
+  }).default;
+  const Home = load("app/(app)/home/page.tsx", {
+    // Render the settled Home state without running browser or payment effects.
+    react: { ...React, useState: () => [false, () => {}], useEffect: () => {} },
+    "next/dynamic": () => () => null,
+    "@clerk/nextjs": { useUser: () => ({ user: null }) },
+    "@/app/hooks/use-clerk-user": { useClerkUser: () => ({ isSubscribed, isLoading: false }) },
+    "../context/profile-context": { useProfileContext: () => ({ agentsList, isLoading, refetch: () => {} }) },
+    "@/app/ui-primitives/spinner": { Spinner: () => React.createElement("div", { role: "status" }, "Loading") },
+    "./components/button-bar": () => null,
+    "./components/free-user": () => React.createElement("div", null, "Free account getting started"),
+    "./components/subscriber-empty": load("app/(app)/home/components/subscriber-empty.tsx").default,
+    "./components/project-dashboard-overview": overview,
+  }).default;
+  return renderToStaticMarkup(React.createElement(Home));
+}
+
+for (const isSubscribed of [false, true]) {
+  test(`Home shows saved project cards for ${isSubscribed ? "subscribed" : "free"} accounts`, () => {
+    const html = renderHome({ isSubscribed });
+    assert.match(html, /My Projects/);
+    assert.match(html, /href="\/projects\/project-a\/dashboard"/);
+    assert.match(html, /href="\/projects\/project-b\/dashboard"/);
+    assert.match(html, /Saved Agents/);
+  });
+}
+
+test("Home keeps free onboarding and subscribed guidance when no agents are saved", () => {
+  const free = renderHome({ agentsList: [] });
+  assert.match(free, /Free account getting started/);
+  assert.doesNotMatch(free, /My Projects/);
+  const paid = renderHome({ isSubscribed: true, agentsList: [] });
+  assert.match(paid, /Try Smart Match/);
+  assert.doesNotMatch(paid, /My Projects/);
+});
+
+test("Home waits for saved agents to load before showing project cards", () => {
+  const html = renderHome({ isLoading: true });
+  assert.match(html, /role="status"/);
+  assert.doesNotMatch(html, /My Projects|Free account getting started/);
+});
+
 const traits = load("lib/traits.ts");
 const next = {
   NextResponse: { json: (body, init) => Response.json(body, init) },

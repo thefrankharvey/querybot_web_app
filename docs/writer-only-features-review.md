@@ -90,8 +90,8 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 23 focused tests passed, including free-account restoration and account
-  access checks.
+- All 27 focused tests passed, including free-account restoration, Home project
+  cards for free and subscribed accounts, and account access checks.
 - Lint passed for all changed TypeScript files.
 - The production build passed.
 - Type checking reports the same 3,088 inherited blog errors as `main` with
@@ -113,3 +113,8 @@ Previous-search restoration has no subscription gate in the UI or the Next.js
 server route. The upstream Flask `/get-writer-projects` handler was inspected and
 already has no subscription check, so it requires no code change. Paid agent
 result limits and spreadsheet access are unchanged.
+
+Home project cards are available to free and subscribed accounts. Projects appear
+after at least one agent is saved, with links to their individual dashboards.
+Free accounts with no saved agents still see the existing getting-started screen.
+Dashboard styling and loading spinners have no subscription gate.
