@@ -179,6 +179,11 @@
   overflow: hidden;
 }
 
+/* Keep the shared layout glow off project dashboards. */
+.app-layout-shell:has(.query-dashboard-page) > .ambient-orb-top {
+  display: none;
+}
+
 @utility ambient-page-shell {
   position: relative;
   margin-inline: auto;

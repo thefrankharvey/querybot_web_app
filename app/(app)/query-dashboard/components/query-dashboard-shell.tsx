@@ -13,6 +13,7 @@ import {
   QueryDashProvider,
   useQueryDashContext,
 } from "../context/query-dash-context";
+import { ProjectDashboardLoading } from "./project-dashboard-loading";
 import { ProjectDashboardTitle } from "./project-dashboard-title";
 import { QueryDashboardTable } from "./query-dashboard-table";
 
@@ -79,10 +80,10 @@ function QueryDashboardContent() {
     };
   }, [dashboardView]);
 
+  if (isLoading) return <ProjectDashboardLoading />;
+
   return (
-    <div className="ambient-page flex h-full min-h-0 flex-col py-0 md:py-6">
-      <div className="ambient-orb-top" />
-      <div className="ambient-orb-bottom" />
+    <div className="query-dashboard-page ambient-page flex h-full min-h-0 flex-col py-0 md:py-6">
       {showConfetti && (
         <div className="fixed inset-0 pointer-events-none z-50">
           <Confetti
@@ -158,7 +159,7 @@ export function QueryDashboardShell({
   writerProjectId?: string | null;
 }) {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<ProjectDashboardLoading />}>
       <QueryDashProvider
         projectName={projectName}
         writerProjectId={writerProjectId}
