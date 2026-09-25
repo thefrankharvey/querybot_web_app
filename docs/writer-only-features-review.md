@@ -66,7 +66,8 @@ The new UI uses row-ID APIs. Private reads and writes remain user-scoped.
 
 1. Save/run a search with a named project, all trait categories, and comps.
 2. In a fresh session, use “Restore previous search.” Confirm every restored field
-   and the project identity, then run the search and save one result.
+   and the selected project in the dropdown, even when it was absent from the
+   existing options. Then run the search and save one result.
 3. Use “Previous Agent Matches” to refresh results. Confirm saves still belong
    to the same project and the existing Excel download continues to work.
 4. Confirm restoration works for both free and subscribed accounts. Check empty
@@ -90,7 +91,7 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 37 focused tests passed, including free-account restoration, Home project
+- All 40 focused tests passed, including restored project selection, free-account restoration, Home project
   cards, server authentication, and protection against browser-supplied account
   identities.
 - Lint passed for all changed TypeScript files.

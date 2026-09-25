@@ -59,7 +59,7 @@ type PreviousSearchResponse = {
 
 type RestoredProjectReference = {
   projectName: string;
-  writerProjectId: string;
+  writerProjectId: string | null;
 };
 
 const SmartMatch = () => {
@@ -208,14 +208,10 @@ const SmartMatch = () => {
 
       setForm(data.form);
       const restoredWriterProjectId = data.writer_project_id?.trim();
-      setRestoredProjectReference(
-        restoredWriterProjectId
-          ? {
-              projectName: data.form.project_name,
-              writerProjectId: restoredWriterProjectId,
-            }
-          : null,
-      );
+      setRestoredProjectReference({
+        projectName: data.form.project_name,
+        writerProjectId: restoredWriterProjectId || null,
+      });
       toast.success("Previous Smart Match search restored.");
 
       window.requestAnimationFrame(() => {
@@ -366,6 +362,7 @@ const SmartMatch = () => {
                 form={form}
                 setForm={setForm}
                 projectNames={projectNames}
+                restoredProjectName={restoredProjectReference?.projectName}
               />
               <Genre
                 createOrSelectTrait={createOrSelectTrait}

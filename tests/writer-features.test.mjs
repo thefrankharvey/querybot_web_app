@@ -610,6 +610,45 @@ test("dashboard retains saved-agent fallback without sending unauthenticated his
   assert.equal(result.profile.matchCount, 1);
 });
 
+function renderProjectPicker(projectNames, restoredProjectName, currentName = restoredProjectName) {
+  const React = require("react");
+  const { renderToStaticMarkup } = require("react-dom/server");
+  const childrenOnly = ({ children }) => children;
+  const ProjectName = load("app/(app)/smart-match/components/project-name.tsx", {
+    "@/app/ui-primitives/input": { Input: () => null },
+    "@/app/ui-primitives/select": {
+      Select: ({ value, children }) => React.createElement("select", { value, onChange: () => {} }, children),
+      SelectTrigger: () => null,
+      SelectValue: () => null,
+      SelectContent: childrenOnly,
+      SelectGroup: childrenOnly,
+      SelectItem: ({ value, children }) => React.createElement("option", { value }, children),
+    },
+  }).default;
+  return renderToStaticMarkup(React.createElement(ProjectName, {
+    projectNames, restoredProjectName, form: { project_name: currentName ?? "" }, setForm: () => {},
+  }));
+}
+
+test("restore selects its project in the dropdown even when absent from existing options", () => {
+  for (const existing of [[], ["NEW STUFF"]]) {
+    const html = renderProjectPicker(existing, "Cool Finance");
+    assert.match(html, /<option value="Cool Finance" selected="">Cool Finance<\/option>/);
+  }
+});
+
+test("restore selects an existing project once despite whitespace or capitalization differences", () => {
+  const html = renderProjectPicker(["cool finance", "NEW STUFF"], " Cool Finance ");
+  assert.match(html, /<option value="Cool Finance" selected="">Cool Finance<\/option>/);
+  assert.equal((html.match(/<option/g) ?? []).length, 2);
+});
+
+test("choosing another project after restore replaces the selected project", () => {
+  const html = renderProjectPicker(["NEW STUFF"], "Cool Finance", "NEW STUFF");
+  assert.match(html, /<option value="NEW STUFF" selected="">NEW STUFF<\/option>/);
+  assert.doesNotMatch(html, /value="Cool Finance" selected/);
+});
+
 test("trait selection preserves known values and normalizes custom values", () => {
   assert.equal(
     traits.sanitizeTraitValue("genre", "Women’s Fiction"),

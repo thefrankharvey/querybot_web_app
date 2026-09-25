@@ -1,6 +1,6 @@
 import React from "react";
 import { Input } from "@/app/ui-primitives/input";
-import { FormState } from "../page";
+import type { FormState } from "../page";
 import {
   Select,
   SelectContent,
@@ -14,14 +14,29 @@ const ProjectName = ({
   form,
   setForm,
   projectNames,
+  restoredProjectName,
 }: {
   form: FormState;
   setForm: React.Dispatch<React.SetStateAction<FormState>>;
   projectNames: string[];
+  restoredProjectName?: string;
 }) => {
-  const selectedProjectName = projectNames.find(
-    (projectName) => projectName === form.project_name.trim()
-  );
+  const restoredName = restoredProjectName?.trim();
+  const options = restoredName
+    ? [
+        restoredName,
+        ...projectNames.filter(
+          (name) =>
+            name.trim().toLocaleLowerCase() !== restoredName.toLocaleLowerCase(),
+        ),
+      ]
+    : projectNames;
+  const selectedProjectName =
+    options.find(
+      (name) =>
+        name.trim().toLocaleLowerCase() ===
+        form.project_name.trim().toLocaleLowerCase(),
+    ) ?? "";
 
   const handleChange = (projectName: string) => {
     setForm((prev) => ({ ...prev, project_name: projectName }));
@@ -39,7 +54,7 @@ const ProjectName = ({
           onChange={(e) => handleChange(e.target.value)}
           className="w-full md:flex-1"
         />
-        {projectNames.length > 0 && (
+        {options.length > 0 && (
           <Select value={selectedProjectName} onValueChange={handleChange}>
             <SelectTrigger
               aria-label="Choose existing project"
@@ -49,7 +64,7 @@ const ProjectName = ({
             </SelectTrigger>
             <SelectContent surface="solid">
               <SelectGroup>
-                {projectNames.map((projectName) => (
+                {options.map((projectName) => (
                   <SelectItem key={projectName} value={projectName}>
                     {projectName}
                   </SelectItem>
