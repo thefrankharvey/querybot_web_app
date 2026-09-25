@@ -45,9 +45,10 @@ export function ProjectDashboardTitle({
   const restoreFocusRef = useRef(false);
 
   useEffect(() => {
-    if (isEditing) {
-      inputRef.current?.focus();
-      inputRef.current?.select();
+    const input = inputRef.current;
+    if (isEditing && input) {
+      input.focus();
+      input.setSelectionRange(input.value.length, input.value.length);
     }
   }, [isEditing]);
 

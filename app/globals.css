@@ -169,8 +169,8 @@
   [data-slot="select-trigger"]::selection,
   [data-slot="select-value"]::selection,
   [role="combobox"]::selection {
-    background-color: var(--accent);
-    color: white;
+    background-color: color-mix(in oklab, var(--accent) 15%, transparent);
+    color: var(--accent);
   }
 }
 
