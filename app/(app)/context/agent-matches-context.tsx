@@ -15,6 +15,7 @@ import {
   useQueryClient,
 } from "@tanstack/react-query";
 import { toast } from "sonner";
+import { getSmartMatchSaveProjectId, type SmartMatchProjectReference } from "@/app/utils/smart-match-projects";
 
 import {
   startSheetPolling,
@@ -78,6 +79,7 @@ export interface AgentMatch {
 }
 
 export interface FormData {
+  save_project?: SmartMatchProjectReference;
   writer_project_id?: string | null;
   project_name?: string;
   email: string;
@@ -522,7 +524,7 @@ const useAgentData = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, writer_project_id: formData.writer_project_id?.trim() || writerProjectId }),
       });
 
       if (!response.ok) {
@@ -548,7 +550,7 @@ const useAgentData = () => {
         data.writer_project_id?.trim() ||
         formData.writer_project_id ||
         writerProjectId;
-      saveWriterProjectId(refreshedProjectId);
+      saveWriterProjectId(getSmartMatchSaveProjectId(formData, refreshedProjectId));
       saveFormDataMutation.mutate({
         ...formData,
         writer_project_id: refreshedProjectId,

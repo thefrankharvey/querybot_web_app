@@ -35,8 +35,8 @@ export function RemoveAgent({
   const { removeAgent } = useProfileContext();
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
-      onSuccess: (deletedAgentId) => {
-        removeAgent(deletedAgentId);
+      onSuccess: async (deletedAgentId) => {
+        await removeAgent(deletedAgentId);
         onRemoved?.(deletedAgentId);
       },
     });

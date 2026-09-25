@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { Button } from "@/app/ui-primitives/button";
 import { useAgentMatches, FormData } from "../context/agent-matches-context";
 import { useRouter } from "next/navigation";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { validateQuery, formatComps } from "@/app/utils";
 import Comps from "./components/comps";
 import Themes from "./components/themes";
@@ -22,10 +22,13 @@ import { Spinner } from "@/app/ui-primitives/spinner";
 import { useClerkUser } from "@/app/hooks/use-clerk-user";
 import type { SmartMatchWalkthroughStepId } from "./components/smart-match-walkthrough-config";
 import { useProfileContext } from "../context/profile-context";
+import { buildProjectDashboardSummaries } from "@/app/utils/project-dashboard-summary";
 import {
-  getProjectNamesFromAgentMatches,
-  getWriterProjectIdForProjectName,
-} from "@/app/utils/project-dashboard-summary";
+  buildSmartMatchProjectOptions,
+  resolveSmartMatchProject,
+  getSmartMatchSaveProjectId,
+  type SmartMatchProjectReference,
+} from "@/app/utils/smart-match-projects";
 import type { RestoredSmartMatchForm } from "@/app/utils/smart-match-restore";
 import { useSmartMatchTraits } from "./hooks/use-smart-match-traits";
 import { AgentSearchProgress } from "../components/agent-search-progress";
@@ -57,16 +60,24 @@ type PreviousSearchResponse = {
   writer_project_id?: string | null;
 };
 
-type RestoredProjectReference = {
-  projectName: string;
-  writerProjectId: string | null;
-};
-
 const SmartMatch = () => {
   const { isSubscribed, isLoading, user } = useClerkUser();
   const { createOrSelectTrait, traitOptions, traitsError } =
     useSmartMatchTraits();
-  const { agentsList } = useProfileContext();
+  const { agentsList, isLoading: isLoadingSavedProjects } = useProfileContext();
+  const projectsQuery = useQuery({
+    queryKey: ["smart-match-projects", user?.id],
+    enabled: Boolean(user?.id),
+    queryFn: async () => {
+      const response = await fetch("/api/smart-match/projects", {
+        cache: "no-store",
+      });
+      const data = await response.json();
+      if (!response.ok)
+        throw new Error(data.error || "Unable to load projects");
+      return data.projects as SmartMatchProjectReference[];
+    },
+  });
   const {
     saveMatches,
     saveFormData,
@@ -82,8 +93,8 @@ const SmartMatch = () => {
   const [apiMessage, setApiMessage] = useState("");
   const [isRestoringPreviousSearch, setIsRestoringPreviousSearch] =
     useState(false);
-  const [restoredProjectReference, setRestoredProjectReference] =
-    useState<RestoredProjectReference | null>(null);
+  const [selectedProjectReference, setSelectedProjectReference] =
+    useState<SmartMatchProjectReference | null>(null);
   const [activeWalkthroughStep, setActiveWalkthroughStep] =
     useState<SmartMatchWalkthroughStepId | null>(null);
   const [isDesktopViewport, setIsDesktopViewport] = useState(false);
@@ -99,22 +110,14 @@ const SmartMatch = () => {
     enable_ai: true,
     non_fiction: false,
   });
-  const projectNames = useMemo(
-    () => getProjectNamesFromAgentMatches(agentsList),
-    [agentsList],
+  const projectOptions = useMemo(
+    () =>
+      buildSmartMatchProjectOptions(
+        buildProjectDashboardSummaries(agentsList),
+        projectsQuery.data ?? [],
+      ),
+    [agentsList, projectsQuery.data],
   );
-
-  const resolveSubmittedProjectName = (projectName: string) => {
-    const trimmedProjectName = projectName.trim();
-    if (!trimmedProjectName) return "";
-
-    return (
-      projectNames.find(
-        (name) =>
-          name.toLocaleLowerCase() === trimmedProjectName.toLocaleLowerCase(),
-      ) ?? trimmedProjectName
-    );
-  };
 
   const getWriterProjectIdFromResponse = (data: unknown) => {
     if (!data || typeof data !== "object") return null;
@@ -137,8 +140,11 @@ const SmartMatch = () => {
       });
 
       if (!getAgentsResp.ok) {
-        setApiMessage("An API error occurred. Please try again.");
-        throw new Error(`Query request failed: ${getAgentsResp.status}`);
+        const errorData = await getAgentsResp.json().catch(() => null);
+        const message =
+          errorData?.error || "An API error occurred. Please try again.";
+        setApiMessage(message);
+        throw new Error(message);
       }
       const getAgentsData = await getAgentsResp.json();
 
@@ -156,7 +162,12 @@ const SmartMatch = () => {
       const returnedWriterProjectId = getWriterProjectIdFromResponse(data);
 
       if (returnedWriterProjectId) {
-        saveWriterProjectId(returnedWriterProjectId);
+        saveWriterProjectId(
+          getSmartMatchSaveProjectId(
+            submittedFormData,
+            returnedWriterProjectId,
+          ),
+        );
         saveFormData({
           ...submittedFormData,
           writer_project_id: returnedWriterProjectId,
@@ -208,7 +219,7 @@ const SmartMatch = () => {
 
       setForm(data.form);
       const restoredWriterProjectId = data.writer_project_id?.trim();
-      setRestoredProjectReference({
+      setSelectedProjectReference({
         projectName: data.form.project_name,
         writerProjectId: restoredWriterProjectId || null,
       });
@@ -231,16 +242,37 @@ const SmartMatch = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const submittedProjectName = resolveSubmittedProjectName(form.project_name);
-    const restoredWriterProjectId =
-      restoredProjectReference &&
-      restoredProjectReference.projectName.trim().toLocaleLowerCase() ===
-        submittedProjectName.trim().toLocaleLowerCase()
-        ? restoredProjectReference.writerProjectId
-        : null;
-    const submittedWriterProjectId =
-      restoredWriterProjectId ??
-      getWriterProjectIdForProjectName(agentsList, submittedProjectName);
+    setApiMessage("");
+    if (
+      isLoadingSavedProjects ||
+      projectsQuery.isPending ||
+      projectsQuery.isError
+    ) {
+      setApiMessage(
+        "Please wait for your existing projects to load, or try loading them again.",
+      );
+      return;
+    }
+    let submittedProject: SmartMatchProjectReference;
+    try {
+      submittedProject = resolveSmartMatchProject(
+        form.project_name,
+        selectedProjectReference,
+        projectOptions,
+      );
+    } catch (error) {
+      setApiMessage((error as Error).message);
+      return;
+    }
+    const {
+      projectName: submittedProjectName,
+      writerProjectId: submittedWriterProjectId,
+    } = submittedProject;
+    const existingProject = projectOptions.find(
+      (project) =>
+        project.projectName === submittedProjectName &&
+        project.writerProjectId === submittedWriterProjectId,
+    );
 
     if (!submittedProjectName) {
       setApiMessage("Project name required");
@@ -252,6 +284,7 @@ const SmartMatch = () => {
     const payload = {
       email: user?.primaryEmailAddress?.emailAddress || "",
       writer_project_id: submittedWriterProjectId,
+      save_project: existingProject ? submittedProject : undefined,
       project_name: submittedProjectName,
       genre: form.genre,
       subgenres: form.subgenres,
@@ -361,9 +394,25 @@ const SmartMatch = () => {
               <ProjectName
                 form={form}
                 setForm={setForm}
-                projectNames={projectNames}
-                restoredProjectName={restoredProjectReference?.projectName}
+                projects={projectOptions}
+                selectedProject={selectedProjectReference}
+                onProjectSelect={setSelectedProjectReference}
               />
+              {projectsQuery.isError && (
+                <div
+                  role="alert"
+                  className="flex w-full items-center gap-3 text-sm"
+                >
+                  Unable to load existing projects.
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => projectsQuery.refetch()}
+                  >
+                    Try again
+                  </Button>
+                </div>
+              )}
               <Genre
                 createOrSelectTrait={createOrSelectTrait}
                 form={form}
@@ -406,6 +455,11 @@ const SmartMatch = () => {
               <div className="mt-12 flex w-full justify-center">
                 <Button
                   type="submit"
+                  disabled={
+                    isLoadingSavedProjects ||
+                    projectsQuery.isPending ||
+                    projectsQuery.isError
+                  }
                   className="w-full text-lg font-semibold md:w-1/2"
                 >
                   Search for Agents

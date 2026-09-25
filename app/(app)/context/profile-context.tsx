@@ -21,7 +21,7 @@ interface ProfileContextType {
   isError: boolean;
   error: Error | null;
   refetch: () => Promise<{ data?: { agent_matches: AgentMatch[] } }>;
-  removeAgent: (agentId: string) => void;
+  removeAgent: (agentId: string) => Promise<void>;
   removeProject: (projectName: string, writerProjectId?: string | null) => void;
   addAgent: (agent: AgentMatch) => void;
   saveAgent: (payload: SaveAgentPayload) => Promise<SaveAgentResponse | null>;
@@ -63,7 +63,9 @@ export function ProfileProvider({ children }: { children: React.ReactNode }) {
     })();
   }, [agentsList, refetch]);
 
-  const removeAgent = (agentId: string) => {
+  const removeAgent = async (agentId: string) => {
+    // A pending refresh must not restore the row after a successful deletion.
+    await queryClient.cancelQueries({ queryKey: ["agent-matches"] });
     queryClient.setQueryData(
       ["agent-matches"],
       (oldData: { agent_matches: AgentMatch[] } | undefined) => {

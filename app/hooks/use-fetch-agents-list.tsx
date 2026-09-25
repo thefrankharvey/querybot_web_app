@@ -8,9 +8,11 @@ type FetchAgentsListResponse = {
 export const useFetchAgentsList = () => {
   return useQuery({
     queryKey: ["agent-matches"],
-    queryFn: async () => {
+    queryFn: async ({ signal }) => {
       const response = await fetch("/api/agent-matches", {
         method: "GET",
+        cache: "no-store",
+        signal,
         headers: {
           "Content-Type": "application/json",
         },

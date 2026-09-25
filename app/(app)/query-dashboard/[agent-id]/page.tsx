@@ -1,6 +1,7 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
+import type { AgentMatch } from "@/app/types";
 import { useFetchAgent } from "@/app/hooks/use-fetch-agent";
 import TooltipComponent from "@/app/components/tooltip";
 import StarRating from "@/app/components/star-rating";
@@ -31,36 +32,32 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
     agentsList,
     isLoading: isSavedAgentsLoading,
     removeAgent,
+    saveAgent,
+    savingAgentId,
   } = useProfileContext();
+  const [removedRecord, setRemovedRecord] = useState<{
+    routeId: string;
+    agent: AgentMatch;
+  } | null>(null);
   const exactRecord = agentsList?.find((match) => match.id === agentId);
   const legacyRecords =
     agentsList?.filter((match) => match.index_id === agentId) ?? [];
   const agentMatch =
     exactRecord ?? (legacyRecords.length === 1 ? legacyRecords[0] : undefined);
+  const displayedRecord =
+    agentMatch ??
+    (removedRecord?.routeId === agentId ? removedRecord.agent : null);
   const { data, isLoading, error } = useFetchAgent(
-    agentMatch?.index_id ?? null,
+    displayedRecord?.index_id ?? null,
   );
   const router = useRouter();
 
   const { mutate: deleteAgentMatch, isPending: isDeleting } =
     useDeleteAgentMatch({
-      onSuccess: (deletedAgentId) => {
-        // Remove agent from context immediately
-        removeAgent(deletedAgentId);
-
-        // Get remaining agents after deletion
-        const remainingAgents = agentsList?.filter(
-          (agent) => agent.id !== deletedAgentId,
-        );
-
-        // Route based on remaining agents
-        if (remainingAgents && remainingAgents.length > 0) {
-          router.replace(
-            `/query-dashboard/${encodeURIComponent(remainingAgents[0].id)}`,
-          );
-        } else {
-          router.replace("/query-dashboard");
-        }
+      onSuccess: async (deletedAgentId) => {
+        if (agentMatch)
+          setRemovedRecord({ routeId: agentId, agent: agentMatch });
+        await removeAgent(deletedAgentId);
       },
     });
 
@@ -68,6 +65,25 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
 
   const handleDeleteAgentMatch = () => {
     if (agentMatch) deleteAgentMatch(agentMatch.id);
+  };
+
+  const handleSaveAgent = async () => {
+    if (!displayedRecord) return;
+    const result = await saveAgent({
+      name: displayedRecord.name,
+      email: displayedRecord.email,
+      agency: displayedRecord.agency,
+      agency_url: displayedRecord.agency_url,
+      index_id: displayedRecord.index_id,
+      query_tracker: displayedRecord.query_tracker,
+      pub_marketplace: displayedRecord.pub_marketplace,
+      match_score: displayedRecord.match_score,
+      project_name: displayedRecord.project_name,
+      writer_project_id: displayedRecord.writer_project_id,
+    });
+    const saved = result?.created[0];
+    if (saved)
+      router.replace(`/query-dashboard/${encodeURIComponent(saved.id)}`);
   };
 
   if (isLoading || isSavedAgentsLoading) {
@@ -78,7 +94,7 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
     );
   }
 
-  if (error || !agent || !agentMatch) {
+  if (error || !agent || !displayedRecord) {
     return (
       <div>
         <h1 className="text-2xl md:text-[40px] font-extrabold leading-tight mb-4 flex items-center gap-4">
@@ -114,12 +130,14 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
         </Link>
         <Button
           className="text-sm"
-          onClick={handleDeleteAgentMatch}
-          disabled={isDeleting || !agentMatch}
+          onClick={agentMatch ? handleDeleteAgentMatch : handleSaveAgent}
+          disabled={isDeleting || savingAgentId !== null}
         >
           <div className="flex items-center gap-2">
-            {isDeleting && <Spinner className="text-white" />}
-            <span>Delete Agent</span>
+            {(isDeleting || savingAgentId !== null) && (
+              <Spinner className="text-white" />
+            )}
+            <span>{agentMatch ? "Delete Agent" : "Save Agent"}</span>
           </div>
         </Button>
       </div>
@@ -141,8 +159,8 @@ const QueryDashAgentProfile = ({ params }: QueryDashAgentProfileProps) => {
                 content="Our 5-star score measures agent fit using your search query data points. Giving you an accurate idea of agent match potential."
               >
                 <div className="text-xl font-semibold flex items-center gap-1">
-                  <StarRating rateNum={agentMatch?.match_score || 0} />
-                  {agentMatch?.match_score}
+                  <StarRating rateNum={displayedRecord.match_score || 0} />
+                  {displayedRecord.match_score}
                 </div>
               </TooltipComponent>
             </div>

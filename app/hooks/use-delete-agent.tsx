@@ -2,7 +2,7 @@ import { useMutation } from "@tanstack/react-query";
 import { toast } from "sonner";
 
 interface UseDeleteAgentMatchOptions {
-  onSuccess?: (agentId: string) => void;
+  onSuccess?: (agentId: string) => void | Promise<void>;
 }
 
 export const useDeleteAgentMatch = (options?: UseDeleteAgentMatchOptions) => {
@@ -21,9 +21,9 @@ export const useDeleteAgentMatch = (options?: UseDeleteAgentMatchOptions) => {
 
       return { agentId };
     },
-    onSuccess: (data) => {
+    onSuccess: async (data) => {
+      await options?.onSuccess?.(data.agentId);
       toast.success("Agent removed successfully");
-      options?.onSuccess?.(data.agentId);
     },
     onError: () => {
       toast.error("Failed to delete agent match");

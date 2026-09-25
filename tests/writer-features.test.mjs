@@ -10,7 +10,7 @@ const ts = require("typescript");
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const plain = (value) => JSON.parse(JSON.stringify(value));
 function load(path, mocks = {}, globals = {}) {
-  const module = { exports: {} };
+  const compiledModule = { exports: {} };
   const output = ts.transpileModule(readFileSync(resolve(root, path), "utf8"), {
     compilerOptions: {
       module: ts.ModuleKind.CommonJS,
@@ -20,8 +20,8 @@ function load(path, mocks = {}, globals = {}) {
     },
   }).outputText;
   vm.runInNewContext(output, {
-    module,
-    exports: module.exports,
+    module: compiledModule,
+    exports: compiledModule.exports,
     console,
     URL,
     URLSearchParams,
@@ -36,7 +36,7 @@ function load(path, mocks = {}, globals = {}) {
       Object.hasOwn(mocks, spec) ? mocks[spec] : require(spec),
     ...globals,
   });
-  return module.exports;
+  return compiledModule.exports;
 }
 const constants = {
   DEFAULT_PROJECT_NAME: "Untitled Project",
@@ -240,6 +240,10 @@ function baseMocks(db, userId = "writer-a") {
     },
     "@/app/api/supabase/server": { createServerSupabase: () => db.client },
     "@/app/utils/project-scope": scope,
+    "@/app/utils/smart-match-projects.server": {
+      resolveSmartMatchWriterProjectId: async ({ writerProjectId }) => writerProjectId ?? null,
+      SmartMatchProjectError: class extends Error {},
+    },
     "@/app/utils/project-dashboard-route": profile,
     "@/lib/wqh-history-auth": historyAuth(),
     "@/lib/config": {
@@ -601,27 +605,29 @@ function renderProjectPicker(projectNames, restoredProjectName, currentName = re
     },
   }).default;
   return renderToStaticMarkup(React.createElement(ProjectName, {
-    projectNames, restoredProjectName, form: { project_name: currentName ?? "" }, setForm: () => {},
+    projects: projectNames.map((name) => ({ projectName: name.trim(), writerProjectId: null, key: `name:${name.trim().toLowerCase()}`, label: name.trim(), savedAgentCount: 1 })),
+    selectedProject: { projectName: restoredProjectName.trim(), writerProjectId: null },
+    onProjectSelect: () => {}, form: { project_name: currentName ?? "" }, setForm: () => {},
   }));
 }
 
 test("restore selects its project in the dropdown even when absent from existing options", () => {
   for (const existing of [[], ["NEW STUFF"]]) {
     const html = renderProjectPicker(existing, "Cool Finance");
-    assert.match(html, /<option value="Cool Finance" selected="">Cool Finance<\/option>/);
+    assert.match(html, /<option value="name:cool finance" selected="">Cool Finance<\/option>/);
   }
 });
 
 test("restore selects an existing project once despite whitespace or capitalization differences", () => {
   const html = renderProjectPicker(["cool finance", "NEW STUFF"], " Cool Finance ");
-  assert.match(html, /<option value="Cool Finance" selected="">Cool Finance<\/option>/);
+  assert.match(html, /<option value="name:cool finance" selected="">cool finance<\/option>/);
   assert.equal((html.match(/<option/g) ?? []).length, 2);
 });
 
 test("choosing another project after restore replaces the selected project", () => {
   const html = renderProjectPicker(["NEW STUFF"], "Cool Finance", "NEW STUFF");
-  assert.match(html, /<option value="NEW STUFF" selected="">NEW STUFF<\/option>/);
-  assert.doesNotMatch(html, /value="Cool Finance" selected/);
+  assert.match(html, /<option value="name:new stuff" selected="">NEW STUFF<\/option>/);
+  assert.doesNotMatch(html, /value="name:cool finance" selected/);
 });
 
 function dashboardPage(getDashboardProject) {

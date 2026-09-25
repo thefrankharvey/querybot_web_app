@@ -1,3 +1,4 @@
+import { getSmartMatchSaveProjectId } from "@/app/utils/smart-match-projects";
 import { isSameProjectScope } from "@/app/utils/project-scope";
 import { QUERY_LIMIT } from "@/app/constants";
 import { useMutation } from "@tanstack/react-query";
@@ -123,7 +124,7 @@ export const AgentMatchesPaywall = ({
         typeof data.writer_project_id === "string" &&
         data.writer_project_id.trim()
       ) {
-        saveWriterProjectId(data.writer_project_id);
+        saveWriterProjectId(getSmartMatchSaveProjectId(formData ?? {}, data.writer_project_id));
         if (formData)
           saveFormData({
             ...formData,

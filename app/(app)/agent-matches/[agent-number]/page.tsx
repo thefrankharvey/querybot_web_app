@@ -10,7 +10,6 @@ import {
 } from "@/app/utils";
 import React, { useState, useEffect, useMemo } from "react";
 import {
-  AgentMatchesProvider,
   AgentMatch,
 } from "@/app/(app)/context/agent-matches-context";
 import { isSameProjectScope } from "@/app/utils/project-scope";
@@ -273,12 +272,4 @@ const AgentProfile = () => {
   );
 };
 
-// Wrap the export with the AgentMatchesProvider
-export default function AgentProfilePage() {
-  return (
-    <AgentMatchesProvider>
-      <AgentProfile />
-      {/* <TypeForm id="BgfNaWmd" /> */}
-    </AgentMatchesProvider>
-  );
-}
+export default AgentProfile;

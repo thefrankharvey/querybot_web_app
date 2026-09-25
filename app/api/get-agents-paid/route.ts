@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import { getWriterEmail, getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
 
+import { resolveSmartMatchWriterProjectId, SmartMatchProjectError } from "@/app/utils/smart-match-projects.server";
+
 // Define the structure of the payload
 export interface GetAgentsPaidPayload {
   email: string;
@@ -64,10 +66,11 @@ export async function POST(req: NextRequest) {
         typeof jsonData.project_name === "string"
           ? jsonData.project_name
           : undefined,
-      writer_project_id:
-        typeof jsonData.writer_project_id === "string"
-          ? jsonData.writer_project_id
-          : undefined,
+      writer_project_id: await resolveSmartMatchWriterProjectId({
+        email,
+        writerProjectId: jsonData.writer_project_id,
+        projectName: jsonData.project_name,
+      }),
       genre: jsonData.genre,
       subgenres: Array.isArray(jsonData.subgenres)
         ? jsonData.subgenres
@@ -105,6 +108,9 @@ export async function POST(req: NextRequest) {
     const data = await externalRes.json();
     return NextResponse.json(data, { status: externalRes.status });
   } catch (error) {
+    if (error instanceof SmartMatchProjectError) {
+      return NextResponse.json({ error: error.message }, { status: error.status });
+    }
     console.error("============== API Error ==============", error);
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Unknown error" },
