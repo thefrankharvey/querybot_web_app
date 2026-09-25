@@ -7,6 +7,7 @@ import { auth, currentUser } from "@clerk/nextjs/server";
 import { AGENT_MATCHES_TABLE, DEFAULT_PROJECT_NAME } from "@/app/constants";
 import { createServerSupabase } from "@/app/api/supabase/server";
 import { getWqhApiUrl } from "@/lib/config";
+import { getWriterEmail, getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
 
 import {
   normalizeRouteProjectId,
@@ -183,9 +184,13 @@ function getApiErrorMessage(
 }
 
 async function fetchWriterProjects(email: string) {
+  const headers = getWqhHistoryHeaders();
+  if (!headers) {
+    throw new WriterProjectApiError("Smart Match service is not configured", 503);
+  }
   const response = await fetch(
     buildWqhUrl("/get-writer-projects", { email: email.trim() }),
-    { cache: "no-store", signal: AbortSignal.timeout(15000) },
+    { headers, cache: "no-store", signal: AbortSignal.timeout(15000) },
   );
   const body = await parseApiJson<GetWriterProjectsResponse>(response);
 
@@ -212,17 +217,6 @@ async function fetchSavedAgentProjectRows(userId: string) {
   }
 
   return (data ?? []) as SavedAgentProjectRow[];
-}
-
-async function getCurrentUserEmail() {
-  const user = await currentUser();
-  const primaryEmail = user?.primaryEmailAddress?.emailAddress?.trim();
-
-  if (primaryEmail) {
-    return primaryEmail;
-  }
-
-  return user?.emailAddresses?.[0]?.emailAddress?.trim() || null;
 }
 
 function resolveWriterProject(
@@ -442,11 +436,11 @@ export async function getProjectProfileRouteData(
   routeProjectId: string,
 ): Promise<ProjectProfileRouteData | null> {
   const { userId } = await auth();
-  const email = await getCurrentUserEmail();
-
-  if (!userId || !email) {
-    return null;
-  }
+  if (!userId) return null;
+  const user = await currentUser();
+  if (!user || user.id !== userId) return null;
+  const email = getWriterEmail(user);
+  if (!email) return null;
 
   const savedAgentRows = await fetchSavedAgentProjectRows(userId);
   let projects: WriterProject[] = [];

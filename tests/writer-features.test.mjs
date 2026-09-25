@@ -49,6 +49,11 @@ const profile = load("app/utils/project-profile.ts", {
   "@/app/constants": constants,
 });
 const restore = load("app/utils/smart-match-restore.ts");
+function historyAuth(key = "test-server-credential") {
+  return load("lib/wqh-history-auth.ts", { "server-only": {} }, {
+    process: { env: { WQH_HISTORY_API_KEY: key } },
+  });
+}
 function renderHome({ isSubscribed = false, agentsList = fixtureRows(), isLoading = false } = {}) {
   const React = require("react");
   const { renderToStaticMarkup } = require("react-dom/server");
@@ -226,8 +231,10 @@ function baseMocks(db, userId = "writer-a") {
     "@/app/api/supabase/server": { createServerSupabase: () => db.client },
     "@/app/utils/project-scope": scope,
     "@/app/utils/project-profile": profile,
+    "@/lib/wqh-history-auth": historyAuth(),
     "@/lib/config": {
       getWqhApiUrl: () => "https://api.example.test",
+      getWqhApiEndpoint: (path) => `https://api.example.test/${path}`,
       getWqhTraitsApiUrl: () => "https://traits.example.test",
     },
   };
@@ -327,8 +334,11 @@ test("legacy agent-ID mutation refuses an ambiguous multi-project match", async 
 function projectData(db, projects) {
   const mocks = baseMocks(db);
   return load("app/utils/project-profile-data.ts", mocks, {
-    fetch: async () =>
-      Response.json({ status: "success", writer_projects: projects }),
+    fetch: async (url, options) => {
+      assert.equal(new URL(url).searchParams.get("email"), "writer@example.test");
+      assert.equal(options.headers.Authorization, "Bearer test-server-credential");
+      return Response.json({ status: "success", writer_projects: projects });
+    },
   });
 }
 test("dashboard reads isolate canonical, legacy, and duplicate-name project scopes", async () => {
@@ -428,7 +438,8 @@ for (const metadata of [{ isSubscribed: false }, {}, { isSubscribed: true }]) {
         "@/app/utils/smart-match-restore": restore,
       },
       {
-        fetch: async (url) => {
+        fetch: async (url, options) => {
+          assert.equal(options.headers.Authorization, "Bearer test-server-credential");
           assert.equal(
             new URL(url).searchParams.get("email"),
             "writer@example.test",
@@ -500,6 +511,105 @@ test("restore handles empty history and upstream failure", async () => {
     502,
   );
 });
+for (const tier of ["free", "paid"]) {
+  test(`${tier} search sends the server credential and Clerk email, ignoring browser identity`, async () => {
+    const mocks = baseMocks(store([]));
+    mocks["@clerk/nextjs/server"].currentUser = async () => ({
+      id: "writer-a",
+      primaryEmailAddress: { emailAddress: " writer@example.test " },
+      emailAddresses: [{ emailAddress: "secondary@example.test" }],
+      publicMetadata: { isSubscribed: tier === "paid" },
+    });
+    const route = load(`app/api/get-agents-${tier}/route.ts`, mocks, {
+      fetch: async (url, options) => {
+        assert.equal(new URL(url).pathname, `/get-agents-${tier}`);
+        assert.equal(options.headers.Authorization, "Bearer test-server-credential");
+        const body = JSON.parse(options.body);
+        assert.equal(body.email, "writer@example.test");
+        assert.equal(body.project_name, "Novel");
+        assert.equal(body.writer_project_id, "project-a");
+        assert.deepEqual(body.themes, ["hope"]);
+        assert.equal(body.async_sheet, tier === "paid");
+        return Response.json({ writer_project_id: "project-a", agents: [] });
+      },
+    });
+    const result = await route.POST(new Request("https://ui.example.test/api/search", {
+      method: "POST",
+      headers: { Authorization: "Bearer browser-credential" },
+      body: JSON.stringify({ email: "other-account@example.test", project_name: "Novel", writer_project_id: "project-a", themes: ["hope"] }),
+    }));
+    assert.equal(result.status, 200);
+    assert.deepEqual(await result.json(), { writer_project_id: "project-a", agents: [] });
+    assert.doesNotMatch(JSON.stringify([...result.headers]), /test-server-credential/);
+  });
+
+  test(`${tier} search rejects missing or mismatched identity before calling Flask`, async () => {
+    for (const [userId, user, status] of [
+      [null, null, 401],
+      ["writer-a", null, 401],
+      ["writer-a", { id: "writer-b" }, 401],
+      ["writer-a", { id: "writer-a", emailAddresses: [] }, 422],
+    ]) {
+      const mocks = baseMocks(store([]));
+      mocks["@clerk/nextjs/server"] = {
+        auth: async () => ({ userId }), currentUser: async () => user,
+      };
+      const route = load(`app/api/get-agents-${tier}/route.ts`, mocks, {
+        fetch: () => assert.fail("must not call Flask"),
+      });
+      assert.equal((await route.POST(request({ email: "forged@example.test" }, "POST"))).status, status);
+    }
+  });
+
+  test(`${tier} search preserves upstream errors`, async () => {
+    const route = load(`app/api/get-agents-${tier}/route.ts`, baseMocks(store([])), {
+      fetch: async () => Response.json({ error: "Project conflict" }, { status: 409 }),
+    });
+    const result = await route.POST(request({}, "POST"));
+    assert.equal(result.status, 409);
+    assert.equal((await result.json()).error, "Project conflict");
+  });
+}
+
+test("all three proxies fail closed when the server credential is absent", async () => {
+  for (const key of ["", "  "]) {
+    for (const path of ["get-agents-free", "get-agents-paid", "smart-match/previous-search"]) {
+      const route = load(`app/api/${path}/route.ts`, {
+        ...baseMocks(store([])),
+        "@/lib/wqh-history-auth": historyAuth(key),
+        "@/app/utils/smart-match-restore": restore,
+      }, { fetch: () => assert.fail("must not call Flask without a credential") });
+      const result = route.GET ? await route.GET() : await route.POST(request({}, "POST"));
+      assert.equal(result.status, 503);
+      assert.equal((await result.json()).error, "Smart Match service is not configured");
+    }
+  }
+});
+
+test("writer email falls back to the Clerk account email when primary email is unavailable", () => {
+  assert.equal(historyAuth().getWriterEmail({ emailAddresses: [{ emailAddress: " writer@example.test " }] }), "writer@example.test");
+  assert.equal(historyAuth().getWriterEmail({}), null);
+});
+
+test("dashboard rejects a mismatched Clerk account before reading projects", async () => {
+  const mocks = baseMocks(store(fixtureRows()));
+  mocks["@clerk/nextjs/server"].currentUser = async () => ({ id: "writer-b", primaryEmailAddress: { emailAddress: "other@example.test" } });
+  const data = load("app/utils/project-profile-data.ts", mocks, {
+    fetch: () => assert.fail("must not read history for a mismatched account"),
+  });
+  assert.equal(await data.getProjectProfileRouteData("project-a"), null);
+});
+
+test("dashboard retains saved-agent fallback without sending unauthenticated history requests", async () => {
+  const data = load("app/utils/project-profile-data.ts", {
+    ...baseMocks(store(fixtureRows())),
+    "@/lib/wqh-history-auth": historyAuth(""),
+  }, { fetch: () => assert.fail("must not call history without a credential") });
+  const result = await data.getProjectProfileRouteData("project-a");
+  assert.equal(result.source, "saved-agents-fallback");
+  assert.equal(result.profile.matchCount, 1);
+});
+
 test("trait selection preserves known values and normalizes custom values", () => {
   assert.equal(
     traits.sanitizeTraitValue("genre", "Women’s Fiction"),

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { auth } from "@clerk/nextjs/server";
+import { auth, currentUser } from "@clerk/nextjs/server";
+import { getWriterEmail, getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
 import { getWqhApiEndpoint } from "@/lib/config";
 
 // Define the structure of the payload
@@ -31,6 +32,25 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
+    const user = await currentUser();
+    if (!user || user.id !== userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+    const email = getWriterEmail(user);
+    if (!email) {
+      return NextResponse.json(
+        { error: "An email address is required" },
+        { status: 422 },
+      );
+    }
+    const historyHeaders = getWqhHistoryHeaders();
+    if (!historyHeaders) {
+      return NextResponse.json(
+        { error: "Smart Match service is not configured" },
+        { status: 503 },
+      );
+    }
+
     // Get last_index, status, and country_code from URL parameters
     const url = new URL(req.url);
     const last_index = url.searchParams.get("last_index") || "0";
@@ -39,7 +59,7 @@ export async function POST(req: NextRequest) {
     const jsonData = await req.json();
 
     const payload: GetAgentsFreePayload = {
-      email: jsonData.email || "",
+      email,
       project_name:
         typeof jsonData.project_name === "string"
           ? jsonData.project_name
@@ -74,6 +94,7 @@ export async function POST(req: NextRequest) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          ...historyHeaders,
         },
         body: JSON.stringify(payload),
         signal: controller.signal,

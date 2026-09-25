@@ -90,8 +90,9 @@ service compatibility must be confirmed in the review environment before release
 
 Verification performed on this branch:
 
-- All 27 focused tests passed, including free-account restoration, Home project
-  cards for free and subscribed accounts, and account access checks.
+- All 37 focused tests passed, including free-account restoration, Home project
+  cards, server authentication, and protection against browser-supplied account
+  identities.
 - Lint passed for all changed TypeScript files.
 - The production build passed.
 - Type checking reports the same 3,088 inherited blog errors as `main` with
@@ -110,11 +111,37 @@ Everything remains local. No push, merge, or deployment was performed.
 4. Confirm the built app has no `/api/projects/[projectId]` save route.
 
 Previous-search restoration has no subscription gate in the UI or the Next.js
-server route. The upstream Flask `/get-writer-projects` handler was inspected and
-already has no subscription check, so it requires no code change. Paid agent
-result limits and spreadsheet access are unchanged.
+server route. The existing Flask dev handler has no subscription check, but
+backend main needs the focused history endpoint and persistence changes from
+`codex/free-project-history-api`. Paid agent result limits and spreadsheet access
+are unchanged by this web change.
 
 Home project cards are available to free and subscribed accounts. Projects appear
 after at least one agent is saved, with links to their individual dashboards.
 Free accounts with no saved agents still see the existing getting-started screen.
 Dashboard styling and loading spinners have no subscription gate.
+
+## Backend authentication rollout
+
+The web app now sends `Authorization: Bearer <WQH_HISTORY_API_KEY>` to the Flask
+`GET /get-writer-projects`, `POST /get-agents-free`, and `POST /get-agents-paid`
+routes. The project dashboard's server loader also authenticates its history
+request. All callers derive the email from the signed-in Clerk user and check
+that the user matches the session. Browser-supplied search emails are ignored.
+Traits requests are unchanged.
+
+Configure the same private `WQH_HISTORY_API_KEY` value in the web app and Flask
+environments before deployment. Never use a `NEXT_PUBLIC_` variable. The key
+is read only in a `server-only` module, is never returned to the browser, and
+has not been configured by this change. Without it, the three web API routes
+return 503 without calling Flask. The dashboard retains its saved-agent fallback.
+This requirement applies to local development environments as well.
+
+Deploy these web caller changes before, or together with, the backend branch
+`codex/free-project-history-api`. The old backend ignores the added header;
+the new backend rejects callers that omit it. The backend's history migration
+and this branch's separate saved-agent migration must be checked and applied
+to their intended production databases before releasing the full features.
+Verify free and subscribed search, immediate restore, project dashboards,
+and traits against the deployed services. Local route tests use mocked Clerk
+and upstream services and do not replace that integration check.

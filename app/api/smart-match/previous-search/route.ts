@@ -11,6 +11,7 @@ import {
   type StoredWriterProject,
 } from "@/app/utils/smart-match-restore";
 import { getWqhApiUrl } from "@/lib/config";
+import { getWriterEmail, getWqhHistoryHeaders } from "@/lib/wqh-history-auth";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -31,15 +32,6 @@ type SavedAgentProjectReferenceRow = {
   project_name: string | null;
   writer_project_id: string | null;
 };
-
-function getPrimaryEmailAddress(
-  user: NonNullable<Awaited<ReturnType<typeof currentUser>>>,
-) {
-  const primaryEmail = user.primaryEmailAddress?.emailAddress?.trim();
-  if (primaryEmail) return primaryEmail;
-
-  return user.emailAddresses[0]?.emailAddress?.trim() || null;
-}
 
 function isStoredWriterProject(value: unknown): value is StoredWriterProject {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
@@ -112,12 +104,20 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const email = getPrimaryEmailAddress(user);
+  const email = getWriterEmail(user);
 
   if (!email) {
     return NextResponse.json(
-      { error: "A verified email address is required" },
+      { error: "An email address is required" },
       { status: 422 },
+    );
+  }
+
+  const historyHeaders = getWqhHistoryHeaders();
+  if (!historyHeaders) {
+    return NextResponse.json(
+      { error: "Smart Match service is not configured" },
+      { status: 503 },
     );
   }
 
@@ -131,6 +131,7 @@ export async function GET() {
 
     const externalResponse = await fetch(externalUrl, {
       method: "GET",
+      headers: historyHeaders,
       cache: "no-store",
       signal: controller.signal,
     });
