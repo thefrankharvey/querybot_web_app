@@ -163,6 +163,7 @@ export type AgentMatch = {
   query_letter_ready?: boolean | null;
   project_name?: string | null;
   writer_project_id?: string | null;
+  dashboard_project_id?: string | null;
   created_at: string; // ISO timestamp
 };
 

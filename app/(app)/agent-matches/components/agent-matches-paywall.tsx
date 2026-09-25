@@ -207,7 +207,7 @@ export const AgentMatchesPaywall = ({
         projectName={activeProjectName}
         projectDashboardHref={
           hasSavedAgentsForActiveProject
-            ? getProjectDashboardHref(activeProjectName, writerProjectId)
+            ? getProjectDashboardHref(agentsList, activeProjectName, writerProjectId)
             : undefined
         }
         onWalkthroughActiveChange={onWalkthroughActiveChange}

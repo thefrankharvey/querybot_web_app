@@ -1,8 +1,7 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
 import { QueryDashboardShell } from "@/app/(app)/query-dashboard/components/query-dashboard-shell";
-import { getProjectProfileRouteData } from "@/app/utils/project-profile-data";
-import { getProjectDashboardHrefById } from "@/app/utils/project-profile";
+import { getDashboardProject } from "@/app/utils/project-dashboard-data";
 
 export default async function ProjectDashboardPage({
   params,
@@ -10,28 +9,15 @@ export default async function ProjectDashboardPage({
   params: Promise<{ projectId: string }>;
 }) {
   const { projectId } = await params;
-  const routeData = await getProjectProfileRouteData(projectId);
-
-  if (!routeData) {
-    notFound();
-  }
-
-  if (
-    routeData.source === "writer-project-api" &&
-    !routeData.isCanonicalRoute
-  ) {
-    redirect(getProjectDashboardHrefById(routeData.profile.projectId));
-  }
+  const project = await getDashboardProject(projectId);
+  if (!project) notFound();
 
   return (
     <QueryDashboardShell
-      key={routeData.profile.projectId}
-      projectName={routeData.profile.projectName}
-      writerProjectId={
-        routeData.profile.writerProjectId ??
-        routeData.profile.savedAgentWriterProjectId ??
-        null
-      }
+      key={project.id}
+      dashboardProjectId={project.id}
+      projectName={project.project_name}
+      writerProjectId={project.writer_project_id}
     />
   );
 }
